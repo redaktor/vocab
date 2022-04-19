@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-components-concept-js",
+    "path": "/w3id.org/class/esc/n011793.de.html",
+    "result": {"pageContext":{"language":"de","languages":["de","en"],"node":{"id":"https://w3id.org/class/esc/n011793","type":"Concept","followers":"https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011793","inbox":"https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011793","prefLabel":{"de":"Eröffnungs-Titelsequenz","en":"Opening Title Sequence"},"altLabel":null,"definition":null,"scopeNote":{"de":null,"en":"themoviedb.org#Opening Title Sequence"},"note":null,"notation":["011793"],"example":null,"narrower":[],"narrowerTransitive":[],"broader":{"id":"https://w3id.org/class/esc/n0117","prefLabel":{"de":"Kunst","en":"Art"}},"broaderTransitive":null,"related":[],"relatedMatch":null,"broadMatch":null,"narrowMatch":null,"closeMatch":null,"exactMatch":null,"inScheme":{"id":"https://w3id.org/class/esc/scheme","title":{"de":"Rollen in Gruppen","en":"Roles in Groups"}},"topConceptOf":null},"baseURL":""}},
+    "staticQueryHashes": ["3649515864","63159454"]}

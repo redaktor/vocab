@@ -1,0 +1,165 @@
+{
+  "id": "https://w3id.org/class/esc/n0115",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0115",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0115",
+  "prefLabel": {
+    "de": "Musik",
+    "en": "Music"
+  },
+  "notation": [
+    "0115"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/esc/n011511",
+      "prefLabel": {
+        "de": "Hauptdarsteller*in",
+        "en": "LeadPerformer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011512",
+      "prefLabel": {
+        "de": "Schauspieler*in",
+        "en": "Actor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011513",
+      "prefLabel": {
+        "de": "Stunt-Double",
+        "en": "Stunt Double"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011514",
+      "prefLabel": {
+        "de": "Stimme, Sprecher*in",
+        "en": "Voice, Speaker"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011515",
+      "prefLabel": {
+        "de": "Kamee, Cameo, Statist*in",
+        "en": "Cameo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011516",
+      "prefLabel": {
+        "de": "Special Guest",
+        "en": "Special Guest"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/class/esc/n01",
+    "prefLabel": {
+      "de": "Rolle in Kreativ-Werk",
+      "en": "Creative Work Role"
+    }
+  },
+  "inScheme": {
+    "id": "https://w3id.org/class/esc/scheme",
+    "title": {
+      "de": "Rollen in Gruppen",
+      "en": "Roles in Groups"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

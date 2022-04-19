@@ -1,0 +1,712 @@
+{
+  "id": "https://w3id.org/class/esc/n0113",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0113",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0113",
+  "prefLabel": {
+    "de": "Kamera",
+    "en": "Camera"
+  },
+  "altLabel": {
+    "de": [
+      "Bilder"
+    ],
+    "en": [
+      "Photography"
+    ]
+  },
+  "notation": [
+    "0113"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/esc/n011311",
+      "prefLabel": {
+        "de": "Director of Photography, Kamerafrau, Kameramann",
+        "en": "Director of Photography"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011312",
+      "prefLabel": {
+        "de": "Standfotograf*in",
+        "en": "Still Photographer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011313",
+      "prefLabel": {
+        "de": "Unterwasserkamera",
+        "en": "Underwater Camera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011314",
+      "prefLabel": {
+        "de": "Kamera Bediener*in",
+        "en": "Camera Operator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011315",
+      "prefLabel": {
+        "de": "Leiter*in der Kameraabteilung",
+        "en": "Camera Department Manager"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011316",
+      "prefLabel": {
+        "de": "Kamera-Aufsicht",
+        "en": "Camera Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011317",
+      "prefLabel": {
+        "de": "Kameratechniker",
+        "en": "Camera Technician"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011318",
+      "prefLabel": {
+        "de": "Sonstiges",
+        "en": "Other"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011319",
+      "prefLabel": {
+        "de": "Grip",
+        "en": "Grip"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011320",
+      "prefLabel": {
+        "de": "Steadicam-Bediener*in",
+        "en": "Steadicam Operator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011321",
+      "prefLabel": {
+        "de": "Zusätzliche Kamera",
+        "en": "Additional Camera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011322",
+      "prefLabel": {
+        "de": "Kamera-Praktikant*in",
+        "en": "Camera Intern"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011323",
+      "prefLabel": {
+        "de": "Zusätzliche Fotografie",
+        "en": "Additional Photography"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011324",
+      "prefLabel": {
+        "de": "Hubschrauber-Kamera",
+        "en": "Helicopter Camera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011325",
+      "prefLabel": {
+        "de": "Erste Kameraassistenz",
+        "en": "First Assistant Camera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011326",
+      "prefLabel": {
+        "de": "Co-Standfotograf*in",
+        "en": "Additional Still Photographer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011327",
+      "prefLabel": {
+        "de": "Luftbildkamera",
+        "en": "Aerial Camera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011328",
+      "prefLabel": {
+        "de": "Luftbildkamera-Techniker*in",
+        "en": "Aerial Camera Technician"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011329",
+      "prefLabel": {
+        "de": "Luftbildregisseur*in",
+        "en": "Aerial Director of Photography"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011330",
+      "prefLabel": {
+        "de": "Kamera-Lader*in",
+        "en": "Camera Loader"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011331",
+      "prefLabel": {
+        "de": "Dolly-Greifer",
+        "en": "Dolly Grip"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011332",
+      "prefLabel": {
+        "de": "Epk Kamera",
+        "en": "Epk Camera Operator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011333",
+      "prefLabel": {
+        "de": "Key Grip",
+        "en": "Key Grip"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011334",
+      "prefLabel": {
+        "de": "Russischer Arm Operator",
+        "en": "Russian Arm Operator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011335",
+      "prefLabel": {
+        "de": "Zweite Einheit Director of Photograph",
+        "en": "Second Unit Director of Photography"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011336",
+      "prefLabel": {
+        "de": "Ultimate Arm Operator",
+        "en": "Ultimate Arm Operator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011337",
+      "prefLabel": {
+        "de": "Unterwasser-Fotografie",
+        "en": "Underwater Director of Photography"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011338",
+      "prefLabel": {
+        "de": "Kamera 'A'",
+        "en": "Camera Operator 'A'"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011339",
+      "prefLabel": {
+        "de": "Kamera 'B'",
+        "en": "Camera Operator 'B'"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011340",
+      "prefLabel": {
+        "de": "Kamera 'C'",
+        "en": "Camera Operator 'C'"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011341",
+      "prefLabel": {
+        "de": "Kamera 'D'",
+        "en": "Camera Operator 'D'"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011342",
+      "prefLabel": {
+        "de": "Co Director of Photography",
+        "en": "Additional Director of Photography"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011343",
+      "prefLabel": {
+        "de": "Zusätzliche Erste Kameraassistenz",
+        "en": "Additional First Assistant Camera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011344",
+      "prefLabel": {
+        "de": "Co-Grip",
+        "en": "Additional Grip"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011345",
+      "prefLabel": {
+        "de": "Co-Key-Grip",
+        "en": "Additional Key Grip"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011346",
+      "prefLabel": {
+        "de": "Zusätzliche Zweite Kameraassistenz",
+        "en": "Additional Second Assistant Camera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011347",
+      "prefLabel": {
+        "de": "Co-Set-Fotograf*in",
+        "en": "Additional Set Photographer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011348",
+      "prefLabel": {
+        "de": "Zusätzliche Unterwasserfotografie",
+        "en": "Additional Underwater Photography"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011349",
+      "prefLabel": {
+        "de": "Kameraassistenz",
+        "en": "Assistant Camera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011350",
+      "prefLabel": {
+        "de": "Grip-Assistenz",
+        "en": "Assistant Grip"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011351",
+      "prefLabel": {
+        "de": "Vorarbeiter*in Grip",
+        "en": "Best Boy Grip"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011352",
+      "prefLabel": {
+        "de": "BTS Footage",
+        "en": "BTS Footage"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011353",
+      "prefLabel": {
+        "de": "BTS Fotograf*in",
+        "en": "BTS Photographer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011354",
+      "prefLabel": {
+        "de": "BTS Videofilmer*in",
+        "en": "BTS Videographer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011355",
+      "prefLabel": {
+        "de": "Kamerawagen",
+        "en": "Camera Car"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011356",
+      "prefLabel": {
+        "de": "Produktionsassistenz der Kameraabteilung",
+        "en": "Camera Department Production Assistant"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011357",
+      "prefLabel": {
+        "de": "Kamera-Produktionsassistenz",
+        "en": "Camera Production Assistant"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011358",
+      "prefLabel": {
+        "de": "Kamera-Praktikant*in",
+        "en": "Camera Trainee"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011359",
+      "prefLabel": {
+        "de": "Kamerawagen Truck",
+        "en": "Camera Truck"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011360",
+      "prefLabel": {
+        "de": "Klappe",
+        "en": "Clapper Loader"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011361",
+      "prefLabel": {
+        "de": "Daten Betreuer",
+        "en": "Data Wrangler"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011362",
+      "prefLabel": {
+        "de": "Techniker*in für digitale Bildverarbeitung",
+        "en": "Digital Imaging Technician"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011363",
+      "prefLabel": {
+        "de": "Drohnen-Kamera",
+        "en": "Drone Cinematographer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011364",
+      "prefLabel": {
+        "de": "Drohnenpilot*in",
+        "en": "Drone Pilot"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011365",
+      "prefLabel": {
+        "de": "Epk Direktor*in",
+        "en": "Epk Director"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011366",
+      "prefLabel": {
+        "de": "Epk Produzent*in",
+        "en": "Epk Producer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011367",
+      "prefLabel": {
+        "de": "Erste Assistenz Kamera A",
+        "en": "First Assistant 'A' Camera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011368",
+      "prefLabel": {
+        "de": "Erste Assistenz Kamera B",
+        "en": "First Assistant 'B' Camera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011369",
+      "prefLabel": {
+        "de": "Erste Assistenz Kamera C",
+        "en": "First Assistant 'C' Camera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011370",
+      "prefLabel": {
+        "de": "Erste Assistenz Kamera D",
+        "en": "First Assistant 'D' Camera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011371",
+      "prefLabel": {
+        "de": "Erste Kompanie Grip",
+        "en": "First Company Grip"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011372",
+      "prefLabel": {
+        "de": "Schärfezieheinrichtung",
+        "en": "Focus Puller"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011373",
+      "prefLabel": {
+        "de": "Leiter*in des Layouts",
+        "en": "Head of Layout"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011374",
+      "prefLabel": {
+        "de": "Jimmy Jib Operator",
+        "en": "Jimmy Jib Operator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011375",
+      "prefLabel": {
+        "de": "Waage-Kopf-Techniker*in",
+        "en": "Libra Head Technician"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011376",
+      "prefLabel": {
+        "de": "Phantom Bediener*in",
+        "en": "Phantom Operator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011377",
+      "prefLabel": {
+        "de": "Red Techniker*in",
+        "en": "Red Technician"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011378",
+      "prefLabel": {
+        "de": "Zweite Assistenz Kamera A",
+        "en": "Second Assistant 'A' Camera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011379",
+      "prefLabel": {
+        "de": "Zweite Assistenz Kamera B",
+        "en": "Second Assistant 'B' Camera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011380",
+      "prefLabel": {
+        "de": "Zweite Assistenz Kamera C",
+        "en": "Second Assistant 'C' Camera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011381",
+      "prefLabel": {
+        "de": "Zweite Assistenz Kamera D",
+        "en": "Second Assistant 'D' Camera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011382",
+      "prefLabel": {
+        "de": "Zweite Kameraassistenz",
+        "en": "Second Assistant Camera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011383",
+      "prefLabel": {
+        "de": "Zweite Kompanie Grip",
+        "en": "Second Company Grip"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011384",
+      "prefLabel": {
+        "de": "Set-Fotograf*in",
+        "en": "Set Photographer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011385",
+      "prefLabel": {
+        "de": "Dritte Assistenz Kamera A",
+        "en": "Third Assistant 'A' Camera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011386",
+      "prefLabel": {
+        "de": "Dritte Assistenz Kamera B",
+        "en": "Third Assistant 'B' Camera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011387",
+      "prefLabel": {
+        "de": "Dritte Assistenz Kamera C",
+        "en": "Third Assistant 'C' Camera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011388",
+      "prefLabel": {
+        "de": "Dritte Assistenz Kamera D",
+        "en": "Third Assistant 'D' Camera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011389",
+      "prefLabel": {
+        "de": "Dritte Kameraassistenz",
+        "en": "Third Assistant Camera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011390",
+      "prefLabel": {
+        "de": "Unterwasser Epk Fotograf*in",
+        "en": "Underwater Epk Photographer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011391",
+      "prefLabel": {
+        "de": "Unterwasser Standbildfotograf*in",
+        "en": "Underwater Stills Photographer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011392",
+      "prefLabel": {
+        "de": "Videojournalist*in",
+        "en": "Videojournalist"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011393",
+      "prefLabel": {
+        "de": "Video-Bericht",
+        "en": "Video Report"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/class/esc/n01",
+    "prefLabel": {
+      "de": "Rolle in Kreativ-Werk",
+      "en": "Creative Work Role"
+    }
+  },
+  "inScheme": {
+    "id": "https://w3id.org/class/esc/scheme",
+    "title": {
+      "de": "Rollen in Gruppen",
+      "en": "Roles in Groups"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

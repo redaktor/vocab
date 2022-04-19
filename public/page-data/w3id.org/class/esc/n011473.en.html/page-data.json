@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-components-concept-js",
+    "path": "/w3id.org/class/esc/n011473.en.html",
+    "result": {"pageContext":{"language":"en","languages":["de","en"],"node":{"id":"https://w3id.org/class/esc/n011473","type":"Concept","followers":"https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011473","inbox":"https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011473","prefLabel":{"de":"Keyboard-Programmierer*in","en":"Keyboard Programmer"},"altLabel":null,"definition":null,"scopeNote":{"de":null,"en":"themoviedb.org#Keyboard Programmer"},"note":null,"notation":["011473"],"example":null,"narrower":[],"narrowerTransitive":[],"broader":{"id":"https://w3id.org/class/esc/n0114","prefLabel":{"de":"Sound","en":"Sound"}},"broaderTransitive":null,"related":[],"relatedMatch":null,"broadMatch":null,"narrowMatch":null,"closeMatch":null,"exactMatch":null,"inScheme":{"id":"https://w3id.org/class/esc/scheme","title":{"de":"Rollen in Gruppen","en":"Roles in Groups"}},"topConceptOf":null},"baseURL":""}},
+    "staticQueryHashes": ["3649515864","63159454"]}

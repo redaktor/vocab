@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-components-concept-js",
+    "path": "/w3id.org/class/esc/n012475.en.html",
+    "result": {"pageContext":{"language":"en","languages":["de","en"],"node":{"id":"https://w3id.org/class/esc/n012475","type":"Concept","followers":"https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012475","inbox":"https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012475","prefLabel":{"de":"Fahrer*in","en":"Driver"},"altLabel":null,"definition":null,"scopeNote":{"de":null,"en":"themoviedb.org#Driver"},"note":null,"notation":["012475"],"example":null,"narrower":[],"narrowerTransitive":[],"broader":{"id":"https://w3id.org/class/esc/n0124","prefLabel":{"de":"Crew","en":"Crew"}},"broaderTransitive":null,"related":[],"relatedMatch":null,"broadMatch":null,"narrowMatch":null,"closeMatch":null,"exactMatch":null,"inScheme":{"id":"https://w3id.org/class/esc/scheme","title":{"de":"Rollen in Gruppen","en":"Roles in Groups"}},"topConceptOf":null},"baseURL":""}},
+    "staticQueryHashes": ["3649515864","63159454"]}

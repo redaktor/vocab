@@ -1,0 +1,452 @@
+{
+  "id": "https://w3id.org/class/esc/n0129",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0129",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0129",
+  "prefLabel": {
+    "de": "Recht / Legal",
+    "en": "Legal"
+  },
+  "notation": [
+    "0129"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/esc/n012911",
+      "prefLabel": {
+        "de": "Zensor",
+        "en": "Censor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012912",
+      "prefLabel": {
+        "de": "Vermesser*in",
+        "en": "Surveyor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012913",
+      "prefLabel": {
+        "de": "Patentinhaber*in",
+        "en": "Patent holder"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012914",
+      "prefLabel": {
+        "de": "Ankläger*in",
+        "en": "Libelant"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012915",
+      "prefLabel": {
+        "de": "Beklagter/Beklagte",
+        "en": "Respondent-appellee"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012916",
+      "prefLabel": {
+        "de": "Kläger*in",
+        "en": "Plaintiff"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012917",
+      "prefLabel": {
+        "de": "Berufungsbeklagter",
+        "en": "Appellee"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012918",
+      "prefLabel": {
+        "de": "Beschwerdeführer*in",
+        "en": "Complainant-appellant"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012919",
+      "prefLabel": {
+        "de": "Ersteller",
+        "en": "Originator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012920",
+      "prefLabel": {
+        "de": "Prozesskontakt",
+        "en": "Process contact"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012921",
+      "prefLabel": {
+        "de": "Anfechtender",
+        "en": "Contestant"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012922",
+      "prefLabel": {
+        "de": " Abgrenzer",
+        "en": "Delineator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012923",
+      "prefLabel": {
+        "de": "Freigestellter",
+        "en": "Libelee"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012924",
+      "prefLabel": {
+        "de": "Ausübende Gerichtsbarkeit",
+        "en": "Enacting jurisdiction"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012925",
+      "prefLabel": {
+        "de": " Verfügungsbeklagter",
+        "en": "Libelee-appellee"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012926",
+      "prefLabel": {
+        "de": "Angefochtener",
+        "en": "Contestee"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012927",
+      "prefLabel": {
+        "de": "Versteigerer",
+        "en": "Auctioneer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012928",
+      "prefLabel": {
+        "de": "Unterzeichner",
+        "en": "Signer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012929",
+      "prefLabel": {
+        "de": "Angefochtener - Berufungskläger",
+        "en": "Contestee-appellant"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012930",
+      "prefLabel": {
+        "de": "Richter",
+        "en": "Judge"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012931",
+      "prefLabel": {
+        "de": "Beklagter - Berufungsbeklagter",
+        "en": "Defendant-appellee"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012932",
+      "prefLabel": {
+        "de": "Ankläger - Berufungskläger",
+        "en": "Libelant-appellant"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012933",
+      "prefLabel": {
+        "de": "Gericht verwaltet",
+        "en": "Court governed"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012934",
+      "prefLabel": {
+        "de": "Anfechtungskläger-Bewerber",
+        "en": "Contestant-appellee"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012935",
+      "prefLabel": {
+        "de": "Einrichtung, die den akademischen Grad verleiht",
+        "en": "Degree granting institution"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012936",
+      "prefLabel": {
+        "de": "Gerichtliche Zuständigkeit",
+        "en": "Jurisdiction governed"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012937",
+      "prefLabel": {
+        "de": "Berufungsbeklagter",
+        "en": "Contestee-appellee"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012938",
+      "prefLabel": {
+        "de": " Einsprechende",
+        "en": "Opponent"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012939",
+      "prefLabel": {
+        "de": "Genehmigungsbehörde",
+        "en": "Permitting agency"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012940",
+      "prefLabel": {
+        "de": "Patentanmelder",
+        "en": "Patent applicant"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012941",
+      "prefLabel": {
+        "de": "Erste Partei",
+        "en": "First party"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012942",
+      "prefLabel": {
+        "de": "Zweiter Beteiligter",
+        "en": "Second party"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012943",
+      "prefLabel": {
+        "de": "Antragsgegner",
+        "en": "Respondent"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012944",
+      "prefLabel": {
+        "de": "Rechtsmittelführer",
+        "en": "Appellant"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012945",
+      "prefLabel": {
+        "de": "Beklagter - Berufungskläger",
+        "en": "Respondent-appellant"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012946",
+      "prefLabel": {
+        "de": "Libelle - Berufungskläger",
+        "en": "Libelee-appellant"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012947",
+      "prefLabel": {
+        "de": "Kläger - Berufungskläger",
+        "en": "Plaintiff-appellant"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012948",
+      "prefLabel": {
+        "de": "Beklagter - Berufungskläger",
+        "en": "Defendant-appellant"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012949",
+      "prefLabel": {
+        "de": "Berufungskläger",
+        "en": "Libelant-appellee"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012950",
+      "prefLabel": {
+        "de": "Anfechtungskläger",
+        "en": "Contestant-appellant"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012951",
+      "prefLabel": {
+        "de": "Beschwerdeführerin",
+        "en": "Complainant"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012952",
+      "prefLabel": {
+        "de": "Kläger/Beklagter",
+        "en": "Plaintiff-appellee"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012953",
+      "prefLabel": {
+        "de": "Beschwerdeführer/Beklagter",
+        "en": "Complainant-appellee"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012954",
+      "prefLabel": {
+        "de": "Beklagter",
+        "en": "Defendant"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012955",
+      "prefLabel": {
+        "de": "Fragwürdige*r Autor*in",
+        "en": "Dubious author"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012956",
+      "prefLabel": {
+        "de": "Fälscher*in",
+        "en": "Forger"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012957",
+      "prefLabel": {
+        "de": "Copyright Anspruchsteller*in",
+        "en": "Copyright claimant"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/class/esc/n01",
+    "prefLabel": {
+      "de": "Rolle in Kreativ-Werk",
+      "en": "Creative Work Role"
+    }
+  },
+  "inScheme": {
+    "id": "https://w3id.org/class/esc/scheme",
+    "title": {
+      "de": "Rollen in Gruppen",
+      "en": "Roles in Groups"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}
