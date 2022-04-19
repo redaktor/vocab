@@ -101,7 +101,7 @@
     skos:narrower :n301 ;
     skos:notation "30" ;
     skos:prefLabel "image, attachment und andere Verbindungen"@de,
-        "image Relations"@en ;
+        "image, attachment and other Relations"@en ;
     skos:definition ""@en ;
     skos:topConceptOf :scheme .
 
@@ -546,7 +546,10 @@
 :n0115 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n01 ;
-    skos:narrower :n011511, :n011512, :n011513, :n011514, :n011515, :n011516 ;
+    skos:narrower :n011511, :n011512, :n011513, :n011514, :n011515, :n011516, :n011517, 
+        :n011518, :n011519, :n011520, :n011521, :n011522, :n011523, :n011524, :n011525, 
+        :n011526, :n011527, :n011528, :n011529, :n011530, :n011531, :n011532, :n011533, 
+        :n011534 ;
     skos:notation "0115" ;
     skos:prefLabel "Musik"@de,
         "Music"@en ;
@@ -555,10 +558,7 @@
 :n0116 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n01 ;
-    skos:narrower :n011611, :n011612, :n011613, :n011614, :n011615, :n011616, :n011617, 
-        :n011618, :n011619, :n011620, :n011621, :n011622, :n011623, :n011624, :n011625, 
-        :n011626, :n011627, :n011628, :n011629, :n011630, :n011631, :n011632, :n011633, 
-        :n011634, :n011635 ;
+    skos:narrower :n011611, :n011612, :n011613, :n011614, :n011615, :n011616, :n011617 ;
     skos:notation "0116" ;
     skos:prefLabel "Schauspieler"@de,
         "Actors"@en ;
@@ -800,7 +800,7 @@
     skos:broader :n10 ;
     skos:exactMatch <http://rdfs.org/sioc/ns#has_function> ;
     skos:notation "101" ;
-    skos:prefLabel ""@de, ""@en ;
+    skos:prefLabel "hat Funktion"@de, "has function"@en ;
     skos:definition "Ein Actor, der diese Rolle hat."@de,
         "An Actor that has this Role."@en ;
     skos:definition "Links a User to a Role that this User has (it is a function of this User). Users can have many different Roles in different contexts."@en .
@@ -2879,14 +2879,6 @@
         "Librettist"@en ;
     skos:definition "An author of a libretto of an opera or other stage work, or an oratorio"@en ;
     skos:scopeNote "themoviedb.org#Librettist"@en .
-:n011535 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n0115 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ppt> ;
-    skos:notation "011535" ;
-    skos:prefLabel "Puppenspieler*in"@de,
-        "Puppeteer"@en ;
-    skos:definition "A performer contributing to a resource by manipulating, controlling, or directing puppets or marionettes in a moving image production or a musical or dramatic presentation or entertainment"@en .
 
 
 :n011611 a skos:Concept ;
@@ -2929,7 +2921,17 @@
 :n011616 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0116 ;
+    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ppt> ;
     skos:notation "011616" ;
+    skos:prefLabel "Puppenspieler*in"@de,
+        "Puppeteer"@en ;
+    skos:altLabel "Marionettenspieler*in"@de,
+        "marionette performer"@en ;
+    skos:definition "A performer contributing to a resource by manipulating, controlling, or directing puppets or marionettes in a moving image production or a musical or dramatic presentation or entertainment"@en .
+:n011617 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n0116 ;
+    skos:notation "011617" ;
     skos:prefLabel "Special Guest"@de,
         "Special Guest"@en ;
     skos:scopeNote "themoviedb.org#Special Guest"@en .
