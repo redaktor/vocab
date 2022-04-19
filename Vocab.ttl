@@ -7,16 +7,16 @@
 
 
 :scheme a skos:ConceptScheme ;
-    dct:alternative "ESC" ;
+    dct:alternative "redaktorVocab" ;
     dct:description "Beschreibt die Rollen von Akteuren und Orten in redaktor. Das Vokabular wird im Zusammenhang mit mehreren Quellen entwickelt und gepflegt; z.B. https://wikidata.org, https://themoviedb.org oder https://id.loc.gov/vocabulary/relators. <br>Lorem"@de,
-    "redaktor Group Roles describe the Roles of Actors in `as:Group`s of any kind. They are developed and maintained in the context of multiple sources. E.g. https://wikidata.org, https://themoviedb.org or https://id.loc.gov/vocabulary/relators"@en ;
+    "Describes the roles of actors and places in redaktor. The vocabulary is developed and maintained in the context of multiple sources, e.g. https://wikidata.org, https://themoviedb.org or https://id.loc.gov/vocabulary/relators"@en ;
     dct:issued "2022-04-10"^^xsd:date ;
     dct:modified "2022-04-11"^^xsd:date ;
     dct:publisher "Sebastian Lasse" ;
     dct:source <TODO> ;
     dct:title "ActivityPub: Roles and Relations"@en, "ActivityPub: Rollen und Verbindungen"@de ;
-    vann:preferredNamespacePrefix "esc" ;
-    vann:preferredNamespaceUri "https://w3id.org/class/esc/" ;
+    vann:preferredNamespacePrefix "redaktor" ;
+    vann:preferredNamespaceUri "https://w3id.org/class/redaktor/" ;
     schema:isBasedOn <https://www.wikidata.org/wiki/Property:P4801> ;
     skos:hasTopConcept :n00, :n01, :n02, :n03, :n04, :n05, :n06, :n07, :n08, :n09, :n10, :n20, :n30, :n40 .
 
@@ -31,8 +31,8 @@
     skos:notation "00" ;
     skos:prefLabel "Allgemeine Rolle"@de,
         "Generic or major role"@en ;
-    skos:definition "Allgemeine Aufgaben, die ein breites Spektrum an Themen abdecken, ohne oder mit nur geringer Spezialisierung auf ein bestimmtes Gebiet oder bestimmte Gebiete, werden in der Regel in das weite Feld 00 \\u2018Generische oder Hauptaufgaben\\u2019 eingeordnet."@de, 
-        "General roles which cover a broad range of subjects with little or no specialisation in a particular field or fields will typically be classified within the broad field 00 \\u2018Generic or major role\\u2019"@en ;
+    skos:definition "Allgemeine Aufgaben, die ein breites Spektrum an Themen abdecken, ohne oder mit nur geringer Spezialisierung auf ein bestimmtes Gebiet oder bestimmte Gebiete, werden in der Regel in das weite Feld 00 'Generische oder Hauptaufgaben' eingeordnet."@de, 
+        "General roles which cover a broad range of subjects with little or no specialisation in a particular field or fields will typically be classified within the broad field 00 'Generic or major role'"@en ;
     skos:topConceptOf :scheme .
 
 :n01 a skos:Concept ;

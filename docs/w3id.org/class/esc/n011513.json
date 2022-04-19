@@ -4,11 +4,22 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011513",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011513",
   "prefLabel": {
-    "de": "Stunt-Double",
-    "en": "Stunt Double"
+    "de": "Sänger*in",
+    "en": "Singer"
+  },
+  "altLabel": {
+    "de": [
+      "Musician vocal"
+    ],
+    "en": [
+      "Musician vocal"
+    ]
+  },
+  "definition": {
+    "en": "A performer contributing to a resource by using his/her/their voice, with or without instrumental accompaniment, to produce music. A singer's performance may or may not include actual words"
   },
   "scopeNote": {
-    "en": "themoviedb.org#Stunt Double"
+    "en": "themoviedb.org#Singer"
   },
   "notation": [
     "011513"
@@ -20,11 +31,16 @@
       "en": "Music"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://id.loc.gov/vocabulary/relators/sng"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {
-      "de": "Rollen in Gruppen",
-      "en": "Roles in Groups"
+      "de": "ActivityPub: Rollen und Verbindungen",
+      "en": "ActivityPub: Roles and Relations"
     }
   },
   "@context": {

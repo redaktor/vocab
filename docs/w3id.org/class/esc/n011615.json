@@ -4,11 +4,11 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011615",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011615",
   "prefLabel": {
-    "de": "Lieder",
-    "en": "Songs"
+    "de": "Kamee, Cameo, Statist*in",
+    "en": "Cameo"
   },
   "scopeNote": {
-    "en": "themoviedb.org#Songs"
+    "en": "themoviedb.org#Cameo"
   },
   "notation": [
     "011615"
@@ -23,8 +23,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {
-      "de": "Rollen in Gruppen",
-      "en": "Roles in Groups"
+      "de": "ActivityPub: Rollen und Verbindungen",
+      "en": "ActivityPub: Roles and Relations"
     }
   },
   "@context": {

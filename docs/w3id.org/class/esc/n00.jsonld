@@ -8,8 +8,8 @@
     "en": "Generic or major role"
   },
   "definition": {
-    "de": "Allgemeine Aufgaben, die ein breites Spektrum an Themen abdecken, ohne oder mit nur geringer Spezialisierung auf ein bestimmtes Gebiet oder bestimmte Gebiete, werden in der Regel in das weite Feld 00 \\u2018Generische oder Hauptaufgaben\\u2019 eingeordnet.",
-    "en": "General roles which cover a broad range of subjects with little or no specialisation in a particular field or fields will typically be classified within the broad field 00 \\u2018Generic or major role\\u2019"
+    "de": "Allgemeine Aufgaben, die ein breites Spektrum an Themen abdecken, ohne oder mit nur geringer Spezialisierung auf ein bestimmtes Gebiet oder bestimmte Gebiete, werden in der Regel in das weite Feld 00 'Generische oder Hauptaufgaben' eingeordnet.",
+    "en": "General roles which cover a broad range of subjects with little or no specialisation in a particular field or fields will typically be classified within the broad field 00 'Generic or major role'"
   },
   "notation": [
     "00"
@@ -228,7 +228,7 @@
     {
       "id": "https://w3id.org/class/esc/n0034",
       "prefLabel": {
-        "de": "zugeschriebener Name",
+        "de": "Zugeschriebener Name",
         "en": "attributed name"
       }
     },
@@ -327,8 +327,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {
-      "de": "Rollen in Gruppen",
-      "en": "Roles in Groups"
+      "de": "ActivityPub: Rollen und Verbindungen",
+      "en": "ActivityPub: Roles and Relations"
     }
   },
   "topConceptOf": {

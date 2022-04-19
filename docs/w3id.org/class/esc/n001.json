@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {
-      "de": "Rollen in Gruppen",
-      "en": "Roles in Groups"
+      "de": "ActivityPub: Rollen und Verbindungen",
+      "en": "ActivityPub: Roles and Relations"
     }
   },
   "topConceptOf": {

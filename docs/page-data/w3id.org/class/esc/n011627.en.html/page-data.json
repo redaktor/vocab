@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-components-concept-js",
-    "path": "/w3id.org/class/esc/n011627.en.html",
-    "result": {"pageContext":{"language":"en","languages":["de","en"],"node":{"id":"https://w3id.org/class/esc/n011627","type":"Concept","followers":"https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011627","inbox":"https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011627","prefLabel":{"de":"Musik Sound Design und Verarbeitung","en":"Music Sound Design and Processing"},"altLabel":null,"definition":null,"scopeNote":{"de":null,"en":"themoviedb.org#Music Sound Design and Processing"},"note":null,"notation":["011627"],"example":null,"narrower":[],"narrowerTransitive":[],"broader":{"id":"https://w3id.org/class/esc/n0116","prefLabel":{"de":"Schauspieler","en":"Actors"}},"broaderTransitive":null,"related":[],"relatedMatch":null,"broadMatch":null,"narrowMatch":null,"closeMatch":null,"exactMatch":null,"inScheme":{"id":"https://w3id.org/class/esc/scheme","title":{"de":"Rollen in Gruppen","en":"Roles in Groups"}},"topConceptOf":null},"baseURL":""}},
-    "staticQueryHashes": ["3649515864","63159454"]}

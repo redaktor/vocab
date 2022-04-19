@@ -4,14 +4,11 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011614",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011614",
   "prefLabel": {
-    "de": "Instrumentalist*in",
-    "en": "Instrumentalist"
-  },
-  "definition": {
-    "en": "A performer contributing to a resource by playing a musical instrument"
+    "de": "Stimme, Sprecher*in",
+    "en": "Voice, Speaker"
   },
   "scopeNote": {
-    "en": "themoviedb.org#Instrumentalist"
+    "en": "themoviedb.org#Voice"
   },
   "notation": [
     "011614"
@@ -25,14 +22,14 @@
   },
   "exactMatch": [
     {
-      "id": "http://id.loc.gov/vocabulary/relators/itr"
+      "id": "http://id.loc.gov/vocabulary/relators/spk"
     }
   ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {
-      "de": "Rollen in Gruppen",
-      "en": "Roles in Groups"
+      "de": "ActivityPub: Rollen und Verbindungen",
+      "en": "ActivityPub: Roles and Relations"
     }
   },
   "@context": {

@@ -22,176 +22,43 @@
     {
       "id": "https://w3id.org/class/esc/n011611",
       "prefLabel": {
-        "de": "Musikalische Leitung",
-        "en": "Music Director"
+        "de": "Hauptdarsteller*in",
+        "en": "LeadPerformer"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n011612",
       "prefLabel": {
-        "de": "Musiker*in",
-        "en": "Musician"
+        "de": "Schauspieler*in",
+        "en": "Actor"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n011613",
       "prefLabel": {
-        "de": "Sänger*in",
-        "en": "Singer"
+        "de": "Stunt-Double",
+        "en": "Stunt Double"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n011614",
       "prefLabel": {
-        "de": "Instrumentalist*in",
-        "en": "Instrumentalist"
+        "de": "Stimme, Sprecher*in",
+        "en": "Voice, Speaker"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n011615",
       "prefLabel": {
-        "de": "Lieder",
-        "en": "Songs"
+        "de": "Kamee, Cameo, Statist*in",
+        "en": "Cameo"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n011616",
       "prefLabel": {
-        "de": "Musik",
-        "en": "Music"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011617",
-      "prefLabel": {
-        "de": "Komponist*in der Originalmusik",
-        "en": "Original Music Composer"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011618",
-      "prefLabel": {
-        "de": "Komponist*in des Haupttitelthemas",
-        "en": "Main Title Theme Composer"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011619",
-      "prefLabel": {
-        "de": "Orchestrator*in",
-        "en": "Orchestrator"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011620",
-      "prefLabel": {
-        "de": "Gesangslehrer*in",
-        "en": "Vocal Coach"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011621",
-      "prefLabel": {
-        "de": "Musiküberwachung",
-        "en": "Music Supervisor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011622",
-      "prefLabel": {
-        "de": "Musikarrangeur*in",
-        "en": "Music Arranger"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011623",
-      "prefLabel": {
-        "de": "Musik-Ko-Betreuer*in",
-        "en": "Music Co-Supervisor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011624",
-      "prefLabel": {
-        "de": "Musikberater*in",
-        "en": "Music Consultant"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011625",
-      "prefLabel": {
-        "de": "Musik-Koordinator*in",
-        "en": "Music Coordinator"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011626",
-      "prefLabel": {
-        "de": "Musikproduzent*in",
-        "en": "Music Producer"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011627",
-      "prefLabel": {
-        "de": "Musik Sound Design und Verarbeitung",
-        "en": "Music Sound Design and Processing"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011628",
-      "prefLabel": {
-        "de": "Assistenz für die Musikkontrolle",
-        "en": "Music Supervision Assistant"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011629",
-      "prefLabel": {
-        "de": "Musikprogrammierer*in",
-        "en": "Music Programmer"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011630",
-      "prefLabel": {
-        "de": "Produzent*in von Musiknoten",
-        "en": "Music Score Producer"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011631",
-      "prefLabel": {
-        "de": "Playback-Sänger*in",
-        "en": "Playback Singer"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011632",
-      "prefLabel": {
-        "de": "Gesang",
-        "en": "Vocals"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011633",
-      "prefLabel": {
-        "de": "Tänzer*in",
-        "en": "Dancer"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011634",
-      "prefLabel": {
-        "de": "Librettist*in",
-        "en": "Librettist"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011635",
-      "prefLabel": {
-        "de": "Puppenspieler*in",
-        "en": "Puppeteer"
+        "de": "Special Guest",
+        "en": "Special Guest"
       }
     }
   ],
@@ -205,8 +72,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {
-      "de": "Rollen in Gruppen",
-      "en": "Roles in Groups"
+      "de": "ActivityPub: Rollen und Verbindungen",
+      "en": "ActivityPub: Roles and Relations"
     }
   },
   "@context": {

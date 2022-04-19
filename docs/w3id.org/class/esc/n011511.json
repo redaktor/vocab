@@ -4,11 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011511",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011511",
   "prefLabel": {
-    "de": "Hauptdarsteller*in",
-    "en": "LeadPerformer"
+    "de": "Musikalische Leitung",
+    "en": "Music Director"
+  },
+  "definition": {
+    "en": "A person who coordinates the activities of the composer, the sound editor, and sound mixers for a moving image production or for a musical or dramatic presentation or entertainment"
   },
   "scopeNote": {
-    "en": "themoviedb.org#LeadPerformer"
+    "en": "themoviedb.org#Music Director"
   },
   "notation": [
     "011511"
@@ -20,11 +23,16 @@
       "en": "Music"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://id.loc.gov/vocabulary/relators/msd"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {
-      "de": "Rollen in Gruppen",
-      "en": "Roles in Groups"
+      "de": "ActivityPub: Rollen und Verbindungen",
+      "en": "ActivityPub: Roles and Relations"
     }
   },
   "@context": {
