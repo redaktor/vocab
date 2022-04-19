@@ -3,6 +3,10 @@
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn101",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn101",
+  "prefLabel": {
+    "de": "hat Funktion",
+    "en": "has function"
+  },
   "definition": {
     "de": "Ein Actor, der diese Rolle hat."
   },

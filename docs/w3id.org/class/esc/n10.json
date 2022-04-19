@@ -12,7 +12,11 @@
   ],
   "narrower": [
     {
-      "id": "https://w3id.org/class/esc/n101"
+      "id": "https://w3id.org/class/esc/n101",
+      "prefLabel": {
+        "de": "hat Funktion",
+        "en": "has function"
+      }
     },
     {
       "id": "https://w3id.org/class/esc/n102",

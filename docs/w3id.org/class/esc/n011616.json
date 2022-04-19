@@ -4,11 +4,19 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011616",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011616",
   "prefLabel": {
-    "de": "Special Guest",
-    "en": "Special Guest"
+    "de": "Puppenspieler*in",
+    "en": "Puppeteer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Special Guest"
+  "altLabel": {
+    "de": [
+      "Marionettenspieler*in"
+    ],
+    "en": [
+      "marionette performer"
+    ]
+  },
+  "definition": {
+    "en": "A performer contributing to a resource by manipulating, controlling, or directing puppets or marionettes in a moving image production or a musical or dramatic presentation or entertainment"
   },
   "notation": [
     "011616"
@@ -20,6 +28,11 @@
       "en": "Actors"
     }
   },
+  "exactMatch": [
+    {
+      "id": "http://id.loc.gov/vocabulary/relators/ppt"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {
