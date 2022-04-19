@@ -1,6 +1,6 @@
 # redaktor/vocab
 SKOS vocabulary used with redaktor and skohub.io<br>
-The static pages published with [skohub-vocabs](https://blog.skohub.io/2019-09-27-skohub-vocabs/) are published for now at 
+The static pages in /docs published with [skohub-vocabs](https://blog.skohub.io/2019-09-27-skohub-vocabs/) are published for now at 
 
 🐣 **[redaktor.github.io/vocab](https://redaktor.github.io/vocab/index.en.html)**
 
