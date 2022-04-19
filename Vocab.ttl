@@ -8,12 +8,12 @@
 
 :scheme a skos:ConceptScheme ;
     dct:alternative "redaktorVocab" ;
-    dct:description "Beschreibt die Rollen von Akteuren und Orten in redaktor. Das Vokabular wird im Zusammenhang mit mehreren Quellen entwickelt und gepflegt; z.B. https://wikidata.org, https://themoviedb.org oder https://id.loc.gov/vocabulary/relators. <br>Lorem"@de,
-    "Describes the roles of actors and places in redaktor. The vocabulary is developed and maintained in the context of multiple sources, e.g. https://wikidata.org, https://themoviedb.org or https://id.loc.gov/vocabulary/relators"@en ;
+    dct:description "**Beschreibt die Rollen von Akteuren und Orten in redaktor.** Das Vokabular wird im Zusammenhang mit mehreren Quellen entwickelt und gepflegt;<br>z.B. https://wikidata.org, https://themoviedb.org oder https://id.loc.gov/vocabulary/relators."@de,
+    "**Describes the roles of actors and places in redaktor.** The vocabulary is developed and maintained in the context of multiple sources,<br>e.g. https://wikidata.org, https://themoviedb.org or https://id.loc.gov/vocabulary/relators"@en ;
     dct:issued "2022-04-10"^^xsd:date ;
     dct:modified "2022-04-11"^^xsd:date ;
     dct:publisher "Sebastian Lasse" ;
-    dct:source <TODO> ;
+    dct:source <https://redaktor.me> ;
     dct:title "ActivityPub: Roles and Relations"@en, "ActivityPub: Rollen und Verbindungen"@de ;
     vann:preferredNamespacePrefix "redaktor" ;
     vann:preferredNamespaceUri "https://w3id.org/class/redaktor/" ;
