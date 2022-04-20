@@ -7,9 +7,6 @@
     "de": "Erste Kameraassistenz",
     "en": "First Assistant Camera"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#First Assistant Camera"
-  },
   "notation": [
     "011325"
   ],
@@ -20,6 +17,11 @@
       "en": "Camera"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#First%20Assistant%20Camera"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

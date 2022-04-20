@@ -8,10 +8,8 @@
     "en": "Set Designer"
   },
   "definition": {
+    "de": "Eine Person, die die groben Skizzen des künstlerischen Leiters in tatsächliche architektonische Strukturen für eine Theatervorstellung, ein Unterhaltungsprogramm, einen Kinofilm usw. umsetzt. Bühnenbildner zeichnen die detaillierten Anleitungen und Spezifikationen für den Bau des Bühnenbilds",
     "en": "A person who translates the rough sketches of the art director into actual architectural structures for a theatrical presentation, entertainment, motion picture, etc. Set designers draw the detailed guides and specifications for building the set"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Set Designer"
   },
   "notation": [
     "011718"
@@ -23,6 +21,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Set%20Designer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/std"

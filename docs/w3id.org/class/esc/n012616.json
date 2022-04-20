@@ -8,10 +8,8 @@
     "en": "Printer"
   },
   "definition": {
+    "de": "Eine Person, Familie oder Organisation, die an der Herstellung von gedrucktem Text, notierter Musik usw. aus Typen oder Platten beteiligt ist, wie z. B. ein Buch, eine Zeitung, eine Zeitschrift, eine Breitseite, eine Partitur usw.",
     "en": "A person, family, or organization involved in manufacturing a manifestation of printed text, notated music, etc., from type or plates, such as a book, newspaper, magazine, broadside, score, etc"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Printer"
   },
   "notation": [
     "012616"
@@ -23,6 +21,11 @@
       "en": "Manufacturing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Printer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/prt"

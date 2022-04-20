@@ -7,9 +7,6 @@
     "de": "Kurzgeschichte",
     "en": "Short Story"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Short Story"
-  },
   "notation": [
     "011234"
   ],
@@ -20,6 +17,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Short%20Story"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

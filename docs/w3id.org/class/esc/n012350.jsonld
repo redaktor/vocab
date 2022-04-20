@@ -7,9 +7,6 @@
     "de": "2D-Künstler*in",
     "en": "2D Artist"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#2D Artist"
-  },
   "notation": [
     "012350"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#2D%20Artist"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

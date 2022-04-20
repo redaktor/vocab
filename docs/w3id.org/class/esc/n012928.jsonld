@@ -8,10 +8,8 @@
     "en": "Signer"
   },
   "definition": {
+    "de": "Eine Person, deren Unterschrift ohne Vorlage oder andere Herkunftsangabe erscheint. Wenn eine Aufmachung vorhanden ist, verwenden Sie Inscriber [ins].",
     "en": "A person whose signature appears without a presentation or other statement indicative of provenance. When there is a presentation statement, use Inscriber [ins]."
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Signer"
   },
   "notation": [
     "012928"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Signer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/sgn"

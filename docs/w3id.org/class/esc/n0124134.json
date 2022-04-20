@@ -7,9 +7,6 @@
     "de": "Supervisor für Animatronik",
     "en": "Animatronics Supervisor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Animatronics Supervisor"
-  },
   "notation": [
     "0124134"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Animatronics%20Supervisor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -7,9 +7,6 @@
     "de": "Farbabstufung",
     "en": "Color Grading"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Color Grading"
-  },
   "notation": [
     "012137"
   ],
@@ -20,6 +17,11 @@
       "en": "Editing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Color%20Grading"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

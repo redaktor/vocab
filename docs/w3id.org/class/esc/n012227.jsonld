@@ -7,9 +7,6 @@
     "de": "Co-Kostümbildner*in",
     "en": "Co-Costume Designer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Co-Costume Designer"
-  },
   "notation": [
     "012227"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Co-Costume%20Designer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

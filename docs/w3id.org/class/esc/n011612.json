@@ -7,9 +7,6 @@
     "de": "Schauspieler*in",
     "en": "Actor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Actor"
-  },
   "notation": [
     "011612"
   ],
@@ -20,6 +17,11 @@
       "en": "Actors"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Actor"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/act"

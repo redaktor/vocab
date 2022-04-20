@@ -7,9 +7,6 @@
     "de": "Setup von Stoffen",
     "en": "Cloth Setup"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Cloth Setup"
-  },
   "notation": [
     "012330"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Cloth%20Setup"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

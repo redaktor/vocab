@@ -8,10 +8,8 @@
     "en": "Dancer"
   },
   "definition": {
+    "de": "Ein Darsteller, der bei einer musikalischen, dramatischen usw. Darbietung tanzt",
     "en": "A performer who dances in a musical, dramatic, etc., presentation"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Dancer"
   },
   "notation": [
     "011533"
@@ -23,6 +21,11 @@
       "en": "Music"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Dancer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/dnc"

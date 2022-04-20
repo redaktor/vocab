@@ -8,10 +8,8 @@
     "en": "Writer of added lyrics"
   },
   "definition": {
+    "de": "Ein Verfasser von Texten, die einem musikalischen Werk beigefügt sind. Für das Verfassen von Texten in Zusammenarbeit mit einem Komponisten, um ein Originalwerk zu schaffen, siehe Textdichter",
     "en": "A writer of words added to an expression of a musical work. For lyric writing in collaboration with a composer to form an original work, see lyricist"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Additional Music"
   },
   "notation": [
     "0124111"
@@ -23,6 +21,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Additional%20Music"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/wal"

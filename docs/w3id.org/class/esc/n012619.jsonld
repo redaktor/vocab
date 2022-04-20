@@ -8,10 +8,8 @@
     "en": "Braille embosser"
   },
   "definition": {
+    "de": "Eine Person, Familie oder Organisation, die ein Hilfsmittel durch Prägen von Braille-Zellen mit einem Stift, einem speziellen Prägedrucker oder einem anderen Gerät herstellt",
     "en": "A person, family, or organization involved in manufacturing a resource by embossing Braille cells using a stylus, special embossing printer, or other device"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Braille embosser"
   },
   "notation": [
     "012619"
@@ -23,6 +21,11 @@
       "en": "Manufacturing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Braille%20embosser"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/brl"

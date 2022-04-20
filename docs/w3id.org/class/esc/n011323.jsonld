@@ -7,9 +7,6 @@
     "de": "Zusätzliche Fotografie",
     "en": "Additional Photography"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Additional Photography"
-  },
   "notation": [
     "011323"
   ],
@@ -20,6 +17,11 @@
       "en": "Camera"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Additional%20Photography"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

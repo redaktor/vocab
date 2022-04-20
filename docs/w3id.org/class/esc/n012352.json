@@ -7,9 +7,6 @@
     "de": "3D-Animator*in",
     "en": "3D Animator"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#3D Animator"
-  },
   "notation": [
     "012352"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#3D%20Animator"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

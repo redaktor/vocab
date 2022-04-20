@@ -7,9 +7,6 @@
     "de": "Dekoration der Bühne",
     "en": "Set Decoration"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Set Decoration"
-  },
   "notation": [
     "011717"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Set%20Decoration"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

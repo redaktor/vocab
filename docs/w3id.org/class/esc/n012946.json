@@ -8,10 +8,8 @@
     "en": "Libelee-appellant"
   },
   "definition": {
+    "de": "Ein Beklagter, der bei einem anderen Kirchen- oder Admiralitätsgericht Berufung einlegt, um das Urteil aufzuheben",
     "en": "A libelee who takes an appeal from one ecclesiastical court or admiralty to another to reverse the judgment"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Libelee-appellant"
   },
   "notation": [
     "012946"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Libelee-appellant"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/let"

@@ -7,9 +7,6 @@
     "de": "Oper",
     "en": "Opera"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Opera"
-  },
   "notation": [
     "011230"
   ],
@@ -20,6 +17,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Opera"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -7,9 +7,6 @@
     "de": "Hauptbuchhalter*in",
     "en": "Key Accountant"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Key Accountant"
-  },
   "notation": [
     "0120104"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Key%20Accountant"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -8,10 +8,8 @@
     "en": "Instrumentalist"
   },
   "definition": {
+    "de": "Ein ausübender Künstler, der durch das Spielen eines Musikinstruments zu einer Ressource beiträgt",
     "en": "A performer contributing to a resource by playing a musical instrument"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Instrumentalist"
   },
   "notation": [
     "011514"
@@ -23,6 +21,11 @@
       "en": "Music"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Instrumentalist"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/itr"

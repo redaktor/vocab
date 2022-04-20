@@ -7,9 +7,6 @@
     "de": "Standby Rigger",
     "en": "Standby Rigger"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Standby Rigger"
-  },
   "notation": [
     "011842"
   ],
@@ -20,6 +17,11 @@
       "en": "Lighting"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Standby%20Rigger"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

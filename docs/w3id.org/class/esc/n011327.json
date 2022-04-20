@@ -7,9 +7,6 @@
     "de": "Luftbildkamera",
     "en": "Aerial Camera"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Aerial Camera"
-  },
   "notation": [
     "011327"
   ],
@@ -20,6 +17,11 @@
       "en": "Camera"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Aerial%20Camera"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

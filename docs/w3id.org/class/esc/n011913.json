@@ -8,10 +8,8 @@
     "en": "Television director"
   },
   "definition": {
+    "de": "Ein Regisseur, der für die allgemeine Leitung und Beaufsichtigung einer Fernsehsendung verantwortlich ist",
     "en": "A director responsible for the general management and supervision of a television program"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Television director"
   },
   "notation": [
     "011913"
@@ -23,6 +21,11 @@
       "en": "Directing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Television%20director"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/tld"

@@ -7,9 +7,6 @@
     "de": "Dailies-Manager*in",
     "en": "Dailies Manager"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Dailies Manager"
-  },
   "notation": [
     "012139"
   ],
@@ -20,6 +17,11 @@
       "en": "Editing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Dailies%20Manager"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

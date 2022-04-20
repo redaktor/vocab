@@ -7,9 +7,6 @@
     "de": "Koordinator*in für Spezialeffekte",
     "en": "Special Effects Coordinator"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Special Effects Coordinator"
-  },
   "notation": [
     "012418"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Special%20Effects%20Coordinator"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

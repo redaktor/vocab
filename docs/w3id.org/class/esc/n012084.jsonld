@@ -7,9 +7,6 @@
     "de": "Delegierte Produzent*in",
     "en": "Delegated Producer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Delegated Producer"
-  },
   "notation": [
     "012084"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Delegated%20Producer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

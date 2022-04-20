@@ -8,10 +8,8 @@
     "en": "Commentator"
   },
   "definition": {
+    "de": "Ein ausübender Künstler, der zu einem Werk beiträgt, indem er eine Interpretation, eine Analyse oder eine Diskussion des Themas auf einer Aufnahme, einem Film oder einem anderen audiovisuellen Medium liefert",
     "en": "A performer contributing to a work by providing interpretation, analysis, or a discussion of the subject matter on a recording, film, or other audiovisual medium"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Commentator"
   },
   "notation": [
     "011270"
@@ -23,6 +21,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Commentator"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/cmm"

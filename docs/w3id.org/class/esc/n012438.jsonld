@@ -7,9 +7,6 @@
     "de": "Projektion",
     "en": "Projection"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Projection"
-  },
   "notation": [
     "012438"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Projection"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

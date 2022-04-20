@@ -7,9 +7,6 @@
     "de": "Buchhalter*in für die Postproduktion",
     "en": "Post Production Accountant"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Post Production Accountant"
-  },
   "notation": [
     "0120119"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Post%20Production%20Accountant"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

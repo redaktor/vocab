@@ -8,10 +8,8 @@
     "en": "Director"
   },
   "definition": {
+    "de": "Eine Person, die für die allgemeine Leitung und Überwachung einer gefilmten Aufführung, eines Radio- oder Fernsehprogramms usw. verantwortlich ist.",
     "en": "A person responsible for the general management and supervision of a filmed performance, a radio or television program, etc."
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Director"
   },
   "notation": [
     "011911"
@@ -23,6 +21,11 @@
       "en": "Directing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Director"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/drt"

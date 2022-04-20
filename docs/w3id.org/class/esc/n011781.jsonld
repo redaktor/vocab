@@ -7,9 +7,6 @@
     "de": "Leiter*in Tischlerei",
     "en": "Head Carpenter"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Head Carpenter"
-  },
   "notation": [
     "011781"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Head%20Carpenter"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

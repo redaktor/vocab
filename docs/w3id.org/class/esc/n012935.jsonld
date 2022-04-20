@@ -8,10 +8,8 @@
     "en": "Degree granting institution"
   },
   "definition": {
+    "de": "Eine Organisation, die einen akademischen Grad verleiht",
     "en": "A organization granting an academic degree"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Degree granting institution"
   },
   "notation": [
     "012935"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Degree%20granting%20institution"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/dgg"

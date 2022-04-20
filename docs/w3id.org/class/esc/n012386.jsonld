@@ -7,9 +7,6 @@
     "de": "Technische*r Direktor*in für Kreationseffekte",
     "en": "Creature Effects Technical Director"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Creature Effects Technical Director"
-  },
   "notation": [
     "012386"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Creature%20Effects%20Technical%20Director"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

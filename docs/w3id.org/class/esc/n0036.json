@@ -8,6 +8,7 @@
     "en": "Contributor"
   },
   "definition": {
+    "de": "Eine Person, Familie oder Organisation, die für die Beiträge zur Ressource verantwortlich ist. Dies schließt diejenigen ein, deren Arbeit zu einem größeren Werk beigetragen wurde, wie z. B. einem Sammelband, einer fortlaufenden Veröffentlichung oder einer anderen Zusammenstellung von Einzelwerken. Wenn eine spezifischere Rolle verfügbar ist, geben Sie diese an, z. B. Herausgeber, Komponist, Illustrator.",
     "en": "A person, family or organization responsible for making contributions to the resource. This includes those whose work has been contributed to a larger work, such as an anthology, serial publication, or other compilation of individual works. If a more specific role is available, prefer that, e.g. editor, compiler, illustrator"
   },
   "notation": [

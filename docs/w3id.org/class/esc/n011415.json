@@ -8,10 +8,8 @@
     "en": "Sound Designer"
   },
   "definition": {
+    "de": "Eine Person, die den Soundtrack (sowohl live als auch aufgenommen) produziert und wiedergibt, die Mikrofone installiert, die Lautstärke einstellt und die Tonquellen für eine Produktion koordiniert",
     "en": "A person who produces and reproduces the sound score (both live and recorded), the installation of microphones, the setting of sound levels, and the coordination of sources of sound for a production"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Sound Designer"
   },
   "notation": [
     "011415"
@@ -23,6 +21,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Sound%20Designer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/sds"

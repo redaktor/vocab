@@ -7,9 +7,6 @@
     "de": "Überwachung Ausstatter*in",
     "en": "Supervising Armorer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Supervising Armorer"
-  },
   "notation": [
     "0124195"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Supervising%20Armorer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

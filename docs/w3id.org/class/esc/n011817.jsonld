@@ -16,10 +16,8 @@
     ]
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die das Beleuchtungsschema für eine Theatervorstellung, ein Unterhaltungsprogramm, einen Film usw. entwirft",
     "en": "A person or organization who designs the lighting scheme for a theatrical presentation, entertainment, motion picture, etc."
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Directing Lighting Artist"
   },
   "notation": [
     "011817"
@@ -31,6 +29,11 @@
       "en": "Lighting"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Directing%20Lighting%20Artist"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/lgd"

@@ -19,9 +19,6 @@
     "de": "Bezeichnet ein Objekt, daß Actor erstellt hat. ",
     "en": "Refers to an Object that the User is a creator of. Being a creator of an Item is not a Role. Matches the author-rel in HTML."
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Author"
-  },
   "notation": [
     "102"
   ],
@@ -32,6 +29,11 @@
       "en": "attributedTo Relations"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Author"
+    }
+  ],
   "exactMatch": [
     {
       "id": "http://rdfs.org/sioc/ns#creator_of"

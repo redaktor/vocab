@@ -16,10 +16,8 @@
     ]
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die für eine Ressource relevant ist und speziell damit beauftragt wird, einen intellektuellen Überblick über eine strategische oder operative Aufgabe zu geben und durch Analyse, Spezifizierung oder Anweisung eine kosteneffektive Vorgehensweise oder Lösung zu entwickeln oder vorzuschlagen",
     "en": "A person or organization relevant to a resource, who is engaged specifically to provide an intellectual overview of a strategic or operational task and by analysis, specification, or instruction, to create or propose a cost-effective course of action or solution"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Production Consultant"
   },
   "notation": [
     "0120125"
@@ -31,6 +29,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Production%20Consultant"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/csp"

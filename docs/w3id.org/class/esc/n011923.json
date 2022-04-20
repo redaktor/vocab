@@ -7,9 +7,6 @@
     "de": "Kontinuität",
     "en": "Continuity"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Continuity"
-  },
   "notation": [
     "011923"
   ],
@@ -20,6 +17,11 @@
       "en": "Directing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Continuity"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

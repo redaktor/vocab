@@ -7,9 +7,6 @@
     "de": "Supervisor für Spezialeffekte",
     "en": "Special Effects Supervisor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Special Effects Supervisor"
-  },
   "notation": [
     "012344"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Special%20Effects%20Supervisor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

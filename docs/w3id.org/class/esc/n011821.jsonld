@@ -7,9 +7,6 @@
     "de": "Produktions-Assistenz für Beleuchtung",
     "en": "Lighting Production Assistant"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Lighting Production Assistant"
-  },
   "notation": [
     "011821"
   ],
@@ -20,6 +17,11 @@
       "en": "Lighting"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Lighting%20Production%20Assistant"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

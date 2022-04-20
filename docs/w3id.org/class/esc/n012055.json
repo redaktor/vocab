@@ -7,9 +7,6 @@
     "de": "Koordination Produzent*in",
     "en": "Coordinating Producer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Coordinating Producer"
-  },
   "notation": [
     "012055"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Coordinating%20Producer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

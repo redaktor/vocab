@@ -7,9 +7,6 @@
     "de": "Grip-Assistenz",
     "en": "Assistant Grip"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Assistant Grip"
-  },
   "notation": [
     "011350"
   ],
@@ -20,6 +17,11 @@
       "en": "Camera"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Assistant%20Grip"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

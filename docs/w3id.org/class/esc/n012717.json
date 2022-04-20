@@ -8,6 +8,7 @@
     "en": "Provider"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die eine Ressource produziert, veröffentlicht, herstellt oder vertreibt, wenn keine spezifischen Codes gewünscht sind (z. B. [mfr], [pbl])",
     "en": "A person or organization who produces, publishes, manufactures, or distributes a resource if specific codes are not desired (e.g. [mfr], [pbl])"
   },
   "notation": [

@@ -7,9 +7,6 @@
     "de": "Layout",
     "en": "Layout"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Layout"
-  },
   "notation": [
     "011919"
   ],
@@ -20,6 +17,11 @@
       "en": "Directing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Layout"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

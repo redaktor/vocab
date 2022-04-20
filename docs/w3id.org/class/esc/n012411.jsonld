@@ -8,10 +8,8 @@
     "en": "Choreographer"
   },
   "definition": {
+    "de": "Eine Person, die für die Schaffung eines Werks der Bewegung verantwortlich ist oder einen Beitrag dazu leistet",
     "en": "A person responsible for creating or contributing to a work of movement"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Choreographer"
   },
   "notation": [
     "012411"
@@ -23,6 +21,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Choreographer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/chr"

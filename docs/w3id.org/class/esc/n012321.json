@@ -7,9 +7,6 @@
     "de": "Fix Animator*in",
     "en": "Fix Animator"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Fix Animator"
-  },
   "notation": [
     "012321"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Fix%20Animator"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

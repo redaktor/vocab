@@ -7,9 +7,6 @@
     "de": "Motion-Capture-Künstler*in",
     "en": "Motion Capture Artist"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Motion Capture Artist"
-  },
   "notation": [
     "012447"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Motion%20Capture%20Artist"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

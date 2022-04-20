@@ -337,14 +337,13 @@
     {
       "id": "https://w3id.org/class/esc/n011256",
       "prefLabel": {
-        "de": " Verfasser*in der Einleitung usw.",
+        "de": "Verfasser*in der Einleitung usw.",
         "en": "Author of introduction, etc."
       }
     },
     {
       "id": "https://w3id.org/class/esc/n011257",
       "prefLabel": {
-        "de": "Verfasser*in des Nachworts, des Kolophons, usw.",
         "en": "Author of afterword, colophon, etc."
       }
     },

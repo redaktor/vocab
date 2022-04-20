@@ -8,10 +8,8 @@
     "en": "Plaintiff"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die eine Klage in einem Zivilverfahren einreicht",
     "en": "A person or organization who brings a suit in a civil proceeding"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Plaintiff"
   },
   "notation": [
     "012916"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Plaintiff"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/ptf"

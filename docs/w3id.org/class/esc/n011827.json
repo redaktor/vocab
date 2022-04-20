@@ -7,9 +7,6 @@
     "de": "Beleuchtungsdirektor*in",
     "en": "Lighting Director"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Lighting Director"
-  },
   "notation": [
     "011827"
   ],
@@ -20,6 +17,11 @@
       "en": "Lighting"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Lighting%20Director"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

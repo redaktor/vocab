@@ -16,10 +16,8 @@
     ]
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die Berichte über Nachrichten oder aktuelle Ereignisse schreibt oder im Fernsehen oder in der Presse präsentiert",
     "en": "A person or organization who writes or presents reports of news or current events on air or in print"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Reporter"
   },
   "notation": [
     "011111"
@@ -31,6 +29,11 @@
       "en": "Coverage"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Reporter"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/rpt"

@@ -8,10 +8,8 @@
     "en": "Calligrapher"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die mit künstlerischer Handschrift schreibt, in der Regel als Kopist und/oder Engrosseur",
     "en": "A person or organization who writes in an artistic hand, usually as a copyist and or engrosser"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Calligrapher"
   },
   "notation": [
     "0117122"
@@ -23,6 +21,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Calligrapher"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/cll"

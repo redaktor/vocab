@@ -8,10 +8,8 @@
     "en": "Illustrator"
   },
   "definition": {
+    "de": "Eine Person, Familie oder Organisation, die einen Beitrag zu einer Ressource leistet, indem sie den primären Inhalt durch Zeichnungen, Diagramme, Fotografien usw. ergänzt. Handelt es sich bei dem Werk in erster Linie um den von dieser Person geschaffenen künstlerischen Inhalt, verwenden Sie Künstler oder Fotograf",
     "en": "A person, family, or organization contributing to a resource by supplementing the primary content with drawings, diagrams, photographs, etc. If the work is primarily the artistic content created by this entity, use artist or photographer"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Illustrator"
   },
   "notation": [
     "011713"
@@ -23,6 +21,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Illustrator"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/ill"

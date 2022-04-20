@@ -8,10 +8,8 @@
     "en": "Patron"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die ein Werk in Auftrag gibt. Normalerweise setzt ein Mäzen seine Mittel oder seinen Einfluss ein, um die Arbeit von Künstlern, Schriftstellern usw. zu unterstützen. Dazu gehören auch diejenigen, die einzelne Werke in Auftrag geben und dafür bezahlen.",
     "en": "A person or organization responsible for commissioning a work. Usually a patron uses his or her means or influence to support the work of artists, writers, etc. This includes those who commission and pay for individual works"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Patron"
   },
   "notation": [
     "0012"
@@ -23,6 +21,11 @@
       "en": "Generic or major role"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Patron"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/pat"

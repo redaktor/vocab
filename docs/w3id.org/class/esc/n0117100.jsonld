@@ -7,9 +7,6 @@
     "de": "Requisiten",
     "en": "Props"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Props"
-  },
   "notation": [
     "0117100"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Props"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

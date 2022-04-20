@@ -7,9 +7,6 @@
     "de": "Verpflegung, Catering",
     "en": "Catering"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Catering"
-  },
   "notation": [
     "0124152"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Catering"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

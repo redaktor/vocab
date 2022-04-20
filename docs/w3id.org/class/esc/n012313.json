@@ -16,10 +16,8 @@
     ]
   },
   "definition": {
+    "de": "Eine Person, die letztlich für Bühnenbild, Requisiten, Beleuchtung und Ton bei einer Produktion verantwortlich ist",
     "en": "A person who is ultimately in charge of scenery, props, lights and sound for a production"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Chief Technician / Stop-Motion Expert"
   },
   "notation": [
     "012313"
@@ -31,6 +29,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Chief%20Technician%20/%20Stop-Motion%20Expert"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/tcd"

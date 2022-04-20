@@ -8,6 +8,7 @@
     "en": "Bibliographic antecedent"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die für eine Ressource verantwortlich ist, auf der die durch die bibliographische Beschreibung dargestellte Ressource basiert. Dies kann für Adaptionen, Fortsetzungen, etc. angebracht sein.",
     "en": "A person or organization responsible for a resource upon which the resource represented by the bibliographic description is based. This may be appropriate for adaptations, sequels, continuations, indexes, etc."
   },
   "notation": [

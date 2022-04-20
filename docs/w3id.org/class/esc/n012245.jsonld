@@ -7,9 +7,6 @@
     "de": "Prothetik-Designer*in",
     "en": "Prosthetic Designer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Prosthetic Designer"
-  },
   "notation": [
     "012245"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Prosthetic%20Designer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

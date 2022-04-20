@@ -7,9 +7,6 @@
     "de": "Hairstylist*in",
     "en": "Hairstylist"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Hairstylist"
-  },
   "notation": [
     "012214"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Hairstylist"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

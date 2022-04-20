@@ -7,9 +7,6 @@
     "de": "Straßen-Casting",
     "en": "Street Casting"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Street Casting"
-  },
   "notation": [
     "0120136"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Street%20Casting"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

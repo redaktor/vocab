@@ -8,10 +8,8 @@
     "en": "Autographer"
   },
   "definition": {
+    "de": "Eine Person, deren handschriftliche Unterschrift auf einem Gegenstand erscheint",
     "en": "A person whose manuscript signature appears on an item"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Autographer"
   },
   "notation": [
     "011269"
@@ -23,6 +21,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Autographer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/ato"

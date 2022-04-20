@@ -8,10 +8,8 @@
     "en": "Additional Writing"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die bedeutendes Begleitmaterial für eine Tonaufnahme oder anderes audiovisuelles Material schreibt",
     "en": "A person or organization who writes significant material which accompanies a sound recording or other audiovisual material"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Additional Writing"
   },
   "notation": [
     "0124109"
@@ -23,6 +21,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Additional%20Writing"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/wam"

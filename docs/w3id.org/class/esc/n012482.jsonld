@@ -7,9 +7,6 @@
     "de": "Öffentlichkeitsarbeit",
     "en": "Public Relations"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Public Relations"
-  },
   "notation": [
     "012482"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Public%20Relations"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

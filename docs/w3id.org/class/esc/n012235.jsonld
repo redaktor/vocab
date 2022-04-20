@@ -15,9 +15,6 @@
       "costume artist"
     ]
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Ager/Dyer"
-  },
   "notation": [
     "012235"
   ],
@@ -35,6 +32,11 @@
         "de": "Textilkünstler*in",
         "en": "Textile Artist"
       }
+    }
+  ],
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Ager/Dyer"
     }
   ],
   "inScheme": {

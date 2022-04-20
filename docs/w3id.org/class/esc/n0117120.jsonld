@@ -8,10 +8,8 @@
     "en": "Type designer"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die das in einem bestimmten Artikel verwendete Schriftbild gestaltet",
     "en": "A person or organization who designs the type face used in a particular item"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Type designer"
   },
   "notation": [
     "0117120"
@@ -23,6 +21,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Type%20designer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/tyd"

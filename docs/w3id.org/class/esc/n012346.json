@@ -7,9 +7,6 @@
     "de": "3D-Regisseur*in",
     "en": "3D Director"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#3D Director"
-  },
   "notation": [
     "012346"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#3D%20Director"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -7,9 +7,6 @@
     "de": "Maskenbildner*in für Spezialeffekte",
     "en": "Special Effects Makeup Artist"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Special Effects Makeup Artist"
-  },
   "notation": [
     "012285"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Special%20Effects%20Makeup%20Artist"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

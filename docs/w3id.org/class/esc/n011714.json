@@ -8,10 +8,8 @@
     "en": "Album Artist"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die für die grafische Gestaltung eines Bucheinbands, Albumcovers, Schubers, einer Schachtel, eines Behälters usw. verantwortlich ist. Für eine Person oder Organisation, die für die grafische Gestaltung eines ganzen Buches verantwortlich ist, verwenden Sie Book designer; für Buchumschläge verwenden Sie Bookjacket designer",
     "en": "A person or organization responsible for the graphic design of a book cover, album cover, slipcase, box, container, etc. For a person or organization responsible for the graphic design of an entire book, use Book designer; for book jackets, use Bookjacket designer"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Cover designer"
   },
   "notation": [
     "011714"
@@ -23,6 +21,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Cover%20designer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/cov"

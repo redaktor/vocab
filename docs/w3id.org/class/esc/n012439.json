@@ -7,9 +7,6 @@
     "de": "Postproduktions-Assistenz",
     "en": "Post Production Assistant"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Post Production Assistant"
-  },
   "notation": [
     "012439"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Post%20Production%20Assistant"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

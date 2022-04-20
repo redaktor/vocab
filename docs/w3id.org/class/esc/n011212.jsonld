@@ -8,10 +8,8 @@
     "en": "Lyricist"
   },
   "definition": {
+    "de": "Ein Urheber des Textes eines nicht-dramatischen Musikwerks (z. B. des Textes eines Liedes), außer bei Oratorien",
     "en": "An author of the words of a non-dramatic musical work (e.g. the text of a song), except for oratorios"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Lyricist"
   },
   "notation": [
     "011212"
@@ -23,6 +21,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Lyricist"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/lyr"

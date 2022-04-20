@@ -8,10 +8,8 @@
     "en": "Delineator"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die technische Zeichnungen nach Entwürfen anderer ausführt",
     "en": "A person or organization executing technical drawings from others' designs"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Delineator"
   },
   "notation": [
     "012922"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Delineator"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/dln"

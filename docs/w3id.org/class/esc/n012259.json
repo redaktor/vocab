@@ -7,9 +7,6 @@
     "de": "Kostüm-Assistenz",
     "en": "Costume Assistant"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Costume Assistant"
-  },
   "notation": [
     "012259"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Costume%20Assistant"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

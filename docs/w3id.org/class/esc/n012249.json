@@ -7,9 +7,6 @@
     "de": "Kontrolle für Garderobe",
     "en": "Wardrobe Supervisor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Wardrobe Supervisor"
-  },
   "notation": [
     "012249"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Wardrobe%20Supervisor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

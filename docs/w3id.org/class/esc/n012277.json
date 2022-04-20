@@ -7,9 +7,6 @@
     "de": "Assistenz für Make-up und Haare",
     "en": "Makeup & Hair Assistant"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Makeup & Hair Assistant"
-  },
   "notation": [
     "012277"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Makeup%20&%20Hair%20Assistant"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

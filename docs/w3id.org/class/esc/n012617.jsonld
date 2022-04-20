@@ -8,10 +8,8 @@
     "en": "Printmaker"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die eine Relief-, Tiefdruck- oder Flachdruckoberfläche herstellt",
     "en": "A person or organization who makes a relief, intaglio, or planographic printing surface"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Printmaker"
   },
   "notation": [
     "012617"
@@ -23,6 +21,11 @@
       "en": "Manufacturing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Printmaker"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/prm"

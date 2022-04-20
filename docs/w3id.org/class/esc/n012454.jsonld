@@ -7,9 +7,6 @@
     "de": "Kabelhilfe",
     "en": "Cableman"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Cableman"
-  },
   "notation": [
     "012454"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Cableman"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

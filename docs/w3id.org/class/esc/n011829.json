@@ -7,9 +7,6 @@
     "de": "Unterwasser-Gaffer",
     "en": "Underwater Gaffer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Underwater Gaffer"
-  },
   "notation": [
     "011829"
   ],
@@ -20,6 +17,11 @@
       "en": "Lighting"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Underwater%20Gaffer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

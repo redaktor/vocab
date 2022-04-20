@@ -8,10 +8,8 @@
     "en": "Art Direction"
   },
   "definition": {
+    "de": "Eine Person, die zu einer Film- oder Fernsehproduktion beiträgt, indem sie die Künstler und Handwerker beaufsichtigt, die die Kulissen bauen",
     "en": "A person contributing to a motion picture or television production by overseeing the artists and craftspeople who build the sets"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Art Direction"
   },
   "notation": [
     "011711"
@@ -23,6 +21,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Art%20Direction"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/adi"

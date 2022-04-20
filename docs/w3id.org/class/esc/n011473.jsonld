@@ -7,9 +7,6 @@
     "de": "Keyboard-Programmierer*in",
     "en": "Keyboard Programmer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Keyboard Programmer"
-  },
   "notation": [
     "011473"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Keyboard%20Programmer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

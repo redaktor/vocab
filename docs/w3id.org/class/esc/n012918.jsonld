@@ -8,10 +8,8 @@
     "en": "Complainant-appellant"
   },
   "definition": {
+    "de": "Ein Beschwerdeführer, der bei einem anderen Gericht oder einer anderen Gerichtsbarkeit Berufung einlegt, um das Urteil aufzuheben, in der Regel im Rahmen eines Billigkeitsverfahrens",
     "en": "A complainant who takes an appeal from one court or jurisdiction to another to reverse the judgment, usually in an equity proceeding"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Complainant-appellant"
   },
   "notation": [
     "012918"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Complainant-appellant"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/cpt"

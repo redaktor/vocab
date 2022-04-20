@@ -7,9 +7,6 @@
     "de": "Hilfsstunts",
     "en": "Utility Stunts"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Utility Stunts"
-  },
   "notation": [
     "012464"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Utility%20Stunts"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

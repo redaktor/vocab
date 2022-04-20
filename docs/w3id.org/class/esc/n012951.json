@@ -8,10 +8,8 @@
     "en": "Complainant"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die sich an die Gerichte wendet, um Abhilfe zu schaffen, in der Regel im Rahmen eines Billigkeitsverfahrens",
     "en": "A person or organization who applies to the courts for redress, usually in an equity proceeding"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Complainant"
   },
   "notation": [
     "012951"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Complainant"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/cpl"

@@ -7,9 +7,6 @@
     "de": "Überwachung Animator*in",
     "en": "Supervising Animator"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Supervising Animator"
-  },
   "notation": [
     "012420"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Supervising%20Animator"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

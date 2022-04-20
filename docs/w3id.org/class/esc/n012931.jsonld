@@ -8,10 +8,8 @@
     "en": "Defendant-appellee"
   },
   "definition": {
+    "de": "Ein Beklagter, gegen den ein Rechtsmittel von einem Gericht oder einer Gerichtsbarkeit zu einem anderen eingelegt wird, um das Urteil aufzuheben, in der Regel in einem Rechtsstreit",
     "en": "A defendant against whom an appeal is taken from one court or jurisdiction to another to reverse the judgment, usually in a legal action"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Defendant-appellee"
   },
   "notation": [
     "012931"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Defendant-appellee"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/dfe"

@@ -7,9 +7,6 @@
     "de": "Künstlerische Leitung",
     "en": "Art Direction"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Art Direction"
-  },
   "notation": [
     "011716"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Art%20Direction"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

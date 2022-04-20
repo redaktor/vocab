@@ -7,9 +7,6 @@
     "de": "Spezialisierte*r Fahrer*in",
     "en": "Specialized Driver"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Specialized Driver"
-  },
   "notation": [
     "0124190"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Specialized%20Driver"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

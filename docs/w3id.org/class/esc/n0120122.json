@@ -7,9 +7,6 @@
     "de": "Technische Ingenieur*in Postproduktion",
     "en": "Post Production Technical Engineer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Post Production Technical Engineer"
-  },
   "notation": [
     "0120122"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Post%20Production%20Technical%20Engineer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

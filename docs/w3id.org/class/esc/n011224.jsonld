@@ -16,10 +16,8 @@
     ]
   },
   "definition": {
+    "de": "Ein Autor eines Drehbuchs, Skripts oder einer Szene",
     "en": "An author of a screenplay, script, or scene"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Screenstory"
   },
   "notation": [
     "011224"
@@ -31,6 +29,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Screenstory"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/aus"

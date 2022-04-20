@@ -7,9 +7,6 @@
     "de": "Stellvertretende*r Direktor*in der Crowd",
     "en": "Crowd Assistant Director"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Crowd Assistant Director"
-  },
   "notation": [
     "011931"
   ],
@@ -20,6 +17,11 @@
       "en": "Directing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Crowd%20Assistant%20Director"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

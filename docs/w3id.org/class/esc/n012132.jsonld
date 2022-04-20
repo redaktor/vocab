@@ -7,9 +7,6 @@
     "de": "Co-Kolorist*in",
     "en": "Additional Colorist"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Additional Colorist"
-  },
   "notation": [
     "012132"
   ],
@@ -20,6 +17,11 @@
       "en": "Editing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Additional%20Colorist"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

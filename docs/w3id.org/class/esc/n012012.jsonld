@@ -8,10 +8,8 @@
     "en": "Producer"
   },
   "definition": {
+    "de": "Eine Person, Familie oder Organisation, die für die meisten geschäftlichen Aspekte einer Produktion für Bildschirm, Tonaufnahme, Fernsehen, Webcast usw. verantwortlich ist. Der Produzent ist in der Regel für die Mittelbeschaffung, das Management der Produktion, die Einstellung von Schlüsselpersonal, die Vermittlung von Verleihern usw. verantwortlich.",
     "en": "A person, family, or organization responsible for most of the business aspects of a production for screen, audio recording, television, webcast, etc. The producer is generally responsible for fund raising, managing the production, hiring key personnel, arranging for distributors, etc."
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Producer"
   },
   "notation": [
     "012012"
@@ -23,6 +21,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Producer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/pro"

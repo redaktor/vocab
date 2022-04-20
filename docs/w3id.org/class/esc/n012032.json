@@ -7,9 +7,6 @@
     "de": "Koordinator*in Produktionsbüro",
     "en": "Production Office Coordinator"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Production Office Coordinator"
-  },
   "notation": [
     "012032"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Production%20Office%20Coordinator"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -7,9 +7,6 @@
     "de": "Assistenz Sound Designer*in",
     "en": "Assistant Sound Designer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Assistant Sound Designer"
-  },
   "notation": [
     "011463"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Assistant%20Sound%20Designer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -7,9 +7,6 @@
     "de": "Erster Regieassistent für die zweite Einheit",
     "en": "Second Unit First Assistant Director"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Second Unit First Assistant Director"
-  },
   "notation": [
     "011940"
   ],
@@ -20,6 +17,11 @@
       "en": "Directing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Second%20Unit%20First%20Assistant%20Director"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

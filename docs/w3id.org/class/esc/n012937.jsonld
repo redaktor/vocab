@@ -8,10 +8,8 @@
     "en": "Contestee-appellee"
   },
   "definition": {
+    "de": "Eine Person, gegen die von einem Gericht oder einer Gerichtsbarkeit ein Rechtsmittel eingelegt wird, um das Urteil aufzuheben",
     "en": "A contestee against whom an appeal is taken from one court or jurisdiction to another to reverse the judgment"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Contestee-appellee"
   },
   "notation": [
     "012937"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Contestee-appellee"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/cte"

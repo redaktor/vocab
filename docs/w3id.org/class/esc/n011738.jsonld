@@ -7,9 +7,6 @@
     "de": "Natur/Grün-Person",
     "en": "Greensperson"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Greensman"
-  },
   "notation": [
     "011738"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Greensman"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

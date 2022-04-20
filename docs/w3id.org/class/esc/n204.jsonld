@@ -7,6 +7,9 @@
     "de": "Ort der Herstellung",
     "en": "Location Manufacture"
   },
+  "definition": {
+    "de": "Der Ort der Herstellung (z. B. Druck, Vervielfältigung, Gießen usw.) einer Ressource in einer veröffentlichten Form."
+  },
   "notation": [
     "204"
   ],

@@ -7,9 +7,6 @@
     "de": "Gedicht",
     "en": "Poem"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Poem"
-  },
   "notation": [
     "0124112"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Poem"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

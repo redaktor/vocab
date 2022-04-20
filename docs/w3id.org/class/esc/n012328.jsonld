@@ -7,9 +7,6 @@
     "de": "Supervisor für die Animation",
     "en": "Animation Supervisor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Animation Supervisor"
-  },
   "notation": [
     "012328"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Animation%20Supervisor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

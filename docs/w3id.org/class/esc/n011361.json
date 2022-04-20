@@ -7,9 +7,6 @@
     "de": "Daten Betreuer",
     "en": "Data Wrangler"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Data Wrangler"
-  },
   "notation": [
     "011361"
   ],
@@ -20,6 +17,11 @@
       "en": "Camera"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Data%20Wrangler"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

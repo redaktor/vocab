@@ -7,9 +7,6 @@
     "de": "Assistenz der Set-Produktion",
     "en": "Set Production Assistant"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Set Production Assistant"
-  },
   "notation": [
     "012455"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Set%20Production%20Assistant"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

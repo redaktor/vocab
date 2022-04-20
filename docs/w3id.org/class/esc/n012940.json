@@ -8,10 +8,8 @@
     "en": "Patent applicant"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die ein Patent angemeldet hat",
     "en": "A person or organization that applied for a patent"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Patent applicant"
   },
   "notation": [
     "012940"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Patent%20applicant"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/pta"

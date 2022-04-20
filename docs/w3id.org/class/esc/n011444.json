@@ -8,10 +8,8 @@
     "en": "Conductor"
   },
   "definition": {
+    "de": "Ein Künstler, der zu einer musikalischen Ressource beiträgt, indem er eine Gruppe (Orchester, Chor, Oper usw.) bei einer musikalischen oder dramatischen Darbietung leitet usw.",
     "en": "A performer contributing to a musical resource by leading a performing group (orchestra, chorus, opera, etc.) in a musical or dramatic presentation, etc."
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Conductor"
   },
   "notation": [
     "011444"
@@ -23,6 +21,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Conductor"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/cnd"

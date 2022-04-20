@@ -7,9 +7,6 @@
     "de": "Story-Entwickler*in",
     "en": "Story Developer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Story Developer"
-  },
   "notation": [
     "011251"
   ],
@@ -20,6 +17,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Story%20Developer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

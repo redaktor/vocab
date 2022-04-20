@@ -7,9 +7,6 @@
     "de": "Dekorateur*in",
     "en": "Decorator"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Decorator"
-  },
   "notation": [
     "011775"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Decorator"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

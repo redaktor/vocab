@@ -8,10 +8,8 @@
     "en": "Geographic information specialist"
   },
   "definition": {
+    "de": "Eine Person, die für die Entwicklung von geografischen Informationssystemen (GIS) und die Integration von Daten des globalen Positionierungssystems verantwortlich ist",
     "en": "A person responsible for geographic information system (GIS) development and integration with global positioning system data"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Geographic information specialist"
   },
   "notation": [
     "012162"
@@ -23,6 +21,11 @@
       "en": "Editing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Geographic%20information%20specialist"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/gis"

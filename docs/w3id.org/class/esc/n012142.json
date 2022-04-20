@@ -7,9 +7,6 @@
     "de": "Digitaler Farbtimer",
     "en": "Digital Color Timer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Digital Color Timer"
-  },
   "notation": [
     "012142"
   ],
@@ -20,6 +17,11 @@
       "en": "Editing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Digital%20Color%20Timer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

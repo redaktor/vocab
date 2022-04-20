@@ -7,9 +7,6 @@
     "de": "Supervisor für visuelle Effekte",
     "en": "Visual Effects Supervisor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Visual Effects Supervisor"
-  },
   "notation": [
     "012325"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Visual%20Effects%20Supervisor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -7,9 +7,6 @@
     "de": "Grafikdesigner*in",
     "en": "Graphic Designer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Graphic Designer"
-  },
   "notation": [
     "011780"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Graphic%20Designer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

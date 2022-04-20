@@ -7,9 +7,6 @@
     "de": "Supervisor Geräuschemacher*in",
     "en": "Foley Supervisor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Foley Supervisor"
-  },
   "notation": [
     "011471"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Foley%20Supervisor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

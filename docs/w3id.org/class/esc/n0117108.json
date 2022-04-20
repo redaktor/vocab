@@ -7,9 +7,6 @@
     "de": "Shop Elektriker*in",
     "en": "Shop Electric"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Shop Electric"
-  },
   "notation": [
     "0117108"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Shop%20Electric"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

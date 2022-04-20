@@ -7,9 +7,6 @@
     "de": "Storyboard-Designer*in",
     "en": "Storyboard Designer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Storyboard Designer"
-  },
   "notation": [
     "011752"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Storyboard%20Designer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

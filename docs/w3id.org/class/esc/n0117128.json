@@ -8,10 +8,8 @@
     "en": "Etcher"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die Text oder Bilder für den Druck herstellt, indem sie Metall, Glas oder eine andere Oberfläche einer Säure oder der korrosiven Wirkung einer anderen Substanz aussetzt",
     "en": "A person or organization who produces text or images for printing by subjecting metal, glass, or some other surface to acid or the corrosive action of some other substance"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Etcher"
   },
   "notation": [
     "0117128"
@@ -23,6 +21,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Etcher"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/etr"

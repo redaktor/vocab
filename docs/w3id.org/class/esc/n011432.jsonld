@@ -7,9 +7,6 @@
     "de": "Co-Musik Supervisor",
     "en": "Additional Music Supervisor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Additional Music Supervisor"
-  },
   "notation": [
     "011432"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Additional%20Music%20Supervisor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -7,9 +7,6 @@
     "de": "Recherche für Archivmaterial",
     "en": "Archival Footage Research"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Archival Footage Research"
-  },
   "notation": [
     "012122"
   ],
@@ -20,6 +17,11 @@
       "en": "Editing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Archival%20Footage%20Research"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

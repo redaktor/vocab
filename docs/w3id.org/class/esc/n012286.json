@@ -7,9 +7,6 @@
     "de": "Costumer für Lastwagen",
     "en": "Truck Costumer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Truck Costumer"
-  },
   "notation": [
     "012286"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Truck%20Costumer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

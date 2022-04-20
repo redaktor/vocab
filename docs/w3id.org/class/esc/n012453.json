@@ -7,9 +7,6 @@
     "de": "Bildwagen-Koordinator*in",
     "en": "Picture Car Coordinator"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Picture Car Coordinator"
-  },
   "notation": [
     "012453"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Picture%20Car%20Coordinator"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

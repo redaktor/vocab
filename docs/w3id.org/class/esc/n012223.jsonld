@@ -7,9 +7,6 @@
     "de": "Abteilungsleiter Make-up",
     "en": "Makeup Department Head"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Makeup Department Head"
-  },
   "notation": [
     "012223"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Makeup%20Department%20Head"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

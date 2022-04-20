@@ -7,9 +7,6 @@
     "de": "Drehbücher für die Postproduktion",
     "en": "Post Production Scripts"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Post Production Scripts"
-  },
   "notation": [
     "0124180"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Post%20Production%20Scripts"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

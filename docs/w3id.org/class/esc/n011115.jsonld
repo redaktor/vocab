@@ -8,10 +8,8 @@
     "en": "Interviewee"
   },
   "definition": {
+    "de": "Eine Person, Familie oder Organisation, die dafür verantwortlich ist, eine Ressource zu erstellen oder zu ihr beizutragen, indem sie einem Interviewer, in der Regel einem Reporter, Meinungsforscher oder einem anderen Informationsbeschaffer, antwortet",
     "en": "A person, family or organization responsible for creating or contributing to a resource by responding to an interviewer, usually a reporter, pollster, or some other information gathering agent"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Interviewee"
   },
   "notation": [
     "011115"
@@ -23,6 +21,11 @@
       "en": "Coverage"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Interviewee"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/ive"

@@ -8,10 +8,8 @@
     "en": "Compiler"
   },
   "definition": {
+    "de": "Eine Person, Familie oder Organisation, die für die Erstellung eines neuen Werks (z. B. einer Bibliografie, eines Verzeichnisses) durch den Akt der Zusammenstellung verantwortlich ist, z. B. durch Auswahl, Anordnung, Zusammenfassung und Bearbeitung von Daten, Informationen usw.",
     "en": "A person, family, or organization responsible for creating a new work (e.g., a bibliography, a directory) through the act of compilation, e.g., selecting, arranging, aggregating, and editing data, information, etc"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Compiler"
   },
   "notation": [
     "0124204"
@@ -23,6 +21,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Compiler"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/com"

@@ -7,9 +7,6 @@
     "de": "Leitende Produzent*in",
     "en": "Supervising Producer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Supervising Producer"
-  },
   "notation": [
     "012047"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Supervising%20Producer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

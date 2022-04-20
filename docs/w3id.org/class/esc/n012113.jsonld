@@ -7,9 +7,6 @@
     "de": "Überwachender Filmeditor",
     "en": "Supervising Film Editor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Supervising Film Editor"
-  },
   "notation": [
     "012113"
   ],
@@ -20,6 +17,11 @@
       "en": "Editing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Supervising%20Film%20Editor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

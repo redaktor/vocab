@@ -8,10 +8,8 @@
     "en": "Platemaker"
   },
   "definition": {
+    "de": "Eine Person, Familie oder Organisation, die an der Herstellung einer Manifestation beteiligt ist, indem sie Platten vorbereitet, die für die Produktion von gedruckten Bildern und/oder Text verwendet werden.",
     "en": "A person, family, or organization involved in manufacturing a manifestation by preparing plates used in the production of printed images and/or text"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Platemaker"
   },
   "notation": [
     "012626"
@@ -23,6 +21,11 @@
       "en": "Manufacturing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Platemaker"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/plt"

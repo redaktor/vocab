@@ -7,9 +7,6 @@
     "de": "Co-Gaffer",
     "en": "Additional Gaffer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Additional Gaffer"
-  },
   "notation": [
     "011830"
   ],
@@ -20,6 +17,11 @@
       "en": "Lighting"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Additional%20Gaffer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

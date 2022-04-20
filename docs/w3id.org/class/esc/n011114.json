@@ -8,10 +8,8 @@
     "en": "Witness"
   },
   "definition": {
+    "de": "Verwendung für eine Person, die den Wahrheitsgehalt eines Ereignisses oder einer Handlung überprüft.",
     "en": "Use for a person who verifies the truthfulness of an event or action."
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Witness"
   },
   "notation": [
     "011114"
@@ -23,6 +21,11 @@
       "en": "Coverage"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Witness"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/wit"

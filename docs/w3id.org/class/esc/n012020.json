@@ -8,10 +8,8 @@
     "en": "Radio producer"
   },
   "definition": {
+    "de": "Ein Produzent, der für die meisten geschäftlichen Aspekte eines Radioprogramms verantwortlich ist",
     "en": "A producer responsible for most of the business aspects of a radio program"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Radio producer"
   },
   "notation": [
     "012020"
@@ -23,6 +21,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Radio%20producer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/rpc"

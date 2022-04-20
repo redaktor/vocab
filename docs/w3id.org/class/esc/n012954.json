@@ -8,10 +8,8 @@
     "en": "Defendant"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die in einem Strafverfahren angeklagt oder in einem Zivilverfahren verklagt wird",
     "en": "A person or organization who is accused in a criminal proceeding or sued in a civil proceeding"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Defendant"
   },
   "notation": [
     "012954"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Defendant"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/dfd"

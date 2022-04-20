@@ -7,9 +7,6 @@
     "de": "Assistent Requisiteur*in",
     "en": "Assistant Set Propsman"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Assistant Set Propsman"
-  },
   "notation": [
     "011768"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Assistant%20Set%20Propsman"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

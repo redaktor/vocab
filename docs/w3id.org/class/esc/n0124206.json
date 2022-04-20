@@ -8,10 +8,8 @@
     "en": "Landscape architect"
   },
   "definition": {
+    "de": "Ein Architekt, der für die Gestaltung der Landschaft verantwortlich ist. Er koordiniert die Anordnung bestehender und geplanter Landschaftselemente und Bauwerke.",
     "en": "An architect responsible for creating landscape works. This work involves coordinating the arrangement of existing and proposed land features and structures"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Landscape architect"
   },
   "notation": [
     "0124206"
@@ -23,6 +21,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Landscape%20architect"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/lsa"

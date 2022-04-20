@@ -8,10 +8,8 @@
     "en": "Markup editor"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die die Kodierung von SGML-, HTML- oder XML-Auszeichnungen von Metadaten, Text usw. vornimmt",
     "en": "A person or organization performing the coding of SGML, HTML, or XML markup of metadata, text, etc."
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Markup editor"
   },
   "notation": [
     "007"
@@ -23,6 +21,11 @@
       "en": "Generic or major role"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Markup%20editor"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/mrk"

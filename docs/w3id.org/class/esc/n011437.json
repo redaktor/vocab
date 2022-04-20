@@ -7,9 +7,6 @@
     "de": "Co-Ton-Mischer*in für die Neuaufnahme",
     "en": "Additional Sound Re-Recording Mixer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Additional Sound Re-Recording Mixer"
-  },
   "notation": [
     "011437"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Additional%20Sound%20Re-Recording%20Mixer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

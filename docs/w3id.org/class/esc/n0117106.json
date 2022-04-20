@@ -7,9 +7,6 @@
     "de": "Set-Kontrolle",
     "en": "Set Supervisor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Set Supervisor"
-  },
   "notation": [
     "0117106"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Set%20Supervisor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

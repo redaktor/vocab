@@ -7,9 +7,6 @@
     "de": "Reisekoordinator*in",
     "en": "Travel Coordinator"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Travel Coordinator"
-  },
   "notation": [
     "0120138"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Travel%20Coordinator"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

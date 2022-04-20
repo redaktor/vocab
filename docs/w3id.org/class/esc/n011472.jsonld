@@ -7,9 +7,6 @@
     "de": "Gemeinsamer ADR-Mischer*in",
     "en": "Joint ADR Mixer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Joint ADR Mixer"
-  },
   "notation": [
     "011472"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Joint%20ADR%20Mixer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

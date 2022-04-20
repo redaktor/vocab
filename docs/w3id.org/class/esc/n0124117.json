@@ -7,9 +7,6 @@
     "de": "Illustrator für Graphic Novel",
     "en": "Graphic Novel Illustrator"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Graphic Novel Illustrator"
-  },
   "notation": [
     "0124117"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Graphic%20Novel%20Illustrator"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

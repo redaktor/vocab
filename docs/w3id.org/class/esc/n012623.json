@@ -8,10 +8,8 @@
     "en": "Papermaker"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die für die Herstellung von Papier, gewöhnlich aus Holz, Stoff oder anderem Fasermaterial, verantwortlich ist",
     "en": "A person or organization responsible for the production of paper, usually from wood, cloth, or other fibrous material"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Papermaker"
   },
   "notation": [
     "012623"
@@ -23,6 +21,11 @@
       "en": "Manufacturing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Papermaker"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/ppm"

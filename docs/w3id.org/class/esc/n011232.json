@@ -7,9 +7,6 @@
     "de": "Buch",
     "en": "Book"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Book"
-  },
   "notation": [
     "011232"
   ],
@@ -20,6 +17,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Book"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

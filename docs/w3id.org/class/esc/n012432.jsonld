@@ -7,9 +7,6 @@
     "de": "Department Administrator, Abteilungsleiter*in",
     "en": "Department Administrator"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Department Administrator"
-  },
   "notation": [
     "012432"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Department%20Administrator"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

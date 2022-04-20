@@ -8,10 +8,8 @@
     "en": "Wood engraver"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die Drucke herstellt, indem sie das Bild als Relief in das Hirnholz eines Holzblocks schneidet",
     "en": "A person or organization who makes prints by cutting the image in relief on the end-grain of a wood block"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Wood engraver"
   },
   "notation": [
     "012621"
@@ -23,6 +21,11 @@
       "en": "Manufacturing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Wood%20engraver"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/wde"

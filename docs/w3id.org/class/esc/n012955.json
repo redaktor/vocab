@@ -8,10 +8,8 @@
     "en": "Dubious author"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, der die Urheberschaft zweifelhaft oder fälschlicherweise zugeschrieben wurde",
     "en": "A person or organization to which authorship has been dubiously or incorrectly ascribed"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Dubious author"
   },
   "notation": [
     "012955"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Dubious%20author"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/dub"

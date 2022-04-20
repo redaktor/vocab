@@ -7,9 +7,6 @@
     "de": "Co-Tontechniker*in",
     "en": "Additional Sound Re-Recordist"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Additional Sound Re-Recordist"
-  },
   "notation": [
     "011438"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Additional%20Sound%20Re-Recordist"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

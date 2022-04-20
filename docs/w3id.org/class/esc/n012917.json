@@ -8,10 +8,8 @@
     "en": "Appellee"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, gegen die ein Rechtsmittel eingelegt wird",
     "en": "A person or organization against whom an appeal is taken"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Appellee"
   },
   "notation": [
     "012917"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Appellee"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/ape"

@@ -7,9 +7,6 @@
     "de": "Lokales Casting",
     "en": "Local Casting"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Local Casting"
-  },
   "notation": [
     "012056"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Local%20Casting"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

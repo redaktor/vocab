@@ -7,9 +7,6 @@
     "de": "Produktions-Praktikant*in",
     "en": "Production Intern"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Production Intern"
-  },
   "notation": [
     "012463"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Production%20Intern"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

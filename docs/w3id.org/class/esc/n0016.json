@@ -8,6 +8,7 @@
     "en": "Anbieter*in"
   },
   "definition": {
+    "de": "Allgemein. Nur verwenden, wenn es sich von dem liefernden ActivityPub-Actor unterscheidet.",
     "en": "Generic. Use only if it is different than the supplying ActivityPub Actor."
   },
   "notation": [

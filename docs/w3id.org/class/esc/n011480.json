@@ -7,9 +7,6 @@
     "de": "Tonassistenz",
     "en": "Sound Assistant"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Sound Assistant"
-  },
   "notation": [
     "011480"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Sound%20Assistant"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -8,10 +8,8 @@
     "en": "Plaintiff-appellee"
   },
   "definition": {
+    "de": "Ein Kläger, gegen den von einem Gericht oder einer Gerichtsbarkeit Berufung bei einem anderen Gericht eingelegt wird, um das Urteil aufzuheben, in der Regel in einem Gerichtsverfahren",
     "en": "A plaintiff against whom an appeal is taken from one court or jurisdiction to another to reverse the judgment, usually in a legal proceeding"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Plaintiff-appellee"
   },
   "notation": [
     "012952"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Plaintiff-appellee"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/pte"

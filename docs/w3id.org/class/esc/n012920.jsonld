@@ -8,10 +8,8 @@
     "en": "Process contact"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die in erster Linie für die Durchführung oder Initiierung eines Prozesses verantwortlich ist, wie z. B. bei der Sammlung von Metadatensätzen",
     "en": "A person or organization primarily responsible for performing or initiating a process, such as is done with the collection of metadata sets"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Process contact"
   },
   "notation": [
     "012920"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Process%20contact"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/prc"

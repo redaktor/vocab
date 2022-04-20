@@ -7,9 +7,6 @@
     "de": "Bewegungsschauspieler*in",
     "en": "Motion Actor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Motion Actor"
-  },
   "notation": [
     "012442"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Motion%20Actor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

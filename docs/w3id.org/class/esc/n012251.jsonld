@@ -7,9 +7,6 @@
     "de": "Co-Hairstylist*in",
     "en": "Additional Hairstylist"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Additional Hairstylist"
-  },
   "notation": [
     "012251"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Additional%20Hairstylist"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

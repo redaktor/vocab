@@ -7,9 +7,6 @@
     "de": "Techno-Kranbediener*in",
     "en": "Techno Crane Operator"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Techno Crane Operator"
-  },
   "notation": [
     "0124140"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Techno%20Crane%20Operator"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

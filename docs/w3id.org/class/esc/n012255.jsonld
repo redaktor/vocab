@@ -7,9 +7,6 @@
     "de": "Assistenz Make-up Artist",
     "en": "Assistant Makeup Artist"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Assistant Makeup Artist"
-  },
   "notation": [
     "012255"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Assistant%20Makeup%20Artist"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -7,9 +7,6 @@
     "de": "Epk Produzent*in",
     "en": "Epk Producer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Epk Producer"
-  },
   "notation": [
     "011366"
   ],
@@ -20,6 +17,11 @@
       "en": "Camera"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Epk%20Producer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

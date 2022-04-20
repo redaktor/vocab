@@ -7,9 +7,6 @@
     "de": "Bereitschaft Requisiteur*in",
     "en": "Standby Property Master"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Standby Property Master"
-  },
   "notation": [
     "0117112"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Standby%20Property%20Master"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

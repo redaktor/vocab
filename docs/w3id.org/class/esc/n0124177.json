@@ -7,9 +7,6 @@
     "de": "Militärische*r Berater*in",
     "en": "Military Consultant"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Military Consultant"
-  },
   "notation": [
     "0124177"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Military%20Consultant"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

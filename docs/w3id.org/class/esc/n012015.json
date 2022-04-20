@@ -8,10 +8,8 @@
     "en": "Publicist"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die für die Veröffentlichung, Freigabe oder Herausgabe einer Ressource verantwortlich ist",
     "en": "A person or organization responsible for publishing, releasing, or issuing a resource"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Publicist"
   },
   "notation": [
     "012015"
@@ -23,6 +21,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Publicist"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/pbl"

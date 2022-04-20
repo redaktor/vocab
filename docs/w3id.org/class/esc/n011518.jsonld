@@ -7,9 +7,6 @@
     "de": "Komponist*in des Haupttitelthemas",
     "en": "Main Title Theme Composer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Main Title Theme Composer"
-  },
   "notation": [
     "011518"
   ],
@@ -20,6 +17,11 @@
       "en": "Music"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Main%20Title%20Theme%20Composer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

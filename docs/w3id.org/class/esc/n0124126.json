@@ -7,9 +7,6 @@
     "de": "Tierbändiger*in",
     "en": "Animal Wrangler"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Animal Wrangler"
-  },
   "notation": [
     "0124126"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Animal%20Wrangler"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

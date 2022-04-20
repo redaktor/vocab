@@ -7,9 +7,6 @@
     "de": "O.B. Beleuchtung",
     "en": "O.B. Lighting"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#O.B. Lighting"
-  },
   "notation": [
     "011841"
   ],
@@ -20,6 +17,11 @@
       "en": "Lighting"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#O.B.%20Lighting"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

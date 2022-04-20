@@ -7,9 +7,6 @@
     "de": "Kostümmeister*in",
     "en": "Costume Mistress"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Costume Mistress"
-  },
   "notation": [
     "012260"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Costume%20Mistress"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

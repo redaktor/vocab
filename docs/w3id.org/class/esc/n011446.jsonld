@@ -7,9 +7,6 @@
     "de": "Toneffekte",
     "en": "Sound Effects"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Sound Effects"
-  },
   "notation": [
     "011446"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Sound%20Effects"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

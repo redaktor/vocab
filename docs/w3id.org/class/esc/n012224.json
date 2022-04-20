@@ -7,9 +7,6 @@
     "de": "Perückenmacher*in",
     "en": "Wigmaker"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Wigmaker"
-  },
   "notation": [
     "012224"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Wigmaker"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

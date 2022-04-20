@@ -7,9 +7,6 @@
     "de": "Zweite Einheit",
     "en": "Second Unit"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Second Unit"
-  },
   "notation": [
     "012415"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Second%20Unit"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -7,9 +7,6 @@
     "de": "Chefbeleuchter*in",
     "en": "Chief Lighting Technician"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Chief Lighting Technician"
-  },
   "notation": [
     "011826"
   ],
@@ -20,6 +17,11 @@
       "en": "Lighting"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Chief%20Lighting%20Technician"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

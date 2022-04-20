@@ -7,9 +7,6 @@
     "de": "Überwachung Ton-Edit",
     "en": "Supervising Sound Editor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Supervising Sound Editor"
-  },
   "notation": [
     "011422"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Supervising%20Sound%20Editor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

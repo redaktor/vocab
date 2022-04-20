@@ -7,9 +7,6 @@
     "de": "Kulissenschieber*in",
     "en": "Set Runner"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Set Runner"
-  },
   "notation": [
     "0124185"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Set%20Runner"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

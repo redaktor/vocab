@@ -8,10 +8,8 @@
     "en": "Animation"
   },
   "definition": {
+    "de": "Eine Person, die zu einem Bewegtbildwerk oder Computerprogramm beiträgt, indem sie unbelebten Objekten oder Zeichnungen scheinbare Bewegung verleiht. Für den Schöpfer der Zeichnungen, die animiert werden, siehe Künstler",
     "en": "A person contributing to a moving image work or computer program by giving apparent movement to inanimate objects or drawings. For the creator of the drawings that are animated, see artist"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Animation"
   },
   "notation": [
     "012311"
@@ -23,6 +21,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Animation"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/anm"

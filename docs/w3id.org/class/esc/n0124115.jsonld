@@ -7,9 +7,6 @@
     "de": "Co-Dialog",
     "en": "Additional Dialogue"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Additional Dialogue"
-  },
   "notation": [
     "0124115"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Additional%20Dialogue"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

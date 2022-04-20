@@ -7,9 +7,6 @@
     "de": "Ankleiderequisite",
     "en": "Dressing Prop"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Dressing Prop"
-  },
   "notation": [
     "011777"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Dressing%20Prop"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

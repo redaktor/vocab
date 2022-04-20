@@ -8,10 +8,8 @@
     "en": "Engineer"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die für die technische Planung und Gestaltung, insbesondere im Bauwesen, verantwortlich ist",
     "en": "A person or organization that is responsible for technical planning and design, particularly with construction"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Engineer"
   },
   "notation": [
     "012025"
@@ -23,6 +21,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Engineer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/eng"

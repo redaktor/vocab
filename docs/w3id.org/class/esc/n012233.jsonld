@@ -7,9 +7,6 @@
     "de": "Näher*in",
     "en": "Seamstress"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Seamstress"
-  },
   "notation": [
     "012233"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Seamstress"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

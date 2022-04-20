@@ -7,9 +7,6 @@
     "de": "Leitung Kostüm",
     "en": "Lead Costumer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Lead Costumer"
-  },
   "notation": [
     "012275"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Lead%20Costumer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

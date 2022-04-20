@@ -7,9 +7,6 @@
     "de": "Kamera-Praktikant*in",
     "en": "Camera Trainee"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Camera Trainee"
-  },
   "notation": [
     "011358"
   ],
@@ -20,6 +17,11 @@
       "en": "Camera"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Camera%20Trainee"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

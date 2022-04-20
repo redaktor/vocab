@@ -16,10 +16,8 @@
     ]
   },
   "definition": {
+    "de": "Eine Person, die ein Forschungsprojekt leitet oder verwaltet",
     "en": "A person who directed or managed a research project"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Head of Research"
   },
   "notation": [
     "0120101"
@@ -31,6 +29,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Head%20of%20Research"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/rth"

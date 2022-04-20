@@ -8,10 +8,8 @@
     "en": "Proofreader"
   },
   "definition": {
+    "de": "Eine Person, die Druckerzeugnisse korrigiert. Für Manuskripte verwenden Sie Corrector [crr]",
     "en": "A person who corrects printed matter. For manuscripts, use Corrector [crr]"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Proofreader"
   },
   "notation": [
     "011266"
@@ -23,6 +21,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Proofreader"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/pfr"

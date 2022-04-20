@@ -8,10 +8,8 @@
     "en": "Binding designer"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die für die Gestaltung des Einbands eines Buches verantwortlich ist, einschließlich der Art des Einbands, der verwendeten Materialien und aller dekorativen Aspekte des Einbands",
     "en": "A person or organization responsible for the binding design of a book, including the type of binding, the type of materials used, and any decorative aspects of the binding"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Binding designer"
   },
   "notation": [
     "0117126"
@@ -23,6 +21,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Binding%20designer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/bdd"

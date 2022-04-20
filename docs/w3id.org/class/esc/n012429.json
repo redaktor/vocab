@@ -7,9 +7,6 @@
     "de": "Dokumentation und Unterstützung",
     "en": "Documentation & Support"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Documentation & Support"
-  },
   "notation": [
     "012429"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Documentation%20&%20Support"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

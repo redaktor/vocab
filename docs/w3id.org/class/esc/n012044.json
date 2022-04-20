@@ -8,10 +8,8 @@
     "en": "Researcher"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die für die Durchführung von Forschungsarbeiten verantwortlich ist",
     "en": "A person or organization responsible for performing research"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Researcher"
   },
   "notation": [
     "012044"
@@ -23,6 +21,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Researcher"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/res"

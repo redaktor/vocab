@@ -7,9 +7,6 @@
     "de": "Regisseur*in für visuelle Effekte",
     "en": "Visual Effects Director"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Visual Effects Director"
-  },
   "notation": [
     "0123112"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Visual%20Effects%20Director"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

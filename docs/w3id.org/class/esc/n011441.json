@@ -7,9 +7,6 @@
     "de": "Auszubildende*r Tonmeister*in",
     "en": "Apprentice Sound Editor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Apprentice Sound Editor"
-  },
   "notation": [
     "011441"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Apprentice%20Sound%20Editor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

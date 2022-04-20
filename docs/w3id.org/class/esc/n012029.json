@@ -16,10 +16,8 @@
     ]
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die mit der Produktion (Requisiten, Beleuchtung, Spezialeffekte usw.) einer musikalischen oder dramatischen Präsentation oder Unterhaltung zu tun hat",
     "en": "A person or organization associated with the production (props, lighting, special effects, etc.) of a musical or dramatic presentation or entertainment"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Other"
   },
   "notation": [
     "012029"
@@ -31,6 +29,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Other"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/prd"

@@ -15,9 +15,6 @@
       "in memoriam"
     ]
   },
-  "scopeNote": {
-    "en": "themoviedb.org#In Memory Of"
-  },
   "notation": [
     "0124129"
   ],
@@ -28,6 +25,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#In%20Memory%20Of"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -8,10 +8,8 @@
     "en": "Donor"
   },
   "definition": {
+    "de": "Ein ehemaliger Eigentümer eines Gegenstands, der diesen Gegenstand einem anderen Eigentümer geschenkt hat",
     "en": "A former owner of an item who donated that item to another owner"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Donor"
   },
   "notation": [
     "0011"
@@ -23,6 +21,11 @@
       "en": "Generic or major role"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Donor"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/dnr"

@@ -7,9 +7,6 @@
     "de": "Beleuchtungstechniker*in",
     "en": "Lighting Technician"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Lighting Technician"
-  },
   "notation": [
     "011811"
   ],
@@ -20,6 +17,11 @@
       "en": "Lighting"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Lighting%20Technician"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

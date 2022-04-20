@@ -8,10 +8,8 @@
     "en": "Commentator for written text"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die für den Kommentar oder die Erläuterungen zu einem Text verantwortlich ist. Für den Verfasser von handschriftlichen Anmerkungen in einem gedruckten Buch, verwenden Sie Annotator",
     "en": "A person or organization responsible for the commentary or explanatory notes about a text. For the writer of manuscript annotations in a printed book, use Annotator"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Commentator for written text"
   },
   "notation": [
     "011267"
@@ -23,6 +21,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Commentator%20for%20written%20text"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/cwt"

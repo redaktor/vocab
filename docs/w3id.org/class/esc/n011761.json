@@ -7,9 +7,6 @@
     "de": "Praktikant*in für Art Direction",
     "en": "Art Direction Intern"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Art Direction Intern"
-  },
   "notation": [
     "011761"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Art%20Direction%20Intern"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

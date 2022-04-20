@@ -8,10 +8,8 @@
     "en": "Electrician"
   },
   "definition": {
+    "de": "Eine Person, die für den Aufbau einer Beleuchtungsanlage und die Fokussierung der Lichter für eine Produktion verantwortlich ist und die Beleuchtung während einer Aufführung steuert",
     "en": "A person responsible for setting up a lighting rig and focusing the lights for a production, and running the lighting at a performance"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Electrician"
   },
   "notation": [
     "011823"
@@ -23,6 +21,11 @@
       "en": "Lighting"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Electrician"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/elg"

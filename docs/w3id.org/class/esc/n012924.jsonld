@@ -8,10 +8,8 @@
     "en": "Enacting jurisdiction"
   },
   "definition": {
+    "de": "Eine Gerichtsbarkeit, die ein Gesetz, eine Verordnung, eine Verfassung, eine Gerichtsordnung usw. erlässt",
     "en": "A jurisdiction enacting a law, regulation, constitution, court rule, etc."
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Enacting jurisdiction"
   },
   "notation": [
     "012924"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Enacting%20jurisdiction"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/enj"

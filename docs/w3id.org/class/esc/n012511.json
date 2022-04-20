@@ -7,9 +7,6 @@
     "de": "Tuscheur*in",
     "en": "Inker"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Inker"
-  },
   "notation": [
     "012511"
   ],
@@ -20,6 +17,11 @@
       "en": "Comic"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Inker"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -7,9 +7,6 @@
     "de": "Abspielkoordinator*in",
     "en": "Playback Coordinator"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Playback Coordinator"
-  },
   "notation": [
     "0124178"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Playback%20Coordinator"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

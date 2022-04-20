@@ -8,10 +8,8 @@
     "en": "Author in quotations or text abstracts"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, deren Arbeit in Werken, zu denen sie nicht direkt beigetragen hat, weitgehend zitiert oder entnommen wird. Solche Zitate finden sich insbesondere in Ausstellungskatalogen, Fotosammlungen usw.",
     "en": "A person or organization whose work is largely quoted or extracted in works to which he or she did not contribute directly. Such quotations are found particularly in exhibition catalogs, collections of photographs, etc."
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Author in quotations or text abstracts"
   },
   "notation": [
     "011268"
@@ -23,6 +21,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Author%20in%20quotations%20or%20text%20abstracts"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/aqt"

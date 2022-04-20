@@ -7,9 +7,6 @@
     "de": "VFX-Künstler*in",
     "en": "VFX Artist"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#VFX Artist"
-  },
   "notation": [
     "012331"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#VFX%20Artist"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

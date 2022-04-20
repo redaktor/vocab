@@ -4,8 +4,11 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn203",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn203",
   "prefLabel": {
-    "de": " Ort der Veröffentlichung",
+    "de": "Ort der Veröffentlichung",
     "en": "Location of Publication"
+  },
+  "definition": {
+    "de": "Der Ort, an dem eine Ressource veröffentlicht wird."
   },
   "notation": [
     "203"

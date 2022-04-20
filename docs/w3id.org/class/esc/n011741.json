@@ -7,9 +7,6 @@
     "de": "Bau Vorarbeiter*in",
     "en": "Construction Foreman"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Construction Foreman"
-  },
   "notation": [
     "011741"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Construction%20Foreman"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

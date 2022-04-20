@@ -8,10 +8,8 @@
     "en": "Dialogue"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die für den Dialog oder den gesprochenen Kommentar für ein Drehbuch oder eine Tonaufnahme verantwortlich ist",
     "en": "A person or organization responsible for the dialog or spoken commentary for a screenplay or sound recording"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Dialogue"
   },
   "notation": [
     "011218"
@@ -23,6 +21,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Dialogue"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/aud"

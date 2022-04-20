@@ -7,9 +7,6 @@
     "de": "Settings",
     "en": "Settings"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Settings"
-  },
   "notation": [
     "011721"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Settings"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/stg"

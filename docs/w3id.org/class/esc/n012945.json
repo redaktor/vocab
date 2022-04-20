@@ -8,10 +8,8 @@
     "en": "Respondent-appellant"
   },
   "definition": {
+    "de": "Ein Beklagter, der bei einem anderen Gericht oder einer anderen Gerichtsbarkeit Berufung einlegt, um das Urteil aufzuheben, in der Regel im Rahmen eines Billigkeitsverfahrens",
     "en": "A respondent who takes an appeal from one court or jurisdiction to another to reverse the judgment, usually in an equity proceeding"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Respondent-appellant"
   },
   "notation": [
     "012945"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Respondent-appellant"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/rst"

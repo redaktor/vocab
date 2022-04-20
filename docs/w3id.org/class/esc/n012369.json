@@ -7,9 +7,6 @@
     "de": "Mechanik Designer*in",
     "en": "Mechanical Designer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Mechanical Designer"
-  },
   "notation": [
     "012369"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Mechanical%20Designer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

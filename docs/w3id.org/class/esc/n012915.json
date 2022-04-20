@@ -8,10 +8,8 @@
     "en": "Respondent-appellee"
   },
   "definition": {
+    "de": "Ein Beklagter, gegen den von einem Gericht oder einer Gerichtsbarkeit ein Rechtsmittel eingelegt wird, um das Urteil aufzuheben, normalerweise in einem Billigkeitsverfahren",
     "en": "A respondent against whom an appeal is taken from one court or jurisdiction to another to reverse the judgment, usually in an equity proceeding"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Respondent-appellee"
   },
   "notation": [
     "012915"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Respondent-appellee"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/rse"

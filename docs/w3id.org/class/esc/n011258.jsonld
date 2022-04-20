@@ -8,10 +8,8 @@
     "en": "Writer of introduction"
   },
   "definition": {
+    "de": "Eine Person, Familie oder Organisation, die einen Beitrag zu einer Ressource leistet, indem sie eine Einleitung zum Originalwerk liefert",
     "en": "A person, family, or organization contributing to a resource by providing an introduction to the original work"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Writer of introduction"
   },
   "notation": [
     "011258"
@@ -23,6 +21,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Writer%20of%20introduction"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/win"

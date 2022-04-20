@@ -7,9 +7,6 @@
     "de": "Charge Bühnenbildner",
     "en": "Charge Scenic Artist"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Charge Scenic Artist"
-  },
   "notation": [
     "0124156"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Charge%20Scenic%20Artist"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

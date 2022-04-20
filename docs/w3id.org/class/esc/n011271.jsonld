@@ -8,10 +8,8 @@
     "en": "Facsimilist"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die das Faksimile erstellt hat",
     "en": "A person or organization that executed the facsimile"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Facsimilist"
   },
   "notation": [
     "011271"
@@ -23,6 +21,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Facsimilist"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/fac"

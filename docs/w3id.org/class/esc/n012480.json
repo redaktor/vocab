@@ -7,9 +7,6 @@
     "de": "Leiter*in der Qualitätskontrolle",
     "en": "Quality Control Supervisor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Quality Control Supervisor"
-  },
   "notation": [
     "012480"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Quality%20Control%20Supervisor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

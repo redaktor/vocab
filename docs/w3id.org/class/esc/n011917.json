@@ -7,9 +7,6 @@
     "de": "Drehbuchbetreuer*in",
     "en": "Script Supervisor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Script Supervisor"
-  },
   "notation": [
     "011917"
   ],
@@ -20,6 +17,11 @@
       "en": "Directing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Script%20Supervisor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

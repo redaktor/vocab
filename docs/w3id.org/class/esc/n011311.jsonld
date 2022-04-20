@@ -8,10 +8,8 @@
     "en": "Director of Photography"
   },
   "definition": {
+    "de": "Eine Person, die für das Fotografieren eines Kinofilms verantwortlich ist, die die technischen Aspekte der Beleuchtung und des Fotografierens von Szenen plant und oft den Regisseur bei der Wahl von Winkeln, Kameraeinstellungen und Lichtstimmungen unterstützt. Er oder sie kann auch die Weiterverarbeitung des gefilmten Materials bis zur Fertigstellung der Filmkopie beaufsichtigen. Der Kameramann wird auch als Director of Photography bezeichnet. Nicht zu verwechseln mit Videofilmer",
     "en": "A person in charge of photographing a motion picture, who plans the technical aspets of lighting and photographing of scenes, and often assists the director in the choice of angles, camera setups, and lighting moods. He or she may also supervise the further processing of filmed material up to the completion of the work print. Cinematographer is also referred to as director of photography. Do not confuse with videographer"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Director of Photography"
   },
   "notation": [
     "011311"
@@ -23,6 +21,11 @@
       "en": "Camera"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Director%20of%20Photography"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/cng"

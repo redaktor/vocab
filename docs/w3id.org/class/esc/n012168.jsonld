@@ -8,10 +8,8 @@
     "en": "Corrector"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die Manuskripte korrigiert, z. B. ein Skriptoriumsbeamter, der die Arbeit eines Schreibers korrigiert. Für Drucksachen verwenden Sie Proofreader",
     "en": "A person or organization who is a corrector of manuscripts, such as the scriptorium official who corrected the work of a scribe. For printed matter, use Proofreader"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Corrector"
   },
   "notation": [
     "012168"
@@ -23,6 +21,11 @@
       "en": "Editing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Corrector"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/crr"

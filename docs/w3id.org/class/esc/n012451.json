@@ -7,9 +7,6 @@
     "de": "Postproduktionsmanager*in",
     "en": "Post-Production Manager"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Post-Production Manager"
-  },
   "notation": [
     "012451"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Post-Production%20Manager"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

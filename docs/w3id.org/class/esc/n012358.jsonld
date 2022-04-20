@@ -7,9 +7,6 @@
     "de": "3D Tracking Layout",
     "en": "3D Tracking Layout"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#3D Tracking Layout"
-  },
   "notation": [
     "012358"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#3D%20Tracking%20Layout"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -8,10 +8,8 @@
     "en": "Contestee"
   },
   "definition": {
+    "de": "Person(en) oder Organisation, die eine Forderung, eine Entscheidung, ein Ergebnis usw. verteidigt, das vor einem Gericht angefochten, bekämpft oder bestritten wird",
     "en": "A person(s) or organization defending a claim, decision, result, etc. being opposed, resisted, or disputed in a court of law"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Contestee"
   },
   "notation": [
     "012926"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Contestee"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/cts"

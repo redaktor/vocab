@@ -7,9 +7,6 @@
     "de": "Mischtechniker*in",
     "en": "Mixing Engineer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Mixing Engineer"
-  },
   "notation": [
     "012449"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Mixing%20Engineer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

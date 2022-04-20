@@ -7,9 +7,6 @@
     "de": "Transport Co-Kapitän*in",
     "en": "Transportation Co-Captain"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Transportation Co-Captain"
-  },
   "notation": [
     "012474"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Transportation%20Co-Captain"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

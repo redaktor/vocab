@@ -8,10 +8,8 @@
     "en": "Photographer"
   },
   "definition": {
+    "de": "Eine Person, Familie oder Organisation, die für die Erstellung eines fotografischen Werks verantwortlich ist",
     "en": "A person, family, or organization responsible for creating a photographic work"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Photographer"
   },
   "notation": [
     "011712"
@@ -23,6 +21,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Photographer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/pht"

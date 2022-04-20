@@ -7,9 +7,6 @@
     "de": "Titelgrafik",
     "en": "Title Graphics"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Title Graphics"
-  },
   "notation": [
     "012484"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Title%20Graphics"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

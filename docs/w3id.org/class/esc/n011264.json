@@ -8,10 +8,8 @@
     "en": "Narrator"
   },
   "definition": {
+    "de": "Ein ausübender Künstler, der zu einer Ressource beiträgt, indem er eine Handlung, ein Ereignis, einen Ablauf usw. lesend oder sprechend schildert",
     "en": "A performer contributing to a resource by reading or speaking in order to give an account of an act, occurrence, course of events, etc"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Narrator"
   },
   "notation": [
     "011264"
@@ -23,6 +21,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Narrator"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/nrt"

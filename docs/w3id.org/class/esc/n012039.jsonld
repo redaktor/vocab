@@ -16,10 +16,8 @@
     ]
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die die Hauptverantwortung für alle wesentlichen Aspekte eines Projekts trägt, die Gesamtverantwortung für das Management von Projekten hat oder einem Projektmanager die Gesamtleitung überträgt",
     "en": "A person or organization with primary responsibility for all essential aspects of a project, has overall responsibility for managing projects, or provides overall direction to a project manager"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Production Director"
   },
   "notation": [
     "012039"
@@ -31,6 +29,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Production%20Director"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/pdr"

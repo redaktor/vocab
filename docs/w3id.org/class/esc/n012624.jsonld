@@ -8,10 +8,8 @@
     "en": "Woodcutter"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die Drucke herstellt, indem sie das Bild im Relief auf die Plankseite eines Holzblocks schneidet",
     "en": "A person or organization who makes prints by cutting the image in relief on the plank side of a wood block"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Woodcutter"
   },
   "notation": [
     "012624"
@@ -23,6 +21,11 @@
       "en": "Manufacturing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Woodcutter"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/wdc"

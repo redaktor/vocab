@@ -8,10 +8,8 @@
     "en": "Permitting agency"
   },
   "definition": {
+    "de": "Eine Organisation (in der Regel eine Regierungsbehörde), die Genehmigungen ausstellt, auf deren Grundlage Arbeiten durchgeführt werden",
     "en": "An organization (usually a government agency) that issues permits under which work is accomplished"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Permitting agency"
   },
   "notation": [
     "012939"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Permitting%20agency"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/pma"

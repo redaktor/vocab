@@ -7,9 +7,6 @@
     "de": "Assistenz Tontechniker*in",
     "en": "Assistant Sound Engineer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Assistant Sound Engineer"
-  },
   "notation": [
     "011464"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Assistant%20Sound%20Engineer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

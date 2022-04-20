@@ -8,10 +8,8 @@
     "en": "Draftsman"
   },
   "definition": {
+    "de": "Eine Person, Familie oder Organisation, die zu einer Ressource eines Architekten, Erfinders usw. beiträgt, indem sie detaillierte Pläne oder Zeichnungen für Gebäude, Schiffe, Flugzeuge, Maschinen, Gegenstände usw. anfertigt",
     "en": "A person, family, or organization contributing to a resource by an architect, inventor, etc., by making detailed plans or drawings for buildings, ships, aircraft, machines, objects, etc"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Draftsman"
   },
   "notation": [
     "0117127"
@@ -23,6 +21,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Draftsman"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/drm"

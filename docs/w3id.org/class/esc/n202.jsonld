@@ -7,6 +7,9 @@
     "de": "Ort des Inhalts",
     "en": "Location of Content"
   },
+  "definition": {
+    "de": "Der Ort, der im Inhalt dargestellt oder beschrieben wird. Zum Beispiel der Ort, der in einer Fotografie oder einem Gemälde gezeigt wird."
+  },
   "notation": [
     "202"
   ],

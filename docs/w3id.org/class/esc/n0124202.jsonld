@@ -7,9 +7,6 @@
     "de": "Waffenbetreuer*in",
     "en": "Weapons Wrangler"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Weapons Wrangler"
-  },
   "notation": [
     "0124202"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Weapons%20Wrangler"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

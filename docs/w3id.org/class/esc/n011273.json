@@ -8,10 +8,8 @@
     "en": "Analyst"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die Daten oder Informationen in einem bestimmten Bereich überprüft, untersucht und interpretiert",
     "en": "A person or organization that reviews, examines and interprets data or information in a specific area"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Analyst"
   },
   "notation": [
     "011273"
@@ -23,6 +21,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Analyst"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/anl"

@@ -7,9 +7,6 @@
     "de": "Polizeiberater*in",
     "en": "Police Consultant"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Police Consultant"
-  },
   "notation": [
     "0124179"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Police%20Consultant"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

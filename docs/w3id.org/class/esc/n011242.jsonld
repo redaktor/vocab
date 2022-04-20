@@ -7,9 +7,6 @@
     "de": "Junior-Story-Editor",
     "en": "Junior Story Editor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Junior Story Editor"
-  },
   "notation": [
     "011242"
   ],
@@ -20,6 +17,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Junior%20Story%20Editor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

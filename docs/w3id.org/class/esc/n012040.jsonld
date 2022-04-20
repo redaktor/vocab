@@ -7,9 +7,6 @@
     "de": "Ausführend verantwortlich für die Produktion",
     "en": "Executive In Charge Of Production"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Executive In Charge Of Production"
-  },
   "notation": [
     "012040"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Executive%20In%20Charge%20Of%20Production"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -7,9 +7,6 @@
     "de": "Drehbuchautor*in",
     "en": "Writer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Writer"
-  },
   "notation": [
     "011219"
   ],
@@ -20,6 +17,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Writer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

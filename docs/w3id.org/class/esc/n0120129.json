@@ -8,10 +8,8 @@
     "en": "Production Secretary"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die als Protokollant, Redakteur oder sonstiger Verantwortlicher für den Ausdruck der Ansichten einer Organisation fungiert",
     "en": "A person or organization who is a recorder, redactor, or other person responsible for expressing the views of a organization"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Production Secretary"
   },
   "notation": [
     "0120129"
@@ -23,6 +21,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Production%20Secretary"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/sec"

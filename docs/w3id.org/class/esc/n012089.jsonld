@@ -7,9 +7,6 @@
     "de": "Assistenz des ausführenden Produzenten",
     "en": "Executive Producer's Assistant"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Executive Producer's Assistant"
-  },
   "notation": [
     "012089"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Executive%20Producer's%20Assistant"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

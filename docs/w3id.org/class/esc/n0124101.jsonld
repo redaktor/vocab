@@ -7,9 +7,6 @@
     "de": "Dramaturgie",
     "en": "Dramaturgy"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Dramaturgy"
-  },
   "notation": [
     "0124101"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Dramaturgy"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

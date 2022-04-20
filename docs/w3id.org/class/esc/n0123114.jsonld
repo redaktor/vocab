@@ -7,9 +7,6 @@
     "de": "Produktionsassistent*in für visuelle Effekte",
     "en": "Visual Effects Production Assistant"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Visual Effects Production Assistant"
-  },
   "notation": [
     "0123114"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Visual%20Effects%20Production%20Assistant"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

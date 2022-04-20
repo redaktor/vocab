@@ -7,9 +7,6 @@
     "de": "Technische*r Direktor*in für die Pipeline",
     "en": "Pipeline Technical Director"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Pipeline Technical Director"
-  },
   "notation": [
     "012397"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Pipeline%20Technical%20Director"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

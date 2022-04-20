@@ -16,10 +16,8 @@
     ]
   },
   "definition": {
+    "de": "Eine Person, die nach dem Drehbuch und in kreativer Zusammenarbeit mit dem Regisseur das gefilmte Material auswählt, arrangiert und zusammenfügt, die Synchronisation von Bild und Ton kontrolliert und an anderen Aufgaben der Postproduktion wie der Tonmischung und der Bearbeitung visueller Effekte beteiligt ist.  Heutzutage wird die Bildbearbeitung häufig digital durchgeführt.",
     "en": "A person who, following the script and in creative cooperation with the Director, selects, arranges, and assembles the filmed material, controls the synchronization of picture and sound, and participates in other post-production tasks such as sound mixing and visual effects processing.  Today, picture editing is often performed digitally."
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Script Editor"
   },
   "notation": [
     "011236"
@@ -31,6 +29,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Script%20Editor"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/flm"

@@ -7,9 +7,6 @@
     "de": "Herstellende Requisiteur*in",
     "en": "Prop Maker"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Prop Maker"
-  },
   "notation": [
     "012473"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Prop%20Maker"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

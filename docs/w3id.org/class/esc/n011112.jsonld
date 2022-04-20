@@ -8,10 +8,8 @@
     "en": "Court reporter"
   },
   "definition": {
-    "en": "A person, family, or organization contributing to a resource by preparing a court's opinions for publication"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Court reporter"
+    "de": "Eine Person, Familie oder Organisation, die zu einer Ressource beiträgt, indem sie von einem Prozeß berichtet oder ein Gerichtsurteil zur Veröffentlichung vorbereitet",
+    "en": "A person, family, or organization contributing to a resource by reporting from court or preparing a court's opinions for publication"
   },
   "notation": [
     "011112"
@@ -23,6 +21,11 @@
       "en": "Coverage"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Court%20reporter"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/crt"

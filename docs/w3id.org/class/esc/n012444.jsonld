@@ -8,10 +8,8 @@
     "en": "Compositor"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die für die Herstellung von Metallformen oder Formen aus anderen Materialien verantwortlich ist, die für die Produktion von Text und Bildern in Druckerzeugnissen verwendet werden",
     "en": "A person or organization responsible for the creation of metal slug, or molds made of other materials, used to produce the text and images in printed matter"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Compositor"
   },
   "notation": [
     "012444"
@@ -23,6 +21,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Compositor"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/cmt"

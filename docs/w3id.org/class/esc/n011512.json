@@ -8,10 +8,8 @@
     "en": "Musician"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die Musik ausführt oder zum musikalischen Inhalt eines Werkes beiträgt, wenn es nicht möglich oder wünschenswert ist, die Funktion genauer zu bestimmen",
     "en": "A person or organization who performs music or contributes to the musical content of a work when it is not possible or desirable to identify the function more precisely"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Musician"
   },
   "notation": [
     "011512"
@@ -23,6 +21,11 @@
       "en": "Music"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Musician"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/mus"

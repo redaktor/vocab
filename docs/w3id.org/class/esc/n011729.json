@@ -7,9 +7,6 @@
     "de": "Hintergrunddesigner*in",
     "en": "Background Designer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Background Designer"
-  },
   "notation": [
     "011729"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Background%20Designer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

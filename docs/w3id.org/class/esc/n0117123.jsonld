@@ -8,10 +8,8 @@
     "en": "Stereotyper"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die eine neue Druckplatte durch Abformen oder Kopieren einer anderen Druckfläche herstellt",
     "en": "A person or organization who creates a new plate for printing by molding or copying another printing surface"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Stereotyper"
   },
   "notation": [
     "0117123"
@@ -23,6 +21,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Stereotyper"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/str"

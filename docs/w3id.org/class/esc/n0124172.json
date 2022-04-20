@@ -7,9 +7,6 @@
     "de": "Haupt-Spezialeffekte",
     "en": "Key Special Effects"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Key Special Effects"
-  },
   "notation": [
     "0124172"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Key%20Special%20Effects"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -7,9 +7,6 @@
     "de": "Hauptankleider*in",
     "en": "Key Dresser"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Key Dresser"
-  },
   "notation": [
     "012273"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Key%20Dresser"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

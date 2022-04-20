@@ -15,9 +15,6 @@
       "distributed by"
     ]
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Distributor"
-  },
   "notation": [
     "012711"
   ],
@@ -28,6 +25,11 @@
       "en": "Distribution"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Distributor"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/dst"

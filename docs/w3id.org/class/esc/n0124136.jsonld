@@ -7,9 +7,6 @@
     "de": "Produzent*in für digitale Effekte",
     "en": "Digital Effects Producer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Digital Effects Producer"
-  },
   "notation": [
     "0124136"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Digital%20Effects%20Producer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

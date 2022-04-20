@@ -7,9 +7,6 @@
     "de": "Zweite Assistenz Unit Manager",
     "en": "Second Assistant Unit Manager"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Second Assistant Unit Manager"
-  },
   "notation": [
     "0120134"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Second%20Assistant%20Unit%20Manager"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

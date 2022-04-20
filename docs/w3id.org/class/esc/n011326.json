@@ -7,9 +7,6 @@
     "de": "Co-Standfotograf*in",
     "en": "Additional Still Photographer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Additional Still Photographer"
-  },
   "notation": [
     "011326"
   ],
@@ -20,6 +17,11 @@
       "en": "Camera"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Additional%20Still%20Photographer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

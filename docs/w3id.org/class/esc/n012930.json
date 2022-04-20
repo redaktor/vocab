@@ -8,10 +8,8 @@
     "en": "Judge"
   },
   "definition": {
+    "de": "Eine Person, die vor Gericht Rechtsangelegenheiten anhört und darüber entscheidet.",
     "en": "A person who hears and decides on legal matters in court."
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Judge"
   },
   "notation": [
     "012930"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Judge"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/jud"

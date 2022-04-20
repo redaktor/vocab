@@ -7,9 +7,6 @@
     "de": "Geräusche Aufnahmetechnik",
     "en": "Foley Recording Engineer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Foley Recording Engineer"
-  },
   "notation": [
     "011469"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Foley%20Recording%20Engineer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

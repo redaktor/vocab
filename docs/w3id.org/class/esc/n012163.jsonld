@@ -8,10 +8,8 @@
     "en": "Cartographer"
   },
   "definition": {
+    "de": "Eine Person, Familie oder Organisation, die für die Erstellung einer Karte, eines Atlasses, eines Globus oder eines anderen kartografischen Werks verantwortlich ist",
     "en": "A person, family, or organization responsible for creating a map, atlas, globe, or other cartographic work"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Cartographer"
   },
   "notation": [
     "012163"
@@ -23,6 +21,11 @@
       "en": "Editing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Cartographer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/ctg"

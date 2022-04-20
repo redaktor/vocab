@@ -7,9 +7,6 @@
     "de": "Assistenz Handwerksdienst",
     "en": "Assistant Craft Service"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Assistant Craft Service"
-  },
   "notation": [
     "0124145"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Assistant%20Craft%20Service"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -8,10 +8,8 @@
     "en": "Field Director"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die die Arbeit zur Sammlung von Rohdaten oder zur Durchführung von Forschungsarbeiten in einem konkreten Umfeld leitet oder überwacht (gilt in der Regel für die Natur- und Sozialwissenschaften)",
     "en": "A person or organization that manages or supervises the work done to collect raw data or do research in an actual setting or environment (typically applies to the natural and social sciences)"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Field Director"
   },
   "notation": [
     "011932"
@@ -23,6 +21,11 @@
       "en": "Directing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Field%20Director"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/fld"

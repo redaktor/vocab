@@ -7,9 +7,6 @@
     "de": "Ausführende Koproduzent*in",
     "en": "Executive Co-Producer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Executive Co-Producer"
-  },
   "notation": [
     "012088"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Executive%20Co-Producer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

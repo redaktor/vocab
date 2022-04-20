@@ -7,9 +7,6 @@
     "de": "Gesang",
     "en": "Vocals"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Vocals"
-  },
   "notation": [
     "011532"
   ],
@@ -20,6 +17,11 @@
       "en": "Music"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Vocals"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/vac"

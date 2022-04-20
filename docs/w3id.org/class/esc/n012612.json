@@ -8,10 +8,8 @@
     "en": "Engraver"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die Buchstaben, Zahlen usw. in eine Oberfläche, z. B. eine Holz- oder Metallplatte für den Druck, schneidet",
     "en": "A person or organization who cuts letters, figures, etc. on a surface, such as a wooden or metal plate used for printing"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Engraver"
   },
   "notation": [
     "012612"
@@ -23,6 +21,11 @@
       "en": "Manufacturing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Engraver"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/egr"

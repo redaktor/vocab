@@ -7,9 +7,6 @@
     "de": "Senior Generalist*in",
     "en": "Senior Generalist"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Senior Generalist"
-  },
   "notation": [
     "0123102"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Senior%20Generalist"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

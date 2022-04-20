@@ -8,10 +8,8 @@
     "en": "Music Director"
   },
   "definition": {
+    "de": "Eine Person, die die Tätigkeiten des Komponisten, des Tonmeisters und des Tonmischers für eine Bewegtbildproduktion oder für eine musikalische oder dramatische Darbietung oder Unterhaltung koordiniert",
     "en": "A person who coordinates the activities of the composer, the sound editor, and sound mixers for a moving image production or for a musical or dramatic presentation or entertainment"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Music Director"
   },
   "notation": [
     "011511"
@@ -23,6 +21,11 @@
       "en": "Music"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Music%20Director"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/msd"

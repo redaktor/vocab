@@ -8,10 +8,8 @@
     "en": "Costume Designer"
   },
   "definition": {
+    "de": "Eine Person, Familie oder Organisation, die die Kostüme für eine Bewegtbildproduktion oder für eine musikalische oder dramatische Präsentation oder Unterhaltung entwirft",
     "en": "A person, family, or organization that designs the costumes for a moving image production or for a musical or dramatic presentation or entertainment"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Costume Designer"
   },
   "notation": [
     "012211"
@@ -23,6 +21,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Costume%20Designer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/cst"

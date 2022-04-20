@@ -7,9 +7,6 @@
     "de": "Lkw-Aufsicht",
     "en": "Truck Supervisor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Truck Supervisor"
-  },
   "notation": [
     "012287"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Truck%20Supervisor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

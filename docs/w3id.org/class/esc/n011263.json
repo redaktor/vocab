@@ -8,10 +8,8 @@
     "en": "Storyteller"
   },
   "definition": {
+    "de": "Ein ausübender Künstler, der zu einer Quelle beiträgt, indem er die ursprüngliche Geschichte des Schöpfers mit einer dramatischen oder theatralischen Interpretation wiedergibt",
     "en": "A performer contributing to a resource by relaying a creator's original story with dramatic or theatrical interpretation"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Storyteller"
   },
   "notation": [
     "011263"
@@ -23,6 +21,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Storyteller"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/stl"

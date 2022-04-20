@@ -7,9 +7,6 @@
     "de": "Erste Assistenz, Hairstylist*in",
     "en": "First Assistant Hairstylist"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#First Assistant Hairstylist"
-  },
   "notation": [
     "012269"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#First%20Assistant%20Hairstylist"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

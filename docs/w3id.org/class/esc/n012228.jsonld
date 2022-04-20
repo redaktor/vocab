@@ -7,9 +7,6 @@
     "de": "Leitung Frisuren und Perücken",
     "en": "Hair Department Head"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Hair Department Head"
-  },
   "notation": [
     "012228"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Hair%20Department%20Head"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

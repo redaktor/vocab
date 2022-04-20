@@ -8,10 +8,8 @@
     "en": "Videographer"
   },
   "definition": {
+    "de": "Eine Person, die für eine Videoproduktion verantwortlich ist, z. B. für die Videoaufzeichnung einer Bühnenproduktion im Gegensatz zu einem kommerziellen Kinofilm. Der Videofilmer kann der Kameramann sein oder einen oder mehrere Kameramänner beaufsichtigen. Nicht zu verwechseln mit Kameramann",
     "en": "A person in charge of a video production, e.g. the video recording of a stage production as opposed to a commercial motion picture. The videographer may be the camera operator or may supervise one or more camera operators. Do not confuse with cinematographer"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Videographer"
   },
   "notation": [
     "011116"
@@ -23,6 +21,11 @@
       "en": "Coverage"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Videographer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/vdg"

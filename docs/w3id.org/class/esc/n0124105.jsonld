@@ -7,9 +7,6 @@
     "de": "Kreativ-Berater*in",
     "en": "Creative Consultant"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Creative Consultant"
-  },
   "notation": [
     "0124105"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Creative%20Consultant"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

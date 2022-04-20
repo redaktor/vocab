@@ -7,9 +7,6 @@
     "de": "Set-Fotograf*in",
     "en": "Set Photographer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Set Photographer"
-  },
   "notation": [
     "011384"
   ],
@@ -20,6 +17,11 @@
       "en": "Camera"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Set%20Photographer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

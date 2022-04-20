@@ -8,10 +8,8 @@
     "en": "Correspondent"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die entweder der Verfasser oder der Empfänger eines Briefes oder einer anderen Mitteilung war",
     "en": "A person or organization who was either the writer or recipient of a letter or other communication"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Correspondent"
   },
   "notation": [
     "011113"
@@ -23,6 +21,11 @@
       "en": "Coverage"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Correspondent"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/crp"

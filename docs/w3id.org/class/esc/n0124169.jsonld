@@ -7,9 +7,6 @@
     "de": "Interaktiv-Manager*in",
     "en": "Interactive Manager"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Interactive Manager"
-  },
   "notation": [
     "0124169"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Interactive%20Manager"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

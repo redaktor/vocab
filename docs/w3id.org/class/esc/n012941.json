@@ -8,10 +8,8 @@
     "en": "First party"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die als einzige Partei oder als Partei der ersten Partei identifiziert wird. Im Falle der Übertragung von Rechten ist dies der Zedent, der Übertragende, der Lizenzgeber, der Erteiler usw. Mehrere Parteien können gemeinsam als die erste Partei benannt werden.",
     "en": "A person or organization who is identified as the only party or the party of the first party. In the case of transfer of rights, this is the assignor, transferor, licensor, grantor, etc. Multiple parties can be named jointly as the first party"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#First party"
   },
   "notation": [
     "012941"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#First%20party"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/fpy"

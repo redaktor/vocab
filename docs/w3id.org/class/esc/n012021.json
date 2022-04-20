@@ -8,10 +8,8 @@
     "en": "Book producer"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die für die Produktion von Büchern und anderen Printmedien verantwortlich ist",
     "en": "A person or organization responsible for the production of books and other print media"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Book producer"
   },
   "notation": [
     "012021"
@@ -23,6 +21,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Book%20producer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/bkp"

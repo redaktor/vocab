@@ -7,9 +7,6 @@
     "de": "Make-up & Haare",
     "en": "Makeup & Hair"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Makeup & Hair"
-  },
   "notation": [
     "012276"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Makeup%20&%20Hair"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

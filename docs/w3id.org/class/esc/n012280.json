@@ -7,9 +7,6 @@
     "de": "Hauptkonditor*in",
     "en": "Principal Costumer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Principal Costumer"
-  },
   "notation": [
     "012280"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Principal%20Costumer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

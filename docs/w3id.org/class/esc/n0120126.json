@@ -7,9 +7,6 @@
     "de": "Produktionsfahrer*in",
     "en": "Production Driver"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Production Driver"
-  },
   "notation": [
     "0120126"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Production%20Driver"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

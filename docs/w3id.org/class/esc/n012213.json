@@ -7,9 +7,6 @@
     "de": "Maskenbildner*in",
     "en": "Makeup Artist"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Makeup Artist"
-  },
   "notation": [
     "012213"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Makeup%20Artist"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

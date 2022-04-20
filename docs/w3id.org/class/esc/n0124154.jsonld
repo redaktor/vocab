@@ -7,9 +7,6 @@
     "de": "Chaperone",
     "en": "Chaperone"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Chaperone"
-  },
   "notation": [
     "0124154"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Chaperone"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

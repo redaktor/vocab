@@ -7,9 +7,6 @@
     "de": "Redaktionskoordinator*in",
     "en": "Editorial Coordinator"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Editorial Coordinator"
-  },
   "notation": [
     "012118"
   ],
@@ -20,6 +17,11 @@
       "en": "Editing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Editorial%20Coordinator"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

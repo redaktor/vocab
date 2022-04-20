@@ -8,10 +8,8 @@
     "en": "Surveyor"
   },
   "definition": {
+    "de": "Eine Person, Familie oder Organisation, die zu einer kartografischen Ressource beiträgt, indem sie Maße oder Maßverhältnisse für das dargestellte geografische Gebiet bereitstellt",
     "en": "A person, family, or organization contributing to a cartographic resource by providing measurements or dimensional relationships for the geographic area represented"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Surveyor"
   },
   "notation": [
     "012912"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Surveyor"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/srv"

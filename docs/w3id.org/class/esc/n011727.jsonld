@@ -8,10 +8,8 @@
     "en": "Sculptor"
   },
   "definition": {
+    "de": "Ein Künstler, der ein dreidimensionales Werk durch Modellieren, Schnitzen oder eine ähnliche Technik schafft",
     "en": "An artist responsible for creating a three-dimensional work by modeling, carving, or similar technique"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Sculptor"
   },
   "notation": [
     "011727"
@@ -23,6 +21,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Sculptor"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/scl"

@@ -8,10 +8,8 @@
     "en": "Thesis advisor"
   },
   "definition": {
+    "de": "Eine Person, unter deren Aufsicht ein Diplomand eine Dissertation, ein Mémoire oder einen Dissertationstext ausarbeitet und vorlegt",
     "en": "A person under whose supervision a degree candidate develops and presents a thesis, mémoire, or text of a dissertation"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Thesis advisor"
   },
   "notation": [
     "011265"
@@ -23,6 +21,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Thesis%20advisor"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/ths"

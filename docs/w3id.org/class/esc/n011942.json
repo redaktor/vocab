@@ -8,10 +8,8 @@
     "en": "Stage Director"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die durch die Gesamtleitung und Überwachung einer Aufführung zu einer Bühnenressource beiträgt",
     "en": "A person or organization contributing to a stage resource through the overall management and supervision of a performance"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Stage Director"
   },
   "notation": [
     "011942"
@@ -23,6 +21,11 @@
       "en": "Directing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Stage%20Director"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/sgd"

@@ -7,9 +7,6 @@
     "de": "BTS Footage",
     "en": "BTS Footage"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#BTS Footage"
-  },
   "notation": [
     "011352"
   ],
@@ -20,6 +17,11 @@
       "en": "Camera"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#BTS%20Footage"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

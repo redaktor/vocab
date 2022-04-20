@@ -8,10 +8,8 @@
     "en": "Television producer"
   },
   "definition": {
+    "de": "Ein Produzent, der für die meisten geschäftlichen Aspekte eines Fernsehprogramms verantwortlich ist",
     "en": "A producer responsible for most of the business aspects of a television program"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Television producer"
   },
   "notation": [
     "012019"
@@ -23,6 +21,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Television%20producer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/tlp"

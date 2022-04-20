@@ -8,10 +8,8 @@
     "en": "Bookjacket designer"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die für die Gestaltung flexibler Einbände verantwortlich ist, die für ein Buch entworfen oder mit diesem veröffentlicht werden, einschließlich der Art der verwendeten Materialien und aller dekorativen Aspekte des Buchumschlags",
     "en": "A person or organization responsible for the design of flexible covers designed for or published with a book, including the type of materials used, and any decorative aspects of the bookjacket"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Bookjacket designer"
   },
   "notation": [
     "0117125"
@@ -23,6 +21,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Bookjacket%20designer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/bjd"

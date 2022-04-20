@@ -7,9 +7,6 @@
     "de": "Storyboard",
     "en": "Storyboard"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Storyboard"
-  },
   "notation": [
     "011221"
   ],
@@ -20,6 +17,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Storyboard"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

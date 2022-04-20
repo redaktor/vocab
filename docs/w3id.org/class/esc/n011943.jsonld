@@ -8,10 +8,8 @@
     "en": "Stage Manager"
   },
   "definition": {
+    "de": "Eine Person, die für alles verantwortlich ist, was auf einer Aufführungsbühne geschieht, und die als Chef aller Crews und Assistent eines Regisseurs während der Proben fungiert",
     "en": "A person who is in charge of everything that occurs on a performance stage, and who acts as chief of all crews and assistant to a director during rehearsals"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Stage Director"
   },
   "notation": [
     "011943"
@@ -23,6 +21,11 @@
       "en": "Directing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Stage%20Director"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/stm"

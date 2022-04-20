@@ -8,10 +8,8 @@
     "en": "Libelant-appellant"
   },
   "definition": {
+    "de": "Ein Kläger, der bei einem kirchlichen Gericht oder einer Admiralität Berufung einlegt, um das Urteil aufzuheben",
     "en": "A libelant who takes an appeal from one ecclesiastical court or admiralty to another to reverse the judgment"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Libelant-appellant"
   },
   "notation": [
     "012932"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Libelant-appellant"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/lit"

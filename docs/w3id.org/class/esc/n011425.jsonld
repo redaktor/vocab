@@ -8,10 +8,8 @@
     "en": "Recording Supervision"
   },
   "definition": {
+    "de": "Eine Person, die zu einer Ressource beiträgt, indem sie die technischen Aspekte einer Ton- oder Videoaufnahme überwacht",
     "en": "A person contributing to a resource by supervising the technical aspects of a sound or video recording session"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Recording Supervision"
   },
   "notation": [
     "011425"
@@ -23,6 +21,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Recording%20Supervision"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/rce"

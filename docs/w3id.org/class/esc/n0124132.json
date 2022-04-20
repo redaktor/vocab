@@ -8,10 +8,8 @@
     "en": "Onscreen presenter"
   },
   "definition": {
+    "de": "Ein ausübender Künstler, der zur Darstellung eines Werks beiträgt, indem er auf der Leinwand in nichtfiktionalem Bewegtbildmaterial oder in Einführungen zu fiktionalem Bewegtbildmaterial erscheint, um Kontext- oder Hintergrundinformationen zu liefern. Verwendung, wenn ein anderer Begriff (z. B. Erzähler, Moderator) entweder nicht anwendbar oder nicht erwünscht ist",
     "en": "A performer contributing to an expression of a work by appearing on screen in nonfiction moving image materials or introductions to fiction moving image materials to provide contextual or background information. Use when another term (e.g., narrator, host) is either not applicable or not desired"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Presenter"
   },
   "notation": [
     "0124132"
@@ -23,6 +21,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Presenter"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/osp"

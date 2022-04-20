@@ -7,9 +7,6 @@
     "de": "Waage-Kopf-Techniker*in",
     "en": "Libra Head Technician"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Libra Head Technician"
-  },
   "notation": [
     "011375"
   ],
@@ -20,6 +17,11 @@
       "en": "Camera"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Libra%20Head%20Technician"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

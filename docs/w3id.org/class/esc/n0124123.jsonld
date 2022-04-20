@@ -7,9 +7,6 @@
     "de": "Redaktion",
     "en": "Editorial Staff"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Editorial Staff"
-  },
   "notation": [
     "0124123"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Editorial%20Staff"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

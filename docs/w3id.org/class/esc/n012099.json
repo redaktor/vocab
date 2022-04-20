@@ -7,9 +7,6 @@
     "de": "Leiter*in der Produktion",
     "en": "Head of Production"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Head of Production"
-  },
   "notation": [
     "012099"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Head%20of%20Production"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

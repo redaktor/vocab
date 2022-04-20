@@ -7,9 +7,6 @@
     "de": "Bildwissenschaft",
     "en": "Imaging Science"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Imaging Science"
-  },
   "notation": [
     "012334"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Imaging%20Science"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

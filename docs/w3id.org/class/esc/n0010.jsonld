@@ -8,10 +8,8 @@
     "en": "Sponsor"
   },
   "definition": {
+    "de": "Eine Person, Familie oder Organisation, die einen bestimmten Aspekt einer Ressource sponsert, z. B. die Finanzierung von Forschung, das Sponsoring einer Veranstaltung",
     "en": "A person, family, or organization sponsoring some aspect of a resource, e.g., funding research, sponsoring an event"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Sponsor"
   },
   "notation": [
     "0010"
@@ -23,6 +21,11 @@
       "en": "Generic or major role"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Sponsor"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/spn"

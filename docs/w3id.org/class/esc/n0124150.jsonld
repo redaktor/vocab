@@ -7,9 +7,6 @@
     "de": "Kapitän*in Fahrer",
     "en": "Captain Driver"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Captain Driver"
-  },
   "notation": [
     "0124150"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Captain%20Driver"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

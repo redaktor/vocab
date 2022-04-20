@@ -8,10 +8,8 @@
     "en": "Scribe"
   },
   "definition": {
+    "de": "Eine Person, die als Amanuensis und für einen Verfasser von Manuskripten im eigentlichen Sinne tätig ist. Für eine Person, die Stift-Faksimiles anfertigt, wird Facsimilist [fac] verwendet.",
     "en": "A person who is an amanuensis and for a writer of manuscripts proper. For a person who makes pen-facsimiles, use Facsimilist [fac]"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Scribe"
   },
   "notation": [
     "011275"
@@ -23,6 +21,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Scribe"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/scr"

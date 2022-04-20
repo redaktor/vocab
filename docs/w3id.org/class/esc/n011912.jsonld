@@ -8,10 +8,8 @@
     "en": "Film director"
   },
   "definition": {
+    "de": "Ein Regisseur, der für die allgemeine Leitung und Beaufsichtigung einer gefilmten Aufführung verantwortlich ist",
     "en": "A director responsible for the general management and supervision of a filmed performance"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Film director"
   },
   "notation": [
     "011912"
@@ -23,6 +21,11 @@
       "en": "Directing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Film%20director"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/fmd"

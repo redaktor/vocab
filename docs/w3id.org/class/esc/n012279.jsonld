@@ -7,9 +7,6 @@
     "de": "Maskenbildner*in am Set",
     "en": "On Set Dresser"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#On Set Dresser"
-  },
   "notation": [
     "012279"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#On%20Set%20Dresser"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

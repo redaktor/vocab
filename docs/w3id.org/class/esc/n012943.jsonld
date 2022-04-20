@@ -8,10 +8,8 @@
     "en": "Respondent"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die vor Gericht eine Antwort auf einen Antrag auf Wiedergutmachung (in der Regel in einem Billigkeitsverfahren) gibt, oder ein Kandidat für einen akademischen Grad, der eine vom Präses vorgelegte These in einer akademischen Disputation verteidigt oder ablehnt",
     "en": "A person or organization who makes an answer to the courts pursuant to an application for redress (usually in an equity proceeding) or a candidate for a degree who defends or opposes a thesis provided by the praeses in an academic disputation"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Respondent"
   },
   "notation": [
     "012943"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Respondent"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/rsp"

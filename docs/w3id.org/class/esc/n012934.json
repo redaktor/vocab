@@ -8,10 +8,8 @@
     "en": "Contestant-appellee"
   },
   "definition": {
+    "de": "Eine Person, gegen die ein Rechtsmittel von einem Gericht oder einer Gerichtsbarkeit bei einem anderen Gericht eingelegt wird, um die Entscheidung aufzuheben",
     "en": "A contestant against whom an appeal is taken from one court of law or jurisdiction to another to reverse the judgment"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Contestant-appellee"
   },
   "notation": [
     "012934"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Contestant-appellee"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/coe"

@@ -7,9 +7,6 @@
     "de": "Bildhauer*in für Prothetik",
     "en": "Prosthetics Sculptor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Prosthetics Sculptor"
-  },
   "notation": [
     "012283"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Prosthetics%20Sculptor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

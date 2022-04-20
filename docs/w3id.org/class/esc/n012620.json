@@ -8,10 +8,8 @@
     "en": "Manufacturer"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die für das Drucken, Vervielfältigen, Gießen usw. eines Hilfsmittels verantwortlich ist",
     "en": "A person or organization responsible for printing, duplicating, casting, etc. a resource"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Manufacturer"
   },
   "notation": [
     "012620"
@@ -23,6 +21,11 @@
       "en": "Manufacturing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Manufacturer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/mfr"

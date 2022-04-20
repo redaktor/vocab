@@ -8,10 +8,8 @@
     "en": "Libelee"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, gegen die eine Verleumdungsklage vor einem kirchlichen Gericht oder einer Admiralität eingereicht wurde",
     "en": "A person or organization against whom a libel has been filed in an ecclesiastical court or admiralty"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Libelee"
   },
   "notation": [
     "012923"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Libelee"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/lel"

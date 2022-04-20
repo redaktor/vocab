@@ -7,9 +7,6 @@
     "de": "VFX Director of Photography",
     "en": "VFX Director of Photography"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#VFX Director of Photography"
-  },
   "notation": [
     "012374"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#VFX%20Director%20of%20Photography"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

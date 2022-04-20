@@ -7,9 +7,6 @@
     "de": "Assistenz Ton-Editor",
     "en": "Assistant Sound Editor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Assistant Sound Editor"
-  },
   "notation": [
     "011443"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Assistant%20Sound%20Editor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

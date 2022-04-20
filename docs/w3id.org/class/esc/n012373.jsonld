@@ -7,9 +7,6 @@
     "de": "Stereoskopie Koordinator*in",
     "en": "Stereoscopic Coordinator"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Stereoscopic Coordinator"
-  },
   "notation": [
     "012373"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Stereoscopic%20Coordinator"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

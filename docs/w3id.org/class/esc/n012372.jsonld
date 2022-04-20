@@ -7,9 +7,6 @@
     "de": "Roto-Kontrolle",
     "en": "Roto Supervisor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Roto Supervisor"
-  },
   "notation": [
     "012372"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Roto%20Supervisor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

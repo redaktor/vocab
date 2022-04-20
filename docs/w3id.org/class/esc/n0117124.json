@@ -8,10 +8,8 @@
     "en": "Book designer"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die an der Herstellung einer Manifestation beteiligt ist, indem sie für die gesamte grafische Gestaltung eines Buches verantwortlich ist, einschließlich der Anordnung von Schrift und Illustration, der Auswahl der Materialien und des verwendeten Verfahrens",
     "en": "A person or organization involved in manufacturing a manifestation by being responsible for the entire graphic design of a book, including arrangement of type and illustration, choice of materials, and process used"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Book designer"
   },
   "notation": [
     "0117124"
@@ -23,6 +21,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Book%20designer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/bkd"

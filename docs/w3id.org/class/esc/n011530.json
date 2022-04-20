@@ -7,9 +7,6 @@
     "de": "Produzent*in von Musiknoten",
     "en": "Music Score Producer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Music Score Producer"
-  },
   "notation": [
     "011530"
   ],
@@ -20,6 +17,11 @@
       "en": "Music"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Music%20Score%20Producer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

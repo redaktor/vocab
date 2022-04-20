@@ -7,9 +7,6 @@
     "de": "Kontrolle Zimmerei",
     "en": "Supervising Carpenter"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Supervising Carpenter"
-  },
   "notation": [
     "0117115"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Supervising%20Carpenter"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

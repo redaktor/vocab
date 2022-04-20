@@ -8,10 +8,8 @@
     "en": "Inscriber"
   },
   "definition": {
+    "de": "Eine Person, die eine Widmungs- oder Schenkungserklärung verfasst hat",
     "en": "A person who has written a statement of dedication or gift"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Inscriber"
   },
   "notation": [
     "012164"
@@ -23,6 +21,11 @@
       "en": "Editing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Inscriber"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/ins"

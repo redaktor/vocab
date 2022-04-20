@@ -7,9 +7,6 @@
     "de": "Erste Assistenz des Bildredakteurs",
     "en": "First Assistant Picture Editor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#First Assistant Picture Editor"
-  },
   "notation": [
     "012152"
   ],
@@ -20,6 +17,11 @@
       "en": "Editing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#First%20Assistant%20Picture%20Editor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

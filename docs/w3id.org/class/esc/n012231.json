@@ -7,9 +7,6 @@
     "de": "Assistent*in Kostümbild",
     "en": "Assistant Costume Designer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Assistant Costume Designer"
-  },
   "notation": [
     "012231"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Assistant%20Costume%20Designer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

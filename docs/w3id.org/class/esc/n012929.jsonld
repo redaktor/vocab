@@ -8,10 +8,8 @@
     "en": "Contestee-appellant"
   },
   "definition": {
+    "de": "Eine Person, die ein Rechtsmittel bei einem anderen Gericht oder einer anderen Gerichtsbarkeit einlegt, um das Urteil aufzuheben",
     "en": "A contestee who takes an appeal from one court or jurisdiction to another to reverse the judgment"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Contestee-appellant"
   },
   "notation": [
     "012929"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Contestee-appellant"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/ctt"

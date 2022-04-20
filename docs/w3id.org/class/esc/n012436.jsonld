@@ -7,9 +7,6 @@
     "de": "Leiter*in der Informationssysteme",
     "en": "Information Systems Manager"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Information Systems Manager"
-  },
   "notation": [
     "012436"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Information%20Systems%20Manager"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

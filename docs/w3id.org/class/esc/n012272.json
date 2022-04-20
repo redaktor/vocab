@@ -7,9 +7,6 @@
     "de": "Friseur*in",
     "en": "Hairdresser"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Hairdresser"
-  },
   "notation": [
     "012272"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Hairdresser"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -7,9 +7,6 @@
     "de": "Co-Key-Grip",
     "en": "Additional Key Grip"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Additional Key Grip"
-  },
   "notation": [
     "011345"
   ],
@@ -20,6 +17,11 @@
       "en": "Camera"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Additional%20Key%20Grip"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

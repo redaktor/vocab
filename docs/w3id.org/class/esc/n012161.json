@@ -8,10 +8,8 @@
     "en": "Redaktor"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die den Rahmen für einen Artikel schreibt oder entwickelt, ohne intellektuell für dessen Inhalt verantwortlich zu sein",
     "en": "A person or organization who writes or develops the framework for an item without being intellectually responsible for its content"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Redaktor"
   },
   "notation": [
     "012161"
@@ -23,6 +21,11 @@
       "en": "Editing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Redaktor"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/red"

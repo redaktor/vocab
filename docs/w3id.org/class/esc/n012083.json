@@ -8,10 +8,8 @@
     "en": "Data Management Technician"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die für die Verwaltung von Datenbanken oder anderen Datenquellen verantwortlich ist",
     "en": "A person or organization responsible for managing databases or other data sources"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Data Management Technician"
   },
   "notation": [
     "012083"
@@ -23,6 +21,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Data%20Management%20Technician"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/dtm"

@@ -7,9 +7,6 @@
     "de": "Kostüm-Illustrator*in",
     "en": "Costume Illustrator"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Costume Illustrator"
-  },
   "notation": [
     "012238"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Costume%20Illustrator"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

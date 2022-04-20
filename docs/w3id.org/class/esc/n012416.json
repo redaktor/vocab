@@ -7,9 +7,6 @@
     "de": "Stunts",
     "en": "Stunts"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Stunts"
-  },
   "notation": [
     "012416"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Stunts"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -8,10 +8,8 @@
     "en": "Research Assistant"
   },
   "definition": {
+    "de": "Eine Person, die an einem Forschungsprojekt mitgewirkt hat, deren Rolle jedoch nicht in der Leitung oder Verwaltung des Projekts bestand",
     "en": "A person who participated in a research project but whose role did not involve direction or management of it"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Research Assistant"
   },
   "notation": [
     "0120131"
@@ -23,6 +21,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Research%20Assistant"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/rtm"

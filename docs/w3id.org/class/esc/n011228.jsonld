@@ -7,9 +7,6 @@
     "de": "Kreativ-Produzent*in",
     "en": "Creative Producer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Creative Producer"
-  },
   "notation": [
     "011228"
   ],
@@ -20,6 +17,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Creative%20Producer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

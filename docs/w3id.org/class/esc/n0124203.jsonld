@@ -8,10 +8,8 @@
     "en": "Programmer"
   },
   "definition": {
+    "de": "Eine Person, Familie oder Organisation, die für die Erstellung eines Computerprogramms verantwortlich ist",
     "en": "A person, family, or organization responsible for creating a computer program"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Programmer"
   },
   "notation": [
     "0124203"
@@ -23,6 +21,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Programmer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/prg"

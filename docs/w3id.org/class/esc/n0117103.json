@@ -7,9 +7,6 @@
     "de": "Einkäufer*in für Dekoration",
     "en": "Set Dressing Buyer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Set Dressing Buyer"
-  },
   "notation": [
     "0117103"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Set%20Dressing%20Buyer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

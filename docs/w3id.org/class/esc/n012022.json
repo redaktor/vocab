@@ -8,10 +8,8 @@
     "en": "Laboratory director"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die Arbeiten in einem kontrollierten Umfeld leitet oder beaufsichtigt",
     "en": "A person or organization that manages or supervises work done in a controlled setting or environment"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Laboratory director"
   },
   "notation": [
     "012022"
@@ -23,6 +21,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Laboratory%20director"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/ldr"

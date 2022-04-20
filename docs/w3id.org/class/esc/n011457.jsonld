@@ -7,9 +7,6 @@
     "de": "ADR-Mischer*in",
     "en": "ADR Mixer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#ADR Mixer"
-  },
   "notation": [
     "011457"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#ADR%20Mixer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

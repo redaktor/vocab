@@ -8,10 +8,8 @@
     "en": "Restager"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die nicht der ursprüngliche Choreograf oder Regisseur ist und die für die Neuinszenierung eines choreografischen oder dramatischen Werks verantwortlich ist und die nur einen minimalen neuen Inhalt beisteuert",
     "en": "A person or organization, other than the original choreographer or director, responsible for restaging a choreographic or dramatic work and who contributes minimal new content"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Restager"
   },
   "notation": [
     "0117129"
@@ -23,6 +21,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Restager"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/rsg"

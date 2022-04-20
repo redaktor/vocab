@@ -4,14 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011256",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011256",
   "prefLabel": {
-    "de": " Verfasser*in der Einleitung usw.",
+    "de": "Verfasser*in der Einleitung usw.",
     "en": "Author of introduction, etc."
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die für eine Einleitung, ein Vorwort, ein Vorwort oder einen anderen kritischen einleitenden Text verantwortlich ist, aber nicht der Hauptautor ist",
     "en": "A person or organization responsible for an introduction, preface, foreword, or other critical introductory matter, but who is not the chief author"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Author of introduction, etc."
   },
   "notation": [
     "011256"
@@ -23,6 +21,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Author%20of%20introduction,%20etc."
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/aui"

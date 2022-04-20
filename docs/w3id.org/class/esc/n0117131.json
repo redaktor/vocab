@@ -8,10 +8,8 @@
     "en": "Art copyist"
   },
   "definition": {
+    "de": "Eine Person (z. B. ein Maler oder Bildhauer), die Kopien von Werken der bildenden Kunst anfertigt",
     "en": "A person (e.g., a painter or sculptor) who makes copies of works of visual art"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Art copyist"
   },
   "notation": [
     "0117131"
@@ -23,6 +21,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Art%20copyist"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/acp"

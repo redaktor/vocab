@@ -7,9 +7,6 @@
     "de": "Lohnbuchhalter*in",
     "en": "Payroll Accountant"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Payroll Accountant"
-  },
   "notation": [
     "0120116"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Payroll%20Accountant"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

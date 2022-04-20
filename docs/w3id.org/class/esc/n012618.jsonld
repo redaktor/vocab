@@ -8,10 +8,8 @@
     "en": "Binder"
   },
   "definition": {
+    "de": "Eine Person, die einen Gegenstand bindet",
     "en": "A person who binds an item"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Binder"
   },
   "notation": [
     "012618"
@@ -23,6 +21,11 @@
       "en": "Manufacturing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Binder"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/bnd"

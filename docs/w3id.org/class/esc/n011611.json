@@ -7,9 +7,6 @@
     "de": "Hauptdarsteller*in",
     "en": "LeadPerformer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#LeadPerformer"
-  },
   "notation": [
     "011611"
   ],
@@ -20,6 +17,11 @@
       "en": "Actors"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#LeadPerformer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

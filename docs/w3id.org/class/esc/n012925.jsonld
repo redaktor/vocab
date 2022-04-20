@@ -8,10 +8,8 @@
     "en": "Libelee-appellee"
   },
   "definition": {
+    "de": "Ein Beklagter, gegen den von einem Kirchen- oder Seegericht ein Rechtsmittel bei einem anderen Gericht eingelegt wird, um das Urteil aufzuheben",
     "en": "A libelee against whom an appeal is taken from one ecclesiastical court or admiralty to another to reverse the judgment"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Libelee-appellee"
   },
   "notation": [
     "012925"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Libelee-appellee"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/lee"

@@ -7,9 +7,6 @@
     "de": "Chaperone Betreuer",
     "en": "Chaperone Tutor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Chaperone Tutor"
-  },
   "notation": [
     "0124155"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Chaperone%20Tutor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -7,9 +7,6 @@
     "de": "Assistenz Geräuschemacher*in",
     "en": "Assistant Foley Artist"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Assistant Foley Artist"
-  },
   "notation": [
     "011462"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Assistant%20Foley%20Artist"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -8,10 +8,8 @@
     "en": "Presenter"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die in einem “X präsentiert”-Credit für Bewegtbildmaterial erwähnt wird und in irgendeiner Weise mit der Produktion, der Finanzierung oder dem Vertrieb verbunden ist. Ein Eitelkeitskredit; in den Anfangsjahren normalerweise der Leiter eines Studios",
     "en": "A person or organization mentioned in an “X presents” credit for moving image materials and who is associated with production, finance, or distribution in some way.  A vanity credit;  in early years, normally the head of a studio"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Presenter"
   },
   "notation": [
     "0124133"
@@ -23,6 +21,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Presenter"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/pre"

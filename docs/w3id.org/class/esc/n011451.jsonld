@@ -7,9 +7,6 @@
     "de": "Aufführung des Titelsongs",
     "en": "Theme Song Performance"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Theme Song Performance"
-  },
   "notation": [
     "011451"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Theme%20Song%20Performance"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

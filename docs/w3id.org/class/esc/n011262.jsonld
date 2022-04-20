@@ -8,10 +8,8 @@
     "en": "Writer of added commentary"
   },
   "definition": {
+    "de": "Eine Person, Familie oder Organisation, die einen Beitrag zu einem Werk leistet, indem sie eine Interpretation oder kritische Erläuterung des Originalwerkes liefert",
     "en": "A person, family, or organization contributing to an expression of a work by providing an interpretation or critical explanation of the original work"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Writer of added commentary"
   },
   "notation": [
     "011262"
@@ -23,6 +21,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Writer%20of%20added%20commentary"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/wac"

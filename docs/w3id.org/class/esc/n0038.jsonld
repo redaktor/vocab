@@ -8,10 +8,8 @@
     "en": "Honoree"
   },
   "definition": {
+    "de": "Eine Person, Familie oder Organisation, die durch ein Werk oder einen Gegenstand geehrt wird (z. B. der Preisträger einer Festschrift, eine Person, der ein Exemplar überreicht wird)",
     "en": "A person, family, or organization honored by a work or item (e.g., the honoree of a festschrift, a person to whom a copy is presented)"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Thanks to"
   },
   "notation": [
     "0038"
@@ -23,6 +21,11 @@
       "en": "Generic or major role"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Thanks%20to"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/hnr"

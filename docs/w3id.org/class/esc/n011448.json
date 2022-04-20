@@ -7,9 +7,6 @@
     "de": "Überwachender ADR-Editor",
     "en": "Supervising ADR Editor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Supervising ADR Editor"
-  },
   "notation": [
     "011448"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Supervising%20ADR%20Editor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

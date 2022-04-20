@@ -7,9 +7,6 @@
     "de": "Spezialeffekte-Techniker*in",
     "en": "Special Effects Technician"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Special Effects Technician"
-  },
   "notation": [
     "0124189"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Special%20Effects%20Technician"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

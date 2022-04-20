@@ -7,9 +7,6 @@
     "de": "Epk Direktor*in",
     "en": "Epk Director"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Epk Director"
-  },
   "notation": [
     "011365"
   ],
@@ -20,6 +17,11 @@
       "en": "Camera"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Epk%20Director"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

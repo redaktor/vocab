@@ -7,9 +7,6 @@
     "de": "Theaterstück",
     "en": "Theatre Play"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Theatre Play"
-  },
   "notation": [
     "011216"
   ],
@@ -20,6 +17,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Theatre%20Play"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

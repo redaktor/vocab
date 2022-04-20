@@ -7,9 +7,6 @@
     "de": "Visuelle Entwicklung",
     "en": "Visual Development"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Visual Development"
-  },
   "notation": [
     "012318"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Visual%20Development"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

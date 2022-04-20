@@ -7,9 +7,6 @@
     "de": "E/A-Manager*in",
     "en": "I/O Manager"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#I/O Manager"
-  },
   "notation": [
     "012338"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#I/O%20Manager"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

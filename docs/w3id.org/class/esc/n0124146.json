@@ -7,9 +7,6 @@
     "de": "Assistenz Bildwagenkoordinatorin",
     "en": "Assistant Picture Car Coordinator"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Assistant Picture Car Coordinator"
-  },
   "notation": [
     "0124146"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Assistant%20Picture%20Car%20Coordinator"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -7,9 +7,6 @@
     "de": "Hörspiel",
     "en": "Radio Play"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Radio Play"
-  },
   "notation": [
     "0124120"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Radio%20Play"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

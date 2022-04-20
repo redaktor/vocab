@@ -8,10 +8,8 @@
     "en": "Minute taker"
   },
   "definition": {
+    "de": "Eine Person, Familie oder Organisation, die für die Aufzeichnung des Protokolls einer Sitzung verantwortlich ist",
     "en": "A person, family, or organization responsible for recording the minutes of a meeting"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Minute taker"
   },
   "notation": [
     "012024"
@@ -23,6 +21,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Minute%20taker"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/mtk"

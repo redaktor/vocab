@@ -8,10 +8,8 @@
     "en": "Opponent"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die für den Einspruch gegen eine Dissertation verantwortlich ist",
     "en": "A person or organization responsible for opposing a thesis or dissertation"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Opponent"
   },
   "notation": [
     "012938"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Opponent"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/opn"

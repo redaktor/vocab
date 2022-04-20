@@ -8,10 +8,8 @@
     "en": "Appellant"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die gegen eine Entscheidung einer unteren Instanz Berufung einlegt",
     "en": "A person or organization who appeals a lower court's decision"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Appellant"
   },
   "notation": [
     "012944"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Appellant"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/apl"

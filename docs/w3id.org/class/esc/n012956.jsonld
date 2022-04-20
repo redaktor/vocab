@@ -8,10 +8,8 @@
     "en": "Forger"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die etwas von Wert oder Bedeutung herstellt oder nachahmt, insbesondere in der Absicht, zu betrügen",
     "en": "A person or organization who makes or imitates something of value or importance, especially with the intent to defraud"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Forger"
   },
   "notation": [
     "012956"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Forger"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/frg"

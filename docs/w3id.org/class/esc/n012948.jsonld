@@ -8,10 +8,8 @@
     "en": "Defendant-appellant"
   },
   "definition": {
+    "de": "Ein Beklagter, der bei einem anderen Gericht oder einer anderen Gerichtsbarkeit Berufung einlegt, um die Entscheidung aufzuheben, in der Regel im Rahmen eines Gerichtsverfahrens",
     "en": "A defendant who takes an appeal from one court or jurisdiction to another to reverse the judgment, usually in a legal action"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Defendant-appellant"
   },
   "notation": [
     "012948"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Defendant-appellant"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/dft"

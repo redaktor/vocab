@@ -8,10 +8,8 @@
     "en": "Creator"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die für den geistigen oder künstlerischen Inhalt einer Ressource verantwortlich ist",
     "en": "A person or organization responsible for the intellectual or artistic content of a resource"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Creator"
   },
   "notation": [
     "0124114"
@@ -23,6 +21,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Creator"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/cre"

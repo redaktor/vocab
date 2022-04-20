@@ -8,10 +8,8 @@
     "en": "Architect"
   },
   "definition": {
+    "de": "Eine Person, Familie oder Organisation, die für die Erstellung eines architektonischen Entwurfs verantwortlich ist, einschließlich einer bildlichen Darstellung, die zeigen soll, wie ein Gebäude usw. nach seiner Fertigstellung aussehen wird. Sie beaufsichtigt auch den Bau von Bauwerken",
     "en": "A person, family, or organization responsible for creating an architectural design, including a pictorial representation intended to show how a building, etc., will look when completed. It also oversees the construction of structures"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Architect"
   },
   "notation": [
     "0124205"
@@ -23,6 +21,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Architect"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/arc"

@@ -7,9 +7,6 @@
     "de": "3D-Koordination",
     "en": "3D Coordinator"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#3D Coordinator"
-  },
   "notation": [
     "012354"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#3D%20Coordinator"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

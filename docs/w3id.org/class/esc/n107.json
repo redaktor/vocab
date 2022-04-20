@@ -16,10 +16,8 @@
     ]
   },
   "definition": {
+    "de": "Eine Person oder Sache, die etwas pflegt, insbesondere Computersoftware.",
     "en": "A person or thing that maintains something, in particular computer software."
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Maintainer"
   },
   "notation": [
     "107"
@@ -31,6 +29,11 @@
       "en": "attributedTo Relations"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Maintainer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

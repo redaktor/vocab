@@ -7,9 +7,6 @@
     "de": "Beleuchtung Vorarbeiter*in",
     "en": "Best Boy Electrician"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Best Boy Electrician"
-  },
   "notation": [
     "011822"
   ],
@@ -20,6 +17,11 @@
       "en": "Lighting"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Best%20Boy%20Electrician"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -7,9 +7,6 @@
     "de": "Casting-Assistenz",
     "en": "Casting Assistant"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Casting Assistant"
-  },
   "notation": [
     "012053"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Casting%20Assistant"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

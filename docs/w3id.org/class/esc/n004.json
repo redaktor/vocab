@@ -8,10 +8,8 @@
     "en": "Lead"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die die Hauptverantwortung für eine bestimmte Tätigkeit oder ein bestimmtes Unterfangen trägt. Kann mit einem anderen Relatorbegriff oder -code kombiniert werden, um die größere Bedeutung dieser Person oder Organisation in Bezug auf diese bestimmte Rolle zu zeigen. Wenn einer Rubrik mehr als ein Verantwortlicher zugeordnet ist, verwenden Sie den Begriff nur, wenn er auf alle Verantwortlichen zutrifft.",
     "en": "A person or organization that takes primary responsibility for a particular activity or endeavor. May be combined with another relator term or code to show the greater importance this person or organization has regarding that particular role. If more than one relator is assigned to a heading, use the Lead relator only if it applies to all the relators"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Lead"
   },
   "notation": [
     "004"
@@ -23,6 +21,11 @@
       "en": "Generic or major role"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Lead"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/led"

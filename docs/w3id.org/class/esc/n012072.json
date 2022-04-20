@@ -7,9 +7,6 @@
     "de": "Assistenz für die Produktion am Set",
     "en": "Back-up Set Production Assistant"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Back-up Set Production Assistant"
-  },
   "notation": [
     "012072"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Back-up%20Set%20Production%20Assistant"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

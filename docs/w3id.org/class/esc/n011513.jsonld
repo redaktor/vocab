@@ -16,10 +16,8 @@
     ]
   },
   "definition": {
+    "de": "Ein ausübender Künstler, der zu einer Ressource beiträgt, indem er seine/ihre Stimme mit oder ohne Instrumentalbegleitung einsetzt, um Musik zu produzieren. Die Darbietung eines Sängers kann, muss aber nicht unbedingt Worte enthalten.",
     "en": "A performer contributing to a resource by using his/her/their voice, with or without instrumental accompaniment, to produce music. A singer's performance may or may not include actual words"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Singer"
   },
   "notation": [
     "011513"
@@ -31,6 +29,11 @@
       "en": "Music"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Singer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/sng"

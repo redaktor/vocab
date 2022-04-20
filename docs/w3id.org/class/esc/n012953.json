@@ -8,10 +8,8 @@
     "en": "Complainant-appellee"
   },
   "definition": {
+    "de": "Ein Beschwerdeführer, gegen den von einem Gericht oder einer Gerichtsbarkeit bei einem anderen Gericht Berufung eingelegt wird, um die Entscheidung aufzuheben, in der Regel in einem Billigkeitsverfahren",
     "en": "A complainant against whom an appeal is taken from one court or jurisdiction to another to reverse the judgment, usually in an equity proceeding"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Complainant-appellee"
   },
   "notation": [
     "012953"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Complainant-appellee"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/cpe"

@@ -7,9 +7,6 @@
     "de": "Assistenz Produktionsdesign",
     "en": "Assistant Production Design"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Assistant Production Design"
-  },
   "notation": [
     "011764"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Assistant%20Production%20Design"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

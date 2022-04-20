@@ -7,9 +7,6 @@
     "de": "Verantwortlich für die Finanzen",
     "en": "Executive in Charge of Finance"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Executive in Charge of Finance"
-  },
   "notation": [
     "012497"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Executive%20in%20Charge%20of%20Finance"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

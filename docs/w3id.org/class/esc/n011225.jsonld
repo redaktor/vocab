@@ -7,9 +7,6 @@
     "de": "Musical",
     "en": "Musical"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Musical"
-  },
   "notation": [
     "011225"
   ],
@@ -20,6 +17,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Musical"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

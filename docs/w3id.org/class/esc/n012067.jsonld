@@ -7,9 +7,6 @@
     "de": "Assistenz Statisten-Casting",
     "en": "Assistant Extras Casting"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Assistant Extras Casting"
-  },
   "notation": [
     "012067"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Assistant%20Extras%20Casting"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

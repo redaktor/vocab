@@ -7,9 +7,6 @@
     "de": "Kontaktlinsenmaler*in",
     "en": "Contact Lens Painter"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Contact Lens Painter"
-  },
   "notation": [
     "012257"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Contact%20Lens%20Painter"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

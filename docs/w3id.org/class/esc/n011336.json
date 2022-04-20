@@ -7,9 +7,6 @@
     "de": "Ultimate Arm Operator",
     "en": "Ultimate Arm Operator"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Ultimate Arm Operator"
-  },
   "notation": [
     "011336"
   ],
@@ -20,6 +17,11 @@
       "en": "Camera"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Ultimate%20Arm%20Operator"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -8,10 +8,8 @@
     "en": "Typographer"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die in erster Linie für die Auswahl und Anordnung der in einem Artikel verwendeten Schrift verantwortlich ist. Wenn der Typograf auch für andere Aspekte der grafischen Gestaltung eines Buches verantwortlich ist (z. B. Buchgestalter [bkd]), können Codes für beide Funktionen erforderlich sein",
     "en": "A person or organization primarily responsible for choice and arrangement of type used in an item. If the typographer is also responsible for other aspects of the graphic design of a book (e.g., Book designer [bkd]), codes for both functions may be needed"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Typographer"
   },
   "notation": [
     "0117121"
@@ -23,6 +21,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Typographer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/tyg"

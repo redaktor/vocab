@@ -8,10 +8,8 @@
     "en": "Scientific Consultant"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die wissenschaftliche, pädagogische oder historische Kompetenz in die Konzeption und Realisierung eines Werks einbringt, insbesondere im Fall von audiovisuellen Objekten",
     "en": "A person or organization who brings scientific, pedagogical, or historical competence to the conception and realization on a work, particularly in the case of audio-visual items"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Scientific Consultant"
   },
   "notation": [
     "0124182"
@@ -23,6 +21,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Scientific%20Consultant"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/sad"

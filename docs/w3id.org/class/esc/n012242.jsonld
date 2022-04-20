@@ -7,9 +7,6 @@
     "de": "Hauptkostümbildner*in",
     "en": "Key Set Costumer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Key Set Costumer"
-  },
   "notation": [
     "012242"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Key%20Set%20Costumer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

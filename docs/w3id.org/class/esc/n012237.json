@@ -7,9 +7,6 @@
     "de": "Kostümkoordinator*in",
     "en": "Costume Coordinator"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Costume Coordinator"
-  },
   "notation": [
     "012237"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Costume%20Coordinator"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

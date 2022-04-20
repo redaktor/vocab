@@ -8,10 +8,8 @@
     "en": "Plaintiff-appellant"
   },
   "definition": {
+    "de": "Ein Kläger, der bei einem anderen Gericht oder einer anderen Gerichtsbarkeit Berufung einlegt, um das Urteil aufzuheben, in der Regel in einem Gerichtsverfahren",
     "en": "A plaintiff who takes an appeal from one court or jurisdiction to another to reverse the judgment, usually in a legal proceeding"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Plaintiff-appellant"
   },
   "notation": [
     "012947"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Plaintiff-appellant"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/ptt"

@@ -16,10 +16,8 @@
     ]
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die der Autor eines Drehbuchs für einen Kinofilm ist, im Allgemeinen die Person, die die Drehbücher für einen Kinofilm während der Stummfilmzeit geschrieben hat",
     "en": "A person or organization who is the author of a motion picture screenplay, generally the person who wrote the scenarios for a motion picture during the silent era"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Scenario Writer"
   },
   "notation": [
     "011223"
@@ -31,6 +29,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Scenario%20Writer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/sce"

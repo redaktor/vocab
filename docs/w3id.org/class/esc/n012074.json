@@ -7,9 +7,6 @@
     "de": "Rundfunkproduzent*in",
     "en": "Broadcast Producer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Broadcast Producer"
-  },
   "notation": [
     "012074"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Broadcast%20Producer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -7,9 +7,6 @@
     "de": "Digitale Betreuung",
     "en": "Digital Supervisor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Digital Supervisor"
-  },
   "notation": [
     "0124161"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Digital%20Supervisor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

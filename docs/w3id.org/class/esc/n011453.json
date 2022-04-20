@@ -7,9 +7,6 @@
     "de": "Co-Produktions-Tonmischer*in",
     "en": "Additional Production Sound Mixer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Additional Production Sound Mixer"
-  },
   "notation": [
     "011453"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Additional%20Production%20Sound%20Mixer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

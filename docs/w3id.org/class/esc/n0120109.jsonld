@@ -7,9 +7,6 @@
     "de": "Casting-Direktor*in vor Ort",
     "en": "Locale Casting Director"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Locale Casting Director"
-  },
   "notation": [
     "0120109"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Locale%20Casting%20Director"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -7,9 +7,6 @@
     "de": "Pressesprecher der Einheit",
     "en": "Unit Publicist"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Unit Publicist"
-  },
   "notation": [
     "012457"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Unit%20Publicist"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

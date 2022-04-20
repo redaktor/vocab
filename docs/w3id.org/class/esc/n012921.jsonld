@@ -8,10 +8,8 @@
     "en": "Contestant"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die sich einer Forderung, einer Entscheidung, einem Ergebnis usw. widersetzt, widersteht oder es vor Gericht anfechtet.",
     "en": "A person(s) or organization who opposes, resists, or disputes, in a court of law, a claim, decision, result, etc."
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Contestant"
   },
   "notation": [
     "012921"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Contestant"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/cos"

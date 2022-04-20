@@ -7,9 +7,6 @@
     "de": "Requisiteur*in Set",
     "en": "Set Propsman"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Set Propsman"
-  },
   "notation": [
     "0117105"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Set%20Propsman"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

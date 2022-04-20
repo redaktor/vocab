@@ -7,9 +7,6 @@
     "de": "Digital Geräuschemacher*in",
     "en": "Digital Foley Artist"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Digital Foley Artist"
-  },
   "notation": [
     "011466"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Digital%20Foley%20Artist"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

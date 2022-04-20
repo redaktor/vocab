@@ -7,9 +7,6 @@
     "de": "Co- dritter Regieassistent",
     "en": "Additional Third Assistant Director"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Additional Third Assistant Director"
-  },
   "notation": [
     "011929"
   ],
@@ -20,6 +17,11 @@
       "en": "Directing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Additional%20Third%20Assistant%20Director"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -7,9 +7,6 @@
     "de": "Kinematographie",
     "en": "Cinematography"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Cinematography"
-  },
   "notation": [
     "012488"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Cinematography"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

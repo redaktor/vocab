@@ -8,10 +8,8 @@
     "en": "Radio director"
   },
   "definition": {
+    "de": "Ein Regisseur, der für die allgemeine Leitung und Beaufsichtigung eines Radioprogramms verantwortlich ist",
     "en": "A director responsible for the general management and supervision of a radio program"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Radio director"
   },
   "notation": [
     "011914"
@@ -23,6 +21,11 @@
       "en": "Directing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Radio%20director"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/rdd"

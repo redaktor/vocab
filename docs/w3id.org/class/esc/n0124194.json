@@ -7,9 +7,6 @@
     "de": "Stuntfahrer*in",
     "en": "Stunt Driver"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Stunt Driver"
-  },
   "notation": [
     "0124194"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Stunt%20Driver"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

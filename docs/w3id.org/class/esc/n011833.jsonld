@@ -7,9 +7,6 @@
     "de": "Assistenz Elektrik",
     "en": "Assistant Electrician"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Assistant Electrician"
-  },
   "notation": [
     "011833"
   ],
@@ -20,6 +17,11 @@
       "en": "Lighting"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Assistant%20Electrician"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

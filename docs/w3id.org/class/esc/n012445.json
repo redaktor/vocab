@@ -7,9 +7,6 @@
     "de": "Tätowierer*in",
     "en": "Tattooist"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Tattooist"
-  },
   "notation": [
     "012445"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Tattooist"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

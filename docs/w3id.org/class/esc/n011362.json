@@ -7,9 +7,6 @@
     "de": "Techniker*in für digitale Bildverarbeitung",
     "en": "Digital Imaging Technician"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Digital Imaging Technician"
-  },
   "notation": [
     "011362"
   ],
@@ -20,6 +17,11 @@
       "en": "Camera"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Digital%20Imaging%20Technician"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

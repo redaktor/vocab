@@ -8,10 +8,8 @@
     "en": "Printer of plates"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die Illustrationen von Platten druckt.",
     "en": "A person or organization who prints illustrations from plates."
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Printer of plates"
   },
   "notation": [
     "012625"
@@ -23,6 +21,11 @@
       "en": "Manufacturing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Printer%20of%20plates"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/pop"

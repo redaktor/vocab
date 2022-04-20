@@ -8,10 +8,8 @@
     "en": "Libelant"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die eine Verleumdungsklage in einem kirchlichen oder admiralen Fall einreicht",
     "en": "A person or organization who files a libel in an ecclesiastical or admiralty case"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Libelant"
   },
   "notation": [
     "012914"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Libelant"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/lil"

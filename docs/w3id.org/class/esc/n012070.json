@@ -7,9 +7,6 @@
     "de": "Rechtsanwält*in, Rechtsanwalt",
     "en": "Attorney"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Attorney"
-  },
   "notation": [
     "012070"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Attorney"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

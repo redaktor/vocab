@@ -7,9 +7,6 @@
     "de": "Technische Leiter*in für Charaktere, Continuity",
     "en": "Character Technical Supervisor, Continuity"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Character Technical Supervisor"
-  },
   "notation": [
     "012035"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Character%20Technical%20Supervisor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

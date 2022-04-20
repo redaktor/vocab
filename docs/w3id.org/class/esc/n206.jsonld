@@ -7,6 +7,9 @@
     "de": "Ort der Verbreitung",
     "en": "Location of Distribution"
   },
+  "definition": {
+    "de": "Ein Ort, von dem aus eine Ressource, z. B. eine Schriftenreihe, verbreitet wird."
+  },
   "notation": [
     "206"
   ],

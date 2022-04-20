@@ -7,9 +7,6 @@
     "de": "Tägliches Make-up & Frisuren",
     "en": "Daily Makeup & Hair"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Daily Makeup & Hair"
-  },
   "notation": [
     "012264"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Daily%20Makeup%20&%20Hair"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

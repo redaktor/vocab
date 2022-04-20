@@ -8,10 +8,8 @@
     "en": "Court governed"
   },
   "definition": {
+    "de": "Ein Gericht, das sich an Gerichtsregeln hält, unabhängig von deren offizieller Natur (z. B. Gesetze, Verwaltungsvorschriften)",
     "en": "A court governed by court rules, regardless of their official nature (e.g., laws, administrative regulations)"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Court governed"
   },
   "notation": [
     "012933"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Court%20governed"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/cou"

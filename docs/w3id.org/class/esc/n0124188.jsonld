@@ -7,9 +7,6 @@
     "de": "Spezialeffekte-Manager*in",
     "en": "Special Effects Manager"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Special Effects Manager"
-  },
   "notation": [
     "0124188"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Special%20Effects%20Manager"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

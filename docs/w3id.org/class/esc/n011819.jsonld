@@ -16,10 +16,8 @@
     ]
   },
   "definition": {
+    "de": "Eine Person, die einen bestimmten Gegenstand mit Edelmetallen oder Farbe verziert, oft mit aufwendigen Designs und Motiven",
     "en": "A person providing decoration to a specific item using precious metals or color, often with elaborate designs and motifs"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Lighting Artist"
   },
   "notation": [
     "011819"
@@ -31,6 +29,11 @@
       "en": "Lighting"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Lighting%20Artist"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/ilu"

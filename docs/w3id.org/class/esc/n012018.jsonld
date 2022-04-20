@@ -8,10 +8,8 @@
     "en": "Production Manager"
   },
   "definition": {
+    "de": "Eine Person, die für alle technischen und geschäftlichen Belange einer Produktion verantwortlich ist",
     "en": "A person responsible for all technical and business matters in a production"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Production Manager"
   },
   "notation": [
     "012018"
@@ -23,6 +21,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Production%20Manager"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/pmn"

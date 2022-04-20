@@ -7,9 +7,6 @@
     "de": "Co-Set Dresser",
     "en": "Additional Set Dresser"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Additional Set Dresser"
-  },
   "notation": [
     "011757"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Additional%20Set%20Dresser"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

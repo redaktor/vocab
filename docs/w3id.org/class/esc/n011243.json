@@ -8,10 +8,8 @@
     "en": "Original Concept"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die für die ursprüngliche Idee, auf der ein Werk basiert, verantwortlich ist; dies schließt den wissenschaftlichen Autor eines audiovisuellen Artikels und den Verfasser eines Werbekonzepts ein",
     "en": "A person or organization responsible for the original idea on which a work is based, this includes the scientific author of an audio-visual item and the conceptor of an advertisement"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Original Concept"
   },
   "notation": [
     "011243"
@@ -23,6 +21,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Original%20Concept"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/ccp"

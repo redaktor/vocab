@@ -7,9 +7,6 @@
     "de": "Visuelle Effekte Produzent*in",
     "en": "Visual Effects Producer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Visual Effects Producer"
-  },
   "notation": [
     "012336"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Visual%20Effects%20Producer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

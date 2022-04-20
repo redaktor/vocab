@@ -15,6 +15,9 @@
       "Krisenintervention"
     ]
   },
+  "scopeNote": {
+    "en": "Describes Roles of Actors in Emergency Managin, see also https://shekarpour.github.io/empathi.io/#objectproperties"
+  },
   "notation": [
     "05"
   ],

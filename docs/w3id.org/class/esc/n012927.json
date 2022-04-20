@@ -8,10 +8,8 @@
     "en": "Auctioneer"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die mit der Schätzung und öffentlichen Versteigerung von Gütern, insbesondere Büchern, Kunstwerken usw., beauftragt ist",
     "en": "A person or organization in charge of the estimation and public auctioning of goods, particularly books, artistic works, etc."
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Auctioneer"
   },
   "notation": [
     "012927"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Auctioneer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/auc"

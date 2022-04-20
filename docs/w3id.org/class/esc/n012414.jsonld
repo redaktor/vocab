@@ -8,10 +8,8 @@
     "en": "Post Production Supervisor"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die Zeichnungen von architektonischen Entwürfen (d. h. Renderings) in genauer, repräsentativer Perspektive anfertigt, um zu zeigen, wie das Projekt nach seiner Fertigstellung aussehen wird",
     "en": "A person or organization who prepares drawings of architectural designs (i.e., renderings) in accurate, representational perspective to show what the project will look like when completed"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Post Production Supervisor"
   },
   "notation": [
     "012414"
@@ -23,6 +21,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Post%20Production%20Supervisor"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/ren"

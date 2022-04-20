@@ -7,9 +7,6 @@
     "de": "Erste Assistenz Buchhalter*in",
     "en": "First Assistant Accountant"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#First Assistant Accountant"
-  },
   "notation": [
     "012095"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#First%20Assistant%20Accountant"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

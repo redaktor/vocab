@@ -7,9 +7,6 @@
     "de": "Geräuschemacher*in",
     "en": "Foley Editor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Foley Editor"
-  },
   "notation": [
     "011445"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Foley%20Editor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -7,9 +7,6 @@
     "de": "Kampf-Choreograph*in",
     "en": "Fight Choreographer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Fight Choreographer"
-  },
   "notation": [
     "0124137"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Fight%20Choreographer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

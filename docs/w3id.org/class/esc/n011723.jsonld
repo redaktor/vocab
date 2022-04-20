@@ -7,9 +7,6 @@
     "de": "Koordinator*in der Kunstabteilung",
     "en": "Art Department Coordinator"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Art Department Coordinator"
-  },
   "notation": [
     "011723"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Art%20Department%20Coordinator"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

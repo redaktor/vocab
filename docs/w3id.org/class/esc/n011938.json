@@ -7,9 +7,6 @@
     "de": " Zweite*r stellvertretender Regisseur*in",
     "en": "Second Second Assistant Director"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Second Second Assistant Director"
-  },
   "notation": [
     "011938"
   ],
@@ -20,6 +17,11 @@
       "en": "Directing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Second%20Second%20Assistant%20Director"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

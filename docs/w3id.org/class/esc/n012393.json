@@ -7,9 +7,6 @@
     "de": "Verantwortlich für das Layout",
     "en": "Layout Supervisor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Layout Supervisor"
-  },
   "notation": [
     "012393"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Layout%20Supervisor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

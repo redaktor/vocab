@@ -7,9 +7,6 @@
     "de": "Dolby-Berater*in",
     "en": "Dolby Consultant"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Dolby Consultant"
-  },
   "notation": [
     "011435"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Dolby%20Consultant"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -8,10 +8,8 @@
     "en": "Conservator"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die für die Dokumentation, Bewahrung oder Bearbeitung von gedrucktem oder handschriftlichem Material, Kunstwerken, Artefakten oder anderen Medien verantwortlich ist",
     "en": "A person or organization responsible for documenting, preserving, or treating printed or manuscript material, works of art, artifacts, or other media"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Conservator"
   },
   "notation": [
     "0117130"
@@ -23,6 +21,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Conservator"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/con"

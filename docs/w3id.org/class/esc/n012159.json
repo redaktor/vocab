@@ -7,9 +7,6 @@
     "de": "CVD, Supervising Editor",
     "en": "Supervising Editor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Supervising Editor"
-  },
   "notation": [
     "012159"
   ],
@@ -20,6 +17,11 @@
       "en": "Editing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Supervising%20Editor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

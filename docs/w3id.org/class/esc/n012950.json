@@ -8,10 +8,8 @@
     "en": "Contestant-appellant"
   },
   "definition": {
+    "de": "Ein Anfechtungskläger, der von einem Gericht oder einer Gerichtsbarkeit bei einem anderen Gericht Berufung einlegt, um das Urteil aufzuheben",
     "en": "A contestant who takes an appeal from one court of law or jurisdiction to another to reverse the judgment"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Contestant-appellant"
   },
   "notation": [
     "012950"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Contestant-appellant"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/cot"

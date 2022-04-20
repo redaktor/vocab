@@ -8,10 +8,8 @@
     "en": "Second party"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die als die Partei des zweiten Teils identifiziert wird. Bei der Übertragung von Rechten ist dies der Abtretungsempfänger, Übernehmer, Lizenznehmer, Konzessionsnehmer usw. Mehrere Parteien können gemeinsam als zweiter Beteiligter benannt werden.",
     "en": "A person or organization who is identified as the party of the second part. In the case of transfer of right, this is the assignee, transferee, licensee, grantee, etc. Multiple parties can be named jointly as the second party"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Second party"
   },
   "notation": [
     "012942"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Second%20party"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/spy"

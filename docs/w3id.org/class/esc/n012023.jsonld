@@ -8,10 +8,8 @@
     "en": "Laboratory"
   },
   "definition": {
+    "de": "Eine Organisation, die wissenschaftliche Analysen von Materialproben durchführt",
     "en": "An organization that provides scientific analyses of material samples"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Laboratory"
   },
   "notation": [
     "012023"
@@ -23,6 +21,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Laboratory"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/lbr"

@@ -7,9 +7,6 @@
     "de": "Hauptmaskenbildner*in",
     "en": "Key Makeup Artist"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Key Makeup Artist"
-  },
   "notation": [
     "012241"
   ],
@@ -20,6 +17,11 @@
       "en": "Costume and Styling"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Key%20Makeup%20Artist"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

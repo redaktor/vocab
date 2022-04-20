@@ -7,9 +7,6 @@
     "de": "Buchhalter*in",
     "en": "Accountant"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Accountant"
-  },
   "notation": [
     "012058"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Accountant"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

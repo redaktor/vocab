@@ -8,10 +8,8 @@
     "en": "Reviewer"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die für die Rezension eines Buches, eines Films, einer Aufführung usw. verantwortlich ist",
     "en": "A person or organization responsible for the review of a book, motion picture, performance, etc."
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Reviewer"
   },
   "notation": [
     "012165"
@@ -23,6 +21,11 @@
       "en": "Editing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Reviewer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/rev"

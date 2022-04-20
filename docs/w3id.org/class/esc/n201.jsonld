@@ -15,6 +15,9 @@
       "Event place"
     ]
   },
+  "definition": {
+    "de": "Der Ort, an dem das Werk geschaffen wurde, nicht unbedingt identisch mit dem im Werk dargestellten Ort."
+  },
   "notation": [
     "201"
   ],

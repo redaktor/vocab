@@ -7,9 +7,6 @@
     "de": "Überwachender Dialog-Editor",
     "en": "Supervising Dialogue Editor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Supervising Dialogue Editor"
-  },
   "notation": [
     "011449"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Supervising%20Dialogue%20Editor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

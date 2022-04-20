@@ -8,10 +8,8 @@
     "en": "Jurisdiction governed"
   },
   "definition": {
+    "de": "Eine Gerichtsbarkeit, die einem Gesetz, einer Verordnung usw. unterliegt, das/die von einer anderen Gerichtsbarkeit erlassen wurde",
     "en": "A jurisdiction governed by a law, regulation, etc., that was enacted by another jurisdiction"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Jurisdiction governed"
   },
   "notation": [
     "012936"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Jurisdiction%20governed"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/jug"

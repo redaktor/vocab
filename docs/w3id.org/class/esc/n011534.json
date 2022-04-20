@@ -8,10 +8,8 @@
     "en": "Librettist"
   },
   "definition": {
+    "de": "Ein Autor eines Librettos einer Oper oder eines anderen Bühnenwerks oder eines Oratoriums",
     "en": "An author of a libretto of an opera or other stage work, or an oratorio"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Librettist"
   },
   "notation": [
     "011534"
@@ -23,6 +21,11 @@
       "en": "Music"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Librettist"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/lbt"

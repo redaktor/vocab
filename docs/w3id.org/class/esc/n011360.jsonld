@@ -7,9 +7,6 @@
     "de": "Klappe",
     "en": "Clapper Loader"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Clapper Loader"
-  },
   "notation": [
     "011360"
   ],
@@ -20,6 +17,11 @@
       "en": "Camera"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Clapper%20Loader"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -7,9 +7,6 @@
     "de": "Vertonungsmischer*in",
     "en": "Scoring Mixer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Scoring Mixer"
-  },
   "notation": [
     "011434"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Scoring%20Mixer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -8,10 +8,8 @@
     "en": "Metal-engraver"
   },
   "definition": {
+    "de": "Ein Graveur, der für Verzierungen, Illustrationen, Buchstaben usw. verantwortlich ist, die zu Druck- oder Dekorationszwecken in eine Metalloberfläche geschnitten werden",
     "en": "An engraver responsible for decorations, illustrations, letters, etc. cut on a metal surface for printing or decoration"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Metal-engraver"
   },
   "notation": [
     "012622"
@@ -23,6 +21,11 @@
       "en": "Manufacturing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Metal-engraver"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/mte"

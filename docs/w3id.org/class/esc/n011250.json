@@ -7,9 +7,6 @@
     "de": "Koordinator*in der Geschichte",
     "en": "Story Coordinator"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Story Coordinator"
-  },
   "notation": [
     "011250"
   ],
@@ -20,6 +17,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Story%20Coordinator"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

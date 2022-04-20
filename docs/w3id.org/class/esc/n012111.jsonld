@@ -8,10 +8,8 @@
     "en": "Editor"
   },
   "definition": {
+    "de": "Eine Person, Familie oder Organisation, die zu einer Ressource beiträgt, indem sie den Inhalt überarbeitet oder erläutert, z. B. durch Hinzufügen einer Einleitung, von Anmerkungen oder anderen wichtigen Informationen. Ein Herausgeber kann auch eine Ressource für die Produktion, Veröffentlichung oder Verteilung vorbereiten. Für umfangreiche Überarbeitungen, Anpassungen usw., die Art und Inhalt des ursprünglichen Werks wesentlich verändern und zu einem neuen Werk führen, siehe Autor",
     "en": "A person, family, or organization contributing to a resource by revising or elucidating the content, e.g., adding an introduction, notes, or other critical matter. An editor may also prepare a resource for production, publication, or distribution. For major revisions, adaptations, etc., that substantially change the nature and content of the original work, resulting in a new work, see author"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Editor"
   },
   "notation": [
     "012111"
@@ -23,6 +21,11 @@
       "en": "Editing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Editor"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/edt"

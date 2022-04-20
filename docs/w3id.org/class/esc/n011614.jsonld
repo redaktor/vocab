@@ -7,9 +7,6 @@
     "de": "Stimme, Sprecher*in",
     "en": "Voice, Speaker"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Voice"
-  },
   "notation": [
     "011614"
   ],
@@ -20,6 +17,11 @@
       "en": "Actors"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Voice"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/spk"

@@ -7,9 +7,6 @@
     "de": "Bühnenbildner*in",
     "en": "Scenic Artist"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Scenic Artist"
-  },
   "notation": [
     "012471"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Scenic%20Artist"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

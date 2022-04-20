@@ -7,9 +7,6 @@
     "de": "Kamee, Cameo, Statist*in",
     "en": "Cameo"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Cameo"
-  },
   "notation": [
     "011615"
   ],
@@ -20,6 +17,11 @@
       "en": "Actors"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Cameo"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

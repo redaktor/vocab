@@ -7,9 +7,6 @@
     "de": "Dritte Assistenz Kamera D",
     "en": "Third Assistant 'D' Camera"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Third Assistant \"D\" Camera"
-  },
   "notation": [
     "011388"
   ],
@@ -20,6 +17,11 @@
       "en": "Camera"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Third%20Assistant%20%22D%22%20Camera"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

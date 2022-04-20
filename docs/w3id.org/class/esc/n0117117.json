@@ -7,9 +7,6 @@
     "de": "Textilkünstler*in",
     "en": "Textile Artist"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Textile Artist"
-  },
   "notation": [
     "0117117"
   ],
@@ -27,6 +24,11 @@
         "de": "Ager/Färber*in",
         "en": "Ager/Dyer"
       }
+    }
+  ],
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Textile%20Artist"
     }
   ],
   "inScheme": {

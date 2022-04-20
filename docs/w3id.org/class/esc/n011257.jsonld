@@ -4,14 +4,10 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011257",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011257",
   "prefLabel": {
-    "de": "Verfasser*in des Nachworts, des Kolophons, usw.",
     "en": "Author of afterword, colophon, etc."
   },
   "definition": {
     "en": "A person or organization responsible for an afterword, postface, colophon, etc. but who is not the chief author of a work"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Author of afterword, colophon, etc."
   },
   "notation": [
     "011257"
@@ -23,6 +19,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Author%20of%20afterword,%20colophon,%20etc."
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/aft"

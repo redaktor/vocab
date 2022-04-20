@@ -7,9 +7,6 @@
     "de": "Master Lighting Artist",
     "en": "Master Lighting Artist"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Master Lighting Artist"
-  },
   "notation": [
     "011818"
   ],
@@ -20,6 +17,11 @@
       "en": "Lighting"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Master%20Lighting%20Artist"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

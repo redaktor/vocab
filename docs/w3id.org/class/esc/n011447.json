@@ -7,9 +7,6 @@
     "de": "Toneffekte-Designer*in",
     "en": "Sound Effects Designer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Sound Effects Designer"
-  },
   "notation": [
     "011447"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Sound%20Effects%20Designer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -7,9 +7,6 @@
     "de": "Casting-Berater*in",
     "en": "Casting Consultant"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Casting Consultant"
-  },
   "notation": [
     "012054"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Casting%20Consultant"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

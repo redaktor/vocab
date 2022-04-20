@@ -7,9 +7,6 @@
     "de": "Entwicklungsleiter*in",
     "en": "Development Manager"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Development Manager"
-  },
   "notation": [
     "012036"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Development%20Manager"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

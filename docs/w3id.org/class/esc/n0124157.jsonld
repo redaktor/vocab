@@ -7,9 +7,6 @@
     "de": "Kinderbetreuer",
     "en": "Child Wrangler"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Child Wrangler"
-  },
   "notation": [
     "0124157"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Child%20Wrangler"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

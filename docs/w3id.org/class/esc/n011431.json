@@ -7,9 +7,6 @@
     "de": "Dialog-Editor",
     "en": "Dialogue Editor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Dialogue Editor"
-  },
   "notation": [
     "011431"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Dialogue%20Editor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

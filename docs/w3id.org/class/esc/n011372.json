@@ -7,9 +7,6 @@
     "de": "Schärfezieheinrichtung",
     "en": "Focus Puller"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Focus Puller"
-  },
   "notation": [
     "011372"
   ],
@@ -20,6 +17,11 @@
       "en": "Camera"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Focus%20Puller"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

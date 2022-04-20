@@ -8,10 +8,8 @@
     "en": "Censor"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die bibliografische Quellen prüft, um Teile zu unterdrücken, die aus moralischen, politischen, militärischen oder anderen Gründen als anstößig gelten",
     "en": "A person or organization who examines bibliographic resources for the purpose of suppressing parts deemed objectionable on moral, political, military, or other grounds"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Censor"
   },
   "notation": [
     "012911"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Censor"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/cns"

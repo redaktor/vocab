@@ -7,9 +7,6 @@
     "de": "Story Supervisor",
     "en": "Story Supervisor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Story Supervisor"
-  },
   "notation": [
     "011253"
   ],
@@ -20,6 +17,11 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Story%20Supervisor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

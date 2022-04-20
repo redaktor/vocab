@@ -8,10 +8,8 @@
     "en": "Production Designer"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die für die Gestaltung des gesamten visuellen Erscheinungsbildes einer Bewegtbildproduktion verantwortlich ist",
     "en": "A person or organization responsible for designing the overall visual appearance of a moving image production"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Production Designer"
   },
   "notation": [
     "012016"
@@ -23,6 +21,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Production%20Designer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/prs"

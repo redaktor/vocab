@@ -7,9 +7,6 @@
     "de": "Kamera 'C'",
     "en": "Camera Operator 'C'"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#\"C\" Camera Operator"
-  },
   "notation": [
     "011340"
   ],
@@ -20,6 +17,11 @@
       "en": "Camera"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#%22C%22%20Camera%20Operator"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

@@ -7,9 +7,6 @@
     "de": "Leitende*r Charakterdesigner*in",
     "en": "Lead Character Designer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Lead Character Designer"
-  },
   "notation": [
     "012367"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Lead%20Character%20Designer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

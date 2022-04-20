@@ -8,10 +8,8 @@
     "en": "Executive Producer"
   },
   "definition": {
+    "de": "Ein Produzent, der für den Großteil der geschäftlichen Aspekte eines Films verantwortlich ist",
     "en": "A producer responsible for most of the business aspects of a film"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Executive Producer"
   },
   "notation": [
     "012014"
@@ -23,6 +21,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Executive%20Producer"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/fmp"

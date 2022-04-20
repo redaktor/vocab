@@ -8,10 +8,8 @@
     "en": "Patent holder"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, der ein Patent erteilt wurde, auf das sich der Eintrag bezieht",
     "en": "A person or organization that was granted the patent referred to by the item"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Patent holder"
   },
   "notation": [
     "012913"
@@ -23,6 +21,11 @@
       "en": "Legal"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Patent%20holder"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/pth"

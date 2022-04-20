@@ -7,9 +7,6 @@
     "de": "Software-Teamleiter*in",
     "en": "Software Team Lead"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Software Team Lead"
-  },
   "notation": [
     "012427"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Software%20Team%20Lead"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

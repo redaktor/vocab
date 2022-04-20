@@ -7,9 +7,6 @@
     "de": "Drohnenpilot*in",
     "en": "Drone Pilot"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Drone Pilot"
-  },
   "notation": [
     "011364"
   ],
@@ -20,6 +17,11 @@
       "en": "Camera"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Drone%20Pilot"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

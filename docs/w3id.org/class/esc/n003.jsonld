@@ -16,10 +16,8 @@
     ]
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die rechtlich für den Inhalt des veröffentlichten Materials verantwortlich ist",
     "en": "A person or organization legally responsible for the content of the published material"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Accountable Person"
   },
   "notation": [
     "003"
@@ -31,6 +29,11 @@
       "en": "Generic or major role"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Accountable%20Person"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/rpy"

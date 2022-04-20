@@ -7,9 +7,6 @@
     "de": "Aushilfsschreiner*in",
     "en": "Standby Carpenter"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Standby Carpenter"
-  },
   "notation": [
     "0117111"
   ],
@@ -20,6 +17,11 @@
       "en": "Art"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Standby%20Carpenter"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

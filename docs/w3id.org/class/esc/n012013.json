@@ -7,9 +7,6 @@
     "de": "Koproduzent*in",
     "en": "Co-Producer"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Co-Producer"
-  },
   "notation": [
     "012013"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Co-Producer"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

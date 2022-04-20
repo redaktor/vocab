@@ -7,9 +7,6 @@
     "de": "Produktionsassistenz für Drehorte",
     "en": "Location Production Assistant"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Location Production Assistant"
-  },
   "notation": [
     "0120113"
   ],
@@ -20,6 +17,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Location%20Production%20Assistant"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

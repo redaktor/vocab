@@ -7,9 +7,6 @@
     "de": "Foto-Retusche",
     "en": "Photo Retouching"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Photo Retouching"
-  },
   "notation": [
     "012398"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Photo%20Retouching"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

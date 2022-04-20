@@ -7,9 +7,6 @@
     "de": "3D-Sequenz-Kontrolle",
     "en": "3D Sequence Supervisor"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#3D Sequence Supervisor"
-  },
   "notation": [
     "012357"
   ],
@@ -20,6 +17,11 @@
       "en": "Visual Effects"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#3D%20Sequence%20Supervisor"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

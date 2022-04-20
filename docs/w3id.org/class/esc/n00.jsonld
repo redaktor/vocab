@@ -7,7 +7,7 @@
     "de": "Allgemeine Rolle",
     "en": "Generic or major role"
   },
-  "definition": {
+  "scopeNote": {
     "de": "Allgemeine Aufgaben, die ein breites Spektrum an Themen abdecken, ohne oder mit nur geringer Spezialisierung auf ein bestimmtes Gebiet oder bestimmte Gebiete, werden in der Regel in das weite Feld 00 'Generische oder Hauptaufgaben' eingeordnet.",
     "en": "General roles which cover a broad range of subjects with little or no specialisation in a particular field or fields will typically be classified within the broad field 00 'Generic or major role'"
   },
@@ -79,6 +79,13 @@
       }
     },
     {
+      "id": "https://w3id.org/class/esc/n0010",
+      "prefLabel": {
+        "de": "Sponsor",
+        "en": "Sponsor"
+      }
+    },
+    {
       "id": "https://w3id.org/class/esc/n0011",
       "prefLabel": {
         "de": "Spender*in",
@@ -139,6 +146,13 @@
       "prefLabel": {
         "de": "Medium",
         "en": "Medium"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0020",
+      "prefLabel": {
+        "de": "Sender, Broadcaster",
+        "en": "Broadcaster"
       }
     },
     {
@@ -205,6 +219,13 @@
       }
     },
     {
+      "id": "https://w3id.org/class/esc/n0030",
+      "prefLabel": {
+        "de": "Lizenznehmer*in",
+        "en": "Licensee"
+      }
+    },
+    {
       "id": "https://w3id.org/class/esc/n0031",
       "prefLabel": {
         "de": "Lizenzgeber*in",
@@ -229,7 +250,7 @@
       "id": "https://w3id.org/class/esc/n0034",
       "prefLabel": {
         "de": "Zugeschriebener Name",
-        "en": "attributed name"
+        "en": "Attributed name"
       }
     },
     {
@@ -268,6 +289,13 @@
       }
     },
     {
+      "id": "https://w3id.org/class/esc/n0040",
+      "prefLabel": {
+        "de": "Bibliographischer Vorläufer",
+        "en": "Bibliographic antecedent"
+      }
+    },
+    {
       "id": "https://w3id.org/class/esc/n0041",
       "prefLabel": {
         "de": "Adressat*in",
@@ -293,34 +321,6 @@
       "prefLabel": {
         "de": "Repository",
         "en": "Repository"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0010",
-      "prefLabel": {
-        "de": "Sponsor",
-        "en": "Sponsor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0020",
-      "prefLabel": {
-        "de": "Sender, Broadcaster",
-        "en": "Broadcaster"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0030",
-      "prefLabel": {
-        "de": "Lizenznehmer*in",
-        "en": "Licensee"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0040",
-      "prefLabel": {
-        "de": "Bibliographischer Vorläufer",
-        "en": "Bibliographic antecedent"
       }
     }
   ],

@@ -7,9 +7,6 @@
     "de": "ADR-Aufnahmeleiter*in",
     "en": "ADR Recordist"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#ADR Recordist"
-  },
   "notation": [
     "011460"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#ADR%20Recordist"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

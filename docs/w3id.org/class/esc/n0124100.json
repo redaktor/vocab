@@ -7,9 +7,6 @@
     "de": "Treatment",
     "en": "Treatment"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Treatment"
-  },
   "notation": [
     "0124100"
   ],
@@ -20,6 +17,11 @@
       "en": "Crew"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Treatment"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

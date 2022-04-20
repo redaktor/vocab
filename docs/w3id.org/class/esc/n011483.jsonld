@@ -7,9 +7,6 @@
     "de": "Assistenz für Tonaufnahmen",
     "en": "Sound Re-Recording Assistant"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Sound Re-Recording Assistant"
-  },
   "notation": [
     "011483"
   ],
@@ -20,6 +17,11 @@
       "en": "Sound"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Sound%20Re-Recording%20Assistant"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

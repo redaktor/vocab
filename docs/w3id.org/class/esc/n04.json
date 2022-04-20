@@ -7,6 +7,9 @@
     "de": "Gegenseitige Hilfe TODO",
     "en": "Mutual Aid"
   },
+  "scopeNote": {
+    "en": "Describes Roles amongst Actors"
+  },
   "notation": [
     "04"
   ],

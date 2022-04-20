@@ -7,6 +7,9 @@
     "de": "Ort der Universität oder Bibliothek",
     "en": "Location University or Library"
   },
+  "definition": {
+    "de": "Z. B. eine Universität, an der eine akademische Dissertation vorgelegt wurde, oder eine Bibliothek, in der sie verfügbar ist."
+  },
   "notation": [
     "205"
   ],

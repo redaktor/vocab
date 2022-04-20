@@ -8,10 +8,8 @@
     "en": "Casting"
   },
   "definition": {
+    "de": "Eine Person, Familie oder Organisation, die an der Herstellung einer Ressource beteiligt ist, indem sie eine flüssige oder geschmolzene Substanz in eine Form gießt und sie erstarren lässt, damit sie die Form der Form annimmt",
     "en": "A person, family, or organization involved in manufacturing a resource by pouring a liquid or molten substance into a mold and leaving it to solidify to take the shape of the mold"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Casting"
   },
   "notation": [
     "012017"
@@ -23,6 +21,11 @@
       "en": "Production"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Casting"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/cas"

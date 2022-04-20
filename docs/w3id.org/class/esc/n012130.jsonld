@@ -7,9 +7,6 @@
     "de": "3D-Digital-Kolorist*in",
     "en": "3D Digital Colorist"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#3D Digital Colorist"
-  },
   "notation": [
     "012130"
   ],
@@ -20,6 +17,11 @@
       "en": "Editing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#3D%20Digital%20Colorist"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

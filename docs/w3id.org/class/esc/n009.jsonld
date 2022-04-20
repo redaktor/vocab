@@ -8,10 +8,8 @@
     "en": "Funder"
   },
   "definition": {
+    "de": "Eine Person oder Organisation, die die Produktion des Werks finanziell unterstützt hat",
     "en": "A person or organization that furnished financial support for the production of the work"
-  },
-  "scopeNote": {
-    "en": "themoviedb.org#Funder"
   },
   "notation": [
     "009"
@@ -23,6 +21,11 @@
       "en": "Generic or major role"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Funder"
+    }
+  ],
   "exactMatch": [
     {
       "id": "https://id.loc.gov/vocabulary/relators/fnd"
