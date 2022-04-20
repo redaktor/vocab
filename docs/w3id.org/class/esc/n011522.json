@@ -25,7 +25,7 @@
   },
   "exactMatch": [
     {
-      "id": "http://id.loc.gov/vocabulary/relators/arr"
+      "id": "https://id.loc.gov/vocabulary/relators/arr"
     }
   ],
   "inScheme": {

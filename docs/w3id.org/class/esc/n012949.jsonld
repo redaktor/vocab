@@ -25,7 +25,7 @@
   },
   "exactMatch": [
     {
-      "id": "http://id.loc.gov/vocabulary/relators/lie"
+      "id": "https://id.loc.gov/vocabulary/relators/lie"
     }
   ],
   "inScheme": {

@@ -22,7 +22,7 @@
   },
   "exactMatch": [
     {
-      "id": "http://id.loc.gov/vocabulary/relators/lse"
+      "id": "https://id.loc.gov/vocabulary/relators/lse"
     }
   ],
   "inScheme": {

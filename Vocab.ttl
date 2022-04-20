@@ -116,21 +116,16 @@
 :n002 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/art> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/art> ;
+    skos:closeMatch <https://themoviedb.org#Artist> ;
     skos:notation "002" ;
     skos:prefLabel "Primärer Künstler"@de,
         "Primary Artist"@en ;
-    skos:definition "A person, family, or organization responsible for creating a work by conceiving, and implementing, an original graphic design, drawing, painting, etc. For book illustrators, prefer Illustrator [ill]"@en ;
-    skos:scopeNote "themoviedb.org#Artist"@en ;
-    schema:identifier [
-      a schema:PropertyValue ;
-      schema:propertyID "themoviedb.org" ;
-      schema:value "Artist"
-    ] .
+    skos:definition "A person, family, or organization responsible for creating a work by conceiving, and implementing, an original graphic design, drawing, painting, etc. For book illustrators, prefer Illustrator [ill]"@en .
 :n003 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/rpy> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/rpy> ;
     skos:notation "003" ;
     skos:prefLabel "Verantwortliche Person"@de,
         "Accountable Person"@en ;
@@ -141,7 +136,7 @@
 :n004 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/led> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/led> ;
     skos:notation "004" ;
     skos:prefLabel "Leitung"@de,
         "Lead"@en ;
@@ -150,7 +145,7 @@
 :n005 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cph> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cph> ;
     skos:notation "005" ;
     skos:prefLabel "Copyright Inhaber*in"@de,
         "Copyright Holder"@en ;
@@ -161,7 +156,7 @@
 :n006 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ann> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ann> ;
     skos:notation "006" ;
     skos:prefLabel "Verfasser Strukturierte Daten, Annotator"@de,
         "Annotator, Structured Data Publisher"@en ;
@@ -174,7 +169,7 @@
 :n007 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/mrk> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/mrk> ;
     skos:notation "007" ;
     skos:prefLabel "Markup Editor"@de,
         "Markup editor"@en ;
@@ -183,7 +178,7 @@
 :n008 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/inv> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/inv> ;
     skos:notation "008" ;
     skos:prefLabel "Erfinder*in"@de,
         "Inventor"@en ;
@@ -191,7 +186,7 @@
 :n009 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/fnd> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/fnd> ;
     skos:notation "009" ;
     skos:prefLabel "Förderer*in"@de,
         "Funder"@en ;
@@ -200,7 +195,7 @@
 :n0010 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/spn> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/spn> ;
     skos:notation "0010" ;
     skos:prefLabel "Sponsor"@de,
         "Sponsor"@en ;
@@ -209,7 +204,7 @@
 :n0011 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/dnr> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dnr> ;
     skos:notation "0011" ;
     skos:prefLabel "Spender*in"@de,
         "Donor"@en ;
@@ -218,7 +213,7 @@
 :n0012 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/pat> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/pat> ;
     skos:notation "0012" ;
     skos:prefLabel "Patron*in"@de,
         "Patron"@en ;
@@ -227,7 +222,7 @@
 :n0013 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cli> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cli> ;
     skos:notation "0013" ;
     skos:prefLabel "Client, Kund*in"@de,
         "Client"@en ;
@@ -235,7 +230,7 @@
 :n0014 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ctr> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ctr> ;
     skos:notation "0014" ;
     skos:prefLabel "Vertragspartner*in"@de,
         "Contractor"@en ;
@@ -243,7 +238,7 @@
 :n0015 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/sht> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/sht> ;
     skos:notation "0015" ;
     skos:prefLabel "Unterstützer*in"@de,
         "Supporter, Supporting Host"@en ;
@@ -258,7 +253,7 @@
 :n0017 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/dsr> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dsr> ;
     skos:notation "0017" ;
     skos:prefLabel "Designer*in"@de,
         "Designer"@en ;
@@ -266,7 +261,7 @@
 :n0018 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/exp> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/exp> ;
     skos:notation "0018" ;
     skos:prefLabel "Expert*in"@de,
         "Expert"@en ;
@@ -274,7 +269,7 @@
 :n0019 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/med> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/med> ;
     skos:notation "0019" ;
     skos:prefLabel "Medium"@de,
         "Medium"@en ;
@@ -282,7 +277,7 @@
 :n0020 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/brd> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/brd> ;
     skos:notation "0020" ;
     skos:prefLabel "Sender, Broadcaster"@de,
         "Broadcaster"@en ;
@@ -290,7 +285,7 @@
 :n0021 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/hst> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/hst> ;
     skos:notation "0021" ;
     skos:prefLabel "Host"@de,
         "Host"@en ;
@@ -298,7 +293,7 @@
 :n0022 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/his> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/his> ;
     skos:notation "0022" ;
     skos:prefLabel "Host Institution"@de,
         "Host institution"@en ;
@@ -306,7 +301,7 @@
 :n0023 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cur> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cur> ;
     skos:notation "0023" ;
     skos:prefLabel "Kurator"@de,
         "Curator"@en ;
@@ -314,7 +309,7 @@
 :n0024 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ard> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ard> ;
     skos:notation "0024" ;
     skos:prefLabel "Künstlerische*r Direktor*in"@de,
         "Artistic director"@en ;
@@ -322,7 +317,7 @@
 :n0025 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/orm> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/orm> ;
     skos:notation "0025" ;
     skos:prefLabel "Veranstalter*in"@de,
         "Organizer"@en ;
@@ -330,7 +325,7 @@
 :n0026 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/isb> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/isb> ;
     skos:notation "0026" ;
     skos:prefLabel "Herausgeber*in"@de,
         "Issuing body"@en ;
@@ -338,7 +333,7 @@
 :n0027 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/stn> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/stn> ;
     skos:notation "0027" ;
     skos:prefLabel "Normungsgremium"@de,
         "Standards body"@en ;
@@ -347,7 +342,7 @@
 :n0028 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/dtc> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dtc> ;
     skos:notation "0028" ;
     skos:prefLabel "Datenlieferant"@de,
         "Data contributor"@en ;
@@ -355,7 +350,7 @@
 :n0029 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/asg> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/asg> ;
     skos:notation "0029" ;
     skos:prefLabel "Rechtsnachfolger"@de,
         "Assignee"@en ;
@@ -363,7 +358,7 @@
 :n0030 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/lse> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/lse> ;
     skos:notation "0030" ;
     skos:prefLabel "Lizenznehmer*in"@de,
         "Licensee"@en ;
@@ -371,7 +366,7 @@
 :n0031 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/lso> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/lso> ;
     skos:notation "0031" ;
     skos:prefLabel "Lizenzgeber*in"@de,
         "Licensor"@en ;
@@ -379,7 +374,7 @@
 :n0032 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/col> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/col> ;
     skos:notation "0032" ;
     skos:prefLabel "Sammler*in"@de,
         "Collector"@en ;
@@ -387,7 +382,7 @@
 :n0033 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/pan> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/pan> ;
     skos:notation "0033" ;
     skos:prefLabel "Panelist*in"@de,
         "Panelist"@en ;
@@ -395,7 +390,7 @@
 :n0034 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/att> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/att> ;
     skos:notation "0034" ;
     skos:prefLabel "Zugeschriebener Name"@de,
         "attributed name"@en ;
@@ -405,7 +400,7 @@
 :n0035 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/asn> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/asn> ;
     skos:notation "0035" ;
     skos:prefLabel "Assoziierter Name"@de,
         "Associated name"@en ;
@@ -415,7 +410,7 @@
 :n0036 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ctb> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ctb> ;
     skos:notation "0036" ;
     skos:prefLabel "Mitwirkende*r, Contributor"@de,
         "Contributor"@en ;
@@ -423,7 +418,7 @@
 :n0037 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/dte> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dte> ;
     skos:notation "0037" ;
     skos:prefLabel "Widmungsträger*in"@de,
         "Dedicatee"@en ;
@@ -431,7 +426,7 @@
 :n0038 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/hnr> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/hnr> ;
     skos:notation "0038" ;
     skos:prefLabel "Geehrte*r, Honoree"@de,
         "Honoree"@en ;
@@ -440,7 +435,7 @@
 :n0039 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/dpc> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dpc> ;
     skos:notation "0039" ;
     skos:prefLabel "Abgebildet"@de,
         "Depicted"@en ;
@@ -448,7 +443,7 @@
 :n0040 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ant> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ant> ;
     skos:notation "0040" ;
     skos:prefLabel "Bibliographischer Vorläufer"@de,
         "Bibliographic antecedent"@en ;
@@ -456,7 +451,7 @@
 :n0041 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/rcp> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/rcp> ;
     skos:notation "0041" ;
     skos:prefLabel "Adressat*in"@de,
         "Addressee"@en ;
@@ -464,7 +459,7 @@
 :n0042 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/mdc> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/mdc> ;
     skos:notation "0042" ;
     skos:prefLabel "Ansprechpartner für Metadaten"@de,
         "Metadata contact"@en ;
@@ -472,7 +467,7 @@
 :n0043 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/app> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/app> ;
     skos:notation "0043" ;
     skos:prefLabel "Antragsteller*in"@de,
         "Applicant"@en ;
@@ -480,7 +475,7 @@
 :n0044 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/rps> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/rps> ;
     skos:notation "0044" ;
     skos:prefLabel "Repository"@de,
         "Repository"@en ;
@@ -872,7 +867,7 @@
         "Refers to a Group that this Actor is a member of."@en .
 :n109 a skos:Concept ;
     skos:inScheme :scheme ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/prf> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/prf> ;
     skos:broader :n10 ;
     skos:notation "109" ;
     skos:prefLabel "stellt dar"@de, "performs"@en .
@@ -898,7 +893,7 @@
     skos:prefLabel "handelt für"@de, "acts for"@en .
 :n201 a skos:Concept ;
     skos:inScheme :scheme ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/evp> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/evp> ;
     skos:broader :n20 ;
     skos:notation "201" ;
     skos:prefLabel "Ort Erstellt"@de, "Location Created"@en ;
@@ -906,35 +901,35 @@
     skos:definition "The location where the CreativeWork was created, which may not be the same as the location depicted in the Work." .
 :n202 a skos:Concept ;
     skos:inScheme :scheme ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/prp> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/prp> ;
     skos:broader :n20 ;
     skos:notation "202" ;
     skos:prefLabel "Ort des Inhalts"@de, "Location of Content"@en ;
     skos:definition "The location depicted or described in the content. For example, the location shown in a photograph or painting." .
 :n203 a skos:Concept ;
     skos:inScheme :scheme ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/pup> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/pup> ;
     skos:broader :n20 ;
     skos:notation "203" ;
     skos:prefLabel " Ort der Veröffentlichung"@de, "Location of Publication"@en ;
     skos:definition "The location where a resource is published." .
 :n204 a skos:Concept ;
     skos:inScheme :scheme ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/mfp> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/mfp> ;
     skos:broader :n20 ;
     skos:notation "204" ;
     skos:prefLabel "Ort der Herstellung"@de, "Location Manufacture"@en ;
     skos:definition "The place of manufacture (e.g., printing, duplicating, casting, etc.) of a resource in a published form." .
 :n205 a skos:Concept ;
     skos:inScheme :scheme ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/uvp> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/uvp> ;
     skos:broader :n20 ;
     skos:notation "205" ;
     skos:prefLabel "Ort der Universität oder Bibliothek"@de, "Location University or Library"@en ;
     skos:definition "E.g., a university where an academic dissertation or thesis was presented or a library where it is available." .
 :n206 a skos:Concept ;
     skos:inScheme :scheme ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/dbp> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dbp> ;
     skos:broader :n20 ;
     skos:notation "206" ;
     skos:prefLabel "Ort der Verbreitung"@de, "Location of Distribution"@en ;
@@ -970,7 +965,7 @@
 :n011111 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0111 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/rpt> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/rpt> ;
     skos:notation "011111" ;
     skos:prefLabel "Berichterstatter*in"@de,
         "Reporter"@en ;
@@ -981,7 +976,7 @@
 :n011112 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0111 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/crt> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/crt> ;
     skos:notation "011112" ;
     skos:prefLabel "Gerichtsreporter*in"@de,
         "Court reporter"@en ;
@@ -990,7 +985,7 @@
 :n011113 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0111 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/crp> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/crp> ;
     skos:notation "011113" ;
     skos:prefLabel "Korrespondent*in"@de,
         "Correspondent"@en ;
@@ -999,7 +994,7 @@
 :n011114 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0111 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/wit> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/wit> ;
     skos:notation "011114" ;
     skos:prefLabel "Zeuge / Augenzeug*in"@de,
         "Witness"@en ;
@@ -1008,7 +1003,7 @@
 :n011115 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0111 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ive> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ive> ;
     skos:notation "011115" ;
     skos:prefLabel "Befragte Person"@de,
         "Interviewee"@en ;
@@ -1017,7 +1012,7 @@
 :n011116 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0111 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/vdg> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/vdg> ;
     skos:notation "011116" ;
     skos:prefLabel "Videofilmer*in"@de,
         "Videographer"@en ;
@@ -1026,7 +1021,7 @@
 :n011117 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0111 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/fmk> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/fmk> ;
     skos:notation "011117" ;
     skos:prefLabel "Filmemacher*in"@de,
         "Filmmaker"@en ;
@@ -1034,7 +1029,7 @@
 :n011118 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0111 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/pht> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/pht> ;
     skos:notation "011118" ;
     skos:prefLabel "Fotojournalist*in"@de,
         "Photojournalist"@en ;
@@ -1043,7 +1038,7 @@
 
 :n011211 a skos:Concept ;
     skos:inScheme :scheme ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ivr> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ivr> ;
     skos:broader :n0112 ;
     skos:notation "011211" ;
     skos:prefLabel "Interviewer*in"@de,
@@ -1052,7 +1047,7 @@
 :n011212 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/lyr> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/lyr> ;
     skos:notation "011212" ;
     skos:prefLabel "Textdichter*in"@de,
         "Lyricist"@en ;
@@ -1096,7 +1091,7 @@
 :n011218 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/aud> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/aud> ;
     skos:notation "011218" ;
     skos:prefLabel "Dialog"@de,
         "Dialogue"@en ;
@@ -1133,7 +1128,7 @@
 :n011223 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/sce> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/sce> ;
     skos:notation "011223" ;
     skos:prefLabel "Drehbuchautor*in Scenario"@de,
         "Scenario Writer"@en ;
@@ -1144,7 +1139,7 @@
 :n011224 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/aus> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/aus> ;
     skos:notation "011224" ;
     skos:prefLabel "Drehbuch"@de,
         "Screenstory"@en ;
@@ -1232,7 +1227,7 @@
 :n011236 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/flm> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/flm> ;
     skos:notation "011236" ;
     skos:prefLabel "Drehbuch-Editor"@de,
         "Script Editor"@en ;
@@ -1285,7 +1280,7 @@
 :n011243 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ccp> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ccp> ;
     skos:notation "011243" ;
     skos:prefLabel "Original-Konzept"@de,
         "Original Concept"@en ;
@@ -1378,7 +1373,7 @@
 :n011256 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/aui> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/aui> ;
     skos:notation "011256" ;
     skos:prefLabel " Verfasser*in der Einleitung usw."@de,
         "Author of introduction, etc."@en ;
@@ -1387,7 +1382,7 @@
 :n011257 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/aft> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/aft> ;
     skos:notation "011257" ;
     skos:prefLabel "Verfasser*in des Nachworts, des Kolophons, usw."@de,
         "Author of afterword, colophon, etc."@en ;
@@ -1396,7 +1391,7 @@
 :n011258 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/win> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/win> ;
     skos:notation "011258" ;
     skos:prefLabel "Verfasser*in der Einleitung"@de,
         "Writer of introduction"@en ;
@@ -1405,7 +1400,7 @@
 :n011259 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/wpr> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/wpr> ;
     skos:notation "011259" ;
     skos:prefLabel "Verfasser*in des Vorworts"@de,
         "Writer of preface"@en ;
@@ -1414,7 +1409,7 @@
 :n011260 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/wat> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/wat> ;
     skos:notation "011260" ;
     skos:prefLabel "Verfasser*in des hinzugefügten Textes"@de,
         "Writer of added text"@en ;
@@ -1423,7 +1418,7 @@
 :n011261 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/wst> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/wst> ;
     skos:notation "011261" ;
     skos:prefLabel "Verfasser*in des ergänzenden Textinhalts"@de,
         "Writer of supplementary textual content"@en ;
@@ -1432,7 +1427,7 @@
 :n011262 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/wac> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/wac> ;
     skos:notation "011262" ;
     skos:prefLabel "Verfasser*in eines zusätzlichen Kommentars"@de,
         "Writer of added commentary"@en ;
@@ -1441,7 +1436,7 @@
 :n011263 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/stl> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/stl> ;
     skos:notation "011263" ;
     skos:prefLabel "Storyteller, Erzähler*in"@de,
         "Storyteller"@en ;
@@ -1450,7 +1445,7 @@
 :n011264 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/nrt> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/nrt> ;
     skos:notation "011264" ;
     skos:prefLabel "Erzähler*in"@de,
         "Narrator"@en ;
@@ -1459,7 +1454,7 @@
 :n011265 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ths> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ths> ;
     skos:notation "011265" ;
     skos:prefLabel "Berater*in für die Diplomarbeit"@de,
         "Thesis advisor"@en ;
@@ -1468,7 +1463,7 @@
 :n011266 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/pfr> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/pfr> ;
     skos:notation "011266" ;
     skos:prefLabel "Korrekturleser*in"@de,
         "Proofreader"@en ;
@@ -1477,7 +1472,7 @@
 :n011267 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cwt> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cwt> ;
     skos:notation "011267" ;
     skos:prefLabel "Kommentator*in für geschriebenen Text"@de,
         "Commentator for written text"@en ;
@@ -1486,7 +1481,7 @@
 :n011268 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/aqt> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/aqt> ;
     skos:notation "011268" ;
     skos:prefLabel "Autor*in in Zitaten oder Textauszügen"@de,
         "Author in quotations or text abstracts"@en ;
@@ -1495,7 +1490,7 @@
 :n011269 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ato> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ato> ;
     skos:notation "011269" ;
     skos:prefLabel "Autograph*in"@de,
         "Autographer"@en ;
@@ -1504,7 +1499,7 @@
 :n011270 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cmm> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cmm> ;
     skos:notation "011270" ;
     skos:prefLabel "Kommentator*in"@de,
         "Commentator"@en ;
@@ -1513,7 +1508,7 @@
 :n011271 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/fac> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/fac> ;
     skos:notation "011271" ;
     skos:prefLabel "Facsimilist"@de,
         "Facsimilist"@en ;
@@ -1522,7 +1517,7 @@
 :n011272 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/blw> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/blw> ;
     skos:notation "011272" ;
     skos:prefLabel "Klappentext-Schreiber*in"@de,
         "Blurb writer"@en ;
@@ -1531,7 +1526,7 @@
 :n011273 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/anl> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/anl> ;
     skos:notation "011273" ;
     skos:prefLabel "Analytiker*in"@de,
         "Analyst"@en ;
@@ -1540,7 +1535,7 @@
 :n011274 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/trc> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/trc> ;
     skos:notation "011274" ;
     skos:prefLabel "Schreibkraft"@de,
         "Transcriber"@en ;
@@ -1549,7 +1544,7 @@
 :n011275 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/scr> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/scr> ;
     skos:notation "011275" ;
     skos:prefLabel "Schreiber*in"@de,
         "Scribe"@en ;
@@ -1558,7 +1553,7 @@
 :n011276 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/dto> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dto> ;
     skos:notation "011276" ;
     skos:prefLabel "Widmungsautor*in"@de,
         "Dedicator"@en ;
@@ -1566,7 +1561,7 @@
 :n011277 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/adp> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/adp> ;
     skos:notation "011277" ;
     skos:prefLabel "Adapter"@de,
         "Adapter"@en ;
@@ -1575,7 +1570,7 @@
 :n011311 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0113 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cng> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cng> ;
     skos:notation "011311" ;
     skos:prefLabel "Director of Photography, Kamerafrau, Kameramann"@de,
         "Director of Photography"@en ;
@@ -2187,7 +2182,7 @@
 :n011415 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0114 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/sds> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/sds> ;
     skos:notation "011415" ;
     skos:prefLabel "Tongestalter*in"@de,
         "Sound Designer"@en ;
@@ -2259,7 +2254,7 @@
 :n011425 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0114 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/rce> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/rce> ;
     skos:notation "011425" ;
     skos:prefLabel "Aufnahme-Überwachung"@de,
         "Recording Supervision"@en ;
@@ -2282,7 +2277,7 @@
 :n011428 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0114 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/mcp> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/mcp> ;
     skos:notation "011428" ;
     skos:prefLabel "ADR & Synchronisation"@de,
         "ADR & Dubbing"@en ;
@@ -2291,7 +2286,7 @@
 :n011429 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0114 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/rcd> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/rcd> ;
     skos:notation "011429" ;
     skos:prefLabel "Tontechniker*in"@de,
         "Sound Recordist"@en ;
@@ -2398,7 +2393,7 @@
 :n011444 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0114 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cnd> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cnd> ;
     skos:notation "011444" ;
     skos:prefLabel "Dirigent*in"@de,
         "Conductor"@en ;
@@ -2695,7 +2690,7 @@
 :n011511 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0115 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/msd> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/msd> ;
     skos:notation "011511" ;
     skos:prefLabel "Musikalische Leitung"@de,
         "Music Director"@en ;
@@ -2706,7 +2701,7 @@
 :n011512 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0115 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/mus> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/mus> ;
     skos:notation "011512" ;
     skos:prefLabel "Musiker*in"@de,
         "Musician"@en ;
@@ -2715,7 +2710,7 @@
 :n011513 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0115 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/sng> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/sng> ;
     skos:notation "011513" ;
     skos:prefLabel "Sänger*in"@de,
         "Singer"@en ;
@@ -2726,7 +2721,7 @@
 :n011514 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0115 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/itr> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/itr> ;
     skos:notation "011514" ;
     skos:prefLabel "Instrumentalist*in"@de,
         "Instrumentalist"@en ;
@@ -2749,7 +2744,7 @@
 :n011517 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0115 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cmp> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cmp> ;
     skos:notation "011517" ;
     skos:prefLabel "Komponist*in der Originalmusik"@de,
         "Original Music Composer"@en ;
@@ -2786,7 +2781,7 @@
 :n011522 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0115 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/arr> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/arr> ;
     skos:notation "011522" ;
     skos:prefLabel "Musikarrangeur*in"@de,
         "Music Arranger"@en ;
@@ -2858,7 +2853,7 @@
 :n011532 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0115 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/vac> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/vac> ;
     skos:notation "011532" ;
     skos:prefLabel "Gesang"@de,
         "Vocals"@en ;
@@ -2866,7 +2861,7 @@
 :n011533 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0115 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/dnc> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dnc> ;
     skos:notation "011533" ;
     skos:prefLabel "Tänzer*in"@de,
         "Dancer"@en ;
@@ -2875,7 +2870,7 @@
 :n011534 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0115 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/lbt> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/lbt> ;
     skos:notation "011534" ;
     skos:prefLabel "Librettist*in"@de,
         "Librettist"@en ;
@@ -2893,7 +2888,7 @@
 :n011612 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0116 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/act> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/act> ;
     skos:notation "011612" ;
     skos:prefLabel "Schauspieler*in"@de,
         "Actor"@en ;
@@ -2908,7 +2903,7 @@
 :n011614 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0116 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/spk> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/spk> ;
     skos:notation "011614" ;
     skos:prefLabel "Stimme, Sprecher*in"@de,
         "Voice, Speaker"@en ;
@@ -2923,7 +2918,7 @@
 :n011616 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0116 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ppt> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ppt> ;
     skos:notation "011616" ;
     skos:prefLabel "Puppenspieler*in"@de,
         "Puppeteer"@en ;
@@ -2941,7 +2936,7 @@
 :n011711 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/adi> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/adi> ;
     skos:notation "011711" ;
     skos:prefLabel "Künstlerische Leitung"@de,
         "Art Direction"@en ;
@@ -2950,7 +2945,7 @@
 :n011712 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/pht> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/pht> ;
     skos:notation "011712" ;
     skos:prefLabel "Fotograf*in"@de,
         "Photographer"@en ;
@@ -2959,7 +2954,7 @@
 :n011713 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ill> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ill> ;
     skos:notation "011713" ;
     skos:prefLabel "Illustrator*in"@de,
         "Illustrator"@en ;
@@ -2968,7 +2963,7 @@
 :n011714 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cov> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cov> ;
     skos:notation "011714" ;
     skos:prefLabel "Künstler*in des Albums"@de,
         "Album Artist"@en ;
@@ -2998,7 +2993,7 @@
 :n011718 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/std> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/std> ;
     skos:notation "011718" ;
     skos:prefLabel "Bühnenbildner*in"@de,
         "Set Designer"@en ;
@@ -3020,7 +3015,7 @@
     skos:scopeNote "themoviedb.org#Interior Designer"@en .
 :n011721 a skos:Concept ;
     skos:inScheme :scheme ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/stg> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/stg> ;
     skos:broader :n0117 ;
     skos:notation "011721" ;
     skos:prefLabel "Settings"@de,
@@ -3064,7 +3059,7 @@
 :n011727 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/scl> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/scl> ;
     skos:notation "011727" ;
     skos:prefLabel "Bildhauer*in"@de,
         "Sculptor"@en ;
@@ -3717,7 +3712,7 @@
 :n0117120 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/tyd> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/tyd> ;
     skos:notation "0117120" ;
     skos:prefLabel "Schriftgestalter*in"@de,
         "Type designer"@en ;
@@ -3726,7 +3721,7 @@
 :n0117121 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/tyg> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/tyg> ;
     skos:notation "0117121" ;
     skos:prefLabel "Typograf*in"@de,
         "Typographer"@en ;
@@ -3735,7 +3730,7 @@
 :n0117122 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cll> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cll> ;
     skos:notation "0117122" ;
     skos:prefLabel "Kalligraph*in"@de,
         "Calligrapher"@en ;
@@ -3744,7 +3739,7 @@
 :n0117123 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/str> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/str> ;
     skos:notation "0117123" ;
     skos:prefLabel "Stereotyper"@de,
         "Stereotyper"@en ;
@@ -3753,7 +3748,7 @@
 :n0117124 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/bkd> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/bkd> ;
     skos:notation "0117124" ;
     skos:prefLabel "Buchgestalter*in"@de,
         "Book designer"@en ;
@@ -3762,7 +3757,7 @@
 :n0117125 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/bjd> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/bjd> ;
     skos:notation "0117125" ;
     skos:prefLabel "Gestalter*in des Buchumschlags"@de,
         "Bookjacket designer"@en ;
@@ -3771,7 +3766,7 @@
 :n0117126 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/bdd> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/bdd> ;
     skos:notation "0117126" ;
     skos:prefLabel "Gestalter*in des Einbands"@de,
         "Binding designer"@en ;
@@ -3780,7 +3775,7 @@
 :n0117127 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/drm> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/drm> ;
     skos:notation "0117127" ;
     skos:prefLabel "Zeichner*in"@de,
         "Draftsman"@en ;
@@ -3789,7 +3784,7 @@
 :n0117128 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/etr> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/etr> ;
     skos:notation "0117128" ;
     skos:prefLabel "Radierer*in"@de,
         "Etcher"@en ;
@@ -3798,7 +3793,7 @@
 :n0117129 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/rsg> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/rsg> ;
     skos:notation "0117129" ;
     skos:prefLabel "Restager*in"@de,
         "Restager"@en ;
@@ -3807,7 +3802,7 @@
 :n0117130 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/con> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/con> ;
     skos:notation "0117130" ;
     skos:prefLabel "Konservator*in"@de,
         "Conservator"@en ;
@@ -3816,7 +3811,7 @@
 :n0117131 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/acp> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/acp> ;
     skos:notation "0117131" ;
     skos:prefLabel "Kunstkopist"@de,
         "Art copyist"@en ;
@@ -3825,7 +3820,7 @@
 :n0117132 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/rsr> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/rsr> ;
     skos:notation "0117132" ;
     skos:prefLabel "Restaurator*in"@de,
         "Restorationist"@en ;
@@ -3876,7 +3871,7 @@
 :n011817 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0118 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/lgd> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/lgd> ;
     skos:notation "011817" ;
     skos:prefLabel "Regieführende Beleuchtungskünstler*in"@de,
         "Directing Lighting Artist"@en ;
@@ -3894,7 +3889,7 @@
 :n011819 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0118 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ilu> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ilu> ;
     skos:notation "011819" ;
     skos:prefLabel "Beleuchtungskünstler*in"@de,
         "Lighting Artist"@en ;
@@ -3926,7 +3921,7 @@
 :n011823 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0118 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/elg> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/elg> ;
     skos:notation "011823" ;
     skos:prefLabel "Elektriker*in"@de,
         "Electrician"@en ;
@@ -4069,7 +4064,7 @@
 :n011911 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0119 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/drt> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/drt> ;
     skos:notation "011911" ;
     skos:prefLabel "Regisseur*in"@de,
         "Director"@en ;
@@ -4078,7 +4073,7 @@
 :n011912 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0119 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/fmd> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/fmd> ;
     skos:notation "011912" ;
     skos:prefLabel "Filmregisseur*in"@de,
         "Film director"@en ;
@@ -4087,7 +4082,7 @@
 :n011913 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0119 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/tld> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/tld> ;
     skos:notation "011913" ;
     skos:prefLabel "Fernsehregisseur*in"@de,
         "Television director"@en ;
@@ -4096,7 +4091,7 @@
 :n011914 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0119 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/rdd> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/rdd> ;
     skos:notation "011914" ;
     skos:prefLabel "Radioregisseur*in"@de,
         "Radio director"@en ;
@@ -4105,7 +4100,7 @@
 :n011915 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0119 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/pbd> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/pbd> ;
     skos:notation "011915" ;
     skos:prefLabel "Verlagsleiter*in"@de,
         "Publishing director"@en ;
@@ -4226,7 +4221,7 @@
 :n011932 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0119 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/fld> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/fld> ;
     skos:notation "011932" ;
     skos:prefLabel "Regisseur*in vor Ort"@de,
         "Field Director"@en ;
@@ -4298,7 +4293,7 @@
 :n011942 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0119 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/sgd> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/sgd> ;
     skos:notation "011942" ;
     skos:prefLabel "Bühnenregisseur*in"@de,
         "Stage Director"@en ;
@@ -4307,7 +4302,7 @@
 :n011943 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0119 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/stm> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/stm> ;
     skos:notation "011943" ;
     skos:prefLabel "Stage Manager, Inspizient*in"@de,
         "Stage Manager"@en ;
@@ -4317,7 +4312,7 @@
 :n012011 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/prn> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/prn> ;
     skos:notation "012011" ;
     skos:prefLabel " Produktionsstudio"@de,
         "Production Studio"@en ;
@@ -4328,7 +4323,7 @@
 :n012012 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/pro> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/pro> ;
     skos:notation "012012" ;
     skos:prefLabel "Produzent*in"@de,
         "Producer"@en ;
@@ -4344,7 +4339,7 @@
 :n012014 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/fmp> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/fmp> ;
     skos:notation "012014" ;
     skos:prefLabel "Ausführende Produzent*in"@de,
         "Executive Producer"@en ;
@@ -4353,7 +4348,7 @@
 :n012015 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/pbl> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/pbl> ;
     skos:notation "012015" ;
     skos:prefLabel "Publizist"@de,
         "Publicist"@en ;
@@ -4362,7 +4357,7 @@
 :n012016 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/prs> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/prs> ;
     skos:notation "012016" ;
     skos:prefLabel " Produktionsdesigner*in"@de,
         "Production Designer"@en ;
@@ -4371,7 +4366,7 @@
 :n012017 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cas> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cas> ;
     skos:notation "012017" ;
     skos:prefLabel "Casting"@de,
         "Casting"@en ;
@@ -4380,7 +4375,7 @@
 :n012018 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/pmn> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/pmn> ;
     skos:notation "012018" ;
     skos:prefLabel "Produktionsleiter*in"@de,
         "Production Manager"@en ;
@@ -4389,7 +4384,7 @@
 :n012019 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/tlp> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/tlp> ;
     skos:notation "012019" ;
     skos:prefLabel "Fernsehproduzent*in"@de,
         "Television producer"@en ;
@@ -4398,7 +4393,7 @@
 :n012020 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/rpc> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/rpc> ;
     skos:notation "012020" ;
     skos:prefLabel "Radioproduzent*in"@de,
         "Radio producer"@en ;
@@ -4407,7 +4402,7 @@
 :n012021 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/bkp> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/bkp> ;
     skos:notation "012021" ;
     skos:prefLabel " Buchproduzent*in"@de,
         "Book producer"@en ;
@@ -4416,7 +4411,7 @@
 :n012022 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ldr> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ldr> ;
     skos:notation "012022" ;
     skos:prefLabel "Laborleiter*in"@de,
         "Laboratory director"@en ;
@@ -4425,7 +4420,7 @@
 :n012023 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/lbr> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/lbr> ;
     skos:notation "012023" ;
     skos:prefLabel "Laboratorium"@de,
         "Laboratory"@en ;
@@ -4434,7 +4429,7 @@
 :n012024 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/mtk> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/mtk> ;
     skos:notation "012024" ;
     skos:prefLabel "Protokollant*in"@de,
         "Minute taker"@en ;
@@ -4443,7 +4438,7 @@
 :n012025 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/eng> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/eng> ;
     skos:notation "012025" ;
     skos:prefLabel "Ingenieur*in"@de,
         "Engineer"@en ;
@@ -4473,7 +4468,7 @@
 :n012029 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/prd> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/prd> ;
     skos:notation "012029" ;
     skos:prefLabel "Produktion, Sonstige"@de,
         "Other"@en ;
@@ -4512,7 +4507,7 @@
 :n012034 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/csl> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/csl> ;
     skos:notation "012034" ;
     skos:prefLabel "Ausführende Berater*in"@de,
         "Executive Consultant"@en ;
@@ -4549,7 +4544,7 @@
 :n012039 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/pdr> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/pdr> ;
     skos:notation "012039" ;
     skos:prefLabel "Produktionsleiter*in"@de,
         "Production Director"@en ;
@@ -4588,7 +4583,7 @@
 :n012044 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/res> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/res> ;
     skos:notation "012044" ;
     skos:prefLabel "Rechercheur*in"@de,
         "Researcher"@en ;
@@ -4863,7 +4858,7 @@
 :n012083 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/dtm> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dtm> ;
     skos:notation "012083" ;
     skos:prefLabel "Techniker*in für Datenmanagement"@de,
         "Data Management Technician"@en ;
@@ -4991,7 +4986,7 @@
 :n0120101 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/rth> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/rth> ;
     skos:notation "0120101" ;
     skos:prefLabel "Leiter*in der Forschung"@de,
         "Head of Research"@en ;
@@ -5163,7 +5158,7 @@
 :n0120125 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/csp> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/csp> ;
     skos:notation "0120125" ;
     skos:prefLabel "Produktionsberater*in"@de,
         "Production Consultant"@en ;
@@ -5195,7 +5190,7 @@
 :n0120129 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/sec> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/sec> ;
     skos:notation "0120129" ;
     skos:prefLabel "Produktionssekretärin"@de,
         "Production Secretary"@en ;
@@ -5211,7 +5206,7 @@
 :n0120131 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/rtm> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/rtm> ;
     skos:notation "0120131" ;
     skos:prefLabel "Forschungsassistenz"@de,
         "Research Assistant"@en ;
@@ -5284,7 +5279,7 @@
 :n012111 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0121 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/edt> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/edt> ;
     skos:notation "012111" ;
     skos:prefLabel "Redakteur*in"@de,
         "Editor"@en ;
@@ -5293,7 +5288,7 @@
 :n012112 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0121 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/clr> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/clr> ;
     skos:notation "012112" ;
     skos:prefLabel "Kolorist*in"@de,
         "Colorist"@en ;
@@ -5316,7 +5311,7 @@
 :n012115 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0121 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/edm> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/edm> ;
     skos:notation "012115" ;
     skos:prefLabel "Redaktionsleiter*in"@de,
         "Editorial Manager"@en ;
@@ -5633,7 +5628,7 @@
 :n012160 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0121 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/edc> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/edc> ;
     skos:notation "012160" ;
     skos:prefLabel "Redakteur*in der Zusammenstellung"@de,
         "Editor of compilation"@en ;
@@ -5642,7 +5637,7 @@
 :n012161 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0121 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/red> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/red> ;
     skos:notation "012161" ;
     skos:prefLabel "Redaktor*in"@de,
         "Redaktor"@en ;
@@ -5651,7 +5646,7 @@
 :n012162 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0121 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/gis> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/gis> ;
     skos:notation "012162" ;
     skos:prefLabel "Spezialist*in für geografische Informationen"@de,
         "Geographic information specialist"@en ;
@@ -5660,7 +5655,7 @@
 :n012163 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0121 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ctg> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ctg> ;
     skos:notation "012163" ;
     skos:prefLabel "Kartograph*in"@de,
         "Cartographer"@en ;
@@ -5669,7 +5664,7 @@
 :n012164 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0121 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ins> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ins> ;
     skos:notation "012164" ;
     skos:prefLabel "Beschrifter*in"@de,
         "Inscriber"@en ;
@@ -5678,7 +5673,7 @@
 :n012165 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0121 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/rev> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/rev> ;
     skos:notation "012165" ;
     skos:prefLabel " Rezensent*in"@de,
         "Reviewer"@en ;
@@ -5687,7 +5682,7 @@
 :n012166 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0121 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/abr> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/abr> ;
     skos:notation "012166" ;
     skos:prefLabel "Abridger, Kürzungsexperte"@de,
         "Abridger"@en ;
@@ -5696,7 +5691,7 @@
 :n012167 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0121 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/rbr> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/rbr> ;
     skos:notation "012167" ;
     skos:prefLabel "Rubrizierer*in"@de,
         "Rubricator"@en ;
@@ -5705,7 +5700,7 @@
 :n012168 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0121 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/crr> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/crr> ;
     skos:notation "012168" ;
     skos:prefLabel "Korrektor*in"@de,
         "Corrector"@en ;
@@ -5715,7 +5710,7 @@
 :n012211 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0122 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cst> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cst> ;
     skos:notation "012211" ;
     skos:prefLabel "Kostümbildner*in"@de,
         "Costume Designer"@en ;
@@ -6302,7 +6297,7 @@
 :n012311 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0123 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/anm> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/anm> ;
     skos:notation "012311" ;
     skos:prefLabel "Animation"@de,
         "Animation"@en ;
@@ -6318,7 +6313,7 @@
 :n012313 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0123 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/tcd> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/tcd> ;
     skos:notation "012313" ;
     skos:prefLabel "Cheftechniker*in / Stop-Motion-Experte"@de,
         "Chief Technician / Stop-Motion Expert"@en ;
@@ -7044,7 +7039,7 @@
 :n012411 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/chr> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/chr> ;
     skos:notation "012411" ;
     skos:prefLabel "Choreograph*in"@de,
         "Choreographer"@en ;
@@ -7053,7 +7048,7 @@
 :n012412 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/trl> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/trl> ;
     skos:notation "012412" ;
     skos:prefLabel "Übersetzer*in"@de,
         "Translator"@en ;
@@ -7069,7 +7064,7 @@
 :n012414 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ren> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ren> ;
     skos:notation "012414" ;
     skos:prefLabel "Supervisor für die Postproduktion"@de,
         "Post Production Supervisor"@en ;
@@ -7281,7 +7276,7 @@
 :n012444 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cmt> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cmt> ;
     skos:notation "012444" ;
     skos:prefLabel "Compositor*in"@de,
         "Compositor"@en ;
@@ -7738,7 +7733,7 @@
 :n0124109 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/wam> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/wam> ;
     skos:notation "0124109" ;
     skos:prefLabel "Zusätzliches Schreiben"@de,
         "Additional Writing"@en ;
@@ -7754,7 +7749,7 @@
 :n0124111 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/wal> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/wal> ;
     skos:notation "0124111" ;
     skos:prefLabel "Verfasser*in der hinzugefügten Liedtexte"@de,
         "Writer of added lyrics"@en ;
@@ -7777,7 +7772,7 @@
 :n0124114 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cre> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cre> ;
     skos:notation "0124114" ;
     skos:prefLabel "Schöpfer*in"@de,
         "Creator"@en ;
@@ -7900,7 +7895,7 @@
 :n0124131 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/mod> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/mod> ;
     skos:notation "0124131" ;
     skos:prefLabel "Moderator*in"@de,
         "Moderator"@en ;
@@ -7909,7 +7904,7 @@
 :n0124132 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/osp> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/osp> ;
     skos:notation "0124132" ;
     skos:prefLabel "Onscreen-Moderator*in"@de,
         "Onscreen presenter"@en ;
@@ -7918,7 +7913,7 @@
 :n0124133 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/pre> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/pre> ;
     skos:notation "0124133" ;
     skos:prefLabel "Moderator*in"@de,
         "Presenter"@en ;
@@ -8263,7 +8258,7 @@
 :n0124182 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/sad> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/sad> ;
     skos:notation "0124182" ;
     skos:prefLabel "Wissenschaftliche Beratung"@de,
         "Scientific Consultant"@en ;
@@ -8412,7 +8407,7 @@
 :n0124203 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/prg> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/prg> ;
     skos:notation "0124203" ;
     skos:prefLabel "Programmierer*in"@de,
         "Programmer"@en ;
@@ -8421,7 +8416,7 @@
 :n0124204 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/com> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/com> ;
     skos:notation "0124204" ;
     skos:prefLabel "Compiler*in"@de,
         "Compiler"@en ;
@@ -8430,7 +8425,7 @@
 :n0124205 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/arc> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/arc> ;
     skos:notation "0124205" ;
     skos:prefLabel "Architekt*in"@de,
         "Architect"@en ;
@@ -8439,7 +8434,7 @@
 :n0124206 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/lsa> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/lsa> ;
     skos:notation "0124206" ;
     skos:prefLabel "Landschaftsarchitekt*in"@de,
         "Landscape architect"@en ;
@@ -8471,7 +8466,7 @@
 :n012611 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0126 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/bpd> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/bpd> ;
     skos:notation "012611" ;
     skos:prefLabel "Gestalter*in des Exlibris"@de,
         "Bookplate designer"@en ;
@@ -8480,7 +8475,7 @@
 :n012612 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0126 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/egr> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/egr> ;
     skos:notation "012612" ;
     skos:prefLabel "Graveur*in"@de,
         "Engraver"@en ;
@@ -8489,7 +8484,7 @@
 :n012613 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0126 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ltg> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ltg> ;
     skos:notation "012613" ;
     skos:prefLabel "Lithograph*in"@de,
         "Lithographer"@en ;
@@ -8498,7 +8493,7 @@
 :n012614 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0126 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/clt> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/clt> ;
     skos:notation "012614" ;
     skos:prefLabel "Collotyper"@de,
         "Collotyper"@en ;
@@ -8507,7 +8502,7 @@
 :n012615 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0126 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/elt> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/elt> ;
     skos:notation "012615" ;
     skos:prefLabel "Elektrotyper"@de,
         "Electrotyper"@en ;
@@ -8516,7 +8511,7 @@
 :n012616 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0126 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/prt> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/prt> ;
     skos:notation "012616" ;
     skos:prefLabel "Drucker*in"@de,
         "Printer"@en ;
@@ -8525,7 +8520,7 @@
 :n012617 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0126 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/prm> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/prm> ;
     skos:notation "012617" ;
     skos:prefLabel "Druckgrafiker*in"@de,
         "Printmaker"@en ;
@@ -8534,7 +8529,7 @@
 :n012618 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0126 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/bnd> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/bnd> ;
     skos:notation "012618" ;
     skos:prefLabel "Buchbinder*in"@de,
         "Binder"@en ;
@@ -8543,7 +8538,7 @@
 :n012619 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0126 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/brl> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/brl> ;
     skos:notation "012619" ;
     skos:prefLabel "Blindenschrift-Präger*in"@de,
         "Braille embosser"@en ;
@@ -8552,7 +8547,7 @@
 :n012620 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0126 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/mfr> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/mfr> ;
     skos:notation "012620" ;
     skos:prefLabel "Hersteller*in"@de,
         "Manufacturer"@en ;
@@ -8561,7 +8556,7 @@
 :n012621 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0126 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/wde> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/wde> ;
     skos:notation "012621" ;
     skos:prefLabel "Holzschneider*in"@de,
         "Wood engraver"@en ;
@@ -8570,7 +8565,7 @@
 :n012622 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0126 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/mte> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/mte> ;
     skos:notation "012622" ;
     skos:prefLabel "Metallgraveur*in"@de,
         "Metal-engraver"@en ;
@@ -8579,7 +8574,7 @@
 :n012623 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0126 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ppm> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ppm> ;
     skos:notation "012623" ;
     skos:prefLabel "Papiermacher*in"@de,
         "Papermaker"@en ;
@@ -8588,7 +8583,7 @@
 :n012624 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0126 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/wdc> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/wdc> ;
     skos:notation "012624" ;
     skos:prefLabel "Holzschneider*in"@de,
         "Woodcutter"@en ;
@@ -8597,7 +8592,7 @@
 :n012625 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0126 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/pop> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/pop> ;
     skos:notation "012625" ;
     skos:prefLabel "Drucker*in von Druckplatten"@de,
         "Printer of plates"@en ;
@@ -8606,7 +8601,7 @@
 :n012626 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0126 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/plt> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/plt> ;
     skos:notation "012626" ;
     skos:prefLabel "Druckplattenhersteller*in"@de,
         "Platemaker"@en ;
@@ -8615,7 +8610,7 @@
 :n012627 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0126 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/mrb> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/mrb> ;
     skos:notation "012627" ;
     skos:prefLabel "Marmorierer*in"@de,
         "Marbler"@en ;
@@ -8625,7 +8620,7 @@
 :n012711 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0127 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/dst> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dst> ;
     skos:notation "012711" ;
     skos:prefLabel "Vertrieb"@de,
         "Distributor"@en ;
@@ -8635,7 +8630,7 @@
 :n012712 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0127 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/dpt> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dpt> ;
     skos:notation "012712" ;
     skos:prefLabel "Leihgeber*in, Einleger*in"@de,
         "Depositor"@en ;
@@ -8643,7 +8638,7 @@
 :n012713 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0127 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/fds> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/fds> ;
     skos:notation "012713" ;
     skos:prefLabel "Filmverleih"@de,
         "Film distributor"@en ;
@@ -8651,7 +8646,7 @@
 :n012714 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0127 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/len> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/len> ;
     skos:notation "012714" ;
     skos:prefLabel "Verleiher*in"@de,
         "Lender"@en ;
@@ -8659,7 +8654,7 @@
 :n012715 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0127 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/sll> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/sll> ;
     skos:notation "012715" ;
     skos:prefLabel "Verkäufer*in"@de,
         "Seller"@en ;
@@ -8667,7 +8662,7 @@
 :n012716 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0127 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/bsl> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/bsl> ;
     skos:notation "012716" ;
     skos:prefLabel "Buchhändler*in"@de,
         "Bookseller"@en ;
@@ -8675,7 +8670,7 @@
 :n012717 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0127 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/prv> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/prv> ;
     skos:notation "012717" ;
     skos:prefLabel "Provider"@de,
         "Provider"@en ;
@@ -8683,7 +8678,7 @@
 :n012718 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0127 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/mon> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/mon> ;
     skos:notation "012718" ;
     skos:prefLabel "Grantee, Monitor"@de,
         "Grantee, Monitor"@en ;
@@ -8691,7 +8686,7 @@
 :n012719 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0127 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/fmo> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/fmo> ;
     skos:notation "012719" ;
     skos:prefLabel "Vorherige Eigentümer*in"@de,
         "Former Owner"@en ;
@@ -8712,7 +8707,7 @@
 :n012813 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0128 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/tch> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/tch> ;
     skos:notation "012813" ;
     skos:prefLabel "Lehrer*in"@de,
         "Teacher"@en ;
@@ -8726,7 +8721,7 @@
 :n012815 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0128 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/dgs> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dgs> ;
     skos:notation "012815" ;
     skos:prefLabel "Betreuer*in des Studiengangs"@de,
         "Degree supervisor"@en ;
@@ -8734,7 +8729,7 @@
 :n012816 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0128 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/dis> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dis> ;
     skos:notation "012816" ;
     skos:prefLabel "Dissertant*in"@de,
         "Dissertant"@en ;
@@ -8742,7 +8737,7 @@
 :n012817 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0128 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/pra> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/pra> ;
     skos:notation "012817" ;
     skos:prefLabel "Präses"@de,
         "Praeses"@en ;
@@ -8751,7 +8746,7 @@
 :n012911 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cns> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cns> ;
     skos:notation "012911" ;
     skos:prefLabel "Zensor"@de,
         "Censor"@en ;
@@ -8760,7 +8755,7 @@
 :n012912 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/srv> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/srv> ;
     skos:notation "012912" ;
     skos:prefLabel "Vermesser*in"@de,
         "Surveyor"@en ;
@@ -8769,7 +8764,7 @@
 :n012913 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/pth> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/pth> ;
     skos:notation "012913" ;
     skos:prefLabel "Patentinhaber*in"@de,
         "Patent holder"@en ;
@@ -8778,7 +8773,7 @@
 :n012914 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/lil> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/lil> ;
     skos:notation "012914" ;
     skos:prefLabel "Ankläger*in"@de,
         "Libelant"@en ;
@@ -8787,7 +8782,7 @@
 :n012915 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/rse> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/rse> ;
     skos:notation "012915" ;
     skos:prefLabel "Beklagter/Beklagte"@de,
         "Respondent-appellee"@en ;
@@ -8796,7 +8791,7 @@
 :n012916 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ptf> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ptf> ;
     skos:notation "012916" ;
     skos:prefLabel "Kläger*in"@de,
         "Plaintiff"@en ;
@@ -8805,7 +8800,7 @@
 :n012917 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ape> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ape> ;
     skos:notation "012917" ;
     skos:prefLabel "Berufungsbeklagter"@de,
         "Appellee"@en ;
@@ -8814,7 +8809,7 @@
 :n012918 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cpt> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cpt> ;
     skos:notation "012918" ;
     skos:prefLabel "Beschwerdeführer*in"@de,
         "Complainant-appellant"@en ;
@@ -8823,7 +8818,7 @@
 :n012919 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/org> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/org> ;
     skos:notation "012919" ;
     skos:prefLabel "Ersteller"@de,
         "Originator"@en ;
@@ -8832,7 +8827,7 @@
 :n012920 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/prc> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/prc> ;
     skos:notation "012920" ;
     skos:prefLabel "Prozesskontakt"@de,
         "Process contact"@en ;
@@ -8841,7 +8836,7 @@
 :n012921 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cos> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cos> ;
     skos:notation "012921" ;
     skos:prefLabel "Anfechtender"@de,
         "Contestant"@en ;
@@ -8850,7 +8845,7 @@
 :n012922 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/dln> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dln> ;
     skos:notation "012922" ;
     skos:prefLabel " Abgrenzer"@de,
         "Delineator"@en ;
@@ -8859,7 +8854,7 @@
 :n012923 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/lel> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/lel> ;
     skos:notation "012923" ;
     skos:prefLabel "Freigestellter"@de,
         "Libelee"@en ;
@@ -8868,7 +8863,7 @@
 :n012924 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/enj> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/enj> ;
     skos:notation "012924" ;
     skos:prefLabel "Ausübende Gerichtsbarkeit"@de,
         "Enacting jurisdiction"@en ;
@@ -8877,7 +8872,7 @@
 :n012925 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/lee> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/lee> ;
     skos:notation "012925" ;
     skos:prefLabel " Verfügungsbeklagter"@de,
         "Libelee-appellee"@en ;
@@ -8886,7 +8881,7 @@
 :n012926 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cts> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cts> ;
     skos:notation "012926" ;
     skos:prefLabel "Angefochtener"@de,
         "Contestee"@en ;
@@ -8895,7 +8890,7 @@
 :n012927 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/auc> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/auc> ;
     skos:notation "012927" ;
     skos:prefLabel "Versteigerer"@de,
         "Auctioneer"@en ;
@@ -8904,7 +8899,7 @@
 :n012928 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/sgn> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/sgn> ;
     skos:notation "012928" ;
     skos:prefLabel "Unterzeichner"@de,
         "Signer"@en ;
@@ -8913,7 +8908,7 @@
 :n012929 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ctt> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ctt> ;
     skos:notation "012929" ;
     skos:prefLabel "Angefochtener - Berufungskläger"@de,
         "Contestee-appellant"@en ;
@@ -8922,7 +8917,7 @@
 :n012930 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/jud> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/jud> ;
     skos:notation "012930" ;
     skos:prefLabel "Richter"@de,
         "Judge"@en ;
@@ -8931,7 +8926,7 @@
 :n012931 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/dfe> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dfe> ;
     skos:notation "012931" ;
     skos:prefLabel "Beklagter - Berufungsbeklagter"@de,
         "Defendant-appellee"@en ;
@@ -8940,7 +8935,7 @@
 :n012932 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/lit> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/lit> ;
     skos:notation "012932" ;
     skos:prefLabel "Ankläger - Berufungskläger"@de,
         "Libelant-appellant"@en ;
@@ -8949,7 +8944,7 @@
 :n012933 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cou> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cou> ;
     skos:notation "012933" ;
     skos:prefLabel "Gericht verwaltet"@de,
         "Court governed"@en ;
@@ -8958,7 +8953,7 @@
 :n012934 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/coe> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/coe> ;
     skos:notation "012934" ;
     skos:prefLabel "Anfechtungskläger-Bewerber"@de,
         "Contestant-appellee"@en ;
@@ -8967,7 +8962,7 @@
 :n012935 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/dgg> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dgg> ;
     skos:notation "012935" ;
     skos:prefLabel "Einrichtung, die den akademischen Grad verleiht"@de,
         "Degree granting institution"@en ;
@@ -8976,7 +8971,7 @@
 :n012936 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/jug> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/jug> ;
     skos:notation "012936" ;
     skos:prefLabel "Gerichtliche Zuständigkeit"@de,
         "Jurisdiction governed"@en ;
@@ -8985,7 +8980,7 @@
 :n012937 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cte> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cte> ;
     skos:notation "012937" ;
     skos:prefLabel "Berufungsbeklagter"@de,
         "Contestee-appellee"@en ;
@@ -8994,7 +8989,7 @@
 :n012938 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/opn> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/opn> ;
     skos:notation "012938" ;
     skos:prefLabel " Einsprechende"@de,
         "Opponent"@en ;
@@ -9003,7 +8998,7 @@
 :n012939 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/pma> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/pma> ;
     skos:notation "012939" ;
     skos:prefLabel "Genehmigungsbehörde"@de,
         "Permitting agency"@en ;
@@ -9012,7 +9007,7 @@
 :n012940 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/pta> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/pta> ;
     skos:notation "012940" ;
     skos:prefLabel "Patentanmelder"@de,
         "Patent applicant"@en ;
@@ -9021,7 +9016,7 @@
 :n012941 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/fpy> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/fpy> ;
     skos:notation "012941" ;
     skos:prefLabel "Erste Partei"@de,
         "First party"@en ;
@@ -9030,7 +9025,7 @@
 :n012942 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/spy> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/spy> ;
     skos:notation "012942" ;
     skos:prefLabel "Zweiter Beteiligter"@de,
         "Second party"@en ;
@@ -9039,7 +9034,7 @@
 :n012943 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/rsp> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/rsp> ;
     skos:notation "012943" ;
     skos:prefLabel "Antragsgegner"@de,
         "Respondent"@en ;
@@ -9048,7 +9043,7 @@
 :n012944 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/apl> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/apl> ;
     skos:notation "012944" ;
     skos:prefLabel "Rechtsmittelführer"@de,
         "Appellant"@en ;
@@ -9057,7 +9052,7 @@
 :n012945 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/rst> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/rst> ;
     skos:notation "012945" ;
     skos:prefLabel "Beklagter - Berufungskläger"@de,
         "Respondent-appellant"@en ;
@@ -9066,7 +9061,7 @@
 :n012946 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/let> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/let> ;
     skos:notation "012946" ;
     skos:prefLabel "Libelle - Berufungskläger"@de,
         "Libelee-appellant"@en ;
@@ -9075,7 +9070,7 @@
 :n012947 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/ptt> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ptt> ;
     skos:notation "012947" ;
     skos:prefLabel "Kläger - Berufungskläger"@de,
         "Plaintiff-appellant"@en ;
@@ -9084,7 +9079,7 @@
 :n012948 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/dft> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dft> ;
     skos:notation "012948" ;
     skos:prefLabel "Beklagter - Berufungskläger"@de,
         "Defendant-appellant"@en ;
@@ -9093,7 +9088,7 @@
 :n012949 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/lie> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/lie> ;
     skos:notation "012949" ;
     skos:prefLabel "Berufungskläger"@de,
         "Libelant-appellee"@en ;
@@ -9102,7 +9097,7 @@
 :n012950 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cot> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cot> ;
     skos:notation "012950" ;
     skos:prefLabel "Anfechtungskläger"@de,
         "Contestant-appellant"@en ;
@@ -9111,7 +9106,7 @@
 :n012951 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cpl> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cpl> ;
     skos:notation "012951" ;
     skos:prefLabel "Beschwerdeführerin"@de,
         "Complainant"@en ;
@@ -9120,7 +9115,7 @@
 :n012952 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/pte> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/pte> ;
     skos:notation "012952" ;
     skos:prefLabel "Kläger/Beklagter"@de,
         "Plaintiff-appellee"@en ;
@@ -9129,7 +9124,7 @@
 :n012953 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cpe> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cpe> ;
     skos:notation "012953" ;
     skos:prefLabel "Beschwerdeführer/Beklagter"@de,
         "Complainant-appellee"@en ;
@@ -9138,7 +9133,7 @@
 :n012954 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/dfd> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dfd> ;
     skos:notation "012954" ;
     skos:prefLabel "Beklagter"@de,
         "Defendant"@en ;
@@ -9147,7 +9142,7 @@
 :n012955 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/dub> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dub> ;
     skos:notation "012955" ;
     skos:prefLabel "Fragwürdige*r Autor*in"@de,
         "Dubious author"@en ;
@@ -9156,7 +9151,7 @@
 :n012956 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/frg> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/frg> ;
     skos:notation "012956" ;
     skos:prefLabel "Fälscher*in"@de,
         "Forger"@en ;
@@ -9165,7 +9160,7 @@
 :n012957 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
-    skos:exactMatch <http://id.loc.gov/vocabulary/relators/cpc> ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cpc> ;
     skos:notation "012957" ;
     skos:prefLabel "Copyright Anspruchsteller*in"@de,
         "Copyright claimant"@en ;

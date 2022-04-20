@@ -33,7 +33,7 @@
   },
   "exactMatch": [
     {
-      "id": "http://id.loc.gov/vocabulary/relators/prn"
+      "id": "https://id.loc.gov/vocabulary/relators/prn"
     }
   ],
   "inScheme": {

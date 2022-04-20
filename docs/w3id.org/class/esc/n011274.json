@@ -25,7 +25,7 @@
   },
   "exactMatch": [
     {
-      "id": "http://id.loc.gov/vocabulary/relators/trc"
+      "id": "https://id.loc.gov/vocabulary/relators/trc"
     }
   ],
   "inScheme": {

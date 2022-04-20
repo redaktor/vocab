@@ -25,7 +25,7 @@
   },
   "exactMatch": [
     {
-      "id": "http://id.loc.gov/vocabulary/relators/win"
+      "id": "https://id.loc.gov/vocabulary/relators/win"
     }
   ],
   "inScheme": {

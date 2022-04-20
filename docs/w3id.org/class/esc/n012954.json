@@ -25,7 +25,7 @@
   },
   "exactMatch": [
     {
-      "id": "http://id.loc.gov/vocabulary/relators/dfd"
+      "id": "https://id.loc.gov/vocabulary/relators/dfd"
     }
   ],
   "inScheme": {

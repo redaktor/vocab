@@ -27,7 +27,7 @@
   },
   "exactMatch": [
     {
-      "id": "http://id.loc.gov/vocabulary/relators/stn"
+      "id": "https://id.loc.gov/vocabulary/relators/stn"
     }
   ],
   "inScheme": {

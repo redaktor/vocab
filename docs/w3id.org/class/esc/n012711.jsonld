@@ -30,7 +30,7 @@
   },
   "exactMatch": [
     {
-      "id": "http://id.loc.gov/vocabulary/relators/dst"
+      "id": "https://id.loc.gov/vocabulary/relators/dst"
     }
   ],
   "inScheme": {

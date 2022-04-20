@@ -25,7 +25,7 @@
   },
   "exactMatch": [
     {
-      "id": "http://id.loc.gov/vocabulary/relators/pte"
+      "id": "https://id.loc.gov/vocabulary/relators/pte"
     }
   ],
   "inScheme": {

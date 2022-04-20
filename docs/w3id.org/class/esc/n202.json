@@ -19,7 +19,7 @@
   },
   "exactMatch": [
     {
-      "id": "http://id.loc.gov/vocabulary/relators/prp"
+      "id": "https://id.loc.gov/vocabulary/relators/prp"
     }
   ],
   "inScheme": {

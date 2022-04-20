@@ -19,7 +19,7 @@
   },
   "exactMatch": [
     {
-      "id": "http://id.loc.gov/vocabulary/relators/uvp"
+      "id": "https://id.loc.gov/vocabulary/relators/uvp"
     }
   ],
   "inScheme": {

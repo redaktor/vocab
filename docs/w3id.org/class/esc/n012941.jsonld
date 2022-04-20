@@ -25,7 +25,7 @@
   },
   "exactMatch": [
     {
-      "id": "http://id.loc.gov/vocabulary/relators/fpy"
+      "id": "https://id.loc.gov/vocabulary/relators/fpy"
     }
   ],
   "inScheme": {

@@ -10,9 +10,6 @@
   "definition": {
     "en": "A person, family, or organization responsible for creating a work by conceiving, and implementing, an original graphic design, drawing, painting, etc. For book illustrators, prefer Illustrator [ill]"
   },
-  "scopeNote": {
-    "en": "themoviedb.org#Artist"
-  },
   "notation": [
     "002"
   ],
@@ -23,9 +20,14 @@
       "en": "Generic or major role"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Artist"
+    }
+  ],
   "exactMatch": [
     {
-      "id": "http://id.loc.gov/vocabulary/relators/art"
+      "id": "https://id.loc.gov/vocabulary/relators/art"
     }
   ],
   "inScheme": {
