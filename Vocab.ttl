@@ -121,7 +121,12 @@
     skos:prefLabel "Primärer Künstler"@de,
         "Primary Artist"@en ;
     skos:definition "A person, family, or organization responsible for creating a work by conceiving, and implementing, an original graphic design, drawing, painting, etc. For book illustrators, prefer Illustrator [ill]"@en ;
-    skos:scopeNote "themoviedb.org#Artist" .
+    skos:scopeNote "themoviedb.org#Artist"@en ;
+    schema:identifier [
+      a schema:PropertyValue ;
+      schema:propertyID "themoviedb.org" ;
+      schema:value "Artist"
+    ] .
 :n003 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;

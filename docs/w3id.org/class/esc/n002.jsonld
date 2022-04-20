@@ -10,6 +10,9 @@
   "definition": {
     "en": "A person, family, or organization responsible for creating a work by conceiving, and implementing, an original graphic design, drawing, painting, etc. For book illustrators, prefer Illustrator [ill]"
   },
+  "scopeNote": {
+    "en": "themoviedb.org#Artist"
+  },
   "notation": [
     "002"
   ],
