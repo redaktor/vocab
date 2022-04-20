@@ -8,8 +8,8 @@
 
 :scheme a skos:ConceptScheme ;
     dct:alternative "redaktorVocab" ;
-    dct:description "**Beschreibt die Rollen von Akteuren und Orten in redaktor.** Das Vokabular wird im Zusammenhang mit mehreren Quellen entwickelt und gepflegt;<br>z.B. https://wikidata.org, https://themoviedb.org oder https://id.loc.gov/vocabulary/relators."@de,
-    "**Describes the roles of actors and places in redaktor.** The vocabulary is developed and maintained in the context of multiple sources,<br>e.g. https://wikidata.org, https://themoviedb.org or https://id.loc.gov/vocabulary/relators"@en ;
+    dct:description "**Beschreibt die Rollen von Akteuren und Orten in redaktor.**<br>Das Vokabular wird im Zusammenhang mit mehreren Quellen entwickelt und gepflegt;<br>z.B. https://wikidata.org, https://themoviedb.org oder https://id.loc.gov/vocabulary/relators."@de,
+    "**Describes the roles of actors and places in redaktor.**<br>The vocabulary is developed and maintained in the context of multiple sources,<br>e.g. https://wikidata.org, https://themoviedb.org or https://id.loc.gov/vocabulary/relators"@en ;
     dct:issued "2022-04-10"^^xsd:date ;
     dct:modified "2022-04-11"^^xsd:date ;
     dct:publisher "Sebastian Lasse" ;
@@ -17,7 +17,6 @@
     dct:title "ActivityPub: Roles and Relations"@en, "ActivityPub: Rollen und Verbindungen"@de ;
     vann:preferredNamespacePrefix "redaktor" ;
     vann:preferredNamespaceUri "https://w3id.org/class/redaktor/" ;
-    schema:isBasedOn <https://www.wikidata.org/wiki/Property:P4801> ;
     skos:hasTopConcept :n00, :n01, :n02, :n03, :n04, :n05, :n06, :n07, :n08, :n09, :n10, :n20, :n30, :n40 .
 
 
@@ -113,6 +112,7 @@
     skos:definition "A person or thing with a fictional meaning. For example a Character."@en ;
     skos:scopeNote "themoviedb.org#character"@en ;
     skos:topConceptOf :scheme .
+
 :n002 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
@@ -121,6 +121,7 @@
     skos:prefLabel "Primärer Künstler"@de,
         "Primary Artist"@en ;
     skos:definition "A person, family, or organization responsible for creating a work by conceiving, and implementing, an original graphic design, drawing, painting, etc. For book illustrators, prefer Illustrator [ill]"@en ;
+    skos:scopeNote <http://id.loc.gov/vocabulary/relators/art> ;
     skos:scopeNote "themoviedb.org#Artist"@en .
 :n003 a skos:Concept ;
     skos:inScheme :scheme ;
@@ -793,17 +794,14 @@
         "TODO"@en .
 
 
-
-
 :n101 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n10 ;
     skos:exactMatch <http://rdfs.org/sioc/ns#has_function> ;
     skos:notation "101" ;
     skos:prefLabel "hat Funktion"@de, "has function"@en ;
-    skos:definition "Ein Actor, der diese Rolle hat."@de,
-        "An Actor that has this Role."@en ;
-    skos:definition "Links a User to a Role that this User has (it is a function of this User). Users can have many different Roles in different contexts."@en .
+    skos:definition "Verknüpft Actor mit einer Rolle. Actors können in verschiedenen Kontexten viele verschiedene Rollen haben."@de,
+        "Links an Actor to a Role that this User has (it is a function of this Actor). Actors can have many different Roles in different contexts."@en .
 :n102 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n10 ;
@@ -5883,11 +5881,12 @@
 :n012235 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0122 ;
+    skos:related :n0117117 ;
     skos:notation "012235" ;
     skos:prefLabel "Ager/Färber*in"@de,
         "Ager/Dyer"@en ;
-    skos:prefLabel "Textilkünstler*in"@de,
-        "textile artist"@en ;
+    skos:altLabel "Kostümkünstler*in"@de,
+        "costume artist"@en ;
     skos:scopeNote "themoviedb.org#Ager/Dyer"@en .
 :n012236 a skos:Concept ;
     skos:inScheme :scheme ;

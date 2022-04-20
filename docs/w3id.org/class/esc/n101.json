@@ -8,7 +8,8 @@
     "en": "has function"
   },
   "definition": {
-    "de": "Ein Actor, der diese Rolle hat."
+    "de": "Verknüpft Actor mit einer Rolle. Actors können in verschiedenen Kontexten viele verschiedene Rollen haben.",
+    "en": "Links an Actor to a Role that this User has (it is a function of this Actor). Actors can have many different Roles in different contexts."
   },
   "notation": [
     "101"

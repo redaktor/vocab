@@ -20,6 +20,15 @@
       "en": "Art"
     }
   },
+  "related": [
+    {
+      "id": "https://w3id.org/class/esc/n012235",
+      "prefLabel": {
+        "de": "Ager/Färber*in",
+        "en": "Ager/Dyer"
+      }
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

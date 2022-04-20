@@ -3,6 +3,18 @@
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012235",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012235",
+  "prefLabel": {
+    "de": "Ager/Färber*in",
+    "en": "Ager/Dyer"
+  },
+  "altLabel": {
+    "de": [
+      "Kostümkünstler*in"
+    ],
+    "en": [
+      "costume artist"
+    ]
+  },
   "scopeNote": {
     "en": "themoviedb.org#Ager/Dyer"
   },
@@ -16,6 +28,15 @@
       "en": "Costume and Styling"
     }
   },
+  "related": [
+    {
+      "id": "https://w3id.org/class/esc/n0117117",
+      "prefLabel": {
+        "de": "Textilkünstler*in",
+        "en": "Textile Artist"
+      }
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {
