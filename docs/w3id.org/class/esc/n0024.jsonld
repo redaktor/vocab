@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0024",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0024",
   "prefLabel": {
-    "de": "Künstlerische*r Direktor*in",
-    "en": "Artistic director"
+    "de": "Host Institution",
+    "en": "Host institution"
   },
   "definition": {
-    "de": "Eine Person, die für die Kontrolle der Entwicklung des künstlerischen Stils einer gesamten Produktion verantwortlich ist, einschließlich der Auswahl der zu präsentierenden Werke und der Auswahl des leitenden Produktionspersonals",
-    "en": "A person responsible for controlling the development of the artistic style of an entire production, including the choice of works to be presented and selection of senior production staff"
+    "de": "Eine Organisation, die die Veranstaltung, Ausstellung, Konferenz usw. ausrichtet, die zu einer Ressource geführt hat, aber wenig oder keine Verantwortung für den Inhalt der Ressource hat",
+    "en": "An organization hosting the event, exhibit, conference, etc., which gave rise to a resource, but having little or no responsibility for the content of the resource"
   },
   "notation": [
     "0024"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/ard"
+      "id": "https://id.loc.gov/vocabulary/relators/his"
     }
   ],
   "inScheme": {

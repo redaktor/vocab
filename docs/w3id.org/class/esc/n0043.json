@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0043",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0043",
   "prefLabel": {
-    "de": "Antragsteller*in",
-    "en": "Applicant"
+    "de": "Repository",
+    "en": "Repository"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die für die Einreichung eines Antrags verantwortlich ist oder die für die Ergebnisse der Antragsbearbeitung (z. B. Verleihung von Rechten, Belohnungen, Titeln, Positionen) als berechtigt genannt wird",
-    "en": "A person or organization responsible for the submission of an application or who is named as eligible for the results of the processing of the application (e.g., bestowing of rights, reward, title, position)"
+    "de": "Eine Organisation, die Daten oder Objekte der materiellen Kultur beherbergt und Dienste zur Förderung einer langfristigen, konsistenten und gemeinsamen Nutzung dieser Daten oder Objekte bereitstellt",
+    "en": "An organization that hosts data or material culture objects and provides services to promote long term, consistent and shared use of those data or objects"
   },
   "notation": [
     "0043"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/app"
+      "id": "https://id.loc.gov/vocabulary/relators/rps"
     }
   ],
   "inScheme": {

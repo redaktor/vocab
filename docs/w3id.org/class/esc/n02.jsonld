@@ -8,6 +8,7 @@
     "en": "Place Role"
   },
   "scopeNote": {
+    "de": "Beschreibt die Rollen von Actors in ortsbezogenen Projekten",
     "en": "Describes Roles of Actors in Place based Projects"
   },
   "notation": [
@@ -18,7 +19,7 @@
       "id": "https://w3id.org/class/esc/n021",
       "prefLabel": {
         "de": "TODO Rolle in Örtlichkeit",
-        "en": "TODO"
+        "en": "TODO Role in Place"
       }
     }
   ],

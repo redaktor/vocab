@@ -14,7 +14,7 @@
     {
       "id": "https://w3id.org/class/esc/n012011",
       "prefLabel": {
-        "de": " Produktionsstudio",
+        "de": "Produktionsstudio",
         "en": "Production Studio"
       }
     },
@@ -49,7 +49,7 @@
     {
       "id": "https://w3id.org/class/esc/n012016",
       "prefLabel": {
-        "de": " Produktionsdesigner*in",
+        "de": "Produktionsdesigner*in",
         "en": "Production Designer"
       }
     },
@@ -84,7 +84,7 @@
     {
       "id": "https://w3id.org/class/esc/n012021",
       "prefLabel": {
-        "de": " Buchproduzent*in",
+        "de": "Buchproduzent*in",
         "en": "Book producer"
       }
     },
@@ -154,7 +154,7 @@
     {
       "id": "https://w3id.org/class/esc/n012031",
       "prefLabel": {
-        "de": " Buchhalter*in für die Produktion",
+        "de": "Buchhalter*in für die Produktion",
         "en": "Production Accountant"
       }
     },
@@ -378,7 +378,7 @@
     {
       "id": "https://w3id.org/class/esc/n012063",
       "prefLabel": {
-        "de": " Co-Produktionsassistenz",
+        "de": "Co-Produktionsassistenz",
         "en": "Additional Production Assistant"
       }
     },

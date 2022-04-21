@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn20",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn20",
   "prefLabel": {
-    "de": "location Verbindungen",
-    "en": "location Relations"
+    "de": "`location` Verbindungen",
+    "en": "`location` Relations"
   },
   "notation": [
     "20"
@@ -14,7 +14,7 @@
     {
       "id": "https://w3id.org/class/esc/n201",
       "prefLabel": {
-        "de": "Ort Erstellt",
+        "de": "Erstellungsort",
         "en": "Location Created"
       }
     },
@@ -42,7 +42,7 @@
     {
       "id": "https://w3id.org/class/esc/n205",
       "prefLabel": {
-        "de": "Ort der Universität oder Bibliothek",
+        "de": "Ort einer Universität oder Bibliothek",
         "en": "Location University or Library"
       }
     },

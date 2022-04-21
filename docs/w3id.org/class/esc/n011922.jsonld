@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011922",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011922",
   "prefLabel": {
-    "de": " Co-Regie",
+    "de": "Co-Regie",
     "en": "Co-Director"
   },
   "notation": [

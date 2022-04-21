@@ -4,20 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0034",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0034",
   "prefLabel": {
-    "de": "Zugeschriebener Name",
-    "en": "Attributed name"
-  },
-  "altLabel": {
-    "de": [
-      "Generische Zuschreibung"
-    ],
-    "en": [
-      "Generic Attribution"
-    ]
+    "de": "Sammler*in",
+    "en": "Collector"
   },
   "definition": {
-    "de": "Ein Autor, Künstler usw., der mit einer Ressource in Verbindung gebracht wird, für die es eine wesentliche Berechtigung gibt oder gab, diese Person als Autor, Schöpfer usw. des Werks zu bezeichnen, was auf die Herkunft hinweist",
-    "en": "An author, artist, etc., relating him/her to a resource for which there is or once was substantial authority for designating that person as author, creator, etc. of the work indicative of provenance"
+    "de": "Ein Kurator, der Gegenstände aus verschiedenen Quellen zusammenträgt, die dann als Sammlung geordnet, beschrieben und katalogisiert werden. Ein Sammler ist weder der Schöpfer des Materials noch eine Person, an die die Manuskripte in der Sammlung möglicherweise adressiert waren",
+    "en": "A curator who brings together items from various sources that are then arranged, described, and cataloged as a collection. A collector is neither the creator of the material nor a person to whom manuscripts in the collection may have been addressed"
   },
   "notation": [
     "0034"
@@ -31,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/att"
+      "id": "https://id.loc.gov/vocabulary/relators/col"
     }
   ],
   "inScheme": {

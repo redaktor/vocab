@@ -40,28 +40,32 @@
     skos:notation "01", "011" ;
     skos:prefLabel "Rolle in Kreativ-Werk"@de, "Creative Work Role"@en ;
     skos:altLabel "Zuschreibung, Tätigkeit"@de, "Attribution, Profession"@en ;
-    skos:scopeNote "Describes Roles of Actors in Creative Work Projects"@en ;
+    skos:scopeNote "Beschreibt die Rollen von Actors in Kreativprozessen"@de, 
+    "Describes Roles of Actors in Creative Work Projects"@en ;
     skos:topConceptOf :scheme .
 :n02 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:narrower :n021 ;
     skos:notation "02" ;
     skos:prefLabel "Rolle in Örtlichkeit"@de, "Place Role"@en ;
-    skos:scopeNote "Describes Roles of Actors in Place based Projects"@en ;
+    skos:scopeNote "Beschreibt die Rollen von Actors in ortsbezogenen Projekten"@de, 
+    "Describes Roles of Actors in Place based Projects"@en ;
     skos:topConceptOf :scheme .
 :n03 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:narrower :n031 ;
     skos:notation "03" ;
     skos:prefLabel "Rolle in Veranstaltung"@de, "Event Role"@en ;
-    skos:scopeNote "Describes Roles of Actors in Event based Projects"@en ;
+    skos:scopeNote "Beschreibt die Rollen von Actors in ereignisbasierten Projekten"@de, 
+    "Describes Roles of Actors in Event based Projects"@en ;
     skos:topConceptOf :scheme .
 :n04 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:narrower :n041 ;
     skos:notation "04" ;
     skos:prefLabel "Gegenseitige Hilfe TODO"@de, "Mutual Aid"@en ;
-    skos:scopeNote "Describes Roles amongst Actors"@en ;
+    skos:scopeNote "Beschreibt die Verbindungen zwischen Actors"@de, 
+    "Describes Roles amongst Actors"@en ;
     skos:topConceptOf :scheme .
 :n05 a skos:Concept ;
     skos:inScheme :scheme ;
@@ -69,7 +73,8 @@
     skos:notation "05" ;
     skos:prefLabel "Notfall Managing TODO"@de, "Emergency Managing"@en ;
     skos:altLabel "Crisis Response"@de, "Krisenintervention"@en ;
-    skos:scopeNote "Describes Roles of Actors in Emergency Managin, see also https://shekarpour.github.io/empathi.io/#objectproperties"@en ;
+    skos:scopeNote "Beschreibt die Rollen von Actors im Notfallmanagement, siehe auch https://shekarpour.github.io/empathi.io/#objectproperties"@de, 
+    "Describes Roles of Actors in Emergency Managin, see also https://shekarpour.github.io/empathi.io/#objectproperties"@en ;
     skos:topConceptOf :scheme .
 
 :n10 a skos:Concept ;
@@ -77,21 +82,21 @@
     skos:narrower :n101, :n102, :n103, :n104, :n105, :n106, :n107, :n108, :n109,
         :n110, :n111, :n112, :n113 ;
     skos:notation "10" ;
-    skos:prefLabel "attributedTo Verbindungen"@de, "attributedTo Relations"@en ;
-    skos:scopeNote ""@en ;
+    skos:prefLabel "`attributedTo` Verbindungen"@de, "`attributedTo` Relations"@en ;
+    skos:scopeNote "Beschreibt die Verbindungen in Attributierungen"@en ;
     skos:topConceptOf :scheme .
 :n20 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:narrower :n201, :n202, :n203, :n204, :n205, :n206, :n207 ;
     skos:notation "20" ;
-    skos:prefLabel "location Verbindungen"@de, "location Relations"@en ;
+    skos:prefLabel "`location` Verbindungen"@de, "`location` Relations"@en ;
     skos:scopeNote ""@en ;
     skos:topConceptOf :scheme .
 :n30 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:narrower :n301 ;
     skos:notation "30" ;
-    skos:prefLabel "image, attachment und andere Verbindungen"@de, "image, attachment and other Relations"@en ;
+    skos:prefLabel "`image`, `attachment` & andere Verbindungen"@de, "Relations for `image`, `attachment` & other"@en ;
     skos:scopeNote ""@en ;
     skos:topConceptOf :scheme .
 
@@ -105,7 +110,6 @@
     "A person or thing with a fictional meaning. For example a Character."@en ;
     skos:closeMatch <https://themoviedb.org#character> ;
     skos:topConceptOf :scheme .
-
 :n002 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
@@ -128,272 +132,274 @@
 :n004 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/led> ;
-    skos:notation "004" ;
-    skos:prefLabel "Leitung"@de, "Lead"@en ;
-    skos:definition "Eine Person oder Organisation, die die Hauptverantwortung für eine bestimmte Tätigkeit oder ein bestimmtes Unterfangen trägt. Kann mit einem anderen Relatorbegriff oder -code kombiniert werden, um die größere Bedeutung dieser Person oder Organisation in Bezug auf diese bestimmte Rolle zu zeigen. Wenn einer Rubrik mehr als ein Verantwortlicher zugeordnet ist, verwenden Sie den Begriff nur, wenn er auf alle Verantwortlichen zutrifft."@de, 
-    "A person or organization that takes primary responsibility for a particular activity or endeavor. May be combined with another relator term or code to show the greater importance this person or organization has regarding that particular role. If more than one relator is assigned to a heading, use the Lead relator only if it applies to all the relators"@en ;
-    skos:closeMatch <https://themoviedb.org#Lead> .
-:n005 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
     skos:exactMatch <https://id.loc.gov/vocabulary/relators/cph> ;
-    skos:notation "005" ;
+    skos:notation "004" ;
     skos:prefLabel "Copyright Inhaber*in"@de, "Copyright Holder"@en ;
     skos:altLabel "© by"@de, "© by"@en ;
     skos:definition "Eine Person oder Organisation, der Urheber- und Rechtsrechte für den geistigen Inhalt eines Werkes gewährt oder übertragen wurden. Der Urheberrechtsinhaber ist zwar nicht unbedingt der Schöpfer des Werks, hat aber in der Regel das ausschließliche Recht, aus dem Verkauf und der Nutzung des Werks, für das der entsprechende Urheberrechtsschutz gilt, finanziell zu profitieren"@de, 
     "A person or organization to whom copy and legal rights have been granted or transferred for the intellectual content of a work. The copyright holder, although not necessarily the creator of the work, usually has the exclusive right to benefit financially from the sale and use of the work to which the associated copyright protection applies"@en ;
     skos:closeMatch <https://themoviedb.org#Copyright%20Holder> .
-:n006 a skos:Concept ;
+:n005 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
     skos:exactMatch <https://id.loc.gov/vocabulary/relators/ann> ;
-    skos:notation "006" ;
+    skos:notation "005" ;
     skos:prefLabel "Verfasser Strukturierte Daten, Annotator"@de, "Annotator, Structured Data Publisher"@en ;
     skos:altLabel "Metadaten"@de, "metadata"@en ;
     skos:hiddenLabel "sdPublisher Structured Data"@de, "sdPublisher"@en ;
     skos:definition "Eine Person, die handschriftliche Anmerkungen zu einem Werk macht"@de, 
     "A person who makes manuscript annotations on an item"@en ;
     skos:scopeNote "schema.org#sdPublisher"@en .
-:n007 a skos:Concept ;
+:n006 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
     skos:exactMatch <https://id.loc.gov/vocabulary/relators/mrk> ;
-    skos:notation "007" ;
+    skos:notation "006" ;
     skos:prefLabel "Markup Editor"@de, "Markup editor"@en ;
     skos:definition "Eine Person oder Organisation, die die Kodierung von SGML-, HTML- oder XML-Auszeichnungen von Metadaten, Text usw. vornimmt"@de, 
     "A person or organization performing the coding of SGML, HTML, or XML markup of metadata, text, etc."@en ;
     skos:closeMatch <https://themoviedb.org#Markup%20editor> .
+:n007 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dpc> ;
+    skos:notation "007" ;
+    skos:prefLabel "Abgebildet"@de, "Depicted"@en ;
+    skos:definition "Eine in einem Werk, insbesondere in einem Kunstwerk, abgebildete oder dargestellte Person"@de, 
+    "An entity depicted or portrayed in a work, particularly in a work of art"@en .
 :n008 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/inv> ;
-    skos:notation "008" ;
-    skos:prefLabel "Erfinder*in"@de, "Inventor"@en ;
-    skos:definition "Eine Person, Familie oder Organisation, die für die Entwicklung eines neuen Geräts oder Verfahrens verantwortlich ist"@de, 
-    "A person, family, or organization responsible for creating a new device or process"@en .
-:n009 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/fnd> ;
-    skos:notation "009" ;
-    skos:prefLabel "Förderer*in"@de, "Funder"@en ;
-    skos:definition "Eine Person oder Organisation, die die Produktion des Werks finanziell unterstützt hat"@de, 
-    "A person or organization that furnished financial support for the production of the work"@en ;
-    skos:closeMatch <https://themoviedb.org#Funder> .
-:n0010 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/spn> ;
-    skos:notation "0010" ;
-    skos:prefLabel "Sponsor"@de, "Sponsor"@en ;
-    skos:definition "Eine Person, Familie oder Organisation, die einen bestimmten Aspekt einer Ressource sponsert, z. B. die Finanzierung von Forschung, das Sponsoring einer Veranstaltung"@de, 
-    "A person, family, or organization sponsoring some aspect of a resource, e.g., funding research, sponsoring an event"@en ;
-    skos:closeMatch <https://themoviedb.org#Sponsor> .
-:n0011 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dnr> ;
-    skos:notation "0011" ;
-    skos:prefLabel "Spender*in"@de, "Donor"@en ;
-    skos:definition "Ein ehemaliger Eigentümer eines Gegenstands, der diesen Gegenstand einem anderen Eigentümer geschenkt hat"@de, 
-    "A former owner of an item who donated that item to another owner"@en ;
-    skos:closeMatch <https://themoviedb.org#Donor> .
-:n0012 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/pat> ;
-    skos:notation "0012" ;
-    skos:prefLabel "Patron*in"@de, "Patron"@en ;
-    skos:definition "Eine Person oder Organisation, die ein Werk in Auftrag gibt. Normalerweise setzt ein Mäzen seine Mittel oder seinen Einfluss ein, um die Arbeit von Künstlern, Schriftstellern usw. zu unterstützen. Dazu gehören auch diejenigen, die einzelne Werke in Auftrag geben und dafür bezahlen."@de,
-    "A person or organization responsible for commissioning a work. Usually a patron uses his or her means or influence to support the work of artists, writers, etc. This includes those who commission and pay for individual works"@en ;
-    skos:closeMatch <https://themoviedb.org#Patron> .
-:n0013 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cli> ;
-    skos:notation "0013" ;
-    skos:prefLabel "Client, Kund*in"@de, "Client"@en ;
-    skos:definition "Eine Person oder Organisation, für die eine andere Person oder Organisation tätig ist"@de, 
-    "A person or organization for whom another person or organization is acting"@en .
-:n0014 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ctr> ;
-    skos:notation "0014" ;
-    skos:prefLabel "Vertragspartner*in"@de, "Contractor"@en ;
-    skos:definition "Eine Person oder Organisation, die für eine Ressource relevant ist und mit einer anderen Person oder Organisation einen Vertrag über eine bestimmte Leistung abschließt"@de, 
-    "A person or organization relevant to a resource, who enters into a contract with another person or organization to perform a specific"@en .
-:n0015 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/sht> ;
-    skos:notation "0015" ;
-    skos:prefLabel "Unterstützer*in"@de, "Supporter, Supporting Host"@en ;
-    skos:definition "Eine Person oder Organisation, die ein Projekt, ein Programm, ein Treffen, eine Veranstaltung, Datenobjekte, materielle Kulturobjekte oder andere unterstützungsfähige Einheiten unterstützt (durch Bereitstellung von Einrichtungen, Personal oder anderen Ressourcen)"@de, 
-    "A person or organization that supports (by allocating facilities, staff, or other resources) a project, program, meeting, event, data objects, material culture objects, or other entities capable of support"@en .
-:n0016 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:notation "0016" ;
-    skos:prefLabel "Supplier"@de, "Anbieter*in"@en ;
-    skos:definition "Allgemein. Nur verwenden, wenn es sich von dem liefernden ActivityPub-Actor unterscheidet."@de, 
-    "Generic. Use only if it is different than the supplying ActivityPub Actor."@en .
-:n0017 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dsr> ;
-    skos:notation "0017" ;
-    skos:prefLabel "Designer*in"@de, "Designer"@en ;
-    skos:definition "Eine Person, Familie oder Organisation, die für die Erstellung eines Entwurfs für ein Objekt verantwortlich ist"@de, 
-    "A person, family, or organization responsible for creating a design for an object"@en .
-:n0018 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/exp> ;
-    skos:notation "0018" ;
-    skos:prefLabel "Expert*in"@de, "Expert"@en ;
-    skos:definition "Eine Person oder Organisation, die für die Beschreibung und Schätzung des Wertes von Waren, insbesondere von seltenen Gegenständen, Kunstwerken usw., zuständig ist."@de, 
-    "A person or organization in charge of the description and appraisal of the value of goods, particularly rare items, works of art, etc."@en .
-:n0019 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/med> ;
-    skos:notation "0019" ;
-    skos:prefLabel "Medium"@de, "Medium"@en ;
-    skos:definition "Eine Person, die als Kommunikationskanal zwischen der irdischen Welt und einer Welt gilt"@de, 
-    "A person held to be a channel of communication between the earthly world and a world"@en .
-:n0020 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/brd> ;
-    skos:notation "0020" ;
-    skos:prefLabel "Sender, Broadcaster"@de, "Broadcaster"@en ;
-    skos:definition "Eine Person, Familie oder Organisation, die an der Verbreitung einer Ressource an ein Publikum über Radio, Fernsehen, Webcast usw. beteiligt ist."@de, 
-    "A person, family, or organization involved in broadcasting a resource to an audience via radio, television, webcast, etc."@en .
-:n0021 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/hst> ;
-    skos:notation "0021" ;
-    skos:prefLabel "Host"@de, "Host"@en ;
-    skos:definition "Ein Künstler, der zu einer Ressource beiträgt, indem er ein (oft gesendetes) Programm leitet, das andere Gäste, Künstler usw. einschließt. (z. B. Talkshow-Moderator)"@de, 
-    "A performer contributing to a resource by leading a program (often broadcast) that includes other guests, performers, etc. (e.g., talk show host)"@en .
-:n0022 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/his> ;
-    skos:notation "0022" ;
-    skos:prefLabel "Host Institution"@de, "Host institution"@en ;
-    skos:definition "Eine Organisation, die die Veranstaltung, Ausstellung, Konferenz usw. ausrichtet, die zu einer Ressource geführt hat, aber wenig oder keine Verantwortung für den Inhalt der Ressource hat"@de, 
-    "An organization hosting the event, exhibit, conference, etc., which gave rise to a resource, but having little or no responsibility for the content of the resource"@en .
-:n0023 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cur> ;
-    skos:notation "0023" ;
-    skos:prefLabel "Kurator"@de, "Curator"@en ;
-    skos:definition "Eine Person, Familie oder Organisation, die eine Ausstellung, Sammlung oder ein anderes Objekt konzipiert, zusammenstellt und/oder organisiert"@de, 
-    "A person, family, or organization conceiving, aggregating, and/or organizing an exhibition, collection, or other item"@en .
-:n0024 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ard> ;
-    skos:notation "0024" ;
-    skos:prefLabel "Künstlerische*r Direktor*in"@de, "Artistic director"@en ;
-    skos:definition "Eine Person, die für die Kontrolle der Entwicklung des künstlerischen Stils einer gesamten Produktion verantwortlich ist, einschließlich der Auswahl der zu präsentierenden Werke und der Auswahl des leitenden Produktionspersonals"@de, 
-    "A person responsible for controlling the development of the artistic style of an entire production, including the choice of works to be presented and selection of senior production staff"@en .
-:n0025 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/orm> ;
-    skos:notation "0025" ;
-    skos:prefLabel "Veranstalter*in"@de, "Organizer"@en ;
-    skos:definition "Eine Person, Familie oder Organisation, die die Ausstellung, Veranstaltung, Konferenz usw. organisiert, aus der eine Ressource hervorgegangen ist"@de,  
-    "A person, family, or organization organizing the exhibit, event, conference, etc., which gave rise to a resource "@en .
-:n0026 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/isb> ;
-    skos:notation "0026" ;
-    skos:prefLabel "Herausgeber*in"@de, "Issuing body"@en ;
-    skos:definition "Eine Person, Familie oder Organisation, die ein Werk herausgibt, wie z. B. ein offizielles Organ der Einrichtung"@de, 
-    "A person, family or organization issuing a work, such as an official organ of the body"@en .
-:n0027 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/stn> ;
-    skos:notation "0027" ;
-    skos:prefLabel "Normungsgremium"@de, "Standards body"@en ;
-    skos:altLabel "Standards-Institution"@de ;
-    skos:definition "Eine Organisation, die für die Entwicklung oder Durchsetzung einer Norm verantwortlich ist"@de, 
-    "An organization responsible for the development or enforcement of a standard"@en .
-:n0028 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dtc> ;
-    skos:notation "0028" ;
-    skos:prefLabel "Datenlieferant"@de, "Data contributor"@en ;
-    skos:definition "Eine Person oder Organisation, die Daten zur Aufnahme in eine Datenbank oder eine andere Datensammlung vorlegt"@de, 
-    "A person or organization that submits data for inclusion in a database or other collection of data"@en .
-:n0029 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/asg> ;
-    skos:notation "0029" ;
-    skos:prefLabel "Rechtsnachfolger"@de, "Assignee"@en ;
-    skos:definition "Eine Person oder Organisation, der eine Lizenz zum Drucken oder Veröffentlichen übertragen wurde"@de, 
-    "A person or organization to whom a license for printing or publishing has been transferred"@en .
-:n0030 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/lse> ;
-    skos:notation "0030" ;
-    skos:prefLabel "Lizenznehmer*in"@de, "Licensee"@en ;
-    skos:definition "Eine Person oder Organisation, die der ursprüngliche Empfänger der Druck- oder Veröffentlichungslizenz ist"@de, 
-    "A person or organization who is an original recipient of the right to print or publish"@en .
-:n0031 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/lso> ;
-    skos:notation "0031" ;
-    skos:prefLabel "Lizenzgeber*in"@de, "Licensor"@en ;
-    skos:definition "Eine Person oder Organisation, die Unterzeichner der Lizenz, des Imprimaturs usw. ist"@de, 
-    "A person or organization who is a signer of the license, imprimatur, etc"@en .
-:n0032 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/col> ;
-    skos:notation "0032" ;
-    skos:prefLabel "Sammler*in"@de, "Collector"@en ;
-    skos:definition "Ein Kurator, der Gegenstände aus verschiedenen Quellen zusammenträgt, die dann als Sammlung geordnet, beschrieben und katalogisiert werden. Ein Sammler ist weder der Schöpfer des Materials noch eine Person, an die die Manuskripte in der Sammlung möglicherweise adressiert waren"@de, 
-    "A curator who brings together items from various sources that are then arranged, described, and cataloged as a collection. A collector is neither the creator of the material nor a person to whom manuscripts in the collection may have been addressed"@en .
-:n0033 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/pan> ;
-    skos:notation "0033" ;
-    skos:prefLabel "Panelist*in"@de, "Panelist"@en ;
-    skos:definition "Ein Künstler, der zu einer Ressource beiträgt, indem er an einer (oft ausgestrahlten) Sendung teilnimmt, in der Themen erörtert werden, in der Regel unter Beteiligung von Experten auf den mit der Diskussion verbundenen Gebieten"@de, 
-    "A performer contributing to a resource by participating in a program (often broadcast) where topics are discussed, usually with participation of experts in fields related to the discussion"@en .
-:n0034 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
     skos:exactMatch <https://id.loc.gov/vocabulary/relators/att> ;
-    skos:notation "0034" ;
+    skos:notation "008" ;
     skos:prefLabel "Zugeschriebener Name"@de, "Attributed name"@en ;
     skos:altLabel "Generische Zuschreibung"@de, "Generic Attribution"@en ;
     skos:definition "Ein Autor, Künstler usw., der mit einer Ressource in Verbindung gebracht wird, für die es eine wesentliche Berechtigung gibt oder gab, diese Person als Autor, Schöpfer usw. des Werks zu bezeichnen, was auf die Herkunft hinweist"@de, 
     "An author, artist, etc., relating him/her to a resource for which there is or once was substantial authority for designating that person as author, creator, etc. of the work indicative of provenance"@en .
-:n0035 a skos:Concept ;
+:n009 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
     skos:exactMatch <https://id.loc.gov/vocabulary/relators/asn> ;
-    skos:notation "0035" ;
+    skos:notation "009" ;
     skos:prefLabel "Assoziierter Name"@de, "Associated name"@en ;
     skos:altLabel "Generische Assoziierung"@de, "Generic Association"@en ;
     skos:definition "Eine Person oder Organisation, die mit einem Gegenstand oder einer Sammlung in Verbindung gebracht wird oder in dieser zu finden ist, die aber nicht bestimmt werden kann."@de, 
     "A person or organization associated with or found in an item or collection, which cannot be determined."@en .
+:n0010 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/inv> ;
+    skos:notation "0010" ;
+    skos:prefLabel "Erfinder*in"@de, "Inventor"@en ;
+    skos:definition "Eine Person, Familie oder Organisation, die für die Entwicklung eines neuen Geräts oder Verfahrens verantwortlich ist"@de, 
+    "A person, family, or organization responsible for creating a new device or process"@en .
+:n0011 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/led> ;
+    skos:notation "0011" ;
+    skos:prefLabel "Leitung"@de, "Lead"@en ;
+    skos:definition "Eine Person oder Organisation, die die Hauptverantwortung für eine bestimmte Tätigkeit oder ein bestimmtes Unterfangen trägt. Kann mit einem anderen Rollenbegriff oder -code kombiniert werden, um die größere Bedeutung dieser Person oder Organisation in Bezug auf diese bestimmte Rolle zu zeigen. Wenn einer Rubrik mehr als ein Verantwortlicher zugeordnet ist, verwenden Sie den Begriff nur, wenn er auf alle Verantwortlichen zutrifft."@de, 
+    "A person or organization that takes primary responsibility for a particular activity or endeavor. May be combined with another relator term or code to show the greater importance this person or organization has regarding that particular role. If more than one relator is assigned to a heading, use the Lead relator only if it applies to all the relators"@en ;
+    skos:closeMatch <https://themoviedb.org#Lead> .
+:n0012 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/fnd> ;
+    skos:notation "0012" ;
+    skos:prefLabel "Förderer*in"@de, "Funder"@en ;
+    skos:definition "Eine Person oder Organisation, die die Produktion des Werks finanziell unterstützt hat"@de, 
+    "A person or organization that furnished financial support for the production of the work"@en ;
+    skos:closeMatch <https://themoviedb.org#Funder> .
+:n0013 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/spn> ;
+    skos:notation "0013" ;
+    skos:prefLabel "Sponsor"@de, "Sponsor"@en ;
+    skos:definition "Eine Person, Familie oder Organisation, die einen bestimmten Aspekt einer Ressource sponsert, z. B. die Finanzierung von Forschung, das Sponsoring einer Veranstaltung"@de, 
+    "A person, family, or organization sponsoring some aspect of a resource, e.g., funding research, sponsoring an event"@en ;
+    skos:closeMatch <https://themoviedb.org#Sponsor> .
+:n0014 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dnr> ;
+    skos:notation "0014" ;
+    skos:prefLabel "Spender*in"@de, "Donor"@en ;
+    skos:definition "Ein ehemaliger Eigentümer eines Gegenstands, der diesen Gegenstand einem anderen Eigentümer geschenkt hat"@de, 
+    "A former owner of an item who donated that item to another owner"@en ;
+    skos:closeMatch <https://themoviedb.org#Donor> .
+:n0015 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/pat> ;
+    skos:notation "0015" ;
+    skos:prefLabel "Patron*in"@de, "Patron"@en ;
+    skos:definition "Eine Person oder Organisation, die ein Werk in Auftrag gibt. Normalerweise setzt ein Mäzen seine Mittel oder seinen Einfluss ein, um die Arbeit von Künstlern, Schriftstellern usw. zu unterstützen. Dazu gehören auch diejenigen, die einzelne Werke in Auftrag geben und dafür bezahlen."@de,
+    "A person or organization responsible for commissioning a work. Usually a patron uses his or her means or influence to support the work of artists, writers, etc. This includes those who commission and pay for individual works"@en ;
+    skos:closeMatch <https://themoviedb.org#Patron> .
+:n0016 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/exp> ;
+    skos:notation "0016" ;
+    skos:prefLabel "Expert*in"@de, "Expert"@en ;
+    skos:definition "Eine Person oder Organisation, die für die Beschreibung und Schätzung des Wertes von Waren, insbesondere von seltenen Gegenständen, Kunstwerken usw., zuständig ist."@de, 
+    "A person or organization in charge of the description and appraisal of the value of goods, particularly rare items, works of art, etc."@en .
+:n0017 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cli> ;
+    skos:notation "0017" ;
+    skos:prefLabel "Client, Kund*in"@de, "Client"@en ;
+    skos:definition "Eine Person oder Organisation, für die eine andere Person oder Organisation tätig ist"@de, 
+    "A person or organization for whom another person or organization is acting"@en .
+:n0018 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ctr> ;
+    skos:notation "0018" ;
+    skos:prefLabel "Vertragspartner*in"@de, "Contractor"@en ;
+    skos:definition "Eine Person oder Organisation, die für eine Ressource relevant ist und mit einer anderen Person oder Organisation einen Vertrag über eine bestimmte Leistung abschließt"@de, 
+    "A person or organization relevant to a resource, who enters into a contract with another person or organization to perform a specific"@en .
+:n0019 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/sht> ;
+    skos:notation "0019" ;
+    skos:prefLabel "Unterstützer*in"@de, "Supporter, Supporting Host"@en ;
+    skos:definition "Eine Person oder Organisation, die ein Projekt, ein Programm, ein Treffen, eine Veranstaltung, Datenobjekte, materielle Kulturobjekte oder andere unterstützungsfähige Einheiten unterstützt (durch Bereitstellung von Einrichtungen, Personal oder anderen Ressourcen)"@de, 
+    "A person or organization that supports (by allocating facilities, staff, or other resources) a project, program, meeting, event, data objects, material culture objects, or other entities capable of support"@en .
+:n0020 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:notation "0020" ;
+    skos:prefLabel "Supplier"@de, "Anbieter*in"@en ;
+    skos:definition "Allgemein. Nur verwenden, wenn es sich von dem liefernden ActivityPub-Actor unterscheidet."@de, 
+    "Generic. Use only if it is different than the supplying ActivityPub Actor."@en .
+:n0021 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/med> ;
+    skos:notation "0021" ;
+    skos:prefLabel "Medium"@de, "Medium"@en ;
+    skos:definition "Eine Person, die als Kommunikationskanal zwischen der irdischen Welt und einer Welt gilt"@de, 
+    "A person held to be a channel of communication between the earthly world and a world"@en .
+:n0022 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/brd> ;
+    skos:notation "0022" ;
+    skos:prefLabel "Sender, Broadcaster"@de, "Broadcaster"@en ;
+    skos:definition "Eine Person, Familie oder Organisation, die an der Verbreitung einer Ressource an ein Publikum über Radio, Fernsehen, Webcast usw. beteiligt ist."@de, 
+    "A person, family, or organization involved in broadcasting a resource to an audience via radio, television, webcast, etc."@en .
+:n0023 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/hst> ;
+    skos:notation "0023" ;
+    skos:prefLabel "Host"@de, "Host"@en ;
+    skos:definition "Ein Künstler, der zu einer Ressource beiträgt, indem er ein (oft gesendetes) Programm leitet, das andere Gäste, Künstler usw. einschließt. (z. B. Talkshow-Moderator)"@de, 
+    "A performer contributing to a resource by leading a program (often broadcast) that includes other guests, performers, etc. (e.g., talk show host)"@en .
+:n0024 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/his> ;
+    skos:notation "0024" ;
+    skos:prefLabel "Host Institution"@de, "Host institution"@en ;
+    skos:definition "Eine Organisation, die die Veranstaltung, Ausstellung, Konferenz usw. ausrichtet, die zu einer Ressource geführt hat, aber wenig oder keine Verantwortung für den Inhalt der Ressource hat"@de, 
+    "An organization hosting the event, exhibit, conference, etc., which gave rise to a resource, but having little or no responsibility for the content of the resource"@en .
+:n0025 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/cur> ;
+    skos:notation "0025" ;
+    skos:prefLabel "Kurator"@de, "Curator"@en ;
+    skos:definition "Eine Person, Familie oder Organisation, die eine Ausstellung, Sammlung oder ein anderes Objekt konzipiert, zusammenstellt und/oder organisiert"@de, 
+    "A person, family, or organization conceiving, aggregating, and/or organizing an exhibition, collection, or other item"@en .
+:n0026 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/ard> ;
+    skos:notation "0026" ;
+    skos:prefLabel "Künstlerische*r Direktor*in"@de, "Artistic director"@en ;
+    skos:definition "Eine Person, die für die Kontrolle der Entwicklung des künstlerischen Stils einer gesamten Produktion verantwortlich ist, einschließlich der Auswahl der zu präsentierenden Werke und der Auswahl des leitenden Produktionspersonals"@de, 
+    "A person responsible for controlling the development of the artistic style of an entire production, including the choice of works to be presented and selection of senior production staff"@en .
+:n0027 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/orm> ;
+    skos:notation "0027" ;
+    skos:prefLabel "Veranstalter*in"@de, "Organizer"@en ;
+    skos:definition "Eine Person, Familie oder Organisation, die die Ausstellung, Veranstaltung, Konferenz usw. organisiert, aus der eine Ressource hervorgegangen ist"@de,  
+    "A person, family, or organization organizing the exhibit, event, conference, etc., which gave rise to a resource "@en .
+
+
+:n0028 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/isb> ;
+    skos:notation "0028" ;
+    skos:prefLabel "Herausgeber*in"@de, "Issuing body"@en ;
+    skos:definition "Eine Person, Familie oder Organisation, die ein Werk herausgibt, wie z. B. ein offizielles Organ der Einrichtung"@de, 
+    "A person, family or organization issuing a work, such as an official organ of the body"@en .
+:n0029 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/stn> ;
+    skos:notation "0029" ;
+    skos:prefLabel "Normungsgremium"@de, "Standards body"@en ;
+    skos:altLabel "Standards-Institution"@de ;
+    skos:definition "Eine Organisation, die für die Entwicklung oder Durchsetzung einer Norm verantwortlich ist"@de, 
+    "An organization responsible for the development or enforcement of a standard"@en .
+:n0030 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dtc> ;
+    skos:notation "0030" ;
+    skos:prefLabel "Datenlieferant"@de, "Data contributor"@en ;
+    skos:definition "Eine Person oder Organisation, die Daten zur Aufnahme in eine Datenbank oder eine andere Datensammlung vorlegt"@de, 
+    "A person or organization that submits data for inclusion in a database or other collection of data"@en .
+:n0031 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/asg> ;
+    skos:notation "0031" ;
+    skos:prefLabel "Rechtsnachfolger"@de, "Assignee"@en ;
+    skos:definition "Eine Person oder Organisation, der eine Lizenz zum Drucken oder Veröffentlichen übertragen wurde"@de, 
+    "A person or organization to whom a license for printing or publishing has been transferred"@en .
+:n0032 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/lse> ;
+    skos:notation "0032" ;
+    skos:prefLabel "Lizenznehmer*in"@de, "Licensee"@en ;
+    skos:definition "Eine Person oder Organisation, die der ursprüngliche Empfänger der Druck- oder Veröffentlichungslizenz ist"@de, 
+    "A person or organization who is an original recipient of the right to print or publish"@en .
+:n0033 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/lso> ;
+    skos:notation "0033" ;
+    skos:prefLabel "Lizenzgeber*in"@de, "Licensor"@en ;
+    skos:definition "Eine Person oder Organisation, die Unterzeichner der Lizenz, des Imprimaturs usw. ist"@de, 
+    "A person or organization who is a signer of the license, imprimatur, etc"@en .
+:n0034 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/col> ;
+    skos:notation "0034" ;
+    skos:prefLabel "Sammler*in"@de, "Collector"@en ;
+    skos:definition "Ein Kurator, der Gegenstände aus verschiedenen Quellen zusammenträgt, die dann als Sammlung geordnet, beschrieben und katalogisiert werden. Ein Sammler ist weder der Schöpfer des Materials noch eine Person, an die die Manuskripte in der Sammlung möglicherweise adressiert waren"@de, 
+    "A curator who brings together items from various sources that are then arranged, described, and cataloged as a collection. A collector is neither the creator of the material nor a person to whom manuscripts in the collection may have been addressed"@en .
+:n0035 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch <https://id.loc.gov/vocabulary/relators/pan> ;
+    skos:notation "0035" ;
+    skos:prefLabel "Panelist*in"@de, "Panelist"@en ;
+    skos:definition "Ein Künstler, der zu einer Ressource beiträgt, indem er an einer (oft ausgestrahlten) Sendung teilnimmt, in der Themen erörtert werden, in der Regel unter Beteiligung von Experten auf den mit der Diskussion verbundenen Gebieten"@de, 
+    "A performer contributing to a resource by participating in a program (often broadcast) where topics are discussed, usually with participation of experts in fields related to the discussion"@en .
 :n0036 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
@@ -422,48 +428,40 @@
 :n0039 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
-    skos:exactMatch <https://id.loc.gov/vocabulary/relators/dpc> ;
-    skos:notation "0039" ;
-    skos:prefLabel "Abgebildet"@de, "Depicted"@en ;
-    skos:definition "Eine in einem Werk, insbesondere in einem Kunstwerk, abgebildete oder dargestellte Person"@de, 
-    "An entity depicted or portrayed in a work, particularly in a work of art"@en .
-:n0040 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
     skos:exactMatch <https://id.loc.gov/vocabulary/relators/ant> ;
-    skos:notation "0040" ;
+    skos:notation "0039" ;
     skos:prefLabel "Bibliographischer Vorläufer"@de, "Bibliographic antecedent"@en ;
     skos:definition "Eine Person oder Organisation, die für eine Ressource verantwortlich ist, auf der die durch die bibliographische Beschreibung dargestellte Ressource basiert. Dies kann für Adaptionen, Fortsetzungen, etc. angebracht sein."@de, 
     "A person or organization responsible for a resource upon which the resource represented by the bibliographic description is based. This may be appropriate for adaptations, sequels, continuations, indexes, etc."@en .
-:n0041 a skos:Concept ;
+:n0040 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
     skos:exactMatch <https://id.loc.gov/vocabulary/relators/rcp> ;
-    skos:notation "0041" ;
+    skos:notation "0040" ;
     skos:prefLabel "Adressat*in"@de, "Addressee"@en ;
     skos:definition "Eine Person, Familie oder Organisation, an die z. B. der Schriftverkehr in einem Werk gerichtet ist"@de, 
     "A person, family, or organization to whom e.g. correspondence in a work is addressed"@en .
-:n0042 a skos:Concept ;
+:n0041 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
     skos:exactMatch <https://id.loc.gov/vocabulary/relators/mdc> ;
-    skos:notation "0042" ;
+    skos:notation "0041" ;
     skos:prefLabel "Ansprechpartner für Metadaten"@de, "Metadata contact"@en ;
     skos:definition "Eine Person oder Organisation, die in erster Linie für die Zusammenstellung und Pflege der ursprünglichen Beschreibung eines Metadatensatzes verantwortlich ist"@de, 
     "A person or organization primarily responsible for compiling and maintaining the original description of a metadata set"@en .
-:n0043 a skos:Concept ;
+:n0042 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
     skos:exactMatch <https://id.loc.gov/vocabulary/relators/app> ;
-    skos:notation "0043" ;
+    skos:notation "0042" ;
     skos:prefLabel "Antragsteller*in"@de, "Applicant"@en ;
     skos:definition "Eine Person oder Organisation, die für die Einreichung eines Antrags verantwortlich ist oder die für die Ergebnisse der Antragsbearbeitung (z. B. Verleihung von Rechten, Belohnungen, Titeln, Positionen) als berechtigt genannt wird"@de, 
     "A person or organization responsible for the submission of an application or who is named as eligible for the results of the processing of the application (e.g., bestowing of rights, reward, title, position)"@en .
-:n0044 a skos:Concept ;
+:n0043 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
     skos:exactMatch <https://id.loc.gov/vocabulary/relators/rps> ;
-    skos:notation "0044" ;
+    skos:notation "0043" ;
     skos:prefLabel "Repository"@de, "Repository"@en ;
     skos:definition "Eine Organisation, die Daten oder Objekte der materiellen Kultur beherbergt und Dienste zur Förderung einer langfristigen, konsistenten und gemeinsamen Nutzung dieser Daten oder Objekte bereitstellt"@de, 
     "An organization that hosts data or material culture objects and provides services to promote long term, consistent and shared use of those data or objects"@en .
@@ -738,13 +736,13 @@
     skos:inScheme :scheme ;
     skos:broader :n02 ;
     skos:notation "021" ;
-    skos:prefLabel "TODO Rolle in Örtlichkeit"@de, "TODO"@en .
+    skos:prefLabel "TODO Rolle in Örtlichkeit"@de, "TODO Role in Place"@en .
 
 :n031 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n08 ;
     skos:notation "081" ;
-    skos:prefLabel "TODO Rolle in Veranstaltung"@de, "TODO"@en .
+    skos:prefLabel "TODO Rolle in Veranstaltung"@de, "TODO Role in Event"@en .
 
 
 :n101 a skos:Concept ;
@@ -850,7 +848,7 @@
     skos:exactMatch <https://id.loc.gov/vocabulary/relators/evp> ;
     skos:broader :n20 ;
     skos:notation "201" ;
-    skos:prefLabel "Ort Erstellt"@de, "Location Created"@en ;
+    skos:prefLabel "Erstellungsort"@de, "Location Created"@en ;
     skos:altLabel "Event place"@de, "Event place"@en ;
     skos:definition "Der Ort, an dem das Werk geschaffen wurde, nicht unbedingt identisch mit dem im Werk dargestellten Ort."@de, 
     "The location where the CreativeWork was created, which may not be the same as the location depicted in the Work." .
@@ -883,7 +881,7 @@
     skos:exactMatch <https://id.loc.gov/vocabulary/relators/uvp> ;
     skos:broader :n20 ;
     skos:notation "205" ;
-    skos:prefLabel "Ort der Universität oder Bibliothek"@de, "Location University or Library"@en ;
+    skos:prefLabel "Ort einer Universität oder Bibliothek"@de, "Location University or Library"@en ;
     skos:definition "Z. B. eine Universität, an der eine akademische Dissertation vorgelegt wurde, oder eine Bibliothek, in der sie verfügbar ist."@de, 
     "E.g., a university where an academic dissertation or thesis was presented or a library where it is available." .
 :n206 a skos:Concept ;
@@ -918,7 +916,7 @@
     skos:notation "051" ;
     skos:prefLabel "TODO Notfallmanagement"@de, "TODO"@en .
 
-
+# Coverage
 :n011111 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0111 ;
@@ -992,6 +990,7 @@
     "A person, family, or organization responsible for creating a photographic work"@en ;
     skos:closeMatch <https://themoviedb.org#Photojournalist> .
 
+# Writing
 :n011211 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:exactMatch <https://id.loc.gov/vocabulary/relators/ivr> ;
@@ -1984,6 +1983,7 @@
     skos:prefLabel "Video-Bericht"@de, "Video Report"@en ;
     skos:closeMatch <https://themoviedb.org#Video%20Report> .
 
+# Camera
 :n011411 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0114 ;
@@ -2450,6 +2450,7 @@
     skos:prefLabel "Technische Leitung Ton"@de, "Sound Technical Supervisor"@en ;
     skos:closeMatch <https://themoviedb.org#Sound%20Technical%20Supervisor> .
 
+# Music
 :n011511 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0115 ;
@@ -2622,7 +2623,7 @@
     "An author of a libretto of an opera or other stage work, or an oratorio"@en ;
     skos:closeMatch <https://themoviedb.org#Librettist> .
 
-
+# Actors
 :n011611 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0116 ;
@@ -2671,6 +2672,7 @@
     skos:prefLabel "Special Guest"@de, "Special Guest"@en ;
     skos:closeMatch <https://themoviedb.org#Special%20Guest> .
 
+# Art
 :n011711 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117 ;
@@ -3461,6 +3463,7 @@
     skos:definition "Eine Person, Familie oder Organisation, die für die Gesamtheit der technischen, redaktionellen und intellektuellen Verfahren verantwortlich ist, die darauf abzielen, die Verschlechterung eines Gegenstands auszugleichen, indem sie ihn in einen Zustand zurückversetzen, der seinem ursprünglichen Zustand so nahe wie möglich kommt"@de, 
     "A person, family, or organization responsible for the set of technical, editorial, and intellectual procedures aimed at compensating for the degradation of an item by bringing it back to a state as close as possible to its original condition"@en .
 
+# Lighting
 :n011811 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0118 ;
@@ -3665,6 +3668,7 @@
     skos:prefLabel "Standby Rigger"@de, "Standby Rigger"@en ;
     skos:closeMatch <https://themoviedb.org#Standby%20Rigger> .
 
+# Directing
 :n011911 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0119 ;
@@ -3750,7 +3754,7 @@
     skos:inScheme :scheme ;
     skos:broader :n0119 ;
     skos:notation "011922" ;
-    skos:prefLabel " Co-Regie"@de, "Co-Director"@en ;
+    skos:prefLabel "Co-Regie"@de, "Co-Director"@en ;
     skos:closeMatch <https://themoviedb.org#Co-Director> .
 :n011923 a skos:Concept ;
     skos:inScheme :scheme ;
@@ -3768,7 +3772,7 @@
     skos:inScheme :scheme ;
     skos:broader :n0119 ;
     skos:notation "011925" ;
-    skos:prefLabel " Zweite Regieassistenz"@de, "Second Assistant Director"@en ;
+    skos:prefLabel "Zweite Regieassistenz"@de, "Second Assistant Director"@en ;
     skos:closeMatch <https://themoviedb.org#Second%20Assistant%20Director> .
 :n011926 a skos:Concept ;
     skos:inScheme :scheme ;
@@ -3849,7 +3853,7 @@
     skos:inScheme :scheme ;
     skos:broader :n0119 ;
     skos:notation "011938" ;
-    skos:prefLabel " Zweite*r stellvertretender Regisseur*in"@de, "Second Second Assistant Director"@en ;
+    skos:prefLabel "Zweite*r stellvertretender Regisseur*in"@de, "Second Second Assistant Director"@en ;
     skos:closeMatch <https://themoviedb.org#Second%20Second%20Assistant%20Director> .
 :n011939 a skos:Concept ;
     skos:inScheme :scheme ;
@@ -3888,12 +3892,13 @@
     "A person who is in charge of everything that occurs on a performance stage, and who acts as chief of all crews and assistant to a director during rehearsals"@en ;
     skos:closeMatch <https://themoviedb.org#Stage%20Director> .
 
+# Production
 :n012011 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
     skos:exactMatch <https://id.loc.gov/vocabulary/relators/prn> ;
     skos:notation "012011" ;
-    skos:prefLabel " Produktionsstudio"@de, "Production Studio"@en ;
+    skos:prefLabel "Produktionsstudio"@de, "Production Studio"@en ;
     skos:altLabel "Production company"@de, "Production company"@en ;
     skos:definition "Eine Organisation, die für das finanzielle, technische und organisatorische Management einer Produktion für Bühne, Leinwand, Tonaufnahme, Fernsehen, Webcast usw. verantwortlich ist"@de, 
     "An organization that is responsible for financial, technical, and organizational management of a production for stage, screen, audio recording, television, webcast, etc."@en ;
@@ -3936,7 +3941,7 @@
     skos:broader :n0120 ;
     skos:exactMatch <https://id.loc.gov/vocabulary/relators/prs> ;
     skos:notation "012016" ;
-    skos:prefLabel " Produktionsdesigner*in"@de, "Production Designer"@en ;
+    skos:prefLabel "Produktionsdesigner*in"@de, "Production Designer"@en ;
     skos:definition "Eine Person oder Organisation, die für die Gestaltung des gesamten visuellen Erscheinungsbildes einer Bewegtbildproduktion verantwortlich ist"@de, 
     "A person or organization responsible for designing the overall visual appearance of a moving image production"@en ;
     skos:closeMatch <https://themoviedb.org#Production%20Designer> .
@@ -3981,7 +3986,7 @@
     skos:broader :n0120 ;
     skos:exactMatch <https://id.loc.gov/vocabulary/relators/bkp> ;
     skos:notation "012021" ;
-    skos:prefLabel " Buchproduzent*in"@de, "Book producer"@en ;
+    skos:prefLabel "Buchproduzent*in"@de, "Book producer"@en ;
     skos:definition "Eine Person oder Organisation, die für die Produktion von Büchern und anderen Printmedien verantwortlich ist"@de, 
     "A person or organization responsible for the production of books and other print media"@en ;
     skos:closeMatch <https://themoviedb.org#Book%20producer> .
@@ -4059,7 +4064,7 @@
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
     skos:notation "012031" ;
-    skos:prefLabel " Buchhalter*in für die Produktion"@de, "Production Accountant"@en ;
+    skos:prefLabel "Buchhalter*in für die Produktion"@de, "Production Accountant"@en ;
     skos:closeMatch <https://themoviedb.org#Production%20Accountant> .
 :n012032 a skos:Concept ;
     skos:inScheme :scheme ;
@@ -4261,7 +4266,7 @@
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
     skos:notation "012063" ;
-    skos:prefLabel " Co-Produktionsassistenz"@de, "Additional Production Assistant"@en ;
+    skos:prefLabel "Co-Produktionsassistenz"@de, "Additional Production Assistant"@en ;
     skos:closeMatch <https://themoviedb.org#Additional%20Production%20Assistant> .
 :n012064 a skos:Concept ;
     skos:inScheme :scheme ;
@@ -4743,6 +4748,7 @@
     skos:prefLabel "Einheit Swing"@de, "Unit Swing"@en ;
     skos:closeMatch <https://themoviedb.org#Unit%20Swing> .
 
+# Editing
 :n012111 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0121 ;
@@ -5096,7 +5102,7 @@
     skos:broader :n0121 ;
     skos:exactMatch <https://id.loc.gov/vocabulary/relators/rev> ;
     skos:notation "012165" ;
-    skos:prefLabel " Rezensent*in"@de, "Reviewer"@en ;
+    skos:prefLabel "Rezensent*in"@de, "Reviewer"@en ;
     skos:definition "Eine Person oder Organisation, die für die Rezension eines Buches, eines Films, einer Aufführung usw. verantwortlich ist"@de, 
     "A person or organization responsible for the review of a book, motion picture, performance, etc."@en ;
     skos:closeMatch <https://themoviedb.org#Reviewer> .
@@ -5128,6 +5134,7 @@
     "A person or organization who is a corrector of manuscripts, such as the scriptorium official who corrected the work of a scribe. For printed matter, use Proofreader"@en ;
     skos:closeMatch <https://themoviedb.org#Corrector> .
 
+# Costume Styling
 :n012211 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0122 ;
@@ -5407,7 +5414,7 @@
     skos:inScheme :scheme ;
     skos:broader :n0122 ;
     skos:notation "012256" ;
-    skos:prefLabel " Kontaktlinsen-Designer*in"@de, "Contact Lens Designer"@en ;
+    skos:prefLabel "Kontaktlinsen-Designer*in"@de, "Contact Lens Designer"@en ;
     skos:closeMatch <https://themoviedb.org#Contact%20Lens%20Designer> .
 :n012257 a skos:Concept ;
     skos:inScheme :scheme ;
@@ -5632,6 +5639,7 @@
     skos:prefLabel "Spezialisierte Techniker*in für Garderobe"@de, "Wardrobe Specialized Technician"@en ;
     skos:closeMatch <https://themoviedb.org#Wardrobe%20Specialized%20Technician> .
 
+# Visual Effects
 :n012311 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0123 ;
@@ -6270,6 +6278,7 @@
     skos:prefLabel "Produktionsleiter*in für visuelle Effekte"@de, "Visual Effects Production Manager"@en ;
     skos:closeMatch <https://themoviedb.org#Visual%20Effects%20Production%20Manager> .
 
+# Crew
 :n012411 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
@@ -7229,7 +7238,7 @@
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
     skos:notation "0124165" ;
-    skos:prefLabel " Floor Runner"@de, "Floor Runner"@en ;
+    skos:prefLabel "Floor Runner"@de, "Floor Runner"@en ;
     skos:closeMatch <https://themoviedb.org#Floor%20Runner> .
 :n0124166 a skos:Concept ;
     skos:inScheme :scheme ;
@@ -7493,6 +7502,7 @@
     "An architect responsible for creating landscape works. This work involves coordinating the arrangement of existing and proposed land features and structures"@en ;
     skos:closeMatch <https://themoviedb.org#Landscape%20architect> .
 
+# Comic
 :n012511 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0125 ;
@@ -7512,6 +7522,7 @@
     skos:prefLabel "Bleistiftzeichner*in"@de, "Penciler"@en ;
     skos:closeMatch <https://themoviedb.org#Penciler> .
 
+# Manufacturing
 :n012611 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0126 ;
@@ -7666,6 +7677,7 @@
     "The entity responsible for marbling paper, cloth, leather, etc. used in construction of a resource"@en ;
     skos:closeMatch <https://themoviedb.org#Marbler> .
 
+# Distribution
 :n012711 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0127 ;
@@ -7739,6 +7751,7 @@
     skos:definition "Eine Person, Familie oder Organisation, die früher rechtmäßig im Besitz eines Gegenstandes war"@de, 
     "A person, family, or organization formerly having legal possession of an item"@en .
 
+# Academics
 :n012811 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0128 ;
@@ -7787,6 +7800,7 @@
     skos:definition "Eine Person, die eine akademische Disputation moderiert, in der Regel eine These vorschlägt und an der anschließenden Disputation teilnimmt"@de, 
     "A person who is the faculty moderator of an academic disputation, normally proposing a thesis and participating in the ensuing disputation"@en .
 
+# Legal
 :n012911 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0129 ;
@@ -7891,7 +7905,7 @@
     skos:broader :n0129 ;
     skos:exactMatch <https://id.loc.gov/vocabulary/relators/dln> ;
     skos:notation "012922" ;
-    skos:prefLabel " Abgrenzer"@de, "Delineator"@en ;
+    skos:prefLabel "Abgrenzer"@de, "Delineator"@en ;
     skos:definition "Eine Person oder Organisation, die technische Zeichnungen nach Entwürfen anderer ausführt"@de, 
     "A person or organization executing technical drawings from others' designs"@en ;
     skos:closeMatch <https://themoviedb.org#Delineator> .
@@ -7918,7 +7932,7 @@
     skos:broader :n0129 ;
     skos:exactMatch <https://id.loc.gov/vocabulary/relators/lee> ;
     skos:notation "012925" ;
-    skos:prefLabel " Verfügungsbeklagter"@de, "Libelee-appellee"@en ;
+    skos:prefLabel "Verfügungsbeklagter"@de, "Libelee-appellee"@en ;
     skos:definition "Ein Beklagter, gegen den von einem Kirchen- oder Seegericht ein Rechtsmittel bei einem anderen Gericht eingelegt wird, um das Urteil aufzuheben"@de, 
     "A libelee against whom an appeal is taken from one ecclesiastical court or admiralty to another to reverse the judgment"@en ;
     skos:closeMatch <https://themoviedb.org#Libelee-appellee> .
@@ -8035,7 +8049,7 @@
     skos:broader :n0129 ;
     skos:exactMatch <https://id.loc.gov/vocabulary/relators/opn> ;
     skos:notation "012938" ;
-    skos:prefLabel " Einsprechende"@de, "Opponent"@en ;
+    skos:prefLabel "Einsprechende"@de, "Opponent"@en ;
     skos:definition "Eine Person oder Organisation, die für den Einspruch gegen eine Dissertation verantwortlich ist"@de, 
     "A person or organization responsible for opposing a thesis or dissertation"@en ;
     skos:closeMatch <https://themoviedb.org#Opponent> .

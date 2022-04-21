@@ -4,12 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn004",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn004",
   "prefLabel": {
-    "de": "Leitung",
-    "en": "Lead"
+    "de": "Copyright Inhaber*in",
+    "en": "Copyright Holder"
+  },
+  "altLabel": {
+    "de": [
+      "© by"
+    ],
+    "en": [
+      "© by"
+    ]
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die die Hauptverantwortung für eine bestimmte Tätigkeit oder ein bestimmtes Unterfangen trägt. Kann mit einem anderen Relatorbegriff oder -code kombiniert werden, um die größere Bedeutung dieser Person oder Organisation in Bezug auf diese bestimmte Rolle zu zeigen. Wenn einer Rubrik mehr als ein Verantwortlicher zugeordnet ist, verwenden Sie den Begriff nur, wenn er auf alle Verantwortlichen zutrifft.",
-    "en": "A person or organization that takes primary responsibility for a particular activity or endeavor. May be combined with another relator term or code to show the greater importance this person or organization has regarding that particular role. If more than one relator is assigned to a heading, use the Lead relator only if it applies to all the relators"
+    "de": "Eine Person oder Organisation, der Urheber- und Rechtsrechte für den geistigen Inhalt eines Werkes gewährt oder übertragen wurden. Der Urheberrechtsinhaber ist zwar nicht unbedingt der Schöpfer des Werks, hat aber in der Regel das ausschließliche Recht, aus dem Verkauf und der Nutzung des Werks, für das der entsprechende Urheberrechtsschutz gilt, finanziell zu profitieren",
+    "en": "A person or organization to whom copy and legal rights have been granted or transferred for the intellectual content of a work. The copyright holder, although not necessarily the creator of the work, usually has the exclusive right to benefit financially from the sale and use of the work to which the associated copyright protection applies"
   },
   "notation": [
     "004"
@@ -23,12 +31,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Lead"
+      "id": "https://themoviedb.org#Copyright%20Holder"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/led"
+      "id": "https://id.loc.gov/vocabulary/relators/cph"
     }
   ],
   "inScheme": {

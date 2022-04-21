@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012063",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012063",
   "prefLabel": {
-    "de": " Co-Produktionsassistenz",
+    "de": "Co-Produktionsassistenz",
     "en": "Additional Production Assistant"
   },
   "notation": [

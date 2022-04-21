@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012925",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012925",
   "prefLabel": {
-    "de": " Verfügungsbeklagter",
+    "de": "Verfügungsbeklagter",
     "en": "Libelee-appellee"
   },
   "definition": {

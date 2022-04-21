@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0014",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0014",
   "prefLabel": {
-    "de": "Vertragspartner*in",
-    "en": "Contractor"
+    "de": "Spender*in",
+    "en": "Donor"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die für eine Ressource relevant ist und mit einer anderen Person oder Organisation einen Vertrag über eine bestimmte Leistung abschließt",
-    "en": "A person or organization relevant to a resource, who enters into a contract with another person or organization to perform a specific"
+    "de": "Ein ehemaliger Eigentümer eines Gegenstands, der diesen Gegenstand einem anderen Eigentümer geschenkt hat",
+    "en": "A former owner of an item who donated that item to another owner"
   },
   "notation": [
     "0014"
@@ -21,9 +21,14 @@
       "en": "Generic or major role"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Donor"
+    }
+  ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/ctr"
+      "id": "https://id.loc.gov/vocabulary/relators/dnr"
     }
   ],
   "inScheme": {

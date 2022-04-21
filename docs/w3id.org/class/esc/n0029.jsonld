@@ -4,12 +4,17 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0029",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0029",
   "prefLabel": {
-    "de": "Rechtsnachfolger",
-    "en": "Assignee"
+    "de": "Normungsgremium",
+    "en": "Standards body"
+  },
+  "altLabel": {
+    "de": [
+      "Standards-Institution"
+    ]
   },
   "definition": {
-    "de": "Eine Person oder Organisation, der eine Lizenz zum Drucken oder Veröffentlichen übertragen wurde",
-    "en": "A person or organization to whom a license for printing or publishing has been transferred"
+    "de": "Eine Organisation, die für die Entwicklung oder Durchsetzung einer Norm verantwortlich ist",
+    "en": "An organization responsible for the development or enforcement of a standard"
   },
   "notation": [
     "0029"
@@ -23,7 +28,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/asg"
+      "id": "https://id.loc.gov/vocabulary/relators/stn"
     }
   ],
   "inScheme": {

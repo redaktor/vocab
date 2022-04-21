@@ -4,8 +4,11 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn10",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn10",
   "prefLabel": {
-    "de": "attributedTo Verbindungen",
-    "en": "attributedTo Relations"
+    "de": "`attributedTo` Verbindungen",
+    "en": "`attributedTo` Relations"
+  },
+  "scopeNote": {
+    "en": "Beschreibt die Verbindungen in Attributierungen"
   },
   "notation": [
     "10"

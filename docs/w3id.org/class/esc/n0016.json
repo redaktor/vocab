@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0016",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0016",
   "prefLabel": {
-    "de": "Supplier",
-    "en": "Anbieter*in"
+    "de": "Expert*in",
+    "en": "Expert"
   },
   "definition": {
-    "de": "Allgemein. Nur verwenden, wenn es sich von dem liefernden ActivityPub-Actor unterscheidet.",
-    "en": "Generic. Use only if it is different than the supplying ActivityPub Actor."
+    "de": "Eine Person oder Organisation, die für die Beschreibung und Schätzung des Wertes von Waren, insbesondere von seltenen Gegenständen, Kunstwerken usw., zuständig ist.",
+    "en": "A person or organization in charge of the description and appraisal of the value of goods, particularly rare items, works of art, etc."
   },
   "notation": [
     "0016"
@@ -21,6 +21,11 @@
       "en": "Generic or major role"
     }
   },
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/exp"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

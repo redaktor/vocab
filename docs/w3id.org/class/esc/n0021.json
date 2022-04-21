@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0021",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0021",
   "prefLabel": {
-    "de": "Host",
-    "en": "Host"
+    "de": "Medium",
+    "en": "Medium"
   },
   "definition": {
-    "de": "Ein Künstler, der zu einer Ressource beiträgt, indem er ein (oft gesendetes) Programm leitet, das andere Gäste, Künstler usw. einschließt. (z. B. Talkshow-Moderator)",
-    "en": "A performer contributing to a resource by leading a program (often broadcast) that includes other guests, performers, etc. (e.g., talk show host)"
+    "de": "Eine Person, die als Kommunikationskanal zwischen der irdischen Welt und einer Welt gilt",
+    "en": "A person held to be a channel of communication between the earthly world and a world"
   },
   "notation": [
     "0021"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/hst"
+      "id": "https://id.loc.gov/vocabulary/relators/med"
     }
   ],
   "inScheme": {

@@ -16,6 +16,7 @@
     ]
   },
   "scopeNote": {
+    "de": "Beschreibt die Rollen von Actors im Notfallmanagement, siehe auch https://shekarpour.github.io/empathi.io/#objectproperties",
     "en": "Describes Roles of Actors in Emergency Managin, see also https://shekarpour.github.io/empathi.io/#objectproperties"
   },
   "notation": [

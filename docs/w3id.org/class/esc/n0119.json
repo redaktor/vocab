@@ -99,7 +99,7 @@
     {
       "id": "https://w3id.org/class/esc/n011922",
       "prefLabel": {
-        "de": " Co-Regie",
+        "de": "Co-Regie",
         "en": "Co-Director"
       }
     },
@@ -120,7 +120,7 @@
     {
       "id": "https://w3id.org/class/esc/n011925",
       "prefLabel": {
-        "de": " Zweite Regieassistenz",
+        "de": "Zweite Regieassistenz",
         "en": "Second Assistant Director"
       }
     },
@@ -211,7 +211,7 @@
     {
       "id": "https://w3id.org/class/esc/n011938",
       "prefLabel": {
-        "de": " Zweite*r stellvertretender Regisseur*in",
+        "de": "Zweite*r stellvertretender Regisseur*in",
         "en": "Second Second Assistant Director"
       }
     },

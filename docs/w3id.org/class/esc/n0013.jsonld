@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0013",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0013",
   "prefLabel": {
-    "de": "Client, Kund*in",
-    "en": "Client"
+    "de": "Sponsor",
+    "en": "Sponsor"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, für die eine andere Person oder Organisation tätig ist",
-    "en": "A person or organization for whom another person or organization is acting"
+    "de": "Eine Person, Familie oder Organisation, die einen bestimmten Aspekt einer Ressource sponsert, z. B. die Finanzierung von Forschung, das Sponsoring einer Veranstaltung",
+    "en": "A person, family, or organization sponsoring some aspect of a resource, e.g., funding research, sponsoring an event"
   },
   "notation": [
     "0013"
@@ -21,9 +21,14 @@
       "en": "Generic or major role"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Sponsor"
+    }
+  ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/cli"
+      "id": "https://id.loc.gov/vocabulary/relators/spn"
     }
   ],
   "inScheme": {

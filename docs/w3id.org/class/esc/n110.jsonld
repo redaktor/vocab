@@ -13,8 +13,8 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n10",
     "prefLabel": {
-      "de": "attributedTo Verbindungen",
-      "en": "attributedTo Relations"
+      "de": "`attributedTo` Verbindungen",
+      "en": "`attributedTo` Relations"
     }
   },
   "inScheme": {

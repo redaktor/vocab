@@ -4,12 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn008",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn008",
   "prefLabel": {
-    "de": "Erfinder*in",
-    "en": "Inventor"
+    "de": "Zugeschriebener Name",
+    "en": "Attributed name"
+  },
+  "altLabel": {
+    "de": [
+      "Generische Zuschreibung"
+    ],
+    "en": [
+      "Generic Attribution"
+    ]
   },
   "definition": {
-    "de": "Eine Person, Familie oder Organisation, die für die Entwicklung eines neuen Geräts oder Verfahrens verantwortlich ist",
-    "en": "A person, family, or organization responsible for creating a new device or process"
+    "de": "Ein Autor, Künstler usw., der mit einer Ressource in Verbindung gebracht wird, für die es eine wesentliche Berechtigung gibt oder gab, diese Person als Autor, Schöpfer usw. des Werks zu bezeichnen, was auf die Herkunft hinweist",
+    "en": "An author, artist, etc., relating him/her to a resource for which there is or once was substantial authority for designating that person as author, creator, etc. of the work indicative of provenance"
   },
   "notation": [
     "008"
@@ -23,7 +31,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/inv"
+      "id": "https://id.loc.gov/vocabulary/relators/att"
     }
   ],
   "inScheme": {

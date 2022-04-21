@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0017",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0017",
   "prefLabel": {
-    "de": "Designer*in",
-    "en": "Designer"
+    "de": "Client, Kund*in",
+    "en": "Client"
   },
   "definition": {
-    "de": "Eine Person, Familie oder Organisation, die für die Erstellung eines Entwurfs für ein Objekt verantwortlich ist",
-    "en": "A person, family, or organization responsible for creating a design for an object"
+    "de": "Eine Person oder Organisation, für die eine andere Person oder Organisation tätig ist",
+    "en": "A person or organization for whom another person or organization is acting"
   },
   "notation": [
     "0017"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/dsr"
+      "id": "https://id.loc.gov/vocabulary/relators/cli"
     }
   ],
   "inScheme": {

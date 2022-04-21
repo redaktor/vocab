@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn201",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn201",
   "prefLabel": {
-    "de": "Ort Erstellt",
+    "de": "Erstellungsort",
     "en": "Location Created"
   },
   "altLabel": {
@@ -24,8 +24,8 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n20",
     "prefLabel": {
-      "de": "location Verbindungen",
-      "en": "location Relations"
+      "de": "`location` Verbindungen",
+      "en": "`location` Relations"
     }
   },
   "exactMatch": [

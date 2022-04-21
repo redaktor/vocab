@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0019",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0019",
   "prefLabel": {
-    "de": "Medium",
-    "en": "Medium"
+    "de": "Unterstützer*in",
+    "en": "Supporter, Supporting Host"
   },
   "definition": {
-    "de": "Eine Person, die als Kommunikationskanal zwischen der irdischen Welt und einer Welt gilt",
-    "en": "A person held to be a channel of communication between the earthly world and a world"
+    "de": "Eine Person oder Organisation, die ein Projekt, ein Programm, ein Treffen, eine Veranstaltung, Datenobjekte, materielle Kulturobjekte oder andere unterstützungsfähige Einheiten unterstützt (durch Bereitstellung von Einrichtungen, Personal oder anderen Ressourcen)",
+    "en": "A person or organization that supports (by allocating facilities, staff, or other resources) a project, program, meeting, event, data objects, material culture objects, or other entities capable of support"
   },
   "notation": [
     "0019"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/med"
+      "id": "https://id.loc.gov/vocabulary/relators/sht"
     }
   ],
   "inScheme": {

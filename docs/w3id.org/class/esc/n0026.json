@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0026",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0026",
   "prefLabel": {
-    "de": "Herausgeber*in",
-    "en": "Issuing body"
+    "de": "Künstlerische*r Direktor*in",
+    "en": "Artistic director"
   },
   "definition": {
-    "de": "Eine Person, Familie oder Organisation, die ein Werk herausgibt, wie z. B. ein offizielles Organ der Einrichtung",
-    "en": "A person, family or organization issuing a work, such as an official organ of the body"
+    "de": "Eine Person, die für die Kontrolle der Entwicklung des künstlerischen Stils einer gesamten Produktion verantwortlich ist, einschließlich der Auswahl der zu präsentierenden Werke und der Auswahl des leitenden Produktionspersonals",
+    "en": "A person responsible for controlling the development of the artistic style of an entire production, including the choice of works to be presented and selection of senior production staff"
   },
   "notation": [
     "0026"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/isb"
+      "id": "https://id.loc.gov/vocabulary/relators/ard"
     }
   ],
   "inScheme": {

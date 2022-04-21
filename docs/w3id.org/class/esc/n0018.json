@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0018",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0018",
   "prefLabel": {
-    "de": "Expert*in",
-    "en": "Expert"
+    "de": "Vertragspartner*in",
+    "en": "Contractor"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die für die Beschreibung und Schätzung des Wertes von Waren, insbesondere von seltenen Gegenständen, Kunstwerken usw., zuständig ist.",
-    "en": "A person or organization in charge of the description and appraisal of the value of goods, particularly rare items, works of art, etc."
+    "de": "Eine Person oder Organisation, die für eine Ressource relevant ist und mit einer anderen Person oder Organisation einen Vertrag über eine bestimmte Leistung abschließt",
+    "en": "A person or organization relevant to a resource, who enters into a contract with another person or organization to perform a specific"
   },
   "notation": [
     "0018"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/exp"
+      "id": "https://id.loc.gov/vocabulary/relators/ctr"
     }
   ],
   "inScheme": {

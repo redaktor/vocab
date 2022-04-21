@@ -4,20 +4,23 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn005",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn005",
   "prefLabel": {
-    "de": "Copyright Inhaber*in",
-    "en": "Copyright Holder"
+    "de": "Verfasser Strukturierte Daten, Annotator",
+    "en": "Annotator, Structured Data Publisher"
   },
   "altLabel": {
     "de": [
-      "© by"
+      "Metadaten"
     ],
     "en": [
-      "© by"
+      "metadata"
     ]
   },
   "definition": {
-    "de": "Eine Person oder Organisation, der Urheber- und Rechtsrechte für den geistigen Inhalt eines Werkes gewährt oder übertragen wurden. Der Urheberrechtsinhaber ist zwar nicht unbedingt der Schöpfer des Werks, hat aber in der Regel das ausschließliche Recht, aus dem Verkauf und der Nutzung des Werks, für das der entsprechende Urheberrechtsschutz gilt, finanziell zu profitieren",
-    "en": "A person or organization to whom copy and legal rights have been granted or transferred for the intellectual content of a work. The copyright holder, although not necessarily the creator of the work, usually has the exclusive right to benefit financially from the sale and use of the work to which the associated copyright protection applies"
+    "de": "Eine Person, die handschriftliche Anmerkungen zu einem Werk macht",
+    "en": "A person who makes manuscript annotations on an item"
+  },
+  "scopeNote": {
+    "en": "schema.org#sdPublisher"
   },
   "notation": [
     "005"
@@ -29,14 +32,9 @@
       "en": "Generic or major role"
     }
   },
-  "closeMatch": [
-    {
-      "id": "https://themoviedb.org#Copyright%20Holder"
-    }
-  ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/cph"
+      "id": "https://id.loc.gov/vocabulary/relators/ann"
     }
   ],
   "inScheme": {

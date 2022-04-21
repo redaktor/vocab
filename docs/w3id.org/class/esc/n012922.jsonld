@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012922",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012922",
   "prefLabel": {
-    "de": " Abgrenzer",
+    "de": "Abgrenzer",
     "en": "Delineator"
   },
   "definition": {

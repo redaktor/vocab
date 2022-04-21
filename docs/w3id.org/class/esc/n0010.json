@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0010",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0010",
   "prefLabel": {
-    "de": "Sponsor",
-    "en": "Sponsor"
+    "de": "Erfinder*in",
+    "en": "Inventor"
   },
   "definition": {
-    "de": "Eine Person, Familie oder Organisation, die einen bestimmten Aspekt einer Ressource sponsert, z. B. die Finanzierung von Forschung, das Sponsoring einer Veranstaltung",
-    "en": "A person, family, or organization sponsoring some aspect of a resource, e.g., funding research, sponsoring an event"
+    "de": "Eine Person, Familie oder Organisation, die für die Entwicklung eines neuen Geräts oder Verfahrens verantwortlich ist",
+    "en": "A person, family, or organization responsible for creating a new device or process"
   },
   "notation": [
     "0010"
@@ -21,14 +21,9 @@
       "en": "Generic or major role"
     }
   },
-  "closeMatch": [
-    {
-      "id": "https://themoviedb.org#Sponsor"
-    }
-  ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/spn"
+      "id": "https://id.loc.gov/vocabulary/relators/inv"
     }
   ],
   "inScheme": {

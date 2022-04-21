@@ -4,23 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn006",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn006",
   "prefLabel": {
-    "de": "Verfasser Strukturierte Daten, Annotator",
-    "en": "Annotator, Structured Data Publisher"
-  },
-  "altLabel": {
-    "de": [
-      "Metadaten"
-    ],
-    "en": [
-      "metadata"
-    ]
+    "de": "Markup Editor",
+    "en": "Markup editor"
   },
   "definition": {
-    "de": "Eine Person, die handschriftliche Anmerkungen zu einem Werk macht",
-    "en": "A person who makes manuscript annotations on an item"
-  },
-  "scopeNote": {
-    "en": "schema.org#sdPublisher"
+    "de": "Eine Person oder Organisation, die die Kodierung von SGML-, HTML- oder XML-Auszeichnungen von Metadaten, Text usw. vornimmt",
+    "en": "A person or organization performing the coding of SGML, HTML, or XML markup of metadata, text, etc."
   },
   "notation": [
     "006"
@@ -32,9 +21,14 @@
       "en": "Generic or major role"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Markup%20editor"
+    }
+  ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/ann"
+      "id": "https://id.loc.gov/vocabulary/relators/mrk"
     }
   ],
   "inScheme": {

@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn007",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn007",
   "prefLabel": {
-    "de": "Markup Editor",
-    "en": "Markup editor"
+    "de": "Abgebildet",
+    "en": "Depicted"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die die Kodierung von SGML-, HTML- oder XML-Auszeichnungen von Metadaten, Text usw. vornimmt",
-    "en": "A person or organization performing the coding of SGML, HTML, or XML markup of metadata, text, etc."
+    "de": "Eine in einem Werk, insbesondere in einem Kunstwerk, abgebildete oder dargestellte Person",
+    "en": "An entity depicted or portrayed in a work, particularly in a work of art"
   },
   "notation": [
     "007"
@@ -21,14 +21,9 @@
       "en": "Generic or major role"
     }
   },
-  "closeMatch": [
-    {
-      "id": "https://themoviedb.org#Markup%20editor"
-    }
-  ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/mrk"
+      "id": "https://id.loc.gov/vocabulary/relators/dpc"
     }
   ],
   "inScheme": {

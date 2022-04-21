@@ -4,12 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn009",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn009",
   "prefLabel": {
-    "de": "Förderer*in",
-    "en": "Funder"
+    "de": "Assoziierter Name",
+    "en": "Associated name"
+  },
+  "altLabel": {
+    "de": [
+      "Generische Assoziierung"
+    ],
+    "en": [
+      "Generic Association"
+    ]
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die die Produktion des Werks finanziell unterstützt hat",
-    "en": "A person or organization that furnished financial support for the production of the work"
+    "de": "Eine Person oder Organisation, die mit einem Gegenstand oder einer Sammlung in Verbindung gebracht wird oder in dieser zu finden ist, die aber nicht bestimmt werden kann.",
+    "en": "A person or organization associated with or found in an item or collection, which cannot be determined."
   },
   "notation": [
     "009"
@@ -21,14 +29,9 @@
       "en": "Generic or major role"
     }
   },
-  "closeMatch": [
-    {
-      "id": "https://themoviedb.org#Funder"
-    }
-  ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/fnd"
+      "id": "https://id.loc.gov/vocabulary/relators/asn"
     }
   ],
   "inScheme": {

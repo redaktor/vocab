@@ -8,6 +8,7 @@
     "en": "Event Role"
   },
   "scopeNote": {
+    "de": "Beschreibt die Rollen von Actors in ereignisbasierten Projekten",
     "en": "Describes Roles of Actors in Event based Projects"
   },
   "notation": [
@@ -18,7 +19,7 @@
       "id": "https://w3id.org/class/esc/n031",
       "prefLabel": {
         "de": "TODO Rolle in Veranstaltung",
-        "en": "TODO"
+        "en": "TODO Role in Event"
       }
     }
   ],

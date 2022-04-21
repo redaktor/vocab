@@ -13,8 +13,8 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n30",
     "prefLabel": {
-      "de": "image, attachment und andere Verbindungen",
-      "en": "image, attachment and other Relations"
+      "de": "`image`, `attachment` & andere Verbindungen",
+      "en": "Relations for `image`, `attachment` & other"
     }
   },
   "inScheme": {

@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0040",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0040",
   "prefLabel": {
-    "de": "Bibliographischer Vorläufer",
-    "en": "Bibliographic antecedent"
+    "de": "Adressat*in",
+    "en": "Addressee"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die für eine Ressource verantwortlich ist, auf der die durch die bibliographische Beschreibung dargestellte Ressource basiert. Dies kann für Adaptionen, Fortsetzungen, etc. angebracht sein.",
-    "en": "A person or organization responsible for a resource upon which the resource represented by the bibliographic description is based. This may be appropriate for adaptations, sequels, continuations, indexes, etc."
+    "de": "Eine Person, Familie oder Organisation, an die z. B. der Schriftverkehr in einem Werk gerichtet ist",
+    "en": "A person, family, or organization to whom e.g. correspondence in a work is addressed"
   },
   "notation": [
     "0040"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/ant"
+      "id": "https://id.loc.gov/vocabulary/relators/rcp"
     }
   ],
   "inScheme": {

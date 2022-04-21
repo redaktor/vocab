@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0023",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0023",
   "prefLabel": {
-    "de": "Kurator",
-    "en": "Curator"
+    "de": "Host",
+    "en": "Host"
   },
   "definition": {
-    "de": "Eine Person, Familie oder Organisation, die eine Ausstellung, Sammlung oder ein anderes Objekt konzipiert, zusammenstellt und/oder organisiert",
-    "en": "A person, family, or organization conceiving, aggregating, and/or organizing an exhibition, collection, or other item"
+    "de": "Ein Künstler, der zu einer Ressource beiträgt, indem er ein (oft gesendetes) Programm leitet, das andere Gäste, Künstler usw. einschließt. (z. B. Talkshow-Moderator)",
+    "en": "A performer contributing to a resource by leading a program (often broadcast) that includes other guests, performers, etc. (e.g., talk show host)"
   },
   "notation": [
     "0023"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/cur"
+      "id": "https://id.loc.gov/vocabulary/relators/hst"
     }
   ],
   "inScheme": {

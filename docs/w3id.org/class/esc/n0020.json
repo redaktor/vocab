@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0020",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0020",
   "prefLabel": {
-    "de": "Sender, Broadcaster",
-    "en": "Broadcaster"
+    "de": "Supplier",
+    "en": "Anbieter*in"
   },
   "definition": {
-    "de": "Eine Person, Familie oder Organisation, die an der Verbreitung einer Ressource an ein Publikum über Radio, Fernsehen, Webcast usw. beteiligt ist.",
-    "en": "A person, family, or organization involved in broadcasting a resource to an audience via radio, television, webcast, etc."
+    "de": "Allgemein. Nur verwenden, wenn es sich von dem liefernden ActivityPub-Actor unterscheidet.",
+    "en": "Generic. Use only if it is different than the supplying ActivityPub Actor."
   },
   "notation": [
     "0020"
@@ -21,11 +21,6 @@
       "en": "Generic or major role"
     }
   },
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/brd"
-    }
-  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

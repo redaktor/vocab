@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0012",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0012",
   "prefLabel": {
-    "de": "Patron*in",
-    "en": "Patron"
+    "de": "Förderer*in",
+    "en": "Funder"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die ein Werk in Auftrag gibt. Normalerweise setzt ein Mäzen seine Mittel oder seinen Einfluss ein, um die Arbeit von Künstlern, Schriftstellern usw. zu unterstützen. Dazu gehören auch diejenigen, die einzelne Werke in Auftrag geben und dafür bezahlen.",
-    "en": "A person or organization responsible for commissioning a work. Usually a patron uses his or her means or influence to support the work of artists, writers, etc. This includes those who commission and pay for individual works"
+    "de": "Eine Person oder Organisation, die die Produktion des Werks finanziell unterstützt hat",
+    "en": "A person or organization that furnished financial support for the production of the work"
   },
   "notation": [
     "0012"
@@ -23,12 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Patron"
+      "id": "https://themoviedb.org#Funder"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/pat"
+      "id": "https://id.loc.gov/vocabulary/relators/fnd"
     }
   ],
   "inScheme": {

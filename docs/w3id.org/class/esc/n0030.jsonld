@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0030",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0030",
   "prefLabel": {
-    "de": "Lizenznehmer*in",
-    "en": "Licensee"
+    "de": "Datenlieferant",
+    "en": "Data contributor"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die der ursprüngliche Empfänger der Druck- oder Veröffentlichungslizenz ist",
-    "en": "A person or organization who is an original recipient of the right to print or publish"
+    "de": "Eine Person oder Organisation, die Daten zur Aufnahme in eine Datenbank oder eine andere Datensammlung vorlegt",
+    "en": "A person or organization that submits data for inclusion in a database or other collection of data"
   },
   "notation": [
     "0030"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/lse"
+      "id": "https://id.loc.gov/vocabulary/relators/dtc"
     }
   ],
   "inScheme": {

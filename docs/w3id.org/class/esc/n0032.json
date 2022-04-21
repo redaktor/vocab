@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0032",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0032",
   "prefLabel": {
-    "de": "Sammler*in",
-    "en": "Collector"
+    "de": "Lizenznehmer*in",
+    "en": "Licensee"
   },
   "definition": {
-    "de": "Ein Kurator, der Gegenstände aus verschiedenen Quellen zusammenträgt, die dann als Sammlung geordnet, beschrieben und katalogisiert werden. Ein Sammler ist weder der Schöpfer des Materials noch eine Person, an die die Manuskripte in der Sammlung möglicherweise adressiert waren",
-    "en": "A curator who brings together items from various sources that are then arranged, described, and cataloged as a collection. A collector is neither the creator of the material nor a person to whom manuscripts in the collection may have been addressed"
+    "de": "Eine Person oder Organisation, die der ursprüngliche Empfänger der Druck- oder Veröffentlichungslizenz ist",
+    "en": "A person or organization who is an original recipient of the right to print or publish"
   },
   "notation": [
     "0032"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/col"
+      "id": "https://id.loc.gov/vocabulary/relators/lse"
     }
   ],
   "inScheme": {

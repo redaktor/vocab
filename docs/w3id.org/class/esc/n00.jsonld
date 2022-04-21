@@ -39,225 +39,225 @@
     {
       "id": "https://w3id.org/class/esc/n004",
       "prefLabel": {
-        "de": "Leitung",
-        "en": "Lead"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n005",
-      "prefLabel": {
         "de": "Copyright Inhaber*in",
         "en": "Copyright Holder"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n006",
+      "id": "https://w3id.org/class/esc/n005",
       "prefLabel": {
         "de": "Verfasser Strukturierte Daten, Annotator",
         "en": "Annotator, Structured Data Publisher"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n007",
+      "id": "https://w3id.org/class/esc/n006",
       "prefLabel": {
         "de": "Markup Editor",
         "en": "Markup editor"
       }
     },
     {
+      "id": "https://w3id.org/class/esc/n007",
+      "prefLabel": {
+        "de": "Abgebildet",
+        "en": "Depicted"
+      }
+    },
+    {
       "id": "https://w3id.org/class/esc/n008",
-      "prefLabel": {
-        "de": "Erfinder*in",
-        "en": "Inventor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n009",
-      "prefLabel": {
-        "de": "Förderer*in",
-        "en": "Funder"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0010",
-      "prefLabel": {
-        "de": "Sponsor",
-        "en": "Sponsor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0011",
-      "prefLabel": {
-        "de": "Spender*in",
-        "en": "Donor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0012",
-      "prefLabel": {
-        "de": "Patron*in",
-        "en": "Patron"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0013",
-      "prefLabel": {
-        "de": "Client, Kund*in",
-        "en": "Client"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0014",
-      "prefLabel": {
-        "de": "Vertragspartner*in",
-        "en": "Contractor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0015",
-      "prefLabel": {
-        "de": "Unterstützer*in",
-        "en": "Supporter, Supporting Host"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0016",
-      "prefLabel": {
-        "de": "Supplier",
-        "en": "Anbieter*in"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0017",
-      "prefLabel": {
-        "de": "Designer*in",
-        "en": "Designer"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0018",
-      "prefLabel": {
-        "de": "Expert*in",
-        "en": "Expert"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0019",
-      "prefLabel": {
-        "de": "Medium",
-        "en": "Medium"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0020",
-      "prefLabel": {
-        "de": "Sender, Broadcaster",
-        "en": "Broadcaster"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0021",
-      "prefLabel": {
-        "de": "Host",
-        "en": "Host"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0022",
-      "prefLabel": {
-        "de": "Host Institution",
-        "en": "Host institution"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0023",
-      "prefLabel": {
-        "de": "Kurator",
-        "en": "Curator"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0024",
-      "prefLabel": {
-        "de": "Künstlerische*r Direktor*in",
-        "en": "Artistic director"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0025",
-      "prefLabel": {
-        "de": "Veranstalter*in",
-        "en": "Organizer"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0026",
-      "prefLabel": {
-        "de": "Herausgeber*in",
-        "en": "Issuing body"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0027",
-      "prefLabel": {
-        "de": "Normungsgremium",
-        "en": "Standards body"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0028",
-      "prefLabel": {
-        "de": "Datenlieferant",
-        "en": "Data contributor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0029",
-      "prefLabel": {
-        "de": "Rechtsnachfolger",
-        "en": "Assignee"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0030",
-      "prefLabel": {
-        "de": "Lizenznehmer*in",
-        "en": "Licensee"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0031",
-      "prefLabel": {
-        "de": "Lizenzgeber*in",
-        "en": "Licensor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0032",
-      "prefLabel": {
-        "de": "Sammler*in",
-        "en": "Collector"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0033",
-      "prefLabel": {
-        "de": "Panelist*in",
-        "en": "Panelist"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0034",
       "prefLabel": {
         "de": "Zugeschriebener Name",
         "en": "Attributed name"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0035",
+      "id": "https://w3id.org/class/esc/n009",
       "prefLabel": {
         "de": "Assoziierter Name",
         "en": "Associated name"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0010",
+      "prefLabel": {
+        "de": "Erfinder*in",
+        "en": "Inventor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0011",
+      "prefLabel": {
+        "de": "Leitung",
+        "en": "Lead"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0012",
+      "prefLabel": {
+        "de": "Förderer*in",
+        "en": "Funder"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0013",
+      "prefLabel": {
+        "de": "Sponsor",
+        "en": "Sponsor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0014",
+      "prefLabel": {
+        "de": "Spender*in",
+        "en": "Donor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0015",
+      "prefLabel": {
+        "de": "Patron*in",
+        "en": "Patron"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0016",
+      "prefLabel": {
+        "de": "Expert*in",
+        "en": "Expert"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0017",
+      "prefLabel": {
+        "de": "Client, Kund*in",
+        "en": "Client"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0018",
+      "prefLabel": {
+        "de": "Vertragspartner*in",
+        "en": "Contractor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0019",
+      "prefLabel": {
+        "de": "Unterstützer*in",
+        "en": "Supporter, Supporting Host"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0020",
+      "prefLabel": {
+        "de": "Supplier",
+        "en": "Anbieter*in"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0021",
+      "prefLabel": {
+        "de": "Medium",
+        "en": "Medium"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0022",
+      "prefLabel": {
+        "de": "Sender, Broadcaster",
+        "en": "Broadcaster"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0023",
+      "prefLabel": {
+        "de": "Host",
+        "en": "Host"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0024",
+      "prefLabel": {
+        "de": "Host Institution",
+        "en": "Host institution"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0025",
+      "prefLabel": {
+        "de": "Kurator",
+        "en": "Curator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0026",
+      "prefLabel": {
+        "de": "Künstlerische*r Direktor*in",
+        "en": "Artistic director"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0027",
+      "prefLabel": {
+        "de": "Veranstalter*in",
+        "en": "Organizer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0028",
+      "prefLabel": {
+        "de": "Herausgeber*in",
+        "en": "Issuing body"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0029",
+      "prefLabel": {
+        "de": "Normungsgremium",
+        "en": "Standards body"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0030",
+      "prefLabel": {
+        "de": "Datenlieferant",
+        "en": "Data contributor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0031",
+      "prefLabel": {
+        "de": "Rechtsnachfolger",
+        "en": "Assignee"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0032",
+      "prefLabel": {
+        "de": "Lizenznehmer*in",
+        "en": "Licensee"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0033",
+      "prefLabel": {
+        "de": "Lizenzgeber*in",
+        "en": "Licensor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0034",
+      "prefLabel": {
+        "de": "Sammler*in",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0035",
+      "prefLabel": {
+        "de": "Panelist*in",
+        "en": "Panelist"
       }
     },
     {
@@ -284,40 +284,33 @@
     {
       "id": "https://w3id.org/class/esc/n0039",
       "prefLabel": {
-        "de": "Abgebildet",
-        "en": "Depicted"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0040",
-      "prefLabel": {
         "de": "Bibliographischer Vorläufer",
         "en": "Bibliographic antecedent"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0041",
+      "id": "https://w3id.org/class/esc/n0040",
       "prefLabel": {
         "de": "Adressat*in",
         "en": "Addressee"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0042",
+      "id": "https://w3id.org/class/esc/n0041",
       "prefLabel": {
         "de": "Ansprechpartner für Metadaten",
         "en": "Metadata contact"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0043",
+      "id": "https://w3id.org/class/esc/n0042",
       "prefLabel": {
         "de": "Antragsteller*in",
         "en": "Applicant"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0044",
+      "id": "https://w3id.org/class/esc/n0043",
       "prefLabel": {
         "de": "Repository",
         "en": "Repository"

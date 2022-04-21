@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn30",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn30",
   "prefLabel": {
-    "de": "image, attachment und andere Verbindungen",
-    "en": "image, attachment and other Relations"
+    "de": "`image`, `attachment` & andere Verbindungen",
+    "en": "Relations for `image`, `attachment` & other"
   },
   "notation": [
     "30"

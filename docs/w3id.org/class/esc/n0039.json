@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0039",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0039",
   "prefLabel": {
-    "de": "Abgebildet",
-    "en": "Depicted"
+    "de": "Bibliographischer Vorläufer",
+    "en": "Bibliographic antecedent"
   },
   "definition": {
-    "de": "Eine in einem Werk, insbesondere in einem Kunstwerk, abgebildete oder dargestellte Person",
-    "en": "An entity depicted or portrayed in a work, particularly in a work of art"
+    "de": "Eine Person oder Organisation, die für eine Ressource verantwortlich ist, auf der die durch die bibliographische Beschreibung dargestellte Ressource basiert. Dies kann für Adaptionen, Fortsetzungen, etc. angebracht sein.",
+    "en": "A person or organization responsible for a resource upon which the resource represented by the bibliographic description is based. This may be appropriate for adaptations, sequels, continuations, indexes, etc."
   },
   "notation": [
     "0039"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/dpc"
+      "id": "https://id.loc.gov/vocabulary/relators/ant"
     }
   ],
   "inScheme": {

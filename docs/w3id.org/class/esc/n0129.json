@@ -91,7 +91,7 @@
     {
       "id": "https://w3id.org/class/esc/n012922",
       "prefLabel": {
-        "de": " Abgrenzer",
+        "de": "Abgrenzer",
         "en": "Delineator"
       }
     },
@@ -112,7 +112,7 @@
     {
       "id": "https://w3id.org/class/esc/n012925",
       "prefLabel": {
-        "de": " Verfügungsbeklagter",
+        "de": "Verfügungsbeklagter",
         "en": "Libelee-appellee"
       }
     },
@@ -203,7 +203,7 @@
     {
       "id": "https://w3id.org/class/esc/n012938",
       "prefLabel": {
-        "de": " Einsprechende",
+        "de": "Einsprechende",
         "en": "Opponent"
       }
     },

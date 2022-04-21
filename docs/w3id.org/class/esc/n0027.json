@@ -4,17 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0027",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0027",
   "prefLabel": {
-    "de": "Normungsgremium",
-    "en": "Standards body"
-  },
-  "altLabel": {
-    "de": [
-      "Standards-Institution"
-    ]
+    "de": "Veranstalter*in",
+    "en": "Organizer"
   },
   "definition": {
-    "de": "Eine Organisation, die für die Entwicklung oder Durchsetzung einer Norm verantwortlich ist",
-    "en": "An organization responsible for the development or enforcement of a standard"
+    "de": "Eine Person, Familie oder Organisation, die die Ausstellung, Veranstaltung, Konferenz usw. organisiert, aus der eine Ressource hervorgegangen ist",
+    "en": "A person, family, or organization organizing the exhibit, event, conference, etc., which gave rise to a resource "
   },
   "notation": [
     "0027"
@@ -28,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/stn"
+      "id": "https://id.loc.gov/vocabulary/relators/orm"
     }
   ],
   "inScheme": {

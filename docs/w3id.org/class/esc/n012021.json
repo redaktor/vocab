@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012021",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012021",
   "prefLabel": {
-    "de": " Buchproduzent*in",
+    "de": "Buchproduzent*in",
     "en": "Book producer"
   },
   "definition": {

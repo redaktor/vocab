@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0015",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0015",
   "prefLabel": {
-    "de": "Unterstützer*in",
-    "en": "Supporter, Supporting Host"
+    "de": "Patron*in",
+    "en": "Patron"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die ein Projekt, ein Programm, ein Treffen, eine Veranstaltung, Datenobjekte, materielle Kulturobjekte oder andere unterstützungsfähige Einheiten unterstützt (durch Bereitstellung von Einrichtungen, Personal oder anderen Ressourcen)",
-    "en": "A person or organization that supports (by allocating facilities, staff, or other resources) a project, program, meeting, event, data objects, material culture objects, or other entities capable of support"
+    "de": "Eine Person oder Organisation, die ein Werk in Auftrag gibt. Normalerweise setzt ein Mäzen seine Mittel oder seinen Einfluss ein, um die Arbeit von Künstlern, Schriftstellern usw. zu unterstützen. Dazu gehören auch diejenigen, die einzelne Werke in Auftrag geben und dafür bezahlen.",
+    "en": "A person or organization responsible for commissioning a work. Usually a patron uses his or her means or influence to support the work of artists, writers, etc. This includes those who commission and pay for individual works"
   },
   "notation": [
     "0015"
@@ -21,9 +21,14 @@
       "en": "Generic or major role"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Patron"
+    }
+  ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/sht"
+      "id": "https://id.loc.gov/vocabulary/relators/pat"
     }
   ],
   "inScheme": {

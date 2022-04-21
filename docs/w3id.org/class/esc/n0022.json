@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0022",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0022",
   "prefLabel": {
-    "de": "Host Institution",
-    "en": "Host institution"
+    "de": "Sender, Broadcaster",
+    "en": "Broadcaster"
   },
   "definition": {
-    "de": "Eine Organisation, die die Veranstaltung, Ausstellung, Konferenz usw. ausrichtet, die zu einer Ressource geführt hat, aber wenig oder keine Verantwortung für den Inhalt der Ressource hat",
-    "en": "An organization hosting the event, exhibit, conference, etc., which gave rise to a resource, but having little or no responsibility for the content of the resource"
+    "de": "Eine Person, Familie oder Organisation, die an der Verbreitung einer Ressource an ein Publikum über Radio, Fernsehen, Webcast usw. beteiligt ist.",
+    "en": "A person, family, or organization involved in broadcasting a resource to an audience via radio, television, webcast, etc."
   },
   "notation": [
     "0022"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/his"
+      "id": "https://id.loc.gov/vocabulary/relators/brd"
     }
   ],
   "inScheme": {

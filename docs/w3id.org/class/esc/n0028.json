@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0028",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0028",
   "prefLabel": {
-    "de": "Datenlieferant",
-    "en": "Data contributor"
+    "de": "Herausgeber*in",
+    "en": "Issuing body"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die Daten zur Aufnahme in eine Datenbank oder eine andere Datensammlung vorlegt",
-    "en": "A person or organization that submits data for inclusion in a database or other collection of data"
+    "de": "Eine Person, Familie oder Organisation, die ein Werk herausgibt, wie z. B. ein offizielles Organ der Einrichtung",
+    "en": "A person, family or organization issuing a work, such as an official organ of the body"
   },
   "notation": [
     "0028"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/dtc"
+      "id": "https://id.loc.gov/vocabulary/relators/isb"
     }
   ],
   "inScheme": {
