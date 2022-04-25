@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011527",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011527",
   "prefLabel": {
-    "de": "Musik Sound Design und Verarbeitung",
-    "en": "Music Sound Design and Processing"
+    "de": "Gesangslehrer*in",
+    "en": "Vocal Coach"
   },
   "notation": [
     "011527"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Music%20Sound%20Design%20and%20Processing"
+      "id": "https://themoviedb.org#Vocal%20Coach"
     }
   ],
   "inScheme": {

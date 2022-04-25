@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011816",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011816",
   "prefLabel": {
-    "de": "Beleuchtungsmanager*in",
-    "en": "Lighting Manager"
+    "de": "Beleuchtungsdirektor*in",
+    "en": "Lighting Director"
   },
   "notation": [
     "011816"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Lighting%20Manager"
+      "id": "https://themoviedb.org#Lighting%20Director"
     }
   ],
   "inScheme": {

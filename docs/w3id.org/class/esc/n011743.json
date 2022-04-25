@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011743",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011743",
   "prefLabel": {
-    "de": "Schildermaler*in",
-    "en": "Sign Painter"
+    "de": "Art Designer*in",
+    "en": "Art Designer"
   },
   "notation": [
     "011743"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Sign%20Painter"
+      "id": "https://themoviedb.org#Art%20Designer"
     }
   ],
   "inScheme": {

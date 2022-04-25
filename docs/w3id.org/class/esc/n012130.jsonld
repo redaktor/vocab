@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012130",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012130",
   "prefLabel": {
-    "de": "3D-Digital-Kolorist*in",
-    "en": "3D Digital Colorist"
+    "de": "Ausführend verantwortlich für die Produktion",
+    "en": "Executive In Charge Of Production"
   },
   "notation": [
     "012130"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#3D%20Digital%20Colorist"
+      "id": "https://themoviedb.org#Executive%20In%20Charge%20Of%20Production"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011338",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011338",
   "prefLabel": {
-    "de": "Kamera 'A'",
-    "en": "Camera Operator 'A'"
+    "de": "Zusätzliche Fotografie",
+    "en": "Additional Photography"
   },
   "notation": [
     "011338"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#%22A%22%20Camera%20Operator"
+      "id": "https://themoviedb.org#Additional%20Photography"
     }
   ],
   "inScheme": {

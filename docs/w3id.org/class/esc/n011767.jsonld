@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011767",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011767",
   "prefLabel": {
-    "de": "Assistenz Bühnenbildner*in",
-    "en": "Assistant Set Designer"
+    "de": "Zweite stellvertretende Art Director*in",
+    "en": "Second Assistant Art Director"
   },
   "notation": [
     "011767"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Assistant%20Set%20Designer"
+      "id": "https://themoviedb.org#Second%20Assistant%20Art%20Director"
     }
   ],
   "inScheme": {

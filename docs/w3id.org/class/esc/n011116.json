@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011116",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011116",
   "prefLabel": {
-    "de": "Videofilmer*in",
-    "en": "Videographer"
+    "de": "Befragte Person",
+    "en": "Interviewee"
   },
   "definition": {
-    "de": "Eine Person, die für eine Videoproduktion verantwortlich ist, z. B. für die Videoaufzeichnung einer Bühnenproduktion im Gegensatz zu einem kommerziellen Kinofilm. Der Videofilmer kann der Kameramann sein oder einen oder mehrere Kameramänner beaufsichtigen. Nicht zu verwechseln mit Kameramann",
-    "en": "A person in charge of a video production, e.g. the video recording of a stage production as opposed to a commercial motion picture. The videographer may be the camera operator or may supervise one or more camera operators. Do not confuse with cinematographer"
+    "de": "Eine Person, Familie oder Organisation, die dafür verantwortlich ist, eine Ressource zu erstellen oder zu ihr beizutragen, indem sie einem Interviewer, in der Regel einem Reporter, Meinungsforscher oder einem anderen Informationsbeschaffer, antwortet",
+    "en": "A person, family or organization responsible for creating or contributing to a resource by responding to an interviewer, usually a reporter, pollster, or some other information gathering agent"
   },
   "notation": [
     "011116"
@@ -23,12 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Videographer"
+      "id": "https://themoviedb.org#Interviewee"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/vdg"
+      "id": "https://id.loc.gov/vocabulary/relators/ive"
     }
   ],
   "inScheme": {

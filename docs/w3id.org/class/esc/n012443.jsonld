@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012443",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012443",
   "prefLabel": {
-    "de": "Supervisor für Sets und Requisiten",
-    "en": "Sets & Props Supervisor"
+    "de": "Supervisor für digitale Effekte",
+    "en": "Digital Effects Supervisor"
   },
   "notation": [
     "012443"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Sets%20&%20Props%20Supervisor"
+      "id": "https://themoviedb.org#Digital%20Effects%20Supervisor"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011393",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011393",
   "prefLabel": {
-    "de": "Video-Bericht",
-    "en": "Video Report"
+    "de": "Kinematographie",
+    "en": "Cinematography"
   },
   "notation": [
     "011393"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Video%20Report"
+      "id": "https://themoviedb.org#Cinematography"
     }
   ],
   "inScheme": {

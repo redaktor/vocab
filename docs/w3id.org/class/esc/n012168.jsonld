@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012168",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012168",
   "prefLabel": {
-    "de": "Korrektor*in",
-    "en": "Corrector"
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, die Manuskripte korrigiert, z. B. ein Skriptoriumsbeamter, der die Arbeit eines Schreibers korrigiert. Für Drucksachen verwenden Sie Proofreader",
-    "en": "A person or organization who is a corrector of manuscripts, such as the scriptorium official who corrected the work of a scribe. For printed matter, use Proofreader"
+    "de": "Statisten-Casting",
+    "en": "Extras Casting"
   },
   "notation": [
     "012168"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Corrector"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/crr"
+      "id": "https://themoviedb.org#Extras%20Casting"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011332",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011332",
   "prefLabel": {
-    "de": "Epk Kamera",
-    "en": "Epk Camera Operator"
+    "de": "Zusätzliche Erste Kameraassistenz",
+    "en": "Additional First Assistant Camera"
   },
   "notation": [
     "011332"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Epk%20Camera%20Operator"
+      "id": "https://themoviedb.org#Additional%20First%20Assistant%20Camera"
     }
   ],
   "inScheme": {

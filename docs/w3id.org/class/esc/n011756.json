@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011756",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011756",
   "prefLabel": {
-    "de": "Co Key Construction Grip",
-    "en": "Additional Key Construction Grip"
+    "de": "Leiter*in der Kunstabteilung",
+    "en": "Art Department Manager"
   },
   "notation": [
     "011756"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Additional%20Key%20Construction%20Grip"
+      "id": "https://themoviedb.org#Art%20Department%20Manager"
     }
   ],
   "inScheme": {

@@ -4,31 +4,24 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011415",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011415",
   "prefLabel": {
-    "de": "Tongestalter*in",
-    "en": "Sound Designer"
+    "de": "Tonaufnahme",
+    "en": "Sound Recordist"
   },
   "definition": {
-    "de": "Eine Person, die den Soundtrack (sowohl live als auch aufgenommen) produziert und wiedergibt, die Mikrofone installiert, die Lautstärke einstellt und die Tonquellen für eine Produktion koordiniert",
-    "en": "A person who produces and reproduces the sound score (both live and recorded), the installation of microphones, the setting of sound levels, and the coordination of sources of sound for a production"
+    "de": "Eine Person oder Organisation, die ein Aufnahmegerät verwendet, um während einer Aufnahmesitzung Töne und/oder Videos aufzunehmen, einschließlich Feldaufnahmen von Naturgeräuschen, folkloristischen Veranstaltungen, Musik usw.",
+    "en": "A person or organization who uses a recording device to capture sounds and/or video during a recording session, including field recordings of natural sounds, folkloric events, music, etc."
   },
   "notation": [
     "011415"
   ],
-  "broader": {
-    "id": "https://w3id.org/class/esc/n0114",
-    "prefLabel": {
-      "de": "Sound",
-      "en": "Sound"
-    }
-  },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Sound%20Designer"
+      "id": "https://themoviedb.org#Sound%20Recordist"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/sds"
+      "id": "https://id.loc.gov/vocabulary/relators/rcd"
     }
   ],
   "inScheme": {

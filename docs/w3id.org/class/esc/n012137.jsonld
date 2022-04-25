@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012137",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012137",
   "prefLabel": {
-    "de": "Farbabstufung",
-    "en": "Color Grading"
+    "de": "Leitende Berater*in",
+    "en": "Senior Executive Consultant"
   },
   "notation": [
     "012137"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Color%20Grading"
+      "id": "https://themoviedb.org#Senior%20Executive%20Consultant"
     }
   ],
   "inScheme": {

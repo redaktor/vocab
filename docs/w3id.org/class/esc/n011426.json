@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011426",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011426",
   "prefLabel": {
-    "de": "Boom Operator",
-    "en": "Boom Operator"
+    "de": "Erste Assistenz des Tonmeisters",
+    "en": "First Assistant Sound Editor"
   },
   "notation": [
     "011426"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Boom%20Operator"
+      "id": "https://themoviedb.org#First%20Assistant%20Sound%20Editor"
     }
   ],
   "inScheme": {

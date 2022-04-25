@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0021",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0021",
   "prefLabel": {
-    "de": "Medium",
-    "en": "Medium"
+    "de": "Sender, Broadcaster",
+    "en": "Broadcaster"
   },
   "definition": {
-    "de": "Eine Person, die als Kommunikationskanal zwischen der irdischen Welt und einer Welt gilt",
-    "en": "A person held to be a channel of communication between the earthly world and a world"
+    "de": "Eine Person, Familie oder Organisation, die an der Verbreitung einer Ressource an ein Publikum über Radio, Fernsehen, Webcast usw. beteiligt ist.",
+    "en": "A person, family, or organization involved in broadcasting a resource to an audience via radio, television, webcast, etc."
   },
   "notation": [
     "0021"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/med"
+      "id": "https://id.loc.gov/vocabulary/relators/brd"
     }
   ],
   "inScheme": {

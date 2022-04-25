@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012815",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012815",
   "prefLabel": {
-    "de": "Betreuer*in des Studiengangs",
-    "en": "Degree supervisor"
+    "de": "Verkäufer*in",
+    "en": "Seller"
   },
   "definition": {
-    "de": "Eine Person, die einen höheren akademischen Grad beaufsichtigt",
-    "en": "A person overseeing a higher level academic degree"
+    "de": "Ein ehemaliger Eigentümer eines Objekts, der dieses Objekt an einen anderen Eigentümer verkauft hat",
+    "en": "A former owner of an item who sold that item to another owner"
   },
   "notation": [
     "012815"
@@ -17,13 +17,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0128",
     "prefLabel": {
-      "de": "Akademisch TODO",
-      "en": "Academics TODO"
+      "de": "Vertrieb",
+      "en": "Distribution"
     }
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/dgs"
+      "id": "https://id.loc.gov/vocabulary/relators/sll"
     }
   ],
   "inScheme": {

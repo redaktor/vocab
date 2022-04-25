@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011742",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011742",
   "prefLabel": {
-    "de": "Hauptlackierer*in",
-    "en": "Lead Painter"
+    "de": "Hintergrunddesigner*in",
+    "en": "Background Designer"
   },
   "notation": [
     "011742"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Lead%20Painter"
+      "id": "https://themoviedb.org#Background%20Designer"
     }
   ],
   "inScheme": {

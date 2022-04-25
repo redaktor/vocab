@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012016",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012016",
   "prefLabel": {
-    "de": "Produktionsdesigner*in",
-    "en": "Production Designer"
+    "de": "Fernsehregisseur*in",
+    "en": "Television director"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die für die Gestaltung des gesamten visuellen Erscheinungsbildes einer Bewegtbildproduktion verantwortlich ist",
-    "en": "A person or organization responsible for designing the overall visual appearance of a moving image production"
+    "de": "Ein Regisseur, der für die allgemeine Leitung und Beaufsichtigung einer Fernsehsendung verantwortlich ist",
+    "en": "A director responsible for the general management and supervision of a television program"
   },
   "notation": [
     "012016"
@@ -17,18 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0120",
     "prefLabel": {
-      "de": "Produktion",
-      "en": "Production"
+      "de": "Regie",
+      "en": "Directing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Production%20Designer"
+      "id": "https://themoviedb.org#Television%20director"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/prs"
+      "id": "https://id.loc.gov/vocabulary/relators/tld"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011723",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011723",
   "prefLabel": {
-    "de": "Koordinator*in der Kunstabteilung",
-    "en": "Art Department Coordinator"
+    "de": "Leitende*r Charakterdesigner*in",
+    "en": "Lead Character Designer"
   },
   "notation": [
     "011723"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Art%20Department%20Coordinator"
+      "id": "https://themoviedb.org#Lead%20Character%20Designer"
     }
   ],
   "inScheme": {

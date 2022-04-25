@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011528",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011528",
   "prefLabel": {
-    "de": "Assistenz für die Musikkontrolle",
-    "en": "Music Supervision Assistant"
+    "de": "Musiküberwachung",
+    "en": "Music Supervisor"
   },
   "notation": [
     "011528"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Music%20Supervision%20Assistant"
+      "id": "https://themoviedb.org#Music%20Supervisor"
     }
   ],
   "inScheme": {

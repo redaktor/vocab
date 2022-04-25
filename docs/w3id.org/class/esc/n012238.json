@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012238",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012238",
   "prefLabel": {
-    "de": "Kostüm-Illustrator*in",
-    "en": "Costume Illustrator"
+    "de": "Senior Digital Intermediate Kolorist*in",
+    "en": "Senior Digital Intermediate Colorist"
   },
   "notation": [
     "012238"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Costume%20Illustrator"
+      "id": "https://themoviedb.org#Senior%20Digital%20Intermediate%20Colorist"
     }
   ],
   "inScheme": {

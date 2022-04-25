@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012115",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012115",
   "prefLabel": {
-    "de": "Redaktionsleiter*in",
-    "en": "Editorial Manager"
+    "de": "Publizist",
+    "en": "Publicist"
   },
   "definition": {
-    "de": "Eine Person, Familie oder Organisation, die für das Zusammenstellen, Arrangieren und Zuschneiden von Filmen, Videos oder anderen Bewegtbildformaten verantwortlich ist, einschließlich visueller und akustischer Aspekte",
-    "en": "A person, family, or organization responsible for assembling, arranging, and trimming film, video, or other moving image formats, including both visual and audio aspects"
+    "de": "Eine Person oder Organisation, die für die Veröffentlichung, Freigabe oder Herausgabe einer Ressource verantwortlich ist",
+    "en": "A person or organization responsible for publishing, releasing, or issuing a resource"
   },
   "notation": [
     "012115"
@@ -17,18 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Editorial%20Manager"
+      "id": "https://themoviedb.org#Publicist"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/edm"
+      "id": "https://id.loc.gov/vocabulary/relators/pbl"
     }
   ],
   "inScheme": {

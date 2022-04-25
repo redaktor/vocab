@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012022",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012022",
   "prefLabel": {
-    "de": "Laborleiter*in",
-    "en": "Laboratory director"
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, die Arbeiten in einem kontrollierten Umfeld leitet oder beaufsichtigt",
-    "en": "A person or organization that manages or supervises work done in a controlled setting or environment"
+    "de": "Special Gastregisseur*in",
+    "en": "Special Guest Director"
   },
   "notation": [
     "012022"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0120",
     "prefLabel": {
-      "de": "Produktion",
-      "en": "Production"
+      "de": "Regie",
+      "en": "Directing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Laboratory%20director"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/ldr"
+      "id": "https://themoviedb.org#Special%20Guest%20Director"
     }
   ],
   "inScheme": {

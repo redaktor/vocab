@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011265",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011265",
   "prefLabel": {
-    "de": "Berater*in für die Diplomarbeit",
-    "en": "Thesis advisor"
+    "de": "Verfasser*in des Nachworts, des Kolophons, usw.",
+    "en": "Author of afterword, colophon, etc."
   },
   "definition": {
-    "de": "Eine Person, unter deren Aufsicht ein Diplomand eine Dissertation, ein Mémoire oder einen Dissertationstext ausarbeitet und vorlegt",
-    "en": "A person under whose supervision a degree candidate develops and presents a thesis, mémoire, or text of a dissertation"
+    "de": "Eine Person oder Organisation, die für ein Nachwort, ein Nachwort, ein Kolophon usw. verantwortlich ist, aber nicht der Hauptautor eines Werkes ist",
+    "en": "A person or organization responsible for an afterword, postface, colophon, etc. but who is not the chief author of a work"
   },
   "notation": [
     "011265"
@@ -23,12 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Thesis%20advisor"
+      "id": "https://themoviedb.org#Author%20of%20afterword,%20colophon,%20etc."
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/ths"
+      "id": "https://id.loc.gov/vocabulary/relators/aft"
     }
   ],
   "inScheme": {

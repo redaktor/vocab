@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012491",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012491",
   "prefLabel": {
-    "de": "Berater*in für Visual Effects Design",
-    "en": "Visual Effects Design Consultant"
+    "de": "Technische*r Direktor*in für die Pipeline",
+    "en": "Pipeline Technical Director"
   },
   "notation": [
     "012491"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Visual%20Effects%20Design%20Consultant"
+      "id": "https://themoviedb.org#Pipeline%20Technical%20Director"
     }
   ],
   "inScheme": {

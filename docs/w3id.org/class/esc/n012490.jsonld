@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012490",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012490",
   "prefLabel": {
-    "de": "Ausführende*r Produzent*in für visuelle Effekte",
-    "en": "Executive Visual Effects Producer"
+    "de": "Supervisor für Modellierung",
+    "en": "Modelling Supervisor"
   },
   "notation": [
     "012490"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Executive%20Visual%20Effects%20Producer"
+      "id": "https://themoviedb.org#Modelling%20Supervisor"
     }
   ],
   "inScheme": {

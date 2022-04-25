@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011369",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011369",
   "prefLabel": {
-    "de": "Erste Assistenz Kamera C",
-    "en": "First Assistant 'C' Camera"
+    "de": "Kamerawagen",
+    "en": "Camera Car"
   },
   "notation": [
     "011369"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#First%20Assistant%20%22C%22%20Camera"
+      "id": "https://themoviedb.org#Camera%20Car"
     }
   ],
   "inScheme": {

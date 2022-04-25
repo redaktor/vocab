@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0036",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0036",
   "prefLabel": {
-    "de": "Mitwirkende*r, Contributor",
-    "en": "Contributor"
+    "de": "Widmungsträger*in",
+    "en": "Dedicatee"
   },
   "definition": {
-    "de": "Eine Person, Familie oder Organisation, die für die Beiträge zur Ressource verantwortlich ist. Dies schließt diejenigen ein, deren Arbeit zu einem größeren Werk beigetragen wurde, wie z. B. einem Sammelband, einer fortlaufenden Veröffentlichung oder einer anderen Zusammenstellung von Einzelwerken. Wenn eine spezifischere Rolle verfügbar ist, geben Sie diese an, z. B. Herausgeber, Komponist, Illustrator.",
-    "en": "A person, family or organization responsible for making contributions to the resource. This includes those whose work has been contributed to a larger work, such as an anthology, serial publication, or other compilation of individual works. If a more specific role is available, prefer that, e.g. editor, compiler, illustrator"
+    "de": "Eine Person, Familie oder Organisation, der eine Ressource gewidmet ist",
+    "en": "A person, family, or organization to whom a resource is dedicated"
   },
   "notation": [
     "0036"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/ctb"
+      "id": "https://id.loc.gov/vocabulary/relators/dte"
     }
   ],
   "inScheme": {

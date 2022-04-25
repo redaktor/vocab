@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012219",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012219",
   "prefLabel": {
-    "de": "Künstler*in für Gesichtsgestaltung / Maske",
-    "en": "Facial Setup Artist"
+    "de": "Bildredakteur*in",
+    "en": "Picture Editor"
   },
   "notation": [
     "012219"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Facial%20Setup%20Artist"
+      "id": "https://themoviedb.org#Picture%20Editor"
     }
   ],
   "inScheme": {

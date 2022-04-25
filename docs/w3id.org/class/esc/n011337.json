@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011337",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011337",
   "prefLabel": {
-    "de": "Unterwasser-Fotografie",
-    "en": "Underwater Director of Photography"
+    "de": "Unterwasser Standbildfotograf*in",
+    "en": "Underwater Stills Photographer"
   },
   "notation": [
     "011337"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Underwater%20Director%20of%20Photography"
+      "id": "https://themoviedb.org#Underwater%20Stills%20Photographer"
     }
   ],
   "inScheme": {

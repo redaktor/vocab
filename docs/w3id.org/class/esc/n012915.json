@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012915",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012915",
   "prefLabel": {
-    "de": "Beklagter/Beklagte",
-    "en": "Respondent-appellee"
-  },
-  "definition": {
-    "de": "Ein Beklagter, gegen den von einem Gericht oder einer Gerichtsbarkeit ein Rechtsmittel eingelegt wird, um das Urteil aufzuheben, normalerweise in einem Billigkeitsverfahren",
-    "en": "A respondent against whom an appeal is taken from one court or jurisdiction to another to reverse the judgment, usually in an equity proceeding"
+    "de": "Buchhalter*in",
+    "en": "Accountant"
   },
   "notation": [
     "012915"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0129",
     "prefLabel": {
-      "de": "Recht / Legal",
-      "en": "Legal"
+      "de": "Buchhaltung",
+      "en": "Accounting"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Respondent-appellee"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/rse"
+      "id": "https://themoviedb.org#Accountant"
     }
   ],
   "inScheme": {

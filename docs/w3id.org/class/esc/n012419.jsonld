@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012419",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012419",
   "prefLabel": {
-    "de": "Überwachender technische*r Direktor*in",
-    "en": "Supervising Technical Director"
+    "de": "Leiter*in der Animation",
+    "en": "Animation Manager"
   },
   "notation": [
     "012419"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Supervising%20Technical%20Director"
+      "id": "https://themoviedb.org#Animation%20Manager"
     }
   ],
   "inScheme": {

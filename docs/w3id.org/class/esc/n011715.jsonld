@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011715",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011715",
   "prefLabel": {
-    "de": "Produktionsdesign",
-    "en": "Production Design"
+    "de": "Bildhauer*in",
+    "en": "Sculptor"
+  },
+  "definition": {
+    "de": "Ein Künstler, der ein dreidimensionales Werk durch Modellieren, Schnitzen oder eine ähnliche Technik schafft",
+    "en": "An artist responsible for creating a three-dimensional work by modeling, carving, or similar technique"
   },
   "notation": [
     "011715"
@@ -19,7 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Production%20Design"
+      "id": "https://themoviedb.org#Sculptor"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/scl"
     }
   ],
   "inScheme": {

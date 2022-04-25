@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012424",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012424",
   "prefLabel": {
-    "de": "Zeitweiliger Musik-Editor",
-    "en": "Temp Music Editor"
+    "de": "Assistenz der Animationsproduktion",
+    "en": "Animation Production Assistant"
   },
   "notation": [
     "012424"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Temp%20Music%20Editor"
+      "id": "https://themoviedb.org#Animation%20Production%20Assistant"
     }
   ],
   "inScheme": {

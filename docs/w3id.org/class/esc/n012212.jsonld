@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012212",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012212",
   "prefLabel": {
-    "de": "Kostümdesign",
-    "en": "Costume Design"
+    "de": "Redaktionsleiter*in",
+    "en": "Editorial Manager"
+  },
+  "definition": {
+    "de": "Eine Person, Familie oder Organisation, die für das Zusammenstellen, Arrangieren und Zuschneiden von Filmen, Videos oder anderen Bewegtbildformaten verantwortlich ist, einschließlich visueller und akustischer Aspekte",
+    "en": "A person, family, or organization responsible for assembling, arranging, and trimming film, video, or other moving image formats, including both visual and audio aspects"
   },
   "notation": [
     "012212"
@@ -13,13 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Costume%20Design"
+      "id": "https://themoviedb.org#Editorial%20Manager"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/edm"
     }
   ],
   "inScheme": {

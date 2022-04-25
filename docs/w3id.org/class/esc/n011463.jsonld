@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011463",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011463",
   "prefLabel": {
-    "de": "Assistenz Sound Designer*in",
-    "en": "Assistant Sound Designer"
+    "de": "ADR-Aufnahmeleiter*in",
+    "en": "ADR Recordist"
   },
   "notation": [
     "011463"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Assistant%20Sound%20Designer"
+      "id": "https://themoviedb.org#ADR%20Recordist"
     }
   ],
   "inScheme": {

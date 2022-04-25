@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012145",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012145",
   "prefLabel": {
-    "de": "Digital Zwischenbearbeiter*in",
-    "en": "Digital Intermediate Assistant"
+    "de": "Produzent*in für digitale Effekte",
+    "en": "Digital Effects Producer"
   },
   "notation": [
     "012145"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Digital%20Intermediate%20Assistant"
+      "id": "https://themoviedb.org#Digital%20Effects%20Producer"
     }
   ],
   "inScheme": {

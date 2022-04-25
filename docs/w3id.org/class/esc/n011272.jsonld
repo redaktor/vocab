@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011272",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011272",
   "prefLabel": {
-    "de": "Klappentext-Schreiber*in",
-    "en": "Blurb writer"
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, die für das Verfassen einer lobenden Erwähnung oder eines Zeugnisses für ein Werk verantwortlich ist, das auf oder in der Veröffentlichung selbst erscheint, häufig auf der Rückseite oder dem Schutzumschlag von Druckerzeugnissen oder auf Werbematerial für alle Medien",
-    "en": "A person or organization responsible for writing a commendation or testimonial for a work, which appears on or within the publication itself, frequently on the back or dust jacket of print publications or on advertising material for all media"
+    "de": "Co-Script-Supervisor",
+    "en": "Additional Script Supervisor"
   },
   "notation": [
     "011272"
@@ -23,12 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Blurb%20writer"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/blw"
+      "id": "https://themoviedb.org#Additional%20Script%20Supervisor"
     }
   ],
   "inScheme": {

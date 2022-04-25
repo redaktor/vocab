@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011327",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011327",
   "prefLabel": {
-    "de": "Luftbildkamera",
-    "en": "Aerial Camera"
+    "de": "Kamera-Aufsicht",
+    "en": "Camera Supervisor"
   },
   "notation": [
     "011327"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Aerial%20Camera"
+      "id": "https://themoviedb.org#Camera%20Supervisor"
     }
   ],
   "inScheme": {

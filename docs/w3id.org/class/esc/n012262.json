@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012262",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012262",
   "prefLabel": {
-    "de": "Kostümbereitschaftsdienst",
-    "en": "Costume Standby"
+    "de": "Farbassistenz",
+    "en": "Color Assistant"
   },
   "notation": [
     "012262"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Costume%20Standby"
+      "id": "https://themoviedb.org#Color%20Assistant"
     }
   ],
   "inScheme": {

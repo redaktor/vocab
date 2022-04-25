@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012271",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012271",
   "prefLabel": {
-    "de": "Haar-Assistenz",
-    "en": "Hair Assistant"
+    "de": "Erste Redaktionsassistenz",
+    "en": "First Assistant Editor"
   },
   "notation": [
     "012271"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Hair%20Assistant"
+      "id": "https://themoviedb.org#First%20Assistant%20Editor"
     }
   ],
   "inScheme": {

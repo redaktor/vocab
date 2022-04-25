@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011213",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011213",
   "prefLabel": {
-    "de": "Drehbuch",
-    "en": "Screenplay"
+    "de": "Kommissionierende*r Redakteur*in",
+    "en": "Commissioning Editor"
   },
   "notation": [
     "011213"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Screenplay"
+      "id": "https://themoviedb.org#Commissioning%20Editor"
     }
   ],
   "inScheme": {

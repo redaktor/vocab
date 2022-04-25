@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012147",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012147",
   "prefLabel": {
-    "de": "Betreuung Digitale Zwischendaten",
-    "en": "Digital Intermediate Data Wrangler"
+    "de": "Berater*in für Visual Effects Design",
+    "en": "Visual Effects Design Consultant"
   },
   "notation": [
     "012147"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Digital%20Intermediate%20Data%20Wrangler"
+      "id": "https://themoviedb.org#Visual%20Effects%20Design%20Consultant"
     }
   ],
   "inScheme": {

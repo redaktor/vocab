@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012236",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012236",
   "prefLabel": {
-    "de": "Kostümberater*in",
-    "en": "Costume Consultant"
+    "de": "EPK Editor",
+    "en": "EPK Editor"
   },
   "notation": [
     "012236"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Costume%20Consultant"
+      "id": "https://themoviedb.org#EPK%20Editor"
     }
   ],
   "inScheme": {

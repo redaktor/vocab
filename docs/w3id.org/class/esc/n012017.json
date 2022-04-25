@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012017",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012017",
   "prefLabel": {
-    "de": "Casting",
-    "en": "Casting"
+    "de": "Radioregisseur*in",
+    "en": "Radio director"
   },
   "definition": {
-    "de": "Eine Person, Familie oder Organisation, die an der Herstellung einer Ressource beteiligt ist, indem sie eine flüssige oder geschmolzene Substanz in eine Form gießt und sie erstarren lässt, damit sie die Form der Form annimmt",
-    "en": "A person, family, or organization involved in manufacturing a resource by pouring a liquid or molten substance into a mold and leaving it to solidify to take the shape of the mold"
+    "de": "Ein Regisseur, der für die allgemeine Leitung und Beaufsichtigung eines Radioprogramms verantwortlich ist",
+    "en": "A director responsible for the general management and supervision of a radio program"
   },
   "notation": [
     "012017"
@@ -17,18 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0120",
     "prefLabel": {
-      "de": "Produktion",
-      "en": "Production"
+      "de": "Regie",
+      "en": "Directing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Casting"
+      "id": "https://themoviedb.org#Radio%20director"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/cas"
+      "id": "https://id.loc.gov/vocabulary/relators/rdd"
     }
   ],
   "inScheme": {

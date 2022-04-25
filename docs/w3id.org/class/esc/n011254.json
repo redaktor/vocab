@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011254",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011254",
   "prefLabel": {
-    "de": "Assistenz der Autoren",
-    "en": "Writers' Assistant"
+    "de": "Senior Story Editor",
+    "en": "Senior Story Editor"
   },
   "notation": [
     "011254"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Writers'%20Assistant"
+      "id": "https://themoviedb.org#Senior%20Story%20Editor"
     }
   ],
   "inScheme": {

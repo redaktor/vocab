@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011347",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011347",
   "prefLabel": {
-    "de": "Co-Set-Fotograf*in",
-    "en": "Additional Set Photographer"
+    "de": "Russischer Arm Operator",
+    "en": "Russian Arm Operator"
   },
   "notation": [
     "011347"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Additional%20Set%20Photographer"
+      "id": "https://themoviedb.org#Russian%20Arm%20Operator"
     }
   ],
   "inScheme": {

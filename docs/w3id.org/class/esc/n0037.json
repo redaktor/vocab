@@ -4,12 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0037",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0037",
   "prefLabel": {
-    "de": "Widmungsträger*in",
-    "en": "Dedicatee"
+    "de": "Geehrte*r, Honoree",
+    "en": "Honoree"
+  },
+  "altLabel": {
+    "de": [
+      "Dank"
+    ],
+    "en": [
+      "Thanks"
+    ]
   },
   "definition": {
-    "de": "Eine Person, Familie oder Organisation, der eine Ressource gewidmet ist",
-    "en": "A person, family, or organization to whom a resource is dedicated"
+    "de": "Eine Person, Familie oder Organisation, die durch ein Werk oder einen Gegenstand geehrt wird (z. B. der Preisträger einer Festschrift, eine Person, der ein Exemplar überreicht wird)",
+    "en": "A person, family, or organization honored by a work or item (e.g., the honoree of a festschrift, a person to whom a copy is presented)"
   },
   "notation": [
     "0037"
@@ -21,9 +29,17 @@
       "en": "Generic or major role"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Thanks%20to"
+    },
+    {
+      "id": "https://themoviedb.org#Thanks"
+    }
+  ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/dte"
+      "id": "https://id.loc.gov/vocabulary/relators/hnr"
     }
   ],
   "inScheme": {

@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012024",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012024",
   "prefLabel": {
-    "de": "Protokollant*in",
-    "en": "Minute taker"
-  },
-  "definition": {
-    "de": "Eine Person, Familie oder Organisation, die für die Aufzeichnung des Protokolls einer Sitzung verantwortlich ist",
-    "en": "A person, family, or organization responsible for recording the minutes of a meeting"
+    "de": "Drehbuchbetreuer*in",
+    "en": "Script Supervisor"
   },
   "notation": [
     "012024"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0120",
     "prefLabel": {
-      "de": "Produktion",
-      "en": "Production"
+      "de": "Regie",
+      "en": "Directing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Minute%20taker"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/mtk"
+      "id": "https://themoviedb.org#Script%20Supervisor"
     }
   ],
   "inScheme": {

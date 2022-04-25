@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011416",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011416",
   "prefLabel": {
-    "de": "Ton-Editor",
-    "en": "Sound Editor"
+    "de": "Tontechniker*in",
+    "en": "Sound Engineer"
   },
   "notation": [
     "011416"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Sound%20Editor"
+      "id": "https://themoviedb.org#Sound%20Engineer"
     }
   ],
   "inScheme": {

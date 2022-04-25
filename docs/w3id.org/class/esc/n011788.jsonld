@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011788",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011788",
   "prefLabel": {
-    "de": "Haupt Set-Maler*in",
-    "en": "Key Set Painter"
+    "de": "Kunstkopist",
+    "en": "Art copyist"
+  },
+  "definition": {
+    "de": "Eine Person (z. B. ein Maler oder Bildhauer), die Kopien von Werken der bildenden Kunst anfertigt",
+    "en": "A person (e.g., a painter or sculptor) who makes copies of works of visual art"
   },
   "notation": [
     "011788"
@@ -19,7 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Key%20Set%20Painter"
+      "id": "https://themoviedb.org#Art%20copyist"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/acp"
     }
   ],
   "inScheme": {

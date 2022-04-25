@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012364",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012364",
   "prefLabel": {
-    "de": "Produzent*in für digitale Effekte",
-    "en": "Digital Effects Producer"
+    "de": "Leitung Frisuren und Perücken",
+    "en": "Hair Department Head"
   },
   "notation": [
     "012364"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Digital%20Effects%20Producer"
+      "id": "https://themoviedb.org#Hair%20Department%20Head"
     }
   ],
   "inScheme": {

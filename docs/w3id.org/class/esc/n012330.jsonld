@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012330",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012330",
   "prefLabel": {
-    "de": "Setup von Stoffen",
-    "en": "Cloth Setup"
+    "de": "Ankleider*in",
+    "en": "Dresser"
   },
   "notation": [
     "012330"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Cloth%20Setup"
+      "id": "https://themoviedb.org#Dresser"
     }
   ],
   "inScheme": {

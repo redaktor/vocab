@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011315",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011315",
   "prefLabel": {
-    "de": "Leiter*in der Kameraabteilung",
-    "en": "Camera Department Manager"
+    "de": "Kamera 'D'",
+    "en": "Camera Operator 'D'"
   },
   "notation": [
     "011315"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Camera%20Department%20Manager"
+      "id": "https://themoviedb.org#%22D%22%20Camera%20Operator"
     }
   ],
   "inScheme": {

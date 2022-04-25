@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012244",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012244",
   "prefLabel": {
-    "de": "Kontrolle Maskenbildner*in",
-    "en": "Makeup Supervisor"
+    "de": "Abridger, Kürzungsexperte",
+    "en": "Abridger"
+  },
+  "definition": {
+    "de": "Eine Person, Familie oder Organisation, die einen Beitrag zu einer Ressource leistet, indem sie das ursprüngliche Werk kürzt oder zusammenfasst, aber die Art und den Inhalt des ursprünglichen Werks im Wesentlichen unverändert lässt. Für wesentliche Änderungen, die zur Schaffung eines neuen Werks führen, siehe Autor",
+    "en": "A person, family, or organization contributing to a resource by shortening or condensing the original work but leaving the nature and content of the original work substantially unchanged. For substantial modifications that result in the creation of a new work, see author"
   },
   "notation": [
     "012244"
@@ -13,13 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Makeup%20Supervisor"
+      "id": "https://themoviedb.org#Abridger"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/abr"
     }
   ],
   "inScheme": {

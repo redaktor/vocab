@@ -4,17 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0029",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0029",
   "prefLabel": {
-    "de": "Normungsgremium",
-    "en": "Standards body"
-  },
-  "altLabel": {
-    "de": [
-      "Standards-Institution"
-    ]
+    "de": "Datenlieferant",
+    "en": "Data contributor"
   },
   "definition": {
-    "de": "Eine Organisation, die für die Entwicklung oder Durchsetzung einer Norm verantwortlich ist",
-    "en": "An organization responsible for the development or enforcement of a standard"
+    "de": "Eine Person oder Organisation, die Daten zur Aufnahme in eine Datenbank oder eine andere Datensammlung vorlegt",
+    "en": "A person or organization that submits data for inclusion in a database or other collection of data"
   },
   "notation": [
     "0029"
@@ -28,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/stn"
+      "id": "https://id.loc.gov/vocabulary/relators/dtc"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011524",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011524",
   "prefLabel": {
-    "de": "Musikberater*in",
-    "en": "Music Consultant"
+    "de": "Komponist*in des Haupttitelthemas",
+    "en": "Main Title Theme Composer"
   },
   "notation": [
     "011524"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Music%20Consultant"
+      "id": "https://themoviedb.org#Main%20Title%20Theme%20Composer"
     }
   ],
   "inScheme": {

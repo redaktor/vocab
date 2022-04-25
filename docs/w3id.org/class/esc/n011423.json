@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011423",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011423",
   "prefLabel": {
-    "de": "Überwachung Sound Edit",
-    "en": "Supervising Sound Effects Editor"
+    "de": "Geräuschemacher*in",
+    "en": "Foley"
   },
   "notation": [
     "011423"
@@ -19,7 +19,10 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Supervising%20Sound%20Effects%20Editor"
+      "id": "https://themoviedb.org#Foley"
+    },
+    {
+      "id": "https://themoviedb.org#Foley%20Artist"
     }
   ],
   "inScheme": {

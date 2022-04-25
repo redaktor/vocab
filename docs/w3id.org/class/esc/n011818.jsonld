@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011818",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011818",
   "prefLabel": {
-    "de": "Master Lighting Artist",
-    "en": "Master Lighting Artist"
+    "de": "Gaffer",
+    "en": "Gaffer"
   },
   "notation": [
     "011818"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Master%20Lighting%20Artist"
+      "id": "https://themoviedb.org#Gaffer"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012337",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012337",
   "prefLabel": {
-    "de": "VFX-Produktionskoordinator*in",
-    "en": "VFX Production Coordinator"
+    "de": "Kostüm Supervisor",
+    "en": "Costume Supervisor"
   },
   "notation": [
     "012337"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#VFX%20Production%20Coordinator"
+      "id": "https://themoviedb.org#Costume%20Supervisor"
     }
   ],
   "inScheme": {

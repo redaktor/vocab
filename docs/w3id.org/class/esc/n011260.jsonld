@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011260",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011260",
   "prefLabel": {
-    "de": "Verfasser*in des hinzugefügten Textes",
-    "en": "Writer of added text"
-  },
-  "definition": {
-    "de": "Eine Person, Familie oder Organisation, die zu einer nicht-textlichen Ressource beiträgt, indem sie Text für das nicht-textliche Werk bereitstellt (z. B. das Verfassen von Bildunterschriften für Fotos, Beschreibungen von Karten).",
-    "en": "A person, family, or organization contributing to a non-textual resource by providing text for the non-textual work (e.g., writing captions for photographs, descriptions of maps)."
+    "de": "Story-Manager*in",
+    "en": "Story Manager"
   },
   "notation": [
     "011260"
@@ -23,12 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Writer%20of%20added%20text"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/wat"
+      "id": "https://themoviedb.org#Story%20Manager"
     }
   ],
   "inScheme": {

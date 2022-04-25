@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011336",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011336",
   "prefLabel": {
-    "de": "Ultimate Arm Operator",
-    "en": "Ultimate Arm Operator"
+    "de": "Unterwasser Epk Fotograf*in",
+    "en": "Underwater Epk Photographer"
   },
   "notation": [
     "011336"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Ultimate%20Arm%20Operator"
+      "id": "https://themoviedb.org#Underwater%20Epk%20Photographer"
     }
   ],
   "inScheme": {

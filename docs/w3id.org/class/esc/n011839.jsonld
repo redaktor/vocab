@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011839",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011839",
   "prefLabel": {
-    "de": "Lichtdesign",
-    "en": "Lighting Design"
+    "de": "Beleuchtungsprogrammierer*in",
+    "en": "Lighting Programmer"
   },
   "notation": [
     "011839"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Lighting%20Design"
+      "id": "https://themoviedb.org#Lighting%20Programmer"
     }
   ],
   "inScheme": {

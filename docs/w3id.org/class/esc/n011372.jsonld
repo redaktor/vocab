@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011372",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011372",
   "prefLabel": {
-    "de": "Schärfezieheinrichtung",
-    "en": "Focus Puller"
+    "de": "Kamerawagen Truck",
+    "en": "Camera Truck"
   },
   "notation": [
     "011372"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Focus%20Puller"
+      "id": "https://themoviedb.org#Camera%20Truck"
     }
   ],
   "inScheme": {

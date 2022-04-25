@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012316",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012316",
   "prefLabel": {
-    "de": "Modellieren, Modeling",
-    "en": "Modeling"
+    "de": "Kostüm-Designer*in",
+    "en": "Costume Designer"
+  },
+  "definition": {
+    "de": "Eine Person, Familie oder Organisation, die die Kostüme für eine Bewegtbildproduktion oder für eine musikalische oder dramatische Präsentation oder Unterhaltung entwirft",
+    "en": "A person, family, or organization that designs the costumes for a moving image production or for a musical or dramatic presentation or entertainment"
   },
   "notation": [
     "012316"
@@ -13,13 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Modeling"
+      "id": "https://themoviedb.org#Costume%20Designer"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/cst"
     }
   ],
   "inScheme": {

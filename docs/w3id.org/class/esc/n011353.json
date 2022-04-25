@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011353",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011353",
   "prefLabel": {
-    "de": "BTS Fotograf*in",
-    "en": "BTS Photographer"
+    "de": "Vorarbeiter*in Grip",
+    "en": "Best Boy Grip"
   },
   "notation": [
     "011353"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#BTS%20Photographer"
+      "id": "https://themoviedb.org#Best%20Boy%20Grip"
     }
   ],
   "inScheme": {

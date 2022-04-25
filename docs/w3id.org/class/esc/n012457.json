@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012457",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012457",
   "prefLabel": {
-    "de": "Pressesprecher der Einheit",
-    "en": "Unit Publicist"
+    "de": "3D-Sequenz-Kontrolle",
+    "en": "3D Sequence Supervisor"
   },
   "notation": [
     "012457"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Unit%20Publicist"
+      "id": "https://themoviedb.org#3D%20Sequence%20Supervisor"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011519",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011519",
   "prefLabel": {
-    "de": "Orchestrator*in",
-    "en": "Orchestrator"
+    "de": "Playback-Sänger*in",
+    "en": "Playback Singer"
   },
   "notation": [
     "011519"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Orchestrator"
+      "id": "https://themoviedb.org#Playback%20Singer"
     }
   ],
   "inScheme": {

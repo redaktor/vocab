@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011471",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011471",
   "prefLabel": {
-    "de": "Supervisor Geräuschemacher*in",
-    "en": "Foley Supervisor"
+    "de": "Gemeinsamer ADR-Mischer*in",
+    "en": "Joint ADR Mixer"
   },
   "notation": [
     "011471"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Foley%20Supervisor"
+      "id": "https://themoviedb.org#Joint%20ADR%20Mixer"
     }
   ],
   "inScheme": {

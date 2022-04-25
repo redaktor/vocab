@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011275",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011275",
   "prefLabel": {
-    "de": "Schreiber*in",
-    "en": "Scribe"
+    "de": "Autor*in in Zitaten oder Textauszügen",
+    "en": "Author in quotations or text abstracts"
   },
   "definition": {
-    "de": "Eine Person, die als Amanuensis und für einen Verfasser von Manuskripten im eigentlichen Sinne tätig ist. Für eine Person, die Stift-Faksimiles anfertigt, wird Facsimilist [fac] verwendet.",
-    "en": "A person who is an amanuensis and for a writer of manuscripts proper. For a person who makes pen-facsimiles, use Facsimilist [fac]"
+    "de": "Eine Person oder Organisation, deren Arbeit in Werken, zu denen sie nicht direkt beigetragen hat, weitgehend zitiert oder entnommen wird. Solche Zitate finden sich insbesondere in Ausstellungskatalogen, Fotosammlungen usw.",
+    "en": "A person or organization whose work is largely quoted or extracted in works to which he or she did not contribute directly. Such quotations are found particularly in exhibition catalogs, collections of photographs, etc."
   },
   "notation": [
     "011275"
@@ -23,12 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Scribe"
+      "id": "https://themoviedb.org#Author%20in%20quotations%20or%20text%20abstracts"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/scr"
+      "id": "https://id.loc.gov/vocabulary/relators/aqt"
     }
   ],
   "inScheme": {

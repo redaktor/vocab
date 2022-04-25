@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011255",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011255",
   "prefLabel": {
-    "de": "Autorenproduktion",
-    "en": "Writers' Production"
+    "de": "Geschichtenerzähler*in",
+    "en": "Story Artist"
   },
   "notation": [
     "011255"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Writers'%20Production"
+      "id": "https://themoviedb.org#Story%20Artist"
     }
   ],
   "inScheme": {

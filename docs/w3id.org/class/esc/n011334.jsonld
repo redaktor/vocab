@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011334",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011334",
   "prefLabel": {
-    "de": "Russischer Arm Operator",
-    "en": "Russian Arm Operator"
+    "de": "Set-Fotograf*in",
+    "en": "Set Photographer"
   },
   "notation": [
     "011334"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Russian%20Arm%20Operator"
+      "id": "https://themoviedb.org#Set%20Photographer"
     }
   ],
   "inScheme": {

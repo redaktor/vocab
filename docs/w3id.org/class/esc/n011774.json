@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011774",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011774",
   "prefLabel": {
-    "de": "Täglicher Grip",
-    "en": "Daily Grip"
+    "de": "Erste Assistenz Art Direction",
+    "en": "First Assistant Art Direction"
   },
   "notation": [
     "011774"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Daily%20Grip"
+      "id": "https://themoviedb.org#First%20Assistant%20Art%20Direction"
     }
   ],
   "inScheme": {

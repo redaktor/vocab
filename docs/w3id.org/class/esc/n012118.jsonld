@@ -4,8 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012118",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012118",
   "prefLabel": {
-    "de": "Redaktionskoordinator*in",
-    "en": "Editorial Coordinator"
+    "de": "Produktionsdirektor*in",
+    "en": "Production Director"
+  },
+  "altLabel": {
+    "de": [
+      "Project director"
+    ],
+    "en": [
+      "Project director"
+    ]
+  },
+  "definition": {
+    "de": "Eine Person oder Organisation, die die Hauptverantwortung für alle wesentlichen Aspekte eines Projekts trägt, die Gesamtverantwortung für das Management von Projekten hat oder einem Projektmanager die Gesamtleitung überträgt",
+    "en": "A person or organization with primary responsibility for all essential aspects of a project, has overall responsibility for managing projects, or provides overall direction to a project manager"
   },
   "notation": [
     "012118"
@@ -13,13 +25,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Editorial%20Coordinator"
+      "id": "https://themoviedb.org#Production%20Director"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/pdr"
     }
   ],
   "inScheme": {

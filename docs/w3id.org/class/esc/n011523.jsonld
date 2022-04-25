@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011523",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011523",
   "prefLabel": {
-    "de": "Musik-Ko-Betreuer*in",
-    "en": "Music Co-Supervisor"
+    "de": "Komponist*in der Originalmusik",
+    "en": "Original Music Composer"
+  },
+  "definition": {
+    "de": "Eine Person, Familie oder Organisation, die für die Schaffung einer musikalischen Ressource verantwortlich ist oder zu dieser beiträgt, indem sie einem Werk, das ursprünglich keine Musik enthielt, Musik hinzufügt oder es ergänzt",
+    "en": "A person, family, or organization responsible for creating or contributing to a musical resource by adding music to a work that originally lacked it or supplements it"
   },
   "notation": [
     "011523"
@@ -19,7 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Music%20Co-Supervisor"
+      "id": "https://themoviedb.org#Original%20Music%20Composer"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/cmp"
     }
   ],
   "inScheme": {

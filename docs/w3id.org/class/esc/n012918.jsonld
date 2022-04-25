@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012918",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012918",
   "prefLabel": {
-    "de": "Beschwerdeführer*in",
-    "en": "Complainant-appellant"
-  },
-  "definition": {
-    "de": "Ein Beschwerdeführer, der bei einem anderen Gericht oder einer anderen Gerichtsbarkeit Berufung einlegt, um das Urteil aufzuheben, in der Regel im Rahmen eines Billigkeitsverfahrens",
-    "en": "A complainant who takes an appeal from one court or jurisdiction to another to reverse the judgment, usually in an equity proceeding"
+    "de": "Beratende Buchhalter*in",
+    "en": "Consulting Accountant"
   },
   "notation": [
     "012918"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0129",
     "prefLabel": {
-      "de": "Recht / Legal",
-      "en": "Legal"
+      "de": "Buchhaltung",
+      "en": "Accounting"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Complainant-appellant"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/cpt"
+      "id": "https://themoviedb.org#Consulting%20Accountant"
     }
   ],
   "inScheme": {

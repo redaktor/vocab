@@ -4,8 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011741",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011741",
   "prefLabel": {
-    "de": "Bau Vorarbeiter*in",
-    "en": "Construction Foreman"
+    "de": "Titel-Designer*in",
+    "en": "Title Designer"
+  },
+  "altLabel": {
+    "de": [
+      "Titelgrafik"
+    ],
+    "en": [
+      "Title Graphics"
+    ]
   },
   "notation": [
     "011741"
@@ -19,7 +27,10 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Construction%20Foreman"
+      "id": "https://themoviedb.org#Title%20Designer"
+    },
+    {
+      "id": "https://themoviedb.org#Title%20Graphics"
     }
   ],
   "inScheme": {

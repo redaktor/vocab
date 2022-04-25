@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011717",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011717",
   "prefLabel": {
-    "de": "Dekoration der Bühne",
-    "en": "Set Decoration"
+    "de": "Grafikdesigner*in",
+    "en": "Graphic Designer"
   },
   "notation": [
     "011717"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Set%20Decoration"
+      "id": "https://themoviedb.org#Graphic%20Designer"
     }
   ],
   "inScheme": {

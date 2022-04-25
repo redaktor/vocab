@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011331",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011331",
   "prefLabel": {
-    "de": "Dolly-Greifer",
-    "en": "Dolly Grip"
+    "de": "Kameraassistenz",
+    "en": "Assistant Camera"
   },
   "notation": [
     "011331"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Dolly%20Grip"
+      "id": "https://themoviedb.org#Assistant%20Camera"
     }
   ],
   "inScheme": {

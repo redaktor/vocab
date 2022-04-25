@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011457",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011457",
   "prefLabel": {
-    "de": "ADR-Mischer*in",
-    "en": "ADR Mixer"
+    "de": "ADR-Editor",
+    "en": "ADR Editor"
   },
   "notation": [
     "011457"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#ADR%20Mixer"
+      "id": "https://themoviedb.org#ADR%20Editor"
     }
   ],
   "inScheme": {

@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011520",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011520",
   "prefLabel": {
-    "de": "Gesangslehrer*in",
-    "en": "Vocal Coach"
+    "de": "Tänzer*in",
+    "en": "Dancer"
+  },
+  "definition": {
+    "de": "Ein Darsteller, der bei einer musikalischen, dramatischen usw. Darbietung tanzt",
+    "en": "A performer who dances in a musical, dramatic, etc., presentation"
   },
   "notation": [
     "011520"
@@ -19,7 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Vocal%20Coach"
+      "id": "https://themoviedb.org#Dancer"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/dnc"
     }
   ],
   "inScheme": {

@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012116",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012116",
   "prefLabel": {
-    "de": "Erste Redaktionsassistenz",
-    "en": "First Assistant Editor"
+    "de": "Produktionsdesigner*in",
+    "en": "Production Designer"
+  },
+  "definition": {
+    "de": "Eine Person oder Organisation, die für die Gestaltung des gesamten visuellen Erscheinungsbildes einer Bewegtbildproduktion verantwortlich ist",
+    "en": "A person or organization responsible for designing the overall visual appearance of a moving image production"
   },
   "notation": [
     "012116"
@@ -13,13 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#First%20Assistant%20Editor"
+      "id": "https://themoviedb.org#Production%20Designer"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/prs"
     }
   ],
   "inScheme": {

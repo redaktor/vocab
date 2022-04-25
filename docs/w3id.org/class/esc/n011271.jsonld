@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011271",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011271",
   "prefLabel": {
-    "de": "Facsimilist",
-    "en": "Facsimilist"
+    "de": "Verfasser*in der hinzugefügten Liedtexte",
+    "en": "Writer of added lyrics"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die das Faksimile erstellt hat",
-    "en": "A person or organization that executed the facsimile"
+    "de": "Ein Verfasser von Texten, die einem musikalischen Werk beigefügt sind. Für das Verfassen von Texten in Zusammenarbeit mit einem Komponisten, um ein Originalwerk zu schaffen, siehe Textdichter",
+    "en": "A writer of words added to an expression of a musical work. For lyric writing in collaboration with a composer to form an original work, see lyricist"
   },
   "notation": [
     "011271"
@@ -23,12 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Facsimilist"
+      "id": "https://themoviedb.org#Additional%20Music"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/fac"
+      "id": "https://id.loc.gov/vocabulary/relators/wal"
     }
   ],
   "inScheme": {

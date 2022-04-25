@@ -4,22 +4,15 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011413",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011413",
   "prefLabel": {
-    "de": "Tonmischer*in",
-    "en": "Sound Mixer"
+    "de": "Tonassistent*in am Drehort",
+    "en": "Location Sound Assistant"
   },
   "notation": [
     "011413"
   ],
-  "broader": {
-    "id": "https://w3id.org/class/esc/n0114",
-    "prefLabel": {
-      "de": "Sound",
-      "en": "Sound"
-    }
-  },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Sound%20Mixer"
+      "id": "https://themoviedb.org#Location%20Sound%20Assistant"
     }
   ],
   "inScheme": {

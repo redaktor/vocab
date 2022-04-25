@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011370",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011370",
   "prefLabel": {
-    "de": "Erste Assistenz Kamera D",
-    "en": "First Assistant 'D' Camera"
+    "de": "Produktionsassistenz der Kameraabteilung",
+    "en": "Camera Department Production Assistant"
   },
   "notation": [
     "011370"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#First%20Assistant%20%22D%22%20Camera"
+      "id": "https://themoviedb.org#Camera%20Department%20Production%20Assistant"
     }
   ],
   "inScheme": {

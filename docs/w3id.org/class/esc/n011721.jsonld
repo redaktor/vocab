@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011721",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011721",
   "prefLabel": {
-    "de": "Settings",
-    "en": "Settings"
+    "de": "Verantwortlich für das Layout",
+    "en": "Layout Supervisor"
   },
   "notation": [
     "011721"
@@ -19,12 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Settings"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/stg"
+      "id": "https://themoviedb.org#Layout%20Supervisor"
     }
   ],
   "inScheme": {

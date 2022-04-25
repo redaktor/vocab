@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011759",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011759",
   "prefLabel": {
-    "de": "Praktikant*in im Art Department",
-    "en": "Art Department Trainee"
+    "de": "Illustrator für Graphic Novel",
+    "en": "Graphic Novel Illustrator"
   },
   "notation": [
     "011759"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Art%20Department%20Trainee"
+      "id": "https://themoviedb.org#Graphic%20Novel%20Illustrator"
     }
   ],
   "inScheme": {

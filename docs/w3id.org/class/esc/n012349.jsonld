@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012349",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012349",
   "prefLabel": {
-    "de": "VFX-Editor",
-    "en": "VFX Editor"
+    "de": "Abteilungsleiter Make-up",
+    "en": "Makeup Department Head"
   },
   "notation": [
     "012349"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#VFX%20Editor"
+      "id": "https://themoviedb.org#Makeup%20Department%20Head"
     }
   ],
   "inScheme": {

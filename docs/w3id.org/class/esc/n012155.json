@@ -4,8 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012155",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012155",
   "prefLabel": {
-    "de": "Projektleiter*in",
-    "en": "Project Manager"
+    "de": "Leiter*in der Forschung",
+    "en": "Head of Research"
+  },
+  "altLabel": {
+    "de": [
+      "Research team lead"
+    ],
+    "en": [
+      "Research team lead"
+    ]
+  },
+  "definition": {
+    "de": "Eine Person, die ein Forschungsprojekt leitet oder verwaltet",
+    "en": "A person who directed or managed a research project"
   },
   "notation": [
     "012155"
@@ -13,13 +25,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Project%20Manager"
+      "id": "https://themoviedb.org#Head%20of%20Research"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/rth"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011364",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011364",
   "prefLabel": {
-    "de": "Drohnenpilot*in",
-    "en": "Drone Pilot"
+    "de": "BTS Videofilmer*in",
+    "en": "BTS Videographer"
   },
   "notation": [
     "011364"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Drone%20Pilot"
+      "id": "https://themoviedb.org#BTS%20Videographer"
     }
   ],
   "inScheme": {

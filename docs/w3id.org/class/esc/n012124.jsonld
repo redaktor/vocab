@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012124",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012124",
   "prefLabel": {
-    "de": "Digitale Zwischenverarbeitung",
-    "en": "Digital Intermediate"
+    "de": "Leitende Produzent*in",
+    "en": "Supervising Producer"
   },
   "notation": [
     "012124"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Digital%20Intermediate"
+      "id": "https://themoviedb.org#Supervising%20Producer"
     }
   ],
   "inScheme": {

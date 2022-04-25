@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011915",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011915",
   "prefLabel": {
-    "de": "Verlagsleiter*in",
-    "en": "Publishing director"
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, die bei der Ausarbeitung eines kollektiven Werks den Vorsitz führt, um dessen Kohärenz oder Kontinuität zu gewährleisten. Dazu gehören Chefredakteure, Literaturredakteure, Redakteure von Serien usw.",
-    "en": "A person or organization who presides over the elaboration of a collective work to ensure its coherence or continuity. This includes editors-in-chief, literary editors, editors of series, etc."
+    "de": "Requisiteur*in",
+    "en": "Property Master"
   },
   "notation": [
     "011915"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0119",
     "prefLabel": {
-      "de": "Regie",
-      "en": "Directing"
+      "de": "Bühne und Requisite",
+      "en": "Stage and Props"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Publishing%20director"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/pbd"
+      "id": "https://themoviedb.org#Property%20Master"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011467",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011467",
   "prefLabel": {
-    "de": "Geräuschemacher*in",
-    "en": "Foley Artist"
+    "de": "Geräuschemischer*in",
+    "en": "Foley Mixer"
   },
   "notation": [
     "011467"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Foley%20Artist"
+      "id": "https://themoviedb.org#Foley%20Mixer"
     }
   ],
   "inScheme": {

@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012414",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012414",
   "prefLabel": {
-    "de": "Supervisor für die Postproduktion",
-    "en": "Post Production Supervisor"
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, die Zeichnungen von architektonischen Entwürfen (d. h. Renderings) in genauer, repräsentativer Perspektive anfertigt, um zu zeigen, wie das Projekt nach seiner Fertigstellung aussehen wird",
-    "en": "A person or organization who prepares drawings of architectural designs (i.e., renderings) in accurate, representational perspective to show what the project will look like when completed"
+    "de": "VFX Director of Photography",
+    "en": "VFX Director of Photography"
   },
   "notation": [
     "012414"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Post%20Production%20Supervisor"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/ren"
+      "id": "https://themoviedb.org#VFX%20Director%20of%20Photography"
     }
   ],
   "inScheme": {

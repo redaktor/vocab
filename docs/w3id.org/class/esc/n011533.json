@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011533",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011533",
   "prefLabel": {
-    "de": "Tänzer*in",
-    "en": "Dancer"
-  },
-  "definition": {
-    "de": "Ein Darsteller, der bei einer musikalischen, dramatischen usw. Darbietung tanzt",
-    "en": "A performer who dances in a musical, dramatic, etc., presentation"
+    "de": "Musikproduzent*in",
+    "en": "Music Producer"
   },
   "notation": [
     "011533"
@@ -23,12 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Dancer"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/dnc"
+      "id": "https://themoviedb.org#Music%20Producer"
     }
   ],
   "inScheme": {

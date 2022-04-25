@@ -4,8 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012216",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012216",
   "prefLabel": {
-    "de": "Supervisor*in für Bühnenbild",
-    "en": "Set Dressing Supervisor"
+    "de": "Drehbuch-Editor",
+    "en": "Script Editor"
+  },
+  "altLabel": {
+    "de": [
+      "Film editor"
+    ],
+    "en": [
+      "Film editor"
+    ]
+  },
+  "definition": {
+    "de": "Eine Person, die nach dem Drehbuch und in kreativer Zusammenarbeit mit dem Regisseur das gefilmte Material auswählt, arrangiert und zusammenfügt, die Synchronisation von Bild und Ton kontrolliert und an anderen Aufgaben der Postproduktion wie der Tonmischung und der Bearbeitung visueller Effekte beteiligt ist.  Heutzutage wird die Bildbearbeitung häufig digital durchgeführt.",
+    "en": "A person who, following the script and in creative cooperation with the Director, selects, arranges, and assembles the filmed material, controls the synchronization of picture and sound, and participates in other post-production tasks such as sound mixing and visual effects processing.  Today, picture editing is often performed digitally."
   },
   "notation": [
     "012216"
@@ -13,13 +25,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Set%20Dressing%20Supervisor"
+      "id": "https://themoviedb.org#Script%20Editor"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/flm"
     }
   ],
   "inScheme": {

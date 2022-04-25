@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012040",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012040",
   "prefLabel": {
-    "de": "Ausführend verantwortlich für die Produktion",
-    "en": "Executive In Charge Of Production"
+    "de": "Erster Regieassistent für die zweite Einheit",
+    "en": "Second Unit First Assistant Director"
   },
   "notation": [
     "012040"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0120",
     "prefLabel": {
-      "de": "Produktion",
-      "en": "Production"
+      "de": "Regie",
+      "en": "Directing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Executive%20In%20Charge%20Of%20Production"
+      "id": "https://themoviedb.org#Second%20Unit%20First%20Assistant%20Director"
     }
   ],
   "inScheme": {

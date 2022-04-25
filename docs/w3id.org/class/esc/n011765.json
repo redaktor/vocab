@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011765",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011765",
   "prefLabel": {
-    "de": "Assistenz Dekorationseinkäufer*in",
-    "en": "Assistant Set Decoration Buyer"
+    "de": "Farbkoordinator*in",
+    "en": "Paint Coordinator"
   },
   "notation": [
     "011765"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Assistant%20Set%20Decoration%20Buyer"
+      "id": "https://themoviedb.org#Paint%20Coordinator"
     }
   ],
   "inScheme": {

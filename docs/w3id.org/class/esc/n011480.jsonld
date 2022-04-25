@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011480",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011480",
   "prefLabel": {
-    "de": "Tonassistenz",
-    "en": "Sound Assistant"
+    "de": "Mischtechniker*in",
+    "en": "Mix Technician"
   },
   "notation": [
     "011480"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Sound%20Assistant"
+      "id": "https://themoviedb.org#Mix%20Technician"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011722",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011722",
   "prefLabel": {
-    "de": "Assistenz des Art Directors",
-    "en": "Assistant Art Director"
+    "de": "Leiter*in des Layouts",
+    "en": "Head of Layout"
   },
   "notation": [
     "011722"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Assistant%20Art%20Director"
+      "id": "https://themoviedb.org#Head%20of%20Layout"
     }
   ],
   "inScheme": {

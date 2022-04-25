@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012917",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012917",
   "prefLabel": {
-    "de": "Berufungsbeklagter",
-    "en": "Appellee"
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, gegen die ein Rechtsmittel eingelegt wird",
-    "en": "A person or organization against whom an appeal is taken"
+    "de": "Leiter*in der Buchhaltung",
+    "en": "Accounting Supervisor"
   },
   "notation": [
     "012917"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0129",
     "prefLabel": {
-      "de": "Recht / Legal",
-      "en": "Legal"
+      "de": "Buchhaltung",
+      "en": "Accounting"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Appellee"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/ape"
+      "id": "https://themoviedb.org#Accounting%20Supervisor"
     }
   ],
   "inScheme": {

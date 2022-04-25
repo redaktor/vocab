@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012450",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012450",
   "prefLabel": {
-    "de": "Spezielle Toneffekte",
-    "en": "Special Sound Effects"
+    "de": "2D-Künstler*in",
+    "en": "2D Artist"
   },
   "notation": [
     "012450"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Special%20Sound%20Effects"
+      "id": "https://themoviedb.org#2D%20Artist"
     }
   ],
   "inScheme": {

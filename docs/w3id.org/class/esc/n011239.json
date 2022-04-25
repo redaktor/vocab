@@ -4,8 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011239",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011239",
   "prefLabel": {
-    "de": "Ausführende*r Redakteur*in",
-    "en": "Executive Story Editor"
+    "de": "Adaption",
+    "en": "Adaptation"
+  },
+  "altLabel": {
+    "de": [
+      "Adapter*in"
+    ],
+    "en": [
+      "Adapter"
+    ]
+  },
+  "definition": {
+    "de": "Eine Person oder Organisation, die 1) eine (musikalische) Komposition überarbeitet, normalerweise für ein anderes Medium, oder 2) Romane oder Geschichten für Filme oder andere audiovisuelle Medien umschreibt",
+    "en": "A person or organization who 1) reworks a (musical) composition, usually for a different medium, or 2) rewrites novels or stories for motion pictures or other audiovisual medium"
   },
   "notation": [
     "011239"
@@ -19,7 +31,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Executive%20Story%20Editor"
+      "id": "https://themoviedb.org#Adaptation"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/adp"
     }
   ],
   "inScheme": {

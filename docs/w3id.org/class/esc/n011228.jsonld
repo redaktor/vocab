@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011228",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011228",
   "prefLabel": {
-    "de": "Kreativ-Produzent*in",
-    "en": "Creative Producer"
+    "de": "Dialog",
+    "en": "Dialogue"
+  },
+  "definition": {
+    "de": "Eine Person oder Organisation, die für den Dialog oder den gesprochenen Kommentar für ein Drehbuch oder eine Tonaufnahme verantwortlich ist",
+    "en": "A person or organization responsible for the dialog or spoken commentary for a screenplay or sound recording"
   },
   "notation": [
     "011228"
@@ -19,7 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Creative%20Producer"
+      "id": "https://themoviedb.org#Dialogue"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/aud"
     }
   ],
   "inScheme": {

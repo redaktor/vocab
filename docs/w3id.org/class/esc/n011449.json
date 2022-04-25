@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011449",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011449",
   "prefLabel": {
-    "de": "Überwachender Dialog-Editor",
-    "en": "Supervising Dialogue Editor"
+    "de": "Toneffekte-Designer*in",
+    "en": "Sound Effects Designer"
   },
   "notation": [
     "011449"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Supervising%20Dialogue%20Editor"
+      "id": "https://themoviedb.org#Sound%20Effects%20Designer"
     }
   ],
   "inScheme": {

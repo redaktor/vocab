@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011534",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011534",
   "prefLabel": {
-    "de": "Librettist*in",
-    "en": "Librettist"
-  },
-  "definition": {
-    "de": "Ein Autor eines Librettos einer Oper oder eines anderen Bühnenwerks oder eines Oratoriums",
-    "en": "An author of a libretto of an opera or other stage work, or an oratorio"
+    "de": "Musik Sound Design und Verarbeitung",
+    "en": "Music Sound Design and Processing"
   },
   "notation": [
     "011534"
@@ -23,12 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Librettist"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/lbt"
+      "id": "https://themoviedb.org#Music%20Sound%20Design%20and%20Processing"
     }
   ],
   "inScheme": {

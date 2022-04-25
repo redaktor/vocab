@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011820",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011820",
   "prefLabel": {
-    "de": "Beleuchtungskoordinator*in",
-    "en": "Lighting Coordinator"
+    "de": "Beleuchtungsaufsicht",
+    "en": "Lighting Supervisor"
   },
   "notation": [
     "011820"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Lighting%20Coordinator"
+      "id": "https://themoviedb.org#Lighting%20Supervisor"
     }
   ],
   "inScheme": {

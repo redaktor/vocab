@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011249",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011249",
   "prefLabel": {
-    "de": "Berater*in für die Story",
-    "en": "Story Consultant"
+    "de": "Grafische Novelle",
+    "en": "Graphic Novel"
   },
   "notation": [
     "011249"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Story%20Consultant"
+      "id": "https://themoviedb.org#Graphic%20Novel"
     }
   ],
   "inScheme": {

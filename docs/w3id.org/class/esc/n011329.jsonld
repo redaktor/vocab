@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011329",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011329",
   "prefLabel": {
-    "de": "Luftbildregisseur*in",
-    "en": "Aerial Director of Photography"
+    "de": "Erste Kameraassistenz",
+    "en": "First Assistant Camera"
   },
   "notation": [
     "011329"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Aerial%20Director%20of%20Photography"
+      "id": "https://themoviedb.org#First%20Assistant%20Camera"
     }
   ],
   "inScheme": {

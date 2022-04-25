@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012447",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012447",
   "prefLabel": {
-    "de": "Motion-Capture-Künstler*in",
-    "en": "Motion Capture Artist"
+    "de": "Digital-Compositor",
+    "en": "Digital Compositor"
   },
   "notation": [
     "012447"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Motion%20Capture%20Artist"
+      "id": "https://themoviedb.org#Digital%20Compositor"
     }
   ],
   "inScheme": {

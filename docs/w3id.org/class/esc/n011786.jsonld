@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011786",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011786",
   "prefLabel": {
-    "de": "Haupt-Schreiner*in",
-    "en": "Key Carpenter"
+    "de": "Restager*in",
+    "en": "Restager"
+  },
+  "definition": {
+    "de": "Eine Person oder Organisation, die nicht der ursprüngliche Choreograf oder Regisseur ist und die für die Neuinszenierung eines choreografischen oder dramatischen Werks verantwortlich ist und die nur einen minimalen neuen Inhalt beisteuert",
+    "en": "A person or organization, other than the original choreographer or director, responsible for restaging a choreographic or dramatic work and who contributes minimal new content"
   },
   "notation": [
     "011786"
@@ -19,7 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Key%20Carpenter"
+      "id": "https://themoviedb.org#Restager"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/rsg"
     }
   ],
   "inScheme": {

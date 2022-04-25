@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011322",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011322",
   "prefLabel": {
-    "de": "Kamera-Praktikant*in",
-    "en": "Camera Intern"
+    "de": "Unterwasserkamera",
+    "en": "Underwater Camera"
   },
   "notation": [
     "011322"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Camera%20Intern"
+      "id": "https://themoviedb.org#Underwater%20Camera"
     }
   ],
   "inScheme": {

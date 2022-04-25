@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011365",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011365",
   "prefLabel": {
-    "de": "Epk Direktor*in",
-    "en": "Epk Director"
+    "de": "Drohnenpilot*in",
+    "en": "Drone Pilot"
   },
   "notation": [
     "011365"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Epk%20Director"
+      "id": "https://themoviedb.org#Drone%20Pilot"
     }
   ],
   "inScheme": {

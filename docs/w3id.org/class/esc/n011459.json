@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011459",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011459",
   "prefLabel": {
-    "de": "ADR-Aufnahmetechniker*in",
-    "en": "ADR Recording Engineer"
+    "de": "ADR-Koordinator*in",
+    "en": "ADR Coordinator"
   },
   "notation": [
     "011459"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#ADR%20Recording%20Engineer"
+      "id": "https://themoviedb.org#ADR%20Coordinator"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011333",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011333",
   "prefLabel": {
-    "de": "Key Grip",
-    "en": "Key Grip"
+    "de": "Zusätzliche Zweite Kameraassistenz",
+    "en": "Additional Second Assistant Camera"
   },
   "notation": [
     "011333"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Key%20Grip"
+      "id": "https://themoviedb.org#Additional%20Second%20Assistant%20Camera"
     }
   ],
   "inScheme": {

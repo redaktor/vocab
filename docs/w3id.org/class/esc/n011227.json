@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011227",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011227",
   "prefLabel": {
-    "de": "Geschichte",
-    "en": "Story"
+    "de": "Textdichter*in",
+    "en": "Lyricist"
+  },
+  "definition": {
+    "de": "Ein Urheber des Textes eines nicht-dramatischen Musikwerks (z. B. des Textes eines Liedes), außer bei Oratorien",
+    "en": "An author of the words of a non-dramatic musical work (e.g. the text of a song), except for oratorios"
   },
   "notation": [
     "011227"
@@ -19,7 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Story"
+      "id": "https://themoviedb.org#Lyricist"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/lyr"
     }
   ],
   "inScheme": {

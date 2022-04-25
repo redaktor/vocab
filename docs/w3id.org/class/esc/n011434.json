@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011434",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011434",
   "prefLabel": {
-    "de": "Vertonungsmischer*in",
-    "en": "Scoring Mixer"
+    "de": "Produktions-Tonmischer*in",
+    "en": "Production Sound Mixer"
   },
   "notation": [
     "011434"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Scoring%20Mixer"
+      "id": "https://themoviedb.org#Production%20Sound%20Mixer"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011330",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011330",
   "prefLabel": {
-    "de": "Kamera-Lader*in",
-    "en": "Camera Loader"
+    "de": "Zweite Kameraassistenz",
+    "en": "Second Assistant Camera"
   },
   "notation": [
     "011330"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Camera%20Loader"
+      "id": "https://themoviedb.org#Second%20Assistant%20Camera"
     }
   ],
   "inScheme": {

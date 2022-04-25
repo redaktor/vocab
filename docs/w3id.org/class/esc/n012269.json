@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012269",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012269",
   "prefLabel": {
-    "de": "Erste Assistenz, Hairstylist*in",
-    "en": "First Assistant Hairstylist"
+    "de": "Rauchzeichner*in",
+    "en": "Smoke Artist"
   },
   "notation": [
     "012269"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#First%20Assistant%20Hairstylist"
+      "id": "https://themoviedb.org#Smoke%20Artist"
     }
   ],
   "inScheme": {

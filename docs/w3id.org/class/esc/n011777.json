@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011777",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011777",
   "prefLabel": {
-    "de": "Ankleiderequisite",
-    "en": "Dressing Prop"
+    "de": "Praktikant*in für Art Direction",
+    "en": "Art Direction Intern"
   },
   "notation": [
     "011777"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Dressing%20Prop"
+      "id": "https://themoviedb.org#Art%20Direction%20Intern"
     }
   ],
   "inScheme": {

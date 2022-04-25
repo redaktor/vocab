@@ -4,16 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0123",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0123",
   "prefLabel": {
-    "de": "Visuelle Effekte",
-    "en": "Visual Effects"
-  },
-  "altLabel": {
-    "de": [
-      "VFX"
-    ],
-    "en": [
-      "VFX"
-    ]
+    "de": "Kostüme und Styling",
+    "en": "Costume and Styling"
   },
   "notation": [
     "0123"
@@ -22,736 +14,484 @@
     {
       "id": "https://w3id.org/class/esc/n012311",
       "prefLabel": {
-        "de": "Animation",
-        "en": "Animation"
+        "de": "Leitung Kostüm",
+        "en": "Lead Costumer"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012312",
       "prefLabel": {
-        "de": "Visuelle Effekte",
-        "en": "Visual Effects"
+        "de": "Hauptkostümbildner*in",
+        "en": "Key Costumer"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012313",
       "prefLabel": {
-        "de": "Cheftechniker*in / Stop-Motion-Experte",
-        "en": "Chief Technician / Stop-Motion Expert"
+        "de": "Hauptkostümbildner*in am Set",
+        "en": "Key Set Costumer"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012314",
       "prefLabel": {
-        "de": "Kreaturendesign",
-        "en": "Creature Design"
+        "de": "Make-up & Haare",
+        "en": "Makeup & Hair"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012315",
       "prefLabel": {
-        "de": "Schattierung, Shading",
-        "en": "Shading"
+        "de": "Garderobier*e",
+        "en": "Costumer"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012316",
       "prefLabel": {
-        "de": "Modellieren, Modeling",
-        "en": "Modeling"
+        "de": "Kostüm-Designer*in",
+        "en": "Costume Designer"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012317",
       "prefLabel": {
-        "de": "CG Maler*in",
-        "en": "CG Painter"
+        "de": "Kostümdesign",
+        "en": "Costume Design"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012318",
       "prefLabel": {
-        "de": "Visuelle Entwicklung",
-        "en": "Visual Development"
+        "de": "Kostümmeister*in",
+        "en": "Costume Mistress"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012319",
       "prefLabel": {
-        "de": "Leiter*in der Animation",
-        "en": "Animation Manager"
+        "de": "Kostümbildner*in am Set",
+        "en": "Set Costumer"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012320",
       "prefLabel": {
-        "de": "Animationsleiter*in",
-        "en": "Animation Director"
+        "de": "Kostümbildner*in für Extras",
+        "en": "Extras Dresser"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012321",
       "prefLabel": {
-        "de": "Fix Animator*in",
-        "en": "Fix Animator"
+        "de": "Dressing Künstler*in am Set",
+        "en": "Set Dressing Artist"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012322",
       "prefLabel": {
-        "de": "Koordinator*in der Animationsabteilung",
-        "en": "Animation Department Coordinator"
+        "de": "Schneider*in",
+        "en": "Tailor"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012323",
       "prefLabel": {
-        "de": "Koordinator*in Animation Fix",
-        "en": "Animation Fix Coordinator"
+        "de": "Näher*in",
+        "en": "Seamstress"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012324",
       "prefLabel": {
-        "de": "Assistenz der Animationsproduktion",
-        "en": "Animation Production Assistant"
+        "de": "Kostümkünstler*in",
+        "en": "costume artist"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012325",
       "prefLabel": {
-        "de": "Supervisor für visuelle Effekte",
-        "en": "Visual Effects Supervisor"
+        "de": "Schuhdesign",
+        "en": "Shoe Design"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012326",
       "prefLabel": {
-        "de": "Mechanik & Kreaturen-Designer*in",
-        "en": "Mechanical & Creature Designer"
+        "de": "Haupt Costumer*in",
+        "en": "Principal Costumer"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012327",
       "prefLabel": {
-        "de": "Koordinator*in für Kampfbewegungen",
-        "en": "Battle Motion Coordinator"
+        "de": "Hauptankleider*in",
+        "en": "Key Dresser"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012328",
       "prefLabel": {
-        "de": "Supervisor für die Animation",
-        "en": "Animation Supervisor"
+        "de": "Ankleiderequisite",
+        "en": "Dressing Prop"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012329",
       "prefLabel": {
-        "de": "VFX-Kontrolle",
-        "en": "VFX Supervisor"
+        "de": "Meister*in der Garderobe",
+        "en": "Wardrobe Master"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012330",
       "prefLabel": {
-        "de": "Setup von Stoffen",
-        "en": "Cloth Setup"
+        "de": "Ankleider*in",
+        "en": "Dresser"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012331",
       "prefLabel": {
-        "de": "VFX-Künstler*in",
-        "en": "VFX Artist"
+        "de": "Garderobenkoordinator",
+        "en": "Wardrobe Coordinator"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012332",
       "prefLabel": {
-        "de": "CG-Ingenieur*in",
-        "en": "CG Engineer"
+        "de": "Garderobengestalter*in",
+        "en": "Wardrobe Designer"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012333",
       "prefLabel": {
-        "de": "24-Bild-Wiedergabe",
-        "en": "24 Frame Playback"
+        "de": "Kontrolle für Garderobe",
+        "en": "Wardrobe Supervisor"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012334",
       "prefLabel": {
-        "de": "Bildwissenschaft",
-        "en": "Imaging Science"
+        "de": "Kostümberater*in",
+        "en": "Costume Consultant"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012335",
       "prefLabel": {
-        "de": "I/O-Überwachung",
-        "en": "I/O Supervisor"
+        "de": "Kostümkoordinator*in",
+        "en": "Costume Coordinator"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012336",
       "prefLabel": {
-        "de": "Visuelle Effekte Produzent*in",
-        "en": "Visual Effects Producer"
+        "de": "Kostüm-Illustrator*in",
+        "en": "Costume Illustrator"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012337",
       "prefLabel": {
-        "de": "VFX-Produktionskoordinator*in",
-        "en": "VFX Production Coordinator"
+        "de": "Kostüm Supervisor",
+        "en": "Costume Supervisor"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012338",
       "prefLabel": {
-        "de": "E/A-Manager*in",
-        "en": "I/O Manager"
+        "de": "Kostüm Supervisor am Set",
+        "en": "Costume Set Supervisor"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012339",
       "prefLabel": {
-        "de": "Entwicklung zusätzlicher Effekte",
-        "en": "Additional Effects Development"
+        "de": "Co-Kostümbildner*in",
+        "en": "Co-Costume Designer"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012340",
       "prefLabel": {
-        "de": "Farbdesigner*in",
-        "en": "Color Designer"
+        "de": "Assistent*in Kostümbild",
+        "en": "Assistant Costume Designer"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012341",
       "prefLabel": {
-        "de": "Produktionsassistent für Simulation und Effekte",
-        "en": "Simulation & Effects Production Assistant"
+        "de": "Kostümbereitschaftsdienst",
+        "en": "Costume Standby"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012342",
       "prefLabel": {
-        "de": "Künstler*in für Simulation und Effekte",
-        "en": "Simulation & Effects Artist"
+        "de": "Tägliche Garderobe",
+        "en": "Daily Wardrobe"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012343",
       "prefLabel": {
-        "de": "Pyrotechnik Supervisor",
-        "en": "Pyrotechnic Supervisor"
+        "de": "Garderoben-Assistenz",
+        "en": "Wardrobe Assistant"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012344",
       "prefLabel": {
-        "de": "Supervisor für Spezialeffekte",
-        "en": "Special Effects Supervisor"
+        "de": "Praktikant*in Garderobe",
+        "en": "Wardrobe Intern"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012345",
       "prefLabel": {
-        "de": "3D-Kontrolle",
-        "en": "3D Supervisor"
+        "de": "Spezialisierte Techniker*in für Garderobe",
+        "en": "Wardrobe Specialized Technician"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012346",
       "prefLabel": {
-        "de": "3D-Regisseur*in",
-        "en": "3D Director"
+        "de": "Hauptmaskenbildner*in",
+        "en": "Key Makeup Artist"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012347",
       "prefLabel": {
-        "de": "Digital-Compositor",
-        "en": "Digital Compositor"
+        "de": "Maskenbildner*in",
+        "en": "Makeup Artist"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012348",
       "prefLabel": {
-        "de": "Koordinator*in für visuelle Effekte",
-        "en": "Visual Effects Coordinator"
+        "de": "Maskenbildner*in am Set",
+        "en": "On Set Dresser"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012349",
       "prefLabel": {
-        "de": "VFX-Editor",
-        "en": "VFX Editor"
+        "de": "Abteilungsleiter Make-up",
+        "en": "Makeup Department Head"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012350",
       "prefLabel": {
-        "de": "2D-Künstler*in",
-        "en": "2D Artist"
+        "de": "Kontrolle Maskenbildner*in",
+        "en": "Makeup Supervisor"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012351",
       "prefLabel": {
-        "de": "2D-Kontorlle",
-        "en": "2D Supervisor"
+        "de": "Make-up-Designer*in",
+        "en": "Makeup Designer"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012352",
       "prefLabel": {
-        "de": "3D-Animator*in",
-        "en": "3D Animator"
+        "de": "Designer*in für Schminkeffekte",
+        "en": "Makeup Effects Designer"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012353",
       "prefLabel": {
-        "de": "3D-Künstler*in",
-        "en": "3D Artist"
+        "de": "Künstler*in für Gesichtsgestaltung / Maske",
+        "en": "Facial Setup Artist"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012354",
       "prefLabel": {
-        "de": "3D-Koordination",
-        "en": "3D Coordinator"
+        "de": "Haupt Maskenbildner*in für Spezialeffekte",
+        "en": "Special Effects Key Makeup Artist"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012355",
       "prefLabel": {
-        "de": "3D-Generalist",
-        "en": "3D Generalist"
+        "de": "Make-up-Effekte",
+        "en": "Makeup Effects"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012356",
       "prefLabel": {
-        "de": "3D-Modellierer*in",
-        "en": "3D Modeller"
+        "de": "Maskenbildner*in für Spezialeffekte",
+        "en": "Special Effects Makeup Artist"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012357",
       "prefLabel": {
-        "de": "3D-Sequenz-Kontrolle",
-        "en": "3D Sequence Supervisor"
+        "de": "Tattoo-Designer*in",
+        "en": "Tattoo Designer"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012358",
       "prefLabel": {
-        "de": "3D Tracking Layout",
-        "en": "3D Tracking Layout"
+        "de": "Tätowierer*in",
+        "en": "Tattooist"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012359",
       "prefLabel": {
-        "de": "CG-Animator*in",
-        "en": "CG Animator"
+        "de": "Tägliches Make-up & Frisuren",
+        "en": "Daily Makeup & Hair"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012360",
       "prefLabel": {
-        "de": "CGI-Regisseur*in",
-        "en": "CGI Director"
+        "de": "Maskenbildner*in für Statisten",
+        "en": "Extras Makeup Artist"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012361",
       "prefLabel": {
-        "de": "Charakter-Designer*in",
-        "en": "Character Designer"
+        "de": "Kontaktlinsen-Designer*in",
+        "en": "Contact Lens Designer"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012362",
       "prefLabel": {
-        "de": "Supervisor für die Charaktermodellierung",
-        "en": "Character Modelling Supervisor"
+        "de": "Kontaktlinsenmaler*in",
+        "en": "Contact Lens Painter"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012363",
       "prefLabel": {
-        "de": "Technische Direktion für Kreaturen",
-        "en": "Creature Technical Director"
+        "de": "Kontaktlinsentechniker*in",
+        "en": "Contact Lens Technician"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012364",
       "prefLabel": {
-        "de": "Produzent*in für digitale Effekte",
-        "en": "Digital Effects Producer"
+        "de": "Leitung Frisuren und Perücken",
+        "en": "Hair Department Head"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012365",
       "prefLabel": {
-        "de": "Hauptanimation",
-        "en": "Key Animation"
+        "de": "Haupt-Hairstylist*in",
+        "en": "Key Hair Stylist"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012366",
       "prefLabel": {
-        "de": "Leitende*r Animator*in",
-        "en": "Lead Animator"
+        "de": "Hairstylist*in",
+        "en": "Hairstylist"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012367",
       "prefLabel": {
-        "de": "Leitende*r Charakterdesigner*in",
-        "en": "Lead Character Designer"
+        "de": "Haardesigner*in",
+        "en": "Hair Designer"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012368",
       "prefLabel": {
-        "de": "Matchmove-Kontrolle",
-        "en": "Matchmove Supervisor"
+        "de": "Haarschmuck",
+        "en": "Hair Setup"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012369",
       "prefLabel": {
-        "de": "Mechanik Designer*in",
-        "en": "Mechanical Designer"
+        "de": "Haupt-Friseur/Hairdresser",
+        "en": "Key Hairdresser"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012370",
       "prefLabel": {
-        "de": "Eröffnungs/Ende-Animation",
-        "en": "Opening/Ending Animation"
+        "de": "Friseur*in",
+        "en": "Hairdresser"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012371",
       "prefLabel": {
-        "de": "Supervisor für die Vorvisualisierung",
-        "en": "Pre-Visualization Supervisor"
+        "de": "Perückenmacher*in",
+        "en": "Wigmaker"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012372",
       "prefLabel": {
-        "de": "Roto-Kontrolle",
-        "en": "Roto Supervisor"
+        "de": "Kontrolle Frisuren und Perücken",
+        "en": "Hair Supervisor"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012373",
       "prefLabel": {
-        "de": "Stereoskopie Koordinator*in",
-        "en": "Stereoscopic Coordinator"
+        "de": "Supervisor für Prothesen",
+        "en": "Prosthetic Supervisor"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012374",
       "prefLabel": {
-        "de": "VFX Director of Photography",
-        "en": "VFX Director of Photography"
+        "de": "Prothetik-Designer*in",
+        "en": "Prosthetic Designer"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012375",
       "prefLabel": {
-        "de": "VFX Beleuchter*in",
-        "en": "VFX Lighting Artist"
+        "de": "Prothetische(r) Maskenbildner*in",
+        "en": "Prosthetic Makeup Artist"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012376",
       "prefLabel": {
-        "de": "Designer*in für visuelle Effekte",
-        "en": "Visual Effects Designer"
+        "de": "Prothetik",
+        "en": "Prosthetics"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012377",
       "prefLabel": {
-        "de": "Technische*r Direktor*in für visuelle Effekte",
-        "en": "Visual Effects Technical Director"
+        "de": "Prothetik-Lackierer*in",
+        "en": "Prosthetics Painter"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012378",
       "prefLabel": {
-        "de": "Supervisor für 2D-Sequenzen",
-        "en": "2D Sequence Supervisor"
+        "de": "Former*in für Prothetik",
+        "en": "Prosthetics Sculptor"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012379",
       "prefLabel": {
-        "de": "Zusätzliche visuelle Effekte",
-        "en": "Additional Visual Effects"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n012380",
-      "prefLabel": {
-        "de": "Koordinator*in für Animation",
-        "en": "Animation Coordinator"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n012381",
-      "prefLabel": {
-        "de": "Technische*r Leiter*in der Animation",
-        "en": "Animation Technical Director"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n012382",
-      "prefLabel": {
-        "de": "CG-Künstler*in",
-        "en": "CG Artist"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n012383",
-      "prefLabel": {
-        "de": "Compositing-Künstler*in",
-        "en": "Compositing Artist"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n012384",
-      "prefLabel": {
-        "de": "Compositing-Leiter*in",
-        "en": "Compositing Lead"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n012385",
-      "prefLabel": {
-        "de": "Kontrolle für Compositing",
-        "en": "Compositing Supervisor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n012386",
-      "prefLabel": {
-        "de": "Technische*r Direktor*in für Kreationseffekte",
-        "en": "Creature Effects Technical Director"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n012387",
-      "prefLabel": {
-        "de": "Supervisor für Cyber-Scanning",
-        "en": "Cyber Scanning Supervisor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n012388",
-      "prefLabel": {
-        "de": "Digitale Filmaufnahme",
-        "en": "Digital Film Recording"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n012389",
-      "prefLabel": {
-        "de": "Leiter*in der Vorvisualisierung",
-        "en": "Director of Previsualization"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n012390",
-      "prefLabel": {
-        "de": "Supervisor für Effekte",
-        "en": "Effects Supervisor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n012391",
-      "prefLabel": {
-        "de": "Generalist*in",
-        "en": "Generalist"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n012392",
-      "prefLabel": {
-        "de": "Leitung der Animation",
-        "en": "Head of Animation"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n012393",
-      "prefLabel": {
-        "de": "Verantwortlich für das Layout",
-        "en": "Layout Supervisor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n012394",
-      "prefLabel": {
-        "de": "Leitung Kreaturen-Designer",
-        "en": "Lead Creature Designer"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n012395",
-      "prefLabel": {
-        "de": "Matte Painter",
-        "en": "Matte Painter"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n012396",
-      "prefLabel": {
-        "de": "Supervisor für Modellierung",
-        "en": "Modelling Supervisor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n012397",
-      "prefLabel": {
-        "de": "Technische*r Direktor*in für die Pipeline",
-        "en": "Pipeline Technical Director"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n012398",
-      "prefLabel": {
-        "de": "Foto-Retusche",
-        "en": "Photo Retouching"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n012399",
-      "prefLabel": {
-        "de": "Koordinator*in für die Vorvisualisierung",
-        "en": "Pre-Visualization Coordinator"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0123100",
-      "prefLabel": {
-        "de": "Rotoscoping-Künstler*in",
-        "en": "Rotoscoping Artist"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0123101",
-      "prefLabel": {
-        "de": "Leitung Animator*in",
-        "en": "Senior Animator"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0123102",
-      "prefLabel": {
-        "de": "Senior Generalist*in",
-        "en": "Senior Generalist"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0123103",
-      "prefLabel": {
-        "de": "Senior Modellierer*in",
-        "en": "Senior Modeller"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0123104",
-      "prefLabel": {
-        "de": "Senior Supervisor für visuelle Effekte",
-        "en": "Senior Visual Effects Supervisor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0123105",
-      "prefLabel": {
-        "de": "Rauchzeichner*in",
-        "en": "Smoke Artist"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0123106",
-      "prefLabel": {
-        "de": "Stereoskopischer Supervisor",
-        "en": "Stereoscopic Supervisor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0123107",
-      "prefLabel": {
-        "de": "Technische*r Direktor*in für Stereoskopie",
-        "en": "Stereoscopic Technical Director"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0123108",
-      "prefLabel": {
-        "de": "Leitung Kontrolle der Animation",
-        "en": "Supervising Animation Director"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0123109",
-      "prefLabel": {
-        "de": "Assistenz Redakteur*in für visuelle Effekte",
-        "en": "Visual Effects Assistant Editor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0123110",
-      "prefLabel": {
-        "de": "Kamera für visuelle Effekte",
-        "en": "Visual Effects Camera"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0123111",
-      "prefLabel": {
-        "de": "Visuelle Effekte Compositor",
-        "en": "Visual Effects Compositor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0123112",
-      "prefLabel": {
-        "de": "Regisseur*in für visuelle Effekte",
-        "en": "Visual Effects Director"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0123113",
-      "prefLabel": {
-        "de": "Visuelle Effekte Lineup",
-        "en": "Visual Effects Lineup"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0123114",
-      "prefLabel": {
-        "de": "Produktionsassistent*in für visuelle Effekte",
-        "en": "Visual Effects Production Assistant"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0123115",
-      "prefLabel": {
-        "de": "Produktionsleiter*in für visuelle Effekte",
-        "en": "Visual Effects Production Manager"
+        "de": "Sonstiges Kostüm, Styling",
+        "en": "Other Costume, Styling"
       }
     }
   ],

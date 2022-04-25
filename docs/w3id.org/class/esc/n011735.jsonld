@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011735",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011735",
   "prefLabel": {
-    "de": "Drehort-Scout",
-    "en": "Location Scout"
+    "de": "Web-Designer*in",
+    "en": "Web Designer"
   },
   "notation": [
     "011735"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Location%20Scout"
+      "id": "https://themoviedb.org#Web%20Designer"
     }
   ],
   "inScheme": {

@@ -5,7 +5,15 @@
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011611",
   "prefLabel": {
     "de": "Hauptdarsteller*in",
-    "en": "LeadPerformer"
+    "en": "Lead Performer"
+  },
+  "altLabel": {
+    "de": [
+      "Hauptfigur"
+    ],
+    "en": [
+      "Leadman"
+    ]
   },
   "notation": [
     "011611"
@@ -20,6 +28,9 @@
   "closeMatch": [
     {
       "id": "https://themoviedb.org#LeadPerformer"
+    },
+    {
+      "id": "https://themoviedb.org#Leadman"
     }
   ],
   "inScheme": {

@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011425",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011425",
   "prefLabel": {
-    "de": "Aufnahme-Überwachung",
-    "en": "Recording Supervision"
-  },
-  "definition": {
-    "de": "Eine Person, die zu einer Ressource beiträgt, indem sie die technischen Aspekte einer Ton- oder Videoaufnahme überwacht",
-    "en": "A person contributing to a resource by supervising the technical aspects of a sound or video recording session"
+    "de": "Assistenz für Tonaufnahmen",
+    "en": "Sound Re-Recording Assistant"
   },
   "notation": [
     "011425"
@@ -23,12 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Recording%20Supervision"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/rce"
+      "id": "https://themoviedb.org#Sound%20Re-Recording%20Assistant"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012032",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012032",
   "prefLabel": {
-    "de": "Koordinator*in Produktionsbüro",
-    "en": "Production Office Coordinator"
+    "de": "Regie-Assistenz in Ausbildung",
+    "en": "Assistant Director Trainee"
   },
   "notation": [
     "012032"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0120",
     "prefLabel": {
-      "de": "Produktion",
-      "en": "Production"
+      "de": "Regie",
+      "en": "Directing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Production%20Office%20Coordinator"
+      "id": "https://themoviedb.org#Assistant%20Director%20Trainee"
     }
   ],
   "inScheme": {

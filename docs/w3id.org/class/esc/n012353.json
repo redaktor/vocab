@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012353",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012353",
   "prefLabel": {
-    "de": "3D-Künstler*in",
-    "en": "3D Artist"
+    "de": "Künstler*in für Gesichtsgestaltung / Maske",
+    "en": "Facial Setup Artist"
   },
   "notation": [
     "012353"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#3D%20Artist"
+      "id": "https://themoviedb.org#Facial%20Setup%20Artist"
     }
   ],
   "inScheme": {

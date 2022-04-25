@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012012",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012012",
   "prefLabel": {
-    "de": "Produzent*in",
-    "en": "Producer"
+    "de": "Regisseur*in vor Ort",
+    "en": "Field Director"
   },
   "definition": {
-    "de": "Eine Person, Familie oder Organisation, die für die meisten geschäftlichen Aspekte einer Produktion für Bildschirm, Tonaufnahme, Fernsehen, Webcast usw. verantwortlich ist. Der Produzent ist in der Regel für die Mittelbeschaffung, das Management der Produktion, die Einstellung von Schlüsselpersonal, die Vermittlung von Verleihern usw. verantwortlich.",
-    "en": "A person, family, or organization responsible for most of the business aspects of a production for screen, audio recording, television, webcast, etc. The producer is generally responsible for fund raising, managing the production, hiring key personnel, arranging for distributors, etc."
+    "de": "Eine Person oder Organisation, die die Arbeit zur Sammlung von Rohdaten oder zur Durchführung von Forschungsarbeiten in einem konkreten Umfeld leitet oder überwacht (gilt in der Regel für die Natur- und Sozialwissenschaften)",
+    "en": "A person or organization that manages or supervises the work done to collect raw data or do research in an actual setting or environment (typically applies to the natural and social sciences)"
   },
   "notation": [
     "012012"
@@ -17,18 +17,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0120",
     "prefLabel": {
-      "de": "Produktion",
-      "en": "Production"
+      "de": "Regie",
+      "en": "Directing"
     }
   },
-  "closeMatch": [
-    {
-      "id": "https://themoviedb.org#Producer"
-    }
-  ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/pro"
+      "id": "https://id.loc.gov/vocabulary/relators/fld"
     }
   ],
   "inScheme": {

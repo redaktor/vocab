@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012245",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012245",
   "prefLabel": {
-    "de": "Prothetik-Designer*in",
-    "en": "Prosthetic Designer"
+    "de": "Rubrizierer*in",
+    "en": "Rubricator"
+  },
+  "definition": {
+    "de": "Eine Person oder Organisation, die für Teile eines Werks, oft Überschriften oder einleitende Teile eines Manuskripts, verantwortlich ist, die in einer besonderen Farbe, meist rot, erscheinen",
+    "en": "A person or organization responsible for parts of a work, often headings or opening parts of a manuscript, that appear in a distinctive color, usually red"
   },
   "notation": [
     "012245"
@@ -13,13 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Prosthetic%20Designer"
+      "id": "https://themoviedb.org#Rubricator"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/rbr"
     }
   ],
   "inScheme": {

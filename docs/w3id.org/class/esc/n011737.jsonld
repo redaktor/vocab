@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011737",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011737",
   "prefLabel": {
-    "de": "Hauptdarsteller*in",
-    "en": "Leadman"
+    "de": "Produktionsdesign",
+    "en": "Production Design"
   },
   "notation": [
     "011737"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Leadman"
+      "id": "https://themoviedb.org#Production%20Design"
     }
   ],
   "inScheme": {

@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012813",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012813",
   "prefLabel": {
-    "de": "Lehrer*in",
-    "en": "Teacher"
+    "de": "Filmverleih",
+    "en": "Film distributor"
   },
   "definition": {
-    "de": "Ein Ausführender, der zu einer Ressource beiträgt, indem er Anweisungen gibt oder eine Vorführung macht",
-    "en": "A performer contributing to a resource by giving instruction or providing a demonstration"
+    "de": "Eine Person, Familie oder Organisation, die am Vertrieb eines Bewegtbildmaterials an Kinos oder andere Vertriebskanäle beteiligt ist",
+    "en": "A person, family, or organization involved in distributing a moving image resource to theatres or other distribution channels"
   },
   "notation": [
     "012813"
@@ -17,13 +17,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0128",
     "prefLabel": {
-      "de": "Akademisch TODO",
-      "en": "Academics TODO"
+      "de": "Vertrieb",
+      "en": "Distribution"
     }
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/tch"
+      "id": "https://id.loc.gov/vocabulary/relators/fds"
     }
   ],
   "inScheme": {

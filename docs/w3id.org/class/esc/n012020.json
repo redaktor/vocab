@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012020",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012020",
   "prefLabel": {
-    "de": "Radioproduzent*in",
-    "en": "Radio producer"
+    "de": "Stage Manager, Inspizient*in",
+    "en": "Stage Manager"
   },
   "definition": {
-    "de": "Ein Produzent, der für die meisten geschäftlichen Aspekte eines Radioprogramms verantwortlich ist",
-    "en": "A producer responsible for most of the business aspects of a radio program"
+    "de": "Eine Person, die für alles verantwortlich ist, was auf einer Aufführungsbühne geschieht, und die als Chef aller Crews und Assistent eines Regisseurs während der Proben fungiert",
+    "en": "A person who is in charge of everything that occurs on a performance stage, and who acts as chief of all crews and assistant to a director during rehearsals"
   },
   "notation": [
     "012020"
@@ -17,18 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0120",
     "prefLabel": {
-      "de": "Produktion",
-      "en": "Production"
+      "de": "Regie",
+      "en": "Directing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Radio%20producer"
+      "id": "https://themoviedb.org#Stage%20Director"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/rpc"
+      "id": "https://id.loc.gov/vocabulary/relators/stm"
     }
   ],
   "inScheme": {

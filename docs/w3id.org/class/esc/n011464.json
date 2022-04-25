@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011464",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011464",
   "prefLabel": {
-    "de": "Assistenz Tontechniker*in",
-    "en": "Assistant Sound Engineer"
+    "de": "ADR & Synchronisation",
+    "en": "ADR & Dubbing"
+  },
+  "definition": {
+    "de": "Eine Person, die Musiknotation transkribiert oder kopiert",
+    "en": "A person who transcribes or copies musical notation"
   },
   "notation": [
     "011464"
@@ -19,7 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Assistant%20Sound%20Engineer"
+      "id": "https://themoviedb.org#ADR%20&%20Dubbing"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/mcp"
     }
   ],
   "inScheme": {

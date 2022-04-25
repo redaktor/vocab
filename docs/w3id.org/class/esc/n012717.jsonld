@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012717",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012717",
   "prefLabel": {
-    "de": "Provider",
-    "en": "Provider"
+    "de": "Druckgrafiker*in",
+    "en": "Printmaker"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die eine Ressource produziert, veröffentlicht, herstellt oder vertreibt, wenn keine spezifischen Codes gewünscht sind (z. B. [mfr], [pbl])",
-    "en": "A person or organization who produces, publishes, manufactures, or distributes a resource if specific codes are not desired (e.g. [mfr], [pbl])"
+    "de": "Eine Person oder Organisation, die eine Relief-, Tiefdruck- oder Flachdruckoberfläche herstellt",
+    "en": "A person or organization who makes a relief, intaglio, or planographic printing surface"
   },
   "notation": [
     "012717"
@@ -17,13 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0127",
     "prefLabel": {
-      "de": "Vertrieb",
-      "en": "Distribution"
+      "de": "Herstellung",
+      "en": "Manufacturing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Printmaker"
+    }
+  ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/prv"
+      "id": "https://id.loc.gov/vocabulary/relators/prm"
     }
   ],
   "inScheme": {

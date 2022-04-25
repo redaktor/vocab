@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012014",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012014",
   "prefLabel": {
-    "de": "Ausführende Produzent*in",
-    "en": "Executive Producer"
-  },
-  "definition": {
-    "de": "Ein Produzent, der für den Großteil der geschäftlichen Aspekte eines Films verantwortlich ist",
-    "en": "A producer responsible for most of the business aspects of a film"
+    "de": "Serienregisseur*in",
+    "en": "Series Director"
   },
   "notation": [
     "012014"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0120",
     "prefLabel": {
-      "de": "Produktion",
-      "en": "Production"
+      "de": "Regie",
+      "en": "Directing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Executive%20Producer"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/fmp"
+      "id": "https://themoviedb.org#Series%20Director"
     }
   ],
   "inScheme": {

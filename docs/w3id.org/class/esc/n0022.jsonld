@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0022",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0022",
   "prefLabel": {
-    "de": "Sender, Broadcaster",
-    "en": "Broadcaster"
+    "de": "Host, Gastgeber",
+    "en": "Host"
   },
   "definition": {
-    "de": "Eine Person, Familie oder Organisation, die an der Verbreitung einer Ressource an ein Publikum über Radio, Fernsehen, Webcast usw. beteiligt ist.",
-    "en": "A person, family, or organization involved in broadcasting a resource to an audience via radio, television, webcast, etc."
+    "de": "Ein Künstler, der zu einer Ressource beiträgt, indem er ein (oft gesendetes) Programm leitet, das andere Gäste, Künstler usw. einschließt. (z. B. Talkshow-Moderator)",
+    "en": "A performer contributing to a resource by leading a program (often broadcast) that includes other guests, performers, etc. (e.g., talk show host)"
   },
   "notation": [
     "0022"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/brd"
+      "id": "https://id.loc.gov/vocabulary/relators/hst"
     }
   ],
   "inScheme": {

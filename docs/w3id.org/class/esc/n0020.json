@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0020",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0020",
   "prefLabel": {
-    "de": "Supplier",
-    "en": "Anbieter*in"
+    "de": "Anbieter*in",
+    "en": "Supplier"
   },
   "definition": {
     "de": "Allgemein. Nur verwenden, wenn es sich von dem liefernden ActivityPub-Actor unterscheidet.",

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0124100",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0124100",
   "prefLabel": {
-    "de": "Treatment",
-    "en": "Treatment"
+    "de": "Technische*r Direktor*in für Stereoskopie",
+    "en": "Stereoscopic Technical Director"
   },
   "notation": [
     "0124100"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Treatment"
+      "id": "https://themoviedb.org#Stereoscopic%20Technical%20Director"
     }
   ],
   "inScheme": {

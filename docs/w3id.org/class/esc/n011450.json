@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011450",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011450",
   "prefLabel": {
-    "de": "Überwachender Musik-Editor",
-    "en": "Supervising Music Editor"
+    "de": "Überwachender ADR-Editor",
+    "en": "Supervising ADR Editor"
   },
   "notation": [
     "011450"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Supervising%20Music%20Editor"
+      "id": "https://themoviedb.org#Supervising%20ADR%20Editor"
     }
   ],
   "inScheme": {

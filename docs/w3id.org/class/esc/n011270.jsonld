@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011270",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011270",
   "prefLabel": {
-    "de": "Kommentator*in",
-    "en": "Commentator"
+    "de": "Verfasser*in eines zusätzlichen Kommentars",
+    "en": "Writer of added commentary"
   },
   "definition": {
-    "de": "Ein ausübender Künstler, der zu einem Werk beiträgt, indem er eine Interpretation, eine Analyse oder eine Diskussion des Themas auf einer Aufnahme, einem Film oder einem anderen audiovisuellen Medium liefert",
-    "en": "A performer contributing to a work by providing interpretation, analysis, or a discussion of the subject matter on a recording, film, or other audiovisual medium"
+    "de": "Eine Person, Familie oder Organisation, die einen Beitrag zu einem Werk leistet, indem sie eine Interpretation oder kritische Erläuterung des Originalwerkes liefert",
+    "en": "A person, family, or organization contributing to an expression of a work by providing an interpretation or critical explanation of the original work"
   },
   "notation": [
     "011270"
@@ -23,12 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Commentator"
+      "id": "https://themoviedb.org#Writer%20of%20added%20commentary"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/cmm"
+      "id": "https://id.loc.gov/vocabulary/relators/wac"
     }
   ],
   "inScheme": {

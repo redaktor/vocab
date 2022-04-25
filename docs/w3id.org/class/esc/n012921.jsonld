@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012921",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012921",
   "prefLabel": {
-    "de": "Anfechtender",
-    "en": "Contestant"
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, die sich einer Forderung, einer Entscheidung, einem Ergebnis usw. widersetzt, widersteht oder es vor Gericht anfechtet.",
-    "en": "A person(s) or organization who opposes, resists, or disputes, in a court of law, a claim, decision, result, etc."
+    "de": "Erste Assistenz Buchhalter*in",
+    "en": "First Assistant Accountant"
   },
   "notation": [
     "012921"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0129",
     "prefLabel": {
-      "de": "Recht / Legal",
-      "en": "Legal"
+      "de": "Buchhaltung",
+      "en": "Accounting"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Contestant"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/cos"
+      "id": "https://themoviedb.org#First%20Assistant%20Accountant"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012135",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012135",
   "prefLabel": {
-    "de": "Atmos-Editor",
-    "en": "Atmos Editor"
+    "de": "Standortmanager*in, Drehortleiter*in",
+    "en": "Location Manager"
   },
   "notation": [
     "012135"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Atmos%20Editor"
+      "id": "https://themoviedb.org#Location%20Manager"
     }
   ],
   "inScheme": {

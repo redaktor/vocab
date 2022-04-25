@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011755",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011755",
   "prefLabel": {
-    "de": "Co Konstruktion Grip",
-    "en": "Additional Construction Grip"
+    "de": "Koordinator*in der Kunstabteilung",
+    "en": "Art Department Coordinator"
   },
   "notation": [
     "011755"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Additional%20Construction%20Grip"
+      "id": "https://themoviedb.org#Art%20Department%20Coordinator"
     }
   ],
   "inScheme": {

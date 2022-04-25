@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011118",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011118",
   "prefLabel": {
-    "de": "Fotojournalist*in",
-    "en": "Photojournalist"
-  },
-  "definition": {
-    "de": "Eine Person, Familie oder Organisation, die für die Erstellung eines fotografischen Werks verantwortlich ist",
-    "en": "A person, family, or organization responsible for creating a photographic work"
+    "de": "Video-Bericht",
+    "en": "Video Report"
   },
   "notation": [
     "011118"
@@ -23,12 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Photojournalist"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/pht"
+      "id": "https://themoviedb.org#Video%20Report"
     }
   ],
   "inScheme": {

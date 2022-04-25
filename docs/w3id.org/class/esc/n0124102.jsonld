@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0124102",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0124102",
   "prefLabel": {
-    "de": "Beleuchtungskamera",
-    "en": "Lighting Camera"
+    "de": "Assistenz Redakteur*in für visuelle Effekte",
+    "en": "Visual Effects Assistant Editor"
   },
   "notation": [
     "0124102"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Lighting%20Camera"
+      "id": "https://themoviedb.org#Visual%20Effects%20Assistant%20Editor"
     }
   ],
   "inScheme": {

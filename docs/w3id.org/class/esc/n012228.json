@@ -4,22 +4,15 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012228",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012228",
   "prefLabel": {
-    "de": "Leitung Frisuren und Perücken",
-    "en": "Hair Department Head"
+    "de": "Projektleiter*in",
+    "en": "Project Manager"
   },
   "notation": [
     "012228"
   ],
-  "broader": {
-    "id": "https://w3id.org/class/esc/n0122",
-    "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
-    }
-  },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Hair%20Department%20Head"
+      "id": "https://themoviedb.org#Project%20Manager"
     }
   ],
   "inScheme": {

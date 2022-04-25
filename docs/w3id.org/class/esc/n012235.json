@@ -4,16 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012235",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012235",
   "prefLabel": {
-    "de": "Ager/Färber*in",
-    "en": "Ager/Dyer"
+    "de": "Kartograph*in",
+    "en": "Cartographer"
   },
-  "altLabel": {
-    "de": [
-      "Kostümkünstler*in"
-    ],
-    "en": [
-      "costume artist"
-    ]
+  "definition": {
+    "de": "Eine Person, Familie oder Organisation, die für die Erstellung einer Karte, eines Atlasses, eines Globus oder eines anderen kartografischen Werks verantwortlich ist",
+    "en": "A person, family, or organization responsible for creating a map, atlas, globe, or other cartographic work"
   },
   "notation": [
     "012235"
@@ -21,22 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
-  "related": [
-    {
-      "id": "https://w3id.org/class/esc/n0117117",
-      "prefLabel": {
-        "de": "Textilkünstler*in",
-        "en": "Textile Artist"
-      }
-    }
-  ],
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Ager/Dyer"
+      "id": "https://themoviedb.org#Cartographer"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/ctg"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011758",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011758",
   "prefLabel": {
-    "de": "Zusätzliches Storyboarding",
-    "en": "Additional Storyboarding"
+    "de": "Produktionsillustrator*in",
+    "en": "Production Illustrator"
   },
   "notation": [
     "011758"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Additional%20Storyboarding"
+      "id": "https://themoviedb.org#Production%20Illustrator"
     }
   ],
   "inScheme": {

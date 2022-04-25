@@ -4,20 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012029",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012029",
   "prefLabel": {
-    "de": "Produktion, Sonstige",
-    "en": "Other"
-  },
-  "altLabel": {
-    "de": [
-      "Production personnel"
-    ],
-    "en": [
-      "Production personnel"
-    ]
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, die mit der Produktion (Requisiten, Beleuchtung, Spezialeffekte usw.) einer musikalischen oder dramatischen Präsentation oder Unterhaltung zu tun hat",
-    "en": "A person or organization associated with the production (props, lighting, special effects, etc.) of a musical or dramatic presentation or entertainment"
+    "de": "Erste Regieassistenz (Vorbereitung)",
+    "en": "First Assistant Director (Prep)"
   },
   "notation": [
     "012029"
@@ -25,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0120",
     "prefLabel": {
-      "de": "Produktion",
-      "en": "Production"
+      "de": "Regie",
+      "en": "Directing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Other"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/prd"
+      "id": "https://themoviedb.org#First%20Assistant%20Director%20(Prep)"
     }
   ],
   "inScheme": {

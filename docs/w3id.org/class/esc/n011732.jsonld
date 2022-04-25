@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011732",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011732",
   "prefLabel": {
-    "de": "Produktionsillustrator*in",
-    "en": "Production Illustrator"
+    "de": "Zeichner*in",
+    "en": "Draftsman, Draughtsman"
+  },
+  "definition": {
+    "de": "Eine Person, Familie oder Organisation, die zu einer Ressource eines Architekten, Erfinders usw. beiträgt, indem sie detaillierte Pläne oder Zeichnungen für Gebäude, Schiffe, Flugzeuge, Maschinen, Gegenstände usw. anfertigt",
+    "en": "A person, family, or organization contributing to a resource by an architect, inventor, etc., by making detailed plans or drawings for buildings, ships, aircraft, machines, objects, etc"
   },
   "notation": [
     "011732"
@@ -19,7 +23,15 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Production%20Illustrator"
+      "id": "https://themoviedb.org#Draftsman"
+    },
+    {
+      "id": "https://themoviedb.org#Draughtsman"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/drm"
     }
   ],
   "inScheme": {

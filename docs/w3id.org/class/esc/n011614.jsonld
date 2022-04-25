@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011614",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011614",
   "prefLabel": {
-    "de": "Stimme, Sprecher*in",
-    "en": "Voice, Speaker"
+    "de": "Schauspielerisches Double",
+    "en": "Acting Double"
   },
   "notation": [
     "011614"
@@ -19,12 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Voice"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/spk"
+      "id": "https://themoviedb.org#Acting%20Double"
     }
   ],
   "inScheme": {

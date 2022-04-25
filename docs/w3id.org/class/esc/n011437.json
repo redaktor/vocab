@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011437",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011437",
   "prefLabel": {
-    "de": "Co-Ton-Mischer*in für die Neuaufnahme",
-    "en": "Additional Sound Re-Recording Mixer"
+    "de": "Überwachung Sound Edit",
+    "en": "Supervising Sound Effects Editor"
   },
   "notation": [
     "011437"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Additional%20Sound%20Re-Recording%20Mixer"
+      "id": "https://themoviedb.org#Supervising%20Sound%20Effects%20Editor"
     }
   ],
   "inScheme": {

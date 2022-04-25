@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011744",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011744",
   "prefLabel": {
-    "de": "Anstreicher*in",
-    "en": "Painter"
+    "de": "Konzeptuelle Illustrator*in",
+    "en": "Conceptual Illustrator"
   },
   "notation": [
     "011744"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Painter"
+      "id": "https://themoviedb.org#Conceptual%20Illustrator"
     }
   ],
   "inScheme": {

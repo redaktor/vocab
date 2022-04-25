@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012018",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012018",
   "prefLabel": {
-    "de": "Produktionsleiter*in",
-    "en": "Production Manager"
+    "de": "Verlagsleiter*in",
+    "en": "Publishing director"
   },
   "definition": {
-    "de": "Eine Person, die für alle technischen und geschäftlichen Belange einer Produktion verantwortlich ist",
-    "en": "A person responsible for all technical and business matters in a production"
+    "de": "Eine Person oder Organisation, die bei der Ausarbeitung eines kollektiven Werks den Vorsitz führt, um dessen Kohärenz oder Kontinuität zu gewährleisten. Dazu gehören Chefredakteure, Literaturredakteure, Redakteure von Serien usw.",
+    "en": "A person or organization who presides over the elaboration of a collective work to ensure its coherence or continuity. This includes editors-in-chief, literary editors, editors of series, etc."
   },
   "notation": [
     "012018"
@@ -17,18 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0120",
     "prefLabel": {
-      "de": "Produktion",
-      "en": "Production"
+      "de": "Regie",
+      "en": "Directing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Production%20Manager"
+      "id": "https://themoviedb.org#Publishing%20director"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/pmn"
+      "id": "https://id.loc.gov/vocabulary/relators/pbd"
     }
   ],
   "inScheme": {

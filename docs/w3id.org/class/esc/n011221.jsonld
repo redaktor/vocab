@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011221",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011221",
   "prefLabel": {
-    "de": "Storyboard",
-    "en": "Storyboard"
+    "de": "Originalgeschichte",
+    "en": "Original Story"
   },
   "notation": [
     "011221"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Storyboard"
+      "id": "https://themoviedb.org#Original%20Story"
     }
   ],
   "inScheme": {

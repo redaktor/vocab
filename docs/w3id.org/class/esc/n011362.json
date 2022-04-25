@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011362",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011362",
   "prefLabel": {
-    "de": "Techniker*in für digitale Bildverarbeitung",
-    "en": "Digital Imaging Technician"
+    "de": "BTS Footage",
+    "en": "BTS Footage"
   },
   "notation": [
     "011362"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Digital%20Imaging%20Technician"
+      "id": "https://themoviedb.org#BTS%20Footage"
     }
   ],
   "inScheme": {

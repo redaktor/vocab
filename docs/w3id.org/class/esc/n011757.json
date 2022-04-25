@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011757",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011757",
   "prefLabel": {
-    "de": "Co-Set Dresser",
-    "en": "Additional Set Dresser"
+    "de": "Assistenz der Kunstabteilung",
+    "en": "Art Department Assistant"
   },
   "notation": [
     "011757"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Additional%20Set%20Dresser"
+      "id": "https://themoviedb.org#Art%20Department%20Assistant"
     }
   ],
   "inScheme": {

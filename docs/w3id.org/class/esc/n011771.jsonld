@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011771",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011771",
   "prefLabel": {
-    "de": "Konstruktion Grip",
-    "en": "Construction Grip"
+    "de": "Schildermaler*in",
+    "en": "Sign Painter"
   },
   "notation": [
     "011771"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Construction%20Grip"
+      "id": "https://themoviedb.org#Sign%20Painter"
     }
   ],
   "inScheme": {

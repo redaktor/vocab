@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012152",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012152",
   "prefLabel": {
-    "de": "Erste Assistenz des Bildredakteurs",
-    "en": "First Assistant Picture Editor"
+    "de": "Verantwortlich für die Finanzen",
+    "en": "Executive in Charge of Finance"
   },
   "notation": [
     "012152"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#First%20Assistant%20Picture%20Editor"
+      "id": "https://themoviedb.org#Executive%20in%20Charge%20of%20Finance"
     }
   ],
   "inScheme": {

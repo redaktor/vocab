@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011267",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011267",
   "prefLabel": {
-    "de": "Kommentator*in für geschriebenen Text",
-    "en": "Commentator for written text"
+    "de": "Verfasser*in des Vorworts",
+    "en": "Writer of preface"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die für den Kommentar oder die Erläuterungen zu einem Text verantwortlich ist. Für den Verfasser von handschriftlichen Anmerkungen in einem gedruckten Buch, verwenden Sie Annotator",
-    "en": "A person or organization responsible for the commentary or explanatory notes about a text. For the writer of manuscript annotations in a printed book, use Annotator"
+    "de": "Eine Person, Familie oder Organisation, die zu einer Ressource beiträgt, indem sie ein Vorwort zu dem Originalwerk beisteuert",
+    "en": "A person, family, or organization contributing to a resource by providing a preface to the original work"
   },
   "notation": [
     "011267"
@@ -23,12 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Commentator%20for%20written%20text"
+      "id": "https://themoviedb.org#Writer%20of%20preface"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/cwt"
+      "id": "https://id.loc.gov/vocabulary/relators/wpr"
     }
   ],
   "inScheme": {

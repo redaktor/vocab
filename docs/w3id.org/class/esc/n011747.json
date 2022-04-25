@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011747",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011747",
   "prefLabel": {
-    "de": "Zeichner",
-    "en": "Draughtsman"
+    "de": "Digitales Storyboarding",
+    "en": "Digital Storyboarding"
   },
   "notation": [
     "011747"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Draughtsman"
+      "id": "https://themoviedb.org#Digital%20Storyboarding"
     }
   ],
   "inScheme": {

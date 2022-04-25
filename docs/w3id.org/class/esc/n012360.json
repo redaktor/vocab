@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012360",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012360",
   "prefLabel": {
-    "de": "CGI-Regisseur*in",
-    "en": "CGI Director"
+    "de": "Maskenbildner*in für Statisten",
+    "en": "Extras Makeup Artist"
   },
   "notation": [
     "012360"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#CGI%20Director"
+      "id": "https://themoviedb.org#Extras%20Makeup%20Artist"
     }
   ],
   "inScheme": {

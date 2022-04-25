@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012151",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012151",
   "prefLabel": {
-    "de": "EPK Editor",
-    "en": "EPK Editor"
+    "de": "Supervisor für Produktionsressourcen",
+    "en": "Supervisor of Production Resources"
   },
   "notation": [
     "012151"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#EPK%20Editor"
+      "id": "https://themoviedb.org#Supervisor%20of%20Production%20Resources"
     }
   ],
   "inScheme": {

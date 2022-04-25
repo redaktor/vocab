@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011751",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011751",
   "prefLabel": {
-    "de": "Bühnenbildner*in",
-    "en": "Set Dresser"
+    "de": "Assistenz des Art Directors",
+    "en": "Assistant Art Director"
   },
   "notation": [
     "011751"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Set%20Dresser"
+      "id": "https://themoviedb.org#Assistant%20Art%20Director"
     }
   ],
   "inScheme": {

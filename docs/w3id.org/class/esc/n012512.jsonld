@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012512",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012512",
   "prefLabel": {
-    "de": "Schriftsetzer*in",
-    "en": "Letterer"
+    "de": "Choreograph*in",
+    "en": "Choreographer"
+  },
+  "definition": {
+    "de": "Eine Person, die für die Schaffung eines Werks der Bewegung verantwortlich ist oder einen Beitrag dazu leistet",
+    "en": "A person responsible for creating or contributing to a work of movement"
   },
   "notation": [
     "012512"
@@ -13,13 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0125",
     "prefLabel": {
-      "de": "Comic",
-      "en": "Comic"
+      "de": "Crew",
+      "en": "Crew"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Letterer"
+      "id": "https://themoviedb.org#Choreographer"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/chr"
     }
   ],
   "inScheme": {

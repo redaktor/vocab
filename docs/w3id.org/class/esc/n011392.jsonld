@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011392",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011392",
   "prefLabel": {
-    "de": "Videojournalist*in",
-    "en": "Videojournalist"
+    "de": "Zweite Cine Kamera",
+    "en": "Second Unit Cinematographer"
   },
   "notation": [
     "011392"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Videojournalist"
+      "id": "https://themoviedb.org#Second%20Unit%20Cinematographer"
     }
   ],
   "inScheme": {

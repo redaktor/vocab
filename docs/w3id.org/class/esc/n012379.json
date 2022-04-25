@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012379",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012379",
   "prefLabel": {
-    "de": "Zusätzliche visuelle Effekte",
-    "en": "Additional Visual Effects"
+    "de": "Sonstiges Kostüm, Styling",
+    "en": "Other Costume, Styling"
   },
   "notation": [
     "012379"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Additional%20Visual%20Effects"
+      "id": "https://themoviedb.org#Other"
     }
   ],
   "inScheme": {

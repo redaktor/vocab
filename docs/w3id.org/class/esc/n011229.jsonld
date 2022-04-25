@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011229",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011229",
   "prefLabel": {
-    "de": "Fernsehspiel",
-    "en": "Teleplay"
+    "de": "Co-Dialog",
+    "en": "Additional Dialogue"
   },
   "notation": [
     "011229"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Teleplay"
+      "id": "https://themoviedb.org#Additional%20Dialogue"
     }
   ],
   "inScheme": {

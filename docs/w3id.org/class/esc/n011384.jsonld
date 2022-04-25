@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011384",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011384",
   "prefLabel": {
-    "de": "Set-Fotograf*in",
-    "en": "Set Photographer"
+    "de": "Zweite Assistenz Kamera D",
+    "en": "Second Assistant 'D' Camera"
   },
   "notation": [
     "011384"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Set%20Photographer"
+      "id": "https://themoviedb.org#Second%20Assistant%20%22D%22%20Camera"
     }
   ],
   "inScheme": {

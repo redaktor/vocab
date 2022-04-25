@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012140",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012140",
   "prefLabel": {
-    "de": "Dailies-Operator",
-    "en": "Dailies Operator"
+    "de": "Leiter*in der operativen Abteilung",
+    "en": "Director of Operations"
   },
   "notation": [
     "012140"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Dailies%20Operator"
+      "id": "https://themoviedb.org#Director%20of%20Operations"
     }
   ],
   "inScheme": {

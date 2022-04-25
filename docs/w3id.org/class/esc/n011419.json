@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011419",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011419",
   "prefLabel": {
-    "de": "Toneffekte-Editor",
-    "en": "Sound Effects Editor"
+    "de": "Ton-Editor",
+    "en": "Sound Editor"
   },
   "notation": [
     "011419"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Sound%20Effects%20Editor"
+      "id": "https://themoviedb.org#Sound%20Editor"
     }
   ],
   "inScheme": {

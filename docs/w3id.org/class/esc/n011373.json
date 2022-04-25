@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011373",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011373",
   "prefLabel": {
-    "de": "Leiter*in des Layouts",
-    "en": "Head of Layout"
+    "de": "Klappe",
+    "en": "Clapper Loader"
   },
   "notation": [
     "011373"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Head%20of%20Layout"
+      "id": "https://themoviedb.org#Clapper%20Loader"
     }
   ],
   "inScheme": {

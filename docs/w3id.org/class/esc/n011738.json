@@ -4,8 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011738",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011738",
   "prefLabel": {
-    "de": "Natur/Grün-Person",
-    "en": "Greensperson"
+    "de": "Künstler*in des Albums",
+    "en": "Album Artist"
+  },
+  "altLabel": {
+    "de": [
+      "Designer*in des Covers"
+    ],
+    "en": [
+      "Cover Designer"
+    ]
+  },
+  "definition": {
+    "de": "Eine Person oder Organisation, die für die grafische Gestaltung eines Bucheinbands, Albumcovers, Schubers, einer Schachtel, eines Behälters usw. verantwortlich ist. Für eine Person oder Organisation, die für die grafische Gestaltung eines ganzen Buches verantwortlich ist, verwenden Sie Book designer; für Buchumschläge verwenden Sie Bookjacket designer",
+    "en": "A person or organization responsible for the graphic design of a book cover, album cover, slipcase, box, container, etc. For a person or organization responsible for the graphic design of an entire book, use Book designer; for book jackets, use Bookjacket designer"
   },
   "notation": [
     "011738"
@@ -19,7 +31,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Greensman"
+      "id": "https://themoviedb.org#Cover%20designer"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/cov"
     }
   ],
   "inScheme": {

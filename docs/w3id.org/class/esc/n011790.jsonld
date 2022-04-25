@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011790",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011790",
   "prefLabel": {
-    "de": "Computergrafik am Set",
-    "en": "On Set Computer Graphics"
+    "de": "Sonstiges Kunst",
+    "en": "Other Art"
   },
   "notation": [
     "011790"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#On%20Set%20Computer%20Graphics"
+      "id": "https://themoviedb.org#Other"
     }
   ],
   "inScheme": {

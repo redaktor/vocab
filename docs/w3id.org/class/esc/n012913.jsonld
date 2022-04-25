@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012913",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012913",
   "prefLabel": {
-    "de": "Patentinhaber*in",
-    "en": "Patent holder"
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, der ein Patent erteilt wurde, auf das sich der Eintrag bezieht",
-    "en": "A person or organization that was granted the patent referred to by the item"
+    "de": "Buchhalter*in für die Postproduktion",
+    "en": "Post Production Accountant"
   },
   "notation": [
     "012913"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0129",
     "prefLabel": {
-      "de": "Recht / Legal",
-      "en": "Legal"
+      "de": "Buchhaltung",
+      "en": "Accounting"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Patent%20holder"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/pth"
+      "id": "https://themoviedb.org#Post%20Production%20Accountant"
     }
   ],
   "inScheme": {

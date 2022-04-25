@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012477",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012477",
   "prefLabel": {
-    "de": "Zweite Cine Kamera",
-    "en": "Second Unit Cinematographer"
+    "de": "Zusätzliche visuelle Effekte",
+    "en": "Additional Visual Effects"
   },
   "notation": [
     "012477"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Second%20Unit%20Cinematographer"
+      "id": "https://themoviedb.org#Additional%20Visual%20Effects"
     }
   ],
   "inScheme": {

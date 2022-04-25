@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012021",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012021",
   "prefLabel": {
-    "de": "Buchproduzent*in",
-    "en": "Book producer"
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, die für die Produktion von Büchern und anderen Printmedien verantwortlich ist",
-    "en": "A person or organization responsible for the production of books and other print media"
+    "de": "Co-Regie",
+    "en": "Co-Director"
   },
   "notation": [
     "012021"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0120",
     "prefLabel": {
-      "de": "Produktion",
-      "en": "Production"
+      "de": "Regie",
+      "en": "Directing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Book%20producer"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/bkp"
+      "id": "https://themoviedb.org#Co-Director"
     }
   ],
   "inScheme": {

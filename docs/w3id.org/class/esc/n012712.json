@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012712",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012712",
   "prefLabel": {
-    "de": "Leihgeber*in, Einleger*in",
-    "en": "Depositor"
+    "de": "Graveur*in",
+    "en": "Engraver"
   },
   "definition": {
-    "de": "Ein derzeitiger Eigentümer eines Gegenstands, der den Gegenstand in die Obhut einer anderen Person, Familie oder Organisation gegeben hat, aber weiterhin Eigentümer bleibt",
-    "en": "A current owner of an item who deposited the item into the custody of another person, family, or organization, while still retaining ownership"
+    "de": "Eine Person oder Organisation, die Buchstaben, Zahlen usw. in eine Oberfläche, z. B. eine Holz- oder Metallplatte für den Druck, schneidet",
+    "en": "A person or organization who cuts letters, figures, etc. on a surface, such as a wooden or metal plate used for printing"
   },
   "notation": [
     "012712"
@@ -17,13 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0127",
     "prefLabel": {
-      "de": "Vertrieb",
-      "en": "Distribution"
+      "de": "Herstellung",
+      "en": "Manufacturing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Engraver"
+    }
+  ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/dpt"
+      "id": "https://id.loc.gov/vocabulary/relators/egr"
     }
   ],
   "inScheme": {

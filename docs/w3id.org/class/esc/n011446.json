@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011446",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011446",
   "prefLabel": {
-    "de": "Toneffekte",
-    "en": "Sound Effects"
+    "de": "Auszubildende*r Tonmeister*in",
+    "en": "Apprentice Sound Editor"
   },
   "notation": [
     "011446"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Sound%20Effects"
+      "id": "https://themoviedb.org#Apprentice%20Sound%20Editor"
     }
   ],
   "inScheme": {

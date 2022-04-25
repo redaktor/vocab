@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012368",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012368",
   "prefLabel": {
-    "de": "Matchmove-Kontrolle",
-    "en": "Matchmove Supervisor"
+    "de": "Haarschmuck",
+    "en": "Hair Setup"
   },
   "notation": [
     "012368"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Matchmove%20Supervisor"
+      "id": "https://themoviedb.org#Hair%20Setup"
     }
   ],
   "inScheme": {

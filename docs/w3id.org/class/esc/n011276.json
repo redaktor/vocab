@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011276",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011276",
   "prefLabel": {
-    "de": "Widmungsautor*in",
-    "en": "Dedicator"
+    "de": "Autograph*in",
+    "en": "Autographer"
   },
   "definition": {
-    "de": "Eine Person, die eine Widmung schreibt, die eine förmliche Erklärung oder in Briefform oder in Versen abgefasst sein kann",
-    "en": "A person who writes a dedication, which may be a formal statement or in epistolary or verse form"
+    "de": "Eine Person, deren handschriftliche Unterschrift auf einem Gegenstand erscheint",
+    "en": "A person whose manuscript signature appears on an item"
   },
   "notation": [
     "011276"
@@ -21,9 +21,14 @@
       "en": "Writing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Autographer"
+    }
+  ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/dto"
+      "id": "https://id.loc.gov/vocabulary/relators/ato"
     }
   ],
   "inScheme": {

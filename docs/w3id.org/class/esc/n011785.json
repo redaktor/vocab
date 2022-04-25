@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011785",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011785",
   "prefLabel": {
-    "de": "Helfende Hand",
-    "en": "Helping Hand"
+    "de": "Gestalter*in des Einbands",
+    "en": "Binding designer"
+  },
+  "definition": {
+    "de": "Eine Person oder Organisation, die für die Gestaltung des Einbands eines Buches verantwortlich ist, einschließlich der Art des Einbands, der verwendeten Materialien und aller dekorativen Aspekte des Einbands",
+    "en": "A person or organization responsible for the binding design of a book, including the type of binding, the type of materials used, and any decorative aspects of the binding"
   },
   "notation": [
     "011785"
@@ -19,7 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Helping%20Hand"
+      "id": "https://themoviedb.org#Binding%20designer"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/bdd"
     }
   ],
   "inScheme": {

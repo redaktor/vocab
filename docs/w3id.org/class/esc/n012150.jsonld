@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012150",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012150",
   "prefLabel": {
-    "de": "Redaktionelle Beratung",
-    "en": "Editorial Consultant"
+    "de": "Produktionskontrolleur*in",
+    "en": "Production Controller"
   },
   "notation": [
     "012150"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Editorial%20Consultant"
+      "id": "https://themoviedb.org#Production%20Controller"
     }
   ],
   "inScheme": {

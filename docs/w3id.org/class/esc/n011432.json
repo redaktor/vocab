@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011432",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011432",
   "prefLabel": {
-    "de": "Co-Musik Supervisor",
-    "en": "Additional Music Supervisor"
+    "de": "Ton-Post-Supervisor",
+    "en": "Sound Post Supervisor"
   },
   "notation": [
     "011432"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Additional%20Music%20Supervisor"
+      "id": "https://themoviedb.org#Sound%20Post%20Supervisor"
     }
   ],
   "inScheme": {

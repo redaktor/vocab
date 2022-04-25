@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012129",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012129",
   "prefLabel": {
-    "de": "Negativ-Cutter*in",
-    "en": "Negative Cutter"
+    "de": "Mitausführende Produzent*in",
+    "en": "Co-Executive Producer"
   },
   "notation": [
     "012129"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Negative%20Cutter"
+      "id": "https://themoviedb.org#Co-Executive%20Producer"
     }
   ],
   "inScheme": {

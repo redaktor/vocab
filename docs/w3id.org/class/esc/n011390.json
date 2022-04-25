@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011390",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011390",
   "prefLabel": {
-    "de": "Unterwasser Epk Fotograf*in",
-    "en": "Underwater Epk Photographer"
+    "de": "Assistenz der Kameraführung",
+    "en": "Assistant Director of Photography"
   },
   "notation": [
     "011390"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Underwater%20Epk%20Photographer"
+      "id": "https://themoviedb.org#Assistant%20Director%20of%20Photography"
     }
   ],
   "inScheme": {

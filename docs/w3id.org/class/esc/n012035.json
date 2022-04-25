@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012035",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012035",
   "prefLabel": {
-    "de": "Technische Leiter*in für Charaktere, Continuity",
-    "en": "Character Technical Supervisor, Continuity"
+    "de": "Insert Unit First Assistant Director",
+    "en": "Insert Unit First Assistant Director"
   },
   "notation": [
     "012035"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0120",
     "prefLabel": {
-      "de": "Produktion",
-      "en": "Production"
+      "de": "Regie",
+      "en": "Directing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Character%20Technical%20Supervisor"
+      "id": "https://themoviedb.org#Insert%20Unit%20First%20Assistant%20Director"
     }
   ],
   "inScheme": {

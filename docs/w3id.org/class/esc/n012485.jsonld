@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012485",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012485",
   "prefLabel": {
-    "de": "Telecine-Kolorist*in",
-    "en": "Telecine Colorist"
+    "de": "Supervisor für Cyber-Scanning",
+    "en": "Cyber Scanning Supervisor"
   },
   "notation": [
     "012485"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Telecine%20Colorist"
+      "id": "https://themoviedb.org#Cyber%20Scanning%20Supervisor"
     }
   ],
   "inScheme": {

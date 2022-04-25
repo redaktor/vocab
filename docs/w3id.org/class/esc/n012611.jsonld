@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012611",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012611",
   "prefLabel": {
-    "de": "Gestalter*in des Exlibris",
-    "en": "Bookplate designer"
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, die für die Gestaltung eines Etiketts zur Identifizierung des Eigentümers eines Buches verantwortlich ist, das in der Regel auf die Innenseite des vorderen Buchdeckels geklebt wird",
-    "en": "A person or organization responsible for the design of a book owner's identification label that is most commonly pasted to the inside front cover of a book"
+    "de": "Tuscheur*in",
+    "en": "Inker"
   },
   "notation": [
     "012611"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0126",
     "prefLabel": {
-      "de": "Herstellung",
-      "en": "Manufacturing"
+      "de": "Comic",
+      "en": "Comic"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Bookplate%20designer"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/bpd"
+      "id": "https://themoviedb.org#Inker"
     }
   ],
   "inScheme": {

@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011258",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011258",
   "prefLabel": {
-    "de": "Verfasser*in der Einleitung",
-    "en": "Writer of introduction"
-  },
-  "definition": {
-    "de": "Eine Person, Familie oder Organisation, die einen Beitrag zu einer Ressource leistet, indem sie eine Einleitung zum Originalwerk liefert",
-    "en": "A person, family, or organization contributing to a resource by providing an introduction to the original work"
+    "de": "Koordinator*in der Geschichte",
+    "en": "Story Coordinator"
   },
   "notation": [
     "011258"
@@ -23,12 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Writer%20of%20introduction"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/win"
+      "id": "https://themoviedb.org#Story%20Coordinator"
     }
   ],
   "inScheme": {

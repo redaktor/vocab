@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012257",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012257",
   "prefLabel": {
-    "de": "Kontaktlinsenmaler*in",
-    "en": "Contact Lens Painter"
+    "de": "Assistenz Digitale Zwischenbearbeitung",
+    "en": "Digital Intermediate Assistant"
   },
   "notation": [
     "012257"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Contact%20Lens%20Painter"
+      "id": "https://themoviedb.org#Digital%20Intermediate%20Assistant"
     }
   ],
   "inScheme": {

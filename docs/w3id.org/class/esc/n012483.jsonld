@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012483",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012483",
   "prefLabel": {
-    "de": "Noteningenieur*in",
-    "en": "Score Engineer"
+    "de": "Kontrolle für Compositing",
+    "en": "Compositing Supervisor"
   },
   "notation": [
     "012483"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Score%20Engineer"
+      "id": "https://themoviedb.org#Compositing%20Supervisor"
     }
   ],
   "inScheme": {

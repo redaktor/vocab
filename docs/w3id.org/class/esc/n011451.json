@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011451",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011451",
   "prefLabel": {
-    "de": "Aufführung des Titelsongs",
-    "en": "Theme Song Performance"
+    "de": "Überwachender Dialog-Editor",
+    "en": "Supervising Dialogue Editor"
   },
   "notation": [
     "011451"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Theme%20Song%20Performance"
+      "id": "https://themoviedb.org#Supervising%20Dialogue%20Editor"
     }
   ],
   "inScheme": {

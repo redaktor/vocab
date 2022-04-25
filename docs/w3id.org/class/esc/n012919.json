@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012919",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012919",
   "prefLabel": {
-    "de": "Ersteller",
-    "en": "Originator"
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, die das Werk ausführt, d. h. der Name einer Person oder Organisation, die mit dem geistigen Inhalt des Werks verbunden ist. Diese Kategorie umfasst nicht den Herausgeber oder die persönliche Zugehörigkeit oder den Sponsor, es sei denn, es handelt sich auch um den korporativen Urheber",
-    "en": "A person or organization performing the work, i.e., the name of a person or organization associated with the intellectual content of the work. This category does not include the publisher or personal affiliation, or sponsor except where it is also the corporate author"
+    "de": "Hauptbuchhalter*in",
+    "en": "Key Accountant"
   },
   "notation": [
     "012919"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0129",
     "prefLabel": {
-      "de": "Recht / Legal",
-      "en": "Legal"
+      "de": "Buchhaltung",
+      "en": "Accounting"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Originator"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/org"
+      "id": "https://themoviedb.org#Key%20Accountant"
     }
   ],
   "inScheme": {

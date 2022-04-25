@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011761",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011761",
   "prefLabel": {
-    "de": "Praktikant*in für Art Direction",
-    "en": "Art Direction Intern"
+    "de": "Storyboard-Assistent*in",
+    "en": "Storyboard Assistant"
   },
   "notation": [
     "011761"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Art%20Direction%20Intern"
+      "id": "https://themoviedb.org#Storyboard%20Assistant"
     }
   ],
   "inScheme": {

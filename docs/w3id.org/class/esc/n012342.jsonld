@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012342",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012342",
   "prefLabel": {
-    "de": "Künstler*in für Simulation und Effekte",
-    "en": "Simulation & Effects Artist"
+    "de": "Tägliche Garderobe",
+    "en": "Daily Wardrobe"
   },
   "notation": [
     "012342"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Simulation%20&%20Effects%20Artist"
+      "id": "https://themoviedb.org#Daily%20Wardrobe"
     }
   ],
   "inScheme": {

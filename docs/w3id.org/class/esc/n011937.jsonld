@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011937",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011937",
   "prefLabel": {
-    "de": "Zweite Regieassistenz (Praktikant*in)",
-    "en": "Second Assistant Director Trainee"
+    "de": "Assistenz Dekorateur*in",
+    "en": "Assistant Decorator"
   },
   "notation": [
     "011937"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0119",
     "prefLabel": {
-      "de": "Regie",
-      "en": "Directing"
+      "de": "Bühne und Requisite",
+      "en": "Stage and Props"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Second%20Assistant%20Director%20Trainee"
+      "id": "https://themoviedb.org#Assistant%20Decorator"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012254",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012254",
   "prefLabel": {
-    "de": "Assistenz Friseur*in",
-    "en": "Assistant Hairdresser"
+    "de": "Digitaler Kolorist",
+    "en": "Digital Colorist"
   },
   "notation": [
     "012254"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Assistant%20Hairdresser"
+      "id": "https://themoviedb.org#Digital%20Colorist"
     }
   ],
   "inScheme": {

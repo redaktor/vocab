@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011217",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011217",
   "prefLabel": {
-    "de": "Adaption",
-    "en": "Adaptation"
+    "de": "Reportage, Geschichte",
+    "en": "Story, Reportage"
   },
   "notation": [
     "011217"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Adaptation"
+      "id": "https://themoviedb.org#Story"
     }
   ],
   "inScheme": {

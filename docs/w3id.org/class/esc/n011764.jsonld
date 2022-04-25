@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011764",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011764",
   "prefLabel": {
-    "de": "Assistenz Produktionsdesign",
-    "en": "Assistant Production Design"
+    "de": "Original-Seriengestaltung",
+    "en": "Original Series Design"
   },
   "notation": [
     "011764"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Assistant%20Production%20Design"
+      "id": "https://themoviedb.org#Original%20Series%20Design"
     }
   ],
   "inScheme": {

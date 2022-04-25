@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011921",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011921",
   "prefLabel": {
-    "de": "Special Gastregisseur*in",
-    "en": "Special Guest Director"
+    "de": "Requisiten",
+    "en": "Props"
   },
   "notation": [
     "011921"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0119",
     "prefLabel": {
-      "de": "Regie",
-      "en": "Directing"
+      "de": "Bühne und Requisite",
+      "en": "Stage and Props"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Special%20Guest%20Director"
+      "id": "https://themoviedb.org#Props"
     }
   ],
   "inScheme": {

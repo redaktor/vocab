@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011932",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011932",
   "prefLabel": {
-    "de": "Regisseur*in vor Ort",
-    "en": "Field Director"
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, die die Arbeit zur Sammlung von Rohdaten oder zur Durchführung von Forschungsarbeiten in einem konkreten Umfeld leitet oder überwacht (gilt in der Regel für die Natur- und Sozialwissenschaften)",
-    "en": "A person or organization that manages or supervises the work done to collect raw data or do research in an actual setting or environment (typically applies to the natural and social sciences)"
+    "de": "Co Konstruktion",
+    "en": "Additional Construction"
   },
   "notation": [
     "011932"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0119",
     "prefLabel": {
-      "de": "Regie",
-      "en": "Directing"
+      "de": "Bühne und Requisite",
+      "en": "Stage and Props"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Field%20Director"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/fld"
+      "id": "https://themoviedb.org#Additional%20Construction"
     }
   ],
   "inScheme": {

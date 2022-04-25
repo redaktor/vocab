@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012338",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012338",
   "prefLabel": {
-    "de": "E/A-Manager*in",
-    "en": "I/O Manager"
+    "de": "Kostüm Supervisor am Set",
+    "en": "Costume Set Supervisor"
   },
   "notation": [
     "012338"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#I/O%20Manager"
+      "id": "https://themoviedb.org#Costume%20Set%20Supervisor"
     }
   ],
   "inScheme": {

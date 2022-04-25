@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011361",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011361",
   "prefLabel": {
-    "de": "Daten Betreuer",
-    "en": "Data Wrangler"
+    "de": "Kamera-Praktikant*in",
+    "en": "Camera Trainee, Intern"
   },
   "notation": [
     "011361"
@@ -19,7 +19,10 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Data%20Wrangler"
+      "id": "https://themoviedb.org#Camera%20Intern"
+    },
+    {
+      "id": "https://themoviedb.org#Camera%20Trainee"
     }
   ],
   "inScheme": {

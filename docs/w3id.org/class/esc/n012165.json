@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012165",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012165",
   "prefLabel": {
-    "de": "Rezensent*in",
-    "en": "Reviewer"
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, die für die Rezension eines Buches, eines Films, einer Aufführung usw. verantwortlich ist",
-    "en": "A person or organization responsible for the review of a book, motion picture, performance, etc."
+    "de": "Casting-Produzent*in",
+    "en": "Casting Producer"
   },
   "notation": [
     "012165"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Reviewer"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/rev"
+      "id": "https://themoviedb.org#Casting%20Producer"
     }
   ],
   "inScheme": {

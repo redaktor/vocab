@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011826",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011826",
   "prefLabel": {
-    "de": "Chefbeleuchter*in",
-    "en": "Chief Lighting Technician"
+    "de": "Beleuchtung Vorarbeiter*in",
+    "en": "Best Boy Electrician"
   },
   "notation": [
     "011826"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Chief%20Lighting%20Technician"
+      "id": "https://themoviedb.org#Best%20Boy%20Electrician"
     }
   ],
   "inScheme": {

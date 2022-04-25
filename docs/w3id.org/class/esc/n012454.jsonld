@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012454",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012454",
   "prefLabel": {
-    "de": "Kabelhilfe",
-    "en": "Cableman"
+    "de": "3D-Koordination",
+    "en": "3D Coordinator"
   },
   "notation": [
     "012454"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Cableman"
+      "id": "https://themoviedb.org#3D%20Coordinator"
     }
   ],
   "inScheme": {

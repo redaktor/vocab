@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012125",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012125",
   "prefLabel": {
-    "de": "Sonstiges",
-    "en": "Other"
+    "de": "Leiter*in der Produktion",
+    "en": "Head of Production"
   },
   "notation": [
     "012125"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Other"
+      "id": "https://themoviedb.org#Head%20of%20Production"
     }
   ],
   "inScheme": {

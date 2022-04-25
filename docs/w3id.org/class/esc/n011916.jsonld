@@ -3,23 +3,19 @@
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011916",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011916",
-  "prefLabel": {
-    "de": "Regieassistent*in",
-    "en": "Assistant Director"
-  },
   "notation": [
     "011916"
   ],
   "broader": {
     "id": "https://w3id.org/class/esc/n0119",
     "prefLabel": {
-      "de": "Regie",
-      "en": "Directing"
+      "de": "Bühne und Requisite",
+      "en": "Stage and Props"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Assistant%20Director"
+      "id": "https://themoviedb.org#Location%20Scout"
     }
   ],
   "inScheme": {

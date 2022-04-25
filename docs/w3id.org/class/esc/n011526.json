@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011526",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011526",
   "prefLabel": {
-    "de": "Musikproduzent*in",
-    "en": "Music Producer"
+    "de": "Orchestrator*in",
+    "en": "Orchestrator"
   },
   "notation": [
     "011526"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Music%20Producer"
+      "id": "https://themoviedb.org#Orchestrator"
     }
   ],
   "inScheme": {

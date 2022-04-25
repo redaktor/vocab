@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012377",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012377",
   "prefLabel": {
-    "de": "Technische*r Direktor*in für visuelle Effekte",
-    "en": "Visual Effects Technical Director"
+    "de": "Prothetik-Lackierer*in",
+    "en": "Prosthetics Painter"
   },
   "notation": [
     "012377"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Visual%20Effects%20Technical%20Director"
+      "id": "https://themoviedb.org#Prosthetics%20Painter"
     }
   ],
   "inScheme": {

@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012015",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012015",
   "prefLabel": {
-    "de": "Publizist",
-    "en": "Publicist"
+    "de": "Filmregisseur*in",
+    "en": "Film director"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die für die Veröffentlichung, Freigabe oder Herausgabe einer Ressource verantwortlich ist",
-    "en": "A person or organization responsible for publishing, releasing, or issuing a resource"
+    "de": "Ein Regisseur, der für die allgemeine Leitung und Beaufsichtigung einer gefilmten Aufführung verantwortlich ist",
+    "en": "A director responsible for the general management and supervision of a filmed performance"
   },
   "notation": [
     "012015"
@@ -17,18 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0120",
     "prefLabel": {
-      "de": "Produktion",
-      "en": "Production"
+      "de": "Regie",
+      "en": "Directing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Publicist"
+      "id": "https://themoviedb.org#Film%20director"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/pbl"
+      "id": "https://id.loc.gov/vocabulary/relators/fmd"
     }
   ],
   "inScheme": {

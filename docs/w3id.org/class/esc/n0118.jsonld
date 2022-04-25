@@ -29,113 +29,113 @@
     {
       "id": "https://w3id.org/class/esc/n011812",
       "prefLabel": {
-        "de": "Elektriker Vorarbeiter*in",
-        "en": "Best Boy Electric"
+        "de": "Lichtdesign",
+        "en": "Lighting Design"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n011813",
-      "prefLabel": {
-        "de": "Gaffer",
-        "en": "Gaffer"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011814",
-      "prefLabel": {
-        "de": "Rigging Gaffer",
-        "en": "Rigging Gaffer"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011815",
-      "prefLabel": {
-        "de": "Beleuchtungsaufsicht",
-        "en": "Lighting Supervisor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011816",
-      "prefLabel": {
-        "de": "Beleuchtungsmanager*in",
-        "en": "Lighting Manager"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011817",
       "prefLabel": {
         "de": "Regieführende Beleuchtungskünstler*in",
         "en": "Directing Lighting Artist"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n011818",
+      "id": "https://w3id.org/class/esc/n011814",
       "prefLabel": {
         "de": "Master Lighting Artist",
         "en": "Master Lighting Artist"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n011819",
-      "prefLabel": {
-        "de": "Beleuchtungskünstler*in",
-        "en": "Lighting Artist"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011820",
-      "prefLabel": {
-        "de": "Beleuchtungskoordinator*in",
-        "en": "Lighting Coordinator"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011821",
-      "prefLabel": {
-        "de": "Produktions-Assistenz für Beleuchtung",
-        "en": "Lighting Production Assistant"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011822",
-      "prefLabel": {
-        "de": "Beleuchtung Vorarbeiter*in",
-        "en": "Best Boy Electrician"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011823",
-      "prefLabel": {
-        "de": "Elektriker*in",
-        "en": "Electrician"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011824",
-      "prefLabel": {
-        "de": "Takelage Grip",
-        "en": "Rigging Grip"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011825",
-      "prefLabel": {
-        "de": "Sonstiges",
-        "en": "Other"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011826",
+      "id": "https://w3id.org/class/esc/n011815",
       "prefLabel": {
         "de": "Chefbeleuchter*in",
         "en": "Chief Lighting Technician"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n011827",
+      "id": "https://w3id.org/class/esc/n011816",
       "prefLabel": {
         "de": "Beleuchtungsdirektor*in",
         "en": "Lighting Director"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011817",
+      "prefLabel": {
+        "de": "Elektriker Vorarbeiter*in",
+        "en": "Best Boy Electric"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011818",
+      "prefLabel": {
+        "de": "Gaffer",
+        "en": "Gaffer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011819",
+      "prefLabel": {
+        "de": "Rigging Gaffer",
+        "en": "Rigging Gaffer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011820",
+      "prefLabel": {
+        "de": "Beleuchtungsaufsicht",
+        "en": "Lighting Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011821",
+      "prefLabel": {
+        "de": "Beleuchtungsmanager*in",
+        "en": "Lighting Manager"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011822",
+      "prefLabel": {
+        "de": "Illuminator",
+        "en": "Illuminator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011823",
+      "prefLabel": {
+        "de": "Beleuchtungskoordinator*in",
+        "en": "Lighting Coordinator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011824",
+      "prefLabel": {
+        "de": "Produktions-Assistenz für Beleuchtung",
+        "en": "Lighting Production Assistant"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011825",
+      "prefLabel": {
+        "de": "O.B. Beleuchtung",
+        "en": "O.B. Lighting"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011826",
+      "prefLabel": {
+        "de": "Beleuchtung Vorarbeiter*in",
+        "en": "Best Boy Electrician"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011827",
+      "prefLabel": {
+        "de": "Elektriker*in",
+        "en": "Electrician"
       }
     },
     {
@@ -218,29 +218,22 @@
     {
       "id": "https://w3id.org/class/esc/n011839",
       "prefLabel": {
-        "de": "Lichtdesign",
-        "en": "Lighting Design"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011840",
-      "prefLabel": {
         "de": "Beleuchtungsprogrammierer*in",
         "en": "Lighting Programmer"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n011841",
-      "prefLabel": {
-        "de": "O.B. Beleuchtung",
-        "en": "O.B. Lighting"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011842",
+      "id": "https://w3id.org/class/esc/n011840",
       "prefLabel": {
         "de": "Standby Rigger",
         "en": "Standby Rigger"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011841",
+      "prefLabel": {
+        "de": "Sonstiges Licht",
+        "en": "Other Light"
       }
     }
   ],

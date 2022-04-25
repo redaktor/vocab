@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011377",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011377",
   "prefLabel": {
-    "de": "Red Techniker*in",
-    "en": "Red Technician"
+    "de": "Erste Assistenz Kamera A",
+    "en": "First Assistant 'A' Camera"
   },
   "notation": [
     "011377"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Red%20Technician"
+      "id": "https://themoviedb.org#First%20Assistant%20%22A%22%20Camera"
     }
   ],
   "inScheme": {

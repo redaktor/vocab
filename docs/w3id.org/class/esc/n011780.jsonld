@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011780",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011780",
   "prefLabel": {
-    "de": "Grafikdesigner*in",
-    "en": "Graphic Designer"
+    "de": "Typograf*in",
+    "en": "Typographer"
+  },
+  "definition": {
+    "de": "Eine Person oder Organisation, die in erster Linie für die Auswahl und Anordnung der in einem Artikel verwendeten Schrift verantwortlich ist. Wenn der Typograf auch für andere Aspekte der grafischen Gestaltung eines Buches verantwortlich ist (z. B. Buchgestalter [bkd]), können Codes für beide Funktionen erforderlich sein",
+    "en": "A person or organization primarily responsible for choice and arrangement of type used in an item. If the typographer is also responsible for other aspects of the graphic design of a book (e.g., Book designer [bkd]), codes for both functions may be needed"
   },
   "notation": [
     "011780"
@@ -19,7 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Graphic%20Designer"
+      "id": "https://themoviedb.org#Typographer"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/tyg"
     }
   ],
   "inScheme": {

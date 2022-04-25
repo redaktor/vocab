@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011455",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011455",
   "prefLabel": {
-    "de": "ADR-Ingenieur*in",
-    "en": "ADR Engineer"
+    "de": "ADR-Editor",
+    "en": "ADR Editor"
   },
   "notation": [
     "011455"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#ADR%20Engineer"
+      "id": "https://themoviedb.org#ADR%20Editor"
     }
   ],
   "inScheme": {

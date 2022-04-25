@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011531",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011531",
   "prefLabel": {
-    "de": "Playback-Sänger*in",
-    "en": "Playback Singer"
+    "de": "Musikberater*in",
+    "en": "Music Consultant"
   },
   "notation": [
     "011531"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Playback%20Singer"
+      "id": "https://themoviedb.org#Music%20Consultant"
     }
   ],
   "inScheme": {

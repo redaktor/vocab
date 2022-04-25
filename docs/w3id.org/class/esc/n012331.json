@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012331",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012331",
   "prefLabel": {
-    "de": "VFX-Künstler*in",
-    "en": "VFX Artist"
+    "de": "Garderobenkoordinator",
+    "en": "Wardrobe Coordinator"
   },
   "notation": [
     "012331"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#VFX%20Artist"
+      "id": "https://themoviedb.org#Wardrobe%20Coordinator"
     }
   ],
   "inScheme": {

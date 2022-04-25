@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011475",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011475",
   "prefLabel": {
-    "de": "Tonmischer*in am Drehort",
-    "en": "Location Sound Mixer"
+    "de": "O.B. Ton",
+    "en": "O.B. Sound"
   },
   "notation": [
     "011475"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Location%20Sound%20Mixer"
+      "id": "https://themoviedb.org#O.B.%20Sound"
     }
   ],
   "inScheme": {

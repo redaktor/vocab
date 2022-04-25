@@ -4,12 +4,17 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0028",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0028",
   "prefLabel": {
-    "de": "Herausgeber*in",
-    "en": "Issuing body"
+    "de": "Normungsgremium",
+    "en": "Standards body"
+  },
+  "altLabel": {
+    "de": [
+      "Standards-Institution"
+    ]
   },
   "definition": {
-    "de": "Eine Person, Familie oder Organisation, die ein Werk herausgibt, wie z. B. ein offizielles Organ der Einrichtung",
-    "en": "A person, family or organization issuing a work, such as an official organ of the body"
+    "de": "Eine Organisation, die für die Entwicklung oder Durchsetzung einer Norm / eines Standards verantwortlich ist",
+    "en": "An organization responsible for the development or enforcement of a standard"
   },
   "notation": [
     "0028"
@@ -23,7 +28,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/isb"
+      "id": "https://id.loc.gov/vocabulary/relators/stn"
     }
   ],
   "inScheme": {

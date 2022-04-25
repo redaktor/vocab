@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011530",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011530",
   "prefLabel": {
-    "de": "Produzent*in von Musiknoten",
-    "en": "Music Score Producer"
+    "de": "Musik-Ko-Betreuer*in",
+    "en": "Music Co-Supervisor"
   },
   "notation": [
     "011530"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Music%20Score%20Producer"
+      "id": "https://themoviedb.org#Music%20Co-Supervisor"
     }
   ],
   "inScheme": {

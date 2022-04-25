@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011323",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011323",
   "prefLabel": {
-    "de": "Zusätzliche Fotografie",
-    "en": "Additional Photography"
+    "de": "Hubschrauber-Kamera",
+    "en": "Helicopter Camera"
   },
   "notation": [
     "011323"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Additional%20Photography"
+      "id": "https://themoviedb.org#Helicopter%20Camera"
     }
   ],
   "inScheme": {

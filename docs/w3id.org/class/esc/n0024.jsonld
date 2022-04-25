@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0024",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0024",
   "prefLabel": {
-    "de": "Host Institution",
-    "en": "Host institution"
+    "de": "Kurator",
+    "en": "Curator"
   },
   "definition": {
-    "de": "Eine Organisation, die die Veranstaltung, Ausstellung, Konferenz usw. ausrichtet, die zu einer Ressource geführt hat, aber wenig oder keine Verantwortung für den Inhalt der Ressource hat",
-    "en": "An organization hosting the event, exhibit, conference, etc., which gave rise to a resource, but having little or no responsibility for the content of the resource"
+    "de": "Eine Person, Familie oder Organisation, die eine Ausstellung, Sammlung oder ein anderes Objekt konzipiert, zusammenstellt und/oder organisiert",
+    "en": "A person, family, or organization conceiving, aggregating, and/or organizing an exhibition, collection, or other item"
   },
   "notation": [
     "0024"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/his"
+      "id": "https://id.loc.gov/vocabulary/relators/cur"
     }
   ],
   "inScheme": {

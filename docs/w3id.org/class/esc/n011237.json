@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011237",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011237",
   "prefLabel": {
-    "de": "Drehbuch-Berater*in",
-    "en": "Script Consultant"
+    "de": "Schreiber*in",
+    "en": "Writer"
   },
   "notation": [
     "011237"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Script%20Consultant"
+      "id": "https://themoviedb.org#Writer"
     }
   ],
   "inScheme": {

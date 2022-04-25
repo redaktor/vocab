@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011421",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011421",
   "prefLabel": {
-    "de": "Zusätzliche Tonspur",
-    "en": "Additional Soundtrack"
+    "de": "Tonmeister*in",
+    "en": "Sound Supervisor"
   },
   "notation": [
     "011421"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Additional%20Soundtrack"
+      "id": "https://themoviedb.org#Sound%20Supervisor"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011730",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011730",
   "prefLabel": {
-    "de": "Co-Kunstdirektor*in",
-    "en": "Co-Art Director"
+    "de": "Matte Painter",
+    "en": "Matte Painter"
   },
   "notation": [
     "011730"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Co-Art%20Director"
+      "id": "https://themoviedb.org#Matte%20Painter"
     }
   ],
   "inScheme": {

@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012511",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012511",
   "prefLabel": {
-    "de": "Tuscheur*in",
-    "en": "Inker"
+    "de": "Programmierer*in",
+    "en": "Programmer"
+  },
+  "definition": {
+    "de": "Eine Person, Familie oder Organisation, die für die Erstellung eines Computerprogramms verantwortlich ist",
+    "en": "A person, family, or organization responsible for creating a computer program"
   },
   "notation": [
     "012511"
@@ -13,13 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0125",
     "prefLabel": {
-      "de": "Comic",
-      "en": "Comic"
+      "de": "Crew",
+      "en": "Crew"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Inker"
+      "id": "https://themoviedb.org#Programmer"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/prg"
     }
   ],
   "inScheme": {

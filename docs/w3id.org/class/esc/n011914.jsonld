@@ -4,31 +4,15 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011914",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011914",
   "prefLabel": {
-    "de": "Radioregisseur*in",
-    "en": "Radio director"
-  },
-  "definition": {
-    "de": "Ein Regisseur, der für die allgemeine Leitung und Beaufsichtigung eines Radioprogramms verantwortlich ist",
-    "en": "A director responsible for the general management and supervision of a radio program"
+    "de": "Objektdesigner*in Requisite",
+    "en": "Prop Designer"
   },
   "notation": [
     "011914"
   ],
-  "broader": {
-    "id": "https://w3id.org/class/esc/n0119",
-    "prefLabel": {
-      "de": "Regie",
-      "en": "Directing"
-    }
-  },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Radio%20director"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/rdd"
+      "id": "https://themoviedb.org#Prop%20Designer"
     }
   ],
   "inScheme": {

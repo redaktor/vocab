@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011521",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011521",
   "prefLabel": {
-    "de": "Musiküberwachung",
-    "en": "Music Supervisor"
+    "de": "Lieder",
+    "en": "Songs"
   },
   "notation": [
     "011521"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Music%20Supervisor"
+      "id": "https://themoviedb.org#Songs"
     }
   ],
   "inScheme": {

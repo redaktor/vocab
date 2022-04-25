@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011240",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011240",
   "prefLabel": {
-    "de": "Grafische Novelle",
-    "en": "Graphic Novel"
+    "de": "Roman",
+    "en": "Novel"
   },
   "notation": [
     "011240"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Graphic%20Novel"
+      "id": "https://themoviedb.org#Novel"
     }
   ],
   "inScheme": {

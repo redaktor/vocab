@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011226",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011226",
   "prefLabel": {
-    "de": "Idee",
-    "en": "Idea"
+    "de": "Assistenz Drehbuch",
+    "en": "Assistant Script"
   },
   "notation": [
     "011226"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Idea"
+      "id": "https://themoviedb.org#Assistant%20Script"
     }
   ],
   "inScheme": {

@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011727",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011727",
   "prefLabel": {
-    "de": "Bildhauer*in",
-    "en": "Sculptor"
-  },
-  "definition": {
-    "de": "Ein Künstler, der ein dreidimensionales Werk durch Modellieren, Schnitzen oder eine ähnliche Technik schafft",
-    "en": "An artist responsible for creating a three-dimensional work by modeling, carving, or similar technique"
+    "de": "Kreaturendesign",
+    "en": "Creature Design"
   },
   "notation": [
     "011727"
@@ -23,12 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Sculptor"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/scl"
+      "id": "https://themoviedb.org#Creature%20Design"
     }
   ],
   "inScheme": {

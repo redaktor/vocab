@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011244",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011244",
   "prefLabel": {
-    "de": "Original-Filmautor*in",
-    "en": "Original Film Writer"
+    "de": "Oper",
+    "en": "Opera"
   },
   "notation": [
     "011244"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Original%20Film%20Writer"
+      "id": "https://themoviedb.org#Opera"
     }
   ],
   "inScheme": {

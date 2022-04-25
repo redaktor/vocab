@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011748",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011748",
   "prefLabel": {
-    "de": "Leitende Bühnenbildner*in",
-    "en": "Lead Set Dresser"
+    "de": "Überwachende Art Director*in",
+    "en": "Supervising Art Director"
   },
   "notation": [
     "011748"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Lead%20Set%20Dresser"
+      "id": "https://themoviedb.org#Supervising%20Art%20Director"
     }
   ],
   "inScheme": {

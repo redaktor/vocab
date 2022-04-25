@@ -4,22 +4,15 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011412",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011412",
   "prefLabel": {
-    "de": "Tontechniker*in",
-    "en": "Sound Engineer"
+    "de": "Ton am Drehort",
+    "en": "Location Sound Recordist"
   },
   "notation": [
     "011412"
   ],
-  "broader": {
-    "id": "https://w3id.org/class/esc/n0114",
-    "prefLabel": {
-      "de": "Sound",
-      "en": "Sound"
-    }
-  },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Sound%20Engineer"
+      "id": "https://themoviedb.org#Location%20Sound%20Recordist"
     }
   ],
   "inScheme": {

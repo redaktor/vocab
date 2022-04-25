@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011934",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011934",
   "prefLabel": {
-    "de": "Erstez Regieassistenz (Praktikant*in)",
-    "en": "First Assistant Director Trainee"
+    "de": "Co Key Construction Grip",
+    "en": "Additional Key Construction Grip"
   },
   "notation": [
     "011934"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0119",
     "prefLabel": {
-      "de": "Regie",
-      "en": "Directing"
+      "de": "Bühne und Requisite",
+      "en": "Stage and Props"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#First%20Assistant%20Director%20Trainee"
+      "id": "https://themoviedb.org#Additional%20Key%20Construction%20Grip"
     }
   ],
   "inScheme": {

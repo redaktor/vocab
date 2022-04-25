@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011913",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011913",
   "prefLabel": {
-    "de": "Fernsehregisseur*in",
-    "en": "Television director"
+    "de": "Bühnenbildner*in",
+    "en": "Set Designer"
   },
   "definition": {
-    "de": "Ein Regisseur, der für die allgemeine Leitung und Beaufsichtigung einer Fernsehsendung verantwortlich ist",
-    "en": "A director responsible for the general management and supervision of a television program"
+    "de": "Eine Person, die die groben Skizzen des künstlerischen Leiters in tatsächliche architektonische Strukturen für eine Theatervorstellung, ein Unterhaltungsprogramm, einen Kinofilm usw. umsetzt. Bühnenbildner zeichnen die detaillierten Anleitungen und Spezifikationen für den Bau des Bühnenbilds",
+    "en": "A person who translates the rough sketches of the art director into actual architectural structures for a theatrical presentation, entertainment, motion picture, etc. Set designers draw the detailed guides and specifications for building the set"
   },
   "notation": [
     "011913"
@@ -17,18 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0119",
     "prefLabel": {
-      "de": "Regie",
-      "en": "Directing"
+      "de": "Bühne und Requisite",
+      "en": "Stage and Props"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Television%20director"
+      "id": "https://themoviedb.org#Set%20Designer"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/tld"
+      "id": "https://id.loc.gov/vocabulary/relators/std"
     }
   ],
   "inScheme": {

@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011784",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011784",
   "prefLabel": {
-    "de": "Leiter*in Grünflächen und Natur",
-    "en": "Head Greensman"
+    "de": "Gestalter*in des Buchumschlags",
+    "en": "Bookjacket designer"
+  },
+  "definition": {
+    "de": "Eine Person oder Organisation, die für die Gestaltung flexibler Einbände verantwortlich ist, die für ein Buch entworfen oder mit diesem veröffentlicht werden, einschließlich der Art der verwendeten Materialien und aller dekorativen Aspekte des Buchumschlags",
+    "en": "A person or organization responsible for the design of flexible covers designed for or published with a book, including the type of materials used, and any decorative aspects of the bookjacket"
   },
   "notation": [
     "011784"
@@ -19,7 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Head%20Greensman"
+      "id": "https://themoviedb.org#Bookjacket%20designer"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/bjd"
     }
   ],
   "inScheme": {

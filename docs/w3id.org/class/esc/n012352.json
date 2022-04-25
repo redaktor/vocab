@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012352",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012352",
   "prefLabel": {
-    "de": "3D-Animator*in",
-    "en": "3D Animator"
+    "de": "Designer*in für Schminkeffekte",
+    "en": "Makeup Effects Designer"
   },
   "notation": [
     "012352"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#3D%20Animator"
+      "id": "https://themoviedb.org#Makeup%20Effects%20Designer"
     }
   ],
   "inScheme": {

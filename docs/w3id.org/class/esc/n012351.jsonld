@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012351",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012351",
   "prefLabel": {
-    "de": "2D-Kontorlle",
-    "en": "2D Supervisor"
+    "de": "Make-up-Designer*in",
+    "en": "Makeup Designer"
   },
   "notation": [
     "012351"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#2D%20Supervisor"
+      "id": "https://themoviedb.org#Makeup%20Designer"
     }
   ],
   "inScheme": {

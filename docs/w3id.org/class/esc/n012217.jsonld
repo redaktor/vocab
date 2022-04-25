@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012217",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012217",
   "prefLabel": {
-    "de": "Manager*in für Bühnenbild",
-    "en": "Set Dressing Manager"
+    "de": "Redakteur*in der Zusammenstellung",
+    "en": "Editor of compilation"
+  },
+  "definition": {
+    "de": "Eine Person, Familie oder Organisation, die zu einem kollektiven oder aggregierten Werk beiträgt, indem sie Werke oder Teile von Werken von einem oder mehreren Urhebern auswählt und zusammenstellt. Für Zusammenstellungen von Daten, Informationen usw., die zu neuen Werken führen, siehe Compiler",
+    "en": "A person, family, or organization contributing to a collective or aggregate work by selecting and putting together works, or parts of works, by one or more creators. For compilations of data, information, etc., that result in new works, see compiler"
   },
   "notation": [
     "012217"
@@ -13,13 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Set%20Dressing%20Manager"
+      "id": "https://themoviedb.org#Editor%20of%20compilation"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/edc"
     }
   ],
   "inScheme": {

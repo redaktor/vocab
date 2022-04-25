@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011773",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011773",
   "prefLabel": {
-    "de": "Kreativ-Direktor*in",
-    "en": "Creative Director"
+    "de": "Aushilfsmaler*in",
+    "en": "Standby Painter"
   },
   "notation": [
     "011773"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Creative%20Director"
+      "id": "https://themoviedb.org#Standby%20Painter"
     }
   ],
   "inScheme": {

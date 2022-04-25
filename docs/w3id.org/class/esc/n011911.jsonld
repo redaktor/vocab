@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011911",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011911",
   "prefLabel": {
-    "de": "Regisseur*in",
-    "en": "Director"
-  },
-  "definition": {
-    "de": "Eine Person, die für die allgemeine Leitung und Überwachung einer gefilmten Aufführung, eines Radio- oder Fernsehprogramms usw. verantwortlich ist.",
-    "en": "A person responsible for the general management and supervision of a filmed performance, a radio or television program, etc."
+    "de": "Hauptrequisiten am Set",
+    "en": "On Set Key Props"
   },
   "notation": [
     "011911"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0119",
     "prefLabel": {
-      "de": "Regie",
-      "en": "Directing"
+      "de": "Bühne und Requisite",
+      "en": "Stage and Props"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Director"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/drt"
+      "id": "https://themoviedb.org#On%20Set%20Key%20Props"
     }
   ],
   "inScheme": {

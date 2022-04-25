@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-components-concept-js",
+    "path": "/w3id.org/class/esc/n012514.en.html",
+    "result": {"pageContext":{"language":"en","languages":["de","en"],"node":{"id":"https://w3id.org/class/esc/n012514","type":"Concept","followers":"https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012514","inbox":"https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012514","prefLabel":{"de":"Direktor*in für Kommunikation","en":"Director of Communications"},"altLabel":null,"definition":null,"scopeNote":null,"note":null,"notation":["012514"],"example":null,"narrower":[],"narrowerTransitive":[],"broader":{"id":"https://w3id.org/class/esc/n0125","prefLabel":{"de":"Crew","en":"Crew"}},"broaderTransitive":null,"related":[],"relatedMatch":null,"broadMatch":null,"narrowMatch":null,"closeMatch":[{"id":"https://themoviedb.org#Director%20of%20Communications"}],"exactMatch":null,"inScheme":{"id":"https://w3id.org/class/esc/scheme","title":{"de":"ActivityPub: Rollen und Verbindungen","en":"ActivityPub: Roles and Relations"}},"topConceptOf":null},"baseURL":""}},
+    "staticQueryHashes": ["3649515864","63159454"]}

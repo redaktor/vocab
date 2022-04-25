@@ -4,20 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012313",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012313",
   "prefLabel": {
-    "de": "Cheftechniker*in / Stop-Motion-Experte",
-    "en": "Chief Technician / Stop-Motion Expert"
-  },
-  "altLabel": {
-    "de": [
-      "Technical director"
-    ],
-    "en": [
-      "Technical director"
-    ]
-  },
-  "definition": {
-    "de": "Eine Person, die letztlich für Bühnenbild, Requisiten, Beleuchtung und Ton bei einer Produktion verantwortlich ist",
-    "en": "A person who is ultimately in charge of scenery, props, lights and sound for a production"
+    "de": "Hauptkostümbildner*in am Set",
+    "en": "Key Set Costumer"
   },
   "notation": [
     "012313"
@@ -25,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Chief%20Technician%20/%20Stop-Motion%20Expert"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/tcd"
+      "id": "https://themoviedb.org#Key%20Set%20Costumer"
     }
   ],
   "inScheme": {

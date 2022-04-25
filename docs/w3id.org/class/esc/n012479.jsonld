@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012479",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012479",
   "prefLabel": {
-    "de": "Betriebsleiter*in",
-    "en": "Manager of Operations"
+    "de": "Technische*r Leiter*in der Animation",
+    "en": "Animation Technical Director"
   },
   "notation": [
     "012479"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Manager%20of%20Operations"
+      "id": "https://themoviedb.org#Animation%20Technical%20Director"
     }
   ],
   "inScheme": {

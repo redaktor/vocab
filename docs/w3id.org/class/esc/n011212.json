@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011212",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011212",
   "prefLabel": {
-    "de": "Textdichter*in",
-    "en": "Lyricist"
-  },
-  "definition": {
-    "de": "Ein Urheber des Textes eines nicht-dramatischen Musikwerks (z. B. des Textes eines Liedes), außer bei Oratorien",
-    "en": "An author of the words of a non-dramatic musical work (e.g. the text of a song), except for oratorios"
+    "de": "Ausführende*r Redakteur*in",
+    "en": "Executive Story Editor"
   },
   "notation": [
     "011212"
@@ -23,12 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Lyricist"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/lyr"
+      "id": "https://themoviedb.org#Executive%20Story%20Editor"
     }
   ],
   "inScheme": {

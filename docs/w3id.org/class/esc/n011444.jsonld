@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011444",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011444",
   "prefLabel": {
-    "de": "Dirigent*in",
-    "en": "Conductor"
-  },
-  "definition": {
-    "de": "Ein Künstler, der zu einer musikalischen Ressource beiträgt, indem er eine Gruppe (Orchester, Chor, Oper usw.) bei einer musikalischen oder dramatischen Darbietung leitet usw.",
-    "en": "A performer contributing to a musical resource by leading a performing group (orchestra, chorus, opera, etc.) in a musical or dramatic presentation, etc."
+    "de": "Dolby-Berater*in",
+    "en": "Dolby Consultant"
   },
   "notation": [
     "011444"
@@ -23,12 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Conductor"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/cnd"
+      "id": "https://themoviedb.org#Dolby%20Consultant"
     }
   ],
   "inScheme": {

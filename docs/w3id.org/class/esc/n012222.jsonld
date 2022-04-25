@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012222",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012222",
   "prefLabel": {
-    "de": "Kostümbildner*in Set",
-    "en": "Set Costumer"
+    "de": "Co-Editor",
+    "en": "Co-Editor"
   },
   "notation": [
     "012222"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Set%20Costumer"
+      "id": "https://themoviedb.org#Co-Editor"
     }
   ],
   "inScheme": {

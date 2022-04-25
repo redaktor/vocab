@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012718",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012718",
   "prefLabel": {
-    "de": "Grantee, Monitor",
-    "en": "Grantee, Monitor"
+    "de": "Buchbinder*in",
+    "en": "Binder"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die die Einhaltung des Vertrags überwacht und für den Bericht verantwortlich ist und seine Verteilung kontrolliert. Wird manchmal auch als Kontrollstelle bezeichnet.",
-    "en": "A person or organization that supervises compliance with the contract and is responsible for the report and controls its distribution. Sometimes referred to as controlling agency"
+    "de": "Eine Person, die einen Gegenstand bindet",
+    "en": "A person who binds an item"
   },
   "notation": [
     "012718"
@@ -17,13 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0127",
     "prefLabel": {
-      "de": "Vertrieb",
-      "en": "Distribution"
+      "de": "Herstellung",
+      "en": "Manufacturing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Binder"
+    }
+  ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/mon"
+      "id": "https://id.loc.gov/vocabulary/relators/bnd"
     }
   ],
   "inScheme": {

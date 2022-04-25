@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012925",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012925",
   "prefLabel": {
-    "de": "Verfügungsbeklagter",
-    "en": "Libelee-appellee"
-  },
-  "definition": {
-    "de": "Ein Beklagter, gegen den von einem Kirchen- oder Seegericht ein Rechtsmittel bei einem anderen Gericht eingelegt wird, um das Urteil aufzuheben",
-    "en": "A libelee against whom an appeal is taken from one ecclesiastical court or admiralty to another to reverse the judgment"
+    "de": "Controller",
+    "en": "Controller"
   },
   "notation": [
     "012925"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0129",
     "prefLabel": {
-      "de": "Recht / Legal",
-      "en": "Legal"
+      "de": "Buchhaltung",
+      "en": "Accounting"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Libelee-appellee"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/lee"
+      "id": "https://themoviedb.org#Controller"
     }
   ],
   "inScheme": {

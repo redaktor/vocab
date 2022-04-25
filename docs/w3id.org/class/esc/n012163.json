@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012163",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012163",
   "prefLabel": {
-    "de": "Kartograph*in",
-    "en": "Cartographer"
-  },
-  "definition": {
-    "de": "Eine Person, Familie oder Organisation, die für die Erstellung einer Karte, eines Atlasses, eines Globus oder eines anderen kartografischen Werks verantwortlich ist",
-    "en": "A person, family, or organization responsible for creating a map, atlas, globe, or other cartographic work"
+    "de": "Casting-Koordinator*in",
+    "en": "Casting Coordinator"
   },
   "notation": [
     "012163"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Cartographer"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/ctg"
+      "id": "https://themoviedb.org#Casting%20Coordinator"
     }
   ],
   "inScheme": {

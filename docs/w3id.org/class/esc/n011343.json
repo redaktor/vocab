@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011343",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011343",
   "prefLabel": {
-    "de": "Zusätzliche Erste Kameraassistenz",
-    "en": "Additional First Assistant Camera"
+    "de": "Luftbildregisseur*in",
+    "en": "Aerial Director of Photography"
   },
   "notation": [
     "011343"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Additional%20First%20Assistant%20Camera"
+      "id": "https://themoviedb.org#Aerial%20Director%20of%20Photography"
     }
   ],
   "inScheme": {

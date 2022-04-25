@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011479",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011479",
   "prefLabel": {
-    "de": "Zweite Tonassistenz",
-    "en": "Second Assistant Sound"
+    "de": "Assistenz für Sounddesign",
+    "en": "Sound Design Assistant"
   },
   "notation": [
     "011479"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Second%20Assistant%20Sound"
+      "id": "https://themoviedb.org#Sound%20Design%20Assistant"
     }
   ],
   "inScheme": {

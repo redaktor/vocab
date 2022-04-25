@@ -4,12 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011218",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011218",
   "prefLabel": {
-    "de": "Dialog",
-    "en": "Dialogue"
+    "de": "Drehbuch",
+    "en": "Screenplay"
+  },
+  "altLabel": {
+    "de": [
+      "Screenwriter"
+    ],
+    "en": [
+      "Screenwriter"
+    ]
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die für den Dialog oder den gesprochenen Kommentar für ein Drehbuch oder eine Tonaufnahme verantwortlich ist",
-    "en": "A person or organization responsible for the dialog or spoken commentary for a screenplay or sound recording"
+    "de": "Ein Autor eines Drehbuchs, Skripts oder einer Szene",
+    "en": "An author of a screenplay, script, or scene"
   },
   "notation": [
     "011218"
@@ -23,12 +31,15 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Dialogue"
+      "id": "https://themoviedb.org#Screenplay"
+    },
+    {
+      "id": "https://themoviedb.org#Screenstory"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/aud"
+      "id": "https://id.loc.gov/vocabulary/relators/aus"
     }
   ],
   "inScheme": {

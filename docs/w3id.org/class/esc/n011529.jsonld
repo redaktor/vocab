@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011529",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011529",
   "prefLabel": {
-    "de": "Musikprogrammierer*in",
-    "en": "Music Programmer"
+    "de": "Co-Musik Supervisor",
+    "en": "Additional Music Supervisor"
   },
   "notation": [
     "011529"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Music%20Programmer"
+      "id": "https://themoviedb.org#Additional%20Music%20Supervisor"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011352",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011352",
   "prefLabel": {
-    "de": "BTS Footage",
-    "en": "BTS Footage"
+    "de": "Grip-Assistenz",
+    "en": "Assistant Grip"
   },
   "notation": [
     "011352"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#BTS%20Footage"
+      "id": "https://themoviedb.org#Assistant%20Grip"
     }
   ],
   "inScheme": {

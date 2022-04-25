@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011428",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011428",
   "prefLabel": {
-    "de": "ADR & Synchronisation",
-    "en": "ADR & Dubbing"
-  },
-  "definition": {
-    "de": "Eine Person, die Musiknotation transkribiert oder kopiert",
-    "en": "A person who transcribes or copies musical notation"
+    "de": "Assistenz Geräuschemacher*in",
+    "en": "Assistant Foley Artist"
   },
   "notation": [
     "011428"
@@ -23,12 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#ADR%20&%20Dubbing"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/mcp"
+      "id": "https://themoviedb.org#Assistant%20Foley%20Artist"
     }
   ],
   "inScheme": {

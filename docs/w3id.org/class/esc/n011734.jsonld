@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011734",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011734",
   "prefLabel": {
-    "de": "Requisiteur*in",
-    "en": "Property Master"
+    "de": "Textilkünstler*in",
+    "en": "Textile Artist"
   },
   "notation": [
     "011734"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Property%20Master"
+      "id": "https://themoviedb.org#Textile%20Artist"
     }
   ],
   "inScheme": {

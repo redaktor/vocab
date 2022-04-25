@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012339",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012339",
   "prefLabel": {
-    "de": "Entwicklung zusätzlicher Effekte",
-    "en": "Additional Effects Development"
+    "de": "Co-Kostümbildner*in",
+    "en": "Co-Costume Designer"
   },
   "notation": [
     "012339"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Additional%20Effects%20Development"
+      "id": "https://themoviedb.org#Co-Costume%20Designer"
     }
   ],
   "inScheme": {

@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011232",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011232",
   "prefLabel": {
-    "de": "Buch",
-    "en": "Book"
+    "de": "Transcriber, Schreibkraft, Abschriften",
+    "en": "Transcriber"
+  },
+  "definition": {
+    "de": "Eine Person, Familie oder Organisation, die zu einer Ressource beiträgt, indem sie sie von einem Notationssystem in ein anderes umwandelt. Für ein Werk, das für ein anderes Instrument oder eine andere Ausführungsgruppe transkribiert wurde, siehe Arranger [arr]. Für Hersteller von Stift-Faksimiles verwenden Sie Facsimilist [fac].",
+    "en": "A person, family, or organization contributing to a resource by changing it from one system of notation to another. For a work transcribed for a different instrument or performing group, see Arranger [arr]. For makers of pen-facsimiles, use Facsimilist [fac]"
   },
   "notation": [
     "011232"
@@ -19,7 +23,15 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Book"
+      "id": "https://themoviedb.org#Transcriber"
+    },
+    {
+      "id": "https://themoviedb.org#Transcriptions"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/trc"
     }
   ],
   "inScheme": {

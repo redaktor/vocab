@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012421",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012421",
   "prefLabel": {
-    "de": "Produktionszeichner*in",
-    "en": "Production Artist"
+    "de": "Fix Animator*in",
+    "en": "Fix Animator"
   },
   "notation": [
     "012421"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Production%20Artist"
+      "id": "https://themoviedb.org#Fix%20Animator"
     }
   ],
   "inScheme": {

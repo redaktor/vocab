@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012452",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012452",
   "prefLabel": {
-    "de": "Dialekt-Trainer*in",
-    "en": "Dialect Coach"
+    "de": "3D-Animator*in",
+    "en": "3D Animator"
   },
   "notation": [
     "012452"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Dialect%20Coach"
+      "id": "https://themoviedb.org#3D%20Animator"
     }
   ],
   "inScheme": {

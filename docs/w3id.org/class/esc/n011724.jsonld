@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011724",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011724",
   "prefLabel": {
-    "de": "Assistenz des Requisiteurs",
-    "en": "Assistant Property Master"
+    "de": "Charakter-Designer*in",
+    "en": "Character Designer"
   },
   "notation": [
     "011724"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Assistant%20Property%20Master"
+      "id": "https://themoviedb.org#Character%20Designer"
     }
   ],
   "inScheme": {

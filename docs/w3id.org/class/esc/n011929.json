@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011929",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011929",
   "prefLabel": {
-    "de": "Co- dritter Regieassistent",
-    "en": "Additional Third Assistant Director"
+    "de": "Baukoordinator*in",
+    "en": "Construction Coordinator"
   },
   "notation": [
     "011929"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0119",
     "prefLabel": {
-      "de": "Regie",
-      "en": "Directing"
+      "de": "Bühne und Requisite",
+      "en": "Stage and Props"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Additional%20Third%20Assistant%20Director"
+      "id": "https://themoviedb.org#Construction%20Coordinator"
     }
   ],
   "inScheme": {

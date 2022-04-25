@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011346",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011346",
   "prefLabel": {
-    "de": "Zusätzliche Zweite Kameraassistenz",
-    "en": "Additional Second Assistant Camera"
+    "de": "Techniker*in für digitale Bildverarbeitung",
+    "en": "Digital Imaging Technician"
   },
   "notation": [
     "011346"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Additional%20Second%20Assistant%20Camera"
+      "id": "https://themoviedb.org#Digital%20Imaging%20Technician"
     }
   ],
   "inScheme": {

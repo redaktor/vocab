@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012027",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012027",
   "prefLabel": {
-    "de": "Herstellungsleiter*in",
-    "en": "Line Producer"
+    "de": "Layout",
+    "en": "Layout"
   },
   "notation": [
     "012027"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0120",
     "prefLabel": {
-      "de": "Produktion",
-      "en": "Production"
+      "de": "Regie",
+      "en": "Directing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Line%20Producer"
+      "id": "https://themoviedb.org#Layout"
     }
   ],
   "inScheme": {

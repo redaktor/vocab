@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012333",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012333",
   "prefLabel": {
-    "de": "24-Bild-Wiedergabe",
-    "en": "24 Frame Playback"
+    "de": "Kontrolle für Garderobe",
+    "en": "Wardrobe Supervisor"
   },
   "notation": [
     "012333"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#24%20Frame%20Playback"
+      "id": "https://themoviedb.org#Wardrobe%20Supervisor"
     }
   ],
   "inScheme": {

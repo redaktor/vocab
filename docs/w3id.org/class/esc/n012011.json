@@ -4,20 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012011",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012011",
   "prefLabel": {
-    "de": "Produktionsstudio",
-    "en": "Production Studio"
-  },
-  "altLabel": {
-    "de": [
-      "Production company"
-    ],
-    "en": [
-      "Production company"
-    ]
+    "de": "Regisseur*in",
+    "en": "Director"
   },
   "definition": {
-    "de": "Eine Organisation, die für das finanzielle, technische und organisatorische Management einer Produktion für Bühne, Leinwand, Tonaufnahme, Fernsehen, Webcast usw. verantwortlich ist",
-    "en": "An organization that is responsible for financial, technical, and organizational management of a production for stage, screen, audio recording, television, webcast, etc."
+    "de": "Eine Person, die für die allgemeine Leitung und Überwachung einer gefilmten Aufführung, eines Radio- oder Fernsehprogramms usw. verantwortlich ist.",
+    "en": "A person responsible for the general management and supervision of a filmed performance, a radio or television program, etc."
   },
   "notation": [
     "012011"
@@ -25,18 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0120",
     "prefLabel": {
-      "de": "Produktion",
-      "en": "Production"
+      "de": "Regie",
+      "en": "Directing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Production%20Studio"
+      "id": "https://themoviedb.org#Director"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/prn"
+      "id": "https://id.loc.gov/vocabulary/relators/drt"
     }
   ],
   "inScheme": {

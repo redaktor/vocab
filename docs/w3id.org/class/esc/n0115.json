@@ -14,8 +14,8 @@
     {
       "id": "https://w3id.org/class/esc/n011511",
       "prefLabel": {
-        "de": "Musikalische Leitung",
-        "en": "Music Director"
+        "de": "Musik",
+        "en": "Music"
       }
     },
     {
@@ -42,141 +42,190 @@
     {
       "id": "https://w3id.org/class/esc/n011515",
       "prefLabel": {
-        "de": "Lieder",
-        "en": "Songs"
+        "de": "Dirigent*in",
+        "en": "Conductor"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n011516",
       "prefLabel": {
-        "de": "Musik",
-        "en": "Music"
+        "de": "Musikalische Leitung",
+        "en": "Music Director"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n011517",
       "prefLabel": {
-        "de": "Komponist*in der Originalmusik",
-        "en": "Original Music Composer"
+        "de": "Aufführung des Titelsongs",
+        "en": "Theme Song Performance"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n011518",
-      "prefLabel": {
-        "de": "Komponist*in des Haupttitelthemas",
-        "en": "Main Title Theme Composer"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011519",
-      "prefLabel": {
-        "de": "Orchestrator*in",
-        "en": "Orchestrator"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011520",
-      "prefLabel": {
-        "de": "Gesangslehrer*in",
-        "en": "Vocal Coach"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011521",
-      "prefLabel": {
-        "de": "Musiküberwachung",
-        "en": "Music Supervisor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011522",
-      "prefLabel": {
-        "de": "Musikarrangeur*in",
-        "en": "Music Arranger"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011523",
-      "prefLabel": {
-        "de": "Musik-Ko-Betreuer*in",
-        "en": "Music Co-Supervisor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011524",
-      "prefLabel": {
-        "de": "Musikberater*in",
-        "en": "Music Consultant"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011525",
-      "prefLabel": {
-        "de": "Musik-Koordinator*in",
-        "en": "Music Coordinator"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011526",
-      "prefLabel": {
-        "de": "Musikproduzent*in",
-        "en": "Music Producer"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011527",
-      "prefLabel": {
-        "de": "Musik Sound Design und Verarbeitung",
-        "en": "Music Sound Design and Processing"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011528",
-      "prefLabel": {
-        "de": "Assistenz für die Musikkontrolle",
-        "en": "Music Supervision Assistant"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011529",
-      "prefLabel": {
-        "de": "Musikprogrammierer*in",
-        "en": "Music Programmer"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011530",
-      "prefLabel": {
-        "de": "Produzent*in von Musiknoten",
-        "en": "Music Score Producer"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011531",
-      "prefLabel": {
-        "de": "Playback-Sänger*in",
-        "en": "Playback Singer"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n011532",
       "prefLabel": {
         "de": "Gesang",
         "en": "Vocals"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n011533",
+      "id": "https://w3id.org/class/esc/n011519",
+      "prefLabel": {
+        "de": "Playback-Sänger*in",
+        "en": "Playback Singer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011520",
       "prefLabel": {
         "de": "Tänzer*in",
         "en": "Dancer"
       }
     },
     {
+      "id": "https://w3id.org/class/esc/n011521",
+      "prefLabel": {
+        "de": "Lieder",
+        "en": "Songs"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011522",
+      "prefLabel": {
+        "de": "Musik-Editor",
+        "en": "Music Editor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011523",
+      "prefLabel": {
+        "de": "Komponist*in der Originalmusik",
+        "en": "Original Music Composer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011524",
+      "prefLabel": {
+        "de": "Komponist*in des Haupttitelthemas",
+        "en": "Main Title Theme Composer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011525",
+      "prefLabel": {
+        "de": "Musikarrangeur*in",
+        "en": "Music Arranger"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011526",
+      "prefLabel": {
+        "de": "Orchestrator*in",
+        "en": "Orchestrator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011527",
+      "prefLabel": {
+        "de": "Gesangslehrer*in",
+        "en": "Vocal Coach"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011528",
+      "prefLabel": {
+        "de": "Musiküberwachung",
+        "en": "Music Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011529",
+      "prefLabel": {
+        "de": "Co-Musik Supervisor",
+        "en": "Additional Music Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011530",
+      "prefLabel": {
+        "de": "Musik-Ko-Betreuer*in",
+        "en": "Music Co-Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011531",
+      "prefLabel": {
+        "de": "Musikberater*in",
+        "en": "Music Consultant"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011532",
+      "prefLabel": {
+        "de": "Musik-Koordinator*in",
+        "en": "Music Coordinator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011533",
+      "prefLabel": {
+        "de": "Musikproduzent*in",
+        "en": "Music Producer"
+      }
+    },
+    {
       "id": "https://w3id.org/class/esc/n011534",
+      "prefLabel": {
+        "de": "Musik Sound Design und Verarbeitung",
+        "en": "Music Sound Design and Processing"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011535",
+      "prefLabel": {
+        "de": "Assistenz des Musikbeauftragten",
+        "en": "Assistant Music Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011536",
+      "prefLabel": {
+        "de": "Assistenz für die Musikkontrolle",
+        "en": "Music Supervision Assistant"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011537",
+      "prefLabel": {
+        "de": "Musikprogrammierer*in",
+        "en": "Music Programmer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011538",
+      "prefLabel": {
+        "de": "Produzent*in von Musiknoten",
+        "en": "Music Score Producer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011539",
       "prefLabel": {
         "de": "Librettist*in",
         "en": "Librettist"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011540",
+      "prefLabel": {
+        "de": "Ausführender Musikproduzent",
+        "en": "Executive Music Producer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011541",
+      "prefLabel": {
+        "de": "Zusätzliche Musik",
+        "en": "Additional Music"
       }
     }
   ],

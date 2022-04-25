@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012037",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012037",
   "prefLabel": {
-    "de": "Verwaltung",
-    "en": "Administration"
+    "de": "Zweite Regie-Assistenz",
+    "en": "Second Unit Director"
   },
   "notation": [
     "012037"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0120",
     "prefLabel": {
-      "de": "Produktion",
-      "en": "Production"
+      "de": "Regie",
+      "en": "Directing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Administration"
+      "id": "https://themoviedb.org#Second%20Unit%20Director"
     }
   ],
   "inScheme": {

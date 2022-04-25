@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012374",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012374",
   "prefLabel": {
-    "de": "VFX Director of Photography",
-    "en": "VFX Director of Photography"
+    "de": "Prothetik-Designer*in",
+    "en": "Prosthetic Designer"
   },
   "notation": [
     "012374"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#VFX%20Director%20of%20Photography"
+      "id": "https://themoviedb.org#Prosthetic%20Designer"
     }
   ],
   "inScheme": {

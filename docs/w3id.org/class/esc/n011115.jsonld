@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011115",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011115",
   "prefLabel": {
-    "de": "Befragte Person",
-    "en": "Interviewee"
+    "de": "Zeuge / Augenzeug*in",
+    "en": "Witness"
   },
   "definition": {
-    "de": "Eine Person, Familie oder Organisation, die dafür verantwortlich ist, eine Ressource zu erstellen oder zu ihr beizutragen, indem sie einem Interviewer, in der Regel einem Reporter, Meinungsforscher oder einem anderen Informationsbeschaffer, antwortet",
-    "en": "A person, family or organization responsible for creating or contributing to a resource by responding to an interviewer, usually a reporter, pollster, or some other information gathering agent"
+    "de": "Verwendung für eine Person, die den Wahrheitsgehalt eines Ereignisses oder einer Handlung überprüft.",
+    "en": "Use for a person who verifies the truthfulness of an event or action."
   },
   "notation": [
     "011115"
@@ -23,12 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Interviewee"
+      "id": "https://themoviedb.org#Witness"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/ive"
+      "id": "https://id.loc.gov/vocabulary/relators/wit"
     }
   ],
   "inScheme": {

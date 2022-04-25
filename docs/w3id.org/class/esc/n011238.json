@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011238",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011238",
   "prefLabel": {
-    "de": "Redakteur*in für Geschichten",
-    "en": "Story Editor"
+    "de": "Co-Autor*in",
+    "en": "Co-Writer"
   },
   "notation": [
     "011238"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Story%20Editor"
+      "id": "https://themoviedb.org#Co-Writer"
     }
   ],
   "inScheme": {

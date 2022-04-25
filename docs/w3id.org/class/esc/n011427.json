@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011427",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011427",
   "prefLabel": {
-    "de": "Tonmontage-Mitarbeiter*in",
-    "en": "Sound Montage Associate"
+    "de": "Assistenz Ton-Editor",
+    "en": "Assistant Sound Editor"
   },
   "notation": [
     "011427"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Sound%20Montage%20Associate"
+      "id": "https://themoviedb.org#Assistant%20Sound%20Editor"
     }
   ],
   "inScheme": {

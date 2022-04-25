@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0043",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0043",
   "prefLabel": {
-    "de": "Repository",
-    "en": "Repository"
+    "de": "Schöpfer*in",
+    "en": "Creator"
   },
   "definition": {
-    "de": "Eine Organisation, die Daten oder Objekte der materiellen Kultur beherbergt und Dienste zur Förderung einer langfristigen, konsistenten und gemeinsamen Nutzung dieser Daten oder Objekte bereitstellt",
-    "en": "An organization that hosts data or material culture objects and provides services to promote long term, consistent and shared use of those data or objects"
+    "de": "Eine Person oder Organisation, die für den geistigen oder künstlerischen Inhalt einer Ressource verantwortlich ist",
+    "en": "A person or organization responsible for the intellectual or artistic content of a resource"
   },
   "notation": [
     "0043"
@@ -21,9 +21,14 @@
       "en": "Generic or major role"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Creator"
+    }
+  ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/rps"
+      "id": "https://id.loc.gov/vocabulary/relators/cre"
     }
   ],
   "inScheme": {

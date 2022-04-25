@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011325",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011325",
   "prefLabel": {
-    "de": "Erste Kameraassistenz",
-    "en": "First Assistant Camera"
+    "de": "Drohnen-Kamera",
+    "en": "Drone Cinematographer"
   },
   "notation": [
     "011325"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#First%20Assistant%20Camera"
+      "id": "https://themoviedb.org#Drone%20Cinematographer"
     }
   ],
   "inScheme": {

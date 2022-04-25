@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011253",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011253",
   "prefLabel": {
-    "de": "Story Supervisor",
-    "en": "Story Supervisor"
+    "de": "Schöpfer*in der Originalserie",
+    "en": "Original Series Creator"
   },
   "notation": [
     "011253"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Story%20Supervisor"
+      "id": "https://themoviedb.org#Original%20Series%20Creator"
     }
   ],
   "inScheme": {

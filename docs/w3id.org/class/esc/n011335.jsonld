@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011335",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011335",
   "prefLabel": {
-    "de": "Zweite Einheit Director of Photograph",
-    "en": "Second Unit Director of Photography"
+    "de": "Standfotograf*in",
+    "en": "Still Photographer"
   },
   "notation": [
     "011335"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Second%20Unit%20Director%20of%20Photography"
+      "id": "https://themoviedb.org#Still%20Photographer"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011458",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011458",
   "prefLabel": {
-    "de": "ADR-Post-Produzent*in",
-    "en": "ADR Post Producer"
+    "de": "ADR-Ingenieur*in",
+    "en": "ADR Engineer"
   },
   "notation": [
     "011458"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#ADR%20Post%20Producer"
+      "id": "https://themoviedb.org#ADR%20Engineer"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012428",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012428",
   "prefLabel": {
-    "de": "Software-Ingenieur*in",
-    "en": "Software Engineer"
+    "de": "Supervisor für die Animation",
+    "en": "Animation Supervisor"
   },
   "notation": [
     "012428"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Software%20Engineer"
+      "id": "https://themoviedb.org#Animation%20Supervisor"
     }
   ],
   "inScheme": {

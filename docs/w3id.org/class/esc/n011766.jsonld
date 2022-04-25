@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011766",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011766",
   "prefLabel": {
-    "de": "Assistenz Dekoration",
-    "en": "Assistant Set Decoration"
+    "de": "Bereitschaft Art Director*in",
+    "en": "Standby Art Director"
   },
   "notation": [
     "011766"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Assistant%20Set%20Decoration"
+      "id": "https://themoviedb.org#Standby%20Art%20Director"
     }
   ],
   "inScheme": {

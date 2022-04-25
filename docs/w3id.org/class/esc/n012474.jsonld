@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012474",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012474",
   "prefLabel": {
-    "de": "Transport Co-Kapitän*in",
-    "en": "Transportation Co-Captain"
+    "de": "Designer*in für visuelle Effekte",
+    "en": "Visual Effects Designer"
   },
   "notation": [
     "012474"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Transportation%20Co-Captain"
+      "id": "https://themoviedb.org#Visual%20Effects%20Designer"
     }
   ],
   "inScheme": {

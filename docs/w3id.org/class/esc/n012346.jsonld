@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012346",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012346",
   "prefLabel": {
-    "de": "3D-Regisseur*in",
-    "en": "3D Director"
+    "de": "Hauptmaskenbildner*in",
+    "en": "Key Makeup Artist"
   },
   "notation": [
     "012346"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#3D%20Director"
+      "id": "https://themoviedb.org#Key%20Makeup%20Artist"
     }
   ],
   "inScheme": {

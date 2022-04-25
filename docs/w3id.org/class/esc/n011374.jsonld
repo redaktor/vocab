@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011374",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011374",
   "prefLabel": {
-    "de": "Jimmy Jib Operator",
-    "en": "Jimmy Jib Operator"
+    "de": "Daten Betreuer",
+    "en": "Data Wrangler"
   },
   "notation": [
     "011374"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Jimmy%20Jib%20Operator"
+      "id": "https://themoviedb.org#Data%20Wrangler"
     }
   ],
   "inScheme": {

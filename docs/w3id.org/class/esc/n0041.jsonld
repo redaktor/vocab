@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0041",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0041",
   "prefLabel": {
-    "de": "Ansprechpartner für Metadaten",
-    "en": "Metadata contact"
+    "de": "Antragsteller*in",
+    "en": "Applicant"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die in erster Linie für die Zusammenstellung und Pflege der ursprünglichen Beschreibung eines Metadatensatzes verantwortlich ist",
-    "en": "A person or organization primarily responsible for compiling and maintaining the original description of a metadata set"
+    "de": "Eine Person oder Organisation, die für die Einreichung eines Antrags verantwortlich ist oder die für die Ergebnisse der Antragsbearbeitung (z. B. Verleihung von Rechten, Belohnungen, Titeln, Positionen) als berechtigt genannt wird",
+    "en": "A person or organization responsible for the submission of an application or who is named as eligible for the results of the processing of the application (e.g., bestowing of rights, reward, title, position)"
   },
   "notation": [
     "0041"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/mdc"
+      "id": "https://id.loc.gov/vocabulary/relators/app"
     }
   ],
   "inScheme": {

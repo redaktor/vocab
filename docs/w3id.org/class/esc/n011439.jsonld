@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011439",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011439",
   "prefLabel": {
-    "de": "ADR-Editor",
-    "en": "ADR Editor"
+    "de": "Tonmischung für die Neuaufnahme",
+    "en": "Sound Re-Recording Mixer"
   },
   "notation": [
     "011439"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#ADR%20Editor"
+      "id": "https://themoviedb.org#Sound%20Re-Recording%20Mixer"
     }
   ],
   "inScheme": {

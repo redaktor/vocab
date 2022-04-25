@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012914",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012914",
   "prefLabel": {
-    "de": "Ankläger*in",
-    "en": "Libelant"
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, die eine Verleumdungsklage in einem kirchlichen oder admiralen Fall einreicht",
-    "en": "A person or organization who files a libel in an ecclesiastical or admiralty case"
+    "de": "Portokasseneinkäufer*in",
+    "en": "Petty Cash Buyer"
   },
   "notation": [
     "012914"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0129",
     "prefLabel": {
-      "de": "Recht / Legal",
-      "en": "Legal"
+      "de": "Buchhaltung",
+      "en": "Accounting"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Libelant"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/lil"
+      "id": "https://themoviedb.org#Petty%20Cash%20Buyer"
     }
   ],
   "inScheme": {

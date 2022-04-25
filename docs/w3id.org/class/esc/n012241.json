@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012241",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012241",
   "prefLabel": {
-    "de": "Hauptmaskenbildner*in",
-    "en": "Key Makeup Artist"
+    "de": "Überwachung Animator*in",
+    "en": "Supervising Animator"
   },
   "notation": [
     "012241"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Key%20Makeup%20Artist"
+      "id": "https://themoviedb.org#Supervising%20Animator"
     }
   ],
   "inScheme": {

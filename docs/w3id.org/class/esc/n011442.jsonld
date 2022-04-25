@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011442",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011442",
   "prefLabel": {
-    "de": "Assistenz des Musikbeauftragten",
-    "en": "Assistant Music Supervisor"
+    "de": "Tonmischungstechniker*in",
+    "en": "Sound Mix Technician"
   },
   "notation": [
     "011442"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Assistant%20Music%20Supervisor"
+      "id": "https://themoviedb.org#Sound%20Mix%20Technician"
     }
   ],
   "inScheme": {

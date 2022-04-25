@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011225",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011225",
   "prefLabel": {
-    "de": "Musical",
-    "en": "Musical"
+    "de": "Drehbuch-Berater*in",
+    "en": "Script Consultant"
   },
   "notation": [
     "011225"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Musical"
+      "id": "https://themoviedb.org#Script%20Consultant"
     }
   ],
   "inScheme": {

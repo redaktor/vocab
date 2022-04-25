@@ -4,22 +4,15 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011414",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011414",
   "prefLabel": {
-    "de": "Ton-Post-Supervisor",
-    "en": "Sound Post Supervisor"
+    "de": "Tonmischer*in am Drehort",
+    "en": "Location Sound Mixer"
   },
   "notation": [
     "011414"
   ],
-  "broader": {
-    "id": "https://w3id.org/class/esc/n0114",
-    "prefLabel": {
-      "de": "Sound",
-      "en": "Sound"
-    }
-  },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Sound%20Post%20Supervisor"
+      "id": "https://themoviedb.org#Location%20Sound%20Mixer"
     }
   ],
   "inScheme": {

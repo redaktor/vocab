@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011482",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011482",
   "prefLabel": {
-    "de": "Koordinator*in für die Tonpostproduktion",
-    "en": "Sound Post Production Coordinator"
+    "de": "Sonstiges Sound",
+    "en": "Other Sound"
   },
   "notation": [
     "011482"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Sound%20Post%20Production%20Coordinator"
+      "id": "https://themoviedb.org#Other"
     }
   ],
   "inScheme": {

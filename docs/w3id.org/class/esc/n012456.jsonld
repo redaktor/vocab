@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012456",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012456",
   "prefLabel": {
-    "de": "Video-Assistenz",
-    "en": "Video Assist Operator"
+    "de": "3D-Modellierer*in",
+    "en": "3D Modeller"
   },
   "notation": [
     "012456"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Video%20Assist%20Operator"
+      "id": "https://themoviedb.org#3D%20Modeller"
     }
   ],
   "inScheme": {

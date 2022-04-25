@@ -151,169 +151,211 @@
     {
       "id": "https://w3id.org/class/esc/n0020",
       "prefLabel": {
-        "de": "Supplier",
-        "en": "Anbieter*in"
+        "de": "Anbieter*in",
+        "en": "Supplier"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n0021",
-      "prefLabel": {
-        "de": "Medium",
-        "en": "Medium"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/esc/n0022",
       "prefLabel": {
         "de": "Sender, Broadcaster",
         "en": "Broadcaster"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0023",
+      "id": "https://w3id.org/class/esc/n0022",
       "prefLabel": {
-        "de": "Host",
+        "de": "Host, Gastgeber",
         "en": "Host"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0024",
+      "id": "https://w3id.org/class/esc/n0023",
       "prefLabel": {
         "de": "Host Institution",
         "en": "Host institution"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0025",
+      "id": "https://w3id.org/class/esc/n0024",
       "prefLabel": {
         "de": "Kurator",
         "en": "Curator"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0026",
+      "id": "https://w3id.org/class/esc/n0025",
       "prefLabel": {
         "de": "Künstlerische*r Direktor*in",
         "en": "Artistic director"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0027",
+      "id": "https://w3id.org/class/esc/n0026",
       "prefLabel": {
         "de": "Veranstalter*in",
         "en": "Organizer"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0028",
+      "id": "https://w3id.org/class/esc/n0027",
       "prefLabel": {
         "de": "Herausgeber*in",
         "en": "Issuing body"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0029",
+      "id": "https://w3id.org/class/esc/n0028",
       "prefLabel": {
         "de": "Normungsgremium",
         "en": "Standards body"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0030",
+      "id": "https://w3id.org/class/esc/n0029",
       "prefLabel": {
         "de": "Datenlieferant",
         "en": "Data contributor"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0031",
+      "id": "https://w3id.org/class/esc/n0030",
       "prefLabel": {
         "de": "Rechtsnachfolger",
         "en": "Assignee"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0032",
+      "id": "https://w3id.org/class/esc/n0031",
       "prefLabel": {
         "de": "Lizenznehmer*in",
         "en": "Licensee"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0033",
+      "id": "https://w3id.org/class/esc/n0032",
       "prefLabel": {
         "de": "Lizenzgeber*in",
         "en": "Licensor"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0034",
+      "id": "https://w3id.org/class/esc/n0033",
       "prefLabel": {
         "de": "Sammler*in",
         "en": "Collector"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0035",
+      "id": "https://w3id.org/class/esc/n0034",
       "prefLabel": {
         "de": "Panelist*in",
         "en": "Panelist"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0036",
+      "id": "https://w3id.org/class/esc/n0035",
       "prefLabel": {
         "de": "Mitwirkende*r, Contributor",
         "en": "Contributor"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0037",
+      "id": "https://w3id.org/class/esc/n0036",
       "prefLabel": {
         "de": "Widmungsträger*in",
         "en": "Dedicatee"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0038",
+      "id": "https://w3id.org/class/esc/n0037",
       "prefLabel": {
         "de": "Geehrte*r, Honoree",
         "en": "Honoree"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0039",
+      "id": "https://w3id.org/class/esc/n0038",
       "prefLabel": {
         "de": "Bibliographischer Vorläufer",
         "en": "Bibliographic antecedent"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0040",
+      "id": "https://w3id.org/class/esc/n0039",
       "prefLabel": {
         "de": "Adressat*in",
         "en": "Addressee"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0041",
+      "id": "https://w3id.org/class/esc/n0040",
       "prefLabel": {
         "de": "Ansprechpartner für Metadaten",
         "en": "Metadata contact"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0042",
+      "id": "https://w3id.org/class/esc/n0041",
       "prefLabel": {
         "de": "Antragsteller*in",
         "en": "Applicant"
       }
     },
     {
+      "id": "https://w3id.org/class/esc/n0042",
+      "prefLabel": {
+        "de": "Compiler*in",
+        "en": "Compiler"
+      }
+    },
+    {
       "id": "https://w3id.org/class/esc/n0043",
+      "prefLabel": {
+        "de": "Schöpfer*in",
+        "en": "Creator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0044",
       "prefLabel": {
         "de": "Repository",
         "en": "Repository"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0045",
+      "prefLabel": {
+        "de": "In Erinnerung an",
+        "en": "In Memory Of"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011711",
+      "prefLabel": {
+        "de": "Künstler, Maler",
+        "en": "Artist, Painter"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011714",
+      "prefLabel": {
+        "de": "Designer*in",
+        "en": "Designer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012158",
+      "prefLabel": {
+        "de": "Abteilungsleiter*in, Unit Manager",
+        "en": "Unit Manager"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012228",
+      "prefLabel": {
+        "de": "Projektleiter*in",
+        "en": "Project Manager"
       }
     }
   ],

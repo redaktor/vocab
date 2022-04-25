@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011273",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011273",
   "prefLabel": {
-    "de": "Analytiker*in",
-    "en": "Analyst"
+    "de": "Korrekturleser*in",
+    "en": "Proofreader"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die Daten oder Informationen in einem bestimmten Bereich überprüft, untersucht und interpretiert",
-    "en": "A person or organization that reviews, examines and interprets data or information in a specific area"
+    "de": "Eine Person, die Druckerzeugnisse korrigiert. Für Manuskripte verwenden Sie Corrector [crr]",
+    "en": "A person who corrects printed matter. For manuscripts, use Corrector [crr]"
   },
   "notation": [
     "011273"
@@ -23,12 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Analyst"
+      "id": "https://themoviedb.org#Proofreader"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/anl"
+      "id": "https://id.loc.gov/vocabulary/relators/pfr"
     }
   ],
   "inScheme": {

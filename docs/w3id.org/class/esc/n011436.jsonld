@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011436",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011436",
   "prefLabel": {
-    "de": "Sonstiges",
-    "en": "Other"
+    "de": "Überwachung Ton-Edit",
+    "en": "Supervising Sound Editor"
   },
   "notation": [
     "011436"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Other"
+      "id": "https://themoviedb.org#Supervising%20Sound%20Editor"
     }
   ],
   "inScheme": {

@@ -4,8 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011222",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011222",
   "prefLabel": {
-    "de": "Originalgeschichte",
-    "en": "Original Story"
+    "de": "Scenario Drehbuchautor*in",
+    "en": "Scenario Writer"
+  },
+  "altLabel": {
+    "de": [
+      "Scenarist"
+    ],
+    "en": [
+      "Scenarist"
+    ]
+  },
+  "definition": {
+    "de": "Eine Person oder Organisation, die der Autor eines Drehbuchs für einen Kinofilm ist, im Allgemeinen die Person, die die Drehbücher für einen Kinofilm während der Stummfilmzeit geschrieben hat",
+    "en": "A person or organization who is the author of a motion picture screenplay, generally the person who wrote the scenarios for a motion picture during the silent era"
   },
   "notation": [
     "011222"
@@ -19,7 +31,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Original%20Story"
+      "id": "https://themoviedb.org#Scenario%20Writer"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/sce"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011440",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011440",
   "prefLabel": {
-    "de": "ADR-Supervisor",
-    "en": "ADR Supervisor"
+    "de": "Boom Operator",
+    "en": "Boom Operator"
   },
   "notation": [
     "011440"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#ADR%20Supervisor"
+      "id": "https://themoviedb.org#Boom%20Operator"
     }
   ],
   "inScheme": {

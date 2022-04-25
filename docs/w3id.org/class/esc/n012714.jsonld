@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012714",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012714",
   "prefLabel": {
-    "de": "Verleiher*in",
-    "en": "Lender"
+    "de": "Collotyper",
+    "en": "Collotyper"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die die vorübergehende Nutzung eines Buches, Manuskripts usw. gestattet, z. B. zum Fotokopieren oder Mikroverfilmen",
-    "en": "A person or organization permitting the temporary use of a book, manuscript, etc., such as for photocopying or microfilming"
+    "de": "Eine Person, Familie oder Organisation, die an der Herstellung von fotografischen Abzügen aus Filmen oder anderen Kolloiden mit farbannehmenden und farbabweisenden Oberflächen beteiligt ist",
+    "en": "A person, family, or organization involved in manufacturing a manifestation of photographic prints from film or other colloid that has ink-receptive and ink-repellent surfaces"
   },
   "notation": [
     "012714"
@@ -17,13 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0127",
     "prefLabel": {
-      "de": "Vertrieb",
-      "en": "Distribution"
+      "de": "Herstellung",
+      "en": "Manufacturing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Collotyper"
+    }
+  ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/len"
+      "id": "https://id.loc.gov/vocabulary/relators/clt"
     }
   ],
   "inScheme": {

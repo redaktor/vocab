@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012513",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012513",
   "prefLabel": {
-    "de": "Bleistiftzeichner*in",
-    "en": "Penciler"
+    "de": "Übersetzer*in",
+    "en": "Translator"
+  },
+  "definition": {
+    "de": "Eine Person oder Organisation, die einen Text von einer Sprache in eine andere oder von einer älteren Form einer Sprache in die moderne Form überträgt",
+    "en": "A person or organization who renders a text from one language into another, or from an older form of a language into the modern form"
   },
   "notation": [
     "012513"
@@ -13,13 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0125",
     "prefLabel": {
-      "de": "Comic",
-      "en": "Comic"
+      "de": "Crew",
+      "en": "Crew"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Penciler"
+      "id": "https://themoviedb.org#Translator"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/trl"
     }
   ],
   "inScheme": {

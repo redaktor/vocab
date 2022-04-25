@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011772",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011772",
   "prefLabel": {
-    "de": "Leiter*in der Konstruktion",
-    "en": "Construction Manager"
+    "de": "Anstreicher*in",
+    "en": "Painter"
   },
   "notation": [
     "011772"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Construction%20Manager"
+      "id": "https://themoviedb.org#Painter"
     }
   ],
   "inScheme": {

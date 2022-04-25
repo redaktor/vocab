@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012230",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012230",
   "prefLabel": {
-    "de": "Maskenbildner*in",
-    "en": "Makeup Designer"
+    "de": "Koordinator*in für Archivmaterial",
+    "en": "Archival Footage Coordinator"
   },
   "notation": [
     "012230"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Makeup%20Designer"
+      "id": "https://themoviedb.org#Archival%20Footage%20Coordinator"
     }
   ],
   "inScheme": {

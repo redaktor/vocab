@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012719",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012719",
   "prefLabel": {
-    "de": "Vorherige Eigentümer*in",
-    "en": "Former Owner"
+    "de": "Blindenschrift-Präger*in",
+    "en": "Braille embosser"
   },
   "definition": {
-    "de": "Eine Person, Familie oder Organisation, die früher rechtmäßig im Besitz eines Gegenstandes war",
-    "en": "A person, family, or organization formerly having legal possession of an item"
+    "de": "Eine Person, Familie oder Organisation, die ein Hilfsmittel durch Prägen von Braille-Zellen mit einem Stift, einem speziellen Prägedrucker oder einem anderen Gerät herstellt",
+    "en": "A person, family, or organization involved in manufacturing a resource by embossing Braille cells using a stylus, special embossing printer, or other device"
   },
   "notation": [
     "012719"
@@ -17,13 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0127",
     "prefLabel": {
-      "de": "Vertrieb",
-      "en": "Distribution"
+      "de": "Herstellung",
+      "en": "Manufacturing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Braille%20embosser"
+    }
+  ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/fmo"
+      "id": "https://id.loc.gov/vocabulary/relators/brl"
     }
   ],
   "inScheme": {

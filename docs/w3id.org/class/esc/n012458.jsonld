@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012458",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012458",
   "prefLabel": {
-    "de": "Sanitäter*in am Set",
-    "en": "Set Medic"
+    "de": "3D Tracking Layout",
+    "en": "3D Tracking Layout"
   },
   "notation": [
     "012458"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Set%20Medic"
+      "id": "https://themoviedb.org#3D%20Tracking%20Layout"
     }
   ],
   "inScheme": {

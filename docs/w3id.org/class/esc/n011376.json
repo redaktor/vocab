@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011376",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011376",
   "prefLabel": {
-    "de": "Phantom Bediener*in",
-    "en": "Phantom Operator"
+    "de": "Sonstiges",
+    "en": "Other"
   },
   "notation": [
     "011376"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Phantom%20Operator"
+      "id": "https://themoviedb.org#Other"
     }
   ],
   "inScheme": {

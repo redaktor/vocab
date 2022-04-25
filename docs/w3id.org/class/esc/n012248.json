@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012248",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012248",
   "prefLabel": {
-    "de": "Tattoo-Designer*in",
-    "en": "Tattoo Designer"
+    "de": "Negativ-Cutter*in",
+    "en": "Negative Cutter"
   },
   "notation": [
     "012248"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Tattoo%20Designer"
+      "id": "https://themoviedb.org#Negative%20Cutter"
     }
   ],
   "inScheme": {

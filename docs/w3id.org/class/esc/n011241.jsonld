@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011241",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011241",
   "prefLabel": {
-    "de": "Leiter*in der Story",
-    "en": "Head of Story"
+    "de": "Gedicht",
+    "en": "Poem"
   },
   "notation": [
     "011241"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Head%20of%20Story"
+      "id": "https://themoviedb.org#Poem"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011815",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011815",
   "prefLabel": {
-    "de": "Beleuchtungsaufsicht",
-    "en": "Lighting Supervisor"
+    "de": "Chefbeleuchter*in",
+    "en": "Chief Lighting Technician"
   },
   "notation": [
     "011815"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Lighting%20Supervisor"
+      "id": "https://themoviedb.org#Chief%20Lighting%20Technician"
     }
   ],
   "inScheme": {

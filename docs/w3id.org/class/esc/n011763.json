@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011763",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011763",
   "prefLabel": {
-    "de": "Assistenz der Kameraführung",
-    "en": "Assistant Director of Photography"
+    "de": "Eröffnungs-Titelsequenz",
+    "en": "Opening Title Sequence"
   },
   "notation": [
     "011763"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Assistant%20Director%20of%20Photography"
+      "id": "https://themoviedb.org#Opening%20Title%20Sequence"
     }
   ],
   "inScheme": {

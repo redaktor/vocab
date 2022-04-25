@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012430",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012430",
   "prefLabel": {
-    "de": "Maschinist*in",
-    "en": "Machinist"
+    "de": "CG-Kontrolle",
+    "en": "CG Supervisor"
   },
   "notation": [
     "012430"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Machinist"
+      "id": "https://themoviedb.org#CG%20Supervisor"
     }
   ],
   "inScheme": {

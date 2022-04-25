@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011478",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011478",
   "prefLabel": {
-    "de": "O.B. Ton",
-    "en": "O.B. Sound"
+    "de": "Koordinator*in für die Tonpostproduktion",
+    "en": "Sound Post Production Coordinator"
   },
   "notation": [
     "011478"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#O.B.%20Sound"
+      "id": "https://themoviedb.org#Sound%20Post%20Production%20Coordinator"
     }
   ],
   "inScheme": {

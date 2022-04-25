@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012715",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012715",
   "prefLabel": {
-    "de": "Verkäufer*in",
-    "en": "Seller"
+    "de": "Elektrotyper",
+    "en": "Electrotyper"
   },
   "definition": {
-    "de": "Ein ehemaliger Eigentümer eines Objekts, der dieses Objekt an einen anderen Eigentümer verkauft hat",
-    "en": "A former owner of an item who sold that item to another owner"
+    "de": "Eine Person oder Organisation, die eine doppelte Druckoberfläche durch Druckformung und galvanische Abscheidung von Metall herstellt, das dann zum Drucken mit Blei hinterlegt wird",
+    "en": "A person or organization who creates a duplicate printing surface by pressure molding and electrodepositing of metal that is then backed up with lead for printing"
   },
   "notation": [
     "012715"
@@ -17,13 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0127",
     "prefLabel": {
-      "de": "Vertrieb",
-      "en": "Distribution"
+      "de": "Herstellung",
+      "en": "Manufacturing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Electrotyper"
+    }
+  ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/sll"
+      "id": "https://id.loc.gov/vocabulary/relators/elt"
     }
   ],
   "inScheme": {

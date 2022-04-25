@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011745",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011745",
   "prefLabel": {
-    "de": "Assistenz des Bühnenbildners",
-    "en": "Assistant Set Dresser"
+    "de": "Storyboard-Designer*in",
+    "en": "Storyboard Designer"
   },
   "notation": [
     "011745"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Assistant%20Set%20Dresser"
+      "id": "https://themoviedb.org#Storyboard%20Designer"
     }
   ],
   "inScheme": {

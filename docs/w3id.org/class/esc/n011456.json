@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011456",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011456",
   "prefLabel": {
-    "de": "ADR-Koordinator*in",
-    "en": "ADR Coordinator"
+    "de": "ADR-Supervisor",
+    "en": "ADR Supervisor"
   },
   "notation": [
     "011456"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#ADR%20Coordinator"
+      "id": "https://themoviedb.org#ADR%20Supervisor"
     }
   ],
   "inScheme": {

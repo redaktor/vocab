@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011918",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011918",
   "prefLabel": {
-    "de": "Sonstiges",
-    "en": "Other"
+    "de": "Ausstatter*in",
+    "en": "Set Dresser"
   },
   "notation": [
     "011918"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0119",
     "prefLabel": {
-      "de": "Regie",
-      "en": "Directing"
+      "de": "Bühne und Requisite",
+      "en": "Stage and Props"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Other"
+      "id": "https://themoviedb.org#Set%20Dresser"
     }
   ],
   "inScheme": {

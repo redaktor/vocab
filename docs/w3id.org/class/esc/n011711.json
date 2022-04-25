@@ -4,31 +4,24 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011711",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011711",
   "prefLabel": {
-    "de": "Künstlerische Leitung",
-    "en": "Art Direction"
+    "de": "Künstler, Maler",
+    "en": "Artist, Painter"
   },
   "definition": {
-    "de": "Eine Person, die zu einer Film- oder Fernsehproduktion beiträgt, indem sie die Künstler und Handwerker beaufsichtigt, die die Kulissen bauen",
-    "en": "A person contributing to a motion picture or television production by overseeing the artists and craftspeople who build the sets"
+    "de": "Eine Person, Familie oder Organisation, die für die Schaffung eines Werks verantwortlich ist, indem sie eine originale Zeichnung, ein Gemälde usw. entwirft und umsetzt.",
+    "en": "A person, family, or organization responsible for creating a work by conceiving, and implementing, an original drawing, painting, etc."
   },
   "notation": [
     "011711"
   ],
-  "broader": {
-    "id": "https://w3id.org/class/esc/n0117",
-    "prefLabel": {
-      "de": "Kunst",
-      "en": "Art"
-    }
-  },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Art%20Direction"
+      "id": "https://themoviedb.org#Artist"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/adi"
+      "id": "https://id.loc.gov/vocabulary/relators/art"
     }
   ],
   "inScheme": {

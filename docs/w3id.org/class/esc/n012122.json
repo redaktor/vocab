@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012122",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012122",
   "prefLabel": {
-    "de": "Recherche für Archivmaterial",
-    "en": "Archival Footage Research"
+    "de": "Buchproduzent*in",
+    "en": "Book producer"
+  },
+  "definition": {
+    "de": "Eine Person oder Organisation, die für die Produktion von Büchern und anderen Printmedien verantwortlich ist",
+    "en": "A person or organization responsible for the production of books and other print media"
   },
   "notation": [
     "012122"
@@ -13,13 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Archival%20Footage%20Research"
+      "id": "https://themoviedb.org#Book%20producer"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/bkp"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011469",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011469",
   "prefLabel": {
-    "de": "Geräusche Aufnahmetechnik",
-    "en": "Foley Recording Engineer"
+    "de": "Aufnahme Geräuschemacher*in",
+    "en": "Foley Recordist"
   },
   "notation": [
     "011469"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Foley%20Recording%20Engineer"
+      "id": "https://themoviedb.org#Foley%20Recordist"
     }
   ],
   "inScheme": {

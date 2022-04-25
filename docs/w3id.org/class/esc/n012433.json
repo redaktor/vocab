@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012433",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012433",
   "prefLabel": {
-    "de": "Zeitplan-Koordinator*in",
-    "en": "Schedule Coordinator"
+    "de": "24-Bild-Wiedergabe",
+    "en": "24 Frame Playback"
   },
   "notation": [
     "012433"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Schedule%20Coordinator"
+      "id": "https://themoviedb.org#24%20Frame%20Playback"
     }
   ],
   "inScheme": {

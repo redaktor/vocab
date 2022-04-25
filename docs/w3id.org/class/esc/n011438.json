@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011438",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011438",
   "prefLabel": {
-    "de": "Co-Tontechniker*in",
-    "en": "Additional Sound Re-Recordist"
+    "de": "Aufnahme-Überwachung",
+    "en": "Recording Supervision"
+  },
+  "definition": {
+    "de": "Eine Person, die zu einer Ressource beiträgt, indem sie die technischen Aspekte einer Ton- oder Videoaufnahme überwacht",
+    "en": "A person contributing to a resource by supervising the technical aspects of a sound or video recording session"
   },
   "notation": [
     "011438"
@@ -19,7 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Additional%20Sound%20Re-Recordist"
+      "id": "https://themoviedb.org#Recording%20Supervision"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/rce"
     }
   ],
   "inScheme": {

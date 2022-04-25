@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011462",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011462",
   "prefLabel": {
-    "de": "Assistenz Geräuschemacher*in",
-    "en": "Assistant Foley Artist"
+    "de": "ADR-Aufnahmetechniker*in",
+    "en": "ADR Recording Engineer"
   },
   "notation": [
     "011462"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Assistant%20Foley%20Artist"
+      "id": "https://themoviedb.org#ADR%20Recording%20Engineer"
     }
   ],
   "inScheme": {

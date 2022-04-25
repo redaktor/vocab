@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012441",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012441",
   "prefLabel": {
-    "de": "Mischtechniker*in",
-    "en": "Mix Technician"
+    "de": "Produktionsassistent für Simulation und Effekte",
+    "en": "Simulation & Effects Production Assistant"
   },
   "notation": [
     "012441"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Mix%20Technician"
+      "id": "https://themoviedb.org#Simulation%20&%20Effects%20Production%20Assistant"
     }
   ],
   "inScheme": {

@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0026",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0026",
   "prefLabel": {
-    "de": "Künstlerische*r Direktor*in",
-    "en": "Artistic director"
+    "de": "Veranstalter*in",
+    "en": "Organizer"
   },
   "definition": {
-    "de": "Eine Person, die für die Kontrolle der Entwicklung des künstlerischen Stils einer gesamten Produktion verantwortlich ist, einschließlich der Auswahl der zu präsentierenden Werke und der Auswahl des leitenden Produktionspersonals",
-    "en": "A person responsible for controlling the development of the artistic style of an entire production, including the choice of works to be presented and selection of senior production staff"
+    "de": "Eine Person, Familie oder Organisation, die die Ausstellung, Veranstaltung, Konferenz usw. organisiert, aus der eine Ressource hervorgegangen ist",
+    "en": "A person, family, or organization organizing the exhibit, event, conference, etc., which gave rise to a resource "
   },
   "notation": [
     "0026"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/ard"
+      "id": "https://id.loc.gov/vocabulary/relators/orm"
     }
   ],
   "inScheme": {

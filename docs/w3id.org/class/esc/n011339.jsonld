@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011339",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011339",
   "prefLabel": {
-    "de": "Kamera 'B'",
-    "en": "Camera Operator 'B'"
+    "de": "Co-Standfotograf*in",
+    "en": "Additional Still Photographer"
   },
   "notation": [
     "011339"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#%22B%22%20Camera%20Operator"
+      "id": "https://themoviedb.org#Additional%20Still%20Photographer"
     }
   ],
   "inScheme": {

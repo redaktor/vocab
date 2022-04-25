@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012318",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012318",
   "prefLabel": {
-    "de": "Visuelle Entwicklung",
-    "en": "Visual Development"
+    "de": "Kostümmeister*in",
+    "en": "Costume Mistress"
   },
   "notation": [
     "012318"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Visual%20Development"
+      "id": "https://themoviedb.org#Costume%20Mistress"
     }
   ],
   "inScheme": {

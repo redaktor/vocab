@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011750",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011750",
   "prefLabel": {
-    "de": "Koordinator*in für die Dekoration der Kulissen",
-    "en": "Set Decorating Coordinator"
+    "de": "Art Director Visuelle Effekte",
+    "en": "Visual Effects Art Director"
   },
   "notation": [
     "011750"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Set%20Decorating%20Coordinator"
+      "id": "https://themoviedb.org#Visual%20Effects%20Art%20Director"
     }
   ],
   "inScheme": {

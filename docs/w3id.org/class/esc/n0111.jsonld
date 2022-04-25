@@ -43,33 +43,54 @@
     {
       "id": "https://w3id.org/class/esc/n011114",
       "prefLabel": {
+        "de": "Interviewer*in",
+        "en": "Interviewer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011115",
+      "prefLabel": {
         "de": "Zeuge / Augenzeug*in",
         "en": "Witness"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n011115",
+      "id": "https://w3id.org/class/esc/n011116",
       "prefLabel": {
         "de": "Befragte Person",
         "en": "Interviewee"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n011116",
+      "id": "https://w3id.org/class/esc/n011117",
+      "prefLabel": {
+        "de": "Videojournalist*in",
+        "en": "Videojournalist"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011118",
+      "prefLabel": {
+        "de": "Video-Bericht",
+        "en": "Video Report"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011119",
       "prefLabel": {
         "de": "Videofilmer*in",
         "en": "Videographer"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n011117",
+      "id": "https://w3id.org/class/esc/n011120",
       "prefLabel": {
         "de": "Filmemacher*in",
         "en": "Filmmaker"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n011118",
+      "id": "https://w3id.org/class/esc/n011121",
       "prefLabel": {
         "de": "Fotojournalist*in",
         "en": "Photojournalist"

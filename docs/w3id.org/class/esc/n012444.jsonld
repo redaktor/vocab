@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012444",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012444",
   "prefLabel": {
-    "de": "Compositor*in",
-    "en": "Compositor"
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, die für die Herstellung von Metallformen oder Formen aus anderen Materialien verantwortlich ist, die für die Produktion von Text und Bildern in Druckerzeugnissen verwendet werden",
-    "en": "A person or organization responsible for the creation of metal slug, or molds made of other materials, used to produce the text and images in printed matter"
+    "de": "Supervisor für Spezialeffekte",
+    "en": "Special Effects Supervisor"
   },
   "notation": [
     "012444"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Compositor"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/cmt"
+      "id": "https://themoviedb.org#Special%20Effects%20Supervisor"
     }
   ],
   "inScheme": {

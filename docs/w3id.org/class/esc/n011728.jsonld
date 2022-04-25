@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011728",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011728",
   "prefLabel": {
-    "de": "Assistenz der Kunstabteilung",
-    "en": "Art Department Assistant"
+    "de": "Technische Direktion für Kreaturen",
+    "en": "Creature Technical Director"
   },
   "notation": [
     "011728"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Art%20Department%20Assistant"
+      "id": "https://themoviedb.org#Creature%20Technical%20Director"
     }
   ],
   "inScheme": {

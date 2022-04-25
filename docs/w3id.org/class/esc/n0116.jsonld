@@ -23,7 +23,7 @@
       "id": "https://w3id.org/class/esc/n011611",
       "prefLabel": {
         "de": "Hauptdarsteller*in",
-        "en": "LeadPerformer"
+        "en": "Lead Performer"
       }
     },
     {
@@ -43,26 +43,82 @@
     {
       "id": "https://w3id.org/class/esc/n011614",
       "prefLabel": {
+        "de": "Schauspielerisches Double",
+        "en": "Acting Double"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011615",
+      "prefLabel": {
+        "de": "Moderator*in",
+        "en": "Moderator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011616",
+      "prefLabel": {
+        "de": "Präsentator*in",
+        "en": "Presenter"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011617",
+      "prefLabel": {
+        "de": "Onscreen-Moderator*in",
+        "en": "Onscreen presenter"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011618",
+      "prefLabel": {
+        "de": "Storyteller",
+        "en": "Storyteller"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011619",
+      "prefLabel": {
+        "de": "Erzähler*in",
+        "en": "Narrator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011620",
+      "prefLabel": {
+        "de": "Kommentator*in",
+        "en": "Commentator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011621",
+      "prefLabel": {
         "de": "Stimme, Sprecher*in",
         "en": "Voice, Speaker"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n011615",
+      "id": "https://w3id.org/class/esc/n011622",
       "prefLabel": {
         "de": "Kamee, Cameo, Statist*in",
         "en": "Cameo"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n011616",
+      "id": "https://w3id.org/class/esc/n011623",
       "prefLabel": {
         "de": "Puppenspieler*in",
         "en": "Puppeteer"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n011617",
+      "id": "https://w3id.org/class/esc/n011624",
+      "prefLabel": {
+        "de": "Bewegungsschauspieler*in",
+        "en": "Motion Actor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n011625",
       "prefLabel": {
         "de": "Special Guest",
         "en": "Special Guest"

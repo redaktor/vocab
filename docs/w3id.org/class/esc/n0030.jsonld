@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0030",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0030",
   "prefLabel": {
-    "de": "Datenlieferant",
-    "en": "Data contributor"
+    "de": "Rechtsnachfolger",
+    "en": "Assignee"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die Daten zur Aufnahme in eine Datenbank oder eine andere Datensammlung vorlegt",
-    "en": "A person or organization that submits data for inclusion in a database or other collection of data"
+    "de": "Eine Person oder Organisation, der eine Lizenz zum Drucken oder Veröffentlichen übertragen wurde",
+    "en": "A person or organization to whom a license for printing or publishing has been transferred"
   },
   "notation": [
     "0030"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/dtc"
+      "id": "https://id.loc.gov/vocabulary/relators/asg"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012355",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012355",
   "prefLabel": {
-    "de": "3D-Generalist",
-    "en": "3D Generalist"
+    "de": "Make-up-Effekte",
+    "en": "Makeup Effects"
   },
   "notation": [
     "012355"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#3D%20Generalist"
+      "id": "https://themoviedb.org#Makeup%20Effects"
     }
   ],
   "inScheme": {

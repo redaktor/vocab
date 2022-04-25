@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0027",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0027",
   "prefLabel": {
-    "de": "Veranstalter*in",
-    "en": "Organizer"
+    "de": "Herausgeber*in",
+    "en": "Issuing body"
   },
   "definition": {
-    "de": "Eine Person, Familie oder Organisation, die die Ausstellung, Veranstaltung, Konferenz usw. organisiert, aus der eine Ressource hervorgegangen ist",
-    "en": "A person, family, or organization organizing the exhibit, event, conference, etc., which gave rise to a resource "
+    "de": "Eine Person, Familie oder Organisation, die ein Werk herausgibt, wie z. B. ein offizielles Organ der Einrichtung",
+    "en": "A person, family or organization issuing a work, such as an official organ of the body"
   },
   "notation": [
     "0027"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/orm"
+      "id": "https://id.loc.gov/vocabulary/relators/isb"
     }
   ],
   "inScheme": {

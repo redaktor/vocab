@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011313",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011313",
   "prefLabel": {
-    "de": "Unterwasserkamera",
-    "en": "Underwater Camera"
+    "de": "Kamera 'B'",
+    "en": "Camera Operator 'B'"
   },
   "notation": [
     "011313"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Underwater%20Camera"
+      "id": "https://themoviedb.org#%22B%22%20Camera%20Operator"
     }
   ],
   "inScheme": {

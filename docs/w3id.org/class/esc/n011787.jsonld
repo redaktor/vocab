@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011787",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011787",
   "prefLabel": {
-    "de": "Haupt-Bauhandwerker*in",
-    "en": "Key Construction Grip"
+    "de": "Konservator*in",
+    "en": "Conservator"
+  },
+  "definition": {
+    "de": "Eine Person oder Organisation, die für die Dokumentation, Bewahrung oder Bearbeitung von gedrucktem oder handschriftlichem Material, Kunstwerken, Artefakten oder anderen Medien verantwortlich ist",
+    "en": "A person or organization responsible for documenting, preserving, or treating printed or manuscript material, works of art, artifacts, or other media"
   },
   "notation": [
     "011787"
@@ -19,7 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Key%20Construction%20Grip"
+      "id": "https://themoviedb.org#Conservator"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/con"
     }
   ],
   "inScheme": {

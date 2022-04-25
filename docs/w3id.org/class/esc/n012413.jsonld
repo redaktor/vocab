@@ -4,8 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012413",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012413",
   "prefLabel": {
-    "de": "Spezialeffekte",
-    "en": "Special Effects"
+    "de": "Cheftechniker*in / Stop-Motion-Experte",
+    "en": "Chief Technician / Stop-Motion Expert"
+  },
+  "altLabel": {
+    "de": [
+      "Technical director"
+    ],
+    "en": [
+      "Technical director"
+    ]
+  },
+  "definition": {
+    "de": "Eine Person, die letztlich für Bühnenbild, Requisiten, Beleuchtung und Ton bei einer Produktion verantwortlich ist",
+    "en": "A person who is ultimately in charge of scenery, props, lights and sound for a production"
   },
   "notation": [
     "012413"
@@ -13,13 +25,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Special%20Effects"
+      "id": "https://themoviedb.org#Chief%20Technician%20/%20Stop-Motion%20Expert"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/tcd"
     }
   ],
   "inScheme": {

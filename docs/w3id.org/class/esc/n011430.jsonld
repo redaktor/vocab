@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011430",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011430",
   "prefLabel": {
-    "de": "Geräuschemacher*in",
-    "en": "Foley"
+    "de": "Assistenz Tontechniker*in",
+    "en": "Assistant Sound Engineer"
   },
   "notation": [
     "011430"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Foley"
+      "id": "https://themoviedb.org#Assistant%20Sound%20Engineer"
     }
   ],
   "inScheme": {

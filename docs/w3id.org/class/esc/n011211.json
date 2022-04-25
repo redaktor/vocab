@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011211",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011211",
   "prefLabel": {
-    "de": "Interviewer*in",
-    "en": "Interviewer"
-  },
-  "definition": {
-    "de": "Eine Person, Familie oder Organisation, die für die Erstellung einer Quelle verantwortlich ist, indem sie als Interviewer, Reporter, Meinungsforscher oder sonstiger Informationsbeschaffer auftritt",
-    "en": "A person, family, or organization responsible for creating or contributing to a resource by acting as an interviewer, reporter, pollster, or some other information gathering agent"
+    "de": "Redakteur*in für Geschichten",
+    "en": "Story Editor"
   },
   "notation": [
     "011211"
@@ -21,9 +17,9 @@
       "en": "Writing"
     }
   },
-  "exactMatch": [
+  "closeMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/ivr"
+      "id": "https://themoviedb.org#Story%20Editor"
     }
   ],
   "inScheme": {

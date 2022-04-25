@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011259",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011259",
   "prefLabel": {
-    "de": "Verfasser*in des Vorworts",
-    "en": "Writer of preface"
-  },
-  "definition": {
-    "de": "Eine Person, Familie oder Organisation, die zu einer Ressource beiträgt, indem sie ein Vorwort zu dem Originalwerk beisteuert",
-    "en": "A person, family, or organization contributing to a resource by providing a preface to the original work"
+    "de": "Story-Entwickler*in",
+    "en": "Story Developer"
   },
   "notation": [
     "011259"
@@ -23,12 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Writer%20of%20preface"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/wpr"
+      "id": "https://themoviedb.org#Story%20Developer"
     }
   ],
   "inScheme": {

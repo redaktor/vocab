@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012920",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012920",
   "prefLabel": {
-    "de": "Prozesskontakt",
-    "en": "Process contact"
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, die in erster Linie für die Durchführung oder Initiierung eines Prozesses verantwortlich ist, wie z. B. bei der Sammlung von Metadatensätzen",
-    "en": "A person or organization primarily responsible for performing or initiating a process, such as is done with the collection of metadata sets"
+    "de": "Lohnbuchhalter*in",
+    "en": "Payroll Accountant"
   },
   "notation": [
     "012920"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0129",
     "prefLabel": {
-      "de": "Recht / Legal",
-      "en": "Legal"
+      "de": "Buchhaltung",
+      "en": "Accounting"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Process%20contact"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/prc"
+      "id": "https://themoviedb.org#Payroll%20Accountant"
     }
   ],
   "inScheme": {

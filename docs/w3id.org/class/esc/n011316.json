@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011316",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011316",
   "prefLabel": {
-    "de": "Kamera-Aufsicht",
-    "en": "Camera Supervisor"
+    "de": "Co Director of Photography",
+    "en": "Additional Director of Photography"
   },
   "notation": [
     "011316"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Camera%20Supervisor"
+      "id": "https://themoviedb.org#Additional%20Director%20of%20Photography"
     }
   ],
   "inScheme": {

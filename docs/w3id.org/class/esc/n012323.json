@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012323",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012323",
   "prefLabel": {
-    "de": "Koordinator*in Animation Fix",
-    "en": "Animation Fix Coordinator"
+    "de": "Näher*in",
+    "en": "Seamstress"
   },
   "notation": [
     "012323"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Animation%20Fix%20Coordinator"
+      "id": "https://themoviedb.org#Seamstress"
     }
   ],
   "inScheme": {

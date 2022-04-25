@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012613",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012613",
   "prefLabel": {
-    "de": "Lithograph*in",
-    "en": "Lithographer"
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, die den Stein oder die Platte für den lithografischen Druck vorbereitet, einschließlich eines Grafikers, der einen Entwurf direkt auf der Oberfläche erstellt, von der gedruckt werden soll.",
-    "en": "A person or organization who prepares the stone or plate for lithographic printing, including a graphic artist creating a design directly on the surface from which printing will be done."
+    "de": "Bleistiftzeichner*in",
+    "en": "Penciler"
   },
   "notation": [
     "012613"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0126",
     "prefLabel": {
-      "de": "Herstellung",
-      "en": "Manufacturing"
+      "de": "Comic",
+      "en": "Comic"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Lithographer"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/ltg"
+      "id": "https://themoviedb.org#Penciler"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012030",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012030",
   "prefLabel": {
-    "de": "Produktionsleiter*in",
-    "en": "Production Supervisor"
+    "de": "Zweite Regieassistenz",
+    "en": "Second Assistant Director"
   },
   "notation": [
     "012030"
@@ -13,13 +13,16 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0120",
     "prefLabel": {
-      "de": "Produktion",
-      "en": "Production"
+      "de": "Regie",
+      "en": "Directing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Production%20Supervisor"
+      "id": "https://themoviedb.org#Second%20Assistant%20Director"
+    },
+    {
+      "id": "https://themoviedb.org#Additional%20Second%20Assistant%20Director"
     }
   ],
   "inScheme": {

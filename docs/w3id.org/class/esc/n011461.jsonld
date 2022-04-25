@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011461",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011461",
   "prefLabel": {
-    "de": "Assistenz Dialog Editor",
-    "en": "Assistant Dialogue Editor"
+    "de": "ADR-Post-Produzent*in",
+    "en": "ADR Post Producer"
   },
   "notation": [
     "011461"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Assistant%20Dialogue%20Editor"
+      "id": "https://themoviedb.org#ADR%20Post%20Producer"
     }
   ],
   "inScheme": {

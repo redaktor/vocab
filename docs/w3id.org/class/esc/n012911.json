@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012911",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012911",
   "prefLabel": {
-    "de": "Zensor",
-    "en": "Censor"
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, die bibliografische Quellen prüft, um Teile zu unterdrücken, die aus moralischen, politischen, militärischen oder anderen Gründen als anstößig gelten",
-    "en": "A person or organization who examines bibliographic resources for the purpose of suppressing parts deemed objectionable on moral, political, military, or other grounds"
+    "de": "Verwaltung",
+    "en": "Administration"
   },
   "notation": [
     "012911"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0129",
     "prefLabel": {
-      "de": "Recht / Legal",
-      "en": "Legal"
+      "de": "Buchhaltung",
+      "en": "Accounting"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Censor"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/cns"
+      "id": "https://themoviedb.org#Administration"
     }
   ],
   "inScheme": {

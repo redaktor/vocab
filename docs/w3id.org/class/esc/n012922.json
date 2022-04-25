@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012922",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012922",
   "prefLabel": {
-    "de": "Abgrenzer",
-    "en": "Delineator"
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, die technische Zeichnungen nach Entwürfen anderer ausführt",
-    "en": "A person or organization executing technical drawings from others' designs"
+    "de": "Zweite Assistenz Buchhaltung",
+    "en": "Second Assistant Accountant"
   },
   "notation": [
     "012922"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0129",
     "prefLabel": {
-      "de": "Recht / Legal",
-      "en": "Legal"
+      "de": "Buchhaltung",
+      "en": "Accounting"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Delineator"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/dln"
+      "id": "https://themoviedb.org#Second%20Assistant%20Accountant"
     }
   ],
   "inScheme": {

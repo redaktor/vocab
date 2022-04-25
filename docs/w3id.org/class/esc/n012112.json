@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012112",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012112",
   "prefLabel": {
-    "de": "Kolorist*in",
-    "en": "Colorist"
+    "de": "Produzent*in",
+    "en": "Producer"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die für das Aufbringen von Farbe auf Zeichnungen, Drucke, Fotografien, Karten, bewegte Bilder usw. verantwortlich ist",
-    "en": "A person or organization responsible for applying color to drawings, prints, photographs, maps, moving images, etc"
+    "de": "Eine Person, Familie oder Organisation, die für die meisten geschäftlichen Aspekte einer Produktion für Bildschirm, Tonaufnahme, Fernsehen, Webcast usw. verantwortlich ist. Der Produzent ist in der Regel für die Mittelbeschaffung, das Management der Produktion, die Einstellung von Schlüsselpersonal, die Vermittlung von Verleihern usw. verantwortlich.",
+    "en": "A person, family, or organization responsible for most of the business aspects of a production for screen, audio recording, television, webcast, etc. The producer is generally responsible for fund raising, managing the production, hiring key personnel, arranging for distributors, etc."
   },
   "notation": [
     "012112"
@@ -17,18 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Colorist"
+      "id": "https://themoviedb.org#Producer"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/clr"
+      "id": "https://id.loc.gov/vocabulary/relators/pro"
     }
   ],
   "inScheme": {

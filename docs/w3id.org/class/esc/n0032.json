@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0032",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0032",
   "prefLabel": {
-    "de": "Lizenznehmer*in",
-    "en": "Licensee"
+    "de": "Lizenzgeber*in",
+    "en": "Licensor"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die der ursprüngliche Empfänger der Druck- oder Veröffentlichungslizenz ist",
-    "en": "A person or organization who is an original recipient of the right to print or publish"
+    "de": "Eine Person oder Organisation, die Unterzeichner der Lizenz, des Imprimaturs usw. ist",
+    "en": "A person or organization who is a signer of the license, imprimatur, etc"
   },
   "notation": [
     "0032"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/lse"
+      "id": "https://id.loc.gov/vocabulary/relators/lso"
     }
   ],
   "inScheme": {

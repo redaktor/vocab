@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011454",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011454",
   "prefLabel": {
-    "de": "ADR-Editor",
-    "en": "ADR Editor"
+    "de": "Co-Produktions-Tonmischer*in",
+    "en": "Additional Production Sound Mixer"
   },
   "notation": [
     "011454"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#ADR%20Editor"
+      "id": "https://themoviedb.org#Additional%20Production%20Sound%20Mixer"
     }
   ],
   "inScheme": {

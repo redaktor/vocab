@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012468",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012468",
   "prefLabel": {
-    "de": "Studio-Lehrer*in",
-    "en": "Studio Teacher"
+    "de": "Visuelle Effekte Compositor",
+    "en": "Visual Effects Compositor"
   },
   "notation": [
     "012468"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Studio%20Teacher"
+      "id": "https://themoviedb.org#Visual%20Effects%20Compositor"
     }
   ],
   "inScheme": {

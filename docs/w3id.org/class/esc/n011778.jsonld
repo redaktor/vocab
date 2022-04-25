@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011778",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011778",
   "prefLabel": {
-    "de": "Erste Assistenz Art Direction",
-    "en": "First Assistant Art Direction"
+    "de": "Assistenz Produktionsdesign",
+    "en": "Assistant Production Design"
   },
   "notation": [
     "011778"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#First%20Assistant%20Art%20Direction"
+      "id": "https://themoviedb.org#Assistant%20Production%20Design"
     }
   ],
   "inScheme": {

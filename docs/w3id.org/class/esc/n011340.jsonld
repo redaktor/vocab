@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011340",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011340",
   "prefLabel": {
-    "de": "Kamera 'C'",
-    "en": "Camera Operator 'C'"
+    "de": "Epk Direktor*in",
+    "en": "Epk Director"
   },
   "notation": [
     "011340"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#%22C%22%20Camera%20Operator"
+      "id": "https://themoviedb.org#Epk%20Director"
     }
   ],
   "inScheme": {

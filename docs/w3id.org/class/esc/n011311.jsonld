@@ -4,11 +4,11 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011311",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011311",
   "prefLabel": {
-    "de": "Director of Photography, Kamerafrau, Kameramann",
+    "de": "Director of Photography, Bildregisseur*in, Kameraperson, Kamerafrau, Kameramann",
     "en": "Director of Photography"
   },
   "definition": {
-    "de": "Eine Person, die für das Fotografieren eines Kinofilms verantwortlich ist, die die technischen Aspekte der Beleuchtung und des Fotografierens von Szenen plant und oft den Regisseur bei der Wahl von Winkeln, Kameraeinstellungen und Lichtstimmungen unterstützt. Er oder sie kann auch die Weiterverarbeitung des gefilmten Materials bis zur Fertigstellung der Filmkopie beaufsichtigen. Der Kameramann wird auch als Director of Photography bezeichnet. Nicht zu verwechseln mit Videofilmer",
+    "de": "Eine Person, die für das Fotografieren eines Kinofilms verantwortlich ist, die die technischen Aspekte der Beleuchtung und des Fotografierens von Szenen plant und oft den Regisseur bei der Wahl von Winkeln, Kameraeinstellungen und Lichtstimmungen unterstützt. Er oder sie kann auch die Weiterverarbeitung des gefilmten Materials bis zur Fertigstellung der Filmkopie beaufsichtigen. Die Kameraperson wird auch als Director of Photography bezeichnet. Nicht zu verwechseln mit Videofilmer",
     "en": "A person in charge of photographing a motion picture, who plans the technical aspets of lighting and photographing of scenes, and often assists the director in the choice of angles, camera setups, and lighting moods. He or she may also supervise the further processing of filmed material up to the completion of the work print. Cinematographer is also referred to as director of photography. Do not confuse with videographer"
   },
   "notation": [

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012350",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012350",
   "prefLabel": {
-    "de": "2D-Künstler*in",
-    "en": "2D Artist"
+    "de": "Kontrolle Maskenbildner*in",
+    "en": "Makeup Supervisor"
   },
   "notation": [
     "012350"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#2D%20Artist"
+      "id": "https://themoviedb.org#Makeup%20Supervisor"
     }
   ],
   "inScheme": {

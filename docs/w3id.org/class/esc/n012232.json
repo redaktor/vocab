@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012232",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012232",
   "prefLabel": {
-    "de": "Supervisor für Prothesen",
-    "en": "Prosthetic Supervisor"
+    "de": "Assoziierte*r Redakteur*in",
+    "en": "Associate Editor"
   },
   "notation": [
     "012232"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Prosthetic%20Supervisor"
+      "id": "https://themoviedb.org#Associate%20Editor"
     }
   ],
   "inScheme": {

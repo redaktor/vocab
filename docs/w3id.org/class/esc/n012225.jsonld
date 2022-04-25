@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012225",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012225",
   "prefLabel": {
-    "de": "Schuhdesign",
-    "en": "Shoe Design"
+    "de": "Filmmaterial",
+    "en": "File Footage"
   },
   "notation": [
     "012225"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Shoe%20Design"
+      "id": "https://themoviedb.org#File%20Footage"
     }
   ],
   "inScheme": {

@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012716",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012716",
   "prefLabel": {
-    "de": "Buchhändler*in",
-    "en": "Bookseller"
+    "de": "Drucker*in",
+    "en": "Printer"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, die Bücher und andere bibliografische Materialien zum Kauf anbietet. Das Interesse an den Materialien ist in erster Linie lukrativ",
-    "en": "A person or organization who makes books and other bibliographic materials available for purchase. Interest in the materials is primarily lucrative"
+    "de": "Eine Person, Familie oder Organisation, die an der Herstellung von gedrucktem Text, notierter Musik usw. aus Typen oder Platten beteiligt ist, wie z. B. ein Buch, eine Zeitung, eine Zeitschrift, eine Breitseite, eine Partitur usw.",
+    "en": "A person, family, or organization involved in manufacturing a manifestation of printed text, notated music, etc., from type or plates, such as a book, newspaper, magazine, broadside, score, etc"
   },
   "notation": [
     "012716"
@@ -17,13 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0127",
     "prefLabel": {
-      "de": "Vertrieb",
-      "en": "Distribution"
+      "de": "Herstellung",
+      "en": "Manufacturing"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://themoviedb.org#Printer"
+    }
+  ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/bsl"
+      "id": "https://id.loc.gov/vocabulary/relators/prt"
     }
   ],
   "inScheme": {

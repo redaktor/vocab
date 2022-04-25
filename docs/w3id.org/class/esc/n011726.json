@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011726",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011726",
   "prefLabel": {
-    "de": "Leiter*in der Kunstabteilung",
-    "en": "Art Department Manager"
+    "de": "Leitung Kreaturen-Designer",
+    "en": "Lead Creature Designer"
   },
   "notation": [
     "011726"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Art%20Department%20Manager"
+      "id": "https://themoviedb.org#Lead%20Creature%20Designer"
     }
   ],
   "inScheme": {

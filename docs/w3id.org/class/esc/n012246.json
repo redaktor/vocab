@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012246",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012246",
   "prefLabel": {
-    "de": "Prothetische(r) Maskenbildner*in",
-    "en": "Prosthetic Makeup Artist"
+    "de": "Korrektor*in",
+    "en": "Corrector"
+  },
+  "definition": {
+    "de": "Eine Person oder Organisation, die Manuskripte korrigiert, z. B. ein Skriptoriumsbeamter, der die Arbeit eines Schreibers korrigiert. Für Drucksachen verwenden Sie Proofreader",
+    "en": "A person or organization who is a corrector of manuscripts, such as the scriptorium official who corrected the work of a scribe. For printed matter, use Proofreader"
   },
   "notation": [
     "012246"
@@ -13,13 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Prosthetic%20Makeup%20Artist"
+      "id": "https://themoviedb.org#Corrector"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/crr"
     }
   ],
   "inScheme": {

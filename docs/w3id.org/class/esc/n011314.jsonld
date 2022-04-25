@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011314",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011314",
   "prefLabel": {
-    "de": "Kamera Bediener*in",
-    "en": "Camera Operator"
+    "de": "Kamera 'C'",
+    "en": "Camera Operator 'C'"
   },
   "notation": [
     "011314"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Camera%20Operator"
+      "id": "https://themoviedb.org#%22C%22%20Camera%20Operator"
     }
   ],
   "inScheme": {

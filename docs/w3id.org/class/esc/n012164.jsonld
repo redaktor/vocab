@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012164",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012164",
   "prefLabel": {
-    "de": "Beschrifter*in",
-    "en": "Inscriber"
-  },
-  "definition": {
-    "de": "Eine Person, die eine Widmungs- oder Schenkungserklärung verfasst hat",
-    "en": "A person who has written a statement of dedication or gift"
+    "de": "Casting-Direktor*in",
+    "en": "Casting Director"
   },
   "notation": [
     "012164"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Inscriber"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/ins"
+      "id": "https://themoviedb.org#Casting%20Director"
     }
   ],
   "inScheme": {

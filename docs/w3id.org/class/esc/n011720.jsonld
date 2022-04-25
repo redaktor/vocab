@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011720",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011720",
   "prefLabel": {
-    "de": "Innenarchitekt*in",
-    "en": "Interior Designer"
+    "de": "Kreativ-Direktor*in",
+    "en": "Creative Director"
   },
   "notation": [
     "011720"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Interior%20Designer"
+      "id": "https://themoviedb.org#Creative%20Director"
     }
   ],
   "inScheme": {

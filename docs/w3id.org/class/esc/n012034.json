@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012034",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012034",
   "prefLabel": {
-    "de": "Ausführende Berater*in",
-    "en": "Executive Consultant"
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, die für eine Ressource relevant ist und für professionelle Beratung oder Dienstleistungen in einem speziellen Wissens- oder Ausbildungsbereich in Anspruch genommen wird",
-    "en": "A person or organization relevant to a resource, who is called upon for professional advice or services in a specialized field of knowledge or training"
+    "de": "Insert Unit Director",
+    "en": "Insert Unit Director"
   },
   "notation": [
     "012034"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0120",
     "prefLabel": {
-      "de": "Produktion",
-      "en": "Production"
+      "de": "Regie",
+      "en": "Directing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Executive%20Consultant"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/csl"
+      "id": "https://themoviedb.org#Insert%20Unit%20Director"
     }
   ],
   "inScheme": {

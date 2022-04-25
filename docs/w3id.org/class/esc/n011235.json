@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011235",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011235",
   "prefLabel": {
-    "de": "Serienkomposition",
-    "en": "Series Composition"
+    "de": "Idee",
+    "en": "Idea"
   },
   "notation": [
     "011235"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Series%20Composition"
+      "id": "https://themoviedb.org#Idea"
     }
   ],
   "inScheme": {

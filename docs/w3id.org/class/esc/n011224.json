@@ -4,20 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011224",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011224",
   "prefLabel": {
-    "de": "Drehbuch",
-    "en": "Screenstory"
-  },
-  "altLabel": {
-    "de": [
-      "Screenwriter"
-    ],
-    "en": [
-      "Screenwriter"
-    ]
-  },
-  "definition": {
-    "de": "Ein Autor eines Drehbuchs, Skripts oder einer Szene",
-    "en": "An author of a screenplay, script, or scene"
+    "de": "Drehbücher für die Postproduktion",
+    "en": "Post Production Scripts"
   },
   "notation": [
     "011224"
@@ -31,12 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Screenstory"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/aus"
+      "id": "https://themoviedb.org#Post%20Production%20Scripts"
     }
   ],
   "inScheme": {

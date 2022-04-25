@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012031",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012031",
   "prefLabel": {
-    "de": "Buchhalter*in für die Produktion",
-    "en": "Production Accountant"
+    "de": "Dritte Regieassistenz",
+    "en": "Third Assistant Director"
   },
   "notation": [
     "012031"
@@ -13,13 +13,16 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0120",
     "prefLabel": {
-      "de": "Produktion",
-      "en": "Production"
+      "de": "Regie",
+      "en": "Directing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Production%20Accountant"
+      "id": "https://themoviedb.org#Third%20Assistant%20Director"
+    },
+    {
+      "id": "https://themoviedb.org#Additional%20Third%20Assistant%20Director"
     }
   ],
   "inScheme": {

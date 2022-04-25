@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011477",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011477",
   "prefLabel": {
-    "de": "Koordinator*in der Loop-Gruppe",
-    "en": "Loop Group Coordinator"
+    "de": "Spezielle Toneffekte",
+    "en": "Special Sound Effects"
   },
   "notation": [
     "011477"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Loop%20Group%20Coordinator"
+      "id": "https://themoviedb.org#Special%20Sound%20Effects"
     }
   ],
   "inScheme": {

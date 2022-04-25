@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012816",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012816",
   "prefLabel": {
-    "de": "Dissertant*in",
-    "en": "Dissertant"
+    "de": "Buchhändler*in",
+    "en": "Bookseller"
   },
   "definition": {
-    "de": "Eine Person, die eine Abschlussarbeit für eine Universität oder einen höheren Bildungsabschluss vorlegt",
-    "en": "A person who presents a thesis for a university or higher-level educational degree"
+    "de": "Eine Person oder Organisation, die Bücher und andere bibliografische Materialien zum Kauf anbietet. Das Interesse an den Materialien ist in erster Linie lukrativ",
+    "en": "A person or organization who makes books and other bibliographic materials available for purchase. Interest in the materials is primarily lucrative"
   },
   "notation": [
     "012816"
@@ -17,13 +17,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0128",
     "prefLabel": {
-      "de": "Akademisch TODO",
-      "en": "Academics TODO"
+      "de": "Vertrieb",
+      "en": "Distribution"
     }
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/dis"
+      "id": "https://id.loc.gov/vocabulary/relators/bsl"
     }
   ],
   "inScheme": {

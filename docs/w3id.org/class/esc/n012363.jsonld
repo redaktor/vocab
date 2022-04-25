@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012363",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012363",
   "prefLabel": {
-    "de": "Technische Direktion für Kreaturen",
-    "en": "Creature Technical Director"
+    "de": "Kontaktlinsentechniker*in",
+    "en": "Contact Lens Technician"
   },
   "notation": [
     "012363"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Creature%20Technical%20Director"
+      "id": "https://themoviedb.org#Contact%20Lens%20Technician"
     }
   ],
   "inScheme": {

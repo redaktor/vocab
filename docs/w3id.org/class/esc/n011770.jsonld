@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011770",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011770",
   "prefLabel": {
-    "de": "Einkäufer*in für Konstruktion",
-    "en": "Construction Buyer"
+    "de": "Hauptlackierer*in",
+    "en": "Lead Painter"
   },
   "notation": [
     "011770"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Construction%20Buyer"
+      "id": "https://themoviedb.org#Lead%20Painter"
     }
   ],
   "inScheme": {

@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012161",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012161",
   "prefLabel": {
-    "de": "Redaktor*in",
-    "en": "Redaktor"
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, die den Rahmen für einen Artikel schreibt oder entwickelt, ohne intellektuell für dessen Inhalt verantwortlich zu sein",
-    "en": "A person or organization who writes or develops the framework for an item without being intellectually responsible for its content"
+    "de": "Ausführende Koproduzent*in",
+    "en": "Executive Co-Producer"
   },
   "notation": [
     "012161"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Redaktor"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/red"
+      "id": "https://themoviedb.org#Executive%20Co-Producer"
     }
   ],
   "inScheme": {

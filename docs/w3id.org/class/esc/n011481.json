@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011481",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011481",
   "prefLabel": {
-    "de": "Tonmischungstechniker*in",
-    "en": "Sound Mix Technician"
+    "de": "Mischingenieur*in",
+    "en": "Mixing Engineer"
   },
   "notation": [
     "011481"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Sound%20Mix%20Technician"
+      "id": "https://themoviedb.org#Mixing%20Engineer"
     }
   ],
   "inScheme": {

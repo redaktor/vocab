@@ -4,10 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011257",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011257",
   "prefLabel": {
-    "en": "Author of afterword, colophon, etc."
-  },
-  "definition": {
-    "en": "A person or organization responsible for an afterword, postface, colophon, etc. but who is not the chief author of a work"
+    "de": "Berater*in für die Story",
+    "en": "Story Consultant"
   },
   "notation": [
     "011257"
@@ -21,12 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Author%20of%20afterword,%20colophon,%20etc."
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/aft"
+      "id": "https://themoviedb.org#Story%20Consultant"
     }
   ],
   "inScheme": {

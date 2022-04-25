@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011328",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011328",
   "prefLabel": {
-    "de": "Luftbildkamera-Techniker*in",
-    "en": "Aerial Camera Technician"
+    "de": "Zusätzliche Kamera",
+    "en": "Additional Camera"
   },
   "notation": [
     "011328"
@@ -19,7 +19,10 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Aerial%20Camera%20Technician"
+      "id": "https://themoviedb.org#Additional%20Camera"
+    },
+    {
+      "id": "https://themoviedb.org#Digital%20Film%20Recording"
     }
   ],
   "inScheme": {

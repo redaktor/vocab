@@ -4,20 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011236",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011236",
   "prefLabel": {
-    "de": "Drehbuch-Editor",
-    "en": "Script Editor"
-  },
-  "altLabel": {
-    "de": [
-      "Film editor"
-    ],
-    "en": [
-      "Film editor"
-    ]
-  },
-  "definition": {
-    "de": "Eine Person, die nach dem Drehbuch und in kreativer Zusammenarbeit mit dem Regisseur das gefilmte Material auswählt, arrangiert und zusammenfügt, die Synchronisation von Bild und Ton kontrolliert und an anderen Aufgaben der Postproduktion wie der Tonmischung und der Bearbeitung visueller Effekte beteiligt ist.  Heutzutage wird die Bildbearbeitung häufig digital durchgeführt.",
-    "en": "A person who, following the script and in creative cooperation with the Director, selects, arranges, and assembles the filmed material, controls the synchronization of picture and sound, and participates in other post-production tasks such as sound mixing and visual effects processing.  Today, picture editing is often performed digitally."
+    "de": "Autorenproduktion",
+    "en": "Writers' Production"
   },
   "notation": [
     "011236"
@@ -31,12 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Script%20Editor"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/flm"
+      "id": "https://themoviedb.org#Writers'%20Production"
     }
   ],
   "inScheme": {

@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011511",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011511",
   "prefLabel": {
-    "de": "Musikalische Leitung",
-    "en": "Music Director"
-  },
-  "definition": {
-    "de": "Eine Person, die die Tätigkeiten des Komponisten, des Tonmeisters und des Tonmischers für eine Bewegtbildproduktion oder für eine musikalische oder dramatische Darbietung oder Unterhaltung koordiniert",
-    "en": "A person who coordinates the activities of the composer, the sound editor, and sound mixers for a moving image production or for a musical or dramatic presentation or entertainment"
+    "de": "Musik",
+    "en": "Music"
   },
   "notation": [
     "011511"
@@ -23,12 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Music%20Director"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/msd"
+      "id": "https://themoviedb.org#Music"
     }
   ],
   "inScheme": {

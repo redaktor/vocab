@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011752",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011752",
   "prefLabel": {
-    "de": "Storyboard-Designer*in",
-    "en": "Storyboard Designer"
+    "de": "Motion-Capture-Künstler*in",
+    "en": "Motion Capture Artist"
   },
   "notation": [
     "011752"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Storyboard%20Designer"
+      "id": "https://themoviedb.org#Motion%20Capture%20Artist"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011775",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011775",
   "prefLabel": {
-    "de": "Dekorateur*in",
-    "en": "Decorator"
+    "de": "Läufer*in Kunstabteilung",
+    "en": "Runner Art Department"
   },
   "notation": [
     "011775"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Decorator"
+      "id": "https://themoviedb.org#Runner%20Art%20Department"
     }
   ],
   "inScheme": {

@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011114",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011114",
   "prefLabel": {
-    "de": "Zeuge / Augenzeug*in",
-    "en": "Witness"
+    "de": "Interviewer*in",
+    "en": "Interviewer"
   },
   "definition": {
-    "de": "Verwendung für eine Person, die den Wahrheitsgehalt eines Ereignisses oder einer Handlung überprüft.",
-    "en": "Use for a person who verifies the truthfulness of an event or action."
+    "de": "Eine Person, Familie oder Organisation, die für die Erstellung einer Quelle verantwortlich ist, indem sie als Interviewer, Reporter, Meinungsforscher oder sonstiger Informationsbeschaffer auftritt",
+    "en": "A person, family, or organization responsible for creating or contributing to a resource by acting as an interviewer, reporter, pollster, or some other information gathering agent"
   },
   "notation": [
     "011114"
@@ -21,14 +21,9 @@
       "en": "Coverage"
     }
   },
-  "closeMatch": [
-    {
-      "id": "https://themoviedb.org#Witness"
-    }
-  ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/wit"
+      "id": "https://id.loc.gov/vocabulary/relators/ivr"
     }
   ],
   "inScheme": {

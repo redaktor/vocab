@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011824",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011824",
   "prefLabel": {
-    "de": "Takelage Grip",
-    "en": "Rigging Grip"
+    "de": "Produktions-Assistenz für Beleuchtung",
+    "en": "Lighting Production Assistant"
   },
   "notation": [
     "011824"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Rigging%20Grip"
+      "id": "https://themoviedb.org#Lighting%20Production%20Assistant"
     }
   ],
   "inScheme": {

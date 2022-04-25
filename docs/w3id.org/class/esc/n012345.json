@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012345",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012345",
   "prefLabel": {
-    "de": "3D-Kontrolle",
-    "en": "3D Supervisor"
+    "de": "Spezialisierte Techniker*in für Garderobe",
+    "en": "Wardrobe Specialized Technician"
   },
   "notation": [
     "012345"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#3D%20Supervisor"
+      "id": "https://themoviedb.org#Wardrobe%20Specialized%20Technician"
     }
   ],
   "inScheme": {

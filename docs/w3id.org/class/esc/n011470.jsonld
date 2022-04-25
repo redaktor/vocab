@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011470",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011470",
   "prefLabel": {
-    "de": "Aufnahme Geräuschemacher*in",
-    "en": "Foley Recordist"
+    "de": "Supervisor Geräuschemacher*in",
+    "en": "Foley Supervisor"
   },
   "notation": [
     "011470"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Foley%20Recordist"
+      "id": "https://themoviedb.org#Foley%20Supervisor"
     }
   ],
   "inScheme": {

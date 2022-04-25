@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011823",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011823",
   "prefLabel": {
-    "de": "Elektriker*in",
-    "en": "Electrician"
-  },
-  "definition": {
-    "de": "Eine Person, die für den Aufbau einer Beleuchtungsanlage und die Fokussierung der Lichter für eine Produktion verantwortlich ist und die Beleuchtung während einer Aufführung steuert",
-    "en": "A person responsible for setting up a lighting rig and focusing the lights for a production, and running the lighting at a performance"
+    "de": "Beleuchtungskoordinator*in",
+    "en": "Lighting Coordinator"
   },
   "notation": [
     "011823"
@@ -23,12 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Electrician"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/elg"
+      "id": "https://themoviedb.org#Lighting%20Coordinator"
     }
   ],
   "inScheme": {

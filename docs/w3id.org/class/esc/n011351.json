@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011351",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011351",
   "prefLabel": {
-    "de": "Vorarbeiter*in Grip",
-    "en": "Best Boy Grip"
+    "de": "Dolly-Greifer",
+    "en": "Dolly Grip"
   },
   "notation": [
     "011351"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Best%20Boy%20Grip"
+      "id": "https://themoviedb.org#Dolly%20Grip"
     }
   ],
   "inScheme": {

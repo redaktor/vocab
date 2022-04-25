@@ -4,15 +4,15 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0128",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0128",
   "prefLabel": {
-    "de": "Akademisch TODO",
-    "en": "Academics TODO"
+    "de": "Vertrieb",
+    "en": "Distribution"
   },
   "altLabel": {
     "de": [
-      "Wissenschaft"
+      "Verkauf"
     ],
     "en": [
-      "Science"
+      "Selling"
     ]
   },
   "notation": [
@@ -22,50 +22,64 @@
     {
       "id": "https://w3id.org/class/esc/n012811",
       "prefLabel": {
-        "de": "Schüler*in",
-        "en": "Pupil"
+        "de": "Vertrieb",
+        "en": "Distributor"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012812",
       "prefLabel": {
-        "de": "Student*in",
-        "en": "Student"
+        "de": "Leihgeber*in, Einleger*in",
+        "en": "Depositor"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012813",
       "prefLabel": {
-        "de": "Lehrer*in",
-        "en": "Teacher"
+        "de": "Filmverleih",
+        "en": "Film distributor"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012814",
       "prefLabel": {
-        "de": "Professor*in",
-        "en": "Professor"
+        "de": "Verleiher*in",
+        "en": "Lender"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012815",
       "prefLabel": {
-        "de": "Betreuer*in des Studiengangs",
-        "en": "Degree supervisor"
+        "de": "Verkäufer*in",
+        "en": "Seller"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012816",
       "prefLabel": {
-        "de": "Dissertant*in",
-        "en": "Dissertant"
+        "de": "Buchhändler*in",
+        "en": "Bookseller"
       }
     },
     {
       "id": "https://w3id.org/class/esc/n012817",
       "prefLabel": {
-        "de": "Präses",
-        "en": "Praeses"
+        "de": "Provider",
+        "en": "Provider"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012818",
+      "prefLabel": {
+        "de": "Grantee, Monitor",
+        "en": "Grantee, Monitor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n012819",
+      "prefLabel": {
+        "de": "Vorherige Eigentümer*in",
+        "en": "Former Owner"
       }
     }
   ],

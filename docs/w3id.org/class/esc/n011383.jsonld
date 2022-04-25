@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011383",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011383",
   "prefLabel": {
-    "de": "Zweite Kompanie Grip",
-    "en": "Second Company Grip"
+    "de": "Zweite Assistenz Kamera C",
+    "en": "Second Assistant 'C' Camera"
   },
   "notation": [
     "011383"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Second%20Company%20Grip"
+      "id": "https://themoviedb.org#Second%20Assistant%20%22C%22%20Camera"
     }
   ],
   "inScheme": {

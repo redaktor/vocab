@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012445",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012445",
   "prefLabel": {
-    "de": "Tätowierer*in",
-    "en": "Tattooist"
+    "de": "3D-Kontrolle",
+    "en": "3D Supervisor"
   },
   "notation": [
     "012445"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Tattooist"
+      "id": "https://themoviedb.org#3D%20Supervisor"
     }
   ],
   "inScheme": {

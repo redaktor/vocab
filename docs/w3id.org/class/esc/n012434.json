@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012434",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012434",
   "prefLabel": {
-    "de": "Supervisor für Produktionsressourcen",
-    "en": "Supervisor of Production Resources"
+    "de": "Bildwissenschaft",
+    "en": "Imaging Science"
   },
   "notation": [
     "012434"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Supervisor%20of%20Production%20Resources"
+      "id": "https://themoviedb.org#Imaging%20Science"
     }
   ],
   "inScheme": {

@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011719",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011719",
   "prefLabel": {
-    "de": "Konzeptionelle Gestaltung",
-    "en": "Conceptual Design"
+    "de": "Künstlerische Leitung",
+    "en": "Art Direction"
+  },
+  "definition": {
+    "de": "Eine Person, die zu einer Film- oder Fernsehproduktion beiträgt, indem sie die Künstler und Handwerker beaufsichtigt, die die Kulissen bauen",
+    "en": "A person contributing to a motion picture or television production by overseeing the artists and craftspeople who build the sets"
   },
   "notation": [
     "011719"
@@ -19,7 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Conceptual%20Design"
+      "id": "https://themoviedb.org#Art%20Direction"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/adi"
     }
   ],
   "inScheme": {

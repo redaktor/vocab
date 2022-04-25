@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011942",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011942",
   "prefLabel": {
-    "de": "Bühnenregisseur*in",
-    "en": "Stage Director"
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, die durch die Gesamtleitung und Überwachung einer Aufführung zu einer Bühnenressource beiträgt",
-    "en": "A person or organization contributing to a stage resource through the overall management and supervision of a performance"
+    "de": "Assistenz Dekorationseinkäufer*in",
+    "en": "Assistant Set Decoration Buyer"
   },
   "notation": [
     "011942"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0119",
     "prefLabel": {
-      "de": "Regie",
-      "en": "Directing"
+      "de": "Bühne und Requisite",
+      "en": "Stage and Props"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Stage%20Director"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/sgd"
+      "id": "https://themoviedb.org#Assistant%20Set%20Decoration%20Buyer"
     }
   ],
   "inScheme": {

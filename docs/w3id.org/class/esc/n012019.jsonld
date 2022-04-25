@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012019",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012019",
   "prefLabel": {
-    "de": "Fernsehproduzent*in",
-    "en": "Television producer"
+    "de": "Bühnenregisseur*in",
+    "en": "Stage Director"
   },
   "definition": {
-    "de": "Ein Produzent, der für die meisten geschäftlichen Aspekte eines Fernsehprogramms verantwortlich ist",
-    "en": "A producer responsible for most of the business aspects of a television program"
+    "de": "Eine Person oder Organisation, die durch die Gesamtleitung und Überwachung einer Aufführung zu einer Bühnenressource beiträgt",
+    "en": "A person or organization contributing to a stage resource through the overall management and supervision of a performance"
   },
   "notation": [
     "012019"
@@ -17,18 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0120",
     "prefLabel": {
-      "de": "Produktion",
-      "en": "Production"
+      "de": "Regie",
+      "en": "Directing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Television%20producer"
+      "id": "https://themoviedb.org#Stage%20Director"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/tlp"
+      "id": "https://id.loc.gov/vocabulary/relators/sgd"
     }
   ],
   "inScheme": {

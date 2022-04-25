@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011355",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011355",
   "prefLabel": {
-    "de": "Kamerawagen",
-    "en": "Camera Car"
+    "de": "Co-Key-Grip",
+    "en": "Additional Key Grip"
   },
   "notation": [
     "011355"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Camera%20Car"
+      "id": "https://themoviedb.org#Additional%20Key%20Grip"
     }
   ],
   "inScheme": {

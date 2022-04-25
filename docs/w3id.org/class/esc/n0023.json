@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0023",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0023",
   "prefLabel": {
-    "de": "Host",
-    "en": "Host"
+    "de": "Host Institution",
+    "en": "Host institution"
   },
   "definition": {
-    "de": "Ein Künstler, der zu einer Ressource beiträgt, indem er ein (oft gesendetes) Programm leitet, das andere Gäste, Künstler usw. einschließt. (z. B. Talkshow-Moderator)",
-    "en": "A performer contributing to a resource by leading a program (often broadcast) that includes other guests, performers, etc. (e.g., talk show host)"
+    "de": "Eine Organisation, die die Veranstaltung, Ausstellung, Konferenz usw. ausrichtet/hostet, aber wenig oder keine Verantwortung für den Inhalt der Ressource hat",
+    "en": "An organization hosting the event, exhibit, conference, etc., which gave rise to a resource, but having little or no responsibility for the content of the resource"
   },
   "notation": [
     "0023"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/hst"
+      "id": "https://id.loc.gov/vocabulary/relators/his"
     }
   ],
   "inScheme": {

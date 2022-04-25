@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012494",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012494",
   "prefLabel": {
-    "de": "CG-Kontrolle",
-    "en": "CG Supervisor"
+    "de": "Roto-Kontrolle",
+    "en": "Roto Supervisor"
   },
   "notation": [
     "012494"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#CG%20Supervisor"
+      "id": "https://themoviedb.org#Roto%20Supervisor"
     }
   ],
   "inScheme": {

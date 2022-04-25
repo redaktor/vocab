@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012327",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012327",
   "prefLabel": {
-    "de": "Koordinator*in für Kampfbewegungen",
-    "en": "Battle Motion Coordinator"
+    "de": "Hauptankleider*in",
+    "en": "Key Dresser"
   },
   "notation": [
     "012327"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Battle%20Motion%20Coordinator"
+      "id": "https://themoviedb.org#Key%20Dresser"
     }
   ],
   "inScheme": {

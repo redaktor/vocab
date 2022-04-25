@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011363",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011363",
   "prefLabel": {
-    "de": "Drohnen-Kamera",
-    "en": "Drone Cinematographer"
+    "de": "BTS Fotograf*in",
+    "en": "BTS Photographer"
   },
   "notation": [
     "011363"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Drone%20Cinematographer"
+      "id": "https://themoviedb.org#BTS%20Photographer"
     }
   ],
   "inScheme": {

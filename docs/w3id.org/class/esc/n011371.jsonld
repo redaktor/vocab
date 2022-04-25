@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011371",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011371",
   "prefLabel": {
-    "de": "Erste Kompanie Grip",
-    "en": "First Company Grip"
+    "de": "Kamera-Produktionsassistenz",
+    "en": "Camera Production Assistant"
   },
   "notation": [
     "011371"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#First%20Company%20Grip"
+      "id": "https://themoviedb.org#Camera%20Production%20Assistant"
     }
   ],
   "inScheme": {

@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011779",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011779",
   "prefLabel": {
-    "de": "Erste Assistenz Requisiteur",
-    "en": "First Assistant Property Master"
+    "de": "Schriftgestalter*in",
+    "en": "Type designer"
+  },
+  "definition": {
+    "de": "Eine Person oder Organisation, die das in einem bestimmten Artikel verwendete Schriftbild gestaltet",
+    "en": "A person or organization who designs the type face used in a particular item"
   },
   "notation": [
     "011779"
@@ -19,7 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#First%20Assistant%20Property%20Master"
+      "id": "https://themoviedb.org#Type%20designer"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/tyd"
     }
   ],
   "inScheme": {

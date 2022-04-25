@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011821",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011821",
   "prefLabel": {
-    "de": "Produktions-Assistenz für Beleuchtung",
-    "en": "Lighting Production Assistant"
+    "de": "Beleuchtungsmanager*in",
+    "en": "Lighting Manager"
   },
   "notation": [
     "011821"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Lighting%20Production%20Assistant"
+      "id": "https://themoviedb.org#Lighting%20Manager"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012268",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012268",
   "prefLabel": {
-    "de": "Maskenbildner*in für Statisten",
-    "en": "Extras Makeup Artist"
+    "de": "Foto-Retusche",
+    "en": "Photo Retouching"
   },
   "notation": [
     "012268"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Extras%20Makeup%20Artist"
+      "id": "https://themoviedb.org#Photo%20Retouching"
     }
   ],
   "inScheme": {

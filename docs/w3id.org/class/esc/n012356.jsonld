@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012356",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012356",
   "prefLabel": {
-    "de": "3D-Modellierer*in",
-    "en": "3D Modeller"
+    "de": "Maskenbildner*in für Spezialeffekte",
+    "en": "Special Effects Makeup Artist"
   },
   "notation": [
     "012356"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#3D%20Modeller"
+      "id": "https://themoviedb.org#Special%20Effects%20Makeup%20Artist"
     }
   ],
   "inScheme": {

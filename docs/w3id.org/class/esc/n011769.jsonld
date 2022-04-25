@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011769",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011769",
   "prefLabel": {
-    "de": "Konzeptkünstler*in",
-    "en": "Concept Artist"
+    "de": "Haupt Set-Maler*in",
+    "en": "Key Set Painter"
   },
   "notation": [
     "011769"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Concept%20Artist"
+      "id": "https://themoviedb.org#Key%20Set%20Painter"
     }
   ],
   "inScheme": {

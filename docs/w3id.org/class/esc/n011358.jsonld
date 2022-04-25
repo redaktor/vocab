@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011358",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011358",
   "prefLabel": {
-    "de": "Kamera-Praktikant*in",
-    "en": "Camera Trainee"
+    "de": "Kamera-Lader*in",
+    "en": "Camera Loader"
   },
   "notation": [
     "011358"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Camera%20Trainee"
+      "id": "https://themoviedb.org#Camera%20Loader"
     }
   ],
   "inScheme": {

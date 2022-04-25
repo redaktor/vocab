@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012148",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012148",
   "prefLabel": {
-    "de": "Digitaler Zwischenstufen-Editor",
-    "en": "Digital Intermediate Editor"
+    "de": "Digitale Betreuung",
+    "en": "Digital Supervisor"
   },
   "notation": [
     "012148"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Digital%20Intermediate%20Editor"
+      "id": "https://themoviedb.org#Digital%20Supervisor"
     }
   ],
   "inScheme": {

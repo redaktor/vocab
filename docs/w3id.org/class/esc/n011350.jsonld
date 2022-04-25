@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011350",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011350",
   "prefLabel": {
-    "de": "Grip-Assistenz",
-    "en": "Assistant Grip"
+    "de": "Key Grip",
+    "en": "Key Grip"
   },
   "notation": [
     "011350"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Assistant%20Grip"
+      "id": "https://themoviedb.org#Key%20Grip"
     }
   ],
   "inScheme": {

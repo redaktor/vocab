@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011360",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011360",
   "prefLabel": {
-    "de": "Klappe",
-    "en": "Clapper Loader"
+    "de": "Zusätzliche Unterwasserfotografie",
+    "en": "Additional Underwater Photography"
   },
   "notation": [
     "011360"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Clapper%20Loader"
+      "id": "https://themoviedb.org#Additional%20Underwater%20Photography"
     }
   ],
   "inScheme": {

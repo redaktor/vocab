@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011344",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011344",
   "prefLabel": {
-    "de": "Co-Grip",
-    "en": "Additional Grip"
+    "de": "Luftbildkamera-Techniker*in",
+    "en": "Aerial Camera Technician"
   },
   "notation": [
     "011344"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Additional%20Grip"
+      "id": "https://themoviedb.org#Aerial%20Camera%20Technician"
     }
   ],
   "inScheme": {

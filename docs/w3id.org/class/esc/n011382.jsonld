@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011382",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011382",
   "prefLabel": {
-    "de": "Zweite Kameraassistenz",
-    "en": "Second Assistant Camera"
+    "de": "Zweite Assistenz Kamera B",
+    "en": "Second Assistant 'B' Camera"
   },
   "notation": [
     "011382"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Second%20Assistant%20Camera"
+      "id": "https://themoviedb.org#Second%20Assistant%20%22B%22%20Camera"
     }
   ],
   "inScheme": {

@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011264",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011264",
   "prefLabel": {
-    "de": "Erzähler*in",
-    "en": "Narrator"
+    "de": "Verfasser*in der Einleitung usw.",
+    "en": "Author of introduction, etc."
   },
   "definition": {
-    "de": "Ein ausübender Künstler, der zu einer Ressource beiträgt, indem er eine Handlung, ein Ereignis, einen Ablauf usw. lesend oder sprechend schildert",
-    "en": "A performer contributing to a resource by reading or speaking in order to give an account of an act, occurrence, course of events, etc"
+    "de": "Eine Person oder Organisation, die für eine Einleitung, ein Vorwort, Preface oder einen anderen kritischen einleitenden Text verantwortlich ist, aber nicht der Hauptautor ist",
+    "en": "A person or organization responsible for an introduction, preface, foreword, or other critical introductory matter, but who is not the chief author"
   },
   "notation": [
     "011264"
@@ -23,12 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Narrator"
+      "id": "https://themoviedb.org#Author%20of%20introduction,%20etc."
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/nrt"
+      "id": "https://id.loc.gov/vocabulary/relators/aui"
     }
   ],
   "inScheme": {

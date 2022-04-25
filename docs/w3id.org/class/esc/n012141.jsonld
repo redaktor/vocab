@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012141",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012141",
   "prefLabel": {
-    "de": "Dailies-Techniker*in",
-    "en": "Dailies Technician"
+    "de": "Entwicklungsleiter*in",
+    "en": "Development Manager"
   },
   "notation": [
     "012141"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Dailies%20Technician"
+      "id": "https://themoviedb.org#Development%20Manager"
     }
   ],
   "inScheme": {

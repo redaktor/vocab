@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011348",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011348",
   "prefLabel": {
-    "de": "Zusätzliche Unterwasserfotografie",
-    "en": "Additional Underwater Photography"
+    "de": "Ultimate Arm Operator",
+    "en": "Ultimate Arm Operator"
   },
   "notation": [
     "011348"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Additional%20Underwater%20Photography"
+      "id": "https://themoviedb.org#Ultimate%20Arm%20Operator"
     }
   ],
   "inScheme": {

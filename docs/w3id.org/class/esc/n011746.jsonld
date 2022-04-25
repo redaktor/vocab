@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011746",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011746",
   "prefLabel": {
-    "de": "Konzeptuelle Illustrator*in",
-    "en": "Conceptual Illustrator"
+    "de": "Zusätzliches Storyboarding",
+    "en": "Additional Storyboarding"
   },
   "notation": [
     "011746"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Conceptual%20Illustrator"
+      "id": "https://themoviedb.org#Additional%20Storyboarding"
     }
   ],
   "inScheme": {

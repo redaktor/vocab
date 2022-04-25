@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011783",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011783",
   "prefLabel": {
-    "de": "Chefdesigner*in",
-    "en": "Head Designer"
+    "de": "Buchgestalter*in",
+    "en": "Book designer"
+  },
+  "definition": {
+    "de": "Eine Person oder Organisation, die an der Herstellung einer Manifestation beteiligt ist, indem sie für die gesamte grafische Gestaltung eines Buches verantwortlich ist, einschließlich der Anordnung von Schrift und Illustration, der Auswahl der Materialien und des verwendeten Verfahrens",
+    "en": "A person or organization involved in manufacturing a manifestation by being responsible for the entire graphic design of a book, including arrangement of type and illustration, choice of materials, and process used"
   },
   "notation": [
     "011783"
@@ -19,7 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Head%20Designer"
+      "id": "https://themoviedb.org#Book%20designer"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/bkd"
     }
   ],
   "inScheme": {

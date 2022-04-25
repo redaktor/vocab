@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011474",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011474",
   "prefLabel": {
-    "de": "Tonassistent*in am Drehort",
-    "en": "Location Sound Assistant"
+    "de": "Koordinator*in der Loop-Gruppe",
+    "en": "Loop Group Coordinator"
   },
   "notation": [
     "011474"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Location%20Sound%20Assistant"
+      "id": "https://themoviedb.org#Loop%20Group%20Coordinator"
     }
   ],
   "inScheme": {

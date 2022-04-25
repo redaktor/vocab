@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011515",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011515",
   "prefLabel": {
-    "de": "Lieder",
-    "en": "Songs"
+    "de": "Dirigent*in",
+    "en": "Conductor"
+  },
+  "definition": {
+    "de": "Ein Künstler, der zu einer musikalischen Ressource beiträgt, indem er eine Gruppe (Orchester, Chor, Oper usw.) bei einer musikalischen oder dramatischen Darbietung leitet usw.",
+    "en": "A performer contributing to a musical resource by leading a performing group (orchestra, chorus, opera, etc.) in a musical or dramatic presentation, etc."
   },
   "notation": [
     "011515"
@@ -19,7 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Songs"
+      "id": "https://themoviedb.org#Conductor"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/cnd"
     }
   ],
   "inScheme": {

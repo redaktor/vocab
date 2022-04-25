@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012162",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012162",
   "prefLabel": {
-    "de": "Spezialist*in für geografische Informationen",
-    "en": "Geographic information specialist"
+    "de": "Casting",
+    "en": "Casting"
   },
   "definition": {
-    "de": "Eine Person, die für die Entwicklung von geografischen Informationssystemen (GIS) und die Integration von Daten des globalen Positionierungssystems verantwortlich ist",
-    "en": "A person responsible for geographic information system (GIS) development and integration with global positioning system data"
+    "de": "Eine Person, Familie oder Organisation, die an der Herstellung einer Ressource beteiligt ist, indem sie eine flüssige oder geschmolzene Substanz in eine Form gießt und sie erstarren lässt, damit sie die Form der Form annimmt",
+    "en": "A person, family, or organization involved in manufacturing a resource by pouring a liquid or molten substance into a mold and leaving it to solidify to take the shape of the mold"
   },
   "notation": [
     "012162"
@@ -17,18 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Geographic%20information%20specialist"
+      "id": "https://themoviedb.org#Casting"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/gis"
+      "id": "https://id.loc.gov/vocabulary/relators/cas"
     }
   ],
   "inScheme": {

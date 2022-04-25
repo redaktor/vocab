@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012041",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012041",
   "prefLabel": {
-    "de": "Assoziierte Produzent*in",
-    "en": "Associate Producer"
+    "de": "Überwachender technische*r Direktor*in",
+    "en": "Supervising Technical Director"
   },
   "notation": [
     "012041"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0120",
     "prefLabel": {
-      "de": "Produktion",
-      "en": "Production"
+      "de": "Regie",
+      "en": "Directing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Associate%20Producer"
+      "id": "https://themoviedb.org#Supervising%20Technical%20Director"
     }
   ],
   "inScheme": {

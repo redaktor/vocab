@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011445",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011445",
   "prefLabel": {
-    "de": "Geräuschemacher*in",
-    "en": "Foley Editor"
+    "de": "Co-Ton-Mischer*in für die Neuaufnahme",
+    "en": "Additional Sound Re-Recording Mixer"
   },
   "notation": [
     "011445"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Foley%20Editor"
+      "id": "https://themoviedb.org#Additional%20Sound%20Re-Recording%20Mixer"
     }
   ],
   "inScheme": {

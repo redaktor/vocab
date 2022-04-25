@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011230",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011230",
   "prefLabel": {
-    "de": "Oper",
-    "en": "Opera"
+    "de": "Charaktere",
+    "en": "Characters"
   },
   "notation": [
     "011230"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Opera"
+      "id": "https://themoviedb.org#Characters"
     }
   ],
   "inScheme": {

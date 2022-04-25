@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012270",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012270",
   "prefLabel": {
-    "de": "Erste Assistenz, Maskenbildner*in",
-    "en": "First Assistant Makeup Artist"
+    "de": "Stereoskopischer Editor",
+    "en": "Stereoscopic Editor"
   },
   "notation": [
     "012270"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#First%20Assistant%20Makeup%20Artist"
+      "id": "https://themoviedb.org#Stereoscopic%20Editor"
     }
   ],
   "inScheme": {

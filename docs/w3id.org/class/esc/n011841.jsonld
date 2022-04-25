@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011841",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011841",
   "prefLabel": {
-    "de": "O.B. Beleuchtung",
-    "en": "O.B. Lighting"
+    "de": "Sonstiges Licht",
+    "en": "Other Light"
   },
   "notation": [
     "011841"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#O.B.%20Lighting"
+      "id": "https://themoviedb.org#Other"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011452",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011452",
   "prefLabel": {
-    "de": "Dienstprogramm Ton",
-    "en": "Utility Sound"
+    "de": "Überwachender Musik-Editor",
+    "en": "Supervising Music Editor"
   },
   "notation": [
     "011452"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Utility%20Sound"
+      "id": "https://themoviedb.org#Supervising%20Music%20Editor"
     }
   ],
   "inScheme": {

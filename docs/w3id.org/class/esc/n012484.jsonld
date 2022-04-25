@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012484",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012484",
   "prefLabel": {
-    "de": "Titelgrafik",
-    "en": "Title Graphics"
+    "de": "Technische*r Direktor*in für Kreationseffekte",
+    "en": "Creature Effects Technical Director"
   },
   "notation": [
     "012484"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Title%20Graphics"
+      "id": "https://themoviedb.org#Creature%20Effects%20Technical%20Director"
     }
   ],
   "inScheme": {

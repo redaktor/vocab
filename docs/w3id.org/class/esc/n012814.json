@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012814",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012814",
   "prefLabel": {
-    "de": "Professor*in",
-    "en": "Professor"
+    "de": "Verleiher*in",
+    "en": "Lender"
+  },
+  "definition": {
+    "de": "Eine Person oder Organisation, die die vorübergehende Nutzung eines Buches, Manuskripts usw. gestattet, z. B. zum Fotokopieren oder Mikroverfilmen",
+    "en": "A person or organization permitting the temporary use of a book, manuscript, etc., such as for photocopying or microfilming"
   },
   "notation": [
     "012814"
@@ -13,10 +17,15 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0128",
     "prefLabel": {
-      "de": "Akademisch TODO",
-      "en": "Academics TODO"
+      "de": "Vertrieb",
+      "en": "Distribution"
     }
   },
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/len"
+    }
+  ],
   "inScheme": {
     "id": "https://w3id.org/class/esc/scheme",
     "title": {

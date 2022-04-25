@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011776",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011776",
   "prefLabel": {
-    "de": "Digitales Storyboarding",
-    "en": "Digital Storyboarding"
+    "de": "Praktikant*in im Art Department",
+    "en": "Art Department Trainee"
   },
   "notation": [
     "011776"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Digital%20Storyboarding"
+      "id": "https://themoviedb.org#Art%20Department%20Trainee"
     }
   ],
   "inScheme": {

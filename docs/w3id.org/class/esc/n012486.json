@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012486",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012486",
   "prefLabel": {
-    "de": "Animatronische und prothetische Effekte",
-    "en": "Animatronic and Prosthetic Effects"
+    "de": "Leiter*in der Vorvisualisierung",
+    "en": "Director of Previsualization"
   },
   "notation": [
     "012486"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Animatronic%20and%20Prosthetic%20Effects"
+      "id": "https://themoviedb.org#Director%20of%20Previsualization"
     }
   ],
   "inScheme": {

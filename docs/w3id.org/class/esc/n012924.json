@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012924",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012924",
   "prefLabel": {
-    "de": "Ausübende Gerichtsbarkeit",
-    "en": "Enacting jurisdiction"
-  },
-  "definition": {
-    "de": "Eine Gerichtsbarkeit, die ein Gesetz, eine Verordnung, eine Verfassung, eine Gerichtsordnung usw. erlässt",
-    "en": "A jurisdiction enacting a law, regulation, constitution, court rule, etc."
+    "de": "Auszubildende*r in der Buchhaltung",
+    "en": "Accounting Trainee"
   },
   "notation": [
     "012924"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0129",
     "prefLabel": {
-      "de": "Recht / Legal",
-      "en": "Legal"
+      "de": "Buchhaltung",
+      "en": "Accounting"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Enacting%20jurisdiction"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/enj"
+      "id": "https://themoviedb.org#Accounting%20Trainee"
     }
   ],
   "inScheme": {

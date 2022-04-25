@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012240",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012240",
   "prefLabel": {
-    "de": "Hauptkostümbildner*in",
-    "en": "Key Costumer"
+    "de": "Kolorist*in",
+    "en": "Colorist"
+  },
+  "definition": {
+    "de": "Eine Person oder Organisation, die für das Aufbringen von Farbe auf Zeichnungen, Drucke, Fotografien, Karten, bewegte Bilder usw. verantwortlich ist",
+    "en": "A person or organization responsible for applying color to drawings, prints, photographs, maps, moving images, etc"
   },
   "notation": [
     "012240"
@@ -13,13 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Key%20Costumer"
+      "id": "https://themoviedb.org#Colorist"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/clr"
     }
   ],
   "inScheme": {

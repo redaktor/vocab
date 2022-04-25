@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011814",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011814",
   "prefLabel": {
-    "de": "Rigging Gaffer",
-    "en": "Rigging Gaffer"
+    "de": "Master Lighting Artist",
+    "en": "Master Lighting Artist"
   },
   "notation": [
     "011814"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Rigging%20Gaffer"
+      "id": "https://themoviedb.org#Master%20Lighting%20Artist"
     }
   ],
   "inScheme": {

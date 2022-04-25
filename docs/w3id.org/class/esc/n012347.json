@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012347",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012347",
   "prefLabel": {
-    "de": "Digital-Compositor",
-    "en": "Digital Compositor"
+    "de": "Maskenbildner*in",
+    "en": "Makeup Artist"
   },
   "notation": [
     "012347"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Digital%20Compositor"
+      "id": "https://themoviedb.org#Makeup%20Artist"
     }
   ],
   "inScheme": {

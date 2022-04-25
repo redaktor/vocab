@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011733",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011733",
   "prefLabel": {
-    "de": "Aushilfsmaler*in",
-    "en": "Standby Painter"
+    "de": "Radierer*in",
+    "en": "Etcher"
+  },
+  "definition": {
+    "de": "Eine Person oder Organisation, die Text oder Bilder für den Druck herstellt, indem sie Metall, Glas oder eine andere Oberfläche einer Säure oder der korrosiven Wirkung einer anderen Substanz aussetzt",
+    "en": "A person or organization who produces text or images for printing by subjecting metal, glass, or some other surface to acid or the corrosive action of some other substance"
   },
   "notation": [
     "011733"
@@ -19,7 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Standby%20Painter"
+      "id": "https://themoviedb.org#Etcher"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/etr"
     }
   ],
   "inScheme": {

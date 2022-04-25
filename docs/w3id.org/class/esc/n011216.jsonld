@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011216",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011216",
   "prefLabel": {
-    "de": "Theaterstück",
-    "en": "Theatre Play"
+    "de": "Original-Konzept",
+    "en": "Original Concept"
+  },
+  "definition": {
+    "de": "Eine Person oder Organisation, die für die ursprüngliche Idee, auf der ein Werk basiert, verantwortlich ist; dies schließt den wissenschaftlichen Autor eines audiovisuellen Artikels und den Verfasser eines Werbekonzepts ein",
+    "en": "A person or organization responsible for the original idea on which a work is based, this includes the scientific author of an audio-visual item and the conceptor of an advertisement"
   },
   "notation": [
     "011216"
@@ -19,7 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Theatre%20Play"
+      "id": "https://themoviedb.org#Original%20Concept"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/ccp"
     }
   ],
   "inScheme": {

@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011424",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011424",
   "prefLabel": {
-    "de": "Tonmischung für die Neuaufnahme",
-    "en": "Sound Re-Recording Mixer"
+    "de": "Tongestalter*in",
+    "en": "Sound Designer"
+  },
+  "definition": {
+    "de": "Eine Person, die den Soundtrack (sowohl live als auch aufgenommen) produziert und wiedergibt, die Mikrofone installiert, die Lautstärke einstellt und die Tonquellen für eine Produktion koordiniert",
+    "en": "A person who produces and reproduces the sound score (both live and recorded), the installation of microphones, the setting of sound levels, and the coordination of sources of sound for a production"
   },
   "notation": [
     "011424"
@@ -19,7 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Sound%20Re-Recording%20Mixer"
+      "id": "https://themoviedb.org#Sound%20Designer"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/sds"
     }
   ],
   "inScheme": {

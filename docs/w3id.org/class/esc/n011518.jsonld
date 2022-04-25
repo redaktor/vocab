@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011518",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011518",
   "prefLabel": {
-    "de": "Komponist*in des Haupttitelthemas",
-    "en": "Main Title Theme Composer"
+    "de": "Gesang",
+    "en": "Vocals"
   },
   "notation": [
     "011518"
@@ -19,7 +19,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Main%20Title%20Theme%20Composer"
+      "id": "https://themoviedb.org#Vocals"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/vac"
     }
   ],
   "inScheme": {

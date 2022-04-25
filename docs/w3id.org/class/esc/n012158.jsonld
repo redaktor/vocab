@@ -4,22 +4,15 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012158",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012158",
   "prefLabel": {
-    "de": "Stereoskopischer Editor",
-    "en": "Stereoscopic Editor"
+    "de": "Abteilungsleiter*in, Unit Manager",
+    "en": "Unit Manager"
   },
   "notation": [
     "012158"
   ],
-  "broader": {
-    "id": "https://w3id.org/class/esc/n0121",
-    "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
-    }
-  },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Stereoscopic%20Editor"
+      "id": "https://themoviedb.org#Unit%20Manager"
     }
   ],
   "inScheme": {

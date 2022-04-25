@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012497",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012497",
   "prefLabel": {
-    "de": "Verantwortlich für die Finanzen",
-    "en": "Executive in Charge of Finance"
+    "de": "Senior Modellierer*in",
+    "en": "Senior Modeller"
   },
   "notation": [
     "012497"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Executive%20in%20Charge%20of%20Finance"
+      "id": "https://themoviedb.org#Senior%20Modeller"
     }
   ],
   "inScheme": {

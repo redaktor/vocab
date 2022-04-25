@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012912",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012912",
   "prefLabel": {
-    "de": "Vermesser*in",
-    "en": "Surveyor"
-  },
-  "definition": {
-    "de": "Eine Person, Familie oder Organisation, die zu einer kartografischen Ressource beiträgt, indem sie Maße oder Maßverhältnisse für das dargestellte geografische Gebiet bereitstellt",
-    "en": "A person, family, or organization contributing to a cartographic resource by providing measurements or dimensional relationships for the geographic area represented"
+    "de": "Buchhalter*in für die Produktion",
+    "en": "Production Accountant"
   },
   "notation": [
     "012912"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0129",
     "prefLabel": {
-      "de": "Recht / Legal",
-      "en": "Legal"
+      "de": "Buchhaltung",
+      "en": "Accounting"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Surveyor"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/srv"
+      "id": "https://themoviedb.org#Production%20Accountant"
     }
   ],
   "inScheme": {

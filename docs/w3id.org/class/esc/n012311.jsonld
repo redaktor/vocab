@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012311",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012311",
   "prefLabel": {
-    "de": "Animation",
-    "en": "Animation"
-  },
-  "definition": {
-    "de": "Eine Person, die zu einem Bewegtbildwerk oder Computerprogramm beiträgt, indem sie unbelebten Objekten oder Zeichnungen scheinbare Bewegung verleiht. Für den Schöpfer der Zeichnungen, die animiert werden, siehe Künstler",
-    "en": "A person contributing to a moving image work or computer program by giving apparent movement to inanimate objects or drawings. For the creator of the drawings that are animated, see artist"
+    "de": "Leitung Kostüm",
+    "en": "Lead Costumer"
   },
   "notation": [
     "012311"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Animation"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/anm"
+      "id": "https://themoviedb.org#Lead%20Costumer"
     }
   ],
   "inScheme": {

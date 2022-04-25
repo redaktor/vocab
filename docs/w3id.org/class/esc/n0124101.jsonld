@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0124101",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0124101",
   "prefLabel": {
-    "de": "Dramaturgie",
-    "en": "Dramaturgy"
+    "de": "Leitung Kontrolle der Animation",
+    "en": "Supervising Animation Director"
   },
   "notation": [
     "0124101"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Dramaturgy"
+      "id": "https://themoviedb.org#Supervising%20Animation%20Director"
     }
   ],
   "inScheme": {

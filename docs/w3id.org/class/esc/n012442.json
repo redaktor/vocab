@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012442",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012442",
   "prefLabel": {
-    "de": "Bewegungsschauspieler*in",
-    "en": "Motion Actor"
+    "de": "Künstler*in für Simulation und Effekte",
+    "en": "Simulation & Effects Artist"
   },
   "notation": [
     "012442"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Motion%20Actor"
+      "id": "https://themoviedb.org#Simulation%20&%20Effects%20Artist"
     }
   ],
   "inScheme": {

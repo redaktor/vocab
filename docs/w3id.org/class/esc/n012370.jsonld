@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012370",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012370",
   "prefLabel": {
-    "de": "Eröffnungs/Ende-Animation",
-    "en": "Opening/Ending Animation"
+    "de": "Friseur*in",
+    "en": "Hairdresser"
   },
   "notation": [
     "012370"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Opening/Ending%20Animation"
+      "id": "https://themoviedb.org#Hairdresser"
     }
   ],
   "inScheme": {

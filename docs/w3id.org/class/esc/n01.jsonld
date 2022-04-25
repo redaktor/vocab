@@ -81,80 +81,94 @@
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0119",
+      "id": "https://w3id.org/class/esc/n0120",
       "prefLabel": {
         "de": "Regie",
         "en": "Directing"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0120",
+      "id": "https://w3id.org/class/esc/n0121",
       "prefLabel": {
         "de": "Produktion",
         "en": "Production"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0121",
+      "id": "https://w3id.org/class/esc/n0122",
       "prefLabel": {
         "de": "Bearbeitung",
         "en": "Editing"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0122",
+      "id": "https://w3id.org/class/esc/n0123",
       "prefLabel": {
         "de": "Kostüme und Styling",
         "en": "Costume and Styling"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0123",
+      "id": "https://w3id.org/class/esc/n0124",
       "prefLabel": {
         "de": "Visuelle Effekte",
         "en": "Visual Effects"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0124",
+      "id": "https://w3id.org/class/esc/n0125",
       "prefLabel": {
         "de": "Crew",
         "en": "Crew"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0125",
+      "id": "https://w3id.org/class/esc/n0126",
       "prefLabel": {
         "de": "Comic",
         "en": "Comic"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0126",
+      "id": "https://w3id.org/class/esc/n0127",
       "prefLabel": {
         "de": "Herstellung",
         "en": "Manufacturing"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0127",
+      "id": "https://w3id.org/class/esc/n0128",
       "prefLabel": {
         "de": "Vertrieb",
         "en": "Distribution"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0128",
+      "id": "https://w3id.org/class/esc/n0129",
       "prefLabel": {
-        "de": "Akademisch TODO",
-        "en": "Academics TODO"
+        "de": "Buchhaltung",
+        "en": "Accounting"
       }
     },
     {
-      "id": "https://w3id.org/class/esc/n0129",
+      "id": "https://w3id.org/class/esc/n0130",
+      "prefLabel": {
+        "de": "Akademisch",
+        "en": "Academics"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0131",
       "prefLabel": {
         "de": "Recht / Legal",
         "en": "Legal"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/esc/n0119",
+      "prefLabel": {
+        "de": "Bühne und Requisite",
+        "en": "Stage and Props"
       }
     }
   ],

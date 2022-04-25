@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011812",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011812",
   "prefLabel": {
-    "de": "Elektriker Vorarbeiter*in",
-    "en": "Best Boy Electric"
+    "de": "Lichtdesign",
+    "en": "Lighting Design"
   },
   "notation": [
     "011812"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Best%20Boy%20Electric"
+      "id": "https://themoviedb.org#Lighting%20Design"
     }
   ],
   "inScheme": {

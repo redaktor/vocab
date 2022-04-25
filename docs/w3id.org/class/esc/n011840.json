@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011840",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011840",
   "prefLabel": {
-    "de": "Beleuchtungsprogrammierer*in",
-    "en": "Lighting Programmer"
+    "de": "Standby Rigger",
+    "en": "Standby Rigger"
   },
   "notation": [
     "011840"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Lighting%20Programmer"
+      "id": "https://themoviedb.org#Standby%20Rigger"
     }
   ],
   "inScheme": {

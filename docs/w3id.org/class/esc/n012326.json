@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012326",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012326",
   "prefLabel": {
-    "de": "Mechanik & Kreaturen-Designer*in",
-    "en": "Mechanical & Creature Designer"
+    "de": "Haupt Costumer*in",
+    "en": "Principal Costumer"
   },
   "notation": [
     "012326"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0123",
     "prefLabel": {
-      "de": "Visuelle Effekte",
-      "en": "Visual Effects"
+      "de": "Kostüme und Styling",
+      "en": "Costume and Styling"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Mechanical%20&%20Creature%20Designer"
+      "id": "https://themoviedb.org#Principal%20Costumer"
     }
   ],
   "inScheme": {

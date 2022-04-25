@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011268",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011268",
   "prefLabel": {
-    "de": "Autor*in in Zitaten oder Textauszügen",
-    "en": "Author in quotations or text abstracts"
+    "de": "Verfasser*in des hinzugefügten Textes",
+    "en": "Writer of added text"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, deren Arbeit in Werken, zu denen sie nicht direkt beigetragen hat, weitgehend zitiert oder entnommen wird. Solche Zitate finden sich insbesondere in Ausstellungskatalogen, Fotosammlungen usw.",
-    "en": "A person or organization whose work is largely quoted or extracted in works to which he or she did not contribute directly. Such quotations are found particularly in exhibition catalogs, collections of photographs, etc."
+    "de": "Eine Person, Familie oder Organisation, die zu einer nicht-textlichen Ressource beiträgt, indem sie Text für das nicht-textliche Werk bereitstellt (z. B. das Verfassen von Bildunterschriften für Fotos, Beschreibungen von Karten).",
+    "en": "A person, family, or organization contributing to a non-textual resource by providing text for the non-textual work (e.g., writing captions for photographs, descriptions of maps)."
   },
   "notation": [
     "011268"
@@ -23,12 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Author%20in%20quotations%20or%20text%20abstracts"
+      "id": "https://themoviedb.org#Writer%20of%20added%20text"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/aqt"
+      "id": "https://id.loc.gov/vocabulary/relators/wat"
     }
   ],
   "inScheme": {

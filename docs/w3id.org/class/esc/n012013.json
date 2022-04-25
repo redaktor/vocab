@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012013",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012013",
   "prefLabel": {
-    "de": "Koproduzent*in",
-    "en": "Co-Producer"
+    "de": "Action-Regisseur*in",
+    "en": "Action Director"
   },
   "notation": [
     "012013"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0120",
     "prefLabel": {
-      "de": "Produktion",
-      "en": "Production"
+      "de": "Regie",
+      "en": "Directing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Co-Producer"
+      "id": "https://themoviedb.org#Action%20Director"
     }
   ],
   "inScheme": {

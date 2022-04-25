@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011242",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011242",
   "prefLabel": {
-    "de": "Junior-Story-Editor",
-    "en": "Junior Story Editor"
+    "de": "Theaterstück",
+    "en": "Theatre Play"
   },
   "notation": [
     "011242"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Junior%20Story%20Editor"
+      "id": "https://themoviedb.org#Theatre%20Play"
     }
   ],
   "inScheme": {

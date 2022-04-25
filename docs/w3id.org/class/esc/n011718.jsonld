@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011718",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011718",
   "prefLabel": {
-    "de": "Bühnenbildner*in",
-    "en": "Set Designer"
-  },
-  "definition": {
-    "de": "Eine Person, die die groben Skizzen des künstlerischen Leiters in tatsächliche architektonische Strukturen für eine Theatervorstellung, ein Unterhaltungsprogramm, einen Kinofilm usw. umsetzt. Bühnenbildner zeichnen die detaillierten Anleitungen und Spezifikationen für den Bau des Bühnenbilds",
-    "en": "A person who translates the rough sketches of the art director into actual architectural structures for a theatrical presentation, entertainment, motion picture, etc. Set designers draw the detailed guides and specifications for building the set"
+    "de": "Chefdesigner*in",
+    "en": "Head Designer"
   },
   "notation": [
     "011718"
@@ -23,12 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Set%20Designer"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/std"
+      "id": "https://themoviedb.org#Head%20Designer"
     }
   ],
   "inScheme": {

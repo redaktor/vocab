@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011269",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011269",
   "prefLabel": {
-    "de": "Autograph*in",
-    "en": "Autographer"
+    "de": "Verfasser*in des ergänzenden Textinhalts",
+    "en": "Writer of supplementary textual content"
   },
   "definition": {
-    "de": "Eine Person, deren handschriftliche Unterschrift auf einem Gegenstand erscheint",
-    "en": "A person whose manuscript signature appears on an item"
+    "de": "Eine Person, Familie oder Organisation, die zu einer Ressource beiträgt, indem sie ergänzende Textinhalte (z. B. eine Einleitung, ein Vorwort) für das Originalwerk bereitstellt",
+    "en": "A person, family, or organization contributing to a resource by providing supplementary textual content (e.g., an introduction, a preface) to the original work"
   },
   "notation": [
     "011269"
@@ -23,12 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Autographer"
+      "id": "https://themoviedb.org#Writer%20of%20supplementary%20textual%20content"
     }
   ],
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/ato"
+      "id": "https://id.loc.gov/vocabulary/relators/wst"
     }
   ],
   "inScheme": {

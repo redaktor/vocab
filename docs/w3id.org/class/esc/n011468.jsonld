@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011468",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011468",
   "prefLabel": {
-    "de": "Geräuschemischer*in",
-    "en": "Foley Mixer"
+    "de": "Geräusche Aufnahmetechnik",
+    "en": "Foley Recording Engineer"
   },
   "notation": [
     "011468"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Foley%20Mixer"
+      "id": "https://themoviedb.org#Foley%20Recording%20Engineer"
     }
   ],
   "inScheme": {

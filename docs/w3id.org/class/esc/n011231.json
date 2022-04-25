@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011231",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011231",
   "prefLabel": {
-    "de": "Co-Autor*in",
-    "en": "Co-Writer"
+    "de": "Zusätzliches Schreiben",
+    "en": "Additional Writing"
+  },
+  "definition": {
+    "de": "Eine Person oder Organisation, die bedeutendes Begleitmaterial für eine Tonaufnahme oder anderes audiovisuelles Material schreibt",
+    "en": "A person or organization who writes significant material which accompanies a sound recording or other audiovisual material"
   },
   "notation": [
     "011231"
@@ -19,7 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Co-Writer"
+      "id": "https://themoviedb.org#Additional%20Writing"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/wam"
     }
   ],
   "inScheme": {

@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0040",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0040",
   "prefLabel": {
-    "de": "Adressat*in",
-    "en": "Addressee"
+    "de": "Ansprechpartner für Metadaten",
+    "en": "Metadata contact"
   },
   "definition": {
-    "de": "Eine Person, Familie oder Organisation, an die z. B. der Schriftverkehr in einem Werk gerichtet ist",
-    "en": "A person, family, or organization to whom e.g. correspondence in a work is addressed"
+    "de": "Eine Person oder Organisation, die in erster Linie für die Zusammenstellung und Pflege der ursprünglichen Beschreibung eines Metadatensatzes verantwortlich ist",
+    "en": "A person or organization primarily responsible for compiling and maintaining the original description of a metadata set"
   },
   "notation": [
     "0040"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/rcp"
+      "id": "https://id.loc.gov/vocabulary/relators/mdc"
     }
   ],
   "inScheme": {

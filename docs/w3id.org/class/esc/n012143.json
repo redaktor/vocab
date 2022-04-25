@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012143",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012143",
   "prefLabel": {
-    "de": "Digitaler Kolorist",
-    "en": "Digital Colorist"
+    "de": "Kreativ-Produzent*in",
+    "en": "Creative Producer"
   },
   "notation": [
     "012143"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Digital%20Colorist"
+      "id": "https://themoviedb.org#Creative%20Producer"
     }
   ],
   "inScheme": {

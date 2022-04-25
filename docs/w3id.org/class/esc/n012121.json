@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012121",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012121",
   "prefLabel": {
-    "de": "Koordinator*in für Archivmaterial",
-    "en": "Archival Footage Coordinator"
+    "de": "Radioproduzent*in",
+    "en": "Radio producer"
+  },
+  "definition": {
+    "de": "Ein Produzent, der für die meisten geschäftlichen Aspekte eines Radioprogramms verantwortlich ist",
+    "en": "A producer responsible for most of the business aspects of a radio program"
   },
   "notation": [
     "012121"
@@ -13,13 +17,21 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Archival%20Footage%20Coordinator"
+      "id": "https://themoviedb.org#Radio%20producer"
+    },
+    {
+      "id": "https://themoviedb.org#Broadcast%20Producer"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/rpc"
     }
   ],
   "inScheme": {

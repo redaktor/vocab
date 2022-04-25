@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012817",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012817",
   "prefLabel": {
-    "de": "Präses",
-    "en": "Praeses"
+    "de": "Provider",
+    "en": "Provider"
   },
   "definition": {
-    "de": "Eine Person, die eine akademische Disputation moderiert, in der Regel eine These vorschlägt und an der anschließenden Disputation teilnimmt",
-    "en": "A person who is the faculty moderator of an academic disputation, normally proposing a thesis and participating in the ensuing disputation"
+    "de": "Eine Person oder Organisation, die eine Ressource produziert, veröffentlicht, herstellt oder vertreibt, wenn keine spezifischen Codes gewünscht sind (z. B. [mfr], [pbl])",
+    "en": "A person or organization who produces, publishes, manufactures, or distributes a resource if specific codes are not desired (e.g. [mfr], [pbl])"
   },
   "notation": [
     "012817"
@@ -17,13 +17,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0128",
     "prefLabel": {
-      "de": "Akademisch TODO",
-      "en": "Academics TODO"
+      "de": "Vertrieb",
+      "en": "Distribution"
     }
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/pra"
+      "id": "https://id.loc.gov/vocabulary/relators/prv"
     }
   ],
   "inScheme": {

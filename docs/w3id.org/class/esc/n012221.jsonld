@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012221",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012221",
   "prefLabel": {
-    "de": "Kostüm Supervisor",
-    "en": "Costume Supervisor"
+    "de": "Cutter*in",
+    "en": "Cutter, Editor"
+  },
+  "definition": {
+    "de": "Ein Cutter oder Editor übt die Tätigkeit des Filmschnitts aus. Der Filmschnitt ist sowohl ein kreativer als auch ein technischer Prozess.",
+    "en": "A film editor or editor performs the activity of film editing. Film editing is both a creative and a technical process."
   },
   "notation": [
     "012221"
@@ -13,13 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Costume%20Supervisor"
+      "id": "https://themoviedb.org#Editor"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/edt"
     }
   ],
   "inScheme": {

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011367",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011367",
   "prefLabel": {
-    "de": "Erste Assistenz Kamera A",
-    "en": "First Assistant 'A' Camera"
+    "de": "Waage-Kopf-Techniker*in",
+    "en": "Libra Head Technician"
   },
   "notation": [
     "011367"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#First%20Assistant%20%22A%22%20Camera"
+      "id": "https://themoviedb.org#Libra%20Head%20Technician"
     }
   ],
   "inScheme": {

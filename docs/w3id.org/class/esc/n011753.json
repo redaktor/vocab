@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011753",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011753",
   "prefLabel": {
-    "de": "Titel-Designer*in",
-    "en": "Title Designer"
+    "de": "Sequence Artist",
+    "en": "Sequence Artist"
   },
   "notation": [
     "011753"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Title%20Designer"
+      "id": "https://themoviedb.org#Sequence%20Artist"
     }
   ],
   "inScheme": {

@@ -4,12 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012916",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012916",
   "prefLabel": {
-    "de": "Kläger*in",
-    "en": "Plaintiff"
-  },
-  "definition": {
-    "de": "Eine Person oder Organisation, die eine Klage in einem Zivilverfahren einreicht",
-    "en": "A person or organization who brings a suit in a civil proceeding"
+    "de": "Buchhaltungsassistenz",
+    "en": "Accounting Clerk Assistant"
   },
   "notation": [
     "012916"
@@ -17,18 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0129",
     "prefLabel": {
-      "de": "Recht / Legal",
-      "en": "Legal"
+      "de": "Buchhaltung",
+      "en": "Accounting"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Plaintiff"
-    }
-  ],
-  "exactMatch": [
-    {
-      "id": "https://id.loc.gov/vocabulary/relators/ptf"
+      "id": "https://themoviedb.org#Accounting%20Clerk%20Assistant"
     }
   ],
   "inScheme": {

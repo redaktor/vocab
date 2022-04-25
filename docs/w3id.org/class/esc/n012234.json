@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012234",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012234",
   "prefLabel": {
-    "de": "Haupt-Hairstylist*in",
-    "en": "Key Hair Stylist"
+    "de": "Spezialist*in für geografische Informationen",
+    "en": "Geographic information specialist"
+  },
+  "definition": {
+    "de": "Eine Person, die für die Entwicklung von geografischen Informationssystemen (GIS) und die Integration von Daten des globalen Positionierungssystems verantwortlich ist",
+    "en": "A person responsible for geographic information system (GIS) development and integration with global positioning system data"
   },
   "notation": [
     "012234"
@@ -13,13 +17,18 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Key%20Hair%20Stylist"
+      "id": "https://themoviedb.org#Geographic%20information%20specialist"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/gis"
     }
   ],
   "inScheme": {

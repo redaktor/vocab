@@ -4,8 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011233",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011233",
   "prefLabel": {
-    "de": "Comic-Buch",
-    "en": "Comic Book"
+    "de": "Rezensent*in",
+    "en": "Reviewer"
+  },
+  "definition": {
+    "de": "Eine Person oder Organisation, die für die Rezension eines Buches, eines Films, einer Aufführung usw. verantwortlich ist",
+    "en": "A person or organization responsible for the review of a book, motion picture, performance, etc."
   },
   "notation": [
     "011233"
@@ -19,7 +23,12 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Comic%20Book"
+      "id": "https://themoviedb.org#Reviewer"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://id.loc.gov/vocabulary/relators/rev"
     }
   ],
   "inScheme": {

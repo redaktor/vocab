@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011460",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011460",
   "prefLabel": {
-    "de": "ADR-Aufnahmeleiter*in",
-    "en": "ADR Recordist"
+    "de": "ADR-Mischer*in",
+    "en": "ADR Mixer"
   },
   "notation": [
     "011460"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#ADR%20Recordist"
+      "id": "https://themoviedb.org#ADR%20Mixer"
     }
   ],
   "inScheme": {

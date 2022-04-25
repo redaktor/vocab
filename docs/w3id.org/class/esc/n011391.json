@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011391",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011391",
   "prefLabel": {
-    "de": "Unterwasser Standbildfotograf*in",
-    "en": "Underwater Stills Photographer"
+    "de": "Zweite Einheit Director of Photography",
+    "en": "Second Unit Director of Photography"
   },
   "notation": [
     "011391"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Underwater%20Stills%20Photographer"
+      "id": "https://themoviedb.org#Second%20Unit%20Director%20of%20Photography"
     }
   ],
   "inScheme": {

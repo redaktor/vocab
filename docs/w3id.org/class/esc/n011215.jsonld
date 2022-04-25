@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011215",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011215",
   "prefLabel": {
-    "de": "Charaktere",
-    "en": "Characters"
+    "de": "Junior-Story-Editor",
+    "en": "Junior Story Editor"
   },
   "notation": [
     "011215"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Characters"
+      "id": "https://themoviedb.org#Junior%20Story%20Editor"
     }
   ],
   "inScheme": {

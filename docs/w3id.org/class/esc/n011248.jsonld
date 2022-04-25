@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011248",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011248",
   "prefLabel": {
-    "de": "Geschichtenerzähler*in",
-    "en": "Story Artist"
+    "de": "Kurzgeschichte",
+    "en": "Short Story"
   },
   "notation": [
     "011248"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Story%20Artist"
+      "id": "https://themoviedb.org#Short%20Story"
     }
   ],
   "inScheme": {

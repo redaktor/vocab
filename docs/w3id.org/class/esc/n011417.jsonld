@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011417",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011417",
   "prefLabel": {
-    "de": "Tonregisseur*in",
-    "en": "Sound Director"
+    "de": "Tonmischer*in",
+    "en": "Sound Mixer"
   },
   "notation": [
     "011417"
@@ -19,7 +19,7 @@
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Sound%20Director"
+      "id": "https://themoviedb.org#Sound%20Mixer"
     }
   ],
   "inScheme": {

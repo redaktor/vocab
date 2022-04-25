@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012159",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012159",
   "prefLabel": {
-    "de": "CVD, Supervising Editor",
-    "en": "Supervising Editor"
+    "de": "Koordinator*in für geschäftliche Angelegenheiten",
+    "en": "Business Affairs Coordinator"
   },
   "notation": [
     "012159"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0121",
     "prefLabel": {
-      "de": "Bearbeitung",
-      "en": "Editing"
+      "de": "Produktion",
+      "en": "Production"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Supervising%20Editor"
+      "id": "https://themoviedb.org#Business%20Affairs%20Coordinator"
     }
   ],
   "inScheme": {

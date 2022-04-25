@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012220",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012220",
   "prefLabel": {
-    "de": "Haarschmuck",
-    "en": "Hair Setup"
+    "de": "Assistenz Bildredaktion/Bildbearbeitung",
+    "en": "Assistant Picture Editor"
   },
   "notation": [
     "012220"
@@ -13,13 +13,16 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0122",
     "prefLabel": {
-      "de": "Kostüme und Styling",
-      "en": "Costume and Styling"
+      "de": "Bearbeitung",
+      "en": "Editing"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Hair%20Setup"
+      "id": "https://themoviedb.org#Assistant%20Picture%20Editor"
+    },
+    {
+      "id": "https://themoviedb.org#First%20Assistant%20Picture%20Editor"
     }
   ],
   "inScheme": {

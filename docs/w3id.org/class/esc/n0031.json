@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn0031",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn0031",
   "prefLabel": {
-    "de": "Rechtsnachfolger",
-    "en": "Assignee"
+    "de": "Lizenznehmer*in",
+    "en": "Licensee"
   },
   "definition": {
-    "de": "Eine Person oder Organisation, der eine Lizenz zum Drucken oder Veröffentlichen übertragen wurde",
-    "en": "A person or organization to whom a license for printing or publishing has been transferred"
+    "de": "Eine Person oder Organisation, die der ursprüngliche Empfänger der Druck- oder Veröffentlichungslizenz ist",
+    "en": "A person or organization who is an original recipient of the right to print or publish"
   },
   "notation": [
     "0031"
@@ -23,7 +23,7 @@
   },
   "exactMatch": [
     {
-      "id": "https://id.loc.gov/vocabulary/relators/asg"
+      "id": "https://id.loc.gov/vocabulary/relators/lse"
     }
   ],
   "inScheme": {

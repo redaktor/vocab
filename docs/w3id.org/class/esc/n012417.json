@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn012417",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn012417",
   "prefLabel": {
-    "de": "Stunt-Koordinator*in",
-    "en": "Stunt Coordinator"
+    "de": "CG Maler*in",
+    "en": "CG Painter"
   },
   "notation": [
     "012417"
@@ -13,13 +13,13 @@
   "broader": {
     "id": "https://w3id.org/class/esc/n0124",
     "prefLabel": {
-      "de": "Crew",
-      "en": "Crew"
+      "de": "Visuelle Effekte",
+      "en": "Visual Effects"
     }
   },
   "closeMatch": [
     {
-      "id": "https://themoviedb.org#Stunt%20Coordinator"
+      "id": "https://themoviedb.org#CG%20Painter"
     }
   ],
   "inScheme": {
