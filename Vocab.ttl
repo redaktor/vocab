@@ -29,7 +29,7 @@
         :n0010, :n0011, :n0012, :n0013, :n0014, :n0015, :n0016, :n0017, :n0018, :n0019, 
         :n0020, :n0021, :n0022, :n0023, :n0024, :n0025, :n0026, :n0027, :n0028, :n0029, 
         :n0030, :n0031, :n0032, :n0033, :n0034, :n0035, :n0036, :n0037, :n0038, :n0039, 
-        :n0040, :n0041, :n0042, :n0043, :n0044, :n0045 ;
+        :n0040, :n0041, :n0042, :n0043, :n0044, :n0045, :n0046 ;
     skos:notation "00" ;
     skos:prefLabel "Allgemeine Rolle"@de, "Generic or major role"@en ;
     skos:scopeNote "Allgemeine Aufgaben, die ein breites Spektrum an Themen abdecken, ohne oder mit nur geringer Spezialisierung auf ein bestimmtes Gebiet oder bestimmte Gebiete, werden in der Regel in das weite Feld 00 'Generische oder Hauptaufgaben' eingeordnet."@de, 
@@ -473,22 +473,29 @@
     skos:broader :n00 ;
     skos:exactMatch loc:cre ;
     skos:notation "0043" ;
+    skos:prefLabel "Praktikant*in"@de, "Intern"@en ;
+    schema:sameAs tmdb:Intern .
+:n0044 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:exactMatch loc:cre ;
+    skos:notation "0044" ;
     skos:prefLabel "Schöpfer*in"@de, "Creator"@en ;
     skos:definition "Eine Person oder Organisation, die für den geistigen oder künstlerischen Inhalt einer Ressource verantwortlich ist"@de, 
     "A person or organization responsible for the intellectual or artistic content of a resource"@en ;
     schema:sameAs tmdb:Creator .
-:n0044 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n00 ;
-    skos:exactMatch loc:rps ;
-    skos:notation "0044" ;
-    skos:prefLabel "Repository"@de, "Repository"@en ;
-    skos:definition "Eine Organisation, die Daten oder Objekte der materiellen Kultur beherbergt und Dienste zur Förderung einer langfristigen, konsistenten und gemeinsamen Nutzung dieser Daten oder Objekte bereitstellt"@de, 
-    "An organization that hosts data or material culture objects and provides services to promote long term, consistent and shared use of those data or objects"@en .
 :n0045 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
+    skos:exactMatch loc:rps ;
     skos:notation "0045" ;
+    skos:prefLabel "Repository"@de, "Repository"@en ;
+    skos:definition "Eine Organisation, die Daten oder Objekte der materiellen Kultur beherbergt und Dienste zur Förderung einer langfristigen, konsistenten und gemeinsamen Nutzung dieser Daten oder Objekte bereitstellt"@de, 
+    "An organization that hosts data or material culture objects and provides services to promote long term, consistent and shared use of those data or objects"@en .
+:n0046 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n00 ;
+    skos:notation "0046" ;
     skos:prefLabel "In Erinnerung an"@de, "In Memory Of"@en ;
     skos:altLabel "in memoriam"@de, "in memoriam"@en ;
     schema:sameAs tmdb:In%20Memory%20Of .
@@ -667,7 +674,7 @@
         :n012350, :n012351, :n012352, :n012353, :n012354, :n012355, :n012356, :n012357, 
         :n012358, :n012359, :n012360, :n012361, :n012362, :n012363, :n012364, :n012365, 
         :n012366, :n012367, :n012368, :n012369, :n012370, :n012371, :n012372, :n012373, 
-        :n012374, :n012375, :n012376, :n012377, :n012378, :n012379 ;
+        :n012374, :n012375, :n012376, :n012377, :n012378, :n012379, :n012380 ;
     skos:notation "0123" ;
     skos:prefLabel "Kostüme und Styling"@de, "Costume and Styling"@en .
 :n0124 a skos:Concept ;
@@ -3121,7 +3128,7 @@
     skos:prefLabel "Zeichner*in"@de, "Draftsman, Draughtsman"@en ;
     skos:definition "Eine Person, Familie oder Organisation, die zu einer Ressource eines Architekten, Erfinders usw. beiträgt, indem sie detaillierte Pläne oder Zeichnungen für Gebäude, Schiffe, Flugzeuge, Maschinen, Gegenstände usw. anfertigt"@de, 
     "A person, family, or organization contributing to a resource by an architect, inventor, etc., by making detailed plans or drawings for buildings, ships, aircraft, machines, objects, etc"@en ;
-    schema:sameAs tmdb:Draftsman, tmdb:Draughtsman .
+    schema:sameAs tmdb:Draughtsman .
 :n011733 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117 ;
@@ -4099,7 +4106,8 @@
     skos:notation "012012" ;
     skos:prefLabel "Regisseur*in vor Ort"@de, "Field Director"@en ;
     skos:definition "Eine Person oder Organisation, die die Arbeit zur Sammlung von Rohdaten oder zur Durchführung von Forschungsarbeiten in einem konkreten Umfeld leitet oder überwacht (gilt in der Regel für die Natur- und Sozialwissenschaften)"@de, 
-    "A person or organization that manages or supervises the work done to collect raw data or do research in an actual setting or environment (typically applies to the natural and social sciences)"@en .
+    "A person or organization that manages or supervises the work done to collect raw data or do research in an actual setting or environment (typically applies to the natural and social sciences)"@en ;
+    schema:sameAs tmdb:Field%20Director .
 :n012013 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
@@ -4386,7 +4394,7 @@
     skos:prefLabel "Fernsehproduzent*in"@de, "Television producer"@en ;
     skos:definition "Ein Produzent, der für die meisten geschäftlichen Aspekte eines Fernsehprogramms verantwortlich ist"@de, 
     "A producer responsible for most of the business aspects of a television program"@en ;
-    schema:sameAs tmdb:Television%20producer .
+    schema:sameAs tmdb:Television%20producer, tmdb:Broadcast%20producer .
 :n012121 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0121 ;
@@ -5816,7 +5824,7 @@
     skos:broader :n0123 ;
     skos:notation "012343" ;
     skos:prefLabel "Garderoben-Assistenz"@de, "Wardrobe Assistant"@en ;
-    schema:sameAs tmdb:Wardrobe%20Assistant .
+    schema:sameAs tmdb:Wardrobe%20Assistant, tmdb:Additional%20Wardrobe%20Assistant .
 :n012344 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0123 ;
@@ -5985,7 +5993,7 @@
     skos:broader :n0123 ;
     skos:notation "012371" ;
     skos:prefLabel "Perückenmacher*in"@de, "Wigmaker"@en ;
-    schema:sameAs tmdb:Wigmaker .
+    schema:sameAs tmdb:Wigmaker, tmdb:Wig%20Designer .
 :n012372 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0123 ;
@@ -6032,8 +6040,14 @@
     skos:inScheme :scheme ;
     skos:broader :n0123 ;
     skos:notation "012379" ;
+    skos:prefLabel "Färber*in, Ager"@de, "Ager / Dyer"@en ;
+    schema:sameAs tmdb:Ager%2FDyer .
+:n012380 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n0123 ;
+    skos:notation "012380" ;
     skos:prefLabel "Sonstiges Kostüm, Styling"@de, "Other Costume, Styling"@en ;
-    schema:sameAs tmdb:Other .
+    schema:sameAs tmdb:Hair%20Assistant, tmdb:Costume%20Assistant, tmdb:First%20Assistant%20Makeup%20Artist, tmdb:Assistant%20Hairstylist, tmdb:Makeup%20%26%20Hair%20Assistant, tmdb:Assistant%20Makeup%20Artist, tmdb:Additional%20Hairstylist, tmdb:Makeup%20Trainee, tmdb:Assistant%20Hairdresser .
 
 # Visual Effects
 :n012411 a skos:Concept ;
@@ -7707,8 +7721,7 @@
     skos:notation "013018" ;
     skos:prefLabel "Berater*in für die Diplomarbeit"@de, "Thesis advisor"@en ;
     skos:definition "Eine Person, unter deren Aufsicht ein Diplomand eine Dissertation, ein Mémoire oder einen Dissertationstext ausarbeitet und vorlegt"@de, 
-    "A person under whose supervision a degree candidate develops and presents a thesis, mémoire, or text of a dissertation"@en ;
-    schema:sameAs tmdb:Thesis%20advisor .
+    "A person under whose supervision a degree candidate develops and presents a thesis, mémoire, or text of a dissertation"@en .
 :n013019 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0130 ;
@@ -7716,8 +7729,7 @@
     skos:notation "013019" ;
     skos:prefLabel "Einrichtung, die den akademischen Grad verleiht"@de, "Degree granting institution"@en ;
     skos:definition "Eine Organisation, die einen akademischen Grad verleiht"@de, 
-    "A organization granting an academic degree"@en ;
-    schema:sameAs tmdb:Degree%20granting%20institution .
+    "A organization granting an academic degree"@en .
 :n013020 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0130 ;
@@ -7737,8 +7749,7 @@
     skos:notation "013111" ;
     skos:prefLabel "Zensor"@de, "Censor"@en ;
     skos:definition "Eine Person oder Organisation, die bibliografische Quellen prüft, um Teile zu unterdrücken, die aus moralischen, politischen, militärischen oder anderen Gründen als anstößig gelten"@de, 
-    "A person or organization who examines bibliographic resources for the purpose of suppressing parts deemed objectionable on moral, political, military, or other grounds"@en ;
-    schema:sameAs tmdb:Censor .
+    "A person or organization who examines bibliographic resources for the purpose of suppressing parts deemed objectionable on moral, political, military, or other grounds"@en .
 :n013112 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -7758,8 +7769,7 @@
     skos:notation "013114" ;
     skos:prefLabel "Ankläger*in"@de, "Libelant"@en ;
     skos:definition "Eine Person oder Organisation, die eine Verleumdungsklage in einem kirchlichen oder admiralen Fall einreicht"@de, 
-    "A person or organization who files a libel in an ecclesiastical or admiralty case"@en ;
-    schema:sameAs tmdb:Libelant .
+    "A person or organization who files a libel in an ecclesiastical or admiralty case"@en .
 :n013115 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -7767,8 +7777,7 @@
     skos:notation "013115" ;
     skos:prefLabel "Beklagter/Beklagte"@de, "Respondent-appellee"@en ;
     skos:definition "Ein Beklagter, gegen den von einem Gericht oder einer Gerichtsbarkeit ein Rechtsmittel eingelegt wird, um das Urteil aufzuheben, normalerweise in einem Billigkeitsverfahren"@de, 
-    "A respondent against whom an appeal is taken from one court or jurisdiction to another to reverse the judgment, usually in an equity proceeding"@en ;
-    schema:sameAs tmdb:Respondent-appellee .
+    "A respondent against whom an appeal is taken from one court or jurisdiction to another to reverse the judgment, usually in an equity proceeding"@en .
 :n013116 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -7776,8 +7785,7 @@
     skos:notation "013116" ;
     skos:prefLabel "Kläger*in"@de, "Plaintiff"@en ;
     skos:definition "Eine Person oder Organisation, die eine Klage in einem Zivilverfahren einreicht"@de, 
-    "A person or organization who brings a suit in a civil proceeding"@en ;
-    schema:sameAs tmdb:Plaintiff .
+    "A person or organization who brings a suit in a civil proceeding"@en .
 :n013117 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -7785,8 +7793,7 @@
     skos:notation "013117" ;
     skos:prefLabel "Berufungsbeklagter"@de, "Appellee"@en ;
     skos:definition "Eine Person oder Organisation, gegen die ein Rechtsmittel eingelegt wird"@de, 
-    "A person or organization against whom an appeal is taken"@en ;
-    schema:sameAs tmdb:Appellee .
+    "A person or organization against whom an appeal is taken"@en .
 :n013118 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -7794,8 +7801,7 @@
     skos:notation "013118" ;
     skos:prefLabel "Beschwerdeführer*in"@de, "Complainant-appellant"@en ;
     skos:definition "Ein Beschwerdeführer, der bei einem anderen Gericht oder einer anderen Gerichtsbarkeit Berufung einlegt, um das Urteil aufzuheben, in der Regel im Rahmen eines Billigkeitsverfahrens"@de, 
-    "A complainant who takes an appeal from one court or jurisdiction to another to reverse the judgment, usually in an equity proceeding"@en ;
-    schema:sameAs tmdb:Complainant-appellant .
+    "A complainant who takes an appeal from one court or jurisdiction to another to reverse the judgment, usually in an equity proceeding"@en .
 :n013119 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -7812,8 +7818,7 @@
     skos:notation "013120" ;
     skos:prefLabel "Prozesskontakt"@de, "Process contact"@en ;
     skos:definition "Eine Person oder Organisation, die in erster Linie für die Durchführung oder Initiierung eines Prozesses verantwortlich ist, wie z. B. bei der Sammlung von Metadatensätzen"@de, 
-    "A person or organization primarily responsible for performing or initiating a process, such as is done with the collection of metadata sets"@en ;
-    schema:sameAs tmdb:Process%20contact .
+    "A person or organization primarily responsible for performing or initiating a process, such as is done with the collection of metadata sets"@en .
 :n013121 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -7821,8 +7826,7 @@
     skos:notation "013121" ;
     skos:prefLabel "Anfechtender"@de, "Contestant"@en ;
     skos:definition "Eine Person oder Organisation, die sich einer Forderung, einer Entscheidung, einem Ergebnis usw. widersetzt, widersteht oder es vor Gericht anfechtet."@de, 
-    "A person(s) or organization who opposes, resists, or disputes, in a court of law, a claim, decision, result, etc."@en ;
-    schema:sameAs tmdb:Contestant .
+    "A person(s) or organization who opposes, resists, or disputes, in a court of law, a claim, decision, result, etc."@en .
 :n013122 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -7839,8 +7843,7 @@
     skos:notation "013123" ;
     skos:prefLabel "Freigestellter"@de, "Libelee"@en ;
     skos:definition "Eine Person oder Organisation, gegen die eine Verleumdungsklage vor einem kirchlichen Gericht oder einer Admiralität eingereicht wurde"@de, 
-    "A person or organization against whom a libel has been filed in an ecclesiastical court or admiralty"@en ;
-    schema:sameAs tmdb:Libelee .
+    "A person or organization against whom a libel has been filed in an ecclesiastical court or admiralty"@en .
 :n013124 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -7848,8 +7851,7 @@
     skos:notation "013124" ;
     skos:prefLabel "Ausübende Gerichtsbarkeit"@de, "Enacting jurisdiction"@en ;
     skos:definition "Eine Gerichtsbarkeit, die ein Gesetz, eine Verordnung, eine Verfassung, eine Gerichtsordnung usw. erlässt"@de, 
-    "A jurisdiction enacting a law, regulation, constitution, court rule, etc."@en ;
-    schema:sameAs tmdb:Enacting%20jurisdiction .
+    "A jurisdiction enacting a law, regulation, constitution, court rule, etc."@en .
 :n013125 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -7857,8 +7859,7 @@
     skos:notation "013125" ;
     skos:prefLabel "Verfügungsbeklagter"@de, "Libelee-appellee"@en ;
     skos:definition "Ein Beklagter, gegen den von einem Kirchen- oder Seegericht ein Rechtsmittel bei einem anderen Gericht eingelegt wird, um das Urteil aufzuheben"@de, 
-    "A libelee against whom an appeal is taken from one ecclesiastical court or admiralty to another to reverse the judgment"@en ;
-    schema:sameAs tmdb:Libelee-appellee .
+    "A libelee against whom an appeal is taken from one ecclesiastical court or admiralty to another to reverse the judgment"@en .
 :n013126 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -7866,8 +7867,7 @@
     skos:notation "013126" ;
     skos:prefLabel "Angefochtener"@de, "Contestee"@en ;
     skos:definition "Person(en) oder Organisation, die eine Forderung, eine Entscheidung, ein Ergebnis usw. verteidigt, das vor einem Gericht angefochten, bekämpft oder bestritten wird"@de, 
-    "A person(s) or organization defending a claim, decision, result, etc. being opposed, resisted, or disputed in a court of law"@en ;
-    schema:sameAs tmdb:Contestee .
+    "A person(s) or organization defending a claim, decision, result, etc. being opposed, resisted, or disputed in a court of law"@en .
 :n013127 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -7893,8 +7893,7 @@
     skos:notation "013129" ;
     skos:prefLabel "Angefochtener - Berufungskläger"@de, "Contestee-appellant"@en ;
     skos:definition "Eine Person, die ein Rechtsmittel bei einem anderen Gericht oder einer anderen Gerichtsbarkeit einlegt, um das Urteil aufzuheben"@de, 
-    "A contestee who takes an appeal from one court or jurisdiction to another to reverse the judgment"@en ;
-    schema:sameAs tmdb:Contestee-appellant .
+    "A contestee who takes an appeal from one court or jurisdiction to another to reverse the judgment"@en .
 :n013130 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -7902,8 +7901,7 @@
     skos:notation "013130" ;
     skos:prefLabel "Richter"@de, "Judge"@en ;
     skos:definition "Eine Person, die vor Gericht Rechtsangelegenheiten anhört und darüber entscheidet."@de, 
-    "A person who hears and decides on legal matters in court."@en ;
-    schema:sameAs tmdb:Judge .
+    "A person who hears and decides on legal matters in court."@en .
 :n013131 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -7911,8 +7909,7 @@
     skos:notation "013131" ;
     skos:prefLabel "Beklagter - Berufungsbeklagter"@de, "Defendant-appellee"@en ;
     skos:definition "Ein Beklagter, gegen den ein Rechtsmittel von einem Gericht oder einer Gerichtsbarkeit zu einem anderen eingelegt wird, um das Urteil aufzuheben, in der Regel in einem Rechtsstreit"@de, 
-    "A defendant against whom an appeal is taken from one court or jurisdiction to another to reverse the judgment, usually in a legal action"@en ;
-    schema:sameAs tmdb:Defendant-appellee .
+    "A defendant against whom an appeal is taken from one court or jurisdiction to another to reverse the judgment, usually in a legal action"@en .
 :n013132 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -7920,8 +7917,7 @@
     skos:notation "013132" ;
     skos:prefLabel "Ankläger - Berufungskläger"@de, "Libelant-appellant"@en ;
     skos:definition "Ein Kläger, der bei einem kirchlichen Gericht oder einer Admiralität Berufung einlegt, um das Urteil aufzuheben"@de, 
-    "A libelant who takes an appeal from one ecclesiastical court or admiralty to another to reverse the judgment"@en ;
-    schema:sameAs tmdb:Libelant-appellant .
+    "A libelant who takes an appeal from one ecclesiastical court or admiralty to another to reverse the judgment"@en .
 :n013133 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -7929,8 +7925,7 @@
     skos:notation "013133" ;
     skos:prefLabel "Gericht verwaltet"@de, "Court governed"@en ;
     skos:definition "Ein Gericht, das sich an Gerichtsregeln hält, unabhängig von deren offizieller Natur (z. B. Gesetze, Verwaltungsvorschriften)"@de, 
-    "A court governed by court rules, regardless of their official nature (e.g., laws, administrative regulations)"@en ;
-    schema:sameAs tmdb:Court%20governed .
+    "A court governed by court rules, regardless of their official nature (e.g., laws, administrative regulations)"@en .
 :n013134 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -7938,8 +7933,7 @@
     skos:notation "013134" ;
     skos:prefLabel "Anfechtungskläger-Bewerber"@de, "Contestant-appellee"@en ;
     skos:definition "Eine Person, gegen die ein Rechtsmittel von einem Gericht oder einer Gerichtsbarkeit bei einem anderen Gericht eingelegt wird, um die Entscheidung aufzuheben"@de, 
-    "A contestant against whom an appeal is taken from one court of law or jurisdiction to another to reverse the judgment"@en ;
-    schema:sameAs tmdb:Contestant-appellee .
+    "A contestant against whom an appeal is taken from one court of law or jurisdiction to another to reverse the judgment"@en .
 :n013135 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -7947,8 +7941,7 @@
     skos:notation "013135" ;
     skos:prefLabel "Patentinhaber*in"@de, "Patent holder"@en ;
     skos:definition "Eine Person oder Organisation, der ein Patent erteilt wurde, auf das sich der Eintrag bezieht"@de, 
-    "A person or organization that was granted the patent referred to by the item"@en ;
-    schema:sameAs tmdb:Patent%20holder .
+    "A person or organization that was granted the patent referred to by the item"@en .
 :n013136 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -7965,8 +7958,7 @@
     skos:notation "013137" ;
     skos:prefLabel "Gerichtliche Zuständigkeit"@de, "Jurisdiction governed"@en ;
     skos:definition "Eine Gerichtsbarkeit, die einem Gesetz, einer Verordnung usw. unterliegt, das/die von einer anderen Gerichtsbarkeit erlassen wurde"@de, 
-    "A jurisdiction governed by a law, regulation, etc., that was enacted by another jurisdiction"@en ;
-    schema:sameAs tmdb:Jurisdiction%20governed .
+    "A jurisdiction governed by a law, regulation, etc., that was enacted by another jurisdiction"@en .
 :n013138 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -7974,8 +7966,7 @@
     skos:notation "013138" ;
     skos:prefLabel "Einsprechende"@de, "Opponent"@en ;
     skos:definition "Eine Person oder Organisation, die für den Einspruch gegen eine Dissertation verantwortlich ist"@de, 
-    "A person or organization responsible for opposing a thesis or dissertation"@en ;
-    schema:sameAs tmdb:Opponent .
+    "A person or organization responsible for opposing a thesis or dissertation"@en .
 :n013139 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -7992,8 +7983,7 @@
     skos:notation "013140" ;
     skos:prefLabel "Patentanmelder"@de, "Patent applicant"@en ;
     skos:definition "Eine Person oder Organisation, die ein Patent angemeldet hat"@de, 
-    "A person or organization that applied for a patent"@en ;
-    schema:sameAs tmdb:Patent%20applicant .
+    "A person or organization that applied for a patent"@en .
 :n013141 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -8001,8 +7991,7 @@
     skos:notation "013141" ;
     skos:prefLabel "Erste Partei"@de, "First party"@en ;
     skos:definition "Eine Person oder Organisation, die als einzige Partei oder als Partei der ersten Partei identifiziert wird. Im Falle der Übertragung von Rechten ist dies der Zedent, der Übertragende, der Lizenzgeber, der Erteiler usw. Mehrere Parteien können gemeinsam als die erste Partei benannt werden."@de, 
-    "A person or organization who is identified as the only party or the party of the first party. In the case of transfer of rights, this is the assignor, transferor, licensor, grantor, etc. Multiple parties can be named jointly as the first party"@en ;
-    schema:sameAs tmdb:First%20party .
+    "A person or organization who is identified as the only party or the party of the first party. In the case of transfer of rights, this is the assignor, transferor, licensor, grantor, etc. Multiple parties can be named jointly as the first party"@en .
 :n013142 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -8010,8 +7999,7 @@
     skos:notation "013142" ;
     skos:prefLabel "Zweiter Beteiligter"@de, "Second party"@en ;
     skos:definition "Eine Person oder Organisation, die als die Partei des zweiten Teils identifiziert wird. Bei der Übertragung von Rechten ist dies der Abtretungsempfänger, Übernehmer, Lizenznehmer, Konzessionsnehmer usw. Mehrere Parteien können gemeinsam als zweiter Beteiligter benannt werden."@de, 
-    "A person or organization who is identified as the party of the second part. In the case of transfer of right, this is the assignee, transferee, licensee, grantee, etc. Multiple parties can be named jointly as the second party"@en ;
-    schema:sameAs tmdb:Second%20party .
+    "A person or organization who is identified as the party of the second part. In the case of transfer of right, this is the assignee, transferee, licensee, grantee, etc. Multiple parties can be named jointly as the second party"@en .
 :n013143 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -8019,8 +8007,7 @@
     skos:notation "013143" ;
     skos:prefLabel "Antragsgegner"@de, "Respondent"@en ;
     skos:definition "Eine Person oder Organisation, die vor Gericht eine Antwort auf einen Antrag auf Wiedergutmachung (in der Regel in einem Billigkeitsverfahren) gibt, oder ein Kandidat für einen akademischen Grad, der eine vom Präses vorgelegte These in einer akademischen Disputation verteidigt oder ablehnt"@de, 
-    "A person or organization who makes an answer to the courts pursuant to an application for redress (usually in an equity proceeding) or a candidate for a degree who defends or opposes a thesis provided by the praeses in an academic disputation"@en ;
-    schema:sameAs tmdb:Respondent .
+    "A person or organization who makes an answer to the courts pursuant to an application for redress (usually in an equity proceeding) or a candidate for a degree who defends or opposes a thesis provided by the praeses in an academic disputation"@en .
 :n013144 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -8028,8 +8015,7 @@
     skos:notation "013144" ;
     skos:prefLabel "Rechtsmittelführer"@de, "Appellant"@en ;
     skos:definition "Eine Person oder Organisation, die gegen eine Entscheidung einer unteren Instanz Berufung einlegt"@de, 
-    "A person or organization who appeals a lower court's decision"@en ;
-    schema:sameAs tmdb:Appellant .
+    "A person or organization who appeals a lower court's decision"@en .
 :n013145 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -8037,8 +8023,7 @@
     skos:notation "013145" ;
     skos:prefLabel "Beklagter - Berufungskläger"@de, "Respondent-appellant"@en ;
     skos:definition "Ein Beklagter, der bei einem anderen Gericht oder einer anderen Gerichtsbarkeit Berufung einlegt, um das Urteil aufzuheben, in der Regel im Rahmen eines Billigkeitsverfahrens"@de, 
-    "A respondent who takes an appeal from one court or jurisdiction to another to reverse the judgment, usually in an equity proceeding"@en ;
-    schema:sameAs tmdb:Respondent-appellant .
+    "A respondent who takes an appeal from one court or jurisdiction to another to reverse the judgment, usually in an equity proceeding"@en .
 :n013146 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -8046,8 +8031,7 @@
     skos:notation "013146" ;
     skos:prefLabel "Libelle - Berufungskläger"@de, "Libelee-appellant"@en ;
     skos:definition "Ein Beklagter, der bei einem anderen Kirchen- oder Admiralitätsgericht Berufung einlegt, um das Urteil aufzuheben"@de, 
-    "A libelee who takes an appeal from one ecclesiastical court or admiralty to another to reverse the judgment"@en ;
-    schema:sameAs tmdb:Libelee-appellant .
+    "A libelee who takes an appeal from one ecclesiastical court or admiralty to another to reverse the judgment"@en .
 :n013147 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -8055,8 +8039,7 @@
     skos:notation "013147" ;
     skos:prefLabel "Kläger - Berufungskläger"@de, "Plaintiff-appellant"@en ;
     skos:definition "Ein Kläger, der bei einem anderen Gericht oder einer anderen Gerichtsbarkeit Berufung einlegt, um das Urteil aufzuheben, in der Regel in einem Gerichtsverfahren"@de, 
-    "A plaintiff who takes an appeal from one court or jurisdiction to another to reverse the judgment, usually in a legal proceeding"@en ;
-    schema:sameAs tmdb:Plaintiff-appellant .
+    "A plaintiff who takes an appeal from one court or jurisdiction to another to reverse the judgment, usually in a legal proceeding"@en .
 :n013148 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -8064,8 +8047,7 @@
     skos:notation "013148" ;
     skos:prefLabel "Berufungsbeklagter"@de, "Contestee-appellee"@en ;
     skos:definition "Eine Person, gegen die von einem Gericht oder einer Gerichtsbarkeit ein Rechtsmittel eingelegt wird, um das Urteil aufzuheben"@de, 
-    "A contestee against whom an appeal is taken from one court or jurisdiction to another to reverse the judgment"@en ;
-    schema:sameAs tmdb:Contestee-appellee .
+    "A contestee against whom an appeal is taken from one court or jurisdiction to another to reverse the judgment"@en .
 :n013149 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -8073,8 +8055,7 @@
     skos:notation "013149" ;
     skos:prefLabel "Beklagter - Berufungskläger"@de, "Defendant-appellant"@en ;
     skos:definition "Ein Beklagter, der bei einem anderen Gericht oder einer anderen Gerichtsbarkeit Berufung einlegt, um die Entscheidung aufzuheben, in der Regel im Rahmen eines Gerichtsverfahrens"@de, 
-    "A defendant who takes an appeal from one court or jurisdiction to another to reverse the judgment, usually in a legal action"@en ;
-    schema:sameAs tmdb:Defendant-appellant .
+    "A defendant who takes an appeal from one court or jurisdiction to another to reverse the judgment, usually in a legal action"@en .
 :n013150 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -8082,8 +8063,7 @@
     skos:notation "013150" ;
     skos:prefLabel "Berufungskläger"@de, "Libelant-appellee"@en ;
     skos:definition "Ein Kläger, gegen den von einem kirchlichen Gericht oder einer Admiralität bei einem anderen Gericht Berufung eingelegt wird, um das Urteil aufzuheben"@de, 
-    "A libelant against whom an appeal is taken from one ecclesiastical court or admiralty to another to reverse the judgment"@en ;
-    schema:sameAs tmdb:Libelant-appellee .
+    "A libelant against whom an appeal is taken from one ecclesiastical court or admiralty to another to reverse the judgment"@en .
 :n013151 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -8091,8 +8071,7 @@
     skos:notation "013151" ;
     skos:prefLabel "Anfechtungskläger"@de, "Contestant-appellant"@en ;
     skos:definition "Ein Anfechtungskläger, der von einem Gericht oder einer Gerichtsbarkeit bei einem anderen Gericht Berufung einlegt, um das Urteil aufzuheben"@de, 
-    "A contestant who takes an appeal from one court of law or jurisdiction to another to reverse the judgment"@en ;
-    schema:sameAs tmdb:Contestant-appellant .
+    "A contestant who takes an appeal from one court of law or jurisdiction to another to reverse the judgment"@en .
 :n013152 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -8100,8 +8079,7 @@
     skos:notation "013152" ;
     skos:prefLabel "Beschwerdeführerin"@de, "Complainant"@en ;
     skos:definition "Eine Person oder Organisation, die sich an die Gerichte wendet, um Abhilfe zu schaffen, in der Regel im Rahmen eines Billigkeitsverfahrens"@de, 
-    "A person or organization who applies to the courts for redress, usually in an equity proceeding"@en ;
-    schema:sameAs tmdb:Complainant .
+    "A person or organization who applies to the courts for redress, usually in an equity proceeding"@en .
 :n013153 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -8109,8 +8087,7 @@
     skos:notation "013153" ;
     skos:prefLabel "Kläger/Beklagter"@de, "Plaintiff-appellee"@en ;
     skos:definition "Ein Kläger, gegen den von einem Gericht oder einer Gerichtsbarkeit Berufung bei einem anderen Gericht eingelegt wird, um das Urteil aufzuheben, in der Regel in einem Gerichtsverfahren"@de, 
-    "A plaintiff against whom an appeal is taken from one court or jurisdiction to another to reverse the judgment, usually in a legal proceeding"@en ;
-    schema:sameAs tmdb:Plaintiff-appellee .
+    "A plaintiff against whom an appeal is taken from one court or jurisdiction to another to reverse the judgment, usually in a legal proceeding"@en .
 :n013154 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -8118,8 +8095,7 @@
     skos:notation "013154" ;
     skos:prefLabel "Beschwerdeführer/Beklagter"@de, "Complainant-appellee"@en ;
     skos:definition "Ein Beschwerdeführer, gegen den von einem Gericht oder einer Gerichtsbarkeit bei einem anderen Gericht Berufung eingelegt wird, um die Entscheidung aufzuheben, in der Regel in einem Billigkeitsverfahren"@de, 
-    "A complainant against whom an appeal is taken from one court or jurisdiction to another to reverse the judgment, usually in an equity proceeding"@en ;
-    schema:sameAs tmdb:Complainant-appellee .
+    "A complainant against whom an appeal is taken from one court or jurisdiction to another to reverse the judgment, usually in an equity proceeding"@en .
 :n013155 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -8127,8 +8103,7 @@
     skos:notation "013155" ;
     skos:prefLabel "Beklagter"@de, "Defendant"@en ;
     skos:definition "Eine Person oder Organisation, die in einem Strafverfahren angeklagt oder in einem Zivilverfahren verklagt wird"@de, 
-    "A person or organization who is accused in a criminal proceeding or sued in a civil proceeding"@en ;
-    schema:sameAs tmdb:Defendant .
+    "A person or organization who is accused in a criminal proceeding or sued in a civil proceeding"@en .
 :n013156 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -8136,8 +8111,7 @@
     skos:notation "013156" ;
     skos:prefLabel "Fragwürdige*r Autor*in"@de, "Dubious author"@en ;
     skos:definition "Eine Person oder Organisation, der die Urheberschaft zweifelhaft oder fälschlicherweise zugeschrieben wurde"@de, 
-    "A person or organization to which authorship has been dubiously or incorrectly ascribed"@en ;
-    schema:sameAs tmdb:Dubious%20author .
+    "A person or organization to which authorship has been dubiously or incorrectly ascribed"@en .
 :n013157 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
@@ -8145,8 +8119,7 @@
     skos:notation "013157" ;
     skos:prefLabel "Fälscher*in"@de, "Forger"@en ;
     skos:definition "Eine Person oder Organisation, die etwas von Wert oder Bedeutung herstellt oder nachahmt, insbesondere in der Absicht, zu betrügen"@de, 
-    "A person or organization who makes or imitates something of value or importance, especially with the intent to defraud"@en ;
-    schema:sameAs tmdb:Forger .
+    "A person or organization who makes or imitates something of value or importance, especially with the intent to defraud"@en .
 :n013158 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0131 ;
