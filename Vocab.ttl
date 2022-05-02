@@ -1,6 +1,7 @@
 @prefix : <https://w3id.org/class/redaktor/> .
 @prefix Property: <http://www.wikidata.org/wiki/Property:> .
 @prefix loc: <https://id.loc.gov/vocabulary/relators/> .
+@prefix locsubject: <https://id.loc.gov/authorities/subjects/> .
 @prefix tmdb: <https://themoviedb.org#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix schema: <http://schema.org/> .
@@ -89,7 +90,9 @@
     skos:topConceptOf :scheme .
 :n20 a skos:Concept ;
     skos:inScheme :scheme ;
-    skos:narrower :n201, :n202, :n203, :n204, :n205, :n206, :n207 ;
+    skos:narrower :n201, :n202, :n203, :n204, :n205, :n206, :n207, :n209, :n209, 
+        :n2010, :n2011, :n2012, :n2013, :n2014, :n2015, :n2016, :n2017, :n2018, 
+        :n2019 ;
     skos:notation "20" ;
     skos:prefLabel "`location` Verbindungen"@de, "`location` Relations"@en ;
     skos:scopeNote ""@en ;
@@ -874,54 +877,156 @@
     skos:broader :n20 ;
     skos:notation "201" ;
     skos:prefLabel "Erstellungsort"@de, "Location Created"@en ;
-    skos:altLabel "Event place"@de, "Event place"@en ;
-    skos:definition "Der Ort, an dem das Werk geschaffen wurde, nicht unbedingt identisch mit dem im Werk dargestellten Ort."@de, 
-    "The location where the CreativeWork was created, which may not be the same as the location depicted in the Work." .
+    skos:altLabel "Drehort"@de, "filming location"@en ;
+    skos:altLabel "Ereignisort"@de, "Event place"@en ;
+    skos:definition "Der Ort, an dem das Werk geschaffen wurde, nicht unbedingt identisch mit dem im Werk dargestellten Ort. Z. B. Ort, an dem eine (Video-) Filmepisode aufgenommen wurde"@de, 
+    "The location where the CreativeWork was created, which may not be the same as the location depicted in the Work. E.g. ctual place where this scene/film was shot." .
 :n202 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n20 ;
+    skos:notation "202" ;
+    skos:prefLabel "Aufnahmeort"@de, "recorded at studio or venue"@en ;
+    skos:altLabel "Aufnahmestudio"@de, "Recording venue"@en ;
+    skos:definition "Studio, in dem eine musikalische Komposition aufgenommen wurde"@de, 
+    "studio or location where a musical composition/release was recorded"@en ;
+    schema:sameAs Property:P483 .
+:n203 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:exactMatch loc:prp ;
     skos:broader :n20 ;
-    skos:notation "202" ;
+    skos:notation "203" ;
     skos:prefLabel "Ort des Inhalts"@de, "Location of Content"@en ;
     skos:definition "Der Ort, der im Inhalt dargestellt oder beschrieben wird. Zum Beispiel der Ort, der in einer Fotografie oder einem Gemälde gezeigt wird."@de, 
-    "The location depicted or described in the content. For example, the location shown in a photograph or painting." .
-:n203 a skos:Concept ;
+    "The location depicted or described in the content. For example, the location shown in a photograph or painting."@en ;
+    schema:sameAs Property:P840 .
+:n204 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:exactMatch loc:pup ;
     skos:broader :n20 ;
-    skos:notation "203" ;
+    skos:notation "204" ;
     skos:prefLabel "Ort der Veröffentlichung"@de, "Location of Publication"@en ;
     skos:definition "Der Ort, an dem eine Ressource veröffentlicht wird."@de, 
-    "The location where a resource is published." .
-:n204 a skos:Concept ;
+    "The location where a resource is published."@en ;
+    schema:sameAs Property:PP291 .
+:n205 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:exactMatch loc:mfp ;
     skos:broader :n20 ;
-    skos:notation "204" ;
-    skos:prefLabel "Ort der Herstellung"@de, "Location Manufacture"@en ;
-    skos:definition "Der Ort der Herstellung (z. B. Druck, Vervielfältigung, Gießen usw.) einer Ressource in einer veröffentlichten Form."@de, 
-    "The place of manufacture (e.g., printing, duplicating, casting, etc.) of a resource in a published form." .
-:n205 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:exactMatch loc:uvp ;
-    skos:broader :n20 ;
     skos:notation "205" ;
-    skos:prefLabel "Ort einer Universität oder Bibliothek"@de, "Location University or Library"@en ;
-    skos:definition "Z. B. eine Universität, an der eine akademische Dissertation vorgelegt wurde, oder eine Bibliothek, in der sie verfügbar ist."@de, 
-    "E.g., a university where an academic dissertation or thesis was presented or a library where it is available." .
+    skos:prefLabel "Ort der Herstellung des Werks"@de, "Location Manufacture"@en ;
+    skos:definition "Der Ort der Herstellung (z. B. Druck, Vervielfältigung, Gießen usw.) einer Ressource in einer veröffentlichten Form."@de, 
+    "The place of manufacture (e.g., printing, duplicating, casting, etc.) of a resource in a published form."@en ;
+    schema:sameAs Property:P1071 .
 :n206 a skos:Concept ;
     skos:inScheme :scheme ;
-    skos:exactMatch loc:dbp ;
+    skos:exactMatch locsubject:sh99004965 ;
     skos:broader :n20 ;
     skos:notation "206" ;
-    skos:prefLabel "Ort der Verbreitung"@de, "Location of Distribution"@en ;
-    skos:definition "Ein Ort, von dem aus eine Ressource, z. B. eine Schriftenreihe, verbreitet wird."@de, 
-    "A location from which a resource, e.g., a serial, is distributed." .
+    skos:prefLabel "Geburtsort"@de, "Birthplace"@en ;
+    skos:altLabel "geboren in"@de, "born in"@en ;
+    skos:altLabel "Ort der Geburt"@de, "Place of Birth"@en ;
+    skos:definition "Ort, in dem eine Person, ein Tier oder ein fiktiver Charakter geboren wurde (so genau wie bekannt, z. B. Stadt anstatt von Land oder Krankenhaus anstatt von Stadt)"@de, 
+    "most specific known (e.g. city instead of country, or hospital instead of city) birth location of a person, animal or fictional character"@en ;
+    schema:sameAs Property:P19 .
 :n207 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n20 ;
     skos:notation "207" ;
+    skos:prefLabel "Wirkungsort"@de, "work location"@en ;
+    skos:altLabel "Arbeitsort"@de, "place of activity"@en ;
+    skos:definition "Ort, an dem Personen aktiv sind (waren)"@de, 
+    "location where persons or organisations were actively participating in employment, business or other work"@en ;
+    schema:sameAs Property:P937 .
+:n208 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n20 ;
+    skos:notation "208" ;
+    skos:prefLabel "Haftort"@de, "place of detention"@en ;
+    skos:altLabel "inhaftiert in Gefängnis"@de, "in prison, jail"@en ;
+    skos:definition "Ort an welchem eine Person eingesperrt war"@de, 
+    "place where this person is or was detained"@en ;
+    schema:sameAs Property:P2632 .
+:n209 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n20 ;
+    skos:notation "209" ;
+    skos:prefLabel "Sterbeort"@de, "place of death"@en ;
+    skos:altLabel "gestorben in"@de, "died in"@en ;
+    skos:definition "Ort, in dem eine Person, ein Tier oder ein fiktiver Charakter gestorben ist (so genau wie bekannt, z. B. Stadt anstatt von Land oder Krankenhaus anstatt von Stadt)"@de, 
+    "most specific known (e.g. city instead of country, or hospital instead of city) death location of a person, animal or fictional character"@en ;
+    schema:sameAs Property:P20 .
+:n2010 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n20 ;
+    skos:notation "2010" ;
+    skos:prefLabel "Begräbnisort"@de, "place of burial"@en ;
+    skos:altLabel "Grab"@de, "tomb"@en ;
+    skos:definition "Ort des Grabes"@de, 
+    "location of grave, resting place, place of ash-scattering, etc. (e.g., town/city or cemetery) for a person or animal. There may be several places: e.g., re-burials, parts of body buried separately."@en ;
+    schema:sameAs Property:P119 .
+:n2011 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n20 ;
+    skos:notation "2011" ;
+    skos:prefLabel "Fundort"@de, "location of discovery"@en ;
+    skos:altLabel "Auffindeort"@de, "findspot"@en ;
+    skos:definition "wo das Subjekt entdeckt wurde"@de, 
+    "where the item was located when discovered"@en ;
+    schema:sameAs Property:P189 .
+:n2012 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n20 ;
+    skos:notation "2012" ;
+    skos:prefLabel "Gründungsort"@de, "location of formation"@en ;
+    skos:definition "Ort, an dem etwas entstand oder gegründet wurde"@de, 
+    "location where a group or organization was formed"@en ;
+    schema:sameAs Property:P740 .
+:n2013 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:exactMatch loc:uvp ;
+    skos:broader :n20 ;
+    skos:notation "2013" ;
+    skos:prefLabel "Ort einer Universität oder Bibliothek"@de, "Location University or Library"@en ;
+    skos:definition "Z. B. eine Universität, an der eine akademische Dissertation vorgelegt wurde, oder eine Bibliothek, in der sie verfügbar ist."@de, 
+    "E.g., a university where an academic dissertation or thesis was presented or a library where it is available." .
+:n2014 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:exactMatch loc:dbp ;
+    skos:broader :n20 ;
+    skos:notation "2014" ;
+    skos:prefLabel "Ort der Verbreitung"@de, "Location of Distribution"@en ;
+    skos:definition "Ein Ort, von dem aus eine Ressource, z. B. eine Schriftenreihe, verbreitet wird."@de, 
+    "A location from which a resource, e.g., a serial, is distributed." .
+:n2015 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n20 ;
+    skos:notation "2015" ;
     skos:prefLabel "Räumliche Ausdehnung (spatial)"@de, "Spatial Coverage"@en .
+:n2016 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n20 ;
+    skos:notation "2016" ;
+    skos:prefLabel "Landeplatz"@de, "location of landing"@en ;
+    skos:altLabel "Lande-Platz"@de, "landing site"@en ;
+    schema:sameAs Property:P1158 .
+:n2017 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n20 ;
+    skos:notation "2017" ;
+    skos:prefLabel "astronomischer Entdeckungsort"@de, "site of astronomical discovery"@en ;
+    schema:sameAs Property:P65 .
+:n2018 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n20 ;
+    skos:notation "2018" ;
+    skos:prefLabel "Ort der Eheschließung"@de, "place of marriage"@en ;
+    schema:sameAs Property:P2842 .
+:n2019 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n20 ;
+    skos:notation "2019" ;
+    skos:prefLabel "Ort der Uraufführung oder Erstausstrahlung"@de, "location of first performance"@en ;
+    schema:sameAs Property:P4647 .
 
 :n301 a skos:Concept ;
     skos:inScheme :scheme ;
@@ -1220,7 +1325,7 @@
     skos:broader :n0112 ;
     skos:notation "011236" ;
     skos:prefLabel "Autorenproduktion"@de, "Writers' Production"@en ;
-    schema:sameAs tmdb:Writers'%20Production .
+    schema:sameAs tmdb:Writers%27%20Production .
 :n011237 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
@@ -1381,7 +1486,7 @@
     skos:broader :n0112 ;
     skos:notation "011262" ;
     skos:prefLabel "Assistenz der Autoren"@de, "Writers' Assistant"@en ;
-    schema:sameAs tmdb:Writers'%20Assistant .
+    schema:sameAs tmdb:Writers%27%20Assistant .
 :n011264 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
@@ -1389,16 +1494,14 @@
     skos:notation "011264" ;
     skos:prefLabel "Verfasser*in der Einleitung usw."@de, "Author of introduction, etc."@en ;
     skos:definition "Eine Person oder Organisation, die für eine Einleitung, ein Vorwort, Preface oder einen anderen kritischen einleitenden Text verantwortlich ist, aber nicht der Hauptautor ist"@de, 
-    "A person or organization responsible for an introduction, preface, foreword, or other critical introductory matter, but who is not the chief author"@en ;
-    schema:sameAs tmdb:Author%20of%20introduction,%20etc. .
+    "A person or organization responsible for an introduction, preface, foreword, or other critical introductory matter, but who is not the chief author"@en .
 :n011265 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
     skos:exactMatch loc:aft ;
     skos:notation "011265" ;
     skos:prefLabel "Verfasser*in des Nachworts, des Kolophons, usw."@de, "Author of afterword, colophon, etc."@en ;
-    skos:definition "Eine Person oder Organisation, die für ein Nachwort, ein Nachwort, ein Kolophon usw. verantwortlich ist, aber nicht der Hauptautor eines Werkes ist"@de, "A person or organization responsible for an afterword, postface, colophon, etc. but who is not the chief author of a work"@en ;
-    schema:sameAs Property:P2680, tmdb:Author%20of%20afterword,%20colophon,%20etc. .
+    skos:definition "Eine Person oder Organisation, die für ein Nachwort, ein Nachwort, ein Kolophon usw. verantwortlich ist, aber nicht der Hauptautor eines Werkes ist"@de, "A person or organization responsible for an afterword, postface, colophon, etc. but who is not the chief author of a work"@en .
 :n011266 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
@@ -1561,7 +1664,7 @@
     skos:prefLabel "Director of Photography, Bildregisseur*in, Kameraperson, Kamerafrau, Kameramann"@de, "Director of Photography"@en ;
     skos:definition "Eine Person, die für das Fotografieren eines Kinofilms verantwortlich ist, die die technischen Aspekte der Beleuchtung und des Fotografierens von Szenen plant und oft den Regisseur bei der Wahl von Winkeln, Kameraeinstellungen und Lichtstimmungen unterstützt. Er oder sie kann auch die Weiterverarbeitung des gefilmten Materials bis zur Fertigstellung der Filmkopie beaufsichtigen. Die Kameraperson wird auch als Director of Photography bezeichnet. Nicht zu verwechseln mit Videofilmer"@de, 
     "A person in charge of photographing a motion picture, who plans the technical aspets of lighting and photographing of scenes, and often assists the director in the choice of angles, camera setups, and lighting moods. He or she may also supervise the further processing of filmed material up to the completion of the work print. Cinematographer is also referred to as director of photography. Do not confuse with videographer"@en ;
-    schema:sameAs Property:P344 tmdb:Director%20of%20Photography .
+    schema:sameAs Property:P344, tmdb:Director%20of%20Photography .
 :n011312 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0113 ;
@@ -2427,7 +2530,7 @@
     skos:prefLabel "ADR & Synchronisation"@de, "ADR & Dubbing"@en ;
     skos:definition "Eine Person, die Musiknotation transkribiert oder kopiert"@de, 
     "A person who transcribes or copies musical notation"@en ;
-    schema:sameAs tmdb:ADR%20&%20Dubbing .
+    schema:sameAs tmdb:ADR%20%26%20Dubbing .
 :n011465 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0114 ;
@@ -2997,7 +3100,7 @@
     skos:broader :n0117 ;
     skos:notation "011729" ;
     skos:prefLabel "Künstler*in Bühnenbild und Requisite"@de, "Sets & Props Artist"@en ;
-    schema:sameAs tmdb:Sets%20&%20Props%20Artist .
+    schema:sameAs tmdb:Sets%20%26%20Props%20Artist .
 :n011730 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117 ;
@@ -3941,7 +4044,7 @@
     skos:broader :n0119 ;
     skos:notation "011964" ;
     skos:prefLabel "Supervisor für Sets und Requisiten"@de, "Sets & Props Supervisor"@en ;
-    schema:sameAs tmdb:Sets%20&%20Props%20Supervisor .
+    schema:sameAs tmdb:Sets%20%26%20Props%20Supervisor .
 :n011965 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0119 ;
@@ -4115,8 +4218,7 @@
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
     skos:notation "012029" ;
-    skos:prefLabel "Erste Regieassistenz (Vorbereitung)"@de, "First Assistant Director (Prep)"@en ;
-    schema:sameAs tmdb:First%20Assistant%20Director%20(Prep) .
+    skos:prefLabel "Erste Regieassistenz (Vorbereitung)"@de, "First Assistant Director (Prep)"@en .
 :n012030 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
@@ -4839,7 +4941,7 @@
     skos:broader :n0121 ;
     skos:notation "0121106" ;
     skos:prefLabel "Assistenz der Produzent*in"@de, "Producer's Assistant"@en ;
-    schema:sameAs tmdb:Producer's%20Assistant .
+    schema:sameAs tmdb:Producer%27s%20Assistant .
 :n0121107 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0121 ;
@@ -4902,7 +5004,7 @@
     skos:broader :n0121 ;
     skos:notation "0121116" ;
     skos:prefLabel "Assistenz des ausführenden Produzenten"@de, "Executive Producer's Assistant"@en ;
-    schema:sameAs tmdb:Executive%20Producer's%20Assistant .
+    schema:sameAs tmdb:Executive%20Producer%27s%20Assistant .
 :n0121117 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0121 ;
@@ -5537,7 +5639,7 @@
     skos:broader :n0123 ;
     skos:notation "012314" ;
     skos:prefLabel "Make-up & Haare"@de, "Makeup & Hair"@en ;
-    schema:sameAs tmdb:Makeup%20&%20Hair .
+    schema:sameAs tmdb:Makeup%20%26%20Hair .
 :n012315 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0123 ;
@@ -5811,7 +5913,7 @@
     skos:broader :n0123 ;
     skos:notation "012359" ;
     skos:prefLabel "Tägliches Make-up & Frisuren"@de, "Daily Makeup & Hair"@en ;
-    schema:sameAs tmdb:Daily%20Makeup%20&%20Hair .
+    schema:sameAs tmdb:Daily%20Makeup%20%26%20Hair .
 :n012360 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0123 ;
@@ -5957,8 +6059,7 @@
     skos:prefLabel "Cheftechniker*in / Stop-Motion-Experte"@de, "Chief Technician / Stop-Motion Expert"@en ;
     skos:altLabel "Technical director"@de, "Technical director"@en ;
     skos:definition "Eine Person, die letztlich für Bühnenbild, Requisiten, Beleuchtung und Ton bei einer Produktion verantwortlich ist"@de, 
-    "A person who is ultimately in charge of scenery, props, lights and sound for a production"@en ;
-    schema:sameAs tmdb:Chief%20Technician%20/%20Stop-Motion%20Expert .
+    "A person who is ultimately in charge of scenery, props, lights and sound for a production"@en .
 :n012414 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
@@ -6036,7 +6137,7 @@
     skos:broader :n0124 ;
     skos:notation "012426" ;
     skos:prefLabel "Mechanik & Kreaturen-Designer*in"@de, "Mechanical & Creature Designer"@en ;
-    schema:sameAs tmdb:Mechanical%20&%20Creature%20Designer .
+    schema:sameAs tmdb:Mechanical%20%26%20Creature%20Designer .
 :n012427 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
@@ -6090,7 +6191,7 @@
     skos:broader :n0124 ;
     skos:notation "012435" ;
     skos:prefLabel "I/O-Überwachung"@de, "I/O Supervisor"@en ;
-    schema:sameAs tmdb:I/O%20Supervisor .
+    schema:sameAs tmdb:I%2FO%20Supervisor .
 :n012436 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
@@ -6108,7 +6209,7 @@
     skos:broader :n0124 ;
     skos:notation "012438" ;
     skos:prefLabel "E/A-Manager*in"@de, "I/O Manager"@en ;
-    schema:sameAs tmdb:I/O%20Manager .
+    schema:sameAs tmdb:I%2FO%20Manager .
 :n012439 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
@@ -6126,13 +6227,13 @@
     skos:broader :n0124 ;
     skos:notation "012441" ;
     skos:prefLabel "Produktionsassistent für Simulation und Effekte"@de, "Simulation & Effects Production Assistant"@en ;
-    schema:sameAs tmdb:Simulation%20&%20Effects%20Production%20Assistant .
+    schema:sameAs tmdb:Simulation%20%26%20Effects%20Production%20Assistant .
 :n012442 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
     skos:notation "012442" ;
     skos:prefLabel "Künstler*in für Simulation und Effekte"@de, "Simulation & Effects Artist"@en ;
-    schema:sameAs tmdb:Simulation%20&%20Effects%20Artist .
+    schema:sameAs tmdb:Simulation%20%26%20Effects%20Artist .
 :n012443 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
@@ -6276,7 +6377,7 @@
     skos:broader :n0124 ;
     skos:notation "012466" ;
     skos:prefLabel "Eröffnungs/Ende-Animation"@de, "Opening/Ending Animation"@en ;
-    schema:sameAs tmdb:Opening/Ending%20Animation .
+    schema:sameAs tmdb:Opening%2FEnding%20Animation .
 :n012467 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0124 ;
@@ -6612,7 +6713,7 @@
     skos:broader :n0125 ;
     skos:notation "012526" ;
     skos:prefLabel "Schauspielassistent*in"@de, "Actor's Assistant"@en ;
-    schema:sameAs tmdb:Actor's%20Assistant .
+    schema:sameAs tmdb:Actor%27s%20Assistant .
 :n012527 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0125 ;
@@ -6648,7 +6749,7 @@
     skos:broader :n0125 ;
     skos:notation "012532" ;
     skos:prefLabel "Dokumentation und Unterstützung"@de, "Documentation & Support"@en ;
-    schema:sameAs tmdb:Documentation%20&%20Support .
+    schema:sameAs tmdb:Documentation%20%26%20Support .
 :n012533 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0125 ;
@@ -6678,7 +6779,7 @@
     skos:broader :n0125 ;
     skos:notation "012537" ;
     skos:prefLabel "Systemadministratoren und Unterstützung"@de, "Systems Administrators & Support"@en ;
-    schema:sameAs tmdb:Systems%20Administrators%20&%20Support .
+    schema:sameAs tmdb:Systems%20Administrators%20%26%20Support .
 :n012538 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0125 ;
