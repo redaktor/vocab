@@ -97,14 +97,17 @@
     skos:prefLabel "`location` Verbindungen"@de, "`location` Relations"@en ;
     skos:scopeNote ""@en ;
     skos:topConceptOf :scheme .
+
 :n30 a skos:Concept ;
     skos:inScheme :scheme ;
-    skos:narrower :n301 ;
+    skos:narrower :n301, :n302, :n303, :n304, :n305, :n306, :n307, :n309, :n309, 
+        :n3010, :n3011, :n3012, :n3013, :n3014, :n3015, :n3016, :n3017, :n3018, 
+        :n3019, :n3020, :n3021, :n3022, :n3023, :n3024, :n3025 ;
     skos:notation "30" ;
-    skos:prefLabel "`image`, `attachment` & andere Verbindungen"@de, "Relations for `image`, `attachment` & other"@en ;
+    skos:prefLabel "selbst­re­fe­ren­zi­elle Creative Work Verbindungen"@de, "self-referential Creative Work relations"@en ;
+    skos:altLabel "`image`, `attachment` & andere Verbindungen"@de, "Relations for `image`, `attachment` & other"@en ;
     skos:scopeNote ""@en ;
     skos:topConceptOf :scheme .
-
 
 
 :n001 a skos:Concept ;
@@ -122,7 +125,7 @@
     skos:notation "002" ;
     skos:prefLabel "Autor*in"@de, "Author"@en ;
     skos:altLabel "Primärer Künstler"@de, "Primary Artist"@en ;
-    schema:sameAs Property:P50, schema:author, tmdb:Author ;
+    schema:sameAs Property:P50, schema:author, schema:artist, tmdb:Author ;
     skos:definition "Eine Person, Familie oder Organisation, die für die Schaffung eines Werks verantwortlich ist, indem sie ein originales grafisches Design, eine Zeichnung, ein Gemälde usw. entwirft und umsetzt. Für Buchillustratoren ist der Begriff 011713 Illustrator [ill] vorzuziehen."@de, 
     "A person, family, or organization responsible for creating a work by conceiving, and implementing, an original graphic design, drawing, painting, etc. For book illustrators, prefer 011713 Illustrator [ill]"@en .
 :n003 a skos:Concept ;
@@ -614,7 +617,7 @@
         :n011942, :n011943, :n011944, :n011945, :n011946, :n011947, :n011948, :n011949,
         :n011950, :n011951, :n011952, :n011953, :n011954, :n011955, :n011956, :n011957, 
         :n011958, :n011959, :n011960, :n011961, :n011962, :n011963, :n011964, :n011965, 
-        :n011966, :n011967, :n011968, :n011969, :n011970 ;
+        :n011966, :n011967, :n011968, :n011969, :n011970, :n011971, :n011972 ;
     skos:notation "0119" ;
     skos:prefLabel "Bühne und Requisite"@de, "Stage and Props"@en .
 :n0120 a skos:Concept ;
@@ -737,7 +740,7 @@
     skos:inScheme :scheme ;
     skos:broader :n01 ;
     skos:narrower :n012811, :n012812, :n012813, :n012814, :n012815, :n012816, 
-        :n012817, :n012818, :n012819 ;
+        :n012817, :n012818, :n012819, :n012820 ;
     skos:notation "0128" ;
     skos:prefLabel "Vertrieb"@de, "Distribution"@en ;
     skos:altLabel "Verkauf"@de, "Selling"@en .
@@ -1007,7 +1010,7 @@
     skos:notation "2014" ;
     skos:prefLabel "Ort der Verbreitung"@de, "Location of Distribution"@en ;
     skos:definition "Ein Ort, von dem aus eine Ressource, z. B. eine Schriftenreihe, verbreitet wird."@de, 
-    "A location from which a resource, e.g., a serial, is distributed." .
+    "A location from which a resource, e.g., a serial, is distributed."@en .
 :n2015 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n20 ;
@@ -1043,7 +1046,202 @@
     skos:inScheme :scheme ;
     skos:broader :n30 ;
     skos:notation "301" ;
-    skos:prefLabel "ist ein Remix von"@de, "ist ein Remix von"@en .
+    skos:prefLabel "ist ein Remix von"@de, "ist ein Remix von"@en ;
+    skos:definition "dieser Track ist ein Remix von"@de, 
+    "the song this audio track is a remix of"@en ;
+    schema:sameAs Property:P9810 .
+:n302 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "302" ;
+    skos:prefLabel "zitiert"@de, "cites"@en ;
+    skos:definition "Zitat, Verweis von einem Dokument auf ein anderes"@de, 
+    "citation from one creative or scholarly work to another"@en ;
+    schema:sameAs Property:P2860 .
+:n303 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "303" ;
+    skos:prefLabel "inspiriert von"@de, "inspired by"@en ;
+    skos:definition "Werk, Mensch oder Ereignis, das dieses Werk inspiriert hat"@de, 
+    "work, human, place or event which inspired this creative work or fictional entity"@en ;
+    schema:sameAs Property:P941 .
+:n304 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "304" ;
+    skos:prefLabel "basiert auf"@de, "based on"@en ;
+    skos:definition "Werk(e), auf denen dieses Werk basiert"@de, 
+    "the work(s) used as the basis for subject item"@en ;
+    schema:sameAs Property:P144 .
+:n305 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "305" ;
+    skos:prefLabel "nach einem Werk von"@de, "after a work by"@en ;
+    skos:definition "Künstler, dessen Werk dieses Werk inspiriert hat oder von dem kopiert wurde"@de, 
+    "artist whose work strongly inspired/ was copied in this item"@en ;
+    schema:sameAs Property:P1877 .
+:n306 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "306" ;
+    skos:prefLabel "beeinflusst von"@de, "influenced by"@en ;
+    skos:definition "Entität, welches dieses Subjekt oder Objekt beeinflusste"@de, 
+    "this person, idea, etc. is informed by that other person, idea, etc."@en ;
+    schema:sameAs Property:P737 .
+:n307 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "307" ;
+    skos:prefLabel "modifizierte Version von"@de, "modified version of"@en ;
+    skos:definition "Werk, dessen Bearbeitung das Subjekt der Aussage ist (für eigenständige Werke verwende n304)."@de, 
+    "indicates the work or one of its versions which served as a basis for the adaptation or arrangement resulting in the given version of the work (for independent works use n304)"@en ;
+    schema:sameAs Property:P5059 .
+:n308 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "308" ;
+    skos:prefLabel "Aufnahme oder Ausführung von"@de, "recording or performance of "@en ;
+    skos:definition "Element ist eine Aufnahme oder Veröffentlichung dieser Komposition"@de, 
+    "item is a recording or release of this composition"@en ;
+    schema:sameAs Property:P2550 .
+:n309 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "309" ;
+    skos:prefLabel "Release von"@de, "release of"@en ;
+    skos:definition "Veröffentlichungsgruppe, zu der diese Version gehört"@de, 
+    "release group this release belongs to"@en ;
+    schema:sameAs Property:P9831 .
+:n3010 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "3010" ;
+    skos:prefLabel "Text von"@de, "lyrics by"@en ;
+    skos:definition "Autor des Liedtexts"@de, 
+    "author of song lyrics"@en ;
+    schema:sameAs Property:P676 .
+:n3011 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "3011" ;
+    skos:prefLabel "verwendet eine Melodie aus"@de, "has melody"@en ;
+    skos:definition "dieses Werk verwendet eine Melodie des folgenden Werkes"@de, 
+    "this work has the melody of the following work"@en ;
+    schema:sameAs Property:P1625 .
+:n3012 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "3012" ;
+    skos:prefLabel "Teil der Reihe oder Serie"@de, "part of the series"@en ;
+    skos:definition "Serie oder Reihe (geordnete Folge gleichartiger Elemente), die das Subjekt enthält (TV-Serie, Buchreihe, Produktreihe etc.)"@de, 
+    "series which contains the subject"@en ;
+    schema:sameAs Property:P179 .
+:n3013 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "3013" ;
+    skos:prefLabel "Handlung wird erweitert in"@de, "plot expanded in"@en ;
+    skos:definition "eine Geschichte in diesem Werk wird in einem anderen Werk weiter erzählt während beide Werke '''nicht notwendigerweise''' zur selben Reihe gehören. Für Reihen sollte P179 verwendet werden"@de, 
+    "a narrative of this creative work is expanded in another work while 'not necessarily' being part of the same series. For series use n3012 instead"@en ;
+    schema:sameAs Property:P5940 .
+:n3014 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "3014" ;
+    skos:prefLabel "Antwort auf"@de, "reply to"@en ;
+    skos:definition "die intellektuelle Arbeit, auf die die nachfolgende Arbeit direkt antwortet"@de, 
+    "the intellectual work to which the subsequent work is a direct reply"@en ;
+    schema:sameAs Property:P2675 .
+:n3015 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "3015" ;
+    skos:prefLabel "Vorstellung von"@de, "representation of"@en ;
+    skos:definition "Produktion der Darstellenden Künste, von dem dieses Objekt eine Vorstellung ist"@de, 
+    "performing arts production the item is a representation of"@en ;
+    schema:sameAs Property:P4646 .
+:n3016 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "3016" ;
+    skos:prefLabel "Symbol von"@de, ""@en ;
+    skos:definition ""@de, 
+    ""@en ;
+    schema:sameAs Property:P8058 .
+:n0317 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "3017" ;
+    skos:prefLabel "symbolisiert"@de, "symbol of"@en ;
+    skos:definition "Objekt für das das Bild als Symbol steht"@de, 
+    "item of which the image is a symbol"@en ;
+    schema:sameAs Property:P4878 .
+:n3018 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "3018" ;
+    skos:prefLabel "Übersetzung von"@de, "translation of"@en ;
+    skos:definition "Ausgabe, Version oder Aussage, aus dem diese Übersetzung übersetzt wurde"@de, 
+    "edition, version, or expression that this translation is translated from"@en ;
+    schema:sameAs Property:P9745 .
+:n3019 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "3019" ;
+    skos:prefLabel "abgeleitetes Werk"@de, "derivative work"@en ;
+    skos:definition "Werk, das auf diesem Werk zum Großteil basiert"@de, 
+    "new work of art (film, book, software, etc.) derived from major part of this work"@en ;
+    schema:sameAs Property:P4969 .
+:n3020 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "3020" ;
+    skos:prefLabel "ausgehend von"@de, "is proceedings from"@en ;
+    skos:definition "diese Arbeit enthält Beiträge, die bei der genannten Veranstaltung präsentiert wurden"@de, 
+    "this work contains articles presented at the given event"@en ;
+    schema:sameAs Property:P4745 .
+:n3021 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "3021" ;
+    skos:prefLabel "kommt vor in"@de, "present in work"@en ;
+    skos:definition "Werk, in dem eine (fiktive oder fiktionalisierte) Entität als Teil der Erzählung vorkommt"@de, 
+    "this (fictional or fictionalized) entity or person appears in that work as part of the narration"@en ;
+    schema:sameAs Property:P1441 .
+:n3022 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "3022" ;
+    skos:prefLabel "nach Art von"@de, "manner of"@en ;
+    skos:definition "für unbekannte Künstler, die in einem ähnlichen Stil wie der genannte Autor gearbeitet haben, aber nicht unbedingt aus der gleichen Zeit stammen"@de, 
+    "for unknown artists who worked in a similar style as the named author, but not necessary from the same period"@en ;
+    schema:sameAs Property:P1777 .
+:n3023 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "3023" ;
+    skos:prefLabel "literarisches Motiv"@de, "narrative motif"@en ;
+    skos:definition "thematische Einheit eines narrativen oder literarischen Werks, das zur Entwicklung eines Themas, der Stimmung oder Handlung beiträgt"@de, 
+    "thematic unit in a narrative or literary work used to develop a theme, mood or plot"@en ;
+    schema:sameAs Property:P6962 .
+:n3024 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "3024" ;
+    skos:prefLabel "angegeben als"@de, "stated as"@en ;
+    skos:definition ""@de, 
+    ""@en ;
+    schema:sameAs Property:P1932 .
+:n3025 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n30 ;
+    skos:notation "3025" ;
+    skos:prefLabel "beschriebenes Projekt benutzt"@de, ""@en ;
+    skos:definition "nutzen als Qualifikator, wie eine Information in der Quelle buchstabiert oder gedruckt wurde"@de, 
+    "use as qualifier to indicate how the object's value was given in the source"@en ;
+    schema:sameAs Property:P4510 .
 
 
 # TODO 
@@ -4092,6 +4290,22 @@
     skos:inScheme :scheme ;
     skos:broader :n0119 ;
     skos:notation "011970" ;
+    skos:prefLabel "Videodesigner*in"@de, "video designer"@en ;
+    skos:definition "Person, die für die Erstellung und Integration von Film und bewegten Bildern auf einer Bühne verantwortlich ist"@de, 
+    "person responsible for the creation and integration of film and motion graphics on a stage"@en ;
+    schema:sameAs Property:P5880 .
+:n011971 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n0119 ;
+    skos:notation "011971" ;
+    skos:prefLabel "Projektionsdesigner*in"@de, "projection designer"@en ;
+    skos:definition "Person, die für die Produktion aller bewegten und unbewegten Bilder verantwortlich ist, die während einer Live-Aufführung gezeigt werden"@de, 
+    "person responsible for producing all moving and still images that are displayed during a live performance"@en ;
+    schema:sameAs Property:P5881 .
+:n011972 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n0119 ;
+    skos:notation "011972" ;
     skos:prefLabel "Sonstiges Set, Bühne"@de, "Other Set, Stage"@en ;
     schema:sameAs tmdb:Other .
 
@@ -7534,48 +7748,56 @@
 :n012814 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0128 ;
-    skos:exactMatch loc:len ;
     skos:notation "012814" ;
-    skos:prefLabel "Verleiher*in"@de, "Lender"@en ;
-    skos:definition "Eine Person oder Organisation, die die vorübergehende Nutzung eines Buches, Manuskripts usw. gestattet, z. B. zum Fotokopieren oder Mikroverfilmen"@de, 
-    "A person or organization permitting the temporary use of a book, manuscript, etc., such as for photocopying or microfilming"@en .
+    skos:prefLabel "Plattenlabel"@de, "record label"@en ;
+    skos:definition "eigenständig geführte Abteilung eines Tonträgerunternehmens"@de, 
+    "brand and trademark associated with the marketing of subject music recordings and music videos"@en ;
+    schema:sameAs Property:P264 .
 :n012815 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0128 ;
-    skos:exactMatch loc:sll ;
+    skos:exactMatch loc:len ;
     skos:notation "012815" ;
-    skos:prefLabel "Verkäufer*in"@de, "Seller"@en ;
-    skos:definition "Ein ehemaliger Eigentümer eines Objekts, der dieses Objekt an einen anderen Eigentümer verkauft hat"@de, 
-    "A former owner of an item who sold that item to another owner"@en .
+    skos:prefLabel "Verleiher*in"@de, "Lender"@en ;
+    skos:definition "Eine Person oder Organisation, die die vorübergehende Nutzung eines Buches, Manuskripts usw. gestattet, z. B. zum Fotokopieren oder Mikroverfilmen"@de, 
+    "A person or organization permitting the temporary use of a book, manuscript, etc., such as for photocopying or microfilming"@en .
 :n012816 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0128 ;
-    skos:exactMatch loc:bsl ;
+    skos:exactMatch loc:sll ;
     skos:notation "012816" ;
-    skos:prefLabel "Buchhändler*in"@de, "Bookseller"@en ;
-    skos:definition "Eine Person oder Organisation, die Bücher und andere bibliografische Materialien zum Kauf anbietet. Das Interesse an den Materialien ist in erster Linie lukrativ"@de, 
-    "A person or organization who makes books and other bibliographic materials available for purchase. Interest in the materials is primarily lucrative"@en .
+    skos:prefLabel "Verkäufer*in"@de, "Seller"@en ;
+    skos:definition "Ein ehemaliger Eigentümer eines Objekts, der dieses Objekt an einen anderen Eigentümer verkauft hat"@de, 
+    "A former owner of an item who sold that item to another owner"@en .
 :n012817 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0128 ;
-    skos:exactMatch loc:prv ;
+    skos:exactMatch loc:bsl ;
     skos:notation "012817" ;
-    skos:prefLabel "Provider"@de, "Provider"@en ;
-    skos:definition "Eine Person oder Organisation, die eine Ressource produziert, veröffentlicht, herstellt oder vertreibt, wenn keine spezifischen Codes gewünscht sind (z. B. [mfr], [pbl])"@de, 
-    "A person or organization who produces, publishes, manufactures, or distributes a resource if specific codes are not desired (e.g. [mfr], [pbl])"@en .
+    skos:prefLabel "Buchhändler*in"@de, "Bookseller"@en ;
+    skos:definition "Eine Person oder Organisation, die Bücher und andere bibliografische Materialien zum Kauf anbietet. Das Interesse an den Materialien ist in erster Linie lukrativ"@de, 
+    "A person or organization who makes books and other bibliographic materials available for purchase. Interest in the materials is primarily lucrative"@en .
 :n012818 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0128 ;
-    skos:exactMatch loc:mon ;
+    skos:exactMatch loc:prv ;
     skos:notation "012818" ;
-    skos:prefLabel "Grantee, Monitor"@de, "Grantee, Monitor"@en ;
-    skos:definition "Eine Person oder Organisation, die die Einhaltung des Vertrags überwacht und für den Bericht verantwortlich ist und seine Verteilung kontrolliert. Wird manchmal auch als Kontrollstelle bezeichnet."@de, 
-    "A person or organization that supervises compliance with the contract and is responsible for the report and controls its distribution. Sometimes referred to as controlling agency"@en .
+    skos:prefLabel "Provider"@de, "Provider"@en ;
+    skos:definition "Eine Person oder Organisation, die eine Ressource produziert, veröffentlicht, herstellt oder vertreibt, wenn keine spezifischen Codes gewünscht sind (z. B. [mfr], [pbl])"@de, 
+    "A person or organization who produces, publishes, manufactures, or distributes a resource if specific codes are not desired (e.g. [mfr], [pbl])"@en .
 :n012819 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0128 ;
-    skos:exactMatch loc:fmo ;
+    skos:exactMatch loc:mon ;
     skos:notation "012819" ;
+    skos:prefLabel "Grantee, Monitor"@de, "Grantee, Monitor"@en ;
+    skos:definition "Eine Person oder Organisation, die die Einhaltung des Vertrags überwacht und für den Bericht verantwortlich ist und seine Verteilung kontrolliert. Wird manchmal auch als Kontrollstelle bezeichnet."@de, 
+    "A person or organization that supervises compliance with the contract and is responsible for the report and controls its distribution. Sometimes referred to as controlling agency"@en .
+:n012820 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n0128 ;
+    skos:exactMatch loc:fmo ;
+    skos:notation "012820" ;
     skos:prefLabel "Vorherige Eigentümer*in"@de, "Former Owner"@en ;
     skos:definition "Eine Person, Familie oder Organisation, die früher rechtmäßig im Besitz eines Gegenstandes war"@de, 
     "A person, family, or organization formerly having legal possession of an item"@en .
