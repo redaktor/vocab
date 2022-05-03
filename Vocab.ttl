@@ -113,15 +113,16 @@
     skos:prefLabel "Fiktional"@de, "Fictional"@en ;
     skos:definition "Eine Person oder Sache mit einer fiktiven Bedeutung. Zum Beispiel ein Charakter."@de, 
     "A person or thing with a fictional meaning. For example a Character."@en ;
-    schema:sameAs Property:P453, tmdb:character ;
+    schema:sameAs Property:P453, schema:character, tmdb:character ;
     skos:topConceptOf :scheme .
 :n002 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
     skos:exactMatch loc:art ;
     skos:notation "002" ;
-    skos:prefLabel "Primärer Künstler"@de, "Primary Artist"@en ;
-    schema:sameAs Property:P170 ;
+    skos:prefLabel "Autor*in"@de, "Author"@en ;
+    skos:altLabel "Primärer Künstler"@de, "Primary Artist"@en ;
+    schema:sameAs Property:P50, schema:author, tmdb:Author ;
     skos:definition "Eine Person, Familie oder Organisation, die für die Schaffung eines Werks verantwortlich ist, indem sie ein originales grafisches Design, eine Zeichnung, ein Gemälde usw. entwirft und umsetzt. Für Buchillustratoren ist der Begriff 011713 Illustrator [ill] vorzuziehen."@de, 
     "A person, family, or organization responsible for creating a work by conceiving, and implementing, an original graphic design, drawing, painting, etc. For book illustrators, prefer 011713 Illustrator [ill]"@en .
 :n003 a skos:Concept ;
@@ -133,7 +134,7 @@
     skos:altLabel "V.i.S.d.P."@de, "Person responsible according to Press Law"@en ;
     skos:definition "Eine Person oder Organisation, die rechtlich für den Inhalt des veröffentlichten Materials verantwortlich ist"@de, 
     "A person or organization legally responsible for the content of the published material"@en ;
-    schema:sameAs tmdb:Accountable%20Person .
+    schema:sameAs schema:accountablePerson, tmdb:Accountable%20Person .
 :n004 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
@@ -143,7 +144,7 @@
     skos:altLabel "© by"@de, "© by"@en ;
     skos:definition "Eine Person oder Organisation, welcher Urheber- und Rechtsrechte für den geistigen Inhalt eines Werkes gewährt oder übertragen wurden. Der Urheberrechtsinhaber ist zwar nicht unbedingt der Schöpfer des Werks, hat aber in der Regel das ausschließliche Recht, aus dem Verkauf und der Nutzung des Werks, für das der entsprechende Urheberrechtsschutz gilt, finanziell zu profitieren"@de, 
     "A person or organization to whom copy and legal rights have been granted or transferred for the intellectual content of a work. The copyright holder, although not necessarily the creator of the work, usually has the exclusive right to benefit financially from the sale and use of the work to which the associated copyright protection applies"@en ;
-    schema:sameAs Property:P3931, tmdb:Copyright%20Holder .
+    schema:sameAs Property:P3931, schema:copyrightHolder, tmdb:Copyright%20Holder .
 :n005 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
@@ -154,7 +155,7 @@
     skos:hiddenLabel "sdPublisher Structured Data"@de, "sdPublisher"@en ;
     skos:definition "Eine Person, die handschriftliche Anmerkungen zu einem Werk macht"@de, 
     "A person who makes manuscript annotations on an item"@en ;
-    skos:scopeNote "schema.org#sdPublisher"@en .
+    schema:sameAs schema:sdPublisher .
 :n006 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
@@ -218,7 +219,7 @@
     skos:prefLabel "Förderer*in"@de, "Funder"@en ;
     skos:definition "Eine Person oder Organisation, die die Produktion des Werks finanziell unterstützt hat"@de, 
     "A person or organization that furnished financial support for the production of the work"@en ;
-    schema:sameAs tmdb:Funder .
+    schema:sameAs tmdb:funder tmdb:Funder .
 :n0013 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
@@ -227,7 +228,7 @@
     skos:prefLabel "Sponsor"@de, "Sponsor"@en ;
     skos:definition "Eine Person, Familie oder Organisation, die einen bestimmten Aspekt einer Ressource sponsert, z. B. die Finanzierung von Forschung, das Sponsoring einer Veranstaltung"@de, 
     "A person, family, or organization sponsoring some aspect of a resource, e.g., funding research, sponsoring an event"@en ;
-    schema:sameAs tmdb:Sponsor .
+    schema:sameAs schema:sponsor, tmdb:Sponsor .
 :n0014 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
@@ -285,7 +286,8 @@
     skos:notation "0020" ;
     skos:prefLabel "Anbieter*in"@de, "Supplier"@en ;
     skos:definition "Allgemein. Nur verwenden, wenn es sich von dem liefernden ActivityPub-Actor unterscheidet."@de, 
-    "Generic. Use only if it is different than the supplying ActivityPub Actor."@en .
+    "Generic. Use only if it is different than the supplying ActivityPub Actor."@en ;
+    schema:sameAs schema:provider .
 :n0021 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
@@ -339,10 +341,11 @@
     skos:broader :n00 ;
     skos:exactMatch loc:isb ;
     skos:notation "0027" ;
-    skos:prefLabel "Herausgeber*in"@de, "Issuing body"@en ;
+    skos:prefLabel "Herausgeber*in"@de, "Publisher"@en ;
+    skos:altLabel "Herausgebende Stelle"@de, "Issuing body"@en ;
     skos:definition "Eine Person, Familie oder Organisation, die ein Werk herausgibt, wie z. B. ein offizielles Organ der Einrichtung"@de, 
     "A person, family or organization issuing a work, such as an official organ of the body"@en ;
-    schema:sameAs Property:P98 .
+    schema:sameAs schema:publisher, schema:publisherImprint, Property:P98 .
 :n0028 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
@@ -408,7 +411,7 @@
     skos:prefLabel "Mitwirkende*r, Contributor"@de, "Contributor"@en ;
     skos:definition "Eine Person, Familie oder Organisation, die für die Beiträge zur Ressource verantwortlich ist. Dies schließt diejenigen ein, deren Arbeit zu einem größeren Werk beigetragen wurde, wie z. B. einem Sammelband, einer fortlaufenden Veröffentlichung oder einer anderen Zusammenstellung von Einzelwerken. Wenn eine spezifischere Rolle verfügbar ist, geben Sie diese an, z. B. Herausgeber, Komponist, Illustrator."@de, 
     "A person, family or organization responsible for making contributions to the resource. This includes those whose work has been contributed to a larger work, such as an anthology, serial publication, or other compilation of individual works. If a more specific role is available, prefer that, e.g. editor, compiler, illustrator"@en ;
-    schema:sameAs Property:P767 .
+    schema:sameAs Property:P767, schema:contributor .
 :n0036 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
@@ -424,7 +427,7 @@
     skos:notation "0037" ;
     skos:prefLabel "Geehrte*r, Honoree"@de, "Honoree"@en ;
     skos:altLabel "Dank"@de, "Thanks"@en ;
-    schema:sameAs tmdb:Thanks%20to, tmdb:Thanks ;
+    schema:sameAs tmdb:Thanks, tmdb:Thanks%20to ;
     skos:definition "Eine Person, Familie oder Organisation, die durch ein Werk oder einen Gegenstand geehrt wird (z. B. der Preisträger einer Festschrift, eine Person, der ein Exemplar überreicht wird)"@de, 
     "A person, family, or organization honored by a work or item (e.g., the honoree of a festschrift, a person to whom a copy is presented)"@en .
 :n0038 a skos:Concept ;
@@ -483,7 +486,7 @@
     skos:prefLabel "Schöpfer*in"@de, "Creator"@en ;
     skos:definition "Eine Person oder Organisation, die für den geistigen oder künstlerischen Inhalt einer Ressource verantwortlich ist"@de, 
     "A person or organization responsible for the intellectual or artistic content of a resource"@en ;
-    schema:sameAs tmdb:Creator .
+    schema:sameAs Property:P170, schema:creator, tmdb:Creator .
 :n0045 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
@@ -796,8 +799,7 @@
     skos:prefLabel "erstellte"@de, "created"@en ;
     skos:altLabel "Autor*in von"@de, "author of"@en ;
     skos:definition "Bezeichnet ein Objekt, daß Actor erstellt hat. "@de,
-        "Refers to an Object that the User is a creator of. Being a creator of an Item is not a Role. Matches the author-rel in HTML."@en ;
-    schema:sameAs Property:P50, tmdb:Author .
+        "Refers to an Object that the User is a creator of. Being a creator of an Item is not a Role. Matches the author-rel in HTML."@en .
 :n103 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n10 ;
@@ -842,7 +844,7 @@
     skos:altLabel "Pflege"@de, "Maintainance"@en ;
     skos:definition "Eine Person oder Sache, die etwas pflegt, insbesondere Computersoftware."@de, 
     "A person or thing that maintains something, in particular computer software."@en ;
-    schema:sameAs tmdb:Maintainer .
+    schema:sameAs schema:maintainer, tmdb:Maintainer .
 :n108 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n10 ;
@@ -887,7 +889,8 @@
     skos:altLabel "Drehort"@de, "filming location"@en ;
     skos:altLabel "Ereignisort"@de, "Event place"@en ;
     skos:definition "Der Ort, an dem das Werk geschaffen wurde, nicht unbedingt identisch mit dem im Werk dargestellten Ort. Z. B. Ort, an dem eine (Video-) Filmepisode aufgenommen wurde"@de, 
-    "The location where the CreativeWork was created, which may not be the same as the location depicted in the Work. E.g. ctual place where this scene/film was shot." .
+    "The location where the CreativeWork was created, which may not be the same as the location depicted in the Work. E.g. ctual place where this scene/film was shot." ;
+    schema:sameAs Property:P915 .
 :n202 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n20 ;
@@ -995,7 +998,8 @@
     skos:notation "2013" ;
     skos:prefLabel "Ort einer Universität oder Bibliothek"@de, "Location University or Library"@en ;
     skos:definition "Z. B. eine Universität, an der eine akademische Dissertation vorgelegt wurde, oder eine Bibliothek, in der sie verfügbar ist."@de, 
-    "E.g., a university where an academic dissertation or thesis was presented or a library where it is available." .
+    "E.g., a university where an academic dissertation or thesis was presented or a library where it is available." 
+    schema:sameAs schema:itemLocation .
 :n2014 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:exactMatch loc:dbp ;
@@ -1265,7 +1269,7 @@
     skos:prefLabel "Textdichter*in"@de, "Lyricist"@en ;
     skos:definition "Ein Urheber des Textes eines nicht-dramatischen Musikwerks (z. B. des Textes eines Liedes), außer bei Oratorien"@de, 
     "An author of the words of a non-dramatic musical work (e.g. the text of a song), except for oratorios"@en ;
-    schema:sameAs tmdb:Lyricist .
+    schema:sameAs schema:lyricist, tmdb:Lyricist .
 :n011228 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0112 ;
@@ -2647,7 +2651,8 @@
     skos:broader :n0115 ;
     skos:notation "011511" ;
     skos:prefLabel "Musik"@de, "Music"@en ;
-    schema:sameAs tmdb:Music .
+    skos:prefLabel "Musik von"@de, "music by"@en ;
+    schema:sameAs schema:musicBy, tmdb:Music .
 :n011512 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0115 ;
@@ -2666,7 +2671,7 @@
     skos:altLabel "Musician vocal"@de, "Musician vocal"@en ;
     skos:definition "Ein ausübender Künstler, der zu einer Ressource beiträgt, indem er seine/ihre Stimme mit oder ohne Instrumentalbegleitung einsetzt, um Musik zu produzieren. Die Darbietung eines Sängers kann, muss aber nicht unbedingt Worte enthalten."@de, 
     "A performer contributing to a resource by using his/her/their voice, with or without instrumental accompaniment, to produce music. A singer's performance may or may not include actual words"@en ;
-    schema:sameAs Property:P175, tmdb:Singer .
+    schema:sameAs Property:P175, schema:byArtist, tmdb:Singer .
 :n011514 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0115 ;
@@ -2740,10 +2745,11 @@
     skos:broader :n0115 ;
     skos:exactMatch loc:cmp ;
     skos:notation "011523" ;
-    skos:prefLabel "Komponist*in"@de, "Original Music Composer"@en ;
+    skos:altLabel "Komponist*in"@de, "Music Composer"@en ;
+    skos:prefLabel "Komponist*in des Originals"@de, "Original Music Composer"@en ;
     skos:definition "Eine Person, Familie oder Organisation, die für die Schaffung einer musikalischen Ressource verantwortlich ist oder zu dieser beiträgt, indem sie einem Werk, das ursprünglich keine Musik enthielt, Musik hinzufügt oder es ergänzt"@de, 
     "A person, family, or organization responsible for creating or contributing to a musical resource by adding music to a work that originally lacked it or supplements it"@en ;
-    schema:sameAs Property:P86, tmdb:Original%20Music%20Composer .
+    schema:sameAs Property:P86, schema:composer, tmdb:Original%20Music%20Composer .
 :n011524 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0115 ;
@@ -2873,7 +2879,7 @@
     skos:exactMatch loc:act ;
     skos:notation "011612" ;
     skos:prefLabel "Schauspieler*in"@de, "Actor"@en ;
-    schema:sameAs Property:P161, tmdb:Actor .
+    schema:sameAs Property:P161, schema:actor, tmdb:Actor .
 :n011613 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0116 ;
@@ -3002,7 +3008,7 @@
     skos:prefLabel "Illustrator*in"@de, "Illustrator"@en ;
     skos:definition "Eine Person, Familie oder Organisation, die einen Beitrag zu einer Ressource leistet, indem sie den primären Inhalt durch Zeichnungen, Diagramme, Fotografien usw. ergänzt. Handelt es sich bei dem Werk in erster Linie um den von dieser Person geschaffenen künstlerischen Inhalt, verwenden Sie Künstler oder Fotograf"@de, 
     "A person, family, or organization contributing to a resource by supplementing the primary content with drawings, diagrams, photographs, etc. If the work is primarily the artistic content created by this entity, use artist or photographer"@en ;
-    schema:sameAs Property:P110, tmdb:Illustrator .
+    schema:sameAs Property:P110, schema:illustrator, tmdb:Illustrator .
 :n011714 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00, :n0117 ;
@@ -4098,7 +4104,7 @@
     skos:prefLabel "Regisseur*in"@de, "Director"@en ;
     skos:definition "Eine Person, die für die allgemeine Leitung und Überwachung einer gefilmten Aufführung, eines Radio- oder Fernsehprogramms usw. verantwortlich ist."@de, 
     "A person responsible for the general management and supervision of a filmed performance, a radio or television program, etc."@en ;
-    schema:sameAs tmdb:Director .
+    schema:sameAs schema:director, tmdb:Director .
 :n012012 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0120 ;
@@ -4316,7 +4322,7 @@
     skos:altLabel "Production company"@de, "Production company"@en ;
     skos:definition "Eine Organisation, die für das finanzielle, technische und organisatorische Management einer Produktion für Bühne, Leinwand, Tonaufnahme, Fernsehen, Webcast usw. verantwortlich ist"@de, 
     "An organization that is responsible for financial, technical, and organizational management of a production for stage, screen, audio recording, television, webcast, etc."@en ;
-    schema:sameAs Property:P272, tmdb:Production%20Studio .
+    schema:sameAs Property:P272, schema:productionCompany, tmdb:Production%20Studio .
 :n012112 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0121 ;
@@ -4325,7 +4331,7 @@
     skos:prefLabel "Produzent*in"@de, "Producer"@en ;
     skos:definition "Eine Person, Familie oder Organisation, die für die meisten geschäftlichen Aspekte einer Produktion für Bildschirm, Tonaufnahme, Fernsehen, Webcast usw. verantwortlich ist. Der Produzent ist in der Regel für die Mittelbeschaffung, das Management der Produktion, die Einstellung von Schlüsselpersonal, die Vermittlung von Verleihern usw. verantwortlich."@de, 
     "A person, family, or organization responsible for most of the business aspects of a production for screen, audio recording, television, webcast, etc. The producer is generally responsible for fund raising, managing the production, hiring key personnel, arranging for distributors, etc."@en ;
-    schema:sameAs Property:P162, tmdb:Producer .
+    schema:sameAs Property:P162, schema:producer, tmdb:Producer .
 :n012113 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0121 ;
@@ -5375,13 +5381,13 @@
     schema:sameAs tmdb:Telecine%20Colorist .
 :n012240 a skos:Concept ;
     skos:inScheme :scheme ;
-    skos:broader :n0122 ;
+    skos:broader :n0122, :n0126, :n0117: ;
     skos:exactMatch loc:clr ;
     skos:notation "012240" ;
     skos:prefLabel "Kolorist*in"@de, "Colorist"@en ;
     skos:definition "Eine Person oder Organisation, die für das Aufbringen von Farbe auf Zeichnungen, Drucke, Fotografien, Karten, bewegte Bilder usw. verantwortlich ist"@de, 
     "A person or organization responsible for applying color to drawings, prints, photographs, maps, moving images, etc"@en ;
-    schema:sameAs tmdb:Colorist .
+    schema:sameAs schema:colorist, tmdb:Colorist .
 :n012241 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0122 ;
@@ -6649,7 +6655,7 @@
     skos:prefLabel "Übersetzer*in"@de, "Translator"@en ;
     skos:definition "Eine Person oder Organisation, die einen Text von einer Sprache in eine andere oder von einer älteren Form einer Sprache in die moderne Form überträgt"@de, 
     "A person or organization who renders a text from one language into another, or from an older form of a language into the modern form"@en ;
-    schema:sameAs Property:P655, tmdb:Translator .
+    schema:sameAs Property:P655, schema:translator, tmdb:Translator .
 :n012514 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0125 ;
@@ -7316,19 +7322,19 @@
     skos:broader :n0117, :n0126 ;
     skos:notation "012611" ;
     skos:prefLabel "Tuscheur*in"@de, "Inker"@en ;
-    schema:sameAs tmdb:Inker .
+    schema:sameAs schema:inker, tmdb:Inker .
 :n012612 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117, :n0126 ;
     skos:notation "012612" ;
     skos:prefLabel "Schriftsetzer*in"@de, "Letterer"@en ;
-    schema:sameAs Property:P9191, tmdb:Letterer .
+    schema:sameAs Property:P9191, schema:letterer, tmdb:Letterer .
 :n012613 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n0117, :n0126 ;
     skos:notation "012613" ;
     skos:prefLabel "Bleistiftzeichner*in"@de, "Penciler"@en ;
-    schema:sameAs tmdb:Penciler .
+    schema:sameAs schema:penciler, tmdb:Penciler .
 
 # Manufacturing
 :n012711 a skos:Concept ;
