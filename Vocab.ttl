@@ -219,7 +219,7 @@
     skos:prefLabel "Förderer*in"@de, "Funder"@en ;
     skos:definition "Eine Person oder Organisation, die die Produktion des Werks finanziell unterstützt hat"@de, 
     "A person or organization that furnished financial support for the production of the work"@en ;
-    schema:sameAs tmdb:funder tmdb:Funder .
+    schema:sameAs schema:funder, tmdb:Funder .
 :n0013 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n00 ;
@@ -998,7 +998,7 @@
     skos:notation "2013" ;
     skos:prefLabel "Ort einer Universität oder Bibliothek"@de, "Location University or Library"@en ;
     skos:definition "Z. B. eine Universität, an der eine akademische Dissertation vorgelegt wurde, oder eine Bibliothek, in der sie verfügbar ist."@de, 
-    "E.g., a university where an academic dissertation or thesis was presented or a library where it is available." 
+    "E.g., a university where an academic dissertation or thesis was presented or a library where it is available." ;
     schema:sameAs schema:itemLocation .
 :n2014 a skos:Concept ;
     skos:inScheme :scheme ;
