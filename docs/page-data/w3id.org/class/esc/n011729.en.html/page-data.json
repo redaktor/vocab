@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-components-concept-js",
-    "path": "/w3id.org/class/esc/n011729.en.html",
-    "result": {"pageContext":{"language":"en","languages":["de","en"],"node":{"id":"https://w3id.org/class/esc/n011729","type":"Concept","followers":"https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011729","inbox":"https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011729","prefLabel":{"de":"Künstler*in Bühnenbild und Requisite","en":"Sets & Props Artist"},"altLabel":null,"definition":null,"scopeNote":null,"note":null,"notation":["011729"],"example":null,"narrower":[],"narrowerTransitive":[],"broader":{"id":"https://w3id.org/class/esc/n0117","prefLabel":{"de":"Kunst","en":"Art"}},"broaderTransitive":null,"related":[],"relatedMatch":null,"broadMatch":null,"narrowMatch":null,"closeMatch":[{"id":"https://themoviedb.org#Sets%20&%20Props%20Artist"}],"exactMatch":null,"inScheme":{"id":"https://w3id.org/class/esc/scheme","title":{"de":"ActivityPub: Rollen und Verbindungen","en":"ActivityPub: Roles and Relations"}},"topConceptOf":null},"baseURL":""}},
-    "staticQueryHashes": ["3649515864","63159454"]}

@@ -1,0 +1,789 @@
+{
+  "id": "https://w3id.org/class/redaktor/n1224",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2Fn1224",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2Fn1224",
+  "prefLabel": {
+    "de": "Visuelle Effekte",
+    "en": "Visual Effects"
+  },
+  "altLabel": {
+    "de": [
+      "VFX"
+    ],
+    "en": [
+      "VFX"
+    ]
+  },
+  "notation": [
+    "1224"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/n122411",
+      "prefLabel": {
+        "de": "Animation",
+        "en": "Animation"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122412",
+      "prefLabel": {
+        "de": "Visuelle Effekte",
+        "en": "Visual Effects"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122413",
+      "prefLabel": {
+        "de": "Cheftechniker*in / Stop-Motion-Experte",
+        "en": "Chief Technician / Stop-Motion Expert"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122414",
+      "prefLabel": {
+        "de": "VFX Director of Photography",
+        "en": "VFX Director of Photography"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122415",
+      "prefLabel": {
+        "de": "Schattierung, Shading",
+        "en": "Shading"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122416",
+      "prefLabel": {
+        "de": "Modellieren, Modeling",
+        "en": "Modeling"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122417",
+      "prefLabel": {
+        "de": "CG Maler*in",
+        "en": "CG Painter"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122418",
+      "prefLabel": {
+        "de": "Visuelle Entwicklung",
+        "en": "Visual Development"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122419",
+      "prefLabel": {
+        "de": "Leiter*in der Animation",
+        "en": "Animation Manager"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122420",
+      "prefLabel": {
+        "de": "Animationsregisseur*in",
+        "en": "Animation Director"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122421",
+      "prefLabel": {
+        "de": "Fix Animator*in",
+        "en": "Fix Animator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122422",
+      "prefLabel": {
+        "de": "Koordinator*in der Animationsabteilung",
+        "en": "Animation Department Coordinator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122423",
+      "prefLabel": {
+        "de": "Koordinator*in Animation Fix",
+        "en": "Animation Fix Coordinator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122424",
+      "prefLabel": {
+        "de": "Assistenz der Animationsproduktion",
+        "en": "Animation Production Assistant"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122425",
+      "prefLabel": {
+        "de": "Supervisor für visuelle Effekte",
+        "en": "Visual Effects Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122426",
+      "prefLabel": {
+        "de": "Mechanik & Kreaturen-Designer*in",
+        "en": "Mechanical & Creature Designer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122427",
+      "prefLabel": {
+        "de": "Koordinator*in für Kampfbewegungen",
+        "en": "Battle Motion Coordinator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122428",
+      "prefLabel": {
+        "de": "Supervisor für die Animation",
+        "en": "Animation Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122429",
+      "prefLabel": {
+        "de": "VFX-Kontrolle",
+        "en": "VFX Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122430",
+      "prefLabel": {
+        "de": "CG-Kontrolle",
+        "en": "CG Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122431",
+      "prefLabel": {
+        "de": "VFX-Künstler*in",
+        "en": "VFX Artist"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122432",
+      "prefLabel": {
+        "de": "CG-Ingenieur*in",
+        "en": "CG Engineer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122433",
+      "prefLabel": {
+        "de": "24-Bild-Wiedergabe",
+        "en": "24 Frame Playback"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122434",
+      "prefLabel": {
+        "de": "Bildwissenschaft",
+        "en": "Imaging Science"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122435",
+      "prefLabel": {
+        "de": "I/O-Überwachung",
+        "en": "I/O Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122436",
+      "prefLabel": {
+        "de": "Visuelle Effekte Produzent*in",
+        "en": "Visual Effects Producer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122437",
+      "prefLabel": {
+        "de": "VFX-Produktionskoordinator*in",
+        "en": "VFX Production Coordinator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122438",
+      "prefLabel": {
+        "de": "E/A-Manager*in",
+        "en": "I/O Manager"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122439",
+      "prefLabel": {
+        "de": "Entwicklung zusätzlicher Effekte",
+        "en": "Additional Effects Development"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122440",
+      "prefLabel": {
+        "de": "Farbdesigner*in",
+        "en": "Color Designer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122441",
+      "prefLabel": {
+        "de": "Produktionsassistent für Simulation und Effekte",
+        "en": "Simulation & Effects Production Assistant"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122442",
+      "prefLabel": {
+        "de": "Künstler*in für Simulation und Effekte",
+        "en": "Simulation & Effects Artist"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122443",
+      "prefLabel": {
+        "de": "Supervisor für digitale Effekte",
+        "en": "Digital Effects Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122444",
+      "prefLabel": {
+        "de": "Supervisor für Spezialeffekte",
+        "en": "Special Effects Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122445",
+      "prefLabel": {
+        "de": "3D-Kontrolle",
+        "en": "3D Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122446",
+      "prefLabel": {
+        "de": "3D-Regisseur*in",
+        "en": "3D Director"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122447",
+      "prefLabel": {
+        "de": "Digital-Compositor",
+        "en": "Digital Compositor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122448",
+      "prefLabel": {
+        "de": "Koordinator*in für visuelle Effekte",
+        "en": "Visual Effects Coordinator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122449",
+      "prefLabel": {
+        "de": "VFX-Editor",
+        "en": "VFX Editor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122450",
+      "prefLabel": {
+        "de": "2D-Künstler*in",
+        "en": "2D Artist"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122451",
+      "prefLabel": {
+        "de": "2D-Kontorlle",
+        "en": "2D Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122452",
+      "prefLabel": {
+        "de": "3D-Animator*in",
+        "en": "3D Animator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122453",
+      "prefLabel": {
+        "de": "3D-Künstler*in",
+        "en": "3D Artist"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122454",
+      "prefLabel": {
+        "de": "3D-Koordination",
+        "en": "3D Coordinator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122455",
+      "prefLabel": {
+        "de": "3D-Generalist",
+        "en": "3D Generalist"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122456",
+      "prefLabel": {
+        "de": "3D-Modellierer*in",
+        "en": "3D Modeller"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122457",
+      "prefLabel": {
+        "de": "3D-Sequenz-Kontrolle",
+        "en": "3D Sequence Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122458",
+      "prefLabel": {
+        "de": "3D Tracking Layout",
+        "en": "3D Tracking Layout"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122459",
+      "prefLabel": {
+        "de": "CG-Animator*in",
+        "en": "CG Animator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122460",
+      "prefLabel": {
+        "de": "CGI-Regisseur*in",
+        "en": "CGI Director"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122461",
+      "prefLabel": {
+        "de": "Supervisor für die Charaktermodellierung",
+        "en": "Character Modelling Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122462",
+      "prefLabel": {
+        "de": "Produzent*in für digitale Effekte",
+        "en": "Digital Effects Producer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122463",
+      "prefLabel": {
+        "de": "Hauptanimation",
+        "en": "Key Animation"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122464",
+      "prefLabel": {
+        "de": "Leitende*r Animator*in",
+        "en": "Lead Animator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122465",
+      "prefLabel": {
+        "de": "Matchmove-Kontrolle",
+        "en": "Matchmove Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122466",
+      "prefLabel": {
+        "de": "Eröffnungs/Ende-Animation",
+        "en": "Opening/Ending Animation"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122467",
+      "prefLabel": {
+        "de": "Kamera für visuelle Effekte",
+        "en": "Visual Effects Camera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122468",
+      "prefLabel": {
+        "de": "Visuelle Effekte Compositor",
+        "en": "Visual Effects Compositor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122469",
+      "prefLabel": {
+        "de": "Regisseur*in für visuelle Effekte",
+        "en": "Visual Effects Director"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122470",
+      "prefLabel": {
+        "de": "Produktionsleiter*in für visuelle Effekte",
+        "en": "Visual Effects Production Manager"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122471",
+      "prefLabel": {
+        "de": "Supervisor für die Vorvisualisierung",
+        "en": "Pre-Visualization Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122472",
+      "prefLabel": {
+        "de": "Stereoskopie Koordinator*in",
+        "en": "Stereoscopic Coordinator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122473",
+      "prefLabel": {
+        "de": "VFX Beleuchter*in",
+        "en": "VFX Lighting Artist"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122474",
+      "prefLabel": {
+        "de": "Designer*in für visuelle Effekte",
+        "en": "Visual Effects Designer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122475",
+      "prefLabel": {
+        "de": "Technische*r Direktor*in für visuelle Effekte",
+        "en": "Visual Effects Technical Director"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122476",
+      "prefLabel": {
+        "de": "Supervisor für 2D-Sequenzen",
+        "en": "2D Sequence Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122477",
+      "prefLabel": {
+        "de": "Zusätzliche visuelle Effekte",
+        "en": "Additional Visual Effects"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122478",
+      "prefLabel": {
+        "de": "Koordinator*in für Animation",
+        "en": "Animation Coordinator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122479",
+      "prefLabel": {
+        "de": "Technische*r Leiter*in der Animation",
+        "en": "Animation Technical Director"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122480",
+      "prefLabel": {
+        "de": "CG-Künstler*in",
+        "en": "CG Artist"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122481",
+      "prefLabel": {
+        "de": "Compositing-Künstler*in",
+        "en": "Compositing Artist"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122482",
+      "prefLabel": {
+        "de": "Compositing-Leiter*in",
+        "en": "Compositing Lead"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122483",
+      "prefLabel": {
+        "de": "Kontrolle für Compositing",
+        "en": "Compositing Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122484",
+      "prefLabel": {
+        "de": "Technische*r Direktor*in für Kreationseffekte",
+        "en": "Creature Effects Technical Director"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122485",
+      "prefLabel": {
+        "de": "Supervisor für Cyber-Scanning",
+        "en": "Cyber Scanning Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122486",
+      "prefLabel": {
+        "de": "Leiter*in der Vorvisualisierung",
+        "en": "Director of Previsualization"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122487",
+      "prefLabel": {
+        "de": "Supervisor für Effekte",
+        "en": "Effects Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122488",
+      "prefLabel": {
+        "de": "Generalist*in",
+        "en": "Generalist"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122489",
+      "prefLabel": {
+        "de": "Leitung der Animation",
+        "en": "Head of Animation"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122490",
+      "prefLabel": {
+        "de": "Supervisor für Modellierung",
+        "en": "Modelling Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122491",
+      "prefLabel": {
+        "de": "Technische*r Direktor*in für die Pipeline",
+        "en": "Pipeline Technical Director"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122492",
+      "prefLabel": {
+        "de": "Koordinator*in für die Vorvisualisierung",
+        "en": "Pre-Visualization Coordinator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122493",
+      "prefLabel": {
+        "de": "Rotoscoping-Künstler*in",
+        "en": "Rotoscoping Artist"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122494",
+      "prefLabel": {
+        "de": "Roto-Kontrolle",
+        "en": "Roto Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122495",
+      "prefLabel": {
+        "de": "Leitung Animator*in",
+        "en": "Senior Animator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122496",
+      "prefLabel": {
+        "de": "Senior Generalist*in",
+        "en": "Senior Generalist"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122497",
+      "prefLabel": {
+        "de": "Senior Modellierer*in",
+        "en": "Senior Modeller"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122498",
+      "prefLabel": {
+        "de": "Senior Supervisor für visuelle Effekte",
+        "en": "Senior Visual Effects Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122499",
+      "prefLabel": {
+        "de": "Stereoskopischer Supervisor",
+        "en": "Stereoscopic Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n1224100",
+      "prefLabel": {
+        "de": "Technische*r Direktor*in für Stereoskopie",
+        "en": "Stereoscopic Technical Director"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n1224101",
+      "prefLabel": {
+        "de": "Leitung Kontrolle der Animation",
+        "en": "Supervising Animation Director"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n1224102",
+      "prefLabel": {
+        "de": "Assistenz Redakteur*in für visuelle Effekte",
+        "en": "Visual Effects Assistant Editor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n1224103",
+      "prefLabel": {
+        "de": "Visuelle Effekte Lineup",
+        "en": "Visual Effects Lineup"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n1224104",
+      "prefLabel": {
+        "de": "Produktionsassistent*in für visuelle Effekte",
+        "en": "Visual Effects Production Assistant"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/n12",
+    "prefLabel": {
+      "de": "Rolle in Kreativ-Werk",
+      "en": "Creative Work Role"
+    }
+  },
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "de": "ActivityPub: Rollen und Verbindungen",
+      "en": "ActivityPub: Roles and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "id": "https://w3id.org/class/redaktor/n1218",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2Fn1218",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2Fn1218",
+  "prefLabel": {
+    "de": "Beleuchtung",
+    "en": "Lighting"
+  },
+  "altLabel": {
+    "de": [
+      "Licht"
+    ],
+    "en": [
+      "Light"
+    ]
+  },
+  "notation": [
+    "1218"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/n121811",
+      "prefLabel": {
+        "de": "Beleuchtungstechniker*in",
+        "en": "Lighting Technician"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121812",
+      "prefLabel": {
+        "de": "Lichtdesign",
+        "en": "Lighting Design"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121813",
+      "prefLabel": {
+        "de": "Regieführende Beleuchtungskünstler*in",
+        "en": "Directing Lighting Artist"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121814",
+      "prefLabel": {
+        "de": "Master Lighting Artist",
+        "en": "Master Lighting Artist"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121815",
+      "prefLabel": {
+        "de": "Chefbeleuchter*in",
+        "en": "Chief Lighting Technician"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121816",
+      "prefLabel": {
+        "de": "Beleuchtungsdirektor*in",
+        "en": "Lighting Director"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121817",
+      "prefLabel": {
+        "de": "Elektriker Vorarbeiter*in",
+        "en": "Best Boy Electric"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121818",
+      "prefLabel": {
+        "de": "Gaffer",
+        "en": "Gaffer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121819",
+      "prefLabel": {
+        "de": "Rigging Gaffer",
+        "en": "Rigging Gaffer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121820",
+      "prefLabel": {
+        "de": "Beleuchtungsaufsicht",
+        "en": "Lighting Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121821",
+      "prefLabel": {
+        "de": "Beleuchtungsmanager*in",
+        "en": "Lighting Manager"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121822",
+      "prefLabel": {
+        "de": "Illuminator",
+        "en": "Illuminator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121823",
+      "prefLabel": {
+        "de": "Beleuchtungskoordinator*in",
+        "en": "Lighting Coordinator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121824",
+      "prefLabel": {
+        "de": "Produktions-Assistenz für Beleuchtung",
+        "en": "Lighting Production Assistant"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121825",
+      "prefLabel": {
+        "de": "O.B. Beleuchtung",
+        "en": "O.B. Lighting"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121826",
+      "prefLabel": {
+        "de": "Beleuchtung Vorarbeiter*in",
+        "en": "Best Boy Electrician"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121827",
+      "prefLabel": {
+        "de": "Elektriker*in",
+        "en": "Electrician"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121828",
+      "prefLabel": {
+        "de": "Supervisor für das Rigging",
+        "en": "Rigging Supervisor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121829",
+      "prefLabel": {
+        "de": "Unterwasser-Gaffer",
+        "en": "Underwater Gaffer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121830",
+      "prefLabel": {
+        "de": "Co-Gaffer",
+        "en": "Additional Gaffer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121831",
+      "prefLabel": {
+        "de": "Co-Beleuchtungstechniker",
+        "en": "Additional Lighting Technician"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121832",
+      "prefLabel": {
+        "de": "Assistenz des leitenden Beleuchtungstechnikers",
+        "en": "Assistant Chief Lighting Technician"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121833",
+      "prefLabel": {
+        "de": "Assistenz Elektrik",
+        "en": "Assistant Electrician"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121834",
+      "prefLabel": {
+        "de": "Assistenz Gaffer",
+        "en": "Assistant Gaffer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121835",
+      "prefLabel": {
+        "de": "Vorarbeit Lichttechniker*in",
+        "en": "Best Boy Lighting Technician"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121836",
+      "prefLabel": {
+        "de": "Tägliche Elektriker",
+        "en": "Daily Electrics"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121837",
+      "prefLabel": {
+        "de": "Generator-Bediener",
+        "en": "Genetator Operator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121838",
+      "prefLabel": {
+        "de": "Key Rigging Grip",
+        "en": "Key Rigging Grip"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121839",
+      "prefLabel": {
+        "de": "Beleuchtungsprogrammierer*in",
+        "en": "Lighting Programmer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121840",
+      "prefLabel": {
+        "de": "Standby Rigger",
+        "en": "Standby Rigger"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n121841",
+      "prefLabel": {
+        "de": "Sonstiges Licht",
+        "en": "Other Light"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/n12",
+    "prefLabel": {
+      "de": "Rolle in Kreativ-Werk",
+      "en": "Creative Work Role"
+    }
+  },
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "de": "ActivityPub: Rollen und Verbindungen",
+      "en": "ActivityPub: Roles and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

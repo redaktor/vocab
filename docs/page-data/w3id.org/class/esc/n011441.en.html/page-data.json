@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-components-concept-js",
-    "path": "/w3id.org/class/esc/n011441.en.html",
-    "result": {"pageContext":{"language":"en","languages":["de","en"],"node":{"id":"https://w3id.org/class/esc/n011441","type":"Concept","followers":"https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fesc%2Fn011441","inbox":"https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fesc%2Fn011441","prefLabel":{"de":"Tonmontage-Mitarbeiter*in","en":"Sound Montage Associate"},"altLabel":null,"definition":null,"scopeNote":null,"note":null,"notation":["011441"],"example":null,"narrower":[],"narrowerTransitive":[],"broader":{"id":"https://w3id.org/class/esc/n0114","prefLabel":{"de":"Sound","en":"Sound"}},"broaderTransitive":null,"related":[],"relatedMatch":null,"broadMatch":null,"narrowMatch":null,"closeMatch":[{"id":"https://themoviedb.org#Sound%20Montage%20Associate"}],"exactMatch":null,"inScheme":{"id":"https://w3id.org/class/esc/scheme","title":{"de":"ActivityPub: Rollen und Verbindungen","en":"ActivityPub: Roles and Relations"}},"topConceptOf":null},"baseURL":""}},
-    "staticQueryHashes": ["3649515864","63159454"]}
