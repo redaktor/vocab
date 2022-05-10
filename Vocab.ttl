@@ -1,5 +1,6 @@
 @prefix : <https://w3id.org/class/redaktor/> .
-@prefix Property: <http://www.wikidata.org/wiki/Property:> .
+@prefix as: <https://www.w3.org/ns/activitystreams> .
+@prefix Property: <https://www.wikidata.org/wiki/Property:> .
 @prefix loc: <https://id.loc.gov/vocabulary/relators/> .
 @prefix locsubject: <https://id.loc.gov/authorities/subjects/> .
 @prefix tmdb: <https://themoviedb.org#> .
@@ -27,83 +28,106 @@
     skos:narrower :n11, :n12, :n13, :n14, :n15, :n16 ;
     skos:notation "1" ;
     skos:prefLabel "Attributierungen"@de, "Attributions"@en ;
-    skos:scopeNote "Beschreibt die Rollen von Akteuren und Bedeutung von Attributierungen."@de, 
-        "Describes the roles of actors and meaning of attributions."@en ;
+    skos:definition "Beschreibt die Rolle von Akteuren und Bedeutung von Attributierungen."@de, 
+        "Describes the role of actors and meaning of attributions."@en ;
+    skos:scopeNote as:attributedTo ;
     skos:topConceptOf :scheme .
+
 :n2 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:narrower :n211, :n212, :n213, :n214, :n215, :n216, :n217, :n218, :n219, 
         :n220, :n221, :n222, :n223, :n224, :n225, :n226, :n227, :n228, :n229, :n230 ;
     skos:notation "2" ;
     skos:prefLabel "Bedeutung von Örtlichkeiten"@de, "Meaning of Places"@en ;
-    skos:scopeNote ""@en ;
+    skos:definition "Beschreibt die Rolle von Örtlichkeiten im Eintrag."@de, 
+    "Describes the role of location in the entry"@en ;
+    skos:scopeNote as:location ;
     skos:topConceptOf :scheme .
 :n3 a skos:Concept ;
     skos:inScheme :scheme ;
-    skos:narrower :n311 ;
+    skos:narrower :n311, :n312, :n313, :n314, :n315, :n316, :n317, :n318, :n319, 
+        :n320, :n321, :n322, :n323, :n324, :n325, :n326, :n327, :n328, :n329,
+        :n330, :n331, :n332, :n333 ;
     skos:notation "3" ;
-    skos:prefLabel "Bedeutung des Kontexts"@de, "Meaning in context"@en ;
-    skos:scopeNote ""@en ;
+    skos:prefLabel "Bedeutung des Kontexts"@de, "Meaning of context."@en ;
+    skos:definition "Beschreibt die Rolle des jeweiligen Kontexts."@de, 
+    "Describes the role of "@en ;
+    skos:scopeNote as:context ;
     skos:topConceptOf :scheme .
 :n4 a skos:Concept ;
     skos:inScheme :scheme ;
-    skos:narrower :n411 ;
+    skos:narrower :n411, :n412, :n413, :n414, :n415, :n416, :n417, :n418, :n419, 
+        :n420, :n421, :n422, :n423, :n424, :n425, :n426, :n427, :n428, :n429,
+        :n430, :n431, :n432, :n433, :n434, :n435, :n436, :n437, :n438, :n439,
+        :n440, :n441, :n442 ;
     skos:notation "4" ;
-    skos:prefLabel "Bedeutung in Anhängen"@de, "Meaning in attachment"@en ;
-    skos:scopeNote ""@en ;
+    skos:prefLabel "Bedeutung des Instrumentes"@de, "Meaning of instrument"@en ;
+    skos:definition "Beschreibt die Rolle von verwendeten 'Instrumenten'."@de, 
+    "Describes the role of used 'instruments.'"@en ;
+    skos:scopeNote as:instrument ;
     skos:topConceptOf :scheme .
 :n5 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:narrower :n511 ;
     skos:notation "5" ;
-    skos:prefLabel "Gegenseitige Hilfe TODO"@de, "Mutual Aid"@en ;
-    skos:scopeNote "Beschreibt die Verbindungen zwischen Actors"@de, 
-    "Describes Roles amongst Actors"@en ;
+    skos:prefLabel "Bedeutung der Anhänge"@de, "Meaning of attachment"@en ;
+    skos:definition "Beschreibt die Rolle von Bildern oder anderen Anhängen"@de, 
+    "Describes the role of images or other attachments"@en ;
+    skos:scopeNote as:attachment, as:image ;
     skos:topConceptOf :scheme .
 :n6 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:narrower :n611 ;
     skos:notation "6" ;
+    skos:prefLabel "Gegenseitige Hilfe TODO"@de, "Mutual Aid"@en ;
+    skos:definition "Beschreibt die Verbindungen zwischen Akteuren."@de, 
+    "Describes Roles amongst actors."@en ;
+    skos:topConceptOf :scheme .
+:n7 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:narrower :n711 ;
+    skos:notation "7" ;
     skos:prefLabel "Notfall Managing TODO"@de, "Emergency Managing"@en ;
     skos:altLabel "Crisis Response"@de, "Krisenintervention"@en ;
-    skos:scopeNote "Beschreibt die Rollen von Actors im Notfallmanagement, siehe auch https://shekarpour.github.io/empathi.io/#objectproperties"@de, 
+    skos:definition "Beschreibt die Rollen von Actors im Notfallmanagement, siehe auch https://shekarpour.github.io/empathi.io/#objectproperties"@de, 
     "Describes Roles of Actors in Emergency Managing, see also https://shekarpour.github.io/empathi.io/#objectproperties"@en ;
     skos:topConceptOf :scheme .
 
 # Generic Role
 :n11 a skos:Concept ;
     skos:inScheme :scheme ;
-    skos:narrower :n111, :n112, :n113, :n114, :n115, :n116, :n117, :n118, :n119, 
-        :n1110, :n1111, :n1112, :n1113, :n1114, :n1115, :n1116, :n1117, :n1118, :n1119, 
+    skos:narrower :n1111, :n1112, :n1113, :n1114, :n1115, :n1116, :n1117, :n1118, :n1119, 
         :n1120, :n1121, :n1122, :n1123, :n1124, :n1125, :n1126, :n1127, :n1128, :n1129, 
         :n1130, :n1131, :n1132, :n1133, :n1134, :n1135, :n1136, :n1137, :n1138, :n1139, 
-        :n1140, :n1141, :n1142, :n1143, :n1144, :n1145, :n1146 ;
+        :n1140, :n1141, :n1142, :n1143, :n1144, :n1145, :n1146, :n1147, :n1148, :n1149, 
+        :n1150, :n1151, :n1152, :n1153 ;
     skos:notation "11" ;
     skos:prefLabel "Allgemeine Rolle"@de, "Generic or major role"@en ;
-    skos:scopeNote "Allgemeine Aufgaben, die ein breites Spektrum an Themen abdecken, ohne oder mit nur geringer Spezialisierung auf ein bestimmtes Gebiet oder bestimmte Gebiete, werden in der Regel in das weite Feld 00 'Generische oder Hauptaufgaben' eingeordnet."@de, 
+    skos:definition "Allgemeine Aufgaben, die ein breites Spektrum an Themen abdecken, ohne oder mit nur geringer Spezialisierung auf ein bestimmtes Gebiet oder bestimmte Gebiete, werden in der Regel in das weite Feld 00 'Generische oder Hauptaufgaben' eingeordnet."@de, 
         "General roles which cover a broad range of subjects with little or no specialisation in a particular field or fields will typically be classified within the broad field 00 'Generic or major role'"@en .
 :n12 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:narrower :n1211, :n1212, :n1213, :n1214, :n1215, :n1216, :n1217, :n1218,
-        :n1220, :n1221, :n1222, :n1223, :n1224, :n1225, :n1226, :n1227, :n1228, :n1229, :n1230, :n1231 ;
+        :n1220, :n1221, :n1222, :n1223, :n1224, :n1225, :n1226, :n1227, :n1228, :n1229, 
+        :n1230, :n1231 ;
     skos:notation "12", "121" ;
     skos:prefLabel "Rolle in Kreativ-Werk"@de, "Creative Work Role"@en ;
     skos:altLabel "Zuschreibung, Tätigkeit"@de, "Attribution, Profession"@en ;
-    skos:scopeNote "Beschreibt die Rollen von Actors in Kreativprozessen"@de, 
+    skos:definition "Beschreibt die Rollen von Actors in Kreativprozessen"@de, 
     "Describes Roles of Actors in Creative Work Projects"@en .
 :n13 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:narrower :n1311 ;
     skos:notation "13" ;
     skos:prefLabel "Rolle in Örtlichkeit"@de, "Place Role"@en ;
-    skos:scopeNote "Beschreibt die Rollen von Actors in ortsbezogenen Projekten"@de, 
+    skos:definition "Beschreibt die Rollen von Actors in ortsbezogenen Projekten"@de, 
     "Describes Roles of Actors in Place based Projects"@en .
 :n14 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:narrower :n1411 ;
     skos:notation "14" ;
     skos:prefLabel "Rolle in Veranstaltung"@de, "Event Role"@en ;
-    skos:scopeNote "Beschreibt die Rollen von Actors in ereignisbasierten Projekten"@de, 
+    skos:definition "Beschreibt die Rollen von Actors in ereignisbasierten Projekten"@de, 
     "Describes Roles of Actors in Event based Projects"@en .
 :n15 a skos:Concept ;
     skos:inScheme :scheme ;
@@ -111,7 +135,7 @@
         :n1520, :n1521, :n1522, :n1523, :n1524, :n1525, :n1526 ;
     skos:notation "15" ;
     skos:prefLabel "Verbindungen der Akteure"@de, "Relations of actors"@en ;
-    skos:scopeNote "Beschreibt Verbindungen in Attributierungen"@de, 
+    skos:definition "Beschreibt Verbindungen in Attributierungen"@de, 
     "Describes relations in attributions"@en .
 :n16 a skos:Concept ;
     skos:inScheme :scheme ;
@@ -122,408 +146,384 @@
     skos:notation "16" ;
     skos:prefLabel "Verbindungen zu anderen Werken"@de, "Relations to other Works"@en ;
     skos:altLabel "Verbindungen zwischen Kreativwerken"@de, "Relations amongst Creative Work"@en .
+
 :n17 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:narrower :n1711, :n1712, :n1713, :n1714, :n1717, :n1716, :n1717, :n1718, :n1719,
         :n1720, :n1721, :n1722, :n1723, :n1724, :n1725, :n1726 ;
     skos:notation "17" ;
     skos:prefLabel "Infos, Lizenz, Rechtliches"@de, "Info, License, Legal"@en ;
-    skos:scopeNote "Beschreibt Lizenzen oder Meta in Attributierungen"@de, 
+    skos:definition "Beschreibt Lizenzen oder Meta in Attributierungen"@de, 
     "Describes Licenses or meta in attributions"@en .
 
 # Allgemeine Rolle
-:n111 a skos:Concept ;
+:n1111 a skos:Concept ;
     skos:inScheme :scheme ;
-    skos:notation "111" ;
+    skos:notation "1111" ;
     skos:prefLabel "Fiktional"@de, "Fictional"@en ;
     skos:definition "Eine Person oder Sache mit einer fiktiven Bedeutung. Zum Beispiel ein Charakter."@de, 
     "A person or thing with a fictional meaning. For example a Character."@en ;
     schema:sameAs Property:P453, schema:character, tmdb:character ;
     skos:topConceptOf :scheme .
-:n112 a skos:Concept ;
+:n1112 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:art ;
-    skos:notation "112" ;
+    skos:notation "1112" ;
     skos:prefLabel "Autor*in"@de, "Author"@en ;
     skos:altLabel "Primärer Künstler"@de, "Primary Artist"@en ;
     schema:sameAs Property:P50, schema:author, schema:artist, tmdb:Author ;
     skos:definition "Eine Person, Familie oder Organisation, die für die Schaffung eines Werks verantwortlich ist, indem sie ein originales grafisches Design, eine Zeichnung, ein Gemälde usw. entwirft und umsetzt. Für Buchillustratoren ist der Begriff 011713 Illustrator [ill] vorzuziehen."@de, 
     "A person, family, or organization responsible for creating a work by conceiving, and implementing, an original graphic design, drawing, painting, etc. For book illustrators, prefer 011713 Illustrator [ill]"@en .
-:n113 a skos:Concept ;
+:n1113 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:rpy ;
-    skos:notation "113" ;
+    skos:notation "1113" ;
     skos:prefLabel "Verantwortliche Person"@de, "Accountable Person"@en ;
     skos:altLabel "V.i.S.d.P."@de, "Person responsible according to Press Law"@en ;
     skos:definition "Eine Person oder Organisation, die rechtlich für den Inhalt des veröffentlichten Materials verantwortlich ist"@de, 
     "A person or organization legally responsible for the content of the published material"@en ;
     schema:sameAs schema:accountablePerson, tmdb:Accountable%20Person .
-:n114 a skos:Concept ;
+:n1114 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:cph ;
-    skos:notation "114" ;
+    skos:notation "1114" ;
     skos:prefLabel "Copyright Inhaber*in"@de, "Copyright Holder"@en ;
     skos:altLabel "© by"@de, "© by"@en ;
     skos:definition "Eine Person oder Organisation, welcher Urheber- und Rechtsrechte für den geistigen Inhalt eines Werkes gewährt oder übertragen wurden. Der Urheberrechtsinhaber ist zwar nicht unbedingt der Schöpfer des Werks, hat aber in der Regel das ausschließliche Recht, aus dem Verkauf und der Nutzung des Werks, für das der entsprechende Urheberrechtsschutz gilt, finanziell zu profitieren"@de, 
     "A person or organization to whom copy and legal rights have been granted or transferred for the intellectual content of a work. The copyright holder, although not necessarily the creator of the work, usually has the exclusive right to benefit financially from the sale and use of the work to which the associated copyright protection applies"@en ;
     schema:sameAs Property:P3931, schema:copyrightHolder, tmdb:Copyright%20Holder .
-:n115 a skos:Concept ;
+:n1115 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:ann ;
-    skos:notation "115" ;
+    skos:notation "1115" ;
     skos:prefLabel "Verfasser Strukturierte Daten, Annotator"@de, "Annotator, Structured Data Publisher"@en ;
     skos:altLabel "Metadaten"@de, "metadata"@en ;
     skos:hiddenLabel "sdPublisher Structured Data"@de, "sdPublisher"@en ;
     skos:definition "Eine Person, die handschriftliche Anmerkungen zu einem Werk macht"@de, 
     "A person who makes manuscript annotations on an item"@en ;
     schema:sameAs schema:sdPublisher .
-:n116 a skos:Concept ;
+:n1116 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:mrk ;
-    skos:notation "116" ;
+    skos:notation "1116" ;
     skos:prefLabel "Markup Editor"@de, "Markup editor"@en ;
     skos:definition "Eine Person oder Organisation, die die Kodierung von SGML-, HTML- oder XML-Auszeichnungen von Metadaten, Text usw. vornimmt"@de, 
     "A person or organization performing the coding of SGML, HTML, or XML markup of metadata, text, etc."@en ;
     schema:sameAs schema:editor, tmdb:Markup%20editor .
-:n117 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n11 ;
-    skos:exactMatch loc:dpc ;
-    skos:notation "117" ;
-    skos:prefLabel "Abgebildet"@de, "Depicted"@en ;
-    skos:definition "Eine in einem Werk, insbesondere in einem Kunstwerk, abgebildete oder dargestellte Person"@de, 
-    "An entity depicted or portrayed in a work, particularly in a work of art"@en ;
-    schema:sameAs Property:P2634 .
-:n118 a skos:Concept ;
+:n1117 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:att ;
-    skos:notation "118" ;
+    skos:notation "1117" ;
     skos:prefLabel "Zugeschriebener Name"@de, "Attributed name"@en ;
     skos:altLabel "Generische Zuschreibung"@de, "Generic Attribution"@en ;
     skos:definition "Ein Autor, Künstler usw., der mit einer Ressource in Verbindung gebracht wird, für die es eine wesentliche Berechtigung gibt oder gab, diese Person als Autor, Schöpfer usw. des Werks zu bezeichnen, was auf die Herkunft hinweist"@de, 
     "An author, artist, etc., relating him/her to a resource for which there is or once was substantial authority for designating that person as author, creator, etc. of the work indicative of provenance"@en .
-:n119 a skos:Concept ;
+:n1118 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:asn ;
-    skos:notation "119" ;
+    skos:notation "1118" ;
     skos:prefLabel "Assoziierter Name"@de, "Associated name"@en ;
     skos:altLabel "Generische Assoziierung"@de, "Generic Association"@en ;
     skos:definition "Eine Person oder Organisation, die mit einem Gegenstand oder einer Sammlung in Verbindung gebracht wird oder in dieser zu finden ist, die aber nicht bestimmt werden kann."@de, 
     "A person or organization associated with or found in an item or collection, which cannot be determined."@en ;
     schema:sameAs Property:P1779 .
-:n1110 a skos:Concept ;
+:n1119 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:inv ;
-    skos:notation "1110" ;
+    skos:notation "1119" ;
     skos:prefLabel "Erfinder*in"@de, "Inventor"@en ;
     skos:definition "Eine Person, Familie oder Organisation, die für die Entwicklung eines neuen Geräts oder Verfahrens verantwortlich ist"@de, 
     "A person, family, or organization responsible for creating a new device or process"@en ;
     schema:sameAs Property:P61 .
-:n1111 a skos:Concept ;
+:n1120 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:led ;
-    skos:notation "1111" ;
+    skos:notation "1120" ;
     skos:prefLabel "Leitung"@de, "Lead"@en ;
     skos:definition "Eine Person oder Organisation, die die Hauptverantwortung für eine bestimmte Tätigkeit oder ein bestimmtes Unterfangen trägt. Kann mit einem anderen Rollenbegriff oder -code kombiniert werden, um die größere Bedeutung dieser Person oder Organisation in Bezug auf diese bestimmte Rolle zu zeigen. Wenn einer Rubrik mehr als ein Verantwortlicher zugeordnet ist, verwenden Sie den Begriff nur, wenn er auf alle Verantwortlichen zutrifft."@de, 
     "A person or organization that takes primary responsibility for a particular activity or endeavor. May be combined with another relator term or code to show the greater importance this person or organization has regarding that particular role. If more than one relator is assigned to a heading, use the Lead relator only if it applies to all the relators"@en ;
     schema:sameAs tmdb:Lead .
-:n1112 a skos:Concept ;
+:n1121 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:fnd ;
-    skos:notation "1112" ;
+    skos:notation "1121" ;
     skos:prefLabel "Förderer*in"@de, "Funder"@en ;
     skos:definition "Eine Person oder Organisation, die die Produktion des Werks finanziell unterstützt hat"@de, 
     "A person or organization that furnished financial support for the production of the work"@en ;
     schema:sameAs schema:funder, tmdb:Funder .
-:n1113 a skos:Concept ;
+:n1122 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:spn ;
-    skos:notation "1113" ;
+    skos:notation "1122" ;
     skos:prefLabel "Sponsor"@de, "Sponsor"@en ;
     skos:definition "Eine Person, Familie oder Organisation, die einen bestimmten Aspekt einer Ressource sponsert, z. B. die Finanzierung von Forschung, das Sponsoring einer Veranstaltung"@de, 
     "A person, family, or organization sponsoring some aspect of a resource, e.g., funding research, sponsoring an event"@en ;
     schema:sameAs schema:sponsor, tmdb:Sponsor .
-:n1114 a skos:Concept ;
+:n1123 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:dnr ;
-    skos:notation "1114" ;
+    skos:notation "1123" ;
     skos:prefLabel "Spender*in"@de, "Donor"@en ;
     skos:definition "Ein ehemaliger Eigentümer eines Gegenstands, der diesen Gegenstand einem anderen Eigentümer geschenkt hat"@de, 
     "A former owner of an item who donated that item to another owner"@en ;
     schema:sameAs tmdb:Donor .
-:n1115 a skos:Concept ;
+:n1124 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:pat ;
-    skos:notation "1115" ;
+    skos:notation "1124" ;
     skos:prefLabel "Patron*in"@de, "Patron"@en ;
     skos:definition "Eine Person oder Organisation, die ein Werk in Auftrag gibt. Normalerweise setzt ein Mäzen seine Mittel oder seinen Einfluss ein, um die Arbeit von Künstlern, Schriftstellern usw. zu unterstützen. Dazu gehören auch diejenigen, die einzelne Werke in Auftrag geben und dafür bezahlen."@de,
     "A person or organization responsible for commissioning a work. Usually a patron uses his or her means or influence to support the work of artists, writers, etc. This includes those who commission and pay for individual works"@en ;
     schema:sameAs tmdb:Patron .
-:n1116 a skos:Concept ;
+:n1125 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:exp ;
-    skos:notation "1116" ;
+    skos:notation "1125" ;
     skos:prefLabel "Expert*in"@de, "Expert"@en ;
     skos:definition "Eine Person oder Organisation, die für die Beschreibung und Schätzung des Wertes von Waren, insbesondere von seltenen Gegenständen, Kunstwerken usw., zuständig ist."@de, 
     "A person or organization in charge of the description and appraisal of the value of goods, particularly rare items, works of art, etc."@en .
-:n1117 a skos:Concept ;
+:n1126 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:cli ;
-    skos:notation "1117" ;
+    skos:notation "1126" ;
     skos:prefLabel "Client, Kund*in, Auftraggeber*in"@de, "Client"@en ;
     skos:definition "Eine Person oder Organisation, für die eine andere Person oder Organisation tätig ist"@de, 
     "A person or organization for whom another person or organization is acting"@en ;
     schema:sameAs Property:P88 .
-:n1118 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n11 ;
-    skos:exactMatch loc:ctr ;
-    skos:notation "1118" ;
-    skos:prefLabel "Vertragspartner*in"@de, "Contractor"@en ;
-    skos:definition "Eine Person oder Organisation, die für eine Ressource relevant ist und mit einer anderen Person oder Organisation einen Vertrag über eine bestimmte Leistung abschließt"@de, 
-    "A person or organization relevant to a resource, who enters into a contract with another person or organization to perform a specific"@en .
-:n1119 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n11 ;
-    skos:exactMatch loc:sht ;
-    skos:notation "1119" ;
-    skos:prefLabel "Unterstützer*in"@de, "Supporter, Supporting Host"@en ;
-    skos:definition "Eine Person oder Organisation, die ein Projekt, ein Programm, ein Treffen, eine Veranstaltung, Datenobjekte, materielle Kulturobjekte oder andere unterstützungsfähige Einheiten unterstützt (durch Bereitstellung von Einrichtungen, Personal oder anderen Ressourcen)"@de, 
-    "A person or organization that supports (by allocating facilities, staff, or other resources) a project, program, meeting, event, data objects, material culture objects, or other entities capable of support"@en .
-:n1120 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n11 ;
-    skos:notation "1120" ;
-    skos:prefLabel "Anbieter*in"@de, "Supplier"@en ;
-    skos:definition "Allgemein. Nur verwenden, wenn es sich von dem liefernden ActivityPub-Actor unterscheidet."@de, 
-    "Generic. Use only if it is different than the supplying ActivityPub Actor."@en ;
-    schema:sameAs schema:provider .
-:n1121 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n11 ;
-    skos:exactMatch loc:brd ;
-    skos:notation "1121" ;
-    skos:prefLabel "Sender, Broadcaster"@de, "Broadcaster"@en ;
-    skos:definition "Eine Person, Familie oder Organisation, die an der Verbreitung einer Ressource an ein Publikum über Radio, Fernsehen, Webcast usw. beteiligt ist."@de, 
-    "A person, family, or organization involved in broadcasting a resource to an audience via radio, television, webcast, etc."@en .
-:n1122 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n11 ;
-    skos:exactMatch loc:hst ;
-    skos:notation "1122" ;
-    skos:prefLabel "Host, Gastgeber"@de, "Host"@en ;
-    skos:definition "Ein Künstler, der zu einer Ressource beiträgt, indem er ein (oft gesendetes) Programm leitet, das andere Gäste, Künstler usw. einschließt. (z. B. Talkshow-Moderator)"@de, 
-    "A performer contributing to a resource by leading a program (often broadcast) that includes other guests, performers, etc. (e.g., talk show host)"@en .
-:n1123 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n11 ;
-    skos:exactMatch loc:his ;
-    skos:notation "1123" ;
-    skos:prefLabel "Host Institution"@de, "Host institution"@en ;
-    skos:definition "Eine Organisation, die die Veranstaltung, Ausstellung, Konferenz usw. ausrichtet/hostet, aber wenig oder keine Verantwortung für den Inhalt der Ressource hat"@de, 
-    "An organization hosting the event, exhibit, conference, etc., which gave rise to a resource, but having little or no responsibility for the content of the resource"@en .
-:n1124 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n11 ;
-    skos:exactMatch loc:cur ;
-    skos:notation "1124" ;
-    skos:prefLabel "Kurator"@de, "Curator"@en ;
-    skos:definition "Eine Person, Familie oder Organisation, die eine Ausstellung, Sammlung oder ein anderes Objekt konzipiert, zusammenstellt und/oder organisiert"@de, 
-    "A person, family, or organization conceiving, aggregating, and/or organizing an exhibition, collection, or other item"@en .
-:n1125 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n11 ;
-    skos:exactMatch loc:ard ;
-    skos:notation "1125" ;
-    skos:prefLabel "Künstlerische*r Direktor*in"@de, "Artistic director"@en ;
-    skos:definition "Eine Person, die für die Kontrolle der Entwicklung des künstlerischen Stils einer gesamten Produktion verantwortlich ist, einschließlich der Auswahl der zu präsentierenden Werke und der Auswahl des leitenden Produktionspersonals"@de, 
-    "A person responsible for controlling the development of the artistic style of an entire production, including the choice of works to be presented and selection of senior production staff"@en .
-:n1126 a skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader :n11 ;
-    skos:exactMatch loc:orm ;
-    skos:notation "1126" ;
-    skos:prefLabel "Veranstalter*in"@de, "Organizer"@en ;
-    skos:definition "Eine Person, Familie oder Organisation, die die Ausstellung, Veranstaltung, Konferenz usw. organisiert, aus der eine Ressource hervorgegangen ist"@de,  
-    "A person, family, or organization organizing the exhibit, event, conference, etc., which gave rise to a resource "@en .
 :n1127 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
-    skos:exactMatch loc:isb ;
+    skos:exactMatch loc:ctr ;
     skos:notation "1127" ;
+    skos:prefLabel "Vertragspartner*in"@de, "Contractor"@en ;
+    skos:definition "Eine Person oder Organisation, die für eine Ressource relevant ist und mit einer anderen Person oder Organisation einen Vertrag über eine bestimmte Leistung abschließt"@de, 
+    "A person or organization relevant to a resource, who enters into a contract with another person or organization to perform a specific"@en .
+:n1128 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n11 ;
+    skos:exactMatch loc:sht ;
+    skos:notation "1128" ;
+    skos:prefLabel "Unterstützer*in"@de, "Supporter, Supporting Host"@en ;
+    skos:definition "Eine Person oder Organisation, die ein Projekt, ein Programm, ein Treffen, eine Veranstaltung, Datenobjekte, materielle Kulturobjekte oder andere unterstützungsfähige Einheiten unterstützt (durch Bereitstellung von Einrichtungen, Personal oder anderen Ressourcen)"@de, 
+    "A person or organization that supports (by allocating facilities, staff, or other resources) a project, program, meeting, event, data objects, material culture objects, or other entities capable of support"@en .
+:n1129 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n11 ;
+    skos:exactMatch loc:hst ;
+    skos:notation "1129" ;
+    skos:prefLabel "Host, Gastgeber"@de, "Host"@en ;
+    skos:definition "Ein Künstler, der zu einer Ressource beiträgt, indem er ein (oft gesendetes) Programm leitet, das andere Gäste, Künstler usw. einschließt. (z. B. Talkshow-Moderator)"@de, 
+    "A performer contributing to a resource by leading a program (often broadcast) that includes other guests, performers, etc. (e.g., talk show host)"@en .
+:n1130 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n11 ;
+    skos:exactMatch loc:his ;
+    skos:notation "1130" ;
+    skos:prefLabel "Host Institution"@de, "Host institution"@en ;
+    skos:definition "Eine Organisation, die die Veranstaltung, Ausstellung, Konferenz usw. ausrichtet/hostet, aber wenig oder keine Verantwortung für den Inhalt der Ressource hat"@de, 
+    "An organization hosting the event, exhibit, conference, etc., which gave rise to a resource, but having little or no responsibility for the content of the resource"@en .
+:n1131 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n11 ;
+    skos:exactMatch loc:cur ;
+    skos:notation "1131" ;
+    skos:prefLabel "Kurator"@de, "Curator"@en ;
+    skos:definition "Eine Person, Familie oder Organisation, die eine Ausstellung, Sammlung oder ein anderes Objekt konzipiert, zusammenstellt und/oder organisiert"@de, 
+    "A person, family, or organization conceiving, aggregating, and/or organizing an exhibition, collection, or other item"@en .
+:n1132 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n11 ;
+    skos:exactMatch loc:ard ;
+    skos:notation "1132" ;
+    skos:prefLabel "Künstlerische*r Direktor*in"@de, "Artistic director"@en ;
+    skos:definition "Eine Person, die für die Kontrolle der Entwicklung des künstlerischen Stils einer gesamten Produktion verantwortlich ist, einschließlich der Auswahl der zu präsentierenden Werke und der Auswahl des leitenden Produktionspersonals"@de, 
+    "A person responsible for controlling the development of the artistic style of an entire production, including the choice of works to be presented and selection of senior production staff"@en .
+:n1133 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n11 ;
+    skos:exactMatch loc:orm ;
+    skos:notation "1133" ;
+    skos:prefLabel "Veranstalter*in"@de, "Organizer"@en ;
+    skos:definition "Eine Person, Familie oder Organisation, die die Ausstellung, Veranstaltung, Konferenz usw. organisiert, aus der eine Ressource hervorgegangen ist"@de,  
+    "A person, family, or organization organizing the exhibit, event, conference, etc., which gave rise to a resource "@en .
+:n1134 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n11 ;
+    skos:exactMatch loc:isb ;
+    skos:notation "1134" ;
     skos:prefLabel "Herausgeber*in"@de, "Publisher"@en ;
     skos:altLabel "Herausgebende Stelle"@de, "Issuing body"@en ;
     skos:definition "Eine Person, Familie oder Organisation, die ein Werk herausgibt, wie z. B. ein offizielles Organ der Einrichtung"@de, 
     "A person, family or organization issuing a work, such as an official organ of the body"@en ;
     schema:sameAs schema:publisher, schema:publisherImprint, Property:P98 .
-:n1128 a skos:Concept ;
+:n1135 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:stn ;
-    skos:notation "1128" ;
+    skos:notation "1135" ;
     skos:prefLabel "Normungsgremium"@de, "Standards body"@en ;
     skos:altLabel "Standards-Institution"@de ;
     skos:definition "Eine Organisation, die für die Entwicklung oder Durchsetzung einer Norm / eines Standards verantwortlich ist"@de, 
     "An organization responsible for the development or enforcement of a standard"@en .
-:n1129 a skos:Concept ;
+:n1136 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:dtc ;
-    skos:notation "1129" ;
+    skos:notation "1136" ;
     skos:prefLabel "Datenlieferant"@de, "Data contributor"@en ;
     skos:definition "Eine Person oder Organisation, die Daten zur Aufnahme in eine Datenbank oder eine andere Datensammlung vorlegt"@de, 
     "A person or organization that submits data for inclusion in a database or other collection of data"@en .
-:n1130 a skos:Concept ;
+:n1137 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:asg ;
-    skos:notation "1130" ;
+    skos:notation "1137" ;
     skos:prefLabel "Rechtsnachfolger"@de, "Assignee"@en ;
     skos:definition "Eine Person oder Organisation, der eine Lizenz zum Drucken oder Veröffentlichen übertragen wurde"@de, 
     "A person or organization to whom a license for printing or publishing has been transferred"@en .
-:n1131 a skos:Concept ;
+:n1138 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:lse ;
-    skos:notation "1131" ;
+    skos:notation "1138" ;
     skos:prefLabel "Lizenznehmer*in"@de, "Licensee"@en ;
     skos:definition "Eine Person oder Organisation, die der ursprüngliche Empfänger der Druck- oder Veröffentlichungslizenz ist"@de, 
     "A person or organization who is an original recipient of the right to print or publish"@en .
-:n1132 a skos:Concept ;
+:n1139 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:lso ;
-    skos:notation "1132" ;
+    skos:notation "1139" ;
     skos:prefLabel "Lizenzgeber*in"@de, "Licensor"@en ;
     skos:definition "Eine Person oder Organisation, die Unterzeichner der Lizenz, des Imprimaturs usw. ist"@de, 
     "A person or organization who is a signer of the license, imprimatur, etc"@en .
-:n1133 a skos:Concept ;
+:n1140 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:col ;
-    skos:notation "1133" ;
+    skos:notation "1140" ;
     skos:prefLabel "Sammler*in"@de, "Collector"@en ;
     skos:definition "Ein Kurator, der Gegenstände aus verschiedenen Quellen zusammenträgt, die dann als Sammlung geordnet, beschrieben und katalogisiert werden. Ein Sammler ist weder der Schöpfer des Materials noch eine Person, an die die Manuskripte in der Sammlung möglicherweise adressiert waren"@de, 
     "A curator who brings together items from various sources that are then arranged, described, and cataloged as a collection. A collector is neither the creator of the material nor a person to whom manuscripts in the collection may have been addressed"@en .
-:n1134 a skos:Concept ;
+:n1141 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:pan ;
-    skos:notation "1134" ;
+    skos:notation "1141" ;
     skos:prefLabel "Panelist*in"@de, "Panelist"@en ;
     skos:definition "Ein Künstler, der zu einer Ressource beiträgt, indem er an einer (oft ausgestrahlten) Sendung teilnimmt, in der Themen erörtert werden, in der Regel unter Beteiligung von Experten auf den mit der Diskussion verbundenen Gebieten"@de, 
     "A performer contributing to a resource by participating in a program (often broadcast) where topics are discussed, usually with participation of experts in fields related to the discussion"@en .
-:n1135 a skos:Concept ;
+:n1142 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:ctb ;
-    skos:notation "1135" ;
+    skos:notation "1142" ;
     skos:prefLabel "Mitwirkende*r, Contributor"@de, "Contributor"@en ;
     skos:definition "Eine Person, Familie oder Organisation, die für die Beiträge zur Ressource verantwortlich ist. Dies schließt diejenigen ein, deren Arbeit zu einem größeren Werk beigetragen wurde, wie z. B. einem Sammelband, einer fortlaufenden Veröffentlichung oder einer anderen Zusammenstellung von Einzelwerken. Wenn eine spezifischere Rolle verfügbar ist, geben Sie diese an, z. B. Herausgeber, Komponist, Illustrator."@de, 
     "A person, family or organization responsible for making contributions to the resource. This includes those whose work has been contributed to a larger work, such as an anthology, serial publication, or other compilation of individual works. If a more specific role is available, prefer that, e.g. editor, compiler, illustrator"@en ;
     schema:sameAs Property:P767, schema:contributor .
-:n1136 a skos:Concept ;
+:n1143 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:dte ;
-    skos:notation "1136" ;
+    skos:notation "1143" ;
     skos:prefLabel "Widmungsträger*in"@de, "Dedicatee"@en ;
     skos:definition "Eine Person, Familie oder Organisation, der eine Ressource gewidmet ist"@de, 
     "A person, family, or organization to whom a resource is dedicated"@en .
-:n1137 a skos:Concept ;
+:n1144 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:hnr ;
-    skos:notation "1137" ;
+    skos:notation "1144" ;
     skos:prefLabel "Geehrte*r, Honoree"@de, "Honoree"@en ;
     skos:altLabel "Dank"@de, "Thanks"@en ;
     schema:sameAs tmdb:Thanks, tmdb:Thanks%20to ;
     skos:definition "Eine Person, Familie oder Organisation, die durch ein Werk oder einen Gegenstand geehrt wird (z. B. der Preisträger einer Festschrift, eine Person, der ein Exemplar überreicht wird)"@de, 
     "A person, family, or organization honored by a work or item (e.g., the honoree of a festschrift, a person to whom a copy is presented)"@en .
-:n1138 a skos:Concept ;
+:n1145 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:ant ;
-    skos:notation "1138" ;
+    skos:notation "1145" ;
     skos:prefLabel "Bibliographischer Vorläufer"@de, "Bibliographic antecedent"@en ;
     skos:definition "Eine Person oder Organisation, die für eine Ressource verantwortlich ist, auf der die durch die bibliographische Beschreibung dargestellte Ressource basiert. Dies kann für Adaptionen, Fortsetzungen, etc. angebracht sein."@de, 
     "A person or organization responsible for a resource upon which the resource represented by the bibliographic description is based. This may be appropriate for adaptations, sequels, continuations, indexes, etc."@en .
-:n1139 a skos:Concept ;
+:n1146 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:rcp ;
-    skos:notation "1139" ;
+    skos:notation "1146" ;
     skos:prefLabel "Adressat*in"@de, "Addressee"@en ;
     skos:definition "Eine Person, Familie oder Organisation, an die z. B. der Schriftverkehr in einem Werk gerichtet ist"@de, 
     "A person, family, or organization to whom e.g. correspondence in a work is addressed"@en .
-:n1140 a skos:Concept ;
+:n1147 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:mdc ;
-    skos:notation "1140" ;
+    skos:notation "1147" ;
     skos:prefLabel "Ansprechpartner für Metadaten"@de, "Metadata contact"@en ;
     skos:definition "Eine Person oder Organisation, die in erster Linie für die Zusammenstellung und Pflege der ursprünglichen Beschreibung eines Metadatensatzes verantwortlich ist"@de, 
     "A person or organization primarily responsible for compiling and maintaining the original description of a metadata set"@en .
-:n1141 a skos:Concept ;
+:n1148 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:app ;
-    skos:notation "1141" ;
+    skos:notation "1148" ;
     skos:prefLabel "Antragsteller*in"@de, "Applicant"@en ;
     skos:definition "Eine Person oder Organisation, die für die Einreichung eines Antrags verantwortlich ist oder die für die Ergebnisse der Antragsbearbeitung (z. B. Verleihung von Rechten, Belohnungen, Titeln, Positionen) als berechtigt genannt wird"@de, 
     "A person or organization responsible for the submission of an application or who is named as eligible for the results of the processing of the application (e.g., bestowing of rights, reward, title, position)"@en .
-:n1142 a skos:Concept ;
+:n1149 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:com ;
-    skos:notation "1142" ;
+    skos:notation "1149" ;
     skos:prefLabel "Compiler*in"@de, "Compiler"@en ;
     skos:definition "Eine Person, Familie oder Organisation, die für die Erstellung eines neuen Werks (z. B. einer Bibliografie, eines Verzeichnisses) durch den Akt der Zusammenstellung verantwortlich ist, z. B. durch Auswahl, Anordnung, Zusammenfassung und Bearbeitung von Daten, Informationen usw."@de, 
     "A person, family, or organization responsible for creating a new work (e.g., a bibliography, a directory) through the act of compilation, e.g., selecting, arranging, aggregating, and editing data, information, etc"@en ;
     schema:sameAs tmdb:Compiler .
-:n1143 a skos:Concept ;
+:n1150 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:cre ;
-    skos:notation "1143" ;
+    skos:notation "1150" ;
     skos:prefLabel "Praktikant*in"@de, "Intern"@en ;
     schema:sameAs tmdb:Intern .
-:n1144 a skos:Concept ;
+:n1151 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:cre ;
-    skos:notation "1144" ;
+    skos:notation "1151" ;
     skos:prefLabel "Schöpfer*in"@de, "Creator"@en ;
     skos:definition "Eine Person oder Organisation, die für den geistigen oder künstlerischen Inhalt einer Ressource verantwortlich ist"@de, 
     "A person or organization responsible for the intellectual or artistic content of a resource"@en ;
     schema:sameAs Property:P170, schema:creator, tmdb:Creator .
-:n1145 a skos:Concept ;
+:n1152 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
     skos:exactMatch loc:rps ;
-    skos:notation "1145" ;
+    skos:notation "1152" ;
     skos:prefLabel "Repository"@de, "Repository"@en ;
     skos:definition "Eine Organisation, die Daten oder Objekte der materiellen Kultur beherbergt und Dienste zur Förderung einer langfristigen, konsistenten und gemeinsamen Nutzung dieser Daten oder Objekte bereitstellt"@de, 
     "An organization that hosts data or material culture objects and provides services to promote long term, consistent and shared use of those data or objects"@en .
-:n1146 a skos:Concept ;
+:n1153 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n11 ;
-    skos:notation "1146" ;
+    skos:notation "1153" ;
     skos:prefLabel "In Erinnerung an"@de, "In Memory Of"@en ;
     skos:altLabel "in memoriam"@de, "in memoriam"@en ;
     schema:sameAs tmdb:In%20Memory%20Of .
@@ -1332,31 +1332,506 @@
     skos:prefLabel "Copyright Jahr"@de, "copyright year"@en ;
     schema:sameAs schema:copyrightYear .
 
-
-# TODO 
-
+# Context
 :n311 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n3 ;
     skos:notation "311" ;
-    skos:prefLabel "TODO context"@de, "TODO"@en .
+    skos:prefLabel "zentrales Thema"@de, "main subject"@en ;
+    skos:definition "zentrales Thema des Werks"@de, 
+    "primary topic of a work"@en ;
+    schema:sameAs Property:P921 .
+:n312 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n3 ;
+    skos:exactMatch loc:dpc ;
+    skos:notation "312" ;
+    skos:prefLabel "Abgebildet"@de, "Depicted"@en ;
+    skos:definition "Eine in einem Werk, insbesondere in einem Kunstwerk, abgebildete oder dargestellte Person"@de, 
+    "An entity depicted or portrayed in a work, particularly in a work of art"@en ;
+    schema:sameAs Property:P180, Property:P2634 .
+:n313 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n3 ;
+    skos:notation "313" ;
+    skos:prefLabel "Anbieter*in"@de, "Supplier"@en ;
+    skos:definition "Allgemein. Nur verwenden, wenn es sich von dem liefernden ActivityPub-Actor unterscheidet."@de, 
+    "Generic. Use only if it is different than the supplying ActivityPub Actor."@en ;
+    schema:sameAs schema:provider .
+:n314 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n3 ;
+    skos:exactMatch loc:brd ;
+    skos:notation "314" ;
+    skos:prefLabel "Sender, Broadcaster"@de, "Broadcaster"@en ;
+    skos:definition "Eine Person, Familie oder Organisation, die an der Verbreitung einer Ressource an ein Publikum über Radio, Fernsehen, Webcast usw. beteiligt ist."@de, 
+    "A person, family, or organization involved in broadcasting a resource to an audience via radio, television, webcast, etc."@en .
+:n315 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n3 ;
+    skos:notation "315" ;
+    skos:prefLabel "Genre"@de, "Genre"@en ;
+    skos:definition "Genre eines Kunstwerkes oder das Genre, in dem eine Person oder ein Projekt tätig ist"@de, 
+    "creative work's genre or an artist's field of work"@en ;
+    schema:sameAs Property:P136 .
+:n316 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n3 ;
+    skos:notation "316" ;
+    skos:prefLabel "künstlerische Form (z.B. Opera, Novel)"@de, "form of creative work"@en ;
+    skos:definition "Struktur eines kreativen Werks, Art der Musikveröffentlichung"@de, 
+    "structure of a creative work, type of music release"@en ;
+    schema:sameAs Property:P7937 .
+:n317 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n3 ;
+    skos:notation "317" ;
+    skos:prefLabel "Bewegung"@de, "movement"@en ;
+    skos:definition "literarische, künstlerische, wissenschaftliche oder philosophische Strömung, mit der das Objekt verbunden ist"@de, 
+    "literary, artistic, scientific or philosophical movement or scene associated with this person or work"@en ;
+    schema:sameAs Property:P135 .
+:n318 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n3 ;
+    skos:notation "318" ;
+    skos:prefLabel "politische Weltanschauung"@de, "political ideology"@en ;
+    skos:definition "politische Weltanschauung dieses Werks, Organisation oder Person"@de, 
+    "political ideology of an organization or person or of a work (such as a newspaper)"@en ;
+    schema:sameAs Property:P1142 .
+:n319 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n3 ;
+    skos:notation "319" ;
+    skos:prefLabel "Katalognummer"@de, "catalog code"@en ;
+    skos:definition "Bezeichnung in einem Katalog, mit Qualifikator 320 zu verwenden"@de, 
+    "catalog name of an object, use with qualifier 320"@en ;
+    schema:sameAs Property:P528 .
+:n320 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n3 ;
+    skos:notation "320" ;
+    skos:prefLabel "Katalog"@de, "catalog"@en ;
+    skos:definition "Katalog des Gegenstandes, oder als Qualifikation von 319, Katalog der Katalognummer"@de, 
+    "catalog for the item, or, as a qualifier of 319 – catalog for which the 'catalog code' is valid"@en ;
+    schema:sameAs Property:P972 .
+:n321 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n3 ;
+    skos:notation "321" ;
+    skos:prefLabel "bedeutendes Werk"@de, "notable work"@en ;
+    skos:definition "relevante wissenschaftliche oder künstlerische Werke des Subjekts"@de, 
+    "notable scientific, artistic or literary work, or other work of significance among subject's works"@en ;
+    schema:sameAs Property:P800 .
+:n322 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n3 ;
+    skos:notation "322" ;
+    skos:prefLabel "Sammlung"@de, "collection"@en ;
+    skos:definition "Kunstsammlung, Museum, Bibliothek oder Archiv, die das Objekt aufbewahrt"@de, 
+    "art, museum, archival, or bibliographic collection the subject is part of"@en ;
+    schema:sameAs Property:P195 .
+:n323 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n3 ;
+    skos:notation "323" ;
+    skos:prefLabel "Zielgruppe"@de, "intended public"@en ;
+    skos:definition "Gruppe an Lebewesen für die dieses Produkt, Objekt oder Event designed wurde"@de, 
+    "this work, product, object or event is intended for, or has been designed to that person or group of people, animals, plants, etc"@en ;
+    schema:sameAs Property:P2360 .
+:n324 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n3 ;
+    skos:notation "324" ;
+    skos:prefLabel "primäre Entität"@de, "main entity"@en ;
+    skos:definition "Gibt das primäre Objekt an, die in einer Seite oder einem anderen CreativeWork beschrieben wird."@de, 
+    "Indicates the primary object described in some page or other CreativeWork."@en ;
+    schema:sameAs schema:mainEntity .
+:n325 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n3 ;
+    skos:notation "325" ;
+    skos:prefLabel "ist primäre Entität von Seite"@de, "is main entity of page"@en ;
+    skos:definition "Zeigt eine Seite (oder ein anderes CreativeWork) an, für die dieses Ding die Hauptbeschreibungseinheit ist."@de, 
+    "Indicates a page (or other CreativeWork) for which this thing is the main entity being described."@en ;
+    schema:sameAs schema:mainEntityOfPage .
+:n326 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n3 ;
+    skos:notation "326" ;
+    skos:prefLabel "Thema"@de, "subject matter"@en ;
+    skos:definition "Das Thema des Inhalts"@de, 
+    "The subject matter of the content"@en ;
+    schema:sameAs schema:about .
+:n327 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n3 ;
+    skos:notation "327" ;
+    skos:prefLabel "ist Thema von"@de, "is subject of"@en ;
+    skos:definition "Ein kreatives Werk oder eine Veranstaltung über diese Sache."@de, 
+    "A CreativeWork or Event about this Thing."@en ;
+    schema:sameAs schema:subjectOf .
+:n328 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n3 ;
+    skos:notation "328" ;
+    skos:prefLabel "Diskussions-URL"@de, "discussion URL"@en ;
+    skos:definition "Ein Link zu der Seite, die die Kommentare des kreativen Werks enthält."@de, 
+    "A link to the page containing the comments of the CreativeWork."@en ;
+    schema:sameAs schema:discussionUrl .
+:n329 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n3 ;
+    skos:notation "329" ;
+    skos:prefLabel "lehrt"@de, "teaches"@en ;
+    skos:definition "Das beschriebene Element soll einer Person helfen, die durch den referenzierten Begriff definierte Kompetenz oder das Lernergebnis zu erlernen."@de, 
+    "The item being described is intended to help a person learn the competency or learning outcome defined by the referenced term."@en ;
+    schema:sameAs schema:teaches .
+:n330 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n3 ;
+    skos:notation "330" ;
+    skos:prefLabel "Erstaufführungstyp"@de, "premiere type"@en ;
+    skos:definition "bezeichnet die Uraufführungsart (Weltpremiere, Sprachpremiere, Landespremiere) einer Produktion der darstellenden Künste"@de, 
+    "indicates the premiere type (world premiere, language premiere, country premiere) of a performing arts production"@en ;
+    schema:sameAs Property:P4634 .
+:n331 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n3 ;
+    skos:notation "331" ;
+    skos:prefLabel "aufgenommen bei"@de, "recorded at"@en ;
+    skos:definition "Das Ereignis, bei dem das kreative Werk aufgezeichnet wurde. Es kann das gesamte Ereignis oder einen Teil davon erfassen."@de, 
+    "The Event where the CreativeWork was recorded. The CreativeWork may capture all or part of the event."@en ;
+    schema:sameAs schema:recordedAt .
+:n332 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n3 ;
+    skos:notation "332" ;
+    skos:prefLabel "Interaktiv-Typ"@de, "interactivity type"@en ;
+    skos:definition "Die vorherrschende Lernmethode, die durch die Lernressource unterstützt wird. Akzeptable Werte sind 'aktiv', 'expositiv' oder 'gemischt'."@de, 
+    "The predominant mode of learning supported by the learning resource. Acceptable values are 'active', 'expositive', or 'mixed'."@en ;
+    schema:sameAs schema:interactivityType .
+:n333 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n3 ;
+    skos:notation "333" ;
+    skos:prefLabel "Lernmaterial-Typ"@de, "learning resource type"@en ;
+    skos:definition "Der vorherrschende Typ oder die Art, die die Lernressource charakterisiert. Zum Beispiel 'Präsentation', 'Handzettel'."@de, 
+    "The predominant type or kind characterizing the learning resource. For example, 'presentation', 'handout'."@en ;
+    schema:sameAs schema:learningResourceType .
 
+# instrument 
 :n411 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n4 ;
     skos:notation "411" ;
-    skos:prefLabel "TODO attachment"@de, "TODO"@en .
+    skos:prefLabel "beschriebenes Projekt benutzt"@de, "describes a project that uses"@en ;
+    skos:definition "unabdingbares Hilfsmittel oder unabdingbare Komponente, die für das in dieser Publikation beschriebenen Projekt genutzt wurde"@de, 
+    "essential component or tool that was used in the project described in this publication"@en ;
+    schema:sameAs Property:P4510 .
+:n412 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "412" ;
+    skos:prefLabel "genutzte Sprache"@de, "language used"@en ;
+    skos:definition "Sprache (gesprochen oder geschrieben), die an diesem Ort/dieser Veranstaltung genutzt wird"@de, 
+    "language widely used (spoken or written) in this place or at this event"@en ;
+    schema:sameAs Property:P2936 .
+:n413 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "413" ;
+    skos:prefLabel "Währung"@de, "currency"@en ;
+    skos:definition "benutztes offizielles Zahlungsmittel"@de, 
+    "currency used by item"@en ;
+    schema:sameAs Property:P38 .
+:n414 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "414" ;
+    skos:prefLabel "benutzt"@de, "uses"@en ;
+    skos:definition "Gegenstand oder Konzept, das vom Subjekt verwendet wird (falls kein spezifischer vorhanden)"@de, 
+    "item or concept used by the subject or in the operation (if no specific found)"@en ;
+    schema:sameAs Property:P2283 .
+:n415 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "415" ;
+    skos:prefLabel "Material"@de, "material"@en ;
+    skos:definition "Ein Material, aus dem etwas hergestellt ist, z. Leder, Wolle, Baumwolle, Papier."@de, 
+    "A material that something is made from, e.g. leather, wool, cotton, paper."@en ;
+    schema:sameAs schema:material .
+:n416 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "416" ;
+    skos:prefLabel "materieller Umfang"@de, "material extent"@en ;
+    skos:definition "Die Menge der beschriebenen Materialien oder ein Ausdruck des physischen Raums, den sie einnehmen."@de, 
+    "The quantity of the materials being described or an expression of the physical space they occupy."@en ;
+    schema:sameAs schema:materialExtent .
+:n417 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "417" ;
+    skos:prefLabel "Herstellungsmethode"@de, "fabrication method"@en ;
+    skos:definition "Methode, Prozess oder Technik für Wachstum, Kochen, Weben, Bauen, Montage und Produktion des Gegenstands"@de, 
+    "method, process or technique used to grow, cook, weave, build, assemble, manufacture the item"@en ;
+    schema:sameAs Property:P2079 .
+:n418 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "418" ;
+    skos:prefLabel "Musik Instrument"@de, "musical instrument"@en ;
+    skos:definition "Musik-Instrument, welches von einer Person gespielt wird"@de, 
+    "musical instrument that a person plays or teaches or used in a music occupation"@en ;
+    schema:sameAs Property:P1303 .
+:n419 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "419" ;
+    skos:prefLabel "Eingabegerät"@de, "input device or method"@en ;
+    skos:definition "Gerät zur Bedienung und Interaktion mit einem Software-Produkt"@de, 
+    "input method or device used to interact with a software product"@en ;
+    schema:sameAs Property:P479 .
+:n420 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "420" ;
+    skos:prefLabel "Speichermedium / -gerät"@de, "storage device"@en ;
+    skos:definition "Speichermedium wie z.B. Kamera oder Mobiltelefon"@de, 
+    "data storage device (e.g. camera or mobile phone)"@en ;
+    schema:sameAs Property:P4788 .
+:n421 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "421" ;
+    skos:prefLabel "Benutzte software"@de, "software used"@en ;
+    skos:definition "Software, die in diesem Projekt benutzt wurde"@de, 
+    "Software used in this project"@en .
+:n422 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "422" ;
+    skos:prefLabel "Paketverwaltung"@de, "package management system"@en ;
+    skos:definition "benutztes Paketverwaltungs-System für die Veröffentlichung"@de, 
+    "package management system used to publish the software"@en ;
+    schema:sameAs Property:P3033 .
+:n423 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "423" ;
+    skos:prefLabel "Ausgabemethode / -gerät"@de, "output device or method"@en ;
+    skos:definition "Ausgabemethode oder -gerät, das zur Interaktion mit einem Softwareprodukt verwendet wird"@de, 
+    "output method or device used to interact with a software product"@en ;
+    schema:sameAs Property:P5196 .
+:n424 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "424" ;
+    skos:prefLabel "Programmiersprache"@de, "programming language used"@en ;
+    skos:definition "Programmiersprache(n), in der die Software geschrieben ist"@de, 
+    "the programming language(s) in which the software is developed"@en ;
+    schema:sameAs Property:P277 .
+:n425 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "425" ;
+    skos:prefLabel "unterstützte Programmiersprache"@de, "supports programming language"@en ;
+    skos:definition "Programmiersprache, die von diesem Programmierwerkzeug unterstützt wird"@de, 
+    "programming language which is supported by this programming tool"@en ;
+    schema:sameAs Property:P3985 .
+:n426 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "426" ;
+    skos:prefLabel "abhängig von Software"@de, "depends on software"@en ;
+    skos:definition "Software, von der diese Software Abhängigkeiten hat"@de, 
+    "subject software depends on object software"@en ;
+    schema:sameAs Property:P1547 .
+:n427 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "427" ;
+    skos:prefLabel "Software Engine"@de, "software engine"@en ;
+    skos:definition "Engine, die für eine Software verwendet wird"@de, 
+    "software engine employed by the subject item"@en ;
+    schema:sameAs Property:P408 .
+:n428 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "428" ;
+    skos:prefLabel "UI Software"@de, "web interface software"@en ;
+    skos:definition "Software, die das Webinterface generiert"@de, 
+    "software that generates the web interface (e.g. for the source code repository)"@en ;
+    schema:sameAs Property:P10627 .
+:n429 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "429" ;
+    skos:prefLabel "Version"@de, "software version identifier"@en ;
+    skos:definition "aktuelle oder frühere Version der benutzten Software"@de, 
+    "numeric or nominal identifier of a version of a used software program or file format, current or past"@en ;
+    schema:sameAs Property:P348 .
+:n430 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "430" ;
+    skos:prefLabel "PRONOM Software-ID"@de, "PRONOM software ID"@en ;
+    skos:definition "Identifikator (PUID) einer Software im technischen Verzeichnis PRONOM"@de, 
+    "identifier (PUID) for software in the technical registry PRONOM"@en ;
+    schema:sameAs Property:P2749 .
+:n431 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "431" ;
+    skos:prefLabel "Framalibre ID"@de, "Framalibre ID"@en ;
+    skos:definition "Identifikator einer Software im Framalibre Free Software Directory"@de, 
+    "unique identifier in the Framalibre free software directory"@en ;
+    schema:sameAs Property:P4107 .
+:n432 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "432" ;
+    skos:prefLabel "PRONOM Dateiformats-ID"@de, "PRONOM file format identifier"@en ;
+    skos:definition "Identifikator (PUID) eines Dateiformats im technischen Verzeichnis PRONOM"@de, 
+    "identifier (PUID) for a file format in the technical registry PRONOM"@en ;
+    schema:sameAs Property:P2748 .
+:n433 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "433" ;
+    skos:prefLabel "aufgenommen mit"@de, "captured with"@en ;
+    skos:definition "Equipment (z.B. Kameramodell, Objektiv, Mikrofon), das zur Erfassung dieser Arbeit verwendet wurde"@de, 
+    "equipment (e.g. model of camera, lens microphone), used to capture this image, video or audio file"@en ;
+    schema:sameAs Property:P4082 .
+:n434 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "434" ;
+    skos:prefLabel "Audio System"@de, "audio system"@en ;
+    skos:definition "Audio-Hardware, die von diesem Objekt genutzt wird"@de, 
+    "audio system hardware used in the item"@en ;
+    schema:sameAs Property:P7501 .
+:n435 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "435" ;
+    skos:prefLabel "Video System"@de, "video system"@en ;
+    skos:definition "Video-Hardware, die von diesem Objekt genutzt wird"@de, 
+    "video system hardware that the item uses"@en ;
+    schema:sameAs Property:P6948 .
+:n436 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "436" ;
+    skos:prefLabel "Anzeigetechnik"@de, "display technology"@en ;
+    skos:definition "Technologie, die auf dem Display des Geräts verwendet wird"@de, 
+    "technology used by the display of this device"@en ;
+    schema:sameAs Property:P5307 .
+:n437 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "437" ;
+    skos:prefLabel "angetrieben von"@de, "powered by"@en ;
+    skos:definition "equipment or engine used by the subject to convert a source or energy into mechanical energy"@de, 
+    "equipment or engine used by the subject to convert a source or energy into mechanical energy"@en ;
+    schema:sameAs Property:P516 .
+:n438 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "438" ;
+    skos:prefLabel "eingesetztes Objekt"@de, "item operated by subject"@en ;
+    skos:definition "Gegenstand, der von Subjekt betrieben wird"@de, 
+    "equipment, installation or service operated by the subject"@en ;
+    schema:sameAs Property:P121 .
+:n439 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "439" ;
+    skos:prefLabel "Fahrzeug"@de, "vehicle"@en ;
+    skos:definition "in diese Mission, Reise oder Ereignis involviertes Fahrzeug"@de, 
+    "vessel involved in this mission, voyage or event"@en ;
+    schema:sameAs Property:P1876 .
+:n440 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "440" ;
+    skos:prefLabel "normalerweise verwendetes Fahrzeug"@de, "vehicle normally used"@en ;
+    skos:definition "Fahrzeug, das von dem Subjekt normalerweise verwendet wird"@de, 
+    "vehicle the subject normally uses"@en ;
+    schema:sameAs Property:P3438 .
+:n441 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "441" ;
+    skos:prefLabel "Schriftart"@de, "typeface/font used"@en ;
+    skos:definition "verwendete Schriftart in einem Werk"@de, 
+    "style of type used in a work"@en ;
+    schema:sameAs Property:P2739 .
+:n442 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n4 ;
+    skos:notation "442" ;
+    skos:prefLabel "Bewaffnung"@de, "armament"@en ;
+    skos:definition "mögliche Waffen des Subjekts"@de, 
+    "equippable weapon item for the subject"@en ;
+    schema:sameAs Property:P520 .
 
+# image, attachment 
 :n511 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n5 ;
     skos:notation "511" ;
-    skos:prefLabel "TODO Gegenseitige Hilfe"@de, "TODO"@en .
+    skos:prefLabel "zugehörige Medien"@de, "associated media"@en ;
+    skos:definition "Ein Medienobjekt, das diese kreative Arbeit codiert."@de, 
+    "A media object that encodes this CreativeWork."@en ;
+    schema:sameAs schema:associatedMedia .
+:n512 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n5 ;
+    skos:notation "512" ;
+    skos:prefLabel "Audio"@de, "audio"@en ;
+    skos:definition "relevante Audiodatei"@de, 
+    "relevant sound. If available, use a more specific property."@en ;
+    schema:sameAs Property:P51, schema:audio .
+:n513 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n5 ;
+    skos:notation "513" ;
+    skos:prefLabel "Video"@de, "video"@en ;
+    skos:definition "relevante Videodatei"@de, 
+    "relevant video images. If available, use a more specific property."@en ;
+    schema:sameAs Property:P10, schema:video .
+:n514 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n5 ;
+    skos:notation "514" ;
+    skos:prefLabel "Arbeitsbeispiel"@de, "work example"@en ;
+    skos:definition "Beispiel/Beispiel/Realisierung/Herleitung des Konzepts dieser kreativen Arbeit."@de, 
+    "Example/instance/realization/derivation of the concept of this creative work."@en ;
+    schema:sameAs schema:workExample .
+:n515 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n5 ;
+    skos:notation "515" ;
+    skos:prefLabel "Übersetzung"@de, "work translation"@en ;
+    skos:definition "Eine Arbeit, die eine Übersetzung des Inhalts dieser Arbeit ist."@de, 
+    "A work that is a translation of the content of this work."@en ;
+    schema:sameAs schema:workTranslation .
 
+#  "spoken text audio" (P989), "pronunciation audio" (P443) etc.
+#  qualify with "object has role" (P3831)="trailer" (Q622550)
+
+
+# TODO 
 :n611 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :n6 ;
     skos:notation "611" ;
+    skos:prefLabel "TODO Gegenseitige Hilfe"@de, "TODO"@en .
+:n711 a skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader :n7 ;
+    skos:notation "711" ;
     skos:prefLabel "TODO Notfallmanagement"@de, "TODO"@en .
 
 # Coverage
