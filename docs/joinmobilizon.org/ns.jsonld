@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=joinmobilizon.org%2Fns%23repliesModerationOptionType",
   "inbox": "https://test.skohub.io/inbox?target=joinmobilizon.org%2Fns%23repliesModerationOptionType",
   "prefLabel": {
-    "de": "repliesModerationOptionType",
     "en": "repliesModerationOptionType",
+    "de": "repliesModerationOptionType",
     "fr": "repliesModerationOptionType",
     "es": "repliesModerationOptionType"
   },
@@ -16,8 +16,8 @@
     {
       "id": "https://w3id.org/class/redaktor/#allow_all",
       "prefLabel": {
-        "de": "allow_all",
         "en": "allow_all",
+        "de": "allow_all",
         "fr": "allow_all",
         "es": "allow_all"
       }
@@ -25,8 +25,8 @@
     {
       "id": "https://w3id.org/class/redaktor/#closed",
       "prefLabel": {
-        "de": "closed",
         "en": "closed",
+        "de": "closed",
         "fr": "closed",
         "es": "closed"
       }
@@ -34,8 +34,8 @@
     {
       "id": "https://w3id.org/class/redaktor/#moderated",
       "prefLabel": {
-        "de": "moderated",
         "en": "moderated",
+        "de": "moderated",
         "fr": "moderated",
         "es": "moderated"
       }
@@ -44,8 +44,8 @@
   "broader": {
     "id": "https://joinmobilizon.org/ns#repliesModerationOption",
     "prefLabel": {
-      "de": "repliesModerationOption",
       "en": "repliesModerationOption",
+      "de": "repliesModerationOption",
       "fr": "repliesModerationOption",
       "es": "repliesModerationOption"
     }
@@ -53,8 +53,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/#scheme",
     "title": {
-      "de": "ActivityPub: Funktionen und Verbindungen",
       "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
       "fr": "ActivityPub: Functions and Relations",
       "es": "ActivityPub: Functions and Relations"
     }
@@ -160,8 +160,8 @@
     {
       "id": "https://joinmobilizon.org/ns#repliesModerationOptionType",
       "prefLabel": {
-        "de": "repliesModerationOptionType",
         "en": "repliesModerationOptionType",
+        "de": "repliesModerationOptionType",
         "fr": "repliesModerationOptionType",
         "es": "repliesModerationOptionType"
       }
@@ -170,8 +170,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/#scheme",
     "title": {
-      "de": "ActivityPub: Funktionen und Verbindungen",
       "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
       "fr": "ActivityPub: Functions and Relations",
       "es": "ActivityPub: Functions and Relations"
     }

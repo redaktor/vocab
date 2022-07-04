@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=forgefed.peers.community%2FnsdependsOn",
   "inbox": "https://test.skohub.io/inbox?target=forgefed.peers.community%2FnsdependsOn",
   "prefLabel": {
-    "de": "dependsOn",
     "en": "dependsOn",
+    "de": "dependsOn",
     "fr": "dependsOn",
     "es": "dependsOn"
   },
   "definition": {
-    "de": "Identifies one or more tickets on which this Ticket depends, i.e. it can’t be resolved without those tickets being resolved too.<br>siehe [4](https://forgefed.peers.community/ns#dependsOn)",
     "en": "Identifies one or more tickets on which this Ticket depends, i.e. it can’t be resolved without those tickets being resolved too.<br>see [4](https://forgefed.peers.community/ns#dependsOn)",
+    "de": "Identifies one or more tickets on which this Ticket depends, i.e. it can’t be resolved without those tickets being resolved too.<br>siehe [4](https://forgefed.peers.community/ns#dependsOn)",
     "fr": "Identifies one or more tickets on which this Ticket depends, i.e. it can’t be resolved without those tickets being resolved too.<br>voir [4](https://forgefed.peers.community/ns#dependsOn)",
     "es": "Identifies one or more tickets on which this Ticket depends, i.e. it can’t be resolved without those tickets being resolved too.<br>ver [4](https://forgefed.peers.community/ns#dependsOn)"
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/#forgefed",
     "prefLabel": {
-      "de": "ForgeFed",
       "en": "ForgeFed",
+      "de": "ForgeFed",
       "fr": "ForgeFed",
       "es": "ForgeFed"
     }
@@ -30,8 +30,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/#scheme",
     "title": {
-      "de": "ActivityPub: Funktionen und Verbindungen",
       "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
       "fr": "ActivityPub: Functions and Relations",
       "es": "ActivityPub: Functions and Relations"
     }

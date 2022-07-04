@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=forgefed.peers.community%2FnsearlyItems",
   "inbox": "https://test.skohub.io/inbox?target=forgefed.peers.community%2FnsearlyItems",
   "prefLabel": {
-    "de": "earlyItems",
     "en": "earlyItems",
+    "de": "earlyItems",
     "fr": "earlyItems",
     "es": "earlyItems"
   },
   "definition": {
-    "de": "In an ordered collection (or an ordered collection page) in which items (or orderedItems) contains a continuous subset of the collection’s items from one end, earlyItems identifiers a continuous subset from the other end. For example, if items lists the chronologically latest items, earlyItems would list the chrologically earliest items. The ordering rule for items in earlyItems MUST be the same as in items. For examle, if items lists items in reverse chronogical order, then so does earlyItems.<br>siehe [4](https://forgefed.peers.community/ns#earlyItems)",
     "en": "In an ordered collection (or an ordered collection page) in which items (or orderedItems) contains a continuous subset of the collection’s items from one end, earlyItems identifiers a continuous subset from the other end. For example, if items lists the chronologically latest items, earlyItems would list the chrologically earliest items. The ordering rule for items in earlyItems MUST be the same as in items. For examle, if items lists items in reverse chronogical order, then so does earlyItems.<br>see [4](https://forgefed.peers.community/ns#earlyItems)",
+    "de": "In an ordered collection (or an ordered collection page) in which items (or orderedItems) contains a continuous subset of the collection’s items from one end, earlyItems identifiers a continuous subset from the other end. For example, if items lists the chronologically latest items, earlyItems would list the chrologically earliest items. The ordering rule for items in earlyItems MUST be the same as in items. For examle, if items lists items in reverse chronogical order, then so does earlyItems.<br>siehe [4](https://forgefed.peers.community/ns#earlyItems)",
     "fr": "In an ordered collection (or an ordered collection page) in which items (or orderedItems) contains a continuous subset of the collection’s items from one end, earlyItems identifiers a continuous subset from the other end. For example, if items lists the chronologically latest items, earlyItems would list the chrologically earliest items. The ordering rule for items in earlyItems MUST be the same as in items. For examle, if items lists items in reverse chronogical order, then so does earlyItems.<br>voir [4](https://forgefed.peers.community/ns#earlyItems)",
     "es": "In an ordered collection (or an ordered collection page) in which items (or orderedItems) contains a continuous subset of the collection’s items from one end, earlyItems identifiers a continuous subset from the other end. For example, if items lists the chronologically latest items, earlyItems would list the chrologically earliest items. The ordering rule for items in earlyItems MUST be the same as in items. For examle, if items lists items in reverse chronogical order, then so does earlyItems.<br>ver [4](https://forgefed.peers.community/ns#earlyItems)"
   },
@@ -19,16 +19,16 @@
     "2043"
   ],
   "example": {
-    "de": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://dev.example/aviva/outbox\",\n    \"type\": \"OrderedCollection\",\n    \"totalItems\": 712,\n    \"orderedItems\": [\n       \"https://dev.example/aviva/outbox/712\",\n       \"https://dev.example/aviva/outbox/711\",\n       \"https://dev.example/aviva/outbox/710\"\n    ],\n    \"earlyItems\": [\n       \"https://dev.example/aviva/outbox/3\",\n       \"https://dev.example/aviva/outbox/2\",\n       \"https://dev.example/aviva/outbox/1\"\n    ]\n}```",
     "en": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://dev.example/aviva/outbox\",\n    \"type\": \"OrderedCollection\",\n    \"totalItems\": 712,\n    \"orderedItems\": [\n       \"https://dev.example/aviva/outbox/712\",\n       \"https://dev.example/aviva/outbox/711\",\n       \"https://dev.example/aviva/outbox/710\"\n    ],\n    \"earlyItems\": [\n       \"https://dev.example/aviva/outbox/3\",\n       \"https://dev.example/aviva/outbox/2\",\n       \"https://dev.example/aviva/outbox/1\"\n    ]\n}```",
+    "de": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://dev.example/aviva/outbox\",\n    \"type\": \"OrderedCollection\",\n    \"totalItems\": 712,\n    \"orderedItems\": [\n       \"https://dev.example/aviva/outbox/712\",\n       \"https://dev.example/aviva/outbox/711\",\n       \"https://dev.example/aviva/outbox/710\"\n    ],\n    \"earlyItems\": [\n       \"https://dev.example/aviva/outbox/3\",\n       \"https://dev.example/aviva/outbox/2\",\n       \"https://dev.example/aviva/outbox/1\"\n    ]\n}```",
     "fr": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://dev.example/aviva/outbox\",\n    \"type\": \"OrderedCollection\",\n    \"totalItems\": 712,\n    \"orderedItems\": [\n       \"https://dev.example/aviva/outbox/712\",\n       \"https://dev.example/aviva/outbox/711\",\n       \"https://dev.example/aviva/outbox/710\"\n    ],\n    \"earlyItems\": [\n       \"https://dev.example/aviva/outbox/3\",\n       \"https://dev.example/aviva/outbox/2\",\n       \"https://dev.example/aviva/outbox/1\"\n    ]\n}```",
     "es": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://dev.example/aviva/outbox\",\n    \"type\": \"OrderedCollection\",\n    \"totalItems\": 712,\n    \"orderedItems\": [\n       \"https://dev.example/aviva/outbox/712\",\n       \"https://dev.example/aviva/outbox/711\",\n       \"https://dev.example/aviva/outbox/710\"\n    ],\n    \"earlyItems\": [\n       \"https://dev.example/aviva/outbox/3\",\n       \"https://dev.example/aviva/outbox/2\",\n       \"https://dev.example/aviva/outbox/1\"\n    ]\n}```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/#forgefed",
     "prefLabel": {
-      "de": "ForgeFed",
       "en": "ForgeFed",
+      "de": "ForgeFed",
       "fr": "ForgeFed",
       "es": "ForgeFed"
     }
@@ -36,8 +36,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/#scheme",
     "title": {
-      "de": "ActivityPub: Funktionen und Verbindungen",
       "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
       "fr": "ActivityPub: Functions and Relations",
       "es": "ActivityPub: Functions and Relations"
     }

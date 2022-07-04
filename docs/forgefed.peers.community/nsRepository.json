@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=forgefed.peers.community%2Fnsrepository",
   "inbox": "https://test.skohub.io/inbox?target=forgefed.peers.community%2Fnsrepository",
   "prefLabel": {
-    "de": "repository",
     "en": "repository",
+    "de": "repository",
     "fr": "repository",
     "es": "repository"
   },
   "definition": {
-    "de": "Identifies the repository to which a commit belongs. DEPRECATED: Use the standard ActivityPub context property instead.<br>siehe [4](https://forgefed.peers.community/ns#repository)",
     "en": "Identifies the repository to which a commit belongs. DEPRECATED: Use the standard ActivityPub context property instead.<br>see [4](https://forgefed.peers.community/ns#repository)",
+    "de": "Identifies the repository to which a commit belongs. DEPRECATED: Use the standard ActivityPub context property instead.<br>siehe [4](https://forgefed.peers.community/ns#repository)",
     "fr": "Identifies the repository to which a commit belongs. DEPRECATED: Use the standard ActivityPub context property instead.<br>voir [4](https://forgefed.peers.community/ns#repository)",
     "es": "Identifies the repository to which a commit belongs. DEPRECATED: Use the standard ActivityPub context property instead.<br>ver [4](https://forgefed.peers.community/ns#repository)"
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/#forgefed",
     "prefLabel": {
-      "de": "ForgeFed",
       "en": "ForgeFed",
+      "de": "ForgeFed",
       "fr": "ForgeFed",
       "es": "ForgeFed"
     }
@@ -30,8 +30,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/#scheme",
     "title": {
-      "de": "ActivityPub: Funktionen und Verbindungen",
       "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
       "fr": "ActivityPub: Functions and Relations",
       "es": "ActivityPub: Functions and Relations"
     }
@@ -135,8 +135,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/#forgefed",
     "prefLabel": {
-      "de": "ForgeFed",
       "en": "ForgeFed",
+      "de": "ForgeFed",
       "fr": "ForgeFed",
       "es": "ForgeFed"
     }
@@ -144,8 +144,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/#scheme",
     "title": {
-      "de": "ActivityPub: Funktionen und Verbindungen",
       "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
       "fr": "ActivityPub: Functions and Relations",
       "es": "ActivityPub: Functions and Relations"
     }

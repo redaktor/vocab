@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=forgefed.peers.community%2FnstracksTicketsFor",
   "inbox": "https://test.skohub.io/inbox?target=forgefed.peers.community%2FnstracksTicketsFor",
   "prefLabel": {
-    "de": "tracksTicketsFor",
     "en": "tracksTicketsFor",
+    "de": "tracksTicketsFor",
     "fr": "tracksTicketsFor",
     "es": "tracksTicketsFor"
   },
   "definition": {
-    "de": "Identifies objects for which which this ticket tracker tracks tickets. When you’d like to open a ticket against those objects, you can send them to this tracker.<br>siehe [4](https://forgefed.peers.community/ns#tracksTicketsFor)",
     "en": "Identifies objects for which which this ticket tracker tracks tickets. When you’d like to open a ticket against those objects, you can send them to this tracker.<br>see [4](https://forgefed.peers.community/ns#tracksTicketsFor)",
+    "de": "Identifies objects for which which this ticket tracker tracks tickets. When you’d like to open a ticket against those objects, you can send them to this tracker.<br>siehe [4](https://forgefed.peers.community/ns#tracksTicketsFor)",
     "fr": "Identifies objects for which which this ticket tracker tracks tickets. When you’d like to open a ticket against those objects, you can send them to this tracker.<br>voir [4](https://forgefed.peers.community/ns#tracksTicketsFor)",
     "es": "Identifies objects for which which this ticket tracker tracks tickets. When you’d like to open a ticket against those objects, you can send them to this tracker.<br>ver [4](https://forgefed.peers.community/ns#tracksTicketsFor)"
   },
@@ -19,16 +19,16 @@
     "2065"
   ],
   "example": {
-    "de": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://bugs.example/treesim\",\n    \"type\": \"Project\",\n    \"tracksTicketsFor\": [\n        \"https://dev.example/aviva/liblsystem\",\n        \"https://dev.example/aviva/3d-tree-models\",\n        \"https://dev.example/aviva/treesim\"\n    ]\n}```",
     "en": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://bugs.example/treesim\",\n    \"type\": \"Project\",\n    \"tracksTicketsFor\": [\n        \"https://dev.example/aviva/liblsystem\",\n        \"https://dev.example/aviva/3d-tree-models\",\n        \"https://dev.example/aviva/treesim\"\n    ]\n}```",
+    "de": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://bugs.example/treesim\",\n    \"type\": \"Project\",\n    \"tracksTicketsFor\": [\n        \"https://dev.example/aviva/liblsystem\",\n        \"https://dev.example/aviva/3d-tree-models\",\n        \"https://dev.example/aviva/treesim\"\n    ]\n}```",
     "fr": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://bugs.example/treesim\",\n    \"type\": \"Project\",\n    \"tracksTicketsFor\": [\n        \"https://dev.example/aviva/liblsystem\",\n        \"https://dev.example/aviva/3d-tree-models\",\n        \"https://dev.example/aviva/treesim\"\n    ]\n}```",
     "es": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://bugs.example/treesim\",\n    \"type\": \"Project\",\n    \"tracksTicketsFor\": [\n        \"https://dev.example/aviva/liblsystem\",\n        \"https://dev.example/aviva/3d-tree-models\",\n        \"https://dev.example/aviva/treesim\"\n    ]\n}```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/#forgefed",
     "prefLabel": {
-      "de": "ForgeFed",
       "en": "ForgeFed",
+      "de": "ForgeFed",
       "fr": "ForgeFed",
       "es": "ForgeFed"
     }
@@ -36,8 +36,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/#scheme",
     "title": {
-      "de": "ActivityPub: Funktionen und Verbindungen",
       "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
       "fr": "ActivityPub: Functions and Relations",
       "es": "ActivityPub: Functions and Relations"
     }

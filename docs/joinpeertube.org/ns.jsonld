@@ -1,40 +1,40 @@
 {
-  "id": "https://joinpeertube.org/ns#state",
+  "id": "https://joinpeertube.org/ns#playlists",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=joinpeertube.org%2Fns%23state",
-  "inbox": "https://test.skohub.io/inbox?target=joinpeertube.org%2Fns%23state",
+  "followers": "https://test.skohub.io/followers?subject=joinpeertube.org%2Fns%23playlists",
+  "inbox": "https://test.skohub.io/inbox?target=joinpeertube.org%2Fns%23playlists",
   "prefLabel": {
-    "de": "state",
-    "en": "state",
-    "fr": "state",
-    "es": "state"
+    "en": "playlists",
+    "de": "playlists",
+    "fr": "playlists",
+    "es": "playlists"
   },
   "definition": {
-    "de": "stellt den internen Zustand der Videoverarbeitung innerhalb der PeerTube-Instanz dar.<br>siehe [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
-    "en": "represents the internal state of the video processing within the PeerTube instance.<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
-    "fr": "représente l'état interne du traitement vidéo dans l'instance PeerTube.<br>voir [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
-    "es": "representa el estado interno del procesamiento de vídeo dentro de la instancia PeerTube.<br>ver [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)"
+    "en": "?",
+    "de": "?",
+    "fr": "?",
+    "es": "?"
   },
   "scopeNote": {
-    "de": "ActivityPub Community",
     "en": "ActivityPub Community",
+    "de": "ActivityPub Community",
     "fr": "ActivityPub Community",
     "es": "ActivityPub Community"
   },
   "notation": [
-    "1032"
+    "1028"
   ],
   "example": {
-    "de": "[peertube API documentation](https://docs.joinpeertube.org/api-rest-reference.html#operation/getVideo)",
-    "en": "[peertube API documentation](https://docs.joinpeertube.org/api-rest-reference.html#operation/getVideo)",
-    "fr": "[peertube API documentation](https://docs.joinpeertube.org/api-rest-reference.html#operation/getVideo)",
-    "es": "[peertube API documentation](https://docs.joinpeertube.org/api-rest-reference.html#operation/getVideo)"
+    "en": "?",
+    "de": "?",
+    "fr": "?",
+    "es": "?"
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/#scheme",
     "title": {
-      "de": "ActivityPub: Funktionen und Verbindungen",
       "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
       "fr": "ActivityPub: Functions and Relations",
       "es": "ActivityPub: Functions and Relations"
     }
@@ -133,18 +133,44 @@
       "@container": "@set"
     }
   }
-}"@set"
+}bel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
-    "exactMatch": {
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
       "@container": "@set"
-    }
-  }
-}ainer": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
     },
     "narrowMatch": {
       "@container": "@set"
@@ -161,7 +187,48 @@
       "@container": "@set"
     }
   }
-}er": "@set"
+}: "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}dMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
     }
   }
 }@set"

@@ -1,40 +1,40 @@
 {
-  "id": "https://joinpeertube.org/ns#fps",
+  "id": "https://joinpeertube.org/ns#playlists",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=joinpeertube.org%2Fns%23fps",
-  "inbox": "https://test.skohub.io/inbox?target=joinpeertube.org%2Fns%23fps",
+  "followers": "https://test.skohub.io/followers?subject=joinpeertube.org%2Fns%23playlists",
+  "inbox": "https://test.skohub.io/inbox?target=joinpeertube.org%2Fns%23playlists",
   "prefLabel": {
-    "de": "Frames per second",
-    "en": "frames per second",
-    "fr": "frames per second",
-    "es": "frames per second"
+    "en": "playlists",
+    "de": "playlists",
+    "fr": "playlists",
+    "es": "playlists"
   },
   "definition": {
-    "de": "Frames pro Sekunde der Videodatei.<br>siehe [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
-    "en": "Frames per second of the video file.<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
-    "fr": "Frames per second du fichier vidéo.<br>voir [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
-    "es": "Frames per second del archivo de vídeo.<br>ver [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)"
+    "en": "?",
+    "de": "?",
+    "fr": "?",
+    "es": "?"
   },
   "scopeNote": {
-    "de": "ActivityPub Community",
     "en": "ActivityPub Community",
+    "de": "ActivityPub Community",
     "fr": "ActivityPub Community",
     "es": "ActivityPub Community"
   },
   "notation": [
-    "1025"
+    "1028"
   ],
   "example": {
-    "de": "```json \n{\n  \"type\": \"Video\",\n  \"url\": [\n    // Raw URL to the fragmented mp4 file used by the HLS playlist\n    {\n      \"type\": \"Link\",\n      \"mediaType\": \"video/mp4\",\n      \"height\": 536,\n      \"size\": 135108145,\n      \"fps\": 24}\n  ]\n}```",
-    "en": "```json \n{\n  \"type\": \"Video\",\n  \"url\": [\n    // Raw URL to the fragmented mp4 file used by the HLS playlist\n    {\n      \"type\": \"Link\",\n      \"mediaType\": \"video/mp4\",\n      \"height\": 536,\n      \"size\": 135108145,\n      \"fps\": 24}\n  ]\n}```",
-    "fr": "```json \n{\n  \"type\": \"Video\",\n  \"url\": [\n    // Raw URL to the fragmented mp4 file used by the HLS playlist\n    {\n      \"type\": \"Link\",\n      \"mediaType\": \"video/mp4\",\n      \"height\": 536,\n      \"size\": 135108145,\n      \"fps\": 24}\n  ]\n}```",
-    "es": "```json \n{\n  \"type\": \"Video\",\n  \"url\": [\n    // Raw URL to the fragmented mp4 file used by the HLS playlist\n    {\n      \"type\": \"Link\",\n      \"mediaType\": \"video/mp4\",\n      \"height\": 536,\n      \"size\": 135108145,\n      \"fps\": 24}\n  ]\n}```"
+    "en": "?",
+    "de": "?",
+    "fr": "?",
+    "es": "?"
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/#scheme",
     "title": {
-      "de": "ActivityPub: Funktionen und Verbindungen",
       "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
       "fr": "ActivityPub: Functions and Relations",
       "es": "ActivityPub: Functions and Relations"
     }
@@ -131,6 +131,99 @@
     "inbox": "ldp:inbox",
     "hasTopConcept": {
       "@container": "@set"
+    }
+  }
+}      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+},
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}dMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}@set"
     }
   }
 }

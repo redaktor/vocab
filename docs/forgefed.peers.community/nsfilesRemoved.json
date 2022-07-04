@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=forgefed.peers.community%2FnsfilesRemoved",
   "inbox": "https://test.skohub.io/inbox?target=forgefed.peers.community%2FnsfilesRemoved",
   "prefLabel": {
-    "de": "filesRemoved",
     "en": "filesRemoved",
+    "de": "filesRemoved",
     "fr": "filesRemoved",
     "es": "filesRemoved"
   },
   "definition": {
-    "de": "Specifies a filename, as a relative path, relative to the top of the tree of files in the Repository, of a file that existed in the previous version of the tree, and got removed from the tree in this Commit.<br>siehe [4](https://forgefed.peers.community/ns#filesRemoved)",
     "en": "Specifies a filename, as a relative path, relative to the top of the tree of files in the Repository, of a file that existed in the previous version of the tree, and got removed from the tree in this Commit.<br>see [4](https://forgefed.peers.community/ns#filesRemoved)",
+    "de": "Specifies a filename, as a relative path, relative to the top of the tree of files in the Repository, of a file that existed in the previous version of the tree, and got removed from the tree in this Commit.<br>siehe [4](https://forgefed.peers.community/ns#filesRemoved)",
     "fr": "Specifies a filename, as a relative path, relative to the top of the tree of files in the Repository, of a file that existed in the previous version of the tree, and got removed from the tree in this Commit.<br>voir [4](https://forgefed.peers.community/ns#filesRemoved)",
     "es": "Specifies a filename, as a relative path, relative to the top of the tree of files in the Repository, of a file that existed in the previous version of the tree, and got removed from the tree in this Commit.<br>ver [4](https://forgefed.peers.community/ns#filesRemoved)"
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/#forgefed",
     "prefLabel": {
-      "de": "ForgeFed",
       "en": "ForgeFed",
+      "de": "ForgeFed",
       "fr": "ForgeFed",
       "es": "ForgeFed"
     }
@@ -30,8 +30,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/#scheme",
     "title": {
-      "de": "ActivityPub: Funktionen und Verbindungen",
       "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
       "fr": "ActivityPub: Functions and Relations",
       "es": "ActivityPub: Functions and Relations"
     }

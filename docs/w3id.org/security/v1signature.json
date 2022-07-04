@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fsecurity%2Fv1signature",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fsecurity%2Fv1signature",
   "prefLabel": {
-    "de": "Signatur",
     "en": "signature",
+    "de": "Signatur",
     "fr": "signature",
     "es": "firma"
   },
   "definition": {
-    "de": "Die Signatureigenschaft wird verwendet, um eine Signatur mit einem Informationsgraphen zu verknüpfen. Die Signatureigenschaft ist normalerweise nicht in dem kanonisierten Graphen enthalten, der dann verdaut und digital signiert wird.",
     "en": "The signature property is used to associate a signature with a graph of information. The signature property is typically not included in the canonicalized graph that is then digested, and digitally signed.",
+    "de": "Die Signatureigenschaft wird verwendet, um eine Signatur mit einem Informationsgraphen zu verknüpfen. Die Signatureigenschaft ist normalerweise nicht in dem kanonisierten Graphen enthalten, der dann verdaut und digital signiert wird.",
     "fr": "La propriété de signature est utilisée pour associer une signature à un graphe d'informations. La propriété de signature n'est généralement pas incluse dans le graphe canonisé qui est ensuite digéré et signé numériquement.",
     "es": "La propiedad de firma se utiliza para asociar una firma a un gráfico de información. La propiedad de firma no suele incluirse en el gráfico canonizado que luego se digiere y se firma digitalmente."
   },
   "scopeNote": {
-    "de": "ActivityPub Community",
     "en": "ActivityPub Community",
+    "de": "ActivityPub Community",
     "fr": "ActivityPub Community",
     "es": "ActivityPub Community"
   },
@@ -25,8 +25,8 @@
     "022"
   ],
   "example": {
-    "de": "```json \nDas folgende Beispiel zeigt, wie eine Signatur des Graphen, der durch das Thema http://example.com/people#jane identifiziert wurde, mit einer JSON-LD-Signatur ausgedrückt wird:\n{\n  \"@context\": [\n    \"https://w3id.org/security/v1\",\n    { \"foaf\": \"http://xmlns.com/foaf/0.1/\" }\n  ]\n  \"@graph\": {\n    \"@id\": \"http://example.com/people#jane\",\n    \"@type\": \"foaf:Person\",\n    \"foaf:name\": \"Jane Doe\",\n    \"foaf:homepage\": \"http://example.org/jane\"\n  },\n  \"signature\": {\n    \"@type\": \"GraphSignature2012\",\n    \"creator\": \"http://example.com/people/john-doe#key-5\",\n    \"signatureValue\": \"OGQzNGVkMzVm4NTIyZTkZDYMmMzQzNmExMgoYzI43Q3ODIyOWM32NjI=\"\n  }\n}```",
     "en": "```json \nThe following example demonstrates how a signature on the graph identified by the subject http://example.com/people#jane is expressed using a JSON-LD signature:\n{\n  \"@context\": [\n    \"https://w3id.org/security/v1\",\n    { \"foaf\": \"http://xmlns.com/foaf/0.1/\" }\n  ]\n  \"@graph\": {\n    \"@id\": \"http://example.com/people#jane\",\n    \"@type\": \"foaf:Person\",\n    \"foaf:name\": \"Jane Doe\",\n    \"foaf:homepage\": \"http://example.org/jane\"\n  },\n  \"signature\": {\n    \"@type\": \"GraphSignature2012\",\n    \"creator\": \"http://example.com/people/john-doe#key-5\",\n    \"signatureValue\": \"OGQzNGVkMzVm4NTIyZTkZDYMmMzQzNmExMgoYzI43Q3ODIyOWM32NjI=\"\n  }\n}```",
+    "de": "```json \nDas folgende Beispiel zeigt, wie eine Signatur des Graphen, der durch das Thema http://example.com/people#jane identifiziert wurde, mit einer JSON-LD-Signatur ausgedrückt wird:\n{\n  \"@context\": [\n    \"https://w3id.org/security/v1\",\n    { \"foaf\": \"http://xmlns.com/foaf/0.1/\" }\n  ]\n  \"@graph\": {\n    \"@id\": \"http://example.com/people#jane\",\n    \"@type\": \"foaf:Person\",\n    \"foaf:name\": \"Jane Doe\",\n    \"foaf:homepage\": \"http://example.org/jane\"\n  },\n  \"signature\": {\n    \"@type\": \"GraphSignature2012\",\n    \"creator\": \"http://example.com/people/john-doe#key-5\",\n    \"signatureValue\": \"OGQzNGVkMzVm4NTIyZTkZDYMmMzQzNmExMgoYzI43Q3ODIyOWM32NjI=\"\n  }\n}```",
     "fr": "```json \nL'exemple suivant montre comment une signature sur le graphique identifié par le sujet http://example.com/people#jane est exprimée en utilisant une signature JSON-LD :\n{\n  \"@context\": [\n    \"https://w3id.org/security/v1\",\n    { \"foaf\": \"http://xmlns.com/foaf/0.1/\" }\n  ]\n  \"@graph\": {\n    \"@id\": \"http://example.com/people#jane\",\n    \"@type\": \"foaf:Person\",\n    \"foaf:name\": \"Jane Doe\",\n    \"foaf:homepage\": \"http://example.org/jane\"\n  },\n  \"signature\": {\n    \"@type\": \"GraphSignature2012\",\n    \"creator\": \"http://example.com/people/john-doe#key-5\",\n    \"signatureValue\": \"OGQzNGVkMzVm4NTIyZTkZDYMmMzQzNmExMgoYzI43Q3ODIyOWM32NjI=\"\n  }\n}```",
     "es": "```json \nEl siguiente ejemplo demuestra cómo se expresa una firma en el gráfico identificado por el sujeto http://example.com/people#jane utilizando una firma JSON-LD:\n{\n  \"@context\": [\n    \"https://w3id.org/security/v1\",\n    { \"foaf\": \"http://xmlns.com/foaf/0.1/\" }\n  ]\n  \"@graph\": {\n    \"@id\": \"http://example.com/people#jane\",\n    \"@type\": \"foaf:Person\",\n    \"foaf:name\": \"Jane Doe\",\n    \"foaf:homepage\": \"http://example.org/jane\"\n  },\n  \"signature\": {\n    \"@type\": \"GraphSignature2012\",\n    \"creator\": \"http://example.com/people/john-doe#key-5\",\n    \"signatureValue\": \"OGQzNGVkMzVm4NTIyZTkZDYMmMzQzNmExMgoYzI43Q3ODIyOWM32NjI=\"\n  }\n}```"
   },
@@ -34,8 +34,8 @@
     {
       "id": "https://w3id.org/security/v1signatureAlgorithm",
       "prefLabel": {
-        "de": "Signatur Algorithmus",
         "en": "signature algorithm",
+        "de": "Signatur Algorithmus",
         "fr": "signature algorithm",
         "es": "firma algorithm"
       }
@@ -43,8 +43,8 @@
     {
       "id": "https://w3id.org/security/v1signatureValue",
       "prefLabel": {
-        "de": "Signatur Wert",
         "en": "signature value",
+        "de": "Signatur Wert",
         "fr": "valeur de la signature",
         "es": "firma value"
       }
@@ -53,8 +53,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/#Actor",
     "prefLabel": {
-      "de": "Akteur",
       "en": "Actor",
+      "de": "Akteur",
       "fr": "Acteur",
       "es": "Actor"
     }
@@ -62,8 +62,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/#scheme",
     "title": {
-      "de": "ActivityPub: Funktionen und Verbindungen",
       "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
       "fr": "ActivityPub: Functions and Relations",
       "es": "ActivityPub: Functions and Relations"
     }

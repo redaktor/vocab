@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=forgefed.peers.community%2Fnsforks",
   "inbox": "https://test.skohub.io/inbox?target=forgefed.peers.community%2Fnsforks",
   "prefLabel": {
-    "de": "forks",
     "en": "forks",
+    "de": "forks",
     "fr": "forks",
     "es": "forks"
   },
   "definition": {
-    "de": "Identifies an OrderedCollection of Repositorys which were created as forks of this Repository, i.e. by cloning it. The order of the collection items is by reverse chronological order of the forking events.<br>siehe [4](https://forgefed.peers.community/ns#forks)",
     "en": "Identifies an OrderedCollection of Repositorys which were created as forks of this Repository, i.e. by cloning it. The order of the collection items is by reverse chronological order of the forking events.<br>see [4](https://forgefed.peers.community/ns#forks)",
+    "de": "Identifies an OrderedCollection of Repositorys which were created as forks of this Repository, i.e. by cloning it. The order of the collection items is by reverse chronological order of the forking events.<br>siehe [4](https://forgefed.peers.community/ns#forks)",
     "fr": "Identifies an OrderedCollection of Repositorys which were created as forks of this Repository, i.e. by cloning it. The order of the collection items is by reverse chronological order of the forking events.<br>voir [4](https://forgefed.peers.community/ns#forks)",
     "es": "Identifies an OrderedCollection of Repositorys which were created as forks of this Repository, i.e. by cloning it. The order of the collection items is by reverse chronological order of the forking events.ver [4](https://forgefed.peers.community/ns#forks)"
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/#forgefed",
     "prefLabel": {
-      "de": "ForgeFed",
       "en": "ForgeFed",
+      "de": "ForgeFed",
       "fr": "ForgeFed",
       "es": "ForgeFed"
     }
@@ -30,8 +30,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/#scheme",
     "title": {
-      "de": "ActivityPub: Funktionen und Verbindungen",
       "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
       "fr": "ActivityPub: Functions and Relations",
       "es": "ActivityPub: Functions and Relations"
     }

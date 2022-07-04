@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=forgefed.peers.community%2FnsresolvedBy",
   "inbox": "https://test.skohub.io/inbox?target=forgefed.peers.community%2FnsresolvedBy",
   "prefLabel": {
-    "de": "resolvedBy",
     "en": "resolvedBy",
+    "de": "resolvedBy",
     "fr": "resolvedBy",
     "es": "resolvedBy"
   },
   "definition": {
-    "de": "Identifies the Actor who has resolved the Ticket, or the activity that has resolved the Ticket.<br>siehe [4](https://forgefed.peers.community/ns#resolvedBy)",
     "en": "Identifies the Actor who has resolved the Ticket, or the activity that has resolved the Ticket.<br>see [4](https://forgefed.peers.community/ns#resolvedBy)",
+    "de": "Identifies the Actor who has resolved the Ticket, or the activity that has resolved the Ticket.<br>siehe [4](https://forgefed.peers.community/ns#resolvedBy)",
     "fr": "Identifies the Actor who has resolved the Ticket, or the activity that has resolved the Ticket.<br>voir [4](https://forgefed.peers.community/ns#resolvedBy)",
     "es": "Identifies the Actor who has resolved the Ticket, or the activity that has resolved the Ticket.<br>ver [4](https://forgefed.peers.community/ns#resolvedBy)"
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/#forgefed",
     "prefLabel": {
-      "de": "ForgeFed",
       "en": "ForgeFed",
+      "de": "ForgeFed",
       "fr": "ForgeFed",
       "es": "ForgeFed"
     }
@@ -30,8 +30,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/#scheme",
     "title": {
-      "de": "ActivityPub: Funktionen und Verbindungen",
       "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
       "fr": "ActivityPub: Functions and Relations",
       "es": "ActivityPub: Functions and Relations"
     }

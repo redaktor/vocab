@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=forgefed.peers.community%2Fnshash",
   "inbox": "https://test.skohub.io/inbox?target=forgefed.peers.community%2Fnshash",
   "prefLabel": {
-    "de": "hash",
     "en": "hash",
+    "de": "hash",
     "fr": "hash",
     "es": "hash"
   },
   "definition": {
-    "de": "Specifies the hash associated with a Commit, which is a unique identifier of the commit within the Repository, usually generated as a cryptographic hash function of some (or all) of the commit’s data or metadata. For example, in Git it would be the SHA1 hash of the commit; in Darcs it would be the SHA1 hash of the patch info.<br>siehe [4](https://forgefed.peers.community/ns#hash)",
     "en": "Specifies the hash associated with a Commit, which is a unique identifier of the commit within the Repository, usually generated as a cryptographic hash function of some (or all) of the commit’s data or metadata. For example, in Git it would be the SHA1 hash of the commit; in Darcs it would be the SHA1 hash of the patch info.<br>see [4](https://forgefed.peers.community/ns#hash)",
+    "de": "Specifies the hash associated with a Commit, which is a unique identifier of the commit within the Repository, usually generated as a cryptographic hash function of some (or all) of the commit’s data or metadata. For example, in Git it would be the SHA1 hash of the commit; in Darcs it would be the SHA1 hash of the patch info.<br>siehe [4](https://forgefed.peers.community/ns#hash)",
     "fr": "Specifies the hash associated with a Commit, which is a unique identifier of the commit within the Repository, usually generated as a cryptographic hash function of some (or all) of the commit’s data or metadata. For example, in Git it would be the SHA1 hash of the commit; in Darcs it would be the SHA1 hash of the patch info.<br>voir [4](https://forgefed.peers.community/ns#hash)",
     "es": "Specifies the hash associated with a Commit, which is a unique identifier of the commit within the Repository, usually generated as a cryptographic hash function of some (or all) of the commit’s data or metadata. For example, in Git it would be the SHA1 hash of the commit; in Darcs it would be the SHA1 hash of the patch info.<br>ver [4](https://forgefed.peers.community/ns#hash)"
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/#forgefed",
     "prefLabel": {
-      "de": "ForgeFed",
       "en": "ForgeFed",
+      "de": "ForgeFed",
       "fr": "ForgeFed",
       "es": "ForgeFed"
     }
@@ -30,8 +30,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/#scheme",
     "title": {
-      "de": "ActivityPub: Funktionen und Verbindungen",
       "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
       "fr": "ActivityPub: Functions and Relations",
       "es": "ActivityPub: Functions and Relations"
     }

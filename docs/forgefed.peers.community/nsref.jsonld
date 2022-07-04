@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=forgefed.peers.community%2Fnsref",
   "inbox": "https://test.skohub.io/inbox?target=forgefed.peers.community%2Fnsref",
   "prefLabel": {
-    "de": "ref",
     "en": "ref",
+    "de": "ref",
     "fr": "ref",
     "es": "ref"
   },
   "definition": {
-    "de": "Specifies an identifier for a Branch, that is used in the Repository to uniquely refer to it. For example, in Git, “refs/heads/master” would be the ref of the master branch.<br>siehe [4](https://forgefed.peers.community/ns#ref)",
     "en": "Specifies an identifier for a Branch, that is used in the Repository to uniquely refer to it. For example, in Git, “refs/heads/master” would be the ref of the master branch.<br>see [4](https://forgefed.peers.community/ns#ref)",
+    "de": "Specifies an identifier for a Branch, that is used in the Repository to uniquely refer to it. For example, in Git, “refs/heads/master” would be the ref of the master branch.<br>siehe [4](https://forgefed.peers.community/ns#ref)",
     "fr": "Specifies an identifier for a Branch, that is used in the Repository to uniquely refer to it. For example, in Git, “refs/heads/master” would be the ref of the master branch.<br>voir [4](https://forgefed.peers.community/ns#ref)",
     "es": "Specifies an identifier for a Branch, that is used in the Repository to uniquely refer to it. For example, in Git, “refs/heads/master” would be the ref of the master branch.<br>ver [4](https://forgefed.peers.community/ns#ref)"
   },
@@ -19,16 +19,16 @@
     "2062"
   ],
   "example": {
-    "de": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://example.dev/luke/myrepo/branches/master\",\n    \"type\": \"Branch\",\n    \"name\": \"master\",\n    \"context\": \"https://example.dev/luke/myrepo\",\n\n    \"ref\": \"refs/heads/master\"\n}```",
     "en": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://example.dev/luke/myrepo/branches/master\",\n    \"type\": \"Branch\",\n    \"name\": \"master\",\n    \"context\": \"https://example.dev/luke/myrepo\",\n\n    \"ref\": \"refs/heads/master\"\n}```",
+    "de": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://example.dev/luke/myrepo/branches/master\",\n    \"type\": \"Branch\",\n    \"name\": \"master\",\n    \"context\": \"https://example.dev/luke/myrepo\",\n\n    \"ref\": \"refs/heads/master\"\n}```",
     "fr": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://example.dev/luke/myrepo/branches/master\",\n    \"type\": \"Branch\",\n    \"name\": \"master\",\n    \"context\": \"https://example.dev/luke/myrepo\",\n\n    \"ref\": \"refs/heads/master\"\n}```",
     "es": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://example.dev/luke/myrepo/branches/master\",\n    \"type\": \"Branch\",\n    \"name\": \"master\",\n    \"context\": \"https://example.dev/luke/myrepo\",\n\n    \"ref\": \"refs/heads/master\"\n}```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/#forgefed",
     "prefLabel": {
-      "de": "ForgeFed",
       "en": "ForgeFed",
+      "de": "ForgeFed",
       "fr": "ForgeFed",
       "es": "ForgeFed"
     }
@@ -36,8 +36,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/#scheme",
     "title": {
-      "de": "ActivityPub: Funktionen und Verbindungen",
       "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
       "fr": "ActivityPub: Functions and Relations",
       "es": "ActivityPub: Functions and Relations"
     }

@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=forgefed.peers.community%2FnsisResolved",
   "inbox": "https://test.skohub.io/inbox?target=forgefed.peers.community%2FnsisResolved",
   "prefLabel": {
-    "de": "isResolved",
     "en": "isResolved",
+    "de": "isResolved",
     "fr": "isResolved",
     "es": "isResolved"
   },
   "definition": {
-    "de": "Specifies whether the Ticket is closed, i.e. the work on it is done and it doesn’t need to attract attention anymore.<br>siehe [4](https://forgefed.peers.community/ns#isResolved)",
     "en": "Specifies whether the Ticket is closed, i.e. the work on it is done and it doesn’t need to attract attention anymore.<br>see [4](https://forgefed.peers.community/ns#isResolved)",
+    "de": "Specifies whether the Ticket is closed, i.e. the work on it is done and it doesn’t need to attract attention anymore.<br>siehe [4](https://forgefed.peers.community/ns#isResolved)",
     "fr": "Specifies whether the Ticket is closed, i.e. the work on it is done and it doesn’t need to attract attention anymore.<br>voir [4](https://forgefed.peers.community/ns#isResolved)",
     "es": "Specifies whether the Ticket is closed, i.e. the work on it is done and it doesn’t need to attract attention anymore.<br>ver [4](https://forgefed.peers.community/ns#isResolved)"
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/#forgefed",
     "prefLabel": {
-      "de": "ForgeFed",
       "en": "ForgeFed",
+      "de": "ForgeFed",
       "fr": "ForgeFed",
       "es": "ForgeFed"
     }
@@ -30,8 +30,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/#scheme",
     "title": {
-      "de": "ActivityPub: Funktionen und Verbindungen",
       "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
       "fr": "ActivityPub: Functions and Relations",
       "es": "ActivityPub: Functions and Relations"
     }

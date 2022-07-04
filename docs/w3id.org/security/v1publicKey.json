@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fsecurity%2Fv1publicKey",
   "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fsecurity%2Fv1publicKey",
   "prefLabel": {
-    "de": "Öffentlicher Schlüssel",
     "en": "public key",
+    "de": "Öffentlicher Schlüssel",
     "fr": "clé publique",
     "es": "clave pública"
   },
   "definition": {
-    "de": "Ein öffentlicher Schlüssel spezifiziert eine URL, die Infos zum public key enthält.<br>siehe [The Security Vocabulary](https://w3c-ccg.github.io/security-vocab/#publicKey) or [mastodon usage documentation](https://docs.joinmastodon.org/spec/security/)",
     "en": "A public key property is used to specify a URL that contains information about a public key.<br>see [The Security Vocabulary](https://w3c-ccg.github.io/security-vocab/#publicKey) or [mastodon usage documentation](https://docs.joinmastodon.org/spec/security/)",
+    "de": "Ein öffentlicher Schlüssel spezifiziert eine URL, die Infos zum public key enthält.<br>siehe [The Security Vocabulary](https://w3c-ccg.github.io/security-vocab/#publicKey) or [mastodon usage documentation](https://docs.joinmastodon.org/spec/security/)",
     "fr": "Une propriété de clé publique est utilisée pour spécifier une URL qui contient des informations sur une clé publique.<br>voir [The Security Vocabulary](https://w3c-ccg.github.io/security-vocab/#publicKey) or [mastodon usage documentation](https://docs.joinmastodon.org/spec/security/)",
     "es": "Una propiedad de clave pública se utiliza para especificar una URL que contiene información sobre una clave pública.<br>ver [The Security Vocabulary](https://w3c-ccg.github.io/security-vocab/#publicKey) or [mastodon usage documentation](https://docs.joinmastodon.org/spec/security/)"
   },
   "scopeNote": {
-    "de": "ActivityPub Community",
     "en": "ActivityPub Community",
+    "de": "ActivityPub Community",
     "fr": "ActivityPub Community",
     "es": "ActivityPub Community"
   },
@@ -25,8 +25,8 @@
     "020"
   ],
   "example": {
-    "de": "```json \nDas folgende Beispiel demonstriert den Ausdruck eines öffentlichen Schlüssels zugehörig zur Identität https://payswarm.example.com/i/bob.\n{\n  \"@context\": \"https://w3id.org/security/v1\",\n  \"@id\": \"https://payswarm.example.com/i/bob/keys/1\",\n  \"@type\": \"Key\",\n  \"owner\": \"https://payswarm.example.com/i/bob\",\n  \"publicKeyPem\": \"-----BEGIN PUBLIC KEY-----\nMII8YbF3s8q3c...j8Fk88FsRa3K\n-----END PUBLIC KEY-----\n\"\n}```",
     "en": "```json \nThe following example demonstrates the expression of a public key belonging to the identity https://payswarm.example.com/i/bob.\n{\n  \"@context\": \"https://w3id.org/security/v1\",\n  \"@id\": \"https://payswarm.example.com/i/bob/keys/1\",\n  \"@type\": \"Key\",\n  \"owner\": \"https://payswarm.example.com/i/bob\",\n  \"publicKeyPem\": \"-----BEGIN PUBLIC KEY-----\nMII8YbF3s8q3c...j8Fk88FsRa3K\n-----END PUBLIC KEY-----\n\"\n}```",
+    "de": "```json \nDas folgende Beispiel demonstriert den Ausdruck eines öffentlichen Schlüssels zugehörig zur Identität https://payswarm.example.com/i/bob.\n{\n  \"@context\": \"https://w3id.org/security/v1\",\n  \"@id\": \"https://payswarm.example.com/i/bob/keys/1\",\n  \"@type\": \"Key\",\n  \"owner\": \"https://payswarm.example.com/i/bob\",\n  \"publicKeyPem\": \"-----BEGIN PUBLIC KEY-----\nMII8YbF3s8q3c...j8Fk88FsRa3K\n-----END PUBLIC KEY-----\n\"\n}```",
     "fr": "```json \nL'exemple suivant montre l'expression d'une clé publique appartenant à l'identité https://payswarm.example.com/i/bob.\n{\n  \"@context\": \"https://w3id.org/security/v1\",\n  \"@id\": \"https://payswarm.example.com/i/bob/keys/1\",\n  \"@type\": \"Key\",\n  \"owner\": \"https://payswarm.example.com/i/bob\",\n  \"publicKeyPem\": \"-----BEGIN PUBLIC KEY-----\nMII8YbF3s8q3c...j8Fk88FsRa3K\n-----END PUBLIC KEY-----\n\"\n}```",
     "es": "```json \nEl siguiente ejemplo muestra la expresión de una clave pública perteneciente a la identidad https://payswarm.example.com/i/bob.\n{\n  \"@context\": \"https://w3id.org/security/v1\",\n  \"@id\": \"https://payswarm.example.com/i/bob/keys/1\",\n  \"@type\": \"Key\",\n  \"owner\": \"https://payswarm.example.com/i/bob\",\n  \"publicKeyPem\": \"-----BEGIN PUBLIC KEY-----\nMII8YbF3s8q3c...j8Fk88FsRa3K\n-----END PUBLIC KEY-----\n\"\n}```"
   },
@@ -34,15 +34,15 @@
     {
       "id": "https://w3id.org/security/v1owner",
       "prefLabel": {
-        "de": "Eigentümer",
-        "en": "owner"
+        "en": "owner",
+        "de": "Eigentümer"
       }
     },
     {
       "id": "https://w3id.org/security/v1publicKeyPem",
       "prefLabel": {
-        "de": "Öffentlicher Schlüssel PEM",
         "en": "public key PEM",
+        "de": "Öffentlicher Schlüssel PEM",
         "fr": "clé publique PEM",
         "es": "clave pública PEM"
       }
@@ -51,8 +51,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/#Actor",
     "prefLabel": {
-      "de": "Akteur",
       "en": "Actor",
+      "de": "Akteur",
       "fr": "Acteur",
       "es": "Actor"
     }
@@ -60,8 +60,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/#scheme",
     "title": {
-      "de": "ActivityPub: Funktionen und Verbindungen",
       "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
       "fr": "ActivityPub: Functions and Relations",
       "es": "ActivityPub: Functions and Relations"
     }

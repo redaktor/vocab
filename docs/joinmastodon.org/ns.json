@@ -1,40 +1,54 @@
 {
-  "id": "http://joinmastodon.org/ns#suspended",
+  "id": "http://joinmastodon.org/ns#featured",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=joinmastodon.org%2Fns%23suspended",
-  "inbox": "https://test.skohub.io/inbox?target=joinmastodon.org%2Fns%23suspended",
+  "followers": "https://test.skohub.io/followers?subject=joinmastodon.org%2Fns%23featured",
+  "inbox": "https://test.skohub.io/inbox?target=joinmastodon.org%2Fns%23featured",
   "prefLabel": {
-    "de": "suspendiert",
-    "en": "suspended",
-    "fr": "suspendu",
-    "es": "suspendido"
+    "en": "featured",
+    "de": "featured",
+    "fr": "featured",
+    "es": "featured"
+  },
+  "altLabel": {
+    "en": [
+      "Pinned posts"
+    ],
+    "de": [
+      "Angepinnt"
+    ],
+    "fr": [
+      "épinglés"
+    ],
+    "es": [
+      "Mensajes anclados"
+    ]
   },
   "definition": {
-    "de": "Mastodon meldet, ob ein Benutzer lokal gesperrt wurde, damit diese Konten besser behandelt werden können. Gesperrte Konten in Mastodon geben leere Daten zurück. Wenn ein entferntes Konto als suspendiert markiert ist, kann es lokal nicht wieder suspendiert werden. Suspendierte Konten können durch Aktivitäten wie Aktualisieren, Rückgängig machen, Ablehnen und Löschen anvisiert werden. Diese Funktionalität wird durch eine zusätzliche Eigenschaft \"suspended\" für Objekte implementiert.<br>siehe [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#suspended)",
-    "en": "Mastodon reports whether a user was locally suspended, for better handling of these accounts. Suspended accounts in Mastodon return empty data. If a remote account is marked as suspended, it cannot be unsuspended locally. Suspended accounts can be targeted by activities such as Update, Undo, Reject, and Delete. This functionality is implemented using an extra property \"suspended\" on objects.<br>see [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#suspended)",
-    "fr": "Mastodon indique si un utilisateur a été suspendu localement, pour une meilleure gestion de ces comptes. Les comptes suspendus dans Mastodon renvoient des données vides. Si un compte distant est marqué comme suspendu, il ne peut pas être suspendu localement. Les comptes suspendus peuvent être ciblés par des activités telles que Update, Undo, Reject, et Delete. Cette fonctionnalité est implémentée en utilisant une propriété supplémentaire \"suspended\" sur les objets.<br>voir [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#suspended)",
-    "es": "Mastodon informa si un usuario fue suspendido localmente, para un mejor manejo de estas cuentas. Las cuentas suspendidas en Mastodon devuelven datos vacíos. Si una cuenta remota es marcada como suspendida, no puede ser desuspendida localmente. Las cuentas suspendidas pueden ser objeto de actividades como Actualizar, Deshacer, Rechazar y Eliminar. Esta funcionalidad se implementa utilizando una propiedad extra \"suspended\" en los objetos.<br>ver [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#suspended)"
+    "en": "What is known in Mastodon as “pinned toots”, or statuses that are always featured at the top of people’s profiles, is implemented using an extra property featured on the actor object that points to a Collection of objects.<br>see [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#featured)",
+    "de": "Was in Mastodon als “pinned toots” bekannt ist, oder Status, der immer an der Spitze der Profile von Personen angezeigt wird, wird durch eine zusätzliche Eigenschaft des Akteursobjekts implementiert, die auf eine Sammlung von Objekten zeigt.<br>siehe [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#featured)",
+    "fr": "Ce que l'on appelle dans Mastodon les “pinned toots”, c'est-à-dire les statuts qui figurent toujours en haut des profils des personnes, est mis en œuvre à l'aide d'une propriété supplémentaire de l'objet actor qui pointe vers une collection d'objets.<br>voir [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#featured)",
+    "es": "Lo que se conoce en Mastodon como “pinned toots”, o estados que siempre aparecen en la parte superior de los perfiles de las personas, se implementa utilizando una propiedad extra que aparece en el objeto actor y que apunta a una Colección de objetos.<br>ver [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#featured)"
   },
   "scopeNote": {
-    "de": "ActivityPub Community",
     "en": "ActivityPub Community",
+    "de": "ActivityPub Community",
     "fr": "ActivityPub Community",
     "es": "ActivityPub Community"
   },
   "notation": [
-    "1018"
+    "1015"
   ],
   "example": {
-    "de": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"suspended\": \"toot:suspended\"\n    }\n  ],\n  \"id\": \"https://example.com/@eve\",\n  \"type\": \"Person\",\n  \"suspended\": true\n}```",
-    "en": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"suspended\": \"toot:suspended\"\n    }\n  ],\n  \"id\": \"https://example.com/@eve\",\n  \"type\": \"Person\",\n  \"suspended\": true\n}```",
-    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"suspended\": \"toot:suspended\"\n    }\n  ],\n  \"id\": \"https://example.com/@eve\",\n  \"type\": \"Person\",\n  \"suspended\": true\n}```",
-    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"suspended\": \"toot:suspended\"\n    }\n  ],\n  \"id\": \"https://example.com/@eve\",\n  \"type\": \"Person\",\n  \"suspended\": true\n}```"
+    "en": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"featured\": {\n        \"@id\": \"toot:featured\",\n        \"@type\": \"@id\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice\",\n  \"type\": \"Person\",\n  \"featured\": \"https://example.com/@alice/collections/featured\"\n}```",
+    "de": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"featured\": {\n        \"@id\": \"toot:featured\",\n        \"@type\": \"@id\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice\",\n  \"type\": \"Person\",\n  \"featured\": \"https://example.com/@alice/collections/featured\"\n}```",
+    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"featured\": {\n        \"@id\": \"toot:featured\",\n        \"@type\": \"@id\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice\",\n  \"type\": \"Person\",\n  \"featured\": \"https://example.com/@alice/collections/featured\"\n}```",
+    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"featured\": {\n        \"@id\": \"toot:featured\",\n        \"@type\": \"@id\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice\",\n  \"type\": \"Person\",\n  \"featured\": \"https://example.com/@alice/collections/featured\"\n}```"
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/#scheme",
     "title": {
-      "de": "ActivityPub: Funktionen und Verbindungen",
       "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
       "fr": "ActivityPub: Functions and Relations",
       "es": "ActivityPub: Functions and Relations"
     }
@@ -133,7 +147,10 @@
       "@container": "@set"
     }
   }
-} "@container": "@set"
+}set"
+    },
+    "closeMatch": {
+      "@container": "@set"
     },
     "exactMatch": {
       "@container": "@set"
@@ -144,7 +161,11 @@
       "@container": "@set"
     }
   }
-}vann/",
+}b": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
     "as": "https://www.w3.org/ns/activitystreams#",
     "ldp": "http://www.w3.org/ns/ldp#",
     "title": {

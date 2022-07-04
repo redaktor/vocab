@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=forgefed.peers.community%2FnsassignedTo",
   "inbox": "https://test.skohub.io/inbox?target=forgefed.peers.community%2FnsassignedTo",
   "prefLabel": {
-    "de": "assignedTo",
     "en": "assignedTo",
+    "de": "assignedTo",
     "fr": "assignedTo",
     "es": "assignedTo"
   },
   "definition": {
-    "de": "Identifies the Person assigned to work on this Ticket.<br>siehe [4](https://forgefed.peers.community/ns#assignedTo)",
     "en": "Identifies the Person assigned to work on this Ticket.<br>see [4](https://forgefed.peers.community/ns#assignedTo)",
+    "de": "Identifies the Person assigned to work on this Ticket.<br>siehe [4](https://forgefed.peers.community/ns#assignedTo)",
     "fr": "Identifies the Person assigned to work on this Ticket.<br>voir [4](https://forgefed.peers.community/ns#assignedTo)",
     "es": "Identifies the Person assigned to work on this Ticket.<br>ver [4](https://forgefed.peers.community/ns#assignedTo)"
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/#forgefed",
     "prefLabel": {
-      "de": "ForgeFed",
       "en": "ForgeFed",
+      "de": "ForgeFed",
       "fr": "ForgeFed",
       "es": "ForgeFed"
     }
@@ -30,8 +30,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/#scheme",
     "title": {
-      "de": "ActivityPub: Funktionen und Verbindungen",
       "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
       "fr": "ActivityPub: Functions and Relations",
       "es": "ActivityPub: Functions and Relations"
     }

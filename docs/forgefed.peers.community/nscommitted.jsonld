@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=forgefed.peers.community%2Fnscommitted",
   "inbox": "https://test.skohub.io/inbox?target=forgefed.peers.community%2Fnscommitted",
   "prefLabel": {
-    "de": "committed",
     "en": "committed",
+    "de": "committed",
     "fr": "committed",
     "es": "committed"
   },
   "definition": {
-    "de": "Specifies the time that a set of changes was committed into the Repository and became a Commit in it. This can be different from the time the set of changes was produced, e.g. if one person creates a patch and sends to another, and the other person then applies the patch to their copy of the repository. We call the former event “created” and the latter event “committed”, and this latter event is specified by the committed property.<br>siehe [4](https://forgefed.peers.community/ns#committed)",
     "en": "Specifies the time that a set of changes was committed into the Repository and became a Commit in it. This can be different from the time the set of changes was produced, e.g. if one person creates a patch and sends to another, and the other person then applies the patch to their copy of the repository. We call the former event “created” and the latter event “committed”, and this latter event is specified by the committed property.<br>see [4](https://forgefed.peers.community/ns#committed)",
+    "de": "Specifies the time that a set of changes was committed into the Repository and became a Commit in it. This can be different from the time the set of changes was produced, e.g. if one person creates a patch and sends to another, and the other person then applies the patch to their copy of the repository. We call the former event “created” and the latter event “committed”, and this latter event is specified by the committed property.<br>siehe [4](https://forgefed.peers.community/ns#committed)",
     "fr": "Specifies the time that a set of changes was committed into the Repository and became a Commit in it. This can be different from the time the set of changes was produced, e.g. if one person creates a patch and sends to another, and the other person then applies the patch to their copy of the repository. We call the former event “created” and the latter event “committed”, and this latter event is specified by the committed property.<br>voir [4](https://forgefed.peers.community/ns#committed)",
     "es": "Specifies the time that a set of changes was committed into the Repository and became a Commit in it. This can be different from the time the set of changes was produced, e.g. if one person creates a patch and sends to another, and the other person then applies the patch to their copy of the repository. We call the former event “created” and the latter event “committed”, and this latter event is specified by the committed property.<br>ver [4](https://forgefed.peers.community/ns#committed)"
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/#forgefed",
     "prefLabel": {
-      "de": "ForgeFed",
       "en": "ForgeFed",
+      "de": "ForgeFed",
       "fr": "ForgeFed",
       "es": "ForgeFed"
     }
@@ -30,8 +30,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/#scheme",
     "title": {
-      "de": "ActivityPub: Funktionen und Verbindungen",
       "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
       "fr": "ActivityPub: Functions and Relations",
       "es": "ActivityPub: Functions and Relations"
     }

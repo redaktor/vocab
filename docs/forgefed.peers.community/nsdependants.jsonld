@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=forgefed.peers.community%2Fnsdependants",
   "inbox": "https://test.skohub.io/inbox?target=forgefed.peers.community%2Fnsdependants",
   "prefLabel": {
-    "de": "dependants",
     "en": "dependants",
+    "de": "dependants",
     "fr": "dependants",
     "es": "dependants"
   },
   "definition": {
-    "de": "Identifies a Collection of TicketDependency which specify tickets that depends on this Ticket, i.e. this ticket is the object of the dependsOn relationship. Often called “reverse dependencies”.<br>siehe [4](https://forgefed.peers.community/ns#dependants)",
     "en": "Identifies a Collection of TicketDependency which specify tickets that depends on this Ticket, i.e. this ticket is the object of the dependsOn relationship. Often called “reverse dependencies”.<br>see [4](https://forgefed.peers.community/ns#dependants)",
+    "de": "Identifies a Collection of TicketDependency which specify tickets that depends on this Ticket, i.e. this ticket is the object of the dependsOn relationship. Often called “reverse dependencies”.<br>siehe [4](https://forgefed.peers.community/ns#dependants)",
     "fr": "Identifies a Collection of TicketDependency which specify tickets that depends on this Ticket, i.e. this ticket is the object of the dependsOn relationship. Often called “reverse dependencies”.<br>voir [4](https://forgefed.peers.community/ns#dependants)",
     "es": "Identifies a Collection of TicketDependency which specify tickets that depends on this Ticket, i.e. this ticket is the object of the dependsOn relationship. Often called “reverse dependencies”.<br>ver [4](https://forgefed.peers.community/ns#dependants)"
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/#forgefed",
     "prefLabel": {
-      "de": "ForgeFed",
       "en": "ForgeFed",
+      "de": "ForgeFed",
       "fr": "ForgeFed",
       "es": "ForgeFed"
     }
@@ -30,8 +30,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/#scheme",
     "title": {
-      "de": "ActivityPub: Funktionen und Verbindungen",
       "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
       "fr": "ActivityPub: Functions and Relations",
       "es": "ActivityPub: Functions and Relations"
     }
