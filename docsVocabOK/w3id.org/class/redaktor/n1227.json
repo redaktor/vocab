@@ -1,0 +1,264 @@
+{
+  "id": "https://w3id.org/class/redaktor/n1227",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2Fn1227",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2Fn1227",
+  "prefLabel": {
+    "de": "Herstellung",
+    "en": "Manufacturing"
+  },
+  "altLabel": {
+    "de": [
+      "Fabrikation"
+    ],
+    "en": [
+      "Fabrication"
+    ]
+  },
+  "notation": [
+    "1227"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/n122711",
+      "prefLabel": {
+        "de": "Gestalter*in des Exlibris",
+        "en": "Bookplate designer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122712",
+      "prefLabel": {
+        "de": "Graveur*in",
+        "en": "Engraver"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122713",
+      "prefLabel": {
+        "de": "Lithograph*in",
+        "en": "Lithographer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122714",
+      "prefLabel": {
+        "de": "Collotyper",
+        "en": "Collotyper"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122715",
+      "prefLabel": {
+        "de": "Elektrotyper",
+        "en": "Electrotyper"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122716",
+      "prefLabel": {
+        "de": "Drucker*in",
+        "en": "Printer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122717",
+      "prefLabel": {
+        "de": "Druckgrafiker*in",
+        "en": "Printmaker"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122718",
+      "prefLabel": {
+        "de": "Buchbinder*in",
+        "en": "Binder"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122719",
+      "prefLabel": {
+        "de": "Blindenschrift-Präger*in",
+        "en": "Braille embosser"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122720",
+      "prefLabel": {
+        "de": "Hersteller*in",
+        "en": "Manufacturer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122721",
+      "prefLabel": {
+        "de": "Holzschneider*in",
+        "en": "Wood engraver"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122722",
+      "prefLabel": {
+        "de": "Metallgraveur*in",
+        "en": "Metal-engraver"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122723",
+      "prefLabel": {
+        "de": "Papiermacher*in",
+        "en": "Papermaker"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122724",
+      "prefLabel": {
+        "de": "Holzschneider*in",
+        "en": "Woodcutter"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122725",
+      "prefLabel": {
+        "de": "Drucker*in von Druckplatten",
+        "en": "Printer of plates"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122726",
+      "prefLabel": {
+        "de": "Druckplattenhersteller*in",
+        "en": "Platemaker"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122727",
+      "prefLabel": {
+        "de": "Marmorierer*in",
+        "en": "Marbler"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122728",
+      "prefLabel": {
+        "de": "Waffenschmied*in",
+        "en": "Armorer"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/n122729",
+      "prefLabel": {
+        "de": "Compositor*in",
+        "en": "Compositor"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/n12",
+    "prefLabel": {
+      "de": "Rolle in Kreativ-Werk",
+      "en": "Creative Work Role"
+    }
+  },
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "de": "ActivityPub: Rollen und Verbindungen",
+      "en": "ActivityPub: Roles and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

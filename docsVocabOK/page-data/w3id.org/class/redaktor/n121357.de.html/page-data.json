@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-components-concept-js",
+    "path": "/w3id.org/class/redaktor/n121357.de.html",
+    "result": {"pageContext":{"language":"de","languages":["de","en"],"node":{"id":"https://w3id.org/class/redaktor/n121357","type":"Concept","followers":"https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2Fn121357","inbox":"https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2Fn121357","prefLabel":{"de":"Zweite Kompanie Grip","en":"Second Company Grip"},"altLabel":null,"definition":null,"scopeNote":null,"note":null,"notation":["121357"],"example":null,"narrower":[],"narrowerTransitive":[],"broader":{"id":"https://w3id.org/class/redaktor/n1213","prefLabel":{"de":"Kamera","en":"Camera"}},"broaderTransitive":null,"related":[],"relatedMatch":null,"broadMatch":null,"narrowMatch":null,"closeMatch":null,"exactMatch":null,"inScheme":{"id":"https://w3id.org/class/redaktor/scheme","title":{"de":"ActivityPub: Rollen und Verbindungen","en":"ActivityPub: Roles and Relations"}},"topConceptOf":null},"baseURL":""}},
+    "staticQueryHashes": ["3649515864","63159454"]}

@@ -1,0 +1,139 @@
+{
+  "id": "https://forgefed.peers.community/nspreviousVersions",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=forgefed.peers.community%2FnspreviousVersions",
+  "inbox": "https://test.skohub.io/inbox?target=forgefed.peers.community%2FnspreviousVersions",
+  "prefLabel": {
+    "de": "previousVersions",
+    "en": "previousVersions",
+    "fr": "previousVersions",
+    "es": "previousVersions"
+  },
+  "definition": {
+    "de": "<br>siehe [4](https://forgefed.peers.community/ns#previousVersions)",
+    "en": "see [4](https://forgefed.peers.community/ns#previousVersions)",
+    "fr": "voir [4](https://forgefed.peers.community/ns#previousVersions)",
+    "es": "ver [4](https://forgefed.peers.community/ns#previousVersions)"
+  },
+  "notation": [
+    "2044"
+  ],
+  "example": {
+    "de": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://dev.example/aviva/notes/107\",\n    \"type\": \"Note\",\n    \"attributedTo\": \"https://dev.example/aviva\",\n    \"content\": \"I agree!!!!! (edit: fixed a typo)\",\n    \"previousVersions\": [\n       \"https://dev.example/aviva/notes/107_old_version\",\n       \"https://dev.example/aviva/notes/107_very_old_version\",\n       \"https://dev.example/aviva/notes/107_ancient_version\"\n    ]\n}```",
+    "en": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://dev.example/aviva/notes/107\",\n    \"type\": \"Note\",\n    \"attributedTo\": \"https://dev.example/aviva\",\n    \"content\": \"I agree!!!!! (edit: fixed a typo)\",\n    \"previousVersions\": [\n       \"https://dev.example/aviva/notes/107_old_version\",\n       \"https://dev.example/aviva/notes/107_very_old_version\",\n       \"https://dev.example/aviva/notes/107_ancient_version\"\n    ]\n}```",
+    "fr": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://dev.example/aviva/notes/107\",\n    \"type\": \"Note\",\n    \"attributedTo\": \"https://dev.example/aviva\",\n    \"content\": \"I agree!!!!! (edit: fixed a typo)\",\n    \"previousVersions\": [\n       \"https://dev.example/aviva/notes/107_old_version\",\n       \"https://dev.example/aviva/notes/107_very_old_version\",\n       \"https://dev.example/aviva/notes/107_ancient_version\"\n    ]\n}```",
+    "es": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://dev.example/aviva/notes/107\",\n    \"type\": \"Note\",\n    \"attributedTo\": \"https://dev.example/aviva\",\n    \"content\": \"I agree!!!!! (edit: fixed a typo)\",\n    \"previousVersions\": [\n       \"https://dev.example/aviva/notes/107_old_version\",\n       \"https://dev.example/aviva/notes/107_very_old_version\",\n       \"https://dev.example/aviva/notes/107_ancient_version\"\n    ]\n}```"
+  },
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/#forgefed",
+    "prefLabel": {
+      "de": "ForgeFed",
+      "en": "ForgeFed",
+      "fr": "ForgeFed",
+      "es": "ForgeFed"
+    }
+  },
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/#scheme",
+    "title": {
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "en": "ActivityPub: Functions and Relations",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

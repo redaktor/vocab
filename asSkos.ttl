@@ -62,12 +62,14 @@
 :scheme a skos:ConceptScheme ;
     dct:alternative "redaktorVocab" ;
     dct:description "**Beschreibt die Funktionen von Akteuren, Orten, Kontext und Anhängen in redaktor.**<br>Das Vokabular wird im Zusammenhang mit mehreren Quellen entwickelt und gepflegt;<br>z.B. https://wikidata.org, https://themoviedb.org oder https://id.loc.gov/vocabulary/relators. Die zugrundeliegende Turtle Datei enthält das mapping mit Konvertierungs-Schemas [WIP]"@de,
-    "**Describes the functions of actors, places, context and attachment in redaktor.**<br>The vocabulary is developed and maintained in the context of multiple sources,<br>e.g. https://wikidata.org, https://themoviedb.org or https://id.loc.gov/vocabulary/relators <br>The underlying turtle file maintains the mapping with conversion schemes [WIP]"@en ;
+    "**Describes the functions of actors, places, context and attachment in redaktor.**<br>The vocabulary is developed and maintained in the context of multiple sources,<br>e.g. https://wikidata.org, https://themoviedb.org or https://id.loc.gov/vocabulary/relators <br>The underlying turtle file maintains the mapping with conversion schemes [WIP]"@en,
+    "**Describes the functions of actors, places, context and attachment in redaktor.**<br>The vocabulary is developed and maintained in the context of multiple sources,<br>e.g. https://wikidata.org, https://themoviedb.org or https://id.loc.gov/vocabulary/relators <br>The underlying turtle file maintains the mapping with conversion schemes [WIP]"@fr,
+    "**Describes the functions of actors, places, context and attachment in redaktor.**<br>The vocabulary is developed and maintained in the context of multiple sources,<br>e.g. https://wikidata.org, https://themoviedb.org or https://id.loc.gov/vocabulary/relators <br>The underlying turtle file maintains the mapping with conversion schemes [WIP]"@es ;
     dct:issued "2022-04-10"^^xsd:date ;
     dct:modified "2022-04-11"^^xsd:date ;
     dct:publisher "Sebastian Lasse" ;
     dct:source <https://redaktor.me> ;
-    dct:title "ActivityPub: Funktionen und Verbindungen"@de, "ActivityPub: Functions and Relations"@en ;
+    dct:title "ActivityPub: Funktionen und Verbindungen"@de, "ActivityPub: Functions and Relations"@en, "ActivityPub: Functions and Relations"@fr, "ActivityPub: Functions and Relations"@es ;
     vann:preferredNamespacePrefix "redaktor" ;
     vann:preferredNamespaceUri "https://w3id.org/class/redaktor/" ;
     skos:hasTopConcept :Actor, as:Activity, as:Object, as:Link, as:IntransitiveActivity, as:Collection, as:OrderedCollection, as:CollectionPage, as:OrderedCollectionPage, :Community, :Discussion .
@@ -79,9 +81,9 @@
     skos:notation "0" ;
     skos:prefLabel "Akteur"@de, "Actor"@en, "Acteur"@fr, "Actor"@es ;
     skos:definition "[virtuelles Konzept] Die handelnden Subjekt Typen. Jedes Objekt kann ein 'Akteur' in ActivityPub sein, aber diese Typen beschreiben die meisten Akteure. Ein Actor muss mindestens die Eigenschaften `inbox` und `outbox` haben."@de,
-    "[virtual concept] The acting subject types. Any object can be an 'Actor' in ActivityPub but these are types describing most Actors. An Actor must have at least the `inbox` and `outbox` properties."@en ,
-    "[concept virtuel] Les types de sujets agissant. Tout objet peut être un 'Acteur' dans ActivityPub mais ces types décrivent la plupart des Acteurs. Un Acteur doit avoir au moins les propriétés `inbox` et `outbox`."@fr ,
-    "[concepto virtual] Los tipos de sujetos actuantes. Cualquier objeto puede ser un 'Actor' en ActivityPub pero estos son tipos que describen la mayoría de los Actores. Un Actor debe tener al menos las propiedades `inbox` y `outbox`."@es ;
+      "[virtual concept] The acting subject types. Any object can be an 'Actor' in ActivityPub but these are types describing most Actors. An Actor must have at least the `inbox` and `outbox` properties."@en ,
+      "[concept virtuel] Les types de sujets agissant. Tout objet peut être un 'Acteur' dans ActivityPub mais ces types décrivent la plupart des Acteurs. Un Acteur doit avoir au moins les propriétés `inbox` et `outbox`."@fr ,
+      "[concepto virtual] Los tipos de sujetos actuantes. Cualquier objeto puede ser un 'Actor' en ActivityPub pero estos son tipos que describen la mayoría de los Actores. Un Actor debe tener al menos las propiedades `inbox` y `outbox`."@es ;
     skos:scopeNote "as: Object"@de, "as: Object"@en, "as: Object"@fr, "as: Object"@es .
 
 #################################################################
