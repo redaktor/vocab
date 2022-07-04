@@ -49,7 +49,7 @@
     }
   ],
   "broader": {
-    "id": "https://w3id.org/class/redaktor/#Actor",
+    "id": "https://w3id.org/class/redaktor/Actor",
     "prefLabel": {
       "en": "Actor",
       "de": "Akteur",
@@ -58,7 +58,7 @@
     }
   },
   "inScheme": {
-    "id": "https://w3id.org/class/redaktor/#scheme",
+    "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
       "en": "ActivityPub: Functions and Relations",
       "de": "ActivityPub: Funktionen und Verbindungen",

@@ -1,0 +1,161 @@
+{
+  "id": "https://w3id.org/class/redaktor/AdvertisingInvolved",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FAdvertisingInvolved",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FAdvertisingInvolved",
+  "prefLabel": {
+    "en": "Advertiser Supplied or sponsored",
+    "de": "Von Werbetreibenden bereitgestellt oder gesponsort",
+    "fr": "Fourni par l'annonceur ou sponsorisé",
+    "es": "Suministrado por el anunciante o 'patrocinado'"
+  },
+  "notation": [
+    "1484"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/AdvertiserSupplied",
+      "prefLabel": {
+        "en": "Advertiser Supplied",
+        "de": "Von Werbetreibenden bereitgestellt",
+        "fr": "Fourni par l'annonceur",
+        "es": "Suministrado por el anunciante"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/PressRelease",
+      "prefLabel": {
+        "en": "Press Release",
+        "de": "Presseerklärung",
+        "fr": "Communiqué de presse",
+        "es": "Comunicado de prensa"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Sponsored",
+      "prefLabel": {
+        "en": "Sponsored",
+        "de": "Gesponsert",
+        "fr": "Sponsorisé",
+        "es": "Patrocinado"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Supported",
+      "prefLabel": {
+        "en": "Supported",
+        "de": "Unterstützt",
+        "fr": "Soutenu",
+        "es": "Apoyado"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://cv.iptc.org/newscodes/mediatopic/20000305"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

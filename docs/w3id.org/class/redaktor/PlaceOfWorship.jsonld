@@ -1,0 +1,197 @@
+{
+  "id": "https://w3id.org/class/redaktor/PlaceOfWorship",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FPlaceOfWorship",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FPlaceOfWorship",
+  "prefLabel": {
+    "en": "Place of worship",
+    "de": "Kultstätte",
+    "fr": "Lieu de culte",
+    "es": "Lugar de culto"
+  },
+  "notation": [
+    "1110"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/BuddhistTemple",
+      "prefLabel": {
+        "en": "Buddhist temple",
+        "de": "Buddhistischer Tempel",
+        "fr": "Temple bouddhiste",
+        "es": "Templo budista"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Church",
+      "prefLabel": {
+        "en": "Church",
+        "de": "Kirche",
+        "fr": "Église",
+        "es": "Iglesia"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/HinduTemple",
+      "prefLabel": {
+        "en": "Hindu Temple",
+        "de": "Hindu Tempel",
+        "fr": "Temple hindou",
+        "es": "Templo hindú"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Mosque",
+      "prefLabel": {
+        "en": "Mosque",
+        "de": "Moschee",
+        "fr": "Mosquée",
+        "es": "Mezquita"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Synagogue",
+      "prefLabel": {
+        "en": "Synagogue",
+        "de": "Synagoge",
+        "fr": "Synagogue",
+        "es": "Sinagoga"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Monastery",
+      "prefLabel": {
+        "en": "Monastery",
+        "de": "Kloster",
+        "fr": "Monastère",
+        "es": "Monasterio"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/SikhTemple",
+      "prefLabel": {
+        "en": "Sikh Temple",
+        "de": "Sikh-Tempel",
+        "fr": "Temple Sikh",
+        "es": "Templo Sikh"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ShintoShrine",
+      "prefLabel": {
+        "en": "Shinto Shrine",
+        "de": "Shinto-Heiligtum",
+        "fr": "Sanctuaire Shinto",
+        "es": "Santuario sintoísta"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:PlaceOfWorship"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

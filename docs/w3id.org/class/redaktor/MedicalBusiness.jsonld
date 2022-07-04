@@ -1,0 +1,422 @@
+{
+  "id": "https://w3id.org/class/redaktor/MedicalBusiness",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FMedicalBusiness",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FMedicalBusiness",
+  "prefLabel": {
+    "en": "Medical Business",
+    "de": "Medizinische Einrichtung",
+    "fr": "Commerce médical",
+    "es": "Negocio Médico"
+  },
+  "notation": [
+    "1195"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/Dentist",
+      "prefLabel": {
+        "en": "Dentist",
+        "de": "Zahnarzt",
+        "fr": "Dentiste",
+        "es": "Dentista"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Abortion",
+      "prefLabel": {
+        "en": "Abortion",
+        "de": "Schwangerschaftsabbruch",
+        "fr": "Avortement",
+        "es": "Aborto"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Allergology",
+      "prefLabel": {
+        "en": "Allergology",
+        "de": "Allergologie",
+        "fr": "Allergologie",
+        "es": "Alergología"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Cardiology",
+      "prefLabel": {
+        "en": "Cardiology",
+        "de": "Kardiologie",
+        "fr": "Cardiologie",
+        "es": "Cardiología"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/CommunityHealth",
+      "prefLabel": {
+        "en": "Community Health",
+        "de": "Gemeinschaftliche Gesundheit",
+        "fr": "Santé communautaire",
+        "es": "Salud comunitaria"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Dermatology",
+      "prefLabel": {
+        "en": "Dermatology",
+        "de": "Dermatologie",
+        "fr": "Dermatologie",
+        "es": "Dentista"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/DietNutrition",
+      "prefLabel": {
+        "en": "Diet Nutrition",
+        "de": "Diätetik Ernährung",
+        "fr": "Nutrition diététique",
+        "es": "Dermatología"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Emergency",
+      "prefLabel": {
+        "en": "Emergency",
+        "de": "Notfall",
+        "fr": "Urgence",
+        "es": "Urgencias"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Gastroenterology",
+      "prefLabel": {
+        "en": "Gastroenterology",
+        "de": "Gastroenterologie",
+        "fr": "Gastro-entérologie",
+        "es": "Gastroenterología"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Geriatric",
+      "prefLabel": {
+        "en": "Geriatric",
+        "de": "Geriatrie",
+        "fr": "Gériatrie",
+        "es": "Geriatría"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Gynecologic",
+      "prefLabel": {
+        "en": "Gynecologic",
+        "de": "Gynäkologie",
+        "fr": "Gynécologie",
+        "es": "Ginecología"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/MedicalClinic",
+      "prefLabel": {
+        "en": "Medical Clinic",
+        "de": "Medizinische Klinik",
+        "fr": "Clinique médicale",
+        "es": "Clínica Médica"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Midwifery",
+      "prefLabel": {
+        "en": "Midwifery",
+        "de": "Hebamme",
+        "fr": "Sages-femmes",
+        "es": "Partería"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Nursing",
+      "prefLabel": {
+        "en": "Nursing",
+        "de": "Krankenpflege",
+        "fr": "Soins infirmiers",
+        "es": "Enfermería"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Obstetric",
+      "prefLabel": {
+        "en": "Obstetric",
+        "de": "Geburtshilfe",
+        "fr": "Obstétrique",
+        "es": "Obstetricia"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Oncologic",
+      "prefLabel": {
+        "en": "Oncologic",
+        "de": "Onkologie",
+        "fr": "Oncologie",
+        "es": "Oncológico"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Optician",
+      "prefLabel": {
+        "en": "Optician",
+        "de": "Optiker",
+        "fr": "Opticien",
+        "es": "Óptica"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Optometric",
+      "prefLabel": {
+        "en": "Optometric",
+        "de": "Optometrie",
+        "fr": "Optométrie",
+        "es": "Optometría"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Orthopaedics",
+      "prefLabel": {
+        "en": "Orthopaedics",
+        "de": "Optometrisch",
+        "fr": "Orthopédie",
+        "es": "Ortopedia"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Otolaryngologic",
+      "prefLabel": {
+        "en": "Otolaryngologic",
+        "de": "HNO Hals-Nasen-Ohrenheilkunde",
+        "fr": "Otolaryngologie",
+        "es": "Otorrinolaringología"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Palliative",
+      "prefLabel": {
+        "en": "Palliative",
+        "de": "Palliativmedizin",
+        "fr": "Palliatif",
+        "es": "Paliativos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Pediatric",
+      "prefLabel": {
+        "en": "Pediatric",
+        "de": "Pädiatrie",
+        "fr": "Pédiatrie",
+        "es": "Pediatría"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Pharmacy",
+      "prefLabel": {
+        "en": "Pharmacy",
+        "de": "Apotheke",
+        "fr": "Pharmacie",
+        "es": "Farmacia"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Physician",
+      "prefLabel": {
+        "en": "Physician",
+        "de": "Hausarzt",
+        "fr": "Médecin",
+        "es": "Médico"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Physiotherapy",
+      "prefLabel": {
+        "en": "Physiotherapy",
+        "de": "Physiotherapie",
+        "fr": "Physiothérapie",
+        "es": "Fisioterapia"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/PlasticSurgery",
+      "prefLabel": {
+        "en": "Plastic Surgery",
+        "de": "Plastische Chirurgie",
+        "fr": "Chirurgie plastique",
+        "es": "Cirugía Plástica"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Podiatric",
+      "prefLabel": {
+        "en": "Podiatric",
+        "de": "Podologie",
+        "fr": "Podologie",
+        "es": "Podología"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/PrimaryCare",
+      "prefLabel": {
+        "en": "Primary Care",
+        "de": "Grundversorgung",
+        "fr": "Soins primaires",
+        "es": "Atención primaria"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Psychiatric",
+      "prefLabel": {
+        "en": "Psychiatric",
+        "de": "Psychiatrie",
+        "fr": "Psychiatrie",
+        "es": "Psiquiatría"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/PublicHealth",
+      "prefLabel": {
+        "en": "Public Health",
+        "de": "Öffentliches Gesundheitswesen",
+        "fr": "Santé publique",
+        "es": "Salud pública"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Radiology",
+      "prefLabel": {
+        "en": "Radiology",
+        "de": "Radiologie",
+        "fr": "Radiologie",
+        "es": "Radiología"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/VeterinaryCare",
+      "prefLabel": {
+        "en": "Veterinary Care",
+        "de": "Veterinärmedizinische Versorgung",
+        "fr": "Soins vétérinaires",
+        "es": "Atención veterinaria"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Tropical",
+      "prefLabel": {
+        "en": "Tropical",
+        "de": "Tropenmedizin",
+        "fr": "Tropical",
+        "es": "Tropical"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:MedicalBusiness"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

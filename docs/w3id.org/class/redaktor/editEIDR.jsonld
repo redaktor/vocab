@@ -1,0 +1,129 @@
+{
+  "id": "https://w3id.org/class/redaktor/editEIDR",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FeditEIDR",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FeditEIDR",
+  "prefLabel": {
+    "en": "edit EIDR",
+    "de": "EIDR bearbeiten",
+    "fr": "éditer EIDR",
+    "es": "editar EIDR"
+  },
+  "definition": {
+    "en": "An [EIDR](https://eidr.org/) (Entertainment Identifier Registry) [[identifier]] representing a specific edit / edition for a work of film or television.<br><br>For example, the motion picture known as “Ghostbusters” whose [[titleEIDR]] is “10.5240/7EC7-228A-510A-053E-CBB8-J”, has several edits e.g. “10.5240/1F2A-E1C5-680A-14C6-E76B-I” and “10.5240/8A35-3BEE-6497-5D12-9E4F-3”.<br><br>Since schema.org types like [[Movie]] and [[TVEpisode]] can be used for both works and their multiple expressions, it is possible to use [[titleEIDR]] alone (for a general description), or alongside [[editEIDR]] for a more edit-specific description.<br>",
+    "de": "An [EIDR](https://eidr.org/) (Entertainment Identifier Registry) [[identifier]] representing a specific edit / edition for a work of film or television.<br><br>For example, the motion picture known as “Ghostbusters” whose [[titleEIDR]] is “10.5240/7EC7-228A-510A-053E-CBB8-J”, has several edits e.g. “10.5240/1F2A-E1C5-680A-14C6-E76B-I” and “10.5240/8A35-3BEE-6497-5D12-9E4F-3”.<br><br>Since schema.org types like [[Movie]] and [[TVEpisode]] can be used for both works and their multiple expressions, it is possible to use [[titleEIDR]] alone (for a general description), or alongside [[editEIDR]] for a more edit-specific description.<br>",
+    "fr": "An [EIDR](https://eidr.org/) (Entertainment Identifier Registry) [[identifier]] representing a specific edit / edition for a work of film or television.<br><br>For example, the motion picture known as “Ghostbusters” whose [[titleEIDR]] is “10.5240/7EC7-228A-510A-053E-CBB8-J”, has several edits e.g. “10.5240/1F2A-E1C5-680A-14C6-E76B-I” and “10.5240/8A35-3BEE-6497-5D12-9E4F-3”.<br><br>Since schema.org types like [[Movie]] and [[TVEpisode]] can be used for both works and their multiple expressions, it is possible to use [[titleEIDR]] alone (for a general description), or alongside [[editEIDR]] for a more edit-specific description.<br>",
+    "es": "An [EIDR](https://eidr.org/) (Entertainment Identifier Registry) [[identifier]] representing a specific edit / edition for a work of film or television.<br><br>For example, the motion picture known as “Ghostbusters” whose [[titleEIDR]] is “10.5240/7EC7-228A-510A-053E-CBB8-J”, has several edits e.g. “10.5240/1F2A-E1C5-680A-14C6-E76B-I” and “10.5240/8A35-3BEE-6497-5D12-9E4F-3”.<br><br>Since schema.org types like [[Movie]] and [[TVEpisode]] can be used for both works and their multiple expressions, it is possible to use [[titleEIDR]] alone (for a general description), or alongside [[editEIDR]] for a more edit-specific description.<br>"
+  },
+  "notation": [
+    "1918"
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:editEIDR"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

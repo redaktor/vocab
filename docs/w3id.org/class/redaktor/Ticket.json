@@ -1,0 +1,203 @@
+{
+  "id": "https://w3id.org/class/redaktor/Ticket",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FTicket",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FTicket",
+  "prefLabel": {
+    "en": "Ticket",
+    "de": "Ticket",
+    "fr": "Ticket",
+    "es": "Billete"
+  },
+  "definition": {
+    "en": "Used to describe a ticket to an event, a flight, a bus ride, etc.",
+    "de": "Wird verwendet, um ein Ticket für eine Veranstaltung, einen Flug, eine Busfahrt usw. zu beschreiben.",
+    "fr": "Utilisé pour décrire un billet pour un événement, un vol, un trajet en bus, etc.",
+    "es": "Se utiliza para describir una entrada a un evento, un vuelo, un viaje en autobús, etc."
+  },
+  "notation": [
+    "1505"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/dateIssued",
+      "prefLabel": {
+        "en": "date issued",
+        "de": "Ausstellungsdatum",
+        "fr": "date d'émission",
+        "es": "fecha de emisión"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/issuedBy",
+      "prefLabel": {
+        "en": "issued by",
+        "de": "ausgestellt von",
+        "fr": "délivré par",
+        "es": "emitido por"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/priceCurrency",
+      "prefLabel": {
+        "en": "price currency",
+        "de": "Preiswährung",
+        "fr": "devise du prix",
+        "es": "moneda del precio"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ticketNumber",
+      "prefLabel": {
+        "en": "ticket number",
+        "de": "Ticket-Nummer",
+        "fr": "numéro de billet",
+        "es": "número de billete"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ticketToken",
+      "prefLabel": {
+        "en": "ticket token",
+        "de": "Ticket-Token",
+        "fr": "jeton de billet",
+        "es": "ficha del billete"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ticketedSeat",
+      "prefLabel": {
+        "en": "ticketed seat",
+        "de": "Sitzplatz mit Ticket",
+        "fr": "siège avec billet",
+        "es": "asiento con billete"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/totalPrice",
+      "prefLabel": {
+        "en": "total price",
+        "de": "Gesamtpreis",
+        "fr": "prix total",
+        "es": "precio total"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/underName",
+      "prefLabel": {
+        "en": "under name",
+        "de": "unter dem Namen",
+        "fr": "sous le nom",
+        "es": "bajo nombre"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:Ticket"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

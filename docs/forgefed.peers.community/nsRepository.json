@@ -19,7 +19,7 @@
     "2054"
   ],
   "broader": {
-    "id": "https://w3id.org/class/redaktor/#forgefed",
+    "id": "https://w3id.org/class/redaktor/forgefed",
     "prefLabel": {
       "en": "ForgeFed",
       "de": "ForgeFed",
@@ -28,7 +28,7 @@
     }
   },
   "inScheme": {
-    "id": "https://w3id.org/class/redaktor/#scheme",
+    "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
       "en": "ActivityPub: Functions and Relations",
       "de": "ActivityPub: Funktionen und Verbindungen",
@@ -130,10 +130,10 @@
       "@container": "@set"
     }
   }
-}fed.peers.community/ns\"\n    ],\n    \"id\": \"https://dev.example/aviva/treesim\",\n    \"type\": \"Repository\",\n    \"publicKey\": {\n        \"id\": \"https://dev.example/aviva/treesim#main-key\",\n        \"owner\": \"https://dev.example/aviva/treesim\",\n        \"publicKeyPem\": \"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhki.....\"\n    },\n    \"inbox\": \"https://dev.example/aviva/treesim/inbox\",\n    \"outbox\": \"https://dev.example/aviva/treesim/outbox\",\n    \"followers\": \"https://dev.example/aviva/treesim/followers\",\n    \"team\": \"https://dev.example/aviva/treesim/team\",\n    \"name\": \"Tree Growth 3D Simulation\",\n    \"summary\": \"<p>Tree growth 3D simulator for my nature exploration game</p>\"\n}```"
+}gefed.peers.community/ns\"\n    ],\n    \"id\": \"https://dev.example/aviva/treesim\",\n    \"type\": \"Repository\",\n    \"publicKey\": {\n        \"id\": \"https://dev.example/aviva/treesim#main-key\",\n        \"owner\": \"https://dev.example/aviva/treesim\",\n        \"publicKeyPem\": \"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhki.....\"\n    },\n    \"inbox\": \"https://dev.example/aviva/treesim/inbox\",\n    \"outbox\": \"https://dev.example/aviva/treesim/outbox\",\n    \"followers\": \"https://dev.example/aviva/treesim/followers\",\n    \"team\": \"https://dev.example/aviva/treesim/team\",\n    \"name\": \"Tree Growth 3D Simulation\",\n    \"summary\": \"<p>Tree growth 3D simulator for my nature exploration game</p>\"\n}```"
   },
   "broader": {
-    "id": "https://w3id.org/class/redaktor/#forgefed",
+    "id": "https://w3id.org/class/redaktor/forgefed",
     "prefLabel": {
       "en": "ForgeFed",
       "de": "ForgeFed",
@@ -142,7 +142,7 @@
     }
   },
   "inScheme": {
-    "id": "https://w3id.org/class/redaktor/#scheme",
+    "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
       "en": "ActivityPub: Functions and Relations",
       "de": "ActivityPub: Funktionen und Verbindungen",

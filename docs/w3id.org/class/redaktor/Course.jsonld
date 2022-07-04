@@ -1,0 +1,185 @@
+{
+  "id": "https://w3id.org/class/redaktor/Course",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FCourse",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FCourse",
+  "prefLabel": {
+    "en": "Course",
+    "de": "Kurs",
+    "fr": "Cours",
+    "es": "Curso"
+  },
+  "definition": {
+    "en": "A description of an educational course which may be offered as distinct instances at which take place at different times or take place at different locations, or be offered through different media or modes of study. An educational course is a sequence of one or more educational events and/or creative works which aims to build knowledge, competence or ability of learners.",
+    "de": "Eine Beschreibung eines Bildungskurses, der als verschiedene Instanzen angeboten werden kann, die zu unterschiedlichen Zeiten oder an unterschiedlichen Orten stattfinden, oder über verschiedene Medien oder Lernformen angeboten werden. Ein Bildungskurs ist eine Abfolge von einer oder mehreren Bildungsveranstaltungen und/oder kreativen Arbeiten, die darauf abzielen, das Wissen, die Kompetenz oder die Fähigkeiten der Lernenden zu erweitern.",
+    "fr": "Description d'un cours d'enseignement qui peut être proposé sous la forme d'instances distinctes ayant lieu à des moments différents ou dans des lieux différents, ou être proposé par le biais de différents médias ou modes d'étude. Un cours éducatif est une séquence d'un ou plusieurs événements éducatifs et/ou œuvres créatives qui vise à développer les connaissances, les compétences ou les capacités des apprenants.",
+    "es": "Descripción de un curso educativo que puede ofrecerse como instancias distintas que tienen lugar en diferentes momentos o en diferentes lugares, o que se ofrece a través de diferentes medios o modos de estudio. Un curso educativo es una secuencia de uno o más eventos educativos y/o trabajos creativos cuyo objetivo es desarrollar el conocimiento, la competencia o la capacidad de los alumnos."
+  },
+  "notation": [
+    "1564"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/courseCode",
+      "prefLabel": {
+        "en": "course code",
+        "de": "Kurscode",
+        "fr": "code de cours",
+        "es": "código del curso"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/coursePrerequisites",
+      "prefLabel": {
+        "en": "course prerequisites",
+        "de": "Kursvoraussetzungen",
+        "fr": "conditions préalables au cours",
+        "es": "requisitos del curso"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/educationalCredentialAwarded",
+      "prefLabel": {
+        "en": "educational credential awarded",
+        "de": "verliehener Bildungsnachweis",
+        "fr": "diplôme d'enseignement décerné",
+        "es": "credencial educativa otorgada"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/hasCourseInstance",
+      "prefLabel": {
+        "en": "has course instance",
+        "de": "hat Kursinstanz",
+        "fr": "a instance de cours",
+        "es": "tiene instancia de curso"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/numberOfCredits",
+      "prefLabel": {
+        "en": "number of credits",
+        "de": "Anzahl der Kredite",
+        "fr": "nombre de crédits",
+        "es": "número de créditos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/occupationalCredentialAwarded",
+      "prefLabel": {
+        "en": "occupational credential awarded",
+        "de": "verliehener Berufsnachweis",
+        "fr": "titre professionnel décerné",
+        "es": "credencial ocupacional otorgada"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:Course"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "id": "https://w3id.org/class/redaktor/Trip",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FTrip",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FTrip",
+  "definition": {
+    "en": "A trip or journey. An itinerary of visits to one or more places.",
+    "de": "Eine Reise oder Fahrt. Eine Reiseroute mit Besuchen an einem oder mehreren Orten.",
+    "fr": "Un voyage ou un déplacement. Un itinéraire de visite d'un ou plusieurs lieux.",
+    "es": "Un viaje o trayecto. Un itinerario para visitar uno o varios lugares."
+  },
+  "notation": [
+    "1506",
+    "1455"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/BoatTrip",
+      "prefLabel": {
+        "en": "Boat Trip",
+        "de": "Bootsfahrt",
+        "fr": "Voyage en bateau",
+        "es": "Viaje en barco"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/BusTrip",
+      "prefLabel": {
+        "en": "Bus Trip",
+        "de": "Busreise",
+        "fr": "Voyage en bus",
+        "es": "Viaje en autobús"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Flight",
+      "prefLabel": {
+        "en": "Flight",
+        "de": "Flug",
+        "fr": "Vol",
+        "es": "Vuelo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/TouristTrip",
+      "prefLabel": {
+        "en": "Tourist Trip",
+        "de": "Touristische Reise",
+        "fr": "Voyage touristique",
+        "es": "Viaje turístico"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/TrainTrip",
+      "prefLabel": {
+        "en": "Train Trip",
+        "de": "Zugfahrt",
+        "fr": "Voyage en train",
+        "es": "Viaje en tren"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/TripFacts",
+      "prefLabel": {
+        "en": "Facts-based trip or tour",
+        "de": "Faktenbasierte Reise oder Tour",
+        "fr": "Voyage ou visite basé(e) sur des faits",
+        "es": "Viaje o recorrido basado en hechos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/TripFaith",
+      "prefLabel": {
+        "en": "Faith-based trip or tour",
+        "de": "Glaubensbezogene Reise oder Tour",
+        "fr": "Journées de bénévolat",
+        "es": "Viaje o tour religioso"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/arrivalTime",
+      "prefLabel": {
+        "en": "arrival time",
+        "de": "Ankunftszeit",
+        "fr": "heure d'arrivée",
+        "es": "hora de llegada"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/departureTime",
+      "prefLabel": {
+        "en": "departure time",
+        "de": "Abfahrtszeit",
+        "fr": "heure de départ",
+        "es": "hora de salida"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/itinerary",
+      "prefLabel": {
+        "en": "itinerary",
+        "de": "Reiseroute",
+        "fr": "itinéraire",
+        "es": "itinerario"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/offers",
+      "prefLabel": {
+        "en": "offers",
+        "de": "Angebote",
+        "fr": "offres",
+        "es": "ofrece"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/partOfTrip",
+      "prefLabel": {
+        "en": "part of trip",
+        "de": "Teil einer Reise",
+        "fr": "partie de voyage",
+        "es": "parte de viaje"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/provider",
+      "prefLabel": {
+        "en": "provider",
+        "de": "Anbieter",
+        "fr": "fournisseur",
+        "es": "proveedor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/subTrip",
+      "prefLabel": {
+        "en": "sub trip",
+        "de": "Unterreise",
+        "fr": "sous voyage",
+        "es": "sub viaje"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:Trip"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

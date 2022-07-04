@@ -25,7 +25,7 @@
     "es": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"type\": \"Ticket\",\n    \"id\": \"https://example.dev/alice/myrepo/issues/42\",\n    \"context\": \"https://example.dev/alice/myrepo\",\n    \"attributedTo\": \"https://dev.community/bob\",\n    \"summary\": \"Nothing works!\",\n    \"content\": \"<p>Please fix. <i>Everything</i> is broken!</p>\",\n    \"mediaType\": \"text/html\",\n    \"source\": {\n        \"content\": \"Please fix. *Everything* is broken!\",\n        \"mediaType\": \"text/markdown; variant=CommonMark\"\n    },\n    \"assignedTo\": \"https://example.dev/alice\",\n    \"isResolved\": false\n}```"
   },
   "broader": {
-    "id": "https://w3id.org/class/redaktor/#forgefed",
+    "id": "https://w3id.org/class/redaktor/forgefed",
     "prefLabel": {
       "en": "ForgeFed",
       "de": "ForgeFed",
@@ -34,7 +34,7 @@
     }
   },
   "inScheme": {
-    "id": "https://w3id.org/class/redaktor/#scheme",
+    "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
       "en": "ActivityPub: Functions and Relations",
       "de": "ActivityPub: Funktionen und Verbindungen",

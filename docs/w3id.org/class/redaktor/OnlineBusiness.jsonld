@@ -1,0 +1,140 @@
+{
+  "id": "https://w3id.org/class/redaktor/OnlineBusiness",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FOnlineBusiness",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FOnlineBusiness",
+  "prefLabel": {
+    "en": "Online Business",
+    "de": "Online-Geschäft",
+    "fr": "Entreprise en ligne",
+    "es": "Negocio en línea"
+  },
+  "definition": {
+    "en": "A particular online business, either standalone or the online part of a broader organization. Examples include an eCommerce site, an online travel booking site, an online learning site, an online logistics and shipping provider, an online (virtual) doctor, etc.",
+    "de": "Ein bestimmtes Online-Unternehmen, entweder eigenständig oder der Online-Teil einer größeren Organisation. Beispiele sind eine E-Commerce-Website, eine Online-Reisebuchungsseite, eine Online-Lernseite, ein Online-Logistik- und Versandanbieter, ein (virtueller) Online-Arzt usw.",
+    "fr": "Une entreprise en ligne particulière, qu'elle soit autonome ou la partie en ligne d'une organisation plus large. Il peut s'agir par exemple d'un site de commerce électronique, d'un site de réservation de voyages en ligne, d'un site d'apprentissage en ligne, d'un fournisseur de services de logistique et d'expédition en ligne, d'un médecin (virtuel) en ligne, etc.",
+    "es": "Un negocio en línea particular, ya sea independiente o la parte en línea de una organización más amplia. Algunos ejemplos son un sitio de comercio electrónico, un sitio de reservas de viajes en línea, un sitio de aprendizaje en línea, un proveedor de logística y envíos en línea, un médico (virtual) en línea, etc."
+  },
+  "notation": [
+    "1709"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/OnlineStore",
+      "prefLabel": {
+        "en": "Online Store",
+        "de": "Online-Geschäft",
+        "fr": "Boutique en ligne",
+        "es": "Tienda en línea"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:OnlineBusiness"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

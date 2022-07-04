@@ -1,0 +1,221 @@
+{
+  "id": "https://w3id.org/class/redaktor/HowTo",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FHowTo",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FHowTo",
+  "prefLabel": {
+    "en": "How To",
+    "de": "Anleitungen, How To",
+    "fr": "Comment faire",
+    "es": "HowTo"
+  },
+  "definition": {
+    "en": "Instructions that explain how to achieve a result by performing a sequence of steps.",
+    "de": "Anweisungen, die erklären, wie man ein Ergebnis durch eine Abfolge von Schritten erreicht.",
+    "fr": "Instructions qui expliquent comment obtenir un résultat en exécutant une séquence d'étapes.",
+    "es": "Instrucciones que explican cómo conseguir un resultado mediante una secuencia de pasos."
+  },
+  "notation": [
+    "1517"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/Recipe",
+      "prefLabel": {
+        "en": "Recipe",
+        "de": "Rezept",
+        "fr": "Recette",
+        "es": "Receta"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/estimatedCost",
+      "prefLabel": {
+        "en": "estimated cost",
+        "de": "Geschätzte Kosten",
+        "fr": "coût estimé",
+        "es": "coste estimado"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/performTime",
+      "prefLabel": {
+        "en": "perform time",
+        "de": "Zeit spielen",
+        "fr": "temps d'exécution",
+        "es": "realizar el tiempo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/prepTime",
+      "prefLabel": {
+        "en": "prep time",
+        "de": "Vorbereitungszeit",
+        "fr": "temps de préparation",
+        "es": "tiempo de preparación"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/step",
+      "prefLabel": {
+        "en": "step",
+        "de": "Schritt",
+        "fr": "étape",
+        "es": "paso"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/steps",
+      "prefLabel": {
+        "en": "steps",
+        "de": "Stufen",
+        "fr": "étapes",
+        "es": "pasos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/supply",
+      "prefLabel": {
+        "en": "supply",
+        "de": "Versorgung",
+        "fr": "approvisionnement",
+        "es": "suministro"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/tool",
+      "prefLabel": {
+        "en": "tool",
+        "de": "Werkzeug",
+        "fr": "outil",
+        "es": "herramienta"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/totalTime",
+      "prefLabel": {
+        "en": "total time",
+        "de": "Gesamtzeit",
+        "fr": "temps total",
+        "es": "tiempo total"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/yield",
+      "prefLabel": {
+        "en": "yield",
+        "de": "Ertrag",
+        "fr": "rendement",
+        "es": "rendimiento"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:HowTo"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

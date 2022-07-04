@@ -1,0 +1,149 @@
+{
+  "id": "https://w3id.org/class/redaktor/RealEstateListing",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FRealEstateListing",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FRealEstateListing",
+  "prefLabel": {
+    "en": "Real Estate Listing",
+    "de": "Auflistung von Immobilien",
+    "fr": "Liste des biens immobiliers",
+    "es": "Listado de inmuebles"
+  },
+  "definition": {
+    "en": "A RealEstateListing is a listing that describes one or more real-estate [Offer](https://schema.org/Offer)s (whose [businessFunction](https://schema.org/businessFunction) is typically to lease out, or to sell).<br>  The [RealEstateListing](https://schema.org/RealEstateListing) type itself represents the overall listing, as manifested in some [WebPage](https://schema.org/WebPage).",
+    "de": "Ein RealEstateListing ist ein Listing, das ein oder mehrere Immobilienangebote beschreibt (deren businessFunction typischerweise die Vermietung oder der Verkauf ist).<br>Der Typ RealEstateListing selbst repräsentiert das gesamte Angebot, wie es auf einer WebPage dargestellt wird.",
+    "fr": "Une RealEstateListing est une liste qui décrit une ou plusieurs offres immobilières (dont la fonction commerciale est généralement de louer ou de vendre).<br>Le type RealEstateListing lui-même représente l'ensemble de l'offre, telle qu'elle se manifeste dans une page Web.",
+    "es": "Un RealEstateListing es un listado que describe una o varias ofertas inmobiliarias (cuya función comercial suele ser el alquiler o la venta).<br>El tipo RealEstateListing representa la oferta completa, tal y como se manifiesta en una página web."
+  },
+  "notation": [
+    "1575"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/datePosted",
+      "prefLabel": {
+        "en": "date posted",
+        "de": "Datum der Veröffentlichung",
+        "fr": "date de publication",
+        "es": "fecha de publicación"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/leaseLength",
+      "prefLabel": {
+        "en": "lease length",
+        "de": "Mietdauer",
+        "fr": "durée du bail",
+        "es": "duración del contrato de arrendamiento"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:RealEstateListing"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

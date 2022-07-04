@@ -1,0 +1,176 @@
+{
+  "id": "https://w3id.org/class/redaktor/OrderItem",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FOrderItem",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FOrderItem",
+  "prefLabel": {
+    "en": "Order Item",
+    "de": "Artikel bestellen",
+    "fr": "Article de commande",
+    "es": "Pedir artículo"
+  },
+  "definition": {
+    "en": "An order item is a line of an order. It includes the quantity and shipping details of a bought offer.",
+    "de": "An order item is a line of an order. It includes the quantity and shipping details of a bought offer.",
+    "fr": "An order item is a line of an order. It includes the quantity and shipping details of a bought offer.",
+    "es": "An order item is a line of an order. It includes the quantity and shipping details of a bought offer."
+  },
+  "notation": [
+    "1735"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/orderDelivery",
+      "prefLabel": {
+        "en": "order delivery",
+        "de": "Lieferung der Bestellung",
+        "fr": "commande de livraison",
+        "es": "entrega de pedidos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/orderItemNumber",
+      "prefLabel": {
+        "en": "order item number",
+        "de": "Auftragspositionsnummer",
+        "fr": "numéro de poste de commande",
+        "es": "número de pedido"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/orderItemStatus",
+      "prefLabel": {
+        "en": "order item status",
+        "de": "Status der Auftragsposition",
+        "fr": "statut du poste de commande",
+        "es": "estado de la posición de pedido"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/orderQuantity",
+      "prefLabel": {
+        "en": "order quantity",
+        "de": "Bestellmenge",
+        "fr": "quantité commandée",
+        "es": "cantidad del pedido"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/orderedItem",
+      "prefLabel": {
+        "en": "ordered item",
+        "de": "Bestellte Position",
+        "fr": "article commandé",
+        "es": "artículo pedido"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:OrderItem"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

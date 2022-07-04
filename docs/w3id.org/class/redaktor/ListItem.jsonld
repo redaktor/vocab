@@ -1,0 +1,185 @@
+{
+  "id": "https://w3id.org/class/redaktor/ListItem",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FListItem",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FListItem",
+  "prefLabel": {
+    "en": "List Item",
+    "de": "Artikel auflisten",
+    "fr": "Liste d'éléments",
+    "es": "Lista de elementos"
+  },
+  "definition": {
+    "en": "An list item, e.g. a step in a checklist or how-to description.",
+    "de": "An list item, e.g. a step in a checklist or how-to description.",
+    "fr": "An list item, e.g. a step in a checklist or how-to description.",
+    "es": "An list item, e.g. a step in a checklist or how-to description."
+  },
+  "notation": [
+    "1734"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/HowToSection",
+      "prefLabel": {
+        "en": "How To Section",
+        "de": "Anleitungsabschnitt",
+        "fr": "Section comment faire",
+        "es": "Sección de cómo hacerlo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/HowToStep",
+      "prefLabel": {
+        "en": "How To Step",
+        "de": "Anleitungen Schritt",
+        "fr": "Comment faire un pas",
+        "es": "Cómo se hace el paso"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/item",
+      "prefLabel": {
+        "en": "item",
+        "de": "Artikel",
+        "fr": "article",
+        "es": "artículo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/nextItem",
+      "prefLabel": {
+        "en": "next item",
+        "de": "nächster Artikel",
+        "fr": "prochain article",
+        "es": "siguiente artículo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/position",
+      "prefLabel": {
+        "en": "position",
+        "de": "Standort",
+        "fr": "position",
+        "es": "posición"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/previousItem",
+      "prefLabel": {
+        "en": "previous item",
+        "de": "vorheriger Gegenstand",
+        "fr": "article précédent",
+        "es": "artículo anterior"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:ListItem"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

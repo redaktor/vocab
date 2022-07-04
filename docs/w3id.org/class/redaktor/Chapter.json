@@ -1,0 +1,158 @@
+{
+  "id": "https://w3id.org/class/redaktor/Chapter",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FChapter",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FChapter",
+  "prefLabel": {
+    "en": "Chapter",
+    "de": "Kapitel",
+    "fr": "Chapitre",
+    "es": "Capítulo"
+  },
+  "definition": {
+    "en": "One of the sections into which a book is divided. A chapter usually has a section number or a name.",
+    "de": "Einer der Abschnitte, in die ein Buch unterteilt ist. Ein Kapitel hat normalerweise eine Abschnittsnummer oder einen Namen.",
+    "fr": "L'une des sections en lesquelles un livre est divisé. Un chapitre porte généralement un numéro de section ou un nom.",
+    "es": "Una de las secciones en que se divide un libro. Un capítulo suele tener un número de sección o un nombre."
+  },
+  "notation": [
+    "1510"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/pageEnd",
+      "prefLabel": {
+        "en": "page end",
+        "de": "Seite Ende",
+        "fr": "fin de page",
+        "es": "fin de página"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/pageStart",
+      "prefLabel": {
+        "en": "page start",
+        "de": "Seitenanfang",
+        "fr": "début de page",
+        "es": "inicio de página"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/pagination",
+      "prefLabel": {
+        "en": "pagination",
+        "de": "Paginierung",
+        "fr": "pagination",
+        "es": "paginación"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:Chapter"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

@@ -1,19 +1,19 @@
 {
-  "id": "http://www.w3.org/ns/activitystreams#units",
+  "id": "http://www.w3.org/ns/activitystreams#totalItems",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=www.w3.org%2Fns%2Factivitystreams%23units",
-  "inbox": "https://test.skohub.io/inbox?target=www.w3.org%2Fns%2Factivitystreams%23units",
+  "followers": "https://test.skohub.io/followers?subject=www.w3.org%2Fns%2Factivitystreams%23totalItems",
+  "inbox": "https://test.skohub.io/inbox?target=www.w3.org%2Fns%2Factivitystreams%23totalItems",
   "prefLabel": {
-    "en": "units",
-    "de": "Einheiten",
-    "fr": "unités",
-    "es": "unidades"
+    "en": "total items",
+    "de": "Gesamtanzahl",
+    "fr": "Nombre total",
+    "es": "Número total"
   },
   "definition": {
-    "en": "Specifies the measurement units for the radius and altitude properties on a Place object. If not specified, the default is assumed to be \"m\" for \"meters\".<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-units](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-units)",
-    "de": "Gibt die Maßeinheiten für die Eigenschaften Radius und Höhe eines Place-Objekts an. Wenn nicht angegeben, wird als Standardwert \"m\" für \"Meter\" angenommen.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-units](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-units)",
-    "fr": "Spécifie les unités de mesure pour les propriétés de rayon et d'altitude sur un objet Place. Si elle n'est pas spécifiée, la valeur par défaut est supposée être \"m\" pour \"mètres\".<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-units](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-units)",
-    "es": "Especifica las unidades de medida para las propiedades de radio y altitud de un objeto Lugar. Si no se especifica, se asume que el valor \"m\" por es \"metros\"<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-units](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-units)"
+    "en": "A non-negative integer specifying the total number of objects contained by the logical view of the collection. This number might not reflect the actual number of items serialized within the Collection object instance.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems)",
+    "de": "Eine nicht-negative ganze Zahl, die die Gesamtzahl der Objekte angibt, die in der logischen Sicht der Sammlung enthalten sind. Diese Zahl spiegelt möglicherweise nicht die tatsächliche Anzahl der in der Collection-Objektinstanz serialisierten Objekte wider.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems)",
+    "fr": "Un nombre entier non négatif spécifiant le nombre total d'objets contenus dans la vue logique de la collection. Ce nombre peut ne pas refléter le nombre réel d'éléments sérialisés dans l'instance de l'objet Collection.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems)",
+    "es": "Un número entero no negativo que especifica el número total de objetos que contiene la vista lógica de la colección. Este número puede no reflejar el número real de elementos serializados dentro de la instancia del objeto Colección.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems)"
   },
   "scopeNote": {
     "en": "as: Property",
@@ -22,25 +22,25 @@
     "es": "as: Property"
   },
   "notation": [
-    "3196"
+    "616"
   ],
   "example": {
-    "en": "```json \n[Example 136](https://www.w3.org/TR/activitystreams-vocabulary/#ex157-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex157-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Place\",\n    \"latitude\": 36.75,\n    \"longitude\": 119.7667,\n    \"name\": \"Fresno Area\",\n    \"radius\": 15,\n    \"units\": \"miles\"\n  },\n  \"name\": \"Example 136\"\n}\n```",
-    "de": "```json \n[Example 136](https://www.w3.org/TR/activitystreams-vocabulary/#ex157-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex157-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Place\",\n    \"latitude\": 36.75,\n    \"longitude\": 119.7667,\n    \"name\": \"Fresno Area\",\n    \"radius\": 15,\n    \"units\": \"miles\"\n  },\n  \"name\": \"Example 136\"\n}\n```",
-    "fr": "```json \n[Example 136](https://www.w3.org/TR/activitystreams-vocabulary/#ex157-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex157-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Place\",\n    \"latitude\": 36.75,\n    \"longitude\": 119.7667,\n    \"name\": \"Fresno Area\",\n    \"radius\": 15,\n    \"units\": \"miles\"\n  },\n  \"name\": \"Example 136\"\n}\n```",
-    "es": "```json \n[Example 136](https://www.w3.org/TR/activitystreams-vocabulary/#ex157-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex157-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Place\",\n    \"latitude\": 36.75,\n    \"longitude\": 119.7667,\n    \"name\": \"Fresno Area\",\n    \"radius\": 15,\n    \"units\": \"miles\"\n  },\n  \"name\": \"Example 136\"\n}\n```"
+    "en": "```json \n[Example 135](https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Collection\",\n    \"items\": [\n      {\n        \"type\": \"Note\",\n        \"name\": \"Which Staircase Should I Use\"\n      },\n      {\n        \"type\": \"Note\",\n        \"name\": \"Something to Remember\"\n      }\n    ],\n    \"summary\": \"Sally's notes\",\n    \"totalItems\": 2\n  },\n  \"name\": \"Example 135\"\n}\n```",
+    "de": "```json \n[Example 135](https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Collection\",\n    \"items\": [\n      {\n        \"type\": \"Note\",\n        \"name\": \"Which Staircase Should I Use\"\n      },\n      {\n        \"type\": \"Note\",\n        \"name\": \"Something to Remember\"\n      }\n    ],\n    \"summary\": \"Sally's notes\",\n    \"totalItems\": 2\n  },\n  \"name\": \"Example 135\"\n}\n```",
+    "fr": "```json \n[Example 135](https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Collection\",\n    \"items\": [\n      {\n        \"type\": \"Note\",\n        \"name\": \"Which Staircase Should I Use\"\n      },\n      {\n        \"type\": \"Note\",\n        \"name\": \"Something to Remember\"\n      }\n    ],\n    \"summary\": \"Sally's notes\",\n    \"totalItems\": 2\n  },\n  \"name\": \"Example 135\"\n}\n```",
+    "es": "```json \n[Example 135](https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Collection\",\n    \"items\": [\n      {\n        \"type\": \"Note\",\n        \"name\": \"Which Staircase Should I Use\"\n      },\n      {\n        \"type\": \"Note\",\n        \"name\": \"Something to Remember\"\n      }\n    ],\n    \"summary\": \"Sally's notes\",\n    \"totalItems\": 2\n  },\n  \"name\": \"Example 135\"\n}\n```"
   },
   "broader": {
-    "id": "http://www.w3.org/ns/activitystreams#Place",
+    "id": "http://www.w3.org/ns/activitystreams#Collection",
     "prefLabel": {
-      "en": "Place",
-      "de": "Örtlichkeit",
-      "fr": "Lieu",
-      "es": "Lugar"
+      "en": "Collection",
+      "de": "Sammlung",
+      "fr": "Collection",
+      "es": "Colección"
     }
   },
   "inScheme": {
-    "id": "https://w3id.org/class/redaktor/#scheme",
+    "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
       "en": "ActivityPub: Functions and Relations",
       "de": "ActivityPub: Funktionen und Verbindungen",
@@ -102,59 +102,6 @@
     },
     "note": {
       "@container": "@language"
-    },
-    "notation": {
-      "@container": "@set"
-    },
-    "example": {
-      "@container": "@language"
-    },
-    "narrower": {
-      "@container": "@set"
-    },
-    "related": {
-      "@container": "@set"
-    },
-    "relatedMatch": {
-      "@container": "@set"
-    },
-    "narrowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}pt": {
-      "@container": "@set"
-    }
-  }
-}   "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}iner": "@language"
     },
     "notation": {
       "@container": "@set"
@@ -282,10 +229,10 @@
       "@container": "@set"
     }
   }
-}xample.com/feed.json\",\n    \"preferredUsername\": \"kenzoishii\",\n    \"name\": \"石井健蔵\",\n    \"summary\": \"この方はただの例です\",\n    \"icon\": [\n      \"https://kenzoishii.example.com/image/165987aklre4\"\n    ]\n  },\n  \"name\": \"Example 9\"\n}\n```"
+}example.com/feed.json\",\n    \"preferredUsername\": \"kenzoishii\",\n    \"name\": \"石井健蔵\",\n    \"summary\": \"この方はただの例です\",\n    \"icon\": [\n      \"https://kenzoishii.example.com/image/165987aklre4\"\n    ]\n  },\n  \"name\": \"Example 9\"\n}\n```"
   },
   "broader": {
-    "id": "https://w3id.org/class/redaktor/#Actor",
+    "id": "https://w3id.org/class/redaktor/Actor",
     "prefLabel": {
       "en": "Actor",
       "de": "Akteur",
@@ -294,7 +241,7 @@
     }
   },
   "inScheme": {
-    "id": "https://w3id.org/class/redaktor/#scheme",
+    "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
       "en": "ActivityPub: Functions and Relations",
       "de": "ActivityPub: Funktionen und Verbindungen",
@@ -453,7 +400,7 @@
       "@container": "@set"
     }
   }
-}eams#",
+}ams#",
     "ldp": "http://www.w3.org/ns/ldp#",
     "title": {
       "@id": "dct:title",
@@ -538,9 +485,7 @@
       "@container": "@set"
     }
   }
-}"@container": "@set"
-    },
-    "relatedMatch": {
+} "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -567,13 +512,12 @@
       "@container": "@set"
     }
   }
-}  "de": "Ehepartner",
-        "fr": "conjoint",
+}      "fr": "conjoint",
         "es": "cónyuge"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#taxID",
+      "id": "https://w3id.org/class/redaktor/taxID",
       "prefLabel": {
         "en": "tax ID",
         "de": "Steuer-ID",
@@ -582,7 +526,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#vatID",
+      "id": "https://w3id.org/class/redaktor/vatID",
       "prefLabel": {
         "en": "vat ID",
         "de": "Umsatzsteuer-ID",
@@ -591,7 +535,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#weight",
+      "id": "https://w3id.org/class/redaktor/weight",
       "prefLabel": {
         "en": "weight",
         "de": "Gewicht",
@@ -600,7 +544,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#workLocation",
+      "id": "https://w3id.org/class/redaktor/workLocation",
       "prefLabel": {
         "en": "work location",
         "de": "Arbeitsort",
@@ -609,7 +553,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#worksFor",
+      "id": "https://w3id.org/class/redaktor/worksFor",
       "prefLabel": {
         "en": "works for",
         "de": "Arbeiten für",
@@ -619,7 +563,7 @@
     }
   ],
   "broader": {
-    "id": "https://w3id.org/class/redaktor/#Actor",
+    "id": "https://w3id.org/class/redaktor/Actor",
     "prefLabel": {
       "en": "Actor",
       "de": "Akteur",
@@ -628,7 +572,7 @@
     }
   },
   "inScheme": {
-    "id": "https://w3id.org/class/redaktor/#scheme",
+    "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
       "en": "ActivityPub: Functions and Relations",
       "de": "ActivityPub: Funktionen und Verbindungen",
@@ -730,7 +674,7 @@
       "@container": "@set"
     }
   }
-}": "https://w3id.org/class/redaktor/#ownershipFundingInfo",
+}ttps://w3id.org/class/redaktor/ownershipFundingInfo",
       "prefLabel": {
         "en": "ownership funding info",
         "de": "Eigentum Finanzierungsinfo",
@@ -739,7 +683,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#owns",
+      "id": "https://w3id.org/class/redaktor/owns",
       "prefLabel": {
         "en": "owns",
         "de": "besitzt",
@@ -748,7 +692,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#parentOrganization",
+      "id": "https://w3id.org/class/redaktor/parentOrganization",
       "prefLabel": {
         "en": "parent organization",
         "de": "übergeordnete Organisation",
@@ -757,7 +701,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#publishingPrinciples",
+      "id": "https://w3id.org/class/redaktor/publishingPrinciples",
       "prefLabel": {
         "en": "publishing principles",
         "de": "Verlagsgrundsätze",
@@ -766,7 +710,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#review",
+      "id": "https://w3id.org/class/redaktor/review",
       "prefLabel": {
         "en": "review",
         "de": "Überprüfung",
@@ -775,7 +719,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#reviews",
+      "id": "https://w3id.org/class/redaktor/reviews",
       "prefLabel": {
         "en": "reviews",
         "de": "Überprüfungen",
@@ -784,7 +728,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#seeks",
+      "id": "https://w3id.org/class/redaktor/seeks",
       "prefLabel": {
         "en": "seeks",
         "de": "sucht",
@@ -793,7 +737,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#serviceArea",
+      "id": "https://w3id.org/class/redaktor/serviceArea",
       "prefLabel": {
         "en": "service area",
         "de": "Servicebereich",
@@ -802,7 +746,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#sponsor",
+      "id": "https://w3id.org/class/redaktor/sponsor",
       "prefLabel": {
         "en": "sponsor",
         "de": "Sponsor",
@@ -811,7 +755,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#subOrganization",
+      "id": "https://w3id.org/class/redaktor/subOrganization",
       "prefLabel": {
         "en": "sub organization",
         "de": "Unterorganisation",
@@ -820,7 +764,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#taxID",
+      "id": "https://w3id.org/class/redaktor/taxID",
       "prefLabel": {
         "en": "tax ID",
         "de": "Steuer-ID",
@@ -829,7 +773,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#unnamedSourcesPolicy",
+      "id": "https://w3id.org/class/redaktor/unnamedSourcesPolicy",
       "prefLabel": {
         "en": "unnamed sources policy",
         "de": "Politik der ungenannten Quellen",
@@ -838,7 +782,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#vatID",
+      "id": "https://w3id.org/class/redaktor/vatID",
       "prefLabel": {
         "en": "vat ID",
         "de": "Umsatzsteuer-ID",
@@ -848,7 +792,7 @@
     }
   ],
   "broader": {
-    "id": "https://w3id.org/class/redaktor/#Actor",
+    "id": "https://w3id.org/class/redaktor/Actor",
     "prefLabel": {
       "en": "Actor",
       "de": "Akteur",
@@ -857,7 +801,7 @@
     }
   },
   "inScheme": {
-    "id": "https://w3id.org/class/redaktor/#scheme",
+    "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
       "en": "ActivityPub: Functions and Relations",
       "de": "ActivityPub: Funktionen und Verbindungen",
@@ -959,11 +903,12 @@
       "@container": "@set"
     }
   }
-}n o desde"
+}     "fr": "disponible à ou de",
+        "es": "disponible en o desde"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#availableDeliveryMethod",
+      "id": "https://w3id.org/class/redaktor/availableDeliveryMethod",
       "prefLabel": {
         "en": "available delivery method",
         "de": "verfügbare Liefermethode",
@@ -972,7 +917,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#award",
+      "id": "https://w3id.org/class/redaktor/award",
       "prefLabel": {
         "en": "award",
         "de": "Auszeichnung",
@@ -981,7 +926,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#awards",
+      "id": "https://w3id.org/class/redaktor/awards",
       "prefLabel": {
         "en": "awards",
         "de": "Auszeichnungen",
@@ -990,7 +935,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#brand",
+      "id": "https://w3id.org/class/redaktor/brand",
       "prefLabel": {
         "en": "brand",
         "de": "Marke",
@@ -999,7 +944,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#businessFunction",
+      "id": "https://w3id.org/class/redaktor/businessFunction",
       "prefLabel": {
         "en": "business function",
         "de": "Unternehmensfunktion",
@@ -1008,7 +953,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#category",
+      "id": "https://w3id.org/class/redaktor/category",
       "prefLabel": {
         "en": "category",
         "de": "Kategorie",
@@ -1017,7 +962,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#countryOfOrigin",
+      "id": "https://w3id.org/class/redaktor/countryOfOrigin",
       "prefLabel": {
         "en": "country of origin",
         "de": "Herkunftsland",
@@ -1026,7 +971,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#deliveryLeadTime",
+      "id": "https://w3id.org/class/redaktor/deliveryLeadTime",
       "prefLabel": {
         "en": "delivery lead time",
         "de": "Vorlaufzeit der Lieferung",
@@ -1035,7 +980,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#eligibleCustomerType",
+      "id": "https://w3id.org/class/redaktor/eligibleCustomerType",
       "prefLabel": {
         "en": "eligible customer type",
         "de": "zugelassener Kundentyp",
@@ -1044,7 +989,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#eligibleDuration",
+      "id": "https://w3id.org/class/redaktor/eligibleDuration",
       "prefLabel": {
         "en": "eligible duration",
         "de": "zulässige Dauer",
@@ -1053,7 +998,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#eligibleQuantity",
+      "id": "https://w3id.org/class/redaktor/eligibleQuantity",
       "prefLabel": {
         "en": "eligible quantity",
         "de": "zugelassene Menge",
@@ -1062,7 +1007,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#eligibleRegion",
+      "id": "https://w3id.org/class/redaktor/eligibleRegion",
       "prefLabel": {
         "en": "eligible region",
         "de": "zugelassene Region",
@@ -1071,7 +1016,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#eligibleTransactionVolume",
+      "id": "https://w3id.org/class/redaktor/eligibleTransactionVolume",
       "prefLabel": {
         "en": "eligible transaction volume",
         "de": "zugelassenes Transaktionsvolumen",
@@ -1080,7 +1025,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#funding",
+      "id": "https://w3id.org/class/redaktor/funding",
       "prefLabel": {
         "en": "funding",
         "de": "Finanzierung",
@@ -1089,7 +1034,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#gtin",
+      "id": "https://w3id.org/class/redaktor/gtin",
       "prefLabel": {
         "en": "gtin",
         "de": "gtin",
@@ -1098,7 +1043,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#gtin12",
+      "id": "https://w3id.org/class/redaktor/gtin12",
       "prefLabel": {
         "en": "gtin12",
         "de": "gtin12",
@@ -1107,7 +1052,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#gtin13",
+      "id": "https://w3id.org/class/redaktor/gtin13",
       "prefLabel": {
         "en": "gtin13",
         "de": "gtin13",
@@ -1116,7 +1061,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#gtin14",
+      "id": "https://w3id.org/class/redaktor/gtin14",
       "prefLabel": {
         "en": "gtin14",
         "de": "gtin14",
@@ -1125,7 +1070,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#gtin8",
+      "id": "https://w3id.org/class/redaktor/gtin8",
       "prefLabel": {
         "en": "gtin8",
         "de": "gtin8",
@@ -1134,7 +1079,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#hasAdultConsideration",
+      "id": "https://w3id.org/class/redaktor/hasAdultConsideration",
       "prefLabel": {
         "en": "has adult consideration",
         "de": "hat erwachsene Berücksichtigung",
@@ -1143,7 +1088,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#hasMeasurement",
+      "id": "https://w3id.org/class/redaktor/hasMeasurement",
       "prefLabel": {
         "en": "has measurement",
         "de": "hat Messung",
@@ -1152,7 +1097,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#hasMerchantReturnPolicy",
+      "id": "https://w3id.org/class/redaktor/hasMerchantReturnPolicy",
       "prefLabel": {
         "en": "has merchant return policy",
         "de": "hat Rückgaberecht des Händlers",
@@ -1161,7 +1106,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#height",
+      "id": "https://w3id.org/class/redaktor/height",
       "prefLabel": {
         "en": "height",
         "de": "Höhe",
@@ -1170,7 +1115,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#includesObject",
+      "id": "https://w3id.org/class/redaktor/includesObject",
       "prefLabel": {
         "en": "includes object",
         "de": "schließt Objekt ein",
@@ -1179,7 +1124,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#ineligibleRegion",
+      "id": "https://w3id.org/class/redaktor/ineligibleRegion",
       "prefLabel": {
         "en": "ineligible region",
         "de": "nicht förderfähige Region",
@@ -1188,7 +1133,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#inventoryLevel",
+      "id": "https://w3id.org/class/redaktor/inventoryLevel",
       "prefLabel": {
         "en": "inventory level",
         "de": "Bestandsebene",
@@ -1197,7 +1142,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#isFamilyFriendly",
+      "id": "https://w3id.org/class/redaktor/isFamilyFriendly",
       "prefLabel": {
         "en": "is family friendly",
         "de": "ist familienfreundlich",
@@ -1206,7 +1151,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#isRelatedTo",
+      "id": "https://w3id.org/class/redaktor/isRelatedTo",
       "prefLabel": {
         "en": "is related to",
         "de": "ist verwandt mit",
@@ -1215,7 +1160,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#isSimilarTo",
+      "id": "https://w3id.org/class/redaktor/isSimilarTo",
       "prefLabel": {
         "en": "is similar to",
         "de": "ist ähnlich zu",
@@ -1224,7 +1169,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#itemCondition",
+      "id": "https://w3id.org/class/redaktor/itemCondition",
       "prefLabel": {
         "en": "item condition",
         "de": "Item-Bedingung",
@@ -1233,7 +1178,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#itemOffered",
+      "id": "https://w3id.org/class/redaktor/itemOffered",
       "prefLabel": {
         "en": "item offered",
         "de": "angebotener Artikel",
@@ -1242,7 +1187,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#keywords",
+      "id": "https://w3id.org/class/redaktor/keywords",
       "prefLabel": {
         "en": "keywords",
         "de": "Schlüsselwörter",
@@ -1251,7 +1196,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#logo",
+      "id": "https://w3id.org/class/redaktor/logo",
       "prefLabel": {
         "en": "logo",
         "de": "Logo",
@@ -1260,7 +1205,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#material",
+      "id": "https://w3id.org/class/redaktor/material",
       "prefLabel": {
         "en": "material",
         "de": "Material",
@@ -1269,7 +1214,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#mpn",
+      "id": "https://w3id.org/class/redaktor/mpn",
       "prefLabel": {
         "en": "mpn",
         "de": "mpn",
@@ -1278,7 +1223,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#nutrition",
+      "id": "https://w3id.org/class/redaktor/nutrition",
       "prefLabel": {
         "en": "nutrition",
         "de": "Ernährung",
@@ -1287,7 +1232,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#offers",
+      "id": "https://w3id.org/class/redaktor/offers",
       "prefLabel": {
         "en": "offers",
         "de": "Angebote",
@@ -1296,7 +1241,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#pattern",
+      "id": "https://w3id.org/class/redaktor/pattern",
       "prefLabel": {
         "en": "pattern",
         "de": "Muster",
@@ -1305,7 +1250,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#priceSpecification",
+      "id": "https://w3id.org/class/redaktor/priceSpecification",
       "prefLabel": {
         "en": "price specification",
         "de": "Preisangabe",
@@ -1314,7 +1259,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#review",
+      "id": "https://w3id.org/class/redaktor/review",
       "prefLabel": {
         "en": "review",
         "de": "Überprüfung",
@@ -1323,7 +1268,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#reviews",
+      "id": "https://w3id.org/class/redaktor/reviews",
       "prefLabel": {
         "en": "reviews",
         "de": "Überprüfungen",
@@ -1332,7 +1277,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#seller",
+      "id": "https://w3id.org/class/redaktor/seller",
       "prefLabel": {
         "en": "seller",
         "de": "Verkäufer",
@@ -1341,7 +1286,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#serialNumber",
+      "id": "https://w3id.org/class/redaktor/serialNumber",
       "prefLabel": {
         "en": "serial number",
         "de": "Seriennummer",
@@ -1350,7 +1295,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#size",
+      "id": "https://w3id.org/class/redaktor/size",
       "prefLabel": {
         "en": "size",
         "de": "Größe",
@@ -1359,7 +1304,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#sku",
+      "id": "https://w3id.org/class/redaktor/sku",
       "prefLabel": {
         "en": "sku",
         "de": "sku",
@@ -1368,7 +1313,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#suitableForDiet",
+      "id": "https://w3id.org/class/redaktor/suitableForDiet",
       "prefLabel": {
         "en": "suitable for diet",
         "de": "für die Ernährung geeignet",
@@ -1377,7 +1322,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#validFrom",
+      "id": "https://w3id.org/class/redaktor/validFrom",
       "prefLabel": {
         "en": "valid from",
         "de": "gültig von",
@@ -1386,7 +1331,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#validThrough",
+      "id": "https://w3id.org/class/redaktor/validThrough",
       "prefLabel": {
         "en": "valid through",
         "de": "gültig durch",
@@ -1395,7 +1340,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#warranty",
+      "id": "https://w3id.org/class/redaktor/warranty",
       "prefLabel": {
         "en": "warranty",
         "de": "Garantie",
@@ -1404,7 +1349,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#weight",
+      "id": "https://w3id.org/class/redaktor/weight",
       "prefLabel": {
         "en": "weight",
         "de": "Gewicht",
@@ -1414,7 +1359,7 @@
     }
   ],
   "inScheme": {
-    "id": "https://w3id.org/class/redaktor/#scheme",
+    "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
       "en": "ActivityPub: Functions and Relations",
       "de": "ActivityPub: Funktionen und Verbindungen",
@@ -1423,7 +1368,7 @@
     }
   },
   "topConceptOf": {
-    "id": "https://w3id.org/class/redaktor/#scheme"
+    "id": "https://w3id.org/class/redaktor/scheme"
   },
   "@context": {
     "@version": 1.1,

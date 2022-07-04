@@ -1,0 +1,185 @@
+{
+  "id": "https://w3id.org/class/redaktor/MusicGroup",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FMusicGroup",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FMusicGroup",
+  "prefLabel": {
+    "en": "Music Group",
+    "de": "Musikgruppe",
+    "fr": "Groupe de musique",
+    "es": "Grupo de música"
+  },
+  "definition": {
+    "en": "A musical group, such as a band, an orchestra, or a choir. Can also be a solo musician.",
+    "de": "Eine Musikgruppe, z. B. eine Band, ein Orchester oder ein Chor. Kann auch ein Solomusiker sein.",
+    "fr": "Un groupe musical, tel qu'un groupe, un orchestre ou une chorale. Peut également être un musicien solo.",
+    "es": "Grupo musical, como una banda, una orquesta o un coro. También puede ser un músico solista."
+  },
+  "notation": [
+    "1721"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/album",
+      "prefLabel": {
+        "en": "album",
+        "de": "Album",
+        "fr": "album",
+        "es": "álbum"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/albums",
+      "prefLabel": {
+        "en": "albums",
+        "de": "Alben",
+        "fr": "albums",
+        "es": "álbumes"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/genre",
+      "prefLabel": {
+        "en": "genre",
+        "de": "Genre",
+        "fr": "genre",
+        "es": "género"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/musicGroupMember",
+      "prefLabel": {
+        "en": "music group member",
+        "de": "Mitglied der Musikgruppe",
+        "fr": "membre d'un groupe de musique",
+        "es": "miembro del grupo musical"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/track",
+      "prefLabel": {
+        "en": "track",
+        "de": "Strecke",
+        "fr": "piste",
+        "es": "pista"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/tracks",
+      "prefLabel": {
+        "en": "tracks",
+        "de": "Strecken",
+        "fr": "pistes",
+        "es": "pistas"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:MusicGroup"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

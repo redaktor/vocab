@@ -1,0 +1,194 @@
+{
+  "id": "https://w3id.org/class/redaktor/Book",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FBook",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FBook",
+  "prefLabel": {
+    "en": "Book",
+    "de": "Buch",
+    "fr": "Livre",
+    "es": "Libro"
+  },
+  "definition": {
+    "en": "A book.",
+    "de": "Ein Buch.",
+    "fr": "Un livre.",
+    "es": "Un libro."
+  },
+  "notation": [
+    "1509"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/Audiobook",
+      "prefLabel": {
+        "en": "Audiobook",
+        "de": "Hörbuch",
+        "fr": "Livre audio",
+        "es": "Audiolibro"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/abridged",
+      "prefLabel": {
+        "en": "abridged",
+        "de": "Gekürzt",
+        "fr": "abrégé",
+        "es": "abreviado"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/bookEdition",
+      "prefLabel": {
+        "en": "book edition",
+        "de": "Buchausgabe",
+        "fr": "édition du livre",
+        "es": "edición de libros"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/bookFormat",
+      "prefLabel": {
+        "en": "book format",
+        "de": "Buchformat",
+        "fr": "format du livre",
+        "es": "formato de libro"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/illustrator",
+      "prefLabel": {
+        "en": "illustrator",
+        "de": "Illustrator",
+        "fr": "illustrator",
+        "es": "ilustrador"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/isbn",
+      "prefLabel": {
+        "en": "isbn",
+        "de": "isbn",
+        "fr": "isbn",
+        "es": "isbn"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/numberOfPages",
+      "prefLabel": {
+        "en": "number of pages",
+        "de": "Anzahl der Seiten",
+        "fr": "nombre de pages",
+        "es": "número de páginas"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:Book"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

@@ -1,19 +1,19 @@
 {
-  "id": "https://joinpeertube.org/ns#playlists",
+  "id": "https://joinpeertube.org/ns#waitTranscoding",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=joinpeertube.org%2Fns%23playlists",
-  "inbox": "https://test.skohub.io/inbox?target=joinpeertube.org%2Fns%23playlists",
+  "followers": "https://test.skohub.io/followers?subject=joinpeertube.org%2Fns%23waitTranscoding",
+  "inbox": "https://test.skohub.io/inbox?target=joinpeertube.org%2Fns%23waitTranscoding",
   "prefLabel": {
-    "en": "playlists",
-    "de": "playlists",
-    "fr": "playlists",
-    "es": "playlists"
+    "en": "wait transcoding",
+    "de": "Transkodieren abwarten",
+    "fr": "attendre le transcodage",
+    "es": "esperar la transcodificación"
   },
   "definition": {
-    "en": "?",
-    "de": "?",
-    "fr": "?",
-    "es": "?"
+    "en": "Whether or not we wait transcoding before publish the video.<br>ver [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
+    "de": "Ob wir mit der Transkodierung warten, bevor wir das Video veröffentlichen.<br>ver [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
+    "fr": "Si nous attendons ou non le transcodage avant de publier la vidéo.<br>voir [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
+    "es": "Esperar o no la transcodificación antes de publicar el vídeo.<br>ver [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)"
   },
   "scopeNote": {
     "en": "ActivityPub Community",
@@ -22,16 +22,16 @@
     "es": "ActivityPub Community"
   },
   "notation": [
-    "1028"
+    "1037"
   ],
   "example": {
-    "en": "?",
-    "de": "?",
-    "fr": "?",
-    "es": "?"
+    "en": "```json \n{\n  \"type\": \"Video\",\n  \"views\": 35,\n  \"support\": \"Pay me a coffee when you see me\",\n  \"waitTranscoding\": true\n}```",
+    "de": "```json \n{\n  \"type\": \"Video\",\n  \"views\": 35,\n  \"support\": \"Pay me a coffee when you see me\",\n  \"waitTranscoding\": true\n}```",
+    "fr": "```json \n{\n  \"type\": \"Video\",\n  \"views\": 35,\n  \"support\": \"Pay me a coffee when you see me\",\n  \"waitTranscoding\": true\n}```",
+    "es": "```json \n{\n  \"type\": \"Video\",\n  \"views\": 35,\n  \"support\": \"Pay me a coffee when you see me\",\n  \"waitTranscoding\": true\n}```"
   },
   "inScheme": {
-    "id": "https://w3id.org/class/redaktor/#scheme",
+    "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
       "en": "ActivityPub: Functions and Relations",
       "de": "ActivityPub: Funktionen und Verbindungen",
@@ -127,78 +127,6 @@
     "exactMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}      "@type": "xsd:date"
-    },
-    "creator": "dct:creator",
-    "publisher": "dct:publisher",
-    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
-    "preferredNamespaceUri": "vann:preferredNamespaceUri",
-    "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
-    "prefLabel": {
-      "@container": "@language"
-    },
-    "altLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
-    "definition": {
-      "@container": "@language"
-    },
-    "scopeNote": {
-      "@container": "@language"
-    },
-    "note": {
-      "@container": "@language"
-    },
-    "notation": {
-      "@container": "@set"
-    },
-    "example": {
-      "@container": "@language"
-    },
-    "narrower": {
-      "@container": "@set"
-    },
-    "related": {
-      "@container": "@set"
-    },
-    "relatedMatch": {
-      "@container": "@set"
-    },
-    "narrowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-},
     "followers": "as:followers",
     "inbox": "ldp:inbox",
     "hasTopConcept": {

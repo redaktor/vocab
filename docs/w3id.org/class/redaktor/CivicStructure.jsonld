@@ -1,0 +1,749 @@
+{
+  "id": "https://w3id.org/class/redaktor/CivicStructure",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FCivicStructure",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FCivicStructure",
+  "prefLabel": {
+    "en": "Civic Structure",
+    "de": "Öffentliche oder zivilgesellschaftliche Struktur",
+    "fr": "Structure civique",
+    "es": "Estructura cívica"
+  },
+  "definition": {
+    "en": "A public structure, such as a town hall or concert hall.",
+    "de": "Ein öffentliches Gebäude, wie ein Rathaus oder ein Konzertsaal.",
+    "fr": "Une structure publique, telle qu'un hôtel de ville ou une salle de concert.",
+    "es": "Una estructura pública, como un ayuntamiento o una sala de conciertos."
+  },
+  "notation": [
+    "1072"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/Airport",
+      "prefLabel": {
+        "en": "Airport",
+        "de": "Flughafen",
+        "fr": "Aéroport",
+        "es": "Aeropuorto"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Aquarium",
+      "prefLabel": {
+        "en": "Aquarium",
+        "de": "Aquarium",
+        "fr": "Aquarium",
+        "es": "Acuario"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Beach",
+      "prefLabel": {
+        "en": "Beach",
+        "de": "Strand",
+        "fr": "Plage",
+        "es": "Playa"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/BoatTerminal",
+      "prefLabel": {
+        "en": "Boat Terminal",
+        "de": "Schiffsterminal",
+        "fr": "Terminal à bateaux",
+        "es": "Terminal de barcos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Bridge",
+      "prefLabel": {
+        "en": "Bridge",
+        "de": "Brücke",
+        "fr": "Pont",
+        "es": "Puente"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/BusStation",
+      "prefLabel": {
+        "en": "Bus station",
+        "de": "Busbahnhof",
+        "fr": "Gare routière",
+        "es": "Estación de autobuses"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/BusStop",
+      "prefLabel": {
+        "en": "Bus Stop",
+        "de": "Bushaltestelle",
+        "fr": "Arrêt de bus",
+        "es": "Parada de autobús"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Campground",
+      "prefLabel": {
+        "en": "Campground",
+        "de": "Zeltplatz",
+        "fr": "Terrain de camping",
+        "es": "Sitio de camping"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Cemetery",
+      "prefLabel": {
+        "en": "Cemetery",
+        "de": "Friedhof",
+        "fr": "Cimetière",
+        "es": "Cementerio"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Crematorium",
+      "prefLabel": {
+        "en": "Crematorium",
+        "de": "Krematorium",
+        "fr": "Crématorium",
+        "es": "Crematorio"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/EducationalOrganization",
+      "prefLabel": {
+        "en": "Educational organization",
+        "de": "Bildungs-Organisation",
+        "fr": "Organisme de formation",
+        "es": "Organización educativa"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/FireStation",
+      "prefLabel": {
+        "en": "Fire station",
+        "de": "Feuerwehrhaus",
+        "fr": "Caserne de pompiers",
+        "es": "Parque de bomberos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/GovernmentBuilding",
+      "prefLabel": {
+        "en": "Government building",
+        "de": "Regierungsgebäude",
+        "fr": "Bâtiment du gouvernement",
+        "es": "Edificio gubernamental"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Hospital",
+      "prefLabel": {
+        "en": "Hospital",
+        "de": "Krankenhaus",
+        "fr": "Hôpital",
+        "es": "Hospital"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Library",
+      "prefLabel": {
+        "en": "Library",
+        "de": "Bibliothek",
+        "fr": "Bibliothèque",
+        "es": "Biblioteca"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/MovieTheater",
+      "prefLabel": {
+        "en": "Movie theater",
+        "de": "Kino",
+        "fr": "Cinéma",
+        "es": "Cine"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Museum",
+      "prefLabel": {
+        "en": "Museum",
+        "de": "Museum"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/MusicVenue",
+      "prefLabel": {
+        "en": "Music venue",
+        "de": "Musik Spielort",
+        "fr": "Musée",
+        "es": "Museo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Park",
+      "prefLabel": {
+        "en": "Park",
+        "de": "Park",
+        "fr": "Parc",
+        "es": "Parque"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ParkingFacility",
+      "prefLabel": {
+        "en": "Parking facility",
+        "de": "Parkplatz",
+        "fr": "Parking",
+        "es": "Aparcamiento"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/PerformingArtsTheater",
+      "prefLabel": {
+        "en": "Performing arts theater",
+        "de": "Theater",
+        "fr": "Théâtre des arts de la scène",
+        "es": "Teatro de artes escénicas"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/PlaceOfWorship",
+      "prefLabel": {
+        "en": "Place of worship",
+        "de": "Kultstätte",
+        "fr": "Lieu de culte",
+        "es": "Lugar de culto"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Playground",
+      "prefLabel": {
+        "en": "Playground",
+        "de": "Spielplatz",
+        "fr": "Parque infantil",
+        "es": "Terrain de jeux"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/PoliceStation",
+      "prefLabel": {
+        "en": "Police station",
+        "de": "Polizeiwache",
+        "fr": "Commissariat de police",
+        "es": "Estación de policía"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/PublicToilet",
+      "prefLabel": {
+        "en": "Public Toilet",
+        "de": "Öffentliche Toilette",
+        "fr": "Toilettes publiques",
+        "es": "Aseo público"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/RVPark",
+      "prefLabel": {
+        "en": "RV Park",
+        "de": "Wohnmobil-Park",
+        "fr": "Parc pour VR",
+        "es": "Parque de autocaravanas"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/StadiumOrArena",
+      "prefLabel": {
+        "en": "Stadium or Arena",
+        "de": "Stadion oder Arena",
+        "fr": "Stade ou arène",
+        "es": "Estadio o Arena"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/SubwayStation",
+      "prefLabel": {
+        "en": "Subway Station",
+        "de": "U-Bahn Station",
+        "fr": "Station de métro",
+        "es": "metro"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/TaxiStand",
+      "prefLabel": {
+        "en": "Taxi stand",
+        "de": "Taxi Stand",
+        "fr": "Station de taxis",
+        "es": "Parada de taxis"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/TrainStation",
+      "prefLabel": {
+        "en": "Train station",
+        "de": "Bahnhof",
+        "fr": "Gare ferroviaire",
+        "es": "Estación de tren"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Zoo",
+      "prefLabel": {
+        "en": "Zoo",
+        "de": "Zoo",
+        "fr": "Zoo",
+        "es": "Zoo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/AnimalBoarding",
+      "prefLabel": {
+        "en": "Animal Boarding",
+        "de": "Tierpensionen",
+        "fr": "Embarquement des animaux",
+        "es": "Embarque de animales"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/AutomatedTeller",
+      "prefLabel": {
+        "en": "Automated Teller",
+        "de": "Geldautomat",
+        "fr": "Distributeur automatique de billets",
+        "es": "Cajero automático"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/BankOrCreditUnion",
+      "prefLabel": {
+        "en": "Bank or Credit Union",
+        "de": "Bank oder Kreditgenossenschaft",
+        "fr": "Banque ou coopérative de crédit",
+        "es": "Banco o cooperativa de crédito"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/CurrencyConversionService",
+      "prefLabel": {
+        "en": "Currency Conversion Service",
+        "de": "Währungsumrechnungsdienst",
+        "fr": "Service de conversion de devises",
+        "es": "Servicio de cambio de moneda"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/BicycleRepairStation",
+      "prefLabel": {
+        "en": "Bicycle Repair Station",
+        "de": "Fahrrad-Reparaturstation",
+        "fr": "Station de réparation de bicyclettes",
+        "es": "Estación de reparación de bicicletas"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ChargingStation",
+      "prefLabel": {
+        "en": "Charging",
+        "de": "Aufladestation",
+        "fr": "Station de recharge",
+        "es": "Estación de carga"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/EventVenue",
+      "prefLabel": {
+        "en": "Event Venue",
+        "de": "Veranstaltungsort",
+        "fr": "Lieu d'événement",
+        "es": "Centro de eventos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Bench",
+      "prefLabel": {
+        "en": "Bench",
+        "de": "Sitzbank",
+        "fr": "Établi",
+        "es": "Banquillo, Banco"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/RangerStation",
+      "prefLabel": {
+        "en": "Ranger Station",
+        "de": "Ranger-Station",
+        "fr": "Poste de garde forestier",
+        "es": "Estación de guardabosques"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/VehicleInspection",
+      "prefLabel": {
+        "en": "Vehicle Inspection",
+        "de": "Fahrzeug-Inspektion",
+        "fr": "Inspection des véhicules",
+        "es": "Inspección de vehículos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ElectricScooter",
+      "prefLabel": {
+        "en": "Electric Scooter",
+        "de": "Elektro-Roller",
+        "fr": "Scooter électrique",
+        "es": "Scooter eléctrico"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/GardenBotanical",
+      "prefLabel": {
+        "en": "Botanical Garden",
+        "de": "Botanischer Garten",
+        "fr": "Jardin botanique",
+        "es": "Jardín Botánico"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/GardenCommunity",
+      "prefLabel": {
+        "en": "Community Garden",
+        "de": "Community Garten",
+        "fr": "Jardin communautaire",
+        "es": "Jardín comunitario"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/BabyHatch",
+      "prefLabel": {
+        "en": "Baby Hatch",
+        "de": "Babyklappe",
+        "fr": "Trappe à bébé",
+        "es": "Trampilla para bebés"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/BakingOven",
+      "prefLabel": {
+        "en": "Baking Oven",
+        "de": "Backofen",
+        "fr": "Four à pain",
+        "es": "Horno de panadería"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/DiveCentre",
+      "prefLabel": {
+        "en": "Dive Centre",
+        "de": "Tauchzentrum",
+        "fr": "Centre de plongée",
+        "es": "Centro de buceo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/DogPark",
+      "prefLabel": {
+        "en": "Dog Park",
+        "de": "Hundepark",
+        "fr": "Parc à chiens",
+        "es": "Parque para perros"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/DrivingSchool",
+      "prefLabel": {
+        "en": "Driving School",
+        "de": "Fahrschule",
+        "fr": "École d'attelage",
+        "es": "Escuela de Conducción"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Firepit",
+      "prefLabel": {
+        "en": "Firepit",
+        "de": "Feuerstelle",
+        "fr": "Foyer",
+        "es": "Parrilla de fuego"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Fishing",
+      "prefLabel": {
+        "en": "Fishing",
+        "de": "Angeln",
+        "fr": "Pêche",
+        "es": "Pesca"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/GiveBoxOrExchangeNetwork",
+      "prefLabel": {
+        "en": "Give Box Or Exchange Network",
+        "de": "Give Box oder Tauschbörse",
+        "fr": "Réseau de boîtes ou d'échanges",
+        "es": "Red de cajas de regalo o de intercambio"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Hackerspace",
+      "prefLabel": {
+        "en": "Hackerspace",
+        "de": "Hackerspace",
+        "fr": "Hackerspace",
+        "es": "Hackerspace"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/HorseRiding",
+      "prefLabel": {
+        "en": "Horse Riding",
+        "de": "Reiten",
+        "fr": "Equitation",
+        "es": "Hípica"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/MiniatureGolf",
+      "prefLabel": {
+        "en": "Miniature Golf",
+        "de": "Miniaturgolf",
+        "fr": "Golf miniature",
+        "es": "Golf en miniatura"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/NatureReserve",
+      "prefLabel": {
+        "en": "Nature Reserve",
+        "fr": "Réserve naturelle",
+        "es": "Reserva natural"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ParcelLocker",
+      "prefLabel": {
+        "en": "Parcel Locker",
+        "de": "Schließfach, Paketstation",
+        "fr": "Casier à colis",
+        "es": "Casillero de paquetes"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/PhotoBooth",
+      "prefLabel": {
+        "en": "Photo Booth",
+        "de": "Fotokabine",
+        "fr": "Photomaton",
+        "es": "Cabina de fotos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/PicnicTable",
+      "prefLabel": {
+        "en": "Picnic Table",
+        "de": "Picknick-Tisch",
+        "fr": "Table de pique-nique",
+        "es": "Mesa de picnic"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Planetarium",
+      "prefLabel": {
+        "en": "Planetarium",
+        "de": "Planetarium",
+        "fr": "Planétarium",
+        "es": "Planetario"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/PublicBookcase",
+      "prefLabel": {
+        "en": "Public Bookcase",
+        "de": "Öffentliches Bücherregal",
+        "fr": "Étagère à livres publique",
+        "es": "Estantería pública"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/RefugeeSite",
+      "prefLabel": {
+        "en": "Refugee Site",
+        "de": "Flüchtlingscamp",
+        "fr": "Site de réfugiés",
+        "es": "Sitio para refugiados"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Shelter",
+      "prefLabel": {
+        "en": "Shelter",
+        "de": "Unterstand",
+        "fr": "Abri",
+        "es": "Refugio"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Sauna",
+      "prefLabel": {
+        "en": "Sauna",
+        "de": "Sauna",
+        "fr": "Sauna",
+        "es": "Sauna"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Shower",
+      "prefLabel": {
+        "en": "Shower",
+        "de": "Dusche",
+        "fr": "Douche",
+        "es": "Ducha"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/SocialFacility",
+      "prefLabel": {
+        "en": "Social Facility",
+        "de": "Soziale Einrichtung",
+        "fr": "Installation sociale",
+        "es": "Instalación social"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Studio",
+      "prefLabel": {
+        "en": "Studio or Atelier",
+        "de": "Produktionsstudio oder Atelier",
+        "fr": "Studio ou Atelier",
+        "es": "Estudio / Atelier"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/WildlifeHide",
+      "prefLabel": {
+        "en": "Wildlife or Bird Hide",
+        "de": "Versteck Wildtiere oder Vogelwarte",
+        "fr": "Refuge, animaux sauvages ou oiseaux",
+        "es": "Escondite de la fauna"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/openingHours",
+      "prefLabel": {
+        "en": "opening hours",
+        "de": "öffnungszeiten",
+        "fr": "heures d'ouverture",
+        "es": "horario de apertura"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:CivicStructure"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

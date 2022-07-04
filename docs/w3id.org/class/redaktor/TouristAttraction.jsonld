@@ -1,0 +1,143 @@
+{
+  "id": "https://w3id.org/class/redaktor/TouristAttraction",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FTouristAttraction",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FTouristAttraction",
+  "prefLabel": {
+    "en": "Tourist Attraction",
+    "de": "Sehenswürdigkeit",
+    "fr": "Attraction touristique",
+    "es": "Atracción turística"
+  },
+  "definition": {
+    "en": "A tourist attraction. In principle any Thing can be a TouristAttraction, from a Mountain and LandmarksOrHistoricalBuildings to a LocalBusiness. This Type can be used on its own to describe a general TouristAttraction, or be used as an additionalType to add tourist attraction properties to any other type.",
+    "de": "Eine Touristenattraktion. Im Prinzip kann jedes Ding eine TouristAttraction sein, von einem Berg über LandmarksOrHistoricalBuildings bis hin zu einem LocalBusiness. Dieser Typ kann für sich allein verwendet werden, um eine allgemeine TouristAttraction zu beschreiben, oder er kann als zusätzlicher Typ verwendet werden, um Eigenschaften einer Touristenattraktion zu jedem anderen Typ hinzuzufügen.",
+    "fr": "Une attraction touristique. En principe, toute chose peut être une TouristAttraction, d'une montagne et de LandmarksOrHistoricalBuildings à un LocalBusiness. Ce type peut être utilisé seul pour décrire une attraction touristique générale, ou être utilisé comme un type supplémentaire pour ajouter des propriétés d'attraction touristique à tout autre type.",
+    "es": "Una atracción turística. En principio, cualquier cosa puede ser una TouristAttraction, desde una montaña y LandmarksOrHistoricalBuildings hasta un LocalBusiness. Este tipo puede utilizarse por sí solo para describir una atracción turística general o como un tipo adicional para añadir propiedades de atracción turística a cualquier otro tipo."
+  },
+  "notation": [
+    "1078"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/availableLanguage"
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/touristType",
+      "prefLabel": {
+        "en": "tourist type",
+        "de": "Touristentyp",
+        "fr": "type de touriste",
+        "es": "tipo de turista"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:TouristAttraction"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

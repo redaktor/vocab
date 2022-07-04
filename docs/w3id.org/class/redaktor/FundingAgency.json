@@ -1,0 +1,129 @@
+{
+  "id": "https://w3id.org/class/redaktor/FundingAgency",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FFundingAgency",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FFundingAgency",
+  "prefLabel": {
+    "en": "Funding Agency",
+    "de": "Fördermittelgeber",
+    "fr": "Organisme de financement",
+    "es": "Agencia de financiación"
+  },
+  "definition": {
+    "en": "A FundingAgency is an organization that implements one or more FundingSchemes and manages the granting process (via Grants, typically MonetaryGrants). A funding agency is not always required for grant funding, e.g. philanthropic giving, corporate sponsorship etc.",
+    "de": "Eine FundingAgency ist eine Organisation, die ein oder mehrere FundingSchemes implementiert und den Bewilligungsprozess verwaltet (über Grants, typischerweise MonetaryGrants). Eine Förderagentur ist nicht immer für die Gewährung von Finanzhilfen erforderlich, z. B. bei philanthropischen Spenden, Unternehmenssponsoring usw.",
+    "fr": "Un FundingAgency est une organisation qui met en œuvre un ou plusieurs FundingSchemes et gère le processus d'octroi (via des Grants, généralement des MonetaryGrants). Une agence de financement n'est pas toujours nécessaire pour l'octroi de subventions, par exemple dans le cas de dons philanthropiques, de parrainage d'entreprise, etc.",
+    "es": "Una FundingAgency es una organización que implementa uno o más FundingSchemes y gestiona el proceso de concesión (a través de Grants, típicamente MonetaryGrants). No siempre se requiere una agencia de financiación para obtener una subvención, por ejemplo, en el caso de las donaciones filantrópicas, el patrocinio empresarial, etc."
+  },
+  "notation": [
+    "1716"
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:FundingAgency"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

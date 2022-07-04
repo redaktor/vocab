@@ -1,19 +1,19 @@
 {
-  "id": "http://joinmastodon.org/ns#featuredTags",
+  "id": "http://joinmastodon.org/ns#IdentityProof",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=joinmastodon.org%2Fns%23featuredTags",
-  "inbox": "https://test.skohub.io/inbox?target=joinmastodon.org%2Fns%23featuredTags",
+  "followers": "https://test.skohub.io/followers?subject=joinmastodon.org%2Fns%23IdentityProof",
+  "inbox": "https://test.skohub.io/inbox?target=joinmastodon.org%2Fns%23IdentityProof",
   "prefLabel": {
-    "en": "featured tags",
-    "de": "featured tags",
-    "fr": "featured tags",
-    "es": "featured tags"
+    "en": "Identity Proof",
+    "de": "Identitätsbeweis",
+    "fr": "Preuve d'identité",
+    "es": "Prueba de identidad"
   },
   "definition": {
-    "en": "Mastodon allows users to feature specific hashtags on their profile for easy browsing, as a discoverability mechanism. This is implemented using an extra property featuredTags on the actor object that points to a Collection of Hashtag objects specifically.<br>see [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#featuredTags)",
-    "de": "Mastodon ermöglicht es Nutzern, bestimmte Hashtags in ihrem Profil zu kennzeichnen, um die Auffindbarkeit zu erleichtern. Dies wird durch eine zusätzliche Eigenschaft featuredTags am actor-Objekt implementiert, die auf eine Sammlung von Hashtag-Objekten verweist.<br>siehe [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#featuredTags)",
-    "fr": "Mastodon permet aux utilisateurs d'afficher des hashtags spécifiques sur leur profil pour faciliter la navigation, comme un mécanisme de découverte. Ceci est mis en œuvre en utilisant une propriété supplémentaire featuredTags sur l'objet actor qui pointe vers une collection d'objets Hashtag spécifiques.<br>voir [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#featuredTags)",
-    "es": "Mastodon permite a los usuarios destacar hashtags específicos en su perfil para facilitar la navegación, como mecanismo de descubrimiento. Esto se implementa utilizando una propiedad extra featuredTags en el objeto actor que apunta a una colección de objetos Hashtag específicamente.<br>ver [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#featuredTags)"
+    "en": "Mastodon supports integration with identity providers to prove that a profile is linked to a certain identity. This is implemented using the attachment property on actor objects, with objects in the array having a type of IdentityProof from the Mastodon namespace. The object also includes signatureAlgorithm and signatureValue from the W3ID Security Vocabulary namespace.<br>see [mastodon documentation 'Identity proofs'](https://docs.joinmastodon.org/spec/activitypub/#IdentityProof)",
+    "de": "Mastodon unterstützt die Integration mit Identitätsanbietern, um zu beweisen, daß ein Profil mit einer bestimmten Identität verbunden ist. Dies wird über die Eigenschaft attachment bei Actor-Objekten implementiert, wobei die Objekte im Array den Typ IdentityProof aus dem Mastodon-Namensraum aufweisen. Das Objekt enthält auch signatureAlgorithm und signatureValue aus dem W3ID Security Vocabulary Namespace.<br>siehe [mastodon documentation 'Identity proofs'](https://docs.joinmastodon.org/spec/activitypub/#IdentityProof)",
+    "fr": "Mastodon supporte l'intégration avec les fournisseurs d'identité pour prouver qu'un profil est lié à une certaine identité. Ceci est mis en œuvre en utilisant la propriété attachment sur les objets actor, avec des objets dans le tableau ayant un type IdentityProof de l'espace de noms Mastodon. L'objet comprend également signatureAlgorithm et signatureValue de l'espace de noms W3ID Security Vocabulary.<br>voir [mastodon documentation 'Identity proofs'](https://docs.joinmastodon.org/spec/activitypub/#IdentityProof)",
+    "es": "Mastodon admite la integración con proveedores de identidad para demostrar que un perfil está vinculado a una determinada identidad. Esto se implementa utilizando la propiedad attachment en los objetos actor, con objetos en la matriz que tienen un tipo de IdentityProof del espacio de nombres Mastodon. El objeto también incluye signatureAlgorithm y signatureValue del espacio de nombres W3ID Security Vocabulary.<br>ver [mastodon documentation 'Identity proofs'](https://docs.joinmastodon.org/spec/activitypub/#IdentityProof)"
   },
   "scopeNote": {
     "en": "ActivityPub Community",
@@ -22,16 +22,16 @@
     "es": "ActivityPub Community"
   },
   "notation": [
-    "1016"
+    "1012"
   ],
   "example": {
-    "en": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"featuredTags\": {\n        \"@id\": \"toot:featuredTags\",\n        \"@type\": \"@id\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice\",\n  \"type\": \"Person\",\n  \"featuredTags\": \"https://example.com/@alice/collections/tags\"\n}```",
-    "de": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"featuredTags\": {\n        \"@id\": \"toot:featuredTags\",\n        \"@type\": \"@id\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice\",\n  \"type\": \"Person\",\n  \"featuredTags\": \"https://example.com/@alice/collections/tags\"\n}```",
-    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"featuredTags\": {\n        \"@id\": \"toot:featuredTags\",\n        \"@type\": \"@id\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice\",\n  \"type\": \"Person\",\n  \"featuredTags\": \"https://example.com/@alice/collections/tags\"\n}```",
-    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"featuredTags\": {\n        \"@id\": \"toot:featuredTags\",\n        \"@type\": \"@id\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice\",\n  \"type\": \"Person\",\n  \"featuredTags\": \"https://example.com/@alice/collections/tags\"\n}```"
+    "en": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    \"https://w3id.org/security/v1\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"IdentityProof\": \"toot:IdentityProof\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"attachment\": [\n    {\n      \"type\": \"IdentityProof\",\n      \"name\": \"gargron\",\n      \"signatureAlgorithm\": \"keybase\",\n      \"signatureValue\": \"5cfc20c7018f2beefb42a68836da59a792e55daa4d118498c9b1898de7e845690f\"\n    }\n  ]\n}```",
+    "de": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    \"https://w3id.org/security/v1\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"IdentityProof\": \"toot:IdentityProof\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"attachment\": [\n    {\n      \"type\": \"IdentityProof\",\n      \"name\": \"gargron\",\n      \"signatureAlgorithm\": \"keybase\",\n      \"signatureValue\": \"5cfc20c7018f2beefb42a68836da59a792e55daa4d118498c9b1898de7e845690f\"\n    }\n  ]\n}```",
+    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    \"https://w3id.org/security/v1\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"IdentityProof\": \"toot:IdentityProof\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"attachment\": [\n    {\n      \"type\": \"IdentityProof\",\n      \"name\": \"gargron\",\n      \"signatureAlgorithm\": \"keybase\",\n      \"signatureValue\": \"5cfc20c7018f2beefb42a68836da59a792e55daa4d118498c9b1898de7e845690f\"\n    }\n  ]\n}```",
+    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    \"https://w3id.org/security/v1\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"IdentityProof\": \"toot:IdentityProof\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"attachment\": [\n    {\n      \"type\": \"IdentityProof\",\n      \"name\": \"gargron\",\n      \"signatureAlgorithm\": \"keybase\",\n      \"signatureValue\": \"5cfc20c7018f2beefb42a68836da59a792e55daa4d118498c9b1898de7e845690f\"\n    }\n  ]\n}```"
   },
   "inScheme": {
-    "id": "https://w3id.org/class/redaktor/#scheme",
+    "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
       "en": "ActivityPub: Functions and Relations",
       "de": "ActivityPub: Funktionen und Verbindungen",
@@ -133,57 +133,7 @@
       "@container": "@set"
     }
   }
-}{
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}b": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "dct": "http://purl.org/dc/terms/",
-    "schema": "http://schema.org/",
-    "vann": "http://purl.org/vocab/vann/",
-    "as": "https://www.w3.org/ns/activitystreams#",
-    "ldp": "http://www.w3.org/ns/ldp#",
-    "title": {
-      "@id": "dct:title",
-      "@container": "@language"
-    },
-    "description": {
-      "@id": "dct:description",
-      "@container": "@language"
-    },
-    "issued": {
-      "@id": "dct:issued",
-      "@type": "xsd:date"
-    },
-    "created": {
-      "@id": "dct:created",
-      "@type": "xsd:date"
-    },
-    "modified": {
-      "@id": "dct:modified",
-      "@type": "xsd:date"
-    },
-    "creator": "dct:creator",
-    "publisher": "dct:publisher",
-    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
-    "preferredNamespaceUri": "vann:preferredNamespaceUri",
-    "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
-    "prefLabel": {
-      "@container": "@language"
-    },
-    "altLabel": {
-      "@container": [
-        "@language",
+}    "@language",
         "@set"
       ]
     },

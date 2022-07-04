@@ -25,7 +25,7 @@
     "es": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://dev.example/aviva/treesim\",\n    \"type\": \"Repository\",\n    \"name\": \"Tree Growth 3D Simulation\",\n    \"summary\": \"<p>Tree growth 3D simulator for my nature exploration game</p>\",\n    \"sendPatchesTo\": \"https://bugs.example/projects/treesim\"\n}```"
   },
   "broader": {
-    "id": "https://w3id.org/class/redaktor/#forgefed",
+    "id": "https://w3id.org/class/redaktor/forgefed",
     "prefLabel": {
       "en": "ForgeFed",
       "de": "ForgeFed",
@@ -34,7 +34,7 @@
     }
   },
   "inScheme": {
-    "id": "https://w3id.org/class/redaktor/#scheme",
+    "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
       "en": "ActivityPub: Functions and Relations",
       "de": "ActivityPub: Funktionen und Verbindungen",

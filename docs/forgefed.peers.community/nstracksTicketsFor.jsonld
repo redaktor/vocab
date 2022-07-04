@@ -25,7 +25,7 @@
     "es": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://bugs.example/treesim\",\n    \"type\": \"Project\",\n    \"tracksTicketsFor\": [\n        \"https://dev.example/aviva/liblsystem\",\n        \"https://dev.example/aviva/3d-tree-models\",\n        \"https://dev.example/aviva/treesim\"\n    ]\n}```"
   },
   "broader": {
-    "id": "https://w3id.org/class/redaktor/#forgefed",
+    "id": "https://w3id.org/class/redaktor/forgefed",
     "prefLabel": {
       "en": "ForgeFed",
       "de": "ForgeFed",
@@ -34,7 +34,7 @@
     }
   },
   "inScheme": {
-    "id": "https://w3id.org/class/redaktor/#scheme",
+    "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
       "en": "ActivityPub: Functions and Relations",
       "de": "ActivityPub: Funktionen und Verbindungen",

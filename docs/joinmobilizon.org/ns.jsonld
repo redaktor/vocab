@@ -14,7 +14,7 @@
   ],
   "narrower": [
     {
-      "id": "https://w3id.org/class/redaktor/#allow_all",
+      "id": "https://w3id.org/class/redaktor/allow_all",
       "prefLabel": {
         "en": "allow_all",
         "de": "allow_all",
@@ -23,7 +23,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#closed",
+      "id": "https://w3id.org/class/redaktor/closed",
       "prefLabel": {
         "en": "closed",
         "de": "closed",
@@ -32,7 +32,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/#moderated",
+      "id": "https://w3id.org/class/redaktor/moderated",
       "prefLabel": {
         "en": "moderated",
         "de": "moderated",
@@ -51,7 +51,7 @@
     }
   },
   "inScheme": {
-    "id": "https://w3id.org/class/redaktor/#scheme",
+    "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
       "en": "ActivityPub: Functions and Relations",
       "de": "ActivityPub: Funktionen und Verbindungen",
@@ -153,7 +153,7 @@
       "@container": "@set"
     }
   }
-}led\",\n        \"@type\": \"sc:Boolean\"\n      }\n    }\n  ],\n  \"...\": \"...\",\n  \"repliesModerationOption\": \"allow_all\",\n  \"commentsEnabled\": true,\n  \"type\": \"Event\",\n  \"url\": \"http://mobilizon1.com/events/8cf76e9f-c426-4912-9cd6-c7030b969611\"\n}``` ",
+}Enabled\",\n        \"@type\": \"sc:Boolean\"\n      }\n    }\n  ],\n  \"...\": \"...\",\n  \"repliesModerationOption\": \"allow_all\",\n  \"commentsEnabled\": true,\n  \"type\": \"Event\",\n  \"url\": \"http://mobilizon1.com/events/8cf76e9f-c426-4912-9cd6-c7030b969611\"\n}``` ",
     "es": "```json \n{\n  \"@context\": [\n    \"...\",\n    {\n      \"mz\": \"https://joinmobilizon.org/ns#\",\n      \"pt\": \"https://joinpeertube.org/ns#\",\n      \"repliesModerationOption\": {\n        \"@id\": \"mz:repliesModerationOption\",\n        \"@type\": \"mz:repliesModerationOptionType\"\n      },\n      \"repliesModerationOptionType\": {\n        \"@id\": \"mz:repliesModerationOptionType\",\n        \"@type\": \"rdfs:Class\"\n      },\n      \"commentsEnabled\": {\n        \"@id\": \"pt:commentsEnabled\",\n        \"@type\": \"sc:Boolean\"\n      }\n    }\n  ],\n  \"...\": \"...\",\n  \"repliesModerationOption\": \"allow_all\",\n  \"commentsEnabled\": true,\n  \"type\": \"Event\",\n  \"url\": \"http://mobilizon1.com/events/8cf76e9f-c426-4912-9cd6-c7030b969611\"\n}``` "
   },
   "narrower": [
@@ -168,7 +168,7 @@
     }
   ],
   "inScheme": {
-    "id": "https://w3id.org/class/redaktor/#scheme",
+    "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
       "en": "ActivityPub: Functions and Relations",
       "de": "ActivityPub: Funktionen und Verbindungen",

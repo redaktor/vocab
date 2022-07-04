@@ -1,18 +1,19 @@
 {
-  "id": "https://test.skohub.io/joinpeertube.org/ns#permanentLive",
+  "id": "https://test.skohub.io/joinpeertube.org/ns#views",
   "type": "Service",
-  "preferredUsername": "6a6f696e70656572747562652e6f72672f6e73237065726d616e656e744c697665",
-  "inbox": "https://test.skohub.io/inbox?target=joinpeertube.org%2Fns%23permanentLive",
-  "followers": "https://test.skohub.io/followers?subject=joinpeertube.org%2Fns%23permanentLive",
+  "preferredUsername": "6a6f696e70656572747562652e6f72672f6e73237669657773",
+  "inbox": "https://test.skohub.io/inbox?target=joinpeertube.org%2Fns%23views",
+  "followers": "https://test.skohub.io/followers?subject=joinpeertube.org%2Fns%23views",
   "publicKey": {
-    "id": "https://test.skohub.io/joinpeertube.org/ns#permanentLive#main-key",
-    "owner": "https://test.skohub.io/joinpeertube.org/ns#permanentLive",
+    "id": "https://test.skohub.io/joinpeertube.org/ns#views#main-key",
+    "owner": "https://test.skohub.io/joinpeertube.org/ns#views",
     "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyr05JFWnpFGTr423+IRU\nHOgAuoF0RSxdwPpvXbX5uh+2jUBvhXzzklhc5nwfE3XruHTifJWyXFWucJlDPEI1\nxR5p0C0zfqY74ioEoKorifc8no8ZDTQRvIIEqNe0Ezbe085Foc3UWG1kimPcPlqU\nnsgCYgO4UWJ27qABE+yGDykZALdMlAt+dwOPD10NcqmvupH5pgWZJJ9vW2ErTaDt\n2R52JIpqH6CvCsI7jpLyYH60W0N0J0sjSH95lZnyVDYDbplIEPUPpGKYSVJW+dNU\nCxReZBiwS76VDQhyl1lT5JusRCogvsX/bwJrIZ8fJcOBArDx2skknzUHKkjNITsD\nTwIDAQAB\n-----END PUBLIC KEY-----\n"
   },
   "@context": [
     "https://www.w3.org/ns/activitystreams",
     "https://w3id.org/security/v1"
   ]
-}rity/v1"
+}w.w3.org/ns/activitystreams",
+    "https://w3id.org/security/v1"
   ]
 }

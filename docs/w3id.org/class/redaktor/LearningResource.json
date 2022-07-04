@@ -1,0 +1,220 @@
+{
+  "id": "https://w3id.org/class/redaktor/LearningResource",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FLearningResource",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FLearningResource",
+  "prefLabel": {
+    "en": "Learning Resource",
+    "de": "Lern-Ressource",
+    "fr": "Ressource d'apprentissage",
+    "es": "Recurso de aprendizaje"
+  },
+  "altLabel": {
+    "en": [
+      "Educational material"
+    ],
+    "de": [
+      "Lehrmaterial"
+    ]
+  },
+  "definition": {
+    "en": "The LearningResource type can be used to indicate [CreativeWork](https://schema.org/CreativeWork)s (whether physical or digital) that have a particular and explicit orientation towards learning, education, skill acquisition, and other educational purposes.<br><br>[LearningResource](https://schema.org/LearningResource) is expected to be used as an addition to a primary type such as :Book, as:Video etc.<br><br>[EducationEvent](https://schema.org/EducationEvent) serves a similar purpose for event-like things (e.g. a [Trip](https://schema.org/Trip)). A [LearningResource](https://schema.org/LearningResource) may be created as a result of an [EducationEvent](https://schema.org/EducationEvent), for example by recording one.",
+    "de": "Der Typ LearningResource kann verwendet werden, um CreativeWorks (physisch oder digital) zu kennzeichnen, die eine besondere und ausdrückliche Ausrichtung auf das Lernen, die Ausbildung, den Erwerb von Fähigkeiten und andere Bildungszwecke haben.<br>LearningResource soll als Zusatz zu einem primären Typ wie Book, VideoObject, Product usw. verwendet werden.<br>EducationEvent dient einem ähnlichen Zweck für ereignisähnliche Dinge (z. B. eine Reise). Eine LearningResource kann als Ergebnis eines EducationEvents erstellt werden, zum Beispiel durch Aufzeichnung eines solchen.",
+    "fr": "Le type LearningResource peut être utilisé pour indiquer les [CreativeWork](https://schema.org/CreativeWork)s (physiques ou numériques) qui ont une orientation particulière et explicite vers l'apprentissage, l'éducation, l'acquisition de compétences et d'autres objectifs éducatifs.<br><br>LearningResource est censé être utilisé comme un complément à un type primaire tel que :Book, as:Video etc.<br><br>EducationEvent sert un objectif similaire pour les choses semblables à des événements (par exemple, un voyage). Une LearningResource peut être créée à la suite d'un EducationEvent, par exemple en l'enregistrant.",
+    "es": "The LearningResource type can be used to indicate [CreativeWork](https://schema.org/CreativeWork)s (whether physical or digital) that have a particular and explicit orientation towards learning, education, skill acquisition, and other educational purposes.<br><br>[LearningResource](https://schema.org/LearningResource) is expected to be used as an addition to a primary type such as [Book](https://schema.org/Book), [VideoObject](https://schema.org/VideoObject), [Product](https://schema.org/Product) etc.<br><br>[EducationEvent](https://schema.org/EducationEvent) serves a similar purpose for event-like things (e.g. a [Trip](https://schema.org/Trip)). A [LearningResource](https://schema.org/LearningResource) may be created as a result of an [EducationEvent](https://schema.org/EducationEvent), for example by recording one."
+  },
+  "notation": [
+    "1520"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/Course",
+      "prefLabel": {
+        "en": "Course",
+        "de": "Kurs",
+        "fr": "Cours",
+        "es": "Curso"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Quiz",
+      "prefLabel": {
+        "en": "Quiz",
+        "de": "Quiz",
+        "fr": "Quiz",
+        "es": "Cuestionario"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/assesses",
+      "prefLabel": {
+        "en": "assesses",
+        "de": "bewertet",
+        "fr": "évalue",
+        "es": "evalúa"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/competencyRequired",
+      "prefLabel": {
+        "en": "competency required",
+        "de": "erforderliche Kompetenz",
+        "fr": "compétence requise",
+        "es": "competencia requerida"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/educationalAlignment",
+      "prefLabel": {
+        "en": "educational alignment",
+        "de": "pädagogische Ausrichtung",
+        "fr": "alignement éducatif",
+        "es": "alineación educativa"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/educationalLevel",
+      "prefLabel": {
+        "en": "educational level",
+        "de": "Bildungsniveau",
+        "fr": "niveau d'éducation",
+        "es": "nivel educativo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/educationalUse",
+      "prefLabel": {
+        "en": "educational use",
+        "de": "pädagogische Nutzung",
+        "fr": "usage éducatif",
+        "es": "uso educativo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/learningResourceType",
+      "prefLabel": {
+        "en": "learning resource type",
+        "de": "Lernressourcen-Typ",
+        "fr": "type de ressource pédagogique",
+        "es": "tipo de recurso de aprendizaje"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/teaches",
+      "prefLabel": {
+        "en": "teaches",
+        "de": "unterrichtet",
+        "fr": "enseigne",
+        "es": "enseña"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:LearningResource"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

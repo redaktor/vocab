@@ -1,0 +1,230 @@
+{
+  "id": "https://w3id.org/class/redaktor/NewsMediaOrganization",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FNewsMediaOrganization",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FNewsMediaOrganization",
+  "prefLabel": {
+    "en": "News Media Organization",
+    "de": "Nachrichtenmedienorganisation",
+    "fr": "Organisation de médias d'information",
+    "es": "Organización de medios de comunicación"
+  },
+  "definition": {
+    "en": "A News/Media organization such as a newspaper or TV station.",
+    "de": "Eine Nachrichten-/Medienorganisation wie z. B. eine Zeitung oder ein Fernsehsender.",
+    "fr": "Une organisation de médias d'information, telle qu'un journal ou une chaîne de télévision.",
+    "es": "Organización de noticias/medios de comunicación, como un periódico o una cadena de televisión."
+  },
+  "notation": [
+    "1708"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/actionableFeedbackPolicy",
+      "prefLabel": {
+        "en": "actionable feedback policy",
+        "de": "Richtlinie für verwertbares Feedback",
+        "fr": "politique de retour d'information",
+        "es": "política de retroalimentación procesable"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/correctionsPolicy",
+      "prefLabel": {
+        "en": "corrections policy",
+        "de": "Politik der Korrekturen",
+        "fr": "politique de correction",
+        "es": "política de correcciones"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/diversityPolicy",
+      "prefLabel": {
+        "en": "diversity policy",
+        "de": "Diversitätspolitik",
+        "fr": "politique de diversité",
+        "es": "política de diversidad"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/diversityStaffingReport",
+      "prefLabel": {
+        "en": "diversity staffing report",
+        "de": "bericht zur personellen vielfalt",
+        "fr": "rapport sur la diversité du personnel",
+        "es": "informe de la plantilla de diversidad"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ethicsPolicy",
+      "prefLabel": {
+        "en": "ethics policy",
+        "de": "ethische Grundsätze",
+        "fr": "politique d'éthique",
+        "es": "política ética"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/masthead",
+      "prefLabel": {
+        "en": "masthead",
+        "de": "Impressum",
+        "fr": "tête de mât",
+        "es": "cabecera"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/missionCoveragePrioritiesPolicy",
+      "prefLabel": {
+        "en": "mission coverage priorities policy",
+        "de": "Missionsabdeckung Prioritäten Politik",
+        "fr": "mission couverture priorités politique",
+        "es": "política de prioridades de cobertura de la misión"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/noBylinesPolicy",
+      "prefLabel": {
+        "en": "no bylines policy",
+        "de": "keine bylines politik",
+        "fr": "politique d'absence de signature",
+        "es": "política de no titularidad"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ownershipFundingInfo",
+      "prefLabel": {
+        "en": "ownership funding info",
+        "de": "Eigentum Finanzierungsinfo",
+        "fr": "informations sur le financement de la propriété",
+        "es": "información sobre la financiación de la propiedad"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/unnamedSourcesPolicy",
+      "prefLabel": {
+        "en": "unnamed sources policy",
+        "de": "Politik der ungenannten Quellen",
+        "fr": "politique des sources anonymes",
+        "es": "política de fuentes no identificadas"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/verificationFactCheckingPolicy",
+      "prefLabel": {
+        "en": "verification fact checking policy",
+        "de": "Überprüfung der Fakten",
+        "fr": "politique de vérification des faits",
+        "es": "política de verificación de hechos"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:NewsMediaOrganization"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

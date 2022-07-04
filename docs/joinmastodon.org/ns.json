@@ -1,33 +1,19 @@
 {
-  "id": "http://joinmastodon.org/ns#featured",
+  "id": "http://joinmastodon.org/ns#featuredTags",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=joinmastodon.org%2Fns%23featured",
-  "inbox": "https://test.skohub.io/inbox?target=joinmastodon.org%2Fns%23featured",
+  "followers": "https://test.skohub.io/followers?subject=joinmastodon.org%2Fns%23featuredTags",
+  "inbox": "https://test.skohub.io/inbox?target=joinmastodon.org%2Fns%23featuredTags",
   "prefLabel": {
-    "en": "featured",
-    "de": "featured",
-    "fr": "featured",
-    "es": "featured"
-  },
-  "altLabel": {
-    "en": [
-      "Pinned posts"
-    ],
-    "de": [
-      "Angepinnt"
-    ],
-    "fr": [
-      "épinglés"
-    ],
-    "es": [
-      "Mensajes anclados"
-    ]
+    "en": "featured tags",
+    "de": "featured tags",
+    "fr": "featured tags",
+    "es": "featured tags"
   },
   "definition": {
-    "en": "What is known in Mastodon as “pinned toots”, or statuses that are always featured at the top of people’s profiles, is implemented using an extra property featured on the actor object that points to a Collection of objects.<br>see [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#featured)",
-    "de": "Was in Mastodon als “pinned toots” bekannt ist, oder Status, der immer an der Spitze der Profile von Personen angezeigt wird, wird durch eine zusätzliche Eigenschaft des Akteursobjekts implementiert, die auf eine Sammlung von Objekten zeigt.<br>siehe [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#featured)",
-    "fr": "Ce que l'on appelle dans Mastodon les “pinned toots”, c'est-à-dire les statuts qui figurent toujours en haut des profils des personnes, est mis en œuvre à l'aide d'une propriété supplémentaire de l'objet actor qui pointe vers une collection d'objets.<br>voir [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#featured)",
-    "es": "Lo que se conoce en Mastodon como “pinned toots”, o estados que siempre aparecen en la parte superior de los perfiles de las personas, se implementa utilizando una propiedad extra que aparece en el objeto actor y que apunta a una Colección de objetos.<br>ver [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#featured)"
+    "en": "Mastodon allows users to feature specific hashtags on their profile for easy browsing, as a discoverability mechanism. This is implemented using an extra property featuredTags on the actor object that points to a Collection of Hashtag objects specifically.<br>see [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#featuredTags)",
+    "de": "Mastodon ermöglicht es Nutzern, bestimmte Hashtags in ihrem Profil zu kennzeichnen, um die Auffindbarkeit zu erleichtern. Dies wird durch eine zusätzliche Eigenschaft featuredTags am actor-Objekt implementiert, die auf eine Sammlung von Hashtag-Objekten verweist.<br>siehe [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#featuredTags)",
+    "fr": "Mastodon permet aux utilisateurs d'afficher des hashtags spécifiques sur leur profil pour faciliter la navigation, comme un mécanisme de découverte. Ceci est mis en œuvre en utilisant une propriété supplémentaire featuredTags sur l'objet actor qui pointe vers une collection d'objets Hashtag spécifiques.<br>voir [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#featuredTags)",
+    "es": "Mastodon permite a los usuarios destacar hashtags específicos en su perfil para facilitar la navegación, como mecanismo de descubrimiento. Esto se implementa utilizando una propiedad extra featuredTags en el objeto actor que apunta a una colección de objetos Hashtag específicamente.<br>ver [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#featuredTags)"
   },
   "scopeNote": {
     "en": "ActivityPub Community",
@@ -36,16 +22,16 @@
     "es": "ActivityPub Community"
   },
   "notation": [
-    "1015"
+    "1016"
   ],
   "example": {
-    "en": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"featured\": {\n        \"@id\": \"toot:featured\",\n        \"@type\": \"@id\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice\",\n  \"type\": \"Person\",\n  \"featured\": \"https://example.com/@alice/collections/featured\"\n}```",
-    "de": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"featured\": {\n        \"@id\": \"toot:featured\",\n        \"@type\": \"@id\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice\",\n  \"type\": \"Person\",\n  \"featured\": \"https://example.com/@alice/collections/featured\"\n}```",
-    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"featured\": {\n        \"@id\": \"toot:featured\",\n        \"@type\": \"@id\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice\",\n  \"type\": \"Person\",\n  \"featured\": \"https://example.com/@alice/collections/featured\"\n}```",
-    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"featured\": {\n        \"@id\": \"toot:featured\",\n        \"@type\": \"@id\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice\",\n  \"type\": \"Person\",\n  \"featured\": \"https://example.com/@alice/collections/featured\"\n}```"
+    "en": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"featuredTags\": {\n        \"@id\": \"toot:featuredTags\",\n        \"@type\": \"@id\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice\",\n  \"type\": \"Person\",\n  \"featuredTags\": \"https://example.com/@alice/collections/tags\"\n}```",
+    "de": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"featuredTags\": {\n        \"@id\": \"toot:featuredTags\",\n        \"@type\": \"@id\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice\",\n  \"type\": \"Person\",\n  \"featuredTags\": \"https://example.com/@alice/collections/tags\"\n}```",
+    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"featuredTags\": {\n        \"@id\": \"toot:featuredTags\",\n        \"@type\": \"@id\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice\",\n  \"type\": \"Person\",\n  \"featuredTags\": \"https://example.com/@alice/collections/tags\"\n}```",
+    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"featuredTags\": {\n        \"@id\": \"toot:featuredTags\",\n        \"@type\": \"@id\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice\",\n  \"type\": \"Person\",\n  \"featuredTags\": \"https://example.com/@alice/collections/tags\"\n}```"
   },
   "inScheme": {
-    "id": "https://w3id.org/class/redaktor/#scheme",
+    "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
       "en": "ActivityPub: Functions and Relations",
       "de": "ActivityPub: Funktionen und Verbindungen",
@@ -147,9 +133,7 @@
       "@container": "@set"
     }
   }
-}set"
-    },
-    "closeMatch": {
+}{
       "@container": "@set"
     },
     "exactMatch": {

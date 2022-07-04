@@ -1,0 +1,158 @@
+{
+  "id": "https://w3id.org/class/redaktor/HyperTocEntry",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FHyperTocEntry",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FHyperTocEntry",
+  "prefLabel": {
+    "en": "Hyper Toc Entry",
+    "de": "HyperToc Eintrag",
+    "fr": "Entrée HyperToc",
+    "es": "Entrada HyperToc"
+  },
+  "definition": {
+    "en": "A HyperToEntry is an item within a [HyperToc](https://schema.org/HyperToc), which represents a hypertext table of contents for complex media objects, such as [VideoObject](https://schema.org/VideoObject), [AudioObject](https://schema.org/AudioObject). The media object itself is indicated using [associatedMedia](https://schema.org/associatedMedia). Each section of interest within that content can be described with a [HyperTocEntry](https://schema.org/HyperTocEntry), with associated [startOffset](https://schema.org/startOffset) and [endOffset](https://schema.org/endOffset). When several entries are all from the same file, [associatedMedia](https://schema.org/associatedMedia) is used on the overarching [HyperTocEntry](https://schema.org/HyperTocEntry); if the content has been split into multiple files, they can be referenced using [associatedMedia](https://schema.org/associatedMedia) on each [HyperTocEntry](https://schema.org/HyperTocEntry).",
+    "de": "Ein HyperToEntry ist ein Element innerhalb eines HyperToc, das ein Hypertext-Inhaltsverzeichnis für komplexe Medienobjekte, wie as:Video, as:Audio, darstellt. Das Medienobjekt selbst wird mit associatedMedia angegeben. Jeder Abschnitt von Interesse innerhalb dieses Inhalts kann mit einem HyperTocEntry beschrieben werden, mit zugehörigem startOffset und endOffset. Wenn mehrere Einträge aus der gleichen Datei stammen, wird associatedMedia für den übergreifenden HyperTocEntry verwendet; wenn der Inhalt in mehrere Dateien aufgeteilt wurde, können diese mit associatedMedia für jeden HyperTocEntry referenziert werden.",
+    "fr": "Un HyperToEntry est un élément d'un [HyperToc](https://schema.org/HyperToc), qui représente une table des matières hypertexte pour des objets médias complexes, tels que as:Video, as:Audio. L'objet média lui-même est indiqué par [associatedMedia](https://schema.org/associatedMedia). Chaque section intéressante de ce contenu peut être décrite par une HyperTocEntry, avec les startOffset et endOffset associés. Lorsque plusieurs entrées proviennent toutes du même fichier, [associatedMedia](https://schema.org/associatedMedia) est utilisé sur l'[HyperTocEntry](https://schema.org/HyperTocEntry) global ; si le contenu a été divisé en plusieurs fichiers, ils peuvent être référencés en utilisant associatedMedia sur chaque HyperTocEntry.",
+    "es": "A HyperToEntry is an item within a [HyperToc](https://schema.org/HyperToc), which represents a hypertext table of contents for complex media objects, such as [VideoObject](https://schema.org/VideoObject), [AudioObject](https://schema.org/AudioObject). The media object itself is indicated using [associatedMedia](https://schema.org/associatedMedia). Each section of interest within that content can be described with a [HyperTocEntry](https://schema.org/HyperTocEntry), with associated [startOffset](https://schema.org/startOffset) and [endOffset](https://schema.org/endOffset). When several entries are all from the same file, [associatedMedia](https://schema.org/associatedMedia) is used on the overarching [HyperTocEntry](https://schema.org/HyperTocEntry); if the content has been split into multiple files, they can be referenced using [associatedMedia](https://schema.org/associatedMedia) on each [HyperTocEntry](https://schema.org/HyperTocEntry)."
+  },
+  "notation": [
+    "1519"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/associatedMedia",
+      "prefLabel": {
+        "en": "associated media",
+        "de": "assoziierte Medien",
+        "fr": "média associé",
+        "es": "medios asociados"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/tocContinuation",
+      "prefLabel": {
+        "en": "toc continuation",
+        "de": "toc-Fortsetzung",
+        "fr": "continuation du toc",
+        "es": "continuación de toc"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/utterances",
+      "prefLabel": {
+        "en": "utterances",
+        "de": "Äußerungen",
+        "fr": "énoncés",
+        "es": "declaraciones"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:HyperTocEntry"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

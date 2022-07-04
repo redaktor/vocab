@@ -25,7 +25,7 @@
     "es": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://dev.example/aviva/notes/107\",\n    \"type\": \"Note\",\n    \"attributedTo\": \"https://dev.example/aviva\",\n    \"content\": \"I agree!!!!! (edit: fixed a typo)\",\n    \"previousVersions\": [\n       \"https://dev.example/aviva/notes/107_old_version\",\n       \"https://dev.example/aviva/notes/107_very_old_version\",\n       \"https://dev.example/aviva/notes/107_ancient_version\"\n    ]\n}```"
   },
   "broader": {
-    "id": "https://w3id.org/class/redaktor/#forgefed",
+    "id": "https://w3id.org/class/redaktor/forgefed",
     "prefLabel": {
       "en": "ForgeFed",
       "de": "ForgeFed",
@@ -34,7 +34,7 @@
     }
   },
   "inScheme": {
-    "id": "https://w3id.org/class/redaktor/#scheme",
+    "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
       "en": "ActivityPub: Functions and Relations",
       "de": "ActivityPub: Funktionen und Verbindungen",
