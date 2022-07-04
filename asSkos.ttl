@@ -4730,7 +4730,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:broader :CreativeWork, :redaktor ;
   skos:notation "1520" ;
   skos:prefLabel "Lern-Ressource"@de, "Learning Resource"@en, "Ressource d'apprentissage"@fr, "Recurso de aprendizaje"@es ;
-  skos:prefLabel "Lehrmaterial"@de, "Educational material"@en, ""@fr, ""@es ;
+  skos:altLabel "Lehrmaterial"@de, "Educational material"@en, ""@fr, ""@es ;
   skos:definition "Der Typ LearningResource kann verwendet werden, um CreativeWorks (physisch oder digital) zu kennzeichnen, die eine besondere und ausdrückliche Ausrichtung auf das Lernen, die Ausbildung, den Erwerb von Fähigkeiten und andere Bildungszwecke haben.<br>LearningResource soll als Zusatz zu einem primären Typ wie Book, VideoObject, Product usw. verwendet werden.<br>EducationEvent dient einem ähnlichen Zweck für ereignisähnliche Dinge (z. B. eine Reise). Eine LearningResource kann als Ergebnis eines EducationEvents erstellt werden, zum Beispiel durch Aufzeichnung eines solchen."@de,
     "The LearningResource type can be used to indicate [CreativeWork](https://schema.org/CreativeWork)s (whether physical or digital) that have a particular and explicit orientation towards learning, education, skill acquisition, and other educational purposes.<br><br>[LearningResource](https://schema.org/LearningResource) is expected to be used as an addition to a primary type such as :Book, as:Video etc.<br><br>[EducationEvent](https://schema.org/EducationEvent) serves a similar purpose for event-like things (e.g. a [Trip](https://schema.org/Trip)). A [LearningResource](https://schema.org/LearningResource) may be created as a result of an [EducationEvent](https://schema.org/EducationEvent), for example by recording one."@en,
     "Le type LearningResource peut être utilisé pour indiquer les [CreativeWork](https://schema.org/CreativeWork)s (physiques ou numériques) qui ont une orientation particulière et explicite vers l'apprentissage, l'éducation, l'acquisition de compétences et d'autres objectifs éducatifs.<br><br>LearningResource est censé être utilisé comme un complément à un type primaire tel que :Book, as:Video etc.<br><br>EducationEvent sert un objectif similaire pour les choses semblables à des événements (par exemple, un voyage). Une LearningResource peut être créée à la suite d'un EducationEvent, par exemple en l'enregistrant."@fr,
@@ -8315,7 +8315,7 @@ schema:maximumAttendeeCapacity a owl:DatatypeProperty, owl:FunctionalProperty, s
   skos:broader :AutomotiveBusiness, :redaktor ;
   skos:notation "1212" ;
   skos:prefLabel "Tankstelle"@de, "Gas Station"@en, "Station service"@fr, "Gasolinera"@es ;
-  skos:prefLabel "Benzin"@de, "Petrol Station"@en, "Station essence"@fr, "Gasolina"@es ;
+  skos:altLabel "Benzin"@de, "Petrol Station"@en, "Station essence"@fr, "Gasolina"@es ;
   skos:scopeNote as:Place ;
   schema:amenityFeature "amenity=fuel" ;
   rdfs:label "GasStation"@en ;
@@ -8371,7 +8371,7 @@ schema:maximumAttendeeCapacity a owl:DatatypeProperty, owl:FunctionalProperty, s
   skos:broader :EntertainmentBusiness, :redaktor ;
   skos:notation "1218" ;
   skos:prefLabel "Kasino"@de, "Casino"@en, "Casino"@fr, "Casino"@es ;
-  skos:prefLabel "Casino"@de, "honky-tonk"@en, "Maison de jeu"@fr, "Casino"@es ;
+  skos:altLabel "Casino"@de, "honky-tonk"@en, "Maison de jeu"@fr, "Casino"@es ;
   skos:scopeNote as:Place ;
   schema:amenityFeature "amenity=casino" ;
   rdfs:label "Casino"@en ;
@@ -8579,7 +8579,7 @@ schema:maximumAttendeeCapacity a owl:DatatypeProperty, owl:FunctionalProperty, s
   skos:broader :HealthAndBeautyBusiness, :SportsActivityLocation, :redaktor ;
   skos:notation "1237" ;
   skos:prefLabel "Fitnesszentrum"@de, "Fitness Centre"@en, "centre de fitness"@fr, "centro de fitness"@es ;
-  skos:prefLabel "Gesundheitsclub"@de, "Health Club"@en, "Club de santé"@fr, "Club de salud"@es ;
+  skos:altLabel "Gesundheitsclub"@de, "Health Club"@en, "Club de santé"@fr, "Club de salud"@es ;
   skos:scopeNote as:Place ;
   schema:amenityFeature "leisure=fitness centre" ;
   rdfs:label "HealthClub"@en ;
@@ -9689,7 +9689,7 @@ schema:maximumAttendeeCapacity a owl:DatatypeProperty, owl:FunctionalProperty, s
   skos:broader :CivicStructure, :redaktor ;
   skos:notation "1345" ;
   skos:prefLabel "Miniaturgolf"@de, "Miniature Golf"@en, "Golf miniature"@fr, "Golf en miniatura"@es ;
-  skos:prefLabel "Minigolf"@de, "Mini Golf"@en, "minigolf"@fr, "minigolf"@es ;
+  skos:altLabel "Minigolf"@de, "Mini Golf"@en, "minigolf"@fr, "minigolf"@es ;
   skos:scopeNote as:Place ;
   schema:amenityFeature "amenity=miniature_golf" ;
   rdfs:label "MiniatureGolf"@en ;
