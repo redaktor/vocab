@@ -1,19 +1,19 @@
 {
-  "id": "http://www.w3.org/ns/activitystreams#totalItems",
+  "id": "http://www.w3.org/ns/activitystreams#url",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=www.w3.org%2Fns%2Factivitystreams%23totalItems",
-  "inbox": "https://test.skohub.io/inbox?target=www.w3.org%2Fns%2Factivitystreams%23totalItems",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23url",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23url",
   "prefLabel": {
-    "en": "total items",
-    "de": "Gesamtanzahl",
-    "fr": "Nombre total",
-    "es": "Número total"
+    "en": "url",
+    "de": "url",
+    "fr": "url",
+    "es": "url"
   },
   "definition": {
-    "en": "A non-negative integer specifying the total number of objects contained by the logical view of the collection. This number might not reflect the actual number of items serialized within the Collection object instance.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems)",
-    "de": "Eine nicht-negative ganze Zahl, die die Gesamtzahl der Objekte angibt, die in der logischen Sicht der Sammlung enthalten sind. Diese Zahl spiegelt möglicherweise nicht die tatsächliche Anzahl der in der Collection-Objektinstanz serialisierten Objekte wider.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems)",
-    "fr": "Un nombre entier non négatif spécifiant le nombre total d'objets contenus dans la vue logique de la collection. Ce nombre peut ne pas refléter le nombre réel d'éléments sérialisés dans l'instance de l'objet Collection.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems)",
-    "es": "Un número entero no negativo que especifica el número total de objetos que contiene la vista lógica de la colección. Este número puede no reflejar el número real de elementos serializados dentro de la instancia del objeto Colección.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems)"
+    "en": "Identifies one or more links to representations of the object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)",
+    "de": "Kennzeichnet einen oder mehrere Links zu Darstellungen des Objekts.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)",
+    "fr": "Identifie un ou plusieurs liens vers des représentations de l'objet.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)",
+    "es": "Identifica uno o varios enlaces a representaciones del objeto.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)"
   },
   "scopeNote": {
     "en": "as: Property",
@@ -22,21 +22,21 @@
     "es": "as: Property"
   },
   "notation": [
-    "616"
+    "339"
   ],
   "example": {
-    "en": "```json \n[Example 135](https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Collection\",\n    \"items\": [\n      {\n        \"type\": \"Note\",\n        \"name\": \"Which Staircase Should I Use\"\n      },\n      {\n        \"type\": \"Note\",\n        \"name\": \"Something to Remember\"\n      }\n    ],\n    \"summary\": \"Sally's notes\",\n    \"totalItems\": 2\n  },\n  \"name\": \"Example 135\"\n}\n```",
-    "de": "```json \n[Example 135](https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Collection\",\n    \"items\": [\n      {\n        \"type\": \"Note\",\n        \"name\": \"Which Staircase Should I Use\"\n      },\n      {\n        \"type\": \"Note\",\n        \"name\": \"Something to Remember\"\n      }\n    ],\n    \"summary\": \"Sally's notes\",\n    \"totalItems\": 2\n  },\n  \"name\": \"Example 135\"\n}\n```",
-    "fr": "```json \n[Example 135](https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Collection\",\n    \"items\": [\n      {\n        \"type\": \"Note\",\n        \"name\": \"Which Staircase Should I Use\"\n      },\n      {\n        \"type\": \"Note\",\n        \"name\": \"Something to Remember\"\n      }\n    ],\n    \"summary\": \"Sally's notes\",\n    \"totalItems\": 2\n  },\n  \"name\": \"Example 135\"\n}\n```",
-    "es": "```json \n[Example 135](https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Collection\",\n    \"items\": [\n      {\n        \"type\": \"Note\",\n        \"name\": \"Which Staircase Should I Use\"\n      },\n      {\n        \"type\": \"Note\",\n        \"name\": \"Something to Remember\"\n      }\n    ],\n    \"summary\": \"Sally's notes\",\n    \"totalItems\": 2\n  },\n  \"name\": \"Example 135\"\n}\n```"
+    "en": "```json \n[Example 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld) [Example 110](https://www.w3.org/TR/activitystreams-vocabulary/#ex125-jsonld) [Example 111](https://www.w3.org/TR/activitystreams-vocabulary/#ex126-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Document\",\n    \"name\": \"4Q Sales Forecast\",\n    \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n  },\n  \"name\": \"Example 109\"\n}\n```",
+    "de": "```json \n[Example 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld) [Example 110](https://www.w3.org/TR/activitystreams-vocabulary/#ex125-jsonld) [Example 111](https://www.w3.org/TR/activitystreams-vocabulary/#ex126-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Document\",\n    \"name\": \"4Q Sales Forecast\",\n    \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n  },\n  \"name\": \"Example 109\"\n}\n```",
+    "fr": "```json \n[Example 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld) [Example 110](https://www.w3.org/TR/activitystreams-vocabulary/#ex125-jsonld) [Example 111](https://www.w3.org/TR/activitystreams-vocabulary/#ex126-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Document\",\n    \"name\": \"4Q Sales Forecast\",\n    \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n  },\n  \"name\": \"Example 109\"\n}\n```",
+    "es": "```json \n[Example 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld) [Example 110](https://www.w3.org/TR/activitystreams-vocabulary/#ex125-jsonld) [Example 111](https://www.w3.org/TR/activitystreams-vocabulary/#ex126-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Document\",\n    \"name\": \"4Q Sales Forecast\",\n    \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n  },\n  \"name\": \"Example 109\"\n}\n```"
   },
   "broader": {
-    "id": "http://www.w3.org/ns/activitystreams#Collection",
+    "id": "http://www.w3.org/ns/activitystreams#Object",
     "prefLabel": {
-      "en": "Collection",
-      "de": "Sammlung",
-      "fr": "Collection",
-      "es": "Colección"
+      "en": "Object",
+      "de": "Objekt",
+      "fr": "Objet",
+      "es": "Objeto"
     }
   },
   "inScheme": {
@@ -142,7 +142,50 @@
       "@container": "@set"
     }
   }
-}ontainer": "@set"
+}"@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
     },
     "narrowerTransitive": {
       "@container": "@set"

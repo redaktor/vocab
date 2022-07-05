@@ -1,8 +1,8 @@
 {
   "id": "https://w3id.org/class/redaktor/iso6523Code",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2Fiso6523Code",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2Fiso6523Code",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fiso6523Code",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fiso6523Code",
   "prefLabel": {
     "en": "iso6523 code",
     "de": "iso6523-Code",

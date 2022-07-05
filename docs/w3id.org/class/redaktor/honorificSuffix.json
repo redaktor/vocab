@@ -1,8 +1,8 @@
 {
   "id": "https://w3id.org/class/redaktor/honorificSuffix",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FhonorificSuffix",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FhonorificSuffix",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FhonorificSuffix",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FhonorificSuffix",
   "prefLabel": {
     "en": "honorific suffix",
     "de": "Ehrensuffix",

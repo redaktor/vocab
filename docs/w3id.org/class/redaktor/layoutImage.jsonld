@@ -1,8 +1,8 @@
 {
   "id": "https://w3id.org/class/redaktor/layoutImage",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FlayoutImage",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FlayoutImage",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FlayoutImage",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FlayoutImage",
   "prefLabel": {
     "en": "layout image",
     "de": "Layout-Bild",

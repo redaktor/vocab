@@ -1,8 +1,8 @@
 {
   "id": "https://forgefed.peers.community/nsisResolved",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=forgefed.peers.community%2FnsisResolved",
-  "inbox": "https://test.skohub.io/inbox?target=forgefed.peers.community%2FnsisResolved",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fforgefed.peers.community%2FnsisResolved",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fforgefed.peers.community%2FnsisResolved",
   "prefLabel": {
     "en": "isResolved",
     "de": "isResolved",

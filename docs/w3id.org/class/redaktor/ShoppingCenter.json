@@ -1,8 +1,8 @@
 {
   "id": "https://w3id.org/class/redaktor/ShoppingCenter",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FShoppingCenter",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FShoppingCenter",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FShoppingCenter",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FShoppingCenter",
   "prefLabel": {
     "en": "Shopping Center",
     "de": "Einkaufszentrum",

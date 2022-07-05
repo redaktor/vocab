@@ -1,8 +1,8 @@
 {
   "id": "https://w3id.org/class/redaktor/partOfTVSeries",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FpartOfTVSeries",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FpartOfTVSeries",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FpartOfTVSeries",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FpartOfTVSeries",
   "prefLabel": {
     "en": "part of TV series",
     "de": "Teil einer TV-Serie",

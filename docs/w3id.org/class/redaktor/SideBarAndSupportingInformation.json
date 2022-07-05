@@ -1,8 +1,8 @@
 {
   "id": "https://w3id.org/class/redaktor/SideBarAndSupportingInformation",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FSideBarAndSupportingInformation",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FSideBarAndSupportingInformation",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSideBarAndSupportingInformation",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSideBarAndSupportingInformation",
   "prefLabel": {
     "en": "Side bar and Supporting Information",
     "de": "Seitenleiste und unterstützende Informationen",

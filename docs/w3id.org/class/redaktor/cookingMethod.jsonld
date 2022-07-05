@@ -1,8 +1,8 @@
 {
   "id": "https://w3id.org/class/redaktor/cookingMethod",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FcookingMethod",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FcookingMethod",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcookingMethod",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcookingMethod",
   "prefLabel": {
     "en": "cooking method",
     "de": "Kochmethode",

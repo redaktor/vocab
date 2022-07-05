@@ -1,8 +1,8 @@
 {
   "id": "https://w3id.org/class/redaktor/softwareRequirements",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FsoftwareRequirements",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FsoftwareRequirements",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FsoftwareRequirements",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FsoftwareRequirements",
   "prefLabel": {
     "en": "software requirements",
     "de": "Software-Anforderungen",

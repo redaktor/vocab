@@ -1,8 +1,8 @@
 {
   "id": "http://www.w3.org/ns/activitystreams#width",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=www.w3.org%2Fns%2Factivitystreams%23width",
-  "inbox": "https://test.skohub.io/inbox?target=www.w3.org%2Fns%2Factivitystreams%23width",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23width",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23width",
   "prefLabel": {
     "en": "width",
     "de": "Breite",
@@ -133,60 +133,54 @@
       "@container": "@set"
     }
   }
-}ntainer": "@set"
+}
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}t:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
     },
     "related": {
       "@container": "@set"
-    },
-    "relatedMatch": {
-      "@container": "@set"
-    },
-    "narrowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}     "@container": "@set"
     },
     "relatedMatch": {
       "@container": "@set"
@@ -558,29 +552,34 @@
       "@container": "@set"
     }
   }
-}iante"
-      }
+} "relatedMatch": {
+      "@container": "@set"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/hasOfferCatalog",
-      "prefLabel": {
-        "en": "has offer catalog",
-        "de": "hat Angebotskatalog",
-        "fr": "a catalogue d'offres",
-        "es": "tiene catálogo de ofertas"
-      }
+    "narrowerTransitive": {
+      "@container": "@set"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/hasPOS",
-      "prefLabel": {
-        "en": "has POS",
-        "de": "hat POS",
-        "fr": "has POS",
-        "es": "tiene TPV"
-      }
+    "broaderTransitive": {
+      "@container": "@set"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/interactionStatistic",
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}class/redaktor/interactionStatistic",
       "prefLabel": {
         "en": "interaction statistic",
         "de": "Interaktionsstatistik",

@@ -1,8 +1,8 @@
 {
   "id": "https://w3id.org/class/redaktor/AboutPage",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FAboutPage",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FAboutPage",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAboutPage",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAboutPage",
   "prefLabel": {
     "en": "About Page",
     "de": "About (Über) Seite",

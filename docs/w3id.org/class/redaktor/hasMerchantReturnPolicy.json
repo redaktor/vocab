@@ -1,8 +1,8 @@
 {
   "id": "https://w3id.org/class/redaktor/hasMerchantReturnPolicy",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FhasMerchantReturnPolicy",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FhasMerchantReturnPolicy",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FhasMerchantReturnPolicy",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FhasMerchantReturnPolicy",
   "prefLabel": {
     "en": "has merchant return policy",
     "de": "hat Rückgaberecht des Händlers",

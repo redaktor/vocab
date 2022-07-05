@@ -1,8 +1,8 @@
 {
   "id": "https://w3id.org/class/redaktor/eligibleQuantity",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FeligibleQuantity",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FeligibleQuantity",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FeligibleQuantity",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FeligibleQuantity",
   "prefLabel": {
     "en": "eligible quantity",
     "de": "zugelassene Menge",

@@ -1,8 +1,8 @@
 {
   "id": "https://joinmobilizon.org/ns#repliesModerationOptionType",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=joinmobilizon.org%2Fns%23repliesModerationOptionType",
-  "inbox": "https://test.skohub.io/inbox?target=joinmobilizon.org%2Fns%23repliesModerationOptionType",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinmobilizon.org%2Fns%23repliesModerationOptionType",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinmobilizon.org%2Fns%23repliesModerationOptionType",
   "prefLabel": {
     "en": "repliesModerationOptionType",
     "de": "repliesModerationOptionType",

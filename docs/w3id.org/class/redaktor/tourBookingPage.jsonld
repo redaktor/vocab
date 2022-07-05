@@ -1,8 +1,8 @@
 {
   "id": "https://w3id.org/class/redaktor/tourBookingPage",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FtourBookingPage",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FtourBookingPage",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FtourBookingPage",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FtourBookingPage",
   "prefLabel": {
     "en": "tour booking page",
     "de": "Tour-Buchungsseite",

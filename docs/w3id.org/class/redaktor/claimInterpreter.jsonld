@@ -1,8 +1,8 @@
 {
   "id": "https://w3id.org/class/redaktor/claimInterpreter",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fclass%2Fredaktor%2FclaimInterpreter",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fclass%2Fredaktor%2FclaimInterpreter",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FclaimInterpreter",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FclaimInterpreter",
   "prefLabel": {
     "en": "claim interpreter",
     "de": "Dolmetscher anfordern",
