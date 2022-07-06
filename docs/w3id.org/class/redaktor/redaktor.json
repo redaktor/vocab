@@ -26,9 +26,6 @@
   ],
   "narrower": [
     {
-      "id": "https://w3id.org/class/redaktor/Community"
-    },
-    {
       "id": "http://joinmastodon.org/ns#featuredTags",
       "prefLabel": {
         "en": "featured tags",
@@ -119,7 +116,13 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/Trip"
+      "id": "https://w3id.org/class/redaktor/Trip",
+      "prefLabel": {
+        "en": "Trip",
+        "de": "Reise",
+        "fr": "Voyage",
+        "es": "Viaje"
+      }
     },
     {
       "id": "https://joinmobilizon.org/ns#anonymousParticipationEnabled",
@@ -507,6 +510,7 @@
     {
       "id": "https://w3id.org/class/redaktor/MonetaryGrant",
       "prefLabel": {
+        "en": "Monetary Grant",
         "de": "Monetäre Zuwendung",
         "fr": "Subvention monétaire",
         "es": "Subvención monetaria"
@@ -3813,18 +3817,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/availableLanguage"
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/inLanguage",
-      "prefLabel": {
-        "en": "in language",
-        "de": "in Sprache",
-        "fr": "en langue",
-        "es": "en idioma"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/aggregateRating",
       "prefLabel": {
         "en": "aggregate rating",
@@ -3838,7 +3830,13 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/event"
+      "id": "https://w3id.org/class/redaktor/event",
+      "prefLabel": {
+        "en": "events",
+        "de": "Veranstaltungen",
+        "fr": "Événements",
+        "es": "Eventos"
+      }
     },
     {
       "id": "https://w3id.org/class/redaktor/hasDriveThroughService",
@@ -4013,6 +4011,15 @@
         "de": "Kurs-Veranstaltung",
         "fr": "Événement de cours",
         "es": "Evento de curso"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/CommunityEvent",
+      "prefLabel": {
+        "en": "Community Event",
+        "de": "Community, Gemeinschaftliche Veranstaltung",
+        "fr": "Evénement communautaire",
+        "es": "Evento comunitario"
       }
     },
     {
@@ -5307,6 +5314,15 @@
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/availableLanguage",
+      "prefLabel": {
+        "en": "available language",
+        "de": "verfügbare Sprache",
+        "fr": "langues disponibles",
+        "es": "idiomas disponibles"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/availableOnDevice",
       "prefLabel": {
         "en": "available on device",
@@ -6459,15 +6475,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/events",
-      "prefLabel": {
-        "en": "events",
-        "de": "Ereignisse",
-        "fr": "événements",
-        "es": "eventos"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/exampleOfWork",
       "prefLabel": {
         "en": "example of work",
@@ -7050,6 +7057,15 @@
         "de": "im definierten Begriffssatz",
         "fr": "dans l'ensemble des termes définis",
         "es": "en conjunto de términos definidos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/inLanguage",
+      "prefLabel": {
+        "en": "in language",
+        "de": "in Sprache",
+        "fr": "en langue",
+        "es": "en idioma"
       }
     },
     {

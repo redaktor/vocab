@@ -20,7 +20,13 @@
   ],
   "narrower": [
     {
-      "id": "https://w3id.org/class/redaktor/availableLanguage"
+      "id": "https://w3id.org/class/redaktor/availableLanguage",
+      "prefLabel": {
+        "en": "available language",
+        "de": "verfügbare Sprache",
+        "fr": "langues disponibles",
+        "es": "idiomas disponibles"
+      }
     },
     {
       "id": "https://w3id.org/class/redaktor/touristType",

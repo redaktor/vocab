@@ -4538,16 +4538,17 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   :Trip a owl:Class, skos:Concept ;
     skos:exactMatch schema:Trip ;
     skos:inScheme :scheme ;
-    skos:broader as:Travel, as:Collection, :redaktor ;
+    skos:broader as:Travel, as:Collection, as:Event, :mobilizon, :redaktor ;
     skos:notation "1506" ;
     skos:prefLabel "Reise"@de, "Trip"@en, "Voyage"@fr, "Viaje"@es ;
+    skos:altLabel "Reise oder Tour"@de, "Tour or trip"@en, "Journées"@fr, "Viaje o tour"@es ;
     skos:definition "Eine Reise oder Fahrt. Eine Reiseroute mit Besuchen an einem oder mehreren Orten."@de,
       "A trip or journey. An itinerary of visits to one or more places."@en,
       "Un voyage ou un déplacement. Un itinéraire de visite d'un ou plusieurs lieux."@fr,
       "Un viaje o trayecto. Un itinerario para visitar uno o varios lugares."@es ;
     skos:scopeNote as:Object ;
     rdfs:label "Trip"@en ;
-    rdfs:subClassOf as:Travel, as:Collection .
+    rdfs:subClassOf as:Travel, as:Event, as:Collection .
 
   :Atlas a owl:Class, skos:Concept ;
     skos:exactMatch schema:Atlas ;
@@ -4992,7 +4993,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :Grant, :redaktor ;
     skos:notation "1550" ;
-    skos:prefLabel "Monetäre Zuwendung"@de, "Subvention monétaire"@fr, "Subvención monetaria"@es ;
+    skos:prefLabel "Monetäre Zuwendung"@de, "Monetary Grant"@en, "Subvention monétaire"@fr, "Subvención monetaria"@es ;
     skos:definition "Ein finanzieller Zuschuss.<br>Siehe `Grant` für Details."@de,
       "A monetary grant.<br>See `Grant` for details."@en,
       "Une subvention monétaire. Voir Subvention pour plus de détails."@fr,
@@ -10125,22 +10126,6 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     rdfs:label "Orchard"@en ;
     rdfs:subClassOf as:Place .
 
-  :availableLanguage a owl:ObjectProperty, skos:Concept ;
-    skos:exactMatch schema:availableLanguage ;
-    skos:inScheme :scheme ;
-    skos:broader as:Article, as:Audio, as:Image, as:Video, as:Event, :LodgingBusiness, :TouristAttraction, :redaktor ;
-    skos:related :inLanguage ;
-    skos:notation "1388" ;
-    skos:prefLabel "verfügbare Sprachen"@de, "available languages"@en, "langues disponibles"@fr, "idiomas disponibles"@es ;
-    skos:definition "Eine Sprache, die jemand mit oder an dem Gegenstand, der Dienstleistung oder dem Ort verwenden kann. Bitte verwenden Sie einen der Sprachcodes aus dem IETF-Standard BCP 47.<br>Siehe auch :inLanguage"@de,
-      "A language someone may use with or at the item, service or place. Please use one of the language codes from the IETF BCP 47 standard.<br>See also :inLanguage"@en,
-      "Une langue que quelqu'un peut utiliser avec ou au sujet de l'article, du service ou du lieu. Veuillez utiliser l'un des codes de langue de la norme BCP 47 de l'IETF.<br>Voir aussi :inLanguage"@fr,
-      "A language someone may use with or at the item, service or place. Please use one of the language codes from the IETF BCP 47 standard.<br>See also :inLanguage"@es ;
-    skos:scopeNote as:Object, as:Link ;
-    rdfs:label "availableLanguage"@en ;
-    rdfs:domain as:Object ;
-    rdfs:range xsd:anyURI .
-
   :aggregateRating a owl:ObjectProperty, skos:Concept ;
     skos:exactMatch schema:aggregateRating ;
     skos:inScheme :scheme ;
@@ -10174,7 +10159,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   :event a owl:ObjectProperty, skos:Concept ;
     skos:exactMatch schema:event ;
     skos:inScheme :scheme ;
-    skos:broader as:Place, as:Group, as:Organization, :redaktor ;
+    skos:broader as:Place, as:Group, as:Organization, schema:LeaveAction, schema:JoinAction, schema:InformAction, schema:PlayAction, schema:InviteAction, :redaktor ;
     skos:notation "1391" ;
     skos:prefLabel "Veranstaltungen"@de, "events"@en, "Événements"@fr, "Eventos"@es ;
     skos:definition "Bevorstehendes (normalerweise) oder vergangene Ereignisse, die mit diesem Ort, dieser Organisation oder dieser Aktion verbunden sind."@de,
@@ -10185,7 +10170,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     rdfs:label "event"@en ;
     rdfs:domain [
       a owl:Class ;
-      owl:unionOf (as:Group as:Organization as:Place)
+      owl:unionOf (as:Group as:Organization as:Place schema:LeaveAction schema:JoinAction schema:InformAction schema:PlayAction schema:InviteAction as:Link)
     ] ;
     rdfs:range xsd:anyURI .
 
@@ -10427,7 +10412,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     rdfs:label "CourseInstance"@en ;
     rdfs:subClassOf as:Event .
 
-  :Community a owl:Class, skos:Concept ;
+  :CommunityEvent a owl:Class, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Event, :mobilizon, :redaktor ;
     skos:notation "1410" ;
@@ -10654,8 +10639,6 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     rdfs:label "HomeLifestyle"@en ;
     rdfs:subClassOf as:Event .
 
-  # 1433 was Interview, see Article
-
   :LanguageCulture a owl:Class, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Event, :mobilizon, :redaktor ;
@@ -10861,20 +10844,10 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     rdfs:label "Spirituality"@en ;
     rdfs:subClassOf as:Event .
 
-  :Trip a owl:Class, skos:Concept ;
-    skos:exactMatch schema:Trip ;
-    skos:inScheme :scheme ;
-    skos:broader as:Event, :mobilizon, :redaktor ;
-    skos:notation "1455" ;
-    skos:prefLabel "Reise oder Tour"@de, "Tour or trip"@en, "Journées"@fr, "Viaje o tour"@es ;
-    skos:scopeNote as:Event ;
-    rdfs:label "Trip"@en ;
-    rdfs:subClassOf as:Event .
-
   :TripFacts a owl:Class, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :Trip, :mobilizon, :redaktor ;
-    skos:notation "1455" ;
+    skos:notation "1433" ;
     skos:prefLabel "Faktenbasierte Reise oder Tour"@de, "Facts-based trip or tour"@en, "Voyage ou visite basé(e) sur des faits"@fr, "Viaje o recorrido basado en hechos"@es ;
     skos:scopeNote as:Event ;
     rdfs:label "Trip"@en ;
@@ -12690,18 +12663,18 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   :availableLanguage a owl:ObjectProperty, skos:Concept ;
     skos:exactMatch schema:availableLanguage ;
     skos:inScheme :scheme ;
-    skos:broader schema:ServiceChannel, :ContactPoint, :TouristAttraction, :LodgingBusiness, :redaktor ;
+    skos:broader as:Article, as:Audio, as:Image, as:Video, as:Event, :ContactPoint, :TouristAttraction, :LodgingBusiness, schema:ServiceChannel, :redaktor ;
     skos:notation "1809" ;
-    skos:prefLabel "verfügbare Sprache"@de, "available language"@en, "langue disponible"@fr, "idioma disponible"@es ;
-    skos:definition "A language someone may use with or at the item, service or place. Please use one of the language codes from the [IETF BCP 47 standard](http://tools.ietf.org/html/bcp47). See also [[inLanguage]]"@de,
-      "A language someone may use with or at the item, service or place. Please use one of the language codes from the [IETF BCP 47 standard](http://tools.ietf.org/html/bcp47). See also [[inLanguage]]"@en,
-      "A language someone may use with or at the item, service or place. Please use one of the language codes from the [IETF BCP 47 standard](http://tools.ietf.org/html/bcp47). See also [[inLanguage]]"@fr,
-      "A language someone may use with or at the item, service or place. Please use one of the language codes from the [IETF BCP 47 standard](http://tools.ietf.org/html/bcp47). See also [[inLanguage]]"@es ;
+    skos:prefLabel "verfügbare Sprache"@de, "available language"@en, "langues disponibles"@fr, "idiomas disponibles"@es ;
+    skos:definition "Eine Sprache, die jemand mit oder an dem Gegenstand, der Dienstleistung oder dem Ort verwenden kann. Bitte verwenden Sie einen der Sprachcodes aus dem IETF-Standard BCP 47.<br>Siehe auch :inLanguage"@de,
+      "A language someone may use with or at the item, service or place. Please use one of the language codes from the IETF BCP 47 standard.<br>See also :inLanguage"@en,
+      "Une langue que quelqu'un peut utiliser avec ou au sujet de l'article, du service ou du lieu. Veuillez utiliser l'un des codes de langue de la norme BCP 47 de l'IETF.<br>Voir aussi :inLanguage"@fr,
+      "A language someone may use with or at the item, service or place. Please use one of the language codes from the IETF BCP 47 standard.<br>See also :inLanguage"@es ;
     skos:scopeNote xsd:string, schema:Language ;
     rdfs:label "availableLanguage"@en ;
     rdfs:domain [
       a owl:Class ;
-      owl:unionOf ( schema:ServiceChannel :ContactPoint :TouristAttraction :LodgingBusiness as:Link )
+      owl:unionOf ( as:Article as:Audio as:Image as:Video as:Event :ContactPoint :TouristAttraction :LodgingBusiness as:Link )
     ] ;
     rdfs:range [
       a owl:Class ;
@@ -15344,48 +15317,6 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     rdfs:range [
       a owl:Class ;
       owl:unionOf ( xsd:anyURI :CreativeWork as:Link )
-    ] .
-
-  :event a owl:ObjectProperty, skos:Concept ;
-    skos:exactMatch schema:event ;
-    skos:inScheme :scheme ;
-    skos:broader as:Organization, schema:LeaveAction, schema:JoinAction, schema:InformAction, as:Place, schema:PlayAction, schema:InviteAction, :redaktor ;
-    skos:notation "1941" ;
-    skos:prefLabel "Ereignis"@de, "event"@en, "événement"@fr, "evento"@es ;
-    skos:definition "Upcoming or past event associated with this place, organization, or action."@de,
-      "Upcoming or past event associated with this place, organization, or action."@en,
-      "Upcoming or past event associated with this place, organization, or action."@fr,
-      "Upcoming or past event associated with this place, organization, or action."@es ;
-    skos:scopeNote as:Event ;
-    rdfs:label "event"@en ;
-    rdfs:domain [
-      a owl:Class ;
-      owl:unionOf ( as:Organization schema:LeaveAction schema:JoinAction schema:InformAction as:Place schema:PlayAction schema:InviteAction as:Link )
-    ] ;
-    rdfs:range [
-      a owl:Class ;
-      owl:unionOf ( as:Event as:Link )
-    ] .
-
-  :events a owl:ObjectProperty, skos:Concept ;
-    skos:exactMatch schema:events ;
-    skos:inScheme :scheme ;
-    skos:broader as:Place, as:Organization, :redaktor ;
-    skos:notation "1942" ;
-    skos:prefLabel "Ereignisse"@de, "events"@en, "événements"@fr, "eventos"@es ;
-    skos:definition "Upcoming or past events associated with this place or organization."@de,
-      "Upcoming or past events associated with this place or organization."@en,
-      "Upcoming or past events associated with this place or organization."@fr,
-      "Upcoming or past events associated with this place or organization."@es ;
-    skos:scopeNote as:Event ;
-    rdfs:label "events"@en ;
-    rdfs:domain [
-      a owl:Class ;
-      owl:unionOf ( as:Place as:Organization as:Link )
-    ] ;
-    rdfs:range [
-      a owl:Class ;
-      owl:unionOf ( as:Event as:Link )
     ] .
 
   :exampleOfWork a owl:ObjectProperty, skos:Concept ;

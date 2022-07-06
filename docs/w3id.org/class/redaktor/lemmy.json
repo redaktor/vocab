@@ -54,7 +54,13 @@
     }
   ],
   "broader": {
-    "id": "https://w3id.org/class/redaktor/Community"
+    "id": "https://w3id.org/class/redaktor/Community",
+    "prefLabel": {
+      "en": "Community Namespaces",
+      "de": "Community Namespaces",
+      "fr": "Community Namespaces",
+      "es": "Community Namespaces"
+    }
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",

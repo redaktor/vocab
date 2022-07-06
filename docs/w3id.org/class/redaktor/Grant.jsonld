@@ -22,6 +22,7 @@
     {
       "id": "https://w3id.org/class/redaktor/MonetaryGrant",
       "prefLabel": {
+        "en": "Monetary Grant",
         "de": "Monetäre Zuwendung",
         "fr": "Subvention monétaire",
         "es": "Subvención monetaria"

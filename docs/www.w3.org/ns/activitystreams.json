@@ -1,19 +1,19 @@
 {
-  "id": "http://www.w3.org/ns/activitystreams#width",
+  "id": "http://www.w3.org/ns/activitystreams#updated",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23width",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23width",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23updated",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23updated",
   "prefLabel": {
-    "en": "width",
-    "de": "Breite",
-    "fr": "largeur",
-    "es": "anchura"
+    "en": "updated",
+    "de": "aktualisiert",
+    "fr": "actualisé",
+    "es": "actualizada"
   },
   "definition": {
-    "en": "On a Link, specifies a hint as to the rendering width in device-independent pixels of the linked resource.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
-    "de": "Gibt bei einem Link einen Hinweis auf die Darstellungsbreite der verlinkten Ressource in geräteunabhängigen Pixeln an.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
-    "fr": "Sur un lien, spécifie une indication quant à la largeur de rendu en pixels indépendants du périphérique de la ressource liée.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
-    "es": "En un enlace, especifica una pista sobre el ancho de representación en píxeles independientes del dispositivo del recurso enlazado.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)"
+    "en": "The date and time at which the object was updated.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)",
+    "de": "Das Datum und die Uhrzeit, zu der das Objekt aktualisiert wurde.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)",
+    "fr": "La date et l'heure auxquelles l'objet a été mis à jour.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)",
+    "es": "La fecha y hora en que se actualizó el objeto.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)"
   },
   "scopeNote": {
     "en": "as: Property",
@@ -22,13 +22,22 @@
     "es": "as: Property"
   },
   "notation": [
-    "415"
+    "348"
   ],
   "example": {
-    "en": "```json \n[Example 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Link\",\n    \"height\": 100,\n    \"url\": \"http://example.org/image.png\",\n    \"width\": 100\n  },\n  \"name\": \"Example 138\"\n}\n```",
-    "de": "```json \n[Example 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Link\",\n    \"height\": 100,\n    \"url\": \"http://example.org/image.png\",\n    \"width\": 100\n  },\n  \"name\": \"Example 138\"\n}\n```",
-    "fr": "```json \n[Example 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Link\",\n    \"height\": 100,\n    \"url\": \"http://example.org/image.png\",\n    \"width\": 100\n  },\n  \"name\": \"Example 138\"\n}\n```",
-    "es": "```json \n[Example 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Link\",\n    \"height\": 100,\n    \"url\": \"http://example.org/image.png\",\n    \"width\": 100\n  },\n  \"name\": \"Example 138\"\n}\n```"
+    "en": "```json \n[Example 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Note\",\n    \"content\": \"Mush it up so it does not have the same shape as the can.\",\n    \"name\": \"Cranberry Sauce Idea\",\n    \"updated\": \"2014-12-12T12:12:12Z\"\n  },\n  \"name\": \"Example 137\"\n}\n```",
+    "de": "```json \n[Example 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Note\",\n    \"content\": \"Mush it up so it does not have the same shape as the can.\",\n    \"name\": \"Cranberry Sauce Idea\",\n    \"updated\": \"2014-12-12T12:12:12Z\"\n  },\n  \"name\": \"Example 137\"\n}\n```",
+    "fr": "```json \n[Example 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Note\",\n    \"content\": \"Mush it up so it does not have the same shape as the can.\",\n    \"name\": \"Cranberry Sauce Idea\",\n    \"updated\": \"2014-12-12T12:12:12Z\"\n  },\n  \"name\": \"Example 137\"\n}\n```",
+    "es": "```json \n[Example 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Note\",\n    \"content\": \"Mush it up so it does not have the same shape as the can.\",\n    \"name\": \"Cranberry Sauce Idea\",\n    \"updated\": \"2014-12-12T12:12:12Z\"\n  },\n  \"name\": \"Example 137\"\n}\n```"
+  },
+  "broader": {
+    "id": "http://www.w3.org/ns/activitystreams#Object",
+    "prefLabel": {
+      "en": "Object",
+      "de": "Objekt",
+      "fr": "Objet",
+      "es": "Objeto"
+    }
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -133,14 +142,25 @@
       "@container": "@set"
     }
   }
-}
+}    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
     "inbox": "ldp:inbox",
     "hasTopConcept": {
       "@container": "@set"
     }
   }
-}t:created",
-      "@type": "xsd:date"
+}"@type": "xsd:date"
     },
     "modified": {
       "@id": "dct:modified",
@@ -184,32 +204,6 @@
     },
     "relatedMatch": {
       "@container": "@set"
-    },
-    "narrowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}ontainer": "@set"
     },
     "narrowerTransitive": {
       "@container": "@set"
@@ -552,7 +546,169 @@
       "@container": "@set"
     }
   }
-} "relatedMatch": {
+}rowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}el": {
+        "en": "spouse",
+        "de": "Ehepartner",
+        "fr": "conjoint",
+        "es": "cónyuge"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/taxID",
+      "prefLabel": {
+        "en": "tax ID",
+        "de": "Steuer-ID",
+        "fr": "identifiant fiscal",
+        "es": "ID fiscal"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/vatID",
+      "prefLabel": {
+        "en": "vat ID",
+        "de": "Umsatzsteuer-ID",
+        "fr": "vat ID",
+        "es": "ID del iva"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/weight",
+      "prefLabel": {
+        "en": "weight",
+        "de": "Gewicht",
+        "fr": "poids",
+        "es": "peso"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/workLocation",
+      "prefLabel": {
+        "en": "work location",
+        "de": "Arbeitsort",
+        "fr": "emplacement du travail",
+        "es": "ubicación del trabajo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/worksFor",
+      "prefLabel": {
+        "en": "works for",
+        "de": "Arbeiten für",
+        "fr": "travaux pour",
+        "es": "trabajos para"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/Actor",
+    "prefLabel": {
+      "en": "Actor",
+      "de": "Akteur",
+      "fr": "Acteur",
+      "es": "Actor"
+    }
+  },
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -579,161 +735,7 @@
       "@container": "@set"
     }
   }
-}class/redaktor/interactionStatistic",
-      "prefLabel": {
-        "en": "interaction statistic",
-        "de": "Interaktionsstatistik",
-        "fr": "statistiques d'interaction",
-        "es": "estadística de interacción"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/isicV4",
-      "prefLabel": {
-        "en": "isic v4",
-        "de": "isic v4",
-        "fr": "isic v4",
-        "es": "isic v4"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/iso6523Code",
-      "prefLabel": {
-        "en": "iso6523 code",
-        "de": "iso6523-Code",
-        "fr": "code iso6523",
-        "es": "código iso6523"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/keywords",
-      "prefLabel": {
-        "en": "keywords",
-        "de": "Schlüsselwörter",
-        "fr": "mots-clés",
-        "es": "palabras clave"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/knowsAbout",
-      "prefLabel": {
-        "en": "knows about",
-        "de": "weiß über",
-        "fr": "sait sur",
-        "es": "sabe de"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/knowsLanguage",
-      "prefLabel": {
-        "en": "knows language",
-        "de": "kennt Sprache",
-        "fr": "connaît la langue",
-        "es": "conoce el idioma"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/legalName",
-      "prefLabel": {
-        "en": "legal name",
-        "de": "rechtlicher Name",
-        "fr": "nom légal",
-        "es": "nombre legal"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/leiCode",
-      "prefLabel": {
-        "en": "lei code",
-        "de": "Lei-Code",
-        "fr": "code lei",
-        "es": "código lei"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/location",
-      "prefLabel": {
-        "en": "location",
-        "de": "Standort",
-        "fr": "localisation",
-        "es": "ubicación"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/logo",
-      "prefLabel": {
-        "en": "logo",
-        "de": "Logo",
-        "fr": "logo",
-        "es": "logotipo"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/makesOffer",
-      "prefLabel": {
-        "en": "makes offer",
-        "de": "macht Angebot",
-        "fr": "fait offre",
-        "es": "hace la oferta"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/member",
-      "prefLabel": {
-        "en": "member",
-        "de": "Mitglied",
-        "fr": "membre",
-        "es": "miembro"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/memberOf",
-      "prefLabel": {
-        "en": "member of",
-        "de": "Mitglied von",
-        "fr": "membre de",
-        "es": "miembro de"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/members",
-      "prefLabel": {
-        "en": "members",
-        "de": "Mitglieder",
-        "fr": "membres",
-        "es": "miembros"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/naics",
-      "prefLabel": {
-        "en": "naics",
-        "de": "naics",
-        "fr": "naics",
-        "es": "naics"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/nonprofitStatus",
-      "prefLabel": {
-        "en": "nonprofit status",
-        "de": "Status der Gemeinnützigkeit",
-        "fr": "statut d'organisme à but non lucratif",
-        "es": "estatus sin ánimo de lucro"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/numberOfEmployees",
-      "prefLabel": {
-        "en": "number of employees",
-        "de": "Anzahl der Mitarbeiter",
-        "fr": "nombre d'employés",
-        "es": "número de empleados"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/ownershipFundingInfo",
-      "prefLabel": {
+}prefLabel": {
         "en": "ownership funding info",
         "de": "Eigentum Finanzierungsinfo",
         "fr": "informations sur le financement de la propriété",
@@ -961,7 +963,9 @@
       "@container": "@set"
     }
   }
-}     "fr": "disponible à ou de",
+}ble at or from",
+        "de": "verfügbar bei oder von",
+        "fr": "disponible à ou de",
         "es": "disponible en o desde"
       }
     },

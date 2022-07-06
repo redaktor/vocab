@@ -1,17 +1,19 @@
 {
-  "id": "https://test.skohub.io/vocab//joinpeertube.org/ns#waitTranscoding",
+  "id": "https://test.skohub.io/vocab//joinpeertube.org/ns#liveSaveReplay",
   "type": "Service",
-  "name": "wait transcoding",
-  "preferredUsername": "766f6361622f2f6a6f696e70656572747562652e6f72672f6e7323776169745472616e73636f64696e67",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinpeertube.org%2Fns%23waitTranscoding",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinpeertube.org%2Fns%23waitTranscoding",
+  "name": "live save replay",
+  "preferredUsername": "766f6361622f2f6a6f696e70656572747562652e6f72672f6e73236c697665536176655265706c6179",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinpeertube.org%2Fns%23liveSaveReplay",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinpeertube.org%2Fns%23liveSaveReplay",
   "publicKey": {
-    "id": "https://test.skohub.io/vocab//joinpeertube.org/ns#waitTranscoding#main-key",
-    "owner": "https://test.skohub.io/vocab//joinpeertube.org/ns#waitTranscoding",
+    "id": "https://test.skohub.io/vocab//joinpeertube.org/ns#liveSaveReplay#main-key",
+    "owner": "https://test.skohub.io/vocab//joinpeertube.org/ns#liveSaveReplay",
     "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyr05JFWnpFGTr423+IRU\nHOgAuoF0RSxdwPpvXbX5uh+2jUBvhXzzklhc5nwfE3XruHTifJWyXFWucJlDPEI1\nxR5p0C0zfqY74ioEoKorifc8no8ZDTQRvIIEqNe0Ezbe085Foc3UWG1kimPcPlqU\nnsgCYgO4UWJ27qABE+yGDykZALdMlAt+dwOPD10NcqmvupH5pgWZJJ9vW2ErTaDt\n2R52JIpqH6CvCsI7jpLyYH60W0N0J0sjSH95lZnyVDYDbplIEPUPpGKYSVJW+dNU\nCxReZBiwS76VDQhyl1lT5JusRCogvsX/bwJrIZ8fJcOBArDx2skknzUHKkjNITsD\nTwIDAQAB\n-----END PUBLIC KEY-----\n"
   },
   "@context": [
     "https://www.w3.org/ns/activitystreams",
     "https://w3id.org/security/v1"
+  ]
+}"
   ]
 }

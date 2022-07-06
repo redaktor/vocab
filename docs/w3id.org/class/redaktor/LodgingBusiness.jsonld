@@ -77,9 +77,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/availableLanguage"
-    },
-    {
       "id": "https://w3id.org/class/redaktor/amenityFeature",
       "prefLabel": {
         "en": "amenity feature"
@@ -92,6 +89,15 @@
         "de": "Publikum",
         "fr": "public",
         "es": "audiencia"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/availableLanguage",
+      "prefLabel": {
+        "en": "available language",
+        "de": "verfügbare Sprache",
+        "fr": "langues disponibles",
+        "es": "idiomas disponibles"
       }
     },
     {

@@ -3,6 +3,12 @@
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCommunity",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCommunity",
+  "prefLabel": {
+    "en": "Community Namespaces",
+    "de": "Community Namespaces",
+    "fr": "Community Namespaces",
+    "es": "Community Namespaces"
+  },
   "definition": {
     "en": "Extensions defined by ActivityPub implementations.",
     "de": "Erweiterungen, die durch ActivityPub Implementationen definiert werden.",
@@ -16,8 +22,7 @@
     "es": "ActivityPub Community"
   },
   "notation": [
-    "10",
-    "1410"
+    "10"
   ],
   "narrower": [
     {

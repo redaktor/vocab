@@ -307,15 +307,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/inLanguage",
-      "prefLabel": {
-        "en": "in language",
-        "de": "in Sprache",
-        "fr": "en langue",
-        "es": "en idioma"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/aggregateRating",
       "prefLabel": {
         "en": "aggregate rating",
@@ -865,6 +856,15 @@
         "de": "Überschrift",
         "fr": "titre",
         "es": "titular"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/inLanguage",
+      "prefLabel": {
+        "en": "in language",
+        "de": "in Sprache",
+        "fr": "en langue",
+        "es": "en idioma"
       }
     },
     {

@@ -126,7 +126,18 @@
       "@container": "@set"
     }
   }
-}d.org/class/redaktor/scheme",
+}ne de service",
+        "es": "área de servicio"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:ContactPoint"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
       "en": "ActivityPub: Functions and Relations",
       "de": "ActivityPub: Funktionen und Verbindungen",

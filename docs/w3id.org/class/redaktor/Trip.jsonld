@@ -3,6 +3,26 @@
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTrip",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTrip",
+  "prefLabel": {
+    "en": "Trip",
+    "de": "Reise",
+    "fr": "Voyage",
+    "es": "Viaje"
+  },
+  "altLabel": {
+    "en": [
+      "Tour or trip"
+    ],
+    "de": [
+      "Reise oder Tour"
+    ],
+    "fr": [
+      "Journées"
+    ],
+    "es": [
+      "Viaje o tour"
+    ]
+  },
   "definition": {
     "en": "A trip or journey. An itinerary of visits to one or more places.",
     "de": "Eine Reise oder Fahrt. Eine Reiseroute mit Besuchen an einem oder mehreren Orten.",
@@ -10,8 +30,7 @@
     "es": "Un viaje o trayecto. Un itinerario para visitar uno o varios lugares."
   },
   "notation": [
-    "1506",
-    "1455"
+    "1506"
   ],
   "narrower": [
     {

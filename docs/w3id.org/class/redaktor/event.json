@@ -3,9 +3,20 @@
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fevent",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fevent",
+  "prefLabel": {
+    "en": "events",
+    "de": "Veranstaltungen",
+    "fr": "Événements",
+    "es": "Eventos"
+  },
+  "definition": {
+    "en": "Upcoming (usually) or past events associated with this place, organization, or action.",
+    "de": "Bevorstehendes (normalerweise) oder vergangene Ereignisse, die mit diesem Ort, dieser Organisation oder dieser Aktion verbunden sind.",
+    "fr": "Événements à venir (généralement) ou passé associé à ce lieu, cette organisation ou cette action.",
+    "es": "Eventos próximo (normalmente) o pasado asociado a este lugar, organización o acción."
+  },
   "notation": [
-    "1391",
-    "1941"
+    "1391"
   ],
   "exactMatch": [
     {

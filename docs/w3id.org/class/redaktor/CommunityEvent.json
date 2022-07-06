@@ -1,27 +1,16 @@
 {
-  "id": "https://w3id.org/class/redaktor/events",
+  "id": "https://w3id.org/class/redaktor/CommunityEvent",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fevents",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fevents",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCommunityEvent",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCommunityEvent",
   "prefLabel": {
-    "en": "events",
-    "de": "Ereignisse",
-    "fr": "événements",
-    "es": "eventos"
-  },
-  "definition": {
-    "en": "Upcoming or past events associated with this place or organization.",
-    "de": "Upcoming or past events associated with this place or organization.",
-    "fr": "Upcoming or past events associated with this place or organization.",
-    "es": "Upcoming or past events associated with this place or organization."
+    "en": "Community Event",
+    "de": "Community, Gemeinschaftliche Veranstaltung",
+    "fr": "Evénement communautaire",
+    "es": "Evento comunitario"
   },
   "notation": [
-    "1942"
-  ],
-  "exactMatch": [
-    {
-      "id": "schema:events"
-    }
+    "1410"
   ],
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",

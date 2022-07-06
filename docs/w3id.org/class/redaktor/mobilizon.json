@@ -26,9 +26,6 @@
   ],
   "narrower": [
     {
-      "id": "https://w3id.org/class/redaktor/Community"
-    },
-    {
       "id": "http://joinmastodon.org/ns#Emoji",
       "prefLabel": {
         "en": "Custom Emoji",
@@ -65,7 +62,13 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/Trip"
+      "id": "https://w3id.org/class/redaktor/Trip",
+      "prefLabel": {
+        "en": "Trip",
+        "de": "Reise",
+        "fr": "Voyage",
+        "es": "Viaje"
+      }
     },
     {
       "id": "https://joinmobilizon.org/ns#joinMode",
@@ -197,6 +200,15 @@
         "de": "Kurs-Veranstaltung",
         "fr": "Événement de cours",
         "es": "Evento de curso"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/CommunityEvent",
+      "prefLabel": {
+        "en": "Community Event",
+        "de": "Community, Gemeinschaftliche Veranstaltung",
+        "fr": "Evénement communautaire",
+        "es": "Evento comunitario"
       }
     },
     {
@@ -685,7 +697,13 @@
     }
   ],
   "broader": {
-    "id": "https://w3id.org/class/redaktor/Community"
+    "id": "https://w3id.org/class/redaktor/Community",
+    "prefLabel": {
+      "en": "Community Namespaces",
+      "de": "Community Namespaces",
+      "fr": "Community Namespaces",
+      "es": "Community Namespaces"
+    }
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",

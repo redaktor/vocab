@@ -127,8 +127,9 @@
       "@container": "@set"
     }
   }
-}}\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice\",\n  \"type\": \"Person\",\n  \"featuredTags\": \"https://example.com/@alice/collections/tags\"\n}```",
-    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"featuredTags\": {\n        \"@id\": \"toot:featuredTags\",\n        \"@type\": \"@id\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice\",\n  \"type\": \"Person\",\n  \"featuredTags\": \"https://example.com/@alice/collections/tags\"\n}```"
+}\": \"http://joinmastodon.org/ns#\",\n      \"suspended\": \"toot:suspended\"\n    }\n  ],\n  \"id\": \"https://example.com/@eve\",\n  \"type\": \"Person\",\n  \"suspended\": true\n}```",
+    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"suspended\": \"toot:suspended\"\n    }\n  ],\n  \"id\": \"https://example.com/@eve\",\n  \"type\": \"Person\",\n  \"suspended\": true\n}```",
+    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"suspended\": \"toot:suspended\"\n    }\n  ],\n  \"id\": \"https://example.com/@eve\",\n  \"type\": \"Person\",\n  \"suspended\": true\n}```"
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -222,18 +223,6 @@
       "@container": "@set"
     },
     "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}{
       "@container": "@set"
     },
     "exactMatch": {

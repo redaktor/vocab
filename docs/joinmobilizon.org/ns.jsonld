@@ -1,50 +1,53 @@
 {
-  "id": "https://joinmobilizon.org/ns#joinModeType",
+  "id": "https://joinmobilizon.org/ns#repliesModerationOptionType",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinmobilizon.org%2Fns%23joinModeType",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinmobilizon.org%2Fns%23joinModeType",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinmobilizon.org%2Fns%23repliesModerationOptionType",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinmobilizon.org%2Fns%23repliesModerationOptionType",
   "prefLabel": {
-    "en": "joinModeType",
-    "de": "joinModeType",
-    "fr": "joinModeType",
-    "es": "joinModeType"
+    "en": "repliesModerationOptionType",
+    "de": "repliesModerationOptionType",
+    "fr": "repliesModerationOptionType",
+    "es": "repliesModerationOptionType"
   },
   "notation": [
-    "1054"
+    "1052"
   ],
   "narrower": [
     {
-      "id": "https://w3id.org/class/redaktor/free",
+      "id": "https://w3id.org/class/redaktor/allow_all",
       "prefLabel": {
-        "en": "free"
+        "en": "allow_all",
+        "de": "allow_all",
+        "fr": "allow_all",
+        "es": "allow_all"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/restricted",
+      "id": "https://w3id.org/class/redaktor/closed",
       "prefLabel": {
-        "en": "restricted",
-        "de": "restricted",
-        "fr": "restricted",
-        "es": "restricted"
+        "en": "closed",
+        "de": "closed",
+        "fr": "closed",
+        "es": "closed"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/invite",
+      "id": "https://w3id.org/class/redaktor/moderated",
       "prefLabel": {
-        "en": "invite",
-        "de": "invite",
-        "fr": "invite",
-        "es": "invite"
+        "en": "moderated",
+        "de": "moderated",
+        "fr": "moderated",
+        "es": "moderated"
       }
     }
   ],
   "broader": {
-    "id": "https://joinmobilizon.org/ns#joinMode",
+    "id": "https://joinmobilizon.org/ns#repliesModerationOption",
     "prefLabel": {
-      "en": "joinMode",
-      "de": "joinMode",
-      "fr": "joinMode",
-      "es": "joinMode"
+      "en": "repliesModerationOption",
+      "de": "repliesModerationOption",
+      "fr": "repliesModerationOption",
+      "es": "repliesModerationOption"
     }
   },
   "inScheme": {
@@ -136,21 +139,6 @@
       "@container": "@set"
     },
     "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}: {
       "@container": "@set"
     },
     "closeMatch": {

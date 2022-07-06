@@ -1,19 +1,19 @@
 {
-  "id": "http://www.w3.org/ns/activitystreams#url",
+  "id": "http://www.w3.org/ns/activitystreams#updated",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23url",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23url",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23updated",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23updated",
   "prefLabel": {
-    "en": "url",
-    "de": "url",
-    "fr": "url",
-    "es": "url"
+    "en": "updated",
+    "de": "aktualisiert",
+    "fr": "actualisé",
+    "es": "actualizada"
   },
   "definition": {
-    "en": "Identifies one or more links to representations of the object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)",
-    "de": "Kennzeichnet einen oder mehrere Links zu Darstellungen des Objekts.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)",
-    "fr": "Identifie un ou plusieurs liens vers des représentations de l'objet.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)",
-    "es": "Identifica uno o varios enlaces a representaciones del objeto.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)"
+    "en": "The date and time at which the object was updated.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)",
+    "de": "Das Datum und die Uhrzeit, zu der das Objekt aktualisiert wurde.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)",
+    "fr": "La date et l'heure auxquelles l'objet a été mis à jour.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)",
+    "es": "La fecha y hora en que se actualizó el objeto.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)"
   },
   "scopeNote": {
     "en": "as: Property",
@@ -22,13 +22,13 @@
     "es": "as: Property"
   },
   "notation": [
-    "339"
+    "348"
   ],
   "example": {
-    "en": "```json \n[Example 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld) [Example 110](https://www.w3.org/TR/activitystreams-vocabulary/#ex125-jsonld) [Example 111](https://www.w3.org/TR/activitystreams-vocabulary/#ex126-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Document\",\n    \"name\": \"4Q Sales Forecast\",\n    \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n  },\n  \"name\": \"Example 109\"\n}\n```",
-    "de": "```json \n[Example 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld) [Example 110](https://www.w3.org/TR/activitystreams-vocabulary/#ex125-jsonld) [Example 111](https://www.w3.org/TR/activitystreams-vocabulary/#ex126-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Document\",\n    \"name\": \"4Q Sales Forecast\",\n    \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n  },\n  \"name\": \"Example 109\"\n}\n```",
-    "fr": "```json \n[Example 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld) [Example 110](https://www.w3.org/TR/activitystreams-vocabulary/#ex125-jsonld) [Example 111](https://www.w3.org/TR/activitystreams-vocabulary/#ex126-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Document\",\n    \"name\": \"4Q Sales Forecast\",\n    \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n  },\n  \"name\": \"Example 109\"\n}\n```",
-    "es": "```json \n[Example 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld) [Example 110](https://www.w3.org/TR/activitystreams-vocabulary/#ex125-jsonld) [Example 111](https://www.w3.org/TR/activitystreams-vocabulary/#ex126-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Document\",\n    \"name\": \"4Q Sales Forecast\",\n    \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n  },\n  \"name\": \"Example 109\"\n}\n```"
+    "en": "```json \n[Example 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Note\",\n    \"content\": \"Mush it up so it does not have the same shape as the can.\",\n    \"name\": \"Cranberry Sauce Idea\",\n    \"updated\": \"2014-12-12T12:12:12Z\"\n  },\n  \"name\": \"Example 137\"\n}\n```",
+    "de": "```json \n[Example 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Note\",\n    \"content\": \"Mush it up so it does not have the same shape as the can.\",\n    \"name\": \"Cranberry Sauce Idea\",\n    \"updated\": \"2014-12-12T12:12:12Z\"\n  },\n  \"name\": \"Example 137\"\n}\n```",
+    "fr": "```json \n[Example 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Note\",\n    \"content\": \"Mush it up so it does not have the same shape as the can.\",\n    \"name\": \"Cranberry Sauce Idea\",\n    \"updated\": \"2014-12-12T12:12:12Z\"\n  },\n  \"name\": \"Example 137\"\n}\n```",
+    "es": "```json \n[Example 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Note\",\n    \"content\": \"Mush it up so it does not have the same shape as the can.\",\n    \"name\": \"Cranberry Sauce Idea\",\n    \"updated\": \"2014-12-12T12:12:12Z\"\n  },\n  \"name\": \"Example 137\"\n}\n```"
   },
   "broader": {
     "id": "http://www.w3.org/ns/activitystreams#Object",
@@ -142,14 +142,7 @@
       "@container": "@set"
     }
   }
-}"@type": "xsd:date"
-    },
-    "modified": {
-      "@id": "dct:modified",
-      "@type": "xsd:date"
-    },
-    "creator": "dct:creator",
-    "publisher": "dct:publisher",
+}her": "dct:publisher",
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
@@ -186,6 +179,32 @@
     },
     "relatedMatch": {
       "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}ontainer": "@set"
     },
     "narrowerTransitive": {
       "@container": "@set"
@@ -528,10 +547,7 @@
       "@container": "@set"
     }
   }
-} "relatedMatch": {
-      "@container": "@set"
-    },
-    "narrowerTransitive": {
+}rowerTransitive": {
       "@container": "@set"
     },
     "broaderTransitive": {
@@ -555,7 +571,10 @@
       "@container": "@set"
     }
   }
-}      "fr": "conjoint",
+}el": {
+        "en": "spouse",
+        "de": "Ehepartner",
+        "fr": "conjoint",
         "es": "cónyuge"
       }
     },
@@ -717,8 +736,7 @@
       "@container": "@set"
     }
   }
-}ttps://w3id.org/class/redaktor/ownershipFundingInfo",
-      "prefLabel": {
+}prefLabel": {
         "en": "ownership funding info",
         "de": "Eigentum Finanzierungsinfo",
         "fr": "informations sur le financement de la propriété",
@@ -946,7 +964,9 @@
       "@container": "@set"
     }
   }
-}     "fr": "disponible à ou de",
+}ble at or from",
+        "de": "verfügbar bei oder von",
+        "fr": "disponible à ou de",
         "es": "disponible en o desde"
       }
     },

@@ -3,20 +3,20 @@
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FavailableLanguage",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FavailableLanguage",
+  "prefLabel": {
+    "en": "available language",
+    "de": "verfügbare Sprache",
+    "fr": "langues disponibles",
+    "es": "idiomas disponibles"
+  },
+  "definition": {
+    "en": "A language someone may use with or at the item, service or place. Please use one of the language codes from the IETF BCP 47 standard.<br>See also :inLanguage",
+    "de": "Eine Sprache, die jemand mit oder an dem Gegenstand, der Dienstleistung oder dem Ort verwenden kann. Bitte verwenden Sie einen der Sprachcodes aus dem IETF-Standard BCP 47.<br>Siehe auch :inLanguage",
+    "fr": "Une langue que quelqu'un peut utiliser avec ou au sujet de l'article, du service ou du lieu. Veuillez utiliser l'un des codes de langue de la norme BCP 47 de l'IETF.<br>Voir aussi :inLanguage",
+    "es": "A language someone may use with or at the item, service or place. Please use one of the language codes from the IETF BCP 47 standard.<br>See also :inLanguage"
+  },
   "notation": [
-    "1388",
     "1809"
-  ],
-  "related": [
-    {
-      "id": "https://w3id.org/class/redaktor/inLanguage",
-      "prefLabel": {
-        "en": "in language",
-        "de": "in Sprache",
-        "fr": "en langue",
-        "es": "en idioma"
-      }
-    }
   ],
   "exactMatch": [
     {
