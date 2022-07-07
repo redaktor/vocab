@@ -23,7 +23,7 @@
       "id": "https://w3id.org/class/redaktor/announcementLocation",
       "prefLabel": {
         "en": "announcement location",
-        "de": "ankündigung ort",
+        "de": "Ankündigung Ort",
         "fr": "annonce emplacement",
         "es": "ubicación del anuncio"
       }
@@ -86,7 +86,7 @@
       "id": "https://w3id.org/class/redaktor/newsUpdatesAndGuidelines",
       "prefLabel": {
         "en": "news updates and guidelines",
-        "de": "aktuelle Nachrichten und Leitlinien",
+        "de": "aktuelle Nachrichten und Richtlinien",
         "fr": "actualités et directives",
         "es": "noticias y directrices"
       }

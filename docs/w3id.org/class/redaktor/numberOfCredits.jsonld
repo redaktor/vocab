@@ -5,7 +5,7 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FnumberOfCredits",
   "prefLabel": {
     "en": "number of credits",
-    "de": "Anzahl der Kredite",
+    "de": "Anzahl der Einheiten",
     "fr": "nombre de crédits",
     "es": "número de créditos"
   },

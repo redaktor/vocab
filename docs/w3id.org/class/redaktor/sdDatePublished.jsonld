@@ -4,10 +4,10 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FsdDatePublished",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FsdDatePublished",
   "prefLabel": {
-    "en": "sd date published",
-    "de": "sd Datum der Veröffentlichung",
-    "fr": "sd date published",
-    "es": "sd fecha de publicación"
+    "en": "SD date published",
+    "de": "SD Datum der Veröffentlichung",
+    "fr": "SD date published",
+    "es": "SD fecha de publicación"
   },
   "definition": {
     "en": "Indicates the date on which the current structured data was generated / published. Typically used alongside [[sdPublisher]]",

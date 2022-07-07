@@ -126,7 +126,10 @@
       "@container": "@set"
     }
   }
-}ne de service",
+}": {
+        "en": "service area",
+        "de": "Servicebereich",
+        "fr": "zone de service",
         "es": "área de servicio"
       }
     }

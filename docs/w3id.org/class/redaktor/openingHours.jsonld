@@ -5,7 +5,7 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FopeningHours",
   "prefLabel": {
     "en": "opening hours",
-    "de": "öffnungszeiten",
+    "de": "Öffnungszeiten",
     "fr": "heures d'ouverture",
     "es": "horario de apertura"
   },

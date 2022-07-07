@@ -5,14 +5,18 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FaggregateRating",
   "prefLabel": {
     "en": "aggregate rating",
-    "fr": "cote globale"
+    "de": "Gesamtbewertung",
+    "fr": "cote globale",
+    "es": "calificación agregada"
   },
   "definition": {
-    "en": "The overall rating, based on a collection of reviews or ratings, of the item."
+    "en": "The overall rating, based on a collection of reviews or ratings, of the item.",
+    "de": "Die Gesamtbewertung des Eintrags auf der Grundlage einer Sammlung von Rezensionen oder Bewertungen.",
+    "fr": "La note globale, basée sur une collection d'avis ou de notes, de l'article.",
+    "es": "La calificación global, basada en una colección de reseñas o valoraciones, del artículo."
   },
   "notation": [
-    "1389",
-    "1763"
+    "1389"
   ],
   "exactMatch": [
     {

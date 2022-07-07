@@ -1,44 +1,23 @@
 {
-  "id": "http://www.w3.org/ns/activitystreams#updated",
+  "id": "http://www.w3.org/ns/activitystreams#uploadMedia",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23updated",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23updated",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23uploadMedia",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23uploadMedia",
   "prefLabel": {
-    "en": "updated",
-    "de": "aktualisiert",
-    "fr": "actualisé",
-    "es": "actualizada"
+    "en": "upload Media Endpoint",
+    "de": "upload Media Endpoint",
+    "fr": "upload Media Endpoint",
+    "es": "upload Media Endpoint"
   },
   "definition": {
-    "en": "The date and time at which the object was updated.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)",
-    "de": "Das Datum und die Uhrzeit, zu der das Objekt aktualisiert wurde.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)",
-    "fr": "La date et l'heure auxquelles l'objet a été mis à jour.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)",
-    "es": "La fecha y hora en que se actualizó el objeto.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)"
-  },
-  "scopeNote": {
-    "en": "as: Property",
-    "de": "as: Property",
-    "fr": "as: Property",
-    "es": "as: Property"
+    "en": "Inspired by https://www.w3.org/wiki/SocialCG/ActivityPub/MediaUpload, it is part of the ActivityStreams namespace because it used to be part of the ActivityPub specification and got removed from it.<br><br>Content-Type: multipart/form-data<br><br>Parameters: - (required) file: The file being uploaded - (optionnal) description: A plain-text description of the media, for accessibility purposes.<br><br>Response: HTTP 201 Created with the object into the body, no Location header provided as it doesn't have an id<br><br>The object given in the reponse should then be inserted into an Object's attachment field.<br>see [Pleroma documentation](https://docs-develop.pleroma.social/backend/development/ap_extensions/#actor-endpoints)",
+    "de": "Inspiriert von https://www.w3.org/wiki/SocialCG/ActivityPub/MediaUpload, ist es Teil des ActivityStreams-Namensraums, weil es früher Teil der ActivityPub-Spezifikation war und daraus entfernt wurde.<br><br>Inhalt-Typ: multipart/form-data<br><br>Parameter: - (erforderlich) file: Die hochzuladende Datei - (optional) description: Eine Beschreibung des Mediums im Klartext, um die Zugänglichkeit zu gewährleisten.<br><br>Antwort: HTTP 201 Erstellt mit dem Objekt im Body, ohne Location-Header, da es keine ID hat<br><br>Das in der Antwort angegebene Objekt sollte dann in das Anhangsfeld eines Objekts eingefügt werden.<br>siehe [Pleroma documentation](https://docs-develop.pleroma.social/backend/development/ap_extensions/#actor-endpoints)",
+    "fr": "Inspiré de https://www.w3.org/wiki/SocialCG/ActivityPub/MediaUpload, il fait partie de l'espace de noms ActivityStreams car il faisait partie de la spécification ActivityPub et en a été retiré.<br><br>Content-Type : multipart/form-data<br><br>Paramètres : - (obligatoire) file : Le fichier téléchargé - (facultatif) description : Une description en texte clair du média, à des fins d'accessibilité.<br><br>Réponse : HTTP 201 Créé avec l'objet dans le corps, aucun en-tête Location n'est fourni car il n'a pas d'identifiant.<br><br>L'objet indiqué dans la réponse doit ensuite être inséré dans le champ de pièce jointe d'un objet.<br>voir [Pleroma documentation](https://docs-develop.pleroma.social/backend/development/ap_extensions/#actor-endpoints)",
+    "es": "Inspirado en https://www.w3.org/wiki/SocialCG/ActivityPub/MediaUpload, forma parte del espacio de nombres ActivityStreams porque solía formar parte de la especificación ActivityPub y fue eliminado de ella.<br><br>Content-Type: multipart/form-data<br><br>Parámetros: - (obligatorio) archivo: El archivo que se sube - (opcional) description: Una descripción en texto plano del medio, con fines de accesibilidad.<br><br>Respuesta: HTTP 201 Creado con el objeto en el cuerpo, no se proporciona la cabecera Location ya que no tiene un id<br><br>El objeto proporcionado en la respuesta debe ser insertado en el campo adjunto de un objeto.<br>ver [Pleroma documentation](https://docs-develop.pleroma.social/backend/development/ap_extensions/#actor-endpoints)"
   },
   "notation": [
-    "348"
+    "041"
   ],
-  "example": {
-    "en": "```json \n[Example 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Note\",\n    \"content\": \"Mush it up so it does not have the same shape as the can.\",\n    \"name\": \"Cranberry Sauce Idea\",\n    \"updated\": \"2014-12-12T12:12:12Z\"\n  },\n  \"name\": \"Example 137\"\n}\n```",
-    "de": "```json \n[Example 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Note\",\n    \"content\": \"Mush it up so it does not have the same shape as the can.\",\n    \"name\": \"Cranberry Sauce Idea\",\n    \"updated\": \"2014-12-12T12:12:12Z\"\n  },\n  \"name\": \"Example 137\"\n}\n```",
-    "fr": "```json \n[Example 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Note\",\n    \"content\": \"Mush it up so it does not have the same shape as the can.\",\n    \"name\": \"Cranberry Sauce Idea\",\n    \"updated\": \"2014-12-12T12:12:12Z\"\n  },\n  \"name\": \"Example 137\"\n}\n```",
-    "es": "```json \n[Example 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Note\",\n    \"content\": \"Mush it up so it does not have the same shape as the can.\",\n    \"name\": \"Cranberry Sauce Idea\",\n    \"updated\": \"2014-12-12T12:12:12Z\"\n  },\n  \"name\": \"Example 137\"\n}\n```"
-  },
-  "broader": {
-    "id": "http://www.w3.org/ns/activitystreams#Object",
-    "prefLabel": {
-      "en": "Object",
-      "de": "Objekt",
-      "fr": "Objet",
-      "es": "Objeto"
-    }
-  },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
@@ -142,7 +121,7 @@
       "@container": "@set"
     }
   }
-}her": "dct:publisher",
+}",
     "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
@@ -547,31 +526,25 @@
       "@container": "@set"
     }
   }
-}rowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
+}oncept": {
       "@container": "@set"
     }
   }
-}el": {
+}nos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/sponsor",
+      "prefLabel": {
+        "en": "sponsor",
+        "de": "Sponsor",
+        "fr": "sponsor",
+        "es": "patrocinador"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/spouse",
+      "prefLabel": {
         "en": "spouse",
         "de": "Ehepartner",
         "fr": "conjoint",
@@ -618,7 +591,7 @@
       "id": "https://w3id.org/class/redaktor/worksFor",
       "prefLabel": {
         "en": "works for",
-        "de": "Arbeiten für",
+        "de": "arbeitet für",
         "fr": "travaux pour",
         "es": "trabajos para"
       }
@@ -736,7 +709,8 @@
       "@container": "@set"
     }
   }
-}prefLabel": {
+}  "id": "https://w3id.org/class/redaktor/ownershipFundingInfo",
+      "prefLabel": {
         "en": "ownership funding info",
         "de": "Eigentum Finanzierungsinfo",
         "fr": "informations sur le financement de la propriété",
@@ -964,28 +938,10 @@
       "@container": "@set"
     }
   }
-}ble at or from",
-        "de": "verfügbar bei oder von",
-        "fr": "disponible à ou de",
-        "es": "disponible en o desde"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/availableDeliveryMethod",
-      "prefLabel": {
-        "en": "available delivery method",
+}thod",
         "de": "verfügbare Liefermethode",
         "fr": "méthode de livraison disponible",
         "es": "método de entrega disponible"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/award",
-      "prefLabel": {
-        "en": "award",
-        "de": "Auszeichnung",
-        "fr": "prix",
-        "es": "premio"
       }
     },
     {
@@ -1369,10 +1325,10 @@
     {
       "id": "https://w3id.org/class/redaktor/sku",
       "prefLabel": {
-        "en": "sku",
-        "de": "sku",
-        "fr": "sku",
-        "es": "sku"
+        "en": "SKU",
+        "de": "SKU",
+        "fr": "SKU",
+        "es": "SKU"
       }
     },
     {

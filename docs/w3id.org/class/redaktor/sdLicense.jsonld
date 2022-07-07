@@ -4,9 +4,9 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FsdLicense",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FsdLicense",
   "prefLabel": {
-    "en": "sd license",
-    "de": "sd lizenz",
-    "fr": "sd licence",
+    "en": "SD license",
+    "de": "SD lizenz",
+    "fr": "SD licence",
     "es": "licencia sd"
   },
   "definition": {

@@ -1,27 +1,16 @@
 {
-  "id": "https://w3id.org/class/redaktor/award",
+  "id": "https://w3id.org/class/redaktor/Award",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Faward",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Faward",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAward",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAward",
   "prefLabel": {
-    "en": "award",
-    "de": "Auszeichnung",
-    "fr": "prix",
-    "es": "premio"
-  },
-  "definition": {
-    "en": "An award won by or for this item.",
-    "de": "An award won by or for this item.",
-    "fr": "An award won by or for this item.",
-    "es": "An award won by or for this item."
+    "en": "Award Ceremony",
+    "de": "Preisverleihung",
+    "fr": "Cérémonie de remise de prix",
+    "es": "Ceremonia de entrega de premios"
   },
   "notation": [
-    "1814"
-  ],
-  "exactMatch": [
-    {
-      "id": "schema:award"
-    }
+    "1401"
   ],
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",

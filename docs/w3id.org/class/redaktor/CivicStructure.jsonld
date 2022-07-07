@@ -122,7 +122,7 @@
       "id": "https://w3id.org/class/redaktor/FireStation",
       "prefLabel": {
         "en": "Fire station",
-        "de": "Feuerwehrhaus",
+        "de": "Feuerwehr",
         "fr": "Caserne de pompiers",
         "es": "Parque de bomberos"
       }
@@ -324,13 +324,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/CurrencyConversionService",
-      "prefLabel": {
-        "en": "Currency Conversion Service",
-        "de": "Währungsumrechnungsdienst",
-        "fr": "Service de conversion de devises",
-        "es": "Servicio de cambio de moneda"
-      }
+      "id": "https://w3id.org/class/redaktor/CurrencyConversionService"
     },
     {
       "id": "https://w3id.org/class/redaktor/BicycleRepairStation",
@@ -632,7 +626,7 @@
       "id": "https://w3id.org/class/redaktor/openingHours",
       "prefLabel": {
         "en": "opening hours",
-        "de": "öffnungszeiten",
+        "de": "Öffnungszeiten",
         "fr": "heures d'ouverture",
         "es": "horario de apertura"
       }

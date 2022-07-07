@@ -77,7 +77,7 @@
       "id": "https://w3id.org/class/redaktor/cssSelector",
       "prefLabel": {
         "en": "css selector",
-        "de": "css-Selektor",
+        "de": "CSS Selektor",
         "fr": "sélecteur css",
         "es": "selector css"
       }
@@ -85,10 +85,10 @@
     {
       "id": "https://w3id.org/class/redaktor/xpath",
       "prefLabel": {
-        "en": "xpath",
-        "de": "xpath",
-        "fr": "xpath",
-        "es": "xpath"
+        "en": "XPath",
+        "de": "XPath",
+        "fr": "XPath",
+        "es": "XPath"
       }
     }
   ],

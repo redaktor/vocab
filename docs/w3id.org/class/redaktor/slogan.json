@@ -10,11 +10,13 @@
     "es": "eslogan"
   },
   "definition": {
-    "en": "A slogan or motto associated with the item."
+    "en": "A slogan or motto associated with the item.",
+    "de": "Ein mit dem Artikel verbundener Slogan oder ein Motto.",
+    "fr": "Un slogan ou une devise associés à l'article.",
+    "es": "Un eslogan o lema asociado al artículo."
   },
   "notation": [
-    "1396",
-    "2219"
+    "1396"
   ],
   "exactMatch": [
     {

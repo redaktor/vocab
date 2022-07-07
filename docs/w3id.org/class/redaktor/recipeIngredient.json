@@ -5,9 +5,9 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FrecipeIngredient",
   "prefLabel": {
     "en": "recipe ingredient",
-    "de": "Rezept-Zutat",
-    "fr": "recette in in recette",
-    "es": "receta ingrediente"
+    "de": "Zutat",
+    "fr": "ingrédient",
+    "es": "ingrediente"
   },
   "definition": {
     "en": "A single ingredient used in the recipe, e.g. sugar, flour or garlic.",

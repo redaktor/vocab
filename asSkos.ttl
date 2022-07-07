@@ -4158,23 +4158,25 @@ mz:joinModeType a owl:Class, skos:Concept ;
   owl:oneOf ("free"^^xsd:string "restricted"^^xsd:string "invite"^^xsd:string) .
 
 :free a owl:Thing, skos:Concept ;
+  # TODO:
+  skos:exactMatch schema:isAccessibleForFree ;
   skos:inScheme :scheme ;
   skos:broader mz:joinModeType ;
-  skos:notation "10521" ;
+  skos:notation "10524" ;
   skos:prefLabel "free"@de, "free"@en, "free"@fr, "free"@es ;
   rdfs:label "free"@en .
 
 :restricted a owl:Thing, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader mz:joinModeType ;
-  skos:notation "10522" ;
+  skos:notation "10525" ;
   skos:prefLabel "restricted"@de, "restricted"@en, "restricted"@fr, "restricted"@es ;
   rdfs:label "restricted"@en .
 
 :invite a owl:Thing, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader mz:joinModeType ;
-  skos:notation "10523" ;
+  skos:notation "10526" ;
   skos:prefLabel "invite"@de, "invite"@en, "invite"@fr, "invite"@es ;
   rdfs:label "invite"@en .
 
@@ -4625,7 +4627,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
     skos:notation "1512" ;
-    skos:prefLabel ""@de, "Clip"@en, "Clip"@fr, "Clip"@es ;
+    skos:prefLabel "Clip"@de, "Clip"@en, "Clip"@fr, "Clip"@es ;
     skos:definition "Ein kurzes Fernseh- oder Radioprogramm oder ein Segment/Teil eines Programms."@de,
       "A short TV or radio program or a segment/part of a program."@en,
       "Un programme court de télévision ou de radio ou un segment/une partie d'un programme."@fr,
@@ -7148,8 +7150,8 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:FireStation ;
     skos:inScheme :scheme ;
     skos:broader :CivicStructure, :EmergencyService, :redaktor ;
-    skos:notation "1101" ;
-    skos:prefLabel "Feuerwehrhaus"@de, "Fire station"@en, "Caserne de pompiers"@fr, "Parque de bomberos"@es ;
+    skos:notation "1112" ;
+    skos:prefLabel "Feuerwehr"@de, "Fire station"@en, "Caserne de pompiers"@fr, "Parque de bomberos"@es ;
     skos:scopeNote as:Place ;
     schema:amenityFeature "amenity=fire_station" ;
     rdfs:label "FireStation"@en ;
@@ -7282,7 +7284,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:PoliceStation ;
     skos:inScheme :scheme ;
     skos:broader :CivicStructure, :EmergencyService, :redaktor ;
-    skos:notation "1112" ;
+    skos:notation "1101" ;
     skos:prefLabel "Polizeiwache"@de, "Police station"@en, "Commissariat de police"@fr, "Estación de policía"@es ;
     skos:scopeNote as:Place ;
     schema:amenityFeature "amenity=police" ;
@@ -7719,6 +7721,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :CivicStructure, :FinancialService, :redaktor ;
     skos:notation "1155" ;
+    skos:prefLabel "Wechselstube"@de, "Currency exchange"@en, "Bureaux de change"@fr, "Casa de cambio"@es ;
     skos:prefLabel "Währungsumrechnungsdienst"@de, "Currency Conversion Service"@en, "Service de conversion de devises"@fr, "Servicio de cambio de moneda"@es ;
     skos:scopeNote as:Place ;
     schema:amenityFeature "amenity=bureau_de_change" ;
@@ -7959,7 +7962,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :LocalBusiness, :redaktor ;
     skos:notation "1180" ;
-    skos:prefLabel "Boot teilen"@de, "Boat Share"@en, "Partage de bateaux"@fr, "Compartir de barcos"@es ;
+    skos:prefLabel "Boote teilen"@de, "Boat Share"@en, "Partage de bateaux"@fr, "Compartir de barcos"@es ;
     skos:scopeNote as:Place ;
     schema:amenityFeature "amenity=boat_sharing" ;
     rdfs:label "BoatShare"@en ;
@@ -8223,7 +8226,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :LocalBusiness, :redaktor ;
     skos:notation "1202" ;
-    skos:prefLabel "Centre d'information touristique"@de, "Television Station"@en, "Station de télévision"@fr, "Estación de televisión"@es ;
+    skos:prefLabel "Fernsehsender"@de, "Television Station"@en, "Station de télévision"@fr, "Estación de televisión"@es ;
     skos:scopeNote as:Place ;
     schema:amenityFeature "office=telecommunications" ;
     rdfs:label "TelevisionStation"@en ;
@@ -9996,7 +9999,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     rdfs:label "Outdoor"@en ;
     rdfs:subClassOf :LocalBusiness .
 
-  :Party a owl:Class, skos:Concept ;
+  :PartyShop a owl:Class, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :LocalBusiness, :redaktor ;
     skos:notation "1375" ;
@@ -10129,7 +10132,8 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   :aggregateRating a owl:ObjectProperty, skos:Concept ;
     skos:exactMatch schema:aggregateRating ;
     skos:inScheme :scheme ;
-    skos:broader as:Article, as:Audio, as:Image, as:Video, as:Event, as:Place, :redaktor ;
+    skos:broader as:Article, as:Audio, as:Image, as:Video, as:Event, as:Place,
+      as:Offer, as:Service, as:Organization, :Brand, :CreativeWork, :redaktor ;
     skos:notation "1389" ;
     skos:prefLabel "Gesamtbewertung"@de, "aggregate rating"@en, "cote globale"@fr, "calificación agregada"@es ;
     skos:definition "Die Gesamtbewertung des Eintrags auf der Grundlage einer Sammlung von Rezensionen oder Bewertungen."@de,
@@ -10138,15 +10142,23 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       "La calificación global, basada en una colección de reseñas o valoraciones, del artículo."@es ;
     skos:scopeNote as:Object, as:Link ;
     rdfs:label "aggregateRating"@en ;
-    rdfs:domain as:Object ;
-    rdfs:range xsd:anyURI .
+    rdfs:domain [
+      a owl:Class ;
+      owl:unionOf ( :Brand :CreativeWork as:Place as:Object as:Event as:Offer as:Service as:Organization as:Link )
+    ] ;
+    rdfs:range [
+      a owl:Class ;
+      owl:unionOf ( schema:AggregateRating as:Link )
+    ] .
 
+  # TODO OSM mapping to LocationFeatureSpecification {"propertyID": "tourism", "value": "chalet"}
   :amenityFeature a owl:ObjectProperty, skos:Concept ;
     skos:exactMatch schema:amenityFeature ;
     skos:inScheme :scheme ;
     skos:broader as:Place, :redaktor ;
     skos:notation "1390" ;
     skos:prefLabel "Ausstattungsmerkmal"@de, "amenity feature"@en, "élément d'agrément"@fr, "característica de equipamiento"@es ;
+    skos:altLabel "Annehmlichkeitsmerkmal"@de, "service feature"@en, "caractéristique d'agrément"@fr, "característica de la amenidad"@es ;
     skos:definition "Ein Ausstattungsmerkmal (z.B. eine Eigenschaft oder Dienstleistung) der Unterkunft. Diese generische Eigenschaft macht keine Aussage darüber, ob das Merkmal in einem Angebot für die Hauptunterkunft enthalten oder gegen Aufpreis erhältlich ist. Wir schlagen vor, OSM als kontrolliertes Vokabular zu verwenden, wie hier für `Place`.<br>siehe auch [OSM amenity](https://wiki.openstreetmap.org/wiki/Key:amenity)"@de,
       "An amenity feature (e.g. a characteristic or service) of the Accommodation. This generic property does not make a statement about whether the feature is included in an offer for the main accommodation or available at extra costs. We suggest to use OSM as a Controlled Vocabulary, as here for `Place`.<br>see also [OSM amenity](https://wiki.openstreetmap.org/wiki/Key:amenity)"@en,
       "Un élément d'agrément (par exemple, une caractéristique ou un service) du logement. Cette propriété générique n'indique pas si la caractéristique est incluse dans une offre pour le logement principal ou disponible à des coûts supplémentaires. Nous suggérons d'utiliser l'OSM comme un vocabulaire contrôlé.<br>voir aussi [OSM amenity](https://wiki.openstreetmap.org/wiki/Key:amenity)"@fr,
@@ -10154,9 +10166,12 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:scopeNote as:Place ;
     rdfs:label "amenityFeature"@en ;
     rdfs:domain as:Place ;
-    rdfs:range xsd:anyURI .
+    rdfs:range [
+      a owl:Class ;
+      owl:unionOf ( schema:LocationFeatureSpecification as:Link )
+    ] .
 
-  :event a owl:ObjectProperty, skos:Concept ;
+  :events a owl:ObjectProperty, skos:Concept ;
     skos:exactMatch schema:event ;
     skos:inScheme :scheme ;
     skos:broader as:Place, as:Group, as:Organization, schema:LeaveAction, schema:JoinAction, schema:InformAction, schema:PlayAction, schema:InviteAction, :redaktor ;
@@ -10192,32 +10207,41 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   :hoursAvailable a owl:ObjectProperty, skos:Concept ;
     skos:exactMatch schema:hoursAvailable ;
     skos:inScheme :scheme ;
-    skos:broader as:Place, :redaktor ;
+    skos:broader :ContactPoint, schema:LocationFeatureSpecification, as:Service, :redaktor ;
     skos:notation "1393" ;
-    skos:prefLabel "Verfügbare Stunden"@de, "hours available"@en, "heures disponibles"@fr, "horas disponibles"@es ;
+    skos:prefLabel "Verfügbare Zeiten"@de, "hours available"@en, "heures disponibles"@fr, "horas disponibles"@es ;
     skos:definition "Die Zeiten, zu denen dieser Dienst oder Kontakt zur Verfügung steht."@de,
       "The hours during which this service or contact is available."@en,
       "Les heures pendant lesquelles ce service ou ce contact est disponible."@fr,
       "El horario en el que este servicio o contacto está disponible."@es ;
     skos:scopeNote as:Place ;
     rdfs:label "hoursAvailable"@en ;
-    rdfs:domain as:Place ;
-    rdfs:range xsd:anyURI .
+    rdfs:domain [
+      a owl:Class ;
+      owl:unionOf ( :ContactPoint schema:LocationFeatureSpecification as:Service as:Link )
+    ] ;
+    rdfs:range [
+      a owl:Class ;
+      owl:unionOf ( schema:OpeningHoursSpecification as:Link )
+    ] .
 
-  :isAccessibleForFree a owl:ObjectProperty, skos:Concept ;
+  :isAccessibleForFree a owl:DatatypeProperty, skos:Concept ;
     skos:exactMatch schema:isAccessibleForFree ;
     skos:inScheme :scheme ;
-    skos:broader as:Object, as:Place, :redaktor ;
+    skos:broader as:Object, :redaktor ;
     skos:notation "1394" ;
-    skos:prefLabel "ist gratis zugängig"@de, "is accessible for free"@en, "est accessible gratuitement"@fr, "es accesible de forma gratuita"@es ;
+    skos:prefLabel "ist kostenlos zugängig"@de, "is accessible for free"@en, "est accessible gratuitement"@fr, "es accesible de forma gratuita"@es ;
     skos:definition "Zeigt an, daß der Eintrag, die Veranstaltung oder Örtlichkeit gratis zugängig ist."@de,
       "A flag to signal that the item, event, or place is accessible for free."@en,
       "Un drapeau pour signaler que l'article, l'événement ou le lieu est accessible gratuitement."@fr,
       "Una bandera para señalar que el artículo, evento o lugar es accesible de forma gratuita."@es ;
     skos:scopeNote as:Object ;
     rdfs:label "isAccessibleForFree"@en ;
-    rdfs:domain as:Object ;
-    rdfs:range xsd:anyURI .
+    rdfs:domain [
+      a owl:Class ;
+      owl:unionOf ( as:Object as:Link )
+    ] ;
+    rdfs:range xsd:boolean .
 
   :publicAccess a owl:ObjectProperty, skos:Concept ;
     skos:exactMatch schema:publicAccess ;
@@ -10234,10 +10258,10 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     rdfs:domain as:Place ;
     rdfs:range xsd:anyURI .
 
-  :slogan a owl:ObjectProperty, skos:Concept ;
+  :slogan a owl:DatatypeProperty, skos:Concept ;
     skos:exactMatch schema:slogan ;
     skos:inScheme :scheme ;
-    skos:broader as:Place, :redaktor ;
+    skos:broader :Brand, as:Service, as:Organization, as:Place, :redaktor ;
     skos:notation "1396" ;
     skos:prefLabel "Slogan"@de, "slogan"@en, "slogan"@fr, "eslogan"@es ;
     skos:definition "Ein mit dem Artikel verbundener Slogan oder ein Motto."@de,
@@ -10246,8 +10270,11 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       "Un eslogan o lema asociado al artículo."@es ;
     skos:scopeNote as:Place ;
     rdfs:label "slogan"@en ;
-    rdfs:domain as:Place ;
-    rdfs:range xsd:anyURI .
+    rdfs:domain [
+      a owl:Class ;
+      owl:unionOf ( as:Object :Brand as:Service as:Organization as:Place as:Link )
+    ] ;
+    rdfs:range xsd:string .
 
   :smokingAllowed a owl:ObjectProperty, skos:Concept ;
     skos:exactMatch schema:smokingAllowed ;
@@ -10264,38 +10291,60 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     rdfs:domain as:Place ;
     rdfs:range xsd:anyURI .
 
-  :telephone a owl:ObjectProperty, skos:Concept ;
-    skos:exactMatch schema:telephone ;
-    skos:inScheme :scheme ;
-    skos:broader as:Place, :redaktor ;
-    skos:notation "1397" ;
-    skos:prefLabel "Telefon"@de, "telephone"@en, "téléphone"@fr, "teléfono"@es ;
-    skos:scopeNote as:Place ;
-    rdfs:label "telephone"@en ;
-    rdfs:domain as:Place ;
-    rdfs:range xsd:anyURI .
 
-  :email a owl:ObjectProperty, skos:Concept ;
-    skos:exactMatch schema:email ;
-    skos:inScheme :scheme ;
-    skos:broader as:Place, :redaktor ;
-    skos:notation "1398" ;
-    skos:prefLabel "email"@de, "email"@en, "email"@fr, "email"@es ;
-    skos:scopeNote as:Place ;
-    rdfs:label "email"@en ;
-    rdfs:domain as:Place ;
-    rdfs:range xsd:anyURI .
+:telephone a owl:DatatypeProperty, skos:Concept ;
+  skos:exactMatch schema:telephone ;
+  skos:inScheme :scheme ;
+  skos:broader as:Person, as:Organization, as:Place, :ContactPoint, :redaktor ;
+  skos:notation "2249" ;
+  skos:prefLabel "Telefon"@de, "telephone"@en, "téléphone"@fr, "teléfono"@es ;
+  skos:definition "The telephone number."@de,
+    "The telephone number."@en,
+    "The telephone number."@fr,
+    "The telephone number."@es ;
+  skos:scopeNote xsd:string ;
+  rdfs:label "telephone"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf ( as:Person as:Organization as:Place :ContactPoint as:Link )
+  ] ;
+  rdfs:range xsd:string .
 
-  :faxNumber a owl:ObjectProperty, skos:Concept ;
-    skos:exactMatch schema:faxNumber ;
-    skos:inScheme :scheme ;
-    skos:broader as:Place, :redaktor ;
-    skos:notation "1398" ;
-    skos:prefLabel "Faxnummer"@de, "fax number"@en, "numéro de fax"@fr, "número de fax"@es ;
-    skos:scopeNote as:Place ;
-    rdfs:label "faxNumber"@en ;
-    rdfs:domain as:Place ;
-    rdfs:range xsd:anyURI .
+:email a owl:DatatypeProperty, skos:Concept ;
+  skos:exactMatch schema:email ;
+  skos:inScheme :scheme ;
+  skos:broader as:Organization, :ContactPoint, as:Person, :redaktor ;
+  skos:notation "1931" ;
+  skos:prefLabel "E-Mail"@de, "email"@en, "e-mail"@fr, "correo electrónico"@es ;
+  skos:definition "Email address."@de,
+    "Email address."@en,
+    "Email address."@fr,
+    "Email address."@es ;
+  skos:scopeNote xsd:string ;
+  rdfs:label "email"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf ( as:Organization :ContactPoint as:Person as:Link )
+  ] ;
+  rdfs:range xsd:string .
+
+:faxNumber a owl:DatatypeProperty, skos:Concept ;
+  skos:exactMatch schema:faxNumber ;
+  skos:inScheme :scheme ;
+  skos:broader :ContactPoint, as:Person, as:Organization, as:Place, :redaktor ;
+  skos:notation "1947" ;
+  skos:prefLabel "Faxnummer"@de, "fax number"@en, "numéro de fax"@fr, "número de fax"@es ;
+  skos:definition "The fax number."@de,
+    "The fax number."@en,
+    "The fax number."@fr,
+    "The fax number."@es ;
+  skos:scopeNote xsd:string ;
+  rdfs:label "faxNumber"@en ;
+  rdfs:domain [
+    a owl:Class ;
+    owl:unionOf ( :ContactPoint as:Person as:Organization as:Place as:Link )
+  ] ;
+  rdfs:range xsd:string .
 
   #################################################################
   #
@@ -10603,7 +10652,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Event, :mobilizon, :redaktor ;
     skos:notation "1429" ;
-    skos:prefLabel "Gesundheit & Wellness"@de, "Health & Wellness"@en, "Santé et bien-être"@fr, "Salud y bienestar"@es ;
+    skos:prefLabel "Gesundheit und Wellness"@de, "Health and Wellness"@en, "Santé et bien-être"@fr, "Salud y bienestar"@es ;
     skos:scopeNote as:Event ;
     :eventbriteId "107" ;
     rdfs:label "HealthWellness"@en ;
@@ -10977,26 +11026,6 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:prefLabel "Erstellungsdatum"@de, "date created"@en, "date de création"@fr, "fecha de creación"@es ;
     skos:scopeNote as:Event ;
     rdfs:label "dateCreated"@en ;
-    rdfs:domain as:Object ;
-    rdfs:range xsd:anyURI .
-
-  :contentReferenceTime a owl:ObjectProperty, skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader as:Event, :redaktor ;
-    skos:notation "1474" ;
-    skos:prefLabel "Referenzzeit des Inhalts"@de, "content reference time"@en, "heure de référence du contenu"@fr, "hora de referencia del contenido"@es ;
-    skos:scopeNote as:Event ;
-    rdfs:label "contentReferenceTime"@en ;
-    rdfs:domain as:Object ;
-    rdfs:range xsd:anyURI .
-
-  :expires a owl:ObjectProperty, skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader as:Event, :redaktor ;
-    skos:notation "1475" ;
-    skos:prefLabel "verfällt"@de, "expires"@en, "expiration"@fr, "caduca"@es ;
-    skos:scopeNote as:Event ;
-    rdfs:label "expires"@en ;
     rdfs:domain as:Object ;
     rdfs:range xsd:anyURI .
 
@@ -11733,27 +11762,6 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       owl:unionOf ( as:Organization as:Link )
     ] .
 
-  :aggregateRating a owl:ObjectProperty, skos:Concept ;
-    skos:exactMatch schema:aggregateRating ;
-    skos:inScheme :scheme ;
-    skos:broader :Brand, :CreativeWork, as:Place, as:Object, as:Event, as:Offer, as:Service, as:Organization, :redaktor ;
-    skos:notation "1763" ;
-    skos:prefLabel "Gesamtwertung"@de, "aggregate rating"@en, "cote globale"@fr, "clasificación agregada"@es ;
-    skos:definition "The overall rating, based on a collection of reviews or ratings, of the item."@de,
-      "The overall rating, based on a collection of reviews or ratings, of the item."@en,
-      "The overall rating, based on a collection of reviews or ratings, of the item."@fr,
-      "The overall rating, based on a collection of reviews or ratings, of the item."@es ;
-    skos:scopeNote schema:AggregateRating ;
-    rdfs:label "aggregateRating"@en ;
-    rdfs:domain [
-      a owl:Class ;
-      owl:unionOf ( :Brand :CreativeWork as:Place as:Object as:Event as:Offer as:Service as:Organization as:Link )
-    ] ;
-    rdfs:range [
-      a owl:Class ;
-      owl:unionOf ( schema:AggregateRating as:Link )
-    ] .
-
   :aircraft a owl:ObjectProperty, skos:Concept ;
     skos:exactMatch schema:aircraft ;
     skos:inScheme :scheme ;
@@ -11858,7 +11866,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :EducationalOrganization, as:Organization, :redaktor ;
     skos:notation "1769" ;
-    skos:prefLabel "Ehemalige"@de, "alumni"@en, "alumni"@fr, "antiguos alumnos"@es ;
+    skos:prefLabel "Alumni"@de, "alumni"@en, "alumni"@fr, "antiguos alumnos"@es ;
     skos:definition "Alumni of an organization."@de,
       "Alumni of an organization."@en,
       "Alumni of an organization."@fr,
@@ -11895,27 +11903,6 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       owl:unionOf ( :EducationalOrganization as:Organization as:Link )
     ] .
 
-  :amenityFeature a owl:ObjectProperty, skos:Concept ;
-    skos:exactMatch schema:amenityFeature ;
-    skos:inScheme :scheme ;
-    skos:broader :FloorPlan, :Accommodation, as:Place, :LodgingBusiness, :redaktor ;
-    skos:notation "1771" ;
-    skos:prefLabel "Annehmlichkeitsmerkmal"@de, "amenity feature"@en, "caractéristique d'agrément"@fr, "característica de la amenidad"@es ;
-    skos:definition "An amenity feature (e.g. a characteristic or service) of the Accommodation. This generic property does not make a statement about whether the feature is included in an offer for the main accommodation or available at extra costs."@de,
-      "An amenity feature (e.g. a characteristic or service) of the Accommodation. This generic property does not make a statement about whether the feature is included in an offer for the main accommodation or available at extra costs."@en,
-      "An amenity feature (e.g. a characteristic or service) of the Accommodation. This generic property does not make a statement about whether the feature is included in an offer for the main accommodation or available at extra costs."@fr,
-      "An amenity feature (e.g. a characteristic or service) of the Accommodation. This generic property does not make a statement about whether the feature is included in an offer for the main accommodation or available at extra costs."@es ;
-    skos:scopeNote schema:LocationFeatureSpecification ;
-    rdfs:label "amenityFeature"@en ;
-    rdfs:domain [
-      a owl:Class ;
-      owl:unionOf ( :FloorPlan :Accommodation as:Place :LodgingBusiness as:Link )
-    ] ;
-    rdfs:range [
-      a owl:Class ;
-      owl:unionOf ( schema:LocationFeatureSpecification as:Link )
-    ] .
-
   :amount a owl:ObjectProperty, skos:Concept ;
     skos:exactMatch schema:amount ;
     skos:inScheme :scheme ;
@@ -11942,7 +11929,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :SpecialAnnouncement, :redaktor ;
     skos:notation "1773" ;
-    skos:prefLabel "ankündigung ort"@de, "announcement location"@en, "annonce emplacement"@fr, "ubicación del anuncio"@es ;
+    skos:prefLabel "Ankündigung Ort"@de, "announcement location"@en, "annonce emplacement"@fr, "ubicación del anuncio"@es ;
     skos:definition "Indicates a specific [[CivicStructure]] or [[LocalBusiness]] associated with the SpecialAnnouncement. For example, a specific testing facility or business with special opening hours. For a larger geographic region like a quarantine of an entire region, use [[spatialCoverage]]."@de,
       "Indicates a specific [[CivicStructure]] or [[LocalBusiness]] associated with the SpecialAnnouncement. For example, a specific testing facility or business with special opening hours. For a larger geographic region like a quarantine of an entire region, use [[spatialCoverage]]."@en,
       "Indicates a specific [[CivicStructure]] or [[LocalBusiness]] associated with the SpecialAnnouncement. For example, a specific testing facility or business with special opening hours. For a larger geographic region like a quarantine of an entire region, use [[spatialCoverage]]."@fr,
@@ -12704,7 +12691,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :Physician, :Hospital, :MedicalClinic, :redaktor ;
     skos:notation "1811" ;
-    skos:prefLabel "verfügbarer Dienst"@de, "available service"@en, "service disponible"@fr, "servicio disponible"@es ;
+    skos:prefLabel "angebotene Leistung"@de, "available service"@en, "service disponible"@fr, "servicio disponible"@es ;
     skos:definition "A medical service available from this provider."@de,
       "A medical service available from this provider."@en,
       "A medical service available from this provider."@fr,
@@ -12759,26 +12746,8 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     ] ;
     rdfs:range xsd:dateTime .
 
-  :award a owl:DatatypeProperty, skos:Concept ;
-    skos:exactMatch schema:award ;
-    skos:inScheme :scheme ;
-    skos:broader as:Service, as:Object, as:Person, :CreativeWork, as:Organization, :redaktor ;
-    skos:notation "1814" ;
-    skos:prefLabel "Auszeichnung"@de, "award"@en, "prix"@fr, "premio"@es ;
-    skos:definition "An award won by or for this item."@de,
-      "An award won by or for this item."@en,
-      "An award won by or for this item."@fr,
-      "An award won by or for this item."@es ;
-    skos:scopeNote xsd:string ;
-    rdfs:label "award"@en ;
-    rdfs:domain [
-      a owl:Class ;
-      owl:unionOf ( as:Service as:Object as:Person :CreativeWork as:Organization as:Link )
-    ] ;
-    rdfs:range xsd:string .
-
   :awards a owl:DatatypeProperty, skos:Concept ;
-    skos:exactMatch schema:awards ;
+    skos:exactMatch schema:award ;
     skos:inScheme :scheme ;
     skos:broader as:Object, as:Person, as:Organization, :CreativeWork, :redaktor ;
     skos:notation "1815" ;
@@ -12788,7 +12757,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       "Awards won by or for this item."@fr,
       "Awards won by or for this item."@es ;
     skos:scopeNote xsd:string ;
-    rdfs:label "awards"@en ;
+    rdfs:label "award"@en ;
     rdfs:domain [
       a owl:Class ;
       owl:unionOf ( as:Object as:Person as:Organization :CreativeWork as:Link )
@@ -13389,7 +13358,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
     skos:notation "1845" ;
-    skos:prefLabel "zitieren"@de, "citation"@en, "citation"@fr, "citación"@es ;
+    skos:prefLabel "Zitat"@de, "citation"@en, "citation"@fr, "citación"@es ;
     skos:definition "Verweis von einem Dokument auf ein anderes. Z. B. eine andere Publikation, Webseite, wissenschaftliche Referenz, etc."@de,
       "A citation or reference to another creative work, such as another publication, web page, scholarly article, etc."@en,
       "Citation d'un document dans un autre document. A citation or reference to another creative work, such as another publication, web page, scholarly article, etc."@fr,
@@ -13813,7 +13782,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   :contentReferenceTime a owl:DatatypeProperty, skos:Concept ;
     skos:exactMatch schema:contentReferenceTime ;
     skos:inScheme :scheme ;
-    skos:broader :CreativeWork, :redaktor ;
+    skos:broader as:Event, :CreativeWork, :redaktor ;
     skos:notation "1866" ;
     skos:prefLabel "Referenzzeit des Inhalts"@de, "content reference time"@en, "temps de référence du contenu"@fr, "tiempo de referencia del contenido"@es ;
     skos:definition "The specific time described by a creative work, for works (e.g. articles, video objects etc.) that emphasise a particular moment within an Event."@de,
@@ -13824,7 +13793,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     rdfs:label "contentReferenceTime"@en ;
     rdfs:domain [
       a owl:Class ;
-      owl:unionOf ( :CreativeWork as:Link )
+      owl:unionOf ( as:Event :CreativeWork as:Link )
     ] ;
     rdfs:range xsd:dateTime .
 
@@ -14208,7 +14177,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader schema:SpeakableSpecification, :WebPageElement, :redaktor ;
     skos:notation "1886" ;
-    skos:prefLabel "css-Selektor"@de, "css selector"@en, "sélecteur css"@fr, "selector css"@es ;
+    skos:prefLabel "CSS Selektor"@de, "css selector"@en, "sélecteur css"@fr, "selector css"@es ;
     skos:definition "A CSS selector, e.g. of a [[SpeakableSpecification]] or [[WebPageElement]]. In the latter case, multiple matches within a page can constitute a single conceptual “Web page element”."@de,
       "A CSS selector, e.g. of a [[SpeakableSpecification]] or [[WebPageElement]]. In the latter case, multiple matches within a page can constitute a single conceptual “Web page element”."@en,
       "A CSS selector, e.g. of a [[SpeakableSpecification]] or [[WebPageElement]]. In the latter case, multiple matches within a page can constitute a single conceptual “Web page element”."@fr,
@@ -14245,7 +14214,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   :dateCreated a owl:DatatypeProperty, skos:Concept ;
     skos:exactMatch schema:dateCreated ;
     skos:inScheme :scheme ;
-    skos:broader schema:DataFeedItem, :CreativeWork, :redaktor ;
+    skos:broader as:Event, schema:DataFeedItem, :CreativeWork, :redaktor ;
     skos:notation "1888" ;
     skos:prefLabel "Erstellungsdatum"@de, "date created"@en, "date de création"@fr, "fecha de creación"@es ;
     skos:definition "The date on which the CreativeWork was created or the item was added to a DataFeed."@de,
@@ -14256,7 +14225,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     rdfs:label "dateCreated"@en ;
     rdfs:domain [
       a owl:Class ;
-      owl:unionOf ( schema:DataFeedItem :CreativeWork as:Link )
+      owl:unionOf ( as:Event schema:DataFeedItem :CreativeWork as:Link )
     ] ;
     rdfs:range [
       a owl:Class ;
@@ -14808,7 +14777,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Organization, as:Person, :redaktor ;
     skos:notation "1916" ;
-    skos:prefLabel "duns"@de, "duns"@en, "duns"@fr, "duns"@es ;
+    skos:prefLabel "DUNS"@de, "DUNS"@en, "DUNS"@fr, "DUNS"@es ;
     skos:definition "The Dun & Bradstreet DUNS number for identifying an organization or business person."@de,
       "The Dun & Bradstreet DUNS number for identifying an organization or business person."@en,
       "The Dun & Bradstreet DUNS number for identifying an organization or business person."@fr,
@@ -15112,24 +15081,6 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       owl:unionOf ( schema:PriceSpecification as:Link )
     ] .
 
-  :email a owl:DatatypeProperty, skos:Concept ;
-    skos:exactMatch schema:email ;
-    skos:inScheme :scheme ;
-    skos:broader as:Organization, :ContactPoint, as:Person, :redaktor ;
-    skos:notation "1931" ;
-    skos:prefLabel "E-Mail"@de, "email"@en, "e-mail"@fr, "correo electrónico"@es ;
-    skos:definition "Email address."@de,
-      "Email address."@en,
-      "Email address."@fr,
-      "Email address."@es ;
-    skos:scopeNote xsd:string ;
-    rdfs:label "email"@en ;
-    rdfs:domain [
-      a owl:Class ;
-      owl:unionOf ( as:Organization :ContactPoint as:Person as:Link )
-    ] ;
-    rdfs:range xsd:string .
-
   :employee a owl:ObjectProperty, skos:Concept ;
     skos:exactMatch schema:employee ;
     skos:inScheme :scheme ;
@@ -15361,9 +15312,9 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   :expires a owl:DatatypeProperty, skos:Concept ;
     skos:exactMatch schema:expires ;
     skos:inScheme :scheme ;
-    skos:broader :CreativeWork, :redaktor ;
+    skos:broader as:Event, :CreativeWork, :redaktor ;
     skos:notation "1945" ;
-    skos:prefLabel "läuft ab"@de, "expires"@en, "expiration"@fr, "caduca"@es ;
+    skos:prefLabel "verfällt"@de, "expires"@en, "expiration"@fr, "caduca"@es ;
     skos:definition "Date the content expires and is no longer useful or available. For example a [[VideoObject]] or [[NewsArticle]] whose availability or relevance is time-limited, or a [[ClaimReview]] fact check whose publisher wants to indicate that it may no longer be relevant (or helpful to highlight) after some date."@de,
       "Date the content expires and is no longer useful or available. For example a [[VideoObject]] or [[NewsArticle]] whose availability or relevance is time-limited, or a [[ClaimReview]] fact check whose publisher wants to indicate that it may no longer be relevant (or helpful to highlight) after some date."@en,
       "Date the content expires and is no longer useful or available. For example a [[VideoObject]] or [[NewsArticle]] whose availability or relevance is time-limited, or a [[ClaimReview]] fact check whose publisher wants to indicate that it may no longer be relevant (or helpful to highlight) after some date."@fr,
@@ -15372,7 +15323,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     rdfs:label "expires"@en ;
     rdfs:domain [
       a owl:Class ;
-      owl:unionOf ( :CreativeWork as:Link )
+      owl:unionOf ( as:Event :CreativeWork as:Link )
     ] ;
     rdfs:range xsd:date .
 
@@ -15391,24 +15342,6 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     rdfs:domain [
       a owl:Class ;
       owl:unionOf ( as:Person as:Link )
-    ] ;
-    rdfs:range xsd:string .
-
-  :faxNumber a owl:DatatypeProperty, skos:Concept ;
-    skos:exactMatch schema:faxNumber ;
-    skos:inScheme :scheme ;
-    skos:broader :ContactPoint, as:Person, as:Organization, as:Place, :redaktor ;
-    skos:notation "1947" ;
-    skos:prefLabel "Faxnummer"@de, "fax number"@en, "numéro de fax"@fr, "número de fax"@es ;
-    skos:definition "The fax number."@de,
-      "The fax number."@en,
-      "The fax number."@fr,
-      "The fax number."@es ;
-    skos:scopeNote xsd:string ;
-    rdfs:label "faxNumber"@en ;
-    rdfs:domain [
-      a owl:Class ;
-      owl:unionOf ( :ContactPoint as:Person as:Organization as:Place as:Link )
     ] ;
     rdfs:range xsd:string .
 
@@ -15714,24 +15647,6 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       a owl:Class ;
       owl:unionOf ( as:Place as:Link )
     ] .
-
-  :free a owl:DatatypeProperty, skos:Concept ;
-    skos:exactMatch schema:free ;
-    skos:inScheme :scheme ;
-    skos:broader :PublicationEvent, :redaktor ;
-    skos:notation "1963" ;
-    skos:prefLabel "kostenlos"@de, "free"@en, "gratuit"@fr, "gratis"@es ;
-    skos:definition "A flag to signal that the item, event, or place is accessible for free."@de,
-      "A flag to signal that the item, event, or place is accessible for free."@en,
-      "A flag to signal that the item, event, or place is accessible for free."@fr,
-      "A flag to signal that the item, event, or place is accessible for free."@es ;
-    skos:scopeNote xsd:boolean ;
-    rdfs:label "free"@en ;
-    rdfs:domain [
-      a owl:Class ;
-      owl:unionOf ( :PublicationEvent as:Link )
-    ] ;
-    rdfs:range xsd:boolean .
 
   :fundedItem a owl:ObjectProperty, skos:Concept ;
     skos:exactMatch schema:fundedItem ;
@@ -16579,33 +16494,12 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       owl:unionOf ( as:Organization as:Link )
     ] .
 
-  :hoursAvailable a owl:ObjectProperty, skos:Concept ;
-    skos:exactMatch schema:hoursAvailable ;
-    skos:inScheme :scheme ;
-    skos:broader :ContactPoint, schema:LocationFeatureSpecification, as:Service, :redaktor ;
-    skos:notation "2006" ;
-    skos:prefLabel "Verfügbare Stunden"@de, "hours available"@en, "heures disponibles"@fr, "horas disponibles"@es ;
-    skos:definition "The hours during which this service or contact is available."@de,
-      "The hours during which this service or contact is available."@en,
-      "The hours during which this service or contact is available."@fr,
-      "The hours during which this service or contact is available."@es ;
-    skos:scopeNote schema:OpeningHoursSpecification ;
-    rdfs:label "hoursAvailable"@en ;
-    rdfs:domain [
-      a owl:Class ;
-      owl:unionOf ( :ContactPoint schema:LocationFeatureSpecification as:Service as:Link )
-    ] ;
-    rdfs:range [
-      a owl:Class ;
-      owl:unionOf ( schema:OpeningHoursSpecification as:Link )
-    ] .
-
   :iataCode a owl:DatatypeProperty, skos:Concept ;
     skos:exactMatch schema:iataCode ;
     skos:inScheme :scheme ;
     skos:broader :Airport, :Airline, :redaktor ;
     skos:notation "2007" ;
-    skos:prefLabel "iata-Code"@de, "iata code"@en, "code iata"@fr, "código iata"@es ;
+    skos:prefLabel "IATA Code"@de, "IATA code"@en, "code IATA"@fr, "código IATA"@es ;
     skos:definition "IATA identifier for an airline or airport."@de,
       "IATA identifier for an airline or airport."@en,
       "IATA identifier for an airline or airport."@fr,
@@ -16866,7 +16760,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader schema:VisualArtwork, :ComicStory, schema:ComicIssue, :redaktor ;
     skos:notation "2020" ;
-    skos:prefLabel "inker"@de, "inker"@en, "inker"@fr, "entintador"@es ;
+    skos:prefLabel "Färber"@de, "inker"@en, "inker"@fr, "entintador"@es ;
     skos:definition "The individual who traces over the pencil drawings in ink after pencils are complete."@de,
       "The individual who traces over the pencil drawings in ink after pencils are complete."@en,
       "The individual who traces over the pencil drawings in ink after pencils are complete."@fr,
@@ -17017,24 +16911,6 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     rdfs:domain [
       a owl:Class ;
       owl:unionOf ( :MedicalOrganization as:Link )
-    ] ;
-    rdfs:range xsd:boolean .
-
-  :isAccessibleForFree a owl:DatatypeProperty, skos:Concept ;
-    skos:exactMatch schema:isAccessibleForFree ;
-    skos:inScheme :scheme ;
-    skos:broader as:Place, as:Event, :CreativeWork, :redaktor ;
-    skos:notation "2028" ;
-    skos:prefLabel "ist kostenlos zugänglich"@de, "is accessible for free"@en, "est accessible gratuitement"@fr, "es accesible de forma gratuita"@es ;
-    skos:definition "A flag to signal that the item, event, or place is accessible for free."@de,
-      "A flag to signal that the item, event, or place is accessible for free."@en,
-      "A flag to signal that the item, event, or place is accessible for free."@fr,
-      "A flag to signal that the item, event, or place is accessible for free."@es ;
-    skos:scopeNote xsd:boolean ;
-    rdfs:label "isAccessibleForFree"@en ;
-    rdfs:domain [
-      a owl:Class ;
-      owl:unionOf ( as:Place as:Event :CreativeWork as:Link )
     ] ;
     rdfs:range xsd:boolean .
 
@@ -17205,7 +17081,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :Book, :redaktor ;
     skos:notation "2037" ;
-    skos:prefLabel "isbn"@de, "isbn"@en, "isbn"@fr, "isbn"@es ;
+    skos:prefLabel "ISBN"@de, "ISBN"@en, "ISBN"@fr, "ISBN"@es ;
     skos:definition "The ISBN of the book."@de,
       "The ISBN of the book."@en,
       "The ISBN of the book."@fr,
@@ -17259,7 +17135,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :MusicRecording, :redaktor ;
     skos:notation "2040" ;
-    skos:prefLabel "isrc-Code"@de, "isrc code"@en, "code isrc"@fr, "código isrc"@es ;
+    skos:prefLabel "ISRC Code"@de, "ISRC code"@en, "code ISRC"@fr, "código ISRC"@es ;
     skos:definition "The International Standard Recording Code for the recording."@de,
       "The International Standard Recording Code for the recording."@en,
       "The International Standard Recording Code for the recording."@fr,
@@ -17337,7 +17213,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :MusicComposition, :redaktor ;
     skos:notation "2044" ;
-    skos:prefLabel "iswc-Code"@de, "iswc code"@en, "code iswc"@fr, "código iswc"@es ;
+    skos:prefLabel "ISWC Code"@de, "ISWC  code"@en, "code ISWC "@fr, "código ISWC "@es ;
     skos:definition "The International Standard Musical Work Code for the composition."@de,
       "The International Standard Musical Work Code for the composition."@en,
       "The International Standard Musical Work Code for the composition."@fr,
@@ -18324,7 +18200,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :MusicComposition, :redaktor ;
     skos:notation "2092" ;
-    skos:prefLabel "form der musikkomposition"@de, "music composition form"@en, "formulaire de composition musicale"@fr, "forma de composición musical"@es ;
+    skos:prefLabel "Form der musikkomposition"@de, "music composition form"@en, "formulaire de composition musicale"@fr, "forma de composición musical"@es ;
     skos:definition "The type of composition (e.g. overture, sonata, symphony, etc.)."@de,
       "The type of composition (e.g. overture, sonata, symphony, etc.)."@en,
       "The type of composition (e.g. overture, sonata, symphony, etc.)."@fr,
@@ -18441,7 +18317,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :SpecialAnnouncement, :redaktor ;
     skos:notation "2098" ;
-    skos:prefLabel "aktuelle Nachrichten und Leitlinien"@de, "news updates and guidelines"@en, "actualités et directives"@fr, "noticias y directrices"@es ;
+    skos:prefLabel "aktuelle Nachrichten und Richtlinien"@de, "news updates and guidelines"@en, "actualités et directives"@fr, "noticias y directrices"@es ;
     skos:definition "Indicates a page with news updates and guidelines. This could often be (but is not required to be) the main page containing [[SpecialAnnouncement]] markup on a site."@de,
       "Indicates a page with news updates and guidelines. This could often be (but is not required to be) the main page containing [[SpecialAnnouncement]] markup on a site."@en,
       "Indicates a page with news updates and guidelines. This could often be (but is not required to be) the main page containing [[SpecialAnnouncement]] markup on a site."@fr,
@@ -18624,7 +18500,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :Course, schema:EducationalOccupationalProgram, :redaktor ;
     skos:notation "2107" ;
-    skos:prefLabel "Anzahl der Kredite"@de, "number of credits"@en, "nombre de crédits"@fr, "número de créditos"@es ;
+    skos:prefLabel "Anzahl der Einheiten"@de, "number of credits"@en, "nombre de crédits"@fr, "número de créditos"@es ;
     skos:definition "The number of credits or units awarded by a Course or required to complete an EducationalOccupationalProgram."@de,
       "The number of credits or units awarded by a Course or required to complete an EducationalOccupationalProgram."@en,
       "The number of credits or units awarded by a Course or required to complete an EducationalOccupationalProgram."@fr,
@@ -18885,7 +18761,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :LocalBusiness, :CivicStructure, :redaktor ;
     skos:notation "2120" ;
-    skos:prefLabel "öffnungszeiten"@de, "opening hours"@en, "heures d'ouverture"@fr, "horario de apertura"@es ;
+    skos:prefLabel "Öffnungszeiten"@de, "opening hours"@en, "heures d'ouverture"@fr, "horario de apertura"@es ;
     skos:definition "The general opening hours for a business. Opening hours can be specified as a weekly time range, starting with days, then times per day. Multiple days can be listed with commas ',' separating each day. Day or time ranges are specified using a hyphen '-'.\n\n* Days are specified using the following two-letter combinations: ```Mo```, ```Tu```, ```We```, ```Th```, ```Fr```, ```Sa```, ```Su```.\n* Times are specified using 24:00 format. For example, 3pm is specified as ```15:00```, 10am as ```10:00```. \n* Here is an example: <code>&lt;time itemprop=\"openingHours\" datetime=&quot;Tu,Th 16:00-20:00&quot;&gt;Tuesdays and Thursdays 4-8pm&lt;/time&gt;</code>.\n* If a business is open 7 days a week, then it can be specified as <code>&lt;time itemprop=&quot;openingHours&quot; datetime=&quot;Mo-Su&quot;&gt;Monday through Sunday, all day&lt;/time&gt;</code>."@de,
       "The general opening hours for a business. Opening hours can be specified as a weekly time range, starting with days, then times per day. Multiple days can be listed with commas ',' separating each day. Day or time ranges are specified using a hyphen '-'.\n\n* Days are specified using the following two-letter combinations: ```Mo```, ```Tu```, ```We```, ```Th```, ```Fr```, ```Sa```, ```Su```.\n* Times are specified using 24:00 format. For example, 3pm is specified as ```15:00```, 10am as ```10:00```. \n* Here is an example: <code>&lt;time itemprop=\"openingHours\" datetime=&quot;Tu,Th 16:00-20:00&quot;&gt;Tuesdays and Thursdays 4-8pm&lt;/time&gt;</code>.\n* If a business is open 7 days a week, then it can be specified as <code>&lt;time itemprop=&quot;openingHours&quot; datetime=&quot;Mo-Su&quot;&gt;Monday through Sunday, all day&lt;/time&gt;</code>."@en,
       "The general opening hours for a business. Opening hours can be specified as a weekly time range, starting with days, then times per day. Multiple days can be listed with commas ',' separating each day. Day or time ranges are specified using a hyphen '-'.\n\n* Days are specified using the following two-letter combinations: ```Mo```, ```Tu```, ```We```, ```Th```, ```Fr```, ```Sa```, ```Su```.\n* Times are specified using 24:00 format. For example, 3pm is specified as ```15:00```, 10am as ```10:00```. \n* Here is an example: <code>&lt;time itemprop=\"openingHours\" datetime=&quot;Tu,Th 16:00-20:00&quot;&gt;Tuesdays and Thursdays 4-8pm&lt;/time&gt;</code>.\n* If a business is open 7 days a week, then it can be specified as <code>&lt;time itemprop=&quot;openingHours&quot; datetime=&quot;Mo-Su&quot;&gt;Monday through Sunday, all day&lt;/time&gt;</code>."@fr,
@@ -19350,7 +19226,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :HowTo, schema:HowToDirection, :redaktor ;
     skos:notation "2143" ;
-    skos:prefLabel "Zeit spielen"@de, "perform time"@en, "temps d'exécution"@fr, "realizar el tiempo"@es ;
+    skos:prefLabel "Spielzeit"@de, "perform time"@en, "temps d'exécution"@fr, "realizar el tiempo"@es ;
     skos:definition "The length of time it takes to perform instructions or a direction (not including time to prepare the supplies), in [ISO 8601 duration format](http://en.wikipedia.org/wiki/ISO_8601)."@de,
       "The length of time it takes to perform instructions or a direction (not including time to prepare the supplies), in [ISO 8601 duration format](http://en.wikipedia.org/wiki/ISO_8601)."@en,
       "The length of time it takes to perform instructions or a direction (not including time to prepare the supplies), in [ISO 8601 duration format](http://en.wikipedia.org/wiki/ISO_8601)."@fr,
@@ -20106,7 +19982,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :Recipe, :redaktor ;
     skos:notation "2181" ;
-    skos:prefLabel "Rezept Küche"@de, "recipe cuisine"@en, "recette cuisine"@fr, "receta cocina"@es ;
+    skos:prefLabel "Küche"@de, "recipe cuisine"@en, "recette cuisine"@fr, "receta cocina"@es ;
     skos:definition "The cuisine of the recipe (for example, French or Ethiopian)."@de,
       "The cuisine of the recipe (for example, French or Ethiopian)."@en,
       "The cuisine of the recipe (for example, French or Ethiopian)."@fr,
@@ -20124,7 +20000,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :Recipe, :redaktor ;
     skos:notation "2182" ;
-    skos:prefLabel "Rezept-Zutat"@de, "recipe ingredient"@en, "recette in in recette"@fr, "receta ingrediente"@es ;
+    skos:prefLabel "Zutat"@de, "recipe ingredient"@en, "ingrédient"@fr, "ingrediente"@es ;
     skos:definition "A single ingredient used in the recipe, e.g. sugar, flour or garlic."@de,
       "A single ingredient used in the recipe, e.g. sugar, flour or garlic."@en,
       "A single ingredient used in the recipe, e.g. sugar, flour or garlic."@fr,
@@ -20163,7 +20039,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :Recipe, :redaktor ;
     skos:notation "2184" ;
-    skos:prefLabel "Rezeptausbeute"@de, "recipe yield"@en, "rendement de la recette"@fr, "rendimiento de la receta"@es ;
+    skos:prefLabel "Ausbeute"@de, "recipe yield"@en, "rendement de la recette"@fr, "rendimiento de la receta"@es ;
     skos:definition "The quantity produced by the recipe (for example, number of people served, number of servings, etc)."@de,
       "The quantity produced by the recipe (for example, number of people served, number of servings, etc)."@en,
       "The quantity produced by the recipe (for example, number of people served, number of servings, etc)."@fr,
@@ -20529,7 +20405,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
     skos:notation "2202" ;
-    skos:prefLabel "sd Datum der Veröffentlichung"@de, "sd date published"@en, "sd date published"@fr, "sd fecha de publicación"@es ;
+    skos:prefLabel "SD Datum der Veröffentlichung"@de, "SD date published"@en, "SD date published"@fr, "SD fecha de publicación"@es ;
     skos:definition "Indicates the date on which the current structured data was generated / published. Typically used alongside [[sdPublisher]]"@de,
       "Indicates the date on which the current structured data was generated / published. Typically used alongside [[sdPublisher]]"@en,
       "Indicates the date on which the current structured data was generated / published. Typically used alongside [[sdPublisher]]"@fr,
@@ -20547,7 +20423,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
     skos:notation "2203" ;
-    skos:prefLabel "sd lizenz"@de, "sd license"@en, "sd licence"@fr, "licencia sd"@es ;
+    skos:prefLabel "SD lizenz"@de, "SD license"@en, "SD licence"@fr, "licencia sd"@es ;
     skos:definition "A license document that applies to this structured data, typically indicated by URL."@de,
       "A license document that applies to this structured data, typically indicated by URL."@en,
       "A license document that applies to this structured data, typically indicated by URL."@fr,
@@ -20568,7 +20444,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
     skos:notation "2204" ;
-    skos:prefLabel "sd-verlag"@de, "sd publisher"@en, "sd éditeur"@fr, "editor sd"@es ;
+    skos:prefLabel "SD Redakteur"@de, "SD publisher"@en, "SD éditeur"@fr, "editor SD"@es ;
     skos:definition "Indicates the party responsible for generating and publishing the current structured data markup, typically in cases where the structured data is derived automatically from existing published content but published on a different site. For example, student projects and open data initiatives often re-publish existing content with more explicitly structured metadata. The<br>[[sdPublisher]] property helps make such practices more explicit."@de,
       "Indicates the party responsible for generating and publishing the current structured data markup, typically in cases where the structured data is derived automatically from existing published content but published on a different site. For example, student projects and open data initiatives often re-publish existing content with more explicitly structured metadata. The<br>[[sdPublisher]] property helps make such practices more explicit."@en,
       "Indicates the party responsible for generating and publishing the current structured data markup, typically in cases where the structured data is derived automatically from existing published content but published on a different site. For example, student projects and open data initiatives often re-publish existing content with more explicitly structured metadata. The<br>[[sdPublisher]] property helps make such practices more explicit."@fr,
@@ -20856,7 +20732,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Offer, as:Object, as:Object, :redaktor ;
     skos:notation "2218" ;
-    skos:prefLabel "sku"@de, "sku"@en, "sku"@fr, "sku"@es ;
+    skos:prefLabel "SKU"@de, "SKU"@en, "SKU"@fr, "SKU"@es ;
     skos:definition "The Stock Keeping Unit (SKU), i.e. a merchant-specific identifier for a product or service, or the product to which the offer refers."@de,
       "The Stock Keeping Unit (SKU), i.e. a merchant-specific identifier for a product or service, or the product to which the offer refers."@en,
       "The Stock Keeping Unit (SKU), i.e. a merchant-specific identifier for a product or service, or the product to which the offer refers."@fr,
@@ -20866,24 +20742,6 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     rdfs:domain [
       a owl:Class ;
       owl:unionOf ( as:Offer as:Object as:Object as:Link )
-    ] ;
-    rdfs:range xsd:string .
-
-  :slogan a owl:DatatypeProperty, skos:Concept ;
-    skos:exactMatch schema:slogan ;
-    skos:inScheme :scheme ;
-    skos:broader as:Object, :Brand, as:Service, as:Organization, as:Place, :redaktor ;
-    skos:notation "2219" ;
-    skos:prefLabel "Slogan"@de, "slogan"@en, "slogan"@fr, "eslogan"@es ;
-    skos:definition "A slogan or motto associated with the item."@de,
-      "A slogan or motto associated with the item."@en,
-      "A slogan or motto associated with the item."@fr,
-      "A slogan or motto associated with the item."@es ;
-    skos:scopeNote xsd:string ;
-    rdfs:label "slogan"@en ;
-    rdfs:domain [
-      a owl:Class ;
-      owl:unionOf ( as:Object :Brand as:Service as:Organization as:Place as:Link )
     ] ;
     rdfs:range xsd:string .
 
@@ -21477,24 +21335,6 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       a owl:Class ;
       owl:unionOf ( :DefinedTerm xsd:string as:Link )
     ] .
-
-  :telephone a owl:DatatypeProperty, skos:Concept ;
-    skos:exactMatch schema:telephone ;
-    skos:inScheme :scheme ;
-    skos:broader as:Person, as:Organization, as:Place, :ContactPoint, :redaktor ;
-    skos:notation "2249" ;
-    skos:prefLabel "Telefon"@de, "telephone"@en, "téléphone"@fr, "teléfono"@es ;
-    skos:definition "The telephone number."@de,
-      "The telephone number."@en,
-      "The telephone number."@fr,
-      "The telephone number."@es ;
-    skos:scopeNote xsd:string ;
-    rdfs:label "telephone"@en ;
-    rdfs:domain [
-      a owl:Class ;
-      owl:unionOf ( as:Person as:Organization as:Place :ContactPoint as:Link )
-    ] ;
-    rdfs:range xsd:string .
 
   :temporal a owl:DatatypeProperty, skos:Concept ;
     skos:exactMatch schema:temporal ;
@@ -22105,7 +21945,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :HyperTocEntry, :redaktor ;
     skos:notation "2280" ;
-    skos:prefLabel "Äußerungen"@de, "utterances"@en, "énoncés"@fr, "declaraciones"@es ;
+    skos:prefLabel "Aussagen"@de, "utterances"@en, "énoncés"@fr, "declaraciones"@es ;
     skos:definition "Text of an utterances (spoken words, lyrics etc.) that occurs at a certain section of a media object, represented as a [[HyperTocEntry]]."@de,
       "Text of an utterances (spoken words, lyrics etc.) that occurs at a certain section of a media object, represented as a [[HyperTocEntry]]."@en,
       "Text of an utterances (spoken words, lyrics etc.) that occurs at a certain section of a media object, represented as a [[HyperTocEntry]]."@fr,
@@ -22510,7 +22350,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Person, :redaktor ;
     skos:notation "2300" ;
-    skos:prefLabel "Arbeiten für"@de, "works for"@en, "travaux pour"@fr, "trabajos para"@es ;
+    skos:prefLabel "arbeitet für"@de, "works for"@en, "travaux pour"@fr, "trabajos para"@es ;
     skos:definition "Organizations that the person works for."@de,
       "Organizations that the person works for."@en,
       "Organizations that the person works for."@fr,
@@ -22531,7 +22371,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader schema:SpeakableSpecification, :WebPageElement, :redaktor ;
     skos:notation "2301" ;
-    skos:prefLabel "xpath"@de, "xpath"@en, "xpath"@fr, "xpath"@es ;
+    skos:prefLabel "XPath"@de, "XPath"@en, "XPath"@fr, "XPath"@es ;
     skos:definition "An XPath, e.g. of a [[SpeakableSpecification]] or [[WebPageElement]]. In the latter case, multiple matches within a page can constitute a single conceptual “Web page element”."@de,
       "An XPath, e.g. of a [[SpeakableSpecification]] or [[WebPageElement]]. In the latter case, multiple matches within a page can constitute a single conceptual “Web page element”."@en,
       "An XPath, e.g. of a [[SpeakableSpecification]] or [[WebPageElement]]. In the latter case, multiple matches within a page can constitute a single conceptual “Web page element”."@fr,

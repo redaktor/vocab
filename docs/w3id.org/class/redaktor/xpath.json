@@ -4,10 +4,10 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fxpath",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fxpath",
   "prefLabel": {
-    "en": "xpath",
-    "de": "xpath",
-    "fr": "xpath",
-    "es": "xpath"
+    "en": "XPath",
+    "de": "XPath",
+    "fr": "XPath",
+    "es": "XPath"
   },
   "definition": {
     "en": "An XPath, e.g. of a [[SpeakableSpecification]] or [[WebPageElement]]. In the latter case, multiple matches within a page can constitute a single conceptual “Web page element”.",

@@ -5,7 +5,9 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcontentReferenceTime",
   "prefLabel": {
     "en": "content reference time",
-    "de": "Referenzzeit des Inhalts"
+    "de": "Referenzzeit des Inhalts",
+    "fr": "temps de référence du contenu",
+    "es": "tiempo de referencia del contenido"
   },
   "definition": {
     "en": "The specific time described by a creative work, for works (e.g. articles, video objects etc.) that emphasise a particular moment within an Event.",
@@ -14,7 +16,6 @@
     "es": "The specific time described by a creative work, for works (e.g. articles, video objects etc.) that emphasise a particular moment within an Event."
   },
   "notation": [
-    "1474",
     "1866"
   ],
   "exactMatch": [

@@ -5,7 +5,7 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FrecipeYield",
   "prefLabel": {
     "en": "recipe yield",
-    "de": "Rezeptausbeute",
+    "de": "Ausbeute",
     "fr": "rendement de la recette",
     "es": "rendimiento de la receta"
   },

@@ -5,7 +5,7 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FperformTime",
   "prefLabel": {
     "en": "perform time",
-    "de": "Zeit spielen",
+    "de": "Spielzeit",
     "fr": "temps d'exécution",
     "es": "realizar el tiempo"
   },

@@ -5,6 +5,7 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fexpires",
   "prefLabel": {
     "en": "expires",
+    "de": "verfällt",
     "fr": "expiration",
     "es": "caduca"
   },
@@ -15,7 +16,6 @@
     "es": "Date the content expires and is no longer useful or available. For example a [[VideoObject]] or [[NewsArticle]] whose availability or relevance is time-limited, or a [[ClaimReview]] fact check whose publisher wants to indicate that it may no longer be relevant (or helpful to highlight) after some date."
   },
   "notation": [
-    "1475",
     "1945"
   ],
   "exactMatch": [

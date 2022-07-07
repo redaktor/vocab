@@ -5,10 +5,11 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FParty",
   "prefLabel": {
     "en": "Party",
-    "de": "Party"
+    "de": "Party",
+    "fr": "Fête / Party",
+    "es": "Fiesta / Party"
   },
   "notation": [
-    "1375",
     "1443"
   ],
   "inScheme": {

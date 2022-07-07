@@ -5,15 +5,18 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FisAccessibleForFree",
   "prefLabel": {
     "en": "is accessible for free",
+    "de": "ist kostenlos zugängig",
     "fr": "est accessible gratuitement",
     "es": "es accesible de forma gratuita"
   },
   "definition": {
-    "en": "A flag to signal that the item, event, or place is accessible for free."
+    "en": "A flag to signal that the item, event, or place is accessible for free.",
+    "de": "Zeigt an, daß der Eintrag, die Veranstaltung oder Örtlichkeit gratis zugängig ist.",
+    "fr": "Un drapeau pour signaler que l'article, l'événement ou le lieu est accessible gratuitement.",
+    "es": "Una bandera para señalar que el artículo, evento o lugar es accesible de forma gratuita."
   },
   "notation": [
-    "1394",
-    "2028"
+    "1394"
   ],
   "exactMatch": [
     {

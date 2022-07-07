@@ -4,21 +4,26 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Ffree",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Ffree",
   "prefLabel": {
-    "en": "free"
-  },
-  "definition": {
-    "en": "A flag to signal that the item, event, or place is accessible for free.",
-    "de": "A flag to signal that the item, event, or place is accessible for free.",
-    "fr": "A flag to signal that the item, event, or place is accessible for free.",
-    "es": "A flag to signal that the item, event, or place is accessible for free."
+    "en": "free",
+    "de": "free",
+    "fr": "free",
+    "es": "free"
   },
   "notation": [
-    "10521",
-    "1963"
+    "10524"
   ],
+  "broader": {
+    "id": "https://joinmobilizon.org/ns#joinModeType",
+    "prefLabel": {
+      "en": "joinModeType",
+      "de": "joinModeType",
+      "fr": "joinModeType",
+      "es": "joinModeType"
+    }
+  },
   "exactMatch": [
     {
-      "id": "schema:free"
+      "id": "schema:isAccessibleForFree"
     }
   ],
   "inScheme": {

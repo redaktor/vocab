@@ -5,16 +5,18 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FhoursAvailable",
   "prefLabel": {
     "en": "hours available",
-    "de": "Verfügbare Stunden",
+    "de": "Verfügbare Zeiten",
     "fr": "heures disponibles",
     "es": "horas disponibles"
   },
   "definition": {
-    "en": "The hours during which this service or contact is available."
+    "en": "The hours during which this service or contact is available.",
+    "de": "Die Zeiten, zu denen dieser Dienst oder Kontakt zur Verfügung steht.",
+    "fr": "Les heures pendant lesquelles ce service ou ce contact est disponible.",
+    "es": "El horario en el que este servicio o contacto está disponible."
   },
   "notation": [
-    "1393",
-    "2006"
+    "1393"
   ],
   "exactMatch": [
     {

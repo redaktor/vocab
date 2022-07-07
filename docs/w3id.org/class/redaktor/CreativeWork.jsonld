@@ -68,6 +68,7 @@
       "id": "https://w3id.org/class/redaktor/Clip",
       "prefLabel": {
         "en": "Clip",
+        "de": "Clip",
         "fr": "Clip",
         "es": "Clip"
       }
@@ -310,15 +311,9 @@
       "id": "https://w3id.org/class/redaktor/aggregateRating",
       "prefLabel": {
         "en": "aggregate rating",
-        "fr": "cote globale"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/isAccessibleForFree",
-      "prefLabel": {
-        "en": "is accessible for free",
-        "fr": "est accessible gratuitement",
-        "es": "es accesible de forma gratuita"
+        "de": "Gesamtbewertung",
+        "fr": "cote globale",
+        "es": "calificación agregada"
       }
     },
     {
@@ -328,21 +323,6 @@
         "de": "Erstellungsdatum",
         "fr": "date de création",
         "es": "fecha de creación"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/contentReferenceTime",
-      "prefLabel": {
-        "en": "content reference time",
-        "de": "Referenzzeit des Inhalts"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/expires",
-      "prefLabel": {
-        "en": "expires",
-        "fr": "expiration",
-        "es": "caduca"
       }
     },
     {
@@ -535,15 +515,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/award",
-      "prefLabel": {
-        "en": "award",
-        "de": "Auszeichnung",
-        "fr": "prix",
-        "es": "premio"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/awards",
       "prefLabel": {
         "en": "awards",
@@ -565,7 +536,7 @@
       "id": "https://w3id.org/class/redaktor/citation",
       "prefLabel": {
         "en": "citation",
-        "de": "zitieren",
+        "de": "Zitat",
         "fr": "citation",
         "es": "citación"
       }
@@ -613,6 +584,15 @@
         "de": "Bewertung des Inhalts",
         "fr": "classement du contenu",
         "es": "clasificación del contenido"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/contentReferenceTime",
+      "prefLabel": {
+        "en": "content reference time",
+        "de": "Referenzzeit des Inhalts",
+        "fr": "temps de référence du contenu",
+        "es": "tiempo de referencia del contenido"
       }
     },
     {
@@ -802,6 +782,15 @@
         "de": "Beispiel einer Arbeit",
         "fr": "exemple de travail",
         "es": "ejemplo de trabajo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/expires",
+      "prefLabel": {
+        "en": "expires",
+        "de": "verfällt",
+        "fr": "expiration",
+        "es": "caduca"
       }
     },
     {
@@ -1140,28 +1129,28 @@
     {
       "id": "https://w3id.org/class/redaktor/sdDatePublished",
       "prefLabel": {
-        "en": "sd date published",
-        "de": "sd Datum der Veröffentlichung",
-        "fr": "sd date published",
-        "es": "sd fecha de publicación"
+        "en": "SD date published",
+        "de": "SD Datum der Veröffentlichung",
+        "fr": "SD date published",
+        "es": "SD fecha de publicación"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/sdLicense",
       "prefLabel": {
-        "en": "sd license",
-        "de": "sd lizenz",
-        "fr": "sd licence",
+        "en": "SD license",
+        "de": "SD lizenz",
+        "fr": "SD licence",
         "es": "licencia sd"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/sdPublisher",
       "prefLabel": {
-        "en": "sd publisher",
-        "de": "sd-verlag",
-        "fr": "sd éditeur",
-        "es": "editor sd"
+        "en": "SD publisher",
+        "de": "SD Redakteur",
+        "fr": "SD éditeur",
+        "es": "editor SD"
       }
     },
     {

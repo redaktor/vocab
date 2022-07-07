@@ -31,10 +31,10 @@
     {
       "id": "https://w3id.org/class/redaktor/iataCode",
       "prefLabel": {
-        "en": "iata code",
-        "de": "iata-Code",
-        "fr": "code iata",
-        "es": "código iata"
+        "en": "IATA code",
+        "de": "IATA Code",
+        "fr": "code IATA",
+        "es": "código IATA"
       }
     }
   ],

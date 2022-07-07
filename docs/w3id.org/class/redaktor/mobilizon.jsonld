@@ -107,13 +107,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/Party",
-      "prefLabel": {
-        "en": "Party",
-        "de": "Party"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/Assignment",
       "prefLabel": {
         "en": "Assignment",
@@ -375,8 +368,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HealthWellness",
       "prefLabel": {
-        "en": "Health & Wellness",
-        "de": "Gesundheit & Wellness",
+        "en": "Health and Wellness",
+        "de": "Gesundheit und Wellness",
         "fr": "Santé et bien-être",
         "es": "Salud y bienestar"
       }
@@ -487,6 +480,15 @@
         "de": "Parade",
         "fr": "Défilé",
         "es": "Desfile"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Party",
+      "prefLabel": {
+        "en": "Party",
+        "de": "Party",
+        "fr": "Fête / Party",
+        "es": "Fiesta / Party"
       }
     },
     {

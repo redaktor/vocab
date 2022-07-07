@@ -4,10 +4,10 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fduns",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fduns",
   "prefLabel": {
-    "en": "duns",
-    "de": "duns",
-    "fr": "duns",
-    "es": "duns"
+    "en": "DUNS",
+    "de": "DUNS",
+    "fr": "DUNS",
+    "es": "DUNS"
   },
   "definition": {
     "en": "The Dun & Bradstreet DUNS number for identifying an organization or business person.",

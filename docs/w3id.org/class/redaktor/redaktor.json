@@ -179,12 +179,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/free",
-      "prefLabel": {
-        "en": "free"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/CreativeWork",
       "prefLabel": {
         "en": "Creative Work",
@@ -278,6 +272,7 @@
       "id": "https://w3id.org/class/redaktor/Clip",
       "prefLabel": {
         "en": "Clip",
+        "de": "Clip",
         "fr": "Clip",
         "es": "Clip"
       }
@@ -1357,7 +1352,7 @@
       "id": "https://w3id.org/class/redaktor/FireStation",
       "prefLabel": {
         "en": "Fire station",
-        "de": "Feuerwehrhaus",
+        "de": "Feuerwehr",
         "fr": "Caserne de pompiers",
         "es": "Parque de bomberos"
       }
@@ -1856,13 +1851,7 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/CurrencyConversionService",
-      "prefLabel": {
-        "en": "Currency Conversion Service",
-        "de": "Währungsumrechnungsdienst",
-        "fr": "Service de conversion de devises",
-        "es": "Servicio de cambio de moneda"
-      }
+      "id": "https://w3id.org/class/redaktor/CurrencyConversionService"
     },
     {
       "id": "https://w3id.org/class/redaktor/BicycleRepairStation",
@@ -2052,7 +2041,7 @@
       "id": "https://w3id.org/class/redaktor/BoatShare",
       "prefLabel": {
         "en": "Boat Share",
-        "de": "Boot teilen",
+        "de": "Boote teilen",
         "fr": "Partage de bateaux",
         "es": "Compartir de barcos"
       }
@@ -2214,7 +2203,7 @@
       "id": "https://w3id.org/class/redaktor/TelevisionStation",
       "prefLabel": {
         "en": "Television Station",
-        "de": "Centre d'information touristique",
+        "de": "Fernsehsender",
         "fr": "Station de télévision",
         "es": "Estación de televisión"
       }
@@ -3704,10 +3693,12 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/Party",
+      "id": "https://w3id.org/class/redaktor/PartyShop",
       "prefLabel": {
         "en": "Party",
-        "de": "Party"
+        "de": "Party",
+        "fr": "Party",
+        "es": "Party / Fête"
       }
     },
     {
@@ -3820,17 +3811,31 @@
       "id": "https://w3id.org/class/redaktor/aggregateRating",
       "prefLabel": {
         "en": "aggregate rating",
-        "fr": "cote globale"
+        "de": "Gesamtbewertung",
+        "fr": "cote globale",
+        "es": "calificación agregada"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Brand",
+      "prefLabel": {
+        "en": "Brand",
+        "de": "Marke",
+        "fr": "Marque",
+        "es": "Marca"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/amenityFeature",
       "prefLabel": {
-        "en": "amenity feature"
+        "en": "amenity feature",
+        "de": "Ausstattungsmerkmal",
+        "fr": "élément d'agrément",
+        "es": "característica de equipamiento"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/event",
+      "id": "https://w3id.org/class/redaktor/events",
       "prefLabel": {
         "en": "events",
         "de": "Veranstaltungen",
@@ -3851,7 +3856,7 @@
       "id": "https://w3id.org/class/redaktor/hoursAvailable",
       "prefLabel": {
         "en": "hours available",
-        "de": "Verfügbare Stunden",
+        "de": "Verfügbare Zeiten",
         "fr": "heures disponibles",
         "es": "horas disponibles"
       }
@@ -3860,6 +3865,7 @@
       "id": "https://w3id.org/class/redaktor/isAccessibleForFree",
       "prefLabel": {
         "en": "is accessible for free",
+        "de": "ist kostenlos zugängig",
         "fr": "est accessible gratuitement",
         "es": "es accesible de forma gratuita"
       }
@@ -3903,7 +3909,10 @@
     {
       "id": "https://w3id.org/class/redaktor/email",
       "prefLabel": {
-        "en": "email"
+        "en": "email",
+        "de": "E-Mail",
+        "fr": "e-mail",
+        "es": "correo electrónico"
       }
     },
     {
@@ -4186,8 +4195,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HealthWellness",
       "prefLabel": {
-        "en": "Health & Wellness",
-        "de": "Gesundheit & Wellness",
+        "en": "Health and Wellness",
+        "de": "Gesundheit und Wellness",
         "fr": "Santé et bien-être",
         "es": "Salud y bienestar"
       }
@@ -4298,6 +4307,15 @@
         "de": "Parade",
         "fr": "Défilé",
         "es": "Desfile"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Party",
+      "prefLabel": {
+        "en": "Party",
+        "de": "Party",
+        "fr": "Fête / Party",
+        "es": "Fiesta / Party"
       }
     },
     {
@@ -4525,21 +4543,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/contentReferenceTime",
-      "prefLabel": {
-        "en": "content reference time",
-        "de": "Referenzzeit des Inhalts"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/expires",
-      "prefLabel": {
-        "en": "expires",
-        "fr": "expiration",
-        "es": "caduca"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/eventAttendanceMode",
       "prefLabel": {
         "en": "event attendance mode",
@@ -4591,15 +4594,6 @@
         "de": "Zielgruppe",
         "fr": "Audience",
         "es": "Audiencia"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/Brand",
-      "prefLabel": {
-        "en": "Brand",
-        "de": "Marke",
-        "fr": "Marque",
-        "es": "Marca"
       }
     },
     {
@@ -4966,7 +4960,7 @@
       "id": "https://w3id.org/class/redaktor/alumni",
       "prefLabel": {
         "en": "alumni",
-        "de": "Ehemalige",
+        "de": "Alumni",
         "fr": "alumni",
         "es": "antiguos alumnos"
       }
@@ -4993,7 +4987,7 @@
       "id": "https://w3id.org/class/redaktor/announcementLocation",
       "prefLabel": {
         "en": "announcement location",
-        "de": "ankündigung ort",
+        "de": "Ankündigung Ort",
         "fr": "annonce emplacement",
         "es": "ubicación del anuncio"
       }
@@ -5335,7 +5329,7 @@
       "id": "https://w3id.org/class/redaktor/availableService",
       "prefLabel": {
         "en": "available service",
-        "de": "verfügbarer Dienst",
+        "de": "angebotene Leistung",
         "fr": "service disponible",
         "es": "servicio disponible"
       }
@@ -5356,15 +5350,6 @@
         "de": "verfügbar durch",
         "fr": "disponible par",
         "es": "disponible a través de"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/award",
-      "prefLabel": {
-        "en": "award",
-        "de": "Auszeichnung",
-        "fr": "prix",
-        "es": "premio"
       }
     },
     {
@@ -5641,7 +5626,7 @@
       "id": "https://w3id.org/class/redaktor/citation",
       "prefLabel": {
         "en": "citation",
-        "de": "zitieren",
+        "de": "Zitat",
         "fr": "citation",
         "es": "citación"
       }
@@ -5827,6 +5812,15 @@
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/contentReferenceTime",
+      "prefLabel": {
+        "en": "content reference time",
+        "de": "Referenzzeit des Inhalts",
+        "fr": "temps de référence du contenu",
+        "es": "tiempo de referencia del contenido"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/contributor",
       "prefLabel": {
         "en": "contributor",
@@ -6001,7 +5995,7 @@
       "id": "https://w3id.org/class/redaktor/cssSelector",
       "prefLabel": {
         "en": "css selector",
-        "de": "css-Selektor",
+        "de": "CSS Selektor",
         "fr": "sélecteur css",
         "es": "selector css"
       }
@@ -6261,10 +6255,10 @@
     {
       "id": "https://w3id.org/class/redaktor/duns",
       "prefLabel": {
-        "en": "duns",
-        "de": "duns",
-        "fr": "duns",
-        "es": "duns"
+        "en": "DUNS",
+        "de": "DUNS",
+        "fr": "DUNS",
+        "es": "DUNS"
       }
     },
     {
@@ -6490,6 +6484,15 @@
         "de": "Name der ausführbaren Bibliothek",
         "fr": "nom de la bibliothèque exécutable",
         "es": "nombre de la biblioteca ejecutable"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/expires",
+      "prefLabel": {
+        "en": "expires",
+        "de": "verfällt",
+        "fr": "expiration",
+        "es": "caduca"
       }
     },
     {
@@ -7017,10 +7020,10 @@
     {
       "id": "https://w3id.org/class/redaktor/iataCode",
       "prefLabel": {
-        "en": "iata code",
-        "de": "iata-Code",
-        "fr": "code iata",
-        "es": "código iata"
+        "en": "IATA code",
+        "de": "IATA Code",
+        "fr": "code IATA",
+        "es": "código IATA"
       }
     },
     {
@@ -7135,7 +7138,7 @@
       "id": "https://w3id.org/class/redaktor/inker",
       "prefLabel": {
         "en": "inker",
-        "de": "inker",
+        "de": "Färber",
         "fr": "inker",
         "es": "entintador"
       }
@@ -7278,10 +7281,10 @@
     {
       "id": "https://w3id.org/class/redaktor/isbn",
       "prefLabel": {
-        "en": "isbn",
-        "de": "isbn",
-        "fr": "isbn",
-        "es": "isbn"
+        "en": "ISBN",
+        "de": "ISBN",
+        "fr": "ISBN",
+        "es": "ISBN"
       }
     },
     {
@@ -7305,10 +7308,10 @@
     {
       "id": "https://w3id.org/class/redaktor/isrcCode",
       "prefLabel": {
-        "en": "isrc code",
-        "de": "isrc-Code",
-        "fr": "code isrc",
-        "es": "código isrc"
+        "en": "ISRC code",
+        "de": "ISRC Code",
+        "fr": "code ISRC",
+        "es": "código ISRC"
       }
     },
     {
@@ -7341,10 +7344,10 @@
     {
       "id": "https://w3id.org/class/redaktor/iswcCode",
       "prefLabel": {
-        "en": "iswc code",
-        "de": "iswc-Code",
-        "fr": "code iswc",
-        "es": "código iswc"
+        "en": "ISWC  code",
+        "de": "ISWC Code",
+        "fr": "code ISWC ",
+        "es": "código ISWC "
       }
     },
     {
@@ -7774,7 +7777,7 @@
       "id": "https://w3id.org/class/redaktor/musicCompositionForm",
       "prefLabel": {
         "en": "music composition form",
-        "de": "form der musikkomposition",
+        "de": "Form der musikkomposition",
         "fr": "formulaire de composition musicale",
         "es": "forma de composición musical"
       }
@@ -7828,7 +7831,7 @@
       "id": "https://w3id.org/class/redaktor/newsUpdatesAndGuidelines",
       "prefLabel": {
         "en": "news updates and guidelines",
-        "de": "aktuelle Nachrichten und Leitlinien",
+        "de": "aktuelle Nachrichten und Richtlinien",
         "fr": "actualités et directives",
         "es": "noticias y directrices"
       }
@@ -7909,7 +7912,7 @@
       "id": "https://w3id.org/class/redaktor/numberOfCredits",
       "prefLabel": {
         "en": "number of credits",
-        "de": "Anzahl der Kredite",
+        "de": "Anzahl der Einheiten",
         "fr": "nombre de crédits",
         "es": "número de créditos"
       }
@@ -8026,7 +8029,7 @@
       "id": "https://w3id.org/class/redaktor/openingHours",
       "prefLabel": {
         "en": "opening hours",
-        "de": "öffnungszeiten",
+        "de": "Öffnungszeiten",
         "fr": "heures d'ouverture",
         "es": "horario de apertura"
       }
@@ -8233,7 +8236,7 @@
       "id": "https://w3id.org/class/redaktor/performTime",
       "prefLabel": {
         "en": "perform time",
-        "de": "Zeit spielen",
+        "de": "Spielzeit",
         "fr": "temps d'exécution",
         "es": "realizar el tiempo"
       }
@@ -8575,7 +8578,7 @@
       "id": "https://w3id.org/class/redaktor/recipeCuisine",
       "prefLabel": {
         "en": "recipe cuisine",
-        "de": "Rezept Küche",
+        "de": "Küche",
         "fr": "recette cuisine",
         "es": "receta cocina"
       }
@@ -8584,9 +8587,9 @@
       "id": "https://w3id.org/class/redaktor/recipeIngredient",
       "prefLabel": {
         "en": "recipe ingredient",
-        "de": "Rezept-Zutat",
-        "fr": "recette in in recette",
-        "es": "receta ingrediente"
+        "de": "Zutat",
+        "fr": "ingrédient",
+        "es": "ingrediente"
       }
     },
     {
@@ -8602,7 +8605,7 @@
       "id": "https://w3id.org/class/redaktor/recipeYield",
       "prefLabel": {
         "en": "recipe yield",
-        "de": "Rezeptausbeute",
+        "de": "Ausbeute",
         "fr": "rendement de la recette",
         "es": "rendimiento de la receta"
       }
@@ -8763,28 +8766,28 @@
     {
       "id": "https://w3id.org/class/redaktor/sdDatePublished",
       "prefLabel": {
-        "en": "sd date published",
-        "de": "sd Datum der Veröffentlichung",
-        "fr": "sd date published",
-        "es": "sd fecha de publicación"
+        "en": "SD date published",
+        "de": "SD Datum der Veröffentlichung",
+        "fr": "SD date published",
+        "es": "SD fecha de publicación"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/sdLicense",
       "prefLabel": {
-        "en": "sd license",
-        "de": "sd lizenz",
-        "fr": "sd licence",
+        "en": "SD license",
+        "de": "SD lizenz",
+        "fr": "SD licence",
         "es": "licencia sd"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/sdPublisher",
       "prefLabel": {
-        "en": "sd publisher",
-        "de": "sd-verlag",
-        "fr": "sd éditeur",
-        "es": "editor sd"
+        "en": "SD publisher",
+        "de": "SD Redakteur",
+        "fr": "SD éditeur",
+        "es": "editor SD"
       }
     },
     {
@@ -8907,10 +8910,10 @@
     {
       "id": "https://w3id.org/class/redaktor/sku",
       "prefLabel": {
-        "en": "sku",
-        "de": "sku",
-        "fr": "sku",
-        "es": "sku"
+        "en": "SKU",
+        "de": "SKU",
+        "fr": "SKU",
+        "es": "SKU"
       }
     },
     {
@@ -9448,7 +9451,7 @@
       "id": "https://w3id.org/class/redaktor/utterances",
       "prefLabel": {
         "en": "utterances",
-        "de": "Äußerungen",
+        "de": "Aussagen",
         "fr": "énoncés",
         "es": "declaraciones"
       }
@@ -9628,7 +9631,7 @@
       "id": "https://w3id.org/class/redaktor/worksFor",
       "prefLabel": {
         "en": "works for",
-        "de": "Arbeiten für",
+        "de": "arbeitet für",
         "fr": "travaux pour",
         "es": "trabajos para"
       }
@@ -9636,10 +9639,10 @@
     {
       "id": "https://w3id.org/class/redaktor/xpath",
       "prefLabel": {
-        "en": "xpath",
-        "de": "xpath",
-        "fr": "xpath",
-        "es": "xpath"
+        "en": "XPath",
+        "de": "XPath",
+        "fr": "XPath",
+        "es": "XPath"
       }
     },
     {

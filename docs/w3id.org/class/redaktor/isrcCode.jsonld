@@ -4,10 +4,10 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FisrcCode",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FisrcCode",
   "prefLabel": {
-    "en": "isrc code",
-    "de": "isrc-Code",
-    "fr": "code isrc",
-    "es": "código isrc"
+    "en": "ISRC code",
+    "de": "ISRC Code",
+    "fr": "code ISRC",
+    "es": "código ISRC"
   },
   "definition": {
     "en": "The International Standard Recording Code for the recording.",

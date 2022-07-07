@@ -77,12 +77,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/amenityFeature",
-      "prefLabel": {
-        "en": "amenity feature"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/audience",
       "prefLabel": {
         "en": "audience",

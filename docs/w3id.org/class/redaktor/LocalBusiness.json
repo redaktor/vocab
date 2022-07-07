@@ -111,7 +111,7 @@
       "id": "https://w3id.org/class/redaktor/BoatShare",
       "prefLabel": {
         "en": "Boat Share",
-        "de": "Boot teilen",
+        "de": "Boote teilen",
         "fr": "Partage de bateaux",
         "es": "Compartir de barcos"
       }
@@ -264,7 +264,7 @@
       "id": "https://w3id.org/class/redaktor/TelevisionStation",
       "prefLabel": {
         "en": "Television Station",
-        "de": "Centre d'information touristique",
+        "de": "Fernsehsender",
         "fr": "Station de télévision",
         "es": "Estación de televisión"
       }
@@ -369,10 +369,12 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/Party",
+      "id": "https://w3id.org/class/redaktor/PartyShop",
       "prefLabel": {
         "en": "Party",
-        "de": "Party"
+        "de": "Party",
+        "fr": "Party",
+        "es": "Party / Fête"
       }
     },
     {
@@ -397,7 +399,7 @@
       "id": "https://w3id.org/class/redaktor/openingHours",
       "prefLabel": {
         "en": "opening hours",
-        "de": "öffnungszeiten",
+        "de": "Öffnungszeiten",
         "fr": "heures d'ouverture",
         "es": "horario de apertura"
       }

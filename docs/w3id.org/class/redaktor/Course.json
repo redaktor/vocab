@@ -59,7 +59,7 @@
       "id": "https://w3id.org/class/redaktor/numberOfCredits",
       "prefLabel": {
         "en": "number of credits",
-        "de": "Anzahl der Kredite",
+        "de": "Anzahl der Einheiten",
         "fr": "nombre de crédits",
         "es": "número de créditos"
       }

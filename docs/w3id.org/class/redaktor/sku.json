@@ -4,10 +4,10 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fsku",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fsku",
   "prefLabel": {
-    "en": "sku",
-    "de": "sku",
-    "fr": "sku",
-    "es": "sku"
+    "en": "SKU",
+    "de": "SKU",
+    "fr": "SKU",
+    "es": "SKU"
   },
   "definition": {
     "en": "The Stock Keeping Unit (SKU), i.e. a merchant-specific identifier for a product or service, or the product to which the offer refers.",

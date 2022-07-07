@@ -133,10 +133,7 @@
       "@container": "@set"
     }
   }
-}
-  }
-},
-    "broadMatch": {
+}dMatch": {
       "@container": "@set"
     },
     "narrowMatch": {
@@ -152,6 +149,9 @@
     "inbox": "ldp:inbox",
     "hasTopConcept": {
       "@container": "@set"
+    }
+  }
+}@set"
     }
   }
 }

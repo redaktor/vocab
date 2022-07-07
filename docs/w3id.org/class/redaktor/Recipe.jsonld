@@ -68,7 +68,7 @@
       "id": "https://w3id.org/class/redaktor/recipeCuisine",
       "prefLabel": {
         "en": "recipe cuisine",
-        "de": "Rezept Küche",
+        "de": "Küche",
         "fr": "recette cuisine",
         "es": "receta cocina"
       }
@@ -77,9 +77,9 @@
       "id": "https://w3id.org/class/redaktor/recipeIngredient",
       "prefLabel": {
         "en": "recipe ingredient",
-        "de": "Rezept-Zutat",
-        "fr": "recette in in recette",
-        "es": "receta ingrediente"
+        "de": "Zutat",
+        "fr": "ingrédient",
+        "es": "ingrediente"
       }
     },
     {
@@ -95,7 +95,7 @@
       "id": "https://w3id.org/class/redaktor/recipeYield",
       "prefLabel": {
         "en": "recipe yield",
-        "de": "Rezeptausbeute",
+        "de": "Ausbeute",
         "fr": "rendement de la recette",
         "es": "rendimiento de la receta"
       }

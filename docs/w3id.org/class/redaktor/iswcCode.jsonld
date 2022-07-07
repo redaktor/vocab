@@ -4,10 +4,10 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FiswcCode",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FiswcCode",
   "prefLabel": {
-    "en": "iswc code",
-    "de": "iswc-Code",
-    "fr": "code iswc",
-    "es": "código iswc"
+    "en": "ISWC  code",
+    "de": "ISWC Code",
+    "fr": "code ISWC ",
+    "es": "código ISWC "
   },
   "definition": {
     "en": "The International Standard Musical Work Code for the composition.",

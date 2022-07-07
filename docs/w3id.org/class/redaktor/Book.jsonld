@@ -67,10 +67,10 @@
     {
       "id": "https://w3id.org/class/redaktor/isbn",
       "prefLabel": {
-        "en": "isbn",
-        "de": "isbn",
-        "fr": "isbn",
-        "es": "isbn"
+        "en": "ISBN",
+        "de": "ISBN",
+        "fr": "ISBN",
+        "es": "ISBN"
       }
     },
     {

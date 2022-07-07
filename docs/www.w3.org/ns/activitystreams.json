@@ -1,19 +1,19 @@
 {
-  "id": "http://www.w3.org/ns/activitystreams#updated",
+  "id": "http://www.w3.org/ns/activitystreams#width",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23updated",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23updated",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23width",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23width",
   "prefLabel": {
-    "en": "updated",
-    "de": "aktualisiert",
-    "fr": "actualisé",
-    "es": "actualizada"
+    "en": "width",
+    "de": "Breite",
+    "fr": "largeur",
+    "es": "anchura"
   },
   "definition": {
-    "en": "The date and time at which the object was updated.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)",
-    "de": "Das Datum und die Uhrzeit, zu der das Objekt aktualisiert wurde.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)",
-    "fr": "La date et l'heure auxquelles l'objet a été mis à jour.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)",
-    "es": "La fecha y hora en que se actualizó el objeto.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)"
+    "en": "On a Link, specifies a hint as to the rendering width in device-independent pixels of the linked resource.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
+    "de": "Gibt bei einem Link einen Hinweis auf die Darstellungsbreite der verlinkten Ressource in geräteunabhängigen Pixeln an.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
+    "fr": "Sur un lien, spécifie une indication quant à la largeur de rendu en pixels indépendants du périphérique de la ressource liée.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
+    "es": "En un enlace, especifica una pista sobre el ancho de representación en píxeles independientes del dispositivo del recurso enlazado.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)"
   },
   "scopeNote": {
     "en": "as: Property",
@@ -22,22 +22,13 @@
     "es": "as: Property"
   },
   "notation": [
-    "348"
+    "415"
   ],
   "example": {
-    "en": "```json \n[Example 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Note\",\n    \"content\": \"Mush it up so it does not have the same shape as the can.\",\n    \"name\": \"Cranberry Sauce Idea\",\n    \"updated\": \"2014-12-12T12:12:12Z\"\n  },\n  \"name\": \"Example 137\"\n}\n```",
-    "de": "```json \n[Example 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Note\",\n    \"content\": \"Mush it up so it does not have the same shape as the can.\",\n    \"name\": \"Cranberry Sauce Idea\",\n    \"updated\": \"2014-12-12T12:12:12Z\"\n  },\n  \"name\": \"Example 137\"\n}\n```",
-    "fr": "```json \n[Example 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Note\",\n    \"content\": \"Mush it up so it does not have the same shape as the can.\",\n    \"name\": \"Cranberry Sauce Idea\",\n    \"updated\": \"2014-12-12T12:12:12Z\"\n  },\n  \"name\": \"Example 137\"\n}\n```",
-    "es": "```json \n[Example 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Note\",\n    \"content\": \"Mush it up so it does not have the same shape as the can.\",\n    \"name\": \"Cranberry Sauce Idea\",\n    \"updated\": \"2014-12-12T12:12:12Z\"\n  },\n  \"name\": \"Example 137\"\n}\n```"
-  },
-  "broader": {
-    "id": "http://www.w3.org/ns/activitystreams#Object",
-    "prefLabel": {
-      "en": "Object",
-      "de": "Objekt",
-      "fr": "Objet",
-      "es": "Objeto"
-    }
+    "en": "```json \n[Example 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Link\",\n    \"height\": 100,\n    \"url\": \"http://example.org/image.png\",\n    \"width\": 100\n  },\n  \"name\": \"Example 138\"\n}\n```",
+    "de": "```json \n[Example 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Link\",\n    \"height\": 100,\n    \"url\": \"http://example.org/image.png\",\n    \"width\": 100\n  },\n  \"name\": \"Example 138\"\n}\n```",
+    "fr": "```json \n[Example 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Link\",\n    \"height\": 100,\n    \"url\": \"http://example.org/image.png\",\n    \"width\": 100\n  },\n  \"name\": \"Example 138\"\n}\n```",
+    "es": "```json \n[Example 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Link\",\n    \"height\": 100,\n    \"url\": \"http://example.org/image.png\",\n    \"width\": 100\n  },\n  \"name\": \"Example 138\"\n}\n```"
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -142,7 +133,21 @@
       "@container": "@set"
     }
   }
-}    "broadMatch": {
+}ntainer": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
       "@container": "@set"
     },
     "narrowMatch": {
@@ -546,31 +551,25 @@
       "@container": "@set"
     }
   }
-}rowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
+}oncept": {
       "@container": "@set"
     }
   }
-}el": {
+}nos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/sponsor",
+      "prefLabel": {
+        "en": "sponsor",
+        "de": "Sponsor",
+        "fr": "sponsor",
+        "es": "patrocinador"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/spouse",
+      "prefLabel": {
         "en": "spouse",
         "de": "Ehepartner",
         "fr": "conjoint",
@@ -617,7 +616,7 @@
       "id": "https://w3id.org/class/redaktor/worksFor",
       "prefLabel": {
         "en": "works for",
-        "de": "Arbeiten für",
+        "de": "arbeitet für",
         "fr": "travaux pour",
         "es": "trabajos para"
       }
@@ -735,235 +734,213 @@
       "@container": "@set"
     }
   }
-}prefLabel": {
-        "en": "ownership funding info",
-        "de": "Eigentum Finanzierungsinfo",
-        "fr": "informations sur le financement de la propriété",
-        "es": "información sobre la financiación de la propiedad"
+}in",
+        "fr": "creator",
+        "es": "creator"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/owns",
+      "id": "dct:created",
       "prefLabel": {
-        "en": "owns",
-        "de": "besitzt",
-        "fr": "propriétaire",
-        "es": "posee"
+        "en": "created",
+        "de": "erstellt",
+        "fr": "created",
+        "es": "created"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/parentOrganization",
+      "id": "https://w3id.org/class/redaktor/ComputerLanguage",
       "prefLabel": {
-        "en": "parent organization",
-        "de": "übergeordnete Organisation",
-        "fr": "organisation des parents",
-        "es": "organización de los padres"
+        "en": "Computer Language",
+        "de": "Programmiersprache",
+        "fr": "Langage informatique",
+        "es": "Lenguaje informático"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/publishingPrinciples",
+      "id": "https://w3id.org/class/redaktor/FloorPlan",
       "prefLabel": {
-        "en": "publishing principles",
-        "de": "Verlagsgrundsätze",
-        "fr": "principes d'édition",
-        "es": "principios de publicación"
+        "en": "Floor Plan",
+        "de": "Etagenplan",
+        "fr": "Plan d'étage",
+        "es": "Plano de la planta"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/review",
+      "id": "https://w3id.org/class/redaktor/Grant",
       "prefLabel": {
-        "en": "review",
-        "de": "Überprüfung",
-        "fr": "examen",
-        "es": "revisión"
+        "en": "Grant",
+        "de": "Grant",
+        "fr": "Subvention, Grant",
+        "es": "Subvención, Grant"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/reviews",
+      "id": "https://w3id.org/class/redaktor/Ticket",
       "prefLabel": {
-        "en": "reviews",
-        "de": "Überprüfungen",
-        "fr": "examens",
-        "es": "revisiones"
+        "en": "Ticket",
+        "de": "Ticket",
+        "fr": "Ticket",
+        "es": "Billete"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/seeks",
+      "id": "https://w3id.org/class/redaktor/Brand",
       "prefLabel": {
-        "en": "seeks",
-        "de": "sucht",
-        "fr": "cherche",
-        "es": "busca"
+        "en": "Brand",
+        "de": "Marke",
+        "fr": "Marque",
+        "es": "Marca"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/serviceArea",
+      "id": "https://w3id.org/class/redaktor/isAccessibleForFree",
       "prefLabel": {
-        "en": "service area",
-        "de": "Servicebereich",
-        "fr": "zone de service",
+        "en": "is accessible for free",
+        "de": "ist kostenlos zugängig",
+        "fr": "est accessible gratuitement",
+        "es": "es accesible de forma gratuita"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/AlignmentObject",
+      "prefLabel": {
+        "en": "Alignment Object",
+        "de": "Ausrichtung Objekt",
+        "fr": "Objet de l'alignement",
+        "es": "Objeto de alineación"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Audience",
+      "prefLabel": {
+        "en": "Audience",
+        "de": "Zielgruppe",
+        "fr": "Audience",
+        "es": "Audiencia"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/DefinedTerm",
+      "prefLabel": {
+        "en": "Defined Term",
+        "de": "Definierter Begriff",
+        "fr": "Terme défini",
+        "es": "Término definido"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/GeoShape",
+      "prefLabel": {
+        "en": "Geo Shape",
+        "de": "Geo-Form",
+        "fr": "Forme géographique",
+        "es": "Forma geográfica"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ListItem",
+      "prefLabel": {
+        "en": "List Item",
+        "de": "Artikel auflisten",
+        "fr": "Liste d'éléments",
+        "es": "Lista de elementos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ItemList",
+      "prefLabel": {
+        "en": "Item List",
+        "de": "Punkt Liste",
+        "fr": "Liste d'éléments",
+        "es": "Lista de elementos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/OrderItem",
+      "prefLabel": {
+        "en": "Order Item",
+        "de": "Artikel bestellen",
+        "fr": "Article de commande",
+        "es": "Pedir artículo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ProgramMembership",
+      "prefLabel": {
+        "en": "Program Membership",
+        "de": "Programm-Mitgliedschaft",
+        "fr": "Adhésion au programme",
+        "es": "Afiliación al programa"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/acceptedPaymentMethod",
+      "prefLabel": {
+        "en": "accepted payment method",
+        "de": "akzeptierte Zahlungsmethode",
+        "fr": "mode de paiement accepté",
+        "es": "método de pago aceptado"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/advanceBookingRequirement",
+      "prefLabel": {
+        "en": "advance booking requirement",
+        "de": "Voranmeldung erforderlich",
+        "fr": "obligation de réservation préalable",
+        "es": "requisito de reserva anticipada"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/areaServed",
+      "prefLabel": {
+        "en": "area served",
+        "de": "bedientes Gebiet",
+        "fr": "zone desservie",
         "es": "área de servicio"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/sponsor",
+      "id": "https://w3id.org/class/redaktor/audience",
       "prefLabel": {
-        "en": "sponsor",
-        "de": "Sponsor",
-        "fr": "sponsor",
-        "es": "patrocinador"
+        "en": "audience",
+        "de": "Publikum",
+        "fr": "public",
+        "es": "audiencia"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/subOrganization",
+      "id": "https://w3id.org/class/redaktor/availability",
       "prefLabel": {
-        "en": "sub organization",
-        "de": "Unterorganisation",
-        "fr": "sous-organisation",
-        "es": "suborganización"
+        "en": "availability",
+        "de": "Verfügbarkeit",
+        "fr": "disponibilité",
+        "es": "disponibilidad"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/taxID",
+      "id": "https://w3id.org/class/redaktor/availabilityEnds",
       "prefLabel": {
-        "en": "tax ID",
-        "de": "Steuer-ID",
-        "fr": "identifiant fiscal",
-        "es": "ID fiscal"
+        "en": "availability ends",
+        "de": "Verfügbarkeit endet",
+        "fr": "fin de la disponibilité",
+        "es": "la disponibilidad termina"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/unnamedSourcesPolicy",
+      "id": "https://w3id.org/class/redaktor/availabilityStarts",
       "prefLabel": {
-        "en": "unnamed sources policy",
-        "de": "Politik der ungenannten Quellen",
-        "fr": "politique des sources anonymes",
-        "es": "política de fuentes no identificadas"
+        "en": "availability starts",
+        "de": "Verfügbarkeit beginnt",
+        "fr": "la disponibilité commence",
+        "es": "la disponibilidad comienza"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/vatID",
+      "id": "https://w3id.org/class/redaktor/availableAtOrFrom",
       "prefLabel": {
-        "en": "vat ID",
-        "de": "Umsatzsteuer-ID",
-        "fr": "vat ID",
-        "es": "ID del iva"
-      }
-    }
-  ],
-  "broader": {
-    "id": "https://w3id.org/class/redaktor/Actor",
-    "prefLabel": {
-      "en": "Actor",
-      "de": "Akteur",
-      "fr": "Acteur",
-      "es": "Actor"
-    }
-  },
-  "inScheme": {
-    "id": "https://w3id.org/class/redaktor/scheme",
-    "title": {
-      "en": "ActivityPub: Functions and Relations",
-      "de": "ActivityPub: Funktionen und Verbindungen",
-      "fr": "ActivityPub: Functions and Relations",
-      "es": "ActivityPub: Functions and Relations"
-    }
-  },
-  "@context": {
-    "@version": 1.1,
-    "id": "@id",
-    "type": "@type",
-    "@vocab": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "dct": "http://purl.org/dc/terms/",
-    "schema": "http://schema.org/",
-    "vann": "http://purl.org/vocab/vann/",
-    "as": "https://www.w3.org/ns/activitystreams#",
-    "ldp": "http://www.w3.org/ns/ldp#",
-    "title": {
-      "@id": "dct:title",
-      "@container": "@language"
-    },
-    "description": {
-      "@id": "dct:description",
-      "@container": "@language"
-    },
-    "issued": {
-      "@id": "dct:issued",
-      "@type": "xsd:date"
-    },
-    "created": {
-      "@id": "dct:created",
-      "@type": "xsd:date"
-    },
-    "modified": {
-      "@id": "dct:modified",
-      "@type": "xsd:date"
-    },
-    "creator": "dct:creator",
-    "publisher": "dct:publisher",
-    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
-    "preferredNamespaceUri": "vann:preferredNamespaceUri",
-    "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
-    "prefLabel": {
-      "@container": "@language"
-    },
-    "altLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
-    "definition": {
-      "@container": "@language"
-    },
-    "scopeNote": {
-      "@container": "@language"
-    },
-    "note": {
-      "@container": "@language"
-    },
-    "notation": {
-      "@container": "@set"
-    },
-    "example": {
-      "@container": "@language"
-    },
-    "narrower": {
-      "@container": "@set"
-    },
-    "related": {
-      "@container": "@set"
-    },
-    "relatedMatch": {
-      "@container": "@set"
-    },
-    "narrowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}ble at or from",
+        "en": "available at or from",
         "de": "verfügbar bei oder von",
         "fr": "disponible à ou de",
         "es": "disponible en o desde"
@@ -976,15 +953,6 @@
         "de": "verfügbare Liefermethode",
         "fr": "méthode de livraison disponible",
         "es": "método de entrega disponible"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/award",
-      "prefLabel": {
-        "en": "award",
-        "de": "Auszeichnung",
-        "fr": "prix",
-        "es": "premio"
       }
     },
     {
@@ -1368,10 +1336,10 @@
     {
       "id": "https://w3id.org/class/redaktor/sku",
       "prefLabel": {
-        "en": "sku",
-        "de": "sku",
-        "fr": "sku",
-        "es": "sku"
+        "en": "SKU",
+        "de": "SKU",
+        "fr": "SKU",
+        "es": "SKU"
       }
     },
     {

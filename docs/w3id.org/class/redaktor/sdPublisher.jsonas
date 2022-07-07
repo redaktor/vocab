@@ -1,7 +1,7 @@
 {
   "id": "https://test.skohub.io/vocab//w3id.org/class/redaktor/sdPublisher",
   "type": "Service",
-  "name": "sd publisher",
+  "name": "SD publisher",
   "preferredUsername": "766f6361622f2f773369642e6f72672f636c6173732f726564616b746f722f73645075626c6973686572",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FsdPublisher",
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FsdPublisher",

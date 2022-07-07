@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FHealthWellness",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FHealthWellness",
   "prefLabel": {
-    "en": "Health & Wellness",
-    "de": "Gesundheit & Wellness",
+    "en": "Health and Wellness",
+    "de": "Gesundheit und Wellness",
     "fr": "Santé et bien-être",
     "es": "Salud y bienestar"
   },

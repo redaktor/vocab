@@ -58,10 +58,10 @@
     {
       "id": "https://w3id.org/class/redaktor/isrcCode",
       "prefLabel": {
-        "en": "isrc code",
-        "de": "isrc-Code",
-        "fr": "code isrc",
-        "es": "código isrc"
+        "en": "ISRC code",
+        "de": "ISRC Code",
+        "fr": "code ISRC",
+        "es": "código ISRC"
       }
     },
     {

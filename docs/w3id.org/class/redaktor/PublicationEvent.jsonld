@@ -14,12 +14,6 @@
   ],
   "narrower": [
     {
-      "id": "https://w3id.org/class/redaktor/free",
-      "prefLabel": {
-        "en": "free"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/BroadcastEvent",
       "prefLabel": {
         "en": "Broadcast Event",

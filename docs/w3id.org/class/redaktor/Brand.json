@@ -126,7 +126,10 @@
       "@container": "@set"
     }
   }
-}"@language"
+}      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
     },
     "notation": {
       "@container": "@set"

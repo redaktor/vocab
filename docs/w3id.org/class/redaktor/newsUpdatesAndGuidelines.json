@@ -5,7 +5,7 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FnewsUpdatesAndGuidelines",
   "prefLabel": {
     "en": "news updates and guidelines",
-    "de": "aktuelle Nachrichten und Leitlinien",
+    "de": "aktuelle Nachrichten und Richtlinien",
     "fr": "actualités et directives",
     "es": "noticias y directrices"
   },

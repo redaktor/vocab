@@ -1,7 +1,7 @@
 {
   "id": "https://test.skohub.io/vocab//w3id.org/class/redaktor/sdDatePublished",
   "type": "Service",
-  "name": "sd date published",
+  "name": "SD date published",
   "preferredUsername": "766f6361622f2f773369642e6f72672f636c6173732f726564616b746f722f7364446174655075626c6973686564",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FsdDatePublished",
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FsdDatePublished",

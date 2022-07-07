@@ -49,10 +49,10 @@
     {
       "id": "https://w3id.org/class/redaktor/iswcCode",
       "prefLabel": {
-        "en": "iswc code",
-        "de": "iswc-Code",
-        "fr": "code iswc",
-        "es": "código iswc"
+        "en": "ISWC  code",
+        "de": "ISWC Code",
+        "fr": "code ISWC ",
+        "es": "código ISWC "
       }
     },
     {
@@ -86,7 +86,7 @@
       "id": "https://w3id.org/class/redaktor/musicCompositionForm",
       "prefLabel": {
         "en": "music composition form",
-        "de": "form der musikkomposition",
+        "de": "Form der musikkomposition",
         "fr": "formulaire de composition musicale",
         "es": "forma de composición musical"
       }

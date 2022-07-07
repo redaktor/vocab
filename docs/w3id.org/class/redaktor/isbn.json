@@ -4,10 +4,10 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fisbn",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fisbn",
   "prefLabel": {
-    "en": "isbn",
-    "de": "isbn",
-    "fr": "isbn",
-    "es": "isbn"
+    "en": "ISBN",
+    "de": "ISBN",
+    "fr": "ISBN",
+    "es": "ISBN"
   },
   "definition": {
     "en": "The ISBN of the book.",
