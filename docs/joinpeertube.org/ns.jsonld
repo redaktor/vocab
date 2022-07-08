@@ -1,19 +1,19 @@
 {
-  "id": "https://joinpeertube.org/ns#views",
+  "id": "https://joinpeertube.org/ns#support",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinpeertube.org%2Fns%23views",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinpeertube.org%2Fns%23views",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinpeertube.org%2Fns%23support",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinpeertube.org%2Fns%23support",
   "prefLabel": {
-    "en": "views",
-    "de": "views",
-    "fr": "vues",
-    "es": "vistas"
+    "en": "support",
+    "de": "Unterstützung",
+    "fr": "soutien",
+    "es": "soporte"
   },
   "definition": {
-    "en": "views count of the video<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
-    "de": "Anzahl der Aufrufe<br>siehe [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
-    "fr": "nombre de vues<br>voir [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
-    "es": "conteo de vistas<br>ver [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)"
+    "en": "A text to tell the audience how to support the video/content creator.<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
+    "de": "Ein Text, der dem Publikum mitteilt, wie es den Ersteller des Videos/Inhalts unterstützen kann.<br>siehe [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
+    "fr": "Un texte pour indiquer au public comment soutenir le créateur de la vidéo/du contenu.<br>voir [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
+    "es": "Un texto para indicar al público cómo apoyar al creador del vídeo/contenido.<br>ver [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)"
   },
   "scopeNote": {
     "en": "ActivityPub Community",
@@ -22,7 +22,7 @@
     "es": "ActivityPub Community"
   },
   "notation": [
-    "1036"
+    "1034"
   ],
   "example": {
     "en": "```json \n{\n  \"type\": \"Video\",\n  \"views\": 35,\n  \"support\": \"Pay me a coffee when you see me\",\n  \"waitTranscoding\": true\n}```",
@@ -133,7 +133,9 @@
       "@container": "@set"
     }
   }
-}
+}    }
+  }
+}ainer": "@set"
     },
     "narrowMatch": {
       "@container": "@set"
@@ -150,25 +152,8 @@
       "@container": "@set"
     }
   }
-}dMatch": {
+}{
       "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}@set"
     }
   }
 }},
