@@ -71,13 +71,13 @@
     skos:prefLabel "ActivityPub"@de, "ActivityPub"@en, "ActivityPub"@fr, "ActivityPub"@es ;
     vann:preferredNamespacePrefix "redaktor" ;
     vann:preferredNamespaceUri "https://w3id.org/class/redaktor/" ;
-    skos:hasTopConcept as:Activity, as:Object, as:Link, as:IntransitiveActivity, as:Collection, as:OrderedCollection, as:CollectionPage, as:OrderedCollectionPage, :Community, :Discussion .
+    skos:hasTopConcept as:Object, as:Link, :Community, :Discussion .
 
 :Actor a skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Object ;
     skos:narrower as:Application, as:Group, as:Organization, as:Person, as:Service, as:followers, as:following, as:liked, as:likes, as:inbox, as:outbox, as:outbox, as:shares, as:streams, as:endpoints, as:alsoKnownAs, as:manuallyApprovesFollowers, as:movedTo, sec:publicKey, sec:signature, toot:featuredTags, toot:discoverable, toot:suspended ;
-    skos:notation "0" ;
+    skos:notation "1" ;
     skos:prefLabel "Akteur"@de, "Actor"@en, "Acteur"@fr, "Actor"@es ;
     skos:definition "[virtuelles Konzept] Die handelnden Subjekt Typen. Jedes Objekt kann ein 'Akteur' in ActivityPub sein, aber diese Typen beschreiben die meisten Akteure. Ein Actor muss mindestens die Eigenschaften `inbox` und `outbox` haben."@de,
       "[virtual concept] The acting subject types. Any object can be an 'Actor' in ActivityPub but these are types describing most Actors. An Actor must have at least the `inbox` and `outbox` properties."@en ,
@@ -93,7 +93,7 @@
 
 as:Activity a owl:Class, skos:Concept ;
     skos:inScheme :scheme ;
-    skos:topConceptOf :scheme ;
+    skos:broader as:Object ;
     skos:narrower as:Accept, as:Add, as:Announce, as:Block, as:Create, as:Delete,
      as:Dislike, as:Flag, as:Follow, as:Ignore, as:Invite, as:Join, as:Leave, as:Like, as:Listen, as:Move, as:Offer, as:Read, as:Reject, as:Remove, as:TentativeAccept, as:TentativeReject, as:Undo, as:Update, as:View, as:actor, as:object, as:instrument, as:origin, as:result, as:target ;
     skos:notation "2" ;
@@ -114,9 +114,21 @@ as:Activity a owl:Class, skos:Concept ;
 as:Object a owl:Class, skos:Concept ;
     skos:inScheme :scheme ;
     skos:topConceptOf :scheme ;
-    skos:narrower as:Collection, as:CollectionPage, as:OrderedCollection,
-      as:OrderedCollectionPage, as:Document, as:Article, as:Audio, as:Event, as:Image, as:Note, as:Page, as:Place, as:Profile, as:Relationship, as:Video, as:Tombstone, as:id, as:type, as:attributedTo, as:preview, as:height, as:width, as:mediaType, as:name, as:nameMap, as:sensitive, as:Hashtag, toot:Emoji, toot:IdentityProof, as:attachment, as:audience, as:to, as:bto, as:cc, as:bcc, as:content, as:contentMap, as:context, as:describes, as:duration, as:startTime, as:endTime, as:generator, as:icon, as:image, as:inReplyTo, as:location, as:published, as:replies, as:source, as:summary, as:summaryMap, as:tag, as:url, as:updated, toot:featured, pt:PlaylistElement, pt:commentsEnabled, pt:downloadEnabled, pt:playlists, pt:size, pt:support, pt:views, lite:ChatMessage, schema:PropertyValue, schema:value, schema:identifier, schema:license, schema:inLanguage, schema:datePublished, mz:repliesModerationOption, lm:stickied, lm:moderators ;
-    skos:notation "3" ;
+    skos:narrower :Actor, as:Activity, as:IntransitiveActivity, as:Document,
+      as:Article, as:Audio, as:Event, as:Image, as:Note, as:Page, as:Place,
+      as:Profile, as:Relationship, as:Video, as:Tombstone, pt:PlaylistElement,
+      schema:PropertyValue, as:id, as:type, 
+      as:attributedTo, as:preview, as:height, as:width, as:mediaType,
+      as:name, as:nameMap, as:sensitive, as:Hashtag, toot:Emoji, toot:IdentityProof,
+      as:attachment, as:audience, as:to, as:bto, as:cc, as:bcc, as:content, as:contentMap,
+      as:context, as:describes, as:duration, as:startTime, as:endTime, as:generator,
+      as:icon, as:image, as:inReplyTo, as:location, as:published, as:replies,
+      as:source, as:summary, as:summaryMap, as:tag, as:url, as:updated,
+      toot:featured, pt:commentsEnabled, pt:downloadEnabled,
+      pt:playlists, pt:size, pt:support, pt:views, lite:ChatMessage,
+      schema:value, schema:identifier, schema:license, schema:inLanguage,
+      schema:datePublished, mz:repliesModerationOption, lm:stickied, lm:moderators ;
+    skos:notation "0" ;
     skos:prefLabel "Objekt"@de, "Object"@en, "Objet"@fr, "Objeto"@es ;
     skos:definition "Beschreibt ein Objekt jeglicher Art. Der Typ Objekt dient als Basistyp für die meisten anderen im Activity Vocabulary definierten Objektarten.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-object](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-object)"@de,
       "Describes an object of any kind. The Object type serves as the base type for most of the other kinds of objects defined in the Activity Vocabulary.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-object](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-object)"@en ,
@@ -150,7 +162,7 @@ as:Link a owl:Class, skos:Concept ;
 
 as:IntransitiveActivity a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
-  skos:topConceptOf :scheme ;
+  skos:broader as:Object ;
   skos:narrower as:Arrive, as:Question, as:Travel ;
   skos:notation "5" ;
   skos:prefLabel "Intransitive Aktivität"@de, "Intransitive Activity"@en, "Activité intransitive"@fr, "Actividad intransitive"@es ;
@@ -605,7 +617,7 @@ as:current a owl:ObjectProperty, owl:FunctionalProperty, skos:Concept ;
 
 as:describes a owl:ObjectProperty, owl:FunctionalProperty, skos:Concept ;
   skos:inScheme :scheme ;
-  skos:broader as:Object ;
+  skos:broader as:Profile ;
   skos:notation "329" ;
   skos:prefLabel "beschreibt"@de, "describes"@en, "décrit"@fr, "describe"@es ;
   skos:definition "Bei einem Profile-Objekt identifiziert die Eigenschaft describes das Objekt, das durch das Profil beschrieben wird.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-describes](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-describes)"@de,
