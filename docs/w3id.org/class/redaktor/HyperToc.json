@@ -31,10 +31,10 @@
     {
       "id": "https://w3id.org/class/redaktor/tocEntry",
       "prefLabel": {
-        "en": "toc entry",
-        "de": "toc-Eintrag",
-        "fr": "entrée du toc",
-        "es": "entrada de toc"
+        "en": "Toc entry",
+        "de": "Toc Eintrag",
+        "fr": "entrée du Toc",
+        "es": "entrada de Toc"
       }
     }
   ],

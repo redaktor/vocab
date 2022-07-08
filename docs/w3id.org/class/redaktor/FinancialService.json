@@ -32,7 +32,13 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/CurrencyConversionService"
+      "id": "https://w3id.org/class/redaktor/CurrencyConversionService",
+      "prefLabel": {
+        "en": "Currency exchange",
+        "de": "Wechselstube",
+        "fr": "Bureaux de change",
+        "es": "Casa de cambio"
+      }
     },
     {
       "id": "https://w3id.org/class/redaktor/InsuranceAgency",

@@ -5,7 +5,9 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSchool",
   "prefLabel": {
     "en": "School",
-    "de": "Schule"
+    "de": "Schule",
+    "fr": "École",
+    "es": "Escuela"
   },
   "notation": [
     "1174"

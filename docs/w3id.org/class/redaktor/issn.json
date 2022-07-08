@@ -4,10 +4,10 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fissn",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fissn",
   "prefLabel": {
-    "en": "issn",
-    "de": "issn",
-    "fr": "issn",
-    "es": "issn"
+    "en": "ISSN",
+    "de": "ISSN",
+    "fr": "ISSN",
+    "es": "ISSN"
   },
   "definition": {
     "en": "The International Standard Serial Number (ISSN) that identifies this serial publication. You can repeat this property to identify different formats of, or the linking ISSN (ISSN-L) for, this serial publication.",

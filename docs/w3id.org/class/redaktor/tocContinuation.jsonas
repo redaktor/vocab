@@ -1,7 +1,7 @@
 {
   "id": "https://test.skohub.io/vocab//w3id.org/class/redaktor/tocContinuation",
   "type": "Service",
-  "name": "toc continuation",
+  "name": "Toc continuation",
   "preferredUsername": "766f6361622f2f773369642e6f72672f636c6173732f726564616b746f722f746f63436f6e74696e756174696f6e",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FtocContinuation",
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FtocContinuation",

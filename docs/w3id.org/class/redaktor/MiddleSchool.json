@@ -5,7 +5,9 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FMiddleSchool",
   "prefLabel": {
     "en": "Middle School",
-    "de": "Mittelschule"
+    "de": "Mittelschule",
+    "fr": "École intermédiaire",
+    "es": "Escuela Secundaria"
   },
   "notation": [
     "1172"

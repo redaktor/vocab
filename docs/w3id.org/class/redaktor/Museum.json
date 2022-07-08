@@ -5,7 +5,9 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FMuseum",
   "prefLabel": {
     "en": "Museum",
-    "de": "Museum"
+    "de": "Museum",
+    "fr": "Musée",
+    "es": "Museo"
   },
   "notation": [
     "1105"

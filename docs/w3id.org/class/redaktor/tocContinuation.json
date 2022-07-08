@@ -4,10 +4,10 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FtocContinuation",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FtocContinuation",
   "prefLabel": {
-    "en": "toc continuation",
-    "de": "toc-Fortsetzung",
-    "fr": "continuation du toc",
-    "es": "continuación de toc"
+    "en": "Toc continuation",
+    "de": "Toc-Fortsetzung",
+    "fr": "continuation du Toc",
+    "es": "continuación de Toc"
   },
   "definition": {
     "en": "A [[HyperTocEntry]] can have a [[tocContinuation]] indicated, which is another [[HyperTocEntry]] that would be the default next item to play or render.",

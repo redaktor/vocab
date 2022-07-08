@@ -30,6 +30,7 @@
 @prefix yf: <https://yuforium.com/ns/activitypub> .
 
 # TODO
+# Wrong examples
 # Reply mode
 # peertube has commentsEnabled
 # zot has a similar model like us
@@ -70,11 +71,11 @@
     skos:prefLabel "ActivityPub"@de, "ActivityPub"@en, "ActivityPub"@fr, "ActivityPub"@es ;
     vann:preferredNamespacePrefix "redaktor" ;
     vann:preferredNamespaceUri "https://w3id.org/class/redaktor/" ;
-    skos:hasTopConcept :Actor, as:Activity, as:Object, as:Link, as:IntransitiveActivity, as:Collection, as:OrderedCollection, as:CollectionPage, as:OrderedCollectionPage, :Community, :Discussion .
+    skos:hasTopConcept as:Activity, as:Object, as:Link, as:IntransitiveActivity, as:Collection, as:OrderedCollection, as:CollectionPage, as:OrderedCollectionPage, :Community, :Discussion .
 
 :Actor a skos:Concept ;
     skos:inScheme :scheme ;
-    skos:topConceptOf :scheme ;
+    skos:broader as:Object ;
     skos:narrower as:Application, as:Group, as:Organization, as:Person, as:Service, as:followers, as:following, as:liked, as:likes, as:inbox, as:outbox, as:outbox, as:shares, as:streams, as:endpoints, as:alsoKnownAs, as:manuallyApprovesFollowers, as:movedTo, sec:publicKey, sec:signature, toot:featuredTags, toot:discoverable, toot:suspended ;
     skos:notation "0" ;
     skos:prefLabel "Akteur"@de, "Actor"@en, "Acteur"@fr, "Actor"@es ;
@@ -3116,7 +3117,7 @@ sec:owner a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader sec:publicKey ;
   skos:notation "019" ;
-  skos:prefLabel "Eigentümer"@de, "owner"@en, ""@fr, ""@es ;
+  skos:prefLabel "Eigentümer"@de, "owner"@en, "Propriétaire"@fr, "Propietario"@es ;
   skos:definition "Ein Eigentümer ist eine Entität, die die Kontrolle über eine bestimmte Ressource beansprucht. Beachte, daß Eigentum am besten als eine wechselseitige Beziehung validiert wird, bei der der Eigentümer das Eigentum an einer bestimmten Ressource beansprucht und die Ressource ihren Eigentümer eindeutig identifiziert."@de,
     "An owner is an entity that claims control over a particular resource. Note that ownership is best validated as a two-way relationship where the owner claims ownership over a particular resource, and the resource clearly identifies its owner."@en,
     "Un propriétaire est une entité qui revendique le contrôle d'une ressource particulière. Notez que la propriété est mieux validée comme une relation à double sens où le propriétaire revendique la propriété d'une ressource particulière, et la ressource identifie clairement son propriétaire."@fr,
@@ -4500,7 +4501,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:broader as:Object, :redaktor ;
     skos:notation "1503" ;
     skos:prefLabel "Etagenplan"@de, "Floor Plan"@en, "Plan d'étage"@fr, "Plano de la planta"@es ;
-    skos:altLabel "Grundriss"@de, "Layout"@en, ""@fr, ""@es ;
+    skos:altLabel "Grundriss"@de, "Layout"@en, "Plan du site"@fr, "Plano del piso"@es ;
     skos:definition "Ein FloorPlan ist eine explizite Darstellung einer Sammlung ähnlicher Unterkünfte, die die Bereitstellung gemeinsamer Informationen (Zimmeranzahl, Größen, Grundrissdiagramme) und Angebote für Events oder zur Vermietung oder zum Verkauf ermöglicht. In der Regel hat ein `ApartmentComplex` einen `accommodationFloorPlan`, der ein `FloorPlan` ist.  Ein FloorPlan steht immer im Zusammenhang mit einem bestimmten Ort, entweder einem größeren `ApartmentComplex` oder einem einzelnen `Apartment`. Die visuellen/räumlichen Aspekte eines Grundrisses (d.h. die Raumaufteilung, [siehe wikipedia](https://en.wikipedia.org/wiki/Floor_plan)) können mit `Image` angegeben werden."@de,
       "A FloorPlan is an explicit representation of a collection of similar accommodations, allowing the provision of common information (room counts, sizes, layout diagrams) and offers for events, rental or sale. In typical use, some `ApartmentComplex` has an `accommodationFloorPlan` which is a `FloorPlan`.  A FloorPlan is always in the context of a particular place, either a larger `ApartmentComplex` or a single `Apartment`. The visual/spatial aspects of a floor plan (i.e. room layout, [see wikipedia](https://en.wikipedia.org/wiki/Floor_plan)) can be indicated using `Image`."@en,
       "Un FloorPlan est une représentation explicite d'une collection d'hébergements similaires, permettant de fournir des informations communes (nombre de pièces, tailles, schémas d'aménagement) et des offres d'événements, de location ou de vente. Dans une utilisation typique, un ApartmentComplex possède un accommodationFloorPlan qui est un FloorPlan.  Un FloorPlan se situe toujours dans le contexte d'un lieu particulier, qu'il s'agisse d'un complexe d'appartements plus vaste ou d'un seul appartement. Les aspects visuels/spatiaux d'un plan d'étage (c'est-à-dire la disposition des pièces, [voir wikipedia](https://en.wikipedia.org/wiki/Floor_plan)) peuvent être indiqués à l'aide d'une image."@fr,
@@ -4740,7 +4741,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:broader :CreativeWork, :redaktor ;
     skos:notation "1520" ;
     skos:prefLabel "Lern-Ressource"@de, "Learning Resource"@en, "Ressource d'apprentissage"@fr, "Recurso de aprendizaje"@es ;
-    skos:altLabel "Lehrmaterial"@de, "Educational material"@en, ""@fr, ""@es ;
+    skos:altLabel "Lehrmaterial"@de, "Educational material"@en, "Learning Resource"@fr, "Learning Resource"@es ;
     skos:definition "Der Typ LearningResource kann verwendet werden, um CreativeWorks (physisch oder digital) zu kennzeichnen, die eine besondere und ausdrückliche Ausrichtung auf das Lernen, die Ausbildung, den Erwerb von Fähigkeiten und andere Bildungszwecke haben.<br>LearningResource soll als Zusatz zu einem primären Typ wie Book, VideoObject, Product usw. verwendet werden.<br>EducationEvent dient einem ähnlichen Zweck für ereignisähnliche Dinge (z. B. eine Reise). Eine LearningResource kann als Ergebnis eines EducationEvents erstellt werden, zum Beispiel durch Aufzeichnung eines solchen."@de,
       "The LearningResource type can be used to indicate [CreativeWork](https://schema.org/CreativeWork)s (whether physical or digital) that have a particular and explicit orientation towards learning, education, skill acquisition, and other educational purposes.<br><br>[LearningResource](https://schema.org/LearningResource) is expected to be used as an addition to a primary type such as :Book, as:Video etc.<br><br>[EducationEvent](https://schema.org/EducationEvent) serves a similar purpose for event-like things (e.g. a [Trip](https://schema.org/Trip)). A [LearningResource](https://schema.org/LearningResource) may be created as a result of an [EducationEvent](https://schema.org/EducationEvent), for example by recording one."@en,
       "Le type LearningResource peut être utilisé pour indiquer les [CreativeWork](https://schema.org/CreativeWork)s (physiques ou numériques) qui ont une orientation particulière et explicite vers l'apprentissage, l'éducation, l'acquisition de compétences et d'autres objectifs éducatifs.<br><br>LearningResource est censé être utilisé comme un complément à un type primaire tel que :Book, as:Video etc.<br><br>EducationEvent sert un objectif similaire pour les choses semblables à des événements (par exemple, un voyage). Une LearningResource peut être créée à la suite d'un EducationEvent, par exemple en l'enregistrant."@fr,
@@ -4868,7 +4869,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:broader :CreativeWork, :redaktor ;
     skos:notation "1529" ;
     skos:prefLabel "Publikationsausgabe"@de, "Publication Issue"@en, "Numéro de publication"@fr, "Número de la publicación"@es ;
-    skos:altLabel "Ausgabe"@de, "Issue"@en, ""@fr, ""@es ;
+    skos:altLabel "Ausgabe"@de, "Issue"@en, "Numéro"@fr, "Numéro"@es ;
     skos:definition "Ein Teil einer fortlaufend veröffentlichten Publikation, z. B. einer Zeitschrift oder eines Publikationsbandes, der häufig nummeriert ist und in der Regel eine Zusammenstellung von Werken wie z. B. Artikeln enthält.<br/><br/>Siehe auch [Blogpost](http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html)."@de,
       "A part of a successively published publication such as a periodical or publication volume, often numbered, usually containing a grouping of works such as articles.<br/><br/>See also [blog post](http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html)."@en,
       "A part of a successively published publication such as a periodical or publication volume, often numbered, usually containing a grouping of works such as articles.<br/><br/>See also [blog post](http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html)."@fr,
@@ -4883,7 +4884,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:broader :CreativeWork, :redaktor ;
     skos:notation "1530" ;
     skos:prefLabel "Publikationsband"@de, "Publication Volume"@en, "Volume de publication"@fr, "Volumen de la publicación"@es ;
-    skos:altLabel "Volume"@de, "Volume"@en, ""@fr, ""@es ;
+    skos:altLabel "Volume"@de, "Volume"@en, "Volume"@fr, "Volumen"@es ;
     skos:definition "Ein oft nummerierter Teil einer nacheinander veröffentlichten Publikation wie einer Zeitschrift oder eines mehrbändigen Werks. Er kann eine Zeitspanne, z. B. ein Jahr, darstellen.<br/><br/>Siehe auch [Blogeintrag](http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html)."@de,
       "A part of a successively published publication such as a periodical or multi-volume work, often numbered. It may represent a time span, such as a year.<br/><br/>See also [blog post](http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html)."@en,
       "A part of a successively published publication such as a periodical or multi-volume work, often numbered. It may represent a time span, such as a year.<br/><br/>See also [blog post](http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html)."@fr,
@@ -6228,11 +6229,11 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article, as:Note, as:Page ;
     skos:notation "1657" ;
-  	skos:prefLabel "Tech Article"@en, "Tech Artikel"@de, ""@fr, ""@es ;
+  	skos:prefLabel "Tech Article"@en, "Tech Artikel"@de, "Article technique"@fr, "Artículo técnico"@es ;
   	skos:definition	"A technical article"@en,
       "Ein technischer Artikel"@de,
-      ""@fr,
-      ""@es ;
+      "Un article sur la technologie"@fr,
+      "Un artículo técnico"@es ;
   	skos:scopeNote as:Article, as:Note ;
   	rdfs:label "TechArticle"@en ;
     rdfs:subClassOf as:Article, as:Note, as:Page .
@@ -7208,7 +7209,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :CivicStructure, :redaktor ;
     skos:notation "1105" ;
-    skos:prefLabel "Museum"@de, "Museum"@en, ""@fr, ""@es ;
+    skos:prefLabel "Museum"@de, "Museum"@en, "Musée"@fr, "Museo"@es ;
     skos:scopeNote as:Place ;
     schema:amenityFeature "tourism=museum" ;
     rdfs:label "Museum"@en ;
@@ -7722,7 +7723,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:broader :CivicStructure, :FinancialService, :redaktor ;
     skos:notation "1155" ;
     skos:prefLabel "Wechselstube"@de, "Currency exchange"@en, "Bureaux de change"@fr, "Casa de cambio"@es ;
-    skos:prefLabel "Währungsumrechnungsdienst"@de, "Currency Conversion Service"@en, "Service de conversion de devises"@fr, "Servicio de cambio de moneda"@es ;
+    skos:altLabel "Währungsumrechnungsdienst"@de, "Currency Conversion Service"@en, "Service de conversion de devises"@fr, "Servicio de cambio de moneda"@es ;
     skos:scopeNote as:Place ;
     schema:amenityFeature "amenity=bureau_de_change" ;
     rdfs:label "CurrencyConversionService"@en ;
@@ -7844,7 +7845,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :EducationalOrganization, :redaktor ;
     skos:notation "1169" ;
-    skos:prefLabel "Hochschule oder Universität"@de, "College or University"@en, ""@fr, ""@es ;
+    skos:prefLabel "Hochschule oder Universität"@de, "College or University"@en, "Collège ou université"@fr, "Colegio o Universidad"@es ;
     skos:scopeNote as:Place ;
     schema:amenityFeature "amenity=college,amenity=university" ;
     rdfs:label "CollegeOrUniversity"@en ;
@@ -7855,7 +7856,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :EducationalOrganization, :redaktor ;
     skos:notation "1170" ;
-    skos:prefLabel "Elementarschule"@de, "Elementary School"@en, ""@fr, ""@es ;
+    skos:prefLabel "Elementarschule"@de, "Elementary School"@en, "École élémentaire"@fr, "Escuela primaria"@es ;
     skos:scopeNote as:Place ;
     schema:amenityFeature "amenity=school" ;
     rdfs:label "ElementarySchool"@en ;
@@ -7866,7 +7867,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :EducationalOrganization, :redaktor ;
     skos:notation "1171" ;
-    skos:prefLabel "Oberschule"@de, "High School"@en, ""@fr, ""@es ;
+    skos:prefLabel "Oberschule"@de, "High School"@en, "École secondaire"@fr, "Escuela Secundaria"@es ;
     skos:scopeNote as:Place ;
     schema:amenityFeature "amenity=school" ;
     rdfs:label "HighSchool"@en ;
@@ -7877,7 +7878,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :EducationalOrganization, :redaktor ;
     skos:notation "1172" ;
-    skos:prefLabel "Mittelschule"@de, "Middle School"@en, ""@fr, ""@es ;
+    skos:prefLabel "Mittelschule"@de, "Middle School"@en, "École intermédiaire"@fr, "Escuela Secundaria"@es ;
     skos:scopeNote as:Place ;
     schema:amenityFeature "amenity=school" ;
     rdfs:label "MiddleSchool"@en ;
@@ -7888,7 +7889,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :EducationalOrganization, :redaktor ;
     skos:notation "1173" ;
-    skos:prefLabel "Vorschule"@de, "Preschool"@en, ""@fr, ""@es ;
+    skos:prefLabel "Vorschule"@de, "Preschool"@en, "École maternelle"@fr, "Preescolar"@es ;
     skos:scopeNote as:Place ;
     schema:amenityFeature "amenity=kindergarten" ;
     rdfs:label "Preschool"@en ;
@@ -7899,7 +7900,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :EducationalOrganization, :redaktor ;
     skos:notation "1174" ;
-    skos:prefLabel "Schule"@de, "School"@en, ""@fr, ""@es ;
+    skos:prefLabel "Schule"@de, "School"@en, "École"@fr, "Escuela"@es ;
     skos:scopeNote as:Place ;
     schema:amenityFeature "amenity=school" ;
     rdfs:label "School"@en ;
@@ -7942,7 +7943,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :LocalBusiness, :redaktor ;
     skos:notation "1178" ;
-    skos:prefLabel "Fahrradverleih"@de, "Bike Rental"@en, ""@fr, ""@es ;
+    skos:prefLabel "Fahrradverleih"@de, "Bike Rental"@en, "Location de vélos"@fr, "Alquiler de bicicletas"@es ;
     skos:scopeNote as:Place ;
     schema:amenityFeature "amenity=bicycle_rental" ;
     rdfs:label "BikeRental"@en ;
@@ -9711,7 +9712,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :CivicStructure, :redaktor ;
     skos:notation "1346" ;
-    skos:prefLabel ""@de, "Nature Reserve"@en, "Réserve naturelle"@fr, "Reserva natural"@es ;
+    skos:prefLabel "Naturschutzgebiet"@de, "Nature Reserve"@en, "Réserve naturelle"@fr, "Reserva natural"@es ;
     skos:scopeNote as:Place ;
     schema:amenityFeature "amenity=nature_reserve" ;
     rdfs:label "NatureReserve"@en ;
@@ -10103,7 +10104,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :Place, :redaktor ;
     skos:notation "1385" ;
-    skos:prefLabel "Wald"@de, "Forest"@en, ""@fr, ""@es ;
+    skos:prefLabel "Wald"@de, "Forest"@en, "Forêt"@fr, "Bosque"@es ;
     skos:scopeNote as:Place ;
     schema:amenityFeature "landuse=forest" ;
     rdfs:label "Forest"@en ;
@@ -10392,7 +10393,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Event, :mobilizon, :redaktor ;
     skos:notation "1403" ;
-    skos:prefLabel "Kunstveranstaltung, Darstellende & Visuelle Kunst"@de, "Art Event, Performing & Visual"@en, "Événement artistique, spectacle vivant et visuel"@fr, ""@es ;
+    skos:prefLabel "Kunstveranstaltung, Darstellende & Visuelle Kunst"@de, "Art Event, Performing & Visual"@en, "Événement artistique, spectacle vivant et visuel"@fr, "Evento artístico, Artes escénicas y visuales"@es ;
     skos:scopeNote as:Event ;
     :eventbriteId "105" ;
     rdfs:label "VisualArtsEvent"@en ;
@@ -10484,7 +10485,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Event, :mobilizon, :redaktor ;
     skos:notation "1412" ;
-    skos:prefLabel "Handwerks-, Bauern- oder Kunsthandwerkermärkte"@de, "Craft, Farmers, or Artisan markets"@en, "Marchés de l'artisanat, des fermiers ou des artisans"@fr, ""@es ;
+    skos:prefLabel "Handwerks-, Bauern- oder Kunsthandwerkermärkte"@de, "Craft, Farmers, or Artisan markets"@en, "Marchés de l'artisanat, des fermiers ou des artisans"@fr, "Mercados de artesanía, de agricultores o de artesanos"@es ;
     skos:scopeNote as:Event ;
     rdfs:label "Crafts"@en ;
     rdfs:subClassOf as:Event .
@@ -10935,7 +10936,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Event, :mobilizon, :redaktor ;
     skos:notation "1458" ;
-    skos:prefLabel ""@de, "Webinar"@en, "Webinaire"@fr, "Webinar"@es ;
+    skos:prefLabel "Webinar"@de, "Webinar"@en, "Webinaire"@fr, "Webinar"@es ;
     skos:scopeNote as:Event ;
     rdfs:label "Webinar"@en ;
     rdfs:subClassOf as:Event .
@@ -14319,7 +14320,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   :deathDate a owl:DatatypeProperty, skos:Concept ;
     skos:exactMatch schema:deathDate ;
     skos:inScheme :scheme ;
-    skos:broader as:Person, :redaktor ;
+    skos:broader as:Tombstone, :redaktor ;
     skos:notation "1893" ;
     skos:prefLabel "Sterbedatum"@de, "death date"@en, "date de décès"@fr, "fecha de fallecimiento"@es ;
     skos:definition "Date of death."@de,
@@ -14337,7 +14338,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   :deathPlace a owl:ObjectProperty, skos:Concept ;
     skos:exactMatch schema:deathPlace ;
     skos:inScheme :scheme ;
-    skos:broader as:Person, :redaktor ;
+    skos:broader as:Tombstone, :redaktor ;
     skos:notation "1894" ;
     skos:prefLabel "Sterbeort"@de, "death place"@en, "lieu du décès"@fr, "lugar de fallecimiento"@es ;
     skos:definition "The place where the person died."@de,
@@ -15980,7 +15981,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Object, as:Offer, as:Object, :redaktor ;
     skos:notation "1980" ;
-    skos:prefLabel "gtin"@de, "gtin"@en, "gtin"@fr, "gtin"@es ;
+    skos:prefLabel "GTIN"@de, "GTIN"@en, "GTIN"@fr, "GTIN"@es ;
     skos:definition "A Global Trade Item Number ([GTIN](https://www.gs1.org/standards/id-keys/gtin)). GTINs identify trade items, including products and services, using numeric identification codes. The [[gtin]] property generalizes the earlier [[gtin8]], [[gtin12]], [[gtin13]], and [[gtin14]] properties. The GS1 [digital link specifications](https://www.gs1.org/standards/Digital-Link/) express GTINs as URLs. A correct [[gtin]] value should be a valid GTIN, which means that it should be an all-numeric string of either 8, 12, 13 or 14 digits, or a “GS1 Digital Link” URL based on such a string. The numeric component should also have a [valid GS1 check digit](https://www.gs1.org/services/check-digit-calculator) and meet the other rules for valid GTINs. See also [GS1's GTIN Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) and [Wikipedia](https://en.wikipedia.org/wiki/Global_Trade_Item_Number) for more details. Left-padding of the gtin values is not required or encouraged.<br>   "@de,
       "A Global Trade Item Number ([GTIN](https://www.gs1.org/standards/id-keys/gtin)). GTINs identify trade items, including products and services, using numeric identification codes. The [[gtin]] property generalizes the earlier [[gtin8]], [[gtin12]], [[gtin13]], and [[gtin14]] properties. The GS1 [digital link specifications](https://www.gs1.org/standards/Digital-Link/) express GTINs as URLs. A correct [[gtin]] value should be a valid GTIN, which means that it should be an all-numeric string of either 8, 12, 13 or 14 digits, or a “GS1 Digital Link” URL based on such a string. The numeric component should also have a [valid GS1 check digit](https://www.gs1.org/services/check-digit-calculator) and meet the other rules for valid GTINs. See also [GS1's GTIN Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) and [Wikipedia](https://en.wikipedia.org/wiki/Global_Trade_Item_Number) for more details. Left-padding of the gtin values is not required or encouraged.<br>   "@en,
       "A Global Trade Item Number ([GTIN](https://www.gs1.org/standards/id-keys/gtin)). GTINs identify trade items, including products and services, using numeric identification codes. The [[gtin]] property generalizes the earlier [[gtin8]], [[gtin12]], [[gtin13]], and [[gtin14]] properties. The GS1 [digital link specifications](https://www.gs1.org/standards/Digital-Link/) express GTINs as URLs. A correct [[gtin]] value should be a valid GTIN, which means that it should be an all-numeric string of either 8, 12, 13 or 14 digits, or a “GS1 Digital Link” URL based on such a string. The numeric component should also have a [valid GS1 check digit](https://www.gs1.org/services/check-digit-calculator) and meet the other rules for valid GTINs. See also [GS1's GTIN Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) and [Wikipedia](https://en.wikipedia.org/wiki/Global_Trade_Item_Number) for more details. Left-padding of the gtin values is not required or encouraged.<br>   "@fr,
@@ -15998,7 +15999,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Object, as:Offer, as:Object, :redaktor ;
     skos:notation "1981" ;
-    skos:prefLabel "gtin12"@de, "gtin12"@en, "gtin12"@fr, "gtin12"@es ;
+    skos:prefLabel "GTIN12"@de, "GTIN12"@en, "GTIN12"@fr, "GTIN12"@es ;
     skos:definition "The GTIN-12 code of the product, or the product to which the offer refers. The GTIN-12 is the 12-digit GS1 Identification Key composed of a U.P.C. Company Prefix, Item Reference, and Check Digit used to identify trade items. See [GS1 GTIN Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more details."@de,
       "The GTIN-12 code of the product, or the product to which the offer refers. The GTIN-12 is the 12-digit GS1 Identification Key composed of a U.P.C. Company Prefix, Item Reference, and Check Digit used to identify trade items. See [GS1 GTIN Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more details."@en,
       "The GTIN-12 code of the product, or the product to which the offer refers. The GTIN-12 is the 12-digit GS1 Identification Key composed of a U.P.C. Company Prefix, Item Reference, and Check Digit used to identify trade items. See [GS1 GTIN Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more details."@fr,
@@ -16016,7 +16017,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Object, as:Offer, as:Object, :redaktor ;
     skos:notation "1982" ;
-    skos:prefLabel "gtin13"@de, "gtin13"@en, "gtin13"@fr, "gtin13"@es ;
+    skos:prefLabel "GTIN13"@de, "GTIN13"@en, "GTIN13"@fr, "GTIN13"@es ;
     skos:definition "The GTIN-13 code of the product, or the product to which the offer refers. This is equivalent to 13-digit ISBN codes and EAN UCC-13. Former 12-digit UPC codes can be converted into a GTIN-13 code by simply adding a preceding zero. See [GS1 GTIN Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more details."@de,
       "The GTIN-13 code of the product, or the product to which the offer refers. This is equivalent to 13-digit ISBN codes and EAN UCC-13. Former 12-digit UPC codes can be converted into a GTIN-13 code by simply adding a preceding zero. See [GS1 GTIN Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more details."@en,
       "The GTIN-13 code of the product, or the product to which the offer refers. This is equivalent to 13-digit ISBN codes and EAN UCC-13. Former 12-digit UPC codes can be converted into a GTIN-13 code by simply adding a preceding zero. See [GS1 GTIN Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more details."@fr,
@@ -16034,7 +16035,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Object, as:Offer, as:Object, :redaktor ;
     skos:notation "1983" ;
-    skos:prefLabel "gtin14"@de, "gtin14"@en, "gtin14"@fr, "gtin14"@es ;
+    skos:prefLabel "GTIN14"@de, "GTIN14"@en, "GTIN14"@fr, "GTIN14"@es ;
     skos:definition "The GTIN-14 code of the product, or the product to which the offer refers. See [GS1 GTIN Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more details."@de,
       "The GTIN-14 code of the product, or the product to which the offer refers. See [GS1 GTIN Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more details."@en,
       "The GTIN-14 code of the product, or the product to which the offer refers. See [GS1 GTIN Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more details."@fr,
@@ -16052,7 +16053,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Offer, as:Object, as:Object, :redaktor ;
     skos:notation "1984" ;
-    skos:prefLabel "gtin8"@de, "gtin8"@en, "gtin8"@fr, "gtin8"@es ;
+    skos:prefLabel "GTIN8"@de, "GTIN8"@en, "GTIN8"@fr, "GTIN8"@es ;
     skos:definition "The GTIN-8 code of the product, or the product to which the offer refers. This code is also known as EAN/UCC-8 or 8-digit EAN. See [GS1 GTIN Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more details."@de,
       "The GTIN-8 code of the product, or the product to which the offer refers. This code is also known as EAN/UCC-8 or 8-digit EAN. See [GS1 GTIN Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more details."@en,
       "The GTIN-8 code of the product, or the product to which the offer refers. This code is also known as EAN/UCC-8 or 8-digit EAN. See [GS1 GTIN Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more details."@fr,
@@ -17153,7 +17154,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :WebSite, schema:CreativeWorkSeries, schema:Dataset, :Blog, :redaktor ;
     skos:notation "2041" ;
-    skos:prefLabel "issn"@de, "issn"@en, "issn"@fr, "issn"@es ;
+    skos:prefLabel "ISSN"@de, "ISSN"@en, "ISSN"@fr, "ISSN"@es ;
     skos:definition "The International Standard Serial Number (ISSN) that identifies this serial publication. You can repeat this property to identify different formats of, or the linking ISSN (ISSN-L) for, this serial publication."@de,
       "The International Standard Serial Number (ISSN) that identifies this serial publication. You can repeat this property to identify different formats of, or the linking ISSN (ISSN-L) for, this serial publication."@en,
       "The International Standard Serial Number (ISSN) that identifies this serial publication. You can repeat this property to identify different formats of, or the linking ISSN (ISSN-L) for, this serial publication."@fr,
@@ -21557,7 +21558,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :HyperTocEntry, :redaktor ;
     skos:notation "2261" ;
-    skos:prefLabel "toc-Fortsetzung"@de, "toc continuation"@en, "continuation du toc"@fr, "continuación de toc"@es ;
+    skos:prefLabel "Toc-Fortsetzung"@de, "Toc continuation"@en, "continuation du Toc"@fr, "continuación de Toc"@es ;
     skos:definition "A [[HyperTocEntry]] can have a [[tocContinuation]] indicated, which is another [[HyperTocEntry]] that would be the default next item to play or render."@de,
       "A [[HyperTocEntry]] can have a [[tocContinuation]] indicated, which is another [[HyperTocEntry]] that would be the default next item to play or render."@en,
       "A [[HyperTocEntry]] can have a [[tocContinuation]] indicated, which is another [[HyperTocEntry]] that would be the default next item to play or render."@fr,
@@ -21578,7 +21579,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :HyperToc, :redaktor ;
     skos:notation "2262" ;
-    skos:prefLabel "toc-Eintrag"@de, "toc entry"@en, "entrée du toc"@fr, "entrada de toc"@es ;
+    skos:prefLabel "Toc Eintrag"@de, "Toc entry"@en, "entrée du Toc"@fr, "entrada de Toc"@es ;
     skos:definition "Indicates a [[HyperTocEntry]] in a [[HyperToc]]."@de,
       "Indicates a [[HyperTocEntry]] in a [[HyperToc]]."@en,
       "Indicates a [[HyperTocEntry]] in a [[HyperToc]]."@fr,

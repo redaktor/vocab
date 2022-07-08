@@ -167,7 +167,9 @@
       "id": "https://w3id.org/class/redaktor/Museum",
       "prefLabel": {
         "en": "Museum",
-        "de": "Museum"
+        "de": "Museum",
+        "fr": "Musée",
+        "es": "Museo"
       }
     },
     {
@@ -324,7 +326,13 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/CurrencyConversionService"
+      "id": "https://w3id.org/class/redaktor/CurrencyConversionService",
+      "prefLabel": {
+        "en": "Currency exchange",
+        "de": "Wechselstube",
+        "fr": "Bureaux de change",
+        "es": "Casa de cambio"
+      }
     },
     {
       "id": "https://w3id.org/class/redaktor/BicycleRepairStation",
@@ -510,6 +518,7 @@
       "id": "https://w3id.org/class/redaktor/NatureReserve",
       "prefLabel": {
         "en": "Nature Reserve",
+        "de": "Naturschutzgebiet",
         "fr": "Réserve naturelle",
         "es": "Reserva natural"
       }

@@ -1415,7 +1415,9 @@
       "id": "https://w3id.org/class/redaktor/Museum",
       "prefLabel": {
         "en": "Museum",
-        "de": "Museum"
+        "de": "Museum",
+        "fr": "Musée",
+        "es": "Museo"
       }
     },
     {
@@ -1851,7 +1853,13 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/CurrencyConversionService"
+      "id": "https://w3id.org/class/redaktor/CurrencyConversionService",
+      "prefLabel": {
+        "en": "Currency exchange",
+        "de": "Wechselstube",
+        "fr": "Bureaux de change",
+        "es": "Casa de cambio"
+      }
     },
     {
       "id": "https://w3id.org/class/redaktor/BicycleRepairStation",
@@ -1956,42 +1964,54 @@
       "id": "https://w3id.org/class/redaktor/CollegeOrUniversity",
       "prefLabel": {
         "en": "College or University",
-        "de": "Hochschule oder Universität"
+        "de": "Hochschule oder Universität",
+        "fr": "Collège ou université",
+        "es": "Colegio o Universidad"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/ElementarySchool",
       "prefLabel": {
         "en": "Elementary School",
-        "de": "Elementarschule"
+        "de": "Elementarschule",
+        "fr": "École élémentaire",
+        "es": "Escuela primaria"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/HighSchool",
       "prefLabel": {
         "en": "High School",
-        "de": "Oberschule"
+        "de": "Oberschule",
+        "fr": "École secondaire",
+        "es": "Escuela Secundaria"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/MiddleSchool",
       "prefLabel": {
         "en": "Middle School",
-        "de": "Mittelschule"
+        "de": "Mittelschule",
+        "fr": "École intermédiaire",
+        "es": "Escuela Secundaria"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/Preschool",
       "prefLabel": {
         "en": "Preschool",
-        "de": "Vorschule"
+        "de": "Vorschule",
+        "fr": "École maternelle",
+        "es": "Preescolar"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/School",
       "prefLabel": {
         "en": "School",
-        "de": "Schule"
+        "de": "Schule",
+        "fr": "École",
+        "es": "Escuela"
       }
     },
     {
@@ -2025,7 +2045,9 @@
       "id": "https://w3id.org/class/redaktor/BikeRental",
       "prefLabel": {
         "en": "Bike Rental",
-        "de": "Fahrradverleih"
+        "de": "Fahrradverleih",
+        "fr": "Location de vélos",
+        "es": "Alquiler de bicicletas"
       }
     },
     {
@@ -3436,6 +3458,7 @@
       "id": "https://w3id.org/class/redaktor/NatureReserve",
       "prefLabel": {
         "en": "Nature Reserve",
+        "de": "Naturschutzgebiet",
         "fr": "Réserve naturelle",
         "es": "Reserva natural"
       }
@@ -3786,7 +3809,9 @@
       "id": "https://w3id.org/class/redaktor/Forest",
       "prefLabel": {
         "en": "Forest",
-        "de": "Wald"
+        "de": "Wald",
+        "fr": "Forêt",
+        "es": "Bosque"
       }
     },
     {
@@ -3965,7 +3990,8 @@
       "prefLabel": {
         "en": "Art Event, Performing & Visual",
         "de": "Kunstveranstaltung, Darstellende & Visuelle Kunst",
-        "fr": "Événement artistique, spectacle vivant et visuel"
+        "fr": "Événement artistique, spectacle vivant et visuel",
+        "es": "Evento artístico, Artes escénicas y visuales"
       }
     },
     {
@@ -4045,7 +4071,8 @@
       "prefLabel": {
         "en": "Craft, Farmers, or Artisan markets",
         "de": "Handwerks-, Bauern- oder Kunsthandwerkermärkte",
-        "fr": "Marchés de l'artisanat, des fermiers ou des artisans"
+        "fr": "Marchés de l'artisanat, des fermiers ou des artisans",
+        "es": "Mercados de artesanía, de agricultores o de artesanos"
       }
     },
     {
@@ -4457,6 +4484,7 @@
       "id": "https://w3id.org/class/redaktor/Webinar",
       "prefLabel": {
         "en": "Webinar",
+        "de": "Webinar",
         "fr": "Webinaire",
         "es": "Webinar"
       }
@@ -6786,46 +6814,46 @@
     {
       "id": "https://w3id.org/class/redaktor/gtin",
       "prefLabel": {
-        "en": "gtin",
-        "de": "gtin",
-        "fr": "gtin",
-        "es": "gtin"
+        "en": "GTIN",
+        "de": "GTIN",
+        "fr": "GTIN",
+        "es": "GTIN"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/gtin12",
       "prefLabel": {
-        "en": "gtin12",
-        "de": "gtin12",
-        "fr": "gtin12",
-        "es": "gtin12"
+        "en": "GTIN12",
+        "de": "GTIN12",
+        "fr": "GTIN12",
+        "es": "GTIN12"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/gtin13",
       "prefLabel": {
-        "en": "gtin13",
-        "de": "gtin13",
-        "fr": "gtin13",
-        "es": "gtin13"
+        "en": "GTIN13",
+        "de": "GTIN13",
+        "fr": "GTIN13",
+        "es": "GTIN13"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/gtin14",
       "prefLabel": {
-        "en": "gtin14",
-        "de": "gtin14",
-        "fr": "gtin14",
-        "es": "gtin14"
+        "en": "GTIN14",
+        "de": "GTIN14",
+        "fr": "GTIN14",
+        "es": "GTIN14"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/gtin8",
       "prefLabel": {
-        "en": "gtin8",
-        "de": "gtin8",
-        "fr": "gtin8",
-        "es": "gtin8"
+        "en": "GTIN8",
+        "de": "GTIN8",
+        "fr": "GTIN8",
+        "es": "GTIN8"
       }
     },
     {
@@ -7317,10 +7345,10 @@
     {
       "id": "https://w3id.org/class/redaktor/issn",
       "prefLabel": {
-        "en": "issn",
-        "de": "issn",
-        "fr": "issn",
-        "es": "issn"
+        "en": "ISSN",
+        "de": "ISSN",
+        "fr": "ISSN",
+        "es": "ISSN"
       }
     },
     {
@@ -9279,19 +9307,19 @@
     {
       "id": "https://w3id.org/class/redaktor/tocContinuation",
       "prefLabel": {
-        "en": "toc continuation",
-        "de": "toc-Fortsetzung",
-        "fr": "continuation du toc",
-        "es": "continuación de toc"
+        "en": "Toc continuation",
+        "de": "Toc-Fortsetzung",
+        "fr": "continuation du Toc",
+        "es": "continuación de Toc"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/tocEntry",
       "prefLabel": {
-        "en": "toc entry",
-        "de": "toc-Eintrag",
-        "fr": "entrée du toc",
-        "es": "entrada de toc"
+        "en": "Toc entry",
+        "de": "Toc Eintrag",
+        "fr": "entrée du Toc",
+        "es": "entrada de Toc"
       }
     },
     {

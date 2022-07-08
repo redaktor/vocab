@@ -233,6 +233,15 @@
       }
     }
   ],
+  "broader": {
+    "id": "http://www.w3.org/ns/activitystreams#Object",
+    "prefLabel": {
+      "en": "Object",
+      "de": "Objekt",
+      "fr": "Objet",
+      "es": "Objeto"
+    }
+  },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
@@ -241,9 +250,6 @@
       "fr": "ActivityPub: Functions and Relations",
       "es": "ActivityPub: Functions and Relations"
     }
-  },
-  "topConceptOf": {
-    "id": "https://w3id.org/class/redaktor/scheme"
   },
   "@context": {
     "@version": 1.1,

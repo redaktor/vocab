@@ -5,6 +5,7 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FNatureReserve",
   "prefLabel": {
     "en": "Nature Reserve",
+    "de": "Naturschutzgebiet",
     "fr": "Réserve naturelle",
     "es": "Reserva natural"
   },

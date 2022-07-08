@@ -17,42 +17,54 @@
       "id": "https://w3id.org/class/redaktor/CollegeOrUniversity",
       "prefLabel": {
         "en": "College or University",
-        "de": "Hochschule oder Universität"
+        "de": "Hochschule oder Universität",
+        "fr": "Collège ou université",
+        "es": "Colegio o Universidad"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/ElementarySchool",
       "prefLabel": {
         "en": "Elementary School",
-        "de": "Elementarschule"
+        "de": "Elementarschule",
+        "fr": "École élémentaire",
+        "es": "Escuela primaria"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/HighSchool",
       "prefLabel": {
         "en": "High School",
-        "de": "Oberschule"
+        "de": "Oberschule",
+        "fr": "École secondaire",
+        "es": "Escuela Secundaria"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/MiddleSchool",
       "prefLabel": {
         "en": "Middle School",
-        "de": "Mittelschule"
+        "de": "Mittelschule",
+        "fr": "École intermédiaire",
+        "es": "Escuela Secundaria"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/Preschool",
       "prefLabel": {
         "en": "Preschool",
-        "de": "Vorschule"
+        "de": "Vorschule",
+        "fr": "École maternelle",
+        "es": "Preescolar"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/School",
       "prefLabel": {
         "en": "School",
-        "de": "Schule"
+        "de": "Schule",
+        "fr": "École",
+        "es": "Escuela"
       }
     },
     {

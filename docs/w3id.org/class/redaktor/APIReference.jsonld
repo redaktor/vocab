@@ -69,7 +69,9 @@
     "id": "https://w3id.org/class/redaktor/TechArticle",
     "prefLabel": {
       "en": "Tech Article",
-      "de": "Tech Artikel"
+      "de": "Tech Artikel",
+      "fr": "Article technique",
+      "es": "Artículo técnico"
     }
   },
   "exactMatch": [

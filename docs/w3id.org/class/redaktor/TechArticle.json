@@ -5,11 +5,15 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTechArticle",
   "prefLabel": {
     "en": "Tech Article",
-    "de": "Tech Artikel"
+    "de": "Tech Artikel",
+    "fr": "Article technique",
+    "es": "Artículo técnico"
   },
   "definition": {
     "en": "A technical article",
-    "de": "Ein technischer Artikel"
+    "de": "Ein technischer Artikel",
+    "fr": "Un article sur la technologie",
+    "es": "Un artículo técnico"
   },
   "notation": [
     "1657"

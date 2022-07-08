@@ -31,10 +31,10 @@
     {
       "id": "https://w3id.org/class/redaktor/tocContinuation",
       "prefLabel": {
-        "en": "toc continuation",
-        "de": "toc-Fortsetzung",
-        "fr": "continuation du toc",
-        "es": "continuación de toc"
+        "en": "Toc continuation",
+        "de": "Toc-Fortsetzung",
+        "fr": "continuation du Toc",
+        "es": "continuación de Toc"
       }
     },
     {

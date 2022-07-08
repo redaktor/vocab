@@ -95,7 +95,9 @@
       "id": "https://w3id.org/class/redaktor/BikeRental",
       "prefLabel": {
         "en": "Bike Rental",
-        "de": "Fahrradverleih"
+        "de": "Fahrradverleih",
+        "fr": "Location de vélos",
+        "es": "Alquiler de bicicletas"
       }
     },
     {

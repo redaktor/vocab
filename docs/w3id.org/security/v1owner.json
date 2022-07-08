@@ -5,7 +5,9 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fsecurity%2Fv1owner",
   "prefLabel": {
     "en": "owner",
-    "de": "Eigentümer"
+    "de": "Eigentümer",
+    "fr": "Propriétaire",
+    "es": "Propietario"
   },
   "definition": {
     "en": "An owner is an entity that claims control over a particular resource. Note that ownership is best validated as a two-way relationship where the owner claims ownership over a particular resource, and the resource clearly identifies its owner.",

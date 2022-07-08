@@ -22,10 +22,10 @@
     {
       "id": "https://w3id.org/class/redaktor/issn",
       "prefLabel": {
-        "en": "issn",
-        "de": "issn",
-        "fr": "issn",
-        "es": "issn"
+        "en": "ISSN",
+        "de": "ISSN",
+        "fr": "ISSN",
+        "es": "ISSN"
       }
     }
   ],

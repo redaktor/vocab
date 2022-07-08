@@ -138,7 +138,8 @@
       "prefLabel": {
         "en": "Art Event, Performing & Visual",
         "de": "Kunstveranstaltung, Darstellende & Visuelle Kunst",
-        "fr": "Événement artistique, spectacle vivant et visuel"
+        "fr": "Événement artistique, spectacle vivant et visuel",
+        "es": "Evento artístico, Artes escénicas y visuales"
       }
     },
     {
@@ -218,7 +219,8 @@
       "prefLabel": {
         "en": "Craft, Farmers, or Artisan markets",
         "de": "Handwerks-, Bauern- oder Kunsthandwerkermärkte",
-        "fr": "Marchés de l'artisanat, des fermiers ou des artisans"
+        "fr": "Marchés de l'artisanat, des fermiers ou des artisans",
+        "es": "Mercados de artesanía, de agricultores o de artesanos"
       }
     },
     {
@@ -630,6 +632,7 @@
       "id": "https://w3id.org/class/redaktor/Webinar",
       "prefLabel": {
         "en": "Webinar",
+        "de": "Webinar",
         "fr": "Webinaire",
         "es": "Webinar"
       }

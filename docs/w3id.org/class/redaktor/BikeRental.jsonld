@@ -5,7 +5,9 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FBikeRental",
   "prefLabel": {
     "en": "Bike Rental",
-    "de": "Fahrradverleih"
+    "de": "Fahrradverleih",
+    "fr": "Location de vélos",
+    "es": "Alquiler de bicicletas"
   },
   "notation": [
     "1178"

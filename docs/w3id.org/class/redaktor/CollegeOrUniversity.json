@@ -5,7 +5,9 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCollegeOrUniversity",
   "prefLabel": {
     "en": "College or University",
-    "de": "Hochschule oder Universität"
+    "de": "Hochschule oder Universität",
+    "fr": "Collège ou université",
+    "es": "Colegio o Universidad"
   },
   "notation": [
     "1169"

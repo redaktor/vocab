@@ -5,7 +5,9 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FElementarySchool",
   "prefLabel": {
     "en": "Elementary School",
-    "de": "Elementarschule"
+    "de": "Elementarschule",
+    "fr": "École élémentaire",
+    "es": "Escuela primaria"
   },
   "notation": [
     "1170"
