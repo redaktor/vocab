@@ -1,22 +1,17 @@
 {
-  "id": "https://test.skohub.io/vocab//www.w3.org/ns/activitystreams#url",
+  "id": "https://test.skohub.io/vocab//www.w3.org/ns/activitystreams#uploadMedia",
   "type": "Service",
-  "name": "url",
-  "preferredUsername": "766f6361622f2f7777772e77332e6f72672f6e732f616374697669747973747265616d732375726c",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23url",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23url",
+  "name": "upload Media Endpoint",
+  "preferredUsername": "766f6361622f2f7777772e77332e6f72672f6e732f616374697669747973747265616d732375706c6f61644d65646961",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23uploadMedia",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23uploadMedia",
   "publicKey": {
-    "id": "https://test.skohub.io/vocab//www.w3.org/ns/activitystreams#url#main-key",
-    "owner": "https://test.skohub.io/vocab//www.w3.org/ns/activitystreams#url",
+    "id": "https://test.skohub.io/vocab//www.w3.org/ns/activitystreams#uploadMedia#main-key",
+    "owner": "https://test.skohub.io/vocab//www.w3.org/ns/activitystreams#uploadMedia",
     "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyr05JFWnpFGTr423+IRU\nHOgAuoF0RSxdwPpvXbX5uh+2jUBvhXzzklhc5nwfE3XruHTifJWyXFWucJlDPEI1\nxR5p0C0zfqY74ioEoKorifc8no8ZDTQRvIIEqNe0Ezbe085Foc3UWG1kimPcPlqU\nnsgCYgO4UWJ27qABE+yGDykZALdMlAt+dwOPD10NcqmvupH5pgWZJJ9vW2ErTaDt\n2R52JIpqH6CvCsI7jpLyYH60W0N0J0sjSH95lZnyVDYDbplIEPUPpGKYSVJW+dNU\nCxReZBiwS76VDQhyl1lT5JusRCogvsX/bwJrIZ8fJcOBArDx2skknzUHKkjNITsD\nTwIDAQAB\n-----END PUBLIC KEY-----\n"
   },
   "@context": [
     "https://www.w3.org/ns/activitystreams",
-    "https://w3id.org/security/v1"
-  ]
-}curity/v1"
-  ]
-}activitystreams",
     "https://w3id.org/security/v1"
   ]
 }1"

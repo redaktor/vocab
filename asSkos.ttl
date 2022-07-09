@@ -91,26 +91,6 @@
 #
 #################################################################
 
-as:Activity a owl:Class, skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader as:Object ;
-    skos:narrower as:Accept, as:Add, as:Announce, as:Block, as:Create, as:Delete,
-     as:Dislike, as:Flag, as:Follow, as:Ignore, as:Invite, as:Join, as:Leave, as:Like, as:Listen, as:Move, as:Offer, as:Read, as:Reject, as:Remove, as:TentativeAccept, as:TentativeReject, as:Undo, as:Update, as:View, as:actor, as:object, as:instrument, as:origin, as:result, as:target ;
-    skos:notation "2" ;
-    skos:prefLabel "Aktivität"@de, "Activity"@en, "Activité"@fr, "Actividad"@es ;
-    skos:definition "Die Verben. Eine Aktivität ist ein Untertyp von Objekt, der eine Art von Aktion beschreibt, die stattfinden kann, gerade stattfindet oder bereits stattgefunden hat. Der Aktivitätstyp selbst dient als abstrakter Basistyp für alle Arten von Aktivitäten. Wichtig: Der Aktivitätstyp selbst enthält keine spezifische Semantik über die Art der durchgeführten Aktion.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity)"@de,
-      "The Verbs. An Activity is a subtype of Object that describes some form of action that may happen, is currently happening, or has already happened. The Activity type itself serves as an abstract base type for all types of activities. It is important to note that the Activity type itself does not carry any specific semantics about the kind of action being taken.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity)"@en ,
-      "Les verbes. Une activité est un sous-type d'objet qui décrit une forme d'action qui peut se produire, se produit actuellement ou s'est déjà produite. Le type Activity sert de type de base abstrait pour tous les types d'activités. Il est important de noter que le type Activity lui-même ne porte aucune sémantique spécifique sur le type d'action en cours.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity)"@fr ,
-      "Los Verbos. Una Actividad es un subtipo de Objeto que describe alguna forma de acción que puede ocurrir, que está ocurriendo o que ya ha ocurrido. El tipo Activity en sí mismo sirve como un tipo base abstracto para todos los tipos de actividades. Es importante notar que el tipo Activity en sí mismo no lleva ninguna semántica específica sobre el tipo de acción que se está llevando a cabo.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity)"@es ;
-    skos:example "[Beispiel 3](https://www.w3.org/TR/activitystreams-vocabulary/#ex3-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Activity\",\n  \"summary\": \"Sally did something to a note\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Note\",\n    \"name\": \"A Note\"\n  }\n}\n```"@de,
-      "[Example 3](https://www.w3.org/TR/activitystreams-vocabulary/#ex3-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Activity\",\n  \"summary\": \"Sally did something to a note\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Note\",\n    \"name\": \"A Note\"\n  }\n}\n```"@en,
-      "[Exemple 3](https://www.w3.org/TR/activitystreams-vocabulary/#ex3-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Activity\",\n  \"summary\": \"Sally did something to a note\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Note\",\n    \"name\": \"A Note\"\n  }\n}\n```"@fr,
-      "[Ejemplo 3](https://www.w3.org/TR/activitystreams-vocabulary/#ex3-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Activity\",\n  \"summary\": \"Sally did something to a note\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Note\",\n    \"name\": \"A Note\"\n  }\n}\n```"@es ;
-    skos:scopeNote "as: Core"@de, "as: Core"@en, "as: Core"@fr, "as: Core"@es ;
-    rdfs:label "Activity"@en ;
-    rdfs:subClassOf as:Object ;
-    rdfs:comment "An Object representing some form of Action that has been taken"@en .
-
 as:Object a owl:Class, skos:Concept ;
     skos:inScheme :scheme ;
     skos:topConceptOf :scheme ;
@@ -173,6 +153,26 @@ as:Link a owl:Class, skos:Concept ;
   owl:disjointWith as:Object ;
   rdfs:comment "Represents a qualified reference to another resource. Patterned after the RFC5988 Web Linking Model"@en .
 
+as:Activity a owl:Class, skos:Concept ;
+    skos:inScheme :scheme ;
+    skos:broader as:Object ;
+    skos:narrower as:Accept, as:Add, as:Announce, as:Block, as:Create, as:Delete,
+     as:Dislike, as:Flag, as:Follow, as:Ignore, as:Invite, as:Join, as:Leave, as:Like, as:Listen, as:Move, as:Offer, as:Read, as:Reject, as:Remove, as:TentativeAccept, as:TentativeReject, as:Undo, as:Update, as:View, as:actor, as:object, as:instrument, as:origin, as:result, as:target ;
+    skos:notation "2" ;
+    skos:prefLabel "Aktivität"@de, "Activity"@en, "Activité"@fr, "Actividad"@es ;
+    skos:definition "Die Verben. Eine Aktivität ist ein Untertyp von Objekt, der eine Art von Aktion beschreibt, die stattfinden kann, gerade stattfindet oder bereits stattgefunden hat. Der Aktivitätstyp selbst dient als abstrakter Basistyp für alle Arten von Aktivitäten. Wichtig: Der Aktivitätstyp selbst enthält keine spezifische Semantik über die Art der durchgeführten Aktion.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity)"@de,
+      "The Verbs. An Activity is a subtype of Object that describes some form of action that may happen, is currently happening, or has already happened. The Activity type itself serves as an abstract base type for all types of activities. It is important to note that the Activity type itself does not carry any specific semantics about the kind of action being taken.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity)"@en ,
+      "Les verbes. Une activité est un sous-type d'objet qui décrit une forme d'action qui peut se produire, se produit actuellement ou s'est déjà produite. Le type Activity sert de type de base abstrait pour tous les types d'activités. Il est important de noter que le type Activity lui-même ne porte aucune sémantique spécifique sur le type d'action en cours.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity)"@fr ,
+      "Los Verbos. Una Actividad es un subtipo de Objeto que describe alguna forma de acción que puede ocurrir, que está ocurriendo o que ya ha ocurrido. El tipo Activity en sí mismo sirve como un tipo base abstracto para todos los tipos de actividades. Es importante notar que el tipo Activity en sí mismo no lleva ninguna semántica específica sobre el tipo de acción que se está llevando a cabo.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity)"@es ;
+    skos:example "[Beispiel 3](https://www.w3.org/TR/activitystreams-vocabulary/#ex3-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Activity\",\n  \"summary\": \"Sally did something to a note\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Note\",\n    \"name\": \"A Note\"\n  }\n}\n```"@de,
+      "[Example 3](https://www.w3.org/TR/activitystreams-vocabulary/#ex3-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Activity\",\n  \"summary\": \"Sally did something to a note\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Note\",\n    \"name\": \"A Note\"\n  }\n}\n```"@en,
+      "[Exemple 3](https://www.w3.org/TR/activitystreams-vocabulary/#ex3-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Activity\",\n  \"summary\": \"Sally did something to a note\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Note\",\n    \"name\": \"A Note\"\n  }\n}\n```"@fr,
+      "[Ejemplo 3](https://www.w3.org/TR/activitystreams-vocabulary/#ex3-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Activity\",\n  \"summary\": \"Sally did something to a note\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Note\",\n    \"name\": \"A Note\"\n  }\n}\n```"@es ;
+    skos:scopeNote "as: Core"@de, "as: Core"@en, "as: Core"@fr, "as: Core"@es ;
+    rdfs:label "Activity"@en ;
+    rdfs:subClassOf as:Object ;
+    rdfs:comment "An Object representing some form of Action that has been taken"@en .
+
 as:IntransitiveActivity a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
@@ -200,7 +200,7 @@ as:IntransitiveActivity a owl:Class, skos:Concept ;
 as:Collection a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:narrower :Atlas, :Book, :Blog, :ImageGallery, :PhotoEssay, :PhotoReportage, :VideoGallery,
+  skos:narrower :Atlas, :Blog, :Book, :ImageGallery, :PhotoEssay, :PhotoReportage, :VideoGallery,
     :Trip, as:current, as:first, as:items, as:last, as:next, as:partOf, as:prev,
     as:totalItems, lm:moderators ;
   skos:notation "6" ;
@@ -2271,7 +2271,7 @@ as:Service a owl:Class, skos:Concept ;
 as:Accept a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "211" ;
+  skos:notation "39" ;
   skos:prefLabel "Annehmen"@de, "Accept"@en, "Acceptation"@fr, "Aceptación"@es ;
   skos:definition "Zeigt an, dass der Akteur das Objekt akzeptiert. Die target-Eigenschaft kann unter bestimmten Umständen verwendet werden, um den Kontext anzugeben, in dem das Objekt akzeptiert wurde.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-accept](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-accept)"@de,
     "Indicates that the actor accepts the object. The target property can be used in certain circumstances to indicate the context into which the object has been accepted.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-accept](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-accept)"@en,
@@ -2289,7 +2289,7 @@ as:Accept a owl:Class, skos:Concept ;
 as:Add a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "212" ;
+  skos:notation "41" ;
   skos:prefLabel "Hinzufügen"@de, "Add"@en, "Ajouter"@fr, "Añadir"@es ;
   skos:definition "Zeigt an, dass der Akteur das Objekt zum Ziel hinzugefügt hat. Wenn die Zieleigenschaft nicht explizit angegeben ist, muss das Ziel implizit durch den Kontext bestimmt werden. Der Ursprung kann verwendet werden, um den Kontext zu identifizieren, aus dem das Objekt stammt.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-add](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-add)"@de,
     "Indicates that the actor has added the object to the target. If the target property is not explicitly specified, the target would need to be determined implicitly by context. The origin can be used to identify the context from which the object originated.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-add](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-add)"@en,
@@ -2307,7 +2307,7 @@ as:Add a owl:Class, skos:Concept ;
 as:Announce a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "213" ;
+  skos:notation "42" ;
   skos:prefLabel "Mitteilen"@de, "Announce"@en, "Annoncez"@fr, "Anuncie"@es ;
   skos:definition "Zeigt an, dass der Akteur die Aufmerksamkeit des Ziels auf das Objekt lenkt. Der Ursprung hat in der Regel keine definierte Bedeutung.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-announce](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-announce)"@de,
     "Indicates that the actor is calling the target's attention the object. The origin typically has no defined meaning.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-announce](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-announce)"@en,
@@ -2325,7 +2325,7 @@ as:Announce a owl:Class, skos:Concept ;
 as:Block a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "214" ;
+  skos:notation "43" ;
   skos:prefLabel "Blocken"@de, "Block"@en, "Bloc"@fr, "Bloque"@es ;
   skos:definition "Zeigt an, dass der Akteur das Objekt blockiert. Blockieren ist eine stärkere Form von Ignorieren. Die typische Verwendung ist die Unterstützung sozialer Systeme, die es einem Benutzer erlauben, Aktivitäten oder Inhalte anderer Benutzer zu blockieren. Das Ziel und der Ursprung haben typischerweise keine definierte Bedeutung.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-block](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-block)"@de,
     "Indicates that the actor is blocking the object. Blocking is a stronger form of Ignore. The typical use is to support social systems that allow one user to block activities or content of other users. The target and origin typically have no defined meaning.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-block](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-block)"@en,
@@ -2342,7 +2342,7 @@ as:Block a owl:Class, skos:Concept ;
 as:Create a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "215" ;
+  skos:notation "40" ;
   skos:prefLabel "Erstellen"@de, "Create"@en, "Créer"@fr, "Crear"@es ;
   skos:definition "Zeigt an, dass der Akteur das Objekt erstellt hat.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-create](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-create)"@de,
     "Indicates that the actor has created the object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-create](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-create)"@en,
@@ -2360,7 +2360,7 @@ as:Create a owl:Class, skos:Concept ;
 as:Delete a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "216" ;
+  skos:notation "44" ;
   skos:prefLabel "Löschen"@de, "Delete"@en, "Supprimer"@fr, "Borrar"@es ;
   skos:definition "Zeigt an, dass der Akteur das Objekt gelöscht hat. Falls angegeben, gibt der Ursprung den Kontext an, aus dem das Objekt gelöscht wurde.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-delete](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-delete)"@de,
     "Indicates that the actor has deleted the object. If specified, the origin indicates the context from which the object was deleted.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-delete](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-delete)"@en,
@@ -2378,7 +2378,7 @@ as:Delete a owl:Class, skos:Concept ;
 as:Dislike a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "217" ;
+  skos:notation "45" ;
   skos:prefLabel "Mag ich nicht"@de, "Dislike"@en, "N'aimez pas"@fr, "No me gusta"@es ;
   skos:definition "Zeigt an, dass der Akteur das Objekt nicht mag.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-dislike](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-dislike)"@de,
     "Indicates that the actor dislikes the object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-dislike](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-dislike)"@en,
@@ -2396,7 +2396,7 @@ as:Dislike a owl:Class, skos:Concept ;
 as:Flag a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "218" ;
+  skos:notation "46" ;
   skos:prefLabel "Flag"@de, "Flag"@en, "Flag"@fr, "Flag"@es ;
   skos:definition "Zeigt an, dass der Akteur das Objekt \"markiert\". Markieren ist in dem Sinne definiert, wie es auf vielen sozialen Plattformen üblich ist, dass Inhalte aus einer beliebigen Anzahl von Gründen als unangemessen gemeldet werden.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-flag](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-flag)"@de,
     "Indicates that the actor is \"flagging\" the object. Flagging is defined in the sense common to many social platforms as reporting content as being inappropriate for any number of reasons.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-flag](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-flag)"@en,
@@ -2414,7 +2414,7 @@ as:Flag a owl:Class, skos:Concept ;
 as:Follow a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "219" ;
+  skos:notation "47" ;
   skos:prefLabel "Folgen"@de, "Follow"@en, "Suivez"@fr, "Siga"@es ;
   skos:definition "Zeigt an, dass der Akteur dem Objekt \"folgt\". 'Verfolgen' ist in dem Sinne definiert, wie er typischerweise in sozialen Systemen verwendet wird, in denen der Akteur an jeder Aktivität interessiert ist, die von oder an dem Objekt durchgeführt wird. Ziel und Ursprung haben normalerweise keine definierte Bedeutung.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-follow](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-follow)"@de,
     "Indicates that the actor is \"following\" the object. Following is defined in the sense typically used within Social systems in which the actor is interested in any activity performed by or on the object. The target and origin typically have no defined meaning.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-follow](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-follow)"@en,
@@ -2432,7 +2432,7 @@ as:Follow a owl:Class, skos:Concept ;
 as:Ignore a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "220" ;
+  skos:notation "48" ;
   skos:prefLabel "Ignorieren"@de, "Ignore"@en, "Ignorer"@fr, "Ignora"@es ;
   skos:definition "Gibt an, dass der Akteur das Objekt ignoriert. Das Ziel und der Ursprung haben normalerweise keine definierte Bedeutung.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-ignore](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-ignore)"@de,
     "Indicates that the actor is ignoring the object. The target and origin typically have no defined meaning.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-ignore](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-ignore)"@en,
@@ -2450,7 +2450,7 @@ as:Ignore a owl:Class, skos:Concept ;
 as:Invite a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "221" ;
+  skos:notation "49" ;
   skos:prefLabel "Einladen"@de, "Invite"@en, "Invitez"@fr, "Invitar a"@es ;
   skos:definition "Eine Spezialisierung von Offer, bei der der Akteur dem Ziel eine Einladung für das Objekt ausspricht.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-invite](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-invite)"@de,
     "A specialization of Offer in which the actor is extending an invitation for the object to the target.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-invite](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-invite)"@en,
@@ -2469,7 +2469,7 @@ as:Join a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
   skos:narrower mz:participationMessage ;
-  skos:notation "222" ;
+  skos:notation "50" ;
   skos:prefLabel "Beitreten"@de, "Join"@en, "Rejoignez"@fr, "Únase a"@es ;
   skos:definition "Zeigt an, dass der Akteur dem Objekt beigetreten ist. Das Ziel und der Ursprung haben in der Regel keine definierte Bedeutung.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-join](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-join)"@de,
     "Indicates that the actor has joined the object. The target and origin typically have no defined meaning.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-join](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-join)"@en,
@@ -2487,7 +2487,7 @@ as:Join a owl:Class, skos:Concept ;
 as:Leave a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "223" ;
+  skos:notation "51" ;
   skos:prefLabel "Verlassen"@de, "Leave"@en, "Laissez"@fr, "Deja"@es ;
   skos:definition "Zeigt an, dass der Akteur das Objekt verlassen hat. Das Ziel und der Ursprung haben normalerweise keine Bedeutung.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-leave](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-leave)"@de,
     "Indicates that the actor has left the object. The target and origin typically have no meaning.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-leave](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-leave)"@en,
@@ -2505,7 +2505,7 @@ as:Leave a owl:Class, skos:Concept ;
 as:Like a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "224" ;
+  skos:notation "52" ;
   skos:prefLabel "Mag ich"@de, "Like"@en, "Comme"@fr, "Como"@es ;
   skos:definition "Zeigt an, dass der Akteur das Objekt mag, empfiehlt oder befürwortet. Das Ziel und der Ursprung haben in der Regel keine definierte Bedeutung.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-like](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-like)"@de,
     "Indicates that the actor likes, recommends or endorses the object. The target and origin typically have no defined meaning.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-like](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-like)"@en,
@@ -2523,7 +2523,7 @@ as:Like a owl:Class, skos:Concept ;
 as:Listen a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "225" ;
+  skos:notation "53" ;
   skos:prefLabel "Hören"@de, "Listen"@en, "Écoutez"@fr, "Escuche"@es ;
   skos:definition "Zeigt an, dass der Akteur dem Objekt zugehört hat.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-listen](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-listen)"@de,
     "Indicates that the actor has listened to the object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-listen](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-listen)"@en,
@@ -2541,7 +2541,7 @@ as:Listen a owl:Class, skos:Concept ;
 as:Move a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "226" ;
+  skos:notation "54" ;
   skos:prefLabel "Bewegen"@de, "Move"@en, "Déplacement"@fr, "Mover"@es ;
   skos:definition "Zeigt an, dass der Akteur das Objekt vom Ursprung zum Ziel bewegt hat. Wenn der Ursprung oder das Ziel nicht angegeben sind, kann eines von beiden durch den Kontext bestimmt werden.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-move](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-move)"@de,
     "Indicates that the actor has moved object from origin to target. If the origin or target are not specified, either can be determined by context.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-move](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-move)"@en,
@@ -2559,7 +2559,7 @@ as:Move a owl:Class, skos:Concept ;
 as:Offer a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "227" ;
+  skos:notation "55" ;
   skos:prefLabel "Angebot"@de, "Offer"@en, "Offre"@fr, "Oferta"@es ;
   skos:definition "Zeigt an, dass der Akteur das Objekt anbietet. Falls angegeben, gibt das Ziel die Entität an, der das Objekt angeboten wird.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-offer](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-offer)"@de,
     "Indicates that the actor is offering the object. If specified, the target indicates the entity to which the object is being offered.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-offer](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-offer)"@en,
@@ -2577,7 +2577,7 @@ as:Offer a owl:Class, skos:Concept ;
 as:Read a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "228" ;
+  skos:notation "56" ;
   skos:prefLabel "Lesen"@de, "Read"@en, "Lire"@fr, "Leer"@es ;
   skos:definition "Zeigt an, dass der Akteur das Objekt gelesen hat.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-read](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-read)"@de,
     "Indicates that the actor has read the object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-read](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-read)"@en,
@@ -2595,7 +2595,7 @@ as:Read a owl:Class, skos:Concept ;
 as:Reject a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "229" ;
+  skos:notation "57" ;
   skos:prefLabel "Ablehnen"@de, "Reject"@en, "Rejet"@fr, "Rechazo"@es ;
   skos:definition "Zeigt an, dass der Akteur das Objekt ablehnt. Das Ziel und der Ursprung haben typischerweise keine definierte Bedeutung.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-reject](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-reject)"@de,
     "Indicates that the actor is rejecting the object. The target and origin typically have no defined meaning.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-reject](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-reject)"@en,
@@ -2613,7 +2613,7 @@ as:Reject a owl:Class, skos:Concept ;
 as:Remove a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "230" ;
+  skos:notation "58" ;
   skos:prefLabel "Entfernen"@de, "Remove"@en, "Retirer"@fr, "Eliminar"@es ;
   skos:definition "Gibt an, dass der Akteur das Objekt entfernt. Falls angegeben, gibt der Ursprung den Kontext an, aus dem das Objekt entfernt wird.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-remove](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-remove)"@de,
     "Indicates that the actor is removing the object. If specified, the origin indicates the context from which the object is being removed.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-remove](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-remove)"@en,
@@ -2631,7 +2631,7 @@ as:Remove a owl:Class, skos:Concept ;
 as:TentativeAccept a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "231" ;
+  skos:notation "59" ;
   skos:prefLabel "Vorläufig Angenommen"@de, "Tentative Accept"@en, "Acceptation provisoire"@fr, "Aceptación tentativa"@es ;
   skos:definition "Eine Spezialisierung von Accept, die angibt, dass die Annahme vorläufig ist.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativeaccept](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativeaccept)"@de,
     "A specialization of Accept indicating that the acceptance is tentative.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativeaccept](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativeaccept)"@en,
@@ -2649,7 +2649,7 @@ as:TentativeAccept a owl:Class, skos:Concept ;
 as:TentativeReject a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "232" ;
+  skos:notation "60" ;
   skos:prefLabel "Vorläufige Ablehnung"@de, "Tentative Reject"@en, "Rejet provisoire"@fr, "Rechazo provisional"@es ;
   skos:definition "Eine Spezialisierung von Reject, bei der die Ablehnung als vorläufig betrachtet wird.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativereject](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativereject)"@de,
     "A specialization of Reject in which the rejection is considered tentative.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativereject](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativereject)"@en,
@@ -2667,7 +2667,7 @@ as:TentativeReject a owl:Class, skos:Concept ;
 as:Undo a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "233" ;
+  skos:notation "61" ;
   skos:prefLabel "Undo"@de, "Undo"@en, "Undo"@fr, "Undo"@es ;
   skos:definition "Zeigt an, dass der Akteur das Objekt rückgängig macht. In den meisten Fällen handelt es sich bei dem Objekt um eine Aktivität, die eine zuvor durchgeführte Aktion beschreibt (z. B. kann eine Person zuvor einen Artikel \"geliked\" haben, sich aber, aus welchen Gründen auch immer, dafür entscheiden, diese Aktion zu einem späteren Zeitpunkt rückgängig zu machen). Das Ziel und der Ursprung haben normalerweise keine definierte Bedeutung.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-undo](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-undo)"@de,
     "Indicates that the actor is undoing the object. In most cases, the object will be an Activity describing some previously performed action (for instance, a person may have previously \"liked\" an article but, for whatever reason, might choose to undo that like at some later point in time). The target and origin typically have no defined meaning.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-undo](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-undo)"@en,
@@ -2685,7 +2685,7 @@ as:Undo a owl:Class, skos:Concept ;
 as:Update a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "234" ;
+  skos:notation "62" ;
   skos:prefLabel "Aktualisierung"@de, "Update"@en, "Actualisation"@fr, "Actualización"@es ;
   skos:definition "Zeigt an, dass der Akteur das Objekt aktualisiert hat. Beachten Sie jedoch, dass dieses Vokabular keinen Mechanismus definiert, um die tatsächliche Menge der am Objekt vorgenommenen Änderungen zu beschreiben. Ziel und Ursprung haben in der Regel keine definierte Bedeutung.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-update](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-update)"@de,
     "Indicates that the actor has updated the object. Note, however, that this vocabulary does not define a mechanism for describing the actual set of modifications made to object. The target and origin typically have no defined meaning.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-update](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-update)"@en,
@@ -2703,7 +2703,7 @@ as:Update a owl:Class, skos:Concept ;
 as:View a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Activity ;
-  skos:notation "235" ;
+  skos:notation "63" ;
   skos:prefLabel "Sehen"@de, "View"@en, "Voir"@fr, "Ver"@es ;
   skos:definition "Zeigt an, dass der Akteur das Objekt angesehen hat.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-view](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-view)"@de,
     "Indicates that the actor has viewed the object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-view](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-view)"@en,
@@ -2723,7 +2723,7 @@ as:View a owl:Class, skos:Concept ;
 as:Arrive a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:IntransitiveActivity ;
-  skos:notation "511" ;
+  skos:notation "64" ;
   skos:prefLabel "Ankunft"@de, "Arrive"@en, "Llegue"@fr, "Arrivée"@es ;
   skos:definition "Eine IntransitiveActivity, die anzeigt, dass der Akteur am Ort angekommen ist. Der Ursprung kann verwendet werden, um den Kontext zu identifizieren, aus dem der Akteur stammt. Das Ziel hat in der Regel keine definierte Bedeutung.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-arrive](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-arrive)"@de,
     "An IntransitiveActivity that indicates that the actor has arrived at the location. The origin can be used to identify the context from which the actor originated. The target typically has no defined meaning.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-arrive](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-arrive)"@en,
@@ -2742,7 +2742,7 @@ as:Question a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:IntransitiveActivity ;
   skos:narrower as:anyOf, as:closed, as:oneOf, toot:votersCount ;
-  skos:notation "512" ;
+  skos:notation "65" ;
   skos:prefLabel "Frage"@de, "Question"@en, "Question"@fr, "Pregunta"@es ;
   skos:definition "Stellt eine Frage dar, die gestellt wird. Question-Objekte sind eine Erweiterung von IntransitiveActivity. Das heißt, das Question-Objekt ist eine Activity, aber das direkte Objekt ist die Frage selbst und würde daher keine Objekteigenschaft enthalten. Jede der beiden Eigenschaften anyOf und oneOf KANN verwendet werden, um mögliche Antworten auszudrücken, aber ein Question-Objekt DARF NICHT beide Eigenschaften haben.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-question](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-question)"@de,
     "Represents a question being asked. Question objects are an extension of IntransitiveActivity. That is, the Question object is an Activity, but the direct object is the question itself and therefore it would not contain an object property. Either of the anyOf and oneOf properties MAY be used to express possible answers, but a Question object MUST NOT have both properties.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-question](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-question)"@en,
@@ -2761,7 +2761,7 @@ as:Travel a owl:Class, skos:Concept ;
   skos:exactMatch :Trip ;
   skos:inScheme :scheme ;
   skos:broader as:IntransitiveActivity ;
-  skos:notation "513" ;
+  skos:notation "66" ;
   skos:prefLabel "Reise"@de, "Travel"@en, "Voyage"@fr, "Viajes"@es ;
   skos:definition "Zeigt an, dass der Akteur vom Ursprung zum Ziel reist. Travel ist ein IntransitiveObject, dessen Akteur das direkte Objekt angibt. Wenn das Ziel oder der Ursprung nicht angegeben sind, kann beides durch den Kontext bestimmt werden.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-travel](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-travel)"@de,
     "Indicates that the actor is traveling to target from origin. Travel is an IntransitiveObject whose actor specifies the direct object. If the target or origin are not specified, either can be determined by context.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-travel](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-travel)"@en,
@@ -2782,7 +2782,7 @@ as:Document a owl:Class, skos:Concept ;
   skos:exactMatch schema:DigitalDocument ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "311" ;
+  skos:notation "10" ;
   skos:prefLabel "Dokument"@de, "Document"@en, "Document"@fr, "Documento"@es ;
   skos:definition "Dokument Stellt ein Dokument jeglicher Art dar.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-document](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-document)"@de,
     "Represents a document of any kind.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-document](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-document)"@en,
@@ -2801,7 +2801,7 @@ as:Article a owl:Class, skos:Concept ;
   skos:exactMatch schema:Article ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "312" ;
+  skos:notation "11" ;
   skos:prefLabel "Artikel"@de, "Article"@en, "Article"@fr, "Artículo"@es ;
   skos:definition "Artikel Repräsentiert jede Art von schriftlicher Arbeit mit mehreren Absätzen.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-article](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-article)"@de,
     "Represents any kind of multi-paragraph written work.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-article](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-article)"@en,
@@ -2819,7 +2819,7 @@ as:Article a owl:Class, skos:Concept ;
 as:Audio a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "313" ;
+  skos:notation "12" ;
   skos:prefLabel "Audio"@de, "Audio"@en, "Audio"@fr, "Audio"@es ;
   skos:definition "Stellt ein Audiodokument jeglicher Art dar.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-audio](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-audio)"@de,
     "Represents an audio document of any kind.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-audio](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-audio)"@en,
@@ -2839,7 +2839,7 @@ as:Event a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
   skos:narrower mz:joinMode, mz:anonymousParticipationEnabled, schema:maximumAttendeeCapacity ;
-  skos:notation "314" ;
+  skos:notation "13" ;
   skos:prefLabel "Ereignis"@de, "Event"@en, "Événement"@fr, "Evento"@es ;
   skos:definition "Steht für jede Art von Ereignis.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-event](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-event)"@de,
     "Represents any kind of event.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-event](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-event)"@en,
@@ -2859,7 +2859,7 @@ as:Image a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
   skos:narrower toot:blurhash, toot:focalPoint ;
-  skos:notation "315" ;
+  skos:notation "14" ;
   skos:prefLabel "Bild"@de, "Image"@en, "Image"@fr, "Imagen"@es ;
   skos:definition "Ein Bilddokument jeglicher Art.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image)"@de,
     "An image document of any kind.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image)"@en,
@@ -2877,7 +2877,7 @@ as:Image a owl:Class, skos:Concept ;
 as:Note a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "316" ;
+  skos:notation "15" ;
   skos:prefLabel "Notiz"@de, "Note"@en, "Remarque"@fr, "Nota"@es ;
   skos:definition "Stellt eine kurze schriftliche Arbeit dar, die in der Regel weniger als einen Absatz lang ist.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-note](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-note)"@de,
     "Represents a short written work typically less than a single paragraph in length.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-note](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-note)"@en,
@@ -2896,7 +2896,7 @@ as:Page a owl:Class, skos:Concept ;
   skos:exactMatch schema:WebPage ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "317" ;
+  skos:notation "16" ;
   skos:prefLabel "Webseite"@de, "Page"@en, "Page web"@fr, "Página web"@es ;
   skos:definition "Stellt eine Webseite dar.<br><br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-page](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-page)"@de,
     "Represents a Web Page.<br>Every web page is implicitly assumed to be declared to be of type WebPage, so the various properties about that webpage, such as <code>breadcrumb</code> may be used. We recommend explicit declaration if these properties are specified, but if they are found outside of an itemscope, they will be assumed to be about the page.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-page](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-page)"@en,
@@ -2916,7 +2916,7 @@ as:Place a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
   skos:narrower as:accuracy, as:altitude, as:latitude, as:longitude, as:radius, as:units, schema:address, schema:maximumAttendeeCapacity ;
-  skos:notation "318" ;
+  skos:notation "17" ;
   skos:prefLabel "Örtlichkeit"@de, "Place"@en, "Lieu"@fr, "Lugar"@es ;
   skos:definition "Stellt einen logischen oder physischen Ort dar. Siehe 5.3 Darstellung von Orten für weitere Informationen.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-place](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-place)"@de,
     "Represents a logical or physical location. See 5.3 Representing Places for additional information.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-place](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-place)"@en,
@@ -2934,7 +2934,7 @@ as:Place a owl:Class, skos:Concept ;
 as:Profile a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "319" ;
+  skos:notation "18" ;
   skos:prefLabel "Profil"@de, "Profile"@en, "Profil"@fr, "Perfil"@es ;
   skos:definition "Ein Profil ist ein Inhaltsobjekt, das ein anderes Objekt beschreibt und typischerweise zur Beschreibung von Objekten vom Typ Akteur verwendet wird. Die describes-Eigenschaft wird verwendet, um auf das Objekt zu verweisen, das durch das Profil beschrieben wird.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-profile](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-profile)"@de,
     "A Profile is a content object that describes another Object, typically used to describe Actor Type objects. The describes property is used to reference the object being described by the profile.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-profile](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-profile)"@en,
@@ -2953,7 +2953,7 @@ as:Relationship a owl:Class, rdf:Statement, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
   skos:narrower as:object, as:relationship, as:subject ;
-  skos:notation "320" ;
+  skos:notation "19" ;
   skos:prefLabel "Beziehung"@de, "Relationship"@en, "Relation"@fr, "Relación"@es ;
   skos:definition "Beschreibt eine Beziehung zwischen zwei Personen. Die Subjekt- und Objekteigenschaften werden verwendet, um die verbundenen Individuen zu identifizieren. Siehe 5.2 Darstellung von Beziehungen zwischen Entitäten für weitere Informationen.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-relationship](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-relationship)"@de,
     "Describes a relationship between two individuals. The subject and object properties are used to identify the connected individuals. See 5.2 Representing Relationships Between Entities for additional information.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-relationship](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-relationship)"@en,
@@ -2972,7 +2972,7 @@ as:Video a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
   skos:narrower pt:Infohash, pt:fps, pt:liveSaveReplay, pt:permanentLive, pt:startTimestamp, pt:stopTimestamp, pt:state, pt:waitTranscoding, schema:category, schema:subtitleLanguage, schema:isLiveBroadcast ;
-  skos:notation "321" ;
+  skos:notation "20" ;
   skos:prefLabel "Video"@de, "Video"@en, "Vidéo"@fr, "Vídeo"@es ;
   skos:definition "Stellt ein Videodokument beliebiger Art dar.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-video](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-video)"@de,
     "Represents a video document of any kind.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-video](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-video)"@en,
@@ -2991,7 +2991,7 @@ as:Tombstone a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
   skos:narrower as:deleted, as:formerType ;
-  skos:notation "322" ;
+  skos:notation "21" ;
   skos:prefLabel "Tombstone"@de, "Tombstone"@en, "Tombstone"@fr, "Tombstone"@es ;
   skos:definition "Ein Tombstone repräsentiert ein Inhaltsobjekt, das gelöscht wurde. Er kann in Sammlungen verwendet werden, um anzuzeigen, dass an dieser Position ein Objekt vorhanden war, das jedoch gelöscht wurde.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tombstone](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tombstone)"@de,
     "A Tombstone represents a content object that has been deleted. It can be used in Collections to signify that there used to be an object at this position, but it has been deleted.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tombstone](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tombstone)"@en,
@@ -3033,7 +3033,7 @@ as:OrderedItems a owl:Class ;
 as:Mention a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Link ;
-  skos:notation "411" ;
+  skos:notation "38" ;
   skos:prefLabel "Erwähnung"@de, "Mention"@en, "Mentionnez"@fr, "Mención"@es ;
   skos:definition "Ein spezialisierter Link, der eine @Erwähnung darstellt.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mention](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mention)"@de,
     "A specialized Link that represents an @mention.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mention](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mention)"@en,
@@ -3268,7 +3268,7 @@ sec:signatureValue a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:topConceptOf :scheme ;
   skos:narrower :mastodon, :litepubPleroma, :peertube, :mobilizon, :lemmy, :yuforium, :forgefed;
-  skos:notation "10" ;
+  skos:notation "900" ;
   skos:prefLabel "Community Namespaces"@de, "Community Namespaces"@en,
     "Community Namespaces"@fr, "Community Namespaces"@es ;
   skos:definition "Erweiterungen, die durch ActivityPub Implementationen definiert werden."@de,
@@ -3281,7 +3281,7 @@ sec:signatureValue a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:topConceptOf :scheme ;
   skos:narrower :inReplyToPolicy;
-  skos:notation "900" ;
+  skos:notation "911" ;
   skos:prefLabel "Community Discussion"@de, "Community Discussion"@en,
     "Community Discussion"@fr, "Community Discussion"@es ;
   skos:definition "Erweiterungen, die durch ActivityPub Implementationen definiert werden aber verschieden interpretiert sind."@de,
@@ -3304,7 +3304,7 @@ sec:signatureValue a owl:ObjectProperty, skos:Concept ;
 :mastodon a skos:Concept ;
   skos:inScheme :scheme ;
   skos:narrower toot:Emoji, toot:IdentityProof, toot:blurhash, toot:focalPoint, toot:featured, toot:featuredTags, toot:discoverable, toot:suspended, toot:votersCount ;
-  skos:notation "11" ;
+  skos:notation "c1" ;
   skos:prefLabel "Mastodon"@de, "Mastodon"@en,
     "Mastodon"@fr, "Mastodon"@es ;
   skos:definition "[Mastodon](https://joinmastodon.org)"@de,
@@ -3316,7 +3316,7 @@ sec:signatureValue a owl:ObjectProperty, skos:Concept ;
 :litepubPleroma a skos:Concept ;
   skos:inScheme :scheme ;
   skos:narrower lite:ChatMessage, lite:oauthRegistrationEndpoint ;
-  skos:notation "12" ;
+  skos:notation "c2" ;
   skos:prefLabel "Pleroma"@de, "Pleroma"@en,
     "Pleroma"@fr, "Pleroma"@es ;
   skos:altLabel "litepub"@de, "litepub"@en,
@@ -3330,7 +3330,7 @@ sec:signatureValue a owl:ObjectProperty, skos:Concept ;
 :peertube a skos:Concept ;
   skos:inScheme :scheme ;
   skos:narrower pt:Infohash, pt:Playlist, pt:PlaylistElement, pt:commentsEnabled, pt:downloadEnabled, pt:fps, pt:liveSaveReplay, pt:permanentLive, pt:playlists, pt:position, pt:size, pt:startTimestamp, pt:state, pt:stopTimestamp, pt:support, pt:views, pt:waitTranscoding ;
-  skos:notation "13" ;
+  skos:notation "c3" ;
   skos:prefLabel "PeerTube"@de, "PeerTube"@en,
     "PeerTube"@fr, "PeerTube"@es ;
   skos:definition "[PeerTube](https://joinpeertube.org)"@de,
@@ -3342,7 +3342,7 @@ sec:signatureValue a owl:ObjectProperty, skos:Concept ;
 :mobilizon a skos:Concept ;
   skos:inScheme :scheme ;
   skos:narrower toot:Emoji ;
-  skos:notation "14" ;
+  skos:notation "c4" ;
   skos:prefLabel "Mobilizon"@de, "Mobilizon"@en,
     "Mobilizon"@fr, "Mobilizon"@es ;
   skos:definition "[Mobilizon](https://joinmobilizon.org)"@de,
@@ -3354,7 +3354,7 @@ sec:signatureValue a owl:ObjectProperty, skos:Concept ;
 :lemmy a skos:Concept ;
   skos:inScheme :scheme ;
   skos:narrower toot:Emoji ;
-  skos:notation "15" ;
+  skos:notation "c5" ;
   skos:prefLabel "Lemmy"@de, "Lemmy"@en,
     "Lemmy"@fr, "Lemmy"@es ;
   skos:definition "[Lemmy](https://join-lemmy.org)"@de,
@@ -3363,22 +3363,10 @@ sec:signatureValue a owl:ObjectProperty, skos:Concept ;
     "[Lemmy](https://join-lemmy.org)"@es ;
   skos:scopeNote "https://join-lemmy.org#"@de, "https://join-lemmy.org#"@en, "https://join-lemmy.org#"@fr, "https://join-lemmy.org#"@es .
 
-:yuforium a skos:Concept ;
-  skos:inScheme :scheme ;
-  skos:narrower toot:Emoji ;
-  skos:notation "16" ;
-  skos:prefLabel "yuforium"@de, "yuforium"@en,
-    "yuforium"@fr, "yuforium"@es ;
-  skos:definition "[yuforium](https://yuforium.com)"@de,
-    "[yuforium](https://yuforium.com)"@en ,
-    "[yuforium](https://yuforium.com)"@fr ,
-    "[yuforium](https://yuforium.com)"@es ;
-  skos:scopeNote "https://yuforium.com/ns/activitypub"@de, "https://yuforium.com/ns/activitypub"@en, "https://yuforium.com/ns/activitypub"@fr, "https://yuforium.com/ns/activitypub"@es .
-
 :redaktor a skos:Concept ;
   skos:inScheme :scheme ;
   # skos:narrower ;
-  skos:notation "17" ;
+  skos:notation "c6" ;
   skos:prefLabel "redaktor"@de, "redaktor"@en,
     "redaktor"@fr, "redaktor"@es ;
   skos:definition "[redaktor](https://redaktor.me)"@de,
@@ -3387,10 +3375,22 @@ sec:signatureValue a owl:ObjectProperty, skos:Concept ;
     "[redaktor](https://redaktor.me)"@es ;
   skos:scopeNote "https://redaktor.me/activitypub#"@de, "https://redaktor.me/activitypub#"@en, "https://redaktor.me/activitypub#"@fr, "https://redaktor.me/activitypub#"@es .
 
+:yuforium a skos:Concept ;
+  skos:inScheme :scheme ;
+  skos:narrower toot:Emoji ;
+  skos:notation "c7" ;
+  skos:prefLabel "yuforium"@de, "yuforium"@en,
+    "yuforium"@fr, "yuforium"@es ;
+  skos:definition "[yuforium](https://yuforium.com)"@de,
+    "[yuforium](https://yuforium.com)"@en ,
+    "[yuforium](https://yuforium.com)"@fr ,
+    "[yuforium](https://yuforium.com)"@es ;
+  skos:scopeNote "https://yuforium.com/ns/activitypub"@de, "https://yuforium.com/ns/activitypub"@en, "https://yuforium.com/ns/activitypub"@fr, "https://yuforium.com/ns/activitypub"@es .
+
 :forgefed a skos:Concept ;
   skos:inScheme :scheme ;
   skos:narrower toot:Emoji ;
-  skos:notation "18" ;
+  skos:notation "c8" ;
   skos:prefLabel "ForgeFed"@de, "ForgeFed"@en,
     "ForgeFed"@fr, "ForgeFed"@es ;
   skos:definition "[ForgeFed](https://forgefed.peers.community)"@de,
@@ -3404,7 +3404,7 @@ sec:signatureValue a owl:ObjectProperty, skos:Concept ;
 toot:Emoji a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object, :mastodon, :redaktor ;
-  skos:notation "1011" ;
+  skos:notation "22" ;
   skos:prefLabel "Emoji"@de, "Custom Emoji"@en, "Emoji"@fr, "Emoji"@es ;
   skos:definition "Mastodon unterstützt beliebige Emojis, d.h. kleine Bilder, die von Administratoren hochgeladen und über Shortcodes aufgerufen werden können. Hierfür wird ein Emoji-Typ verwendet. Diese Emojis werden in der Tag-Eigenschaft aufgeführt, genau wie Mention- und Hashtag-Objekte, da sie Entitäten sind, die die Darstellung des Textes beeinflussen.<br>siehe [mastodon documentation 'Custom emojis'](https://docs.joinmastodon.org/spec/activitypub/#emoji)"@de,
     "Mastodon supports arbitrary emojis, that is, small images uploaded by admins and invokable via shortcodes. For this, an Emoji type is used. These emojis are listed in the tag property just like Mention and Hashtag objects, since they are entities that affect how the text is rendered.<br>see [mastodon documentation 'Custom emojis'](https://docs.joinmastodon.org/spec/activitypub/#emoji)"@en,
@@ -3421,7 +3421,7 @@ toot:Emoji a owl:Class, skos:Concept ;
 toot:IdentityProof a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object, :mastodon, :redaktor ;
-  skos:notation "1012" ;
+  skos:notation "23" ;
   skos:prefLabel "Identitätsbeweis"@de, "Identity Proof"@en, "Preuve d'identité"@fr, "Prueba de identidad"@es ;
   skos:definition "Mastodon unterstützt die Integration mit Identitätsanbietern, um zu beweisen, daß ein Profil mit einer bestimmten Identität verbunden ist. Dies wird über die Eigenschaft attachment bei Actor-Objekten implementiert, wobei die Objekte im Array den Typ IdentityProof aus dem Mastodon-Namensraum aufweisen. Das Objekt enthält auch signatureAlgorithm und signatureValue aus dem W3ID Security Vocabulary Namespace.<br>siehe [mastodon documentation 'Identity proofs'](https://docs.joinmastodon.org/spec/activitypub/#IdentityProof)"@de,
     "Mastodon supports integration with identity providers to prove that a profile is linked to a certain identity. This is implemented using the attachment property on actor objects, with objects in the array having a type of IdentityProof from the Mastodon namespace. The object also includes signatureAlgorithm and signatureValue from the W3ID Security Vocabulary namespace.<br>see [mastodon documentation 'Identity proofs'](https://docs.joinmastodon.org/spec/activitypub/#IdentityProof)"@en,
@@ -3587,7 +3587,7 @@ pt:Infohash a owl:Class, skos:Concept ;
 pt:Playlist a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader :peertube, as:OrderedCollectionPage ;
-  skos:notation "1021" ;
+  skos:notation "76" ;
   skos:prefLabel "Playlist"@de, "Playlist"@en, "Playlist"@fr, "Playlist"@es ;
   skos:definition "Das Objekt wird zur Darstellung einer Video-Wiedergabeliste verwendet. Es erweitert OrderedCollectionPage und die Elemente sind PlaylistElement.<br>siehe [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-1)"@de,
     "The object is used to represent a video playlist. It extends OrderedCollectionPage and items are PlaylistElement.<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-1)"@en,
@@ -3960,7 +3960,7 @@ dct:created a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
 schema:PropertyValue a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object, :mastodon ;
-  skos:notation "1042" ;
+  skos:notation "37" ;
   skos:prefLabel "Eigenschaft-Wert Paar"@de, "A property-value pair"@en, "Une paire propriété-valeur"@fr, "Un par propiedad-valor"@es ;
   skos:definition "Mastodon unterstützt beliebige Profilfelder mit Name-Wert-Paaren. Dies wird über die Eigenschaft attachment von Akteurobjekten implementiert, wobei die Objekte im Array den Typ PropertyValue und eine Werteigenschaft aufweisen, die beide aus dem schema.org-Namensraum stammen.<br>[schema.org/PropertyValue](https://schema.org/PropertyValue)"@de,
     "Mastodon supports arbitrary profile fields containing name-value pairs. This is implemented using the attachment property on actor objects, with objects in the array having a type of PropertyValue and a value property, both from the schema.org namespace.<br>[schema.org/PropertyValue](https://schema.org/PropertyValue)"@en,
@@ -4293,7 +4293,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   :Storyboard a owl:Class, skos:Concept ;
   	skos:inScheme :scheme ;
   	skos:broader as:OrderedCollection;
-    skos:notation "1481" ;
+    skos:notation "75" ;
   	skos:prefLabel "Storyboard"@en, "Storyboard"@de, "Storyboard"@fr, "Storyboard"@es ;
   	skos:definition	"A storyboard or scene book is a mostly drawn version of a script or a visualisation of a concept or idea.<br>A special Collection to group images, textual descriptions or episodes of type `Storyline`."@en,
       "Ein Storyboard oder Szenenbuch ist eine meist gezeichnete Version eines Drehbuchs oder eine Visualisierung eines Konzepts oder einer Idee. Eine spezielle Sammlung zur Gruppierung von Bildern, Textbeschreibungen oder Episoden vom Typ `Storyline`."@de,
@@ -4518,7 +4518,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:ComputerLanguage ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "1502" ;
+    skos:notation "27" ;
     skos:prefLabel "Programmiersprache"@de, "Computer Language"@en, "Langage informatique"@fr, "Lenguaje informático"@es ;
     skos:definition "Dieser Typ umfasst Computerprogrammiersprachen wie JS, Scheme und Lisp sowie andere sprachähnliche Computerdarstellungen. Natürliche Sprachen werden am besten mit dem Typ [Language] dargestellt."@de,
       "This type covers computer programming languages such as JS, Scheme and Lisp, as well as other language-like computer representations. Natural languages are best represented with the [Language] type."@en,
@@ -4532,7 +4532,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:FloorPlan ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "1503" ;
+    skos:notation "28" ;
     skos:prefLabel "Etagenplan"@de, "Floor Plan"@en, "Plan d'étage"@fr, "Plano de la planta"@es ;
     skos:altLabel "Grundriss"@de, "Layout"@en, "Plan du site"@fr, "Plano del piso"@es ;
     skos:definition "Ein FloorPlan ist eine explizite Darstellung einer Sammlung ähnlicher Unterkünfte, die die Bereitstellung gemeinsamer Informationen (Zimmeranzahl, Größen, Grundrissdiagramme) und Angebote für Events oder zur Vermietung oder zum Verkauf ermöglicht. In der Regel hat ein `ApartmentComplex` einen `accommodationFloorPlan`, der ein `FloorPlan` ist.  Ein FloorPlan steht immer im Zusammenhang mit einem bestimmten Ort, entweder einem größeren `ApartmentComplex` oder einem einzelnen `Apartment`. Die visuellen/räumlichen Aspekte eines Grundrisses (d.h. die Raumaufteilung, [siehe wikipedia](https://en.wikipedia.org/wiki/Floor_plan)) können mit `Image` angegeben werden."@de,
@@ -4547,7 +4547,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Grant ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "1504" ;
+    skos:notation "31" ;
     skos:prefLabel "Grant"@de, "Grant"@en, "Subvention, Grant"@fr, "Subvención, Grant"@es ;
     skos:definition "Eine - in der Regel finanzielle oder anderweitig quantifizierbare - Zuwendung von Ressourcen. Typischerweise sponsert ein `Funder` (Rolle) einen Geldbetrag an eine as:Organization oder asPerson, manchmal nicht unbedingt über ein spezielles oder langfristiges Projekt, das zu einem oder mehreren Outputs oder fundedItems führt. Bei finanzieller Unterstützung geben Sie den Geldgeber an, der einen Zuschuss gewährt.<br>Bei nicht-finanzieller Unterstützung geben Sie den Sponsor von Zuschüssen für Ressourcen (z. B. Büroräume) an.<br>Zuschüsse unterstützen Aktivitäten, die auf bestimmte vereinbarte kollektive Ziele ausgerichtet sind, oft, aber nicht immer, als Projekte organisiert.<br>Langfristige Projekte werden manchmal im Laufe der Zeit durch eine Vielzahl von Finanzhilfen gefördert, aber es ist auch üblich, dass ein Projekt mit einer einzigen Finanzhilfe verbunden ist.<br>Der Betrag eines Grant wird durch `amount` als `MonetaryAmount` dargestellt."@de,
       "A grant, typically financial or otherwise quantifiable, of resources. Typically a `funder` (role) sponsors some `MonetaryAmount` to an as:Organization or as:Person,<br>sometimes not necessarily via a dedicated or long-lived Project, resulting in one or more outputs, or `funded` items (Relation). For financial sponsorship, indicate the funder of a MonetaryGrant. For non-financial support, indicate `sponsor  of [Grant](https://schema.org/Grant)s of resources (e.g. office space).<br><br>Grants support activities directed towards some agreed collective goals, often but not always organized as [Project](https://schema.org/Project)s. Long-lived projects are sometimes sponsored by a variety of grants over time, but it is also common for a project to be associated with a single grant.<br/><br/>The amount of a [Grant](https://schema.org/Grant) is represented using `amount` as a `MonetaryAmount`."@en,
@@ -4561,7 +4561,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Ticket ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "1505" ;
+    skos:notation "36" ;
     skos:prefLabel "Ticket"@de, "Ticket"@en, "Ticket"@fr, "Billete"@es ;
     skos:definition "Wird verwendet, um ein Ticket für eine Veranstaltung, einen Flug, eine Busfahrt usw. zu beschreiben."@de,
       "Used to describe a ticket to an event, a flight, a bus ride, etc."@en,
@@ -4575,7 +4575,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Trip ;
     skos:inScheme :scheme ;
     skos:broader as:Travel, as:Collection, as:Event, :mobilizon, :redaktor ;
-    skos:notation "1506" ;
+    skos:notation "74" ;
     skos:prefLabel "Reise"@de, "Trip"@en, "Voyage"@fr, "Viaje"@es ;
     skos:altLabel "Reise oder Tour"@de, "Tour or trip"@en, "Journées"@fr, "Viaje o tour"@es ;
     skos:definition "Eine Reise oder Fahrt. Eine Reiseroute mit Besuchen an einem oder mehreren Orten."@de,
@@ -4590,7 +4590,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Atlas ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, as:Collection, :redaktor ;
-    skos:notation "1507" ;
+    skos:notation "67" ;
     skos:prefLabel "Atlas"@de, "Atlas"@en, "Atlas"@fr, "Atlas"@es ;
     skos:definition "Eine Sammlung oder ein gebundener Band mit Karten, Diagrammen, Tafeln oder Tabellen, physisch oder in Medienform, die ein beliebiges Thema illustrieren."@de,
       "A collection or bound volume of maps, charts, plates or tables, physical or in media form illustrating any subject."@en,
@@ -4604,7 +4604,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Blog ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, as:Collection, :redaktor ;
-    skos:notation "1508" ;
+    skos:notation "68" ;
     skos:prefLabel "Blog"@de, "Blog"@en, "Blog"@fr, "Blog"@es ;
     skos:definition "Ein [Blog](https://en.wikipedia.org/wiki/Blog), manchmal auch als \"Weblog\" bezeichnet. Beachten Sie, dass die einzelnen Beiträge ([BlogPosting]s) in einem [Blog] umgangssprachlich oft mit demselben Begriff bezeichnet werden."@de,
       "A [blog](https://en.wikipedia.org/wiki/Blog), sometimes known as a \"weblog\". Note that the individual posts ([BlogPosting]s) in a [Blog] are often colloqually referred to by the same term."@en,
@@ -4618,7 +4618,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Book ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, as:Collection, :redaktor ;
-    skos:notation "1509" ;
+    skos:notation "69" ;
     skos:prefLabel "Buch"@de, "Book"@en, "Livre"@fr, "Libro"@es ;
     skos:definition "Ein Buch."@de,
       "A book."@en,
@@ -5530,7 +5530,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:ImageGallery ;
     skos:inScheme :scheme ;
     skos:broader as:Collection, as:Page, :redaktor ;
-    skos:notation "1587" ;
+    skos:notation "70" ;
     skos:prefLabel "Bildergalerie"@de, "Image Gallery"@en, "Galerie d'images"@fr, "Galería de imágenes"@es ;
     skos:definition "Webseitentyp: Bildergalerie-Seite."@de,
       "Web page type: Image gallery page."@en,
@@ -5544,7 +5544,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:VideoGallery ;
     skos:inScheme :scheme ;
     skos:broader as:Collection, as:Page, :redaktor ;
-    skos:notation "1588" ;
+    skos:notation "73" ;
     skos:prefLabel "Video-Galerie"@de, "Video Gallery"@en, "Galerie de vidéos"@fr, "Galería de vídeos"@es ;
     skos:definition "Webseiten-Typ: Video-Galerie-Seite."@de,
       "Web page type: Video gallery page. See also pt:Playlist"@en,
@@ -5910,7 +5910,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   :PhotoEssay a owl:Class, skos:Concept ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article, as:Collection ;
-    skos:notation "1632" ;
+    skos:notation "71" ;
     # TODO via schema CollectionPage > MediaGallery > ImageGallery
   	skos:prefLabel "Photo-essay"@en, "Foto-Essay"@de, "Essai photographique"@fr, "Foto-ensayo"@es ;
     skos:altLabel	"Photostory"@en, "Fotostory"@de, "Photostory"@fr, "Photostory"@es ;
@@ -5925,7 +5925,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   :PhotoReportage a owl:Class, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :Factual, as:Collection ;
-    skos:notation "1633" ;
+    skos:notation "72" ;
     skos:prefLabel "Photoreportage"@en, "Fotoreportage"@de, "Photoreportage"@fr, "Fotoreportaje"@es ;
     skos:definition	"A factual photographic story often with captions or text between the pictures."@en,
     "Eine faktenbasierte Fotogeschichte, oft mit Bildunterschriften oder Text zwischen den Bildern."@de,
@@ -11113,7 +11113,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:AlignmentObject ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "1725" ;
+    skos:notation "24" ;
     skos:prefLabel "Ausrichtung Objekt"@de, "Alignment Object"@en, "Objet de l'alignement"@fr, "Objeto de alineación"@es ;
     skos:definition "An intangible item that describes an alignment between a learning resource and a node in an educational framework.<br><br>Should not be used where the nature of the alignment can be described using a simple property, for example to express that a resource [[teaches]] or [[assesses]] a competency."@de,
       "An intangible item that describes an alignment between a learning resource and a node in an educational framework.<br><br>Should not be used where the nature of the alignment can be described using a simple property, for example to express that a resource [[teaches]] or [[assesses]] a competency."@en,
@@ -11127,7 +11127,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Audience ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "1726" ;
+    skos:notation "25" ;
     skos:prefLabel "Zielgruppe"@de, "Audience"@en, "Audience"@fr, "Audiencia"@es ;
     skos:definition "Intended audience for an item, i.e. the group for whom the item was created."@de,
       "Intended audience for an item, i.e. the group for whom the item was created."@en,
@@ -11141,7 +11141,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Brand ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "1727" ;
+    skos:notation "26" ;
     skos:prefLabel "Marke"@de, "Brand"@en, "Marque"@fr, "Marca"@es ;
     skos:definition "A brand is a name used by an organization or business person for labeling a product, product group, or similar."@de,
       "A brand is a name used by an organization or business person for labeling a product, product group, or similar."@en,
@@ -11155,7 +11155,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:DefinedTerm ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "1728" ;
+    skos:notation "29" ;
     skos:prefLabel "Definierter Begriff"@de, "Defined Term"@en, "Terme défini"@fr, "Término definido"@es ;
     skos:definition "A word, name, acronym, phrase, etc. with a formal definition. Often used in the context of category or subject classification, glossaries or dictionaries, product or creative work types, etc. Use the name property for the term being defined, use termCode if the term has an alpha-numeric code allocated, use description to provide the definition of the term."@de,
       "A word, name, acronym, phrase, etc. with a formal definition. Often used in the context of category or subject classification, glossaries or dictionaries, product or creative work types, etc. Use the name property for the term being defined, use termCode if the term has an alpha-numeric code allocated, use description to provide the definition of the term."@en,
@@ -11183,7 +11183,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:GeoShape ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "1730" ;
+    skos:notation "30" ;
     skos:prefLabel "Geo-Form"@de, "Geo Shape"@en, "Forme géographique"@fr, "Forma geográfica"@es ;
     skos:definition "The geographic shape of a place. A GeoShape can be described using several properties whose values are based on latitude/longitude pairs. Either whitespace or commas can be used to separate latitude and longitude; whitespace should be used when writing a list of several such points."@de,
       "The geographic shape of a place. A GeoShape can be described using several properties whose values are based on latitude/longitude pairs. Either whitespace or commas can be used to separate latitude and longitude; whitespace should be used when writing a list of several such points."@en,
@@ -11231,7 +11231,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:ItemList ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "1733" ;
+    skos:notation "32" ;
     skos:prefLabel "Punkt Liste"@de, "Item List"@en, "Liste d'éléments"@fr, "Lista de elementos"@es ;
     skos:definition "A list of items of any sort&#x2014;for example, Top 10 Movies About Weathermen, or Top 100 Party Songs. Not to be confused with HTML lists, which are often used only for formatting."@de,
       "A list of items of any sort&#x2014;for example, Top 10 Movies About Weathermen, or Top 100 Party Songs. Not to be confused with HTML lists, which are often used only for formatting."@en,
@@ -11245,7 +11245,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:ListItem ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "1734" ;
+    skos:notation "33" ;
     skos:prefLabel "Artikel auflisten"@de, "List Item"@en, "Liste d'éléments"@fr, "Lista de elementos"@es ;
     skos:definition "An list item, e.g. a step in a checklist or how-to description."@de,
       "An list item, e.g. a step in a checklist or how-to description."@en,
@@ -11259,7 +11259,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:OrderItem ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "1735" ;
+    skos:notation "34" ;
     skos:prefLabel "Artikel bestellen"@de, "Order Item"@en, "Article de commande"@fr, "Pedir artículo"@es ;
     skos:definition "An order item is a line of an order. It includes the quantity and shipping details of a bought offer."@de,
       "An order item is a line of an order. It includes the quantity and shipping details of a bought offer."@en,
@@ -11273,7 +11273,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:ProgramMembership ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "1736" ;
+    skos:notation "35" ;
     skos:prefLabel "Programm-Mitgliedschaft"@de, "Program Membership"@en, "Adhésion au programme"@fr, "Afiliación al programa"@es ;
     skos:definition "Used to describe membership in a loyalty programs (e.g. “StarAliance”), traveler clubs (e.g. “AAA”), purchase clubs (“Safeway Club”), etc."@de,
       "Used to describe membership in a loyalty programs (e.g. “StarAliance”), traveler clubs (e.g. “AAA”), purchase clubs (“Safeway Club”), etc."@en,

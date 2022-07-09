@@ -22,7 +22,7 @@
     "es": "https://redaktor.me/activitypub#"
   },
   "notation": [
-    "17"
+    "c6"
   ],
   "narrower": [
     {
@@ -746,21 +746,21 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/Book",
-      "prefLabel": {
-        "en": "Book",
-        "de": "Buch",
-        "fr": "Livre",
-        "es": "Libro"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/Blog",
       "prefLabel": {
         "en": "Blog",
         "de": "Blog",
         "fr": "Blog",
         "es": "Blog"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Book",
+      "prefLabel": {
+        "en": "Book",
+        "de": "Buch",
+        "fr": "Livre",
+        "es": "Libro"
       }
     },
     {

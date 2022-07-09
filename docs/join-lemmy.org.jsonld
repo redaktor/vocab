@@ -1,22 +1,22 @@
 {
-  "id": "https://join-lemmy.org#moderators",
+  "id": "https://join-lemmy.org#stickied",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoin-lemmy.org%23moderators",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoin-lemmy.org%23moderators",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoin-lemmy.org%23stickied",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoin-lemmy.org%23stickied",
   "prefLabel": {
-    "en": "moderators",
-    "de": "Moderatoren",
-    "fr": "modérateurs",
-    "es": "moderadores"
+    "en": "stickied",
+    "de": "stickied",
+    "fr": "stickied",
+    "es": "stickied"
   },
   "definition": {
-    "en": "The Community Moderators - Link to OrderedCollection<br>see [Lemmy protocol docs.](https://join-lemmy.org/docs/en/federation/lemmy_protocol.html) and [Lemmy documentation](https://join-lemmy.org/docs/en/federation/overview.html)",
-    "de": "Die Community Moderatoren - Link zu OrderedCollection<br>siehe [Lemmy protocol docs.](https://join-lemmy.org/docs/en/federation/lemmy_protocol.html) and [Lemmy documentation](https://join-lemmy.org/docs/en/federation/overview.html)",
-    "fr": "Les modérateurs de la communauté - Link to OrderedCollection<br>voir [Lemmy protocol docs.](https://join-lemmy.org/docs/en/federation/lemmy_protocol.html) and [Lemmy documentation](https://join-lemmy.org/docs/en/federation/overview.html)",
-    "es": "Los moderadores de la Comunidad - Link to OrderedCollection<br>ver [Lemmy protocol docs.](https://join-lemmy.org/docs/en/federation/lemmy_protocol.html) and [Lemmy documentation](https://join-lemmy.org/docs/en/federation/overview.html)"
+    "en": "True means that it is shown on top of the community.<br>see [Lemmy protocol docs.](https://join-lemmy.org/docs/en/federation/lemmy_protocol.html) and [Lemmy documentation](https://join-lemmy.org/docs/en/federation/overview.html)",
+    "de": "True bedeutet, daß es oben in der Community angezeigt wird.<br>siehe [Lemmy protocol docs.](https://join-lemmy.org/docs/en/federation/lemmy_protocol.html) and [Lemmy documentation](https://join-lemmy.org/docs/en/federation/overview.html)",
+    "fr": "True signifie qu'il est affiché en haut de la communauté.<br>voir [Lemmy protocol docs.](https://join-lemmy.org/docs/en/federation/lemmy_protocol.html) and [Lemmy documentation](https://join-lemmy.org/docs/en/federation/overview.html)",
+    "es": "True significa que se muestra en la parte superior de la comunidad.<br>ver [Lemmy protocol docs.](https://join-lemmy.org/docs/en/federation/lemmy_protocol.html) and [Lemmy documentation](https://join-lemmy.org/docs/en/federation/overview.html)"
   },
   "notation": [
-    "1058"
+    "1057"
   ],
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -120,5 +120,7 @@
     "hasTopConcept": {
       "@container": "@set"
     }
+  }
+}
   }
 }

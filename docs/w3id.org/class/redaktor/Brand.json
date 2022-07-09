@@ -126,7 +126,7 @@
       "@container": "@set"
     }
   }
-}      "@container": "@language"
+}    "@container": "@language"
     },
     "note": {
       "@container": "@language"

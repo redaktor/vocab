@@ -16,7 +16,7 @@
     "es": "Mastodon soporta campos de perfil arbitrarios que contienen pares nombre-valor. Esto se implementa utilizando la propiedad attachment en los objetos actor, con objetos en la matriz que tienen un tipo de PropertyValue y una propiedad value, ambos del espacio de nombres schema.org.<br>[schema.org/PropertyValue](https://schema.org/PropertyValue)"
   },
   "notation": [
-    "1042"
+    "37"
   ],
   "example": {
     "en": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"PropertyValue\": \"schema:PropertyValue\",\n      \"value\": \"schema:value\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"attachment\": [\n    {\n      \"type\": \"PropertyValue\",\n      \"name\": \"Patreon\",\n      \"value\": \"<a href=\"https://www.patreon.com/mastodon\" rel=\"me nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">patreon.com/mastodon</span><span class=\"invisible\"></span}\"\n    },\n    {\n      \"type\": \"PropertyValue\",\n      \"name\": \"Homepage\",\n      \"value\": \"<a href=\"https://zeonfederated.com\" rel=\"me nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">zeonfederated.com</span><span class=\"invisible\"></span}\"\n    }\n  ]\n}```",
