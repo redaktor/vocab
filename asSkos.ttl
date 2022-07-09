@@ -117,7 +117,7 @@ as:Object a owl:Class, skos:Concept ;
     skos:narrower :Actor, as:Activity, as:IntransitiveActivity, as:Document,
       as:Article, as:Audio, as:Event, as:Image, as:Note, as:Page, as:Place,
       as:Profile, as:Relationship, as:Video, as:Tombstone, pt:PlaylistElement,
-      schema:PropertyValue, as:id, as:type, 
+      schema:PropertyValue, as:id, as:type,
       as:attributedTo, as:preview, as:height, as:width, as:mediaType,
       as:name, as:nameMap, as:sensitive, as:Hashtag, toot:Emoji, toot:IdentityProof,
       as:attachment, as:audience, as:to, as:bto, as:cc, as:bcc, as:content, as:contentMap,
@@ -134,10 +134,10 @@ as:Object a owl:Class, skos:Concept ;
       "Describes an object of any kind. The Object type serves as the base type for most of the other kinds of objects defined in the Activity Vocabulary.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-object](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-object)"@en ,
       "Décrit un objet de n'importe quel type. Le type Objet sert de type de base pour la plupart des autres types d'objets définis dans le Vocabulaire des activités.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-object](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-object)"@fr ,
       "Describe un objeto de cualquier tipo. El tipo Objeto sirve como tipo base para la mayoría de los otros tipos de objetos definidos en el Vocabulario de Actividades.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-object](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-object)"@es  ;
-    skos:example "```json \n[Example 1](https://www.w3.org/TR/activitystreams-vocabulary/#ex1-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex1-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"id\": \"http://www.test.example/object/1\",\n    \"type\": \"Object\",\n    \"name\": \"A Simple, non-specific object\"\n  },\n  \"name\": \"Example 1\"\n}\n```"@de,
-      "```json \n[Example 1](https://www.w3.org/TR/activitystreams-vocabulary/#ex1-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex1-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"id\": \"http://www.test.example/object/1\",\n    \"type\": \"Object\",\n    \"name\": \"A Simple, non-specific object\"\n  },\n  \"name\": \"Example 1\"\n}\n```"@en,
-      "```json \n[Example 1](https://www.w3.org/TR/activitystreams-vocabulary/#ex1-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex1-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"id\": \"http://www.test.example/object/1\",\n    \"type\": \"Object\",\n    \"name\": \"A Simple, non-specific object\"\n  },\n  \"name\": \"Example 1\"\n}\n```"@fr,
-      "```json \n[Example 1](https://www.w3.org/TR/activitystreams-vocabulary/#ex1-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex1-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"id\": \"http://www.test.example/object/1\",\n    \"type\": \"Object\",\n    \"name\": \"A Simple, non-specific object\"\n  },\n  \"name\": \"Example 1\"\n}\n```"@es ;
+      skos:example "```json \n[EXAMPLE 1](https://www.w3.org/TR/activitystreams-vocabulary/#ex1-jsonld)\n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Object\",\n  \"id\": \"http://www.test.example/object/1\",\n  \"name\": \"A Simple, non-specific object\"\n}\n```"@de,
+        "```json \n[EXAMPLE 1](https://www.w3.org/TR/activitystreams-vocabulary/#ex1-jsonld)\n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Object\",\n  \"id\": \"http://www.test.example/object/1\",\n  \"name\": \"A Simple, non-specific object\"\n}\n```"@en,
+        "```json \n[EXAMPLE 1](https://www.w3.org/TR/activitystreams-vocabulary/#ex1-jsonld)\n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Object\",\n  \"id\": \"http://www.test.example/object/1\",\n  \"name\": \"A Simple, non-specific object\"\n}\n```"@fr,
+        "```json \n[EXAMPLE 1](https://www.w3.org/TR/activitystreams-vocabulary/#ex1-jsonld)\n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Object\",\n  \"id\": \"http://www.test.example/object/1\",\n  \"name\": \"A Simple, non-specific object\"\n}\n```"@es ;
     skos:scopeNote "as: Core"@de, "as: Core"@en, "as: Core"@fr, "as: Core"@es ;
     rdfs:label "Object"@en .
 

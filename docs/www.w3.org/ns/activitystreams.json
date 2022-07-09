@@ -1,0 +1,1593 @@
+{
+  "id": "http://www.w3.org/ns/activitystreams#type",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23type",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23type",
+  "prefLabel": {
+    "en": "type",
+    "de": "type",
+    "fr": "type",
+    "es": "type"
+  },
+  "definition": {
+    "en": "Identifies the Object or Link type. Multiple values may be specified.",
+    "de": "Identifiziert den Objekt- oder Verknüpfungstyp. Es können mehrere Werte angegeben werden.",
+    "fr": "Identifie le type d'objet ou de lien. Plusieurs valeurs peuvent être spécifiées.",
+    "es": "Identifica el tipo de objeto o enlace. Pueden especificarse varios valores"
+  },
+  "scopeNote": {
+    "en": "as: Property",
+    "de": "as: Property",
+    "fr": "as: Property",
+    "es": "as: Property"
+  },
+  "notation": [
+    "112"
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}23-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Offer\",\n    \"actor\": \"http://sally.example.org\",\n    \"object\": \"http://example.org/posts/1\",\n    \"summary\": \"Sally offered the post to John\",\n    \"target\": \"http://john.example.org\",\n    \"to\": \"http://joe.example.org\"\n  },\n  \"name\": \"Example 108\"\n}\n```"
+  },
+  "broader": {
+    "id": "http://www.w3.org/ns/activitystreams#Object",
+    "prefLabel": {
+      "en": "Object",
+      "de": "Objekt",
+      "fr": "Objet",
+      "es": "Objeto"
+    }
+  },
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}ontainer": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}rredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}example.com/feed.json\",\n    \"preferredUsername\": \"kenzoishii\",\n    \"name\": \"石井健蔵\",\n    \"summary\": \"この方はただの例です\",\n    \"icon\": [\n      \"https://kenzoishii.example.com/image/165987aklre4\"\n    ]\n  },\n  \"name\": \"Example 9\"\n}\n```"
+  },
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/Actor",
+    "prefLabel": {
+      "en": "Actor",
+      "de": "Akteur",
+      "fr": "Acteur",
+      "es": "Actor"
+    }
+  },
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}ams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}oncept": {
+      "@container": "@set"
+    }
+  }
+}class/redaktor/taxID",
+      "prefLabel": {
+        "en": "tax ID",
+        "de": "Steuer-ID",
+        "fr": "identifiant fiscal",
+        "es": "ID fiscal"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/vatID",
+      "prefLabel": {
+        "en": "vat ID",
+        "de": "Umsatzsteuer-ID",
+        "fr": "vat ID",
+        "es": "ID del iva"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/weight",
+      "prefLabel": {
+        "en": "weight",
+        "de": "Gewicht",
+        "fr": "poids",
+        "es": "peso"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/workLocation",
+      "prefLabel": {
+        "en": "work location",
+        "de": "Arbeitsort",
+        "fr": "emplacement du travail",
+        "es": "ubicación del trabajo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/worksFor",
+      "prefLabel": {
+        "en": "works for",
+        "de": "arbeitet für",
+        "fr": "travaux pour",
+        "es": "trabajos para"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/Actor",
+    "prefLabel": {
+      "en": "Actor",
+      "de": "Akteur",
+      "fr": "Acteur",
+      "es": "Actor"
+    }
+  },
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}  "en": "nonprofit status",
+        "de": "Status der Gemeinnützigkeit",
+        "fr": "statut d'organisme à but non lucratif",
+        "es": "estatus sin ánimo de lucro"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/numberOfEmployees",
+      "prefLabel": {
+        "en": "number of employees",
+        "de": "Anzahl der Mitarbeiter",
+        "fr": "nombre d'employés",
+        "es": "número de empleados"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ownershipFundingInfo",
+      "prefLabel": {
+        "en": "ownership funding info",
+        "de": "Eigentum Finanzierungsinfo",
+        "fr": "informations sur le financement de la propriété",
+        "es": "información sobre la financiación de la propiedad"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/owns",
+      "prefLabel": {
+        "en": "owns",
+        "de": "besitzt",
+        "fr": "propriétaire",
+        "es": "posee"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/parentOrganization",
+      "prefLabel": {
+        "en": "parent organization",
+        "de": "übergeordnete Organisation",
+        "fr": "organisation des parents",
+        "es": "organización de los padres"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/publishingPrinciples",
+      "prefLabel": {
+        "en": "publishing principles",
+        "de": "Verlagsgrundsätze",
+        "fr": "principes d'édition",
+        "es": "principios de publicación"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/review",
+      "prefLabel": {
+        "en": "review",
+        "de": "Überprüfung",
+        "fr": "examen",
+        "es": "revisión"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/reviews",
+      "prefLabel": {
+        "en": "reviews",
+        "de": "Überprüfungen",
+        "fr": "examens",
+        "es": "revisiones"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/seeks",
+      "prefLabel": {
+        "en": "seeks",
+        "de": "sucht",
+        "fr": "cherche",
+        "es": "busca"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/serviceArea",
+      "prefLabel": {
+        "en": "service area",
+        "de": "Servicebereich",
+        "fr": "zone de service",
+        "es": "área de servicio"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/sponsor",
+      "prefLabel": {
+        "en": "sponsor",
+        "de": "Sponsor",
+        "fr": "sponsor",
+        "es": "patrocinador"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/subOrganization",
+      "prefLabel": {
+        "en": "sub organization",
+        "de": "Unterorganisation",
+        "fr": "sous-organisation",
+        "es": "suborganización"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/taxID",
+      "prefLabel": {
+        "en": "tax ID",
+        "de": "Steuer-ID",
+        "fr": "identifiant fiscal",
+        "es": "ID fiscal"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/unnamedSourcesPolicy",
+      "prefLabel": {
+        "en": "unnamed sources policy",
+        "de": "Politik der ungenannten Quellen",
+        "fr": "politique des sources anonymes",
+        "es": "política de fuentes no identificadas"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/vatID",
+      "prefLabel": {
+        "en": "vat ID",
+        "de": "Umsatzsteuer-ID",
+        "fr": "vat ID",
+        "es": "ID del iva"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/Actor",
+    "prefLabel": {
+      "en": "Actor",
+      "de": "Akteur",
+      "fr": "Acteur",
+      "es": "Actor"
+    }
+  },
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}onible en o desde"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/availableDeliveryMethod",
+      "prefLabel": {
+        "en": "available delivery method",
+        "de": "verfügbare Liefermethode",
+        "fr": "méthode de livraison disponible",
+        "es": "método de entrega disponible"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/awards",
+      "prefLabel": {
+        "en": "awards",
+        "de": "Auszeichnungen",
+        "fr": "prix",
+        "es": "premios"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/brand",
+      "prefLabel": {
+        "en": "brand",
+        "de": "Marke",
+        "fr": "marque",
+        "es": "marca"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/businessFunction",
+      "prefLabel": {
+        "en": "business function",
+        "de": "Unternehmensfunktion",
+        "fr": "fonction commerciale",
+        "es": "función comercial"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/category",
+      "prefLabel": {
+        "en": "category",
+        "de": "Kategorie",
+        "fr": "catégorie",
+        "es": "categoría"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/countryOfOrigin",
+      "prefLabel": {
+        "en": "country of origin",
+        "de": "Herkunftsland",
+        "fr": "pays d'origine",
+        "es": "país de origen"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/deliveryLeadTime",
+      "prefLabel": {
+        "en": "delivery lead time",
+        "de": "Vorlaufzeit der Lieferung",
+        "fr": "délai de livraison",
+        "es": "plazo de entrega"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/eligibleCustomerType",
+      "prefLabel": {
+        "en": "eligible customer type",
+        "de": "zugelassener Kundentyp",
+        "fr": "type de client éligible",
+        "es": "tipo de cliente elegible"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/eligibleDuration",
+      "prefLabel": {
+        "en": "eligible duration",
+        "de": "zulässige Dauer",
+        "fr": "durée éligible",
+        "es": "duración elegible"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/eligibleQuantity",
+      "prefLabel": {
+        "en": "eligible quantity",
+        "de": "zugelassene Menge",
+        "fr": "quantité éligible",
+        "es": "cantidad elegible"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/eligibleRegion",
+      "prefLabel": {
+        "en": "eligible region",
+        "de": "zugelassene Region",
+        "fr": "région éligible",
+        "es": "región elegible"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/eligibleTransactionVolume",
+      "prefLabel": {
+        "en": "eligible transaction volume",
+        "de": "zugelassenes Transaktionsvolumen",
+        "fr": "volume de transaction éligible",
+        "es": "volumen de transacciones elegible"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/funding",
+      "prefLabel": {
+        "en": "funding",
+        "de": "Finanzierung",
+        "fr": "financement",
+        "es": "financiación"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/gtin",
+      "prefLabel": {
+        "en": "GTIN",
+        "de": "GTIN",
+        "fr": "GTIN",
+        "es": "GTIN"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/gtin12",
+      "prefLabel": {
+        "en": "GTIN12",
+        "de": "GTIN12",
+        "fr": "GTIN12",
+        "es": "GTIN12"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/gtin13",
+      "prefLabel": {
+        "en": "GTIN13",
+        "de": "GTIN13",
+        "fr": "GTIN13",
+        "es": "GTIN13"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/gtin14",
+      "prefLabel": {
+        "en": "GTIN14",
+        "de": "GTIN14",
+        "fr": "GTIN14",
+        "es": "GTIN14"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/gtin8",
+      "prefLabel": {
+        "en": "GTIN8",
+        "de": "GTIN8",
+        "fr": "GTIN8",
+        "es": "GTIN8"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/hasAdultConsideration",
+      "prefLabel": {
+        "en": "has adult consideration",
+        "de": "hat erwachsene Berücksichtigung",
+        "fr": "a considération de l'adulte",
+        "es": "tiene consideración de adulto"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/hasMeasurement",
+      "prefLabel": {
+        "en": "has measurement",
+        "de": "hat Messung",
+        "fr": "a mesure",
+        "es": "tiene medida"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/hasMerchantReturnPolicy",
+      "prefLabel": {
+        "en": "has merchant return policy",
+        "de": "hat Rückgaberecht des Händlers",
+        "fr": "a la politique de retour du commerçant",
+        "es": "tiene política de devolución del comerciante"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/height",
+      "prefLabel": {
+        "en": "height",
+        "de": "Höhe",
+        "fr": "hauteur",
+        "es": "altura"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/includesObject",
+      "prefLabel": {
+        "en": "includes object",
+        "de": "schließt Objekt ein",
+        "fr": "inclut l'objet",
+        "es": "incluye objeto"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ineligibleRegion",
+      "prefLabel": {
+        "en": "ineligible region",
+        "de": "nicht förderfähige Region",
+        "fr": "région non admissible",
+        "es": "región no elegible"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/inventoryLevel",
+      "prefLabel": {
+        "en": "inventory level",
+        "de": "Bestandsebene",
+        "fr": "niveau d'inventaire",
+        "es": "nivel de inventario"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/isFamilyFriendly",
+      "prefLabel": {
+        "en": "is family friendly",
+        "de": "ist familienfreundlich",
+        "fr": "est adapté aux familles",
+        "es": "es familiar"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/isRelatedTo",
+      "prefLabel": {
+        "en": "is related to",
+        "de": "ist verwandt mit",
+        "fr": "est lié à",
+        "es": "está relacionado con"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/isSimilarTo",
+      "prefLabel": {
+        "en": "is similar to",
+        "de": "ist ähnlich zu",
+        "fr": "est similaire à",
+        "es": "es similar a"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/itemCondition",
+      "prefLabel": {
+        "en": "item condition",
+        "de": "Item-Bedingung",
+        "fr": "condition de l'article",
+        "es": "condición del artículo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/itemOffered",
+      "prefLabel": {
+        "en": "item offered",
+        "de": "angebotener Artikel",
+        "fr": "élément offert",
+        "es": "elemento ofrecido"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/keywords",
+      "prefLabel": {
+        "en": "keywords",
+        "de": "Schlüsselwörter",
+        "fr": "mots-clés",
+        "es": "palabras clave"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/logo",
+      "prefLabel": {
+        "en": "logo",
+        "de": "Logo",
+        "fr": "logo",
+        "es": "logotipo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/material",
+      "prefLabel": {
+        "en": "material",
+        "de": "Material",
+        "fr": "matériau",
+        "es": "material"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/mpn",
+      "prefLabel": {
+        "en": "mpn",
+        "de": "mpn",
+        "fr": "mpn",
+        "es": "mpn"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/nutrition",
+      "prefLabel": {
+        "en": "nutrition",
+        "de": "Ernährung",
+        "fr": "nutrition",
+        "es": "nutrición"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/offers",
+      "prefLabel": {
+        "en": "offers",
+        "de": "Angebote",
+        "fr": "offres",
+        "es": "ofrece"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/pattern",
+      "prefLabel": {
+        "en": "pattern",
+        "de": "Muster",
+        "fr": "modèle",
+        "es": "patrón"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/priceSpecification",
+      "prefLabel": {
+        "en": "price specification",
+        "de": "Preisangabe",
+        "fr": "spécification du prix",
+        "es": "especificación del precio"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/review",
+      "prefLabel": {
+        "en": "review",
+        "de": "Überprüfung",
+        "fr": "examen",
+        "es": "revisión"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/reviews",
+      "prefLabel": {
+        "en": "reviews",
+        "de": "Überprüfungen",
+        "fr": "examens",
+        "es": "revisiones"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/seller",
+      "prefLabel": {
+        "en": "seller",
+        "de": "Verkäufer",
+        "fr": "vendeur",
+        "es": "vendedor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/serialNumber",
+      "prefLabel": {
+        "en": "serial number",
+        "de": "Seriennummer",
+        "fr": "numéro de série",
+        "es": "número de serie"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/size",
+      "prefLabel": {
+        "en": "size",
+        "de": "Größe",
+        "fr": "taille",
+        "es": "talla"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/sku",
+      "prefLabel": {
+        "en": "SKU",
+        "de": "SKU",
+        "fr": "SKU",
+        "es": "SKU"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/suitableForDiet",
+      "prefLabel": {
+        "en": "suitable for diet",
+        "de": "für die Ernährung geeignet",
+        "fr": "adapté au régime alimentaire",
+        "es": "adecuado para la dieta"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/validFrom",
+      "prefLabel": {
+        "en": "valid from",
+        "de": "gültig von",
+        "fr": "valable à partir de",
+        "es": "válido desde"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/validThrough",
+      "prefLabel": {
+        "en": "valid through",
+        "de": "gültig durch",
+        "fr": "valide par",
+        "es": "válido a través de"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/warranty",
+      "prefLabel": {
+        "en": "warranty",
+        "de": "Garantie",
+        "fr": "garantie",
+        "es": "garantía"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/weight",
+      "prefLabel": {
+        "en": "weight",
+        "de": "Gewicht",
+        "fr": "poids",
+        "es": "peso"
+      }
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "topConceptOf": {
+    "id": "https://w3id.org/class/redaktor/scheme"
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}
