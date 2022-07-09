@@ -1,19 +1,19 @@
 {
-  "id": "http://www.w3.org/ns/activitystreams#subject",
+  "id": "http://www.w3.org/ns/activitystreams#url",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23subject",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23subject",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23url",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23url",
   "prefLabel": {
-    "en": "subject",
-    "de": "Subjekt",
-    "fr": "sujet",
-    "es": "tema"
+    "en": "url",
+    "de": "url",
+    "fr": "url",
+    "es": "url"
   },
   "definition": {
-    "en": "On a Relationship object, the subject property identifies one of the connected individuals. For instance, for a Relationship object describing \"John is related to Sally\", subject would refer to John.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-subject](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-subject)",
-    "de": "Bei einem Beziehungsobjekt identifiziert die Eigenschaft subject eine der verbundenen Personen. Bei einem Relationship-Objekt mit der Beschreibung \"John is related to Sally\" würde sich subject beispielsweise auf John beziehen.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-subject](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-subject)",
-    "fr": "Sur un objet de relation, la propriété subject identifie l'un des individus connectés. Par exemple, pour un objet Relationship décrivant \"John is related to Sally\", le sujet se réfère à John.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-subject](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-subject)",
-    "es": "En un objeto de relación, la propiedad subject identifica a uno de los individuos conectados. Por ejemplo, para un objeto Relationship que describa \"Juan está relacionado con Sally\", subject se referirá a Juan.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-subject](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-subject)"
+    "en": "Identifies one or more links to representations of the object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)",
+    "de": "Kennzeichnet einen oder mehrere Links zu Darstellungen des Objekts.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)",
+    "fr": "Identifie un ou plusieurs liens vers des représentations de l'objet.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)",
+    "es": "Identifica uno o varios enlaces a representaciones del objeto.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)"
   },
   "scopeNote": {
     "en": "as: Property",
@@ -22,21 +22,21 @@
     "es": "as: Property"
   },
   "notation": [
-    "3212"
+    "339"
   ],
   "example": {
-    "en": "```json \n[Example 139](https://www.w3.org/TR/activitystreams-vocabulary/#ex22a-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex22a-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Relationship\",\n    \"object\": {\n      \"type\": \"Person\",\n      \"name\": \"John\"\n    },\n    \"relationship\": \"http://purl.org/vocab/relationship/acquaintanceOf\",\n    \"subject\": {\n      \"type\": \"Person\",\n      \"name\": \"Sally\"\n    },\n    \"summary\": \"Sally is an acquaintance of John's\"\n  },\n  \"name\": \"Example 139\"\n}\n```",
-    "de": "```json \n[Example 139](https://www.w3.org/TR/activitystreams-vocabulary/#ex22a-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex22a-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Relationship\",\n    \"object\": {\n      \"type\": \"Person\",\n      \"name\": \"John\"\n    },\n    \"relationship\": \"http://purl.org/vocab/relationship/acquaintanceOf\",\n    \"subject\": {\n      \"type\": \"Person\",\n      \"name\": \"Sally\"\n    },\n    \"summary\": \"Sally is an acquaintance of John's\"\n  },\n  \"name\": \"Example 139\"\n}\n```",
-    "fr": "```json \n[Example 139](https://www.w3.org/TR/activitystreams-vocabulary/#ex22a-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex22a-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Relationship\",\n    \"object\": {\n      \"type\": \"Person\",\n      \"name\": \"John\"\n    },\n    \"relationship\": \"http://purl.org/vocab/relationship/acquaintanceOf\",\n    \"subject\": {\n      \"type\": \"Person\",\n      \"name\": \"Sally\"\n    },\n    \"summary\": \"Sally is an acquaintance of John's\"\n  },\n  \"name\": \"Example 139\"\n}\n```",
-    "es": "```json \n[Example 139](https://www.w3.org/TR/activitystreams-vocabulary/#ex22a-jsonld)\n{\n  \"id\": \"https://www.w3.org/TR/activitystreams-vocabulary/#ex22a-jsonld\",\n  \"type\": \"http://schema.org/CreativeWork\",\n  \"mainEntity\": {\n    \"type\": \"Relationship\",\n    \"object\": {\n      \"type\": \"Person\",\n      \"name\": \"John\"\n    },\n    \"relationship\": \"http://purl.org/vocab/relationship/acquaintanceOf\",\n    \"subject\": {\n      \"type\": \"Person\",\n      \"name\": \"Sally\"\n    },\n    \"summary\": \"Sally is an acquaintance of John's\"\n  },\n  \"name\": \"Example 139\"\n}\n```"
+    "en": "[Example 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Document\",\n  \"name\": \"4Q Sales Forecast\",\n  \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n}\n```",
+    "de": "[Beispiel 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Document\",\n  \"name\": \"4Q Sales Forecast\",\n  \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n}\n```",
+    "fr": "[Exemple 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Document\",\n  \"name\": \"4Q Sales Forecast\",\n  \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n}\n```",
+    "es": "[Ejemplo 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Document\",\n  \"name\": \"4Q Sales Forecast\",\n  \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n}\n```"
   },
   "broader": {
-    "id": "http://www.w3.org/ns/activitystreams#Relationship",
+    "id": "http://www.w3.org/ns/activitystreams#Object",
     "prefLabel": {
-      "en": "Relationship",
-      "de": "Beziehung",
-      "fr": "Relation",
-      "es": "Relación"
+      "en": "Object",
+      "de": "Objekt",
+      "fr": "Objet",
+      "es": "Objeto"
     }
   },
   "inScheme": {
@@ -142,7 +142,24 @@
       "@container": "@set"
     }
   }
-}ner": "@set"
+}ontainer": "@set"
+    }
+  }
+}ainer": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}er": "@set"
     },
     "relatedMatch": {
       "@container": "@set"
@@ -171,7 +188,57 @@
       "@container": "@set"
     }
   }
-}rredNamespacePrefix": "vann:preferredNamespacePrefix",
+}    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
     "source": "dct:source",
@@ -232,7 +299,7 @@
       "@container": "@set"
     }
   }
-}example.com/feed.json\",\n    \"preferredUsername\": \"kenzoishii\",\n    \"name\": \"石井健蔵\",\n    \"summary\": \"この方はただの例です\",\n    \"icon\": [\n      \"https://kenzoishii.example.com/image/165987aklre4\"\n    ]\n  },\n  \"name\": \"Example 9\"\n}\n```"
+}om/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/Actor",
@@ -403,7 +470,38 @@
       "@container": "@set"
     }
   }
-}ams#",
+}   "es": "upload Media Endpoint"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/Actor",
+    "prefLabel": {
+      "en": "Actor",
+      "de": "Akteur",
+      "fr": "Acteur",
+      "es": "Actor"
+    }
+  },
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub: Functions and Relations",
+      "de": "ActivityPub: Funktionen und Verbindungen",
+      "fr": "ActivityPub: Functions and Relations",
+      "es": "ActivityPub: Functions and Relations"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
     "ldp": "http://www.w3.org/ns/ldp#",
     "title": {
       "@id": "dct:title",
@@ -488,30 +586,7 @@
       "@container": "@set"
     }
   }
-}oncept": {
-      "@container": "@set"
-    }
-  }
-}class/redaktor/taxID",
-      "prefLabel": {
-        "en": "tax ID",
-        "de": "Steuer-ID",
-        "fr": "identifiant fiscal",
-        "es": "ID fiscal"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/vatID",
-      "prefLabel": {
-        "en": "vat ID",
-        "de": "Umsatzsteuer-ID",
-        "fr": "vat ID",
-        "es": "ID del iva"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/weight",
-      "prefLabel": {
+}prefLabel": {
         "en": "weight",
         "de": "Gewicht",
         "fr": "poids",
@@ -649,7 +724,7 @@
       "@container": "@set"
     }
   }
-}  "en": "nonprofit status",
+}n": "nonprofit status",
         "de": "Status der Gemeinnützigkeit",
         "fr": "statut d'organisme à but non lucratif",
         "es": "estatus sin ánimo de lucro"
@@ -894,7 +969,24 @@
       "@container": "@set"
     }
   }
-}es": "disponible en o desde"
+}}
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/availabilityStarts",
+      "prefLabel": {
+        "en": "availability starts",
+        "de": "Verfügbarkeit beginnt",
+        "fr": "la disponibilité commence",
+        "es": "la disponibilidad comienza"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/availableAtOrFrom",
+      "prefLabel": {
+        "en": "available at or from",
+        "de": "verfügbar bei oder von",
+        "fr": "disponible à ou de",
+        "es": "disponible en o desde"
       }
     },
     {
