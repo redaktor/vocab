@@ -1,23 +1,55 @@
 {
-  "id": "https://joinmobilizon.org/ns#anonymousParticipationEnabled",
+  "id": "https://joinmobilizon.org/ns#repliesModerationOptionType",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinmobilizon.org%2Fns%23anonymousParticipationEnabled",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinmobilizon.org%2Fns%23anonymousParticipationEnabled",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinmobilizon.org%2Fns%23repliesModerationOptionType",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinmobilizon.org%2Fns%23repliesModerationOptionType",
   "prefLabel": {
-    "en": "anonymous participation enabled",
-    "de": "anonyme Teilnahme möglich",
-    "fr": "participation anonyme autorisée",
-    "es": "participación anónima habilitada"
-  },
-  "definition": {
-    "en": "We add this boolean field to know whether or not anonymous participants can participate in an event.",
-    "de": "Wir fügen diese Boolean hinzu, um zu wissen, ob anonyme Teilnehmer an einem Ereignis teilnehmen können oder nicht.",
-    "fr": "Nous ajoutons ce champ booléen pour savoir si les participants anonymes peuvent ou non participer à un événement.",
-    "es": "Añadimos este campo booleano para saber si los participantes anónimos pueden o no participar en un evento."
+    "en": "repliesModerationOptionType",
+    "de": "repliesModerationOptionType",
+    "fr": "repliesModerationOptionType",
+    "es": "repliesModerationOptionType"
   },
   "notation": [
-    "1055"
+    "1052"
   ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/allow_all",
+      "prefLabel": {
+        "en": "allow_all",
+        "de": "allow_all",
+        "fr": "allow_all",
+        "es": "allow_all"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/closed",
+      "prefLabel": {
+        "en": "closed",
+        "de": "closed",
+        "fr": "closed",
+        "es": "closed"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/moderated",
+      "prefLabel": {
+        "en": "moderated",
+        "de": "moderated",
+        "fr": "moderated",
+        "es": "moderated"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://joinmobilizon.org/ns#repliesModerationOption",
+    "prefLabel": {
+      "en": "repliesModerationOption",
+      "de": "repliesModerationOption",
+      "fr": "repliesModerationOption",
+      "es": "repliesModerationOption"
+    }
+  },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
@@ -121,7 +153,80 @@
       "@container": "@set"
     }
   }
-}set"
+}ion": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
     },
     "broadMatch": {
       "@container": "@set"
@@ -141,40 +246,7 @@
       "@container": "@set"
     }
   }
-}n  \"...\": \"...\",\n  \"repliesModerationOption\": \"allow_all\",\n  \"commentsEnabled\": true,\n  \"type\": \"Event\",\n  \"url\": \"http://mobilizon1.com/events/8cf76e9f-c426-4912-9cd6-c7030b969611\"\n}``` ",
-    "es": "```json \n{\n  \"@context\": [\n    \"...\",\n    {\n      \"mz\": \"https://joinmobilizon.org/ns#\",\n      \"pt\": \"https://joinpeertube.org/ns#\",\n      \"repliesModerationOption\": {\n        \"@id\": \"mz:repliesModerationOption\",\n        \"@type\": \"mz:repliesModerationOptionType\"\n      },\n      \"repliesModerationOptionType\": {\n        \"@id\": \"mz:repliesModerationOptionType\",\n        \"@type\": \"rdfs:Class\"\n      },\n      \"commentsEnabled\": {\n        \"@id\": \"pt:commentsEnabled\",\n        \"@type\": \"sc:Boolean\"\n      }\n    }\n  ],\n  \"...\": \"...\",\n  \"repliesModerationOption\": \"allow_all\",\n  \"commentsEnabled\": true,\n  \"type\": \"Event\",\n  \"url\": \"http://mobilizon1.com/events/8cf76e9f-c426-4912-9cd6-c7030b969611\"\n}``` "
-  },
-  "narrower": [
-    {
-      "id": "https://joinmobilizon.org/ns#repliesModerationOptionType",
-      "prefLabel": {
-        "en": "repliesModerationOptionType",
-        "de": "repliesModerationOptionType",
-        "fr": "repliesModerationOptionType",
-        "es": "repliesModerationOptionType"
-      }
-    }
-  ],
-  "inScheme": {
-    "id": "https://w3id.org/class/redaktor/scheme",
-    "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
-      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
-      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
-      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
-    }
-  },
-  "@context": {
-    "@version": 1.1,
-    "id": "@id",
-    "type": "@type",
-    "@vocab": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "dct": "http://purl.org/dc/terms/",
-    "schema": "http://schema.org/",
-    "vann": "http://purl.org/vocab/vann/",
-    "as": "https://www.w3.org/ns/activitystreams#",
-    "ldp": "http://www.w3.org/ns/ldp#",
+}/www.w3.org/ns/ldp#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"

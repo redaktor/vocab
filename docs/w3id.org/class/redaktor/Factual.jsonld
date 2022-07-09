@@ -26,6 +26,15 @@
   ],
   "narrower": [
     {
+      "id": "https://w3id.org/class/redaktor/PhotoReportage",
+      "prefLabel": {
+        "en": "Photoreportage",
+        "de": "Fotoreportage",
+        "fr": "Photoreportage",
+        "es": "Fotoreportaje"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/News",
       "prefLabel": {
         "en": "News",
@@ -194,15 +203,6 @@
         "de": "Nachruf",
         "fr": "Notice nécrologique",
         "es": "Obituario"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/PhotoReportage",
-      "prefLabel": {
-        "en": "Photoreportage",
-        "de": "Fotoreportage",
-        "fr": "Photoreportage",
-        "es": "Fotoreportaje"
       }
     },
     {

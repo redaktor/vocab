@@ -737,6 +737,60 @@
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/Atlas",
+      "prefLabel": {
+        "en": "Atlas",
+        "de": "Atlas",
+        "fr": "Atlas",
+        "es": "Atlas"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Book",
+      "prefLabel": {
+        "en": "Book",
+        "de": "Buch",
+        "fr": "Livre",
+        "es": "Libro"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Blog",
+      "prefLabel": {
+        "en": "Blog",
+        "de": "Blog",
+        "fr": "Blog",
+        "es": "Blog"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ImageGallery",
+      "prefLabel": {
+        "en": "Image Gallery",
+        "de": "Bildergalerie",
+        "fr": "Galerie d'images",
+        "es": "Galería de imágenes"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/VideoGallery",
+      "prefLabel": {
+        "en": "Video Gallery",
+        "de": "Video-Galerie",
+        "fr": "Galerie de vidéos",
+        "es": "Galería de vídeos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Trip",
+      "prefLabel": {
+        "en": "Trip",
+        "de": "Reise",
+        "fr": "Voyage",
+        "es": "Viaje"
+      }
+    },
+    {
       "id": "https://joinmobilizon.org/ns#participationMessage",
       "prefLabel": {
         "en": "participation message",
@@ -752,15 +806,6 @@
         "de": "Wähler*innenstimmen",
         "fr": "nombre de votes",
         "es": "conteo de votantes"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/Trip",
-      "prefLabel": {
-        "en": "Trip",
-        "de": "Reise",
-        "fr": "Voyage",
-        "es": "Viaje"
       }
     },
     {
@@ -824,33 +869,6 @@
         "de": "Kreativwerk",
         "fr": "Travail créatif",
         "es": "Trabajo creativo"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/Atlas",
-      "prefLabel": {
-        "en": "Atlas",
-        "de": "Atlas",
-        "fr": "Atlas",
-        "es": "Atlas"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/Blog",
-      "prefLabel": {
-        "en": "Blog",
-        "de": "Blog",
-        "fr": "Blog",
-        "es": "Blog"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/Book",
-      "prefLabel": {
-        "en": "Book",
-        "de": "Buch",
-        "fr": "Livre",
-        "es": "Libro"
       }
     },
     {
@@ -1427,24 +1445,6 @@
         "de": "Comic-Titelbild",
         "fr": "Couverture de bande dessinée",
         "es": "Portada de cómic"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/ImageGallery",
-      "prefLabel": {
-        "en": "Image Gallery",
-        "de": "Bildergalerie",
-        "fr": "Galerie d'images",
-        "es": "Galería de imágenes"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/VideoGallery",
-      "prefLabel": {
-        "en": "Video Gallery",
-        "de": "Video-Galerie",
-        "fr": "Galerie de vidéos",
-        "es": "Galería de vídeos"
       }
     },
     {

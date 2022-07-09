@@ -53,21 +53,21 @@
       }
     },
     {
-      "id": "https://joinmobilizon.org/ns#participationMessage",
-      "prefLabel": {
-        "en": "participation message",
-        "de": "Nachricht zur Teilnahme",
-        "fr": "message de participation",
-        "es": "participación en el mensaje"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/Trip",
       "prefLabel": {
         "en": "Trip",
         "de": "Reise",
         "fr": "Voyage",
         "es": "Viaje"
+      }
+    },
+    {
+      "id": "https://joinmobilizon.org/ns#participationMessage",
+      "prefLabel": {
+        "en": "participation message",
+        "de": "Nachricht zur Teilnahme",
+        "fr": "message de participation",
+        "es": "participación en el mensaje"
       }
     },
     {

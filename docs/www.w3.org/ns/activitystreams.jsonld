@@ -1,42 +1,36 @@
 {
-  "id": "http://www.w3.org/ns/activitystreams#url",
+  "id": "http://www.w3.org/ns/activitystreams#streams",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23url",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23url",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23streams",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23streams",
   "prefLabel": {
-    "en": "url",
-    "de": "url",
-    "fr": "url",
-    "es": "url"
+    "en": "streams",
+    "de": "streams",
+    "fr": "streams",
+    "es": "streams"
   },
   "definition": {
-    "en": "Identifies one or more links to representations of the object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)",
-    "de": "Kennzeichnet einen oder mehrere Links zu Darstellungen des Objekts.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)",
-    "fr": "Identifie un ou plusieurs liens vers des représentations de l'objet.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)",
-    "es": "Identifica uno o varios enlaces a representaciones del objeto.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)"
+    "en": "A list of supplementary Collections which may be of interest.<br>see [https://www.w3.org/TR/activitypub/#streams-property](https://www.w3.org/TR/activitypub/#streams-property)",
+    "de": "Eine Liste von ergänzenden Sammlungen, die von Interesse sein könnten.<br>siehe [https://www.w3.org/TR/activitypub/#streams-property](https://www.w3.org/TR/activitypub/#streams-property)",
+    "fr": "Une liste de collections supplémentaires qui peuvent être d'intérêt.<br>voir [https://www.w3.org/TR/activitypub/#streams-property](https://www.w3.org/TR/activitypub/#streams-property)",
+    "es": "Una lista de Colecciones complementarias que pueden ser de interés.<br>ver [https://www.w3.org/TR/activitypub/#streams-property](https://www.w3.org/TR/activitypub/#streams-property)"
   },
   "scopeNote": {
-    "en": "as: Property",
-    "de": "as: Property",
-    "fr": "as: Property",
-    "es": "as: Property"
+    "en": "ActivityPub Property",
+    "de": "ActivityPub Property",
+    "fr": "ActivityPub Property",
+    "es": "ActivityPub Property"
   },
   "notation": [
-    "339"
+    "033"
   ],
-  "example": {
-    "en": "[Example 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Document\",\n  \"name\": \"4Q Sales Forecast\",\n  \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n}\n```",
-    "de": "[Beispiel 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Document\",\n  \"name\": \"4Q Sales Forecast\",\n  \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n}\n```",
-    "fr": "[Exemple 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Document\",\n  \"name\": \"4Q Sales Forecast\",\n  \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n}\n```",
-    "es": "[Ejemplo 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Document\",\n  \"name\": \"4Q Sales Forecast\",\n  \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n}\n```"
-  },
   "broader": {
-    "id": "http://www.w3.org/ns/activitystreams#Object",
+    "id": "https://w3id.org/class/redaktor/Actor",
     "prefLabel": {
-      "en": "Object",
-      "de": "Objekt",
-      "fr": "Objet",
-      "es": "Objeto"
+      "en": "Actor",
+      "de": "Akteur",
+      "fr": "Acteur",
+      "es": "Actor"
     }
   },
   "inScheme": {
@@ -142,19 +136,7 @@
       "@container": "@set"
     }
   }
-}ontainer": "@set"
-    }
-  }
-}  "@id": "dct:created",
-      "@type": "xsd:date"
-    },
-    "modified": {
-      "@id": "dct:modified",
-      "@type": "xsd:date"
-    },
-    "creator": "dct:creator",
-    "publisher": "dct:publisher",
-    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+}refix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
     "source": "dct:source",
@@ -181,6 +163,84 @@
     },
     "example": {
       "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}ainer": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}er": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}@container": "@language"
     },
     "narrower": {
       "@container": "@set"

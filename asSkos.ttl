@@ -30,7 +30,6 @@
 @prefix yf: <https://yuforium.com/ns/activitypub> .
 
 # TODO
-# Wrong examples
 # Reply mode
 # peertube has commentsEnabled
 # zot has a similar model like us
@@ -158,7 +157,7 @@ as:Object a owl:Class, skos:Concept ;
 as:Link a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:topConceptOf :scheme ;
-  skos:narrower as:Mention, as:id, as:type, as:attributedTo, as:preview, as:height, as:width, as:mediaType, as:name, as:nameMap, as:sensitive, as:href, as:hreflang, as:rel ;
+  skos:narrower as:Mention, as:id, as:type, as:attributedTo, as:href, as:hreflang, as:rel, as:height, as:width, as:mediaType, as:name, as:nameMap, as:preview, as:sensitive ;
   skos:notation "4" ;
   skos:prefLabel "Link"@de, "Link"@en, "Lien"@fr, "Enlace"@es ;
   skos:definition "Ein Link ist ein indirekter, qualifizierter Verweis auf eine durch eine URL identifizierte Ressource. Das grundlegende Modell für Links ist in RFC5988 festgelegt. Viele der im Activity Vocabulary definierten Eigenschaften erlauben Werte, die entweder Instanzen von Object oder Link sind. Wenn ein Link verwendet wird, stellt er eine qualifizierte Beziehung her, die das Subjekt (das enthaltende Objekt) mit der durch die href identifizierten Ressource verbindet. Eigenschaften des Links sind Eigenschaften des Verweises und nicht Eigenschaften der Ressource.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-link](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-link)"@de,
@@ -201,7 +200,9 @@ as:IntransitiveActivity a owl:Class, skos:Concept ;
 as:Collection a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:narrower as:current, as:first, as:items, as:last, as:totalItems ;
+  skos:narrower :Atlas, :Book, :Blog, :ImageGallery, :PhotoEssay, :PhotoReportage, :VideoGallery,
+    :Trip, as:current, as:first, as:items, as:last, as:next, as:partOf, as:prev,
+    as:totalItems, lm:moderators ;
   skos:notation "6" ;
   skos:prefLabel "Sammlung"@de, "Collection"@en, "Collection"@fr, "Colección"@es ;
   skos:definition "Eine Collection ist ein Subtyp von Object, der geordnete oder ungeordnete Mengen von Object- oder Link-Instanzen darstellt. Eine vollständige Beschreibung des Typs 'Collection' finden Sie in der Spezifikation von Activity Streams 2.0 Core.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection)"@de,
@@ -239,7 +240,7 @@ as:CollectionPage a owl:Class, skos:Concept ;
 as:OrderedCollection a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:narrower as:orderedItems;
+  skos:narrower as:orderedItems ;
   skos:notation "8" ;
   skos:prefLabel "Geordnete Sammlung"@de, "Ordered Collection"@en, "Collection commandée"@fr, "Colección ordenada"@es ;
   skos:definition "Ein Subtyp von Collection, bei dem davon ausgegangen wird, dass die Mitglieder der logischen Collection immer streng geordnet sind.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection)"@de,
@@ -280,7 +281,7 @@ as:OrderedCollection a owl:Class, skos:Concept ;
 as:OrderedCollectionPage a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:narrower as:startIndex, pt:Playlist ;
+  skos:narrower :Storyboard, pt:Playlist, as:orderedItems, as:startIndex ;
   skos:notation "9" ;
   skos:prefLabel "Geordnete-Sammlung-Seite"@de, "Ordered Collection Page"@en, "Page de la Collection commandée"@fr, "Página de la Colección ordenada"@es ;
   skos:definition "Wird verwendet, um geordnete Teilmengen von Elementen aus einer OrderedCollection darzustellen. Eine vollständige Beschreibung des OrderedCollectionPage-Objekts finden Sie im Activity Streams 2.0-Kern.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollectionpage](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollectionpage)"@de,

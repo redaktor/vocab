@@ -24,15 +24,6 @@
   "notation": [
     "1481"
   ],
-  "broader": {
-    "id": "http://www.w3.org/ns/activitystreams#OrderedCollection",
-    "prefLabel": {
-      "en": "Ordered Collection",
-      "de": "Geordnete Sammlung",
-      "fr": "Collection commandée",
-      "es": "Colección ordenada"
-    }
-  },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
