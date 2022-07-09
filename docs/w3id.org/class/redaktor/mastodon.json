@@ -53,15 +53,6 @@
       }
     },
     {
-      "id": "schema:PropertyValue",
-      "prefLabel": {
-        "en": "A property-value pair",
-        "de": "Eigenschaft-Wert Paar",
-        "fr": "Une paire propriété-valeur",
-        "es": "Un par propiedad-valor"
-      }
-    },
-    {
       "id": "http://joinmastodon.org/ns#Emoji",
       "prefLabel": {
         "en": "Custom Emoji",
@@ -80,12 +71,39 @@
       }
     },
     {
+      "id": "schema:PropertyValue",
+      "prefLabel": {
+        "en": "A property-value pair",
+        "de": "Eigenschaft-Wert Paar",
+        "fr": "Une paire propriété-valeur",
+        "es": "Un par propiedad-valor"
+      }
+    },
+    {
       "id": "http://joinmastodon.org/ns#featured",
       "prefLabel": {
         "en": "featured",
         "de": "featured",
         "fr": "featured",
         "es": "featured"
+      }
+    },
+    {
+      "id": "dct:creator",
+      "prefLabel": {
+        "en": "creator",
+        "de": "Ersteller*in",
+        "fr": "creator",
+        "es": "creator"
+      }
+    },
+    {
+      "id": "dct:created",
+      "prefLabel": {
+        "en": "created",
+        "de": "erstellt",
+        "fr": "created",
+        "es": "created"
       }
     },
     {
@@ -123,24 +141,6 @@
         "fr": "point focal",
         "es": "punto focal"
       }
-    },
-    {
-      "id": "dct:creator",
-      "prefLabel": {
-        "en": "creator",
-        "de": "Ersteller*in",
-        "fr": "creator",
-        "es": "creator"
-      }
-    },
-    {
-      "id": "dct:created",
-      "prefLabel": {
-        "en": "created",
-        "de": "erstellt",
-        "fr": "created",
-        "es": "created"
-      }
     }
   ],
   "broader": {
@@ -155,10 +155,10 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub: Functions and Relations",
-      "de": "ActivityPub: Funktionen und Verbindungen",
-      "fr": "ActivityPub: Functions and Relations",
-      "es": "ActivityPub: Functions and Relations"
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
   },
   "@context": {

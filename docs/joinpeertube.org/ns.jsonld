@@ -33,10 +33,10 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub: Functions and Relations",
-      "de": "ActivityPub: Funktionen und Verbindungen",
-      "fr": "ActivityPub: Functions and Relations",
-      "es": "ActivityPub: Functions and Relations"
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
   },
   "@context": {
@@ -133,7 +133,48 @@
       "@container": "@set"
     }
   }
-}
+}dMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}@set"
+    }
+  }
+}},
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
     },
     "broadMatch": {
       "@container": "@set"

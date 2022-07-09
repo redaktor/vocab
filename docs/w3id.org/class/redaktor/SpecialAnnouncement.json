@@ -20,21 +20,21 @@
   ],
   "narrower": [
     {
-      "id": "https://w3id.org/class/redaktor/announcementLocation",
-      "prefLabel": {
-        "en": "announcement location",
-        "de": "Ankündigung Ort",
-        "fr": "annonce emplacement",
-        "es": "ubicación del anuncio"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/category",
       "prefLabel": {
         "en": "category",
         "de": "Kategorie",
         "fr": "catégorie",
         "es": "categoría"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/announcementLocation",
+      "prefLabel": {
+        "en": "announcement location",
+        "de": "Ankündigung Ort",
+        "fr": "annonce emplacement",
+        "es": "ubicación del anuncio"
       }
     },
     {
@@ -145,10 +145,10 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub: Functions and Relations",
-      "de": "ActivityPub: Funktionen und Verbindungen",
-      "fr": "ActivityPub: Functions and Relations",
-      "es": "ActivityPub: Functions and Relations"
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
   },
   "@context": {

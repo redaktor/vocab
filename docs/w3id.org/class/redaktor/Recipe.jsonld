@@ -20,6 +20,24 @@
   ],
   "narrower": [
     {
+      "id": "https://w3id.org/class/redaktor/nutrition",
+      "prefLabel": {
+        "en": "nutrition",
+        "de": "Ernährung",
+        "fr": "nutrition",
+        "es": "nutrición"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/suitableForDiet",
+      "prefLabel": {
+        "en": "suitable for diet",
+        "de": "für die Ernährung geeignet",
+        "fr": "adapté au régime alimentaire",
+        "es": "adecuado para la dieta"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/cookTime",
       "prefLabel": {
         "en": "cook time",
@@ -44,15 +62,6 @@
         "de": "Bestandteile",
         "fr": "ingrédients",
         "es": "ingredientes"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/nutrition",
-      "prefLabel": {
-        "en": "nutrition",
-        "de": "Ernährung",
-        "fr": "nutrition",
-        "es": "nutrición"
       }
     },
     {
@@ -99,15 +108,6 @@
         "fr": "rendement de la recette",
         "es": "rendimiento de la receta"
       }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/suitableForDiet",
-      "prefLabel": {
-        "en": "suitable for diet",
-        "de": "für die Ernährung geeignet",
-        "fr": "adapté au régime alimentaire",
-        "es": "adecuado para la dieta"
-      }
     }
   ],
   "exactMatch": [
@@ -118,10 +118,10 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub: Functions and Relations",
-      "de": "ActivityPub: Funktionen und Verbindungen",
-      "fr": "ActivityPub: Functions and Relations",
-      "es": "ActivityPub: Functions and Relations"
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
   },
   "@context": {

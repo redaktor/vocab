@@ -21,10 +21,10 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub: Functions and Relations",
-      "de": "ActivityPub: Funktionen und Verbindungen",
-      "fr": "ActivityPub: Functions and Relations",
-      "es": "ActivityPub: Functions and Relations"
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
   },
   "@context": {
@@ -121,17 +121,17 @@
       "@container": "@set"
     }
   }
-} \"to\": [\n      \"http://2hu.gensokyo/users/marisa\"\n    ],\n    \"type\": \"ChatMessage\"\n  },\n  \"published\": \"2018-02-12T14:08:20Z\",\n  \"to\": [\n    \"http://2hu.gensokyo/users/marisa\"\n  ],\n  \"type\": \"Create\"\n}``` <br>Diese Einrichtung verhindert keine Chats mit mehreren Benutzern, aber diese müssen über eine Gruppe laufen, die der Empfänger der Nachrichten ist und diese dann an die Benutzer in der Gruppe ankündigt.",
+}\"type\": \"ChatMessage\"\n  },\n  \"published\": \"2018-02-12T14:08:20Z\",\n  \"to\": [\n    \"http://2hu.gensokyo/users/marisa\"\n  ],\n  \"type\": \"Create\"\n}``` <br>Diese Einrichtung verhindert keine Chats mit mehreren Benutzern, aber diese müssen über eine Gruppe laufen, die der Empfänger der Nachrichten ist und diese dann an die Benutzer in der Gruppe ankündigt.",
     "fr": "```json \n{\n  \"actor\": \"http://2hu.gensokyo/users/raymoo\",\n  \"id\": \"http://2hu.gensokyo/objects/1\",\n  \"object\": {\n    \"attributedTo\": \"http://2hu.gensokyo/users/raymoo\",\n    \"content\": \"You expected a cute girl? Too bad.\",\n    \"id\": \"http://2hu.gensokyo/objects/2\",\n    \"published\": \"2020-02-12T14:08:20Z\",\n    \"to\": [\n      \"http://2hu.gensokyo/users/marisa\"\n    ],\n    \"type\": \"ChatMessage\"\n  },\n  \"published\": \"2018-02-12T14:08:20Z\",\n  \"to\": [\n    \"http://2hu.gensokyo/users/marisa\"\n  ],\n  \"type\": \"Create\"\n}``` <br>Cette configuration n'empêche pas les discussions multi-utilisateurs, mais celles-ci devront passer par un groupe, qui sera le destinataire des messages et les annoncera ensuite aux utilisateurs du groupe.",
     "es": "```json \n{\n  \"actor\": \"http://2hu.gensokyo/users/raymoo\",\n  \"id\": \"http://2hu.gensokyo/objects/1\",\n  \"object\": {\n    \"attributedTo\": \"http://2hu.gensokyo/users/raymoo\",\n    \"content\": \"You expected a cute girl? Too bad.\",\n    \"id\": \"http://2hu.gensokyo/objects/2\",\n    \"published\": \"2020-02-12T14:08:20Z\",\n    \"to\": [\n      \"http://2hu.gensokyo/users/marisa\"\n    ],\n    \"type\": \"ChatMessage\"\n  },\n  \"published\": \"2018-02-12T14:08:20Z\",\n  \"to\": [\n    \"http://2hu.gensokyo/users/marisa\"\n  ],\n  \"type\": \"Create\"\n}``` <br>Esta configuración no impide los chats multiusuario, pero éstos tendrán que pasar por un Grupo, que será el destinatario de los mensajes y luego los anunciará a los usuarios del Grupo."
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub: Functions and Relations",
-      "de": "ActivityPub: Funktionen und Verbindungen",
-      "fr": "ActivityPub: Functions and Relations",
-      "es": "ActivityPub: Functions and Relations"
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
   },
   "@context": {

@@ -14,6 +14,15 @@
   ],
   "narrower": [
     {
+      "id": "https://w3id.org/class/redaktor/audience",
+      "prefLabel": {
+        "en": "audience",
+        "de": "Publikum",
+        "fr": "public",
+        "es": "audiencia"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/Campground",
       "prefLabel": {
         "en": "Campground",
@@ -74,15 +83,6 @@
         "de": "Skigebiet",
         "fr": "Station de ski",
         "es": "Estación de esquí"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/audience",
-      "prefLabel": {
-        "en": "audience",
-        "de": "Publikum",
-        "fr": "public",
-        "es": "audiencia"
       }
     },
     {
@@ -148,10 +148,10 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub: Functions and Relations",
-      "de": "ActivityPub: Funktionen und Verbindungen",
-      "fr": "ActivityPub: Functions and Relations",
-      "es": "ActivityPub: Functions and Relations"
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
   },
   "@context": {

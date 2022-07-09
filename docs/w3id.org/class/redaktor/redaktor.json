@@ -71,6 +71,123 @@
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/AlignmentObject",
+      "prefLabel": {
+        "en": "Alignment Object",
+        "de": "Ausrichtung Objekt",
+        "fr": "Objet de l'alignement",
+        "es": "Objeto de alineación"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Audience",
+      "prefLabel": {
+        "en": "Audience",
+        "de": "Zielgruppe",
+        "fr": "Audience",
+        "es": "Audiencia"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Brand",
+      "prefLabel": {
+        "en": "Brand",
+        "de": "Marke",
+        "fr": "Marque",
+        "es": "Marca"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ComputerLanguage",
+      "prefLabel": {
+        "en": "Computer Language",
+        "de": "Programmiersprache",
+        "fr": "Langage informatique",
+        "es": "Lenguaje informático"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/DefinedTerm",
+      "prefLabel": {
+        "en": "Defined Term",
+        "de": "Definierter Begriff",
+        "fr": "Terme défini",
+        "es": "Término definido"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/FloorPlan",
+      "prefLabel": {
+        "en": "Floor Plan",
+        "de": "Etagenplan",
+        "fr": "Plan d'étage",
+        "es": "Plano de la planta"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/GeoShape",
+      "prefLabel": {
+        "en": "Geo Shape",
+        "de": "Geo-Form",
+        "fr": "Forme géographique",
+        "es": "Forma geográfica"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Grant",
+      "prefLabel": {
+        "en": "Grant",
+        "de": "Grant",
+        "fr": "Subvention, Grant",
+        "es": "Subvención, Grant"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ItemList",
+      "prefLabel": {
+        "en": "Item List",
+        "de": "Punkt Liste",
+        "fr": "Liste d'éléments",
+        "es": "Lista de elementos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ListItem",
+      "prefLabel": {
+        "en": "List Item",
+        "de": "Artikel auflisten",
+        "fr": "Liste d'éléments",
+        "es": "Lista de elementos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/OrderItem",
+      "prefLabel": {
+        "en": "Order Item",
+        "de": "Artikel bestellen",
+        "fr": "Article de commande",
+        "es": "Pedir artículo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ProgramMembership",
+      "prefLabel": {
+        "en": "Program Membership",
+        "de": "Programm-Mitgliedschaft",
+        "fr": "Adhésion au programme",
+        "es": "Afiliación al programa"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Ticket",
+      "prefLabel": {
+        "en": "Ticket",
+        "de": "Ticket",
+        "fr": "Ticket",
+        "es": "Billete"
+      }
+    },
+    {
       "id": "http://joinmastodon.org/ns#featured",
       "prefLabel": {
         "en": "featured",
@@ -95,6 +212,528 @@
         "de": "Lizenz",
         "fr": "licence",
         "es": "licencia"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/isAccessibleForFree",
+      "prefLabel": {
+        "en": "is accessible for free",
+        "de": "ist kostenlos zugängig",
+        "fr": "est accessible gratuitement",
+        "es": "es accesible de forma gratuita"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/acceptedPaymentMethod",
+      "prefLabel": {
+        "en": "accepted payment method",
+        "de": "akzeptierte Zahlungsmethode",
+        "fr": "mode de paiement accepté",
+        "es": "método de pago aceptado"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/advanceBookingRequirement",
+      "prefLabel": {
+        "en": "advance booking requirement",
+        "de": "Voranmeldung erforderlich",
+        "fr": "obligation de réservation préalable",
+        "es": "requisito de reserva anticipada"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/areaServed",
+      "prefLabel": {
+        "en": "area served",
+        "de": "bedientes Gebiet",
+        "fr": "zone desservie",
+        "es": "área de servicio"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/audience",
+      "prefLabel": {
+        "en": "audience",
+        "de": "Publikum",
+        "fr": "public",
+        "es": "audiencia"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/availability",
+      "prefLabel": {
+        "en": "availability",
+        "de": "Verfügbarkeit",
+        "fr": "disponibilité",
+        "es": "disponibilidad"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/availabilityEnds",
+      "prefLabel": {
+        "en": "availability ends",
+        "de": "Verfügbarkeit endet",
+        "fr": "fin de la disponibilité",
+        "es": "la disponibilidad termina"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/availabilityStarts",
+      "prefLabel": {
+        "en": "availability starts",
+        "de": "Verfügbarkeit beginnt",
+        "fr": "la disponibilité commence",
+        "es": "la disponibilidad comienza"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/availableAtOrFrom",
+      "prefLabel": {
+        "en": "available at or from",
+        "de": "verfügbar bei oder von",
+        "fr": "disponible à ou de",
+        "es": "disponible en o desde"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/availableDeliveryMethod",
+      "prefLabel": {
+        "en": "available delivery method",
+        "de": "verfügbare Liefermethode",
+        "fr": "méthode de livraison disponible",
+        "es": "método de entrega disponible"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/awards",
+      "prefLabel": {
+        "en": "awards",
+        "de": "Auszeichnungen",
+        "fr": "prix",
+        "es": "premios"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/brand",
+      "prefLabel": {
+        "en": "brand",
+        "de": "Marke",
+        "fr": "marque",
+        "es": "marca"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/businessFunction",
+      "prefLabel": {
+        "en": "business function",
+        "de": "Unternehmensfunktion",
+        "fr": "fonction commerciale",
+        "es": "función comercial"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/category",
+      "prefLabel": {
+        "en": "category",
+        "de": "Kategorie",
+        "fr": "catégorie",
+        "es": "categoría"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/countryOfOrigin",
+      "prefLabel": {
+        "en": "country of origin",
+        "de": "Herkunftsland",
+        "fr": "pays d'origine",
+        "es": "país de origen"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/deliveryLeadTime",
+      "prefLabel": {
+        "en": "delivery lead time",
+        "de": "Vorlaufzeit der Lieferung",
+        "fr": "délai de livraison",
+        "es": "plazo de entrega"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/eligibleCustomerType",
+      "prefLabel": {
+        "en": "eligible customer type",
+        "de": "zugelassener Kundentyp",
+        "fr": "type de client éligible",
+        "es": "tipo de cliente elegible"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/eligibleDuration",
+      "prefLabel": {
+        "en": "eligible duration",
+        "de": "zulässige Dauer",
+        "fr": "durée éligible",
+        "es": "duración elegible"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/eligibleQuantity",
+      "prefLabel": {
+        "en": "eligible quantity",
+        "de": "zugelassene Menge",
+        "fr": "quantité éligible",
+        "es": "cantidad elegible"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/eligibleRegion",
+      "prefLabel": {
+        "en": "eligible region",
+        "de": "zugelassene Region",
+        "fr": "région éligible",
+        "es": "región elegible"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/eligibleTransactionVolume",
+      "prefLabel": {
+        "en": "eligible transaction volume",
+        "de": "zugelassenes Transaktionsvolumen",
+        "fr": "volume de transaction éligible",
+        "es": "volumen de transacciones elegible"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/funding",
+      "prefLabel": {
+        "en": "funding",
+        "de": "Finanzierung",
+        "fr": "financement",
+        "es": "financiación"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/gtin",
+      "prefLabel": {
+        "en": "GTIN",
+        "de": "GTIN",
+        "fr": "GTIN",
+        "es": "GTIN"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/gtin12",
+      "prefLabel": {
+        "en": "GTIN12",
+        "de": "GTIN12",
+        "fr": "GTIN12",
+        "es": "GTIN12"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/gtin13",
+      "prefLabel": {
+        "en": "GTIN13",
+        "de": "GTIN13",
+        "fr": "GTIN13",
+        "es": "GTIN13"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/gtin14",
+      "prefLabel": {
+        "en": "GTIN14",
+        "de": "GTIN14",
+        "fr": "GTIN14",
+        "es": "GTIN14"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/gtin8",
+      "prefLabel": {
+        "en": "GTIN8",
+        "de": "GTIN8",
+        "fr": "GTIN8",
+        "es": "GTIN8"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/hasAdultConsideration",
+      "prefLabel": {
+        "en": "has adult consideration",
+        "de": "hat erwachsene Berücksichtigung",
+        "fr": "a considération de l'adulte",
+        "es": "tiene consideración de adulto"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/hasMeasurement",
+      "prefLabel": {
+        "en": "has measurement",
+        "de": "hat Messung",
+        "fr": "a mesure",
+        "es": "tiene medida"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/hasMerchantReturnPolicy",
+      "prefLabel": {
+        "en": "has merchant return policy",
+        "de": "hat Rückgaberecht des Händlers",
+        "fr": "a la politique de retour du commerçant",
+        "es": "tiene política de devolución del comerciante"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/height",
+      "prefLabel": {
+        "en": "height",
+        "de": "Höhe",
+        "fr": "hauteur",
+        "es": "altura"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/includesObject",
+      "prefLabel": {
+        "en": "includes object",
+        "de": "schließt Objekt ein",
+        "fr": "inclut l'objet",
+        "es": "incluye objeto"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ineligibleRegion",
+      "prefLabel": {
+        "en": "ineligible region",
+        "de": "nicht förderfähige Region",
+        "fr": "région non admissible",
+        "es": "región no elegible"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/inventoryLevel",
+      "prefLabel": {
+        "en": "inventory level",
+        "de": "Bestandsebene",
+        "fr": "niveau d'inventaire",
+        "es": "nivel de inventario"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/isFamilyFriendly",
+      "prefLabel": {
+        "en": "is family friendly",
+        "de": "ist familienfreundlich",
+        "fr": "est adapté aux familles",
+        "es": "es familiar"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/isRelatedTo",
+      "prefLabel": {
+        "en": "is related to",
+        "de": "ist verwandt mit",
+        "fr": "est lié à",
+        "es": "está relacionado con"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/isSimilarTo",
+      "prefLabel": {
+        "en": "is similar to",
+        "de": "ist ähnlich zu",
+        "fr": "est similaire à",
+        "es": "es similar a"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/itemCondition",
+      "prefLabel": {
+        "en": "item condition",
+        "de": "Item-Bedingung",
+        "fr": "condition de l'article",
+        "es": "condición del artículo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/itemOffered",
+      "prefLabel": {
+        "en": "item offered",
+        "de": "angebotener Artikel",
+        "fr": "élément offert",
+        "es": "elemento ofrecido"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/keywords",
+      "prefLabel": {
+        "en": "keywords",
+        "de": "Schlüsselwörter",
+        "fr": "mots-clés",
+        "es": "palabras clave"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/logo",
+      "prefLabel": {
+        "en": "logo",
+        "de": "Logo",
+        "fr": "logo",
+        "es": "logotipo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/material",
+      "prefLabel": {
+        "en": "material",
+        "de": "Material",
+        "fr": "matériau",
+        "es": "material"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/mpn",
+      "prefLabel": {
+        "en": "mpn",
+        "de": "mpn",
+        "fr": "mpn",
+        "es": "mpn"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/nutrition",
+      "prefLabel": {
+        "en": "nutrition",
+        "de": "Ernährung",
+        "fr": "nutrition",
+        "es": "nutrición"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/offers",
+      "prefLabel": {
+        "en": "offers",
+        "de": "Angebote",
+        "fr": "offres",
+        "es": "ofrece"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/pattern",
+      "prefLabel": {
+        "en": "pattern",
+        "de": "Muster",
+        "fr": "modèle",
+        "es": "patrón"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/priceSpecification",
+      "prefLabel": {
+        "en": "price specification",
+        "de": "Preisangabe",
+        "fr": "spécification du prix",
+        "es": "especificación del precio"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/review",
+      "prefLabel": {
+        "en": "review",
+        "de": "Überprüfung",
+        "fr": "examen",
+        "es": "revisión"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/reviews",
+      "prefLabel": {
+        "en": "reviews",
+        "de": "Überprüfungen",
+        "fr": "examens",
+        "es": "revisiones"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/seller",
+      "prefLabel": {
+        "en": "seller",
+        "de": "Verkäufer",
+        "fr": "vendeur",
+        "es": "vendedor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/serialNumber",
+      "prefLabel": {
+        "en": "serial number",
+        "de": "Seriennummer",
+        "fr": "numéro de série",
+        "es": "número de serie"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/size",
+      "prefLabel": {
+        "en": "size",
+        "de": "Größe",
+        "fr": "taille",
+        "es": "talla"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/sku",
+      "prefLabel": {
+        "en": "SKU",
+        "de": "SKU",
+        "fr": "SKU",
+        "es": "SKU"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/suitableForDiet",
+      "prefLabel": {
+        "en": "suitable for diet",
+        "de": "für die Ernährung geeignet",
+        "fr": "adapté au régime alimentaire",
+        "es": "adecuado para la dieta"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/validFrom",
+      "prefLabel": {
+        "en": "valid from",
+        "de": "gültig von",
+        "fr": "valable à partir de",
+        "es": "válido desde"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/validThrough",
+      "prefLabel": {
+        "en": "valid through",
+        "de": "gültig durch",
+        "fr": "valide par",
+        "es": "válido a través de"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/warranty",
+      "prefLabel": {
+        "en": "warranty",
+        "de": "Garantie",
+        "fr": "garantie",
+        "es": "garantía"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/weight",
+      "prefLabel": {
+        "en": "weight",
+        "de": "Gewicht",
+        "fr": "poids",
+        "es": "peso"
       }
     },
     {
@@ -185,42 +824,6 @@
         "de": "Kreativwerk",
         "fr": "Travail créatif",
         "es": "Trabajo creativo"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/ComputerLanguage",
-      "prefLabel": {
-        "en": "Computer Language",
-        "de": "Programmiersprache",
-        "fr": "Langage informatique",
-        "es": "Lenguaje informático"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/FloorPlan",
-      "prefLabel": {
-        "en": "Floor Plan",
-        "de": "Etagenplan",
-        "fr": "Plan d'étage",
-        "es": "Plano de la planta"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/Grant",
-      "prefLabel": {
-        "en": "Grant",
-        "de": "Grant",
-        "fr": "Subvention, Grant",
-        "es": "Subvención, Grant"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/Ticket",
-      "prefLabel": {
-        "en": "Ticket",
-        "de": "Ticket",
-        "fr": "Ticket",
-        "es": "Billete"
       }
     },
     {
@@ -3842,15 +4445,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/Brand",
-      "prefLabel": {
-        "en": "Brand",
-        "de": "Marke",
-        "fr": "Marque",
-        "es": "Marca"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/amenityFeature",
       "prefLabel": {
         "en": "amenity feature",
@@ -3884,15 +4478,6 @@
         "de": "Verfügbare Zeiten",
         "fr": "heures disponibles",
         "es": "horas disponibles"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/isAccessibleForFree",
-      "prefLabel": {
-        "en": "is accessible for free",
-        "de": "ist kostenlos zugängig",
-        "fr": "est accessible gratuitement",
-        "es": "es accesible de forma gratuita"
       }
     },
     {
@@ -4607,48 +5192,12 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/AlignmentObject",
-      "prefLabel": {
-        "en": "Alignment Object",
-        "de": "Ausrichtung Objekt",
-        "fr": "Objet de l'alignement",
-        "es": "Objeto de alineación"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/Audience",
-      "prefLabel": {
-        "en": "Audience",
-        "de": "Zielgruppe",
-        "fr": "Audience",
-        "es": "Audiencia"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/DefinedTerm",
-      "prefLabel": {
-        "en": "Defined Term",
-        "de": "Definierter Begriff",
-        "fr": "Terme défini",
-        "es": "Término definido"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/EducationalOccupationalCredential",
       "prefLabel": {
         "en": "Educational Occupational Credential",
         "de": "Beruflicher Bildungsnachweis",
         "fr": "Titre de formation professionnelle",
         "es": "Credencial educativa profesional"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/GeoShape",
-      "prefLabel": {
-        "en": "Geo Shape",
-        "de": "Geo-Form",
-        "fr": "Forme géographique",
-        "es": "Forma geográfica"
       }
     },
     {
@@ -4661,48 +5210,12 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/ListItem",
-      "prefLabel": {
-        "en": "List Item",
-        "de": "Artikel auflisten",
-        "fr": "Liste d'éléments",
-        "es": "Lista de elementos"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/ItemList",
-      "prefLabel": {
-        "en": "Item List",
-        "de": "Punkt Liste",
-        "fr": "Liste d'éléments",
-        "es": "Lista de elementos"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/HowToStep",
       "prefLabel": {
         "en": "How To Step",
         "de": "Anleitungen Schritt",
         "fr": "Comment faire un pas",
         "es": "Cómo se hace el paso"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/OrderItem",
-      "prefLabel": {
-        "en": "Order Item",
-        "de": "Artikel bestellen",
-        "fr": "Article de commande",
-        "es": "Pedir artículo"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/ProgramMembership",
-      "prefLabel": {
-        "en": "Program Membership",
-        "de": "Programm-Mitgliedschaft",
-        "fr": "Adhésion au programme",
-        "es": "Afiliación al programa"
       }
     },
     {
@@ -4730,15 +5243,6 @@
         "de": "Zusammenfassung",
         "fr": "résumé",
         "es": "resumen"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/acceptedPaymentMethod",
-      "prefLabel": {
-        "en": "accepted payment method",
-        "de": "akzeptierte Zahlungsmethode",
-        "fr": "mode de paiement accepté",
-        "es": "método de pago aceptado"
       }
     },
     {
@@ -4922,15 +5426,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/advanceBookingRequirement",
-      "prefLabel": {
-        "en": "advance booking requirement",
-        "de": "Voranmeldung erforderlich",
-        "fr": "obligation de réservation préalable",
-        "es": "requisito de reserva anticipada"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/affiliation",
       "prefLabel": {
         "en": "affiliation",
@@ -5072,15 +5567,6 @@
         "de": "archiviert in",
         "fr": "archivé à",
         "es": "archivado en"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/areaServed",
-      "prefLabel": {
-        "en": "area served",
-        "de": "bedientes Gebiet",
-        "fr": "zone desservie",
-        "es": "área de servicio"
       }
     },
     {
@@ -5237,15 +5723,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/audience",
-      "prefLabel": {
-        "en": "audience",
-        "de": "Publikum",
-        "fr": "public",
-        "es": "audiencia"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/audienceType",
       "prefLabel": {
         "en": "audience type",
@@ -5273,57 +5750,12 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/availability",
-      "prefLabel": {
-        "en": "availability",
-        "de": "Verfügbarkeit",
-        "fr": "disponibilité",
-        "es": "disponibilidad"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/availabilityEnds",
-      "prefLabel": {
-        "en": "availability ends",
-        "de": "Verfügbarkeit endet",
-        "fr": "fin de la disponibilité",
-        "es": "la disponibilidad termina"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/availabilityStarts",
-      "prefLabel": {
-        "en": "availability starts",
-        "de": "Verfügbarkeit beginnt",
-        "fr": "la disponibilité commence",
-        "es": "la disponibilidad comienza"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/availableAtOrFrom",
-      "prefLabel": {
-        "en": "available at or from",
-        "de": "verfügbar bei oder von",
-        "fr": "disponible à ou de",
-        "es": "disponible en o desde"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/availableChannel",
       "prefLabel": {
         "en": "available channel",
         "de": "verfügbarer Kanal",
         "fr": "canal disponible",
         "es": "canal disponible"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/availableDeliveryMethod",
-      "prefLabel": {
-        "en": "available delivery method",
-        "de": "verfügbare Liefermethode",
-        "fr": "méthode de livraison disponible",
-        "es": "método de entrega disponible"
       }
     },
     {
@@ -5378,15 +5810,6 @@
         "de": "verfügbar durch",
         "fr": "disponible par",
         "es": "disponible a través de"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/awards",
-      "prefLabel": {
-        "en": "awards",
-        "de": "Auszeichnungen",
-        "fr": "prix",
-        "es": "premios"
       }
     },
     {
@@ -5498,15 +5921,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/brand",
-      "prefLabel": {
-        "en": "brand",
-        "de": "Marke",
-        "fr": "marque",
-        "es": "marca"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/broadcastOfEvent",
       "prefLabel": {
         "en": "broadcast of event",
@@ -5543,15 +5957,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/businessFunction",
-      "prefLabel": {
-        "en": "business function",
-        "de": "Unternehmensfunktion",
-        "fr": "fonction commerciale",
-        "es": "función comercial"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/byArtist",
       "prefLabel": {
         "en": "by artist",
@@ -5576,15 +5981,6 @@
         "de": "Betreiber",
         "fr": "transporteur",
         "es": "transportista"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/category",
-      "prefLabel": {
-        "en": "category",
-        "de": "Kategorie",
-        "fr": "catégorie",
-        "es": "categoría"
       }
     },
     {
@@ -5939,15 +6335,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/countryOfOrigin",
-      "prefLabel": {
-        "en": "country of origin",
-        "de": "Herkunftsland",
-        "fr": "pays d'origine",
-        "es": "país de origen"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/courseCode",
       "prefLabel": {
         "en": "course code",
@@ -6089,15 +6476,6 @@
         "de": "Sterbeort",
         "fr": "lieu du décès",
         "es": "lugar de fallecimiento"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/deliveryLeadTime",
-      "prefLabel": {
-        "en": "delivery lead time",
-        "de": "Vorlaufzeit der Lieferung",
-        "fr": "délai de livraison",
-        "es": "plazo de entrega"
       }
     },
     {
@@ -6371,51 +6749,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/eligibleCustomerType",
-      "prefLabel": {
-        "en": "eligible customer type",
-        "de": "zugelassener Kundentyp",
-        "fr": "type de client éligible",
-        "es": "tipo de cliente elegible"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/eligibleDuration",
-      "prefLabel": {
-        "en": "eligible duration",
-        "de": "zulässige Dauer",
-        "fr": "durée éligible",
-        "es": "duración elegible"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/eligibleQuantity",
-      "prefLabel": {
-        "en": "eligible quantity",
-        "de": "zugelassene Menge",
-        "fr": "quantité éligible",
-        "es": "cantidad elegible"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/eligibleRegion",
-      "prefLabel": {
-        "en": "eligible region",
-        "de": "zugelassene Region",
-        "fr": "région éligible",
-        "es": "región elegible"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/eligibleTransactionVolume",
-      "prefLabel": {
-        "en": "eligible transaction volume",
-        "de": "zugelassenes Transaktionsvolumen",
-        "fr": "volume de transaction éligible",
-        "es": "volumen de transacciones elegible"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/employee",
       "prefLabel": {
         "en": "employee",
@@ -6686,15 +7019,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/funding",
-      "prefLabel": {
-        "en": "funding",
-        "de": "Finanzierung",
-        "fr": "financement",
-        "es": "financiación"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/gameEdition",
       "prefLabel": {
         "en": "game edition",
@@ -6812,60 +7136,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/gtin",
-      "prefLabel": {
-        "en": "GTIN",
-        "de": "GTIN",
-        "fr": "GTIN",
-        "es": "GTIN"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/gtin12",
-      "prefLabel": {
-        "en": "GTIN12",
-        "de": "GTIN12",
-        "fr": "GTIN12",
-        "es": "GTIN12"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/gtin13",
-      "prefLabel": {
-        "en": "GTIN13",
-        "de": "GTIN13",
-        "fr": "GTIN13",
-        "es": "GTIN13"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/gtin14",
-      "prefLabel": {
-        "en": "GTIN14",
-        "de": "GTIN14",
-        "fr": "GTIN14",
-        "es": "GTIN14"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/gtin8",
-      "prefLabel": {
-        "en": "GTIN8",
-        "de": "GTIN8",
-        "fr": "GTIN8",
-        "es": "GTIN8"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/hasAdultConsideration",
-      "prefLabel": {
-        "en": "has adult consideration",
-        "de": "hat erwachsene Berücksichtigung",
-        "fr": "a considération de l'adulte",
-        "es": "tiene consideración de adulto"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/hasCourseInstance",
       "prefLabel": {
         "en": "has course instance",
@@ -6893,30 +7163,12 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/hasMeasurement",
-      "prefLabel": {
-        "en": "has measurement",
-        "de": "hat Messung",
-        "fr": "a mesure",
-        "es": "tiene medida"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/hasMenu",
       "prefLabel": {
         "en": "has menu",
         "de": "hat Menü",
         "fr": "a menu",
         "es": "tiene menú"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/hasMerchantReturnPolicy",
-      "prefLabel": {
-        "en": "has merchant return policy",
-        "de": "hat Rückgaberecht des Händlers",
-        "fr": "a la politique de retour du commerçant",
-        "es": "tiene política de devolución del comerciante"
       }
     },
     {
@@ -6980,15 +7232,6 @@
         "de": "Daten aus dem Gesundheitswesen",
         "fr": "données de déclaration des soins de santé",
         "es": "datos de información sanitaria"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/height",
-      "prefLabel": {
-        "en": "height",
-        "de": "Höhe",
-        "fr": "hauteur",
-        "es": "altura"
       }
     },
     {
@@ -7136,24 +7379,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/includesObject",
-      "prefLabel": {
-        "en": "includes object",
-        "de": "schließt Objekt ein",
-        "fr": "inclut l'objet",
-        "es": "incluye objeto"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/ineligibleRegion",
-      "prefLabel": {
-        "en": "ineligible region",
-        "de": "nicht förderfähige Region",
-        "fr": "région non admissible",
-        "es": "región no elegible"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/ingredients",
       "prefLabel": {
         "en": "ingredients",
@@ -7217,15 +7442,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/inventoryLevel",
-      "prefLabel": {
-        "en": "inventory level",
-        "de": "Bestandsebene",
-        "fr": "niveau d'inventaire",
-        "es": "nivel de inventario"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/isAcceptingNewPatients",
       "prefLabel": {
         "en": "is accepting new patients",
@@ -7253,15 +7469,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/isFamilyFriendly",
-      "prefLabel": {
-        "en": "is family friendly",
-        "de": "ist familienfreundlich",
-        "fr": "est adapté aux familles",
-        "es": "es familiar"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/isLiveBroadcast",
       "prefLabel": {
         "en": "is live broadcast",
@@ -7286,24 +7493,6 @@
         "de": "ist ein Plan für eine Wohnung",
         "fr": "est le plan d'un appartement",
         "es": "es plan para el apartamento"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/isRelatedTo",
-      "prefLabel": {
-        "en": "is related to",
-        "de": "ist verwandt mit",
-        "fr": "est lié à",
-        "es": "está relacionado con"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/isSimilarTo",
-      "prefLabel": {
-        "en": "is similar to",
-        "de": "ist ähnlich zu",
-        "fr": "est similaire à",
-        "es": "es similar a"
       }
     },
     {
@@ -7388,15 +7577,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/itemCondition",
-      "prefLabel": {
-        "en": "item condition",
-        "de": "Item-Bedingung",
-        "fr": "condition de l'article",
-        "es": "condición del artículo"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/itemListElement",
       "prefLabel": {
         "en": "item list element",
@@ -7415,15 +7595,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/itemOffered",
-      "prefLabel": {
-        "en": "item offered",
-        "de": "angebotener Artikel",
-        "fr": "élément offert",
-        "es": "elemento ofrecido"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/itinerary",
       "prefLabel": {
         "en": "itinerary",
@@ -7439,15 +7610,6 @@
         "de": "Auftragstitel",
         "fr": "titre du poste",
         "es": "título del trabajo"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/keywords",
-      "prefLabel": {
-        "en": "keywords",
-        "de": "Schlüsselwörter",
-        "fr": "mots-clés",
-        "es": "palabras clave"
       }
     },
     {
@@ -7568,15 +7730,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/logo",
-      "prefLabel": {
-        "en": "logo",
-        "de": "Logo",
-        "fr": "logo",
-        "es": "logotipo"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/lyricist",
       "prefLabel": {
         "en": "lyricist",
@@ -7637,15 +7790,6 @@
         "de": "Impressum",
         "fr": "tête de mât",
         "es": "cabecera"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/material",
-      "prefLabel": {
-        "en": "material",
-        "de": "Material",
-        "fr": "matériau",
-        "es": "material"
       }
     },
     {
@@ -7772,15 +7916,6 @@
         "de": "Missionsabdeckung Prioritäten Politik",
         "fr": "mission couverture priorités politique",
         "es": "política de prioridades de cobertura de la misión"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/mpn",
-      "prefLabel": {
-        "en": "mpn",
-        "de": "mpn",
-        "fr": "mpn",
-        "es": "mpn"
       }
     },
     {
@@ -8009,15 +8144,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/nutrition",
-      "prefLabel": {
-        "en": "nutrition",
-        "de": "Ernährung",
-        "fr": "nutrition",
-        "es": "nutrición"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/occupancy",
       "prefLabel": {
         "en": "occupancy",
@@ -8042,15 +8168,6 @@
         "de": "angeboten von",
         "fr": "offert par",
         "es": "ofrecida por"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/offers",
-      "prefLabel": {
-        "en": "offers",
-        "de": "Angebote",
-        "fr": "offres",
-        "es": "ofrece"
       }
     },
     {
@@ -8234,15 +8351,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/pattern",
-      "prefLabel": {
-        "en": "pattern",
-        "de": "Muster",
-        "fr": "modèle",
-        "es": "patrón"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/paymentAccepted",
       "prefLabel": {
         "en": "payment accepted",
@@ -8384,15 +8492,6 @@
         "de": "Preisspanne",
         "fr": "fourchette de prix",
         "es": "rango de precios"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/priceSpecification",
-      "prefLabel": {
-        "en": "price specification",
-        "de": "Preisangabe",
-        "fr": "spécification du prix",
-        "es": "especificación del precio"
       }
     },
     {
@@ -8711,24 +8810,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/review",
-      "prefLabel": {
-        "en": "review",
-        "de": "Überprüfung",
-        "fr": "examen",
-        "es": "revisión"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/reviews",
-      "prefLabel": {
-        "en": "reviews",
-        "de": "Überprüfungen",
-        "fr": "examens",
-        "es": "revisiones"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/runtime",
       "prefLabel": {
         "en": "runtime",
@@ -8828,24 +8909,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/seller",
-      "prefLabel": {
-        "en": "seller",
-        "de": "Verkäufer",
-        "fr": "vendeur",
-        "es": "vendedor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/serialNumber",
-      "prefLabel": {
-        "en": "serial number",
-        "de": "Seriennummer",
-        "fr": "numéro de série",
-        "es": "número de serie"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/servesCuisine",
       "prefLabel": {
         "en": "serves cuisine",
@@ -8924,24 +8987,6 @@
         "de": "Geschwister",
         "fr": "frères et sœurs",
         "es": "hermanos"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/size",
-      "prefLabel": {
-        "en": "size",
-        "de": "Größe",
-        "fr": "taille",
-        "es": "talla"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/sku",
-      "prefLabel": {
-        "en": "SKU",
-        "de": "SKU",
-        "fr": "SKU",
-        "es": "SKU"
       }
     },
     {
@@ -9113,15 +9158,6 @@
         "de": "Untertitel Sprache",
         "fr": "langue de sous-titre",
         "es": "idioma de los subtítulos"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/suitableForDiet",
-      "prefLabel": {
-        "en": "suitable for diet",
-        "de": "für die Ernährung geeignet",
-        "fr": "adapté au régime alimentaire",
-        "es": "adecuado para la dieta"
       }
     },
     {
@@ -9494,30 +9530,12 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/validFrom",
-      "prefLabel": {
-        "en": "valid from",
-        "de": "gültig von",
-        "fr": "valable à partir de",
-        "es": "válido desde"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/validIn",
       "prefLabel": {
         "en": "valid in",
         "de": "gültig in",
         "fr": "valide dans",
         "es": "válido en"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/validThrough",
-      "prefLabel": {
-        "en": "valid through",
-        "de": "gültig durch",
-        "fr": "valide par",
-        "es": "válido a través de"
       }
     },
     {
@@ -9575,15 +9593,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/warranty",
-      "prefLabel": {
-        "en": "warranty",
-        "de": "Garantie",
-        "fr": "garantie",
-        "es": "garantía"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/webCheckinTime",
       "prefLabel": {
         "en": "web checkin time",
@@ -9599,15 +9608,6 @@
         "de": "Web-Feed",
         "fr": "flux web",
         "es": "alimentación de la web"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/weight",
-      "prefLabel": {
-        "en": "weight",
-        "de": "Gewicht",
-        "fr": "poids",
-        "es": "peso"
       }
     },
     {
@@ -9695,10 +9695,10 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub: Functions and Relations",
-      "de": "ActivityPub: Funktionen und Verbindungen",
-      "fr": "ActivityPub: Functions and Relations",
-      "es": "ActivityPub: Functions and Relations"
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
   },
   "@context": {

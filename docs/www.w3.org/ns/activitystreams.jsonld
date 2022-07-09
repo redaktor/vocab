@@ -1,19 +1,19 @@
 {
-  "id": "http://www.w3.org/ns/activitystreams#totalItems",
+  "id": "http://www.w3.org/ns/activitystreams#url",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23totalItems",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23totalItems",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23url",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23url",
   "prefLabel": {
-    "en": "total items",
-    "de": "Gesamtanzahl",
-    "fr": "Nombre total",
-    "es": "Número total"
+    "en": "url",
+    "de": "url",
+    "fr": "url",
+    "es": "url"
   },
   "definition": {
-    "en": "A non-negative integer specifying the total number of objects contained by the logical view of the collection. This number might not reflect the actual number of items serialized within the Collection object instance.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems)",
-    "de": "Eine nicht-negative ganze Zahl, die die Gesamtzahl der Objekte angibt, die in der logischen Sicht der Sammlung enthalten sind. Diese Zahl spiegelt möglicherweise nicht die tatsächliche Anzahl der in der Collection-Objektinstanz serialisierten Objekte wider.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems)",
-    "fr": "Un nombre entier non négatif spécifiant le nombre total d'objets contenus dans la vue logique de la collection. Ce nombre peut ne pas refléter le nombre réel d'éléments sérialisés dans l'instance de l'objet Collection.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems)",
-    "es": "Un número entero no negativo que especifica el número total de objetos que contiene la vista lógica de la colección. Este número puede no reflejar el número real de elementos serializados dentro de la instancia del objeto Colección.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems)"
+    "en": "Identifies one or more links to representations of the object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)",
+    "de": "Kennzeichnet einen oder mehrere Links zu Darstellungen des Objekts.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)",
+    "fr": "Identifie un ou plusieurs liens vers des représentations de l'objet.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)",
+    "es": "Identifica uno o varios enlaces a representaciones del objeto.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)"
   },
   "scopeNote": {
     "en": "as: Property",
@@ -22,30 +22,30 @@
     "es": "as: Property"
   },
   "notation": [
-    "616"
+    "339"
   ],
   "example": {
-    "en": "[Example 135](https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's notes\",\n  \"type\": \"Collection\",\n  \"totalItems\": 2,\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"Which Staircase Should I Use\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Something to Remember\"\n    }\n  ]\n}\n```",
-    "de": "[Beispiel 135](https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's notes\",\n  \"type\": \"Collection\",\n  \"totalItems\": 2,\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"Which Staircase Should I Use\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Something to Remember\"\n    }\n  ]\n}\n```",
-    "fr": "[Exemple 135](https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's notes\",\n  \"type\": \"Collection\",\n  \"totalItems\": 2,\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"Which Staircase Should I Use\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Something to Remember\"\n    }\n  ]\n}\n```",
-    "es": "[Ejemplo 135](https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's notes\",\n  \"type\": \"Collection\",\n  \"totalItems\": 2,\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"Which Staircase Should I Use\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Something to Remember\"\n    }\n  ]\n}\n```"
+    "en": "[Example 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Document\",\n  \"name\": \"4Q Sales Forecast\",\n  \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n}\n```",
+    "de": "[Beispiel 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Document\",\n  \"name\": \"4Q Sales Forecast\",\n  \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n}\n```",
+    "fr": "[Exemple 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Document\",\n  \"name\": \"4Q Sales Forecast\",\n  \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n}\n```",
+    "es": "[Ejemplo 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Document\",\n  \"name\": \"4Q Sales Forecast\",\n  \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n}\n```"
   },
   "broader": {
-    "id": "http://www.w3.org/ns/activitystreams#Collection",
+    "id": "http://www.w3.org/ns/activitystreams#Object",
     "prefLabel": {
-      "en": "Collection",
-      "de": "Sammlung",
-      "fr": "Collection",
-      "es": "Colección"
+      "en": "Object",
+      "de": "Objekt",
+      "fr": "Objet",
+      "es": "Objeto"
     }
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub: Functions and Relations",
-      "de": "ActivityPub: Funktionen und Verbindungen",
-      "fr": "ActivityPub: Functions and Relations",
-      "es": "ActivityPub: Functions and Relations"
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
   },
   "@context": {
@@ -73,6 +73,79 @@
     },
     "created": {
       "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}ontainer": "@set"
+    }
+  }
+}  "@id": "dct:created",
       "@type": "xsd:date"
     },
     "modified": {
@@ -217,7 +290,7 @@
       "@container": "@set"
     }
   }
-}om/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"
+}d.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/Actor",
@@ -231,10 +304,10 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub: Functions and Relations",
-      "de": "ActivityPub: Funktionen und Verbindungen",
-      "fr": "ActivityPub: Functions and Relations",
-      "es": "ActivityPub: Functions and Relations"
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
   },
   "@context": {
@@ -388,12 +461,7 @@
       "@container": "@set"
     }
   }
-}   "es": "upload Media Endpoint"
-      }
-    }
-  ],
-  "broader": {
-    "id": "https://w3id.org/class/redaktor/Actor",
+}   "id": "https://w3id.org/class/redaktor/Actor",
     "prefLabel": {
       "en": "Actor",
       "de": "Akteur",
@@ -404,10 +472,10 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub: Functions and Relations",
-      "de": "ActivityPub: Funktionen und Verbindungen",
-      "fr": "ActivityPub: Functions and Relations",
-      "es": "ActivityPub: Functions and Relations"
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
   },
   "@context": {
@@ -504,11 +572,8 @@
       "@container": "@set"
     }
   }
-}prefLabel": {
-        "en": "weight",
-        "de": "Gewicht",
-        "fr": "poids",
-        "es": "peso"
+}: "vat ID",
+        "es": "ID del iva"
       }
     },
     {
@@ -542,10 +607,10 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub: Functions and Relations",
-      "de": "ActivityPub: Funktionen und Verbindungen",
-      "fr": "ActivityPub: Functions and Relations",
-      "es": "ActivityPub: Functions and Relations"
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
   },
   "@context": {
@@ -642,7 +707,23 @@
       "@container": "@set"
     }
   }
-}n": "nonprofit status",
+}": "membres",
+        "es": "miembros"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/naics",
+      "prefLabel": {
+        "en": "naics",
+        "de": "naics",
+        "fr": "naics",
+        "es": "naics"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/nonprofitStatus",
+      "prefLabel": {
+        "en": "nonprofit status",
         "de": "Status der Gemeinnützigkeit",
         "fr": "statut d'organisme à but non lucratif",
         "es": "estatus sin ánimo de lucro"
@@ -691,24 +772,6 @@
         "de": "Verlagsgrundsätze",
         "fr": "principes d'édition",
         "es": "principios de publicación"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/review",
-      "prefLabel": {
-        "en": "review",
-        "de": "Überprüfung",
-        "fr": "examen",
-        "es": "revisión"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/reviews",
-      "prefLabel": {
-        "en": "reviews",
-        "de": "Überprüfungen",
-        "fr": "examens",
-        "es": "revisiones"
       }
     },
     {
@@ -787,10 +850,10 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub: Functions and Relations",
-      "de": "ActivityPub: Funktionen und Verbindungen",
-      "fr": "ActivityPub: Functions and Relations",
-      "es": "ActivityPub: Functions and Relations"
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
   },
   "@context": {
@@ -887,23 +950,7 @@
       "@container": "@set"
     }
   }
-}}
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/availabilityStarts",
-      "prefLabel": {
-        "en": "availability starts",
-        "de": "Verfügbarkeit beginnt",
-        "fr": "la disponibilité commence",
-        "es": "la disponibilidad comienza"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/availableAtOrFrom",
-      "prefLabel": {
-        "en": "available at or from",
-        "de": "verfügbar bei oder von",
-        "fr": "disponible à ou de",
+}: "disponible à ou de",
         "es": "disponible en o desde"
       }
     },
@@ -1352,10 +1399,10 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub: Functions and Relations",
-      "de": "ActivityPub: Funktionen und Verbindungen",
-      "fr": "ActivityPub: Functions and Relations",
-      "es": "ActivityPub: Functions and Relations"
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
   },
   "topConceptOf": {

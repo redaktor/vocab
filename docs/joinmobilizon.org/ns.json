@@ -1,62 +1,36 @@
 {
-  "id": "https://joinmobilizon.org/ns#repliesModerationOptionType",
+  "id": "https://joinmobilizon.org/ns#participationMessage",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinmobilizon.org%2Fns%23repliesModerationOptionType",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinmobilizon.org%2Fns%23repliesModerationOptionType",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinmobilizon.org%2Fns%23participationMessage",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinmobilizon.org%2Fns%23participationMessage",
   "prefLabel": {
-    "en": "repliesModerationOptionType",
-    "de": "repliesModerationOptionType",
-    "fr": "repliesModerationOptionType",
-    "es": "repliesModerationOptionType"
+    "en": "participation message",
+    "de": "Nachricht zur Teilnahme",
+    "fr": "message de participation",
+    "es": "participación en el mensaje"
+  },
+  "definition": {
+    "en": "We add a participationMessage property on a Join activity so that participants may transmit a note to event organizers, to motivate their participation when event participations are manually approved. This field is restricted to plain text.",
+    "de": "Wir fügen eine participationMessage-Eigenschaft zu einer Join-Aktivität hinzu, damit die Teilnehmer eine Notiz an die Organisatoren der Veranstaltung übermitteln können, um ihre Teilnahme zu motivieren, wenn die Teilnahme an der Veranstaltung manuell genehmigt wird. Dieses Feld ist auf einfachen Text beschränkt.",
+    "fr": "Nous ajoutons une propriété participationMessage sur une activité Join afin que les participants puissent transmettre une note aux organisateurs d'événements, pour motiver leur participation lorsque les participations aux événements sont approuvées manuellement. Ce champ est limité à du texte brut.",
+    "es": "Añadimos una propiedad participationMessage en una actividad de Join para que los participantes puedan transmitir una nota a los organizadores del evento, para motivar su participación cuando las participaciones del evento se aprueban manualmente. Este campo está restringido a texto plano."
   },
   "notation": [
-    "1052"
+    "1056"
   ],
-  "narrower": [
-    {
-      "id": "https://w3id.org/class/redaktor/allow_all",
-      "prefLabel": {
-        "en": "allow_all",
-        "de": "allow_all",
-        "fr": "allow_all",
-        "es": "allow_all"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/closed",
-      "prefLabel": {
-        "en": "closed",
-        "de": "closed",
-        "fr": "closed",
-        "es": "closed"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/moderated",
-      "prefLabel": {
-        "en": "moderated",
-        "de": "moderated",
-        "fr": "moderated",
-        "es": "moderated"
-      }
-    }
-  ],
-  "broader": {
-    "id": "https://joinmobilizon.org/ns#repliesModerationOption",
-    "prefLabel": {
-      "en": "repliesModerationOption",
-      "de": "repliesModerationOption",
-      "fr": "repliesModerationOption",
-      "es": "repliesModerationOption"
-    }
+  "example": {
+    "en": "```json \n{\n  \"type\": \"Join\",\n  \"object\": \"http://mobilizon.test/events/some-uuid\",\n  \"id\": \"http://mobilizon2.test/@admin/join/event/1\",\n  \"actor\": \"http://mobilizon2.test/@admin\",\n  \"participationMessage\": \"I want to join !\",\n  \"@context\": [\n    {\n      \"participationMessage\": {\n        \"@id\": \"mz:participationMessage\",\n        \"@type\": \"sc:Text\"\n      }\n    }\n  ]\n}```",
+    "de": "```json \n{\n  \"type\": \"Join\",\n  \"object\": \"http://mobilizon.test/events/some-uuid\",\n  \"id\": \"http://mobilizon2.test/@admin/join/event/1\",\n  \"actor\": \"http://mobilizon2.test/@admin\",\n  \"participationMessage\": \"I want to join !\",\n  \"@context\": [\n    {\n      \"participationMessage\": {\n        \"@id\": \"mz:participationMessage\",\n        \"@type\": \"sc:Text\"\n      }\n    }\n  ]\n}```",
+    "fr": "```json \n{\n  \"type\": \"Join\",\n  \"object\": \"http://mobilizon.test/events/some-uuid\",\n  \"id\": \"http://mobilizon2.test/@admin/join/event/1\",\n  \"actor\": \"http://mobilizon2.test/@admin\",\n  \"participationMessage\": \"I want to join !\",\n  \"@context\": [\n    {\n      \"participationMessage\": {\n        \"@id\": \"mz:participationMessage\",\n        \"@type\": \"sc:Text\"\n      }\n    }\n  ]\n}```",
+    "es": "```json \n{\n  \"type\": \"Join\",\n  \"object\": \"http://mobilizon.test/events/some-uuid\",\n  \"id\": \"http://mobilizon2.test/@admin/join/event/1\",\n  \"actor\": \"http://mobilizon2.test/@admin\",\n  \"participationMessage\": \"I want to join !\",\n  \"@context\": [\n    {\n      \"participationMessage\": {\n        \"@id\": \"mz:participationMessage\",\n        \"@type\": \"sc:Text\"\n      }\n    }\n  ]\n}```"
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub: Functions and Relations",
-      "de": "ActivityPub: Funktionen und Verbindungen",
-      "fr": "ActivityPub: Functions and Relations",
-      "es": "ActivityPub: Functions and Relations"
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
   },
   "@context": {
@@ -153,40 +127,7 @@
       "@container": "@set"
     }
   }
-}Enabled\",\n        \"@type\": \"sc:Boolean\"\n      }\n    }\n  ],\n  \"...\": \"...\",\n  \"repliesModerationOption\": \"allow_all\",\n  \"commentsEnabled\": true,\n  \"type\": \"Event\",\n  \"url\": \"http://mobilizon1.com/events/8cf76e9f-c426-4912-9cd6-c7030b969611\"\n}``` ",
-    "es": "```json \n{\n  \"@context\": [\n    \"...\",\n    {\n      \"mz\": \"https://joinmobilizon.org/ns#\",\n      \"pt\": \"https://joinpeertube.org/ns#\",\n      \"repliesModerationOption\": {\n        \"@id\": \"mz:repliesModerationOption\",\n        \"@type\": \"mz:repliesModerationOptionType\"\n      },\n      \"repliesModerationOptionType\": {\n        \"@id\": \"mz:repliesModerationOptionType\",\n        \"@type\": \"rdfs:Class\"\n      },\n      \"commentsEnabled\": {\n        \"@id\": \"pt:commentsEnabled\",\n        \"@type\": \"sc:Boolean\"\n      }\n    }\n  ],\n  \"...\": \"...\",\n  \"repliesModerationOption\": \"allow_all\",\n  \"commentsEnabled\": true,\n  \"type\": \"Event\",\n  \"url\": \"http://mobilizon1.com/events/8cf76e9f-c426-4912-9cd6-c7030b969611\"\n}``` "
-  },
-  "narrower": [
-    {
-      "id": "https://joinmobilizon.org/ns#repliesModerationOptionType",
-      "prefLabel": {
-        "en": "repliesModerationOptionType",
-        "de": "repliesModerationOptionType",
-        "fr": "repliesModerationOptionType",
-        "es": "repliesModerationOptionType"
-      }
-    }
-  ],
-  "inScheme": {
-    "id": "https://w3id.org/class/redaktor/scheme",
-    "title": {
-      "en": "ActivityPub: Functions and Relations",
-      "de": "ActivityPub: Funktionen und Verbindungen",
-      "fr": "ActivityPub: Functions and Relations",
-      "es": "ActivityPub: Functions and Relations"
-    }
-  },
-  "@context": {
-    "@version": 1.1,
-    "id": "@id",
-    "type": "@type",
-    "@vocab": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "dct": "http://purl.org/dc/terms/",
-    "schema": "http://schema.org/",
-    "vann": "http://purl.org/vocab/vann/",
-    "as": "https://www.w3.org/ns/activitystreams#",
-    "ldp": "http://www.w3.org/ns/ldp#",
+}/www.w3.org/ns/ldp#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"

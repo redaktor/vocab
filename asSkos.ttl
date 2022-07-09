@@ -59,16 +59,17 @@
 
 :scheme a skos:ConceptScheme ;
     dct:alternative "redaktorVocab" ;
-    dct:description "**Beschreibt die Funktionen von Akteuren, Orten, Kontext und Anhängen in redaktor.**<br>Das Vokabular wird im Zusammenhang mit mehreren Quellen entwickelt und gepflegt;<br>z.B. https://wikidata.org, https://themoviedb.org oder https://id.loc.gov/vocabulary/relators. Die zugrundeliegende Turtle Datei enthält das mapping mit Konvertierungs-Schemas [WIP]"@de,
-    "**Describes the functions of actors, places, context and attachment in redaktor.**<br>The vocabulary is developed and maintained in the context of multiple sources,<br>e.g. https://wikidata.org, https://themoviedb.org or https://id.loc.gov/vocabulary/relators <br>The underlying turtle file maintains the mapping with conversion schemes [WIP]"@en,
-    "**Describes the functions of actors, places, context and attachment in redaktor.**<br>The vocabulary is developed and maintained in the context of multiple sources,<br>e.g. https://wikidata.org, https://themoviedb.org or https://id.loc.gov/vocabulary/relators <br>The underlying turtle file maintains the mapping with conversion schemes [WIP]"@fr,
-    "**Describes the functions of actors, places, context and attachment in redaktor.**<br>The vocabulary is developed and maintained in the context of multiple sources,<br>e.g. https://wikidata.org, https://themoviedb.org or https://id.loc.gov/vocabulary/relators <br>The underlying turtle file maintains the mapping with conversion schemes [WIP]"@es ;
+    dct:description "**Beschreibt die Funktion von Akteuren, Orten, Kontext und Anhängen im Fediverse.**<br>Das Vokabular wird im Zusammenhang mit mehreren Quellen entwickelt und gepflegt;<br>z.B. https://wikidata.org, https://themoviedb.org oder https://id.loc.gov/vocabulary/relators. Die zugrundeliegende Turtle Datei enthält das mapping mit Konvertierungs-Schemas [WIP]"@de,
+    "**Describes the function of actors, places, context and attachment in the fediverse.**<br>The vocabulary is developed and maintained in the context of multiple sources,<br>e.g. https://wikidata.org, https://themoviedb.org or https://id.loc.gov/vocabulary/relators <br>The underlying turtle file maintains the mapping with conversion schemes [WIP]"@en,
+    "**Décrit la fonction des acteurs, des lieux, du contexte et de l'attachement dans le fediverse.**<br>Le vocabulaire est développé et entretenu dans le contexte de sources multiples,<br>par ex. https://wikidata.org, https://themoviedb.org or https://id.loc.gov/vocabulary/relators <br>Le fichier tortue sous-jacent maintient la correspondance avec les schémas de conversion [WIP]"@fr,
+    "**Describe la función de los actores, los lugares, el contexto y el apego en el fediverse.**<br>El vocabulario se desarrolla y se mantiene en el contexto de múltiples fuentes,<br>por ejemplo https://wikidata.org, https://themoviedb.org o https://id.loc.gov/vocabulary/relators <br>El archivo de tortuga subyacente mantiene el mapeo con los esquemas de conversión [WIP]"@es ;
     dct:issued "2022-04-10"^^xsd:date ;
     dct:modified "2022-04-11"^^xsd:date ;
     dct:publisher "Sebastian Lasse" ;
     dct:source <https://redaktor.me> ;
-    dct:title "ActivityPub: Funktionen und Verbindungen"@de, "ActivityPub: Functions and Relations"@en, "ActivityPub: Functions and Relations"@fr, "ActivityPub: Functions and Relations"@es ;
-    skos:prefLabel "ActivityPub"@de, "ActivityPub"@en, "ActivityPub"@fr, "ActivityPub"@es ;
+    dct:title "ActivityPub und Freunde - Eine Ontolgie des Fediverse"@de, "ActivityPub and friends – An ontology of the fediverse"@en, "ActivityPub et ses amis - Une ontologie du fediverse"@fr, "ActivityPub y sus amigos - Una ontología del fediverso"@es ;
+    skos:prefLabel "Fediverse"@de, "Fediverse"@en, "Fediverse"@fr, "Fediverse"@es ;
+    skos:altLabel "ActivityPub"@de, "ActivityPub"@en, "ActivityPub"@fr, "ActivityPub"@es ;
     vann:preferredNamespacePrefix "redaktor" ;
     vann:preferredNamespaceUri "https://w3id.org/class/redaktor/" ;
     skos:hasTopConcept as:Object, as:Link, :Community, :Discussion .
@@ -114,20 +115,33 @@ as:Activity a owl:Class, skos:Concept ;
 as:Object a owl:Class, skos:Concept ;
     skos:inScheme :scheme ;
     skos:topConceptOf :scheme ;
-    skos:narrower :Actor, as:Activity, as:IntransitiveActivity, as:Document,
-      as:Article, as:Audio, as:Event, as:Image, as:Note, as:Page, as:Place,
-      as:Profile, as:Relationship, as:Video, as:Tombstone, pt:PlaylistElement,
-      schema:PropertyValue, as:id, as:type,
-      as:attributedTo, as:preview, as:height, as:width, as:mediaType,
-      as:name, as:nameMap, as:sensitive, as:Hashtag, toot:Emoji, toot:IdentityProof,
-      as:attachment, as:audience, as:to, as:bto, as:cc, as:bcc, as:content, as:contentMap,
-      as:context, as:describes, as:duration, as:startTime, as:endTime, as:generator,
-      as:icon, as:image, as:inReplyTo, as:location, as:published, as:replies,
-      as:source, as:summary, as:summaryMap, as:tag, as:url, as:updated,
-      toot:featured, pt:commentsEnabled, pt:downloadEnabled,
-      pt:playlists, pt:size, pt:support, pt:views, lite:ChatMessage,
-      schema:value, schema:identifier, schema:license, schema:inLanguage,
-      schema:datePublished, mz:repliesModerationOption, lm:stickied, lm:moderators ;
+    skos:narrower :Actor, as:Activity, as:IntransitiveActivity, as:Collection, as:CollectionPage,
+      as:OrderedCollection, as:OrderedCollectionPage, as:Audio, as:Article,
+      as:Document, as:Event, as:Hashtag, as:Image, as:Note, as:Page, as:Place,
+      as:Profile, as:Relationship, as:Video, as:Tombstone, toot:Emoji, toot:IdentityProof,
+      :AlignmentObject, :Audience, :Brand, :ComputerLanguage, :DefinedTerm, :FloorPlan,
+      :GeoShape, :Grant, :ItemList, :ListItem, :OrderItem, :ProgramMembership, :Ticket,
+      schema:PropertyValue,
+      as:id, as:type, as:attachment, as:attributedTo, as:bcc, as:bto, as:cc, as:content,
+      as:contentMap, as:context, as:describes, as:duration, as:generator, as:height,
+      as:icon, as:image, as:inReplyTo, as:location, as:mediaType, as:name, as:nameMap,
+      as:preview, as:published, as:replies, as:startTime, as:endTime, as:sensitive,
+      as:source, as:summary, as:summaryMap, as:tag, as:to, as:updated, as:url, as:width,
+      toot:featured, pt:PlaylistElement, pt:commentsEnabled, pt:downloadEnabled,
+      pt:playlists, pt:size, pt:support, pt:views, lite:ChatMessage, dct:creator,
+      dct:created, schema:value, schema:identifier, schema:license, schema:datePublished,
+      mz:repliesModerationOption, lm:stickied, as:audience, :isAccessibleForFree,
+      :acceptedPaymentMethod, :advanceBookingRequirement, :areaServed, :audience,
+      :availability, :availabilityEnds, :availabilityStarts, :availableAtOrFrom,
+      :availableDeliveryMethod, :awards, :brand, :businessFunction, :category,
+      :countryOfOrigin, :deliveryLeadTime, :eligibleCustomerType, :eligibleDuration,
+      :eligibleQuantity, :eligibleRegion, :eligibleTransactionVolume, :funding,
+      :gtin, :gtin12, :gtin13, :gtin14, :gtin8, :hasAdultConsideration, :hasMeasurement,
+      :hasMerchantReturnPolicy, :height, :includesObject, :ineligibleRegion,
+      :inventoryLevel, :isFamilyFriendly, :isRelatedTo, :isSimilarTo, :itemCondition,
+      :itemOffered, :keywords, :logo, :material, :mpn, :nutrition, :offers, :pattern,
+      :priceSpecification, :review, :reviews, :seller, :serialNumber, :size, :sku,
+      :suitableForDiet, :validFrom, :validThrough, :warranty, :weight ;
     skos:notation "0" ;
     skos:prefLabel "Objekt"@de, "Object"@en, "Objet"@fr, "Objeto"@es ;
     skos:definition "Beschreibt ein Objekt jeglicher Art. Der Typ Objekt dient als Basistyp für die meisten anderen im Activity Vocabulary definierten Objektarten.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-object](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-object)"@de,
@@ -1017,7 +1031,7 @@ as:preview a owl:ObjectProperty, skos:Concept ;
     owl:unionOf ( as:Object as:Link )
   ] .
 
-as:provider a owl:ObjectProperty, owl:DeprecatedProperty ;
+as:provider a owl:DeprecatedProperty ;
   rdfs:label "provider"@en ;
   rdfs:domain as:Object ;
   rdfs:range [
@@ -1514,7 +1528,7 @@ as:nameMap a owl:DatatypeProperty, skos:Concept ;
     owl:unionOf ( rdf:langString xsd:string )
   ] .
 
-as:objectType a owl:DatatypeProperty, owl:FunctionalProperty, owl:DeprecatedProperty ;
+as:objectType a owl:DeprecatedProperty ;
   rdfs:label "objectType"@en ;
   rdfs:domain as:Object ;
   rdfs:range xsd:anyURI .

@@ -1,19 +1,19 @@
 {
-  "id": "https://joinpeertube.org/ns#stopTimestamp",
+  "id": "https://joinpeertube.org/ns#views",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinpeertube.org%2Fns%23stopTimestamp",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinpeertube.org%2Fns%23stopTimestamp",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinpeertube.org%2Fns%23views",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinpeertube.org%2Fns%23views",
   "prefLabel": {
-    "en": "stop timestamp",
-    "de": "stop Zeitstempel",
-    "fr": "stop timestamp",
-    "es": "stop timestamp"
+    "en": "views",
+    "de": "views",
+    "fr": "vues",
+    "es": "vistas"
   },
   "definition": {
-    "en": "number, format: seconds<br>in [PlaylistElement](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)",
-    "de": "Nummer, Format: Sekunden<br>in [PlaylistElement](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)",
-    "fr": "nombre, format : secondes<br>in [PlaylistElement](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)",
-    "es": "número, formato: segundos<br>in [PlaylistElement](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)"
+    "en": "views count of the video<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
+    "de": "Anzahl der Aufrufe<br>siehe [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
+    "fr": "nombre de vues<br>voir [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
+    "es": "conteo de vistas<br>ver [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)"
   },
   "scopeNote": {
     "en": "ActivityPub Community",
@@ -22,15 +22,21 @@
     "es": "ActivityPub Community"
   },
   "notation": [
-    "1033"
+    "1036"
   ],
+  "example": {
+    "en": "```json \n{\n  \"type\": \"Video\",\n  \"views\": 35,\n  \"support\": \"Pay me a coffee when you see me\",\n  \"waitTranscoding\": true\n}```",
+    "de": "```json \n{\n  \"type\": \"Video\",\n  \"views\": 35,\n  \"support\": \"Pay me a coffee when you see me\",\n  \"waitTranscoding\": true\n}```",
+    "fr": "```json \n{\n  \"type\": \"Video\",\n  \"views\": 35,\n  \"support\": \"Pay me a coffee when you see me\",\n  \"waitTranscoding\": true\n}```",
+    "es": "```json \n{\n  \"type\": \"Video\",\n  \"views\": 35,\n  \"support\": \"Pay me a coffee when you see me\",\n  \"waitTranscoding\": true\n}```"
+  },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub: Functions and Relations",
-      "de": "ActivityPub: Funktionen und Verbindungen",
-      "fr": "ActivityPub: Functions and Relations",
-      "es": "ActivityPub: Functions and Relations"
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
   },
   "@context": {
@@ -127,38 +133,6 @@
       "@container": "@set"
     }
   }
-}   "@container": "@set"
-    },
-    "related": {
-      "@container": "@set"
-    },
-    "relatedMatch": {
-      "@container": "@set"
-    },
-    "narrowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
 }
     },
     "narrowMatch": {
@@ -195,46 +169,6 @@
     }
   }
 }@set"
-    }
-  }
-}},
-    "notation": {
-      "@container": "@set"
-    },
-    "example": {
-      "@container": "@language"
-    },
-    "narrower": {
-      "@container": "@set"
-    },
-    "related": {
-      "@container": "@set"
-    },
-    "relatedMatch": {
-      "@container": "@set"
-    },
-    "narrowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
     }
   }
 }

@@ -20,6 +20,114 @@
   ],
   "narrower": [
     {
+      "id": "https://w3id.org/class/redaktor/audience",
+      "prefLabel": {
+        "en": "audience",
+        "de": "Publikum",
+        "fr": "public",
+        "es": "audiencia"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/awards",
+      "prefLabel": {
+        "en": "awards",
+        "de": "Auszeichnungen",
+        "fr": "prix",
+        "es": "premios"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/countryOfOrigin",
+      "prefLabel": {
+        "en": "country of origin",
+        "de": "Herkunftsland",
+        "fr": "pays d'origine",
+        "es": "país de origen"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/funding",
+      "prefLabel": {
+        "en": "funding",
+        "de": "Finanzierung",
+        "fr": "financement",
+        "es": "financiación"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/isFamilyFriendly",
+      "prefLabel": {
+        "en": "is family friendly",
+        "de": "ist familienfreundlich",
+        "fr": "est adapté aux familles",
+        "es": "es familiar"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/keywords",
+      "prefLabel": {
+        "en": "keywords",
+        "de": "Schlüsselwörter",
+        "fr": "mots-clés",
+        "es": "palabras clave"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/material",
+      "prefLabel": {
+        "en": "material",
+        "de": "Material",
+        "fr": "matériau",
+        "es": "material"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/offers",
+      "prefLabel": {
+        "en": "offers",
+        "de": "Angebote",
+        "fr": "offres",
+        "es": "ofrece"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/pattern",
+      "prefLabel": {
+        "en": "pattern",
+        "de": "Muster",
+        "fr": "modèle",
+        "es": "patrón"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/review",
+      "prefLabel": {
+        "en": "review",
+        "de": "Überprüfung",
+        "fr": "examen",
+        "es": "revisión"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/reviews",
+      "prefLabel": {
+        "en": "reviews",
+        "de": "Überprüfungen",
+        "fr": "examens",
+        "es": "revisiones"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/size",
+      "prefLabel": {
+        "en": "size",
+        "de": "Größe",
+        "fr": "taille",
+        "es": "talla"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/Atlas",
       "prefLabel": {
         "en": "Atlas",
@@ -488,15 +596,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/audience",
-      "prefLabel": {
-        "en": "audience",
-        "de": "Publikum",
-        "fr": "public",
-        "es": "audiencia"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/audio",
       "prefLabel": {
         "en": "audio",
@@ -512,15 +611,6 @@
         "de": "Autor",
         "fr": "auteur",
         "es": "autor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/awards",
-      "prefLabel": {
-        "en": "awards",
-        "de": "Auszeichnungen",
-        "fr": "prix",
-        "es": "premios"
       }
     },
     {
@@ -638,15 +728,6 @@
         "de": "Berichtigung",
         "fr": "correction",
         "es": "corrección"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/countryOfOrigin",
-      "prefLabel": {
-        "en": "country of origin",
-        "de": "Herkunftsland",
-        "fr": "pays d'origine",
-        "es": "país de origen"
       }
     },
     {
@@ -812,15 +893,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/funding",
-      "prefLabel": {
-        "en": "funding",
-        "de": "Finanzierung",
-        "fr": "financement",
-        "es": "financiación"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/genre",
       "prefLabel": {
         "en": "genre",
@@ -902,30 +974,12 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/isFamilyFriendly",
-      "prefLabel": {
-        "en": "is family friendly",
-        "de": "ist familienfreundlich",
-        "fr": "est adapté aux familles",
-        "es": "es familiar"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/isPartOf",
       "prefLabel": {
         "en": "is part of",
         "de": "ist Teil von",
         "fr": "est une partie de",
         "es": "es parte de"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/keywords",
-      "prefLabel": {
-        "en": "keywords",
-        "de": "Schlüsselwörter",
-        "fr": "mots-clés",
-        "es": "palabras clave"
       }
     },
     {
@@ -974,15 +1028,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/material",
-      "prefLabel": {
-        "en": "material",
-        "de": "Material",
-        "fr": "matériau",
-        "es": "material"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/materialExtent",
       "prefLabel": {
         "en": "material extent",
@@ -998,24 +1043,6 @@
         "de": "Erwähnungen",
         "fr": "mentions",
         "es": "menciones"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/offers",
-      "prefLabel": {
-        "en": "offers",
-        "de": "Angebote",
-        "fr": "offres",
-        "es": "ofrece"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/pattern",
-      "prefLabel": {
-        "en": "pattern",
-        "de": "Muster",
-        "fr": "modèle",
-        "es": "patrón"
       }
     },
     {
@@ -1100,24 +1127,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/review",
-      "prefLabel": {
-        "en": "review",
-        "de": "Überprüfung",
-        "fr": "examen",
-        "es": "revisión"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/reviews",
-      "prefLabel": {
-        "en": "reviews",
-        "de": "Überprüfungen",
-        "fr": "examens",
-        "es": "revisiones"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/schemaVersion",
       "prefLabel": {
         "en": "schema version",
@@ -1151,15 +1160,6 @@
         "de": "SD Redakteur",
         "fr": "SD éditeur",
         "es": "editor SD"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/size",
-      "prefLabel": {
-        "en": "size",
-        "de": "Größe",
-        "fr": "taille",
-        "es": "talla"
       }
     },
     {
@@ -1333,10 +1333,10 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub: Functions and Relations",
-      "de": "ActivityPub: Funktionen und Verbindungen",
-      "fr": "ActivityPub: Functions and Relations",
-      "es": "ActivityPub: Functions and Relations"
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
   },
   "@context": {
