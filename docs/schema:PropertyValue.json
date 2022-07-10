@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fschema%3APropertyValue",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fschema%3APropertyValue",
   "prefLabel": {
-    "en": "A property-value pair",
+    "en": "Property-value pair",
     "de": "Eigenschaft-Wert Paar",
     "fr": "Une paire propriété-valeur",
     "es": "Un par propiedad-valor"

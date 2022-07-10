@@ -24,6 +24,15 @@
     "fr": "```json \n{\n  \"type\": \"Video\",\n  \"id\": \"https://peertube2.cpy.re/videos/watch/...\",\n  \"name\": \"HLS test 1\",\n  \"duration\": \"PT730S\",\n  \"uuid\": \"969bf103-7818-43b5-94a0-...\"\n}```",
     "es": "```json \n{\n  \"type\": \"Video\",\n  \"id\": \"https://peertube2.cpy.re/videos/watch/...\",\n  \"name\": \"HLS test 1\",\n  \"duration\": \"PT730S\",\n  \"uuid\": \"969bf103-7818-43b5-94a0-...\"\n}```"
   },
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/peertube",
+    "prefLabel": {
+      "en": "PeerTube",
+      "de": "PeerTube",
+      "fr": "PeerTube",
+      "es": "PeerTube"
+    }
+  },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {

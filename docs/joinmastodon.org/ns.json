@@ -1,19 +1,19 @@
 {
-  "id": "http://joinmastodon.org/ns#suspended",
+  "id": "http://joinmastodon.org/ns#IdentityProof",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinmastodon.org%2Fns%23suspended",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinmastodon.org%2Fns%23suspended",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinmastodon.org%2Fns%23IdentityProof",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinmastodon.org%2Fns%23IdentityProof",
   "prefLabel": {
-    "en": "suspended",
-    "de": "suspendiert",
-    "fr": "suspendu",
-    "es": "suspendido"
+    "en": "Identity Proof",
+    "de": "Identitätsbeweis",
+    "fr": "Preuve d'identité",
+    "es": "Prueba de identidad"
   },
   "definition": {
-    "en": "Mastodon reports whether a user was locally suspended, for better handling of these accounts. Suspended accounts in Mastodon return empty data. If a remote account is marked as suspended, it cannot be unsuspended locally. Suspended accounts can be targeted by activities such as Update, Undo, Reject, and Delete. This functionality is implemented using an extra property \"suspended\" on objects.<br>see [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#suspended)",
-    "de": "Mastodon meldet, ob ein Benutzer lokal gesperrt wurde, damit diese Konten besser behandelt werden können. Gesperrte Konten in Mastodon geben leere Daten zurück. Wenn ein entferntes Konto als suspendiert markiert ist, kann es lokal nicht wieder suspendiert werden. Suspendierte Konten können durch Aktivitäten wie Aktualisieren, Rückgängig machen, Ablehnen und Löschen anvisiert werden. Diese Funktionalität wird durch eine zusätzliche Eigenschaft \"suspended\" für Objekte implementiert.<br>siehe [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#suspended)",
-    "fr": "Mastodon indique si un utilisateur a été suspendu localement, pour une meilleure gestion de ces comptes. Les comptes suspendus dans Mastodon renvoient des données vides. Si un compte distant est marqué comme suspendu, il ne peut pas être suspendu localement. Les comptes suspendus peuvent être ciblés par des activités telles que Update, Undo, Reject, et Delete. Cette fonctionnalité est implémentée en utilisant une propriété supplémentaire \"suspended\" sur les objets.<br>voir [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#suspended)",
-    "es": "Mastodon informa si un usuario fue suspendido localmente, para un mejor manejo de estas cuentas. Las cuentas suspendidas en Mastodon devuelven datos vacíos. Si una cuenta remota es marcada como suspendida, no puede ser desuspendida localmente. Las cuentas suspendidas pueden ser objeto de actividades como Actualizar, Deshacer, Rechazar y Eliminar. Esta funcionalidad se implementa utilizando una propiedad extra \"suspended\" en los objetos.<br>ver [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#suspended)"
+    "en": "Mastodon supports integration with identity providers to prove that a profile is linked to a certain identity. This is implemented using the attachment property on actor objects, with objects in the array having a type of IdentityProof from the Mastodon namespace. The object also includes signatureAlgorithm and signatureValue from the W3ID Security Vocabulary namespace.<br>see [mastodon documentation 'Identity proofs'](https://docs.joinmastodon.org/spec/activitypub/#IdentityProof)",
+    "de": "Mastodon unterstützt die Integration mit Identitätsanbietern, um zu beweisen, daß ein Profil mit einer bestimmten Identität verbunden ist. Dies wird über die Eigenschaft attachment bei Actor-Objekten implementiert, wobei die Objekte im Array den Typ IdentityProof aus dem Mastodon-Namensraum aufweisen. Das Objekt enthält auch signatureAlgorithm und signatureValue aus dem W3ID Security Vocabulary Namespace.<br>siehe [mastodon documentation 'Identity proofs'](https://docs.joinmastodon.org/spec/activitypub/#IdentityProof)",
+    "fr": "Mastodon supporte l'intégration avec les fournisseurs d'identité pour prouver qu'un profil est lié à une certaine identité. Ceci est mis en œuvre en utilisant la propriété attachment sur les objets actor, avec des objets dans le tableau ayant un type IdentityProof de l'espace de noms Mastodon. L'objet comprend également signatureAlgorithm et signatureValue de l'espace de noms W3ID Security Vocabulary.<br>voir [mastodon documentation 'Identity proofs'](https://docs.joinmastodon.org/spec/activitypub/#IdentityProof)",
+    "es": "Mastodon admite la integración con proveedores de identidad para demostrar que un perfil está vinculado a una determinada identidad. Esto se implementa utilizando la propiedad attachment en los objetos actor, con objetos en la matriz que tienen un tipo de IdentityProof del espacio de nombres Mastodon. El objeto también incluye signatureAlgorithm y signatureValue del espacio de nombres W3ID Security Vocabulary.<br>ver [mastodon documentation 'Identity proofs'](https://docs.joinmastodon.org/spec/activitypub/#IdentityProof)"
   },
   "scopeNote": {
     "en": "ActivityPub Community",
@@ -22,13 +22,13 @@
     "es": "ActivityPub Community"
   },
   "notation": [
-    "1018"
+    "23"
   ],
   "example": {
-    "en": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"suspended\": \"toot:suspended\"\n    }\n  ],\n  \"id\": \"https://example.com/@eve\",\n  \"type\": \"Person\",\n  \"suspended\": true\n}```",
-    "de": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"suspended\": \"toot:suspended\"\n    }\n  ],\n  \"id\": \"https://example.com/@eve\",\n  \"type\": \"Person\",\n  \"suspended\": true\n}```",
-    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"suspended\": \"toot:suspended\"\n    }\n  ],\n  \"id\": \"https://example.com/@eve\",\n  \"type\": \"Person\",\n  \"suspended\": true\n}```",
-    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"suspended\": \"toot:suspended\"\n    }\n  ],\n  \"id\": \"https://example.com/@eve\",\n  \"type\": \"Person\",\n  \"suspended\": true\n}```"
+    "en": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    \"https://w3id.org/security/v1\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"IdentityProof\": \"toot:IdentityProof\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"attachment\": [\n    {\n      \"type\": \"IdentityProof\",\n      \"name\": \"gargron\",\n      \"signatureAlgorithm\": \"keybase\",\n      \"signatureValue\": \"5cfc20c7018f2beefb42a68836da59a792e55daa4d118498c9b1898de7e845690f\"\n    }\n  ]\n}```",
+    "de": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    \"https://w3id.org/security/v1\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"IdentityProof\": \"toot:IdentityProof\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"attachment\": [\n    {\n      \"type\": \"IdentityProof\",\n      \"name\": \"gargron\",\n      \"signatureAlgorithm\": \"keybase\",\n      \"signatureValue\": \"5cfc20c7018f2beefb42a68836da59a792e55daa4d118498c9b1898de7e845690f\"\n    }\n  ]\n}```",
+    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    \"https://w3id.org/security/v1\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"IdentityProof\": \"toot:IdentityProof\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"attachment\": [\n    {\n      \"type\": \"IdentityProof\",\n      \"name\": \"gargron\",\n      \"signatureAlgorithm\": \"keybase\",\n      \"signatureValue\": \"5cfc20c7018f2beefb42a68836da59a792e55daa4d118498c9b1898de7e845690f\"\n    }\n  ]\n}```",
+    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    \"https://w3id.org/security/v1\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"IdentityProof\": \"toot:IdentityProof\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"attachment\": [\n    {\n      \"type\": \"IdentityProof\",\n      \"name\": \"gargron\",\n      \"signatureAlgorithm\": \"keybase\",\n      \"signatureValue\": \"5cfc20c7018f2beefb42a68836da59a792e55daa4d118498c9b1898de7e845690f\"\n    }\n  ]\n}```"
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -133,45 +133,7 @@
       "@container": "@set"
     }
   }
-}b": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "dct": "http://purl.org/dc/terms/",
-    "schema": "http://schema.org/",
-    "vann": "http://purl.org/vocab/vann/",
-    "as": "https://www.w3.org/ns/activitystreams#",
-    "ldp": "http://www.w3.org/ns/ldp#",
-    "title": {
-      "@id": "dct:title",
-      "@container": "@language"
-    },
-    "description": {
-      "@id": "dct:description",
-      "@container": "@language"
-    },
-    "issued": {
-      "@id": "dct:issued",
-      "@type": "xsd:date"
-    },
-    "created": {
-      "@id": "dct:created",
-      "@type": "xsd:date"
-    },
-    "modified": {
-      "@id": "dct:modified",
-      "@type": "xsd:date"
-    },
-    "creator": "dct:creator",
-    "publisher": "dct:publisher",
-    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
-    "preferredNamespaceUri": "vann:preferredNamespaceUri",
-    "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
-    "prefLabel": {
-      "@container": "@language"
-    },
-    "altLabel": {
-      "@container": [
-        "@language",
+}      "@language",
         "@set"
       ]
     },

@@ -1,19 +1,19 @@
 {
-  "id": "http://joinmastodon.org/ns#featuredTags",
+  "id": "http://joinmastodon.org/ns#Emoji",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinmastodon.org%2Fns%23featuredTags",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinmastodon.org%2Fns%23featuredTags",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinmastodon.org%2Fns%23Emoji",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinmastodon.org%2Fns%23Emoji",
   "prefLabel": {
-    "en": "featured tags",
-    "de": "featured tags",
-    "fr": "featured tags",
-    "es": "featured tags"
+    "en": "Custom Emoji",
+    "de": "Emoji",
+    "fr": "Emoji",
+    "es": "Emoji"
   },
   "definition": {
-    "en": "Mastodon allows users to feature specific hashtags on their profile for easy browsing, as a discoverability mechanism. This is implemented using an extra property featuredTags on the actor object that points to a Collection of Hashtag objects specifically.<br>see [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#featuredTags)",
-    "de": "Mastodon ermöglicht es Nutzern, bestimmte Hashtags in ihrem Profil zu kennzeichnen, um die Auffindbarkeit zu erleichtern. Dies wird durch eine zusätzliche Eigenschaft featuredTags am actor-Objekt implementiert, die auf eine Sammlung von Hashtag-Objekten verweist.<br>siehe [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#featuredTags)",
-    "fr": "Mastodon permet aux utilisateurs d'afficher des hashtags spécifiques sur leur profil pour faciliter la navigation, comme un mécanisme de découverte. Ceci est mis en œuvre en utilisant une propriété supplémentaire featuredTags sur l'objet actor qui pointe vers une collection d'objets Hashtag spécifiques.<br>voir [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#featuredTags)",
-    "es": "Mastodon permite a los usuarios destacar hashtags específicos en su perfil para facilitar la navegación, como mecanismo de descubrimiento. Esto se implementa utilizando una propiedad extra featuredTags en el objeto actor que apunta a una colección de objetos Hashtag específicamente.<br>ver [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#featuredTags)"
+    "en": "Mastodon supports arbitrary emojis, that is, small images uploaded by admins and invokable via shortcodes. For this, an Emoji type is used. These emojis are listed in the tag property just like Mention and Hashtag objects, since they are entities that affect how the text is rendered.<br>see [mastodon documentation 'Custom emojis'](https://docs.joinmastodon.org/spec/activitypub/#emoji)",
+    "de": "Mastodon unterstützt beliebige Emojis, d.h. kleine Bilder, die von Administratoren hochgeladen und über Shortcodes aufgerufen werden können. Hierfür wird ein Emoji-Typ verwendet. Diese Emojis werden in der Tag-Eigenschaft aufgeführt, genau wie Mention- und Hashtag-Objekte, da sie Entitäten sind, die die Darstellung des Textes beeinflussen.<br>siehe [mastodon documentation 'Custom emojis'](https://docs.joinmastodon.org/spec/activitypub/#emoji)",
+    "fr": "Mastodon supporte les emojis arbitraires, c'est-à-dire de petites images téléchargées par les administrateurs et invocables via des shortcodes. Pour cela, un type Emoji est utilisé. Ces emojis sont répertoriés dans la propriété tag tout comme les objets Mention et Hashtag, puisqu'il s'agit d'entités qui affectent la façon dont le texte est rendu.<br>voir [mastodon documentation 'Custom emojis'](https://docs.joinmastodon.org/spec/activitypub/#emoji)",
+    "es": "Mastodon soporta emojis arbitrarios, es decir, pequeñas imágenes subidas por los administradores e invocables a través de shortcodes. Para ello, se utiliza un tipo Emoji. Estos emojis aparecen en la propiedad de la etiqueta al igual que los objetos Mention y Hashtag, ya que son entidades que afectan a la forma en que se renderiza el texto.<br>ver [mastodon documentation 'Custom emojis'](https://docs.joinmastodon.org/spec/activitypub/#emoji)"
   },
   "scopeNote": {
     "en": "ActivityPub Community",
@@ -22,13 +22,13 @@
     "es": "ActivityPub Community"
   },
   "notation": [
-    "1016"
+    "22"
   ],
   "example": {
-    "en": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"featuredTags\": {\n        \"@id\": \"toot:featuredTags\",\n        \"@type\": \"@id\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice\",\n  \"type\": \"Person\",\n  \"featuredTags\": \"https://example.com/@alice/collections/tags\"\n}```",
-    "de": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"featuredTags\": {\n        \"@id\": \"toot:featuredTags\",\n        \"@type\": \"@id\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice\",\n  \"type\": \"Person\",\n  \"featuredTags\": \"https://example.com/@alice/collections/tags\"\n}```",
-    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"featuredTags\": {\n        \"@id\": \"toot:featuredTags\",\n        \"@type\": \"@id\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice\",\n  \"type\": \"Person\",\n  \"featuredTags\": \"https://example.com/@alice/collections/tags\"\n}```",
-    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"featuredTags\": {\n        \"@id\": \"toot:featuredTags\",\n        \"@type\": \"@id\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice\",\n  \"type\": \"Person\",\n  \"featuredTags\": \"https://example.com/@alice/collections/tags\"\n}```"
+    "en": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"Emoji\": \"toot:Emoji\"\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"Hello world :kappa:\",\n  \"tag\": [\n    {\n      \"id\": \"https://example.com/emoji/123\",\n      \"type\": \"Emoji\",\n      \"name\": \":kappa:\",\n      \"icon\": {\n        \"type\": \"Image\",\n        \"mediaType\": \"image/png\",\n        \"url\": \"https://example.com/files/kappa.png\"\n      }\n    }\n  ]\n}```",
+    "de": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"Emoji\": \"toot:Emoji\"\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"Hello world :kappa:\",\n  \"tag\": [\n    {\n      \"id\": \"https://example.com/emoji/123\",\n      \"type\": \"Emoji\",\n      \"name\": \":kappa:\",\n      \"icon\": {\n        \"type\": \"Image\",\n        \"mediaType\": \"image/png\",\n        \"url\": \"https://example.com/files/kappa.png\"\n      }\n    }\n  ]\n}```",
+    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"Emoji\": \"toot:Emoji\"\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"Hello world :kappa:\",\n  \"tag\": [\n    {\n      \"id\": \"https://example.com/emoji/123\",\n      \"type\": \"Emoji\",\n      \"name\": \":kappa:\",\n      \"icon\": {\n        \"type\": \"Image\",\n        \"mediaType\": \"image/png\",\n        \"url\": \"https://example.com/files/kappa.png\"\n      }\n    }\n  ]\n}```",
+    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"Emoji\": \"toot:Emoji\"\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"Hello world :kappa:\",\n  \"tag\": [\n    {\n      \"id\": \"https://example.com/emoji/123\",\n      \"type\": \"Emoji\",\n      \"name\": \":kappa:\",\n      \"icon\": {\n        \"type\": \"Image\",\n        \"mediaType\": \"image/png\",\n        \"url\": \"https://example.com/files/kappa.png\"\n      }\n    }\n  ]\n}```"
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -133,48 +133,7 @@
       "@container": "@set"
     }
   }
-}{
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}b": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "dct": "http://purl.org/dc/terms/",
-    "schema": "http://schema.org/",
-    "vann": "http://purl.org/vocab/vann/",
-    "as": "https://www.w3.org/ns/activitystreams#",
-    "ldp": "http://www.w3.org/ns/ldp#",
-    "title": {
-      "@id": "dct:title",
-      "@container": "@language"
-    },
-    "description": {
-      "@id": "dct:description",
-      "@container": "@language"
-    },
-    "issued": {
-      "@id": "dct:issued",
-      "@type": "xsd:date"
-    },
-    "created": {
-      "@id": "dct:created",
-      "@type": "xsd:date"
-    },
-    "modified": {
-      "@id": "dct:modified",
-      "@type": "xsd:date"
-    },
-    "creator": "dct:creator",
-    "publisher": "dct:publisher",
-    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+}rredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
     "source": "dct:source",
