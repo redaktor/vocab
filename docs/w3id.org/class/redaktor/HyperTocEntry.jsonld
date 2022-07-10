@@ -16,7 +16,7 @@
     "es": "A HyperToEntry is an item within a [HyperToc](https://schema.org/HyperToc), which represents a hypertext table of contents for complex media objects, such as [VideoObject](https://schema.org/VideoObject), [AudioObject](https://schema.org/AudioObject). The media object itself is indicated using [associatedMedia](https://schema.org/associatedMedia). Each section of interest within that content can be described with a [HyperTocEntry](https://schema.org/HyperTocEntry), with associated [startOffset](https://schema.org/startOffset) and [endOffset](https://schema.org/endOffset). When several entries are all from the same file, [associatedMedia](https://schema.org/associatedMedia) is used on the overarching [HyperTocEntry](https://schema.org/HyperTocEntry); if the content has been split into multiple files, they can be referenced using [associatedMedia](https://schema.org/associatedMedia) on each [HyperTocEntry](https://schema.org/HyperTocEntry)."
   },
   "notation": [
-    "1519"
+    "519"
   ],
   "narrower": [
     {

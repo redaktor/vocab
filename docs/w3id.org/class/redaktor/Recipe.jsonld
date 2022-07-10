@@ -16,7 +16,7 @@
     "es": "A recipe. For dietary restrictions covered by the recipe, a few common restrictions are enumerated via [suitableForDiet](https://schema.org/suitableForDiet). The [keywords](https://schema.org/keywords) property can also be used to add more detail."
   },
   "notation": [
-    "1563"
+    "563"
   ],
   "narrower": [
     {

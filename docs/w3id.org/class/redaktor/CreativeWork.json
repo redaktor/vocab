@@ -16,7 +16,7 @@
     "es": "El tipo más genérico de trabajo creativo, que incluye libros, películas, fotografías, programas de software, etc."
   },
   "notation": [
-    "1500"
+    "303"
   ],
   "narrower": [
     {
@@ -425,15 +425,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/dateCreated",
-      "prefLabel": {
-        "en": "date created",
-        "de": "Erstellungsdatum",
-        "fr": "date de création",
-        "es": "fecha de creación"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/EducationalOccupationalCredential",
       "prefLabel": {
         "en": "Educational Occupational Credential",
@@ -755,6 +746,15 @@
         "de": "Anrechnungstext",
         "fr": "texte du crédit",
         "es": "texto del crédito"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/dateCreated",
+      "prefLabel": {
+        "en": "date created",
+        "de": "Erstellungsdatum",
+        "fr": "date de création",
+        "es": "fecha de creación"
       }
     },
     {

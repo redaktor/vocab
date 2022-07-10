@@ -1729,7 +1729,7 @@
     {
       "id": "https://w3id.org/class/redaktor/Residence",
       "prefLabel": {
-        "en": "residence",
+        "en": "Residence",
         "de": "Wohnorte",
         "fr": "résidence",
         "es": "residencia"
@@ -5147,15 +5147,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/dateCreated",
-      "prefLabel": {
-        "en": "date created",
-        "de": "Erstellungsdatum",
-        "fr": "date de création",
-        "es": "fecha de creación"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/eventAttendanceMode",
       "prefLabel": {
         "en": "event attendance mode",
@@ -6422,6 +6413,15 @@
         "de": "akzeptierte Währungen",
         "fr": "monnaies acceptées",
         "es": "monedas aceptadas"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/dateCreated",
+      "prefLabel": {
+        "en": "date created",
+        "de": "Erstellungsdatum",
+        "fr": "date de création",
+        "es": "fecha de creación"
       }
     },
     {

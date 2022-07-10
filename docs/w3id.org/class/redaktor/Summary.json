@@ -5,7 +5,7 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSummary",
   "prefLabel": {
     "en": "Briefing",
-    "de": "Kurznachrichten",
+    "de": "Briefing",
     "fr": "Briefing",
     "es": "Briefing"
   },
@@ -16,7 +16,7 @@
     "es": "Resumen de una serie de noticias"
   },
   "notation": [
-    "1654"
+    "351"
   ],
   "exactMatch": [
     {

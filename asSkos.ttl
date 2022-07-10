@@ -681,7 +681,7 @@ as:first a owl:ObjectProperty, owl:FunctionalProperty, skos:Concept ;
 as:formerType a owl:ObjectProperty, owl:FunctionalProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Tombstone ;
-  skos:notation "330" ;
+  skos:notation "399" ;
   skos:prefLabel "vorheriger Typ"@de, "former type"@en, "ancien type"@fr, "tipo anterior"@es ;
   skos:definition "Bei einem Tombstone-Objekt identifiziert die Eigenschaft formerType den Typ des Objekts, das gelöscht wurde.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-formertype](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-formertype)"@de,
     "On a Tombstone object, the formerType property identifies the type of the object that was deleted.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-formertype](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-formertype)"@en,
@@ -1381,7 +1381,7 @@ as:height a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
 as:href a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Link ;
-  skos:notation "412" ;
+  skos:notation "497" ;
   skos:prefLabel "href"@de, "href"@en, "href"@fr, "href"@es ;
   skos:definition "Die Zielressource, auf die ein Link verweist.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-href](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-href)"@de,
     "The target resource pointed to by a Link.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-href](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-href)"@en,
@@ -1400,7 +1400,7 @@ as:href a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
 as:hreflang a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Link ;
-  skos:notation "413" ;
+  skos:notation "498" ;
   skos:prefLabel "hreflang"@de, "hreflang"@en, "hreflang"@fr, "hreflang"@es ;
   skos:definition "Hinweise auf die von der Zielressource verwendete Sprache. Der Wert MUSS ein [BCP47] Language-Tag sein.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-hreflang](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-hreflang)"@de,
     "Hints as to the language used by the target resource. Value MUST be a [BCP47] Language-Tag.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-hreflang](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-hreflang)"@en,
@@ -1593,7 +1593,7 @@ as:rating a owl:DeprecatedProperty ;
 as:rel a owl:DatatypeProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Link ;
-  skos:notation "414" ;
+  skos:notation "499" ;
   skos:prefLabel "rel"@de, "rel"@en, "rel"@fr, "rel"@es ;
   skos:definition "Eine Link-Relation, die mit einem Link verknüpft ist. Der Wert MUSS sowohl der [HTML5]- als auch der [RFC5988]-Definition von \"link relation\" entsprechen. In [HTML5] kann jede Zeichenfolge, die nicht die Zeichen \"space\" U+0020, \"tab\" (U+0009), \"LF\" (U+000A), \"FF\" (U+000C), \"CR\" (U+000D) oder \",\" (U+002C) enthält, als gültige Link-Relation verwendet werden.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-rel](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-rel)"@de,
     "A link relation associated with a Link. The value MUST conform to both the [HTML5] and [RFC5988] \"link relation\" definitions. In the [HTML5], any string not containing the \"space\" U+0020, \"tab\" (U+0009), \"LF\" (U+000A), \"FF\" (U+000C), \"CR\" (U+000D) or \",\" (U+002C) characters can be used as a valid link relation.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-rel](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-rel)"@en,
@@ -1849,10 +1849,10 @@ as:followers a owl:ObjectProperty, skos:Concept ;
     "Every [actor](https://www.w3.org/TR/activitypub/#actors) SHOULD have a followers collection. This is a list of everyone who has sent a [Follow](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-follow) activity for the actor, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). This is where one would find a list of all the actors that are following the actor. The followers collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br><br>NOTE: Default for notification targeting<br>The follow activity generally is a request to see the objects an actor creates. This makes the Followers collection an appropriate default target for [delivery](https://www.w3.org/TR/activitypub/#delivery) of notifications.<br>see [https://www.w3.org/TR/activitypub/#followers](https://www.w3.org/TR/activitypub/#followers)"@en,
     "Every [actor](https://www.w3.org/TR/activitypub/#actors) SHOULD have a followers collection. This is a list of everyone who has sent a [Follow](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-follow) activity for the actor, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). This is where one would find a list of all the actors that are following the actor. The followers collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br><br>NOTE: Default for notification targeting<br>The follow activity generally is a request to see the objects an actor creates. This makes the Followers collection an appropriate default target for [delivery](https://www.w3.org/TR/activitypub/#delivery) of notifications.<br>voir [https://www.w3.org/TR/activitypub/#followers](https://www.w3.org/TR/activitypub/#followers)"@fr,
     "Every [actor](https://www.w3.org/TR/activitypub/#actors) SHOULD have a followers collection. This is a list of everyone who has sent a [Follow](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-follow) activity for the actor, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). This is where one would find a list of all the actors that are following the actor. The followers collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br><br>NOTE: Default for notification targeting<br>The follow activity generally is a request to see the objects an actor creates. This makes the Followers collection an appropriate default target for [delivery](https://www.w3.org/TR/activitypub/#delivery) of notifications.<br>ver [https://www.w3.org/TR/activitypub/#followers](https://www.w3.org/TR/activitypub/#followers)"@es ;
-  skos:example "[Beispiel 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"@de,
-    "[Example 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"@en,
-    "[Exemple 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"@fr,
-    "[Ejemplo 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"@es ;  skos:scopeNote "ActivityPub Property"@de, "ActivityPub Property"@en, "ActivityPub Property"@fr, "ActivityPub Property"@es ;
+  skos:example "[Beispiel 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/31987aklre4\"\n  ]\n}\n```"@de,
+    "[Example 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/31987aklre4\"\n  ]\n}\n```"@en,
+    "[Exemple 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/31987aklre4\"\n  ]\n}\n```"@fr,
+    "[Ejemplo 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/31987aklre4\"\n  ]\n}\n```"@es ;  skos:scopeNote "ActivityPub Property"@de, "ActivityPub Property"@en, "ActivityPub Property"@fr, "ActivityPub Property"@es ;
   rdfs:label "followers"@en ;
   rdfs:domain as:Object ;
   rdfs:range [
@@ -1875,10 +1875,10 @@ as:following a owl:ObjectProperty, skos:Concept ;
     "Every actor SHOULD have a following collection. This is a list of everybody that the actor has followed, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). The following collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br>see [https://www.w3.org/TR/activitypub/#following](https://www.w3.org/TR/activitypub/#following)"@en,
     "Every actor SHOULD have a following collection. This is a list of everybody that the actor has followed, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). The following collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br>voir [https://www.w3.org/TR/activitypub/#following](https://www.w3.org/TR/activitypub/#following)"@fr,
     "Every actor SHOULD have a following collection. This is a list of everybody that the actor has followed, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). The following collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br>ver [https://www.w3.org/TR/activitypub/#following](https://www.w3.org/TR/activitypub/#following)"@es ;
-  skos:example "[Beispiel 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"@de,
-    "[Example 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"@en,
-    "[Exemple 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"@fr,
-    "[Ejemplo 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"@es ;
+  skos:example "[Beispiel 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/31987aklre4\"\n  ]\n}\n```"@de,
+    "[Example 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/31987aklre4\"\n  ]\n}\n```"@en,
+    "[Exemple 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/31987aklre4\"\n  ]\n}\n```"@fr,
+    "[Ejemplo 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/31987aklre4\"\n  ]\n}\n```"@es ;
   skos:scopeNote as:Object, as:Link ;
   rdfs:label "following"@en ;
   rdfs:domain as:Object ;
@@ -1902,10 +1902,10 @@ as:liked a owl:ObjectProperty, skos:Concept ;
     "Every actor SHOULD have a liked collection. liked collection. This is a list of every object from all of the actor's Like activities, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). The liked collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br>see [https://www.w3.org/TR/activitypub/#liked](https://www.w3.org/TR/activitypub/#liked)"@en,
     "Every actor SHOULD have a liked collection. liked collection. This is a list of every object from all of the actor's Like activities, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). The liked collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br>voir [https://www.w3.org/TR/activitypub/#liked](https://www.w3.org/TR/activitypub/#liked)"@fr,
     "Every actor SHOULD have a liked collection. liked collection. This is a list of every object from all of the actor's Like activities, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). The liked collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br>ver [https://www.w3.org/TR/activitypub/#liked](https://www.w3.org/TR/activitypub/#liked)"@es ;
-  skos:example "[Beispiel 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"@de,
-    "[Example 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"@en,
-    "[Exemple 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"@fr,
-    "[Ejemplo 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"@es ;  skos:scopeNote "ActivityPub Property"@de, "ActivityPub Property"@en, "ActivityPub Property"@fr, "ActivityPub Property"@es ;
+  skos:example "[Beispiel 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/31987aklre4\"\n  ]\n}\n```"@de,
+    "[Example 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/31987aklre4\"\n  ]\n}\n```"@en,
+    "[Exemple 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/31987aklre4\"\n  ]\n}\n```"@fr,
+    "[Ejemplo 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/31987aklre4\"\n  ]\n}\n```"@es ;  skos:scopeNote "ActivityPub Property"@de, "ActivityPub Property"@en, "ActivityPub Property"@fr, "ActivityPub Property"@es ;
   rdfs:label "liked"@en ;
   rdfs:domain as:Object ;
   rdfs:range [
@@ -1951,10 +1951,10 @@ as:inbox a owl:ObjectProperty, skos:Concept ;
     "The inbox is discovered through the inbox property of an [actor's](https://www.w3.org/TR/activitypub/#actors) profile. The inbox MUST be an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection).<br><br>The inbox stream contains all activities received by the actor. The server SHOULD filter content according to the requester's permission. In general, the owner of an inbox is likely to be able to access all of their inbox contents. Depending on access control, some other content may be public, whereas other content may require authentication for non-owner users, if they can access the inbox at all.<br><br>The server MUST perform de-duplication of activities returned by the inbox. Duplication can occur if an activity is addressed both to an actor's followers, and a specific actor who also follows the recipient actor, and the server has failed to de-duplicate the recipients list. Such deduplication MUST be performed by comparing the id of the activities and dropping any activities already seen.<br>The inboxes of actors on federated servers accepts HTTP POST requests, with behaviour described in [Delivery](https://www.w3.org/TR/activitypub/#delivery). Non-federated servers SHOULD return a 405 Method Not Allowed upon receipt of a POST request.<br>see [https://www.w3.org/TR/activitypub/#inbox](https://www.w3.org/TR/activitypub/#inbox)"@en,
     "The inbox is discovered through the inbox property of an [actor's](https://www.w3.org/TR/activitypub/#actors) profile. The inbox MUST be an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection).<br><br>The inbox stream contains all activities received by the actor. The server SHOULD filter content according to the requester's permission. In general, the owner of an inbox is likely to be able to access all of their inbox contents. Depending on access control, some other content may be public, whereas other content may require authentication for non-owner users, if they can access the inbox at all.<br><br>The server MUST perform de-duplication of activities returned by the inbox. Duplication can occur if an activity is addressed both to an actor's followers, and a specific actor who also follows the recipient actor, and the server has failed to de-duplicate the recipients list. Such deduplication MUST be performed by comparing the id of the activities and dropping any activities already seen.<br>The inboxes of actors on federated servers accepts HTTP POST requests, with behaviour described in [Delivery](https://www.w3.org/TR/activitypub/#delivery). Non-federated servers SHOULD return a 405 Method Not Allowed upon receipt of a POST request.<br>voir [https://www.w3.org/TR/activitypub/#inbox](https://www.w3.org/TR/activitypub/#inbox)"@fr,
     "The inbox is discovered through the inbox property of an [actor's](https://www.w3.org/TR/activitypub/#actors) profile. The inbox MUST be an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection).<br><br>The inbox stream contains all activities received by the actor. The server SHOULD filter content according to the requester's permission. In general, the owner of an inbox is likely to be able to access all of their inbox contents. Depending on access control, some other content may be public, whereas other content may require authentication for non-owner users, if they can access the inbox at all.<br><br>The server MUST perform de-duplication of activities returned by the inbox. Duplication can occur if an activity is addressed both to an actor's followers, and a specific actor who also follows the recipient actor, and the server has failed to de-duplicate the recipients list. Such deduplication MUST be performed by comparing the id of the activities and dropping any activities already seen.<br>The inboxes of actors on federated servers accepts HTTP POST requests, with behaviour described in [Delivery](https://www.w3.org/TR/activitypub/#delivery). Non-federated servers SHOULD return a 405 Method Not Allowed upon receipt of a POST request.<br>ver [https://www.w3.org/TR/activitypub/#inbox](https://www.w3.org/TR/activitypub/#inbox)"@es ;
-  skos:example "[Beispiel 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"@de,
-    "[Example 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"@en,
-    "[Exemple 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"@fr,
-    "[Ejemplo 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"@es ;
+  skos:example "[Beispiel 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/31987aklre4\"\n  ]\n}\n```"@de,
+    "[Example 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/31987aklre4\"\n  ]\n}\n```"@en,
+    "[Exemple 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/31987aklre4\"\n  ]\n}\n```"@fr,
+    "[Ejemplo 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/31987aklre4\"\n  ]\n}\n```"@es ;
   skos:scopeNote "ActivityPub Property"@de, "ActivityPub Property"@en, "ActivityPub Property"@fr, "ActivityPub Property"@es ;
   rdfs:label "inbox"@en ;
   rdfs:domain as:Object ;
@@ -1978,10 +1978,10 @@ as:outbox a owl:ObjectProperty, skos:Concept ;
     "The outbox is discovered through the outbox property of an [actor's](https://www.w3.org/TR/activitypub/#actors) profile. The outbox MUST be an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection).<br><br>The outbox stream contains activities the user has published, subject to the ability of the requestor to retrieve the activity (that is, the contents of the outbox are filtered by the permissions of the person reading it). If a user submits a request without [Authorization](https://www.w3.org/TR/activitypub/#authorization) the server should respond with all of the [Public](https://www.w3.org/TR/activitypub/#public-addressing) posts. This could potentially be all relevant objects published by the user, though the number of available items is left to the discretion of those implementing and deploying the server.<br><br>The outbox accepts HTTP POST requests, with behaviour described in [Client to Server Interactions](https://www.w3.org/TR/activitypub/#client-to-server-interactions).<br>see [https://www.w3.org/TR/activitypub/#inbox](https://www.w3.org/TR/activitypub/#inbox)"@en,
     "The outbox is discovered through the outbox property of an [actor's](https://www.w3.org/TR/activitypub/#actors) profile. The outbox MUST be an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection).<br><br>The outbox stream contains activities the user has published, subject to the ability of the requestor to retrieve the activity (that is, the contents of the outbox are filtered by the permissions of the person reading it). If a user submits a request without [Authorization](https://www.w3.org/TR/activitypub/#authorization) the server should respond with all of the [Public](https://www.w3.org/TR/activitypub/#public-addressing) posts. This could potentially be all relevant objects published by the user, though the number of available items is left to the discretion of those implementing and deploying the server.<br><br>The outbox accepts HTTP POST requests, with behaviour described in [Client to Server Interactions](https://www.w3.org/TR/activitypub/#client-to-server-interactions).<br>voir [https://www.w3.org/TR/activitypub/#inbox](https://www.w3.org/TR/activitypub/#inbox)"@fr,
     "The outbox is discovered through the outbox property of an [actor's](https://www.w3.org/TR/activitypub/#actors) profile. The outbox MUST be an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection).<br><br>The outbox stream contains activities the user has published, subject to the ability of the requestor to retrieve the activity (that is, the contents of the outbox are filtered by the permissions of the person reading it). If a user submits a request without [Authorization](https://www.w3.org/TR/activitypub/#authorization) the server should respond with all of the [Public](https://www.w3.org/TR/activitypub/#public-addressing) posts. This could potentially be all relevant objects published by the user, though the number of available items is left to the discretion of those implementing and deploying the server.<br><br>The outbox accepts HTTP POST requests, with behaviour described in [Client to Server Interactions](https://www.w3.org/TR/activitypub/#client-to-server-interactions).<br>ver [https://www.w3.org/TR/activitypub/#inbox](https://www.w3.org/TR/activitypub/#inbox)"@es ;
-  skos:example "[Beispiel 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"@de,
-    "[Example 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"@en,
-    "[Exemple 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"@fr,
-    "[Ejemplo 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"@es ;
+  skos:example "[Beispiel 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/31987aklre4\"\n  ]\n}\n```"@de,
+    "[Example 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/31987aklre4\"\n  ]\n}\n```"@en,
+    "[Exemple 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/31987aklre4\"\n  ]\n}\n```"@fr,
+    "[Ejemplo 9](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"ja\"}],\n  \"type\": \"Person\",\n  \"id\": \"https://kenzoishii.example.com/\",\n  \"following\": \"https://kenzoishii.example.com/following.json\",\n  \"followers\": \"https://kenzoishii.example.com/followers.json\",\n  \"liked\": \"https://kenzoishii.example.com/liked.json\",\n  \"inbox\": \"https://kenzoishii.example.com/inbox.json\",\n  \"outbox\": \"https://kenzoishii.example.com/feed.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/31987aklre4\"\n  ]\n}\n```"@es ;
   skos:scopeNote "ActivityPub Property"@de, "ActivityPub Property"@en, "ActivityPub Property"@fr, "ActivityPub Property"@es ;
   rdfs:label "outbox"@en ;
   rdfs:domain as:Object ;
@@ -2050,7 +2050,7 @@ as:streams a owl:ObjectProperty, skos:Concept ;
 as:endpoints a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader :Actor ;
-  skos:notation "174" ;
+  skos:notation "155" ;
   skos:prefLabel "endpoints"@de, "endpoints"@en, "endpoints"@fr, "endpoints"@es ;
   skos:definition "Ein JSON-Objekt, das zusätzliche (typischerweise server-/domänenweite) Endpunkte abbildet, die entweder für diesen Akteur oder jemanden, der diesen Akteur referenziert, nützlich sein können. Diese Zuordnung kann innerhalb des Akteursdokuments als Wert verschachtelt sein oder ein Link zu einem JSON-LD-Dokument mit diesen Eigenschaften sein.<br>Die Endpunktzuordnung KANN die folgenden Eigenschaften enthalten:<br><br>- proxyUrl<br>Endpunkt-URI, damit die Clients dieses Akteurs auf entfernte ActivityStreams-Objekte zugreifen können, für deren Zugriff eine Authentifizierung erforderlich ist. Um diesen Endpunkt zu verwenden, gibt der Client einen x-www-form-urlencoded id-Parameter an, dessen Wert die ID des angeforderten ActivityStreams-Objekts ist.<br>- oauthAuthorizationEndpunkt<br>Wenn OAuth 2.0-Inhaber-Tokens [RFC6749] [RFC6750] für die Authentifizierung von Client-Server-Interaktionen verwendet werden, gibt dieser Endpunkt einen URI an, über den ein Browser-authentifizierter Benutzer eine neue Autorisierungserlaubnis erhalten kann.<br>- oauthTokenEndpunkt<br>Wenn OAuth 2.0-Inhaber-Tokens [RFC6749] [RFC6750] für die Authentifizierung von Client-Server-Interaktionen verwendet werden, gibt dieser Endpunkt einen URI an, über den ein Client ein Zugriffstoken erwerben kann.<br>- provideClientKey<br>Wenn Linked-Data-Signaturen und HTTP-Signaturen für die Authentifizierung und Autorisierung verwendet werden, gibt dieser Endpunkt einen URI an, unter dem Browser-authentifizierte Benutzer den öffentlichen Schlüssel eines Clients für Client-Server-Interaktionen autorisieren können.<br>- signClientKey<br>Wenn Linked-Data-Signaturen und HTTP-Signaturen für die Authentifizierung und Autorisierung verwendet werden, gibt dieser Endpunkt einen URI an, bei dem ein Client-Schlüssel durch den Schlüssel des Akteurs für ein Zeitfenster signiert werden kann, um bei der Interaktion mit fremden Servern im Namen des Akteurs zu handeln.<br>- sharedInbox<br>Ein optionaler Endpunkt, der für die breite Zustellung von öffentlich adressierten Aktivitäten und Aktivitäten, die an Follower gesendet werden, verwendet wird. sharedInbox-Endpunkte SOLLTEN auch öffentlich lesbare OrderedCollection-Objekte sein, die Objekte enthalten, die an die Spezialsammlung Public adressiert sind. Das Lesen aus dem sharedInbox-Endpunkt DARF KEINE Objekte enthalten, die nicht an den Public-Endpunkt adressiert sind."@de,
     "A JSON object which maps additional (typically server/domain-wide) endpoints which may be useful either for this actor or someone referencing this actor. This mapping may be nested inside the actor document as the value or may be a link to a JSON-LD document with these properties.<br>The endpoints mapping MAY include the following properties:<br><br>- proxyUrl<br>Endpoint URI so this actor's clients may access remote ActivityStreams objects which require authentication to access. To use this endpoint, the client posts an x-www-form-urlencoded id parameter with the value being the id of the requested ActivityStreams object.<br>- oauthAuthorizationEndpoint<br>If OAuth 2.0 bearer tokens [RFC6749] [RFC6750] are being used for authenticating client to server interactions, this endpoint specifies a URI at which a browser-authenticated user may obtain a new authorization grant.<br>- oauthTokenEndpoint<br>If OAuth 2.0 bearer tokens [RFC6749] [RFC6750] are being used for authenticating client to server interactions, this endpoint specifies a URI at which a client may acquire an access token.<br>- provideClientKey<br>If Linked Data Signatures and HTTP Signatures are being used for authentication and authorization, this endpoint specifies a URI at which browser-authenticated users may authorize a client's public key for client to server interactions.<br>- signClientKey<br>If Linked Data Signatures and HTTP Signatures are being used for authentication and authorization, this endpoint specifies a URI at which a client key may be signed by the actor's key for a time window to act on behalf of the actor in interacting with foreign servers.<br>- sharedInbox<br>An optional endpoint used for wide delivery of publicly addressed activities and activities sent to followers. sharedInbox endpoints SHOULD also be publicly readable OrderedCollection objects containing objects addressed to the Public special collection. Reading from the sharedInbox endpoint MUST NOT present objects which are not addressed to the Public endpoint."@en,
@@ -4308,7 +4308,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch rnews:Storyline ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article;
-    skos:notation "1482" ;
+    skos:notation "318" ;
   	skos:prefLabel "Storyline"@en, "Storyline"@de, "Storyline"@fr, "Storyline"@es ;
     skos:altLabel	"Plot"@en, "Handlung"@de, "Scénario"@fr, "Historia"@es ;
   	skos:definition	"A News `Storyline` is a generic model for describing and organising the stories news organisations tell mostly used in the editorial workflow.<br>The class can also be used to describe textual descriptions or episodes in a `Storyboard` Collection.<br>To consume it as an rnews `Storyline`, convert `as:name` or `as:nameMap` to `rnews:name` equivalents and `as:summary` or `as:summaryMap` to `rnews:description` equivalents."@en,
@@ -4338,7 +4338,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch mediatopic:20000305 ;
     skos:inScheme :scheme ;
     skos:broader as:Article, as:Note, as:Audio, as:Image, as:Video ;
-    skos:notation "1484" ;
+    skos:notation "302" ;
     skos:prefLabel "Advertiser Supplied or sponsored"@en, "Von Werbetreibenden bereitgestellt oder gesponsort"@de, "Fourni par l'annonceur ou sponsorisé"@fr, "Suministrado por el anunciante o 'patrocinado'"@es ;
     rdfs:label "AdvertisingInvolved"@en ;
     rdfs:subClassOf as:Object .
@@ -4347,7 +4347,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch prodgenre:comedy ;
   	skos:inScheme :scheme ;
   	skos:broader :Fictional ;
-    skos:notation "1486" ;
+    skos:notation "400" ;
   	skos:prefLabel "Comedy"@en, "Komödie,Comedy"@de, "Comédie,Comedy"@fr, "Comedia,Comedy"@es ;
   	skos:definition	"The object contains material relating to a comedy program and/or event"@en,
       "Das Objekt enthält Material, das sich auf ein Comedy-Programm und/oder eine Veranstaltung bezieht."@de,
@@ -4365,7 +4365,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch prodgenre:drama ;
   	skos:inScheme :scheme ;
   	skos:broader :Fictional ;
-    skos:notation "1487" ;
+    skos:notation "401" ;
   	skos:prefLabel "Drama"@en, "Drama"@de, "Drame"@fr, "Drama"@es ;
   	skos:definition	"The object contains material relating to a fictional drama program and/or event."@en,
       "Das Objekt enthält Material, das sich auf ein fiktives Drama-Programm und/oder -Ereignis bezieht."@de,
@@ -4383,7 +4383,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch prodgenre:entertainment ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article, as:Note, as:Audio, as:Image, as:Video ;
-    skos:notation "1488" ;
+    skos:notation "310" ;
   	skos:prefLabel "Entertainment"@en, "Unterhaltung"@de, "Divertissement"@fr, "Entretenimiento"@es ;
   	skos:definition	"The object contains material relating to an entertainment program and/or event"@en,
       "Das Objekt enthält Material, das sich auf ein Unterhaltungsprogramm und/oder -ereignis bezieht."@de,
@@ -4401,7 +4401,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch prodgenre:factual ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article, as:Note, as:Audio, as:Image, as:Video ;
-    skos:notation "1490" ;
+    skos:notation "300" ;
   	skos:prefLabel "Factual"@en, "Sachbezogen, Faktisch"@de, "Factuel"@fr, "Factual"@es ;
   	skos:definition	"The object contains material relating to a factual program and/or event"@en,
       "Das Objekt enthält Material, das sich auf ein sachbezogenes Programm und/oder Ereignis bezieht."@de,
@@ -4418,7 +4418,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   :Fictional a owl:Class, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Article, as:Note, as:Audio, as:Image, as:Video ;
-    skos:notation "1485" ;
+    skos:notation "301" ;
     skos:prefLabel "Fiktional"@de, "Fictional"@en, "Fictionnel"@fr, "Ficticia"@es ;
     skos:definition "Eine Person oder Sache mit einer fiktiven Bedeutung. Zum Beispiel ein Roman oder Charakter."@de,
       "A person or thing with a fictional meaning. For example a Novel or Character."@en ,
@@ -4431,7 +4431,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch prodgenre:news, schema:NewsArticle ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1496" ;
+    skos:notation "343" ;
   	skos:prefLabel "News"@en, "Nachrichten"@de, "Actualités"@fr, "Noticias"@es ;
   	skos:definition	"The object contains material relating to general news program and/or event"@en,
       "Das Objekt enthält Material, das sich auf ein allgemeines Nachrichtenprogramm und/oder -ereignis bezieht"@de,
@@ -4449,7 +4449,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch prodgenre:sport ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1497" ;
+    skos:notation "344" ;
   	skos:prefLabel "Sport"@en, "Sport"@de, "Sport"@fr, "Deporte"@es ;
   	skos:definition	"The object contains material relating to a sport program and/or event"@en,
       "Das Objekt enthält Material, das sich auf ein Sportprogramm und/oder -ereignis bezieht."@de,
@@ -4467,7 +4467,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch prodgenre:travel ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article, as:Note, as:Audio, as:Image, as:Video ;
-    skos:notation "1492" ;
+    skos:notation "320" ;
   	skos:prefLabel "Travel"@en, "Reisen"@de, "Voyage"@fr, "Viaje"@es ;
   	skos:definition	"The object contains material relating to a travel program and/or event"@en,
       "Das Objekt enthält Material, das sich auf ein Reiseprogramm und/oder -ereignis bezieht."@de,
@@ -4485,7 +4485,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch prodgenre:weather ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article, as:Note, as:Audio, as:Image, as:Video ;
-    skos:notation "1495" ;
+    skos:notation "322" ;
   	skos:prefLabel "Weather"@en, "Wetter"@de, "Météo"@fr, "Tiempo"@es ;
   	skos:definition	"The object contains material relating to a weather program and/or event"@en,
       "Das Objekt enthält Material, das sich auf ein Wetterprogramm und/oder -ereignis bezieht."@de,
@@ -4504,7 +4504,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:CreativeWork ;
     skos:inScheme :scheme ;
     skos:broader as:Article, as:Note, as:Audio, as:Image, as:Video, as:Page, :redaktor ;
-    skos:notation "1500" ;
+    skos:notation "303" ;
     skos:prefLabel "Kreativwerk"@de, "Creative Work"@en, "Travail créatif"@fr, "Trabajo creativo"@es ;
     skos:definition "Die allgemeinste Art der kreativen Arbeit, einschließlich Bücher, Filme, Fotos, Softwareprogramme usw."@de,
       "The most generic kind of creative work, including books, movies, photographs, software programs, etc."@en,
@@ -4632,7 +4632,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Chapter ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1510" ;
+    skos:notation "510" ;
     skos:prefLabel "Kapitel"@de, "Chapter"@en, "Chapitre"@fr, "Capítulo"@es ;
     skos:definition "Einer der Abschnitte, in die ein Buch unterteilt ist. Ein Kapitel hat normalerweise eine Abschnittsnummer oder einen Namen."@de,
       "One of the sections into which a book is divided. A chapter usually has a section number or a name."@en,
@@ -4646,7 +4646,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Claim ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1511" ;
+    skos:notation "511" ;
     skos:prefLabel "Behauptung, Claim"@de, "Claim"@en, "Revendication"@fr, "Reclamación"@es ;
     skos:definition "Ein `Claim` steht für eine bestimmte, sachlich orientierte Behauptung, die das `itemReviewed` in einem `ClaimReview` sein könnte. Der Inhalt eines Claims kann mit der Eigenschaft text zusammengefasst werden. Bei Variationen bekannter Behauptungen kann deren gemeinsame Identität über sameAs-Links angegeben und mit einem Namen zusammengefasst werden. Im Idealfall enthält eine Claim-Beschreibung genügend Kontextinformationen, um das Risiko von Mehrdeutigkeiten oder Unklarheiten zu minimieren. In der Praxis werden viele Claims besser in dem Kontext verstanden, in dem sie erscheinen, oder in den Interpretationen, die von ClaimReviews geliefert werden.<br>Über ClaimReview hinaus kann der Claim-Typ mit verwandten kreativen Werken verknüpft werden - zum Beispiel kann ein `ScholarlyArticle` oder `Question` `about` einen `Claim` sein."@de,
       "A `Claim` represents a specific, factually-oriented claim that could be the `itemReviewed` in a `ClaimReview`. The content of a claim can be summarized with the `content` property. Variations on well known claims can have their common identity indicated via [sameAs](https://schema.org/sameAs) links, and summarized with a `name`. Ideally, a Claim description includes enough contextual information to minimize the risk of ambiguity or inclarity. In practice, many claims are better understood in the context in which they appear or the interpretations provided by claim reviews.<br/><br/>Beyond ClaimReview, the Claim type can be associated with related creative works - for example a `ScholarlyArticle` or `Question` might be `about` some `Claim`."@en,
@@ -4660,7 +4660,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Clip  ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1512" ;
+    skos:notation "512" ;
     skos:prefLabel "Clip"@de, "Clip"@en, "Clip"@fr, "Clip"@es ;
     skos:definition "Ein kurzes Fernseh- oder Radioprogramm oder ein Segment/Teil eines Programms."@de,
       "A short TV or radio program or a segment/part of a program."@en,
@@ -4674,7 +4674,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Code ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1513" ;
+    skos:notation "513" ;
     skos:prefLabel "Code"@de, "Code"@en, "Code"@fr, "Código"@es ;
     skos:definition "Quellcode der Computerprogrammierung. Example: Vollständige (kompilierbare) Lösungen, Codeschnipsel, Skripte, Vorlagen."@de,
       "Computer programming source code. Example: Full (compile ready) solutions, code snippet samples, scripts, templates."@en,
@@ -4688,7 +4688,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:ComicStory ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1514" ;
+    skos:notation "514" ;
     skos:prefLabel "Comic-Geschichte"@de, "Comic Story"@en, "Comic Story"@fr, "Comic Story"@es ;
     skos:definition "Der Begriff \"Geschichte\" bezeichnet jede unteilbare, nachdruckbare Einheit eines Comics, einschließlich der Innengeschichte, des Covers und der Rückseite. Die meisten Comics haben mindestens zwei Geschichten: ein Cover und eine Innengeschichte."@de,
       "The term \"story\" is any indivisible, re-printable unit of a comic, including the interior stories, covers, and backmatter. Most comics have at least two stories: a cover (ComicCoverArt) and an interior story."@en,
@@ -4702,7 +4702,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Drawing ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1515" ;
+    skos:notation "515" ;
     skos:prefLabel "Zeichnung"@de, "Drawing"@en, "Dessin"@fr, "Dibujo"@es ;
     skos:definition "Ein Bild oder ein Diagramm, das nicht mit Farbe, sondern mit einem Bleistift, einem Kugelschreiber oder einem Buntstift gezeichnet wurde."@de,
       "A picture or diagram made with a pencil, pen, or crayon rather than paint."@en,
@@ -4716,7 +4716,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Game ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1516" ;
+    skos:notation "516" ;
     skos:prefLabel "Spiel"@de, "Game"@en, "Jeu"@fr, "Juego"@es ;
     skos:definition "Der Typ Spiel steht für Dinge, die Spiele sind. Dabei handelt es sich in der Regel um regelbasierte Freizeitaktivitäten, z. B. Rollenspiele, bei denen die Spieler die Rolle von Figuren in einer fiktiven Umgebung übernehmen."@de,
       "The Game type represents things which are games. These are typically rule-governed recreational activities, e.g. role-playing games in which players assume the role of characters in a fictional setting."@en,
@@ -4730,7 +4730,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:HowTo ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1517" ;
+    skos:notation "517" ;
     skos:prefLabel "Anleitungen, How To"@de, "How To"@en, "Comment faire"@fr, "HowTo"@es ;
     skos:definition "Anweisungen, die erklären, wie man ein Ergebnis durch eine Abfolge von Schritten erreicht."@de,
       "Instructions that explain how to achieve a result by performing a sequence of steps."@en,
@@ -4744,7 +4744,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:HyperToc ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1518" ;
+    skos:notation "518" ;
     skos:prefLabel "HyperToc"@de, "Hyper Toc"@en, "HyperToc"@fr, "HyperToc"@es ;
     skos:definition "Ein HyperToc stellt ein Hypertext-Inhaltsverzeichnis für komplexe Medienobjekte dar, z. B. VideoObject, AudioObject. Die Elemente des Inhaltsverzeichnisses werden mit der Eigenschaft tocEntry und dem Typ HyperTocEntry angegeben. In Fällen, in denen ein größeres Werk in mehrere Dateien aufgeteilt ist, kann associatedMedia für einzelne HyperTocEntry-Elemente verwendet werden."@de,
       "A HyperToc represents a hypertext table of contents for complex media objects, such as `as:Video`, `as:Audio`. Items in the table of contents are indicated using the `tocEntry` property, and typed `HyperTocEntry`. For cases where the same larger work is split into multiple files, [schema:associatedMedia] attachments can be used on individual HyperTocEntry items."@en,
@@ -4758,7 +4758,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:HyperTocEntry ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1519" ;
+    skos:notation "519" ;
     skos:prefLabel "HyperToc Eintrag"@de, "Hyper Toc Entry"@en, "Entrée HyperToc"@fr, "Entrada HyperToc"@es ;
     skos:definition "Ein HyperToEntry ist ein Element innerhalb eines HyperToc, das ein Hypertext-Inhaltsverzeichnis für komplexe Medienobjekte, wie as:Video, as:Audio, darstellt. Das Medienobjekt selbst wird mit associatedMedia angegeben. Jeder Abschnitt von Interesse innerhalb dieses Inhalts kann mit einem HyperTocEntry beschrieben werden, mit zugehörigem startOffset und endOffset. Wenn mehrere Einträge aus der gleichen Datei stammen, wird associatedMedia für den übergreifenden HyperTocEntry verwendet; wenn der Inhalt in mehrere Dateien aufgeteilt wurde, können diese mit associatedMedia für jeden HyperTocEntry referenziert werden."@de,
       "A HyperToEntry is an item within a [HyperToc](https://schema.org/HyperToc), which represents a hypertext table of contents for complex media objects, such as [VideoObject](https://schema.org/VideoObject), [AudioObject](https://schema.org/AudioObject). The media object itself is indicated using [associatedMedia](https://schema.org/associatedMedia). Each section of interest within that content can be described with a [HyperTocEntry](https://schema.org/HyperTocEntry), with associated [startOffset](https://schema.org/startOffset) and [endOffset](https://schema.org/endOffset). When several entries are all from the same file, [associatedMedia](https://schema.org/associatedMedia) is used on the overarching [HyperTocEntry](https://schema.org/HyperTocEntry); if the content has been split into multiple files, they can be referenced using [associatedMedia](https://schema.org/associatedMedia) on each [HyperTocEntry](https://schema.org/HyperTocEntry)."@en,
@@ -4772,7 +4772,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:LearningResource ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1520" ;
+    skos:notation "520" ;
     skos:prefLabel "Lern-Ressource"@de, "Learning Resource"@en, "Ressource d'apprentissage"@fr, "Recurso de aprendizaje"@es ;
     skos:altLabel "Lehrmaterial"@de, "Educational material"@en, "Learning Resource"@fr, "Learning Resource"@es ;
     skos:definition "Der Typ LearningResource kann verwendet werden, um CreativeWorks (physisch oder digital) zu kennzeichnen, die eine besondere und ausdrückliche Ausrichtung auf das Lernen, die Ausbildung, den Erwerb von Fähigkeiten und andere Bildungszwecke haben.<br>LearningResource soll als Zusatz zu einem primären Typ wie Book, VideoObject, Product usw. verwendet werden.<br>EducationEvent dient einem ähnlichen Zweck für ereignisähnliche Dinge (z. B. eine Reise). Eine LearningResource kann als Ergebnis eines EducationEvents erstellt werden, zum Beispiel durch Aufzeichnung eines solchen."@de,
@@ -4787,7 +4787,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Manuscript ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1521" ;
+    skos:notation "521" ;
     skos:prefLabel "Manuskript"@de, "Manuscript"@en, "Manuscrit"@fr, "Manuscrito"@es ;
     skos:definition "Ein Buch, ein Dokument oder ein Musikstück, das von Hand geschrieben und nicht getippt oder gedruckt wurde."@de,
       "A book, document, or piece of music written by hand rather than typed or printed."@en,
@@ -4801,7 +4801,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Map ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1522" ;
+    skos:notation "522" ;
     skos:prefLabel "Karte"@de, "Map"@en, "Carte"@fr, "Mapa"@es ;
     skos:definition "Eine geographische Karte."@de,
       "A geographical map."@en,
@@ -4815,7 +4815,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:MathSolver ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1523" ;
+    skos:notation "523" ;
     skos:prefLabel "Mathe Problemlöser"@de, "Math Solver"@en, "MathSolver"@fr, "MathSolver"@es ;
     skos:definition "Ein mathematischer Solver, der in der Lage ist, eine Teilmenge von mathematischen Problemen zu lösen."@de,
       "A math solver which is capable of solving a subset of mathematical problems."@en,
@@ -4829,7 +4829,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:MusicComposition ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1524" ;
+    skos:notation "524" ;
     skos:prefLabel "Musikkomposition"@de, "Music Composition"@en, "Composition musicale"@fr, "Composición musical"@es ;
     skos:definition "Eine musikalische Komposition."@de,
       "A musical composition."@en,
@@ -4843,7 +4843,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:MusicPlaylist ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1525" ;
+    skos:notation "525" ;
     skos:prefLabel "Musik-Wiedergabeliste"@de, "Music Playlist"@en, "Liste de lecture de musique"@fr, "Lista de reproducción de música"@es ;
     skos:altLabel "Musik Playlist"@de, "Music Tracklist"@en, "Music Playlist"@fr, "Music Playlist"@es ;
     skos:definition "Eine Sammlung von Musiktiteln in Form einer Wiedergabeliste. Benutze `pt:Playlist` für Video-Wiedergabelisten."@de,
@@ -4858,7 +4858,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:MusicRecording ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1526" ;
+    skos:notation "526" ;
     skos:prefLabel "Musikaufnahme"@de, "Music Recording"@en, "Enregistrement de musique"@fr, "Grabación de música"@es ;
     skos:definition "Eine Musikaufnahme, normalerweise ein einzelner Song."@de,
       "A music recording (track), usually a single song."@en,
@@ -4872,7 +4872,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Painting ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1527" ;
+    skos:notation "527" ;
     skos:prefLabel "Gemälde"@de, "Painting"@en, "Peinture"@fr, "Pintura"@es ;
     skos:definition "Ein Gemälde."@de,
       "A painting."@en,
@@ -4886,7 +4886,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Photograph ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1528" ;
+    skos:notation "528" ;
     skos:prefLabel "Fotografie"@de, "Photograph"@en, "Photographie"@fr, "Fotografía"@es ;
     skos:definition "Ein Lichtbild."@de,
       "A photograph."@en,
@@ -4900,7 +4900,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:PublicationIssue    ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1529" ;
+    skos:notation "529" ;
     skos:prefLabel "Publikationsausgabe"@de, "Publication Issue"@en, "Numéro de publication"@fr, "Número de la publicación"@es ;
     skos:altLabel "Ausgabe"@de, "Issue"@en, "Numéro"@fr, "Numéro"@es ;
     skos:definition "Ein Teil einer fortlaufend veröffentlichten Publikation, z. B. einer Zeitschrift oder eines Publikationsbandes, der häufig nummeriert ist und in der Regel eine Zusammenstellung von Werken wie z. B. Artikeln enthält.<br/><br/>Siehe auch [Blogpost](http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html)."@de,
@@ -4915,7 +4915,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:PublicationVolume ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1530" ;
+    skos:notation "530" ;
     skos:prefLabel "Publikationsband"@de, "Publication Volume"@en, "Volume de publication"@fr, "Volumen de la publicación"@es ;
     skos:altLabel "Volume"@de, "Volume"@en, "Volume"@fr, "Volumen"@es ;
     skos:definition "Ein oft nummerierter Teil einer nacheinander veröffentlichten Publikation wie einer Zeitschrift oder eines mehrbändigen Werks. Er kann eine Zeitspanne, z. B. ein Jahr, darstellen.<br/><br/>Siehe auch [Blogeintrag](http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html)."@de,
@@ -4930,7 +4930,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Sculpture ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1531" ;
+    skos:notation "531" ;
     skos:prefLabel "Skulptur"@de, "Sculpture"@en, "Sculpture"@fr, "Escultura"@es ;
     skos:definition "Ein ausgeformtes Stück als Skulptur."@de,
       "A piece of sculpture."@en,
@@ -4944,7 +4944,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:SoftwareApplication    ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1532" ;
+    skos:notation "532" ;
     skos:prefLabel "Software-Anwendung"@de, "Software Application"@en, "Application logicielle"@fr, "Aplicación de software"@es ;
     skos:definition "Eine Software-Anwendung jeder Art."@de,
       "A Software Application of all kinds."@en,
@@ -4958,7 +4958,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:SoftwareSourceCode ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1533" ;
+    skos:notation "533" ;
     skos:prefLabel "Software-Quellcode"@de, "Software Source Code"@en, "Code source du logiciel"@fr, "Código fuente del software"@es ;
     skos:definition "Quellcode der Computerprogrammierung. Beispiel: Vollständige (kompilierfähige) Lösungen, Code-Schnipsel, Skripte, Vorlagen."@de,
       "Computer programming source code. Example: Full (compile ready) solutions, code snippet samples, scripts, templates."@en,
@@ -4972,7 +4972,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:SpecialAnnouncement ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1534" ;
+    skos:notation "534" ;
     skos:prefLabel "Special Announcement"@de, "Special Announcement"@en, "Annonce spéciale"@fr, "Anuncio especial"@es ;
     skos:definition "Eine Sonderbekanntmachung kombiniert eine einfache, mit einem Datumsstempel versehene Textaktualisierung mit kontextbezogenen Weblinks und anderen strukturierten Daten. Sie stellt eine Informationsaktualisierung dar, die von einer lokal ausgerichteten Organisation vorgenommen wurde, z. B. von Schulen, Apotheken, Gesundheitsdienstleistern, Gemeindegruppen oder lokalen Behörden.<br>Siehe [schema.org](https://schema.org/SpecialAnnouncement)"@de,
       "A SpecialAnnouncement combines a simple date-stamped textual information update with contextualized Web links and other structured data. It represents an information update made by a locally-oriented organization, for example schools, pharmacies, healthcare providers, community groups, local government.<br/>SEE [schema.org](https://schema.org/SpecialAnnouncement)"@en,
@@ -4986,7 +4986,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Thesis ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1535" ;
+    skos:notation "535" ;
     skos:prefLabel "Abschlussarbeit"@de, "Thesis"@en, "Thèse"@fr, "Tesis"@es ;
     skos:definition "Eine Diplomarbeit oder Dissertation, die zur Erlangung eines akademischen Grades oder einer beruflichen Qualifikation eingereicht wird."@de,
       "A thesis or dissertation document submitted in support of candidature for an academic degree or professional qualification."@en,
@@ -5000,7 +5000,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:WebPageElement ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1536" ;
+    skos:notation "536" ;
     skos:prefLabel "Webseiten-Element"@de, "Web Page Element"@en, "Web Page Element"@fr, "Web Page Element"@es ;
     skos:definition "Ein Webseitenelement, wie eine Tabelle oder ein Bild."@de,
       "A web page element, like a table or an image."@en,
@@ -5014,7 +5014,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:WebSite ;
     skos:inScheme :scheme ;
     skos:broader :CreativeWork, :redaktor ;
-    skos:notation "1537" ;
+    skos:notation "537" ;
     skos:prefLabel "Web-Seite"@de, "Web Site"@en, "Page Web"@fr, "Página web"@es ;
     skos:definition "Eine WebSite ist eine Reihe von zusammenhängenden Webseiten und anderen Elementen, die in der Regel von einer einzigen Web-Domain aus angeboten werden und über URLs zugänglich sind."@de,
       "A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs."@en,
@@ -5028,7 +5028,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:MonetaryGrant ;
     skos:inScheme :scheme ;
     skos:broader :Grant, :redaktor ;
-    skos:notation "1550" ;
+    skos:notation "550" ;
     skos:prefLabel "Monetäre Zuwendung"@de, "Monetary Grant"@en, "Subvention monétaire"@fr, "Subvención monetaria"@es ;
     skos:definition "Ein finanzieller Zuschuss.<br>Siehe `Grant` für Details."@de,
       "A monetary grant.<br>See `Grant` for details."@en,
@@ -5042,7 +5042,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:BoatTrip ;
     skos:inScheme :scheme ;
     skos:broader :Trip, :redaktor ;
-    skos:notation "1551" ;
+    skos:notation "551" ;
     skos:prefLabel "Bootsfahrt"@de, "Boat Trip"@en, "Voyage en bateau"@fr, "Viaje en barco"@es ;
     skos:definition "Eine Reise mit einer Fährlinie."@de,
       "A trip on a ferry line."@en,
@@ -5056,7 +5056,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:BusTrip ;
     skos:inScheme :scheme ;
     skos:broader :Trip, :redaktor ;
-    skos:notation "1552" ;
+    skos:notation "552" ;
     skos:prefLabel "Busreise"@de, "Bus Trip"@en, "Voyage en bus"@fr, "Viaje en autobús"@es ;
     skos:definition "Eine Reise mit einer Buslinie."@de,
       "A trip on a bus line."@en,
@@ -5070,7 +5070,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Flight ;
     skos:inScheme :scheme ;
     skos:broader :Trip, :redaktor ;
-    skos:notation "1553" ;
+    skos:notation "553" ;
     skos:prefLabel "Flug"@de, "Flight"@en, "Vol"@fr, "Vuelo"@es ;
     skos:definition "Ein Flug, z.B. mit einer Fluggesellschaft."@de,
       "An airline flight."@en,
@@ -5084,7 +5084,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:TouristTrip ;
     skos:inScheme :scheme ;
     skos:broader :Trip, :redaktor ;
-    skos:notation "1554" ;
+    skos:notation "554" ;
     skos:prefLabel "Touristische Reise"@de, "Tourist Trip"@en, "Voyage touristique"@fr, "Viaje turístico"@es ;
     skos:definition "Eine Reise für Touristen. Eine erstellte Reiseroute mit Besuchen an einem oder mehreren Orten von Interesse ([TouristAttraction](https://schema.org/TouristAttraction)/[TouristDestination](https://schema.org/TouristDestination)), die häufig durch ein ähnliches Thema, ein ähnliches geografisches Gebiet oder ein ähnliches Interesse an einem bestimmten Tourismustyp [touristType](https://schema.org/touristType) verbunden sind. Die [UNWTO](http://www2.unwto.org/) definiert eine touristische Reise als die von Besuchern unternommene Reise."@de,
       "A tourist trip. A created itinerary of visits to one or more places of interest ([TouristAttraction](https://schema.org/TouristAttraction)/[TouristDestination](https://schema.org/TouristDestination)) often linked by a similar theme, geographic area, or interest to a particular [touristType](https://schema.org/touristType). The [UNWTO](http://www2.unwto.org/) defines tourism trip as the Trip taken by visitors.<br>  (See examples below)."@en,
@@ -5098,7 +5098,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:TrainTrip ;
     skos:inScheme :scheme ;
     skos:broader :Trip, :redaktor ;
-    skos:notation "1555" ;
+    skos:notation "555" ;
     skos:prefLabel "Zugfahrt"@de, "Train Trip"@en, "Voyage en train"@fr, "Viaje en tren"@es ;
     skos:definition "Eine Reise auf einer Zugstrecke."@de,
       "A trip on a commercial train line."@en,
@@ -5112,7 +5112,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Audiobook ;
     skos:inScheme :scheme ;
     skos:broader :Book, :redaktor ;
-    skos:notation "1556" ;
+    skos:notation "556" ;
     skos:prefLabel "Hörbuch"@de, "Audiobook"@en, "Livre audio"@fr, "Audiolibro"@es ;
     skos:definition "Ein Hörbuch."@de,
       "An audiobook."@en,
@@ -5126,7 +5126,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:MovieClip ;
     skos:inScheme :scheme ;
     skos:broader :Clip, :redaktor ;
-    skos:notation "1557" ;
+    skos:notation "557" ;
     skos:prefLabel "Film-Clip"@de, "Movie Clip"@en, "Clip de film"@fr, "Clip de película"@es ;
     skos:definition "Ein kurzes Segment / Teil eines Films / Filmausschnitt."@de,
       "A short segment/part of a movie."@en,
@@ -5140,7 +5140,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:RadioClip ;
     skos:inScheme :scheme ;
     skos:broader :Clip, :redaktor ;
-    skos:notation "1558" ;
+    skos:notation "558" ;
     skos:prefLabel "Radio-Clip"@de, "Radio Clip"@en, "Clip radio"@fr, "Clip de radio"@es ;
     skos:definition "Eine kurze Radiosendung oder ein Segment/Teil einer Radiosendung."@de,
       "A short radio program or a segment/part of a radio program."@en,
@@ -5154,7 +5154,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:TVClip ;
     skos:inScheme :scheme ;
     skos:broader :Clip, :redaktor ;
-    skos:notation "1559" ;
+    skos:notation "559" ;
     skos:prefLabel "TV-Clip"@de, "TV Clip"@en, "Clip TV"@fr, "Clip de TV"@es ;
     skos:definition "Eine kurze Fernsehsendung oder ein Segment/Teil einer Fernsehsendung."@de,
       "A short TV program or a segment/part of a TV program."@en,
@@ -5168,7 +5168,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:VideoGameClip ;
     skos:inScheme :scheme ;
     skos:broader :Clip, :redaktor ;
-    skos:notation "1560" ;
+    skos:notation "560" ;
     skos:prefLabel "Videospiel-Clip"@de, "Video Game Clip"@en, "Clip de jeu vidéo"@fr, "Clip de videojuego"@es ;
     skos:definition "Ein kurzes Segment/Teil eines Videospiels."@de,
       "A short segment/part of a video game."@en,
@@ -5182,7 +5182,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:VideoGame ;
     skos:inScheme :scheme ;
     skos:broader :Game, :redaktor ;
-    skos:notation "1562" ;
+    skos:notation "562" ;
     skos:prefLabel "Videospiel"@de, "Video Game"@en, "Jeu vidéo"@fr, "Videojuego"@es ;
     skos:definition "Ein Videospiel ist ein elektronisches Spiel, bei dem der Mensch mit einer Benutzeroberfläche interagiert, um visuelles Feedback auf einem Videogerät zu erzeugen."@de,
       "A video game is an electronic game that involves human interaction with a user interface to generate visual feedback on a video device."@en,
@@ -5196,7 +5196,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Recipe ;
     skos:inScheme :scheme ;
     skos:broader :HowTo, :redaktor ;
-    skos:notation "1563" ;
+    skos:notation "563" ;
     skos:prefLabel "Rezept"@de, "Recipe"@en, "Recette"@fr, "Receta"@es ;
     skos:definition "Ein Rezept. Für diätetische Einschränkungen, die durch das Rezept abgedeckt werden, werden einige allgemeine Einschränkungen über suitableForDiet aufgezählt. Die Eigenschaft keywords kann auch verwendet werden, um weitere Details hinzuzufügen."@de,
       "A recipe. For dietary restrictions covered by the recipe, a few common restrictions are enumerated via [suitableForDiet](https://schema.org/suitableForDiet). The [keywords](https://schema.org/keywords) property can also be used to add more detail."@en,
@@ -5210,7 +5210,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Course ;
     skos:inScheme :scheme ;
     skos:broader :LearningResource, :redaktor ;
-    skos:notation "1564" ;
+    skos:notation "564" ;
     skos:prefLabel "Kurs"@de, "Course"@en, "Cours"@fr, "Curso"@es ;
     skos:definition "Eine Beschreibung eines Bildungskurses, der als verschiedene Instanzen angeboten werden kann, die zu unterschiedlichen Zeiten oder an unterschiedlichen Orten stattfinden, oder über verschiedene Medien oder Lernformen angeboten werden. Ein Bildungskurs ist eine Abfolge von einer oder mehreren Bildungsveranstaltungen und/oder kreativen Arbeiten, die darauf abzielen, das Wissen, die Kompetenz oder die Fähigkeiten der Lernenden zu erweitern."@de,
       "A description of an educational course which may be offered as distinct instances at which take place at different times or take place at different locations, or be offered through different media or modes of study. An educational course is a sequence of one or more educational events and/or creative works which aims to build knowledge, competence or ability of learners."@en,
@@ -5224,7 +5224,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Quiz ;
     skos:inScheme :scheme ;
     skos:broader :LearningResource, :redaktor ;
-    skos:notation "1565" ;
+    skos:notation "565" ;
     skos:prefLabel "Quiz"@de, "Quiz"@en, "Quiz"@fr, "Cuestionario"@es ;
     skos:definition "Ein Test von Wissen, Fähigkeiten und Fertigkeiten."@de,
       "Quiz: A test of knowledge, skills and abilities."@en,
@@ -5238,7 +5238,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:AboutPage ;
     skos:inScheme :scheme ;
     skos:broader as:Page, :redaktor ;
-    skos:notation "1566" ;
+    skos:notation "566" ;
     skos:prefLabel "About (Über) Seite"@de, "About Page"@en, "Page à propos"@fr, "Acerca de la página"@es ;
     skos:definition "Typ der Webseite: Info-Seite."@de,
       "Web page type: About page."@en,
@@ -5252,7 +5252,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:CheckoutPage ;
     skos:inScheme :scheme ;
     skos:broader as:Page, :redaktor ;
-    skos:notation "1567" ;
+    skos:notation "567" ;
     skos:prefLabel "Checkout-Seite"@de, "Checkout Page"@en, "Page de paiement"@fr, "Página de pago"@es ;
     skos:definition "Typ der Webseite: Kassenseite."@de,
       "Web page type: Checkout page."@en,
@@ -5266,7 +5266,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:CollectionPage ;
     skos:inScheme :scheme ;
     skos:broader as:Page, :redaktor ;
-    skos:notation "1568" ;
+    skos:notation "568" ;
     skos:prefLabel "Sammlung Seite"@de, "Collection Page"@en, "Page de la collection"@fr, "Página de la colección"@es ;
     skos:definition "Typ der Webseite: Sammlungsseite."@de,
       "Web page type: Collection page."@en,
@@ -5280,7 +5280,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:ContactPage ;
     skos:inScheme :scheme ;
     skos:broader as:Page, :redaktor ;
-    skos:notation "1569" ;
+    skos:notation "569" ;
     skos:prefLabel "Kontakt-Seite"@de, "Contact Page"@en, "Page de contact"@fr, "Página de contacto"@es ;
     skos:definition "Typ der Webseite: Kontaktseite."@de,
       "Web page type: Contact page."@en,
@@ -5294,7 +5294,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:FAQPage ;
     skos:inScheme :scheme ;
     skos:broader as:Page, :redaktor ;
-    skos:notation "1570" ;
+    skos:notation "570" ;
     skos:prefLabel "FAQ-Seite"@de, "FAQ Page"@en, "Page FAQ"@fr, "Página de preguntas frecuentes"@es ;
     skos:definition "Eine FAQ-Seite ist eine `WebPage`, die eine oder mehrere [\"Häufig gestellte Fragen\"](https://de.wikipedia.org/wiki/FAQ) präsentiert (siehe auch QAPage)."@de,
       "A FAQPage is a `WebPage` presenting one or more \"[Frequently asked questions](https://en.wikipedia.org/wiki/FAQ)\" (see also [QAPage](https://schema.org/QAPage))."@en,
@@ -5308,7 +5308,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:ItemPage ;
     skos:inScheme :scheme ;
     skos:broader as:Page, :redaktor ;
-    skos:notation "1571" ;
+    skos:notation "571" ;
     skos:prefLabel "Item, Artikel-Seite"@de, "Item Page"@en, "Page des articles"@fr, "Página de artículos"@es ;
     skos:definition "Eine Seite, die einem einzelnen Gegenstand gewidmet ist, z. B. einem bestimmten Produkt oder Hotel."@de,
       "A page devoted to a single item, such as a particular product or hotel."@en,
@@ -5322,7 +5322,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:MedicalWebPage ;
     skos:inScheme :scheme ;
     skos:broader as:Page, :redaktor ;
-    skos:notation "1572" ;
+    skos:notation "572" ;
     skos:prefLabel "Medizinische Seite"@de, "Medical Page"@en, "Page Web médicale"@fr, "Página web médica"@es ;
     skos:definition "Eine Seite, die sich mit einem medizinischen Thema befasst."@de,
       "A page dealing with a medical topic."@en,
@@ -5336,7 +5336,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:ProfilePage ;
     skos:inScheme :scheme ;
     skos:broader as:Page, :redaktor ;
-    skos:notation "1573" ;
+    skos:notation "573" ;
     skos:prefLabel "Profilseite"@de, "Profile Page"@en, "Page de profil"@fr, "Página de perfil"@es ;
     skos:definition "Typ der Webseite: Profil"@de,
       "Web page type: Profilseite."@en,
@@ -5350,7 +5350,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:QAPage ;
     skos:inScheme :scheme ;
     skos:broader as:Page, :redaktor ;
-    skos:notation "1574" ;
+    skos:notation "574" ;
     skos:prefLabel "Q&A Page"@de, "Q&A Page"@en, "Page Q&R"@fr, "Página de preguntas y respuestas"@es ;
     skos:definition "Eine QAPage ist eine Webseite, die sich auf eine bestimmte Frage und ihre Antwort(en) konzentriert, z.B. auf einer Website, die Fragen beantwortet oder häufig gestellte Fragen dokumentiert."@de,
       "A QAPage is a WebPage focussed on a specific Question and its Answer(s), e.g. in a question answering site or documenting Frequently Asked Questions (FAQs)."@en,
@@ -5364,7 +5364,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:RealEstateListing ;
     skos:inScheme :scheme ;
     skos:broader as:Page, :redaktor ;
-    skos:notation "1575" ;
+    skos:notation "575" ;
     skos:prefLabel "Auflistung von Immobilien"@de, "Real Estate Listing"@en, "Liste des biens immobiliers"@fr, "Listado de inmuebles"@es ;
     skos:definition "Ein RealEstateListing ist ein Listing, das ein oder mehrere Immobilienangebote beschreibt (deren businessFunction typischerweise die Vermietung oder der Verkauf ist).<br>Der Typ RealEstateListing selbst repräsentiert das gesamte Angebot, wie es auf einer WebPage dargestellt wird."@de,
       "A RealEstateListing is a listing that describes one or more real-estate [Offer](https://schema.org/Offer)s (whose [businessFunction](https://schema.org/businessFunction) is typically to lease out, or to sell).<br>  The [RealEstateListing](https://schema.org/RealEstateListing) type itself represents the overall listing, as manifested in some [WebPage](https://schema.org/WebPage)."@en,
@@ -5378,7 +5378,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:RealEstateListing ;
     skos:inScheme :scheme ;
     skos:broader as:Page, :redaktor ;
-    skos:notation "1576" ;
+    skos:notation "576" ;
     skos:prefLabel "Gastfreundschaft oder Couchsurfing Auflistung"@de, "Hospitality or Couchsurfing Listing"@en, "Liste d'hospitalité ou de couchsurfing"@fr, "Listado de Hospitalidad o Couchsurfing"@es ;
     skos:definition "Gastfreundschaft-Börsen helfen dabei, Reisende mit denen zusammenzubringen, die sie beherbergen wollen.<br> Hier werden Angebote und Nachfragen aufgelistet."@de,
       "Hospitality exchange platforms help to connect travellers with those who want to host them.<br>This lists offers and demands.<br>TODO check https://openhospitality.network for CV."@en,
@@ -5391,7 +5391,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   :CarOrRideShareListing a owl:Class, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Page, :redaktor ;
-    skos:notation "1577" ;
+    skos:notation "577" ;
     skos:prefLabel "Mitfahrgelegenheit"@de, "Car or Ride Share Listing"@en, "Liste de voitures ou de covoiturage"@fr, "Lista de coches o viajes compartidos"@es ;
     skos:definition "Eine Auflistung zur Beschreibung von Carsharing- oder Mitfahr-Möglichkeiten und Nachfragen."@de,
       "A listing to describe car share or ride share opportunities and applications."@en,
@@ -5405,7 +5405,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:SearchResultsPage ;
     skos:inScheme :scheme ;
     skos:broader as:Page, :redaktor ;
-    skos:notation "1578" ;
+    skos:notation "578" ;
     skos:prefLabel "Seite mit Suchergebnissen"@de, "Search Results Page"@en, "Page de résultats de recherche"@fr, "Página de resultados de búsqueda"@es ;
     skos:definition "Webpage-Typ: Seite mit Suchergebnissen."@de,
       "Web page type: Search results page."@en,
@@ -5419,7 +5419,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:SiteNavigationElement ;
     skos:inScheme :scheme ;
     skos:broader :WebPageElement, :redaktor ;
-    skos:notation "1579" ;
+    skos:notation "579" ;
     skos:prefLabel "Navigationselement der Seite"@de, "Site Navigation Element"@en, "Élément de navigation du site"@fr, "Elemento de navegación del sitio"@es ;
     skos:definition "Ein Navigationselement der Seite."@de,
       "A navigation element of the page."@en,
@@ -5433,7 +5433,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Table ;
     skos:inScheme :scheme ;
     skos:broader :WebPageElement, :redaktor ;
-    skos:notation "1580" ;
+    skos:notation "580" ;
     skos:prefLabel "Tabelle"@de, "Table"@en, "Tableau"@fr, "Tabla"@es ;
     skos:definition "Eine Tabelle auf einer Webseite."@de,
       "A table on a Web page."@en,
@@ -5446,7 +5446,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:WPAdBlock ;
     skos:inScheme :scheme ;
     skos:broader :WebPageElement, :redaktor ;
-    skos:notation "1581" ;
+    skos:notation "581" ;
     skos:prefLabel "WP-Anzeigenblock"@de, "WP Ad Block"@en, "WP Ad Block"@fr, "WP Ad Block"@es ;
     skos:definition "Ein Werbeabschnitt auf der Seite."@de,
       "An advertising section of the page."@en,
@@ -5460,7 +5460,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:WPFooter ;
     skos:inScheme :scheme ;
     skos:broader :WebPageElement, :redaktor ;
-    skos:notation "1582" ;
+    skos:notation "582" ;
     skos:prefLabel "WP Fußzeile"@de, "WP Footer"@en, "WP Footer"@fr, "WP Footer"@es ;
     skos:definition "Der Fußzeilenbereich der Seite."@de,
       "The footer section of the page."@en,
@@ -5474,7 +5474,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:WPHeader ;
     skos:inScheme :scheme ;
     skos:broader :WebPageElement, :redaktor ;
-    skos:notation "1583" ;
+    skos:notation "583" ;
     skos:prefLabel "WP Kopfzeile"@de, "WP Header"@en, "WP Header"@fr, "WP Header"@es ;
     skos:definition "WP Kopfzeile"@de,
       "The header section of the page."@en,
@@ -5488,7 +5488,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:WPSideBar ;
     skos:inScheme :scheme ;
     skos:broader :WebPageElement, :redaktor ;
-    skos:notation "1584" ;
+    skos:notation "584" ;
     skos:prefLabel "WP Seitenleiste"@de, "WP Side Bar"@en, "WP Side Bar"@fr, "WP Side Bar"@es ;
     skos:definition "WP Seitenleiste"@de,
       "A sidebar section of the page."@en,
@@ -5502,7 +5502,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:CoverArt ;
     skos:inScheme :scheme ;
     skos:broader as:Image, :redaktor ;
-    skos:notation "1585" ;
+    skos:notation "585" ;
     skos:prefLabel "Titelbild"@de, "Cover Art"@en, "Couverture"@fr, "Arte de la cubierta"@es ;
     skos:definition "Das Kunstwerk auf der äußeren Oberfläche eines CreativeWorks."@de,
       "The artwork on the outer surface of a CreativeWork."@en,
@@ -5516,7 +5516,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:ComicCoverArt ;
     skos:inScheme :scheme ;
     skos:broader :CoverArt, :ComicStory, :redaktor ;
-    skos:notation "1586" ;
+    skos:notation "586" ;
     skos:prefLabel "Comic-Titelbild"@de, "Comic Cover Art"@en, "Couverture de bande dessinée"@fr, "Portada de cómic"@es ;
     skos:definition "Die Illustration auf dem Cover eines Comics."@de,
       "The artwork on the cover of a comic."@en,
@@ -5559,7 +5559,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Actuality ;
   	skos:inScheme :scheme ;
   	skos:broader :News ;
-    skos:notation "1600" ;
+    skos:notation "380" ;
   	skos:prefLabel "Actuality"@en, "Aktualität"@de, "Actualité"@fr, "Actualidad"@es ;
   	skos:definition	"Recording of an event"@en, "Aufzeichnung eines Ereignisses"@de, "Enregistrement d'un événement"@fr, "Grabación de un evento"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5570,7 +5570,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Advertiser_Supplied ;
   	skos:inScheme :scheme ;
   	skos:broader :AdvertisingInvolved ;
-    skos:notation "1601" ;
+    skos:notation "330" ;
   	skos:prefLabel "Advertiser Supplied"@en, "Von Werbetreibenden bereitgestellt"@de, "Fourni par l'annonceur"@fr, "Suministrado por el anunciante"@es ;
   	skos:definition	"Content is supplied by an organisation or individual that has paid the news provider for its placement"@en, "Der Inhalt wird von einer Organisation oder Person bereitgestellt, die den Nachrichtenanbieter für die Platzierung bezahlt hat."@de, "Le contenu est fourni par une organisation ou un individu qui a payé le fournisseur de nouvelles pour son placement."@fr, "El contenido es suministrado por una organización o individuo que ha pagado al proveedor de noticias por su colocación"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5581,7 +5581,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Advice ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1602" ;
+    skos:notation "345" ;
   	skos:prefLabel "Advice"@en, "Ratschläge"@de, "Conseil"@fr, "Consejo"@es ;
   	skos:definition	"Letters and answers about readers' personal problems"@en, "Briefe und Antworten zu persönlichen Problemen der Leser"@de, "Lettres et réponses sur les problèmes personnels des lecteurs"@fr, "Cartas y respuestas sobre problemas personales de los lectores"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5592,7 +5592,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Advisory ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article, as:Note ;
-    skos:notation "1603" ;
+    skos:notation "305" ;
   	skos:prefLabel "Advisory"@en, "Beratung"@de, "Conseil"@fr, "Asesoramiento"@es ;
   	skos:definition	"Recommendation on editorial or technical matters by a provider to its customers"@en, "Empfehlung zu redaktionellen oder technischen Fragen durch einen Anbieter an seine Kunden"@de, "Recommandation sur des questions éditoriales ou techniques par un fournisseur à ses clients."@fr, "Recomendaciones sobre cuestiones editoriales o técnicas que un proveedor hace a sus clientes"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5603,7 +5603,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:almanac ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1604" ;
+    skos:notation "346" ;
   	skos:prefLabel "On This Day"@en, "An diesem Tag"@de, "On This Day"@fr, "En este día"@es ;
   	skos:definition	"List of data, including birthdays of famous people and items of historical significance, for a given day"@en, "Liste von Daten, einschließlich Geburtstagen berühmter Persönlichkeiten und historisch bedeutsamen Ereignissen, für einen bestimmten Tag"@de, "Liste de données, y compris les anniversaires de personnes célèbres et les éléments d'importance historique, pour un jour donné."@fr, "Lista de datos, incluidos los cumpleaños de personajes famosos y elementos de importancia histórica, para un día determinado"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5614,7 +5614,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Analysis, schema:AnalysisNewsArticle ;
   	skos:inScheme :scheme ;
   	skos:broader :News ;
-    skos:notation "1605" ;
+    skos:notation "381" ;
   	skos:prefLabel "Analysis"@en, "Analyse"@de, "Analyse"@fr, "Análisis"@es ;
   	skos:definition	"Data and conclusions drawn by a journalist who has conducted in depth research for a story"@en, "Daten und Schlussfolgerungen eines Journalisten, der für einen Artikel eingehend recherchiert hat"@de, "Données et conclusions tirées par un journaliste qui a effectué des recherches approfondies pour un article."@fr, "Datos y conclusiones extraídos por un periodista que ha realizado una investigación en profundidad para un reportaje"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5625,7 +5625,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Anniversary ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1606" ;
+    skos:notation "347" ;
   	skos:prefLabel "Anniversary"@en, "Jahrestag"@de, "Anniversaire"@fr, "Aniversario"@es ;
   	skos:definition	"Stories about the anniversary of some important event that took place in recent history, usually bringing a short review of the event itself."@en, "Berichte über den Jahrestag eines wichtigen Ereignisses der jüngeren Geschichte, meist mit einem kurzen Rückblick auf das Ereignis selbst."@de, "Reportages sur l'anniversaire d'un événement important qui a eu lieu dans l'histoire récente, avec généralement un bref rappel de l'événement lui-même."@fr, "Historias sobre el aniversario de algún acontecimiento importante que haya tenido lugar en la historia reciente, que suelen llevar una breve reseña del propio acontecimiento."@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5636,7 +5636,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch schema:APIReference ;
   	skos:inScheme :scheme ;
   	skos:broader :TechArticle ;
-    skos:notation "1607" ;
+    skos:notation "398" ;
   	skos:prefLabel "API Reference or software documentation"@en, "API Referenz oder Software Dokumentation"@de, "Documentation de référence ou de logiciel"@fr, "Documentación de referencia o de software"@es ;
   	skos:definition	"Reference documentation for application programming interfaces (APIs) documentation for software or specifications."@en, "Referenzdokumentation für Anwendungsprogrammierschnittstellen (APIs), Dokumentation für Software oder Spezifikation."@de, "Documentation de référence pour les interfaces de programmation d'applications (API), documentation pour les logiciels ou spécification."@fr, "Documentación de referencia para interfaces de programación de aplicaciones (API), documentación de software o especificación."@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5647,7 +5647,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Archive_material ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article, as:Note ;
-    skos:notation "1608" ;
+    skos:notation "306" ;
   	skos:prefLabel "Archival material"@en, "Archivmaterial"@de, "Matériel d'archives"@fr, "Material de archivo"@es ;
   	skos:definition	"Material selected from the originator's archive that has been previously distributed"@en, "Ausgewähltes Material aus dem Archiv des Verfassers, das zuvor verbreitet wurde."@de, "Matériel sélectionné dans les archives de l'auteur et qui a été distribué auparavant."@fr, "Material seleccionado del archivo del autor que ha sido distribuido previamente"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5658,7 +5658,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Background, schema:BackgroundNewsArticle ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article, as:Note ;
-    skos:notation "1609" ;
+    skos:notation "307" ;
   	skos:prefLabel "Background"@en, "Hintergrund"@de, "Contexte"@fr, "Antecedentes"@es ;
   	skos:definition	"Scene setting and explanation for an event being reported"@en, "Schauplatz und Erklärung für ein berichtetes Ereignis"@de, "Mise en scène et explication de l'événement relaté."@fr, "Escenario y explicación de un acontecimiento del que se informa"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5669,7 +5669,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Behind_the_Story ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1610" ;
+    skos:notation "348" ;
   	skos:prefLabel "Behind the Story"@en, "Hinter der Geschichte"@de, "Derrière l'histoire"@fr, "Detrás de la historia"@es ;
   	skos:definition	"The content describes how a story was reported and offers context on the reporting"@en, "Der Inhalt beschreibt, wie eine Geschichte berichtet wurde und bietet einen Kontext zur Berichterstattung"@de, "Le contenu décrit comment une histoire a été rapportée et offre un contexte sur le reportage"@fr, "El contenido describe cómo se informó de una historia y ofrece un contexto sobre el reportaje"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5680,7 +5680,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Biography ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1611" ;
+    skos:notation "349" ;
   	skos:prefLabel "Biography"@en, "Biografie"@de, "Biographie"@fr, "Biografía"@es ;
   	skos:definition	"Facts and background about a person"@en, "Fakten und Hintergrundinformationen über eine Person"@de, "Faits et contexte concernant une personne"@fr, "Datos y antecedentes de una persona"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5691,7 +5691,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Birth_Announcement ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1612" ;
+    skos:notation "350" ;
   	skos:prefLabel "Birth Announcement"@en, "Ankündigung einer Geburt"@de, "Annonce de naissance"@fr, "Anuncio de nacimiento"@es ;
   	skos:definition	"News of newly born children"@en, "Nachrichten über neu geborene Kinder"@de, "Nouvelles d'enfants nouvellement nés"@fr, "Noticias de niños recién nacidos"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5702,7 +5702,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Current ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1613" ;
+    skos:notation "352" ;
   	skos:prefLabel "Current Events"@en, "Aktuelle Ereignisse"@de, "Événements actuels"@fr, "Acontecimientos actuales"@es ;
   	skos:definition	"Content about events taking place at the time of the report"@en, "Inhalte über Ereignisse, die zum Zeitpunkt der Meldung stattfinden"@de, "Contenu sur les événements qui se déroulent au moment du reportage"@fr, "Contenido sobre los acontecimientos que tienen lugar en el momento del reportaje"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5712,8 +5712,8 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   :CurtainRaiser a owl:Class, skos:Concept ;
   	skos:exactMatch genre:Curtain_Raiser ;
   	skos:inScheme :scheme ;
-  	skos:broader as:Article, as:Note ;
-    skos:notation "1614" ;
+  	skos:broader :Factual, as:Note ;
+    skos:notation "353" ;
   	skos:prefLabel "Curtain Raiser"@en, "Vorhang auf"@de, "Levée de rideau"@fr, "Apertura del telón"@es ;
   	skos:definition	"Information or kickoff piece for a live event that is about to take place"@en, "Information oder Auftakt für ein bevorstehendes Live-Event"@de, "Information ou pièce de lancement d'un événement en direct sur le point de se dérouler."@fr, "Información o pieza de inicio de un evento en vivo que está a punto de tener lugar"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5724,7 +5724,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Daybook ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article, as:Note ;
-    skos:notation "1615" ;
+    skos:notation "313" ;
   	skos:prefLabel "Planner"@en, "Planer"@de, "Planificateur"@fr, "Planificador"@es ;
   	skos:definition	"Items filed on a regular basis that are lists of upcoming events with time and place, designed to inform others of events for planning purposes, also known as daybook or agenda"@en, "Regelmäßig abgelegte Listen von bevorstehenden Ereignissen mit Zeit und Ort, die dazu dienen, andere über Ereignisse zu Planungszwecken zu informieren, auch bekannt als Daybook oder Agenda"@de, "Articles classés sur une base régulière qui sont des listes d'événements à venir avec l'heure et le lieu, conçus pour informer les autres des événements à des fins de planification, également connu sous le nom de journal ou d'agenda."@fr, "Artículos archivados de forma regular que son listas de los próximos eventos con hora y lugar, diseñados para informar a otros de los eventos con fines de planificación, también conocido como libro de días o agenda"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5746,7 +5746,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Fact_Check ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1617" ;
+    skos:notation "354" ;
   	skos:prefLabel "Fact Check"@en, "Faktencheck"@de, "Vérification des faits"@fr, "Comprobación de hechos"@es ;
   	skos:definition	"The news item looks into the truth or falsehood of another reported news item or assertion (for example a statement on social media by a public figure)"@en, "Die Nachricht untersucht den Wahrheitsgehalt oder die Unwahrheit einer anderen gemeldeten Nachricht oder Behauptung (z. B. eine Aussage einer Person des öffentlichen Lebens in den sozialen Medien)"@de, "L'article examine la véracité ou la fausseté d'une autre information ou affirmation (par exemple, une déclaration d'une personnalité sur les médias sociaux)."@fr, "La noticia investiga la veracidad o falsedad de otra noticia o afirmación (por ejemplo, una declaración en las redes sociales de un personaje público)"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5757,7 +5757,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Feature, schema:ReportageNewsArticle ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1618" ;
+    skos:notation "355" ;
   	skos:prefLabel "Feature"@en, "Feature"@de, "Article de fond"@fr, "Reportaje"@es ;
   	skos:definition	"Content about a particular event or individual that may not be significant to current breaking news"@en, "Inhalt über ein bestimmtes Ereignis oder eine bestimmte Person, der für die aktuellen Nachrichten nicht von Bedeutung ist"@de, "Contenu concernant un événement ou un individu particulier qui n'est pas forcément lié à l'actualité."@fr, "Contenido sobre un acontecimiento o una persona en particular que puede no ser importante para las noticias de actualidad"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5768,7 +5768,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Fixture ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1619" ;
+    skos:notation "356" ;
   	skos:prefLabel "Fixture"@en, "Spielplan"@de, "Fixture"@fr, "Fixture"@es ;
   	skos:definition	"Items published on a regular schedule, such as columns, cartoons, stock prices and weather forecasts"@en, "Regelmäßig veröffentlichte Artikel wie Kolumnen, Cartoons, Aktienkurse und Wettervorhersagen"@de, "Articles publiés à intervalles réguliers, tels que des chroniques, des caricatures, des cours de la bourse et des prévisions météorologiques."@fr, "Artículos que se publican con regularidad, como columnas, caricaturas, precios de las acciones y previsiones meteorológicas"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5779,7 +5779,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Forecast ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article, as:Note ;
-    skos:notation "1620" ;
+    skos:notation "311" ;
   	skos:prefLabel "Forecast"@en, "Vorhersage"@de, "Prévisions"@fr, "Pronóstico"@es ;
   	skos:definition	"Opinion as to the outcome of a future event"@en, "Meinung über den Ausgang eines zukünftigen Ereignisses"@de, "Opinion sur l'issue d'un événement futur"@fr, "Opinión sobre el resultado de un acontecimiento futuro"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5790,7 +5790,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:From_the_Scene ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1621" ;
+    skos:notation "357" ;
   	skos:prefLabel "From the Scene"@en, "Vom Ort des Geschehens"@de, "Depuis le lieu de l'événement"@fr, "Desde el lugar de los hechos"@es ;
   	skos:definition	"Report from the location of an event"@en, "Bericht vom Ort des Geschehens"@de, "Reportage sur les lieux d'un événement"@fr, "Informe desde el lugar de un acontecimiento"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5801,7 +5801,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Help_Us_to_Report, schema:AskPublicNewsArticle ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1622" ;
+    skos:notation "358" ;
   	skos:prefLabel "Help us to Report"@en, "Helfen Sie uns zu berichten"@de, "Aidez-nous à faire un reportage"@fr, "Ayúdanos a informar"@es ;
   	skos:definition	"The news item is a call for readers to provide information that may help journalists to investigate a potential news story"@en, "Die Nachricht ist ein Aufruf an die Leser, Informationen zu liefern, die den Journalisten helfen können, eine mögliche Geschichte zu recherchieren."@de, "La nouvelle est un appel aux lecteurs pour qu'ils fournissent des informations susceptibles d'aider les journalistes à enquêter sur un sujet d'actualité potentiel."@fr, "La noticia es un llamamiento a los lectores para que proporcionen información que pueda ayudar a los periodistas a investigar una posible noticia"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5812,7 +5812,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:History ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1623" ;
+    skos:notation "359" ;
   	skos:prefLabel "History"@en, "Geschichte"@de, "Histoire"@fr, "Historia"@es ;
   	skos:definition	"The object content is based on previous rather than current events."@en, "Der Inhalt des Objekts basiert eher auf früheren als auf aktuellen Ereignissen."@de, "Le contenu de l'objet est basé sur des événements passés plutôt qu'actuels."@fr, "El contenido del objeto se basa en acontecimientos anteriores y no actuales."@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5823,7 +5823,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:horoscope ;
   	skos:inScheme :scheme ;
   	skos:broader :Fictional ;
-    skos:notation "1624" ;
+    skos:notation "402" ;
   	skos:prefLabel "Horoscope"@en, "Horoskop"@de, "Horoscope"@fr, "Horóscopo"@es ;
   	skos:definition	"Astrological forecasts"@en, "Astrologische Prognosen"@de, "Prévisions astrologiques"@fr, "Pronósticos astrológicos"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5834,7 +5834,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Interview ;
   	skos:inScheme :scheme ;
   	skos:broader as:Event, :Factual ;
-    skos:notation "1625" ;
+    skos:notation "360" ;
   	skos:prefLabel "Interview"@en, "Interview"@de, "Interview"@fr, "Entrevista"@es ;
   	skos:definition	"The report of a dialogue between a journalist and a news source or significant person"@en, "Der Bericht eines Dialogs zwischen einem Journalisten und einer Nachrichtenquelle oder einer wichtigen Person"@de, "Compte-rendu d'un dialogue entre un journaliste et une source d'information ou une personne importante."@fr, "Relato de un diálogo entre un periodista y una fuente de información o una persona significativa"@es ;
   	skos:scopeNote as:Article, as:Note, as:Event ;
@@ -5845,7 +5845,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:ListingOfFacts ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1626" ;
+    skos:notation "361" ;
   	skos:prefLabel "Fact Box"@en, "Faktenbox"@de, "Boîte de faits"@fr, "Cuadro de datos"@es ;
   	skos:definition	"Usually a sidebar that lists facts related to a topic or story"@en, "Gewöhnlich eine Seitenleiste, die Fakten zu einem Thema oder einer Geschichte auflistet"@de, "Généralement une barre latérale qui énumère les faits liés à un sujet ou à un article."@fr, "Por lo general, una barra lateral que enumera hechos relacionados con un tema o historia"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5856,7 +5856,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:LiveCoverage ;
   	skos:inScheme :scheme ;
   	skos:broader :News ;
-    skos:notation "1627" ;
+    skos:notation "382" ;
   	skos:prefLabel "Live Coverage"@en, "Live-Berichterstattung"@de, "Couverture en direct"@fr, "Cobertura en directo"@es ;
   	skos:definition	"News item containing ongoing, up to the minute coverage of a news event, such as a live blog or live video feed"@en, "Nachrichtenartikel, der eine laufende, minutengenaue Berichterstattung über ein Nachrichtenereignis enthält, wie z. B. ein Live-Blog oder ein Live-Video-Feed"@de, "Article d'information contenant la couverture continue, à la minute près, d'un événement d'actualité, tel qu'un blog en direct ou un flux vidéo en direct."@fr, "Noticia que contiene una cobertura en curso, al minuto, de un acontecimiento noticioso, como un blog en directo o una transmisión de vídeo en directo"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5867,7 +5867,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch schema:MedicalScholarlyArticle ;
   	skos:inScheme :scheme ;
   	skos:broader :ScholarlyArticle ;
-    skos:notation "1628" ;
+    skos:notation "395" ;
   	skos:prefLabel "Medical Scholarly"@en, "Medizinwissenschaftlich"@de, "Scientifique"@fr, "Académico"@es ;
   	skos:definition	"A medical scholarly article"@en, "Ein medizinwissenschaftlicher Artikel"@de, "Un article médico-scientifique"@fr, "Un artículo médico erudito"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5889,7 +5889,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Obituary ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1630" ;
+    skos:notation "362" ;
   	skos:prefLabel "Obituary"@en, "Nachruf"@de, "Notice nécrologique"@fr, "Obituario"@es ;
   	skos:definition	"A narrative about an individual's life and achievements for publication after death"@en, "Ein Bericht über das Leben und die Leistungen einer Person, der nach ihrem Tod veröffentlicht wird"@de, "Récit de la vie et des réalisations d'une personne, destiné à être publié après sa mort."@fr, "Una narración sobre la vida y los logros de una persona para su publicación después de su muerte"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5900,7 +5900,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Opinion, schema:OpinionNewsArticle ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article, as:Note ;
-    skos:notation "1631" ;
+    skos:notation "312" ;
   	skos:prefLabel "Opinion"@en, "Meinung"@de, "Opinion"@fr, "Opinión"@es ;
   	skos:definition	"Editorial comment that reflects the views of the author"@en, "Redaktioneller Kommentar, der die Meinung des Autors wiedergibt"@de, "Commentaire éditorial qui reflète le point de vue de l'auteur"@fr, "Comentario editorial que refleja las opiniones del autor"@es ;
   	skos:scopeNote as:Article, as:Note ;
@@ -5924,7 +5924,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
 
   :PhotoReportage a owl:Class, skos:Concept ;
     skos:inScheme :scheme ;
-    skos:broader :Factual, as:Collection ;
+    skos:broader as:Article, as:Collection ;
     skos:notation "72" ;
     skos:prefLabel "Photoreportage"@en, "Fotoreportage"@de, "Photoreportage"@fr, "Fotoreportaje"@es ;
     skos:definition	"A factual photographic story often with captions or text between the pictures."@en,
@@ -5940,7 +5940,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Polls_and_Surveys ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1634" ;
+    skos:notation "363" ;
   	skos:prefLabel "Polls and Surveys"@en, "Umfragen und Erhebungen"@de, "Sondages et enquêtes"@fr, "Encuestas y sondeos"@es ;
   	skos:definition	"Numeric or other information produced as a result of questionnaires or interviews"@en,
       "Numerische oder andere Informationen, die als Ergebnis von Fragebögen oder Interviews erstellt werden"@de,
@@ -5954,7 +5954,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Press_Release ;
   	skos:inScheme :scheme ;
   	skos:broader :AdvertisingInvolved ;
-    skos:notation "1635" ;
+    skos:notation "331" ;
   	skos:prefLabel "Press Release"@en, "Presseerklärung"@de, "Communiqué de presse"@fr, "Comunicado de prensa"@es ;
   	skos:definition	"Promotional material or information provided to a news organisation"@en, "Werbematerial oder Informationen, die einer Nachrichtenorganisation zur Verfügung gestellt werden"@de,
     "Matériel promotionnel ou informations fournies à un organe de presse."@fr,
@@ -5967,7 +5967,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Press-Digest ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1636" ;
+    skos:notation "364" ;
   	skos:prefLabel "Press-Digest"@en, "Presse-Digest"@de, "Press-Digest"@fr, "Press-Digest"@es ;
   	skos:definition	"Roundup of news or editorial content from other sources, published in whole or in part without significant journalistic changes"@en,
       "Zusammenstellung von Nachrichten oder redaktionellen Inhalten aus anderen Quellen, die ganz oder teilweise ohne wesentliche journalistische Änderungen veröffentlicht werden"@de,
@@ -5981,7 +5981,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Preview ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article, as:Note ;
-    skos:notation "1637" ;
+    skos:notation "314" ;
   	skos:prefLabel "Preview"@en, "Vorschau"@de, "Avant-première"@fr, "Vista previa"@es ;
   	skos:definition	"Content written ahead of an event, such as a preview of an upcoming summer movie"@en,
       "Inhalte, die im Vorfeld eines Ereignisses geschrieben werden, z. B. eine Vorschau auf einen kommenden Sommerfilm"@de,
@@ -5995,7 +5995,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Profile ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1638" ;
+    skos:notation "365" ;
   	skos:prefLabel "Profile"@en, "Steckbrief"@de, "Profil"@fr, "Perfil"@es ;
   	skos:definition	"Description of the life or activity of a news subject based on facts discovered through research and interviews"@en,
       "Beschreibung des Lebens oder der Tätigkeit einer Person auf der Grundlage von Fakten, die durch Recherchen und Interviews ermittelt wurden"@de,
@@ -6009,7 +6009,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Question_and_Answer_Session, schema:QAPage ;
   	skos:inScheme :scheme ;
   	skos:broader :Interview, as:Page ;
-    skos:notation "1639" ;
+    skos:notation "390" ;
   	skos:prefLabel "Question and Answer Session"@en, "Frage und Antwort-Sitzung"@de, "Séance de questions-réponses"@fr, "Sesión de preguntas y respuestas"@es ;
   	skos:definition	"An interview portrayed as a sequence of questions and answers"@en,
       "Ein Interview, das als eine Abfolge von Fragen und Antworten dargestellt wird"@de,
@@ -6023,7 +6023,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Quote, schema:Quotation ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1640" ;
+    skos:notation "366" ;
   	skos:prefLabel "Quote"@en, "Zitat"@de, "Citation"@fr, "Cita"@es ;
   	skos:definition	"Direct quote from a person"@en,
       "Direktes Zitat einer Person"@de,
@@ -6037,7 +6037,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Raw_Sound ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article, as:Note ;
-    skos:notation "1641" ;
+    skos:notation "315" ;
   	skos:prefLabel "Raw Sound"@en, "Rohton"@de, "Son brut"@fr, "Sonido crudo"@es ;
   	skos:definition	"Content is unedited sound without voice"@en,
       "Inhalt ist unbearbeiteter Ton ohne Stimme"@de,
@@ -6051,7 +6051,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Special_Report, schema:Report ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1642" ;
+    skos:notation "367" ;
   	skos:prefLabel "Special Report"@en, "Sonderbericht"@de, "Rapport spécial"@fr, "Informe especial"@es ;
   	skos:definition	"In-depth examination of a single subject requiring extensive research, presented either as a single item or as a series of items"@en,
       "Eingehende Untersuchung eines einzelnen Themas, die umfangreiche Recherchen erfordert und entweder als einzelner Artikel oder als eine Reihe von Artikeln präsentiert wird"@de,
@@ -6065,7 +6065,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Response_to_a_Question ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article, as:Note ;
-    skos:notation "1643" ;
+    skos:notation "316" ;
   	skos:prefLabel "Response to a Question"@en, "Antwort auf eine Frage"@de, "Réponse à une question"@fr, "Respuesta a una pregunta"@es ;
   	skos:definition	"An audio recording of an individual's response to a question"@en,
       "Eine Audioaufnahme der Antwort einer Person auf eine Frage"@de,
@@ -6079,7 +6079,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Results_Listings_and_Statistics ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1644" ;
+    skos:notation "368" ;
   	skos:prefLabel "Results Listings and Statistics"@en, "Ergebnislisten und Statistiken"@de, "Listes de résultats et statistiques"@fr, "Listados de resultados y estadísticas"@es ;
   	skos:definition	"Alphanumeric data suitable for presentation in tabular form"@en,
       "Alphanumerische Daten, die sich zur Darstellung in Tabellenform eignen"@de,
@@ -6093,7 +6093,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Retrospective ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1645" ;
+    skos:notation "369" ;
   	skos:prefLabel "Retrospective"@en, "Rückblick"@de, "Rétrospective"@fr, "Retrospectiva"@es ;
   	skos:definition	"Material that looks back on a specific period of time, such as a season, quarter, year or decade"@en,
       "Material, das auf einen bestimmten Zeitraum zurückblickt, z. B. eine Saison, ein Quartal, ein Jahr oder ein Jahrzehnt"@de,
@@ -6107,7 +6107,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Review, schema:ReviewNewsArticle ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1646" ;
+    skos:notation "370" ;
   	skos:prefLabel "Review"@en, "Rückblick"@de, "Revue"@fr, "Crítica"@es ;
   	skos:definition	"A critique of a creative activity or service (for example a book, a film or a restaurant)"@en,
       "Eine Kritik einer kreativen Tätigkeit oder Dienstleistung (z. B. eines Buches, eines Films oder eines Restaurants)"@de,
@@ -6121,7 +6121,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Satire, schema:SatiricalArticle ;
   	skos:inScheme :scheme ;
   	skos:broader :Comedy ;
-    skos:notation "1647" ;
+    skos:notation "404" ;
   	skos:prefLabel "Satire"@en, "Satire"@de, "Satire"@fr, "Sátira"@es ;
   	skos:definition	"Uses exaggeration, irony, or humour to make a point; not intended to be understood as factual"@en,
       "Verwendet Übertreibung, Ironie oder Humor, um eine Aussage zu treffen; soll nicht als sachlich verstanden werden"@de,
@@ -6135,7 +6135,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch schema:ScholarlyArticle ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1648" ;
+    skos:notation "371" ;
   	skos:prefLabel "Scholarly"@en, "Wissenschaftlich"@de, "Scientifique"@fr, "Académico"@es ;
   	skos:definition	"A scholarly article"@en,
       "Ein wissenschaftlicher Artikel"@de,
@@ -6149,7 +6149,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Side_bar_and_supporting_information ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
-    skos:notation "1649" ;
+    skos:notation "372" ;
   	skos:prefLabel "Side bar and Supporting Information"@en, "Seitenleiste und unterstützende Informationen"@de, "Barre latérale et informations complémentaires"@fr, "Barra lateral e información de apoyo"@es ;
   	skos:definition	"Related content that provides additional context or insight into a news event"@en,
       "Verwandte Inhalte, die zusätzlichen Kontext oder Einblick in ein Nachrichtenereignis bieten"@de,
@@ -6163,7 +6163,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch schema:SocialMediaPosting ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article, as:Note, as:Audio, as:Image, as:Video, as:Event, as:Place, as:Page ;
-    skos:notation "1650" ;
+    skos:notation "317" ;
   	skos:prefLabel "Social Media Posting"@en, "Beitrag Soziale Netzwerke"@de, "Publication sur les médias sociaux"@fr, "Publicación en las redes sociales"@es ;
   	skos:definition	"A post to a social media platform, including toots, tweets, posts, etc."@en,
       "Ein Beitrag in Sozialen Netzwerken, inkl. toots, tweets, posts, etc."@de,
@@ -6177,7 +6177,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch schema:BlogPosting ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article, as:Note, as:Page ;
-    skos:notation "1651" ;
+    skos:notation "308" ;
   	skos:prefLabel "Blog Posting"@en, "Blog Posting"@de, "Publication de blogs"@fr, "Publicación en el blog"@es ;
   	skos:definition	"A blog post"@en,
       "Ein Beitrag in einem Blog"@de,
@@ -6191,7 +6191,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch schema:DiscussionForumPosting ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article, as:Note, as:Page ;
-    skos:notation "1652" ;
+    skos:notation "309" ;
   	skos:prefLabel "Discussion Forum Posting"@en, "Diskussions-Forum Posting"@de, "Publication de forum de discussion"@fr, "Publicación en el foro de debate"@es ;
   	skos:definition	"A posting to a discussion forum"@en,
       "Ein Beitrag in einem Diskussionsforum"@de,
@@ -6205,7 +6205,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Sponsored ;
   	skos:inScheme :scheme ;
   	skos:broader :AdvertisingInvolved ;
-    skos:notation "1653" ;
+    skos:notation "332" ;
   	skos:prefLabel "Sponsored"@en, "Gesponsert"@de, "Sponsorisé"@fr, "Patrocinado"@es ;
   	skos:definition	"Content is produced on behalf of an organisation or individual that has paid the news provider for production and may approve content publication"@en,
       "Der Inhalt wird im Auftrag einer Organisation oder Person produziert, die den Nachrichtenanbieter für die Produktion bezahlt hat und die Veröffentlichung des Inhalts genehmigen kann."@de,
@@ -6218,9 +6218,9 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   :Summary a owl:Class, skos:Concept ;
   	skos:exactMatch genre:Summary ;
   	skos:inScheme :scheme ;
-  	skos:broader as:Article, as:Note ;
-    skos:notation "1654" ;
-  	skos:prefLabel "Briefing"@en, "Kurznachrichten"@de, "Briefing"@fr, "Briefing"@es ;
+  	skos:broader :Factual, as:Collection ;
+    skos:notation "351" ;
+  	skos:prefLabel "Briefing"@en, "Briefing"@de, "Briefing"@fr, "Briefing"@es ;
   	skos:definition	"A summary of a number of news items"@en,
       "Eine Zusammenfassung einer Reihe von Nachrichten"@de,
       "Résumé d'un certain nombre de sujets d'actualité"@fr,
@@ -6233,7 +6233,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Supported ;
   	skos:inScheme :scheme ;
   	skos:broader :AdvertisingInvolved ;
-    skos:notation "1655" ;
+    skos:notation "333" ;
   	skos:prefLabel "Supported"@en, "Unterstützt"@de, "Soutenu"@fr, "Apoyado"@es ;
   	skos:definition	"Content is produced with financial support from an organisation or individual, yet not approved by the underwriter before or after publication"@en,
       "Der Inhalt wird mit finanzieller Unterstützung einer Organisation oder einer Einzelperson produziert, jedoch nicht vom Auftraggeber vor oder nach der Veröffentlichung genehmigt."@de,
@@ -6247,7 +6247,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Synopsis ;
   	skos:inScheme :scheme ;
   	skos:broader :News ;
-    skos:notation "1656" ;
+    skos:notation "383" ;
   	skos:prefLabel "Synopsis"@en, "Zusammenfassungen"@de, "Synopsis"@fr, "Sinopsis"@es ;
   	skos:definition	"A condensed version of a single news item"@en,
       "Eine komprimierte Version einer einzelnen Nachricht"@de,
@@ -6260,8 +6260,8 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   :TechArticle a owl:Class, skos:Concept ;
   	skos:exactMatch schema:TechArticle ;
   	skos:inScheme :scheme ;
-  	skos:broader as:Article, as:Note, as:Page ;
-    skos:notation "1657" ;
+  	skos:broader :Factual, as:Note, as:Page ;
+    skos:notation "373" ;
   	skos:prefLabel "Tech Article"@en, "Tech Artikel"@de, "Article technique"@fr, "Artículo técnico"@es ;
   	skos:definition	"A technical article"@en,
       "Ein technischer Artikel"@de,
@@ -6275,7 +6275,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Text_only ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article, as:Note, as:Page  ;
-    skos:notation "1658" ;
+    skos:notation "304" ;
   	skos:prefLabel "Text only"@en, "Nur Text"@de, "Texte uniquement"@fr, "Sólo texto"@es ;
   	skos:definition	"The object contains a transcription of text."@en,
       "Das Objekt enthält eine Transkription des Textes."@de,
@@ -6293,7 +6293,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Transcript_and_Verbatim ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article, as:Note ;
-    skos:notation "1659" ;
+    skos:notation "319" ;
   	skos:prefLabel "Transcript and Verbatim"@en, "Abschrift und Ausführlicher Text"@de, "Transcription et Verbatim"@fr, "Transcripción y literal"@es ;
   	skos:definition	"A word-for-word account of a discussion or briefing"@en,
       "Eine wortgetreue Wiedergabe einer Diskussion oder eines Briefings"@de,
@@ -6307,7 +6307,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch genre:Voicer ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article, as:Note ;
-    skos:notation "1660" ;
+    skos:notation "321" ;
   	skos:prefLabel "Voicer"@en, "Sprecher"@de, "Voicer"@fr, "Voicer"@es ;
   	skos:definition	"Content is only voice"@en,
       "Inhalt ist nur die Stimme"@de,
@@ -6907,7 +6907,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Place, :redaktor ;
     skos:notation "1076" ;
-    skos:prefLabel "Wohnorte"@de, "residence"@en, "résidence"@fr, "residencia"@es ;
+    skos:prefLabel "Wohnorte"@de, "Residence"@en, "résidence"@fr, "residencia"@es ;
     skos:definition "Der Ort, wo eine Person lebt."@de,
       "The place where a person lives."@en,
       "Le lieu où vit une personne."@fr,
@@ -11050,16 +11050,6 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:prefLabel "früheres Startdatum"@de, "previous start date"@en, "date de début précédente"@fr, "fecha de inicio anterior"@es ;
     skos:scopeNote as:Event ;
     rdfs:label "previousStartDate"@en ;
-    rdfs:domain as:Object ;
-    rdfs:range xsd:anyURI .
-
-  :dateCreated a owl:ObjectProperty, skos:Concept ;
-    skos:inScheme :scheme ;
-    skos:broader as:Event, :redaktor ;
-    skos:notation "1473" ;
-    skos:prefLabel "Erstellungsdatum"@de, "date created"@en, "date de création"@fr, "fecha de creación"@es ;
-    skos:scopeNote as:Event ;
-    rdfs:label "dateCreated"@en ;
     rdfs:domain as:Object ;
     rdfs:range xsd:anyURI .
 

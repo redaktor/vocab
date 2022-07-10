@@ -16,7 +16,7 @@
     "es": "Descripción de la vida o la actividad de un sujeto de la noticia basada en hechos descubiertos a través de investigaciones y entrevistas"
   },
   "notation": [
-    "1638"
+    "365"
   ],
   "broader": {
     "id": "https://w3id.org/class/redaktor/Factual",

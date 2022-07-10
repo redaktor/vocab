@@ -1,37 +1,34 @@
 {
-  "id": "http://www.w3.org/ns/activitystreams#manuallyApprovesFollowers",
+  "id": "http://www.w3.org/ns/activitystreams#width",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23manuallyApprovesFollowers",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23manuallyApprovesFollowers",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23width",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23width",
   "prefLabel": {
-    "en": "manually approves followers",
-    "de": "genehmigt Folgende manuell",
-    "fr": "approuve manuellement les followers",
-    "es": "aprueba manualmente a los seguidores"
+    "en": "width",
+    "de": "Breite",
+    "fr": "largeur",
+    "es": "anchura"
   },
   "definition": {
-    "en": "When *true*, conveys that for this actor, follow requests are not usually automatically approved, but instead are examined by a person who may accept or reject the request, at some time in the future. Setting of false conveys no information and may be ignored. This information is typically used to affect display of accounts, such as showing an account as private or locked.<br>see [w3 wiki](https://www.w3.org/wiki/Activity_Streams_extensions#as:manuallyApprovesFollowers) or [documentation](https://docs.joinmastodon.org/spec/activitypub/#as)",
-    "de": "Die Einstellung *true* bedeutet, daß für diesen Akteur Follow-Anfragen in der Regel nicht automatisch genehmigt werden, sondern von einer Person geprüft werden, die die Anfrage zu einem späteren Zeitpunkt annehmen oder ablehnen kann. Die Einstellung false vermittelt keine Informationen und kann ignoriert werden. Diese Information wird normalerweise verwendet, um die Anzeige von Konten zu beeinflussen, z. B. um ein Konto als privat oder gesperrt anzuzeigen.<br>siehe [w3 wiki](https://www.w3.org/wiki/Activity_Streams_extensions#as:manuallyApprovesFollowers) or [documentation](https://docs.joinmastodon.org/spec/activitypub/#as)",
-    "fr": "Lorsqu'elle est *true*, elle indique que pour cet acteur, les demandes de suivi ne sont généralement pas approuvées automatiquement, mais sont examinées par une personne qui peut accepter ou rejeter la demande, à un moment donné dans le futur. La valeur false ne donne aucune information et peut être ignorée. Cette information est généralement utilisée pour affecter l'affichage des comptes, par exemple pour montrer qu'un compte est privé ou verrouillé.<br>voir [w3 wiki](https://www.w3.org/wiki/Activity_Streams_extensions#as:manuallyApprovesFollowers) or [documentation](https://docs.joinmastodon.org/spec/activitypub/#as)",
-    "es": "Cuando es *true*, transmite que para este actor, las solicitudes de seguimiento no suelen ser aprobadas automáticamente, sino que son examinadas por una persona que puede aceptar o rechazar la solicitud, en algún momento en el futuro. La configuración de false no transmite ninguna información y puede ser ignorada. Esta información se utiliza normalmente para afectar a la visualización de las cuentas, como mostrar una cuenta como privada o bloqueada.<br>ver [w3 wiki](https://www.w3.org/wiki/Activity_Streams_extensions#as:manuallyApprovesFollowers) or [documentation](https://docs.joinmastodon.org/spec/activitypub/#as)"
+    "en": "On a Link, specifies a hint as to the rendering width in device-independent pixels of the linked resource.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
+    "de": "Gibt bei einem Link einen Hinweis auf die Darstellungsbreite der verlinkten Ressource in geräteunabhängigen Pixeln an.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
+    "fr": "Sur un lien, spécifie une indication quant à la largeur de rendu en pixels indépendants du périphérique de la ressource liée.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
+    "es": "En un enlace, especifica una pista sobre el ancho de representación en píxeles independientes del dispositivo del recurso enlazado.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)"
   },
   "scopeNote": {
-    "en": "as: Extension",
-    "de": "as: Extension",
-    "fr": "as: Extension",
-    "es": "as: Extension"
+    "en": "as: Property",
+    "de": "as: Property",
+    "fr": "as: Property",
+    "es": "as: Property"
   },
   "notation": [
-    "157"
+    "135"
   ],
-  "broader": {
-    "id": "https://w3id.org/class/redaktor/Actor",
-    "prefLabel": {
-      "en": "Actor",
-      "de": "Akteur",
-      "fr": "Acteur",
-      "es": "Actor"
-    }
+  "example": {
+    "en": "[Example 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```",
+    "de": "[Beispiel 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```",
+    "fr": "[Exemple 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```",
+    "es": "[Ejemplo 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```"
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -136,16 +133,52 @@
       "@container": "@set"
     }
   }
-}tainer": "@language"
+}ainer": "@set"
     },
-    "note": {
-      "@container": "@language"
-    },
-    "notation": {
+    "closeMatch": {
       "@container": "@set"
     },
-    "example": {
-      "@container": "@language"
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}t"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}"@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}@container": "@language"
     },
     "narrower": {
       "@container": "@set"
@@ -255,7 +288,7 @@
       "@container": "@set"
     }
   }
-}d.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"
+}son\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/31987aklre4\"\n  ]\n}\n```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/Actor",
@@ -426,141 +459,7 @@
       "@container": "@set"
     }
   }
-}   "id": "https://w3id.org/class/redaktor/Actor",
-    "prefLabel": {
-      "en": "Actor",
-      "de": "Akteur",
-      "fr": "Acteur",
-      "es": "Actor"
-    }
-  },
-  "inScheme": {
-    "id": "https://w3id.org/class/redaktor/scheme",
-    "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
-      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
-      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
-      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
-    }
-  },
-  "@context": {
-    "@version": 1.1,
-    "id": "@id",
-    "type": "@type",
-    "@vocab": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "dct": "http://purl.org/dc/terms/",
-    "schema": "http://schema.org/",
-    "vann": "http://purl.org/vocab/vann/",
-    "as": "https://www.w3.org/ns/activitystreams#",
-    "ldp": "http://www.w3.org/ns/ldp#",
-    "title": {
-      "@id": "dct:title",
-      "@container": "@language"
-    },
-    "description": {
-      "@id": "dct:description",
-      "@container": "@language"
-    },
-    "issued": {
-      "@id": "dct:issued",
-      "@type": "xsd:date"
-    },
-    "created": {
-      "@id": "dct:created",
-      "@type": "xsd:date"
-    },
-    "modified": {
-      "@id": "dct:modified",
-      "@type": "xsd:date"
-    },
-    "creator": "dct:creator",
-    "publisher": "dct:publisher",
-    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
-    "preferredNamespaceUri": "vann:preferredNamespaceUri",
-    "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
-    "prefLabel": {
-      "@container": "@language"
-    },
-    "altLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
-    "definition": {
-      "@container": "@language"
-    },
-    "scopeNote": {
-      "@container": "@language"
-    },
-    "note": {
-      "@container": "@language"
-    },
-    "notation": {
-      "@container": "@set"
-    },
-    "example": {
-      "@container": "@language"
-    },
-    "narrower": {
-      "@container": "@set"
-    },
-    "related": {
-      "@container": "@set"
-    },
-    "relatedMatch": {
-      "@container": "@set"
-    },
-    "narrowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-} "vat ID",
-        "es": "ID del iva"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/workLocation",
-      "prefLabel": {
-        "en": "work location",
-        "de": "Arbeitsort",
-        "fr": "emplacement du travail",
-        "es": "ubicación del trabajo"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/worksFor",
-      "prefLabel": {
-        "en": "works for",
-        "de": "arbeitet für",
-        "fr": "travaux pour",
-        "es": "trabajos para"
-      }
-    }
-  ],
-  "broader": {
+} {
     "id": "https://w3id.org/class/redaktor/Actor",
     "prefLabel": {
       "en": "Actor",
@@ -672,7 +571,136 @@
       "@container": "@set"
     }
   }
-}": "membres",
+}": {
+        "en": "has credential",
+        "de": "hat Berechtigungsnachweis",
+        "fr": "a un titre de compétence",
+        "es": "tiene credencial"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/hasOfferCatalog",
+      "prefLabel": {
+        "en": "has offer catalog",
+        "de": "hat Angebotskatalog",
+        "fr": "a catalogue d'offres",
+        "es": "tiene catálogo de ofertas"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/hasPOS",
+      "prefLabel": {
+        "en": "has POS",
+        "de": "hat POS",
+        "fr": "has POS",
+        "es": "tiene TPV"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/interactionStatistic",
+      "prefLabel": {
+        "en": "interaction statistic",
+        "de": "Interaktionsstatistik",
+        "fr": "statistiques d'interaction",
+        "es": "estadística de interacción"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/isicV4",
+      "prefLabel": {
+        "en": "isic v4",
+        "de": "isic v4",
+        "fr": "isic v4",
+        "es": "isic v4"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/iso6523Code",
+      "prefLabel": {
+        "en": "iso6523 code",
+        "de": "iso6523-Code",
+        "fr": "code iso6523",
+        "es": "código iso6523"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/knowsAbout",
+      "prefLabel": {
+        "en": "knows about",
+        "de": "weiß über",
+        "fr": "sait sur",
+        "es": "sabe de"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/knowsLanguage",
+      "prefLabel": {
+        "en": "knows language",
+        "de": "kennt Sprache",
+        "fr": "connaît la langue",
+        "es": "conoce el idioma"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/legalName",
+      "prefLabel": {
+        "en": "legal name",
+        "de": "rechtlicher Name",
+        "fr": "nom légal",
+        "es": "nombre legal"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/leiCode",
+      "prefLabel": {
+        "en": "lei code",
+        "de": "Lei-Code",
+        "fr": "code lei",
+        "es": "código lei"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/location",
+      "prefLabel": {
+        "en": "location",
+        "de": "Standort",
+        "fr": "localisation",
+        "es": "ubicación"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/makesOffer",
+      "prefLabel": {
+        "en": "makes offer",
+        "de": "macht Angebot",
+        "fr": "fait offre",
+        "es": "hace la oferta"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/member",
+      "prefLabel": {
+        "en": "member",
+        "de": "Mitglied",
+        "fr": "membre",
+        "es": "miembro"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/memberOf",
+      "prefLabel": {
+        "en": "member of",
+        "de": "Mitglied von",
+        "fr": "membre de",
+        "es": "miembro de"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/members",
+      "prefLabel": {
+        "en": "members",
+        "de": "Mitglieder",
+        "fr": "membres",
         "es": "miembros"
       }
     },
@@ -915,169 +943,185 @@
       "@container": "@set"
     }
   }
-}": "available delivery method",
-        "de": "verfügbare Liefermethode",
-        "fr": "méthode de livraison disponible",
-        "es": "método de entrega disponible"
+}"expires",
+        "de": "verfällt",
+        "fr": "expiration",
+        "es": "caduca"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/awards",
+      "id": "https://w3id.org/class/redaktor/funder",
       "prefLabel": {
-        "en": "awards",
-        "de": "Auszeichnungen",
-        "fr": "prix",
-        "es": "premios"
+        "en": "funder",
+        "de": "Geldgeber",
+        "fr": "financeur",
+        "es": "financiador"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/brand",
+      "id": "https://w3id.org/class/redaktor/inLanguage",
       "prefLabel": {
-        "en": "brand",
-        "de": "Marke",
-        "fr": "marque",
-        "es": "marca"
+        "en": "in language",
+        "de": "in Sprache",
+        "fr": "en langue",
+        "es": "en idioma"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/businessFunction",
+      "id": "https://w3id.org/class/redaktor/location",
       "prefLabel": {
-        "en": "business function",
-        "de": "Unternehmensfunktion",
-        "fr": "fonction commerciale",
-        "es": "función comercial"
+        "en": "location",
+        "de": "Standort",
+        "fr": "localisation",
+        "es": "ubicación"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/category",
+      "id": "https://w3id.org/class/redaktor/sponsor",
       "prefLabel": {
-        "en": "category",
-        "de": "Kategorie",
-        "fr": "catégorie",
-        "es": "categoría"
+        "en": "sponsor",
+        "de": "Sponsor",
+        "fr": "sponsor",
+        "es": "patrocinador"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/countryOfOrigin",
+      "id": "https://w3id.org/class/redaktor/translator",
       "prefLabel": {
-        "en": "country of origin",
-        "de": "Herkunftsland",
-        "fr": "pays d'origine",
-        "es": "país de origen"
+        "en": "translator",
+        "de": "Übersetzer",
+        "fr": "traducteur",
+        "es": "traductor"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/deliveryLeadTime",
+      "id": "https://w3id.org/class/redaktor/typicalAgeRange",
       "prefLabel": {
-        "en": "delivery lead time",
-        "de": "Vorlaufzeit der Lieferung",
-        "fr": "délai de livraison",
-        "es": "plazo de entrega"
+        "en": "typical age range",
+        "de": "typische Altersspanne",
+        "fr": "tranche d'âge typique",
+        "es": "rango de edad típico"
       }
-    },
+    }
+  ],
+  "broader": {
+    "id": "http://www.w3.org/ns/activitystreams#Object",
+    "prefLabel": {
+      "en": "Object",
+      "de": "Objekt",
+      "fr": "Objet",
+      "es": "Objeto"
+    }
+  },
+  "exactMatch": [
     {
-      "id": "https://w3id.org/class/redaktor/eligibleCustomerType",
-      "prefLabel": {
-        "en": "eligible customer type",
-        "de": "zugelassener Kundentyp",
-        "fr": "type de client éligible",
-        "es": "tipo de cliente elegible"
-      }
+      "id": "schema:Event"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/eligibleDuration",
-      "prefLabel": {
-        "en": "eligible duration",
-        "de": "zulässige Dauer",
-        "fr": "durée éligible",
-        "es": "duración elegible"
-      }
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/eligibleQuantity",
-      "prefLabel": {
-        "en": "eligible quantity",
-        "de": "zugelassene Menge",
-        "fr": "quantité éligible",
-        "es": "cantidad elegible"
-      }
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/eligibleRegion",
-      "prefLabel": {
-        "en": "eligible region",
-        "de": "zugelassene Region",
-        "fr": "région éligible",
-        "es": "región elegible"
-      }
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/eligibleTransactionVolume",
-      "prefLabel": {
-        "en": "eligible transaction volume",
-        "de": "zugelassenes Transaktionsvolumen",
-        "fr": "volume de transaction éligible",
-        "es": "volumen de transacciones elegible"
-      }
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/funding",
-      "prefLabel": {
-        "en": "funding",
-        "de": "Finanzierung",
-        "fr": "financement",
-        "es": "financiación"
-      }
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/gtin",
-      "prefLabel": {
-        "en": "GTIN",
-        "de": "GTIN",
-        "fr": "GTIN",
-        "es": "GTIN"
-      }
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
-    {
-      "id": "https://w3id.org/class/redaktor/gtin12",
-      "prefLabel": {
-        "en": "GTIN12",
-        "de": "GTIN12",
-        "fr": "GTIN12",
-        "es": "GTIN12"
-      }
+    "definition": {
+      "@container": "@language"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/gtin13",
-      "prefLabel": {
-        "en": "GTIN13",
-        "de": "GTIN13",
-        "fr": "GTIN13",
-        "es": "GTIN13"
-      }
+    "scopeNote": {
+      "@container": "@language"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/gtin14",
-      "prefLabel": {
-        "en": "GTIN14",
-        "de": "GTIN14",
-        "fr": "GTIN14",
-        "es": "GTIN14"
-      }
+    "note": {
+      "@container": "@language"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/gtin8",
-      "prefLabel": {
-        "en": "GTIN8",
-        "de": "GTIN8",
-        "fr": "GTIN8",
-        "es": "GTIN8"
-      }
+    "notation": {
+      "@container": "@set"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/hasAdultConsideration",
-      "prefLabel": {
-        "en": "has adult consideration",
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}ration",
         "de": "hat erwachsene Berücksichtigung",
         "fr": "a considération de l'adulte",
         "es": "tiene consideración de adulto"

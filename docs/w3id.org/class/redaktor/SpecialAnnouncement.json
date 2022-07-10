@@ -16,7 +16,7 @@
     "es": "Un SpecialAnnouncement combina una simple actualización de información textual con fecha, con enlaces web contextualizados y otros datos estructurados. Representa una actualización de información realizada por una organización orientada al ámbito local, por ejemplo, escuelas, farmacias, proveedores de atención sanitaria, grupos comunitarios, gobierno local. VER [schema.org](https://schema.org/SpecialAnnouncement)"
   },
   "notation": [
-    "1534"
+    "534"
   ],
   "narrower": [
     {

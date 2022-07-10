@@ -22,18 +22,9 @@
     "es": "Ejemplo: Una noticia o programa que cubre un documental, como “Life on Earth” de David Attenborough."
   },
   "notation": [
-    "1490"
+    "300"
   ],
   "narrower": [
-    {
-      "id": "https://w3id.org/class/redaktor/PhotoReportage",
-      "prefLabel": {
-        "en": "Photoreportage",
-        "de": "Fotoreportage",
-        "fr": "Photoreportage",
-        "es": "Fotoreportaje"
-      }
-    },
     {
       "id": "https://w3id.org/class/redaktor/News",
       "prefLabel": {
@@ -80,6 +71,15 @@
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/TechArticle",
+      "prefLabel": {
+        "en": "Tech Article",
+        "de": "Tech Artikel",
+        "fr": "Article technique",
+        "es": "Artículo técnico"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/BehindTheStory",
       "prefLabel": {
         "en": "Behind the Story",
@@ -113,6 +113,15 @@
         "de": "Aktuelle Ereignisse",
         "fr": "Événements actuels",
         "es": "Acontecimientos actuales"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/CurtainRaiser",
+      "prefLabel": {
+        "en": "Curtain Raiser",
+        "de": "Vorhang auf",
+        "fr": "Levée de rideau",
+        "es": "Apertura del telón"
       }
     },
     {
@@ -284,6 +293,15 @@
         "de": "Seitenleiste und unterstützende Informationen",
         "fr": "Barre latérale et informations complémentaires",
         "es": "Barra lateral e información de apoyo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Summary",
+      "prefLabel": {
+        "en": "Briefing",
+        "de": "Briefing",
+        "fr": "Briefing",
+        "es": "Briefing"
       }
     }
   ],

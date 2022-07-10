@@ -16,7 +16,7 @@
     "es": "Un RealEstateListing es un listado que describe una o varias ofertas inmobiliarias (cuya función comercial suele ser el alquiler o la venta).<br>El tipo RealEstateListing representa la oferta completa, tal y como se manifiesta en una página web."
   },
   "notation": [
-    "1575"
+    "575"
   ],
   "narrower": [
     {

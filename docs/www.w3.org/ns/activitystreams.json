@@ -1,19 +1,19 @@
 {
-  "id": "http://www.w3.org/ns/activitystreams#updated",
+  "id": "http://www.w3.org/ns/activitystreams#radius",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23updated",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23updated",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23radius",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23radius",
   "prefLabel": {
-    "en": "updated",
-    "de": "aktualisiert",
-    "fr": "actualisé",
-    "es": "actualizada"
+    "en": "radius",
+    "de": "Radius",
+    "fr": "radius",
+    "es": "radius"
   },
   "definition": {
-    "en": "The date and time at which the object was updated.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)",
-    "de": "Das Datum und die Uhrzeit, zu der das Objekt aktualisiert wurde.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)",
-    "fr": "La date et l'heure auxquelles l'objet a été mis à jour.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)",
-    "es": "La fecha y hora en que se actualizó el objeto.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)"
+    "en": "The radius from the given latitude and longitude for a Place. The units is expressed by the units property. If units is not specified, the default is assumed to be \"m\" indicating \"meters\".<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-radius](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-radius)",
+    "de": "Der Radius vom angegebenen Breiten- und Längengrad für einen Ort. Die Einheiten werden durch die Eigenschaft units ausgedrückt. Wenn keine Einheiten angegeben sind, wird als Standardwert \"m\" für \"Meter\" angenommen.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-radius](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-radius)",
+    "fr": "Le rayon à partir de la latitude et de la longitude données pour un lieu. L'unité est exprimée par la propriété units. Si les unités ne sont pas spécifiées, la valeur par défaut est supposée être \"m\" indiquant \"mètres\".<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-radius](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-radius)",
+    "es": "El radio desde la latitud y longitud dadas para un Lugar. Las unidades se expresan mediante la propiedad units. Si no se especifican las unidades, se asume por defecto que es \"m\" indicando \"metros\".<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-radius](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-radius)"
   },
   "scopeNote": {
     "en": "as: Property",
@@ -22,21 +22,21 @@
     "es": "as: Property"
   },
   "notation": [
-    "124"
+    "3195"
   ],
   "example": {
-    "en": "[Example 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"Cranberry Sauce Idea\",\n  \"type\": \"Note\",\n  \"content\": \"Mush it up so it does not have the same shape as the can.\",\n  \"updated\": \"2014-12-12T12:12:12Z\"\n}\n```",
-    "de": "[Beispiel 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"Cranberry Sauce Idea\",\n  \"type\": \"Note\",\n  \"content\": \"Mush it up so it does not have the same shape as the can.\",\n  \"updated\": \"2014-12-12T12:12:12Z\"\n}\n```",
-    "fr": "[Exemple 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"Cranberry Sauce Idea\",\n  \"type\": \"Note\",\n  \"content\": \"Mush it up so it does not have the same shape as the can.\",\n  \"updated\": \"2014-12-12T12:12:12Z\"\n}\n```",
-    "es": "[Ejemplo 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"Cranberry Sauce Idea\",\n  \"type\": \"Note\",\n  \"content\": \"Mush it up so it does not have the same shape as the can.\",\n  \"updated\": \"2014-12-12T12:12:12Z\"\n}\n```"
+    "en": "[Example 130](https://www.w3.org/TR/activitystreams-vocabulary/#ex147-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Place\",\n  \"name\": \"Fresno Area\",\n  \"latitude\": 36.75,\n  \"longitude\": 119.7667,\n  \"radius\": 15,\n  \"units\": \"miles\"\n}\n```",
+    "de": "[Beispiel 130](https://www.w3.org/TR/activitystreams-vocabulary/#ex147-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Place\",\n  \"name\": \"Fresno Area\",\n  \"latitude\": 36.75,\n  \"longitude\": 119.7667,\n  \"radius\": 15,\n  \"units\": \"miles\"\n}\n```",
+    "fr": "[Exemple 130](https://www.w3.org/TR/activitystreams-vocabulary/#ex147-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Place\",\n  \"name\": \"Fresno Area\",\n  \"latitude\": 36.75,\n  \"longitude\": 119.7667,\n  \"radius\": 15,\n  \"units\": \"miles\"\n}\n```",
+    "es": "[Ejemplo 130](https://www.w3.org/TR/activitystreams-vocabulary/#ex147-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Place\",\n  \"name\": \"Fresno Area\",\n  \"latitude\": 36.75,\n  \"longitude\": 119.7667,\n  \"radius\": 15,\n  \"units\": \"miles\"\n}\n```"
   },
   "broader": {
-    "id": "http://www.w3.org/ns/activitystreams#Object",
+    "id": "http://www.w3.org/ns/activitystreams#Place",
     "prefLabel": {
-      "en": "Object",
-      "de": "Objekt",
-      "fr": "Objet",
-      "es": "Objeto"
+      "en": "Place",
+      "de": "Örtlichkeit",
+      "fr": "Lieu",
+      "es": "Lugar"
     }
   },
   "inScheme": {
@@ -142,7 +142,17 @@
       "@container": "@set"
     }
   }
-}er": "@set"
+} "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
     },
     "relatedMatch": {
       "@container": "@set"
@@ -171,39 +181,21 @@
       "@container": "@set"
     }
   }
-}1.1,
-    "id": "@id",
-    "type": "@type",
-    "@vocab": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "dct": "http://purl.org/dc/terms/",
-    "schema": "http://schema.org/",
-    "vann": "http://purl.org/vocab/vann/",
-    "as": "https://www.w3.org/ns/activitystreams#",
-    "ldp": "http://www.w3.org/ns/ldp#",
-    "title": {
-      "@id": "dct:title",
-      "@container": "@language"
+}"
     },
-    "description": {
-      "@id": "dct:description",
-      "@container": "@language"
+    "closeMatch": {
+      "@container": "@set"
     },
-    "issued": {
-      "@id": "dct:issued",
-      "@type": "xsd:date"
+    "exactMatch": {
+      "@container": "@set"
     },
-    "created": {
-      "@id": "dct:created",
-      "@type": "xsd:date"
-    },
-    "modified": {
-      "@id": "dct:modified",
-      "@type": "xsd:date"
-    },
-    "creator": "dct:creator",
-    "publisher": "dct:publisher",
-    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
     "source": "dct:source",
@@ -264,7 +256,7 @@
       "@container": "@set"
     }
   }
-}d.json\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/165987aklre4\"\n  ]\n}\n```"
+}son\",\n  \"preferredUsername\": \"kenzoishii\",\n  \"name\": \"石井健蔵\",\n  \"summary\": \"この方はただの例です\",\n  \"icon\": [\n    \"https://kenzoishii.example.com/image/31987aklre4\"\n  ]\n}\n```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/Actor",
@@ -435,7 +427,8 @@
       "@container": "@set"
     }
   }
-}   "id": "https://w3id.org/class/redaktor/Actor",
+} {
+    "id": "https://w3id.org/class/redaktor/Actor",
     "prefLabel": {
       "en": "Actor",
       "de": "Akteur",

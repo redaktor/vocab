@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FResidence",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FResidence",
   "prefLabel": {
-    "en": "residence",
+    "en": "Residence",
     "de": "Wohnorte",
     "fr": "résidence",
     "es": "residencia"

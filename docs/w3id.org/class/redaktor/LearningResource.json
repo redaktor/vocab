@@ -30,7 +30,7 @@
     "es": "The LearningResource type can be used to indicate [CreativeWork](https://schema.org/CreativeWork)s (whether physical or digital) that have a particular and explicit orientation towards learning, education, skill acquisition, and other educational purposes.<br><br>[LearningResource](https://schema.org/LearningResource) is expected to be used as an addition to a primary type such as [Book](https://schema.org/Book), [VideoObject](https://schema.org/VideoObject), [Product](https://schema.org/Product) etc.<br><br>[EducationEvent](https://schema.org/EducationEvent) serves a similar purpose for event-like things (e.g. a [Trip](https://schema.org/Trip)). A [LearningResource](https://schema.org/LearningResource) may be created as a result of an [EducationEvent](https://schema.org/EducationEvent), for example by recording one."
   },
   "notation": [
-    "1520"
+    "520"
   ],
   "narrower": [
     {

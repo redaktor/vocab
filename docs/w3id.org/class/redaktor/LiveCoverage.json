@@ -16,7 +16,7 @@
     "es": "Noticia que contiene una cobertura en curso, al minuto, de un acontecimiento noticioso, como un blog en directo o una transmisión de vídeo en directo"
   },
   "notation": [
-    "1627"
+    "382"
   ],
   "broader": {
     "id": "https://w3id.org/class/redaktor/News",

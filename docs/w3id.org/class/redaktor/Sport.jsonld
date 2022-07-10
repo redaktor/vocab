@@ -126,7 +126,7 @@
       "@container": "@set"
     }
   }
-}amespacePrefix": "vann:preferredNamespacePrefix",
+}mespacePrefix": "vann:preferredNamespacePrefix",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
     "source": "dct:source",

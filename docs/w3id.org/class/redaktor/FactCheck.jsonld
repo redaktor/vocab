@@ -16,7 +16,7 @@
     "es": "La noticia investiga la veracidad o falsedad de otra noticia o afirmación (por ejemplo, una declaración en las redes sociales de un personaje público)"
   },
   "notation": [
-    "1617"
+    "354"
   ],
   "broader": {
     "id": "https://w3id.org/class/redaktor/Factual",

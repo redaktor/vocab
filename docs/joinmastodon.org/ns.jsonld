@@ -127,9 +127,10 @@
       "@container": "@set"
     }
   }
-}spended\"\n    }\n  ],\n  \"id\": \"https://example.com/@eve\",\n  \"type\": \"Person\",\n  \"suspended\": true\n}```",
-    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"suspended\": \"toot:suspended\"\n    }\n  ],\n  \"id\": \"https://example.com/@eve\",\n  \"type\": \"Person\",\n  \"suspended\": true\n}```",
-    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"suspended\": \"toot:suspended\"\n    }\n  ],\n  \"id\": \"https://example.com/@eve\",\n  \"type\": \"Person\",\n  \"suspended\": true\n}```"
+}45690f\"\n    }\n  ]\n}```",
+    "de": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    \"https://w3id.org/security/v1\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"IdentityProof\": \"toot:IdentityProof\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"attachment\": [\n    {\n      \"type\": \"IdentityProof\",\n      \"name\": \"gargron\",\n      \"signatureAlgorithm\": \"keybase\",\n      \"signatureValue\": \"5cfc20c7018f2beefb42a68836da59a792e55daa4d118498c9b1898de7e845690f\"\n    }\n  ]\n}```",
+    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    \"https://w3id.org/security/v1\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"IdentityProof\": \"toot:IdentityProof\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"attachment\": [\n    {\n      \"type\": \"IdentityProof\",\n      \"name\": \"gargron\",\n      \"signatureAlgorithm\": \"keybase\",\n      \"signatureValue\": \"5cfc20c7018f2beefb42a68836da59a792e55daa4d118498c9b1898de7e845690f\"\n    }\n  ]\n}```",
+    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    \"https://w3id.org/security/v1\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"IdentityProof\": \"toot:IdentityProof\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"attachment\": [\n    {\n      \"type\": \"IdentityProof\",\n      \"name\": \"gargron\",\n      \"signatureAlgorithm\": \"keybase\",\n      \"signatureValue\": \"5cfc20c7018f2beefb42a68836da59a792e55daa4d118498c9b1898de7e845690f\"\n    }\n  ]\n}```"
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -234,45 +235,7 @@
       "@container": "@set"
     }
   }
-}b": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "dct": "http://purl.org/dc/terms/",
-    "schema": "http://schema.org/",
-    "vann": "http://purl.org/vocab/vann/",
-    "as": "https://www.w3.org/ns/activitystreams#",
-    "ldp": "http://www.w3.org/ns/ldp#",
-    "title": {
-      "@id": "dct:title",
-      "@container": "@language"
-    },
-    "description": {
-      "@id": "dct:description",
-      "@container": "@language"
-    },
-    "issued": {
-      "@id": "dct:issued",
-      "@type": "xsd:date"
-    },
-    "created": {
-      "@id": "dct:created",
-      "@type": "xsd:date"
-    },
-    "modified": {
-      "@id": "dct:modified",
-      "@type": "xsd:date"
-    },
-    "creator": "dct:creator",
-    "publisher": "dct:publisher",
-    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
-    "preferredNamespaceUri": "vann:preferredNamespaceUri",
-    "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
-    "prefLabel": {
-      "@container": "@language"
-    },
-    "altLabel": {
-      "@container": [
-        "@language",
+}      "@language",
         "@set"
       ]
     },

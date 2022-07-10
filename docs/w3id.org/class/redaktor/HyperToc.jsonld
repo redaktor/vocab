@@ -16,7 +16,7 @@
     "es": "Un HyperToc representa una tabla de contenidos de hipertexto para objetos multimedia complejos, como as:Video, as:Audio. Los elementos de la tabla de contenidos se indican mediante la propiedad tocEntry, y se escribe HyperTocEntry. Para los casos en los que una misma obra de mayor envergadura está dividida en varios archivos, se pueden utilizar anexos en los elementos individuales de HyperTocEntry."
   },
   "notation": [
-    "1518"
+    "518"
   ],
   "narrower": [
     {
