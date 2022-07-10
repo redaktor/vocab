@@ -22,7 +22,7 @@
     "es": "ActivityPub Community"
   },
   "notation": [
-    "019"
+    "159"
   ],
   "example": {
     "en": "```json \nThe example below shows a cryptographic key that is owned by an entity identified by a URL. Presumably, this key is under the control of the owner and can be used to infer that any digitally signed content using the key was signed by a software agent of the owner:\n{\n  \"@context\": \"https://w3id.org/security/v1\",\n  \"@id\": \"https://payswarm.example.com/i/bob/keys/1\",\n  \"@type\": \"Key\",\n  \"owner\": \"https://payswarm.example.com/i/bob\",\n  \"publicKeyPem\": \"-----BEGIN PUBLIC KEY-----\nMII8YbF3s8q3c...j8Fk88FsRa3K\n-----END PUBLIC KEY-----\n\"\n}```",

@@ -426,7 +426,7 @@ as:anyOf a owl:ObjectProperty, skos:Concept ;
 as:attachment a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "323" ;
+  skos:notation "125" ;
   skos:prefLabel "Anhang"@de, "attachment"@en, "pièce jointe"@fr, "adjunta"@es ;
   skos:definition "Identifiziert eine Ressource, die mit einem Objekt verbunden oder verwandt ist, das möglicherweise eine besondere Behandlung erfordert. Die Absicht ist, ein Modell bereitzustellen, das zumindest semantisch den Anhängen in E-Mails ähnelt.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-attachment](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-attachment)"@de,
     "Identifies a resource attached or related to an object that potentially requires special handling. The intent is to provide a model that is at least semantically similar to attachments in email.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-attachment](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-attachment)"@en,
@@ -456,7 +456,7 @@ as:attachments a owl:DeprecatedProperty ;
 as:attributedTo a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object, as:Link ;
-  skos:notation "113" ;
+  skos:notation "126" ;
   skos:prefLabel "zugeschrieben"@de, "attributed to"@en, "attribuée à"@fr, "atribuido a"@es ;
   skos:definition "Identifiziert eine oder mehrere Entitäten, denen dieses Objekt zugeordnet ist. Die attributierten Entitäten müssen keine Akteure sein. Zum Beispiel könnte ein Objekt der Beendigung einer anderen Aktivität zugeordnet werden.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-attributedto](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-attributedto)"@de,
     "Identifies one or more entities to which this object is attributed. The attributed entities might not be Actors. For instance, an object might be attributed to the completion of another activity.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-attributedto](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-attributedto)"@en,
@@ -482,7 +482,7 @@ as:audience a owl:ObjectProperty, skos:Concept ;
   skos:exactMatch wdt:P2360 ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "324" ;
+  skos:notation "127" ;
   skos:prefLabel "Zielgruppe"@de, "audience"@en, "audience"@fr, "audiencia"@es ;
   skos:definition "Identifiziert eine oder mehrere Entitäten, die die Gesamtpopulation der Entitäten repräsentieren, für die das Objekt als relevant angesehen werden kann.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-audience](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-audience)"@de,
     "Identifies one or more entities that represent the total population of entities for which the object can considered to be relevant.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-audience](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-audience)"@en,
@@ -513,7 +513,7 @@ as:author a owl:DeprecatedProperty ;
 as:bcc a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "325" ;
+  skos:notation "115" ;
   skos:prefLabel "bcc"@de, "bcc"@en, "bcc"@fr, "bcc"@es ;
   skos:definition "Identifiziert ein oder mehrere Objekte, die zur privaten sekundären Zielgruppe dieses Objekts gehören.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-bcc](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-bcc)"@de,
     "Identifies one or more Objects that are part of the private secondary audience of this Object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-bcc](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-bcc)"@en,
@@ -534,7 +534,7 @@ as:bcc a owl:ObjectProperty, skos:Concept ;
 as:bto a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "326" ;
+  skos:notation "116" ;
   skos:prefLabel "bto"@de, "bto"@en, "bto"@fr, "bto"@es ;
   skos:definition "Identifiziert ein Objekt, das zur privaten primären Zielgruppe dieses Objekts gehört.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-bto](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-bto)"@de,
     "Identifies an Object that is part of the private primary audience of this Object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-bto](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-bto)"@en,
@@ -555,7 +555,7 @@ as:bto a owl:ObjectProperty, skos:Concept ;
 as:cc a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "327" ;
+  skos:notation "114" ;
   skos:prefLabel "cc"@de, "cc"@en, "cc"@fr, "cc"@es ;
   skos:definition "Bezeichnet ein Objekt, das zur öffentlichen sekundären Zielgruppe dieses Objekts gehört.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-cc](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-cc)"@de,
     "Identifies an Object that is part of the public secondary audience of this Object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-cc](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-cc)"@en,
@@ -598,7 +598,7 @@ as:closed a owl:ObjectProperty, skos:Concept ;
 as:context a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "328" ;
+  skos:notation "128" ;
   skos:prefLabel "Kontext"@de, "context"@en, "contexte"@fr, "contexto"@es ;
   skos:definition "Bezeichnet den Kontext, in dem das Objekt existiert oder eine Aktivität ausgeführt wurde. Der verwendete Begriff \"Kontext\" ist absichtlich vage gehalten. Die beabsichtigte Funktion besteht darin, als Mittel zur Gruppierung von Objekten und Aktivitäten zu dienen, die einen gemeinsamen Ursprungskontext oder Zweck haben. Ein Beispiel könnten alle Aktivitäten sein, die sich auf ein gemeinsames Projekt oder Ereignis beziehen.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-context](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-context)"@de,
     "Identifies the context within which the object exists or an activity was performed. The notion of \"context\" used is intentionally vague. The intended function is to serve as a means of grouping objects and activities that share a common originating context or purpose. An example could be all activities relating to a common project or event.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-context](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-context)"@en,
@@ -641,7 +641,7 @@ as:current a owl:ObjectProperty, owl:FunctionalProperty, skos:Concept ;
 as:describes a owl:ObjectProperty, owl:FunctionalProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Profile ;
-  skos:notation "329" ;
+  skos:notation "129" ;
   skos:prefLabel "beschreibt"@de, "describes"@en, "décrit"@fr, "describe"@es ;
   skos:definition "Bei einem Profile-Objekt identifiziert die Eigenschaft describes das Objekt, das durch das Profil beschrieben wird.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-describes](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-describes)"@de,
     "On a Profile object, the describes property identifies the object described by the Profile.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-describes](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-describes)"@en,
@@ -700,7 +700,7 @@ as:formerType a owl:ObjectProperty, owl:FunctionalProperty, skos:Concept ;
 as:generator a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "331" ;
+  skos:notation "133" ;
   skos:prefLabel "Generator"@de, "generator"@en, "générateur"@fr, "generador"@es ;
   skos:definition "Identifiziert die Entität (z. B. eine Anwendung), die das Objekt erzeugt hat.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-generator](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-generator)"@de,
     "Identifies the entity (e.g. an application) that generated the object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-generator](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-generator)"@en,
@@ -721,7 +721,7 @@ as:generator a owl:ObjectProperty, skos:Concept ;
 as:icon a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "332" ;
+  skos:notation "136" ;
   skos:prefLabel "Icon"@de, "icon"@en, "icon"@fr, "icon"@es ;
   skos:definition "Gibt eine Entität an, die ein Icon für dieses Objekt beschreibt. Das Bild sollte ein Seitenverhältnis von eins (horizontal) zu eins (vertikal) haben und für die Darstellung in kleiner Größe geeignet sein.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-icon](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-icon)"@de,
     "Indicates an entity that describes an icon for this object. The image should have an aspect ratio of one (horizontal) to one (vertical) and should be suitable for presentation at a small size.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-icon](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-icon)"@en,
@@ -742,7 +742,7 @@ as:icon a owl:ObjectProperty, skos:Concept ;
 as:image a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "333" ;
+  skos:notation "137" ;
   skos:prefLabel "Bild"@de, "image"@en, "image"@fr, "imagen"@es ;
   skos:definition "Gibt eine Entität an, die ein Bild für dieses Objekt beschreibt. Anders als bei der Icon-Eigenschaft werden keine Beschränkungen des Seitenverhältnisses oder der Anzeigegröße angenommen.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image-term](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image-term)"@de,
     "Indicates an entity that describes an image for this object. Unlike the icon property, there are no aspect ratio or display size limitations assumed.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image-term](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image-term)"@en,
@@ -763,7 +763,7 @@ as:image a owl:ObjectProperty, skos:Concept ;
 as:inReplyTo a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "334" ;
+  skos:notation "138" ;
   skos:prefLabel "Antwort auf"@de, "in reply to"@en, "en réponse à"@fr, "en respuesta a"@es ;
   skos:definition "Gibt eine oder mehrere Entitäten an, für die dieses Objekt als Antwort betrachtet wird.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-inreplyto](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-inreplyto)"@de,
     "Indicates one or more entities for which this object is considered a response.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-inreplyto](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-inreplyto)"@en,
@@ -855,7 +855,7 @@ as:last a owl:ObjectProperty, owl:FunctionalProperty, skos:Concept ;
 as:location a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "335" ;
+  skos:notation "139" ;
   skos:prefLabel "Örtlichkeit"@de, "location"@en, "location"@fr, "localización"@es ;
   skos:definition "Gibt einen oder mehrere physische oder logische Orte an, die mit dem Objekt verbunden sind.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-location](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-location)"@de,
     "Indicates one or more physical or logical locations associated with the object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-location](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-location)"@en,
@@ -1011,7 +1011,7 @@ as:prev a owl:ObjectProperty, owl:FunctionalProperty, skos:Concept ;
 as:preview a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object, as:Link ;
-  skos:notation "114" ;
+  skos:notation "141" ;
   skos:prefLabel "Vorschau"@de, "preview"@en, "aperçu"@fr, "vista previa"@es ;
   skos:definition "Identifiziert eine Entität, die eine Vorschau dieses Objekts bietet.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-preview](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-preview)"@de,
     "Identifies an entity that provides a preview of this object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-preview](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-preview)"@en,
@@ -1043,7 +1043,7 @@ as:provider a owl:DeprecatedProperty ;
 as:replies a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "336" ;
+  skos:notation "142" ;
   skos:prefLabel "Antworten"@de, "replies"@en, "réponses"@fr, "responde"@es ;
   skos:definition "Identifiziert eine Sammlung, die Objekte enthält, die als Antworten auf dieses Objekt betrachtet werden.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-replies](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-replies)"@de,
     "Identifies a Collection containing objects considered to be responses to this object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-replies](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-replies)"@en,
@@ -1125,7 +1125,7 @@ as:subject a owl:ObjectProperty, owl:FunctionalProperty, skos:Concept ;
 as:tag a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "337" ;
+  skos:notation "145" ;
   skos:prefLabel "tag"@de, "tag"@en, "tag"@fr, "tag"@es ;
   skos:definition "Ein oder mehrere \"tags\", die mit einem Objekt verknüpft wurden. Ein Tag kann eine beliebige Art von Objekt sein. Der Hauptunterschied zwischen Attachment und Tag besteht darin, dass Ersteres eine Assoziation durch Einbeziehung impliziert, während Letzteres eine Assoziation durch Verweis impliziert.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tag](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tag)"@de,
     "One or more \"tags\" that have been associated with an objects. A tag can be any kind of Object. The key difference between attachment and tag is that the former implies association by inclusion, while the latter implies associated by reference.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tag](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tag)"@en,
@@ -1176,7 +1176,7 @@ as:target a owl:ObjectProperty, skos:Concept ;
 as:to a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "338" ;
+  skos:notation "113" ;
   skos:prefLabel "to"@de, "to"@en, "to"@fr, "to"@es ;
   skos:definition "Identifiziert eine Entität, die als Teil des öffentlichen primären Publikums eines Objekts betrachtet wird.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-to](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-to)"@de,
     "Identifies an entity considered to be part of the public primary audience of an Object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-to](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-to)"@en,
@@ -1197,7 +1197,7 @@ as:to a owl:ObjectProperty, skos:Concept ;
 as:url a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "339" ;
+  skos:notation "146" ;
   skos:prefLabel "url"@de, "url"@en, "url"@fr, "url"@es ;
   skos:definition "Kennzeichnet einen oder mehrere Links zu Darstellungen des Objekts.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)"@de,
     "Identifies one or more links to representations of the object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)"@en,
@@ -1269,7 +1269,7 @@ as:altitude a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
 as:content a owl:DatatypeProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "340" ;
+  skos:notation "121" ;
   skos:related as:contentMap ;
   skos:prefLabel "Inhalt"@de, "content"@en, "contenu"@fr, "contenido"@es ;
   skos:definition "Der Inhalt oder die textuelle Darstellung des Objekts, kodiert als JSON-String. Standardmäßig ist der Wert von content HTML. Die Eigenschaft mediaType kann im Objekt verwendet werden, um einen anderen Inhaltstyp anzugeben. Der Inhalt KANN durch mehrere mit Sprachkennzeichen versehene Werte (s. \"contentMap\") ausgedrückt werden.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-content](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-content)"@de,
@@ -1292,7 +1292,7 @@ as:content a owl:DatatypeProperty, skos:Concept ;
 as:contentMap a owl:DatatypeProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "341" ;
+  skos:notation "122" ;
   skos:related as:content ;
   skos:prefLabel "Inhalt map"@de, "content map"@en, "contenu map"@fr, "contenido map"@es ;
   skos:altLabel "Mehrsprachiger Inhalt"@de, "multi-language content"@en, "contenu multilingue"@fr, "contenido multilingüe"@es ;
@@ -1321,7 +1321,7 @@ as:downstreamDuplicates a owl:DeprecatedProperty ;
 as:duration a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "342" ;
+  skos:notation "130" ;
   skos:prefLabel "Dauer"@de, "duration"@en, "durée"@fr, "duración"@es ;
   skos:definition "Wenn das Objekt eine zeitgebundene Ressource beschreibt, wie z. B. ein Audio- oder Videomaterial, eine Besprechung usw., gibt die Eigenschaft duration die ungefähre Dauer des Objekts an. Der Wert MUSS als xsd:duration ausgedrückt werden, wie in [ xmlschema11-2], Abschnitt 3.3.6 definiert (z. B. wird eine Dauer von 5 Sekunden als \"PT5S\" dargestellt).<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-duration](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-duration)"@de,
     "When the object describes a time-bound resource, such as an audio or video, a meeting, etc, the duration property indicates the object's approximate duration. The value MUST be expressed as an xsd:duration as defined by [ xmlschema11-2], section 3.3.6 (e.g. a period of 5 seconds is represented as \"PT5S\").<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-duration](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-duration)"@en,
@@ -1340,7 +1340,7 @@ as:duration a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
 as:endTime a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "343" ;
+  skos:notation "132" ;
   skos:prefLabel "Endzeitpunkt"@de, "end time"@en, "heure de fin"@fr, "hora de fin"@es ;
   skos:definition "Das Datum und die Uhrzeit, die die tatsächliche oder erwartete Endzeit des Objekts beschreiben. Bei Verwendung mit einem Activity-Objekt gibt die endTime-Eigenschaft beispielsweise den Zeitpunkt an, zu dem die Aktivität abgeschlossen wurde oder voraussichtlich abgeschlossen sein wird.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-endtime](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-endtime)"@de,
     "The date and time describing the actual or expected ending time of the object. When used with an Activity object, for instance, the endTime property specifies the moment the activity concluded or is expected to conclude.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-endtime](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-endtime)"@en,
@@ -1359,7 +1359,7 @@ as:endTime a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
 as:height a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object, as:Link ;
-  skos:notation "115" ;
+  skos:notation "134" ;
   skos:prefLabel "Höhe"@de, "height"@en, "hauteur"@fr, "altura"@es ;
   skos:definition "Gibt bei einem Link einen Hinweis auf die Darstellungshöhe der verlinkten Ressource in geräteunabhängigen Pixeln an.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-height](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-height)"@de,
     "On a Link, specifies a hint as to the rendering height in device-independent pixels of the linked resource.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-height](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-height)"@en,
@@ -1457,7 +1457,7 @@ as:longitude a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
 as:mediaType a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object, as:Link ;
-  skos:notation "116" ;
+  skos:notation "140" ;
   skos:prefLabel "media type"@de, "media type"@en, "media type"@fr, "media type"@es ;
   skos:definition "Bei Verwendung für einen Link, identifiziert den MIME-Medientyp der referenzierten Ressource. Bei Verwendung für ein Objekt wird der MIME-Medientyp des Werts der Eigenschaft content angegeben. Wenn nicht angegeben, wird davon ausgegangen, dass die content-Eigenschaft text/html-Inhalt enthält.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mediatype](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mediatype)"@de,
     "When used on a Link, identifies the MIME media type of the referenced resource. When used on an Object, identifies the MIME media type of the value of the content property. If not specified, the content property is assumed to contain text/html content.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mediatype](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mediatype)"@en,
@@ -1537,7 +1537,7 @@ as:objectType a owl:DeprecatedProperty ;
 as:published a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "344" ;
+  skos:notation "123" ;
   skos:prefLabel "veröffentlicht um"@de, "published"@en, "publié à"@fr, "publicada"@es ;
   skos:definition "Das Datum und die Uhrzeit, zu der das Objekt veröffentlicht wurde.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-published](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-published)"@de,
     "The date and time at which the object was published.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-published](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-published)"@en,
@@ -1631,7 +1631,7 @@ as:startIndex a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
 as:startTime a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "345" ;
+  skos:notation "131" ;
   skos:prefLabel "Startzeitpukt"@de, "start time"@en, "heure de départ"@fr, "hora de inicio"@es ;
   skos:definition "Das Datum und die Uhrzeit, die den tatsächlichen oder erwarteten Startzeitpunkt des Objekts beschreiben. Bei Verwendung mit einem Activity-Objekt gibt die Eigenschaft startTime beispielsweise den Zeitpunkt an, zu dem die Aktivität begonnen hat oder beginnen soll.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-starttime](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-starttime)"@de,
     "The date and time describing the actual or expected starting time of the object. When used with an Activity object, for instance, the startTime property specifies the moment the activity began or is scheduled to begin.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-starttime](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-starttime)"@en,
@@ -1650,7 +1650,7 @@ as:startTime a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
 as:summary a owl:DatatypeProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "346" ;
+  skos:notation "119" ;
   skos:related as:summaryMap ;
   skos:prefLabel "Zusammenfassung"@de, "summary"@en, "résumé"@fr, "resumen"@es ;
   skos:definition "Eine Zusammenfassung des Objekts in natürlicher Sprache, kodiert als HTML. Es KÖNNEN mehrere sprachlich markierte Zusammenfassungen bereitgestellt werden (s. \"summaryMap\").<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-summary](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-summary)"@de,
@@ -1673,7 +1673,7 @@ as:summary a owl:DatatypeProperty, skos:Concept ;
 as:summaryMap a owl:DatatypeProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "347" ;
+  skos:notation "120" ;
   skos:related as:summary ;
   skos:prefLabel "Zusammenfassung map"@de, "summary map"@en, "résumé map"@fr, "resumen map"@es ;
   skos:altLabel "Mehrsprachige Zusammenfassung"@de, "multi-language summary"@en, "résumé multilingue"@fr, "resumen multilingüe"@es ;
@@ -1749,7 +1749,7 @@ as:units a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
 as:updated a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "348" ;
+  skos:notation "124" ;
   skos:prefLabel "aktualisiert"@de, "updated"@en, "actualisé"@fr, "actualizada"@es ;
   skos:definition "Das Datum und die Uhrzeit, zu der das Objekt aktualisiert wurde.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)"@de,
     "The date and time at which the object was updated.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)"@en,
@@ -1778,7 +1778,7 @@ as:verb a owl:DeprecatedProperty ;
 as:width a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object, as:Link ;
-  skos:notation "415" ;
+  skos:notation "135" ;
   skos:prefLabel "Breite"@de, "width"@en, "largeur"@fr, "anchura"@es ;
   skos:definition "Gibt bei einem Link einen Hinweis auf die Darstellungsbreite der verlinkten Ressource in geräteunabhängigen Pixeln an.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)"@de,
     "On a Link, specifies a hint as to the rendering width in device-independent pixels of the linked resource.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)"@en,
@@ -1825,7 +1825,7 @@ as:deleted a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
 as:source a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "350" ;
+  skos:notation "144" ;
   skos:prefLabel "Quelle"@de, "source"@en, "source"@fr, "fuente"@es ;
   skos:definition "Zusätzlich zu allen im [Activity-Vocabulary](https://www.w3.org/TR/activitystreams-vocabulary/) definierten Eigenschaften erweitert ActivityPub das Objekt um die Eigenschaft source.<br>Die Quelleigenschaft soll eine Art von Quelle übermitteln, aus der die Inhaltsauszeichnung abgeleitet wurde - als eine Form der Provenienz oder zur Unterstützung der zukünftigen Bearbeitung durch clients. Im Allgemeinen führen die Clients die Konvertierung von der Quelle zum Inhalt durch, nicht umgekehrt.<br><br>Der Wert von source ist selbst ein Objekt, das seine eigenen content- und mediaType-Felder verwendet, um Quelleninformationen zu liefern.<br>siehe (mehr Info) [https://www.w3.org/TR/activitypub/#source-property](https://www.w3.org/TR/activitypub/#source-property)"@de,
     "In addition to all the properties defined by the [Activity-Vocabulary](https://www.w3.org/TR/activitystreams-vocabulary/), ActivityPub extends the Object by supplying the source property. The source property is intended to convey some sort of source from which the content markup was derived, as a form of provenance, or to support future editing by clients. In general, clients do the conversion from source to content, not the other way around.<br><br>The value of source is itself an object which uses its own content and mediaType fields to supply source information.<br>see (further info) [https://www.w3.org/TR/activitypub/#source-property](https://www.w3.org/TR/activitypub/#source-property)"@en,
@@ -1843,7 +1843,7 @@ as:source a owl:ObjectProperty, skos:Concept ;
 as:followers a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader :Actor ;
-  skos:notation "025" ;
+  skos:notation "165" ;
   skos:prefLabel "Folgende"@de, "followers"@en, "suiveurs"@fr, "seguidores"@es ;
   skos:definition "Every [actor](https://www.w3.org/TR/activitypub/#actors) SHOULD have a followers collection. This is a list of everyone who has sent a [Follow](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-follow) activity for the actor, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). This is where one would find a list of all the actors that are following the actor. The followers collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br><br>NOTE: Default for notification targeting<br>The follow activity generally is a request to see the objects an actor creates. This makes the Followers collection an appropriate default target for [delivery](https://www.w3.org/TR/activitypub/#delivery) of notifications.<br>siehe [https://www.w3.org/TR/activitypub/#followers](https://www.w3.org/TR/activitypub/#followers)"@de,
     "Every [actor](https://www.w3.org/TR/activitypub/#actors) SHOULD have a followers collection. This is a list of everyone who has sent a [Follow](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-follow) activity for the actor, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). This is where one would find a list of all the actors that are following the actor. The followers collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br><br>NOTE: Default for notification targeting<br>The follow activity generally is a request to see the objects an actor creates. This makes the Followers collection an appropriate default target for [delivery](https://www.w3.org/TR/activitypub/#delivery) of notifications.<br>see [https://www.w3.org/TR/activitypub/#followers](https://www.w3.org/TR/activitypub/#followers)"@en,
@@ -1869,7 +1869,7 @@ as:followers a owl:ObjectProperty, skos:Concept ;
 as:following a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader :Actor ;
-  skos:notation "026" ;
+  skos:notation "166" ;
   skos:prefLabel "Folgt"@de, "following"@en, "suivent"@fr, "siguiente"@es ;
   skos:definition "Every actor SHOULD have a following collection. This is a list of everybody that the actor has followed, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). The following collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br>siehe [https://www.w3.org/TR/activitypub/#following](https://www.w3.org/TR/activitypub/#following)"@de,
     "Every actor SHOULD have a following collection. This is a list of everybody that the actor has followed, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). The following collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br>see [https://www.w3.org/TR/activitypub/#following](https://www.w3.org/TR/activitypub/#following)"@en,
@@ -1896,7 +1896,7 @@ as:following a owl:ObjectProperty, skos:Concept ;
 as:liked a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader :Actor ;
-  skos:notation "027" ;
+  skos:notation "167" ;
   skos:prefLabel "gefiel"@de, "liked"@en, "a aimé"@fr, "me gusta"@es ;
   skos:definition "Every actor SHOULD have a liked collection. liked collection. This is a list of every object from all of the actor's Like activities, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). The liked collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br>siehe [https://www.w3.org/TR/activitypub/#liked](https://www.w3.org/TR/activitypub/#liked)"@de,
     "Every actor SHOULD have a liked collection. liked collection. This is a list of every object from all of the actor's Like activities, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). The liked collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br>see [https://www.w3.org/TR/activitypub/#liked](https://www.w3.org/TR/activitypub/#liked)"@en,
@@ -1922,7 +1922,7 @@ as:liked a owl:ObjectProperty, skos:Concept ;
 as:likes a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader :Actor ;
-  skos:notation "028" ;
+  skos:notation "168" ;
   skos:prefLabel "has likes"@de, "has likes"@en, "has likes"@fr, "has likes"@es ;
   skos:definition "Every object MAY have a likes collection. This is a list of all Like activities with this object as the object property, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). The likes collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br><br>NOTE<br>Care should be taken to not confuse the the likes collection with the similarly named but different liked collection. In sum:<br>- liked: Specifically a property of actors. This is a collection of Like activities performed by the actor, added to the collection as a side effect of delivery to the outbox.<br>-likes: May be a property of any object. This is a collection of Like activities referencing this object, added to the collection as a side effect of delivery to the inbox.<br>siehe [https://www.w3.org/TR/activitypub/#likes](https://www.w3.org/TR/activitypub/#likes)"@de,
     "Every object MAY have a likes collection. This is a list of all Like activities with this object as the object property, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). The likes collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br><br>NOTE<br>Care should be taken to not confuse the the likes collection with the similarly named but different liked collection. In sum:<br>- liked: Specifically a property of actors. This is a collection of Like activities performed by the actor, added to the collection as a side effect of delivery to the outbox.<br>-likes: May be a property of any object. This is a collection of Like activities referencing this object, added to the collection as a side effect of delivery to the inbox.<br>see [https://www.w3.org/TR/activitypub/#likes](https://www.w3.org/TR/activitypub/#likes)"@en,
@@ -1945,7 +1945,7 @@ as:likes a owl:ObjectProperty, skos:Concept ;
 as:inbox a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader :Actor ;
-  skos:notation "029" ;
+  skos:notation "169" ;
   skos:prefLabel "inbox"@de, "inbox"@en, "inbox"@fr, "inbox"@es ;
   skos:definition "The inbox is discovered through the inbox property of an [actor's](https://www.w3.org/TR/activitypub/#actors) profile. The inbox MUST be an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection).<br><br>The inbox stream contains all activities received by the actor. The server SHOULD filter content according to the requester's permission. In general, the owner of an inbox is likely to be able to access all of their inbox contents. Depending on access control, some other content may be public, whereas other content may require authentication for non-owner users, if they can access the inbox at all.<br><br>The server MUST perform de-duplication of activities returned by the inbox. Duplication can occur if an activity is addressed both to an actor's followers, and a specific actor who also follows the recipient actor, and the server has failed to de-duplicate the recipients list. Such deduplication MUST be performed by comparing the id of the activities and dropping any activities already seen.<br>The inboxes of actors on federated servers accepts HTTP POST requests, with behaviour described in [Delivery](https://www.w3.org/TR/activitypub/#delivery). Non-federated servers SHOULD return a 405 Method Not Allowed upon receipt of a POST request.<br>siehe [https://www.w3.org/TR/activitypub/#inbox](https://www.w3.org/TR/activitypub/#inbox)"@de,
     "The inbox is discovered through the inbox property of an [actor's](https://www.w3.org/TR/activitypub/#actors) profile. The inbox MUST be an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection).<br><br>The inbox stream contains all activities received by the actor. The server SHOULD filter content according to the requester's permission. In general, the owner of an inbox is likely to be able to access all of their inbox contents. Depending on access control, some other content may be public, whereas other content may require authentication for non-owner users, if they can access the inbox at all.<br><br>The server MUST perform de-duplication of activities returned by the inbox. Duplication can occur if an activity is addressed both to an actor's followers, and a specific actor who also follows the recipient actor, and the server has failed to de-duplicate the recipients list. Such deduplication MUST be performed by comparing the id of the activities and dropping any activities already seen.<br>The inboxes of actors on federated servers accepts HTTP POST requests, with behaviour described in [Delivery](https://www.w3.org/TR/activitypub/#delivery). Non-federated servers SHOULD return a 405 Method Not Allowed upon receipt of a POST request.<br>see [https://www.w3.org/TR/activitypub/#inbox](https://www.w3.org/TR/activitypub/#inbox)"@en,
@@ -1972,7 +1972,7 @@ as:inbox a owl:ObjectProperty, skos:Concept ;
 as:outbox a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader :Actor ;
-  skos:notation "030" ;
+  skos:notation "170" ;
   skos:prefLabel "outbox"@de, "outbox"@en, "outbox"@fr, "outbox"@es ;
   skos:definition "The outbox is discovered through the outbox property of an [actor's](https://www.w3.org/TR/activitypub/#actors) profile. The outbox MUST be an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection).<br><br>The outbox stream contains activities the user has published, subject to the ability of the requestor to retrieve the activity (that is, the contents of the outbox are filtered by the permissions of the person reading it). If a user submits a request without [Authorization](https://www.w3.org/TR/activitypub/#authorization) the server should respond with all of the [Public](https://www.w3.org/TR/activitypub/#public-addressing) posts. This could potentially be all relevant objects published by the user, though the number of available items is left to the discretion of those implementing and deploying the server.<br><br>The outbox accepts HTTP POST requests, with behaviour described in [Client to Server Interactions](https://www.w3.org/TR/activitypub/#client-to-server-interactions).<br>siehe [https://www.w3.org/TR/activitypub/#inbox](https://www.w3.org/TR/activitypub/#inbox)"@de,
     "The outbox is discovered through the outbox property of an [actor's](https://www.w3.org/TR/activitypub/#actors) profile. The outbox MUST be an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection).<br><br>The outbox stream contains activities the user has published, subject to the ability of the requestor to retrieve the activity (that is, the contents of the outbox are filtered by the permissions of the person reading it). If a user submits a request without [Authorization](https://www.w3.org/TR/activitypub/#authorization) the server should respond with all of the [Public](https://www.w3.org/TR/activitypub/#public-addressing) posts. This could potentially be all relevant objects published by the user, though the number of available items is left to the discretion of those implementing and deploying the server.<br><br>The outbox accepts HTTP POST requests, with behaviour described in [Client to Server Interactions](https://www.w3.org/TR/activitypub/#client-to-server-interactions).<br>see [https://www.w3.org/TR/activitypub/#inbox](https://www.w3.org/TR/activitypub/#inbox)"@en,
@@ -1999,7 +1999,7 @@ as:outbox a owl:ObjectProperty, skos:Concept ;
 as:preferredUsername a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader :Actor ;
-  skos:notation "031" ;
+  skos:notation "171" ;
   skos:prefLabel "bevorzugter Nutzerinnen-Name"@de, "preferred username"@en, "nom d'utilisateur préféré"@fr, "nombre de usuario preferido"@es ;
   skos:definition "Ein kurzer Benutzername, der verwendet werden kann, um sich auf den Akteur zu beziehen, wobei die Eindeutigkeit nicht garantiert ist.<br>siehe [https://www.w3.org/TR/activitypub/#preferredUsername](https://www.w3.org/TR/activitypub/#preferredUsername)"@de,
     "A short username which may be used to refer to the actor, with no uniqueness guarantees.<br>see [https://www.w3.org/TR/activitypub/#preferredUsername](https://www.w3.org/TR/activitypub/#preferredUsername)"@en,
@@ -2013,7 +2013,7 @@ as:preferredUsername a owl:ObjectProperty, skos:Concept ;
 as:shares a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader :Actor ;
-  skos:notation "032" ;
+  skos:notation "172" ;
   skos:prefLabel "shares"@de, "shares"@en, "shares"@fr, "shares"@es ;
   skos:definition "Every object MAY have a shares collection. This is a list of all Announce activities with this object as the object property, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). The shares collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br>siehe [https://www.w3.org/TR/activitypub/#shares](https://www.w3.org/TR/activitypub/#shares)"@de,
     "Every object MAY have a shares collection. This is a list of all Announce activities with this object as the object property, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). The shares collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br>see [https://www.w3.org/TR/activitypub/#shares](https://www.w3.org/TR/activitypub/#shares)"@en,
@@ -2036,7 +2036,7 @@ as:shares a owl:ObjectProperty, skos:Concept ;
 as:streams a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader :Actor ;
-  skos:notation "033" ;
+  skos:notation "173" ;
   skos:prefLabel "streams"@de, "streams"@en, "streams"@fr, "streams"@es ;
   skos:definition "Eine Liste von ergänzenden Sammlungen, die von Interesse sein könnten.<br>siehe [https://www.w3.org/TR/activitypub/#streams-property](https://www.w3.org/TR/activitypub/#streams-property)"@de,
     "A list of supplementary Collections which may be of interest.<br>see [https://www.w3.org/TR/activitypub/#streams-property](https://www.w3.org/TR/activitypub/#streams-property)"@en,
@@ -2050,7 +2050,7 @@ as:streams a owl:ObjectProperty, skos:Concept ;
 as:endpoints a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader :Actor ;
-  skos:notation "034" ;
+  skos:notation "174" ;
   skos:prefLabel "endpoints"@de, "endpoints"@en, "endpoints"@fr, "endpoints"@es ;
   skos:definition "Ein JSON-Objekt, das zusätzliche (typischerweise server-/domänenweite) Endpunkte abbildet, die entweder für diesen Akteur oder jemanden, der diesen Akteur referenziert, nützlich sein können. Diese Zuordnung kann innerhalb des Akteursdokuments als Wert verschachtelt sein oder ein Link zu einem JSON-LD-Dokument mit diesen Eigenschaften sein.<br>Die Endpunktzuordnung KANN die folgenden Eigenschaften enthalten:<br><br>- proxyUrl<br>Endpunkt-URI, damit die Clients dieses Akteurs auf entfernte ActivityStreams-Objekte zugreifen können, für deren Zugriff eine Authentifizierung erforderlich ist. Um diesen Endpunkt zu verwenden, gibt der Client einen x-www-form-urlencoded id-Parameter an, dessen Wert die ID des angeforderten ActivityStreams-Objekts ist.<br>- oauthAuthorizationEndpunkt<br>Wenn OAuth 2.0-Inhaber-Tokens [RFC6749] [RFC6750] für die Authentifizierung von Client-Server-Interaktionen verwendet werden, gibt dieser Endpunkt einen URI an, über den ein Browser-authentifizierter Benutzer eine neue Autorisierungserlaubnis erhalten kann.<br>- oauthTokenEndpunkt<br>Wenn OAuth 2.0-Inhaber-Tokens [RFC6749] [RFC6750] für die Authentifizierung von Client-Server-Interaktionen verwendet werden, gibt dieser Endpunkt einen URI an, über den ein Client ein Zugriffstoken erwerben kann.<br>- provideClientKey<br>Wenn Linked-Data-Signaturen und HTTP-Signaturen für die Authentifizierung und Autorisierung verwendet werden, gibt dieser Endpunkt einen URI an, unter dem Browser-authentifizierte Benutzer den öffentlichen Schlüssel eines Clients für Client-Server-Interaktionen autorisieren können.<br>- signClientKey<br>Wenn Linked-Data-Signaturen und HTTP-Signaturen für die Authentifizierung und Autorisierung verwendet werden, gibt dieser Endpunkt einen URI an, bei dem ein Client-Schlüssel durch den Schlüssel des Akteurs für ein Zeitfenster signiert werden kann, um bei der Interaktion mit fremden Servern im Namen des Akteurs zu handeln.<br>- sharedInbox<br>Ein optionaler Endpunkt, der für die breite Zustellung von öffentlich adressierten Aktivitäten und Aktivitäten, die an Follower gesendet werden, verwendet wird. sharedInbox-Endpunkte SOLLTEN auch öffentlich lesbare OrderedCollection-Objekte sein, die Objekte enthalten, die an die Spezialsammlung Public adressiert sind. Das Lesen aus dem sharedInbox-Endpunkt DARF KEINE Objekte enthalten, die nicht an den Public-Endpunkt adressiert sind."@de,
     "A JSON object which maps additional (typically server/domain-wide) endpoints which may be useful either for this actor or someone referencing this actor. This mapping may be nested inside the actor document as the value or may be a link to a JSON-LD document with these properties.<br>The endpoints mapping MAY include the following properties:<br><br>- proxyUrl<br>Endpoint URI so this actor's clients may access remote ActivityStreams objects which require authentication to access. To use this endpoint, the client posts an x-www-form-urlencoded id parameter with the value being the id of the requested ActivityStreams object.<br>- oauthAuthorizationEndpoint<br>If OAuth 2.0 bearer tokens [RFC6749] [RFC6750] are being used for authenticating client to server interactions, this endpoint specifies a URI at which a browser-authenticated user may obtain a new authorization grant.<br>- oauthTokenEndpoint<br>If OAuth 2.0 bearer tokens [RFC6749] [RFC6750] are being used for authenticating client to server interactions, this endpoint specifies a URI at which a client may acquire an access token.<br>- provideClientKey<br>If Linked Data Signatures and HTTP Signatures are being used for authentication and authorization, this endpoint specifies a URI at which browser-authenticated users may authorize a client's public key for client to server interactions.<br>- signClientKey<br>If Linked Data Signatures and HTTP Signatures are being used for authentication and authorization, this endpoint specifies a URI at which a client key may be signed by the actor's key for a time window to act on behalf of the actor in interacting with foreign servers.<br>- sharedInbox<br>An optional endpoint used for wide delivery of publicly addressed activities and activities sent to followers. sharedInbox endpoints SHOULD also be publicly readable OrderedCollection objects containing objects addressed to the Public special collection. Reading from the sharedInbox endpoint MUST NOT present objects which are not addressed to the Public endpoint."@en,
@@ -2076,7 +2076,7 @@ as:endpoints a owl:ObjectProperty, skos:Concept ;
 as:proxyUrl a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:endpoints ;
-  skos:notation "035" ;
+  skos:notation "175" ;
   skos:prefLabel "proxy Url"@de, "proxy Url"@en, "proxy Url"@fr, "proxy Url"@es ;
   skos:definition "Endpunkt-URI, damit die Clients dieses Akteurs auf entfernte ActivityStreams-Objekte zugreifen können, die eine Authentifizierung für den Zugriff erfordern. Um diesen Endpunkt zu verwenden, gibt der Client einen x-www-form-urlencoded id-Parameter an, dessen Wert die ID des angeforderten ActivityStreams-Objekts ist."@de,
     "Endpoint URI so this actor's clients may access remote ActivityStreams objects which require authentication to access. To use this endpoint, the client posts an x-www-form-urlencoded id parameter with the value being the id of the requested ActivityStreams object."@en,
@@ -2090,7 +2090,7 @@ as:proxyUrl a owl:ObjectProperty, skos:Concept ;
 as:oauthAuthorizationEndpoint a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:endpoints ;
-  skos:notation "036" ;
+  skos:notation "176" ;
   skos:prefLabel "OAuth Authorization Endpoint"@de, "OAuth Authorization Endpoint"@en, "OAuth Authorization Endpoint"@fr, "OAuth Authorization Endpoint"@es ;
   skos:definition "Wenn OAuth 2.0-Inhaber-Tokens [RFC6749] [RFC6750] für die Authentifizierung von Client-Server-Interaktionen verwendet werden, gibt dieser Endpunkt einen URI an, über den ein Browser-authentifizierter Benutzer eine neue Autorisierungserlaubnis erhalten kann."@de,
     "If OAuth 2.0 bearer tokens [RFC6749] [RFC6750] are being used for authenticating client to server interactions, this endpoint specifies a URI at which a browser-authenticated user may obtain a new authorization grant."@en,
@@ -2104,7 +2104,7 @@ as:oauthAuthorizationEndpoint a owl:ObjectProperty, skos:Concept ;
 as:oauthTokenEndpoint a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:endpoints ;
-  skos:notation "037" ;
+  skos:notation "177" ;
   skos:prefLabel "OAuth Token Endpoint"@de, "OAuth Token Endpoint"@en, "OAuth Token Endpoint"@fr, "OAuth Token Endpoint"@es ;
   skos:definition "Wenn OAuth 2.0-Inhaber-Tokens [RFC6749] [RFC6750] für die Authentifizierung von Client-Server-Interaktionen verwendet werden, gibt dieser Endpunkt einen URI an, bei dem ein Client ein Zugriffstoken erwerben kann."@de,
     "If OAuth 2.0 bearer tokens [RFC6749] [RFC6750] are being used for authenticating client to server interactions, this endpoint specifies a URI at which a client may acquire an access token."@en,
@@ -2118,7 +2118,7 @@ as:oauthTokenEndpoint a owl:ObjectProperty, skos:Concept ;
 as:provideClientKey a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:endpoints ;
-  skos:notation "038" ;
+  skos:notation "178" ;
   skos:prefLabel "provide Client-Key"@de, "provide client key"@en, "provide client key"@fr, "provide client key"@es ;
   skos:definition "Wenn Linked-Data-Signaturen und HTTP-Signaturen für die Authentifizierung und Autorisierung verwendet werden, gibt dieser Endpunkt einen URI an, bei dem ein Client-Schlüssel durch den Schlüssel des Akteurs für ein Zeitfenster signiert werden kann, um im Namen des Akteurs bei der Interaktion mit fremden Servern zu handeln."@de,
     "If Linked Data Signatures and HTTP Signatures are being used for authentication and authorization, this endpoint specifies a URI at which browser-authenticated users may authorize a client's public key for client to server interactions."@en,
@@ -2132,7 +2132,7 @@ as:provideClientKey a owl:ObjectProperty, skos:Concept ;
 as:signClientKey a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:endpoints ;
-  skos:notation "039" ;
+  skos:notation "179" ;
   skos:prefLabel "Sign Client-Key"@de, "sign client key"@en, "sign client key"@fr, "sign client key"@es ;
   skos:definition "Wenn Linked-Data-Signaturen und HTTP-Signaturen für die Authentifizierung und Autorisierung verwendet werden, gibt dieser Endpunkt einen URI an, bei dem ein Client-Schlüssel durch den Schlüssel des Akteurs für ein Zeitfenster signiert werden kann, um im Namen des Akteurs bei der Interaktion mit fremden Servern zu handeln."@de,
     "If Linked Data Signatures and HTTP Signatures are being used for authentication and authorization, this endpoint specifies a URI at which a client key may be signed by the actor's key for a time window to act on behalf of the actor in interacting with foreign servers."@en,
@@ -2146,7 +2146,7 @@ as:signClientKey a owl:ObjectProperty, skos:Concept ;
 as:sharedInbox a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:endpoints ;
-  skos:notation "040" ;
+  skos:notation "180" ;
   skos:prefLabel "Shared Inbox"@de, "shared inbox"@en, "shared inbox"@fr, "shared inbox"@es ;
   skos:definition "Ein optionaler Endpunkt, der für die breite Zustellung von öffentlich adressierten Aktivitäten und Aktivitäten, die an Follower gesendet werden, verwendet wird. sharedInbox-Endpunkte SOLLTEN auch öffentlich lesbare OrderedCollection-Objekte sein, die Objekte enthalten, die an die spezielle Sammlung Public adressiert sind. Das Lesen aus dem sharedInbox-Endpunkt DARF KEINE Objekte enthalten, die nicht an den Public-Endpunkt adressiert sind."@de,
     "An optional endpoint used for wide delivery of publicly addressed activities and activities sent to followers. sharedInbox endpoints SHOULD also be publicly readable OrderedCollection objects containing objects addressed to the Public special collection. Reading from the sharedInbox endpoint MUST NOT present objects which are not addressed to the Public endpoint."@en,
@@ -2160,7 +2160,7 @@ as:sharedInbox a owl:ObjectProperty, skos:Concept ;
 as:uploadMedia a owl:ObjectProperty, skos:Concept ;
  skos:inScheme :scheme ;
  skos:broader as:endpoints, :litepubPleroma ;
- skos:notation "041" ;
+ skos:notation "181" ;
  skos:prefLabel "upload Media Endpoint"@de, "upload Media Endpoint"@en, "upload Media Endpoint"@fr, "upload Media Endpoint"@es ;
  skos:definition "Inspiriert von https://www.w3.org/wiki/SocialCG/ActivityPub/MediaUpload, ist es Teil des ActivityStreams-Namensraums, weil es früher Teil der ActivityPub-Spezifikation war und daraus entfernt wurde.<br><br>Inhalt-Typ: multipart/form-data<br><br>Parameter: - (erforderlich) file: Die hochzuladende Datei - (optional) description: Eine Beschreibung des Mediums im Klartext, um die Zugänglichkeit zu gewährleisten.<br><br>Antwort: HTTP 201 Erstellt mit dem Objekt im Body, ohne Location-Header, da es keine ID hat<br><br>Das in der Antwort angegebene Objekt sollte dann in das Anhangsfeld eines Objekts eingefügt werden.<br>siehe [Pleroma documentation](https://docs-develop.pleroma.social/backend/development/ap_extensions/#actor-endpoints)"@de,
    "Inspired by https://www.w3.org/wiki/SocialCG/ActivityPub/MediaUpload, it is part of the ActivityStreams namespace because it used to be part of the ActivityPub specification and got removed from it.<br><br>Content-Type: multipart/form-data<br><br>Parameters: - (required) file: The file being uploaded - (optionnal) description: A plain-text description of the media, for accessibility purposes.<br><br>Response: HTTP 201 Created with the object into the body, no Location header provided as it doesn't have an id<br><br>The object given in the reponse should then be inserted into an Object's attachment field.<br>see [Pleroma documentation](https://docs-develop.pleroma.social/backend/development/ap_extensions/#actor-endpoints)"@en,
@@ -3033,7 +3033,7 @@ as:OrderedItems a owl:Class ;
 as:Mention a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Link ;
-  skos:notation "39" ;
+  skos:notation "23" ;
   skos:prefLabel "Erwähnung"@de, "Mention"@en, "Mentionnez"@fr, "Mención"@es ;
   skos:definition "Ein spezialisierter Link, der eine @Erwähnung darstellt.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mention](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mention)"@de,
     "A specialized Link that represents an @mention.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mention](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mention)"@en,
@@ -3061,7 +3061,7 @@ rdf:nil a as:OrderedItems .
 as:Hashtag a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object ;
-  skos:notation "349" ;
+  skos:notation "25" ;
   skos:prefLabel "Hashtag"@de, "Hashtag"@en, "Hashtag"@fr, "Hashtag"@es ;
   skos:definition "Hashtag ist ein Objekttyp, eine Unterklasse von Object, der für Hashtag-ähnliche Tags unter der Eigenschaft tag verwendet wird.<br>siehe [w3 wiki](https://www.w3.org/wiki/Activity_Streams_extensions#as:Hashtag) or [documentation](https://docs.joinmastodon.org/spec/activitypub/#as)"@de,
     "The Hashtag is an object type, subclass of Object, which is used for hashtag-style tags under the tag property.<br>see [w3 wiki](https://www.w3.org/wiki/Activity_Streams_extensions#as:Hashtag) or [documentation](https://docs.joinmastodon.org/spec/activitypub/#as)"@en,
@@ -3074,7 +3074,7 @@ as:Hashtag a owl:Class, skos:Concept ;
 as:alsoKnownAs a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader :Actor ;
-  skos:notation "016" ;
+  skos:notation "156" ;
   skos:prefLabel "auch bekannt als"@de, "also known as"@en, "également connu sous le nom de"@fr, "también conocido como"@es ;
   skos:definition "Die Beziehung alsoKnownAs zeigt an, dass zwei Actor-Objekte von derselben zugrundeliegenden Person verwendet wird. Beim Konsumieren eines Dokuments sollte jedoch darauf geachtet werden, dass die Beziehung von allen beteiligten Akteuren autorisiert ist. Wenn https://example.org/cat zum Beispiel ausdrückt \"alsoKnownAs\": \"https://example.org/dog\", dann sollten Konsumenten sicherstellen, daß https://example.org/dog auch \"alsoKnownAs\": \"https://example.org/cat\" hat, bevor die Beziehung als gültig betrachtet wird. Wenn die Beziehung wechselseitig ist, können die beiden Akteure für bestimmte sicherheitsrelevante Vorgänge als dieselbe Person behandelt werden.<br>siehe [socialhub](https://socialhub.activitypub.rocks/t/defining-alsoknownas/907) or [documentation](https://docs.joinmastodon.org/spec/activitypub/#as)"@de,
     "The alsoKnownAs relationship indicates that two Actor objects are shared by the same underlying user. However, care should be taken when consuming a document to make sure that the relationship is authorized by all actors involved. For example, if https://example.org/cat has \"alsoKnownAs\": \"https://example.org/dog\", then processing systems should also make sure that https://example.org/dog has \"alsoKnownAs\": \"https://example.org/cat\" before treating the relationship as valid. If the relationship is reciprocated, then the two actors may be treated as the same person for certain security-sensitive operations.<br>see [socialhub](https://socialhub.activitypub.rocks/t/defining-alsoknownas/907) or [documentation](https://docs.joinmastodon.org/spec/activitypub/#as)"@en,
@@ -3093,7 +3093,7 @@ as:alsoKnownAs a owl:ObjectProperty, skos:Concept ;
 as:manuallyApprovesFollowers a owl:ObjectProperty, owl:FunctionalProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader :Actor ;
-  skos:notation "017" ;
+  skos:notation "157" ;
   skos:prefLabel "genehmigt Folgende manuell"@de, "manually approves followers"@en, "approuve manuellement les followers"@fr, "aprueba manualmente a los seguidores"@es ;
   skos:definition "Die Einstellung *true* bedeutet, daß für diesen Akteur Follow-Anfragen in der Regel nicht automatisch genehmigt werden, sondern von einer Person geprüft werden, die die Anfrage zu einem späteren Zeitpunkt annehmen oder ablehnen kann. Die Einstellung false vermittelt keine Informationen und kann ignoriert werden. Diese Information wird normalerweise verwendet, um die Anzeige von Konten zu beeinflussen, z. B. um ein Konto als privat oder gesperrt anzuzeigen.<br>siehe [w3 wiki](https://www.w3.org/wiki/Activity_Streams_extensions#as:manuallyApprovesFollowers) or [documentation](https://docs.joinmastodon.org/spec/activitypub/#as)"@de,
     "When *true*, conveys that for this actor, follow requests are not usually automatically approved, but instead are examined by a person who may accept or reject the request, at some time in the future. Setting of false conveys no information and may be ignored. This information is typically used to affect display of accounts, such as showing an account as private or locked.<br>see [w3 wiki](https://www.w3.org/wiki/Activity_Streams_extensions#as:manuallyApprovesFollowers) or [documentation](https://docs.joinmastodon.org/spec/activitypub/#as)"@en,
@@ -3107,7 +3107,7 @@ as:manuallyApprovesFollowers a owl:ObjectProperty, owl:FunctionalProperty, skos:
 as:movedTo a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader :Actor ;
-  skos:notation "018" ;
+  skos:notation "158" ;
   skos:prefLabel "umgezogen nach"@de, "moved to"@en, "a déménagé à"@fr, "traslado a"@es ;
   skos:definition "Benötigt für die Move Aktivität in mastodon. <br>siehe [minutes](https://www.w3.org/wiki/SocialCG/2017-11-22/minutes#movedTo) or [documentation](https://docs.joinmastodon.org/spec/activitypub/#as)"@de,
     "Required for Move activity in mastodon <br>see [minutes](https://www.w3.org/wiki/SocialCG/2017-11-22/minutes#movedTo) or [documentation](https://docs.joinmastodon.org/spec/activitypub/#as)"@en,
@@ -3125,7 +3125,7 @@ as:movedTo a owl:ObjectProperty, skos:Concept ;
 as:sensitive a owl:ObjectProperty, owl:FunctionalProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object, as:Link ;
-  skos:notation "119" ;
+  skos:notation "143" ;
   skos:prefLabel "sensibel"@de, "sensitive"@en, "sensible"@fr, "sensible"@es ;
   skos:definition "Die sensitive Eigenschaft (true|false) eines Objekts zeigt an, dass einige Benutzer bei der Betrachtung des Inhalts Vorsicht walten lassen sollten, sei es aufgrund von Nacktheit, Gewalt oder anderen Aspekten, auf die die Betrachter empfindlich reagieren könnten. Dies ist vergleichbar mit Warnungen, die in einigen Systemen als \"NSFW\" (Unpassend für den Arbeitsplatz) oder \"Triggerwarnung\" bezeichnet werden. Implementierungen können Inhalte, die mit dieser Eigenschaft gekennzeichnet sind, standardmäßig ausblenden und nach Ermessen des Benutzers anzeigen.<br>siehe [w3 wiki](https://www.w3.org/wiki/Activity_Streams_extensions#as:sensitive_property) or [documentation](https://docs.joinmastodon.org/spec/activitypub/#as)"@de,
     "The sensitive property (a boolean) on an object indicates that some users may wish to apply discretion about viewing its content, whether due to nudity, violence, or any other likely aspects that viewers may be sensitive to. This is comparable to what is popularly called \"NSFW\" (Not Safe For Work) or \"trigger warning\" in some systems. Implementations may choose to hide content flagged with this property by default, exposed at user discretion.<br>see [w3 wiki](https://www.w3.org/wiki/Activity_Streams_extensions#as:sensitive_property) or [documentation](https://docs.joinmastodon.org/spec/activitypub/#as)"@en,
@@ -3149,7 +3149,7 @@ as:sensitive a owl:ObjectProperty, owl:FunctionalProperty, skos:Concept ;
 sec:owner a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader sec:publicKey ;
-  skos:notation "019" ;
+  skos:notation "159" ;
   skos:prefLabel "Eigentümer"@de, "owner"@en, "Propriétaire"@fr, "Propietario"@es ;
   skos:definition "Ein Eigentümer ist eine Entität, die die Kontrolle über eine bestimmte Ressource beansprucht. Beachte, daß Eigentum am besten als eine wechselseitige Beziehung validiert wird, bei der der Eigentümer das Eigentum an einer bestimmten Ressource beansprucht und die Ressource ihren Eigentümer eindeutig identifiziert."@de,
     "An owner is an entity that claims control over a particular resource. Note that ownership is best validated as a two-way relationship where the owner claims ownership over a particular resource, and the resource clearly identifies its owner."@en,
@@ -3167,7 +3167,7 @@ sec:owner a owl:ObjectProperty, skos:Concept ;
 sec:publicKey a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader :Actor ;
-  skos:notation "020" ;
+  skos:notation "160" ;
   skos:prefLabel "Öffentlicher Schlüssel"@de, "public key"@en, "clé publique"@fr, "clave pública"@es ;
   skos:definition "Ein öffentlicher Schlüssel spezifiziert eine URL, die Infos zum public key enthält.<br>siehe [The Security Vocabulary](https://w3c-ccg.github.io/security-vocab/#publicKey) or [mastodon usage documentation](https://docs.joinmastodon.org/spec/security/)"@de,
     "A public key property is used to specify a URL that contains information about a public key.<br>see [The Security Vocabulary](https://w3c-ccg.github.io/security-vocab/#publicKey) or [mastodon usage documentation](https://docs.joinmastodon.org/spec/security/)"@en,
@@ -3185,7 +3185,7 @@ sec:publicKey a owl:ObjectProperty, skos:Concept ;
 sec:publicKeyPem a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader sec:publicKey ;
-  skos:notation "021" ;
+  skos:notation "161" ;
   skos:prefLabel "Öffentlicher Schlüssel PEM"@de, "public key PEM"@en, "clé publique PEM"@fr, "clave pública PEM"@es ;
   skos:definition "Eine PEM-Eigenschaft für öffentliche Schlüssel wird verwendet, um die PEM-kodierte Version des öffentlichen Schlüssels anzugeben. Diese Kodierung ist mit fast allen Secure Sockets Layer-Bibliotheksimplementierungen kompatibel und kann in der Regel direkt in Funktionen zur Initialisierung öffentlicher Schlüssel eingebunden werden."@de,
     "A public key PEM property is used to specify the PEM-encoded version of the public key. This encoding is compatible with almost every Secure Sockets Layer library implementation and typically plugs directly into functions intializing public keys."@en,
@@ -3203,7 +3203,7 @@ sec:publicKeyPem a owl:ObjectProperty, skos:Concept ;
 sec:signature a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader :Actor ;
-  skos:notation "022" ;
+  skos:notation "162" ;
   skos:prefLabel "Signatur"@de, "signature"@en, "signature"@fr, "firma"@es ;
   skos:definition "Die Signatureigenschaft wird verwendet, um eine Signatur mit einem Informationsgraphen zu verknüpfen. Die Signatureigenschaft ist normalerweise nicht in dem kanonisierten Graphen enthalten, der dann verdaut und digital signiert wird."@de,
     "The signature property is used to associate a signature with a graph of information. The signature property is typically not included in the canonicalized graph that is then digested, and digitally signed."@en,
@@ -3224,7 +3224,7 @@ sec:signature a owl:ObjectProperty, skos:Concept ;
 sec:signatureAlgorithm a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader sec:signature ;
-  skos:notation "023" ;
+  skos:notation "163" ;
   skos:prefLabel "Signatur Algorithmus"@de, "signature algorithm"@en, "signature algorithm"@fr, "firma algorithm"@es ;
   skos:definition "Der Signaturalgorithmus wird verwendet, um die kryptografische Signaturfunktion festzulegen, die beim digitalen Signieren der Prüfdaten verwendet werden soll. Normalerweise durchläuft der zu signierende Text drei Schritte: 1) Kanonisierung, 2) Digest und 3) Signatur. Diese Eigenschaft wird verwendet, um den Algorithmus anzugeben, der für Schritt 3 verwendet werden soll. Eine Signaturklasse gibt in der Regel einen Standard-Signaturalgorithmus an, so dass diese Eigenschaft in der Praxis nur selten verwendet werden muss, wenn digitale Signaturen angegeben werden."@de,
     "The signature algorithm is used to specify the cryptographic signature function to use when digitally signing the digest data. Typically, text to be signed goes through three steps: 1) canonicalization, 2) digest, and 3) signature. This property is used to specify the algorithm that should be used for step #3. A signature class typically specifies a default signature algorithm, so this property rarely needs to be used in practice when specifying digital signatures."@en,
@@ -3242,7 +3242,7 @@ sec:signatureAlgorithm a owl:ObjectProperty, skos:Concept ;
 sec:signatureValue a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader sec:signature ;
-  skos:notation "024" ;
+  skos:notation "164" ;
   skos:prefLabel "Signatur Wert"@de, "signature value"@en, "valeur de la signature"@fr, "firma value"@es ;
   skos:definition "Der Signaturwert wird verwendet, um die Ausgabe des Signaturalgorithmus im Base-64-Format auszudrücken."@de,
     "The signature value is used to express the output of the signature algorithm expressed in base-64 format."@en,
@@ -3421,7 +3421,7 @@ toot:Emoji a owl:Class, skos:Concept ;
 toot:IdentityProof a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object, :mastodon, :redaktor ;
-  skos:notation "23" ;
+  skos:notation "26" ;
   skos:prefLabel "Identitätsbeweis"@de, "Identity Proof"@en, "Preuve d'identité"@fr, "Prueba de identidad"@es ;
   skos:definition "Mastodon unterstützt die Integration mit Identitätsanbietern, um zu beweisen, daß ein Profil mit einer bestimmten Identität verbunden ist. Dies wird über die Eigenschaft attachment bei Actor-Objekten implementiert, wobei die Objekte im Array den Typ IdentityProof aus dem Mastodon-Namensraum aufweisen. Das Objekt enthält auch signatureAlgorithm und signatureValue aus dem W3ID Security Vocabulary Namespace.<br>siehe [mastodon documentation 'Identity proofs'](https://docs.joinmastodon.org/spec/activitypub/#IdentityProof)"@de,
     "Mastodon supports integration with identity providers to prove that a profile is linked to a certain identity. This is implemented using the attachment property on actor objects, with objects in the array having a type of IdentityProof from the Mastodon namespace. The object also includes signatureAlgorithm and signatureValue from the W3ID Security Vocabulary namespace.<br>see [mastodon documentation 'Identity proofs'](https://docs.joinmastodon.org/spec/activitypub/#IdentityProof)"@en,
@@ -3604,7 +3604,7 @@ pt:Playlist a owl:Class, skos:Concept ;
 pt:PlaylistElement a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object, :peertube ;
-  skos:notation "38" ;
+  skos:notation "27" ;
   skos:prefLabel "Playlist Element"@de, "Playlist Element"@en, "Playlist Element"@fr, "Playlist Element"@es ;
   skos:definition "Dieses Objekt repräsentiert einen Video-Eintrag in einer Playlist Collection<br>siehe [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)"@de,
     "The object is used to represent a video playlist element inside the Playlist collection.<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)"@en,
@@ -3889,7 +3889,7 @@ pt:waitTranscoding a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept 
 lite:ChatMessage a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object, :litepubPleroma ;
-  skos:notation "1038" ;
+  skos:notation "24" ;
   skos:prefLabel "Chat Nachricht"@de, "Chat message"@en, "Chat message"@fr, "Chat mensaje"@es ;
   skos:definition "ChatMessages sind die Nachrichten, die in 1-zu-1-Chats gesendet werden. Sie sind ähnlich wie Notizen, aber die Adressierung erfolgt durch einen einzelnen AP-Akteur im Feld an. Das Adressieren von mehreren Akteuren ist nicht erlaubt.<br>Diese Nachrichten sind immer privat, es gibt keine öffentliche Version von ihnen. Sie werden mit einer Create-Aktivität erstellt.<br><br>Sie sind Teil des litepub-Namensraumes als http://litepub.social/ns#ChatMessage.<br>siehe [Pleroma documentation](https://docs-develop.pleroma.social/backend/development/ap_extensions/#chatmessages)"@de,
     "ChatMessages are the messages sent in 1-on-1 chats. They are similar to Notes, but the addresing is done by having a single AP actor in the to field. Addressing multiple actors is not allowed.<br>These messages are always private, there is no public version of them. They are created with a Create activity.<br><br>They are part of the litepub namespace as http://litepub.social/ns#ChatMessage.<br>see [Pleroma documentation](https://docs-develop.pleroma.social/backend/development/ap_extensions/#chatmessages)"@en,
@@ -3960,7 +3960,7 @@ dct:created a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
 schema:PropertyValue a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object, :mastodon ;
-  skos:notation "37" ;
+  skos:notation "41" ;
   skos:prefLabel "Eigenschaft-Wert Paar"@de, "Property-value pair"@en, "Une paire propriété-valeur"@fr, "Un par propiedad-valor"@es ;
   skos:definition "Mastodon unterstützt beliebige Profilfelder mit Name-Wert-Paaren. Dies wird über die Eigenschaft attachment von Akteurobjekten implementiert, wobei die Objekte im Array den Typ PropertyValue und eine Werteigenschaft aufweisen, die beide aus dem schema.org-Namensraum stammen.<br>[schema.org/PropertyValue](https://schema.org/PropertyValue)"@de,
     "Mastodon supports arbitrary profile fields containing name-value pairs. This is implemented using the attachment property on actor objects, with objects in the array having a type of PropertyValue and a value property, both from the schema.org namespace.<br>[schema.org/PropertyValue](https://schema.org/PropertyValue)"@en,
@@ -4518,7 +4518,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:ComputerLanguage ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "27" ;
+    skos:notation "31" ;
     skos:prefLabel "Programmiersprache"@de, "Computer Language"@en, "Langage informatique"@fr, "Lenguaje informático"@es ;
     skos:definition "Dieser Typ umfasst Computerprogrammiersprachen wie JS, Scheme und Lisp sowie andere sprachähnliche Computerdarstellungen. Natürliche Sprachen werden am besten mit dem Typ [Language] dargestellt."@de,
       "This type covers computer programming languages such as JS, Scheme and Lisp, as well as other language-like computer representations. Natural languages are best represented with the [Language] type."@en,
@@ -4532,7 +4532,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:FloorPlan ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "28" ;
+    skos:notation "32" ;
     skos:prefLabel "Etagenplan"@de, "Floor Plan"@en, "Plan d'étage"@fr, "Plano de la planta"@es ;
     skos:altLabel "Grundriss"@de, "Layout"@en, "Plan du site"@fr, "Plano del piso"@es ;
     skos:definition "Ein FloorPlan ist eine explizite Darstellung einer Sammlung ähnlicher Unterkünfte, die die Bereitstellung gemeinsamer Informationen (Zimmeranzahl, Größen, Grundrissdiagramme) und Angebote für Events oder zur Vermietung oder zum Verkauf ermöglicht. In der Regel hat ein `ApartmentComplex` einen `accommodationFloorPlan`, der ein `FloorPlan` ist.  Ein FloorPlan steht immer im Zusammenhang mit einem bestimmten Ort, entweder einem größeren `ApartmentComplex` oder einem einzelnen `Apartment`. Die visuellen/räumlichen Aspekte eines Grundrisses (d.h. die Raumaufteilung, [siehe wikipedia](https://en.wikipedia.org/wiki/Floor_plan)) können mit `Image` angegeben werden."@de,
@@ -4547,7 +4547,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Grant ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "31" ;
+    skos:notation "35" ;
     skos:prefLabel "Grant"@de, "Grant"@en, "Subvention, Grant"@fr, "Subvención, Grant"@es ;
     skos:definition "Eine - in der Regel finanzielle oder anderweitig quantifizierbare - Zuwendung von Ressourcen. Typischerweise sponsert ein `Funder` (Rolle) einen Geldbetrag an eine as:Organization oder asPerson, manchmal nicht unbedingt über ein spezielles oder langfristiges Projekt, das zu einem oder mehreren Outputs oder fundedItems führt. Bei finanzieller Unterstützung geben Sie den Geldgeber an, der einen Zuschuss gewährt.<br>Bei nicht-finanzieller Unterstützung geben Sie den Sponsor von Zuschüssen für Ressourcen (z. B. Büroräume) an.<br>Zuschüsse unterstützen Aktivitäten, die auf bestimmte vereinbarte kollektive Ziele ausgerichtet sind, oft, aber nicht immer, als Projekte organisiert.<br>Langfristige Projekte werden manchmal im Laufe der Zeit durch eine Vielzahl von Finanzhilfen gefördert, aber es ist auch üblich, dass ein Projekt mit einer einzigen Finanzhilfe verbunden ist.<br>Der Betrag eines Grant wird durch `amount` als `MonetaryAmount` dargestellt."@de,
       "A grant, typically financial or otherwise quantifiable, of resources. Typically a `funder` (role) sponsors some `MonetaryAmount` to an as:Organization or as:Person,<br>sometimes not necessarily via a dedicated or long-lived Project, resulting in one or more outputs, or `funded` items (Relation). For financial sponsorship, indicate the funder of a MonetaryGrant. For non-financial support, indicate `sponsor  of [Grant](https://schema.org/Grant)s of resources (e.g. office space).<br><br>Grants support activities directed towards some agreed collective goals, often but not always organized as [Project](https://schema.org/Project)s. Long-lived projects are sometimes sponsored by a variety of grants over time, but it is also common for a project to be associated with a single grant.<br/><br/>The amount of a [Grant](https://schema.org/Grant) is represented using `amount` as a `MonetaryAmount`."@en,
@@ -4561,7 +4561,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Ticket ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "36" ;
+    skos:notation "40" ;
     skos:prefLabel "Ticket"@de, "Ticket"@en, "Ticket"@fr, "Billete"@es ;
     skos:definition "Wird verwendet, um ein Ticket für eine Veranstaltung, einen Flug, eine Busfahrt usw. zu beschreiben."@de,
       "Used to describe a ticket to an event, a flight, a bus ride, etc."@en,
@@ -11113,7 +11113,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:AlignmentObject ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "24" ;
+    skos:notation "28" ;
     skos:prefLabel "Ausrichtung Objekt"@de, "Alignment Object"@en, "Objet de l'alignement"@fr, "Objeto de alineación"@es ;
     skos:definition "An intangible item that describes an alignment between a learning resource and a node in an educational framework.<br><br>Should not be used where the nature of the alignment can be described using a simple property, for example to express that a resource [[teaches]] or [[assesses]] a competency."@de,
       "An intangible item that describes an alignment between a learning resource and a node in an educational framework.<br><br>Should not be used where the nature of the alignment can be described using a simple property, for example to express that a resource [[teaches]] or [[assesses]] a competency."@en,
@@ -11127,7 +11127,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Audience ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "25" ;
+    skos:notation "29" ;
     skos:prefLabel "Zielgruppe"@de, "Audience"@en, "Audience"@fr, "Audiencia"@es ;
     skos:definition "Intended audience for an item, i.e. the group for whom the item was created."@de,
       "Intended audience for an item, i.e. the group for whom the item was created."@en,
@@ -11141,7 +11141,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:Brand ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "26" ;
+    skos:notation "30" ;
     skos:prefLabel "Marke"@de, "Brand"@en, "Marque"@fr, "Marca"@es ;
     skos:definition "A brand is a name used by an organization or business person for labeling a product, product group, or similar."@de,
       "A brand is a name used by an organization or business person for labeling a product, product group, or similar."@en,
@@ -11155,7 +11155,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:DefinedTerm ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "29" ;
+    skos:notation "33" ;
     skos:prefLabel "Definierter Begriff"@de, "Defined Term"@en, "Terme défini"@fr, "Término definido"@es ;
     skos:definition "A word, name, acronym, phrase, etc. with a formal definition. Often used in the context of category or subject classification, glossaries or dictionaries, product or creative work types, etc. Use the name property for the term being defined, use termCode if the term has an alpha-numeric code allocated, use description to provide the definition of the term."@de,
       "A word, name, acronym, phrase, etc. with a formal definition. Often used in the context of category or subject classification, glossaries or dictionaries, product or creative work types, etc. Use the name property for the term being defined, use termCode if the term has an alpha-numeric code allocated, use description to provide the definition of the term."@en,
@@ -11183,7 +11183,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:GeoShape ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "30" ;
+    skos:notation "34" ;
     skos:prefLabel "Geo-Form"@de, "Geo Shape"@en, "Forme géographique"@fr, "Forma geográfica"@es ;
     skos:definition "The geographic shape of a place. A GeoShape can be described using several properties whose values are based on latitude/longitude pairs. Either whitespace or commas can be used to separate latitude and longitude; whitespace should be used when writing a list of several such points."@de,
       "The geographic shape of a place. A GeoShape can be described using several properties whose values are based on latitude/longitude pairs. Either whitespace or commas can be used to separate latitude and longitude; whitespace should be used when writing a list of several such points."@en,
@@ -11231,7 +11231,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:ItemList ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "32" ;
+    skos:notation "36" ;
     skos:prefLabel "Punkt Liste"@de, "Item List"@en, "Liste d'éléments"@fr, "Lista de elementos"@es ;
     skos:definition "A list of items of any sort&#x2014;for example, Top 10 Movies About Weathermen, or Top 100 Party Songs. Not to be confused with HTML lists, which are often used only for formatting."@de,
       "A list of items of any sort&#x2014;for example, Top 10 Movies About Weathermen, or Top 100 Party Songs. Not to be confused with HTML lists, which are often used only for formatting."@en,
@@ -11245,7 +11245,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:ListItem ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "33" ;
+    skos:notation "37" ;
     skos:prefLabel "Artikel auflisten"@de, "List Item"@en, "Liste d'éléments"@fr, "Lista de elementos"@es ;
     skos:definition "An list item, e.g. a step in a checklist or how-to description."@de,
       "An list item, e.g. a step in a checklist or how-to description."@en,
@@ -11259,7 +11259,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:OrderItem ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "34" ;
+    skos:notation "38" ;
     skos:prefLabel "Artikel bestellen"@de, "Order Item"@en, "Article de commande"@fr, "Pedir artículo"@es ;
     skos:definition "An order item is a line of an order. It includes the quantity and shipping details of a bought offer."@de,
       "An order item is a line of an order. It includes the quantity and shipping details of a bought offer."@en,
@@ -11273,7 +11273,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:exactMatch schema:ProgramMembership ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
-    skos:notation "35" ;
+    skos:notation "39" ;
     skos:prefLabel "Programm-Mitgliedschaft"@de, "Program Membership"@en, "Adhésion au programme"@fr, "Afiliación al programa"@es ;
     skos:definition "Used to describe membership in a loyalty programs (e.g. “StarAliance”), traveler clubs (e.g. “AAA”), purchase clubs (“Safeway Club”), etc."@de,
       "Used to describe membership in a loyalty programs (e.g. “StarAliance”), traveler clubs (e.g. “AAA”), purchase clubs (“Safeway Club”), etc."@en,

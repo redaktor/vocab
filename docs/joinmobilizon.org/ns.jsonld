@@ -1,40 +1,55 @@
 {
-  "id": "https://joinmobilizon.org/ns#joinMode",
+  "id": "https://joinmobilizon.org/ns#repliesModerationOptionType",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinmobilizon.org%2Fns%23joinMode",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinmobilizon.org%2Fns%23joinMode",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinmobilizon.org%2Fns%23repliesModerationOptionType",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinmobilizon.org%2Fns%23repliesModerationOptionType",
   "prefLabel": {
-    "en": "joinMode",
-    "de": "joinMode",
-    "fr": "joinMode",
-    "es": "joinMode"
-  },
-  "definition": {
-    "en": "Indicator of how new members may be able to join.<br>see [mobilizon](https://docs.joinmobilizon.org/contribute/activity_pub/#joinmode)<br>Accepted values: free, restricted, invite (not used at the moment)",
-    "de": "Indikator, wie neue Mitglieder beitreten können.<br>siehe [mobilizon](https://docs.joinmobilizon.org/contribute/activity_pub/#joinmode)<br>Mögliche Werte: free, restricted, invite (momentan nicht benutzt)",
-    "fr": "Indication de la manière dont les nouveaux membres peuvent adhérer.<br>voir [mobilizon](https://docs.joinmobilizon.org/contribute/activity_pub/#joinmode)<br>Valeurs acceptées: free, restricted, invite (non utilisé pour le moment)",
-    "es": "Indicación de cómo pueden adherirse los nuevos miembros.<br>ver [mobilizon](https://docs.joinmobilizon.org/contribute/activity_pub/#joinmode)<br>Valores aceptados: free, restricted, invite (no se utiliza por el momento)"
+    "en": "repliesModerationOptionType",
+    "de": "repliesModerationOptionType",
+    "fr": "repliesModerationOptionType",
+    "es": "repliesModerationOptionType"
   },
   "notation": [
-    "1053"
+    "1052"
   ],
-  "example": {
-    "en": "```json \n{\n  \"@context\": [\n    \"...\",\n    {\n      \"mz\": \"https://joinmobilizon.org/ns#\",\n      \"joinMode\": {\n        \"@id\": \"mz:joinMode\",\n        \"@type\": \"mz:joinModeType\"\n      },\n      \"joinModeType\": {\n        \"@id\": \"mz:joinModeType\",\n        \"@type\": \"rdfs:Class\"\n      }\n    }\n  ],\n  \"...\": \"...\",\n  \"joinMode\": \"restricted\",\n  \"type\": \"Event\",\n  \"url\": \"http://mobilizon1.com/events/8cf76e9f-c426-4912-9cd6-c7030b969611\"\n}```",
-    "de": "```json \n{\n  \"@context\": [\n    \"...\",\n    {\n      \"mz\": \"https://joinmobilizon.org/ns#\",\n      \"joinMode\": {\n        \"@id\": \"mz:joinMode\",\n        \"@type\": \"mz:joinModeType\"\n      },\n      \"joinModeType\": {\n        \"@id\": \"mz:joinModeType\",\n        \"@type\": \"rdfs:Class\"\n      }\n    }\n  ],\n  \"...\": \"...\",\n  \"joinMode\": \"restricted\",\n  \"type\": \"Event\",\n  \"url\": \"http://mobilizon1.com/events/8cf76e9f-c426-4912-9cd6-c7030b969611\"\n}```",
-    "fr": "```json \n{\n  \"@context\": [\n    \"...\",\n    {\n      \"mz\": \"https://joinmobilizon.org/ns#\",\n      \"joinMode\": {\n        \"@id\": \"mz:joinMode\",\n        \"@type\": \"mz:joinModeType\"\n      },\n      \"joinModeType\": {\n        \"@id\": \"mz:joinModeType\",\n        \"@type\": \"rdfs:Class\"\n      }\n    }\n  ],\n  \"...\": \"...\",\n  \"joinMode\": \"restricted\",\n  \"type\": \"Event\",\n  \"url\": \"http://mobilizon1.com/events/8cf76e9f-c426-4912-9cd6-c7030b969611\"\n}```",
-    "es": "```json \n{\n  \"@context\": [\n    \"...\",\n    {\n      \"mz\": \"https://joinmobilizon.org/ns#\",\n      \"joinMode\": {\n        \"@id\": \"mz:joinMode\",\n        \"@type\": \"mz:joinModeType\"\n      },\n      \"joinModeType\": {\n        \"@id\": \"mz:joinModeType\",\n        \"@type\": \"rdfs:Class\"\n      }\n    }\n  ],\n  \"...\": \"...\",\n  \"joinMode\": \"restricted\",\n  \"type\": \"Event\",\n  \"url\": \"http://mobilizon1.com/events/8cf76e9f-c426-4912-9cd6-c7030b969611\"\n}```"
-  },
   "narrower": [
     {
-      "id": "https://joinmobilizon.org/ns#joinModeType",
+      "id": "https://w3id.org/class/redaktor/allow_all",
       "prefLabel": {
-        "en": "joinModeType",
-        "de": "joinModeType",
-        "fr": "joinModeType",
-        "es": "joinModeType"
+        "en": "allow_all",
+        "de": "allow_all",
+        "fr": "allow_all",
+        "es": "allow_all"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/closed",
+      "prefLabel": {
+        "en": "closed",
+        "de": "closed",
+        "fr": "closed",
+        "es": "closed"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/moderated",
+      "prefLabel": {
+        "en": "moderated",
+        "de": "moderated",
+        "fr": "moderated",
+        "es": "moderated"
       }
     }
   ],
+  "broader": {
+    "id": "https://joinmobilizon.org/ns#repliesModerationOption",
+    "prefLabel": {
+      "en": "repliesModerationOption",
+      "de": "repliesModerationOption",
+      "fr": "repliesModerationOption",
+      "es": "repliesModerationOption"
+    }
+  },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
@@ -138,7 +153,47 @@
       "@container": "@set"
     }
   }
-}   "@container": "@language"
+}n  \"...\": \"...\",\n  \"repliesModerationOption\": \"allow_all\",\n  \"commentsEnabled\": true,\n  \"type\": \"Event\",\n  \"url\": \"http://mobilizon1.com/events/8cf76e9f-c426-4912-9cd6-c7030b969611\"\n}``` ",
+    "es": "```json \n{\n  \"@context\": [\n    \"...\",\n    {\n      \"mz\": \"https://joinmobilizon.org/ns#\",\n      \"pt\": \"https://joinpeertube.org/ns#\",\n      \"repliesModerationOption\": {\n        \"@id\": \"mz:repliesModerationOption\",\n        \"@type\": \"mz:repliesModerationOptionType\"\n      },\n      \"repliesModerationOptionType\": {\n        \"@id\": \"mz:repliesModerationOptionType\",\n        \"@type\": \"rdfs:Class\"\n      },\n      \"commentsEnabled\": {\n        \"@id\": \"pt:commentsEnabled\",\n        \"@type\": \"sc:Boolean\"\n      }\n    }\n  ],\n  \"...\": \"...\",\n  \"repliesModerationOption\": \"allow_all\",\n  \"commentsEnabled\": true,\n  \"type\": \"Event\",\n  \"url\": \"http://mobilizon1.com/events/8cf76e9f-c426-4912-9cd6-c7030b969611\"\n}``` "
+  },
+  "narrower": [
+    {
+      "id": "https://joinmobilizon.org/ns#repliesModerationOptionType",
+      "prefLabel": {
+        "en": "repliesModerationOptionType",
+        "de": "repliesModerationOptionType",
+        "fr": "repliesModerationOptionType",
+        "es": "repliesModerationOptionType"
+      }
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
     },
     "issued": {
       "@id": "dct:issued",

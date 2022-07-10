@@ -22,7 +22,7 @@
     "es": "ActivityPub Community"
   },
   "notation": [
-    "023"
+    "163"
   ],
   "example": {
     "en": "```json \n{\n  \"@context\": \"https://w3id.org/security/v1\",\n  \"@id\": \"https://w3id.org/security#GraphSignature2012\",\n  \"@type\": \"Signature\",\n  \"canonicalizationAlgorithm\": \"https://w3id.org/jsonld#UGNA2012\",\n  \"digestAlgorithm\": \"http://example.com/digests#sha512\",\n  \"signatureAlgorithm\": \"http://www.w3.org/2000/09/xmldsig#rsa-sha1\",\n}```",

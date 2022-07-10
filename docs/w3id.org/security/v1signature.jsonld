@@ -22,7 +22,7 @@
     "es": "ActivityPub Community"
   },
   "notation": [
-    "022"
+    "162"
   ],
   "example": {
     "en": "```json \nThe following example demonstrates how a signature on the graph identified by the subject http://example.com/people#jane is expressed using a JSON-LD signature:\n{\n  \"@context\": [\n    \"https://w3id.org/security/v1\",\n    { \"foaf\": \"http://xmlns.com/foaf/0.1/\" }\n  ]\n  \"@graph\": {\n    \"@id\": \"http://example.com/people#jane\",\n    \"@type\": \"foaf:Person\",\n    \"foaf:name\": \"Jane Doe\",\n    \"foaf:homepage\": \"http://example.org/jane\"\n  },\n  \"signature\": {\n    \"@type\": \"GraphSignature2012\",\n    \"creator\": \"http://example.com/people/john-doe#key-5\",\n    \"signatureValue\": \"OGQzNGVkMzVm4NTIyZTkZDYMmMzQzNmExMgoYzI43Q3ODIyOWM32NjI=\"\n  }\n}```",

@@ -16,7 +16,7 @@
     "es": "Una concesión, normalmente financiera o cuantificable de otro modo, de recursos. Por lo general, un financiador (rol) patrocina un determinado MonetaryAmount a un as:Organisation o as:Person, a veces no necesariamente a través de un Proyecto dedicado o a largo plazo, dando lugar a uno o más resultados, o elementos financiados (Relación). Para el patrocinio financiero, indique el financiador de una subvención monetaria. Para las ayudas no financieras, indique el patrocinador de las subvenciones de recursos (por ejemplo, oficinas).<br><br>Las subvenciones apoyan actividades dirigidas a objetivos colectivos acordados, a menudo, pero no siempre, organizados como proyectos. Los proyectos a largo plazo se financian a veces con varias subvenciones a lo largo del tiempo, pero también es habitual que un proyecto esté asociado a una única subvención.<br><br>El importe de una subvención está representado por una cantidad monetaria (MonetaryAmount)."
   },
   "notation": [
-    "31"
+    "35"
   ],
   "narrower": [
     {

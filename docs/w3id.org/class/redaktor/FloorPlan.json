@@ -30,7 +30,7 @@
     "es": "Un FloorPlan es una representación explícita de una colección de alojamientos similares, que proporciona información común (número de habitaciones, tamaños, diagramas de distribución) y ofertas para eventos, alquileres o ventas. En el uso típico, un ApartmentComplex tiene un AccommodationFloorPlan que es un FloorPlan.  Un FloorPlan está siempre en el contexto de un lugar concreto, ya sea un complejo de apartamentos más grande o un solo piso. Los aspectos visuales/espaciales de un plano (es decir, la distribución de las habitaciones, [véase wikipedia](https://en.wikipedia.org/wiki/Floor_plan)) pueden indicarse mediante una imagen."
   },
   "notation": [
-    "28"
+    "32"
   ],
   "narrower": [
     {

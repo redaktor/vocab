@@ -22,7 +22,7 @@
     "es": "ActivityPub Community"
   },
   "notation": [
-    "020"
+    "160"
   ],
   "example": {
     "en": "```json \nThe following example demonstrates the expression of a public key belonging to the identity https://payswarm.example.com/i/bob.\n{\n  \"@context\": \"https://w3id.org/security/v1\",\n  \"@id\": \"https://payswarm.example.com/i/bob/keys/1\",\n  \"@type\": \"Key\",\n  \"owner\": \"https://payswarm.example.com/i/bob\",\n  \"publicKeyPem\": \"-----BEGIN PUBLIC KEY-----\nMII8YbF3s8q3c...j8Fk88FsRa3K\n-----END PUBLIC KEY-----\n\"\n}```",

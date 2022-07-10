@@ -1,34 +1,37 @@
 {
-  "id": "http://www.w3.org/ns/activitystreams#width",
+  "id": "http://www.w3.org/ns/activitystreams#manuallyApprovesFollowers",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23width",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23width",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23manuallyApprovesFollowers",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23manuallyApprovesFollowers",
   "prefLabel": {
-    "en": "width",
-    "de": "Breite",
-    "fr": "largeur",
-    "es": "anchura"
+    "en": "manually approves followers",
+    "de": "genehmigt Folgende manuell",
+    "fr": "approuve manuellement les followers",
+    "es": "aprueba manualmente a los seguidores"
   },
   "definition": {
-    "en": "On a Link, specifies a hint as to the rendering width in device-independent pixels of the linked resource.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
-    "de": "Gibt bei einem Link einen Hinweis auf die Darstellungsbreite der verlinkten Ressource in geräteunabhängigen Pixeln an.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
-    "fr": "Sur un lien, spécifie une indication quant à la largeur de rendu en pixels indépendants du périphérique de la ressource liée.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
-    "es": "En un enlace, especifica una pista sobre el ancho de representación en píxeles independientes del dispositivo del recurso enlazado.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)"
+    "en": "When *true*, conveys that for this actor, follow requests are not usually automatically approved, but instead are examined by a person who may accept or reject the request, at some time in the future. Setting of false conveys no information and may be ignored. This information is typically used to affect display of accounts, such as showing an account as private or locked.<br>see [w3 wiki](https://www.w3.org/wiki/Activity_Streams_extensions#as:manuallyApprovesFollowers) or [documentation](https://docs.joinmastodon.org/spec/activitypub/#as)",
+    "de": "Die Einstellung *true* bedeutet, daß für diesen Akteur Follow-Anfragen in der Regel nicht automatisch genehmigt werden, sondern von einer Person geprüft werden, die die Anfrage zu einem späteren Zeitpunkt annehmen oder ablehnen kann. Die Einstellung false vermittelt keine Informationen und kann ignoriert werden. Diese Information wird normalerweise verwendet, um die Anzeige von Konten zu beeinflussen, z. B. um ein Konto als privat oder gesperrt anzuzeigen.<br>siehe [w3 wiki](https://www.w3.org/wiki/Activity_Streams_extensions#as:manuallyApprovesFollowers) or [documentation](https://docs.joinmastodon.org/spec/activitypub/#as)",
+    "fr": "Lorsqu'elle est *true*, elle indique que pour cet acteur, les demandes de suivi ne sont généralement pas approuvées automatiquement, mais sont examinées par une personne qui peut accepter ou rejeter la demande, à un moment donné dans le futur. La valeur false ne donne aucune information et peut être ignorée. Cette information est généralement utilisée pour affecter l'affichage des comptes, par exemple pour montrer qu'un compte est privé ou verrouillé.<br>voir [w3 wiki](https://www.w3.org/wiki/Activity_Streams_extensions#as:manuallyApprovesFollowers) or [documentation](https://docs.joinmastodon.org/spec/activitypub/#as)",
+    "es": "Cuando es *true*, transmite que para este actor, las solicitudes de seguimiento no suelen ser aprobadas automáticamente, sino que son examinadas por una persona que puede aceptar o rechazar la solicitud, en algún momento en el futuro. La configuración de false no transmite ninguna información y puede ser ignorada. Esta información se utiliza normalmente para afectar a la visualización de las cuentas, como mostrar una cuenta como privada o bloqueada.<br>ver [w3 wiki](https://www.w3.org/wiki/Activity_Streams_extensions#as:manuallyApprovesFollowers) or [documentation](https://docs.joinmastodon.org/spec/activitypub/#as)"
   },
   "scopeNote": {
-    "en": "as: Property",
-    "de": "as: Property",
-    "fr": "as: Property",
-    "es": "as: Property"
+    "en": "as: Extension",
+    "de": "as: Extension",
+    "fr": "as: Extension",
+    "es": "as: Extension"
   },
   "notation": [
-    "415"
+    "157"
   ],
-  "example": {
-    "en": "[Example 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```",
-    "de": "[Beispiel 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```",
-    "fr": "[Exemple 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```",
-    "es": "[Ejemplo 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```"
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/Actor",
+    "prefLabel": {
+      "en": "Actor",
+      "de": "Akteur",
+      "fr": "Acteur",
+      "es": "Actor"
+    }
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -133,50 +136,18 @@
       "@container": "@set"
     }
   }
-}ainer": "@set"
+}tainer": "@language"
     },
-    "closeMatch": {
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
       "@container": "@set"
     },
-    "exactMatch": {
-      "@container": "@set"
+    "example": {
+      "@container": "@language"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}er": "@set"
-    },
-    "relatedMatch": {
-      "@container": "@set"
-    },
-    "narrowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-} "narrower": {
+    "narrower": {
       "@container": "@set"
     },
     "related": {
@@ -207,9 +178,6 @@
     "inbox": "ldp:inbox",
     "hasTopConcept": {
       "@container": "@set"
-    }
-  }
-}   "@container": "@set"
     }
   }
 }"

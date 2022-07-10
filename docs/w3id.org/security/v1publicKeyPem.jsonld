@@ -22,7 +22,7 @@
     "es": "ActivityPub Community"
   },
   "notation": [
-    "021"
+    "161"
   ],
   "example": {
     "en": "```json \nThe following example demonstrates the expression of a public key in PEM format. The elipsis (\"...\") in the middle of the string denotes more data that has been abbreviated for the sake of the readability of the example.\n{\n  \"@context\": \"https://w3id.org/security/v1\",\n  \"@id\": \"https://payswarm.example.com/i/bob/keys/1\",\n  \"owner\": \"https://payswarm.example.com/i/bob\",\n  \"publicKeyPem\": \"-----BEGIN PUBLIC KEY-----\nMII8YbF3s8q3c...j8Fk88FsRa3K\n-----END PUBLIC KEY-----\n\"\n}```",
