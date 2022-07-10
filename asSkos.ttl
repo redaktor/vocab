@@ -3033,7 +3033,7 @@ as:OrderedItems a owl:Class ;
 as:Mention a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Link ;
-  skos:notation "38" ;
+  skos:notation "39" ;
   skos:prefLabel "Erwähnung"@de, "Mention"@en, "Mentionnez"@fr, "Mención"@es ;
   skos:definition "Ein spezialisierter Link, der eine @Erwähnung darstellt.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mention](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mention)"@de,
     "A specialized Link that represents an @mention.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mention](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mention)"@en,
@@ -3604,7 +3604,7 @@ pt:Playlist a owl:Class, skos:Concept ;
 pt:PlaylistElement a owl:Class, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object, :peertube ;
-  skos:notation "1022" ;
+  skos:notation "38" ;
   skos:prefLabel "Playlist Element"@de, "Playlist Element"@en, "Playlist Element"@fr, "Playlist Element"@es ;
   skos:definition "Dieses Objekt repräsentiert einen Video-Eintrag in einer Playlist Collection<br>siehe [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)"@de,
     "The object is used to represent a video playlist element inside the Playlist collection.<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)"@en,

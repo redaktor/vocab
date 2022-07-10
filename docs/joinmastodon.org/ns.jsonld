@@ -1,19 +1,19 @@
 {
-  "id": "http://joinmastodon.org/ns#Emoji",
+  "id": "http://joinmastodon.org/ns#IdentityProof",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinmastodon.org%2Fns%23Emoji",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinmastodon.org%2Fns%23Emoji",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinmastodon.org%2Fns%23IdentityProof",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinmastodon.org%2Fns%23IdentityProof",
   "prefLabel": {
-    "en": "Custom Emoji",
-    "de": "Emoji",
-    "fr": "Emoji",
-    "es": "Emoji"
+    "en": "Identity Proof",
+    "de": "Identitätsbeweis",
+    "fr": "Preuve d'identité",
+    "es": "Prueba de identidad"
   },
   "definition": {
-    "en": "Mastodon supports arbitrary emojis, that is, small images uploaded by admins and invokable via shortcodes. For this, an Emoji type is used. These emojis are listed in the tag property just like Mention and Hashtag objects, since they are entities that affect how the text is rendered.<br>see [mastodon documentation 'Custom emojis'](https://docs.joinmastodon.org/spec/activitypub/#emoji)",
-    "de": "Mastodon unterstützt beliebige Emojis, d.h. kleine Bilder, die von Administratoren hochgeladen und über Shortcodes aufgerufen werden können. Hierfür wird ein Emoji-Typ verwendet. Diese Emojis werden in der Tag-Eigenschaft aufgeführt, genau wie Mention- und Hashtag-Objekte, da sie Entitäten sind, die die Darstellung des Textes beeinflussen.<br>siehe [mastodon documentation 'Custom emojis'](https://docs.joinmastodon.org/spec/activitypub/#emoji)",
-    "fr": "Mastodon supporte les emojis arbitraires, c'est-à-dire de petites images téléchargées par les administrateurs et invocables via des shortcodes. Pour cela, un type Emoji est utilisé. Ces emojis sont répertoriés dans la propriété tag tout comme les objets Mention et Hashtag, puisqu'il s'agit d'entités qui affectent la façon dont le texte est rendu.<br>voir [mastodon documentation 'Custom emojis'](https://docs.joinmastodon.org/spec/activitypub/#emoji)",
-    "es": "Mastodon soporta emojis arbitrarios, es decir, pequeñas imágenes subidas por los administradores e invocables a través de shortcodes. Para ello, se utiliza un tipo Emoji. Estos emojis aparecen en la propiedad de la etiqueta al igual que los objetos Mention y Hashtag, ya que son entidades que afectan a la forma en que se renderiza el texto.<br>ver [mastodon documentation 'Custom emojis'](https://docs.joinmastodon.org/spec/activitypub/#emoji)"
+    "en": "Mastodon supports integration with identity providers to prove that a profile is linked to a certain identity. This is implemented using the attachment property on actor objects, with objects in the array having a type of IdentityProof from the Mastodon namespace. The object also includes signatureAlgorithm and signatureValue from the W3ID Security Vocabulary namespace.<br>see [mastodon documentation 'Identity proofs'](https://docs.joinmastodon.org/spec/activitypub/#IdentityProof)",
+    "de": "Mastodon unterstützt die Integration mit Identitätsanbietern, um zu beweisen, daß ein Profil mit einer bestimmten Identität verbunden ist. Dies wird über die Eigenschaft attachment bei Actor-Objekten implementiert, wobei die Objekte im Array den Typ IdentityProof aus dem Mastodon-Namensraum aufweisen. Das Objekt enthält auch signatureAlgorithm und signatureValue aus dem W3ID Security Vocabulary Namespace.<br>siehe [mastodon documentation 'Identity proofs'](https://docs.joinmastodon.org/spec/activitypub/#IdentityProof)",
+    "fr": "Mastodon supporte l'intégration avec les fournisseurs d'identité pour prouver qu'un profil est lié à une certaine identité. Ceci est mis en œuvre en utilisant la propriété attachment sur les objets actor, avec des objets dans le tableau ayant un type IdentityProof de l'espace de noms Mastodon. L'objet comprend également signatureAlgorithm et signatureValue de l'espace de noms W3ID Security Vocabulary.<br>voir [mastodon documentation 'Identity proofs'](https://docs.joinmastodon.org/spec/activitypub/#IdentityProof)",
+    "es": "Mastodon admite la integración con proveedores de identidad para demostrar que un perfil está vinculado a una determinada identidad. Esto se implementa utilizando la propiedad attachment en los objetos actor, con objetos en la matriz que tienen un tipo de IdentityProof del espacio de nombres Mastodon. El objeto también incluye signatureAlgorithm y signatureValue del espacio de nombres W3ID Security Vocabulary.<br>ver [mastodon documentation 'Identity proofs'](https://docs.joinmastodon.org/spec/activitypub/#IdentityProof)"
   },
   "scopeNote": {
     "en": "ActivityPub Community",
@@ -22,13 +22,13 @@
     "es": "ActivityPub Community"
   },
   "notation": [
-    "22"
+    "23"
   ],
   "example": {
-    "en": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"Emoji\": \"toot:Emoji\"\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"Hello world :kappa:\",\n  \"tag\": [\n    {\n      \"id\": \"https://example.com/emoji/123\",\n      \"type\": \"Emoji\",\n      \"name\": \":kappa:\",\n      \"icon\": {\n        \"type\": \"Image\",\n        \"mediaType\": \"image/png\",\n        \"url\": \"https://example.com/files/kappa.png\"\n      }\n    }\n  ]\n}```",
-    "de": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"Emoji\": \"toot:Emoji\"\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"Hello world :kappa:\",\n  \"tag\": [\n    {\n      \"id\": \"https://example.com/emoji/123\",\n      \"type\": \"Emoji\",\n      \"name\": \":kappa:\",\n      \"icon\": {\n        \"type\": \"Image\",\n        \"mediaType\": \"image/png\",\n        \"url\": \"https://example.com/files/kappa.png\"\n      }\n    }\n  ]\n}```",
-    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"Emoji\": \"toot:Emoji\"\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"Hello world :kappa:\",\n  \"tag\": [\n    {\n      \"id\": \"https://example.com/emoji/123\",\n      \"type\": \"Emoji\",\n      \"name\": \":kappa:\",\n      \"icon\": {\n        \"type\": \"Image\",\n        \"mediaType\": \"image/png\",\n        \"url\": \"https://example.com/files/kappa.png\"\n      }\n    }\n  ]\n}```",
-    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"Emoji\": \"toot:Emoji\"\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"Hello world :kappa:\",\n  \"tag\": [\n    {\n      \"id\": \"https://example.com/emoji/123\",\n      \"type\": \"Emoji\",\n      \"name\": \":kappa:\",\n      \"icon\": {\n        \"type\": \"Image\",\n        \"mediaType\": \"image/png\",\n        \"url\": \"https://example.com/files/kappa.png\"\n      }\n    }\n  ]\n}```"
+    "en": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    \"https://w3id.org/security/v1\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"IdentityProof\": \"toot:IdentityProof\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"attachment\": [\n    {\n      \"type\": \"IdentityProof\",\n      \"name\": \"gargron\",\n      \"signatureAlgorithm\": \"keybase\",\n      \"signatureValue\": \"5cfc20c7018f2beefb42a68836da59a792e55daa4d118498c9b1898de7e845690f\"\n    }\n  ]\n}```",
+    "de": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    \"https://w3id.org/security/v1\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"IdentityProof\": \"toot:IdentityProof\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"attachment\": [\n    {\n      \"type\": \"IdentityProof\",\n      \"name\": \"gargron\",\n      \"signatureAlgorithm\": \"keybase\",\n      \"signatureValue\": \"5cfc20c7018f2beefb42a68836da59a792e55daa4d118498c9b1898de7e845690f\"\n    }\n  ]\n}```",
+    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    \"https://w3id.org/security/v1\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"IdentityProof\": \"toot:IdentityProof\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"attachment\": [\n    {\n      \"type\": \"IdentityProof\",\n      \"name\": \"gargron\",\n      \"signatureAlgorithm\": \"keybase\",\n      \"signatureValue\": \"5cfc20c7018f2beefb42a68836da59a792e55daa4d118498c9b1898de7e845690f\"\n    }\n  ]\n}```",
+    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    \"https://w3id.org/security/v1\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"IdentityProof\": \"toot:IdentityProof\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"attachment\": [\n    {\n      \"type\": \"IdentityProof\",\n      \"name\": \"gargron\",\n      \"signatureAlgorithm\": \"keybase\",\n      \"signatureValue\": \"5cfc20c7018f2beefb42a68836da59a792e55daa4d118498c9b1898de7e845690f\"\n    }\n  ]\n}```"
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -133,16 +133,7 @@
       "@container": "@set"
     }
   }
-}rredNamespacePrefix",
-    "preferredNamespaceUri": "vann:preferredNamespaceUri",
-    "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
-    "prefLabel": {
-      "@container": "@language"
-    },
-    "altLabel": {
-      "@container": [
-        "@language",
+}      "@language",
         "@set"
       ]
     },

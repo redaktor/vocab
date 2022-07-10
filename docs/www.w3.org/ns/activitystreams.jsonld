@@ -176,39 +176,57 @@
       "@container": "@set"
     }
   }
-}1.1,
-    "id": "@id",
-    "type": "@type",
-    "@vocab": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "dct": "http://purl.org/dc/terms/",
-    "schema": "http://schema.org/",
-    "vann": "http://purl.org/vocab/vann/",
-    "as": "https://www.w3.org/ns/activitystreams#",
-    "ldp": "http://www.w3.org/ns/ldp#",
-    "title": {
-      "@id": "dct:title",
-      "@container": "@language"
+} "narrower": {
+      "@container": "@set"
     },
-    "description": {
-      "@id": "dct:description",
-      "@container": "@language"
+    "related": {
+      "@container": "@set"
     },
-    "issued": {
-      "@id": "dct:issued",
-      "@type": "xsd:date"
+    "relatedMatch": {
+      "@container": "@set"
     },
-    "created": {
-      "@id": "dct:created",
-      "@type": "xsd:date"
+    "narrowerTransitive": {
+      "@container": "@set"
     },
-    "modified": {
-      "@id": "dct:modified",
-      "@type": "xsd:date"
+    "broaderTransitive": {
+      "@container": "@set"
     },
-    "creator": "dct:creator",
-    "publisher": "dct:publisher",
-    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}   "@container": "@set"
+    }
+  }
+}"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}",
     "preferredNamespaceUri": "vann:preferredNamespaceUri",
     "isBasedOn": "schema:isBasedOn",
     "source": "dct:source",
@@ -551,136 +569,142 @@
       "@container": "@set"
     }
   }
-}": {
-        "en": "has credential",
-        "de": "hat Berechtigungsnachweis",
-        "fr": "a un titre de compétence",
-        "es": "tiene credencial"
+} "vat ID",
+        "es": "ID del iva"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/hasOfferCatalog",
+      "id": "https://w3id.org/class/redaktor/workLocation",
       "prefLabel": {
-        "en": "has offer catalog",
-        "de": "hat Angebotskatalog",
-        "fr": "a catalogue d'offres",
-        "es": "tiene catálogo de ofertas"
+        "en": "work location",
+        "de": "Arbeitsort",
+        "fr": "emplacement du travail",
+        "es": "ubicación del trabajo"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/hasPOS",
+      "id": "https://w3id.org/class/redaktor/worksFor",
       "prefLabel": {
-        "en": "has POS",
-        "de": "hat POS",
-        "fr": "has POS",
-        "es": "tiene TPV"
+        "en": "works for",
+        "de": "arbeitet für",
+        "fr": "travaux pour",
+        "es": "trabajos para"
       }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/Actor",
+    "prefLabel": {
+      "en": "Actor",
+      "de": "Akteur",
+      "fr": "Acteur",
+      "es": "Actor"
+    }
+  },
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/interactionStatistic",
-      "prefLabel": {
-        "en": "interaction statistic",
-        "de": "Interaktionsstatistik",
-        "fr": "statistiques d'interaction",
-        "es": "estadística de interacción"
-      }
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/isicV4",
-      "prefLabel": {
-        "en": "isic v4",
-        "de": "isic v4",
-        "fr": "isic v4",
-        "es": "isic v4"
-      }
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/iso6523Code",
-      "prefLabel": {
-        "en": "iso6523 code",
-        "de": "iso6523-Code",
-        "fr": "code iso6523",
-        "es": "código iso6523"
-      }
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/knowsAbout",
-      "prefLabel": {
-        "en": "knows about",
-        "de": "weiß über",
-        "fr": "sait sur",
-        "es": "sabe de"
-      }
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/knowsLanguage",
-      "prefLabel": {
-        "en": "knows language",
-        "de": "kennt Sprache",
-        "fr": "connaît la langue",
-        "es": "conoce el idioma"
-      }
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/legalName",
-      "prefLabel": {
-        "en": "legal name",
-        "de": "rechtlicher Name",
-        "fr": "nom légal",
-        "es": "nombre legal"
-      }
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
-    {
-      "id": "https://w3id.org/class/redaktor/leiCode",
-      "prefLabel": {
-        "en": "lei code",
-        "de": "Lei-Code",
-        "fr": "code lei",
-        "es": "código lei"
-      }
+    "definition": {
+      "@container": "@language"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/location",
-      "prefLabel": {
-        "en": "location",
-        "de": "Standort",
-        "fr": "localisation",
-        "es": "ubicación"
-      }
+    "scopeNote": {
+      "@container": "@language"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/makesOffer",
-      "prefLabel": {
-        "en": "makes offer",
-        "de": "macht Angebot",
-        "fr": "fait offre",
-        "es": "hace la oferta"
-      }
+    "note": {
+      "@container": "@language"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/member",
-      "prefLabel": {
-        "en": "member",
-        "de": "Mitglied",
-        "fr": "membre",
-        "es": "miembro"
-      }
+    "notation": {
+      "@container": "@set"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/memberOf",
-      "prefLabel": {
-        "en": "member of",
-        "de": "Mitglied von",
-        "fr": "membre de",
-        "es": "miembro de"
-      }
+    "example": {
+      "@container": "@language"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/members",
-      "prefLabel": {
-        "en": "members",
-        "de": "Mitglieder",
-        "fr": "membres",
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}": "membres",
         "es": "miembros"
       }
     },
