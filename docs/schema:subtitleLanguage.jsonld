@@ -16,7 +16,7 @@
     "es": "Se utiliza en PeerTube con el objeto de vídeo. Lenguas en las que están disponibles los subtítulos/capítulos. IETF BCP 47 standard format.<br>ver [schema.org/subtitleLanguage](https://schema.org/subtitleLanguage)<br>véase también [schema.org/Language](https://schema.org/Language)"
   },
   "notation": [
-    "1047"
+    "1147"
   ],
   "example": {
     "en": "```json \n{\n  \"type\": \"Video\",\n  \"id\": \"https://peertube2.cpy.re/videos/watch/...\",\n  \"name\": \"HLS test 1\",\n  \"subtitleLanguage\": [\n    {\n      \"identifier\": \"ca\",\n      \"name\": \"Catalan\",\n      \"url\": \"https://peertube2.cpy.re/lazy-static/video-captions/...-ca.vtt\"\n    }\n  ],\n\n  // Optional\n  \"language\": {\n    \"identifier\": \"en\",\n    \"name\": \"English\"\n  }\n}```",

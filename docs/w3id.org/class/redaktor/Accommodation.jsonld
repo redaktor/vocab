@@ -16,7 +16,7 @@
     "es": "Un alojamiento es un lugar que puede albergar a seres humanos, por ejemplo, una habitación de hotel, una parcela de camping o una sala de reuniones. Muchos alojamientos son para pasar la noche, pero esto no es un requisito obligatorio. Para tipos de alojamiento más específicos no definidos en schema.org, se puede utilizar additionalType con vocabularios externos."
   },
   "notation": [
-    "1070"
+    "870"
   ],
   "narrower": [
     {

@@ -16,7 +16,7 @@
     "es": "Se utiliza en PeerTube con el objeto de vídeo. True si la transmisión es de un evento en vivo."
   },
   "notation": [
-    "1049"
+    "1149"
   ],
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",

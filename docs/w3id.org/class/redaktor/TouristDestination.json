@@ -16,7 +16,7 @@
     "es": "Un destino turístico. En principio, cualquier lugar puede ser un TouristDestination, desde una ciudad, una región o un país hasta un parque de atracciones o un hotel. Este Tipo puede utilizarse por sí solo para describir un Destino Turístico general, o utilizarse como un Tipo adicional para añadir propiedades turísticas relevantes a cualquier otro Lugar. Un Destino Turístico se define como un Lugar que contiene, o está colocado con, una o más Atracciones Turísticas, a menudo vinculadas por un tema o interés similar a un Tipo Turístico particular. La OMT define el Destino (destino principal de un viaje turístico) como el lugar visitado que es fundamental para la decisión de realizar el viaje."
   },
   "notation": [
-    "1080"
+    "880"
   ],
   "narrower": [
     {

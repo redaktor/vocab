@@ -16,7 +16,7 @@
     "es": "Una atracción turística. En principio, cualquier cosa puede ser una TouristAttraction, desde una montaña y LandmarksOrHistoricalBuildings hasta un LocalBusiness. Este tipo puede utilizarse por sí solo para describir una atracción turística general o como un tipo adicional para añadir propiedades de atracción turística a cualquier otro tipo."
   },
   "notation": [
-    "1078"
+    "878"
   ],
   "narrower": [
     {

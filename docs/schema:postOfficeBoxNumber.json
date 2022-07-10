@@ -16,7 +16,7 @@
     "es": "El número del apartado de correos para las direcciones de los apartados postales."
   },
   "notation": [
-    "1067"
+    "1167"
   ],
   "broader": {
     "id": "schema:PostalAddress",

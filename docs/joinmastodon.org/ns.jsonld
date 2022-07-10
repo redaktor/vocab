@@ -1,19 +1,19 @@
 {
-  "id": "http://joinmastodon.org/ns#votersCount",
+  "id": "http://joinmastodon.org/ns#Emoji",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinmastodon.org%2Fns%23votersCount",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinmastodon.org%2Fns%23votersCount",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinmastodon.org%2Fns%23Emoji",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinmastodon.org%2Fns%23Emoji",
   "prefLabel": {
-    "en": "voters count",
-    "de": "Wähler*innenstimmen",
-    "fr": "nombre de votes",
-    "es": "conteo de votantes"
+    "en": "Custom Emoji",
+    "de": "Emoji",
+    "fr": "Emoji",
+    "es": "Emoji"
   },
   "definition": {
-    "en": "mastodon “poll” (Question) voters count",
-    "de": "mastodon “poll” (Question) Wähler*innenstimmen",
-    "fr": "mastodon “poll” (Question) voters count",
-    "es": "mastodon “poll” (Question) voters count"
+    "en": "Mastodon supports arbitrary emojis, that is, small images uploaded by admins and invokable via shortcodes. For this, an Emoji type is used. These emojis are listed in the tag property just like Mention and Hashtag objects, since they are entities that affect how the text is rendered.<br>see [mastodon documentation 'Custom emojis'](https://docs.joinmastodon.org/spec/activitypub/#emoji)",
+    "de": "Mastodon unterstützt beliebige Emojis, d.h. kleine Bilder, die von Administratoren hochgeladen und über Shortcodes aufgerufen werden können. Hierfür wird ein Emoji-Typ verwendet. Diese Emojis werden in der Tag-Eigenschaft aufgeführt, genau wie Mention- und Hashtag-Objekte, da sie Entitäten sind, die die Darstellung des Textes beeinflussen.<br>siehe [mastodon documentation 'Custom emojis'](https://docs.joinmastodon.org/spec/activitypub/#emoji)",
+    "fr": "Mastodon supporte les emojis arbitraires, c'est-à-dire de petites images téléchargées par les administrateurs et invocables via des shortcodes. Pour cela, un type Emoji est utilisé. Ces emojis sont répertoriés dans la propriété tag tout comme les objets Mention et Hashtag, puisqu'il s'agit d'entités qui affectent la façon dont le texte est rendu.<br>voir [mastodon documentation 'Custom emojis'](https://docs.joinmastodon.org/spec/activitypub/#emoji)",
+    "es": "Mastodon soporta emojis arbitrarios, es decir, pequeñas imágenes subidas por los administradores e invocables a través de shortcodes. Para ello, se utiliza un tipo Emoji. Estos emojis aparecen en la propiedad de la etiqueta al igual que los objetos Mention y Hashtag, ya que son entidades que afectan a la forma en que se renderiza el texto.<br>ver [mastodon documentation 'Custom emojis'](https://docs.joinmastodon.org/spec/activitypub/#emoji)"
   },
   "scopeNote": {
     "en": "ActivityPub Community",
@@ -22,115 +22,13 @@
     "es": "ActivityPub Community"
   },
   "notation": [
-    "1019"
+    "22"
   ],
-  "inScheme": {
-    "id": "https://w3id.org/class/redaktor/scheme",
-    "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
-      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
-      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
-      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
-    }
-  },
-  "@context": {
-    "@version": 1.1,
-    "id": "@id",
-    "type": "@type",
-    "@vocab": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "dct": "http://purl.org/dc/terms/",
-    "schema": "http://schema.org/",
-    "vann": "http://purl.org/vocab/vann/",
-    "as": "https://www.w3.org/ns/activitystreams#",
-    "ldp": "http://www.w3.org/ns/ldp#",
-    "title": {
-      "@id": "dct:title",
-      "@container": "@language"
-    },
-    "description": {
-      "@id": "dct:description",
-      "@container": "@language"
-    },
-    "issued": {
-      "@id": "dct:issued",
-      "@type": "xsd:date"
-    },
-    "created": {
-      "@id": "dct:created",
-      "@type": "xsd:date"
-    },
-    "modified": {
-      "@id": "dct:modified",
-      "@type": "xsd:date"
-    },
-    "creator": "dct:creator",
-    "publisher": "dct:publisher",
-    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
-    "preferredNamespaceUri": "vann:preferredNamespaceUri",
-    "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
-    "prefLabel": {
-      "@container": "@language"
-    },
-    "altLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
-    "definition": {
-      "@container": "@language"
-    },
-    "scopeNote": {
-      "@container": "@language"
-    },
-    "note": {
-      "@container": "@language"
-    },
-    "notation": {
-      "@container": "@set"
-    },
-    "example": {
-      "@container": "@language"
-    },
-    "narrower": {
-      "@container": "@set"
-    },
-    "related": {
-      "@container": "@set"
-    },
-    "relatedMatch": {
-      "@container": "@set"
-    },
-    "narrowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}45690f\"\n    }\n  ]\n}```",
-    "de": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    \"https://w3id.org/security/v1\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"IdentityProof\": \"toot:IdentityProof\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"attachment\": [\n    {\n      \"type\": \"IdentityProof\",\n      \"name\": \"gargron\",\n      \"signatureAlgorithm\": \"keybase\",\n      \"signatureValue\": \"5cfc20c7018f2beefb42a68836da59a792e55daa4d118498c9b1898de7e845690f\"\n    }\n  ]\n}```",
-    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    \"https://w3id.org/security/v1\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"IdentityProof\": \"toot:IdentityProof\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"attachment\": [\n    {\n      \"type\": \"IdentityProof\",\n      \"name\": \"gargron\",\n      \"signatureAlgorithm\": \"keybase\",\n      \"signatureValue\": \"5cfc20c7018f2beefb42a68836da59a792e55daa4d118498c9b1898de7e845690f\"\n    }\n  ]\n}```",
-    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    \"https://w3id.org/security/v1\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"IdentityProof\": \"toot:IdentityProof\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"attachment\": [\n    {\n      \"type\": \"IdentityProof\",\n      \"name\": \"gargron\",\n      \"signatureAlgorithm\": \"keybase\",\n      \"signatureValue\": \"5cfc20c7018f2beefb42a68836da59a792e55daa4d118498c9b1898de7e845690f\"\n    }\n  ]\n}```"
+  "example": {
+    "en": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"Emoji\": \"toot:Emoji\"\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"Hello world :kappa:\",\n  \"tag\": [\n    {\n      \"id\": \"https://example.com/emoji/123\",\n      \"type\": \"Emoji\",\n      \"name\": \":kappa:\",\n      \"icon\": {\n        \"type\": \"Image\",\n        \"mediaType\": \"image/png\",\n        \"url\": \"https://example.com/files/kappa.png\"\n      }\n    }\n  ]\n}```",
+    "de": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"Emoji\": \"toot:Emoji\"\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"Hello world :kappa:\",\n  \"tag\": [\n    {\n      \"id\": \"https://example.com/emoji/123\",\n      \"type\": \"Emoji\",\n      \"name\": \":kappa:\",\n      \"icon\": {\n        \"type\": \"Image\",\n        \"mediaType\": \"image/png\",\n        \"url\": \"https://example.com/files/kappa.png\"\n      }\n    }\n  ]\n}```",
+    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"Emoji\": \"toot:Emoji\"\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"Hello world :kappa:\",\n  \"tag\": [\n    {\n      \"id\": \"https://example.com/emoji/123\",\n      \"type\": \"Emoji\",\n      \"name\": \":kappa:\",\n      \"icon\": {\n        \"type\": \"Image\",\n        \"mediaType\": \"image/png\",\n        \"url\": \"https://example.com/files/kappa.png\"\n      }\n    }\n  ]\n}```",
+    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"Emoji\": \"toot:Emoji\"\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"Hello world :kappa:\",\n  \"tag\": [\n    {\n      \"id\": \"https://example.com/emoji/123\",\n      \"type\": \"Emoji\",\n      \"name\": \":kappa:\",\n      \"icon\": {\n        \"type\": \"Image\",\n        \"mediaType\": \"image/png\",\n        \"url\": \"https://example.com/files/kappa.png\"\n      }\n    }\n  ]\n}```"
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -235,7 +133,16 @@
       "@container": "@set"
     }
   }
-}      "@language",
+}rredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
         "@set"
       ]
     },
