@@ -133,21 +133,21 @@
       "@container": "@set"
     }
   }
-}ainer": "@set"
+}  },
+    "note": {
+      "@container": "@language"
     },
-    "closeMatch": {
+    "notation": {
       "@container": "@set"
     },
-    "exactMatch": {
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
+    "related": {
       "@container": "@set"
-    }
-  }
-}er": "@set"
     },
     "relatedMatch": {
       "@container": "@set"
