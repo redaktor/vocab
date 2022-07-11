@@ -127,8 +127,9 @@
       "@container": "@set"
     }
   }
-}\"\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"A picture attached!\",\n  \"attachment\": [\n    {\n      \"type\": \"Image\",\n      \"mediaType\": \"image/png\",\n      \"url\": \"https://example.com/files/cats.png\",\n      \"blurhash\": \"UBL_:rOpGG-oBUNG,qRj2so|=eE1w^n4S5NH\"\n    }\n  ]\n}```",
-    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"blurhash\": \"toot:blurhash\"\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"A picture attached!\",\n  \"attachment\": [\n    {\n      \"type\": \"Image\",\n      \"mediaType\": \"image/png\",\n      \"url\": \"https://example.com/files/cats.png\",\n      \"blurhash\": \"UBL_:rOpGG-oBUNG,qRj2so|=eE1w^n4S5NH\"\n    }\n  ]\n}```"
+}spended\"\n    }\n  ],\n  \"id\": \"https://example.com/@eve\",\n  \"type\": \"Person\",\n  \"suspended\": true\n}```",
+    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"suspended\": \"toot:suspended\"\n    }\n  ],\n  \"id\": \"https://example.com/@eve\",\n  \"type\": \"Person\",\n  \"suspended\": true\n}```",
+    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"suspended\": \"toot:suspended\"\n    }\n  ],\n  \"id\": \"https://example.com/@eve\",\n  \"type\": \"Person\",\n  \"suspended\": true\n}```"
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -233,7 +234,11 @@
       "@container": "@set"
     }
   }
-}vann/",
+}b": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
     "as": "https://www.w3.org/ns/activitystreams#",
     "ldp": "http://www.w3.org/ns/ldp#",
     "title": {

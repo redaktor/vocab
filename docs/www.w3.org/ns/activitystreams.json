@@ -1,42 +1,36 @@
 {
-  "id": "http://www.w3.org/ns/activitystreams#url",
+  "id": "http://www.w3.org/ns/activitystreams#preferredUsername",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23url",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23url",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23preferredUsername",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23preferredUsername",
   "prefLabel": {
-    "en": "url",
-    "de": "url",
-    "fr": "url",
-    "es": "url"
+    "en": "preferred username",
+    "de": "bevorzugter Nutzerinnen-Name",
+    "fr": "nom d'utilisateur préféré",
+    "es": "nombre de usuario preferido"
   },
   "definition": {
-    "en": "Identifies one or more links to representations of the object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)",
-    "de": "Kennzeichnet einen oder mehrere Links zu Darstellungen des Objekts.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)",
-    "fr": "Identifie un ou plusieurs liens vers des représentations de l'objet.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)",
-    "es": "Identifica uno o varios enlaces a representaciones del objeto.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)"
+    "en": "A short username which may be used to refer to the actor, with no uniqueness guarantees.<br>see [https://www.w3.org/TR/activitypub/#preferredUsername](https://www.w3.org/TR/activitypub/#preferredUsername)",
+    "de": "Ein kurzer Benutzername, der verwendet werden kann, um sich auf den Akteur zu beziehen, wobei die Eindeutigkeit nicht garantiert ist.<br>siehe [https://www.w3.org/TR/activitypub/#preferredUsername](https://www.w3.org/TR/activitypub/#preferredUsername)",
+    "fr": "Un nom d'utilisateur court qui peut être utilisé pour se référer à l'acteur, sans garantie d'unicité.<br>voir [https://www.w3.org/TR/activitypub/#preferredUsername](https://www.w3.org/TR/activitypub/#preferredUsername)",
+    "es": "Un nombre de usuario corto que puede ser utilizado para referirse al actor, sin garantías de unicidad.<br>ver [https://www.w3.org/TR/activitypub/#preferredUsername](https://www.w3.org/TR/activitypub/#preferredUsername)"
   },
   "scopeNote": {
-    "en": "as: Property",
-    "de": "as: Property",
-    "fr": "as: Property",
-    "es": "as: Property"
+    "en": "ActivityPub Property",
+    "de": "ActivityPub Property",
+    "fr": "ActivityPub Property",
+    "es": "ActivityPub Property"
   },
   "notation": [
-    "146"
+    "171"
   ],
-  "example": {
-    "en": "[Example 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Document\",\n  \"name\": \"4Q Sales Forecast\",\n  \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n}\n```",
-    "de": "[Beispiel 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Document\",\n  \"name\": \"4Q Sales Forecast\",\n  \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n}\n```",
-    "fr": "[Exemple 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Document\",\n  \"name\": \"4Q Sales Forecast\",\n  \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n}\n```",
-    "es": "[Ejemplo 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Document\",\n  \"name\": \"4Q Sales Forecast\",\n  \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n}\n```"
-  },
   "broader": {
-    "id": "http://www.w3.org/ns/activitystreams#Object",
+    "id": "https://w3id.org/class/redaktor/Actor",
     "prefLabel": {
-      "en": "Object",
-      "de": "Objekt",
-      "fr": "Objet",
-      "es": "Objeto"
+      "en": "Actor",
+      "de": "Akteur",
+      "fr": "Acteur",
+      "es": "Actor"
     }
   },
   "inScheme": {
@@ -142,7 +136,56 @@
       "@container": "@set"
     }
   }
-}ontainer": "@set"
+}  "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
     }
   }
 }  },
@@ -469,240 +512,254 @@
       "@container": "@set"
     }
   }
-}sidad"
+} {
+    "id": "https://w3id.org/class/redaktor/Actor",
+    "prefLabel": {
+      "en": "Actor",
+      "de": "Akteur",
+      "fr": "Acteur",
+      "es": "Actor"
+    }
+  },
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+} "vat ID",
+        "es": "ID del iva"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/diversityStaffingReport",
+      "id": "https://w3id.org/class/redaktor/workLocation",
       "prefLabel": {
-        "en": "diversity staffing report",
-        "de": "bericht zur personellen vielfalt",
-        "fr": "rapport sur la diversité du personnel",
-        "es": "informe de la plantilla de diversidad"
+        "en": "work location",
+        "de": "Arbeitsort",
+        "fr": "emplacement du travail",
+        "es": "ubicación del trabajo"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/duns",
+      "id": "https://w3id.org/class/redaktor/worksFor",
       "prefLabel": {
-        "en": "DUNS",
-        "de": "DUNS",
-        "fr": "DUNS",
-        "es": "DUNS"
+        "en": "works for",
+        "de": "arbeitet für",
+        "fr": "travaux pour",
+        "es": "trabajos para"
       }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/Actor",
+    "prefLabel": {
+      "en": "Actor",
+      "de": "Akteur",
+      "fr": "Acteur",
+      "es": "Actor"
+    }
+  },
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/employee",
-      "prefLabel": {
-        "en": "employee",
-        "de": "Mitarbeiter",
-        "fr": "employé",
-        "es": "empleado"
-      }
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/employees",
-      "prefLabel": {
-        "en": "employees",
-        "de": "Mitarbeiter",
-        "fr": "employés",
-        "es": "empleados"
-      }
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/ethicsPolicy",
-      "prefLabel": {
-        "en": "ethics policy",
-        "de": "ethische Grundsätze",
-        "fr": "politique d'éthique",
-        "es": "política ética"
-      }
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/founder",
-      "prefLabel": {
-        "en": "founder",
-        "de": "Gründer",
-        "fr": "fondateur",
-        "es": "fundador"
-      }
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/founders",
-      "prefLabel": {
-        "en": "founders",
-        "de": "Gründer",
-        "fr": "fondateurs",
-        "es": "fundadores"
-      }
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/foundingDate",
-      "prefLabel": {
-        "en": "founding date",
-        "de": "Gründungsdatum",
-        "fr": "date de création",
-        "es": "fecha de fundación"
-      }
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
-    {
-      "id": "https://w3id.org/class/redaktor/foundingLocation",
-      "prefLabel": {
-        "en": "founding location",
-        "de": "Gründungsort",
-        "fr": "lieu de fondation",
-        "es": "ubicación de la fundación"
-      }
+    "definition": {
+      "@container": "@language"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/funder",
-      "prefLabel": {
-        "en": "funder",
-        "de": "Geldgeber",
-        "fr": "financeur",
-        "es": "financiador"
-      }
+    "scopeNote": {
+      "@container": "@language"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/globalLocationNumber",
-      "prefLabel": {
-        "en": "global location number",
-        "de": "Globale Standortnummer",
-        "fr": "numéro d'emplacement global",
-        "es": "número de localización global"
-      }
+    "note": {
+      "@container": "@language"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/hasCredential",
-      "prefLabel": {
-        "en": "has credential",
-        "de": "hat Berechtigungsnachweis",
-        "fr": "a un titre de compétence",
-        "es": "tiene credencial"
-      }
+    "notation": {
+      "@container": "@set"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/hasOfferCatalog",
-      "prefLabel": {
-        "en": "has offer catalog",
-        "de": "hat Angebotskatalog",
-        "fr": "a catalogue d'offres",
-        "es": "tiene catálogo de ofertas"
-      }
+    "example": {
+      "@container": "@language"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/hasPOS",
-      "prefLabel": {
-        "en": "has POS",
-        "de": "hat POS",
-        "fr": "has POS",
-        "es": "tiene TPV"
-      }
+    "narrower": {
+      "@container": "@set"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/interactionStatistic",
-      "prefLabel": {
-        "en": "interaction statistic",
-        "de": "Interaktionsstatistik",
-        "fr": "statistiques d'interaction",
-        "es": "estadística de interacción"
-      }
+    "related": {
+      "@container": "@set"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/isicV4",
-      "prefLabel": {
-        "en": "isic v4",
-        "de": "isic v4",
-        "fr": "isic v4",
-        "es": "isic v4"
-      }
+    "relatedMatch": {
+      "@container": "@set"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/iso6523Code",
-      "prefLabel": {
-        "en": "iso6523 code",
-        "de": "iso6523-Code",
-        "fr": "code iso6523",
-        "es": "código iso6523"
-      }
+    "narrowerTransitive": {
+      "@container": "@set"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/knowsAbout",
-      "prefLabel": {
-        "en": "knows about",
-        "de": "weiß über",
-        "fr": "sait sur",
-        "es": "sabe de"
-      }
+    "broaderTransitive": {
+      "@container": "@set"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/knowsLanguage",
-      "prefLabel": {
-        "en": "knows language",
-        "de": "kennt Sprache",
-        "fr": "connaît la langue",
-        "es": "conoce el idioma"
-      }
+    "broadMatch": {
+      "@container": "@set"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/legalName",
-      "prefLabel": {
-        "en": "legal name",
-        "de": "rechtlicher Name",
-        "fr": "nom légal",
-        "es": "nombre legal"
-      }
+    "narrowMatch": {
+      "@container": "@set"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/leiCode",
-      "prefLabel": {
-        "en": "lei code",
-        "de": "Lei-Code",
-        "fr": "code lei",
-        "es": "código lei"
-      }
+    "closeMatch": {
+      "@container": "@set"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/location",
-      "prefLabel": {
-        "en": "location",
-        "de": "Standort",
-        "fr": "localisation",
-        "es": "ubicación"
-      }
+    "exactMatch": {
+      "@container": "@set"
     },
-    {
-      "id": "https://w3id.org/class/redaktor/makesOffer",
-      "prefLabel": {
-        "en": "makes offer",
-        "de": "macht Angebot",
-        "fr": "fait offre",
-        "es": "hace la oferta"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/member",
-      "prefLabel": {
-        "en": "member",
-        "de": "Mitglied",
-        "fr": "membre",
-        "es": "miembro"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/memberOf",
-      "prefLabel": {
-        "en": "member of",
-        "de": "Mitglied von",
-        "fr": "membre de",
-        "es": "miembro de"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/members",
-      "prefLabel": {
-        "en": "members",
-        "de": "Mitglieder",
-        "fr": "membres",
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}": "membres",
         "es": "miembros"
       }
     },
