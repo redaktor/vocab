@@ -16,7 +16,7 @@
     "es": "La dirección de la calle como texto."
   },
   "notation": [
-    "1168"
+    "1568"
   ],
   "example": {
     "en": "1 Pl. de Verdun",
@@ -27,7 +27,7 @@
   "broader": {
     "id": "schema:PostalAddress",
     "prefLabel": {
-      "en": "postal address",
+      "en": "Postal address",
       "de": "Postaddresse",
       "fr": "adresse postale",
       "es": "dirección postal"

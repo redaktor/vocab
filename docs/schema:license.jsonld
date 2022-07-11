@@ -16,7 +16,7 @@
     "es": "Se utiliza en PeerTube con el objeto de vídeo en 'licence'<br>{ \"1\", \"name\": \"Attribution\" }, <br>{ \"2\", \"name\": \"Attribution - Share Alike\" }, <br>{ \"3\", \"name\": \"Attribution - No Derivatives\" }, <br>{ \"4\", \"name\": \"Attribution - Non Commercial\" }, <br>{ \"5\", \"name\": \"Attribution - Non Commercial - Share Alike\" }, <br>{ \"6\", \"name\": \"Attribution - Non Commercial - No Derivatives\" }, <br>{ \"7\", \"name\": \"Public Domain Dedication\" }<br>véase también [schema.org/license](https://schema.org/license)"
   },
   "notation": [
-    "1146"
+    "1546"
   ],
   "example": {
     "en": "```json \n{\n  \"type\": \"Video\",\n  \"id\": \"https://peertube2.cpy.re/videos/watch/...\",\n  \"name\": \"HLS test 1\",\n  \"category\": {\n    \"identifier\": \"2\", // Internal PeerTube ID\n    \"name\": \"Films\"\n  },\n  \"license\": {\n    \"identifier\": \"5\", // Internal PeerTube ID\n    \"name\": \"Attribution - Non Commercial - Share Alike\"\n  }\n}```",

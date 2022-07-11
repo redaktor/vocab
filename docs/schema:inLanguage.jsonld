@@ -16,7 +16,7 @@
     "es": "Se utiliza en PeerTube con el objeto de vídeo. El idioma del contenido o de la actuación o utilizado en una acción. Utilice uno de los códigos de idioma del estándar IETF BCP 47. Ver [schema.org/inLanguage](https://schema.org/inLanguage) - véase también availableLanguage."
   },
   "notation": [
-    "1148"
+    "1548"
   ],
   "example": {
     "en": "```json \n{\n  \"type\": \"Video\",\n  \"id\": \"https://peertube2.cpy.re/videos/watch/...\",\n  \"name\": \"HLS test 1\",\n  \"subtitleLanguage\": [\n    {\n      \"identifier\": \"ca\",\n      \"name\": \"Catalan\",\n      \"url\": \"https://peertube2.cpy.re/lazy-static/video-captions/...-ca.vtt\"\n    }\n  ],\n\n  // Optional\n  \"language\": {\n    \"identifier\": \"en\",\n    \"name\": \"English\"\n  }\n}```",

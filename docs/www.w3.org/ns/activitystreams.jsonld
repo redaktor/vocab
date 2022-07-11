@@ -1,19 +1,19 @@
 {
-  "id": "http://www.w3.org/ns/activitystreams#width",
+  "id": "http://www.w3.org/ns/activitystreams#target",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23width",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23width",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23target",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23target",
   "prefLabel": {
-    "en": "width",
-    "de": "Breite",
-    "fr": "largeur",
-    "es": "anchura"
+    "en": "target",
+    "de": "Ziel",
+    "fr": "cible",
+    "es": "objetivo"
   },
   "definition": {
-    "en": "On a Link, specifies a hint as to the rendering width in device-independent pixels of the linked resource.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
-    "de": "Gibt bei einem Link einen Hinweis auf die Darstellungsbreite der verlinkten Ressource in geräteunabhängigen Pixeln an.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
-    "fr": "Sur un lien, spécifie une indication quant à la largeur de rendu en pixels indépendants du périphérique de la ressource liée.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
-    "es": "En un enlace, especifica una pista sobre el ancho de representación en píxeles independientes del dispositivo del recurso enlazado.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)"
+    "en": "Describes the indirect object, or target, of the activity. The precise meaning of the target is largely dependent on the type of action being described but will often be the object of the English preposition \"to\". For instance, in the activity \"John added a movie to his wishlist\", the target of the activity is John's wishlist. An activity can have more than one target.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-target](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-target)",
+    "de": "Beschreibt das indirekte Objekt, oder Ziel, der Aktivität. Die genaue Bedeutung des Ziels hängt weitgehend von der Art der beschriebenen Handlung ab, ist aber häufig das Objekt der englischen Präposition \"to\". Bei der Aktivität \"John added a movie to his wishlist\" beispielsweise ist das Ziel der Aktivität Johns Wunschliste. Eine Aktivität kann mehr als ein Ziel haben.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-target](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-target)",
+    "fr": "Décrit l'objet indirect, ou cible, de l'activité. La signification précise de la cible dépend largement du type d'action décrite, mais sera souvent l'objet de la préposition anglaise \"to\". Par exemple, dans l'activité \"Jean a ajouté un film à sa liste de souhaits\", la cible de l'activité est la liste de souhaits de Jean. Une activité peut avoir plus d'une cible.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-target](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-target)",
+    "es": "Describe el objeto indirecto, o objetivo, de la actividad. El significado preciso del objetivo depende en gran medida del tipo de acción que se describe, pero a menudo será el objeto de la preposición inglesa \"to\". Por ejemplo, en la actividad \"Juan añadió una película a su lista de deseos\", el objetivo de la actividad es la lista de deseos de Juan. Una actividad puede tener más de un objetivo.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-target](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-target)"
   },
   "scopeNote": {
     "en": "as: Property",
@@ -22,13 +22,22 @@
     "es": "as: Property"
   },
   "notation": [
-    "135"
+    "253"
   ],
   "example": {
-    "en": "[Example 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```",
-    "de": "[Beispiel 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```",
-    "fr": "[Exemple 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```",
-    "es": "[Ejemplo 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```"
+    "en": "[Example 106](https://www.w3.org/TR/activitystreams-vocabulary/#ex120-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally offered the post to John\",\n  \"type\": \"Offer\",\n  \"actor\": \"http://sally.example.org\",\n  \"object\": \"http://example.org/posts/1\",\n  \"target\": \"http://john.example.org\"\n}\n```",
+    "de": "[Beispiel 106](https://www.w3.org/TR/activitystreams-vocabulary/#ex120-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally offered the post to John\",\n  \"type\": \"Offer\",\n  \"actor\": \"http://sally.example.org\",\n  \"object\": \"http://example.org/posts/1\",\n  \"target\": \"http://john.example.org\"\n}\n```",
+    "fr": "[Exemple 106](https://www.w3.org/TR/activitystreams-vocabulary/#ex120-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally offered the post to John\",\n  \"type\": \"Offer\",\n  \"actor\": \"http://sally.example.org\",\n  \"object\": \"http://example.org/posts/1\",\n  \"target\": \"http://john.example.org\"\n}\n```",
+    "es": "[Ejemplo 106](https://www.w3.org/TR/activitystreams-vocabulary/#ex120-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally offered the post to John\",\n  \"type\": \"Offer\",\n  \"actor\": \"http://sally.example.org\",\n  \"object\": \"http://example.org/posts/1\",\n  \"target\": \"http://john.example.org\"\n}\n```"
+  },
+  "broader": {
+    "id": "http://www.w3.org/ns/activitystreams#Activity",
+    "prefLabel": {
+      "en": "Activity",
+      "de": "Aktivität",
+      "fr": "Activité",
+      "es": "Actividad"
+    }
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -120,98 +129,6 @@
     },
     "narrowMatch": {
       "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}  },
-    "note": {
-      "@container": "@language"
-    },
-    "notation": {
-      "@container": "@set"
-    },
-    "example": {
-      "@container": "@language"
-    },
-    "narrower": {
-      "@container": "@set"
-    },
-    "related": {
-      "@container": "@set"
-    },
-    "relatedMatch": {
-      "@container": "@set"
-    },
-    "narrowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}@container": "@language"
-    },
-    "narrower": {
-      "@container": "@set"
-    },
-    "related": {
-      "@container": "@set"
-    },
-    "relatedMatch": {
-      "@container": "@set"
-    },
-    "narrowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}"
     },
     "closeMatch": {
       "@container": "@set"

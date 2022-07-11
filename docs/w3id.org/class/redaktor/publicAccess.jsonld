@@ -16,7 +16,7 @@
     "es": "Una bandera para señalar que el Lugar está abierto a los visitantes públicos. Si se omite esta propiedad no se asume un valor booleano por defecto."
   },
   "notation": [
-    "1395"
+    "1595"
   ],
   "exactMatch": [
     {

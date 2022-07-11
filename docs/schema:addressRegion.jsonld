@@ -16,7 +16,7 @@
     "es": "La región en la que se encuentra la localidad, y que está en el país."
   },
   "notation": [
-    "1165"
+    "1565"
   ],
   "example": {
     "en": "Occitània, Catalunya",
@@ -27,7 +27,7 @@
   "broader": {
     "id": "schema:PostalAddress",
     "prefLabel": {
-      "en": "postal address",
+      "en": "Postal address",
       "de": "Postaddresse",
       "fr": "adresse postale",
       "es": "dirección postal"

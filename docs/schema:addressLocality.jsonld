@@ -16,7 +16,7 @@
     "es": "La localidad en la que se encuentra la dirección, y que está en la región."
   },
   "notation": [
-    "1164"
+    "1564"
   ],
   "example": {
     "en": "Perpignan",
@@ -27,7 +27,7 @@
   "broader": {
     "id": "schema:PostalAddress",
     "prefLabel": {
-      "en": "postal address",
+      "en": "Postal address",
       "de": "Postaddresse",
       "fr": "adresse postale",
       "es": "dirección postal"

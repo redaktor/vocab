@@ -16,7 +16,7 @@
     "es": "El código postal del lugar."
   },
   "notation": [
-    "1166"
+    "1566"
   ],
   "example": {
     "en": "66000",
@@ -27,7 +27,7 @@
   "broader": {
     "id": "schema:PostalAddress",
     "prefLabel": {
-      "en": "postal address",
+      "en": "Postal address",
       "de": "Postaddresse",
       "fr": "adresse postale",
       "es": "dirección postal"

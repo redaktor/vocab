@@ -30,7 +30,7 @@
     "es": "Una característica de equipamiento (por ejemplo, una característica o servicio) del Alojamiento. Esta propiedad genérica no indica si la característica está incluida en la oferta del alojamiento principal o si está disponible con costes adicionales. Sugerimos utilizar OSM como Vocabulario Controlado.<br>ver [OSM amenity](https://wiki.openstreetmap.org/wiki/Key:amenity)"
   },
   "notation": [
-    "1390"
+    "1590"
   ],
   "exactMatch": [
     {

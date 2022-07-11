@@ -4,7 +4,7 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fschema%3APostalAddress",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fschema%3APostalAddress",
   "prefLabel": {
-    "en": "postal address",
+    "en": "Postal address",
     "de": "Postaddresse",
     "fr": "adresse postale",
     "es": "dirección postal"

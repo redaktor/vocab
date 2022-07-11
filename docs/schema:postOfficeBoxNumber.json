@@ -16,12 +16,12 @@
     "es": "El número del apartado de correos para las direcciones de los apartados postales."
   },
   "notation": [
-    "1167"
+    "1567"
   ],
   "broader": {
     "id": "schema:PostalAddress",
     "prefLabel": {
-      "en": "postal address",
+      "en": "Postal address",
       "de": "Postaddresse",
       "fr": "adresse postale",
       "es": "dirección postal"

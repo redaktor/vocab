@@ -1,19 +1,19 @@
 {
-  "id": "https://joinpeertube.org/ns#fps",
+  "id": "https://joinpeertube.org/ns#startTimestamp",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinpeertube.org%2Fns%23fps",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinpeertube.org%2Fns%23fps",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinpeertube.org%2Fns%23startTimestamp",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinpeertube.org%2Fns%23startTimestamp",
   "prefLabel": {
-    "en": "frames per second",
-    "de": "Frames per second",
-    "fr": "frames per second",
-    "es": "frames per second"
+    "en": "start timestamp",
+    "de": "start Zeitstempel",
+    "fr": "start timestamp",
+    "es": "start timestamp"
   },
   "definition": {
-    "en": "Frames per second of the video file.<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
-    "de": "Frames pro Sekunde der Videodatei.<br>siehe [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
-    "fr": "Frames per second du fichier vidéo.<br>voir [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
-    "es": "Frames per second del archivo de vídeo.<br>ver [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)"
+    "en": "number, format: seconds<br>in [PlaylistElement](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)",
+    "de": "Nummer, Format: Sekunden<br>in [PlaylistElement](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)",
+    "fr": "nombre, format : secondes<br>in [PlaylistElement](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)",
+    "es": "número, formato: segundos<br>in [PlaylistElement](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)"
   },
   "scopeNote": {
     "en": "ActivityPub Community",
@@ -22,14 +22,8 @@
     "es": "ActivityPub Community"
   },
   "notation": [
-    "1125"
+    "1531"
   ],
-  "example": {
-    "en": "```json \n{\n  \"type\": \"Video\",\n  \"url\": [\n    // Raw URL to the fragmented mp4 file used by the HLS playlist\n    {\n      \"type\": \"Link\",\n      \"mediaType\": \"video/mp4\",\n      \"height\": 536,\n      \"size\": 135108145,\n      \"fps\": 24}\n  ]\n}```",
-    "de": "```json \n{\n  \"type\": \"Video\",\n  \"url\": [\n    // Raw URL to the fragmented mp4 file used by the HLS playlist\n    {\n      \"type\": \"Link\",\n      \"mediaType\": \"video/mp4\",\n      \"height\": 536,\n      \"size\": 135108145,\n      \"fps\": 24}\n  ]\n}```",
-    "fr": "```json \n{\n  \"type\": \"Video\",\n  \"url\": [\n    // Raw URL to the fragmented mp4 file used by the HLS playlist\n    {\n      \"type\": \"Link\",\n      \"mediaType\": \"video/mp4\",\n      \"height\": 536,\n      \"size\": 135108145,\n      \"fps\": 24}\n  ]\n}```",
-    "es": "```json \n{\n  \"type\": \"Video\",\n  \"url\": [\n    // Raw URL to the fragmented mp4 file used by the HLS playlist\n    {\n      \"type\": \"Link\",\n      \"mediaType\": \"video/mp4\",\n      \"height\": 536,\n      \"size\": 135108145,\n      \"fps\": 24}\n  ]\n}```"
-  },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
@@ -131,6 +125,75 @@
     "inbox": "ldp:inbox",
     "hasTopConcept": {
       "@container": "@set"
+    }
+  }
+}": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}dMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}@set"
     }
   }
 }

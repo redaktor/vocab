@@ -16,7 +16,7 @@
     "es": "Se utiliza en PeerTube con el objeto de vídeo (uuid) y para otras marcas del esquema CV.<br>[schema.org/identifier](https://schema.org/identifier)"
   },
   "notation": [
-    "1144"
+    "1544"
   ],
   "example": {
     "en": "```json \n{\n  \"type\": \"Video\",\n  \"id\": \"https://peertube2.cpy.re/videos/watch/...\",\n  \"name\": \"HLS test 1\",\n  \"duration\": \"PT730S\",\n  \"uuid\": \"969bf103-7818-43b5-94a0-...\"\n}```",

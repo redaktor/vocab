@@ -22,7 +22,7 @@
     "es": "ActivityPub Community"
   },
   "notation": [
-    "1119"
+    "1519"
   ],
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -127,22 +127,8 @@
       "@container": "@set"
     }
   }
-}ivitypub/#focalPoint)"
-  },
-  "scopeNote": {
-    "en": "ActivityPub Community",
-    "de": "ActivityPub Community",
-    "fr": "ActivityPub Community",
-    "es": "ActivityPub Community"
-  },
-  "notation": [
-    "1114"
-  ],
-  "example": {
-    "en": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"focalPoint\": {\n        \"@container\": \"@list\",\n        \"@id\": \"toot:focalPoint\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"A picture attached!\",\n  \"attachment\": [\n    {\n      \"type\": \"Image\",\n      \"mediaType\": \"image/png\",\n      \"url\": \"https://example.com/files/cats.png\",\n      \"focalPoint\": [\n        -0.55,\n        0.43\n      ]\n    }\n  ]\n}```",
-    "de": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"focalPoint\": {\n        \"@container\": \"@list\",\n        \"@id\": \"toot:focalPoint\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"A picture attached!\",\n  \"attachment\": [\n    {\n      \"type\": \"Image\",\n      \"mediaType\": \"image/png\",\n      \"url\": \"https://example.com/files/cats.png\",\n      \"focalPoint\": [\n        -0.55,\n        0.43\n      ]\n    }\n  ]\n}```",
-    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"focalPoint\": {\n        \"@container\": \"@list\",\n        \"@id\": \"toot:focalPoint\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"A picture attached!\",\n  \"attachment\": [\n    {\n      \"type\": \"Image\",\n      \"mediaType\": \"image/png\",\n      \"url\": \"https://example.com/files/cats.png\",\n      \"focalPoint\": [\n        -0.55,\n        0.43\n      ]\n    }\n  ]\n}```",
-    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"focalPoint\": {\n        \"@container\": \"@list\",\n        \"@id\": \"toot:focalPoint\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"A picture attached!\",\n  \"attachment\": [\n    {\n      \"type\": \"Image\",\n      \"mediaType\": \"image/png\",\n      \"url\": \"https://example.com/files/cats.png\",\n      \"focalPoint\": [\n        -0.55,\n        0.43\n      ]\n    }\n  ]\n}```"
+}\"\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"A picture attached!\",\n  \"attachment\": [\n    {\n      \"type\": \"Image\",\n      \"mediaType\": \"image/png\",\n      \"url\": \"https://example.com/files/cats.png\",\n      \"blurhash\": \"UBL_:rOpGG-oBUNG,qRj2so|=eE1w^n4S5NH\"\n    }\n  ]\n}```",
+    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"blurhash\": \"toot:blurhash\"\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"A picture attached!\",\n  \"attachment\": [\n    {\n      \"type\": \"Image\",\n      \"mediaType\": \"image/png\",\n      \"url\": \"https://example.com/files/cats.png\",\n      \"blurhash\": \"UBL_:rOpGG-oBUNG,qRj2so|=eE1w^n4S5NH\"\n    }\n  ]\n}```"
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -162,6 +148,92 @@
     "dct": "http://purl.org/dc/terms/",
     "schema": "http://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}vann/",
     "as": "https://www.w3.org/ns/activitystreams#",
     "ldp": "http://www.w3.org/ns/ldp#",
     "title": {

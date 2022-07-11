@@ -16,7 +16,7 @@
     "es": "El país. También puede proporcionar el código de país de dos letras ISO 3166-1 alpha-2."
   },
   "notation": [
-    "1163"
+    "1563"
   ],
   "example": {
     "en": "France",
@@ -27,7 +27,7 @@
   "broader": {
     "id": "schema:PostalAddress",
     "prefLabel": {
-      "en": "postal address",
+      "en": "Postal address",
       "de": "Postaddresse",
       "fr": "adresse postale",
       "es": "dirección postal"
