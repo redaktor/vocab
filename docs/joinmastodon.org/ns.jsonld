@@ -1,19 +1,19 @@
 {
-  "id": "http://joinmastodon.org/ns#discoverable",
+  "id": "http://joinmastodon.org/ns#focalPoint",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinmastodon.org%2Fns%23discoverable",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinmastodon.org%2Fns%23discoverable",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinmastodon.org%2Fns%23focalPoint",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinmastodon.org%2Fns%23focalPoint",
   "prefLabel": {
-    "en": "discoverable",
-    "de": "auffindbar",
-    "fr": "découvrable",
-    "es": "descubrible"
+    "en": "focal point",
+    "de": "Brennpunkt",
+    "fr": "point focal",
+    "es": "punto focal"
   },
   "definition": {
-    "en": "User will be shown in the profile directory. Mastodon allows users to opt-in or opt-out of discoverability features like the profile directory. This flag may also be used as an indicator of the user's preferences toward being included in external discovery services, such as search engines or other indexing tools. If you are implementing such a tool, it is recommended that you respect this property if it is present. This is implemented using an extra property discoverable on objects.<br>see [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#discoverable)",
-    "de": "Im Profilverzeichnis anzeigen. Mastodon ermöglicht es den Nutzern, sich für oder gegen die Nutzung von Auffindbarkeitsfunktionen wie dem Profilverzeichnis zu entscheiden. Dieses Kennzeichen kann auch als Indikator für die Präferenzen des Benutzers hinsichtlich der Aufnahme in externe Auffindungsdienste wie Suchmaschinen oder andere Indizierungswerkzeuge verwendet werden. Wenn Sie ein solches Werkzeug implementieren, wird empfohlen, diese Eigenschaft zu berücksichtigen, wenn sie vorhanden ist. Dies wird durch eine zusätzliche Eigenschaft realisiert, die bei Objekten auffindbar ist.<br>siehe [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#discoverable)",
-    "fr": "L'utilisateur sera affiché dans le répertoire des profils. Mastodon permet aux utilisateurs d'accepter ou de refuser des fonctions de découverte telles que le répertoire de profils. Ce drapeau peut également être utilisé comme un indicateur des préférences de l'utilisateur quant à son inclusion dans des services de découverte externes, tels que les moteurs de recherche ou d'autres outils d'indexation. Si vous mettez en œuvre un tel outil, il est recommandé de respecter cette propriété si elle est présente. Ceci est mis en œuvre en utilisant une propriété supplémentaire qui peut être découverte sur les objets.<br>voir [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#discoverable)",
-    "es": "El usuario aparecerá en el directorio de perfiles. Mastodon permite a los usuarios aceptar o rechazar las características de descubrimiento como el directorio de perfiles. Esta bandera también puede ser utilizada como un indicador de las preferencias del usuario para ser incluido en los servicios de descubrimiento externos, como los motores de búsqueda u otras herramientas de indexación. Si está implementando una herramienta de este tipo, se recomienda respetar esta propiedad si está presente. Esto se implementa utilizando una propiedad extra descubrible en los objetos.<br>ver [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#discoverable)"
+    "en": "Mastodon supports setting a focal point on uploaded images, so that wherever that image is displayed, the focal point stays in view. This is implemented using an extra property focalPoint on Image objects. The property is simply an array of two floating points between -1.0 and 1.0, with 0,0 being the center of the image, the first value being x (-1.0 is the left edge, +1.0 is the right edge) and the second value being y (-1.0 is the bottom edge, +1.0 is the top edge). Siehe [Focal points](https://docs.joinmastodon.org/methods/statuses/media/#focal-points) for more information.<br>[mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#focalPoint)",
+    "de": "Mastodon unterstützt das Setzen eines Brennpunkts für hochgeladene Bilder, so dass der Brennpunkt überall dort, wo das Bild angezeigt wird, im Blickfeld bleibt. Dies wird durch eine zusätzliche Eigenschaft focalPoint für Image-Objekte realisiert. Die Eigenschaft ist einfach ein Array aus zwei Fließkommazahlen zwischen -1,0 und 1,0, wobei 0,0 die Mitte des Bildes ist, der erste Wert x (-1,0 ist der linke Rand, +1,0 ist der rechte Rand) und der zweite Wert y (-1,0 ist der untere Rand, +1,0 ist der obere Rand). Weitere Informationen finden Sie unter [Brennpunkte] (https://docs.joinmastodon.org/methods/statuses/media/#focal-points).<br>siehe [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#focalPoint)",
+    "fr": "Mastodon permet de définir un point focal sur les images téléchargées, de sorte que partout où l'image est affichée, le point focal reste visible. Ceci est mis en œuvre en utilisant une propriété supplémentaire focalPoint sur les objets Image. Cette propriété est simplement un tableau de deux points flottants entre -1,0 et 1,0, 0,0 étant le centre de l'image, la première valeur étant x (-1,0 est le bord gauche, +1,0 est le bord droit) et la seconde valeur étant y (-1,0 est le bord inférieur, +1,0 est le bord supérieur). Voir [Focal points] (https://docs.joinmastodon.org/methods/statuses/media/#focal-points) pour plus d'informations.<br>[mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#focalPoint)",
+    "es": "Mastodon soporta el establecimiento de un punto focal en las imágenes cargadas, de modo que dondequiera que se muestre esa imagen, el punto focal permanece a la vista. Esto se implementa usando una propiedad extra focalPoint en los objetos de imagen. La propiedad es simplemente una matriz de dos puntos flotantes entre -1,0 y 1,0, siendo 0,0 el centro de la imagen, el primer valor es x (-1,0 es el borde izquierdo, +1,0 es el borde derecho) y el segundo valor es y (-1,0 es el borde inferior, +1,0 es el borde superior). <br>Consulte [Focal points](https://docs.joinmastodon.org/methods/statuses/media/#focal-points) para obtener más información.<br>[mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#focalPoint)"
   },
   "scopeNote": {
     "en": "ActivityPub Community",
@@ -22,13 +22,13 @@
     "es": "ActivityPub Community"
   },
   "notation": [
-    "1517"
+    "1514"
   ],
   "example": {
-    "en": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"discoverable\": \"toot:discoverable\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"discoverable\": true\n}```",
-    "de": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"discoverable\": \"toot:discoverable\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"discoverable\": true\n}```",
-    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"discoverable\": \"toot:discoverable\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"discoverable\": true\n}```",
-    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"discoverable\": \"toot:discoverable\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"discoverable\": true\n}```"
+    "en": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"focalPoint\": {\n        \"@container\": \"@list\",\n        \"@id\": \"toot:focalPoint\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"A picture attached!\",\n  \"attachment\": [\n    {\n      \"type\": \"Image\",\n      \"mediaType\": \"image/png\",\n      \"url\": \"https://example.com/files/cats.png\",\n      \"focalPoint\": [\n        -0.55,\n        0.43\n      ]\n    }\n  ]\n}```",
+    "de": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"focalPoint\": {\n        \"@container\": \"@list\",\n        \"@id\": \"toot:focalPoint\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"A picture attached!\",\n  \"attachment\": [\n    {\n      \"type\": \"Image\",\n      \"mediaType\": \"image/png\",\n      \"url\": \"https://example.com/files/cats.png\",\n      \"focalPoint\": [\n        -0.55,\n        0.43\n      ]\n    }\n  ]\n}```",
+    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"focalPoint\": {\n        \"@container\": \"@list\",\n        \"@id\": \"toot:focalPoint\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"A picture attached!\",\n  \"attachment\": [\n    {\n      \"type\": \"Image\",\n      \"mediaType\": \"image/png\",\n      \"url\": \"https://example.com/files/cats.png\",\n      \"focalPoint\": [\n        -0.55,\n        0.43\n      ]\n    }\n  ]\n}```",
+    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"focalPoint\": {\n        \"@container\": \"@list\",\n        \"@id\": \"toot:focalPoint\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"A picture attached!\",\n  \"attachment\": [\n    {\n      \"type\": \"Image\",\n      \"mediaType\": \"image/png\",\n      \"url\": \"https://example.com/files/cats.png\",\n      \"focalPoint\": [\n        -0.55,\n        0.43\n      ]\n    }\n  ]\n}```"
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -65,75 +65,6 @@
     "created": {
       "@id": "dct:created",
       "@type": "xsd:date"
-    },
-    "modified": {
-      "@id": "dct:modified",
-      "@type": "xsd:date"
-    },
-    "creator": "dct:creator",
-    "publisher": "dct:publisher",
-    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
-    "preferredNamespaceUri": "vann:preferredNamespaceUri",
-    "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
-    "prefLabel": {
-      "@container": "@language"
-    },
-    "altLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
-    "definition": {
-      "@container": "@language"
-    },
-    "scopeNote": {
-      "@container": "@language"
-    },
-    "note": {
-      "@container": "@language"
-    },
-    "notation": {
-      "@container": "@set"
-    },
-    "example": {
-      "@container": "@language"
-    },
-    "narrower": {
-      "@container": "@set"
-    },
-    "related": {
-      "@container": "@set"
-    },
-    "relatedMatch": {
-      "@container": "@set"
-    },
-    "narrowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}      "@type": "xsd:date"
     },
     "modified": {
       "@id": "dct:modified",
