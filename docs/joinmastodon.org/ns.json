@@ -1,19 +1,19 @@
 {
-  "id": "http://joinmastodon.org/ns#votersCount",
+  "id": "http://joinmastodon.org/ns#suspended",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinmastodon.org%2Fns%23votersCount",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinmastodon.org%2Fns%23votersCount",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinmastodon.org%2Fns%23suspended",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinmastodon.org%2Fns%23suspended",
   "prefLabel": {
-    "en": "voters count",
-    "de": "Wähler*innenstimmen",
-    "fr": "nombre de votes",
-    "es": "conteo de votantes"
+    "en": "suspended",
+    "de": "suspendiert",
+    "fr": "suspendu",
+    "es": "suspendido"
   },
   "definition": {
-    "en": "mastodon “poll” (Question) voters count",
-    "de": "mastodon “poll” (Question) Wähler*innenstimmen",
-    "fr": "mastodon “poll” (Question) voters count",
-    "es": "mastodon “poll” (Question) voters count"
+    "en": "Mastodon reports whether a user was locally suspended, for better handling of these accounts. Suspended accounts in Mastodon return empty data. If a remote account is marked as suspended, it cannot be unsuspended locally. Suspended accounts can be targeted by activities such as Update, Undo, Reject, and Delete. This functionality is implemented using an extra property \"suspended\" on objects.<br>see [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#suspended)",
+    "de": "Mastodon meldet, ob ein Benutzer lokal gesperrt wurde, damit diese Konten besser behandelt werden können. Gesperrte Konten in Mastodon geben leere Daten zurück. Wenn ein entferntes Konto als suspendiert markiert ist, kann es lokal nicht wieder suspendiert werden. Suspendierte Konten können durch Aktivitäten wie Aktualisieren, Rückgängig machen, Ablehnen und Löschen anvisiert werden. Diese Funktionalität wird durch eine zusätzliche Eigenschaft \"suspended\" für Objekte implementiert.<br>siehe [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#suspended)",
+    "fr": "Mastodon indique si un utilisateur a été suspendu localement, pour une meilleure gestion de ces comptes. Les comptes suspendus dans Mastodon renvoient des données vides. Si un compte distant est marqué comme suspendu, il ne peut pas être suspendu localement. Les comptes suspendus peuvent être ciblés par des activités telles que Update, Undo, Reject, et Delete. Cette fonctionnalité est implémentée en utilisant une propriété supplémentaire \"suspended\" sur les objets.<br>voir [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#suspended)",
+    "es": "Mastodon informa si un usuario fue suspendido localmente, para un mejor manejo de estas cuentas. Las cuentas suspendidas en Mastodon devuelven datos vacíos. Si una cuenta remota es marcada como suspendida, no puede ser desuspendida localmente. Las cuentas suspendidas pueden ser objeto de actividades como Actualizar, Deshacer, Rechazar y Eliminar. Esta funcionalidad se implementa utilizando una propiedad extra \"suspended\" en los objetos.<br>ver [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#suspended)"
   },
   "scopeNote": {
     "en": "ActivityPub Community",
@@ -22,8 +22,14 @@
     "es": "ActivityPub Community"
   },
   "notation": [
-    "1519"
+    "1518"
   ],
+  "example": {
+    "en": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"suspended\": \"toot:suspended\"\n    }\n  ],\n  \"id\": \"https://example.com/@eve\",\n  \"type\": \"Person\",\n  \"suspended\": true\n}```",
+    "de": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"suspended\": \"toot:suspended\"\n    }\n  ],\n  \"id\": \"https://example.com/@eve\",\n  \"type\": \"Person\",\n  \"suspended\": true\n}```",
+    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"suspended\": \"toot:suspended\"\n    }\n  ],\n  \"id\": \"https://example.com/@eve\",\n  \"type\": \"Person\",\n  \"suspended\": true\n}```",
+    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"suspended\": \"toot:suspended\"\n    }\n  ],\n  \"id\": \"https://example.com/@eve\",\n  \"type\": \"Person\",\n  \"suspended\": true\n}```"
+  },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
@@ -127,37 +133,7 @@
       "@container": "@set"
     }
   }
-}ivitypub/#focalPoint)"
-  },
-  "scopeNote": {
-    "en": "ActivityPub Community",
-    "de": "ActivityPub Community",
-    "fr": "ActivityPub Community",
-    "es": "ActivityPub Community"
-  },
-  "notation": [
-    "1514"
-  ],
-  "example": {
-    "en": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"focalPoint\": {\n        \"@container\": \"@list\",\n        \"@id\": \"toot:focalPoint\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"A picture attached!\",\n  \"attachment\": [\n    {\n      \"type\": \"Image\",\n      \"mediaType\": \"image/png\",\n      \"url\": \"https://example.com/files/cats.png\",\n      \"focalPoint\": [\n        -0.55,\n        0.43\n      ]\n    }\n  ]\n}```",
-    "de": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"focalPoint\": {\n        \"@container\": \"@list\",\n        \"@id\": \"toot:focalPoint\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"A picture attached!\",\n  \"attachment\": [\n    {\n      \"type\": \"Image\",\n      \"mediaType\": \"image/png\",\n      \"url\": \"https://example.com/files/cats.png\",\n      \"focalPoint\": [\n        -0.55,\n        0.43\n      ]\n    }\n  ]\n}```",
-    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"focalPoint\": {\n        \"@container\": \"@list\",\n        \"@id\": \"toot:focalPoint\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"A picture attached!\",\n  \"attachment\": [\n    {\n      \"type\": \"Image\",\n      \"mediaType\": \"image/png\",\n      \"url\": \"https://example.com/files/cats.png\",\n      \"focalPoint\": [\n        -0.55,\n        0.43\n      ]\n    }\n  ]\n}```",
-    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"focalPoint\": {\n        \"@container\": \"@list\",\n        \"@id\": \"toot:focalPoint\"\n      }\n    }\n  ],\n\n  \"id\": \"https://example.com/@alice/hello-world\",\n  \"type\": \"Note\",\n  \"content\": \"A picture attached!\",\n  \"attachment\": [\n    {\n      \"type\": \"Image\",\n      \"mediaType\": \"image/png\",\n      \"url\": \"https://example.com/files/cats.png\",\n      \"focalPoint\": [\n        -0.55,\n        0.43\n      ]\n    }\n  ]\n}```"
-  },
-  "inScheme": {
-    "id": "https://w3id.org/class/redaktor/scheme",
-    "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
-      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
-      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
-      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
-    }
-  },
-  "@context": {
-    "@version": 1.1,
-    "id": "@id",
-    "type": "@type",
-    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+}b": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
     "schema": "http://schema.org/",

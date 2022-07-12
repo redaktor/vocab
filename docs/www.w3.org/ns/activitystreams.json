@@ -1,19 +1,19 @@
 {
-  "id": "http://www.w3.org/ns/activitystreams#result",
+  "id": "http://www.w3.org/ns/activitystreams#width",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23result",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23result",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23width",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23width",
   "prefLabel": {
-    "en": "result",
-    "de": "Ergebnis",
-    "fr": "résultat",
-    "es": "resultado"
+    "en": "width",
+    "de": "Breite",
+    "fr": "largeur",
+    "es": "anchura"
   },
   "definition": {
-    "en": "Describes the result of the activity. For instance, if a particular action results in the creation of a new resource, the result property can be used to describe that new resource.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-result](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-result)",
-    "de": "Beschreibt das Ergebnis der Aktivität. Wenn beispielsweise eine bestimmte Aktion zur Erstellung einer neuen Ressource führt, kann die Eigenschaft result verwendet werden, um diese neue Ressource zu beschreiben.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-result](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-result)",
-    "fr": "Décrit le résultat de l'activité. Par exemple, si une action particulière entraîne la création d'une nouvelle ressource, la propriété result peut être utilisée pour décrire cette nouvelle ressource.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-result](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-result)",
-    "es": "Describe el resultado de la actividad. Por ejemplo, si una acción concreta da lugar a la creación de un nuevo recurso, la propiedad resultante puede utilizarse para describir ese nuevo recurso.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-result](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-result)"
+    "en": "On a Link, specifies a hint as to the rendering width in device-independent pixels of the linked resource.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
+    "de": "Gibt bei einem Link einen Hinweis auf die Darstellungsbreite der verlinkten Ressource in geräteunabhängigen Pixeln an.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
+    "fr": "Sur un lien, spécifie une indication quant à la largeur de rendu en pixels indépendants du périphérique de la ressource liée.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
+    "es": "En un enlace, especifica una pista sobre el ancho de representación en píxeles independientes del dispositivo del recurso enlazado.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)"
   },
   "scopeNote": {
     "en": "as: Property",
@@ -22,22 +22,13 @@
     "es": "as: Property"
   },
   "notation": [
-    "240"
+    "135"
   ],
   "example": {
-    "en": "[Example 103](https://www.w3.org/TR/activitystreams-vocabulary/#ex108-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally checked that her flight was on time\",\n  \"type\": [\"Activity\", \"http://www.verbs.example/Check\"],\n  \"actor\": \"http://sally.example.org\",\n  \"object\": \"http://example.org/flights/1\",\n  \"result\": {\n    \"type\": \"http://www.types.example/flightstatus\",\n    \"name\": \"On Time\"\n  }\n}\n```",
-    "de": "[Beispiel 103](https://www.w3.org/TR/activitystreams-vocabulary/#ex108-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally checked that her flight was on time\",\n  \"type\": [\"Activity\", \"http://www.verbs.example/Check\"],\n  \"actor\": \"http://sally.example.org\",\n  \"object\": \"http://example.org/flights/1\",\n  \"result\": {\n    \"type\": \"http://www.types.example/flightstatus\",\n    \"name\": \"On Time\"\n  }\n}\n```",
-    "fr": "[Exemple 103](https://www.w3.org/TR/activitystreams-vocabulary/#ex108-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally checked that her flight was on time\",\n  \"type\": [\"Activity\", \"http://www.verbs.example/Check\"],\n  \"actor\": \"http://sally.example.org\",\n  \"object\": \"http://example.org/flights/1\",\n  \"result\": {\n    \"type\": \"http://www.types.example/flightstatus\",\n    \"name\": \"On Time\"\n  }\n}\n```",
-    "es": "[Ejemplo 103](https://www.w3.org/TR/activitystreams-vocabulary/#ex108-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally checked that her flight was on time\",\n  \"type\": [\"Activity\", \"http://www.verbs.example/Check\"],\n  \"actor\": \"http://sally.example.org\",\n  \"object\": \"http://example.org/flights/1\",\n  \"result\": {\n    \"type\": \"http://www.types.example/flightstatus\",\n    \"name\": \"On Time\"\n  }\n}\n```"
-  },
-  "broader": {
-    "id": "http://www.w3.org/ns/activitystreams#Activity",
-    "prefLabel": {
-      "en": "Activity",
-      "de": "Aktivität",
-      "fr": "Activité",
-      "es": "Actividad"
-    }
+    "en": "[Example 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```",
+    "de": "[Beispiel 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```",
+    "fr": "[Exemple 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```",
+    "es": "[Ejemplo 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```"
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -142,7 +133,83 @@
       "@container": "@set"
     }
   }
-}ontainer": "@set"
+}@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}"@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+} "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}   "@container": "@set"
     }
   }
 }"
@@ -503,37 +570,36 @@
       "@container": "@set"
     }
   }
-},
-        "fr": "devise du prix",
-        "es": "moneda del precio"
+} "vat ID",
+        "es": "ID del iva"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/priceValidUntil",
+      "id": "https://w3id.org/class/redaktor/workLocation",
       "prefLabel": {
-        "en": "price valid until",
-        "de": "Preis gültig bis",
-        "fr": "prix valable jusqu'au",
-        "es": "precio válido hasta"
+        "en": "work location",
+        "de": "Arbeitsort",
+        "fr": "emplacement du travail",
+        "es": "ubicación del trabajo"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/shippingDetails",
+      "id": "https://w3id.org/class/redaktor/worksFor",
       "prefLabel": {
-        "en": "shipping details",
-        "de": "Versanddetails",
-        "fr": "détails d'expédition",
-        "es": "detalles de envío"
+        "en": "works for",
+        "de": "arbeitet für",
+        "fr": "travaux pour",
+        "es": "trabajos para"
       }
     }
   ],
   "broader": {
-    "id": "http://www.w3.org/ns/activitystreams#Activity",
+    "id": "https://w3id.org/class/redaktor/Actor",
     "prefLabel": {
-      "en": "Activity",
-      "de": "Aktivität",
-      "fr": "Activité",
-      "es": "Actividad"
+      "en": "Actor",
+      "de": "Akteur",
+      "fr": "Acteur",
+      "es": "Actor"
     }
   },
   "inScheme": {
@@ -639,7 +705,12 @@
       "@container": "@set"
     }
   }
-}ss/redaktor/naics",
+}": "membres",
+        "es": "miembros"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/naics",
       "prefLabel": {
         "en": "naics",
         "de": "naics",
