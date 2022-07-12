@@ -1,19 +1,19 @@
 {
-  "id": "https://joinpeertube.org/ns#Infohash",
+  "id": "https://joinpeertube.org/ns#permanentLive",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinpeertube.org%2Fns%23Infohash",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinpeertube.org%2Fns%23Infohash",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinpeertube.org%2Fns%23permanentLive",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinpeertube.org%2Fns%23permanentLive",
   "prefLabel": {
-    "en": "Infohash",
-    "de": "Infohash",
-    "fr": "Infohash",
-    "es": "Infohash"
+    "en": "permanent live",
+    "de": "permanent live",
+    "fr": "permanent live",
+    "es": "permanente en vivo"
   },
   "definition": {
-    "en": "Infohashes (in `as:name` ) for p2p-media-loader of every resolution.<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
-    "de": "Infohashes (in `as:name`) für den p2p-media-loader jeder Auflösung.<br>siehe [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
-    "fr": "Casse-tête (en `as:name`) pour p2p-media-loader de chaque résolution.<br>voir [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
-    "es": "Infohashes (en `as:name` ) para p2p-media-loader de cada resolución.<br>ver [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)"
+    "en": "If this is a live, tell if this is a permanent live or not.<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
+    "de": "Falls live, ist dies permanent live oder nicht.<br>siehe [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
+    "fr": "Si c'est un direct, dites si c'est un direct permanent ou non.<br>voir [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
+    "es": "Si se trata de un directo, diga si es un directo permanente o no.<br>ver [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)"
   },
   "scopeNote": {
     "en": "ActivityPub Community",
@@ -22,13 +22,13 @@
     "es": "ActivityPub Community"
   },
   "notation": [
-    "1064"
+    "1527"
   ],
   "example": {
-    "en": "```json \n{\n  \"type\": \"Video\",\n  \"url\": [\n    // HLS playlist URL (only if HLS transcoding is enabled)\n    {\n      \"type\": \"Link\",\n      \"mediaType\": \"application/x-mpegURL\",\n      \"tag\": [\n        // Infohashes for p2p-media-loader of every resolution\n        {\n          \"type\": \"Infohash\",\n          \"name\": \"d7844378e5a6b9af2d45267c0e413688e7839918\"\n        }\n      ]\n    }\n  ]\n}```",
-    "de": "```json \n{\n  \"type\": \"Video\",\n  \"url\": [\n    // HLS playlist URL (only if HLS transcoding is enabled)\n    {\n      \"type\": \"Link\",\n      \"mediaType\": \"application/x-mpegURL\",\n      \"tag\": [\n        // Infohashes for p2p-media-loader of every resolution\n        {\n          \"type\": \"Infohash\",\n          \"name\": \"d7844378e5a6b9af2d45267c0e413688e7839918\"\n        }\n      ]\n    }\n  ]\n}```",
-    "fr": "```json \n{\n  \"type\": \"Video\",\n  \"url\": [\n    // HLS playlist URL (only if HLS transcoding is enabled)\n    {\n      \"type\": \"Link\",\n      \"mediaType\": \"application/x-mpegURL\",\n      \"tag\": [\n        // Infohashes for p2p-media-loader of every resolution\n        {\n          \"type\": \"Infohash\",\n          \"name\": \"d7844378e5a6b9af2d45267c0e413688e7839918\"\n        }\n      ]\n    }\n  ]\n}```",
-    "es": "```json \n{\n  \"type\": \"Video\",\n  \"url\": [\n    // HLS playlist URL (only if HLS transcoding is enabled)\n    {\n      \"type\": \"Link\",\n      \"mediaType\": \"application/x-mpegURL\",\n      \"tag\": [\n        // Infohashes for p2p-media-loader of every resolution\n        {\n          \"type\": \"Infohash\",\n          \"name\": \"d7844378e5a6b9af2d45267c0e413688e7839918\"\n        }\n      ]\n    }\n  ]\n}```"
+    "en": "```json \n{\n  \"type\": \"Video\",\n  \"isLiveBroadcast\": true,\n  \"liveSaveReplay\": true,\n  \"permanentLive\": true\n}```",
+    "de": "```json \n{\n  \"type\": \"Video\",\n  \"isLiveBroadcast\": true,\n  \"liveSaveReplay\": true,\n  \"permanentLive\": true\n}```",
+    "fr": "```json \n{\n  \"type\": \"Video\",\n  \"isLiveBroadcast\": true,\n  \"liveSaveReplay\": true,\n  \"permanentLive\": true\n}```",
+    "es": "```json \n{\n  \"type\": \"Video\",\n  \"isLiveBroadcast\": true,\n  \"liveSaveReplay\": true,\n  \"permanentLive\": true\n}```"
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -94,6 +94,74 @@
     "note": {
       "@container": "@language"
     },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+},
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}dMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}@set"
+    }
+  }
+}},
     "notation": {
       "@container": "@set"
     },

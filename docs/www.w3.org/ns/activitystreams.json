@@ -1,19 +1,19 @@
 {
-  "id": "http://www.w3.org/ns/activitystreams#type",
+  "id": "http://www.w3.org/ns/activitystreams#totalItems",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23type",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23type",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23totalItems",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23totalItems",
   "prefLabel": {
-    "en": "type",
-    "de": "type",
-    "fr": "type",
-    "es": "type"
+    "en": "total items",
+    "de": "Gesamtanzahl",
+    "fr": "Nombre total",
+    "es": "Número total"
   },
   "definition": {
-    "en": "Identifies the Object or Link type. Multiple values may be specified.",
-    "de": "Identifiziert den Objekt- oder Verknüpfungstyp. Es können mehrere Werte angegeben werden.",
-    "fr": "Identifie le type d'objet ou de lien. Plusieurs valeurs peuvent être spécifiées.",
-    "es": "Identifica el tipo de objeto o enlace. Pueden especificarse varios valores"
+    "en": "A non-negative integer specifying the total number of objects contained by the logical view of the collection. This number might not reflect the actual number of items serialized within the Collection object instance.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems)",
+    "de": "Eine nicht-negative ganze Zahl, die die Gesamtzahl der Objekte angibt, die in der logischen Sicht der Sammlung enthalten sind. Diese Zahl spiegelt möglicherweise nicht die tatsächliche Anzahl der in der Collection-Objektinstanz serialisierten Objekte wider.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems)",
+    "fr": "Un nombre entier non négatif spécifiant le nombre total d'objets contenus dans la vue logique de la collection. Ce nombre peut ne pas refléter le nombre réel d'éléments sérialisés dans l'instance de l'objet Collection.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems)",
+    "es": "Un número entero no negativo que especifica el número total de objetos que contiene la vista lógica de la colección. Este número puede no reflejar el número real de elementos serializados dentro de la instancia del objeto Colección.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems)"
   },
   "scopeNote": {
     "en": "as: Property",
@@ -22,13 +22,22 @@
     "es": "as: Property"
   },
   "notation": [
-    "102"
+    "616"
   ],
   "example": {
-    "en": "[Example 62](https://www.w3.org/TR/activitystreams-vocabulary/#extype-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"A foo\",\n  \"type\": \"http://example.org/Foo\"\n}\n```",
-    "de": "[Beispiel 62](https://www.w3.org/TR/activitystreams-vocabulary/#extype-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"A foo\",\n  \"type\": \"http://example.org/Foo\"\n}\n```",
-    "fr": "[Exemple 62](https://www.w3.org/TR/activitystreams-vocabulary/#extype-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"A foo\",\n  \"type\": \"http://example.org/Foo\"\n}\n```",
-    "es": "[Ejemplo 62](https://www.w3.org/TR/activitystreams-vocabulary/#extype-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"A foo\",\n  \"type\": \"http://example.org/Foo\"\n}\n```"
+    "en": "[Example 135](https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's notes\",\n  \"type\": \"Collection\",\n  \"totalItems\": 2,\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"Which Staircase Should I Use\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Something to Remember\"\n    }\n  ]\n}\n```",
+    "de": "[Beispiel 135](https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's notes\",\n  \"type\": \"Collection\",\n  \"totalItems\": 2,\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"Which Staircase Should I Use\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Something to Remember\"\n    }\n  ]\n}\n```",
+    "fr": "[Exemple 135](https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's notes\",\n  \"type\": \"Collection\",\n  \"totalItems\": 2,\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"Which Staircase Should I Use\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Something to Remember\"\n    }\n  ]\n}\n```",
+    "es": "[Ejemplo 135](https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's notes\",\n  \"type\": \"Collection\",\n  \"totalItems\": 2,\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"Which Staircase Should I Use\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Something to Remember\"\n    }\n  ]\n}\n```"
+  },
+  "broader": {
+    "id": "http://www.w3.org/ns/activitystreams#Collection",
+    "prefLabel": {
+      "en": "Collection",
+      "de": "Sammlung",
+      "fr": "Collection",
+      "es": "Colección"
+    }
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -99,122 +108,6 @@
     },
     "example": {
       "@container": "@language"
-    },
-    "narrower": {
-      "@container": "@set"
-    },
-    "related": {
-      "@container": "@set"
-    },
-    "relatedMatch": {
-      "@container": "@set"
-    },
-    "narrowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}@container": "@language"
-    },
-    "description": {
-      "@id": "dct:description",
-      "@container": "@language"
-    },
-    "issued": {
-      "@id": "dct:issued",
-      "@type": "xsd:date"
-    },
-    "created": {
-      "@id": "dct:created",
-      "@type": "xsd:date"
-    },
-    "modified": {
-      "@id": "dct:modified",
-      "@type": "xsd:date"
-    },
-    "creator": "dct:creator",
-    "publisher": "dct:publisher",
-    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
-    "preferredNamespaceUri": "vann:preferredNamespaceUri",
-    "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
-    "prefLabel": {
-      "@container": "@language"
-    },
-    "altLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
-    "definition": {
-      "@container": "@language"
-    },
-    "scopeNote": {
-      "@container": "@language"
-    },
-    "note": {
-      "@container": "@language"
-    },
-    "notation": {
-      "@container": "@set"
-    },
-    "example": {
-      "@container": "@language"
-    },
-    "narrower": {
-      "@container": "@set"
-    },
-    "related": {
-      "@container": "@set"
-    },
-    "relatedMatch": {
-      "@container": "@set"
-    },
-    "narrowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}@container": "@language"
     },
     "narrower": {
       "@container": "@set"
@@ -607,385 +500,391 @@
       "@container": "@set"
     }
   }
-} "vat ID",
-        "es": "ID del iva"
+}e"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/workLocation",
+      "id": "http://www.w3.org/ns/activitystreams#name",
       "prefLabel": {
-        "en": "work location",
-        "de": "Arbeitsort",
-        "fr": "emplacement du travail",
-        "es": "ubicación del trabajo"
+        "en": "name",
+        "de": "Name",
+        "fr": "nom",
+        "es": "Nombre"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/worksFor",
+      "id": "http://www.w3.org/ns/activitystreams#nameMap",
       "prefLabel": {
-        "en": "works for",
-        "de": "arbeitet für",
-        "fr": "travaux pour",
-        "es": "trabajos para"
-      }
-    }
-  ],
-  "broader": {
-    "id": "https://w3id.org/class/redaktor/Actor",
-    "prefLabel": {
-      "en": "Actor",
-      "de": "Akteur",
-      "fr": "Acteur",
-      "es": "Actor"
-    }
-  },
-  "inScheme": {
-    "id": "https://w3id.org/class/redaktor/scheme",
-    "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
-      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
-      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
-      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
-    }
-  },
-  "@context": {
-    "@version": 1.1,
-    "id": "@id",
-    "type": "@type",
-    "@vocab": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "dct": "http://purl.org/dc/terms/",
-    "schema": "http://schema.org/",
-    "vann": "http://purl.org/vocab/vann/",
-    "as": "https://www.w3.org/ns/activitystreams#",
-    "ldp": "http://www.w3.org/ns/ldp#",
-    "title": {
-      "@id": "dct:title",
-      "@container": "@language"
-    },
-    "description": {
-      "@id": "dct:description",
-      "@container": "@language"
-    },
-    "issued": {
-      "@id": "dct:issued",
-      "@type": "xsd:date"
-    },
-    "created": {
-      "@id": "dct:created",
-      "@type": "xsd:date"
-    },
-    "modified": {
-      "@id": "dct:modified",
-      "@type": "xsd:date"
-    },
-    "creator": "dct:creator",
-    "publisher": "dct:publisher",
-    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
-    "preferredNamespaceUri": "vann:preferredNamespaceUri",
-    "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
-    "prefLabel": {
-      "@container": "@language"
-    },
-    "altLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
-    "definition": {
-      "@container": "@language"
-    },
-    "scopeNote": {
-      "@container": "@language"
-    },
-    "note": {
-      "@container": "@language"
-    },
-    "notation": {
-      "@container": "@set"
-    },
-    "example": {
-      "@container": "@language"
-    },
-    "narrower": {
-      "@container": "@set"
-    },
-    "related": {
-      "@container": "@set"
-    },
-    "relatedMatch": {
-      "@container": "@set"
-    },
-    "narrowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}": "membres",
-        "es": "miembros"
+        "en": "name map",
+        "de": "Name map",
+        "fr": "nom map",
+        "es": "Nombre map"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/naics",
+      "id": "http://www.w3.org/ns/activitystreams#preview",
       "prefLabel": {
-        "en": "naics",
-        "de": "naics",
-        "fr": "naics",
-        "es": "naics"
+        "en": "preview",
+        "de": "Vorschau",
+        "fr": "aperçu",
+        "es": "vista previa"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/nonprofitStatus",
+      "id": "http://www.w3.org/ns/activitystreams#published",
       "prefLabel": {
-        "en": "nonprofit status",
-        "de": "Status der Gemeinnützigkeit",
-        "fr": "statut d'organisme à but non lucratif",
-        "es": "estatus sin ánimo de lucro"
+        "en": "published",
+        "de": "veröffentlicht um",
+        "fr": "publié à",
+        "es": "publicada"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/numberOfEmployees",
+      "id": "http://www.w3.org/ns/activitystreams#replies",
       "prefLabel": {
-        "en": "number of employees",
-        "de": "Anzahl der Mitarbeiter",
-        "fr": "nombre d'employés",
-        "es": "número de empleados"
+        "en": "replies",
+        "de": "Antworten",
+        "fr": "réponses",
+        "es": "responde"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/ownershipFundingInfo",
+      "id": "http://www.w3.org/ns/activitystreams#startTime",
       "prefLabel": {
-        "en": "ownership funding info",
-        "de": "Eigentum Finanzierungsinfo",
-        "fr": "informations sur le financement de la propriété",
-        "es": "información sobre la financiación de la propiedad"
+        "en": "start time",
+        "de": "Startzeitpukt",
+        "fr": "heure de départ",
+        "es": "hora de inicio"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/owns",
+      "id": "http://www.w3.org/ns/activitystreams#endTime",
       "prefLabel": {
-        "en": "owns",
-        "de": "besitzt",
-        "fr": "propriétaire",
-        "es": "posee"
+        "en": "end time",
+        "de": "Endzeitpunkt",
+        "fr": "heure de fin",
+        "es": "hora de fin"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/parentOrganization",
+      "id": "http://www.w3.org/ns/activitystreams#sensitive",
       "prefLabel": {
-        "en": "parent organization",
-        "de": "übergeordnete Organisation",
-        "fr": "organisation des parents",
-        "es": "organización de los padres"
+        "en": "sensitive",
+        "de": "sensibel",
+        "fr": "sensible",
+        "es": "sensible"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/publishingPrinciples",
+      "id": "http://www.w3.org/ns/activitystreams#source",
       "prefLabel": {
-        "en": "publishing principles",
-        "de": "Verlagsgrundsätze",
-        "fr": "principes d'édition",
-        "es": "principios de publicación"
+        "en": "source",
+        "de": "Quelle",
+        "fr": "source",
+        "es": "fuente"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/seeks",
+      "id": "http://www.w3.org/ns/activitystreams#summary",
       "prefLabel": {
-        "en": "seeks",
-        "de": "sucht",
-        "fr": "cherche",
-        "es": "busca"
+        "en": "summary",
+        "de": "Zusammenfassung",
+        "fr": "résumé",
+        "es": "resumen"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/serviceArea",
+      "id": "http://www.w3.org/ns/activitystreams#summaryMap",
       "prefLabel": {
-        "en": "service area",
-        "de": "Servicebereich",
-        "fr": "zone de service",
+        "en": "summary map",
+        "de": "Zusammenfassung map",
+        "fr": "résumé map",
+        "es": "resumen map"
+      }
+    },
+    {
+      "id": "http://www.w3.org/ns/activitystreams#tag",
+      "prefLabel": {
+        "en": "tag",
+        "de": "tag",
+        "fr": "tag",
+        "es": "tag"
+      }
+    },
+    {
+      "id": "http://www.w3.org/ns/activitystreams#to",
+      "prefLabel": {
+        "en": "to",
+        "de": "to",
+        "fr": "to",
+        "es": "to"
+      }
+    },
+    {
+      "id": "http://www.w3.org/ns/activitystreams#updated",
+      "prefLabel": {
+        "en": "updated",
+        "de": "aktualisiert",
+        "fr": "actualisé",
+        "es": "actualizada"
+      }
+    },
+    {
+      "id": "http://www.w3.org/ns/activitystreams#url",
+      "prefLabel": {
+        "en": "url",
+        "de": "url",
+        "fr": "url",
+        "es": "url"
+      }
+    },
+    {
+      "id": "http://www.w3.org/ns/activitystreams#width",
+      "prefLabel": {
+        "en": "width",
+        "de": "Breite",
+        "fr": "largeur",
+        "es": "anchura"
+      }
+    },
+    {
+      "id": "http://joinmastodon.org/ns#featured",
+      "prefLabel": {
+        "en": "featured",
+        "de": "featured",
+        "fr": "featured",
+        "es": "featured"
+      }
+    },
+    {
+      "id": "https://joinpeertube.org/ns#PlaylistElement",
+      "prefLabel": {
+        "en": "Playlist Element",
+        "de": "Playlist Element",
+        "fr": "Playlist Element",
+        "es": "Playlist Element"
+      }
+    },
+    {
+      "id": "https://joinpeertube.org/ns#commentsEnabled",
+      "prefLabel": {
+        "en": "comments enabled",
+        "de": "Kommentare aktiviert",
+        "fr": "commentaires activés",
+        "es": "comentarios habilitados"
+      }
+    },
+    {
+      "id": "https://joinpeertube.org/ns#downloadEnabled",
+      "prefLabel": {
+        "en": "download enabled",
+        "de": "Download aktiviert",
+        "fr": "download activés",
+        "es": "download habilitados"
+      }
+    },
+    {
+      "id": "https://joinpeertube.org/ns#playlists",
+      "prefLabel": {
+        "en": "playlists",
+        "de": "playlists",
+        "fr": "playlists",
+        "es": "playlists"
+      }
+    },
+    {
+      "id": "https://joinpeertube.org/ns#size",
+      "prefLabel": {
+        "en": "filesize",
+        "de": "Dateigröße",
+        "fr": "taille des fichiers",
+        "es": "tamaño de los archivos"
+      }
+    },
+    {
+      "id": "https://joinpeertube.org/ns#support",
+      "prefLabel": {
+        "en": "support",
+        "de": "Unterstützung",
+        "fr": "soutien",
+        "es": "soporte"
+      }
+    },
+    {
+      "id": "https://joinpeertube.org/ns#views",
+      "prefLabel": {
+        "en": "views",
+        "de": "views",
+        "fr": "vues",
+        "es": "vistas"
+      }
+    },
+    {
+      "id": "http://litepub.social/ns#ChatMessage",
+      "prefLabel": {
+        "en": "Chat message",
+        "de": "Chat Nachricht",
+        "fr": "Chat message",
+        "es": "Chat mensaje"
+      }
+    },
+    {
+      "id": "dct:creator",
+      "prefLabel": {
+        "en": "creator",
+        "de": "Ersteller*in",
+        "fr": "creator",
+        "es": "creator"
+      }
+    },
+    {
+      "id": "dct:created",
+      "prefLabel": {
+        "en": "created",
+        "de": "erstellt",
+        "fr": "created",
+        "es": "created"
+      }
+    },
+    {
+      "id": "schema:value",
+      "prefLabel": {
+        "en": "value",
+        "de": "Wert",
+        "fr": "valeur",
+        "es": "valor"
+      }
+    },
+    {
+      "id": "schema:license",
+      "prefLabel": {
+        "en": "license",
+        "de": "Lizenz",
+        "fr": "licence",
+        "es": "licencia"
+      }
+    },
+    {
+      "id": "schema:datePublished",
+      "prefLabel": {
+        "en": "date published",
+        "de": "Veröffentlichungsdatum",
+        "fr": "date de publication",
+        "es": "fecha de publicación"
+      }
+    },
+    {
+      "id": "https://joinmobilizon.org/ns#repliesModerationOption",
+      "prefLabel": {
+        "en": "repliesModerationOption",
+        "de": "repliesModerationOption",
+        "fr": "repliesModerationOption",
+        "es": "repliesModerationOption"
+      }
+    },
+    {
+      "id": "https://join-lemmy.org#stickied",
+      "prefLabel": {
+        "en": "stickied",
+        "de": "stickied",
+        "fr": "stickied",
+        "es": "stickied"
+      }
+    },
+    {
+      "id": "http://www.w3.org/ns/activitystreams#audience",
+      "prefLabel": {
+        "en": "audience",
+        "de": "Zielgruppe",
+        "fr": "audience",
+        "es": "audiencia"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/isAccessibleForFree",
+      "prefLabel": {
+        "en": "is accessible for free",
+        "de": "ist kostenlos zugängig",
+        "fr": "est accessible gratuitement",
+        "es": "es accesible de forma gratuita"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/acceptedPaymentMethod",
+      "prefLabel": {
+        "en": "accepted payment method",
+        "de": "akzeptierte Zahlungsmethode",
+        "fr": "mode de paiement accepté",
+        "es": "método de pago aceptado"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/advanceBookingRequirement",
+      "prefLabel": {
+        "en": "advance booking requirement",
+        "de": "Voranmeldung erforderlich",
+        "fr": "obligation de réservation préalable",
+        "es": "requisito de reserva anticipada"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/areaServed",
+      "prefLabel": {
+        "en": "area served",
+        "de": "bedientes Gebiet",
+        "fr": "zone desservie",
         "es": "área de servicio"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/sponsor",
+      "id": "https://w3id.org/class/redaktor/audience",
       "prefLabel": {
-        "en": "sponsor",
-        "de": "Sponsor",
-        "fr": "sponsor",
-        "es": "patrocinador"
+        "en": "audience",
+        "de": "Publikum",
+        "fr": "public",
+        "es": "audiencia"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/subOrganization",
+      "id": "https://w3id.org/class/redaktor/availability",
       "prefLabel": {
-        "en": "sub organization",
-        "de": "Unterorganisation",
-        "fr": "sous-organisation",
-        "es": "suborganización"
+        "en": "availability",
+        "de": "Verfügbarkeit",
+        "fr": "disponibilité",
+        "es": "disponibilidad"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/taxID",
+      "id": "https://w3id.org/class/redaktor/availabilityEnds",
       "prefLabel": {
-        "en": "tax ID",
-        "de": "Steuer-ID",
-        "fr": "identifiant fiscal",
-        "es": "ID fiscal"
+        "en": "availability ends",
+        "de": "Verfügbarkeit endet",
+        "fr": "fin de la disponibilité",
+        "es": "la disponibilidad termina"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/unnamedSourcesPolicy",
+      "id": "https://w3id.org/class/redaktor/availabilityStarts",
       "prefLabel": {
-        "en": "unnamed sources policy",
-        "de": "Politik der ungenannten Quellen",
-        "fr": "politique des sources anonymes",
-        "es": "política de fuentes no identificadas"
+        "en": "availability starts",
+        "de": "Verfügbarkeit beginnt",
+        "fr": "la disponibilité commence",
+        "es": "la disponibilidad comienza"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/vatID",
+      "id": "https://w3id.org/class/redaktor/availableAtOrFrom",
       "prefLabel": {
-        "en": "vat ID",
-        "de": "Umsatzsteuer-ID",
-        "fr": "vat ID",
-        "es": "ID del iva"
+        "en": "available at or from",
+        "de": "verfügbar bei oder von",
+        "fr": "disponible à ou de",
+        "es": "disponible en o desde"
       }
-    }
-  ],
-  "broader": {
-    "id": "https://w3id.org/class/redaktor/Actor",
-    "prefLabel": {
-      "en": "Actor",
-      "de": "Akteur",
-      "fr": "Acteur",
-      "es": "Actor"
-    }
-  },
-  "inScheme": {
-    "id": "https://w3id.org/class/redaktor/scheme",
-    "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
-      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
-      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
-      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
-    }
-  },
-  "@context": {
-    "@version": 1.1,
-    "id": "@id",
-    "type": "@type",
-    "@vocab": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "dct": "http://purl.org/dc/terms/",
-    "schema": "http://schema.org/",
-    "vann": "http://purl.org/vocab/vann/",
-    "as": "https://www.w3.org/ns/activitystreams#",
-    "ldp": "http://www.w3.org/ns/ldp#",
-    "title": {
-      "@id": "dct:title",
-      "@container": "@language"
     },
-    "description": {
-      "@id": "dct:description",
-      "@container": "@language"
-    },
-    "issued": {
-      "@id": "dct:issued",
-      "@type": "xsd:date"
-    },
-    "created": {
-      "@id": "dct:created",
-      "@type": "xsd:date"
-    },
-    "modified": {
-      "@id": "dct:modified",
-      "@type": "xsd:date"
-    },
-    "creator": "dct:creator",
-    "publisher": "dct:publisher",
-    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
-    "preferredNamespaceUri": "vann:preferredNamespaceUri",
-    "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
-    "prefLabel": {
-      "@container": "@language"
-    },
-    "altLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
-    "definition": {
-      "@container": "@language"
-    },
-    "scopeNote": {
-      "@container": "@language"
-    },
-    "note": {
-      "@container": "@language"
-    },
-    "notation": {
-      "@container": "@set"
-    },
-    "example": {
-      "@container": "@language"
-    },
-    "narrower": {
-      "@container": "@set"
-    },
-    "related": {
-      "@container": "@set"
-    },
-    "relatedMatch": {
-      "@container": "@set"
-    },
-    "narrowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}": "available delivery method",
+    {
+      "id": "https://w3id.org/class/redaktor/availableDeliveryMethod",
+      "prefLabel": {
+        "en": "available delivery method",
         "de": "verfügbare Liefermethode",
         "fr": "méthode de livraison disponible",
         "es": "método de entrega disponible"
