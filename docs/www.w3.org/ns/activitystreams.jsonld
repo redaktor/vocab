@@ -133,7 +133,34 @@
       "@container": "@set"
     }
   }
-}  },
+}  "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
     "note": {
       "@container": "@language"
     },
@@ -142,41 +169,6 @@
     },
     "example": {
       "@container": "@language"
-    },
-    "narrower": {
-      "@container": "@set"
-    },
-    "related": {
-      "@container": "@set"
-    },
-    "relatedMatch": {
-      "@container": "@set"
-    },
-    "narrowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}@container": "@language"
     },
     "narrower": {
       "@container": "@set"

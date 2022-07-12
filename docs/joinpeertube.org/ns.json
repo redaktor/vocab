@@ -1,19 +1,19 @@
 {
-  "id": "https://joinpeertube.org/ns#waitTranscoding",
+  "id": "https://joinpeertube.org/ns#video",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinpeertube.org%2Fns%23waitTranscoding",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinpeertube.org%2Fns%23waitTranscoding",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinpeertube.org%2Fns%23video",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinpeertube.org%2Fns%23video",
   "prefLabel": {
-    "en": "wait transcoding",
-    "de": "Transkodieren abwarten",
-    "fr": "attendre le transcodage",
-    "es": "esperar la transcodificación"
+    "en": "video",
+    "de": "video",
+    "fr": "video",
+    "es": "video"
   },
   "definition": {
-    "en": "Whether or not we wait transcoding before publish the video.<br>ver [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
-    "de": "Ob wir mit der Transkodierung warten, bevor wir das Video veröffentlichen.<br>ver [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
-    "fr": "Si nous attendons ou non le transcodage avant de publier la vidéo.<br>voir [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
-    "es": "Esperar o no la transcodificación antes de publicar el vídeo.<br>ver [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)"
+    "en": "Associated Video for the entry<br>in [PlaylistElement](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)",
+    "de": "Das Video des Eintrags<br>in [PlaylistElement](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)",
+    "fr": "Vidéo associée à l'entrée<br>in [PlaylistElement](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)",
+    "es": "Vídeo asociado a la entrada<br>in [PlaylistElement](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)"
   },
   "scopeNote": {
     "en": "ActivityPub Community",
@@ -22,13 +22,16 @@
     "es": "ActivityPub Community"
   },
   "notation": [
-    "1537"
+    "1535"
   ],
-  "example": {
-    "en": "```json \n{\n  \"type\": \"Video\",\n  \"views\": 35,\n  \"support\": \"Pay me a coffee when you see me\",\n  \"waitTranscoding\": true\n}```",
-    "de": "```json \n{\n  \"type\": \"Video\",\n  \"views\": 35,\n  \"support\": \"Pay me a coffee when you see me\",\n  \"waitTranscoding\": true\n}```",
-    "fr": "```json \n{\n  \"type\": \"Video\",\n  \"views\": 35,\n  \"support\": \"Pay me a coffee when you see me\",\n  \"waitTranscoding\": true\n}```",
-    "es": "```json \n{\n  \"type\": \"Video\",\n  \"views\": 35,\n  \"support\": \"Pay me a coffee when you see me\",\n  \"waitTranscoding\": true\n}```"
+  "broader": {
+    "id": "https://joinpeertube.org/ns#PlaylistElement",
+    "prefLabel": {
+      "en": "Playlist Element",
+      "de": "Playlist Element",
+      "fr": "Playlist Element",
+      "es": "Playlist Element"
+    }
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -133,9 +136,28 @@
       "@container": "@set"
     }
   }
-}
-  }
-}": {
+}{
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
       "@container": "@set"
     },
     "narrowMatch": {
@@ -153,7 +175,24 @@
       "@container": "@set"
     }
   }
-}@set"
+}
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
     }
   }
 }
