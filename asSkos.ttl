@@ -3090,7 +3090,7 @@ as:alsoKnownAs a owl:ObjectProperty, skos:Concept ;
   rdfs:domain as:Object ;
   rdfs:range as:Object.
 
-as:manuallyApprovesFollowers a owl:ObjectProperty, owl:FunctionalProperty, skos:Concept ;
+as:manuallyApprovesFollowers a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader :Actor ;
   skos:notation "157" ;
@@ -3122,7 +3122,7 @@ as:movedTo a owl:ObjectProperty, skos:Concept ;
     owl:unionOf ( as:Link as:Object )
   ] .
 
-as:sensitive a owl:ObjectProperty, owl:FunctionalProperty, skos:Concept ;
+as:sensitive a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Object, as:Link ;
   skos:notation "143" ;
