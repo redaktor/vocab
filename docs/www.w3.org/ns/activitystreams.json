@@ -1,19 +1,19 @@
 {
-  "id": "http://www.w3.org/ns/activitystreams#updated",
+  "id": "http://www.w3.org/ns/activitystreams#width",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23updated",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23updated",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23width",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23width",
   "prefLabel": {
-    "en": "updated",
-    "de": "aktualisiert",
-    "fr": "actualisé",
-    "es": "actualizada"
+    "en": "width",
+    "de": "Breite",
+    "fr": "largeur",
+    "es": "anchura"
   },
   "definition": {
-    "en": "The date and time at which the object was updated.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)",
-    "de": "Das Datum und die Uhrzeit, zu der das Objekt aktualisiert wurde.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)",
-    "fr": "La date et l'heure auxquelles l'objet a été mis à jour.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)",
-    "es": "La fecha y hora en que se actualizó el objeto.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)"
+    "en": "On a Link, specifies a hint as to the rendering width in device-independent pixels of the linked resource.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
+    "de": "Gibt bei einem Link einen Hinweis auf die Darstellungsbreite der verlinkten Ressource in geräteunabhängigen Pixeln an.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
+    "fr": "Sur un lien, spécifie une indication quant à la largeur de rendu en pixels indépendants du périphérique de la ressource liée.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
+    "es": "En un enlace, especifica una pista sobre el ancho de representación en píxeles independientes del dispositivo del recurso enlazado.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)"
   },
   "scopeNote": {
     "en": "as: Property",
@@ -22,22 +22,13 @@
     "es": "as: Property"
   },
   "notation": [
-    "124"
+    "135"
   ],
   "example": {
-    "en": "[Example 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"Cranberry Sauce Idea\",\n  \"type\": \"Note\",\n  \"content\": \"Mush it up so it does not have the same shape as the can.\",\n  \"updated\": \"2014-12-12T12:12:12Z\"\n}\n```",
-    "de": "[Beispiel 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"Cranberry Sauce Idea\",\n  \"type\": \"Note\",\n  \"content\": \"Mush it up so it does not have the same shape as the can.\",\n  \"updated\": \"2014-12-12T12:12:12Z\"\n}\n```",
-    "fr": "[Exemple 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"Cranberry Sauce Idea\",\n  \"type\": \"Note\",\n  \"content\": \"Mush it up so it does not have the same shape as the can.\",\n  \"updated\": \"2014-12-12T12:12:12Z\"\n}\n```",
-    "es": "[Ejemplo 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"Cranberry Sauce Idea\",\n  \"type\": \"Note\",\n  \"content\": \"Mush it up so it does not have the same shape as the can.\",\n  \"updated\": \"2014-12-12T12:12:12Z\"\n}\n```"
-  },
-  "broader": {
-    "id": "http://www.w3.org/ns/activitystreams#Object",
-    "prefLabel": {
-      "en": "Object",
-      "de": "Objekt",
-      "fr": "Objet",
-      "es": "Objeto"
-    }
+    "en": "[Example 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```",
+    "de": "[Beispiel 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```",
+    "fr": "[Exemple 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```",
+    "es": "[Ejemplo 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```"
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -142,7 +133,21 @@
       "@container": "@set"
     }
   }
-}er": "@set"
+}  },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
     },
     "relatedMatch": {
       "@container": "@set"
@@ -699,13 +704,12 @@
       "@container": "@set"
     }
   }
-}ers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}ss/redaktor/naics",
+}": "membres",
+        "es": "miembros"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/naics",
       "prefLabel": {
         "en": "naics",
         "de": "naics",

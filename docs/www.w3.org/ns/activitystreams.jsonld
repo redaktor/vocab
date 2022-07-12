@@ -1,19 +1,19 @@
 {
-  "id": "http://www.w3.org/ns/activitystreams#width",
+  "id": "http://www.w3.org/ns/activitystreams#tag",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23width",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23width",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23tag",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23tag",
   "prefLabel": {
-    "en": "width",
-    "de": "Breite",
-    "fr": "largeur",
-    "es": "anchura"
+    "en": "tag",
+    "de": "tag",
+    "fr": "tag",
+    "es": "tag"
   },
   "definition": {
-    "en": "On a Link, specifies a hint as to the rendering width in device-independent pixels of the linked resource.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
-    "de": "Gibt bei einem Link einen Hinweis auf die Darstellungsbreite der verlinkten Ressource in geräteunabhängigen Pixeln an.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
-    "fr": "Sur un lien, spécifie une indication quant à la largeur de rendu en pixels indépendants du périphérique de la ressource liée.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
-    "es": "En un enlace, especifica una pista sobre el ancho de representación en píxeles independientes del dispositivo del recurso enlazado.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)"
+    "en": "One or more \"tags\" that have been associated with an objects. A tag can be any kind of Object. The key difference between attachment and tag is that the former implies association by inclusion, while the latter implies associated by reference.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tag](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tag)",
+    "de": "Ein oder mehrere \"tags\", die mit einem Objekt verknüpft wurden. Ein Tag kann eine beliebige Art von Objekt sein. Der Hauptunterschied zwischen Attachment und Tag besteht darin, dass Ersteres eine Assoziation durch Einbeziehung impliziert, während Letzteres eine Assoziation durch Verweis impliziert.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tag](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tag)",
+    "fr": "Un ou plusieurs 'tags' qui ont été associés à un objet. Une balise peut être n'importe quel type d'objet. La principale différence entre attachement et balise est que le premier implique une association par inclusion, tandis que le second implique une association par référence.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tag](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tag)",
+    "es": "Una o varias \"etiquetas\" que se han asociado a un objeto. Una etiqueta puede ser cualquier tipo de objeto. La diferencia clave entre adjunto y etiqueta es que el primero implica una asociación por inclusión, mientras que el segundo implica una asociación por referencia.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tag](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tag)"
   },
   "scopeNote": {
     "en": "as: Property",
@@ -22,13 +22,22 @@
     "es": "as: Property"
   },
   "notation": [
-    "135"
+    "145"
   ],
   "example": {
-    "en": "[Example 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```",
-    "de": "[Beispiel 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```",
-    "fr": "[Exemple 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```",
-    "es": "[Ejemplo 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```"
+    "en": "[Example 105](https://www.w3.org/TR/activitystreams-vocabulary/#ex118-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Image\",\n  \"summary\": \"Picture of Sally\",\n  \"url\": \"http://example.org/sally.jpg\",\n  \"tag\": [\n    {\n      \"type\": \"Person\",\n      \"id\": \"http://sally.example.org\",\n      \"name\": \"Sally\"\n    }\n  ]\n}\n```",
+    "de": "[Beispiel 105](https://www.w3.org/TR/activitystreams-vocabulary/#ex118-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Image\",\n  \"summary\": \"Picture of Sally\",\n  \"url\": \"http://example.org/sally.jpg\",\n  \"tag\": [\n    {\n      \"type\": \"Person\",\n      \"id\": \"http://sally.example.org\",\n      \"name\": \"Sally\"\n    }\n  ]\n}\n```",
+    "fr": "[Exemple 105](https://www.w3.org/TR/activitystreams-vocabulary/#ex118-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Image\",\n  \"summary\": \"Picture of Sally\",\n  \"url\": \"http://example.org/sally.jpg\",\n  \"tag\": [\n    {\n      \"type\": \"Person\",\n      \"id\": \"http://sally.example.org\",\n      \"name\": \"Sally\"\n    }\n  ]\n}\n```",
+    "es": "[Ejemplo 105](https://www.w3.org/TR/activitystreams-vocabulary/#ex118-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Image\",\n  \"summary\": \"Picture of Sally\",\n  \"url\": \"http://example.org/sally.jpg\",\n  \"tag\": [\n    {\n      \"type\": \"Person\",\n      \"id\": \"http://sally.example.org\",\n      \"name\": \"Sally\"\n    }\n  ]\n}\n```"
+  },
+  "broader": {
+    "id": "http://www.w3.org/ns/activitystreams#Object",
+    "prefLabel": {
+      "en": "Object",
+      "de": "Objekt",
+      "fr": "Objet",
+      "es": "Objeto"
+    }
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -133,69 +142,7 @@
       "@container": "@set"
     }
   }
-}  "@id": "dct:created",
-      "@type": "xsd:date"
-    },
-    "modified": {
-      "@id": "dct:modified",
-      "@type": "xsd:date"
-    },
-    "creator": "dct:creator",
-    "publisher": "dct:publisher",
-    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
-    "preferredNamespaceUri": "vann:preferredNamespaceUri",
-    "isBasedOn": "schema:isBasedOn",
-    "source": "dct:source",
-    "prefLabel": {
-      "@container": "@language"
-    },
-    "altLabel": {
-      "@container": [
-        "@language",
-        "@set"
-      ]
-    },
-    "definition": {
-      "@container": "@language"
-    },
-    "scopeNote": {
-      "@container": "@language"
-    },
-    "note": {
-      "@container": "@language"
-    },
-    "notation": {
-      "@container": "@set"
-    },
-    "example": {
-      "@container": "@language"
-    },
-    "narrower": {
-      "@container": "@set"
-    },
-    "related": {
-      "@container": "@set"
-    },
-    "relatedMatch": {
-      "@container": "@set"
-    },
-    "narrowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
+}
     },
     "followers": "as:followers",
     "inbox": "ldp:inbox",
@@ -561,36 +508,37 @@
       "@container": "@set"
     }
   }
-} "vat ID",
-        "es": "ID del iva"
+},
+        "fr": "devise du prix",
+        "es": "moneda del precio"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/workLocation",
+      "id": "https://w3id.org/class/redaktor/priceValidUntil",
       "prefLabel": {
-        "en": "work location",
-        "de": "Arbeitsort",
-        "fr": "emplacement du travail",
-        "es": "ubicación del trabajo"
+        "en": "price valid until",
+        "de": "Preis gültig bis",
+        "fr": "prix valable jusqu'au",
+        "es": "precio válido hasta"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/worksFor",
+      "id": "https://w3id.org/class/redaktor/shippingDetails",
       "prefLabel": {
-        "en": "works for",
-        "de": "arbeitet für",
-        "fr": "travaux pour",
-        "es": "trabajos para"
+        "en": "shipping details",
+        "de": "Versanddetails",
+        "fr": "détails d'expédition",
+        "es": "detalles de envío"
       }
     }
   ],
   "broader": {
-    "id": "https://w3id.org/class/redaktor/Actor",
+    "id": "http://www.w3.org/ns/activitystreams#Activity",
     "prefLabel": {
-      "en": "Actor",
-      "de": "Akteur",
-      "fr": "Acteur",
-      "es": "Actor"
+      "en": "Activity",
+      "de": "Aktivität",
+      "fr": "Activité",
+      "es": "Actividad"
     }
   },
   "inScheme": {
@@ -696,12 +644,7 @@
       "@container": "@set"
     }
   }
-}": "membres",
-        "es": "miembros"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/naics",
+}ss/redaktor/naics",
       "prefLabel": {
         "en": "naics",
         "de": "naics",

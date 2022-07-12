@@ -1,19 +1,19 @@
 {
-  "id": "https://joinpeertube.org/ns#video",
+  "id": "https://joinpeertube.org/ns#views",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinpeertube.org%2Fns%23video",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinpeertube.org%2Fns%23video",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinpeertube.org%2Fns%23views",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinpeertube.org%2Fns%23views",
   "prefLabel": {
-    "en": "video",
-    "de": "video",
-    "fr": "video",
-    "es": "video"
+    "en": "views",
+    "de": "views",
+    "fr": "vues",
+    "es": "vistas"
   },
   "definition": {
-    "en": "Associated Video for the entry<br>in [PlaylistElement](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)",
-    "de": "Das Video des Eintrags<br>in [PlaylistElement](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)",
-    "fr": "Vidéo associée à l'entrée<br>in [PlaylistElement](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)",
-    "es": "Vídeo asociado a la entrada<br>in [PlaylistElement](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)"
+    "en": "views count of the video<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
+    "de": "Anzahl der Aufrufe<br>siehe [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
+    "fr": "nombre de vues<br>voir [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
+    "es": "conteo de vistas<br>ver [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)"
   },
   "scopeNote": {
     "en": "ActivityPub Community",
@@ -22,16 +22,13 @@
     "es": "ActivityPub Community"
   },
   "notation": [
-    "1535"
+    "1536"
   ],
-  "broader": {
-    "id": "https://joinpeertube.org/ns#PlaylistElement",
-    "prefLabel": {
-      "en": "Playlist Element",
-      "de": "Playlist Element",
-      "fr": "Playlist Element",
-      "es": "Playlist Element"
-    }
+  "example": {
+    "en": "```json \n{\n  \"type\": \"Video\",\n  \"views\": 35,\n  \"support\": \"Pay me a coffee when you see me\",\n  \"waitTranscoding\": true\n}```",
+    "de": "```json \n{\n  \"type\": \"Video\",\n  \"views\": 35,\n  \"support\": \"Pay me a coffee when you see me\",\n  \"waitTranscoding\": true\n}```",
+    "fr": "```json \n{\n  \"type\": \"Video\",\n  \"views\": 35,\n  \"support\": \"Pay me a coffee when you see me\",\n  \"waitTranscoding\": true\n}```",
+    "es": "```json \n{\n  \"type\": \"Video\",\n  \"views\": 35,\n  \"support\": \"Pay me a coffee when you see me\",\n  \"waitTranscoding\": true\n}```"
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -136,28 +133,24 @@
       "@container": "@set"
     }
   }
-}{
+}"as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}"@set"
+    },
+    "exactMatch": {
       "@container": "@set"
     },
-    "example": {
-      "@container": "@language"
-    },
-    "narrower": {
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
       "@container": "@set"
-    },
-    "related": {
-      "@container": "@set"
-    },
-    "relatedMatch": {
-      "@container": "@set"
-    },
-    "narrowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
+    }
+  }
+}dMatch": {
       "@container": "@set"
     },
     "narrowMatch": {
@@ -175,24 +168,7 @@
       "@container": "@set"
     }
   }
-}
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
+}@set"
     }
   }
 }
