@@ -1,19 +1,19 @@
 {
-  "id": "http://www.w3.org/ns/activitystreams#width",
+  "id": "http://www.w3.org/ns/activitystreams#type",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23width",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23width",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23type",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23type",
   "prefLabel": {
-    "en": "width",
-    "de": "Breite",
-    "fr": "largeur",
-    "es": "anchura"
+    "en": "type",
+    "de": "type",
+    "fr": "type",
+    "es": "type"
   },
   "definition": {
-    "en": "On a Link, specifies a hint as to the rendering width in device-independent pixels of the linked resource.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
-    "de": "Gibt bei einem Link einen Hinweis auf die Darstellungsbreite der verlinkten Ressource in geräteunabhängigen Pixeln an.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
-    "fr": "Sur un lien, spécifie une indication quant à la largeur de rendu en pixels indépendants du périphérique de la ressource liée.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)",
-    "es": "En un enlace, especifica una pista sobre el ancho de representación en píxeles independientes del dispositivo del recurso enlazado.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width)"
+    "en": "Identifies the Object or Link type. Multiple values may be specified.",
+    "de": "Identifiziert den Objekt- oder Verknüpfungstyp. Es können mehrere Werte angegeben werden.",
+    "fr": "Identifie le type d'objet ou de lien. Plusieurs valeurs peuvent être spécifiées.",
+    "es": "Identifica el tipo de objeto o enlace. Pueden especificarse varios valores"
   },
   "scopeNote": {
     "en": "as: Property",
@@ -22,13 +22,13 @@
     "es": "as: Property"
   },
   "notation": [
-    "135"
+    "102"
   ],
   "example": {
-    "en": "[Example 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```",
-    "de": "[Beispiel 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```",
-    "fr": "[Exemple 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```",
-    "es": "[Ejemplo 138](https://www.w3.org/TR/activitystreams-vocabulary/#ex159-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/image.png\",\n  \"height\": 100,\n  \"width\": 100\n}\n```"
+    "en": "[Example 62](https://www.w3.org/TR/activitystreams-vocabulary/#extype-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"A foo\",\n  \"type\": \"http://example.org/Foo\"\n}\n```",
+    "de": "[Beispiel 62](https://www.w3.org/TR/activitystreams-vocabulary/#extype-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"A foo\",\n  \"type\": \"http://example.org/Foo\"\n}\n```",
+    "fr": "[Exemple 62](https://www.w3.org/TR/activitystreams-vocabulary/#extype-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"A foo\",\n  \"type\": \"http://example.org/Foo\"\n}\n```",
+    "es": "[Ejemplo 62](https://www.w3.org/TR/activitystreams-vocabulary/#extype-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"A foo\",\n  \"type\": \"http://example.org/Foo\"\n}\n```"
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -133,7 +133,45 @@
       "@container": "@set"
     }
   }
-}  },
+}@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
     "note": {
       "@container": "@language"
     },
