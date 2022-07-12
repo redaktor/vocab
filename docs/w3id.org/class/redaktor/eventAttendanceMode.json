@@ -9,6 +9,12 @@
     "fr": "mode de présence à l'événement",
     "es": "modo de asistencia al evento"
   },
+  "definition": {
+    "en": "- http://schema.org/MixedEventAttendanceMode\n- http://schema.org/OfflineEventAttendanceMode\n- http://schema.org/OnlineEventAttendanceMode",
+    "de": "- http://schema.org/MixedEventAttendanceMode\n- http://schema.org/OfflineEventAttendanceMode\n- http://schema.org/OnlineEventAttendanceMode",
+    "fr": "- http://schema.org/MixedEventAttendanceMode\n- http://schema.org/OfflineEventAttendanceMode\n- http://schema.org/OnlineEventAttendanceMode",
+    "es": "- http://schema.org/MixedEventAttendanceMode\n- http://schema.org/OfflineEventAttendanceMode\n- http://schema.org/OnlineEventAttendanceMode"
+  },
   "notation": [
     "1476"
   ],

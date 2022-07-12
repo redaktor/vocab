@@ -133,7 +133,21 @@
       "@container": "@set"
     }
   }
-}@container": "@set"
+}  },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
     },
     "relatedMatch": {
       "@container": "@set"
@@ -149,20 +163,6 @@
     },
     "narrowMatch": {
       "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}"@set"
     },
     "closeMatch": {
       "@container": "@set"

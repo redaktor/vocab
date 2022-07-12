@@ -59,7 +59,7 @@
 :scheme a skos:ConceptScheme ;
     dct:alternative "redaktorVocab" ;
     dct:description "**Beschreibt die Funktion von Akteuren, Orten, Kontext und Anhängen im Fediverse.**<br>Das Vokabular wird im Zusammenhang mit mehreren Quellen entwickelt und gepflegt;<br>z.B. https://wikidata.org, https://themoviedb.org oder https://id.loc.gov/vocabulary/relators. Die zugrundeliegende Turtle Datei enthält das mapping mit Konvertierungs-Schemas [WIP]"@de,
-    "**Describes the function of actors, places, context and attachment in the fediverse.**<br>The vocabulary is developed and maintained in the context of multiple sources,<br>e.g. https://wikidata.org, https://themoviedb.org or https://id.loc.gov/vocabulary/relators <br>The underlying turtle file maintains the mapping with conversion schemes [WIP]"@en,
+    "**Describes functions of actors, places, context and attachment in the fediverse.**<br>The vocabulary is developed and maintained in the context of multiple sources,<br>e.g. https://wikidata.org, https://themoviedb.org or https://id.loc.gov/vocabulary/relators <br>The underlying turtle file maintains the mapping with conversion schemes [WIP]"@en,
     "**Décrit la fonction des acteurs, des lieux, du contexte et de l'attachement dans le fediverse.**<br>Le vocabulaire est développé et entretenu dans le contexte de sources multiples,<br>par ex. https://wikidata.org, https://themoviedb.org or https://id.loc.gov/vocabulary/relators <br>Le fichier tortue sous-jacent maintient la correspondance avec les schémas de conversion [WIP]"@fr,
     "**Describe la función de los actores, los lugares, el contexto y el apego en el fediverse.**<br>El vocabulario se desarrolla y se mantiene en el contexto de múltiples fuentes,<br>por ejemplo https://wikidata.org, https://themoviedb.org o https://id.loc.gov/vocabulary/relators <br>El archivo de tortuga subyacente mantiene el mapeo con los esquemas de conversión [WIP]"@es ;
     dct:issued "2022-04-10"^^xsd:date ;
@@ -1996,7 +1996,7 @@ as:outbox a owl:ObjectProperty, skos:Concept ;
     )
   ] .
 
-as:preferredUsername a owl:ObjectProperty, skos:Concept ;
+as:preferredUsername a owl:DatatypeProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader :Actor ;
   skos:notation "171" ;
@@ -2073,7 +2073,7 @@ as:endpoints a owl:ObjectProperty, skos:Concept ;
     "Una clase que describe las propiedades de los `endpoints` de los actores."@es ;
   rdfs:label "Endpoints"@en .
 
-as:proxyUrl a owl:ObjectProperty, skos:Concept ;
+as:proxyUrl a owl:DatatypeProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:endpoints ;
   skos:notation "175" ;
@@ -2087,7 +2087,7 @@ as:proxyUrl a owl:ObjectProperty, skos:Concept ;
 	rdfs:domain :Endpoints ;
 	rdfs:range xsd:anyURI .
 
-as:oauthAuthorizationEndpoint a owl:ObjectProperty, skos:Concept ;
+as:oauthAuthorizationEndpoint a owl:DatatypeProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:endpoints ;
   skos:notation "176" ;
@@ -2101,7 +2101,7 @@ as:oauthAuthorizationEndpoint a owl:ObjectProperty, skos:Concept ;
 	rdfs:domain :Endpoints ;
 	rdfs:range xsd:anyURI .
 
-as:oauthTokenEndpoint a owl:ObjectProperty, skos:Concept ;
+as:oauthTokenEndpoint a owl:DatatypeProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:endpoints ;
   skos:notation "177" ;
@@ -2115,7 +2115,7 @@ as:oauthTokenEndpoint a owl:ObjectProperty, skos:Concept ;
 	rdfs:domain :Endpoints ;
 	rdfs:range xsd:anyURI .
 
-as:provideClientKey a owl:ObjectProperty, skos:Concept ;
+as:provideClientKey a owl:DatatypeProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:endpoints ;
   skos:notation "178" ;
@@ -2129,7 +2129,7 @@ as:provideClientKey a owl:ObjectProperty, skos:Concept ;
 	rdfs:domain :Endpoints ;
 	rdfs:range xsd:anyURI .
 
-as:signClientKey a owl:ObjectProperty, skos:Concept ;
+as:signClientKey a owl:DatatypeProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:endpoints ;
   skos:notation "179" ;
@@ -2143,7 +2143,7 @@ as:signClientKey a owl:ObjectProperty, skos:Concept ;
 	rdfs:domain :Endpoints ;
 	rdfs:range xsd:anyURI .
 
-as:sharedInbox a owl:ObjectProperty, skos:Concept ;
+as:sharedInbox a owl:DatatypeProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:endpoints ;
   skos:notation "180" ;
@@ -2157,7 +2157,7 @@ as:sharedInbox a owl:ObjectProperty, skos:Concept ;
 	rdfs:domain :Endpoints ;
 	rdfs:range xsd:anyURI .
 
-as:uploadMedia a owl:ObjectProperty, skos:Concept ;
+as:uploadMedia a owl:DatatypeProperty, skos:Concept ;
  skos:inScheme :scheme ;
  skos:broader as:endpoints, :litepubPleroma ;
  skos:notation "181" ;
@@ -3146,7 +3146,7 @@ as:sensitive a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
 #     The Security Vocabulary  -  w3c-ccg.github.io/security-vocab
 #
 #################################################################
-sec:owner a owl:ObjectProperty, skos:Concept ;
+sec:owner a owl:DatatypeProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader sec:publicKey ;
   skos:notation "159" ;
@@ -3164,7 +3164,7 @@ sec:owner a owl:ObjectProperty, skos:Concept ;
   rdfs:domain as:Object ;
   rdfs:range xsd:anyURI .
 
-sec:publicKey a owl:ObjectProperty, skos:Concept ;
+sec:publicKey a owl:DatatypeProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader :Actor ;
   skos:notation "160" ;
@@ -3182,7 +3182,7 @@ sec:publicKey a owl:ObjectProperty, skos:Concept ;
   rdfs:domain as:Object ;
   rdfs:range xsd:anyURI .
 
-sec:publicKeyPem a owl:ObjectProperty, skos:Concept ;
+sec:publicKeyPem a owl:DatatypeProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader sec:publicKey ;
   skos:notation "161" ;
@@ -3221,7 +3221,7 @@ sec:signature a owl:ObjectProperty, skos:Concept ;
     owl:unionOf (as:Object as:Link)
   ] .
 
-sec:signatureAlgorithm a owl:ObjectProperty, skos:Concept ;
+sec:signatureAlgorithm a owl:DatatypeProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader sec:signature ;
   skos:notation "163" ;
@@ -3239,7 +3239,7 @@ sec:signatureAlgorithm a owl:ObjectProperty, skos:Concept ;
   rdfs:domain as:Object ;
   rdfs:range xsd:anyURI .
 
-sec:signatureValue a owl:ObjectProperty, skos:Concept ;
+sec:signatureValue a owl:DatatypeProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader sec:signature ;
   skos:notation "164" ;
@@ -3435,7 +3435,7 @@ toot:IdentityProof a owl:Class, skos:Concept ;
   rdfs:label "IdentityProof"@en ;
   rdfs:subClassOf as:Object .
 
-toot:blurhash a owl:ObjectProperty, skos:Concept ;
+toot:blurhash a owl:DatatypeProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Image, :mastodon, :redaktor ;
   skos:notation "1513" ;
@@ -3453,7 +3453,7 @@ toot:blurhash a owl:ObjectProperty, skos:Concept ;
   rdfs:domain as:Image ;
   rdfs:range xsd:string .
 
-toot:focalPoint a owl:ObjectProperty, skos:Concept ;
+toot:focalPoint a owl:DatatypeProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Image, :mastodon, :redaktor ;
   skos:notation "1514" ;
@@ -3469,9 +3469,7 @@ toot:focalPoint a owl:ObjectProperty, skos:Concept ;
   skos:scopeNote "ActivityPub Community"@de, "ActivityPub Community"@en, "ActivityPub Community"@fr, "ActivityPub Community"@es ;
   rdfs:label "focalPoint"@en ;
   rdfs:domain as:Image ;
-  rdfs:range [
-    a xsd:float
-  ] .
+  rdfs:range xsd:float .
 
 toot:featured a owl:ObjectProperty, skos:Concept ;
   skos:inScheme :scheme ;
@@ -3516,7 +3514,7 @@ toot:featuredTags a owl:ObjectProperty, skos:Concept ;
     owl:unionOf (toot:Hashtag as:Link)
   ] .
 
-toot:discoverable a owl:ObjectProperty, skos:Concept ;
+toot:discoverable a owl:DatatypeProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Actor, :mastodon, :redaktor ;
   skos:notation "1517" ;
@@ -3534,7 +3532,7 @@ toot:discoverable a owl:ObjectProperty, skos:Concept ;
   rdfs:domain as:Object ;
   rdfs:range xsd:boolean .
 
-toot:suspended a owl:ObjectProperty, skos:Concept ;
+toot:suspended a owl:DatatypeProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Actor, :mastodon, :redaktor ;
   skos:notation "1518" ;
@@ -3552,7 +3550,7 @@ toot:suspended a owl:ObjectProperty, skos:Concept ;
   rdfs:label "suspended"@en ;
   rdfs:range xsd:boolean .
 
-toot:votersCount a owl:ObjectProperty, skos:Concept ;
+toot:votersCount a owl:DatatypeProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Question, :mastodon, :redaktor ;
   skos:notation "1519" ;
@@ -10221,9 +10219,12 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       a owl:Class ;
       owl:unionOf (as:Group as:Organization as:Place schema:LeaveAction schema:JoinAction schema:InformAction schema:PlayAction schema:InviteAction as:Link)
     ] ;
-    rdfs:range xsd:anyURI .
+    rdfs:range [
+      a owl:Class ;
+      owl:unionOf ( as:Link as:Event )
+    ] .
 
-  :hasDriveThroughService a owl:ObjectProperty, skos:Concept ;
+  :hasDriveThroughService a owl:DatatypeProperty, skos:Concept ;
     skos:exactMatch schema:hasDriveThroughService ;
     skos:inScheme :scheme ;
     skos:broader as:Place, :redaktor ;
@@ -10236,7 +10237,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:scopeNote as:Place ;
     rdfs:label "hasDriveThroughService"@en ;
     rdfs:domain as:Place ;
-    rdfs:range xsd:anyURI .
+    rdfs:range xsd:boolean .
 
   :hoursAvailable a owl:ObjectProperty, skos:Concept ;
     skos:exactMatch schema:hoursAvailable ;
@@ -10277,7 +10278,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     ] ;
     rdfs:range xsd:boolean .
 
-  :publicAccess a owl:ObjectProperty, skos:Concept ;
+  :publicAccess a owl:DatatypeProperty, skos:Concept ;
     skos:exactMatch schema:publicAccess ;
     skos:inScheme :scheme ;
     skos:broader as:Place, :redaktor ;
@@ -10290,7 +10291,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:scopeNote as:Place ;
     rdfs:label "publicAccess"@en ;
     rdfs:domain as:Place ;
-    rdfs:range xsd:anyURI .
+    rdfs:range xsd:boolean .
 
   :slogan a owl:DatatypeProperty, skos:Concept ;
     skos:exactMatch schema:slogan ;
@@ -10310,7 +10311,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     ] ;
     rdfs:range xsd:string .
 
-  :smokingAllowed a owl:ObjectProperty, skos:Concept ;
+  :smokingAllowed a owl:DatatypeProperty, skos:Concept ;
     skos:exactMatch schema:smokingAllowed ;
     skos:inScheme :scheme ;
     skos:broader as:Place, :redaktor ;
@@ -10323,7 +10324,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:scopeNote as:Place ;
     rdfs:label "smokingAllowed"@en ;
     rdfs:domain as:Place ;
-    rdfs:range xsd:anyURI .
+    rdfs:range xsd:boolean .
 
 
 :telephone a owl:DatatypeProperty, skos:Concept ;
@@ -11043,7 +11044,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     rdfs:subClassOf :PublicationEvent .
 
 
-  :previousStartDate a owl:ObjectProperty, skos:Concept ;
+  :previousStartDate a owl:DatatypeProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Event, :redaktor ;
     skos:notation "1472" ;
@@ -11051,29 +11052,61 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:scopeNote as:Event ;
     rdfs:label "previousStartDate"@en ;
     rdfs:domain as:Object ;
-    rdfs:range xsd:anyURI .
+    rdfs:range xsd:dateTime .
 
-  :eventAttendanceMode a owl:ObjectProperty, skos:Concept ;
+  :eventAttendanceMode a owl:DatatypeProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Event, :redaktor ;
     skos:notation "1476" ;
     skos:prefLabel "Anwesenheitsmodus der Veranstaltung"@de, "event attendance mode"@en, "mode de présence à l'événement"@fr, "modo de asistencia al evento"@es ;
+    skos:definition "- http://schema.org/MixedEventAttendanceMode\n- http://schema.org/OfflineEventAttendanceMode\n- http://schema.org/OnlineEventAttendanceMode"@de,
+      "- http://schema.org/MixedEventAttendanceMode\n- http://schema.org/OfflineEventAttendanceMode\n- http://schema.org/OnlineEventAttendanceMode"@en,
+      "- http://schema.org/MixedEventAttendanceMode\n- http://schema.org/OfflineEventAttendanceMode\n- http://schema.org/OnlineEventAttendanceMode"@fr,
+      "- http://schema.org/MixedEventAttendanceMode\n- http://schema.org/OfflineEventAttendanceMode\n- http://schema.org/OnlineEventAttendanceMode"@es ;
     skos:scopeNote as:Event ;
     rdfs:label "eventAttendanceMode"@en ;
     rdfs:domain as:Object ;
-    rdfs:range xsd:anyURI .
+    rdfs:range [
+      a rdfs:Datatype ;
+      owl:unionOf (
+        [ a rdfs:Datatype ;
+          owl:oneOf (
+        "https://schema.org/MixedEventAttendanceMode"
+        "https://schema.org/OfflineEventAttendanceMode"
+        "https://schema.org/OnlineEventAttendanceMode"
+          )
+        ]
+        xsd:anyURI )
+    ] .
 
-  :eventStatus a owl:ObjectProperty, skos:Concept ;
+  :eventStatus a owl:DatatypeProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Event, :redaktor ;
     skos:notation "1477" ;
     skos:prefLabel "Status der Veranstaltung"@de, "event status"@en, "statut de l'événement"@fr, "estado del evento"@es ;
+    skos:definition "- http://schema.org/EventCancelled\n- http://schema.org/EventMovedOnline\n- http://schema.org/EventPostponed\n- http://schema.org/EventRescheduled\n- http://schema.org/EventScheduled"@de,
+      "- http://schema.org/EventCancelled\n- http://schema.org/EventMovedOnline\n- http://schema.org/EventPostponed\n- http://schema.org/EventRescheduled\n- http://schema.org/EventScheduled"@en,
+      "- http://schema.org/EventCancelled\n- http://schema.org/EventMovedOnline\n- http://schema.org/EventPostponed\n- http://schema.org/EventRescheduled\n- http://schema.org/EventScheduled"@fr,
+      "- http://schema.org/EventCancelled\n- http://schema.org/EventMovedOnline\n- http://schema.org/EventPostponed\n- http://schema.org/EventRescheduled\n- http://schema.org/EventScheduled"@es ;
     skos:scopeNote as:Event ;
     rdfs:label "eventStatus"@en ;
     rdfs:domain as:Object ;
-    rdfs:range xsd:anyURI .
+    rdfs:range [
+      a rdfs:Datatype ;
+      owl:unionOf (
+        [ a rdfs:Datatype ;
+          owl:oneOf (
+        "https://schema.org/EventCancelled"
+        "https://schema.org/EventMovedOnline"
+        "https://schema.org/EventPostponed"
+        "https://schema.org/EventRescheduled"
+        "https://schema.org/EventScheduled"
+          )
+        ]
+        xsd:anyURI )
+    ] .
 
-  :maximumPhysicalAttendeeCapacity a owl:ObjectProperty, skos:Concept ;
+  :maximumPhysicalAttendeeCapacity a owl:DatatypeProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Event, :redaktor ;
     skos:notation "1479" ;
@@ -11081,9 +11114,9 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:scopeNote as:Event ;
     rdfs:label "maximumPhysicalAttendeeCapacity"@en ;
     rdfs:domain as:Object ;
-    rdfs:range xsd:anyURI .
+    rdfs:range xsd:nonNegativeInteger .
 
-  :maximumVirtualAttendeeCapacity a owl:ObjectProperty, skos:Concept ;
+  :maximumVirtualAttendeeCapacity a owl:DatatypeProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Event, :redaktor ;
     skos:notation "1480" ;
@@ -11091,7 +11124,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:scopeNote as:Event ;
     rdfs:label "maximumVirtualAttendeeCapacity"@en ;
     rdfs:domain as:Object ;
-    rdfs:range xsd:anyURI .
+    rdfs:range xsd:nonNegativeInteger .
 
   #################################################################
   #

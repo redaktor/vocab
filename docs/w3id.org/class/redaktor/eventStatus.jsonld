@@ -9,6 +9,12 @@
     "fr": "statut de l'événement",
     "es": "estado del evento"
   },
+  "definition": {
+    "en": "- http://schema.org/EventCancelled\n- http://schema.org/EventMovedOnline\n- http://schema.org/EventPostponed\n- http://schema.org/EventRescheduled\n- http://schema.org/EventScheduled",
+    "de": "- http://schema.org/EventCancelled\n- http://schema.org/EventMovedOnline\n- http://schema.org/EventPostponed\n- http://schema.org/EventRescheduled\n- http://schema.org/EventScheduled",
+    "fr": "- http://schema.org/EventCancelled\n- http://schema.org/EventMovedOnline\n- http://schema.org/EventPostponed\n- http://schema.org/EventRescheduled\n- http://schema.org/EventScheduled",
+    "es": "- http://schema.org/EventCancelled\n- http://schema.org/EventMovedOnline\n- http://schema.org/EventPostponed\n- http://schema.org/EventRescheduled\n- http://schema.org/EventScheduled"
+  },
   "notation": [
     "1477"
   ],
