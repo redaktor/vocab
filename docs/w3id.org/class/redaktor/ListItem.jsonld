@@ -5,9 +5,9 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FListItem",
   "prefLabel": {
     "en": "List Item",
-    "de": "Artikel auflisten",
-    "fr": "Liste d'éléments",
-    "es": "Lista de elementos"
+    "de": "Listeneintrag",
+    "fr": "Entrée dans la liste",
+    "es": "Entrada en la lista"
   },
   "definition": {
     "en": "An list item, e.g. a step in a checklist or how-to description.",

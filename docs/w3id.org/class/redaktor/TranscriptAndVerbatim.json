@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTranscriptAndVerbatim",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTranscriptAndVerbatim",
   "prefLabel": {
-    "en": "Transcript and Verbatim",
-    "de": "Abschrift und Ausführlicher Text",
+    "en": "Transcript or Verbatim",
+    "de": "Abschrift oder Verlaufsprotokoll",
     "fr": "Transcription et Verbatim",
     "es": "Transcripción y literal"
   },

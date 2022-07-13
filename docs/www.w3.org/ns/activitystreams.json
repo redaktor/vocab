@@ -1,19 +1,19 @@
 {
-  "id": "http://www.w3.org/ns/activitystreams#url",
+  "id": "http://www.w3.org/ns/activitystreams#relationship",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23url",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23url",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23relationship",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fwww.w3.org%2Fns%2Factivitystreams%23relationship",
   "prefLabel": {
-    "en": "url",
-    "de": "url",
-    "fr": "url",
-    "es": "url"
+    "en": "relationship",
+    "de": "Beziehung",
+    "fr": "relation",
+    "es": "relación"
   },
   "definition": {
-    "en": "Identifies one or more links to representations of the object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)",
-    "de": "Kennzeichnet einen oder mehrere Links zu Darstellungen des Objekts.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)",
-    "fr": "Identifie un ou plusieurs liens vers des représentations de l'objet.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)",
-    "es": "Identifica uno o varios enlaces a representaciones del objeto.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url)"
+    "en": "On a Relationship object, the relationship property identifies the kind of relationship that exists between subject and object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-relationship-term](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-relationship-term)",
+    "de": "Bei einem Beziehungsobjekt identifiziert die Eigenschaft relationship die Art der Beziehung, die zwischen Subjekt und Objekt besteht.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-relationship-term](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-relationship-term)",
+    "fr": "Sur un objet Relationship, la propriété relationship identifie le type de relation qui existe entre le sujet et l'objet.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-relationship-term](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-relationship-term)",
+    "es": "En un objeto de relación, la propiedad relationship identifica el tipo de relación que existe entre el sujeto y el objeto.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-relationship-term](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-relationship-term)"
   },
   "scopeNote": {
     "en": "as: Property",
@@ -22,21 +22,21 @@
     "es": "as: Property"
   },
   "notation": [
-    "146"
+    "3211"
   ],
   "example": {
-    "en": "[Example 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Document\",\n  \"name\": \"4Q Sales Forecast\",\n  \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n}\n```",
-    "de": "[Beispiel 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Document\",\n  \"name\": \"4Q Sales Forecast\",\n  \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n}\n```",
-    "fr": "[Exemple 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Document\",\n  \"name\": \"4Q Sales Forecast\",\n  \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n}\n```",
-    "es": "[Ejemplo 109](https://www.w3.org/TR/activitystreams-vocabulary/#ex124-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Document\",\n  \"name\": \"4Q Sales Forecast\",\n  \"url\": \"http://example.org/4q-sales-forecast.pdf\"\n}\n```"
+    "en": "[Example 140](https://www.w3.org/TR/activitystreams-vocabulary/#ex22c-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally is an acquaintance of John's\",\n  \"type\": \"Relationship\",\n  \"subject\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"relationship\": \"http://purl.org/vocab/relationship/acquaintanceOf\",\n  \"object\": {\n    \"type\": \"Person\",\n    \"name\": \"John\"\n  }\n}\n```",
+    "de": "[Beispiel 140](https://www.w3.org/TR/activitystreams-vocabulary/#ex22c-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally is an acquaintance of John's\",\n  \"type\": \"Relationship\",\n  \"subject\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"relationship\": \"http://purl.org/vocab/relationship/acquaintanceOf\",\n  \"object\": {\n    \"type\": \"Person\",\n    \"name\": \"John\"\n  }\n}\n```",
+    "fr": "[Exemple 140](https://www.w3.org/TR/activitystreams-vocabulary/#ex22c-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally is an acquaintance of John's\",\n  \"type\": \"Relationship\",\n  \"subject\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"relationship\": \"http://purl.org/vocab/relationship/acquaintanceOf\",\n  \"object\": {\n    \"type\": \"Person\",\n    \"name\": \"John\"\n  }\n}\n```",
+    "es": "[Ejemplo 140](https://www.w3.org/TR/activitystreams-vocabulary/#ex22c-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally is an acquaintance of John's\",\n  \"type\": \"Relationship\",\n  \"subject\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"relationship\": \"http://purl.org/vocab/relationship/acquaintanceOf\",\n  \"object\": {\n    \"type\": \"Person\",\n    \"name\": \"John\"\n  }\n}\n```"
   },
   "broader": {
-    "id": "http://www.w3.org/ns/activitystreams#Object",
+    "id": "http://www.w3.org/ns/activitystreams#Relationship",
     "prefLabel": {
-      "en": "Object",
-      "de": "Objekt",
-      "fr": "Objet",
-      "es": "Objeto"
+      "en": "Relationship",
+      "de": "Beziehung",
+      "fr": "Relation",
+      "es": "Relación"
     }
   },
   "inScheme": {
@@ -142,27 +142,7 @@
       "@container": "@set"
     }
   }
-}guage"
-    },
-    "narrower": {
-      "@container": "@set"
-    },
-    "related": {
-      "@container": "@set"
-    },
-    "relatedMatch": {
-      "@container": "@set"
-    },
-    "narrowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
+}{
       "@container": "@set"
     },
     "closeMatch": {
@@ -170,52 +150,6 @@
     },
     "exactMatch": {
       "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}    },
-    "relatedMatch": {
-      "@container": "@set"
-    },
-    "narrowerTransitive": {
-      "@container": "@set"
-    },
-    "broaderTransitive": {
-      "@container": "@set"
-    },
-    "broadMatch": {
-      "@container": "@set"
-    },
-    "narrowMatch": {
-      "@container": "@set"
-    },
-    "closeMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
-      "@container": "@set"
-    },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
-    "hasTopConcept": {
-      "@container": "@set"
-    }
-  }
-}
     },
     "followers": "as:followers",
     "inbox": "ldp:inbox",
@@ -953,7 +887,8 @@
       "@container": "@set"
     }
   }
-}": "available delivery method",
+}      "prefLabel": {
+        "en": "available delivery method",
         "de": "verfügbare Liefermethode",
         "fr": "méthode de livraison disponible",
         "es": "método de entrega disponible"

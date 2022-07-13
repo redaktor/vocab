@@ -4,10 +4,10 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FOrderItem",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FOrderItem",
   "prefLabel": {
-    "en": "Order Item",
-    "de": "Artikel bestellen",
-    "fr": "Article de commande",
-    "es": "Pedir artículo"
+    "en": "Item Order",
+    "de": "Artikelbestellung",
+    "fr": "Commande d'articles",
+    "es": "Pedido de artículos"
   },
   "definition": {
     "en": "An order item is a line of an order. It includes the quantity and shipping details of a bought offer.",

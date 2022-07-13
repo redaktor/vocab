@@ -59,7 +59,7 @@
       "id": "https://w3id.org/class/redaktor/elevation",
       "prefLabel": {
         "en": "elevation",
-        "de": "Aufzug",
+        "de": "Erhebung",
         "fr": "élévation",
         "es": "elevación"
       }
@@ -68,7 +68,7 @@
       "id": "https://w3id.org/class/redaktor/line",
       "prefLabel": {
         "en": "line",
-        "de": "Leitung",
+        "de": "Linie",
         "fr": "ligne",
         "es": "línea"
       }

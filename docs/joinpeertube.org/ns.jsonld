@@ -1,19 +1,19 @@
 {
-  "id": "https://joinpeertube.org/ns#commentsEnabled",
+  "id": "https://joinpeertube.org/ns#views",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinpeertube.org%2Fns%23commentsEnabled",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinpeertube.org%2Fns%23commentsEnabled",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinpeertube.org%2Fns%23views",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinpeertube.org%2Fns%23views",
   "prefLabel": {
-    "en": "comments enabled",
-    "de": "Kommentare aktiviert",
-    "fr": "commentaires activés",
-    "es": "comentarios habilitados"
+    "en": "views",
+    "de": "views",
+    "fr": "vues",
+    "es": "vistas"
   },
   "definition": {
-    "en": "Enable or disable comments for this video.<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1) - fallback for mobilizon",
-    "de": "Aktiviere oder deaktiviere Kommentare für dieses Video.<br>siehe [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1) - fallback für mobilizon",
-    "fr": "Activer ou désactiver les commentaires pour cette vidéo.<br>voir [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1) - fallback for mobilizon",
-    "es": "Activar o desactivar los comentarios para este vídeo.<br>ver [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1) - fallback for mobilizon"
+    "en": "views count of the video<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
+    "de": "Anzahl der Aufrufe<br>siehe [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
+    "fr": "nombre de vues<br>voir [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
+    "es": "conteo de vistas<br>ver [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)"
   },
   "scopeNote": {
     "en": "ActivityPub Community",
@@ -22,13 +22,13 @@
     "es": "ActivityPub Community"
   },
   "notation": [
-    "1523"
+    "1536"
   ],
   "example": {
-    "en": "```json \n{\n  \"type\": \"Video\",\n  \"commentsEnabled\": true,\n  \"downloadEnabled\": true\n}```",
-    "de": "```json \n{\n  \"type\": \"Video\",\n  \"commentsEnabled\": true,\n  \"downloadEnabled\": true\n}```",
-    "fr": "```json \n{\n  \"type\": \"Video\",\n  \"commentsEnabled\": true,\n  \"downloadEnabled\": true\n}```",
-    "es": "```json \n{\n  \"type\": \"Video\",\n  \"commentsEnabled\": true,\n  \"downloadEnabled\": true\n}```"
+    "en": "```json \n{\n  \"type\": \"Video\",\n  \"views\": 35,\n  \"support\": \"Pay me a coffee when you see me\",\n  \"waitTranscoding\": true\n}```",
+    "de": "```json \n{\n  \"type\": \"Video\",\n  \"views\": 35,\n  \"support\": \"Pay me a coffee when you see me\",\n  \"waitTranscoding\": true\n}```",
+    "fr": "```json \n{\n  \"type\": \"Video\",\n  \"views\": 35,\n  \"support\": \"Pay me a coffee when you see me\",\n  \"waitTranscoding\": true\n}```",
+    "es": "```json \n{\n  \"type\": \"Video\",\n  \"views\": 35,\n  \"support\": \"Pay me a coffee when you see me\",\n  \"waitTranscoding\": true\n}```"
   },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
@@ -133,7 +133,17 @@
       "@container": "@set"
     }
   }
-}   },
+}
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
     "followers": "as:followers",
     "inbox": "ldp:inbox",
     "hasTopConcept": {

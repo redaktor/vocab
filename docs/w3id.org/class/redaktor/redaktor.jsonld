@@ -73,10 +73,10 @@
     {
       "id": "https://w3id.org/class/redaktor/AlignmentObject",
       "prefLabel": {
-        "en": "Alignment Object",
-        "de": "Ausrichtung Objekt",
-        "fr": "Objet de l'alignement",
-        "es": "Objeto de alineación"
+        "en": "Learning alignment",
+        "de": "Lernmittel-Ausrichtung",
+        "fr": "Orientation des outils d'apprentissage",
+        "es": "Orientación de los recursos de aprendizaje"
       }
     },
     {
@@ -109,10 +109,10 @@
     {
       "id": "https://w3id.org/class/redaktor/DefinedTerm",
       "prefLabel": {
-        "en": "Defined Term",
-        "de": "Definierter Begriff",
-        "fr": "Terme défini",
-        "es": "Término definido"
+        "en": "Definition",
+        "de": "Definition",
+        "fr": "Définition",
+        "es": "Definición"
       }
     },
     {
@@ -146,7 +146,7 @@
       "id": "https://w3id.org/class/redaktor/ItemList",
       "prefLabel": {
         "en": "Item List",
-        "de": "Punkt Liste",
+        "de": "Punkte-Liste",
         "fr": "Liste d'éléments",
         "es": "Lista de elementos"
       }
@@ -155,18 +155,18 @@
       "id": "https://w3id.org/class/redaktor/ListItem",
       "prefLabel": {
         "en": "List Item",
-        "de": "Artikel auflisten",
-        "fr": "Liste d'éléments",
-        "es": "Lista de elementos"
+        "de": "Listeneintrag",
+        "fr": "Entrée dans la liste",
+        "es": "Entrada en la lista"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/OrderItem",
       "prefLabel": {
-        "en": "Order Item",
-        "de": "Artikel bestellen",
-        "fr": "Article de commande",
-        "es": "Pedir artículo"
+        "en": "Item Order",
+        "de": "Artikelbestellung",
+        "fr": "Commande d'articles",
+        "es": "Pedido de artículos"
       }
     },
     {
@@ -5858,15 +5858,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/blogPosts",
-      "prefLabel": {
-        "en": "blog posts",
-        "de": "Blog-Beiträge",
-        "fr": "blog posts",
-        "es": "entradas del blog"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/boardingPolicy",
       "prefLabel": {
         "en": "boarding policy",
@@ -6743,7 +6734,7 @@
       "id": "https://w3id.org/class/redaktor/elevation",
       "prefLabel": {
         "en": "elevation",
-        "de": "Aufzug",
+        "de": "Erhebung",
         "fr": "élévation",
         "es": "elevación"
       }
@@ -7706,7 +7697,7 @@
       "id": "https://w3id.org/class/redaktor/line",
       "prefLabel": {
         "en": "line",
-        "de": "Leitung",
+        "de": "Linie",
         "fr": "ligne",
         "es": "línea"
       }

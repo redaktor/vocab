@@ -5,9 +5,9 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCurtainRaiser",
   "prefLabel": {
     "en": "Curtain Raiser",
-    "de": "Vorhang auf",
-    "fr": "Levée de rideau",
-    "es": "Apertura del telón"
+    "de": "Auftakt",
+    "fr": "Ouverture",
+    "es": "Inicio"
   },
   "definition": {
     "en": "Information or kickoff piece for a live event that is about to take place",

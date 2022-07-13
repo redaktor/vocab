@@ -126,14 +126,7 @@
       "@container": "@set"
     }
   }
-}   "@container": "@set"
-    },
-    "related": {
-      "@container": "@set"
-    },
-    "relatedMatch": {
-      "@container": "@set"
-    },
+}},
     "narrowerTransitive": {
       "@container": "@set"
     },

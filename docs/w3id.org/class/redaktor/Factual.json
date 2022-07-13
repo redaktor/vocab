@@ -3,12 +3,6 @@
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FFactual",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FFactual",
-  "prefLabel": {
-    "en": "Factual",
-    "de": "Sachbezogen, Faktisch",
-    "fr": "Factuel",
-    "es": "Factual"
-  },
   "definition": {
     "en": "The object contains material relating to a factual program and/or event",
     "de": "Das Objekt enthält Material, das sich auf ein sachbezogenes Programm und/oder Ereignis bezieht.",
@@ -119,9 +113,9 @@
       "id": "https://w3id.org/class/redaktor/CurtainRaiser",
       "prefLabel": {
         "en": "Curtain Raiser",
-        "de": "Vorhang auf",
-        "fr": "Levée de rideau",
-        "es": "Apertura del telón"
+        "de": "Auftakt",
+        "fr": "Ouverture",
+        "es": "Inicio"
       }
     },
     {
@@ -281,7 +275,7 @@
       "id": "https://w3id.org/class/redaktor/Review",
       "prefLabel": {
         "en": "Review",
-        "de": "Rückblick",
+        "de": "Kritik",
         "fr": "Revue",
         "es": "Crítica"
       }

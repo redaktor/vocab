@@ -4,10 +4,24 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FDefinedTerm",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FDefinedTerm",
   "prefLabel": {
-    "en": "Defined Term",
-    "de": "Definierter Begriff",
-    "fr": "Terme défini",
-    "es": "Término definido"
+    "en": "Definition",
+    "de": "Definition",
+    "fr": "Définition",
+    "es": "Definición"
+  },
+  "altLabel": {
+    "en": [
+      "Defined Term"
+    ],
+    "de": [
+      "Definierter Begriff"
+    ],
+    "fr": [
+      "Terme défini"
+    ],
+    "es": [
+      "Término definido"
+    ]
   },
   "definition": {
     "en": "A word, name, acronym, phrase, etc. with a formal definition. Often used in the context of category or subject classification, glossaries or dictionaries, product or creative work types, etc. Use the name property for the term being defined, use termCode if the term has an alpha-numeric code allocated, use description to provide the definition of the term.",

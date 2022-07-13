@@ -5,7 +5,7 @@
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FItemList",
   "prefLabel": {
     "en": "Item List",
-    "de": "Punkt Liste",
+    "de": "Punkte-Liste",
     "fr": "Liste d'éléments",
     "es": "Lista de elementos"
   },

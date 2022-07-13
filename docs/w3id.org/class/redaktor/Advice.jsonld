@@ -19,13 +19,7 @@
     "345"
   ],
   "broader": {
-    "id": "https://w3id.org/class/redaktor/Factual",
-    "prefLabel": {
-      "en": "Factual",
-      "de": "Sachbezogen, Faktisch",
-      "fr": "Factuel",
-      "es": "Factual"
-    }
+    "id": "https://w3id.org/class/redaktor/Factual"
   },
   "exactMatch": [
     {

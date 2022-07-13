@@ -1,7 +1,7 @@
 {
   "id": "https://test.skohub.io/vocab//w3id.org/class/redaktor/AlignmentObject",
   "type": "Service",
-  "name": "Alignment Object",
+  "name": "Learning alignment",
   "preferredUsername": "766f6361622f2f773369642e6f72672f636c6173732f726564616b746f722f416c69676e6d656e744f626a656374",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAlignmentObject",
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAlignmentObject",

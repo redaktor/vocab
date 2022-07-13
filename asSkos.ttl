@@ -4400,7 +4400,8 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article, as:Note, as:Audio, as:Image, as:Video ;
     skos:notation "300" ;
-  	skos:prefLabel "Factual"@en, "Sachbezogen, Faktisch"@de, "Factuel"@fr, "Factual"@es ;
+  	skos:prefLabel "Factual"@en, "Faktisch"@de, "Factuel"@fr, "Factual"@es ;
+    skos:prefLabel "Subject-related"@en, "Sachbezogen"@de, "En rapport avec le sujet"@fr, "Hechos"@es ;
   	skos:definition	"The object contains material relating to a factual program and/or event"@en,
       "Das Objekt enthält Material, das sich auf ein sachbezogenes Programm und/oder Ereignis bezieht."@de,
       "L'objet contient du matériel relatif à un programme et/ou un événement factuel."@fr,
@@ -4572,7 +4573,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   :Trip a owl:Class, skos:Concept ;
     skos:exactMatch schema:Trip ;
     skos:inScheme :scheme ;
-    skos:broader as:Travel, as:Collection, as:Event, :mobilizon, :redaktor ;
+    skos:broader as:Travel, as:OrderedCollection, as:Event, :mobilizon, :redaktor ;
     skos:notation "74" ;
     skos:prefLabel "Reise"@de, "Trip"@en, "Voyage"@fr, "Viaje"@es ;
     skos:altLabel "Reise oder Tour"@de, "Tour or trip"@en, "Journées"@fr, "Viaje o tour"@es ;
@@ -4582,12 +4583,12 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       "Un viaje o trayecto. Un itinerario para visitar uno o varios lugares."@es ;
     skos:scopeNote as:Object ;
     rdfs:label "Trip"@en ;
-    rdfs:subClassOf as:Travel, as:Event, as:Collection .
+    rdfs:subClassOf as:Travel, as:Event, as:OrderedCollection .
 
   :Atlas a owl:Class, skos:Concept ;
     skos:exactMatch schema:Atlas ;
     skos:inScheme :scheme ;
-    skos:broader :CreativeWork, as:Collection, :redaktor ;
+    skos:broader :CreativeWork, as:OrderedCollection, :redaktor ;
     skos:notation "67" ;
     skos:prefLabel "Atlas"@de, "Atlas"@en, "Atlas"@fr, "Atlas"@es ;
     skos:definition "Eine Sammlung oder ein gebundener Band mit Karten, Diagrammen, Tafeln oder Tabellen, physisch oder in Medienform, die ein beliebiges Thema illustrieren."@de,
@@ -4596,12 +4597,12 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       "Colección o volumen encuadernado de mapas, gráficos, láminas o cuadros, físicos o en soporte, que ilustran cualquier tema."@es ;
     skos:scopeNote as:Audio, as:Article, as:Image, as:Video ;
     rdfs:label "Atlas"@en ;
-    rdfs:subClassOf :CreativeWork, as:Collection .
+    rdfs:subClassOf :CreativeWork, as:OrderedCollection .
 
   :Blog a owl:Class, skos:Concept ;
     skos:exactMatch schema:Blog ;
     skos:inScheme :scheme ;
-    skos:broader :CreativeWork, as:Collection, :redaktor ;
+    skos:broader :CreativeWork, as:OrderedCollection, :redaktor ;
     skos:notation "68" ;
     skos:prefLabel "Blog"@de, "Blog"@en, "Blog"@fr, "Blog"@es ;
     skos:definition "Ein [Blog](https://en.wikipedia.org/wiki/Blog), manchmal auch als \"Weblog\" bezeichnet. Beachten Sie, dass die einzelnen Beiträge ([BlogPosting]s) in einem [Blog] umgangssprachlich oft mit demselben Begriff bezeichnet werden."@de,
@@ -4610,12 +4611,12 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       "Un [blog](https://en.wikipedia.org/wiki/Blog), a veces llamado weblog. Tenga en cuenta que las entradas individuales [BlogPostings] de un [Blog] suelen denominarse con el mismo término."@es ;
     skos:scopeNote as:Audio, as:Article, as:Image, as:Video ;
     rdfs:label "Blog"@en ;
-    rdfs:subClassOf :CreativeWork, as:Collection .
+    rdfs:subClassOf :CreativeWork, as:OrderedCollection .
 
   :Book a owl:Class, skos:Concept ;
     skos:exactMatch schema:Book ;
     skos:inScheme :scheme ;
-    skos:broader :CreativeWork, as:Collection, :redaktor ;
+    skos:broader :CreativeWork, as:OrderedCollection, :redaktor ;
     skos:notation "69" ;
     skos:prefLabel "Buch"@de, "Book"@en, "Livre"@fr, "Libro"@es ;
     skos:definition "Ein Buch."@de,
@@ -4624,7 +4625,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       "Un libro."@es ;
     skos:scopeNote as:Audio, as:Article, as:Image, as:Video ;
     rdfs:label "Book"@en ;
-    rdfs:subClassOf :CreativeWork, as:Collection .
+    rdfs:subClassOf :CreativeWork, as:OrderedCollection .
 
   :Chapter a owl:Class, skos:Concept ;
     skos:exactMatch schema:Chapter ;
@@ -5527,28 +5528,28 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   :ImageGallery a owl:Class, skos:Concept ;
     skos:exactMatch schema:ImageGallery ;
     skos:inScheme :scheme ;
-    skos:broader as:Collection, as:Page, :redaktor ;
+    skos:broader as:OrderedCollection, as:Page, :redaktor ;
     skos:notation "70" ;
     skos:prefLabel "Bildergalerie"@de, "Image Gallery"@en, "Galerie d'images"@fr, "Galería de imágenes"@es ;
     skos:definition "Webseitentyp: Bildergalerie-Seite."@de,
       "Web page type: Image gallery page."@en,
       "Type de page Web : Page de galerie d'images."@fr,
       "El tipo de página web: Página de galería de imágenes."@es ;
-    skos:scopeNote as:Collection ;
+    skos:scopeNote as:OrderedCollection ;
     rdfs:label "ImageGallery"@en ;
     rdfs:subClassOf as:Page .
 
   :VideoGallery a owl:Class, skos:Concept ;
     skos:exactMatch schema:VideoGallery ;
     skos:inScheme :scheme ;
-    skos:broader as:Collection, as:Page, :redaktor ;
+    skos:broader as:OrderedCollection, as:Page, :redaktor ;
     skos:notation "73" ;
     skos:prefLabel "Video-Galerie"@de, "Video Gallery"@en, "Galerie de vidéos"@fr, "Galería de vídeos"@es ;
     skos:definition "Webseiten-Typ: Video-Galerie-Seite."@de,
       "Web page type: Video gallery page. See also pt:Playlist"@en,
       "Type de page Web : Page de galerie de vidéos. Voir aussi pt:Playlist"@fr,
       "Tipo de página web: Página de la galería de vídeos. Véase también pt:Lista de reproducción"@es ;
-    skos:scopeNote as:Collection ;
+    skos:scopeNote as:OrderedCollection ;
     rdfs:label "VideoGallery"@en ;
     rdfs:subClassOf as:Page .
 
@@ -5712,7 +5713,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual, as:Note ;
     skos:notation "353" ;
-  	skos:prefLabel "Curtain Raiser"@en, "Vorhang auf"@de, "Levée de rideau"@fr, "Apertura del telón"@es ;
+  	skos:prefLabel "Curtain Raiser"@en, "Auftakt"@de, "Ouverture"@fr, "Inicio"@es ;
   	skos:definition	"Information or kickoff piece for a live event that is about to take place"@en, "Information oder Auftakt für ein bevorstehendes Live-Event"@de, "Information ou pièce de lancement d'un événement en direct sur le point de se dérouler."@fr, "Información o pieza de inicio de un evento en vivo que está a punto de tener lugar"@es ;
   	skos:scopeNote as:Article, as:Note ;
   	rdfs:label "Curtain_Raiser"@en ;
@@ -5907,7 +5908,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
 
   :PhotoEssay a owl:Class, skos:Concept ;
   	skos:inScheme :scheme ;
-  	skos:broader as:Article, as:Collection ;
+  	skos:broader as:Article, as:OrderedCollection ;
     skos:notation "71" ;
     # TODO via schema CollectionPage > MediaGallery > ImageGallery
   	skos:prefLabel "Photo-essay"@en, "Foto-Essay"@de, "Essai photographique"@fr, "Foto-ensayo"@es ;
@@ -5918,11 +5919,11 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       "Un ensayo fotográfico, o fotoensayo para abreviar, es una forma de narración visual, una manera de presentar una narrativa a través de una serie de imágenes."@es ;
   	skos:scopeNote as:Article, as:Note ;
   	rdfs:label "PhotoEssay"@en ;
-    rdfs:subClassOf as:Article, as:Collection .
+    rdfs:subClassOf as:Article, as:OrderedCollection .
 
   :PhotoReportage a owl:Class, skos:Concept ;
     skos:inScheme :scheme ;
-    skos:broader as:Article, as:Collection ;
+    skos:broader as:Article, as:OrderedCollection ;
     skos:notation "72" ;
     skos:prefLabel "Photoreportage"@en, "Fotoreportage"@de, "Photoreportage"@fr, "Fotoreportaje"@es ;
     skos:definition	"A factual photographic story often with captions or text between the pictures."@en,
@@ -5932,7 +5933,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:scopeNote as:Article, as:Note ;
     rdfs:label "PhotoReportage"@en ;
     rdfs:subClassOf :Factual ;
-    rdfs:subClassOf :Factual, as:Collection .
+    rdfs:subClassOf :Factual, as:OrderedCollection .
 
   :PollsAndSurveys a owl:Class, skos:Concept ;
   	skos:exactMatch genre:Polls_and_Surveys ;
@@ -6106,7 +6107,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
     skos:notation "370" ;
-  	skos:prefLabel "Review"@en, "Rückblick"@de, "Revue"@fr, "Crítica"@es ;
+  	skos:prefLabel "Review"@en, "Kritik"@de, "Revue"@fr, "Crítica"@es ;
   	skos:definition	"A critique of a creative activity or service (for example a book, a film or a restaurant)"@en,
       "Eine Kritik einer kreativen Tätigkeit oder Dienstleistung (z. B. eines Buches, eines Films oder eines Restaurants)"@de,
       "Critique d'une activité créative ou d'un service (par exemple un livre, un film ou un restaurant)."@fr,
@@ -6292,7 +6293,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:inScheme :scheme ;
   	skos:broader as:Article, as:Note ;
     skos:notation "319" ;
-  	skos:prefLabel "Transcript and Verbatim"@en, "Abschrift und Ausführlicher Text"@de, "Transcription et Verbatim"@fr, "Transcripción y literal"@es ;
+  	skos:prefLabel "Transcript or Verbatim"@en, "Abschrift oder Verlaufsprotokoll"@de, "Transcription et Verbatim"@fr, "Transcripción y literal"@es ;
   	skos:definition	"A word-for-word account of a discussion or briefing"@en,
       "Eine wortgetreue Wiedergabe einer Diskussion oder eines Briefings"@de,
       "Compte rendu mot à mot d'une discussion ou d'un briefing."@fr,
@@ -11137,7 +11138,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
     skos:notation "28" ;
-    skos:prefLabel "Ausrichtung Objekt"@de, "Alignment Object"@en, "Objet de l'alignement"@fr, "Objeto de alineación"@es ;
+    skos:prefLabel "Lernmittel-Ausrichtung"@de, "Learning alignment"@en, "Orientation des outils d'apprentissage"@fr, "Orientación de los recursos de aprendizaje"@es ;
     skos:definition "An intangible item that describes an alignment between a learning resource and a node in an educational framework.<br><br>Should not be used where the nature of the alignment can be described using a simple property, for example to express that a resource [[teaches]] or [[assesses]] a competency."@de,
       "An intangible item that describes an alignment between a learning resource and a node in an educational framework.<br><br>Should not be used where the nature of the alignment can be described using a simple property, for example to express that a resource [[teaches]] or [[assesses]] a competency."@en,
       "An intangible item that describes an alignment between a learning resource and a node in an educational framework.<br><br>Should not be used where the nature of the alignment can be described using a simple property, for example to express that a resource [[teaches]] or [[assesses]] a competency."@fr,
@@ -11179,7 +11180,8 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
     skos:notation "33" ;
-    skos:prefLabel "Definierter Begriff"@de, "Defined Term"@en, "Terme défini"@fr, "Término definido"@es ;
+    skos:prefLabel "Definition"@de, "Definition"@en, "Définition"@fr, "Definición"@es ;
+    skos:altLabel "Definierter Begriff"@de, "Defined Term"@en, "Terme défini"@fr, "Término definido"@es ;
     skos:definition "A word, name, acronym, phrase, etc. with a formal definition. Often used in the context of category or subject classification, glossaries or dictionaries, product or creative work types, etc. Use the name property for the term being defined, use termCode if the term has an alpha-numeric code allocated, use description to provide the definition of the term."@de,
       "A word, name, acronym, phrase, etc. with a formal definition. Often used in the context of category or subject classification, glossaries or dictionaries, product or creative work types, etc. Use the name property for the term being defined, use termCode if the term has an alpha-numeric code allocated, use description to provide the definition of the term."@en,
       "A word, name, acronym, phrase, etc. with a formal definition. Often used in the context of category or subject classification, glossaries or dictionaries, product or creative work types, etc. Use the name property for the term being defined, use termCode if the term has an alpha-numeric code allocated, use description to provide the definition of the term."@fr,
@@ -11255,7 +11257,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
     skos:notation "36" ;
-    skos:prefLabel "Punkt Liste"@de, "Item List"@en, "Liste d'éléments"@fr, "Lista de elementos"@es ;
+    skos:prefLabel "Punkte-Liste"@de, "Item List"@en, "Liste d'éléments"@fr, "Lista de elementos"@es ;
     skos:definition "A list of items of any sort&#x2014;for example, Top 10 Movies About Weathermen, or Top 100 Party Songs. Not to be confused with HTML lists, which are often used only for formatting."@de,
       "A list of items of any sort&#x2014;for example, Top 10 Movies About Weathermen, or Top 100 Party Songs. Not to be confused with HTML lists, which are often used only for formatting."@en,
       "A list of items of any sort&#x2014;for example, Top 10 Movies About Weathermen, or Top 100 Party Songs. Not to be confused with HTML lists, which are often used only for formatting."@fr,
@@ -11269,7 +11271,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
     skos:notation "37" ;
-    skos:prefLabel "Artikel auflisten"@de, "List Item"@en, "Liste d'éléments"@fr, "Lista de elementos"@es ;
+    skos:prefLabel "Listeneintrag"@de, "List Item"@en, "Entrée dans la liste"@fr, "Entrada en la lista"@es ;
     skos:definition "An list item, e.g. a step in a checklist or how-to description."@de,
       "An list item, e.g. a step in a checklist or how-to description."@en,
       "An list item, e.g. a step in a checklist or how-to description."@fr,
@@ -11283,7 +11285,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader as:Object, :redaktor ;
     skos:notation "38" ;
-    skos:prefLabel "Artikel bestellen"@de, "Order Item"@en, "Article de commande"@fr, "Pedir artículo"@es ;
+    skos:prefLabel "Artikelbestellung"@de, "Item Order"@en, "Commande d'articles"@fr, "Pedido de artículos"@es ;
     skos:definition "An order item is a line of an order. It includes the quantity and shipping details of a bought offer."@de,
       "An order item is a line of an order. It includes the quantity and shipping details of a bought offer."@en,
       "An order item is a line of an order. It includes the quantity and shipping details of a bought offer."@fr,
@@ -12935,27 +12937,6 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       "A posting that is part of this blog."@es ;
     skos:scopeNote :BlogPosting ;
     rdfs:label "blogPost"@en ;
-    rdfs:domain [
-      a owl:Class ;
-      owl:unionOf ( :Blog as:Link )
-    ] ;
-    rdfs:range [
-      a owl:Class ;
-      owl:unionOf ( :BlogPosting as:Link )
-    ] .
-
-  :blogPosts a owl:ObjectProperty, skos:Concept ;
-    skos:exactMatch schema:blogPosts ;
-    skos:inScheme :scheme ;
-    skos:broader :Blog, :redaktor ;
-    skos:notation "1822" ;
-    skos:prefLabel "Blog-Beiträge"@de, "blog posts"@en, "blog posts"@fr, "entradas del blog"@es ;
-    skos:definition "Indicates a post that is part of a [[Blog]]. Note that historically, what we term a “Blog” was once known as a “weblog”, and that what we term a “BlogPosting” is now often colloquially referred to as a “blog”."@de,
-      "Indicates a post that is part of a [[Blog]]. Note that historically, what we term a “Blog” was once known as a “weblog”, and that what we term a “BlogPosting” is now often colloquially referred to as a “blog”."@en,
-      "Indicates a post that is part of a [[Blog]]. Note that historically, what we term a “Blog” was once known as a “weblog”, and that what we term a “BlogPosting” is now often colloquially referred to as a “blog”."@fr,
-      "Indicates a post that is part of a [[Blog]]. Note that historically, what we term a “Blog” was once known as a “weblog”, and that what we term a “BlogPosting” is now often colloquially referred to as a “blog”."@es ;
-    skos:scopeNote :BlogPosting ;
-    rdfs:label "blogPosts"@en ;
     rdfs:domain [
       a owl:Class ;
       owl:unionOf ( :Blog as:Link )
@@ -15017,7 +14998,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :GeoShape, schema:GeoCoordinates, :redaktor ;
     skos:notation "1925" ;
-    skos:prefLabel "Aufzug"@de, "elevation"@en, "élévation"@fr, "elevación"@es ;
+    skos:prefLabel "Erhebung"@de, "elevation"@en, "élévation"@fr, "elevación"@es ;
     skos:definition "The elevation of a location ([WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System)). Values may be of the form 'NUMBER UNIT_OF_MEASUREMENT' (e.g., '1,000 m', '3,200 ft') while numbers alone should be assumed to be a value in meters."@de,
       "The elevation of a location ([WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System)). Values may be of the form 'NUMBER UNIT_OF_MEASUREMENT' (e.g., '1,000 m', '3,200 ft') while numbers alone should be assumed to be a value in meters."@en,
       "The elevation of a location ([WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System)). Values may be of the form 'NUMBER UNIT_OF_MEASUREMENT' (e.g., '1,000 m', '3,200 ft') while numbers alone should be assumed to be a value in meters."@fr,
@@ -17660,7 +17641,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :GeoShape, :redaktor ;
     skos:notation "2063" ;
-    skos:prefLabel "Leitung"@de, "line"@en, "ligne"@fr, "línea"@es ;
+    skos:prefLabel "Linie"@de, "line"@en, "ligne"@fr, "línea"@es ;
     skos:definition "A line is a point-to-point path consisting of two or more points. A line is expressed as a series of two or more point objects separated by space."@de,
       "A line is a point-to-point path consisting of two or more points. A line is expressed as a series of two or more point objects separated by space."@en,
       "A line is a point-to-point path consisting of two or more points. A line is expressed as a series of two or more point objects separated by space."@fr,

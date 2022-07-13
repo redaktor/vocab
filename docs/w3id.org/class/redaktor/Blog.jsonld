@@ -29,15 +29,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/blogPosts",
-      "prefLabel": {
-        "en": "blog posts",
-        "de": "Blog-Beiträge",
-        "fr": "blog posts",
-        "es": "entradas del blog"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/issn",
       "prefLabel": {
         "en": "ISSN",
