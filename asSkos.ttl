@@ -1420,7 +1420,7 @@ as:latitude a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Place ;
   skos:notation "3193" ;
-  skos:prefLabel "latitude"@de, "latitude"@en, "latitude"@fr, "latitude"@es ;
+  skos:prefLabel "Latitude"@de, "latitude"@en, "latitude"@fr, "latitude"@es ;
   skos:definition "Der Breitengrad eines Ortes.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-latitude](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-latitude)"@de,
     "The latitude of a place.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-latitude](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-latitude)"@en,
     "La latitude d'un lieu.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-latitude](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-latitude)"@fr,
@@ -1439,7 +1439,7 @@ as:longitude a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader as:Place ;
   skos:notation "3194" ;
-  skos:prefLabel "longitude"@de, "longitude"@en, "longitude"@fr, "longitude"@es ;
+  skos:prefLabel "Longitude"@de, "longitude"@en, "longitude"@fr, "longitude"@es ;
   skos:definition "Der Längengrad eines Ortes.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-longitude](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-longitude)"@de,
     "The longitude of a place.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-longitude](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-longitude)"@en,
     "La longitude d'un lieu.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-longitude](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-longitude)"@fr,
@@ -8237,7 +8237,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     skos:inScheme :scheme ;
     skos:broader :LocalBusiness, :redaktor ;
     skos:notation "1000" ;
-    skos:prefLabel "Sportliche Aktivität"@de, "Sports Activity Location"@en, "Lieu d'activité sportive"@fr, "Lugar de actividad deportiva"@es ;
+    skos:prefLabel "Sportliche Aktivitäten"@de, "Sports Activity Location"@en, "Lieu d'activité sportive"@fr, "Lugar de actividad deportiva"@es ;
     skos:scopeNote as:Place ;
     schema:amenityFeature "sport=*" ;
     rdfs:label "SportsActivityLocation"@en ;

@@ -1,55 +1,23 @@
 {
-  "id": "https://joinmobilizon.org/ns#repliesModerationOptionType",
+  "id": "https://joinmobilizon.org/ns#anonymousParticipationEnabled",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinmobilizon.org%2Fns%23repliesModerationOptionType",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinmobilizon.org%2Fns%23repliesModerationOptionType",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fjoinmobilizon.org%2Fns%23anonymousParticipationEnabled",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fjoinmobilizon.org%2Fns%23anonymousParticipationEnabled",
   "prefLabel": {
-    "en": "repliesModerationOptionType",
-    "de": "repliesModerationOptionType",
-    "fr": "repliesModerationOptionType",
-    "es": "repliesModerationOptionType"
+    "en": "anonymous participation enabled",
+    "de": "anonyme Teilnahme möglich",
+    "fr": "participation anonyme autorisée",
+    "es": "participación anónima habilitada"
+  },
+  "definition": {
+    "en": "We add this boolean field to know whether or not anonymous participants can participate in an event.",
+    "de": "Wir fügen diese Boolean hinzu, um zu wissen, ob anonyme Teilnehmer an einem Ereignis teilnehmen können oder nicht.",
+    "fr": "Nous ajoutons ce champ booléen pour savoir si les participants anonymes peuvent ou non participer à un événement.",
+    "es": "Añadimos este campo booleano para saber si los participantes anónimos pueden o no participar en un evento."
   },
   "notation": [
-    "1552"
+    "1555"
   ],
-  "narrower": [
-    {
-      "id": "https://w3id.org/class/redaktor/allow_all",
-      "prefLabel": {
-        "en": "allow_all",
-        "de": "allow_all",
-        "fr": "allow_all",
-        "es": "allow_all"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/closed",
-      "prefLabel": {
-        "en": "closed",
-        "de": "closed",
-        "fr": "closed",
-        "es": "closed"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/moderated",
-      "prefLabel": {
-        "en": "moderated",
-        "de": "moderated",
-        "fr": "moderated",
-        "es": "moderated"
-      }
-    }
-  ],
-  "broader": {
-    "id": "https://joinmobilizon.org/ns#repliesModerationOption",
-    "prefLabel": {
-      "en": "repliesModerationOption",
-      "de": "repliesModerationOption",
-      "fr": "repliesModerationOption",
-      "es": "repliesModerationOption"
-    }
-  },
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
@@ -134,6 +102,26 @@
     },
     "broaderTransitive": {
       "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}set"
     },
     "broadMatch": {
       "@container": "@set"
