@@ -1,0 +1,129 @@
+{
+  "id": "https://w3id.org/class/redaktor/sharedInbox",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FsharedInbox",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FsharedInbox",
+  "prefLabel": {
+    "en": "shared inbox",
+    "de": "Shared Inbox",
+    "fr": "shared inbox",
+    "es": "shared inbox"
+  },
+  "definition": {
+    "en": "An optional endpoint used for wide delivery of publicly addressed activities and activities sent to followers. sharedInbox endpoints SHOULD also be publicly readable OrderedCollection objects containing objects addressed to the Public special collection. Reading from the sharedInbox endpoint MUST NOT present objects which are not addressed to the Public endpoint.",
+    "de": "Ein optionaler Endpunkt, der für die breite Zustellung von öffentlich adressierten Aktivitäten und Aktivitäten, die an Follower gesendet werden, verwendet wird. sharedInbox-Endpunkte SOLLTEN auch öffentlich lesbare OrderedCollection-Objekte sein, die Objekte enthalten, die an die spezielle Sammlung Public adressiert sind. Das Lesen aus dem sharedInbox-Endpunkt DARF KEINE Objekte enthalten, die nicht an den Public-Endpunkt adressiert sind.",
+    "fr": "Un point de terminaison facultatif utilisé pour une large diffusion des activités adressées au public et des activités envoyées aux suiveurs. Les points de terminaison sharedInbox DEVRAIENT également être des objets OrderedCollection lisibles par le public et contenant des objets adressés à la collection spéciale Public. La lecture du point de terminaison sharedInbox NE DOIT PAS présenter d'objets qui ne sont pas adressés au point de terminaison Public.",
+    "es": "Un punto final opcional utilizado para una amplia entrega de actividades dirigidas públicamente y actividades enviadas a los seguidores. Los puntos finales de sharedInbox DEBERÍAN ser también objetos OrderedCollection de lectura pública que contengan objetos dirigidos a la colección especial Public. La lectura del punto final sharedInbox NO DEBE presentar objetos que no estén dirigidos al punto final Public."
+  },
+  "notation": [
+    "180"
+  ],
+  "exactMatch": [
+    {
+      "id": "http://www.w3.org/ns/activitystreams#sharedInbox"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

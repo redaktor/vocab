@@ -1,0 +1,188 @@
+{
+  "id": "https://w3id.org/class/redaktor/Tombstone",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTombstone",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTombstone",
+  "prefLabel": {
+    "en": "Tombstone",
+    "de": "Tombstone",
+    "fr": "Tombstone",
+    "es": "Tombstone"
+  },
+  "definition": {
+    "en": "A Tombstone represents a content object that has been deleted. It can be used in Collections to signify that there used to be an object at this position, but it has been deleted.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tombstone](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tombstone)",
+    "de": "Ein Tombstone repräsentiert ein Inhaltsobjekt, das gelöscht wurde. Er kann in Sammlungen verwendet werden, um anzuzeigen, dass an dieser Position ein Objekt vorhanden war, das jedoch gelöscht wurde.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tombstone](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tombstone)",
+    "fr": "Un Tombstone représente un objet de contenu qui a été supprimé. Il peut être utilisé dans les collections pour signifier qu'il y avait un objet à cette position, mais qu'il a été supprimé.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tombstone](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tombstone)",
+    "es": "Un Tombstone representa un objeto de contenido que ha sido eliminado. Se puede utilizar en las Colecciones para indicar que antes había un objeto en esa posición, pero que ha sido eliminado.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tombstone](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tombstone)"
+  },
+  "scopeNote": {
+    "en": ": Object",
+    "de": ": Object",
+    "fr": ": Object",
+    "es": ": Object"
+  },
+  "notation": [
+    "21"
+  ],
+  "example": {
+    "en": "[Example 60](https://www.w3.org/TR/activitystreams-vocabulary/#ex184b-jsonld)\n\n ```json \n{\n  \"type\": \"OrderedCollection\",\n  \"totalItems\": 3,\n  \"name\": \"Vacation photos 2016\",\n  \"orderedItems\": [\n    {\n      \"type\": \"Image\",\n      \"id\": \"http://image.example/1\"\n    },\n    {\n      \"type\": \"Tombstone\",\n      \"formerType\": \"Image\",\n      \"id\": \"http://image.example/2\",\n      \"deleted\": \"2016-03-17T00:00:00Z\"\n    },\n    {\n      \"type\": \"Image\",\n      \"id\": \"http://image.example/3\"\n    }\n  ]\n}\n```",
+    "de": "[Beispiel 60](https://www.w3.org/TR/activitystreams-vocabulary/#ex184b-jsonld)\n\n ```json \n{\n  \"type\": \"OrderedCollection\",\n  \"totalItems\": 3,\n  \"name\": \"Vacation photos 2016\",\n  \"orderedItems\": [\n    {\n      \"type\": \"Image\",\n      \"id\": \"http://image.example/1\"\n    },\n    {\n      \"type\": \"Tombstone\",\n      \"formerType\": \"Image\",\n      \"id\": \"http://image.example/2\",\n      \"deleted\": \"2016-03-17T00:00:00Z\"\n    },\n    {\n      \"type\": \"Image\",\n      \"id\": \"http://image.example/3\"\n    }\n  ]\n}\n```",
+    "fr": "[Exemple 60](https://www.w3.org/TR/activitystreams-vocabulary/#ex184b-jsonld)\n\n ```json \n{\n  \"type\": \"OrderedCollection\",\n  \"totalItems\": 3,\n  \"name\": \"Vacation photos 2016\",\n  \"orderedItems\": [\n    {\n      \"type\": \"Image\",\n      \"id\": \"http://image.example/1\"\n    },\n    {\n      \"type\": \"Tombstone\",\n      \"formerType\": \"Image\",\n      \"id\": \"http://image.example/2\",\n      \"deleted\": \"2016-03-17T00:00:00Z\"\n    },\n    {\n      \"type\": \"Image\",\n      \"id\": \"http://image.example/3\"\n    }\n  ]\n}\n```",
+    "es": "[Ejemplo 60](https://www.w3.org/TR/activitystreams-vocabulary/#ex184b-jsonld)\n\n ```json \n{\n  \"type\": \"OrderedCollection\",\n  \"totalItems\": 3,\n  \"name\": \"Vacation photos 2016\",\n  \"orderedItems\": [\n    {\n      \"type\": \"Image\",\n      \"id\": \"http://image.example/1\"\n    },\n    {\n      \"type\": \"Tombstone\",\n      \"formerType\": \"Image\",\n      \"id\": \"http://image.example/2\",\n      \"deleted\": \"2016-03-17T00:00:00Z\"\n    },\n    {\n      \"type\": \"Image\",\n      \"id\": \"http://image.example/3\"\n    }\n  ]\n}\n```"
+  },
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/formerType",
+      "prefLabel": {
+        "en": "former type",
+        "de": "vorheriger Typ",
+        "fr": "ancien type",
+        "es": "tipo anterior"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/deleted",
+      "prefLabel": {
+        "en": "deleted",
+        "de": "gelöscht",
+        "fr": "supprimé",
+        "es": "borrado"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/deathDate",
+      "prefLabel": {
+        "en": "death date",
+        "de": "Sterbedatum",
+        "fr": "date de décès",
+        "es": "fecha de fallecimiento"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/deathPlace",
+      "prefLabel": {
+        "en": "death place",
+        "de": "Sterbeort",
+        "fr": "lieu du décès",
+        "es": "lugar de fallecimiento"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/Object",
+    "prefLabel": {
+      "en": "Object",
+      "de": "Objekt",
+      "fr": "Objet",
+      "es": "Objeto"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://www.w3.org/ns/activitystreams#Tombstone"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

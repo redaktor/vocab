@@ -1,0 +1,150 @@
+{
+  "id": "https://w3id.org/class/redaktor/TentativeReject",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTentativeReject",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTentativeReject",
+  "prefLabel": {
+    "en": "Tentative Reject",
+    "de": "Vorläufige Ablehnung",
+    "fr": "Rejet provisoire",
+    "es": "Rechazo provisional"
+  },
+  "definition": {
+    "en": "A specialization of Reject in which the rejection is considered tentative.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativereject](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativereject)",
+    "de": "Eine Spezialisierung von Reject, bei der die Ablehnung als vorläufig betrachtet wird.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativereject](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativereject)",
+    "fr": "Une spécialisation de Reject dans laquelle le rejet est considéré comme provisoire.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativereject](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativereject)",
+    "es": "Una especialización de Reject en la que el rechazo se considera tentativo.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativereject](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativereject)"
+  },
+  "scopeNote": {
+    "en": ": Activity",
+    "de": ": Activity",
+    "fr": ": Activity",
+    "es": ": Activity"
+  },
+  "notation": [
+    "221"
+  ],
+  "example": {
+    "en": "[Example 26](https://www.w3.org/TR/activitystreams-vocabulary/#ex27-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally tentatively rejected an invitation to a party\",\n  \"type\": \"TentativeReject\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Invite\",\n    \"actor\": \"http://john.example.org\",\n    \"object\": {\n      \"type\": \"Event\",\n      \"name\": \"Going-Away Party for Jim\"\n    }\n  }\n}\n```",
+    "de": "[Beispiel 26](https://www.w3.org/TR/activitystreams-vocabulary/#ex27-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally tentatively rejected an invitation to a party\",\n  \"type\": \"TentativeReject\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Invite\",\n    \"actor\": \"http://john.example.org\",\n    \"object\": {\n      \"type\": \"Event\",\n      \"name\": \"Going-Away Party for Jim\"\n    }\n  }\n}\n```",
+    "fr": "[Exemple 26](https://www.w3.org/TR/activitystreams-vocabulary/#ex27-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally tentatively rejected an invitation to a party\",\n  \"type\": \"TentativeReject\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Invite\",\n    \"actor\": \"http://john.example.org\",\n    \"object\": {\n      \"type\": \"Event\",\n      \"name\": \"Going-Away Party for Jim\"\n    }\n  }\n}\n```",
+    "es": "[Ejemplo 26](https://www.w3.org/TR/activitystreams-vocabulary/#ex27-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally tentatively rejected an invitation to a party\",\n  \"type\": \"TentativeReject\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Invite\",\n    \"actor\": \"http://john.example.org\",\n    \"object\": {\n      \"type\": \"Event\",\n      \"name\": \"Going-Away Party for Jim\"\n    }\n  }\n}\n```"
+  },
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/Activity",
+    "prefLabel": {
+      "en": "Activity",
+      "de": "Aktivität",
+      "fr": "Activité",
+      "es": "Actividad"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://www.w3.org/ns/activitystreams#TentativeReject"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

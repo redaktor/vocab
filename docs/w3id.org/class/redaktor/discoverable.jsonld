@@ -1,0 +1,141 @@
+{
+  "id": "https://w3id.org/class/redaktor/discoverable",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fdiscoverable",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fdiscoverable",
+  "prefLabel": {
+    "en": "discoverable",
+    "de": "auffindbar",
+    "fr": "découvrable",
+    "es": "descubrible"
+  },
+  "definition": {
+    "en": "User will be shown in the profile directory. Mastodon allows users to opt-in or opt-out of discoverability features like the profile directory. This flag may also be used as an indicator of the user's preferences toward being included in external discovery services, such as search engines or other indexing tools. If you are implementing such a tool, it is recommended that you respect this property if it is present. This is implemented using an extra property discoverable on objects.<br>see [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#discoverable)",
+    "de": "Im Profilverzeichnis anzeigen. Mastodon ermöglicht es den Nutzern, sich für oder gegen die Nutzung von Auffindbarkeitsfunktionen wie dem Profilverzeichnis zu entscheiden. Dieses Kennzeichen kann auch als Indikator für die Präferenzen des Benutzers hinsichtlich der Aufnahme in externe Auffindungsdienste wie Suchmaschinen oder andere Indizierungswerkzeuge verwendet werden. Wenn Sie ein solches Werkzeug implementieren, wird empfohlen, diese Eigenschaft zu berücksichtigen, wenn sie vorhanden ist. Dies wird durch eine zusätzliche Eigenschaft realisiert, die bei Objekten auffindbar ist.<br>siehe [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#discoverable)",
+    "fr": "L'utilisateur sera affiché dans le répertoire des profils. Mastodon permet aux utilisateurs d'accepter ou de refuser des fonctions de découverte telles que le répertoire de profils. Ce drapeau peut également être utilisé comme un indicateur des préférences de l'utilisateur quant à son inclusion dans des services de découverte externes, tels que les moteurs de recherche ou d'autres outils d'indexation. Si vous mettez en œuvre un tel outil, il est recommandé de respecter cette propriété si elle est présente. Ceci est mis en œuvre en utilisant une propriété supplémentaire qui peut être découverte sur les objets.<br>voir [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#discoverable)",
+    "es": "El usuario aparecerá en el directorio de perfiles. Mastodon permite a los usuarios aceptar o rechazar las características de descubrimiento como el directorio de perfiles. Esta bandera también puede ser utilizada como un indicador de las preferencias del usuario para ser incluido en los servicios de descubrimiento externos, como los motores de búsqueda u otras herramientas de indexación. Si está implementando una herramienta de este tipo, se recomienda respetar esta propiedad si está presente. Esto se implementa utilizando una propiedad extra descubrible en los objetos.<br>ver [mastodon documentation](https://docs.joinmastodon.org/spec/activitypub/#discoverable)"
+  },
+  "scopeNote": {
+    "en": "ActivityPub Community",
+    "de": "ActivityPub Community",
+    "fr": "ActivityPub Community",
+    "es": "ActivityPub Community"
+  },
+  "notation": [
+    "1517"
+  ],
+  "example": {
+    "en": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"discoverable\": \":discoverable\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"discoverable\": true\n}```",
+    "de": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"discoverable\": \":discoverable\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"discoverable\": true\n}```",
+    "fr": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"discoverable\": \":discoverable\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"discoverable\": true\n}```",
+    "es": "```json \n{\n  \"@context\": [\n    \"https://www.w3.org/ns/activitystreams\",\n    {\n      \"toot\": \"http://joinmastodon.org/ns#\",\n      \"discoverable\": \":discoverable\"\n    }\n  ],\n  \"id\": \"https://mastodon.social/users/Gargron\",\n  \"type\": \"Person\",\n  \"discoverable\": true\n}```"
+  },
+  "exactMatch": [
+    {
+      "id": "http://joinmastodon.org/ns#discoverable"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

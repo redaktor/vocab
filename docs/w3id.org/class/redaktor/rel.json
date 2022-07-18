@@ -1,0 +1,150 @@
+{
+  "id": "https://w3id.org/class/redaktor/rel",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Frel",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Frel",
+  "prefLabel": {
+    "en": "rel",
+    "de": "rel",
+    "fr": "rel",
+    "es": "rel"
+  },
+  "definition": {
+    "en": "A link relation associated with a Link. The value MUST conform to both the [HTML5] and [RFC5988] \"link relation\" definitions. In the [HTML5], any string not containing the \"space\" U+0020, \"tab\" (U+0009), \"LF\" (U+000A), \"FF\" (U+000C), \"CR\" (U+000D) or \",\" (U+002C) characters can be used as a valid link relation.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-rel](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-rel)",
+    "de": "Eine Link-Relation, die mit einem Link verknüpft ist. Der Wert MUSS sowohl der [HTML5]- als auch der [RFC5988]-Definition von \"link relation\" entsprechen. In [HTML5] kann jede Zeichenfolge, die nicht die Zeichen \"space\" U+0020, \"tab\" (U+0009), \"LF\" (U+000A), \"FF\" (U+000C), \"CR\" (U+000D) oder \",\" (U+002C) enthält, als gültige Link-Relation verwendet werden.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-rel](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-rel)",
+    "fr": "Une relation de lien associée à un Lien. La valeur DOIT être conforme aux définitions de la [HTML5] et de la [RFC5988] \"relation de lien\". Dans le [HTML5], toute chaîne ne contenant pas les caractères \"space\" U+0020, \"tab\" (U+0009), \"LF\" (U+000A), \"FF\" (U+000C), \"CR\" (U+000D) ou \",\" (U+002C) peut être utilisée comme une relation de lien valide.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-rel](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-rel)",
+    "es": "Relación de enlace asociada a un Enlace. El valor DEBE ajustarse a las definiciones de [HTML5] y [RFC5988] de \"relación de enlace\". En [HTML5], cualquier cadena que no contenga los caracteres \"space\" (U+0020), \"tab\" (U+0009), \"LF\" (U+000A), \"FF\" (U+000C), \"CR\" (U+000D) o \",\" (U+002C) puede utilizarse como una relación de enlace válida.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-rel](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-rel)"
+  },
+  "scopeNote": {
+    "en": ": Property",
+    "de": ": Property",
+    "fr": ": Property",
+    "es": ": Property"
+  },
+  "notation": [
+    "499"
+  ],
+  "example": {
+    "en": "[Example 131](https://www.w3.org/TR/activitystreams-vocabulary/#ex149-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/abc\",\n  \"hreflang\": \"en\",\n  \"mediaType\": \"text/html\",\n  \"name\": \"Preview\",\n  \"rel\": [\"canonical\", \"preview\"]\n}\n```",
+    "de": "[Beispiel 131](https://www.w3.org/TR/activitystreams-vocabulary/#ex149-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/abc\",\n  \"hreflang\": \"en\",\n  \"mediaType\": \"text/html\",\n  \"name\": \"Preview\",\n  \"rel\": [\"canonical\", \"preview\"]\n}\n```",
+    "fr": "[Exemple 131](https://www.w3.org/TR/activitystreams-vocabulary/#ex149-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/abc\",\n  \"hreflang\": \"en\",\n  \"mediaType\": \"text/html\",\n  \"name\": \"Preview\",\n  \"rel\": [\"canonical\", \"preview\"]\n}\n```",
+    "es": "[Ejemplo 131](https://www.w3.org/TR/activitystreams-vocabulary/#ex149-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/abc\",\n  \"hreflang\": \"en\",\n  \"mediaType\": \"text/html\",\n  \"name\": \"Preview\",\n  \"rel\": [\"canonical\", \"preview\"]\n}\n```"
+  },
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/Link",
+    "prefLabel": {
+      "en": "Link",
+      "de": "Link",
+      "fr": "Lien",
+      "es": "Enlace"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://www.w3.org/ns/activitystreams#rel"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

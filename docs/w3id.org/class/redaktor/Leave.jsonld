@@ -1,0 +1,164 @@
+{
+  "id": "https://w3id.org/class/redaktor/Leave",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FLeave",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FLeave",
+  "prefLabel": {
+    "en": "Leave",
+    "de": "Verlassen",
+    "fr": "Laissez",
+    "es": "Deja"
+  },
+  "definition": {
+    "en": "Indicates that the actor has left the object. The target and origin typically have no meaning.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-leave](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-leave)",
+    "de": "Zeigt an, dass der Akteur das Objekt verlassen hat. Das Ziel und der Ursprung haben normalerweise keine Bedeutung.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-leave](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-leave)",
+    "fr": "Indique que l'acteur a quitté l'objet. La cible et l'origine n'ont généralement aucune signification.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-leave](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-leave)",
+    "es": "Indica que el actor ha abandonado el objeto. El objetivo y el origen no suelen tener ningún significado.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-leave](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-leave)"
+  },
+  "scopeNote": {
+    "en": ": Activity",
+    "de": ": Activity",
+    "fr": ": Activity",
+    "es": ": Activity"
+  },
+  "notation": [
+    "212"
+  ],
+  "example": {
+    "en": "[Example 20](https://www.w3.org/TR/activitystreams-vocabulary/#ex18-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally left work\",\n  \"type\": \"Leave\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Place\",\n    \"name\": \"Work\"\n  }\n}\n```",
+    "de": "[Beispiel 20](https://www.w3.org/TR/activitystreams-vocabulary/#ex18-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally left work\",\n  \"type\": \"Leave\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Place\",\n    \"name\": \"Work\"\n  }\n}\n```",
+    "fr": "[Exemple 20](https://www.w3.org/TR/activitystreams-vocabulary/#ex18-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally left work\",\n  \"type\": \"Leave\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Place\",\n    \"name\": \"Work\"\n  }\n}\n```",
+    "es": "[Ejemplo 20](https://www.w3.org/TR/activitystreams-vocabulary/#ex18-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally left work\",\n  \"type\": \"Leave\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Place\",\n    \"name\": \"Work\"\n  }\n}\n```"
+  },
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/events",
+      "prefLabel": {
+        "en": "events",
+        "de": "Veranstaltungen",
+        "fr": "Événements",
+        "es": "Eventos"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/Activity",
+    "prefLabel": {
+      "en": "Activity",
+      "de": "Aktivität",
+      "fr": "Activité",
+      "es": "Actividad"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://www.w3.org/ns/activitystreams#Leave"
+    },
+    {
+      "id": "schema:LeaveAction"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

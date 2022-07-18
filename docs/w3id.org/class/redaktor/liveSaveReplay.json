@@ -1,0 +1,141 @@
+{
+  "id": "https://w3id.org/class/redaktor/liveSaveReplay",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FliveSaveReplay",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FliveSaveReplay",
+  "prefLabel": {
+    "en": "live save replay",
+    "de": "Live-Wiederholung speichern",
+    "fr": "live: sauvegarder le replay",
+    "es": "live: guardar la repetición"
+  },
+  "definition": {
+    "en": "If this is a live, tell if the user will save a replay or not.<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
+    "de": "Wenn es sich um eine Live-Sendung handelt, gib an, ob eine Wiederholung gespeichert wird oder nicht.<br>siehe [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
+    "fr": "S'il s'agit d'un direct, indiquez si l'utilisateur enregistrera un replay ou non.<br>voir [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
+    "es": "Si se trata de un directo, diga si el usuario guardará una repetición o no.<br>ver [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)"
+  },
+  "scopeNote": {
+    "en": "ActivityPub Community",
+    "de": "ActivityPub Community",
+    "fr": "ActivityPub Community",
+    "es": "ActivityPub Community"
+  },
+  "notation": [
+    "1526"
+  ],
+  "example": {
+    "en": "```json \n{\n  \"type\": \"Video\",\n  \"isLiveBroadcast\": true,\n  \"liveSaveReplay\": true,\n  \"permanentLive\": true\n}```",
+    "de": "```json \n{\n  \"type\": \"Video\",\n  \"isLiveBroadcast\": true,\n  \"liveSaveReplay\": true,\n  \"permanentLive\": true\n}```",
+    "fr": "```json \n{\n  \"type\": \"Video\",\n  \"isLiveBroadcast\": true,\n  \"liveSaveReplay\": true,\n  \"permanentLive\": true\n}```",
+    "es": "```json \n{\n  \"type\": \"Video\",\n  \"isLiveBroadcast\": true,\n  \"liveSaveReplay\": true,\n  \"permanentLive\": true\n}```"
+  },
+  "exactMatch": [
+    {
+      "id": "https://joinpeertube.org/ns#liveSaveReplay"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

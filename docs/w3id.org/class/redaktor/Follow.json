@@ -1,0 +1,150 @@
+{
+  "id": "https://w3id.org/class/redaktor/Follow",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FFollow",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FFollow",
+  "prefLabel": {
+    "en": "Follow",
+    "de": "Folgen",
+    "fr": "Suivez",
+    "es": "Siga"
+  },
+  "definition": {
+    "en": "Indicates that the actor is \"following\" the object. Following is defined in the sense typically used within Social systems in which the actor is interested in any activity performed by or on the object. The target and origin typically have no defined meaning.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-follow](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-follow)",
+    "de": "Zeigt an, dass der Akteur dem Objekt \"folgt\". 'Verfolgen' ist in dem Sinne definiert, wie er typischerweise in sozialen Systemen verwendet wird, in denen der Akteur an jeder Aktivität interessiert ist, die von oder an dem Objekt durchgeführt wird. Ziel und Ursprung haben normalerweise keine definierte Bedeutung.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-follow](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-follow)",
+    "fr": "Indique que l'acteur est en train de \"suivre\" l'objet. Suivre est défini dans le sens typiquement utilisé dans les systèmes sociaux dans lesquels l'acteur est intéressé par toute activité réalisée par ou sur l'objet. La cible et l'origine n'ont généralement pas de signification définie.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-follow](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-follow)",
+    "es": "Indica que el actor está \"siguiendo\" el objeto. El seguimiento se define en el sentido típicamente utilizado dentro de los sistemas sociales en los que el actor está interesado en cualquier actividad realizada por o sobre el objeto. El objetivo y el origen no suelen tener un significado definido.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-follow](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-follow)"
+  },
+  "scopeNote": {
+    "en": ": Activity",
+    "de": ": Activity",
+    "fr": ": Activity",
+    "es": ": Activity"
+  },
+  "notation": [
+    "208"
+  ],
+  "example": {
+    "en": "[Example 17](https://www.w3.org/TR/activitystreams-vocabulary/#ex15-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally followed John\",\n  \"type\": \"Follow\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Person\",\n    \"name\": \"John\"\n  }\n}\n```",
+    "de": "[Beispiel 17](https://www.w3.org/TR/activitystreams-vocabulary/#ex15-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally followed John\",\n  \"type\": \"Follow\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Person\",\n    \"name\": \"John\"\n  }\n}\n```",
+    "fr": "[Exemple 17](https://www.w3.org/TR/activitystreams-vocabulary/#ex15-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally followed John\",\n  \"type\": \"Follow\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Person\",\n    \"name\": \"John\"\n  }\n}\n```",
+    "es": "[Ejemplo 17](https://www.w3.org/TR/activitystreams-vocabulary/#ex15-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally followed John\",\n  \"type\": \"Follow\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Person\",\n    \"name\": \"John\"\n  }\n}\n```"
+  },
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/Activity",
+    "prefLabel": {
+      "en": "Activity",
+      "de": "Aktivität",
+      "fr": "Activité",
+      "es": "Actividad"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://www.w3.org/ns/activitystreams#Follow"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

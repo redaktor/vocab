@@ -1,0 +1,150 @@
+{
+  "id": "https://w3id.org/class/redaktor/subject",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fsubject",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fsubject",
+  "prefLabel": {
+    "en": "subject",
+    "de": "Subjekt",
+    "fr": "sujet",
+    "es": "tema"
+  },
+  "definition": {
+    "en": "On a Relationship object, the subject property identifies one of the connected individuals. For instance, for a Relationship object describing \"John is related to Sally\", subject would refer to John.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-subject](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-subject)",
+    "de": "Bei einem Beziehungsobjekt identifiziert die Eigenschaft subject eine der verbundenen Personen. Bei einem Relationship-Objekt mit der Beschreibung \"John is related to Sally\" würde sich subject beispielsweise auf John beziehen.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-subject](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-subject)",
+    "fr": "Sur un objet de relation, la propriété subject identifie l'un des individus connectés. Par exemple, pour un objet Relationship décrivant \"John is related to Sally\", le sujet se réfère à John.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-subject](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-subject)",
+    "es": "En un objeto de relación, la propiedad subject identifica a uno de los individuos conectados. Por ejemplo, para un objeto Relationship que describa \"Juan está relacionado con Sally\", subject se referirá a Juan.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-subject](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-subject)"
+  },
+  "scopeNote": {
+    "en": ": Property",
+    "de": ": Property",
+    "fr": ": Property",
+    "es": ": Property"
+  },
+  "notation": [
+    "3212"
+  ],
+  "example": {
+    "en": "[Example 139](https://www.w3.org/TR/activitystreams-vocabulary/#ex22a-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally is an acquaintance of John's\",\n  \"type\": \"Relationship\",\n  \"subject\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"relationship\": \"http://purl.org/vocab/relationship/acquaintanceOf\",\n  \"object\": {\n    \"type\": \"Person\",\n    \"name\": \"John\"\n  }\n}\n```",
+    "de": "[Beispiel 139](https://www.w3.org/TR/activitystreams-vocabulary/#ex22a-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally is an acquaintance of John's\",\n  \"type\": \"Relationship\",\n  \"subject\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"relationship\": \"http://purl.org/vocab/relationship/acquaintanceOf\",\n  \"object\": {\n    \"type\": \"Person\",\n    \"name\": \"John\"\n  }\n}\n```",
+    "fr": "[Exemple 139](https://www.w3.org/TR/activitystreams-vocabulary/#ex22a-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally is an acquaintance of John's\",\n  \"type\": \"Relationship\",\n  \"subject\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"relationship\": \"http://purl.org/vocab/relationship/acquaintanceOf\",\n  \"object\": {\n    \"type\": \"Person\",\n    \"name\": \"John\"\n  }\n}\n```",
+    "es": "[Ejemplo 139](https://www.w3.org/TR/activitystreams-vocabulary/#ex22a-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally is an acquaintance of John's\",\n  \"type\": \"Relationship\",\n  \"subject\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"relationship\": \"http://purl.org/vocab/relationship/acquaintanceOf\",\n  \"object\": {\n    \"type\": \"Person\",\n    \"name\": \"John\"\n  }\n}\n```"
+  },
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/Relationship",
+    "prefLabel": {
+      "en": "Relationship",
+      "de": "Beziehung",
+      "fr": "Relation",
+      "es": "Relación"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://www.w3.org/ns/activitystreams#subject"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

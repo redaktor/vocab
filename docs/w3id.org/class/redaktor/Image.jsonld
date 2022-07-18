@@ -1,0 +1,324 @@
+{
+  "id": "https://w3id.org/class/redaktor/image",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fimage",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fimage",
+  "prefLabel": {
+    "en": "image",
+    "de": "Bild",
+    "fr": "image",
+    "es": "imagen"
+  },
+  "definition": {
+    "en": "Indicates an entity that describes an image for this object. Unlike the icon property, there are no aspect ratio or display size limitations assumed.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image-term](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image-term)",
+    "de": "Gibt eine Entität an, die ein Bild für dieses Objekt beschreibt. Anders als bei der Icon-Eigenschaft werden keine Beschränkungen des Seitenverhältnisses oder der Anzeigegröße angenommen.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image-term](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image-term)",
+    "fr": "Indique une entité qui décrit une image pour cet objet. Contrairement à la propriété de l'icône, il n'y a pas de limitation de rapport d'aspect ou de taille d'affichage supposée.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image-term](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image-term)",
+    "es": "Indica una entidad que describe una imagen para este objeto. A diferencia de la propiedad icono, no se asumen limitaciones de relación de aspecto o tamaño de presentación.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image-term](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image-term)"
+  },
+  "scopeNote": {
+    "en": ": Property",
+    "de": ": Property",
+    "fr": ": Property",
+    "es": ": Property"
+  },
+  "notation": [
+    "137"
+  ],
+  "example": {
+    "en": "[Example 81](https://www.w3.org/TR/activitystreams-vocabulary/#ex80-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"A simple note\",\n  \"type\": \"Note\",\n  \"content\": \"This is all there is.\",\n  \"image\": {\n    \"type\": \"Image\",\n    \"name\": \"A Cat\",\n    \"url\": \"http://example.org/cat.png\"\n  }\n}\n```",
+    "de": "[Beispiel 81](https://www.w3.org/TR/activitystreams-vocabulary/#ex80-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"A simple note\",\n  \"type\": \"Note\",\n  \"content\": \"This is all there is.\",\n  \"image\": {\n    \"type\": \"Image\",\n    \"name\": \"A Cat\",\n    \"url\": \"http://example.org/cat.png\"\n  }\n}\n```",
+    "fr": "[Exemple 81](https://www.w3.org/TR/activitystreams-vocabulary/#ex80-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"A simple note\",\n  \"type\": \"Note\",\n  \"content\": \"This is all there is.\",\n  \"image\": {\n    \"type\": \"Image\",\n    \"name\": \"A Cat\",\n    \"url\": \"http://example.org/cat.png\"\n  }\n}\n```",
+    "es": "[Ejemplo 81](https://www.w3.org/TR/activitystreams-vocabulary/#ex80-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"A simple note\",\n  \"type\": \"Note\",\n  \"content\": \"This is all there is.\",\n  \"image\": {\n    \"type\": \"Image\",\n    \"name\": \"A Cat\",\n    \"url\": \"http://example.org/cat.png\"\n  }\n}\n```"
+  },
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/Object",
+    "prefLabel": {
+      "en": "Object",
+      "de": "Objekt",
+      "fr": "Objet",
+      "es": "Objeto"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://www.w3.org/ns/activitystreams#image"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}r/artist",
+      "prefLabel": {
+        "en": "artist",
+        "de": "Künstler",
+        "fr": "artiste",
+        "es": "artista"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/availableLanguage",
+      "prefLabel": {
+        "en": "available language",
+        "de": "verfügbare Sprache",
+        "fr": "langues disponibles",
+        "es": "idiomas disponibles"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/colorist",
+      "prefLabel": {
+        "en": "colorist",
+        "de": "Kolorist",
+        "fr": "coloriste",
+        "es": "colorista"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/inker",
+      "prefLabel": {
+        "en": "inker",
+        "de": "Färber",
+        "fr": "inker",
+        "es": "entintador"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/letterer",
+      "prefLabel": {
+        "en": "letterer",
+        "de": "Beschreiber",
+        "fr": "lettré",
+        "es": "letra"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/penciler",
+      "prefLabel": {
+        "en": "penciler",
+        "de": "Schreiber",
+        "fr": "crayon à papier",
+        "es": "lápiz"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/Object",
+    "prefLabel": {
+      "en": "Object",
+      "de": "Objekt",
+      "fr": "Objet",
+      "es": "Objeto"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://www.w3.org/ns/activitystreams#Image"
+    },
+    {
+      "id": "schema:VisualArtwork"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

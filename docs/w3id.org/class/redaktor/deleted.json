@@ -1,0 +1,150 @@
+{
+  "id": "https://w3id.org/class/redaktor/deleted",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fdeleted",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fdeleted",
+  "prefLabel": {
+    "en": "deleted",
+    "de": "gelöscht",
+    "fr": "supprimé",
+    "es": "borrado"
+  },
+  "definition": {
+    "en": "On a Tombstone object, the deleted property is a timestamp for when the object was deleted.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-deleted](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-deleted)",
+    "de": "Bei einem Tombstone-Objekt ist die Eigenschaft deleted ein Zeitstempel für den Zeitpunkt, an dem das Objekt gelöscht wurde.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-deleted](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-deleted)",
+    "fr": "Sur un objet Tombstone, la propriété deleted est un horodatage de la date à laquelle l'objet a été supprimé.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-deleted](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-deleted)",
+    "es": "En un objeto Tombstone, la propiedad deleted es una marca de tiempo de cuando el objeto fue eliminado.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-deleted](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-deleted)"
+  },
+  "scopeNote": {
+    "en": ": Property",
+    "de": ": Property",
+    "fr": ": Property",
+    "es": ": Property"
+  },
+  "notation": [
+    "3221"
+  ],
+  "example": {
+    "en": "[Example 143](https://www.w3.org/TR/activitystreams-vocabulary/#ex185c-jsonld)\n\n ```json \n{\n\"@context\": \"https://www.w3.org/ns/activitystreams\",\n\"summary\": \"This image has been deleted\",\n\"type\": \"Tombstone\",\n\"deleted\": \"2016-05-03T00:00:00Z\"\n}\n```",
+    "de": "[Beispiel 143](https://www.w3.org/TR/activitystreams-vocabulary/#ex185c-jsonld)\n\n ```json \n{\n\"@context\": \"https://www.w3.org/ns/activitystreams\",\n\"summary\": \"This image has been deleted\",\n\"type\": \"Tombstone\",\n\"deleted\": \"2016-05-03T00:00:00Z\"\n}\n```",
+    "fr": "[Exemple 143](https://www.w3.org/TR/activitystreams-vocabulary/#ex185c-jsonld)\n\n ```json \n{\n\"@context\": \"https://www.w3.org/ns/activitystreams\",\n\"summary\": \"This image has been deleted\",\n\"type\": \"Tombstone\",\n\"deleted\": \"2016-05-03T00:00:00Z\"\n}\n```",
+    "es": "[Ejemplo 143](https://www.w3.org/TR/activitystreams-vocabulary/#ex185c-jsonld)\n\n ```json \n{\n\"@context\": \"https://www.w3.org/ns/activitystreams\",\n\"summary\": \"This image has been deleted\",\n\"type\": \"Tombstone\",\n\"deleted\": \"2016-05-03T00:00:00Z\"\n}\n```"
+  },
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/Tombstone",
+    "prefLabel": {
+      "en": "Tombstone",
+      "de": "Tombstone",
+      "fr": "Tombstone",
+      "es": "Tombstone"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://www.w3.org/ns/activitystreams#deleted"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

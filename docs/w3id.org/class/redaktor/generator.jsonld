@@ -1,0 +1,150 @@
+{
+  "id": "https://w3id.org/class/redaktor/generator",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fgenerator",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fgenerator",
+  "prefLabel": {
+    "en": "generator",
+    "de": "Generator",
+    "fr": "générateur",
+    "es": "generador"
+  },
+  "definition": {
+    "en": "Identifies the entity (e.g. an application) that generated the object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-generator](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-generator)",
+    "de": "Identifiziert die Entität (z. B. eine Anwendung), die das Objekt erzeugt hat.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-generator](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-generator)",
+    "fr": "Identifie l'entité (par exemple, une application) qui a généré l'objet.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-generator](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-generator)",
+    "es": "Identifica la entidad (por ejemplo, una aplicación) que ha generado el objeto.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-generator](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-generator)"
+  },
+  "scopeNote": {
+    "en": ": Property",
+    "de": ": Property",
+    "fr": ": Property",
+    "es": ": Property"
+  },
+  "notation": [
+    "133"
+  ],
+  "example": {
+    "en": "[Example 78](https://www.w3.org/TR/activitystreams-vocabulary/#ex75-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"A simple note\",\n  \"type\": \"Note\",\n  \"content\": \"This is all there is.\",\n  \"generator\": {\n    \"type\": \"Application\",\n    \"name\": \"Exampletron 3000\"\n  }\n}\n```",
+    "de": "[Beispiel 78](https://www.w3.org/TR/activitystreams-vocabulary/#ex75-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"A simple note\",\n  \"type\": \"Note\",\n  \"content\": \"This is all there is.\",\n  \"generator\": {\n    \"type\": \"Application\",\n    \"name\": \"Exampletron 3000\"\n  }\n}\n```",
+    "fr": "[Exemple 78](https://www.w3.org/TR/activitystreams-vocabulary/#ex75-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"A simple note\",\n  \"type\": \"Note\",\n  \"content\": \"This is all there is.\",\n  \"generator\": {\n    \"type\": \"Application\",\n    \"name\": \"Exampletron 3000\"\n  }\n}\n```",
+    "es": "[Ejemplo 78](https://www.w3.org/TR/activitystreams-vocabulary/#ex75-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"A simple note\",\n  \"type\": \"Note\",\n  \"content\": \"This is all there is.\",\n  \"generator\": {\n    \"type\": \"Application\",\n    \"name\": \"Exampletron 3000\"\n  }\n}\n```"
+  },
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/Object",
+    "prefLabel": {
+      "en": "Object",
+      "de": "Objekt",
+      "fr": "Objet",
+      "es": "Objeto"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://www.w3.org/ns/activitystreams#generator"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

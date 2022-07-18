@@ -1,0 +1,141 @@
+{
+  "id": "https://w3id.org/class/redaktor/next",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fnext",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fnext",
+  "prefLabel": {
+    "en": "next",
+    "de": "nächste",
+    "fr": "prochaine",
+    "es": "próxima"
+  },
+  "definition": {
+    "en": "In a paged Collection, indicates the next page of items.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-next](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-next)",
+    "de": "Zeigt in einer paginierten Sammlung die nächste Seite der Elemente an.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-next](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-next)",
+    "fr": "Dans une collection paginée, indique la page suivante d'éléments.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-next](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-next)",
+    "es": "En una Colección paginada, indica la siguiente página de elementos.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-next](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-next)"
+  },
+  "scopeNote": {
+    "en": ": Property",
+    "de": ": Property",
+    "fr": ": Property",
+    "es": ": Property"
+  },
+  "notation": [
+    "797"
+  ],
+  "example": {
+    "en": "[Example 95](https://www.w3.org/TR/activitystreams-vocabulary/#ex96-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Page 2 of Sally's blog posts\",\n  \"type\": \"CollectionPage\",\n  \"next\": \"http://example.org/collection?page=2\",\n  \"items\": [\n    \"http://example.org/posts/1\",\n    \"http://example.org/posts/2\",\n    \"http://example.org/posts/3\"\n  ]\n}\n```",
+    "de": "[Beispiel 95](https://www.w3.org/TR/activitystreams-vocabulary/#ex96-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Page 2 of Sally's blog posts\",\n  \"type\": \"CollectionPage\",\n  \"next\": \"http://example.org/collection?page=2\",\n  \"items\": [\n    \"http://example.org/posts/1\",\n    \"http://example.org/posts/2\",\n    \"http://example.org/posts/3\"\n  ]\n}\n```",
+    "fr": "[Exemple 95](https://www.w3.org/TR/activitystreams-vocabulary/#ex96-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Page 2 of Sally's blog posts\",\n  \"type\": \"CollectionPage\",\n  \"next\": \"http://example.org/collection?page=2\",\n  \"items\": [\n    \"http://example.org/posts/1\",\n    \"http://example.org/posts/2\",\n    \"http://example.org/posts/3\"\n  ]\n}\n```",
+    "es": "[Ejemplo 95](https://www.w3.org/TR/activitystreams-vocabulary/#ex96-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Page 2 of Sally's blog posts\",\n  \"type\": \"CollectionPage\",\n  \"next\": \"http://example.org/collection?page=2\",\n  \"items\": [\n    \"http://example.org/posts/1\",\n    \"http://example.org/posts/2\",\n    \"http://example.org/posts/3\"\n  ]\n}\n```"
+  },
+  "exactMatch": [
+    {
+      "id": "http://www.w3.org/ns/activitystreams#next"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

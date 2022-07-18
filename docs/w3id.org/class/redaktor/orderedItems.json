@@ -1,0 +1,152 @@
+{
+  "id": "https://w3id.org/class/redaktor/orderedItems",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2ForderedItems",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2ForderedItems",
+  "prefLabel": {
+    "en": "ordered items",
+    "de": "geordnete Elemente",
+    "fr": "éléments commandés",
+    "es": "elementos pedidos"
+  },
+  "definition": {
+    "en": "Identifies the items contained in an ordered collection.<br>See higher-level definition [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-items](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-items)",
+    "de": "Bezeichnet die in einer geordneten Sammlung enthaltenen Elemente.<br>Siehe übergeordnete Definition [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-items](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-items)",
+    "fr": "Identifie les éléments contenus dans une collection ordonnés.<br>voir définition supérieure [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-items](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-items)",
+    "es": "Identifica los elementos contenidos en una colección ordenados.<br>Ver definición de nivel superior [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-items](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-items)"
+  },
+  "scopeNote": {
+    "en": ": Property",
+    "de": ": Property",
+    "fr": ": Property",
+    "es": ": Property"
+  },
+  "notation": [
+    "615"
+  ],
+  "example": {
+    "en": "```json \n[Example 90](https://www.w3.org/TR/activitystreams-vocabulary/#ex92-jsonld)\n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's notes\",\n  \"type\": \"OrderedCollection\",\n  \"totalItems\": 2,\n  \"orderedItems\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"Meeting 2016-11-17\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Reminder for Going-Away Party\"\n    }\n  ]\n}\n```",
+    "de": "```json \n[Example 90](https://www.w3.org/TR/activitystreams-vocabulary/#ex92-jsonld)\n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's notes\",\n  \"type\": \"OrderedCollection\",\n  \"totalItems\": 2,\n  \"orderedItems\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"Meeting 2016-11-17\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Reminder for Going-Away Party\"\n    }\n  ]\n}\n```",
+    "fr": "```json \n[Example 89](https://www.w3.org/TR/activitystreams-vocabulary/#ex92-jsonld)\n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's notes\",\n  \"type\": \"OrderedCollection\",\n  \"totalItems\": 2,\n  \"orderedItems\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"Meeting 2016-11-17\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Reminder for Going-Away Party\"\n    }\n  ]\n}\n```",
+    "es": "```json \n[Example 89](https://www.w3.org/TR/activitystreams-vocabulary/#ex92-jsonld)\n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's notes\",\n  \"type\": \"OrderedCollection\",\n  \"totalItems\": 2,\n  \"orderedItems\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"Meeting 2016-11-17\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Reminder for Going-Away Party\"\n    }\n  ]\n}\n```"
+  },
+  "related": [
+    {
+      "id": "https://w3id.org/class/redaktor/items",
+      "prefLabel": {
+        "en": "items",
+        "de": "Elemente",
+        "fr": "éléments",
+        "es": "elementos"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "http://www.w3.org/ns/activitystreams#orderedItems"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

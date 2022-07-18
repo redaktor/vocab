@@ -1,0 +1,150 @@
+{
+  "id": "https://w3id.org/class/redaktor/source",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fsource",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fsource",
+  "prefLabel": {
+    "en": "source",
+    "de": "Quelle",
+    "fr": "source",
+    "es": "fuente"
+  },
+  "definition": {
+    "en": "In addition to all the properties defined by the [Activity-Vocabulary](https://www.w3.org/TR/activitystreams-vocabulary/), ActivityPub extends the Object by supplying the source property. The source property is intended to convey some sort of source from which the content markup was derived, as a form of provenance, or to support future editing by clients. In general, clients do the conversion from source to content, not the other way around.<br><br>The value of source is itself an object which uses its own content and mediaType fields to supply source information.<br>see (further info) [https://www.w3.org/TR/activitypub/#source-property](https://www.w3.org/TR/activitypub/#source-property)",
+    "de": "Zusätzlich zu allen im [Activity-Vocabulary](https://www.w3.org/TR/activitystreams-vocabulary/) definierten Eigenschaften erweitert ActivityPub das Objekt um die Eigenschaft source.<br>Die Quelleigenschaft soll eine Art von Quelle übermitteln, aus der die Inhaltsauszeichnung abgeleitet wurde - als eine Form der Provenienz oder zur Unterstützung der zukünftigen Bearbeitung durch clients. Im Allgemeinen führen die Clients die Konvertierung von der Quelle zum Inhalt durch, nicht umgekehrt.<br><br>Der Wert von source ist selbst ein Objekt, das seine eigenen content- und mediaType-Felder verwendet, um Quelleninformationen zu liefern.<br>siehe (mehr Info) [https://www.w3.org/TR/activitypub/#source-property](https://www.w3.org/TR/activitypub/#source-property)",
+    "fr": "En plus de toutes les propriétés définies par le [Activity-Vocabulary](https://www.w3.org/TR/activitystreams-vocabulary/), ActivityPub étend l'objet en fournissant la propriété source.<br>La propriété source est destinée à transmettre une sorte de source à partir de laquelle le balisage du contenu a été dérivé - comme une forme de provenance, ou pour soutenir l'édition future par les clients. En général, ce sont les clients qui convertissent la source en contenu, et non l'inverse.<br><br>La valeur de source est elle-même un objet qui utilise ses propres champs content et mediaType pour fournir des informations sur la source.<br>voir (plus d'infos) [https://www.w3.org/TR/activitypub/#source-property](https://www.w3.org/TR/activitypub/#source-property)",
+    "es": "Además de todas las propiedades definidas por el [Activity-Vocabulary](https://www.w3.org/TR/activitystreams-vocabulary/), ActivityPub amplía el objeto proporcionando la propiedad source.<br>La propiedad \"source\" está destinada a transmitir algún tipo de fuente de la cual se derivó el contenido marcado - como una forma de procedencia, o para apoyar la futura edición por parte de los clientes. En general, los clientes hacen la conversión de fuente a contenido, no al revés.<br><br>El valor de la fuente es en sí mismo un objeto que utiliza sus propios campos de contenido y mediaType para proporcionar la información de la fuente.<br>ver (más información) [https://www.w3.org/TR/activitypub/#source-property](https://www.w3.org/TR/activitypub/#source-property)"
+  },
+  "scopeNote": {
+    "en": "ActivityPub Property",
+    "de": "ActivityPub Property",
+    "fr": "ActivityPub Property",
+    "es": "ActivityPub Property"
+  },
+  "notation": [
+    "144"
+  ],
+  "example": {
+    "en": "[Example 8](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"en\"}],\n  \"type\": \"Note\",\n  \"id\": \"http://postparty.example/p/2415\",\n  \"content\": \"<p>I <em>really</em> like strawberries!</p>\",\n  \"source\": {\n    \"content\": \"I *really* like strawberries!\",\n    \"mediaType\": \"text/markdown\"\n  }\n}\n```",
+    "de": "[Beispiel 8](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"en\"}],\n  \"type\": \"Note\",\n  \"id\": \"http://postparty.example/p/2415\",\n  \"content\": \"<p>I <em>really</em> like strawberries!</p>\",\n  \"source\": {\n    \"content\": \"I *really* like strawberries!\",\n    \"mediaType\": \"text/markdown\"\n  }\n}\n```",
+    "fr": "[Exemple 8](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"en\"}],\n  \"type\": \"Note\",\n  \"id\": \"http://postparty.example/p/2415\",\n  \"content\": \"<p>I <em>really</em> like strawberries!</p>\",\n  \"source\": {\n    \"content\": \"I *really* like strawberries!\",\n    \"mediaType\": \"text/markdown\"\n  }\n}\n```",
+    "es": "[Ejemplo 8](https://www.w3.org/TR/activitypub/#source-property)\n\n ```json \n{\n  \"@context\": [\"https://www.w3.org/ns/activitystreams\", {\"@language\": \"en\"}],\n  \"type\": \"Note\",\n  \"id\": \"http://postparty.example/p/2415\",\n  \"content\": \"<p>I <em>really</em> like strawberries!</p>\",\n  \"source\": {\n    \"content\": \"I *really* like strawberries!\",\n    \"mediaType\": \"text/markdown\"\n  }\n}\n```"
+  },
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/Object",
+    "prefLabel": {
+      "en": "Object",
+      "de": "Objekt",
+      "fr": "Objet",
+      "es": "Objeto"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://www.w3.org/ns/activitystreams#source"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

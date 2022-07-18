@@ -1,0 +1,153 @@
+{
+  "id": "https://w3id.org/class/redaktor/duration",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fduration",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fduration",
+  "prefLabel": {
+    "en": "duration",
+    "de": "Dauer",
+    "fr": "durée",
+    "es": "duración"
+  },
+  "definition": {
+    "en": "When the object describes a time-bound resource, such as an audio or video, a meeting, etc, the duration property indicates the object's approximate duration. The value MUST be expressed as an xsd:duration as defined by [ xmlschema11-2], section 3.3.6 (e.g. a period of 5 seconds is represented as \"PT5S\").<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-duration](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-duration)",
+    "de": "Wenn das Objekt eine zeitgebundene Ressource beschreibt, wie z. B. ein Audio- oder Videomaterial, eine Besprechung usw., gibt die Eigenschaft duration die ungefähre Dauer des Objekts an. Der Wert MUSS als xsd:duration ausgedrückt werden, wie in [ xmlschema11-2], Abschnitt 3.3.6 definiert (z. B. wird eine Dauer von 5 Sekunden als \"PT5S\" dargestellt).<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-duration](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-duration)",
+    "fr": "Lorsque l'objet décrit une ressource limitée dans le temps, telle qu'un fichier audio ou vidéo, une réunion, etc. La valeur DOIT être exprimée sous la forme d'une durée xsd:duration telle que définie par [ xmlschema11-2], section 3.3.6 (par exemple, une période de 5 secondes est représentée par \"PT5S\").<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-duration](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-duration)",
+    "es": "Cuando el objeto describe un recurso de duración determinada, como un audio o un vídeo, una reunión, etc., la propiedad duration indica la duración aproximada del objeto. El valor DEBE expresarse como un xsd:duration tal y como se define en [ xmlschema11-2], sección 3.3.6 (por ejemplo, un periodo de 5 segundos se representa como \"PT5S\").<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-duration](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-duration)"
+  },
+  "scopeNote": {
+    "en": ": Property",
+    "de": ": Property",
+    "fr": ": Property",
+    "es": ": Property"
+  },
+  "notation": [
+    "130"
+  ],
+  "example": {
+    "en": "[Example 119](https://www.w3.org/TR/activitystreams-vocabulary/#ex134-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Video\",\n  \"name\": \"Birds Flying\",\n  \"url\": \"http://example.org/video.mkv\",\n  \"duration\": \"PT2H\"\n}\n```",
+    "de": "[Beispiel 119](https://www.w3.org/TR/activitystreams-vocabulary/#ex134-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Video\",\n  \"name\": \"Birds Flying\",\n  \"url\": \"http://example.org/video.mkv\",\n  \"duration\": \"PT2H\"\n}\n```",
+    "fr": "[Exemple 119](https://www.w3.org/TR/activitystreams-vocabulary/#ex134-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Video\",\n  \"name\": \"Birds Flying\",\n  \"url\": \"http://example.org/video.mkv\",\n  \"duration\": \"PT2H\"\n}\n```",
+    "es": "[Ejemplo 119](https://www.w3.org/TR/activitystreams-vocabulary/#ex134-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Video\",\n  \"name\": \"Birds Flying\",\n  \"url\": \"http://example.org/video.mkv\",\n  \"duration\": \"PT2H\"\n}\n```"
+  },
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/Object",
+    "prefLabel": {
+      "en": "Object",
+      "de": "Objekt",
+      "fr": "Objet",
+      "es": "Objeto"
+    }
+  },
+  "exactMatch": [
+    {
+      "id": "http://www.w3.org/ns/activitystreams#duration"
+    },
+    {
+      "id": "schema:duration"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}
