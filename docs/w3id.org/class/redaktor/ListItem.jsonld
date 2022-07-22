@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FListItem",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FListItem",
   "prefLabel": {
-    "en": "List Item",
     "de": "Listeneintrag",
+    "en": "List Item",
     "fr": "Entrée dans la liste",
     "es": "Entrada en la lista"
   },
   "definition": {
+    "de": "Ein Listenelement, z. B. ein Schritt in einer Checkliste oder einer Anleitungsbeschreibung.",
     "en": "An list item, e.g. a step in a checklist or how-to description.",
-    "de": "An list item, e.g. a step in a checklist or how-to description.",
-    "fr": "An list item, e.g. a step in a checklist or how-to description.",
-    "es": "An list item, e.g. a step in a checklist or how-to description."
+    "fr": "Un élément de liste, par exemple une étape dans une liste de contrôle ou une description de mode d'emploi.",
+    "es": "Un elemento de la lista, por ejemplo, un paso en una lista de control o una descripción de cómo hacerlo."
   },
   "notation": [
     "37"
@@ -22,17 +22,26 @@
     {
       "id": "https://w3id.org/class/redaktor/position",
       "prefLabel": {
-        "en": "position",
         "de": "Position",
+        "en": "position",
         "fr": "position",
         "es": "posición"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/HowToItem",
+      "prefLabel": {
+        "de": "Wie man Artikel",
+        "en": "How to Item",
+        "fr": "Comment faire le point",
+        "es": "Cómo se hace la partida"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/HowToSection",
       "prefLabel": {
-        "en": "How To Section",
         "de": "Anleitungsabschnitt",
+        "en": "How To Section",
         "fr": "Section comment faire",
         "es": "Sección de cómo hacerlo"
       }
@@ -40,8 +49,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HowToStep",
       "prefLabel": {
-        "en": "How To Step",
         "de": "Anleitungen Schritt",
+        "en": "How To Step",
         "fr": "Comment faire un pas",
         "es": "Cómo se hace el paso"
       }
@@ -49,8 +58,8 @@
     {
       "id": "https://w3id.org/class/redaktor/item",
       "prefLabel": {
-        "en": "item",
         "de": "Artikel",
+        "en": "item",
         "fr": "article",
         "es": "artículo"
       }
@@ -58,8 +67,8 @@
     {
       "id": "https://w3id.org/class/redaktor/nextItem",
       "prefLabel": {
-        "en": "next item",
         "de": "nächster Artikel",
+        "en": "next item",
         "fr": "prochain article",
         "es": "siguiente artículo"
       }
@@ -67,8 +76,8 @@
     {
       "id": "https://w3id.org/class/redaktor/previousItem",
       "prefLabel": {
-        "en": "previous item",
         "de": "vorheriger Gegenstand",
+        "en": "previous item",
         "fr": "article précédent",
         "es": "artículo anterior"
       }
@@ -82,8 +91,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

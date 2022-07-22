@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FstreetAddress",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FstreetAddress",
   "prefLabel": {
-    "en": "street",
     "de": "Straße",
+    "en": "street",
     "fr": "rue",
     "es": "calle"
   },
   "definition": {
-    "en": "The street address as text.",
     "de": "Die Straße als Text.",
+    "en": "The street address as text.",
     "fr": "L'adresse de la rue sous forme de texte.",
     "es": "La dirección de la calle como texto."
   },
@@ -19,16 +19,16 @@
     "1568"
   ],
   "example": {
-    "en": "1 Pl. de Verdun",
     "de": "Parc de la Ciutadella, s/n",
+    "en": "1 Pl. de Verdun",
     "fr": "68 Middle St",
     "es": "Julienstraße 73"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/PostalAddress",
     "prefLabel": {
-      "en": "Postal address",
       "de": "Postaddresse",
+      "en": "Postal address",
       "fr": "adresse postale",
       "es": "dirección postal"
     }
@@ -41,8 +41,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -1,0 +1,203 @@
+{
+  "id": "https://w3id.org/class/redaktor/OrderStatus",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FOrderStatus",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FOrderStatus",
+  "prefLabel": {
+    "de": "Status der Bestellung",
+    "en": "Order Status",
+    "fr": "Statut de la commande",
+    "es": "Estado del pedido"
+  },
+  "definition": {
+    "de": "Aufgezählte Statuswerte für Order.",
+    "en": "Enumerated status values for Order.",
+    "fr": "Valeurs de statut énumérées pour l'ordre.",
+    "es": "Valores de estado enumerados para la Orden."
+  },
+  "notation": [
+    "1374"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/OrderCancelled",
+      "prefLabel": {
+        "de": "Bestellung storniert",
+        "en": "Order Cancelled",
+        "fr": "Commande annulée",
+        "es": "Pedido cancelado"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/OrderProblem",
+      "prefLabel": {
+        "de": "Problem der Bestellung",
+        "en": "Order Problem",
+        "fr": "Problème de commande",
+        "es": "Problema de orden"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/OrderDelivered",
+      "prefLabel": {
+        "de": "Bestellung Geliefert",
+        "en": "Order Delivered",
+        "fr": "Commande livrée",
+        "es": "Pedido entregado"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/OrderReturned",
+      "prefLabel": {
+        "de": "Bestellung zurückgeschickt",
+        "en": "Order Returned",
+        "fr": "Commande retournée",
+        "es": "Pedido devuelto"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/OrderPaymentDue",
+      "prefLabel": {
+        "de": "Bestellung Zahlung fällig",
+        "en": "Order Payment Due",
+        "fr": "Paiement de la commande dû",
+        "es": "Vencimiento del pago del pedido"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/OrderInTransit",
+      "prefLabel": {
+        "de": "Bestellung in Transit",
+        "en": "Order In Transit",
+        "fr": "Commande en cours de traitement",
+        "es": "Pedido en tránsito"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/OrderProcessing",
+      "prefLabel": {
+        "de": "Auftragsabwicklung",
+        "en": "Order Processing",
+        "fr": "Traitement des commandes",
+        "es": "Procesamiento de pedidos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/OrderPickupAvailable",
+      "prefLabel": {
+        "de": "Abholung der Bestellung möglich",
+        "en": "Order Pickup Available",
+        "fr": "Ramassage des commandes disponible",
+        "es": "Recogida de pedidos disponible"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:OrderStatus"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

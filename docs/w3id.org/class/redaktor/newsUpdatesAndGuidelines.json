@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FnewsUpdatesAndGuidelines",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FnewsUpdatesAndGuidelines",
   "prefLabel": {
-    "en": "news updates and guidelines",
     "de": "aktuelle Nachrichten und Richtlinien",
+    "en": "news updates and guidelines",
     "fr": "actualités et directives",
     "es": "noticias y directrices"
   },
   "definition": {
+    "de": "Bezeichnet eine Seite mit aktuellen Nachrichten und Richtlinien. Dies kann (muss aber nicht) oft die Hauptseite mit [[SpecialAnnouncement]]-Auszeichnung auf einer Site sein.",
     "en": "Indicates a page with news updates and guidelines. This could often be (but is not required to be) the main page containing [[SpecialAnnouncement]] markup on a site.",
-    "de": "Indicates a page with news updates and guidelines. This could often be (but is not required to be) the main page containing [[SpecialAnnouncement]] markup on a site.",
-    "fr": "Indicates a page with news updates and guidelines. This could often be (but is not required to be) the main page containing [[SpecialAnnouncement]] markup on a site.",
-    "es": "Indicates a page with news updates and guidelines. This could often be (but is not required to be) the main page containing [[SpecialAnnouncement]] markup on a site."
+    "fr": "Indique une page contenant des mises à jour de nouvelles et des directives. Il s'agit souvent (mais pas nécessairement) de la page principale contenant des balises [[SpecialAnnouncement]] sur un site.",
+    "es": "Indica una página con noticias actualizadas y directrices. A menudo podría ser (pero no es obligatorio) la página principal que contiene el marcado [[SpecialAnnouncement]] en un sitio."
   },
   "notation": [
     "2098"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/WebContent",
+      "prefLabel": {
+        "de": "Web-Inhalt",
+        "en": "Web Content",
+        "fr": "Contenu Web",
+        "es": "Contenido de la web"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSportsActivityLocation",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSportsActivityLocation",
   "prefLabel": {
-    "en": "Sports Activity Location",
     "de": "Sportliche Aktivitäten",
+    "en": "Sports Activity Location",
     "fr": "Lieu d'activité sportive",
     "es": "Lugar de actividad deportiva"
   },
@@ -16,8 +16,8 @@
     {
       "id": "https://w3id.org/class/redaktor/StadiumOrArena",
       "prefLabel": {
-        "en": "Stadium or Arena",
         "de": "Stadion oder Arena",
+        "en": "Stadium or Arena",
         "fr": "Stade ou arène",
         "es": "Estadio o Arena"
       }
@@ -25,8 +25,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HealthClub",
       "prefLabel": {
-        "en": "Fitness Centre",
         "de": "Fitnesszentrum",
+        "en": "Fitness Centre",
         "fr": "centre de fitness",
         "es": "centro de fitness"
       }
@@ -34,8 +34,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SkiResort",
       "prefLabel": {
-        "en": "Ski Resort",
         "de": "Skigebiet",
+        "en": "Ski Resort",
         "fr": "Station de ski",
         "es": "Estación de esquí"
       }
@@ -43,8 +43,8 @@
     {
       "id": "https://w3id.org/class/redaktor/BowlingAlley",
       "prefLabel": {
-        "en": "Bowling Alley",
         "de": "Kegelbahn",
+        "en": "Bowling Alley",
         "fr": "Salle de bowling",
         "es": "Bolera"
       }
@@ -52,8 +52,8 @@
     {
       "id": "https://w3id.org/class/redaktor/GolfCourse",
       "prefLabel": {
-        "en": "Golf Course",
         "de": "Golfplatz",
+        "en": "Golf Course",
         "fr": "Terrain de golf",
         "es": "Campo de golf"
       }
@@ -61,8 +61,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Pitch",
       "prefLabel": {
-        "en": "Pitch",
         "de": "Pitch, Spielfeld",
+        "en": "Pitch",
         "fr": "Terrain de jeu, Pitch",
         "es": "Pitch"
       }
@@ -70,8 +70,8 @@
     {
       "id": "https://w3id.org/class/redaktor/PublicSwimmingPool",
       "prefLabel": {
-        "en": "Public Swimming Pool",
         "de": "Öffentliches Schwimmbad",
+        "en": "Public Swimming Pool",
         "fr": "Piscine publique",
         "es": "Piscina pública"
       }
@@ -79,8 +79,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SportsClub",
       "prefLabel": {
-        "en": "Sports Club",
         "de": "Skigebiet",
+        "en": "Sports Club",
         "fr": "Club de sport",
         "es": "Club deportivo"
       }
@@ -88,8 +88,8 @@
     {
       "id": "https://w3id.org/class/redaktor/TennisComplex",
       "prefLabel": {
-        "en": "Tennis Complex",
         "de": "Tennis-Komplex",
+        "en": "Tennis Complex",
         "fr": "Complexe de tennis",
         "es": "Complejo de tenis"
       }
@@ -103,8 +103,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

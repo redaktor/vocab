@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAnniversary",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAnniversary",
   "prefLabel": {
-    "en": "Anniversary",
     "de": "Jahrestag",
+    "en": "Anniversary",
     "fr": "Anniversaire",
     "es": "Aniversario"
   },
   "definition": {
-    "en": "Stories about the anniversary of some important event that took place in recent history, usually bringing a short review of the event itself.",
     "de": "Berichte über den Jahrestag eines wichtigen Ereignisses der jüngeren Geschichte, meist mit einem kurzen Rückblick auf das Ereignis selbst.",
+    "en": "Stories about the anniversary of some important event that took place in recent history, usually bringing a short review of the event itself.",
     "fr": "Reportages sur l'anniversaire d'un événement important qui a eu lieu dans l'histoire récente, avec généralement un bref rappel de l'événement lui-même.",
     "es": "Historias sobre el aniversario de algún acontecimiento importante que haya tenido lugar en la historia reciente, que suelen llevar una breve reseña del propio acontecimiento."
   },
@@ -29,8 +29,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

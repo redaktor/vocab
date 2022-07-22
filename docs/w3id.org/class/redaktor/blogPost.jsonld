@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FblogPost",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FblogPost",
   "prefLabel": {
-    "en": "blog post",
     "de": "Blog-Beitrag",
+    "en": "blog post",
     "fr": "blog post",
     "es": "entrada del blog"
   },
   "definition": {
+    "de": "Ein Beitrag, der Teil dieses Blogs ist.",
     "en": "A posting that is part of this blog.",
-    "de": "A posting that is part of this blog.",
-    "fr": "A posting that is part of this blog.",
-    "es": "A posting that is part of this blog."
+    "fr": "Une publication qui fait partie de ce blog.",
+    "es": "Una publicación que forma parte de este blog."
   },
   "notation": [
     "1821"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

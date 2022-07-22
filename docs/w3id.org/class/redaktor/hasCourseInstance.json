@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FhasCourseInstance",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FhasCourseInstance",
   "prefLabel": {
-    "en": "has course instance",
     "de": "hat Kursinstanz",
+    "en": "has course instance",
     "fr": "a instance de cours",
     "es": "tiene instancia de curso"
   },
   "definition": {
+    "de": "Ein Angebot des Kurses zu einer bestimmten Zeit und an einem bestimmten Ort oder über bestimmte Medien oder eine bestimmte Art des Studiums oder für eine bestimmte Gruppe von Studierenden.",
     "en": "An offering of the course at a specific time and place or through specific media or mode of study or to a specific section of students.",
-    "de": "An offering of the course at a specific time and place or through specific media or mode of study or to a specific section of students.",
-    "fr": "An offering of the course at a specific time and place or through specific media or mode of study or to a specific section of students.",
-    "es": "An offering of the course at a specific time and place or through specific media or mode of study or to a specific section of students."
+    "fr": "Une offre de cours à un moment et dans un lieu spécifiques ou par le biais d'un média ou d'un mode d'étude spécifique ou à une section spécifique d'étudiants.",
+    "es": "Una oferta del curso en un momento y lugar específicos o a través de medios o modos de estudio específicos o a una sección específica de estudiantes."
   },
   "notation": [
     "1986"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

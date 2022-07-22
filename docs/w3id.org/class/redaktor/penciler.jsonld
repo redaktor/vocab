@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fpenciler",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fpenciler",
   "prefLabel": {
-    "en": "penciler",
     "de": "Schreiber",
+    "en": "penciler",
     "fr": "crayon à papier",
     "es": "lápiz"
   },
   "definition": {
+    "de": "Die Person, die das primäre erzählerische Kunstwerk zeichnet.",
     "en": "The individual who draws the primary narrative artwork.",
-    "de": "The individual who draws the primary narrative artwork.",
-    "fr": "The individual who draws the primary narrative artwork.",
-    "es": "The individual who draws the primary narrative artwork."
+    "fr": "La personne qui dessine l'œuvre narrative primaire.",
+    "es": "El individuo que dibuja la obra de arte narrativa principal."
   },
   "notation": [
     "2142"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

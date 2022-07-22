@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FincludesObject",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FincludesObject",
   "prefLabel": {
-    "en": "includes object",
     "de": "schließt Objekt ein",
+    "en": "includes object",
     "fr": "inclut l'objet",
     "es": "incluye objeto"
   },
   "definition": {
+    "de": "Dieser verweist auf einen oder mehrere Knoten, die die genaue Menge der in einem [[Angebot]] oder einer [[Produktkollektion]] enthaltenen Produkte angeben.",
     "en": "This links to a node or nodes indicating the exact quantity of the products included in  an [[Offer]] or [[ProductCollection]].",
-    "de": "This links to a node or nodes indicating the exact quantity of the products included in  an [[Offer]] or [[ProductCollection]].",
-    "fr": "This links to a node or nodes indicating the exact quantity of the products included in  an [[Offer]] or [[ProductCollection]].",
-    "es": "This links to a node or nodes indicating the exact quantity of the products included in  an [[Offer]] or [[ProductCollection]]."
+    "fr": "Ce lien renvoie à un ou plusieurs nœuds indiquant la quantité exacte des produits inclus dans une [[Offre]] ou une [[Collection de produits]].",
+    "es": "Enlaza con un nodo o nodos que indican la cantidad exacta de los productos incluidos en una [[Oferta]] o [[Colección de productos]]."
   },
   "notation": [
     "2017"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/TypeAndQuantityNode",
+      "prefLabel": {
+        "de": "Typ und Menge Knoten",
+        "en": "Type And Quantity Node",
+        "fr": "Nœud de type et de quantité",
+        "es": "Tipo y cantidad de nodo"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

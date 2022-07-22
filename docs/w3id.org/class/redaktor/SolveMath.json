@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSolveMath",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSolveMath",
   "prefLabel": {
-    "en": "Solve Math",
     "de": "Mathematik auflösen",
+    "en": "Solve Math",
     "fr": "Solve Math",
     "es": "Resolver Matemáticas"
   },
   "definition": {
-    "en": "The action that takes in a math expression and directs users to a page potentially capable of solving/simplifying that expression.",
     "de": "Die Aktion, die einen mathematischen Ausdruck aufnimmt und den Benutzer zu einer Seite weiterleitet, die möglicherweise in der Lage ist, diesen Ausdruck zu lösen/vereinfachen.",
+    "en": "The action that takes in a math expression and directs users to a page potentially capable of solving/simplifying that expression.",
     "fr": "L'action qui prend une expression mathématique et dirige les utilisateurs vers une page potentiellement capable de résoudre/simplifier cette expression.",
     "es": "La acción que toma una expresión matemática y dirige a los usuarios a una página potencialmente capaz de resolver/simplificar esa expresión."
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Activity",
     "prefLabel": {
-      "en": "Activity",
       "de": "Aktivität",
+      "en": "Activity",
       "fr": "Activité",
       "es": "Actividad"
     }
@@ -35,8 +35,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

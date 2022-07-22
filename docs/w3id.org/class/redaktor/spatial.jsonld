@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fspatial",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fspatial",
   "prefLabel": {
-    "en": "spatial",
     "de": "räumlich",
+    "en": "spatial",
     "fr": "spatial",
     "es": "espacial"
   },
   "definition": {
+    "de": "Die Eigenschaft \"spatial\" kann in Fällen verwendet werden, in denen spezifischere Eigenschaften<br>(z.B. [[locationCreated]], [[spatialCoverage]], [[contentLocation]]) nicht als geeignet bekannt sind.",
     "en": "The “spatial” property can be used in cases when more specific properties<br>(e.g. [[locationCreated]], [[spatialCoverage]], [[contentLocation]]) are not known to be appropriate.",
-    "de": "The “spatial” property can be used in cases when more specific properties<br>(e.g. [[locationCreated]], [[spatialCoverage]], [[contentLocation]]) are not known to be appropriate.",
-    "fr": "The “spatial” property can be used in cases when more specific properties<br>(e.g. [[locationCreated]], [[spatialCoverage]], [[contentLocation]]) are not known to be appropriate.",
-    "es": "The “spatial” property can be used in cases when more specific properties<br>(e.g. [[locationCreated]], [[spatialCoverage]], [[contentLocation]]) are not known to be appropriate."
+    "fr": "La propriété \"spatiale\" peut être utilisée dans les cas où des propriétés plus spécifiques<br>(par exemple [[locationCreated]], [[spatialCoverage]], [[contentLocation]]) ne sont pas connues pour être appropriées.",
+    "es": "La propiedad \"spatial\" se puede utilizar en los casos en que no se sabe si son apropiadas propiedades más específicas<br>(por ejemplo, [[locationCreated]], [[spatialCoverage]], [[contentLocation]])."
   },
   "notation": [
     "2225"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

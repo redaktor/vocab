@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FComedy",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FComedy",
   "prefLabel": {
-    "en": "Comedy",
     "de": "Komödie,Comedy",
+    "en": "Comedy",
     "fr": "Comédie,Comedy",
     "es": "Comedia,Comedy"
   },
   "definition": {
-    "en": "The object contains material relating to a comedy program and/or event",
     "de": "Das Objekt enthält Material, das sich auf ein Comedy-Programm und/oder eine Veranstaltung bezieht.",
+    "en": "The object contains material relating to a comedy program and/or event",
     "fr": "L'objet contient des documents relatifs à un programme et/ou un événement de comédie.",
     "es": "El objeto contiene material relacionado con un programa y/o evento de comedia"
   },
   "note": {
-    "en": "Example: A news item or program classed as comedy, such as \"Friends\" or \"The Office\"",
     "de": "Hinweis Beispiel: Eine Nachricht oder eine Sendung, die als Comedy eingestuft wird, wie \"Friends\" oder \"The Office\".",
+    "en": "Example: A news item or program classed as comedy, such as \"Friends\" or \"The Office\"",
     "fr": "Exemple : Une nouvelle ou un programme classé comme comédie, tel que \"Friends\" ou \"The Office\".",
     "es": "Ejemplo: Una noticia o programa clasificado como comedia, como \"Friends\" o \"The Office\"."
   },
@@ -28,8 +28,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Satire",
       "prefLabel": {
-        "en": "Satire",
         "de": "Satire",
+        "en": "Satire",
         "fr": "Satire",
         "es": "Sátira"
       }
@@ -38,8 +38,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Fictional",
     "prefLabel": {
-      "en": "Fictional",
       "de": "Fiktional",
+      "en": "Fictional",
       "fr": "Fictionnel",
       "es": "Ficticia"
     }
@@ -52,8 +52,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

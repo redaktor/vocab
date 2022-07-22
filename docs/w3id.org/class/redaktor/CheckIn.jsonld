@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCheckIn",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCheckIn",
   "prefLabel": {
-    "en": "Check In",
     "de": "Einchecken",
+    "en": "Check In",
     "fr": "Check In",
     "es": "Check In"
   },
   "definition": {
-    "en": "The act of an agent communicating (service provider, social media, etc) their arrival by registering/confirming for a previously reserved service (e.g. flight check in) or at a place (e.g. hotel), possibly resulting in a result (boarding pass, etc).",
     "de": "Der Vorgang, bei dem ein Akteur (Dienstleister, soziale Medien usw.) seine Ankunft mitteilt, indem er sich für einen zuvor reservierten Dienst (z. B. Flug-Check-in) oder an einem Ort (z. B. Hotel) registriert/bestätigt, was möglicherweise zu einem Ergebnis (Bordkarte usw.) führt.",
+    "en": "The act of an agent communicating (service provider, social media, etc) their arrival by registering/confirming for a previously reserved service (e.g. flight check in) or at a place (e.g. hotel), possibly resulting in a result (boarding pass, etc).",
     "fr": "Action d'un agent qui communique (fournisseur de services, médias sociaux, etc.) son arrivée en s'enregistrant/confirmant un service préalablement réservé (par exemple, l'enregistrement d'un vol) ou un lieu (par exemple, un hôtel), ce qui peut donner lieu à un résultat (carte d'embarquement, etc.).",
     "es": "Acto por el que un agente comunica (proveedor de servicios, medios sociales, etc.) su llegada registrándose/confirmándose para un servicio previamente reservado (por ejemplo, la facturación de un vuelo) o en un lugar (por ejemplo, un hotel), que puede dar lugar a un resultado (tarjeta de embarque, etc.)."
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Activity",
     "prefLabel": {
-      "en": "Activity",
       "de": "Aktivität",
+      "en": "Activity",
       "fr": "Activité",
       "es": "Actividad"
     }
@@ -35,8 +35,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

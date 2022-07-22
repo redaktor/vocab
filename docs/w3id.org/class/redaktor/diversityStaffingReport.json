@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FdiversityStaffingReport",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FdiversityStaffingReport",
   "prefLabel": {
-    "en": "diversity staffing report",
     "de": "bericht zur personellen vielfalt",
+    "en": "diversity staffing report",
     "fr": "rapport sur la diversité du personnel",
     "es": "informe de la plantilla de diversidad"
   },
   "definition": {
+    "de": "Für eine [[Organisation]] (häufig, aber nicht notwendigerweise eine [[NewsMediaOrganisation]]), ein Bericht über Fragen der personellen Vielfalt. In einem Nachrichtenkontext kann es sich beispielsweise um ASNE- oder RTDNA-Berichte (USA) oder um Selbstberichte handeln.",
     "en": "For an [[Organization]] (often but not necessarily a [[NewsMediaOrganization]]), a report on staffing diversity issues. In a news context this might be for example ASNE or RTDNA (US) reports, or self-reported.",
-    "de": "For an [[Organization]] (often but not necessarily a [[NewsMediaOrganization]]), a report on staffing diversity issues. In a news context this might be for example ASNE or RTDNA (US) reports, or self-reported.",
-    "fr": "For an [[Organization]] (often but not necessarily a [[NewsMediaOrganization]]), a report on staffing diversity issues. In a news context this might be for example ASNE or RTDNA (US) reports, or self-reported.",
-    "es": "For an [[Organization]] (often but not necessarily a [[NewsMediaOrganization]]), a report on staffing diversity issues. In a news context this might be for example ASNE or RTDNA (US) reports, or self-reported."
+    "fr": "Pour une [[Organisation]] (souvent mais pas nécessairement une [[Organisation de médias d'information]]), un rapport sur les questions de diversité du personnel. Dans un contexte d'information, il peut s'agir par exemple de rapports de l'ASNE ou de la RTDNA (US), ou d'un rapport personnel.",
+    "es": "Para una [[Organización]] (a menudo, pero no necesariamente, una [[Organización de medios de comunicación]]), un informe sobre cuestiones de diversidad del personal. En el contexto de las noticias, puede tratarse, por ejemplo, de informes de la ASNE o de la RTDNA (Estados Unidos), o de informes propios."
   },
   "notation": [
     "1914"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FfoundingLocation",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FfoundingLocation",
   "prefLabel": {
-    "en": "founding location",
     "de": "Gründungsort",
+    "en": "founding location",
     "fr": "lieu de fondation",
     "es": "ubicación de la fundación"
   },
   "definition": {
+    "de": "Der Ort, an dem die Organisation gegründet wurde.",
     "en": "The place where the Organization was founded.",
-    "de": "The place where the Organization was founded.",
-    "fr": "The place where the Organization was founded.",
-    "es": "The place where the Organization was founded."
+    "fr": "Le lieu où l'Organisation a été fondée.",
+    "es": "El lugar donde se fundó la Organización."
   },
   "notation": [
     "1962"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FjobTitle",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FjobTitle",
   "prefLabel": {
-    "en": "job title",
     "de": "Auftragstitel",
+    "en": "job title",
     "fr": "titre du poste",
     "es": "título del trabajo"
   },
   "definition": {
+    "de": "Die Berufsbezeichnung der Person (z. B. Finanzmanager).",
     "en": "The job title of the person (for example, Financial Manager).",
-    "de": "The job title of the person (for example, Financial Manager).",
-    "fr": "The job title of the person (for example, Financial Manager).",
-    "es": "The job title of the person (for example, Financial Manager)."
+    "fr": "Le titre du poste de la personne (par exemple, directeur financier).",
+    "es": "El cargo de la persona (por ejemplo, Director Financiero)."
   },
   "notation": [
     "2051"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

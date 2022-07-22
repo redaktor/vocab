@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FschoolClosuresInfo",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FschoolClosuresInfo",
   "prefLabel": {
-    "en": "school closures info",
     "de": "Infos zu Schulschließungen",
+    "en": "school closures info",
     "fr": "informations sur les fermetures d'écoles",
     "es": "información sobre el cierre de escuelas"
   },
   "definition": {
+    "de": "Informationen über Schulschließungen.",
     "en": "Information about school closures.",
-    "de": "Information about school closures.",
-    "fr": "Information about school closures.",
-    "es": "Information about school closures."
+    "fr": "Informations sur les fermetures d'écoles.",
+    "es": "Información sobre el cierre de escuelas."
   },
   "notation": [
     "2199"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/WebContent",
+      "prefLabel": {
+        "de": "Web-Inhalt",
+        "en": "Web Content",
+        "fr": "Contenu Web",
+        "es": "Contenido de la web"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

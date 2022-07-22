@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTentativeAccept",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTentativeAccept",
   "prefLabel": {
-    "en": "Tentative Accept",
     "de": "Vorläufig Angenommen",
+    "en": "Tentative Accept",
     "fr": "Acceptation provisoire",
     "es": "Aceptación tentativa"
   },
   "definition": {
-    "en": "A specialization of Accept indicating that the acceptance is tentative.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativeaccept](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativeaccept)",
     "de": "Eine Spezialisierung von Accept, die angibt, dass die Annahme vorläufig ist.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativeaccept](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativeaccept)",
+    "en": "A specialization of Accept indicating that the acceptance is tentative.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativeaccept](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativeaccept)",
     "fr": "Une spécialisation de Accept indiquant que l'acceptation est provisoire.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativeaccept](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativeaccept)",
     "es": "Una especialización de Accept que indica que la aceptación es tentativa.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativeaccept](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativeaccept)"
   },
   "scopeNote": {
-    "en": ": Activity",
     "de": ": Activity",
+    "en": ": Activity",
     "fr": ": Activity",
     "es": ": Activity"
   },
@@ -25,16 +25,16 @@
     "220"
   ],
   "example": {
-    "en": "[Example 11](https://www.w3.org/TR/activitystreams-vocabulary/#ex8-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally tentatively accepted an invitation to a party\",\n  \"type\": \"TentativeAccept\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Invite\",\n    \"actor\": \"http://john.example.org\",\n    \"object\": {\n      \"type\": \"Event\",\n      \"name\": \"Going-Away Party for Jim\"\n    }\n  }\n}\n```",
     "de": "[Beispiel 11](https://www.w3.org/TR/activitystreams-vocabulary/#ex8-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally tentatively accepted an invitation to a party\",\n  \"type\": \"TentativeAccept\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Invite\",\n    \"actor\": \"http://john.example.org\",\n    \"object\": {\n      \"type\": \"Event\",\n      \"name\": \"Going-Away Party for Jim\"\n    }\n  }\n}\n```",
+    "en": "[Example 11](https://www.w3.org/TR/activitystreams-vocabulary/#ex8-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally tentatively accepted an invitation to a party\",\n  \"type\": \"TentativeAccept\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Invite\",\n    \"actor\": \"http://john.example.org\",\n    \"object\": {\n      \"type\": \"Event\",\n      \"name\": \"Going-Away Party for Jim\"\n    }\n  }\n}\n```",
     "fr": "[Exemple 11](https://www.w3.org/TR/activitystreams-vocabulary/#ex8-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally tentatively accepted an invitation to a party\",\n  \"type\": \"TentativeAccept\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Invite\",\n    \"actor\": \"http://john.example.org\",\n    \"object\": {\n      \"type\": \"Event\",\n      \"name\": \"Going-Away Party for Jim\"\n    }\n  }\n}\n```",
     "es": "[Ejemplo 11](https://www.w3.org/TR/activitystreams-vocabulary/#ex8-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally tentatively accepted an invitation to a party\",\n  \"type\": \"TentativeAccept\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Invite\",\n    \"actor\": \"http://john.example.org\",\n    \"object\": {\n      \"type\": \"Event\",\n      \"name\": \"Going-Away Party for Jim\"\n    }\n  }\n}\n```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/Activity",
     "prefLabel": {
-      "en": "Activity",
       "de": "Aktivität",
+      "en": "Activity",
       "fr": "Activité",
       "es": "Actividad"
     }
@@ -47,8 +47,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

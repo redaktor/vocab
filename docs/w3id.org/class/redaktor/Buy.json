@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FBuy",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FBuy",
   "prefLabel": {
-    "en": "Buy",
     "de": "Kaufen",
+    "en": "Buy",
     "fr": "Acheter",
     "es": "Comprar"
   },
   "definition": {
-    "en": "The act of giving money to a seller in exchange for goods or services rendered.",
     "de": "Der Vorgang, bei dem man einem Verkäufer Geld für eine Ware oder eine Dienstleistung gibt.",
+    "en": "The act of giving money to a seller in exchange for goods or services rendered.",
     "fr": "Action de donner de l'argent à un vendeur en échange de biens ou de services rendus.",
     "es": "El acto de dar dinero a un vendedor a cambio de bienes o servicios prestados."
   },
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

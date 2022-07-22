@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FnumberOfBedrooms",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FnumberOfBedrooms",
   "prefLabel": {
-    "en": "number of bedrooms",
     "de": "Anzahl der Schlafzimmer",
+    "en": "number of bedrooms",
     "fr": "nombre de chambres",
     "es": "número de habitaciones"
   },
   "definition": {
+    "de": "Die ganzzahlige Gesamtzahl der Schlafzimmer in einer [[Unterkunft]], einem [[ApartmentComplex]] oder einem [[FloorPlan]].",
     "en": "The total integer number of bedrooms in a some [[Accommodation]], [[ApartmentComplex]] or [[FloorPlan]].",
-    "de": "The total integer number of bedrooms in a some [[Accommodation]], [[ApartmentComplex]] or [[FloorPlan]].",
-    "fr": "The total integer number of bedrooms in a some [[Accommodation]], [[ApartmentComplex]] or [[FloorPlan]].",
-    "es": "The total integer number of bedrooms in a some [[Accommodation]], [[ApartmentComplex]] or [[FloorPlan]]."
+    "fr": "Le nombre total de chambres à coucher dans un [[Logement]], un [[Complexe d'appartements]] ou un [[Plan d'étage]].",
+    "es": "El número entero total de dormitorios en un [[Alojamiento]], [[Complejo de apartamentos]] o [[Plano de planta]]."
   },
   "notation": [
     "2106"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/QuantitativeValue",
+      "prefLabel": {
+        "de": "Quantitativer Wert",
+        "en": "Quantitative Value",
+        "fr": "Valeur quantitative",
+        "es": "Valor cuantitativo"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

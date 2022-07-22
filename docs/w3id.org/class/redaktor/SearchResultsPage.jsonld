@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSearchResultsPage",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSearchResultsPage",
   "prefLabel": {
-    "en": "Search Results Page",
     "de": "Seite mit Suchergebnissen",
+    "en": "Search Results Page",
     "fr": "Page de résultats de recherche",
     "es": "Página de resultados de búsqueda"
   },
   "definition": {
-    "en": "Web page type: Search results page.",
     "de": "Webpage-Typ: Seite mit Suchergebnissen.",
+    "en": "Web page type: Search results page.",
     "fr": "Type de page Web : Page de résultats de recherche.",
     "es": "Tipo de página web: Página de resultados de búsqueda."
   },
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

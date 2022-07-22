@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FeducationalUse",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FeducationalUse",
   "prefLabel": {
-    "en": "educational use",
     "de": "pädagogische Nutzung",
+    "en": "educational use",
     "fr": "usage éducatif",
     "es": "uso educativo"
   },
   "definition": {
+    "de": "Der Zweck einer Arbeit im Bildungskontext, z. B. \"Aufgabe\", \"Gruppenarbeit\".",
     "en": "The purpose of a work in the context of education; for example, 'assignment', 'group work'.",
-    "de": "The purpose of a work in the context of education; for example, 'assignment', 'group work'.",
-    "fr": "The purpose of a work in the context of education; for example, 'assignment', 'group work'.",
-    "es": "The purpose of a work in the context of education; for example, 'assignment', 'group work'."
+    "fr": "Le but d'un travail dans le contexte de l'éducation ; par exemple, \"devoir\", \"travail de groupe\".",
+    "es": "El propósito de un trabajo en el contexto de la educación; por ejemplo, \"tarea\", \"trabajo en grupo\"."
   },
   "notation": [
     "1924"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

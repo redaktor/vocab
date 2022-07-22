@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FObituary",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FObituary",
   "prefLabel": {
-    "en": "Obituary",
     "de": "Nachruf",
+    "en": "Obituary",
     "fr": "Notice nécrologique",
     "es": "Obituario"
   },
   "definition": {
-    "en": "A narrative about an individual's life and achievements for publication after death",
     "de": "Ein Bericht über das Leben und die Leistungen einer Person, der nach ihrem Tod veröffentlicht wird",
+    "en": "A narrative about an individual's life and achievements for publication after death",
     "fr": "Récit de la vie et des réalisations d'une personne, destiné à être publié après sa mort.",
     "es": "Una narración sobre la vida y los logros de una persona para su publicación después de su muerte"
   },
@@ -29,8 +29,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

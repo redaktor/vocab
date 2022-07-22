@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FboardingPolicy",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FboardingPolicy",
   "prefLabel": {
-    "en": "boarding policy",
     "de": "Internatspolitik",
+    "en": "boarding policy",
     "fr": "politique d'embarquement",
     "es": "política de embarque"
   },
   "definition": {
+    "de": "Die Art der von der Fluggesellschaft angewandten Einsteigepolitik (z. B. zonenbasiert oder gruppenbasiert).",
     "en": "The type of boarding policy used by the airline (e.g. zone-based or group-based).",
-    "de": "The type of boarding policy used by the airline (e.g. zone-based or group-based).",
-    "fr": "The type of boarding policy used by the airline (e.g. zone-based or group-based).",
-    "es": "The type of boarding policy used by the airline (e.g. zone-based or group-based)."
+    "fr": "Le type de politique d'embarquement utilisé par la compagnie aérienne (par exemple, par zone ou par groupe).",
+    "es": "El tipo de política de embarque utilizada por la compañía aérea (por ejemplo, basada en zonas o en grupos)."
   },
   "notation": [
     "1823"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/BoardingPolicyType",
+      "prefLabel": {
+        "de": "Internatspolitik Typ",
+        "en": "Boarding Policy Type",
+        "fr": "Type de politique d'embarquement",
+        "es": "Tipo de póliza de embarque"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

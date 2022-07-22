@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FstartOffset",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FstartOffset",
   "prefLabel": {
-    "en": "start offset",
     "de": "Startversatz",
+    "en": "start offset",
     "fr": "start offset",
     "es": "inicio de la compensación"
   },
   "definition": {
+    "de": "Die Startzeit des Clips, ausgedrückt als Anzahl der Sekunden ab Beginn des Werks.",
     "en": "The start time of the clip expressed as the number of seconds from the beginning of the work.",
-    "de": "The start time of the clip expressed as the number of seconds from the beginning of the work.",
-    "fr": "The start time of the clip expressed as the number of seconds from the beginning of the work.",
-    "es": "The start time of the clip expressed as the number of seconds from the beginning of the work."
+    "fr": "L'heure de début du clip exprimée en nombre de secondes à partir du début de l'œuvre.",
+    "es": "La hora de inicio del clip expresada como el número de segundos desde el comienzo de la obra."
   },
   "notation": [
     "2232"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

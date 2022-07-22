@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FavailableThrough",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FavailableThrough",
   "prefLabel": {
-    "en": "available through",
     "de": "verfügbar durch",
+    "en": "available through",
     "fr": "disponible par",
     "es": "disponible a través de"
   },
   "definition": {
+    "de": "Nach diesem Datum kann der Artikel nicht mehr abgeholt werden.",
     "en": "After this date, the item will no longer be available for pickup.",
-    "de": "After this date, the item will no longer be available for pickup.",
-    "fr": "After this date, the item will no longer be available for pickup.",
-    "es": "After this date, the item will no longer be available for pickup."
+    "fr": "Après cette date, l'article ne sera plus disponible pour le ramassage.",
+    "es": "Después de esta fecha, el artículo ya no estará disponible para su recogida."
   },
   "notation": [
     "1813"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

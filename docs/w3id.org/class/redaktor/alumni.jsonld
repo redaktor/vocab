@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Falumni",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Falumni",
   "prefLabel": {
-    "en": "alumni",
     "de": "Alumni",
+    "en": "alumni",
     "fr": "alumni",
     "es": "antiguos alumnos"
   },
   "definition": {
+    "de": "Alumni einer Organisation.",
     "en": "Alumni of an organization.",
-    "de": "Alumni of an organization.",
-    "fr": "Alumni of an organization.",
-    "es": "Alumni of an organization."
+    "fr": "Les anciens d'une organisation.",
+    "es": "Alumnos de una organización."
   },
   "notation": [
     "1769"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

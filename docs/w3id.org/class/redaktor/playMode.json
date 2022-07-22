@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FplayMode",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FplayMode",
   "prefLabel": {
-    "en": "play mode",
     "de": "Spielmodus",
+    "en": "play mode",
     "fr": "mode de jeu",
     "es": "modo de juego"
   },
   "definition": {
+    "de": "Zeigt an, ob es sich um ein Mehrspieler-, Koop- oder Einzelspielerspiel handelt.  Das Spiel kann gleichzeitig als Mehrspieler-, Koop- und Einzelspieler-Spiel gekennzeichnet sein.",
     "en": "Indicates whether this game is multi-player, co-op or single-player.  The game can be marked as multi-player, co-op and single-player at the same time.",
-    "de": "Indicates whether this game is multi-player, co-op or single-player.  The game can be marked as multi-player, co-op and single-player at the same time.",
-    "fr": "Indicates whether this game is multi-player, co-op or single-player.  The game can be marked as multi-player, co-op and single-player at the same time.",
-    "es": "Indicates whether this game is multi-player, co-op or single-player.  The game can be marked as multi-player, co-op and single-player at the same time."
+    "fr": "Indique si ce jeu est multijoueur, coopératif ou mono-joueur.  Le jeu peut être marqué comme multijoueur, coopératif et mono-joueur en même temps.",
+    "es": "Indica si este juego es multijugador, cooperativo o de un solo jugador.  El juego puede estar marcado como multijugador, cooperativo y de un solo jugador al mismo tiempo."
   },
   "notation": [
     "2148"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/GamePlayMode",
+      "prefLabel": {
+        "de": "Spielmodus",
+        "en": "Game Play Mode",
+        "fr": "Mode de jeu",
+        "es": "Modo de juego"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FwordCount",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FwordCount",
   "prefLabel": {
-    "en": "word count",
     "de": "Wortanzahl",
+    "en": "word count",
     "fr": "nombre de mots",
     "es": "número de palabras"
   },
   "definition": {
+    "de": "Die Anzahl der Wörter im Text des Artikels.",
     "en": "The number of words in the text of the Article.",
-    "de": "The number of words in the text of the Article.",
-    "fr": "The number of words in the text of the Article.",
-    "es": "The number of words in the text of the Article."
+    "fr": "Le nombre de mots dans le texte de l'article.",
+    "es": "El número de palabras del texto del artículo."
   },
   "notation": [
     "2295"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

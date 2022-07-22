@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCreativeWorkSeason",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCreativeWorkSeason",
   "prefLabel": {
-    "en": "Season",
     "de": "Staffel",
+    "en": "Season",
     "fr": "saison",
     "es": "temporada"
   },
   "definition": {
-    "en": "A media season e.g. tv, radio, video game etc.",
     "de": "Eine Staffel, z. B. Fernsehen, Radio, Videospiel usw.",
+    "en": "A media season e.g. tv, radio, video game etc.",
     "fr": "Une saison médiatique, par exemple la télévision, la radio, les jeux vidéo, etc.",
     "es": "Una temporada en los medios de comunicación, por ejemplo, televisión, radio, videojuegos, etc."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/actorPerforming",
       "prefLabel": {
-        "en": "actor",
         "de": "Darsteller",
+        "en": "actor",
         "fr": "acteur",
         "es": "actor"
       }
@@ -31,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/director",
       "prefLabel": {
-        "en": "director",
         "de": "Regisseur",
+        "en": "director",
         "fr": "réalisateur",
         "es": "director"
       }
@@ -40,8 +40,8 @@
     {
       "id": "https://w3id.org/class/redaktor/partOfSeries",
       "prefLabel": {
-        "en": "part of series",
         "de": "Teil einer Serie",
+        "en": "part of series",
         "fr": "partie de série",
         "es": "parte de la serie"
       }
@@ -49,8 +49,8 @@
     {
       "id": "https://w3id.org/class/redaktor/trailer",
       "prefLabel": {
-        "en": "trailer",
         "de": "Anhänger",
+        "en": "trailer",
         "fr": "remorque",
         "es": "remolque"
       }
@@ -83,8 +83,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/CreativeWork",
     "prefLabel": {
-      "en": "Creative Work",
       "de": "Kreativwerk",
+      "en": "Creative Work",
       "fr": "Travail créatif",
       "es": "Trabajo creativo"
     }
@@ -97,8 +97,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

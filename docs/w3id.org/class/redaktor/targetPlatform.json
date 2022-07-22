@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FtargetPlatform",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FtargetPlatform",
   "prefLabel": {
-    "en": "target platform",
     "de": "Zielplattform",
+    "en": "target platform",
     "fr": "plate-forme cible",
     "es": "plataforma de destino"
   },
   "definition": {
+    "de": "Art der App-Entwicklung: Telefon, Metro-Stil, Desktop, XBox, usw.",
     "en": "Type of app development: phone, Metro style, desktop, XBox, etc.",
-    "de": "Type of app development: phone, Metro style, desktop, XBox, etc.",
-    "fr": "Type of app development: phone, Metro style, desktop, XBox, etc.",
-    "es": "Type of app development: phone, Metro style, desktop, XBox, etc."
+    "fr": "Type de développement d'applications : téléphone, style Metro, bureau, XBox, etc.",
+    "es": "Tipo de desarrollo de aplicaciones: teléfono, estilo Metro, escritorio, XBox, etc."
   },
   "notation": [
     "2244"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

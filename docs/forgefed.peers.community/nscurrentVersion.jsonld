@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fforgefed.peers.community%2FnscurrentVersion",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fforgefed.peers.community%2FnscurrentVersion",
   "prefLabel": {
-    "en": "currentVersion",
     "de": "currentVersion",
+    "en": "currentVersion",
     "fr": "currentVersion",
     "es": "currentVersion"
   },
   "definition": {
-    "en": "see [4](https://forgefed.peers.community/ns#currentVersion)",
     "de": "<br>siehe [4](https://forgefed.peers.community/ns#currentVersion)",
+    "en": "see [4](https://forgefed.peers.community/ns#currentVersion)",
     "fr": "voir [4](https://forgefed.peers.community/ns#currentVersion)",
     "es": "ver [4](https://forgefed.peers.community/ns#currentVersion)"
   },
@@ -19,16 +19,16 @@
     "2045"
   ],
   "example": {
-    "en": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://dev.example/aviva/notes/107_old_version\",\n    \"type\": \"Note\",\n    \"attributedTo\": \"https://dev.example/aviva\",\n    \"content\": \"I agree!!111\",\n    \"currentVersion\": \"https://dev.example/aviva/notes/107\"\n}```",
     "de": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://dev.example/aviva/notes/107_old_version\",\n    \"type\": \"Note\",\n    \"attributedTo\": \"https://dev.example/aviva\",\n    \"content\": \"I agree!!111\",\n    \"currentVersion\": \"https://dev.example/aviva/notes/107\"\n}```",
+    "en": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://dev.example/aviva/notes/107_old_version\",\n    \"type\": \"Note\",\n    \"attributedTo\": \"https://dev.example/aviva\",\n    \"content\": \"I agree!!111\",\n    \"currentVersion\": \"https://dev.example/aviva/notes/107\"\n}```",
     "fr": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://dev.example/aviva/notes/107_old_version\",\n    \"type\": \"Note\",\n    \"attributedTo\": \"https://dev.example/aviva\",\n    \"content\": \"I agree!!111\",\n    \"currentVersion\": \"https://dev.example/aviva/notes/107\"\n}```",
     "es": "```json {\n    \"@context\": [\n        \"https://www.w3.org/ns/activitystreams\",\n        \"https://forgefed.peers.community/ns\"\n    ],\n    \"id\": \"https://dev.example/aviva/notes/107_old_version\",\n    \"type\": \"Note\",\n    \"attributedTo\": \"https://dev.example/aviva\",\n    \"content\": \"I agree!!111\",\n    \"currentVersion\": \"https://dev.example/aviva/notes/107\"\n}```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/forgefed",
     "prefLabel": {
-      "en": "ForgeFed",
       "de": "ForgeFed",
+      "en": "ForgeFed",
       "fr": "ForgeFed",
       "es": "ForgeFed"
     }
@@ -36,8 +36,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

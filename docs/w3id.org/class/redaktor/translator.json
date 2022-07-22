@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Ftranslator",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Ftranslator",
   "prefLabel": {
-    "en": "translator",
     "de": "Übersetzer",
+    "en": "translator",
     "fr": "traducteur",
     "es": "traductor"
   },
   "definition": {
-    "en": "agent who adapts any kind of written text from one language to another",
     "de": "Person, die geschriebene Texte von einer Sprache in eine andere übersetzt",
-    "fr": "personne qui traduit des textes écrits d'une langue à une autre",
-    "es": "persona u organización que efectuó la traducción"
+    "en": "Agent who adapts any kind of written text from one language to another",
+    "fr": "Personne qui traduit des textes rédigés dans une langue étrangère en une autre langue.",
+    "es": "Persona que traduce textos escritos en una lengua a otra."
   },
   "notation": [
     "2274"
@@ -32,8 +32,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

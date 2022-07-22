@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FQuestionAndAnswer",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FQuestionAndAnswer",
   "prefLabel": {
-    "en": "Question and Answer Session",
     "de": "Frage und Antwort-Sitzung",
+    "en": "Question and Answer Session",
     "fr": "Séance de questions-réponses",
     "es": "Sesión de preguntas y respuestas"
   },
   "definition": {
-    "en": "An interview portrayed as a sequence of questions and answers",
     "de": "Ein Interview, das als eine Abfolge von Fragen und Antworten dargestellt wird",
+    "en": "An interview portrayed as a sequence of questions and answers",
     "fr": "Une interview présentée comme une séquence de questions et de réponses.",
     "es": "Una entrevista representada como una secuencia de preguntas y respuestas"
   },
@@ -29,8 +29,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

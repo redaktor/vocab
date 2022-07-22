@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FGeoShape",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FGeoShape",
   "prefLabel": {
-    "en": "Geo Shape",
     "de": "Geo-Form",
+    "en": "Geo Shape",
     "fr": "Forme géographique",
     "es": "Forma geográfica"
   },
   "definition": {
+    "de": "Die geografische Form eines Ortes. Ein GeoShape kann durch mehrere Eigenschaften beschrieben werden, deren Werte auf Paaren aus Breiten- und Längengraden basieren. Zur Trennung von Breiten- und Längengraden können entweder Leerzeichen oder Kommas verwendet werden; beim Schreiben einer Liste mehrerer solcher Punkte sollte ein Leerzeichen verwendet werden.",
     "en": "The geographic shape of a place. A GeoShape can be described using several properties whose values are based on latitude/longitude pairs. Either whitespace or commas can be used to separate latitude and longitude; whitespace should be used when writing a list of several such points.",
-    "de": "The geographic shape of a place. A GeoShape can be described using several properties whose values are based on latitude/longitude pairs. Either whitespace or commas can be used to separate latitude and longitude; whitespace should be used when writing a list of several such points.",
-    "fr": "The geographic shape of a place. A GeoShape can be described using several properties whose values are based on latitude/longitude pairs. Either whitespace or commas can be used to separate latitude and longitude; whitespace should be used when writing a list of several such points.",
-    "es": "The geographic shape of a place. A GeoShape can be described using several properties whose values are based on latitude/longitude pairs. Either whitespace or commas can be used to separate latitude and longitude; whitespace should be used when writing a list of several such points."
+    "fr": "La forme géographique d'un lieu. Un GeoShape peut être décrit à l'aide de plusieurs propriétés dont les valeurs sont basées sur des paires de latitude/longitude. On peut utiliser des espaces ou des virgules pour séparer la latitude et la longitude ; il est conseillé d'utiliser des espaces lorsqu'on écrit une liste de plusieurs de ces points.",
+    "es": "La forma geográfica de un lugar. Una GeoShape puede describirse mediante varias propiedades cuyos valores se basan en pares de latitud/longitud. Se pueden utilizar espacios en blanco o comas para separar la latitud y la longitud; los espacios en blanco deben utilizarse cuando se escribe una lista de varios puntos de este tipo."
   },
   "notation": [
     "34"
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/address",
       "prefLabel": {
-        "en": "address",
         "de": "Addresse",
+        "en": "address",
         "fr": "adresse",
         "es": "dirección"
       }
@@ -31,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/box",
       "prefLabel": {
-        "en": "box",
         "de": "Kasten",
+        "en": "box",
         "fr": "boîte",
         "es": "caja"
       }
@@ -40,8 +40,8 @@
     {
       "id": "https://w3id.org/class/redaktor/circle",
       "prefLabel": {
-        "en": "circle",
         "de": "Kreis",
+        "en": "circle",
         "fr": "circle",
         "es": "círculo"
       }
@@ -49,8 +49,8 @@
     {
       "id": "https://w3id.org/class/redaktor/elevation",
       "prefLabel": {
-        "en": "elevation",
         "de": "Erhebung",
+        "en": "elevation",
         "fr": "élévation",
         "es": "elevación"
       }
@@ -58,8 +58,8 @@
     {
       "id": "https://w3id.org/class/redaktor/line",
       "prefLabel": {
-        "en": "line",
         "de": "Linie",
+        "en": "line",
         "fr": "ligne",
         "es": "línea"
       }
@@ -67,8 +67,8 @@
     {
       "id": "https://w3id.org/class/redaktor/polygon",
       "prefLabel": {
-        "en": "polygon",
         "de": "Polygon",
+        "en": "polygon",
         "fr": "polygone",
         "es": "polígono"
       }
@@ -82,8 +82,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

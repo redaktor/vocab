@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FisPlanForApartment",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FisPlanForApartment",
   "prefLabel": {
-    "en": "is plan for apartment",
     "de": "ist ein Plan für eine Wohnung",
+    "en": "is plan for apartment",
     "fr": "est le plan d'un appartement",
     "es": "es plan para el apartamento"
   },
   "definition": {
+    "de": "Zeigt einige Unterkünfte an, die dieser Grundriss beschreibt.",
     "en": "Indicates some accommodation that this floor plan describes.",
-    "de": "Indicates some accommodation that this floor plan describes.",
-    "fr": "Indicates some accommodation that this floor plan describes.",
-    "es": "Indicates some accommodation that this floor plan describes."
+    "fr": "Indique certains logements que ce plan d'étage décrit.",
+    "es": "Indica algunos alojamientos que este plano describe."
   },
   "notation": [
     "2034"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

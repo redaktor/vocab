@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FhasMeasurement",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FhasMeasurement",
   "prefLabel": {
-    "en": "has measurement",
     "de": "hat Messung",
+    "en": "has measurement",
     "fr": "a mesure",
     "es": "tiene medida"
   },
   "definition": {
+    "de": "Ein Produktmaß, z. B. die Innennaht einer Hose, die Radgröße eines Fahrrads oder das Maß einer Schraube. In der Regel ein genaues Maß, kann aber auch ein Bereich von Maßen für verstellbare Produkte sein, z. B. Gürtel und Skibindungen.",
     "en": "A product measurement, for example the inseam of pants, the wheel size of a bicycle, or the gauge of a screw. Usually an exact measurement, but can also be a range of measurements for adjustable products, for example belts and ski bindings.",
-    "de": "A product measurement, for example the inseam of pants, the wheel size of a bicycle, or the gauge of a screw. Usually an exact measurement, but can also be a range of measurements for adjustable products, for example belts and ski bindings.",
-    "fr": "A product measurement, for example the inseam of pants, the wheel size of a bicycle, or the gauge of a screw. Usually an exact measurement, but can also be a range of measurements for adjustable products, for example belts and ski bindings.",
-    "es": "A product measurement, for example the inseam of pants, the wheel size of a bicycle, or the gauge of a screw. Usually an exact measurement, but can also be a range of measurements for adjustable products, for example belts and ski bindings."
+    "fr": "Mesure d'un produit, par exemple l'entrejambe d'un pantalon, la taille des roues d'un vélo ou le calibre d'une vis. Il s'agit généralement d'une mesure exacte, mais il peut également s'agir d'une plage de mesures pour les produits réglables, par exemple les ceintures et les fixations de ski.",
+    "es": "Medida de un producto, por ejemplo la entrepierna de un pantalón, el tamaño de la rueda de una bicicleta o el calibre de un tornillo. Suele ser una medida exacta, pero también puede ser un rango de medidas para productos ajustables, por ejemplo, cinturones y fijaciones de esquí."
   },
   "notation": [
     "1989"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/QuantitativeValue",
+      "prefLabel": {
+        "de": "Quantitativer Wert",
+        "en": "Quantitative Value",
+        "fr": "Valeur quantitative",
+        "es": "Valor cuantitativo"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

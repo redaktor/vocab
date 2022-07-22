@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FticketedSeat",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FticketedSeat",
   "prefLabel": {
-    "en": "ticketed seat",
     "de": "Sitzplatz mit Ticket",
+    "en": "ticketed seat",
     "fr": "siège avec billet",
     "es": "asiento con billete"
   },
   "definition": {
+    "de": "Der mit dem Ticket verbundene Sitzplatz.",
     "en": "The seat associated with the ticket.",
-    "de": "The seat associated with the ticket.",
-    "fr": "The seat associated with the ticket.",
-    "es": "The seat associated with the ticket."
+    "fr": "Le siège associé au billet.",
+    "es": "El asiento asociado al billete."
   },
   "notation": [
     "2259"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/Seat",
+      "prefLabel": {
+        "de": "Sitz",
+        "en": "Seat",
+        "fr": "Siège",
+        "es": "Asiento"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

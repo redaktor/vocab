@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FhasAdultConsideration",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FhasAdultConsideration",
   "prefLabel": {
-    "en": "has adult consideration",
     "de": "hat erwachsene Berücksichtigung",
+    "en": "has adult consideration",
     "fr": "a considération de l'adulte",
     "es": "tiene consideración de adulto"
   },
   "definition": {
+    "de": "Wird verwendet, um einen Gegenstand zu kennzeichnen, der nur für den Konsum oder Gebrauch durch Erwachsene bestimmt oder geeignet ist.",
     "en": "Used to tag an item to be intended or suitable for consumption or use by adults only.",
-    "de": "Used to tag an item to be intended or suitable for consumption or use by adults only.",
-    "fr": "Used to tag an item to be intended or suitable for consumption or use by adults only.",
-    "es": "Used to tag an item to be intended or suitable for consumption or use by adults only."
+    "fr": "Utilisé pour marquer un article comme étant destiné ou adapté à la consommation ou à l'utilisation par des adultes uniquement.",
+    "es": "Se utiliza para etiquetar un artículo que está destinado o es adecuado para el consumo o el uso por parte de adultos únicamente."
   },
   "notation": [
     "1985"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/AdultOrientedEnumeration",
+      "prefLabel": {
+        "de": "Erwachsenenorientierte Aufzählung",
+        "en": "Adult Oriented Enumeration",
+        "fr": "Recensement orienté vers les adultes",
+        "es": "Enumeración orientada a los adultos"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

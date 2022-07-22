@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FpartOfEpisode",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FpartOfEpisode",
   "prefLabel": {
-    "en": "part of episode",
     "de": "Teil einer Episode",
+    "en": "part of episode",
     "fr": "partie d'épisode",
     "es": "parte del episodio"
   },
   "definition": {
+    "de": "Die Episode, zu der dieser Clip gehört.",
     "en": "The episode to which this clip belongs.",
-    "de": "The episode to which this clip belongs.",
-    "fr": "The episode to which this clip belongs.",
-    "es": "The episode to which this clip belongs."
+    "fr": "L'épisode auquel appartient ce clip.",
+    "es": "El episodio al que pertenece este clip."
   },
   "notation": [
     "2135"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

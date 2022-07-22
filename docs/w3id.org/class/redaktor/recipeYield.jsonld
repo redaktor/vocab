@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FrecipeYield",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FrecipeYield",
   "prefLabel": {
-    "en": "recipe yield",
     "de": "Ausbeute",
+    "en": "recipe yield",
     "fr": "rendement de la recette",
     "es": "rendimiento de la receta"
   },
   "definition": {
+    "de": "Die durch das Rezept erzeugte Menge (z. B. Anzahl der bedienten Personen, Anzahl der Portionen usw.).",
     "en": "The quantity produced by the recipe (for example, number of people served, number of servings, etc).",
-    "de": "The quantity produced by the recipe (for example, number of people served, number of servings, etc).",
-    "fr": "The quantity produced by the recipe (for example, number of people served, number of servings, etc).",
-    "es": "The quantity produced by the recipe (for example, number of people served, number of servings, etc)."
+    "fr": "La quantité produite par la recette (par exemple, le nombre de personnes servies, le nombre de portions, etc.)",
+    "es": "La cantidad producida por la receta (por ejemplo, número de personas servidas, número de raciones, etc.)."
   },
   "notation": [
     "2184"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/QuantitativeValue",
+      "prefLabel": {
+        "de": "Quantitativer Wert",
+        "en": "Quantitative Value",
+        "fr": "Valeur quantitative",
+        "es": "Valor cuantitativo"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

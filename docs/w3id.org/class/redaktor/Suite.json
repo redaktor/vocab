@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSuite",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSuite",
   "prefLabel": {
-    "en": "Suite",
     "de": "Suite",
+    "en": "Suite",
     "fr": "Suite",
     "es": "Suite"
   },
@@ -16,8 +16,8 @@
     {
       "id": "https://w3id.org/class/redaktor/bed",
       "prefLabel": {
-        "en": "bed",
         "de": "Bett",
+        "en": "bed",
         "fr": "lit",
         "es": "cama"
       }
@@ -25,8 +25,8 @@
     {
       "id": "https://w3id.org/class/redaktor/numberOfRooms",
       "prefLabel": {
-        "en": "number of rooms",
         "de": "Anzahl der Räume",
+        "en": "number of rooms",
         "fr": "nombre de pièces",
         "es": "número de habitaciones"
       }
@@ -34,8 +34,8 @@
     {
       "id": "https://w3id.org/class/redaktor/occupancy",
       "prefLabel": {
-        "en": "occupancy",
         "de": "Belegung",
+        "en": "occupancy",
         "fr": "occupation",
         "es": "ocupación"
       }
@@ -49,8 +49,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

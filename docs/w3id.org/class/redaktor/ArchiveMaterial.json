@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FArchiveMaterial",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FArchiveMaterial",
   "prefLabel": {
-    "en": "Archival material",
     "de": "Archivmaterial",
+    "en": "Archival material",
     "fr": "Matériel d'archives",
     "es": "Material de archivo"
   },
   "definition": {
-    "en": "Material selected from the originator's archive that has been previously distributed",
     "de": "Ausgewähltes Material aus dem Archiv des Verfassers, das zuvor verbreitet wurde.",
+    "en": "Material selected from the originator's archive that has been previously distributed",
     "fr": "Matériel sélectionné dans les archives de l'auteur et qui a été distribué auparavant.",
     "es": "Material seleccionado del archivo del autor que ha sido distribuido previamente"
   },
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

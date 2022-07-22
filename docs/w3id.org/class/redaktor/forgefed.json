@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fforgefed",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fforgefed",
   "prefLabel": {
-    "en": "ForgeFed",
     "de": "ForgeFed",
+    "en": "ForgeFed",
     "fr": "ForgeFed",
     "es": "ForgeFed"
   },
   "definition": {
-    "en": "[ForgeFed](https://forgefed.peers.community)",
     "de": "[ForgeFed](https://forgefed.peers.community)",
+    "en": "[ForgeFed](https://forgefed.peers.community)",
     "fr": "[ForgeFed](https://forgefed.peers.community)",
     "es": "[ForgeFed](https://forgefed.peers.community)"
   },
   "scopeNote": {
-    "en": "https://forgefed.peers.community/ns",
     "de": "https://forgefed.peers.community/ns",
+    "en": "https://forgefed.peers.community/ns",
     "fr": "https://forgefed.peers.community/ns",
     "es": "https://forgefed.peers.community/ns"
   },
@@ -28,8 +28,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Emoji",
       "prefLabel": {
-        "en": "Custom Emoji",
         "de": "Emoji",
+        "en": "Custom Emoji",
         "fr": "Emoji",
         "es": "Emoji"
       }
@@ -37,8 +37,8 @@
     {
       "id": "https://forgefed.peers.community/nsPush",
       "prefLabel": {
-        "en": "Push",
         "de": "Push",
+        "en": "Push",
         "fr": "Push",
         "es": "Push"
       }
@@ -46,8 +46,8 @@
     {
       "id": "https://forgefed.peers.community/nsRepository",
       "prefLabel": {
-        "en": "Repository",
         "de": "Repository",
+        "en": "Repository",
         "fr": "Repository",
         "es": "Repository"
       }
@@ -55,8 +55,8 @@
     {
       "id": "https://forgefed.peers.community/nsBranch",
       "prefLabel": {
-        "en": "Branch",
         "de": "Branch",
+        "en": "Branch",
         "fr": "Branch",
         "es": "Branch"
       }
@@ -64,8 +64,8 @@
     {
       "id": "https://forgefed.peers.community/nsCommit",
       "prefLabel": {
-        "en": "Commit",
         "de": "Commit",
+        "en": "Commit",
         "fr": "Commit",
         "es": "Commit"
       }
@@ -73,8 +73,8 @@
     {
       "id": "https://forgefed.peers.community/nsTicketDependency",
       "prefLabel": {
-        "en": "TicketDependency",
         "de": "TicketDependency",
+        "en": "TicketDependency",
         "fr": "TicketDependency",
         "es": "TicketDependency"
       }
@@ -82,8 +82,8 @@
     {
       "id": "https://forgefed.peers.community/nsTicket",
       "prefLabel": {
-        "en": "Ticket",
         "de": "Ticket",
+        "en": "Ticket",
         "fr": "Ticket",
         "es": "Ticket"
       }
@@ -91,8 +91,8 @@
     {
       "id": "https://forgefed.peers.community/nsearlyItems",
       "prefLabel": {
-        "en": "earlyItems",
         "de": "earlyItems",
+        "en": "earlyItems",
         "fr": "earlyItems",
         "es": "earlyItems"
       }
@@ -100,8 +100,8 @@
     {
       "id": "https://forgefed.peers.community/nspreviousVersions",
       "prefLabel": {
-        "en": "previousVersions",
         "de": "previousVersions",
+        "en": "previousVersions",
         "fr": "previousVersions",
         "es": "previousVersions"
       }
@@ -109,8 +109,8 @@
     {
       "id": "https://forgefed.peers.community/nscurrentVersion",
       "prefLabel": {
-        "en": "currentVersion",
         "de": "currentVersion",
+        "en": "currentVersion",
         "fr": "currentVersion",
         "es": "currentVersion"
       }
@@ -118,8 +118,8 @@
     {
       "id": "https://forgefed.peers.community/nsassignedTo",
       "prefLabel": {
-        "en": "assignedTo",
         "de": "assignedTo",
+        "en": "assignedTo",
         "fr": "assignedTo",
         "es": "assignedTo"
       }
@@ -127,8 +127,8 @@
     {
       "id": "https://forgefed.peers.community/nsisResolved",
       "prefLabel": {
-        "en": "isResolved",
         "de": "isResolved",
+        "en": "isResolved",
         "fr": "isResolved",
         "es": "isResolved"
       }
@@ -136,8 +136,8 @@
     {
       "id": "https://forgefed.peers.community/nsresolvedBy",
       "prefLabel": {
-        "en": "resolvedBy",
         "de": "resolvedBy",
+        "en": "resolvedBy",
         "fr": "resolvedBy",
         "es": "resolvedBy"
       }
@@ -145,8 +145,8 @@
     {
       "id": "https://forgefed.peers.community/nsresolved",
       "prefLabel": {
-        "en": "resolved",
         "de": "resolved",
+        "en": "resolved",
         "fr": "resolved",
         "es": "resolved"
       }
@@ -154,8 +154,8 @@
     {
       "id": "https://forgefed.peers.community/nsdependsOn",
       "prefLabel": {
-        "en": "dependsOn",
         "de": "dependsOn",
+        "en": "dependsOn",
         "fr": "dependsOn",
         "es": "dependsOn"
       }
@@ -163,8 +163,8 @@
     {
       "id": "https://forgefed.peers.community/nsdependedBy",
       "prefLabel": {
-        "en": "dependedBy",
         "de": "dependedBy",
+        "en": "dependedBy",
         "fr": "dependedBy",
         "es": "dependedBy"
       }
@@ -172,8 +172,8 @@
     {
       "id": "https://forgefed.peers.community/nsdependencies",
       "prefLabel": {
-        "en": "dependencies",
         "de": "dependencies",
+        "en": "dependencies",
         "fr": "dependencies",
         "es": "dependencies"
       }
@@ -181,8 +181,8 @@
     {
       "id": "https://forgefed.peers.community/nsdependants",
       "prefLabel": {
-        "en": "dependants",
         "de": "dependants",
+        "en": "dependants",
         "fr": "dependants",
         "es": "dependants"
       }
@@ -190,8 +190,8 @@
     {
       "id": "https://forgefed.peers.community/nsrepository",
       "prefLabel": {
-        "en": "repository",
         "de": "repository",
+        "en": "repository",
         "fr": "repository",
         "es": "repository"
       }
@@ -199,8 +199,8 @@
     {
       "id": "https://forgefed.peers.community/nsdescription",
       "prefLabel": {
-        "en": "description",
         "de": "description",
+        "en": "description",
         "fr": "description",
         "es": "description"
       }
@@ -208,8 +208,8 @@
     {
       "id": "https://forgefed.peers.community/nscommittedBy",
       "prefLabel": {
-        "en": "committedBy",
         "de": "committedBy",
+        "en": "committedBy",
         "fr": "committedBy",
         "es": "committedBy"
       }
@@ -217,8 +217,8 @@
     {
       "id": "https://forgefed.peers.community/nshash",
       "prefLabel": {
-        "en": "hash",
         "de": "hash",
+        "en": "hash",
         "fr": "hash",
         "es": "hash"
       }
@@ -226,8 +226,8 @@
     {
       "id": "https://forgefed.peers.community/nscommitted",
       "prefLabel": {
-        "en": "committed",
         "de": "committed",
+        "en": "committed",
         "fr": "committed",
         "es": "committed"
       }
@@ -235,8 +235,8 @@
     {
       "id": "https://forgefed.peers.community/nsfilesAdded",
       "prefLabel": {
-        "en": "filesAdded",
         "de": "filesAdded",
+        "en": "filesAdded",
         "fr": "filesAdded",
         "es": "filesAdded"
       }
@@ -244,8 +244,8 @@
     {
       "id": "https://forgefed.peers.community/nsfilesModified",
       "prefLabel": {
-        "en": "filesModified",
         "de": "filesModified",
+        "en": "filesModified",
         "fr": "filesModified",
         "es": "filesModified"
       }
@@ -253,8 +253,8 @@
     {
       "id": "https://forgefed.peers.community/nsfilesRemoved",
       "prefLabel": {
-        "en": "filesRemoved",
         "de": "filesRemoved",
+        "en": "filesRemoved",
         "fr": "filesRemoved",
         "es": "filesRemoved"
       }
@@ -262,8 +262,8 @@
     {
       "id": "https://forgefed.peers.community/nsref",
       "prefLabel": {
-        "en": "ref",
         "de": "ref",
+        "en": "ref",
         "fr": "ref",
         "es": "ref"
       }
@@ -271,8 +271,8 @@
     {
       "id": "https://forgefed.peers.community/nsteam",
       "prefLabel": {
-        "en": "team",
         "de": "team",
+        "en": "team",
         "fr": "team",
         "es": "team"
       }
@@ -280,8 +280,8 @@
     {
       "id": "https://forgefed.peers.community/nsticketsTrackedBy",
       "prefLabel": {
-        "en": "ticketsTrackedBy",
         "de": "ticketsTrackedBy",
+        "en": "ticketsTrackedBy",
         "fr": "ticketsTrackedBy",
         "es": "ticketsTrackedBy"
       }
@@ -289,8 +289,8 @@
     {
       "id": "https://forgefed.peers.community/nstracksTicketsFor",
       "prefLabel": {
-        "en": "tracksTicketsFor",
         "de": "tracksTicketsFor",
+        "en": "tracksTicketsFor",
         "fr": "tracksTicketsFor",
         "es": "tracksTicketsFor"
       }
@@ -298,8 +298,8 @@
     {
       "id": "https://forgefed.peers.community/nssendPatchesTo",
       "prefLabel": {
-        "en": "sendPatchesTo",
         "de": "sendPatchesTo",
+        "en": "sendPatchesTo",
         "fr": "sendPatchesTo",
         "es": "sendPatchesTo"
       }
@@ -307,8 +307,8 @@
     {
       "id": "https://forgefed.peers.community/nstracksPatchesFor",
       "prefLabel": {
-        "en": "tracksPatchesFor",
         "de": "tracksPatchesFor",
+        "en": "tracksPatchesFor",
         "fr": "tracksPatchesFor",
         "es": "tracksPatchesFor"
       }
@@ -316,8 +316,8 @@
     {
       "id": "https://forgefed.peers.community/nsforks",
       "prefLabel": {
-        "en": "forks",
         "de": "forks",
+        "en": "forks",
         "fr": "forks",
         "es": "forks"
       }
@@ -326,8 +326,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Community",
     "prefLabel": {
-      "en": "Community Namespaces",
       "de": "Community Namespaces",
+      "en": "Community Namespaces",
       "fr": "Community Namespaces",
       "es": "Community Namespaces"
     }
@@ -335,8 +335,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

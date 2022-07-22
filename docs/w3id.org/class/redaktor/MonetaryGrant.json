@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FMonetaryGrant",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FMonetaryGrant",
   "prefLabel": {
-    "en": "Monetary Grant",
     "de": "Monetäre Zuwendung",
+    "en": "Monetary Grant",
     "fr": "Subvention monétaire",
     "es": "Subvención monetaria"
   },
   "definition": {
-    "en": "A monetary grant.<br>See `Grant` for details.",
     "de": "Ein finanzieller Zuschuss.<br>Siehe `Grant` für Details.",
+    "en": "A monetary grant.<br>See `Grant` for details.",
     "fr": "Une subvention monétaire. Voir Subvention pour plus de détails.",
     "es": "Una subvención monetaria. Véase Subvención para más detalles."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/amount",
       "prefLabel": {
-        "en": "amount",
         "de": "Betrag",
+        "en": "amount",
         "fr": "montant",
         "es": "cantidad"
       }
@@ -31,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/funder",
       "prefLabel": {
-        "en": "funder",
         "de": "Geldgeber",
+        "en": "funder",
         "fr": "financeur",
         "es": "financiador"
       }
@@ -46,8 +46,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

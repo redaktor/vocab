@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCurtainRaiser",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCurtainRaiser",
   "prefLabel": {
-    "en": "Curtain Raiser",
     "de": "Auftakt",
+    "en": "Curtain Raiser",
     "fr": "Ouverture",
     "es": "Inicio"
   },
   "definition": {
-    "en": "Information or kickoff piece for a live event that is about to take place",
     "de": "Information oder Auftakt für ein bevorstehendes Live-Event",
+    "en": "Information or kickoff piece for a live event that is about to take place",
     "fr": "Information ou pièce de lancement d'un événement en direct sur le point de se dérouler.",
     "es": "Información o pieza de inicio de un evento en vivo que está a punto de tener lugar"
   },
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

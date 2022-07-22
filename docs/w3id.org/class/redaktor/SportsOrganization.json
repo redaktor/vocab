@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSportsOrganization",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSportsOrganization",
   "prefLabel": {
-    "en": "Sports Organization",
     "de": "Sportorganisation",
+    "en": "Sports Organization",
     "fr": "Organisation sportive",
     "es": "Organización deportiva"
   },
   "definition": {
-    "en": "Represents the collection of all sports organizations, including sports teams, governing bodies, and sports associations.",
     "de": "Steht für die Gesamtheit aller Sportorganisationen, einschließlich Sportmannschaften, Dachverbände und Sportvereine.",
+    "en": "Represents the collection of all sports organizations, including sports teams, governing bodies, and sports associations.",
     "fr": "Représente l'ensemble des organisations sportives, y compris les équipes sportives, les organes directeurs et les associations sportives.",
     "es": "Representa el conjunto de todas las organizaciones deportivas, incluidos los equipos deportivos, los órganos de gobierno y las asociaciones deportivas."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SportsTeam",
       "prefLabel": {
-        "en": "Sports Team",
         "de": "Sportmannschaft",
+        "en": "Sports Team",
         "fr": "Équipe sportive",
         "es": "Equipo deportivo"
       }
@@ -31,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/sport",
       "prefLabel": {
-        "en": "sport",
         "de": "Sport",
+        "en": "sport",
         "fr": "sport",
         "es": "deporte"
       }
@@ -46,8 +46,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

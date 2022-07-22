@@ -1,0 +1,140 @@
+{
+  "id": "https://w3id.org/class/redaktor/tongueWeight",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FtongueWeight",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FtongueWeight",
+  "prefLabel": {
+    "de": "Zungengewicht",
+    "en": "tongue weight",
+    "fr": "poids de la langue",
+    "es": "peso de la lengüeta"
+  },
+  "definition": {
+    "de": "Die zulässige Stützlast (TWR) eines am Fahrzeug angebrachten Anhängers. Wird auch als zulässige Stützlast (TLR) oder vertikale Stützlast (VLR) bezeichnet\n\nTypische(r) Einheitencode(s): KGM für Kilogramm, LBR für Pfund\n\n* Hinweis 1: Sie können zusätzliche Informationen im [[Name]] des [[QuantitativeValue]]-Knotens angeben.\n* Hinweis 2: Sie können auch eine Verknüpfung zu einem [[QualitativeValue]]-Knoten herstellen, der zusätzliche Informationen unter Verwendung von [[valueReference]] liefert.\n* Hinweis 3: Beachten Sie, dass Sie [[minValue]] und [[maxValue]] verwenden können, um Bereiche anzugeben.",
+    "en": "The permitted vertical load (TWR) of a trailer attached to the vehicle. Also referred to as Tongue Load Rating (TLR) or Vertical Load Rating (VLR)\n\nTypical unit code(s): KGM for kilogram, LBR for pound\n\n* Note 1: You can indicate additional information in the [[name]] of the [[QuantitativeValue]] node.\n* Note 2: You may also link to a [[QualitativeValue]] node that provides additional information using [[valueReference]].\n* Note 3: Note that you can use [[minValue]] and [[maxValue]] to indicate ranges.",
+    "fr": "La charge verticale autorisée (TWR) d'une remorque attachée au véhicule. Également appelée Tongue Load Rating (TLR) ou Vertical Load Rating (VLR)\n\nCode(s) d'unité(s) typique(s) : KGM pour kilogramme, LBR pour livre\n\n* Note 1 : Vous pouvez indiquer des informations supplémentaires dans le [[nom]] du noeud [[valeur quantitative]].\n* Note 2 : Vous pouvez également établir un lien vers un noeud [[valeur qualitative]] qui fournit des informations supplémentaires à l'aide de [[valueReference]].\n* Note 3 : Notez que vous pouvez utiliser [[minValue]] et [[maxValue]] pour indiquer des plages.",
+    "es": "La carga vertical permitida (TWR) de un remolque unido al vehículo. También se denomina Tongue Load Rating (TLR) o Vertical Load Rating (VLR)\nCódigo(s) de unidad típico(s): KGM para kilogramo, LBR para libra\nN* Nota 1: Puede indicar información adicional en el [[nombre]] del nodo [[QuantitativeValue]].\n* Nota 2: También puede enlazar con un nodo [[QualitativeValue]] que proporcione información adicional utilizando [[valueReference]].\n* Nota 3: Tenga en cuenta que puede utilizar [[minValue]] y [[maxValue]] para indicar rangos."
+  },
+  "notation": [
+    "2432"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/QuantitativeValue",
+      "prefLabel": {
+        "de": "Quantitativer Wert",
+        "en": "Quantitative Value",
+        "fr": "Valeur quantitative",
+        "es": "Valor cuantitativo"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:tongueWeight"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

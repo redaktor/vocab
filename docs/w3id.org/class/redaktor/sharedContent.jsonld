@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FsharedContent",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FsharedContent",
   "prefLabel": {
-    "en": "shared content",
     "de": "Gemeinsamer Inhalt",
+    "en": "shared content",
     "fr": "contenu partagé",
     "es": "contenido compartido"
   },
   "definition": {
+    "de": "Ein CreativeWork wie ein Bild, ein Video oder ein Audioclip, das als Teil dieses Beitrags geteilt wird.",
     "en": "A CreativeWork such as an image, video, or audio clip shared as part of this posting.",
-    "de": "A CreativeWork such as an image, video, or audio clip shared as part of this posting.",
-    "fr": "A CreativeWork such as an image, video, or audio clip shared as part of this posting.",
-    "es": "A CreativeWork such as an image, video, or audio clip shared as part of this posting."
+    "fr": "Une œuvre de création, telle qu'une image, une vidéo ou un clip audio, partagée dans le cadre de cette publication.",
+    "es": "Un trabajo creativo, como una imagen, un vídeo o un clip de audio, compartido como parte de esta publicación."
   },
   "notation": [
     "2213"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

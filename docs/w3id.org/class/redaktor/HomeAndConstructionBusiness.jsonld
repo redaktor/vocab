@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FHomeAndConstructionBusiness",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FHomeAndConstructionBusiness",
   "prefLabel": {
-    "en": "Home and Construction Business",
     "de": "Haus und Baugewerbe",
+    "en": "Home and Construction Business",
     "fr": "Commerce de maison et de construction",
     "es": "Negocio del Hogar y la Construcción"
   },
   "definition": {
-    "en": "To broad for OSM. Please select a more specific entry.",
     "de": "Zu weites Feld für OSM. Bitte spezifischeren Eintrag wählen.",
+    "en": "To broad for OSM. Please select a more specific entry.",
     "fr": "A élargir pour OSM. Veuillez choisir une entrée plus spécifique.",
     "es": "Para ampliar para OSM. Por favor, seleccione una entrada más específica."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Electrician",
       "prefLabel": {
-        "en": "Electrician",
         "de": "Elektriker",
+        "en": "Electrician",
         "fr": "Électricien",
         "es": "Electricista"
       }
@@ -31,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/GeneralContractor",
       "prefLabel": {
-        "en": "General Contractor",
         "de": "Generalunternehmer",
+        "en": "General Contractor",
         "fr": "Entrepreneur général",
         "es": "Contratista General"
       }
@@ -40,8 +40,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HVACBusiness",
       "prefLabel": {
-        "en": "HVAC Business",
         "de": "Heizung, Lüftung, Klimatechnik",
+        "en": "HVAC Business",
         "fr": "Chauffage, ventilation, climatisation",
         "es": "Calefacción, ventilación y aire acondicionado"
       }
@@ -49,8 +49,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HousePainter",
       "prefLabel": {
-        "en": "House Painter",
         "de": "Anstreicher",
+        "en": "House Painter",
         "fr": "Peintre en bâtiment",
         "es": "Pintor de casas"
       }
@@ -58,8 +58,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Locksmith",
       "prefLabel": {
-        "en": "Locksmith",
         "de": "Schlüsseldienst",
+        "en": "Locksmith",
         "fr": "Serrurier",
         "es": "Cerrajero"
       }
@@ -67,8 +67,8 @@
     {
       "id": "https://w3id.org/class/redaktor/MovingCompany",
       "prefLabel": {
-        "en": "Moving Company",
         "de": "Umzugsunternehmen",
+        "en": "Moving Company",
         "fr": "Entreprise de déménagement",
         "es": "Empresa de mudanzas"
       }
@@ -76,8 +76,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Plumber",
       "prefLabel": {
-        "en": "Plumber",
         "de": "Klempner",
+        "en": "Plumber",
         "fr": "Plombier",
         "es": "Fontanero"
       }
@@ -85,8 +85,8 @@
     {
       "id": "https://w3id.org/class/redaktor/RoofingContractor",
       "prefLabel": {
-        "en": "Roofing Contractor",
         "de": "Dachdeckerbetrieb",
+        "en": "Roofing Contractor",
         "fr": "Entrepreneur en toiture",
         "es": "Contratista de techos"
       }
@@ -100,8 +100,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

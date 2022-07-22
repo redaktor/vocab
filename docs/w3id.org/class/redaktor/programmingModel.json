@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FprogrammingModel",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FprogrammingModel",
   "prefLabel": {
-    "en": "programming model",
     "de": "Programmiermodell",
+    "en": "programming model",
     "fr": "modèle de programmation",
     "es": "modelo de programación"
   },
   "definition": {
+    "de": "Gibt an, ob die API verwaltet oder nicht verwaltet wird.",
     "en": "Indicates whether API is managed or unmanaged.",
-    "de": "Indicates whether API is managed or unmanaged.",
-    "fr": "Indicates whether API is managed or unmanaged.",
-    "es": "Indicates whether API is managed or unmanaged."
+    "fr": "Indique si l'API est gérée ou non gérée.",
+    "es": "Indica si la API es gestionada o no gestionada."
   },
   "notation": [
     "2166"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FhasOfferCatalog",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FhasOfferCatalog",
   "prefLabel": {
-    "en": "has offer catalog",
     "de": "hat Angebotskatalog",
+    "en": "has offer catalog",
     "fr": "a catalogue d'offres",
     "es": "tiene catálogo de ofertas"
   },
   "definition": {
+    "de": "Zeigt einen Angebotskatalog für diese Organisation, Person oder Dienstleistung an.",
     "en": "Indicates an OfferCatalog listing for this Organization, Person, or Service.",
-    "de": "Indicates an OfferCatalog listing for this Organization, Person, or Service.",
-    "fr": "Indicates an OfferCatalog listing for this Organization, Person, or Service.",
-    "es": "Indicates an OfferCatalog listing for this Organization, Person, or Service."
+    "fr": "Indique une liste OfferCatalog pour cette organisation, cette personne ou ce service.",
+    "es": "Indica un listado de OfferCatalog para esta Organización, Persona o Servicio."
   },
   "notation": [
     "1993"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/OfferCatalog",
+      "prefLabel": {
+        "de": "Angebotskatalog",
+        "en": "Offer Catalog",
+        "fr": "Catalogue des offres",
+        "es": "Catálogo de ofertas"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

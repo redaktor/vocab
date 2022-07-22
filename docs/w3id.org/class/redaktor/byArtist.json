@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FbyArtist",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FbyArtist",
   "prefLabel": {
-    "en": "by artist",
     "de": "nach Künstler",
+    "en": "by artist",
     "fr": "par artiste",
     "es": "por artista"
   },
   "definition": {
-    "en": "The artist that performed this album or recording.",
     "de": "Darbieter/-in oder Darsteller/-in, der/die bei der Aufführung oder bei der Aufnahme eines Werks involviert war.",
-    "fr": "Musicien, groupe de musique, acteur ou autre interprète associé à cet élément.",
-    "es": "Actor, músico, banda u otro intérprete asociado con este rol u obra musical"
+    "en": "Darbieter/-in oder Darsteller/-in, der/die bei der Aufführung oder bei der Aufnahme eines Werks involviert war.",
+    "fr": "Darbieter/-in ou Darsteller/-in, der/die bei der Aufführung oder bei der Aufnahme eines Werks involviert war.",
+    "es": "Darbieter/-in oder Darsteller/-in, der/die bei der Aufführung o bei der Aufnahme eines Werks war."
   },
   "notation": [
     "1834"
@@ -32,8 +32,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

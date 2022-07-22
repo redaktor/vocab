@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FClip",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FClip",
   "prefLabel": {
-    "en": "Clip",
     "de": "Clip",
+    "en": "Clip",
     "fr": "Clip",
     "es": "Clip"
   },
   "definition": {
-    "en": "A short TV or radio program or a segment/part of a program.",
     "de": "Ein kurzes Fernseh- oder Radioprogramm oder ein Segment/Teil eines Programms.",
+    "en": "A short TV or radio program or a segment/part of a program.",
     "fr": "Un programme court de télévision ou de radio ou un segment/une partie d'un programme.",
     "es": "Un programa corto de televisión o radio o un segmento/parte de un programa."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/MovieClip",
       "prefLabel": {
-        "en": "Movie Clip",
         "de": "Film-Clip",
+        "en": "Movie Clip",
         "fr": "Clip de film",
         "es": "Clip de película"
       }
@@ -31,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/RadioClip",
       "prefLabel": {
-        "en": "Radio Clip",
         "de": "Radio-Clip",
+        "en": "Radio Clip",
         "fr": "Clip radio",
         "es": "Clip de radio"
       }
@@ -40,8 +40,8 @@
     {
       "id": "https://w3id.org/class/redaktor/TVClip",
       "prefLabel": {
-        "en": "TV Clip",
         "de": "TV-Clip",
+        "en": "TV Clip",
         "fr": "Clip TV",
         "es": "Clip de TV"
       }
@@ -49,8 +49,8 @@
     {
       "id": "https://w3id.org/class/redaktor/VideoGameClip",
       "prefLabel": {
-        "en": "Video Game Clip",
         "de": "Videospiel-Clip",
+        "en": "Video Game Clip",
         "fr": "Clip de jeu vidéo",
         "es": "Clip de videojuego"
       }
@@ -58,8 +58,8 @@
     {
       "id": "https://w3id.org/class/redaktor/actorPerforming",
       "prefLabel": {
-        "en": "actor",
         "de": "Darsteller",
+        "en": "actor",
         "fr": "acteur",
         "es": "actor"
       }
@@ -67,8 +67,8 @@
     {
       "id": "https://w3id.org/class/redaktor/clipNumber",
       "prefLabel": {
-        "en": "clip number",
         "de": "Clip-Nummer",
+        "en": "clip number",
         "fr": "numéro de clip",
         "es": "número de clip"
       }
@@ -76,8 +76,8 @@
     {
       "id": "https://w3id.org/class/redaktor/director",
       "prefLabel": {
-        "en": "director",
         "de": "Regisseur",
+        "en": "director",
         "fr": "réalisateur",
         "es": "director"
       }
@@ -85,8 +85,8 @@
     {
       "id": "https://w3id.org/class/redaktor/endOffset",
       "prefLabel": {
-        "en": "end offset",
         "de": "Endoffset",
+        "en": "end offset",
         "fr": "décalage de fin",
         "es": "compensación final"
       }
@@ -94,8 +94,8 @@
     {
       "id": "https://w3id.org/class/redaktor/musicBy",
       "prefLabel": {
-        "en": "music by",
         "de": "Musik von",
+        "en": "music by",
         "fr": "musique par",
         "es": "música por"
       }
@@ -103,8 +103,8 @@
     {
       "id": "https://w3id.org/class/redaktor/partOfEpisode",
       "prefLabel": {
-        "en": "part of episode",
         "de": "Teil einer Episode",
+        "en": "part of episode",
         "fr": "partie d'épisode",
         "es": "parte del episodio"
       }
@@ -112,8 +112,8 @@
     {
       "id": "https://w3id.org/class/redaktor/partOfSeason",
       "prefLabel": {
-        "en": "part of season",
         "de": "Teil einer Staffel",
+        "en": "part of season",
         "fr": "partie de saison",
         "es": "parte de la temporada"
       }
@@ -121,8 +121,8 @@
     {
       "id": "https://w3id.org/class/redaktor/partOfSeries",
       "prefLabel": {
-        "en": "part of series",
         "de": "Teil einer Serie",
+        "en": "part of series",
         "fr": "partie de série",
         "es": "parte de la serie"
       }
@@ -130,8 +130,8 @@
     {
       "id": "https://w3id.org/class/redaktor/startOffset",
       "prefLabel": {
-        "en": "start offset",
         "de": "Startversatz",
+        "en": "start offset",
         "fr": "start offset",
         "es": "inicio de la compensación"
       }
@@ -145,8 +145,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

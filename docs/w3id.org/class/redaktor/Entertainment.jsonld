@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FEntertainment",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FEntertainment",
   "prefLabel": {
-    "en": "Entertainment",
     "de": "Unterhaltung",
+    "en": "Entertainment",
     "fr": "Divertissement",
     "es": "Entretenimiento"
   },
   "definition": {
-    "en": "The object contains material relating to an entertainment program and/or event",
     "de": "Das Objekt enthält Material, das sich auf ein Unterhaltungsprogramm und/oder -ereignis bezieht.",
+    "en": "The object contains material relating to an entertainment program and/or event",
     "fr": "L'objet contient du matériel relatif à un programme et/ou un événement de divertissement.",
     "es": "El objeto contiene material relacionado con un programa y/o evento de entretenimiento"
   },
   "note": {
-    "en": "Example: A news item or program covering general entertainment, such as a film premier.",
     "de": "Hinweis Beispiel: Eine Nachricht oder ein Programm, das sich mit allgemeiner Unterhaltung befasst, z. B. eine Filmpremiere.",
+    "en": "Example: A news item or program covering general entertainment, such as a film premier.",
     "fr": "Exemple : Un article ou un programme d'information couvrant un divertissement général, tel que la première d'un film.",
     "es": "Ejemplo: Una noticia o programa que cubre el entretenimiento en general, como el estreno de una película."
   },
@@ -32,8 +32,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcontactPoint",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcontactPoint",
   "prefLabel": {
-    "en": "contact point",
     "de": "Kontaktstelle",
+    "en": "contact point",
     "fr": "point de contact",
     "es": "punto de contacto"
   },
   "definition": {
+    "de": "Eine Kontaktstelle für eine Person oder Organisation.",
     "en": "A contact point for a person or organization.",
-    "de": "A contact point for a person or organization.",
-    "fr": "A contact point for a person or organization.",
-    "es": "A contact point for a person or organization."
+    "fr": "Un point de contact pour une personne ou une organisation.",
+    "es": "Un punto de contacto para una persona u organización."
   },
   "notation": [
     "1861"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
@@ -126,8 +126,7 @@
       "@container": "@set"
     }
   }
-}de": "Servicebereich",
-        "fr": "zone de service",
+}"fr": "zone de service",
         "es": "área de servicio"
       }
     }
@@ -140,8 +139,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

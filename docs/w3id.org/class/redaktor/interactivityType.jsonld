@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FinteractivityType",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FinteractivityType",
   "prefLabel": {
-    "en": "interactivity type",
     "de": "Interaktivitätstyp",
+    "en": "interactivity type",
     "fr": "type d'interactivité",
     "es": "tipo de interactividad"
   },
   "definition": {
+    "de": "Die vorherrschende Lernmethode, die durch die Lernressource unterstützt wird. Akzeptable Werte sind \"aktiv\", \"expositiv\" oder \"gemischt\".",
     "en": "The predominant mode of learning supported by the learning resource. Acceptable values are 'active', 'expositive', or 'mixed'.",
-    "de": "The predominant mode of learning supported by the learning resource. Acceptable values are 'active', 'expositive', or 'mixed'.",
-    "fr": "The predominant mode of learning supported by the learning resource. Acceptable values are 'active', 'expositive', or 'mixed'.",
-    "es": "The predominant mode of learning supported by the learning resource. Acceptable values are 'active', 'expositive', or 'mixed'."
+    "fr": "Le mode d'apprentissage prédominant soutenu par la ressource pédagogique. Les valeurs acceptables sont \"actif\", \"expositif\" ou \"mixte\".",
+    "es": "El modo de aprendizaje predominante que apoya el recurso de aprendizaje. Los valores aceptables son \"activo\", \"expositivo\" o \"mixto\"."
   },
   "notation": [
     "2024"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

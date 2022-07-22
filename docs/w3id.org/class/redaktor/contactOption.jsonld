@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcontactOption",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcontactOption",
   "prefLabel": {
-    "en": "contact option",
     "de": "Kontaktmöglichkeit",
+    "en": "contact option",
     "fr": "option de contact",
     "es": "opción de contacto"
   },
   "definition": {
+    "de": "Eine unter dieser Kontaktstelle verfügbare Option (z. B. eine gebührenfreie Nummer oder Unterstützung für hörgeschädigte Anrufer).",
     "en": "An option available on this contact point (e.g. a toll-free number or support for hearing-impaired callers).",
-    "de": "An option available on this contact point (e.g. a toll-free number or support for hearing-impaired callers).",
-    "fr": "An option available on this contact point (e.g. a toll-free number or support for hearing-impaired callers).",
-    "es": "An option available on this contact point (e.g. a toll-free number or support for hearing-impaired callers)."
+    "fr": "Une option disponible sur ce point de contact (par exemple, un numéro gratuit ou une assistance pour les appelants malentendants).",
+    "es": "Una opción disponible en este punto de contacto (por ejemplo, un número de teléfono gratuito o asistencia para personas con problemas de audición)."
   },
   "notation": [
     "1860"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/ContactPointOption",
+      "prefLabel": {
+        "de": "Option Kontaktstelle",
+        "en": "Contact Point Option",
+        "fr": "Option de point de contact",
+        "es": "Opción de punto de contacto"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

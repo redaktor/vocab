@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FdatePosted",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FdatePosted",
   "prefLabel": {
-    "en": "date posted",
     "de": "Datum der Veröffentlichung",
+    "en": "date posted",
     "fr": "date de publication",
     "es": "fecha de publicación"
   },
   "definition": {
+    "de": "Datum der Veröffentlichung eines Online-Eintrags.",
     "en": "Publication date of an online listing.",
-    "de": "Publication date of an online listing.",
-    "fr": "Publication date of an online listing.",
-    "es": "Publication date of an online listing."
+    "fr": "Date de publication d'une liste en ligne.",
+    "es": "Fecha de publicación de un listado en línea."
   },
   "notation": [
     "1891"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FResidence",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FResidence",
   "prefLabel": {
-    "en": "Residence",
     "de": "Wohnorte",
+    "en": "Residence",
     "fr": "résidence",
     "es": "residencia"
   },
   "definition": {
-    "en": "The place where a person lives.",
     "de": "Der Ort, wo eine Person lebt.",
+    "en": "The place where a person lives.",
     "fr": "Le lieu où vit une personne.",
     "es": "El lugar donde vive una persona."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/accommodationFloorPlan",
       "prefLabel": {
-        "en": "accommodation floor plan",
         "de": "Grundriss der Unterkunft",
+        "en": "accommodation floor plan",
         "fr": "plan d'étage du logement",
         "es": "plano del alojamiento"
       }
@@ -37,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FworkPresented",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FworkPresented",
   "prefLabel": {
-    "en": "work presented",
     "de": "Arbeit präsentiert",
+    "en": "work presented",
     "fr": "travail présenté",
     "es": "trabajo presentado"
   },
   "definition": {
+    "de": "Der Film, der während dieser Veranstaltung gezeigt wird.",
     "en": "The movie presented during this event.",
-    "de": "The movie presented during this event.",
-    "fr": "The movie presented during this event.",
-    "es": "The movie presented during this event."
+    "fr": "Le film présenté lors de cet événement.",
+    "es": "La película presentada durante este evento."
   },
   "notation": [
     "2298"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

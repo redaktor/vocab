@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FpageEnd",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FpageEnd",
   "prefLabel": {
-    "en": "page end",
     "de": "Seite Ende",
+    "en": "page end",
     "fr": "fin de page",
     "es": "fin de página"
   },
   "definition": {
+    "de": "Die Seite, auf der das Werk endet, z. B. \"138\" oder \"xvi\".",
     "en": "The page on which the work ends; for example “138” or “xvi”.",
-    "de": "The page on which the work ends; for example “138” or “xvi”.",
-    "fr": "The page on which the work ends; for example “138” or “xvi”.",
-    "es": "The page on which the work ends; for example “138” or “xvi”."
+    "fr": "La page sur laquelle se termine l'ouvrage ; par exemple \"138\" ou \"xvi\".",
+    "es": "La página en la que termina la obra; por ejemplo, \"138\" o \"xvi\"."
   },
   "notation": [
     "2129"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

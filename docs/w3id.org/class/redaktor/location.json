@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Flocation",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Flocation",
   "prefLabel": {
-    "en": "location",
     "de": "Örtlichkeit",
+    "en": "location",
     "fr": "location",
     "es": "localización"
   },
   "definition": {
-    "en": "Indicates one or more physical or logical locations associated with the object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-location](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-location)",
     "de": "Gibt einen oder mehrere physische oder logische Orte an, die mit dem Objekt verbunden sind.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-location](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-location)",
+    "en": "Indicates one or more physical or logical locations associated with the object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-location](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-location)",
     "fr": "Indique un ou plusieurs emplacements physiques ou logiques associés à l'objet.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-location](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-location)",
     "es": "Indica una o varias ubicaciones físicas o lógicas asociadas al objeto.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-location](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-location)"
   },
   "scopeNote": {
-    "en": ": Property",
     "de": ": Property",
+    "en": ": Property",
     "fr": ": Property",
     "es": ": Property"
   },
@@ -25,16 +25,16 @@
     "139"
   ],
   "example": {
-    "en": "[Example 88](https://www.w3.org/TR/activitystreams-vocabulary/#ex89-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Person\",\n  \"name\": \"Sally\",\n  \"location\": {\n    \"name\": \"Over the Arabian Sea, east of Socotra Island Nature Sanctuary\",\n    \"type\": \"Place\",\n    \"longitude\": 12.34,\n    \"latitude\": 56.78,\n    \"altitude\": 90,\n    \"units\": \"m\"\n  }\n}\n```",
     "de": "[Beispiel 88](https://www.w3.org/TR/activitystreams-vocabulary/#ex89-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Person\",\n  \"name\": \"Sally\",\n  \"location\": {\n    \"name\": \"Over the Arabian Sea, east of Socotra Island Nature Sanctuary\",\n    \"type\": \"Place\",\n    \"longitude\": 12.34,\n    \"latitude\": 56.78,\n    \"altitude\": 90,\n    \"units\": \"m\"\n  }\n}\n```",
+    "en": "[Example 88](https://www.w3.org/TR/activitystreams-vocabulary/#ex89-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Person\",\n  \"name\": \"Sally\",\n  \"location\": {\n    \"name\": \"Over the Arabian Sea, east of Socotra Island Nature Sanctuary\",\n    \"type\": \"Place\",\n    \"longitude\": 12.34,\n    \"latitude\": 56.78,\n    \"altitude\": 90,\n    \"units\": \"m\"\n  }\n}\n```",
     "fr": "[Exemple 88](https://www.w3.org/TR/activitystreams-vocabulary/#ex89-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Person\",\n  \"name\": \"Sally\",\n  \"location\": {\n    \"name\": \"Over the Arabian Sea, east of Socotra Island Nature Sanctuary\",\n    \"type\": \"Place\",\n    \"longitude\": 12.34,\n    \"latitude\": 56.78,\n    \"altitude\": 90,\n    \"units\": \"m\"\n  }\n}\n```",
     "es": "[Ejemplo 88](https://www.w3.org/TR/activitystreams-vocabulary/#ex89-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Person\",\n  \"name\": \"Sally\",\n  \"location\": {\n    \"name\": \"Over the Arabian Sea, east of Socotra Island Nature Sanctuary\",\n    \"type\": \"Place\",\n    \"longitude\": 12.34,\n    \"latitude\": 56.78,\n    \"altitude\": 90,\n    \"units\": \"m\"\n  }\n}\n```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/Object",
     "prefLabel": {
-      "en": "Object",
       "de": "Objekt",
+      "en": "Object",
       "fr": "Objet",
       "es": "Objeto"
     }
@@ -45,13 +45,16 @@
     },
     {
       "id": "schema:location"
+    },
+    {
+      "id": "schema:serviceLocation"
     }
   ],
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

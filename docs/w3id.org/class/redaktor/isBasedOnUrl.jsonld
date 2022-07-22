@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FisBasedOnUrl",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FisBasedOnUrl",
   "prefLabel": {
-    "en": "is based on url",
     "de": "basiert auf url",
+    "en": "is based on url",
     "fr": "est basé sur l'url",
     "es": "se basa en la url"
   },
   "definition": {
+    "de": "Eine Ressource, die bei der Erstellung dieser Ressource verwendet wurde. Dieser Begriff kann für mehrere Quellen wiederholt werden. Zum Beispiel: http://example.com/great-multiplication-intro.html.",
     "en": "A resource that was used in the creation of this resource. This term can be repeated for multiple sources. For example, http://example.com/great-multiplication-intro.html.",
-    "de": "A resource that was used in the creation of this resource. This term can be repeated for multiple sources. For example, http://example.com/great-multiplication-intro.html.",
-    "fr": "A resource that was used in the creation of this resource. This term can be repeated for multiple sources. For example, http://example.com/great-multiplication-intro.html.",
-    "es": "A resource that was used in the creation of this resource. This term can be repeated for multiple sources. For example, http://example.com/great-multiplication-intro.html."
+    "fr": "Une ressource qui a été utilisée dans la création de cette ressource. Ce terme peut être répété pour plusieurs sources. Par exemple, http://example.com/great-multiplication-intro.html.",
+    "es": "Un recurso que se utilizó en la creación de este recurso. Este término puede repetirse para varias fuentes. Por ejemplo, http://example.com/great-multiplication-intro.html."
   },
   "notation": [
     "2030"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

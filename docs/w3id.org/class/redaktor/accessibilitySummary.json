@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FaccessibilitySummary",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FaccessibilitySummary",
   "prefLabel": {
-    "en": "accessibility summary",
     "de": "Zugänglichkeit Zusammenfassung",
+    "en": "accessibility summary",
     "fr": "résumé de l'accessibilité",
     "es": "resumen de accesibilidad"
   },
   "definition": {
+    "de": "Eine von Menschen lesbare Zusammenfassung spezifischer Zugänglichkeitsmerkmale oder -mängel, die mit den anderen Metadaten zur Zugänglichkeit übereinstimmt, aber Feinheiten wie \"kurze Beschreibungen sind vorhanden, aber lange Beschreibungen werden für nicht-visuelle Nutzer benötigt\" oder \"kurze Beschreibungen sind vorhanden und lange Beschreibungen sind nicht erforderlich\" zum Ausdruck bringt.",
     "en": "A human-readable summary of specific accessibility features or deficiencies, consistent with the other accessibility metadata but expressing subtleties such as “short descriptions are present but long descriptions will be needed for non-visual users” or “short descriptions are present and no long descriptions are needed.”",
-    "de": "A human-readable summary of specific accessibility features or deficiencies, consistent with the other accessibility metadata but expressing subtleties such as “short descriptions are present but long descriptions will be needed for non-visual users” or “short descriptions are present and no long descriptions are needed.”",
-    "fr": "A human-readable summary of specific accessibility features or deficiencies, consistent with the other accessibility metadata but expressing subtleties such as “short descriptions are present but long descriptions will be needed for non-visual users” or “short descriptions are present and no long descriptions are needed.”",
-    "es": "A human-readable summary of specific accessibility features or deficiencies, consistent with the other accessibility metadata but expressing subtleties such as “short descriptions are present but long descriptions will be needed for non-visual users” or “short descriptions are present and no long descriptions are needed.”"
+    "fr": "Un résumé lisible par l'homme des caractéristiques d'accessibilité spécifiques ou des déficiences, cohérent avec les autres métadonnées d'accessibilité mais exprimant des subtilités telles que \"des descriptions courtes sont présentes mais des descriptions longues seront nécessaires pour les utilisateurs non visuels\" ou \"des descriptions courtes sont présentes et aucune description longue n'est nécessaire\".",
+    "es": "Un resumen legible para el ser humano de las características o deficiencias específicas de accesibilidad, coherente con los demás metadatos de accesibilidad, pero que exprese sutilezas como \"hay descripciones cortas, pero se necesitarán descripciones largas para los usuarios no visuales\" o \"hay descripciones cortas y no se necesitan descripciones largas\"."
   },
   "notation": [
     "1749"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

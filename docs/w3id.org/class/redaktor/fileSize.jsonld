@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FfileSize",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FfileSize",
   "prefLabel": {
-    "en": "file size",
     "de": "Dateigröße",
+    "en": "file size",
     "fr": "taille du fichier",
     "es": "tamaño del archivo"
   },
   "definition": {
+    "de": "Größe der Anwendung/des Pakets (z. B. 18 MB). Wenn keine Einheit (MB, KB usw.) angegeben ist, wird KB angenommen.",
     "en": "Size of the application / package (e.g. 18MB). In the absence of a unit (MB, KB etc.), KB will be assumed.",
-    "de": "Size of the application / package (e.g. 18MB). In the absence of a unit (MB, KB etc.), KB will be assumed.",
-    "fr": "Size of the application / package (e.g. 18MB). In the absence of a unit (MB, KB etc.), KB will be assumed.",
-    "es": "Size of the application / package (e.g. 18MB). In the absence of a unit (MB, KB etc.), KB will be assumed."
+    "fr": "Taille de l'application / du paquet (par exemple 18MB). En l'absence d'unité (Mo, Ko, etc.), on considère qu'il s'agit de Ko.",
+    "es": "Tamaño de la aplicación/paquete (por ejemplo, 18 MB). En ausencia de una unidad (MB, KB, etc.), se asumirá KB."
   },
   "notation": [
     "1951"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

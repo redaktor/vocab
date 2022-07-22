@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FFixture",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FFixture",
   "prefLabel": {
-    "en": "Fixture",
     "de": "Spielplan",
+    "en": "Fixture",
     "fr": "Fixture",
     "es": "Fixture"
   },
   "definition": {
-    "en": "Items published on a regular schedule, such as columns, cartoons, stock prices and weather forecasts",
     "de": "Regelmäßig veröffentlichte Artikel wie Kolumnen, Cartoons, Aktienkurse und Wettervorhersagen",
+    "en": "Items published on a regular schedule, such as columns, cartoons, stock prices and weather forecasts",
     "fr": "Articles publiés à intervalles réguliers, tels que des chroniques, des caricatures, des cours de la bourse et des prévisions météorologiques.",
     "es": "Artículos que se publican con regularidad, como columnas, caricaturas, precios de las acciones y previsiones meteorológicas"
   },
@@ -29,8 +29,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

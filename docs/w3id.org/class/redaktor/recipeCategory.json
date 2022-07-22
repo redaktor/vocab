@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FrecipeCategory",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FrecipeCategory",
   "prefLabel": {
-    "en": "recipe category",
     "de": "Rezeptkategorie",
+    "en": "recipe category",
     "fr": "catégorie de recette",
     "es": "categoría de la receta"
   },
   "definition": {
+    "de": "Die Kategorie des Rezepts, z. B. Vorspeise, Hauptgericht usw.",
     "en": "The category of the recipe—for example, appetizer, entree, etc.",
-    "de": "The category of the recipe—for example, appetizer, entree, etc.",
-    "fr": "The category of the recipe—for example, appetizer, entree, etc.",
-    "es": "The category of the recipe—for example, appetizer, entree, etc."
+    "fr": "La catégorie de la recette - par exemple, entrée, plat principal, etc.",
+    "es": "La categoría de la receta, por ejemplo, aperitivo, plato principal, etc."
   },
   "notation": [
     "2180"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

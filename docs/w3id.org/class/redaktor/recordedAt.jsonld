@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FrecordedAt",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FrecordedAt",
   "prefLabel": {
-    "en": "recorded at",
     "de": "aufgezeichnet bei",
+    "en": "recorded at",
     "fr": "enregistré au",
     "es": "registrado en"
   },
   "definition": {
+    "de": "Das Ereignis, bei dem das CreativeWork aufgezeichnet wurde. Das CreativeWork kann das gesamte Ereignis oder einen Teil davon erfassen.",
     "en": "The Event where the CreativeWork was recorded. The CreativeWork may capture all or part of the event.",
-    "de": "The Event where the CreativeWork was recorded. The CreativeWork may capture all or part of the event.",
-    "fr": "The Event where the CreativeWork was recorded. The CreativeWork may capture all or part of the event.",
-    "es": "The Event where the CreativeWork was recorded. The CreativeWork may capture all or part of the event."
+    "fr": "L'événement où le travail créatif a été enregistré. Le Travail Créatif peut capturer tout ou partie de l'événement.",
+    "es": "El evento en el que se grabó el CreativeWork. El CreativeWork puede capturar todo o parte del evento."
   },
   "notation": [
     "2187"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

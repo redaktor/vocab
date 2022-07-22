@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fslogan",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fslogan",
   "prefLabel": {
-    "en": "slogan",
     "de": "Slogan",
+    "en": "slogan",
     "fr": "slogan",
     "es": "eslogan"
   },
   "definition": {
-    "en": "A slogan or motto associated with the item.",
     "de": "Ein mit dem Artikel verbundener Slogan oder ein Motto.",
+    "en": "A slogan or motto associated with the item.",
     "fr": "Un slogan ou une devise associés à l'article.",
     "es": "Un eslogan o lema asociado al artículo."
   },
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

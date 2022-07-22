@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fassesses",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fassesses",
   "prefLabel": {
-    "en": "assesses",
     "de": "bewertet",
+    "en": "assesses",
     "fr": "évalue",
     "es": "evalúa"
   },
   "definition": {
+    "de": "Der beschriebene Gegenstand soll die durch den referenzierten Begriff definierte Kompetenz oder das Lernergebnis bewerten.",
     "en": "The item being described is intended to assess the competency or learning outcome defined by the referenced term.",
-    "de": "The item being described is intended to assess the competency or learning outcome defined by the referenced term.",
-    "fr": "The item being described is intended to assess the competency or learning outcome defined by the referenced term.",
-    "es": "The item being described is intended to assess the competency or learning outcome defined by the referenced term."
+    "fr": "L'élément décrit est destiné à évaluer la compétence ou le résultat d'apprentissage défini par le terme référencé.",
+    "es": "El elemento que se describe está destinado a evaluar la competencia o el resultado de aprendizaje definido por el término referido."
   },
   "notation": [
     "1795"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

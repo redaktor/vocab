@@ -6,6 +6,12 @@
   "prefLabel": {
     "en": "episode"
   },
+  "definition": {
+    "de": "Eine Episode eines Fernseh-, Radio- oder Spielmediums innerhalb einer Serie oder Staffel.",
+    "en": "An episode of a tv, radio or game media within a series or season.",
+    "fr": "Un épisode d'un média de télévision, de radio ou de jeu dans une série ou une saison.",
+    "es": "Un episodio de un medio de televisión, radio o juego dentro de una serie o temporada."
+  },
   "notation": [
     "2304"
   ],
@@ -17,8 +23,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
@@ -117,22 +123,7 @@
       "@container": "@set"
     }
   }
-}": "Kreativwerk",
-      "fr": "Travail créatif",
-      "es": "Trabajo creativo"
-    }
-  },
-  "exactMatch": [
-    {
-      "id": "schema:Episode"
-    }
-  ],
-  "inScheme": {
-    "id": "https://w3id.org/class/redaktor/scheme",
-    "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
-      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
-      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+}es amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
   },

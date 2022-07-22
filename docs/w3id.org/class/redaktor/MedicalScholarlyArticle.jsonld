@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FMedicalScholarlyArticle",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FMedicalScholarlyArticle",
   "prefLabel": {
-    "en": "Medical Scholarly",
     "de": "Medizinwissenschaftlich",
+    "en": "Medical Scholarly",
     "fr": "Scientifique",
     "es": "Académico"
   },
   "definition": {
-    "en": "A medical scholarly article",
     "de": "Ein medizinwissenschaftlicher Artikel",
+    "en": "A medical scholarly article",
     "fr": "Un article médico-scientifique",
     "es": "Un artículo médico erudito"
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/publicationType",
       "prefLabel": {
-        "en": "publication type",
         "de": "Art der Veröffentlichung",
+        "en": "publication type",
         "fr": "type de publication",
         "es": "tipo de publicación"
       }
@@ -32,8 +32,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/ScholarlyArticle",
     "prefLabel": {
-      "en": "Scholarly",
       "de": "Wissenschaftlich",
+      "en": "Scholarly",
       "fr": "Scientifique",
       "es": "Académico"
     }
@@ -46,8 +46,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

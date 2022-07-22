@@ -1,0 +1,140 @@
+{
+  "id": "https://w3id.org/class/redaktor/estimatedSalary",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FestimatedSalary",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FestimatedSalary",
+  "prefLabel": {
+    "de": "geschätztes Gehalt",
+    "en": "estimated salary",
+    "fr": "salaire estimé",
+    "es": "salario estimado"
+  },
+  "definition": {
+    "de": "Ein geschätztes Gehalt für eine Stellenausschreibung oder einen Beruf, basierend auf einer Reihe von Variablen, einschließlich, aber nicht beschränkt auf die Branche, die Stellenbezeichnung und den Standort. Die geschätzten Gehälter werden oft von externen Organisationen und nicht von der einstellenden Organisation berechnet, die sich möglicherweise nicht auf den geschätzten Wert festgelegt hat.",
+    "en": "An estimated salary for a job posting or occupation, based on a variety of variables including, but not limited to industry, job title, and location. Estimated salaries  are often computed by outside organizations rather than the hiring organization, who may not have committed to the estimated value.",
+    "fr": "Une estimation du salaire pour une offre d'emploi ou une profession, basée sur une variété de variables incluant, mais sans s'y limiter, l'industrie, le titre du poste et le lieu. Les salaires estimés sont souvent calculés par des organismes extérieurs plutôt que par l'organisme recruteur, qui peut ne pas s'être engagé à respecter la valeur estimée.",
+    "es": "Un salario estimado para un puesto de trabajo o una ocupación, basado en una serie de variables que incluyen, entre otras, el sector, el cargo y la ubicación. Los salarios estimados suelen ser calculados por organizaciones externas y no por la organización contratante, que puede no haberse comprometido con el valor estimado."
+  },
+  "notation": [
+    "2479"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/MonetaryAmount",
+      "prefLabel": {
+        "de": "Geldbetrag",
+        "en": "Monetary Amount",
+        "fr": "Montant monétaire",
+        "es": "Importe monetario"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:estimatedSalary"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

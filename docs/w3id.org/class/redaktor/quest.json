@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fquest",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fquest",
   "prefLabel": {
-    "en": "quest",
     "de": "Suche",
+    "en": "quest",
     "fr": "quête",
     "es": "búsqueda"
   },
   "definition": {
+    "de": "Die Aufgabe, die ein vom Spieler gesteuerter Charakter oder eine Gruppe von Charakteren erfüllen kann, um eine Belohnung zu erhalten.",
     "en": "The task that a player-controlled character, or group of characters may complete in order to gain a reward.",
-    "de": "The task that a player-controlled character, or group of characters may complete in order to gain a reward.",
-    "fr": "The task that a player-controlled character, or group of characters may complete in order to gain a reward.",
-    "es": "The task that a player-controlled character, or group of characters may complete in order to gain a reward."
+    "fr": "La tâche qu'un personnage ou un groupe de personnages contrôlés par le joueur peut accomplir afin d'obtenir une récompense.",
+    "es": "La tarea que un personaje controlado por el jugador, o un grupo de personajes, puede completar para obtener una recompensa."
   },
   "notation": [
     "2178"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

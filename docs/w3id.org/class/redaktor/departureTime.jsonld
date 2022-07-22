@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FdepartureTime",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FdepartureTime",
   "prefLabel": {
-    "en": "departure time",
     "de": "Abfahrtszeit",
+    "en": "departure time",
     "fr": "heure de départ",
     "es": "hora de salida"
   },
   "definition": {
+    "de": "Die voraussichtliche Abfahrtszeit.",
     "en": "The expected departure time.",
-    "de": "The expected departure time.",
-    "fr": "The expected departure time.",
-    "es": "The expected departure time."
+    "fr": "L'heure de départ prévue.",
+    "es": "La hora de salida prevista."
   },
   "notation": [
     "1904"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

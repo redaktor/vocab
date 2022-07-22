@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FbroadcastOfEvent",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FbroadcastOfEvent",
   "prefLabel": {
-    "en": "broadcast of event",
     "de": "Übertragung einer Veranstaltung",
+    "en": "broadcast of event",
     "fr": "diffusion d'un événement",
     "es": "transmisión de evento"
   },
   "definition": {
+    "de": "Das übertragene Ereignis, z. B. ein Sportereignis oder eine Preisverleihung.",
     "en": "The event being broadcast such as a sporting event or awards ceremony.",
-    "de": "The event being broadcast such as a sporting event or awards ceremony.",
-    "fr": "The event being broadcast such as a sporting event or awards ceremony.",
-    "es": "The event being broadcast such as a sporting event or awards ceremony."
+    "fr": "L'événement diffusé, tel qu'un événement sportif ou une cérémonie de remise de prix.",
+    "es": "El evento que se retransmite, como un acontecimiento deportivo o una entrega de premios."
   },
   "notation": [
     "1829"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

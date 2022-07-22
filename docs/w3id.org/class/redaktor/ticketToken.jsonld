@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FticketToken",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FticketToken",
   "prefLabel": {
-    "en": "ticket token",
     "de": "Ticket-Token",
+    "en": "ticket token",
     "fr": "jeton de billet",
     "es": "ficha del billete"
   },
   "definition": {
+    "de": "Verweis auf ein Asset (z. B. Barcode, QR-Code-Bild oder PDF), das für den Zugang genutzt werden kann.",
     "en": "Reference to an asset (e.g., Barcode, QR code image or PDF) usable for entrance.",
-    "de": "Reference to an asset (e.g., Barcode, QR code image or PDF) usable for entrance.",
-    "fr": "Reference to an asset (e.g., Barcode, QR code image or PDF) usable for entrance.",
-    "es": "Reference to an asset (e.g., Barcode, QR code image or PDF) usable for entrance."
+    "fr": "Référence à un bien (par exemple, un code-barres, une image de code QR ou un PDF) utilisable pour l'entrée.",
+    "es": "Referencia a un activo (por ejemplo, un código de barras, una imagen de código QR o un PDF) utilizable para la entrada."
   },
   "notation": [
     "2258"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

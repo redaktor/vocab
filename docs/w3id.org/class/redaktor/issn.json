@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fissn",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fissn",
   "prefLabel": {
-    "en": "ISSN",
     "de": "ISSN",
+    "en": "ISSN",
     "fr": "ISSN",
     "es": "ISSN"
   },
   "definition": {
+    "de": "Die internationale Standard-Seriennummer (ISSN), die diese fortlaufende Publikation kennzeichnet. Sie können diese Eigenschaft wiederholen, um verschiedene Formate oder die ISSN-Verknüpfung (ISSN-L) für diese fortlaufende Publikation zu identifizieren.",
     "en": "The International Standard Serial Number (ISSN) that identifies this serial publication. You can repeat this property to identify different formats of, or the linking ISSN (ISSN-L) for, this serial publication.",
-    "de": "The International Standard Serial Number (ISSN) that identifies this serial publication. You can repeat this property to identify different formats of, or the linking ISSN (ISSN-L) for, this serial publication.",
-    "fr": "The International Standard Serial Number (ISSN) that identifies this serial publication. You can repeat this property to identify different formats of, or the linking ISSN (ISSN-L) for, this serial publication.",
-    "es": "The International Standard Serial Number (ISSN) that identifies this serial publication. You can repeat this property to identify different formats of, or the linking ISSN (ISSN-L) for, this serial publication."
+    "fr": "Le numéro international normalisé des publications en série (ISSN) qui identifie cette publication en série. Vous pouvez répéter cette propriété pour identifier différents formats de cette publication en série, ou l'ISSN de liaison (ISSN-L) pour cette publication en série.",
+    "es": "El número internacional normalizado de serie (ISSN) que identifica esta publicación en serie. Puede repetir esta propiedad para identificar diferentes formatos o el ISSN de enlace (ISSN-L) para esta publicación en serie."
   },
   "notation": [
     "2041"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

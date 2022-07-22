@@ -1,0 +1,129 @@
+{
+  "id": "https://w3id.org/class/redaktor/PublicHolidays",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPublicHolidays",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPublicHolidays",
+  "prefLabel": {
+    "de": "Feiertage",
+    "en": "Public Holidays",
+    "fr": "Jours fériés",
+    "es": "Días festivos"
+  },
+  "definition": {
+    "de": "Dies steht für jeden Tag, der ein Feiertag ist; es ist ein Platzhalter für alle offiziellen Feiertage an einem bestimmten Ort. Obwohl er technisch gesehen kein \"Wochentag\" ist, kann er mit [[OpeningHoursSpecification]] verwendet werden. Im Zusammenhang mit einer Spezifikation der Öffnungszeiten kann er verwendet werden, um die Öffnungszeiten an Feiertagen anzugeben, wobei die allgemeinen Öffnungszeiten für den Wochentag, an dem ein Feiertag liegt, außer Kraft gesetzt werden.",
+    "en": "This stands for any day that is a public holiday; it is a placeholder for all official public holidays in some particular location. While not technically a \"day of the week\", it can be used with [[OpeningHoursSpecification]]. In the context of an opening hours specification it can be used to indicate opening hours on public holidays, overriding general opening hours for the day of the week on which a public holiday occurs.",
+    "fr": "Il s'agit de n'importe quel jour qui est un jour férié ; il s'agit d'un espace réservé pour tous les jours fériés officiels dans un lieu particulier. Bien que ce ne soit pas techniquement un \"jour de la semaine\", il peut être utilisé avec [[OpeningHoursSpecification]]. Dans le contexte d'une spécification des heures d'ouverture, il peut être utilisé pour indiquer les heures d'ouverture des jours fériés, en remplaçant les heures d'ouverture générales pour le jour de la semaine où se produit un jour férié.",
+    "es": "Representa cualquier día que sea festivo; es un marcador de posición para todos los días festivos oficiales en un lugar determinado. Aunque técnicamente no es un \"día de la semana\", puede utilizarse con [[OpeningHoursSpecification]]. En el contexto de una especificación de horario de apertura, puede utilizarse para indicar el horario de apertura en días festivos, anulando el horario general de apertura del día de la semana en el que se produce un día festivo."
+  },
+  "notation": [
+    "1218"
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:PublicHolidays"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

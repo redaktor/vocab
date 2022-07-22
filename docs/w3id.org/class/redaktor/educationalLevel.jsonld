@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FeducationalLevel",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FeducationalLevel",
   "prefLabel": {
-    "en": "educational level",
     "de": "Bildungsniveau",
+    "en": "educational level",
     "fr": "niveau d'éducation",
     "es": "nivel educativo"
   },
   "definition": {
+    "de": "Das Niveau im Sinne einer Progression in einem Bildungs- oder Ausbildungskontext. Beispiele für Bildungsniveaus sind \"Anfänger\", \"Mittelstufe\" oder \"Fortgeschrittene\" sowie formale Sätze von Niveauindikatoren.",
     "en": "The level in terms of progression through an educational or training context. Examples of educational levels include 'beginner', 'intermediate' or 'advanced', and formal sets of level indicators.",
-    "de": "The level in terms of progression through an educational or training context. Examples of educational levels include 'beginner', 'intermediate' or 'advanced', and formal sets of level indicators.",
-    "fr": "The level in terms of progression through an educational or training context. Examples of educational levels include 'beginner', 'intermediate' or 'advanced', and formal sets of level indicators.",
-    "es": "The level in terms of progression through an educational or training context. Examples of educational levels include 'beginner', 'intermediate' or 'advanced', and formal sets of level indicators."
+    "fr": "Le niveau en termes de progression dans un contexte éducatif ou de formation. Parmi les exemples de niveaux d'enseignement, on peut citer \"débutant\", \"intermédiaire\" ou \"avancé\", ainsi que des ensembles formels d'indicateurs de niveau.",
+    "es": "El nivel en términos de progresión en un contexto educativo o de formación. Los ejemplos de niveles educativos incluyen \"principiante\", \"intermedio\" o \"avanzado\", y conjuntos formales de indicadores de nivel."
   },
   "notation": [
     "1923"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

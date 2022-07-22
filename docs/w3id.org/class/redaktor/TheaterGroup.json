@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTheaterGroup",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTheaterGroup",
   "prefLabel": {
-    "en": "Theater Group",
     "de": "Theatergruppe",
+    "en": "Theater Group",
     "fr": "Groupe théâtral",
     "es": "Grupo de teatro"
   },
   "definition": {
-    "en": "A theater group or company, for example, the Royal Shakespeare Company or Druid Theatre.",
     "de": "Eine Theatergruppe oder -gesellschaft, z. B. die Royal Shakespeare Company oder das Druid Theatre.",
+    "en": "A theater group or company, for example, the Royal Shakespeare Company or Druid Theatre.",
     "fr": "Un groupe ou une compagnie de théâtre, par exemple, la Royal Shakespeare Company ou le Druid Theatre.",
     "es": "Grupo o compañía de teatro, por ejemplo, la Royal Shakespeare Company o el Druid Theatre."
   },
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

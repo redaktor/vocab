@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FJoin",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FJoin",
   "prefLabel": {
-    "en": "Join",
     "de": "Beitreten",
+    "en": "Join",
     "fr": "Rejoignez",
     "es": "Únase a"
   },
   "definition": {
-    "en": "Indicates that the actor has joined the object. The target and origin typically have no defined meaning.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-join](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-join)",
     "de": "Zeigt an, dass der Akteur dem Objekt beigetreten ist. Das Ziel und der Ursprung haben in der Regel keine definierte Bedeutung.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-join](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-join)",
+    "en": "Indicates that the actor has joined the object. The target and origin typically have no defined meaning.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-join](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-join)",
     "fr": "Indique que l'acteur a rejoint l'objet. La cible et l'origine n'ont généralement pas de signification définie.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-join](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-join)",
     "es": "Indica que el actor se ha unido al objeto. El objetivo y el origen no suelen tener un significado definido.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-join](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-join)"
   },
   "scopeNote": {
-    "en": ": Activity",
     "de": ": Activity",
+    "en": ": Activity",
     "fr": ": Activity",
     "es": ": Activity"
   },
@@ -25,8 +25,8 @@
     "211"
   ],
   "example": {
-    "en": "[Example 19](https://www.w3.org/TR/activitystreams-vocabulary/#ex17-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally joined a group\",\n  \"type\": \"Join\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Group\",\n    \"name\": \"A Simple Group\"\n  }\n}\n```",
     "de": "[Beispiel 19](https://www.w3.org/TR/activitystreams-vocabulary/#ex17-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally joined a group\",\n  \"type\": \"Join\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Group\",\n    \"name\": \"A Simple Group\"\n  }\n}\n```",
+    "en": "[Example 19](https://www.w3.org/TR/activitystreams-vocabulary/#ex17-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally joined a group\",\n  \"type\": \"Join\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Group\",\n    \"name\": \"A Simple Group\"\n  }\n}\n```",
     "fr": "[Exemple 19](https://www.w3.org/TR/activitystreams-vocabulary/#ex17-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally joined a group\",\n  \"type\": \"Join\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Group\",\n    \"name\": \"A Simple Group\"\n  }\n}\n```",
     "es": "[Ejemplo 19](https://www.w3.org/TR/activitystreams-vocabulary/#ex17-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally joined a group\",\n  \"type\": \"Join\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Group\",\n    \"name\": \"A Simple Group\"\n  }\n}\n```"
   },
@@ -34,8 +34,8 @@
     {
       "id": "https://joinmobilizon.org/ns#participationMessage",
       "prefLabel": {
-        "en": "participation message",
         "de": "Nachricht zur Teilnahme",
+        "en": "participation message",
         "fr": "message de participation",
         "es": "participación en el mensaje"
       }
@@ -43,8 +43,8 @@
     {
       "id": "https://w3id.org/class/redaktor/events",
       "prefLabel": {
-        "en": "events",
         "de": "Veranstaltungen",
+        "en": "events",
         "fr": "Événements",
         "es": "Eventos"
       }
@@ -53,8 +53,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Activity",
     "prefLabel": {
-      "en": "Activity",
       "de": "Aktivität",
+      "en": "Activity",
       "fr": "Activité",
       "es": "Actividad"
     }
@@ -70,8 +70,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

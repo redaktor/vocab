@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FRsvp",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FRsvp",
   "prefLabel": {
-    "en": "Rsvp",
     "de": "Rsvp",
+    "en": "Rsvp",
     "fr": "Rsvp",
     "es": "Rsvp"
   },
   "definition": {
-    "en": "The act of public notifying as to whether you expect to attend the event.",
     "de": "Der Akt der öffentlichen Bekanntgabe, ob Sie voraussichtlich an einer Veranstaltung teilnehmen werden.",
+    "en": "The act of public notifying as to whether you expect to attend the event.",
     "fr": "L'acte de notifier publiquement si vous pensez assister à l'événement.",
     "es": "El acto de notificar públicamente si se espera asistir al evento."
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Activity",
     "prefLabel": {
-      "en": "Activity",
       "de": "Aktivität",
+      "en": "Activity",
       "fr": "Activité",
       "es": "Actividad"
     }
@@ -35,8 +35,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

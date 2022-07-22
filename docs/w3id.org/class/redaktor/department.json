@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fdepartment",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fdepartment",
   "prefLabel": {
-    "en": "department",
     "de": "Abteilung",
+    "en": "department",
     "fr": "département",
     "es": "departamento"
   },
   "definition": {
+    "de": "Eine Beziehung zwischen einer Organisation und einer Abteilung dieser Organisation, die auch als Organisation bezeichnet wird (mit unterschiedlichen URLs, Logos und Öffnungszeiten). Zum Beispiel: ein Geschäft mit einer Apotheke, oder eine Bäckerei mit einem Café.",
     "en": "A relationship between an organization and a department of that organization, also described as an organization (allowing different urls, logos, opening hours). For example: a store with a pharmacy, or a bakery with a cafe.",
-    "de": "A relationship between an organization and a department of that organization, also described as an organization (allowing different urls, logos, opening hours). For example: a store with a pharmacy, or a bakery with a cafe.",
-    "fr": "A relationship between an organization and a department of that organization, also described as an organization (allowing different urls, logos, opening hours). For example: a store with a pharmacy, or a bakery with a cafe.",
-    "es": "A relationship between an organization and a department of that organization, also described as an organization (allowing different urls, logos, opening hours). For example: a store with a pharmacy, or a bakery with a cafe."
+    "fr": "Une relation entre une organisation et un département de cette organisation, également décrit comme une organisation (permettant des urls, logos, heures d'ouverture différents). Par exemple : un magasin avec une pharmacie, ou une boulangerie avec un café.",
+    "es": "Una relación entre una organización y un departamento de esa organización, también descrita como una organización (permitiendo diferentes urls, logotipos, horarios de apertura). Por ejemplo: una tienda con una farmacia, o una panadería con una cafetería."
   },
   "notation": [
     "1896"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

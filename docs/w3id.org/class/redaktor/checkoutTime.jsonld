@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcheckoutTime",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcheckoutTime",
   "prefLabel": {
-    "en": "checkout time",
     "de": "Checkout-Zeit",
+    "en": "checkout time",
     "fr": "checkout time, temps de check de l'enregistrement",
     "es": "hora de salida"
   },
   "definition": {
+    "de": "Der späteste Zeitpunkt, zu dem jemand aus einem Beherbergungsbetrieb auscheckt.",
     "en": "The latest someone may check out of a lodging establishment.",
-    "de": "The latest someone may check out of a lodging establishment.",
-    "fr": "The latest someone may check out of a lodging establishment.",
-    "es": "The latest someone may check out of a lodging establishment."
+    "fr": "La date la plus tardive à laquelle une personne peut quitter un établissement d'hébergement.",
+    "es": "La última vez que alguien puede salir de un establecimiento de alojamiento."
   },
   "notation": [
     "1842"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

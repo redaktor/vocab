@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcopyrightYear",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcopyrightYear",
   "prefLabel": {
-    "en": "copyright year",
     "de": "Jahr des Urheberrechts",
+    "en": "copyright year",
     "fr": "année du droit d'auteur",
     "es": "año de copyright"
   },
   "definition": {
+    "de": "Das Jahr, in dem das beanspruchte Urheberrecht für das CreativeWork erstmals geltend gemacht wurde.",
     "en": "The year during which the claimed copyright for the CreativeWork was first asserted.",
-    "de": "The year during which the claimed copyright for the CreativeWork was first asserted.",
-    "fr": "The year during which the claimed copyright for the CreativeWork was first asserted.",
-    "es": "The year during which the claimed copyright for the CreativeWork was first asserted."
+    "fr": "L'année durant laquelle le droit d'auteur revendiqué pour l'œuvre créative a été revendiqué pour la première fois.",
+    "es": "El año en el que los derechos de autor reclamados para el CreativeWork se hicieron valer por primera vez."
   },
   "notation": [
     "1872"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

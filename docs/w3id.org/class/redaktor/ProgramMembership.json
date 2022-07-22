@@ -4,26 +4,35 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FProgramMembership",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FProgramMembership",
   "prefLabel": {
-    "en": "Program Membership",
     "de": "Programm-Mitgliedschaft",
+    "en": "Program Membership",
     "fr": "Adhésion au programme",
     "es": "Afiliación al programa"
   },
   "definition": {
+    "de": "Wird verwendet, um die Mitgliedschaft in einem Treueprogramm (z. B. \"StarAliance\"), einem Reiseclub (z. B. \"AAA\"), einem Einkaufsclub (\"Safeway Club\") usw. zu beschreiben.",
     "en": "Used to describe membership in a loyalty programs (e.g. “StarAliance”), traveler clubs (e.g. “AAA”), purchase clubs (“Safeway Club”), etc.",
-    "de": "Used to describe membership in a loyalty programs (e.g. “StarAliance”), traveler clubs (e.g. “AAA”), purchase clubs (“Safeway Club”), etc.",
-    "fr": "Used to describe membership in a loyalty programs (e.g. “StarAliance”), traveler clubs (e.g. “AAA”), purchase clubs (“Safeway Club”), etc.",
-    "es": "Used to describe membership in a loyalty programs (e.g. “StarAliance”), traveler clubs (e.g. “AAA”), purchase clubs (“Safeway Club”), etc."
+    "fr": "Utilisé pour décrire l'adhésion à un programme de fidélité (par exemple, \"StarAliance\"), à des clubs de voyageurs (par exemple, \"AAA\"), à des clubs d'achat (\"Safeway Club\"), etc.",
+    "es": "Se utiliza para describir la pertenencia a programas de fidelización (por ejemplo, \"StarAliance\"), clubes de viajeros (por ejemplo, \"AAA\"), clubes de compras (\"Safeway Club\"), etc."
   },
   "notation": [
     "39"
   ],
   "narrower": [
     {
+      "id": "https://w3id.org/class/redaktor/membershipPointsEarned",
+      "prefLabel": {
+        "de": "verdiente Mitgliedschaftspunkte",
+        "en": "membership points earned",
+        "fr": "points d'adhésion gagnés",
+        "es": "puntos de afiliación obtenidos"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/hostingOrganization",
       "prefLabel": {
-        "en": "hosting organization",
         "de": "aufnehmende Organisation",
+        "en": "hosting organization",
         "fr": "organisation d'accueil",
         "es": "organización anfitriona"
       }
@@ -31,8 +40,8 @@
     {
       "id": "https://w3id.org/class/redaktor/member",
       "prefLabel": {
-        "en": "member",
         "de": "Mitglied",
+        "en": "member",
         "fr": "membre",
         "es": "miembro"
       }
@@ -40,8 +49,8 @@
     {
       "id": "https://w3id.org/class/redaktor/members",
       "prefLabel": {
-        "en": "members",
         "de": "Mitglieder",
+        "en": "members",
         "fr": "membres",
         "es": "miembros"
       }
@@ -49,26 +58,17 @@
     {
       "id": "https://w3id.org/class/redaktor/membershipNumber",
       "prefLabel": {
-        "en": "membership number",
         "de": "Anzahl der Mitglieder",
+        "en": "membership number",
         "fr": "numéro d'adhésion",
         "es": "número de miembros"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/membershipPointsEarned",
-      "prefLabel": {
-        "en": "membership points earned",
-        "de": "verdiente Mitgliedschaftspunkte",
-        "fr": "points d'adhésion gagnés",
-        "es": "puntos de afiliación obtenidos"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/programName",
       "prefLabel": {
-        "en": "program name",
         "de": "Programmname",
+        "en": "program name",
         "fr": "nom de programme",
         "es": "nombre del programa"
       }
@@ -82,8 +82,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

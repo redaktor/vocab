@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FActivity",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FActivity",
   "prefLabel": {
-    "en": "Activity",
     "de": "Aktivität",
+    "en": "Activity",
     "fr": "Activité",
     "es": "Actividad"
   },
   "definition": {
-    "en": "The Verbs. An Activity is a subtype of Object that describes some form of action that may happen, is currently happening, or has already happened. The Activity type itself serves as an abstract base type for all types of activities. It is important to note that the Activity type itself does not carry any specific semantics about the kind of action being taken.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity)",
     "de": "Die Verben. Eine Aktivität ist ein Untertyp von Objekt, der eine Art von Aktion beschreibt, die stattfinden kann, gerade stattfindet oder bereits stattgefunden hat. Der Aktivitätstyp selbst dient als abstrakter Basistyp für alle Arten von Aktivitäten. Wichtig: Der Aktivitätstyp selbst enthält keine spezifische Semantik über die Art der durchgeführten Aktion.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity)",
+    "en": "The Verbs. An Activity is a subtype of Object that describes some form of action that may happen, is currently happening, or has already happened. The Activity type itself serves as an abstract base type for all types of activities. It is important to note that the Activity type itself does not carry any specific semantics about the kind of action being taken.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity)",
     "fr": "Les verbes. Une activité est un sous-type d'objet qui décrit une forme d'action qui peut se produire, se produit actuellement ou s'est déjà produite. Le type Activity sert de type de base abstrait pour tous les types d'activités. Il est important de noter que le type Activity lui-même ne porte aucune sémantique spécifique sur le type d'action en cours.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity)",
     "es": "Los Verbos. Una Actividad es un subtipo de Objeto que describe alguna forma de acción que puede ocurrir, que está ocurriendo o que ya ha ocurrido. El tipo Activity en sí mismo sirve como un tipo base abstracto para todos los tipos de actividades. Es importante notar que el tipo Activity en sí mismo no lleva ninguna semántica específica sobre el tipo de acción que se está llevando a cabo.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity)"
   },
   "scopeNote": {
-    "en": ": Core",
     "de": ": Core",
+    "en": ": Core",
     "fr": ": Core",
     "es": ": Core"
   },
@@ -25,8 +25,8 @@
     "2"
   ],
   "example": {
-    "en": "[Example 3](https://www.w3.org/TR/activitystreams-vocabulary/#ex3-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Activity\",\n  \"summary\": \"Sally did something to a note\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Note\",\n    \"name\": \"A Note\"\n  }\n}\n```",
     "de": "[Beispiel 3](https://www.w3.org/TR/activitystreams-vocabulary/#ex3-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Activity\",\n  \"summary\": \"Sally did something to a note\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Note\",\n    \"name\": \"A Note\"\n  }\n}\n```",
+    "en": "[Example 3](https://www.w3.org/TR/activitystreams-vocabulary/#ex3-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Activity\",\n  \"summary\": \"Sally did something to a note\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Note\",\n    \"name\": \"A Note\"\n  }\n}\n```",
     "fr": "[Exemple 3](https://www.w3.org/TR/activitystreams-vocabulary/#ex3-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Activity\",\n  \"summary\": \"Sally did something to a note\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Note\",\n    \"name\": \"A Note\"\n  }\n}\n```",
     "es": "[Ejemplo 3](https://www.w3.org/TR/activitystreams-vocabulary/#ex3-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Activity\",\n  \"summary\": \"Sally did something to a note\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Note\",\n    \"name\": \"A Note\"\n  }\n}\n```"
   },
@@ -34,8 +34,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Accept",
       "prefLabel": {
-        "en": "Accept",
         "de": "Annehmen",
+        "en": "Accept",
         "fr": "Acceptation",
         "es": "Aceptación"
       }
@@ -43,8 +43,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Add",
       "prefLabel": {
-        "en": "Add",
         "de": "Hinzufügen",
+        "en": "Add",
         "fr": "Ajouter",
         "es": "Añadir"
       }
@@ -52,8 +52,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Announce",
       "prefLabel": {
-        "en": "Announce",
         "de": "Mitteilen",
+        "en": "Announce",
         "fr": "Annoncez",
         "es": "Anuncie"
       }
@@ -61,8 +61,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Block",
       "prefLabel": {
-        "en": "Block",
         "de": "Blocken",
+        "en": "Block",
         "fr": "Bloc",
         "es": "Bloque"
       }
@@ -70,8 +70,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Create",
       "prefLabel": {
-        "en": "Create",
         "de": "Erstellen",
+        "en": "Create",
         "fr": "Créer",
         "es": "Crear"
       }
@@ -79,8 +79,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Delete",
       "prefLabel": {
-        "en": "Delete",
         "de": "Löschen",
+        "en": "Delete",
         "fr": "Supprimer",
         "es": "Borrar"
       }
@@ -88,8 +88,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Dislike",
       "prefLabel": {
-        "en": "Dislike",
         "de": "Mag ich nicht",
+        "en": "Dislike",
         "fr": "N'aimez pas",
         "es": "No me gusta"
       }
@@ -97,8 +97,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Flag",
       "prefLabel": {
-        "en": "Flag",
         "de": "Flag",
+        "en": "Flag",
         "fr": "Flag",
         "es": "Flag"
       }
@@ -106,8 +106,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Follow",
       "prefLabel": {
-        "en": "Follow",
         "de": "Folgen",
+        "en": "Follow",
         "fr": "Suivez",
         "es": "Siga"
       }
@@ -115,8 +115,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Ignore",
       "prefLabel": {
-        "en": "Ignore",
         "de": "Ignorieren",
+        "en": "Ignore",
         "fr": "Ignorer",
         "es": "Ignora"
       }
@@ -124,8 +124,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Invite",
       "prefLabel": {
-        "en": "Invite",
         "de": "Einladen",
+        "en": "Invite",
         "fr": "Invitez",
         "es": "Invitar a"
       }
@@ -133,8 +133,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Join",
       "prefLabel": {
-        "en": "Join",
         "de": "Beitreten",
+        "en": "Join",
         "fr": "Rejoignez",
         "es": "Únase a"
       }
@@ -142,8 +142,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Leave",
       "prefLabel": {
-        "en": "Leave",
         "de": "Verlassen",
+        "en": "Leave",
         "fr": "Laissez",
         "es": "Deja"
       }
@@ -151,8 +151,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Like",
       "prefLabel": {
-        "en": "Like",
         "de": "Mag ich",
+        "en": "Like",
         "fr": "Comme",
         "es": "Como"
       }
@@ -160,8 +160,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Listen",
       "prefLabel": {
-        "en": "Listen",
         "de": "Hören",
+        "en": "Listen",
         "fr": "Écoutez",
         "es": "Escuche"
       }
@@ -169,8 +169,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Move",
       "prefLabel": {
-        "en": "Move",
         "de": "Bewegen",
+        "en": "Move",
         "fr": "Déplacement",
         "es": "Mover"
       }
@@ -178,8 +178,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Offer",
       "prefLabel": {
-        "en": "Offer",
         "de": "Angebot",
+        "en": "Offer",
         "fr": "Offre",
         "es": "Oferta"
       }
@@ -187,8 +187,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Read",
       "prefLabel": {
-        "en": "Read",
         "de": "Lesen",
+        "en": "Read",
         "fr": "Lire",
         "es": "Leer"
       }
@@ -196,8 +196,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Reject",
       "prefLabel": {
-        "en": "Reject",
         "de": "Ablehnen",
+        "en": "Reject",
         "fr": "Rejet",
         "es": "Rechazo"
       }
@@ -205,8 +205,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Remove",
       "prefLabel": {
-        "en": "Remove",
         "de": "Entfernen",
+        "en": "Remove",
         "fr": "Retirer",
         "es": "Eliminar"
       }
@@ -214,8 +214,8 @@
     {
       "id": "https://w3id.org/class/redaktor/TentativeAccept",
       "prefLabel": {
-        "en": "Tentative Accept",
         "de": "Vorläufig Angenommen",
+        "en": "Tentative Accept",
         "fr": "Acceptation provisoire",
         "es": "Aceptación tentativa"
       }
@@ -223,8 +223,8 @@
     {
       "id": "https://w3id.org/class/redaktor/TentativeReject",
       "prefLabel": {
-        "en": "Tentative Reject",
         "de": "Vorläufige Ablehnung",
+        "en": "Tentative Reject",
         "fr": "Rejet provisoire",
         "es": "Rechazo provisional"
       }
@@ -232,8 +232,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Undo",
       "prefLabel": {
-        "en": "Undo",
         "de": "Undo",
+        "en": "Undo",
         "fr": "Undo",
         "es": "Undo"
       }
@@ -241,8 +241,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Update",
       "prefLabel": {
-        "en": "Update",
         "de": "Aktualisierung",
+        "en": "Update",
         "fr": "Actualisation",
         "es": "Actualización"
       }
@@ -250,8 +250,8 @@
     {
       "id": "https://w3id.org/class/redaktor/View",
       "prefLabel": {
-        "en": "View",
         "de": "Sehen",
+        "en": "View",
         "fr": "Voir",
         "es": "Ver"
       }
@@ -259,8 +259,8 @@
     {
       "id": "https://w3id.org/class/redaktor/actor",
       "prefLabel": {
-        "en": "actor",
         "de": "Akteur",
+        "en": "actor",
         "fr": "acteur",
         "es": "actor"
       }
@@ -268,8 +268,8 @@
     {
       "id": "https://w3id.org/class/redaktor/object",
       "prefLabel": {
-        "en": "object",
         "de": "Objekt",
+        "en": "object",
         "fr": "objet",
         "es": "objeto"
       }
@@ -277,8 +277,8 @@
     {
       "id": "https://w3id.org/class/redaktor/instrument",
       "prefLabel": {
-        "en": "instrument",
         "de": "Instrument",
+        "en": "instrument",
         "fr": "instrument",
         "es": "instrumento"
       }
@@ -286,8 +286,8 @@
     {
       "id": "https://w3id.org/class/redaktor/origin",
       "prefLabel": {
-        "en": "origin",
         "de": "Ursprung",
+        "en": "origin",
         "fr": "origine",
         "es": "origen"
       }
@@ -295,8 +295,8 @@
     {
       "id": "https://w3id.org/class/redaktor/result",
       "prefLabel": {
-        "en": "result",
         "de": "Ergebnis",
+        "en": "result",
         "fr": "résultat",
         "es": "resultado"
       }
@@ -304,26 +304,17 @@
     {
       "id": "https://w3id.org/class/redaktor/target",
       "prefLabel": {
-        "en": "target",
         "de": "Ziel",
+        "en": "target",
         "fr": "cible",
         "es": "objetivo"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/provider",
-      "prefLabel": {
-        "en": "provider",
-        "de": "Anbieter",
-        "fr": "fournisseur",
-        "es": "proveedor"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/Achieve",
       "prefLabel": {
-        "en": "Achieve",
         "de": "Erreichen",
+        "en": "Achieve",
         "fr": "Atteindre",
         "es": "Lograr"
       }
@@ -331,8 +322,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Assess",
       "prefLabel": {
-        "en": "Assess",
         "de": "Bewerten",
+        "en": "Assess",
         "fr": "Évaluer",
         "es": "Evaluar"
       }
@@ -340,8 +331,8 @@
     {
       "id": "https://w3id.org/class/redaktor/CheckIn",
       "prefLabel": {
-        "en": "Check In",
         "de": "Einchecken",
+        "en": "Check In",
         "fr": "Check In",
         "es": "Check In"
       }
@@ -349,8 +340,8 @@
     {
       "id": "https://w3id.org/class/redaktor/CheckOut",
       "prefLabel": {
-        "en": "Check Out",
         "de": "Auschecken",
+        "en": "Check Out",
         "fr": "Enregistrement",
         "es": "Check Out"
       }
@@ -358,8 +349,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Consume",
       "prefLabel": {
-        "en": "Consume",
         "de": "Verbrauchen",
+        "en": "Consume",
         "fr": "Consommer",
         "es": "Consumir"
       }
@@ -367,8 +358,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Find",
       "prefLabel": {
-        "en": "Find",
         "de": "Finden",
+        "en": "Find",
         "fr": "Trouver",
         "es": "Encontrar"
       }
@@ -376,8 +367,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Organize",
       "prefLabel": {
-        "en": "Organize",
         "de": "Organisieren",
+        "en": "Organize",
         "fr": "Organiser",
         "es": "Organizar"
       }
@@ -385,8 +376,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Play",
       "prefLabel": {
-        "en": "Play",
         "de": "Spielen",
+        "en": "Play",
         "fr": "Jouer",
         "es": "Jugar"
       }
@@ -394,8 +385,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SeekTo",
       "prefLabel": {
-        "en": "Seek To",
         "de": "Spulen zu",
+        "en": "Seek To",
         "fr": "Avancer vers",
         "es": "Avancemos hasta"
       }
@@ -403,8 +394,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Trade",
       "prefLabel": {
-        "en": "Trade",
         "de": "Handeln",
+        "en": "Trade",
         "fr": "Échanger",
         "es": "Intercambio"
       }
@@ -412,8 +403,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Rsvp",
       "prefLabel": {
-        "en": "Rsvp",
         "de": "Rsvp",
+        "en": "Rsvp",
         "fr": "Rsvp",
         "es": "Rsvp"
       }
@@ -421,8 +412,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Search",
       "prefLabel": {
-        "en": "Search",
         "de": "Suchen",
+        "en": "Search",
         "fr": "Recherche",
         "es": "Buscar"
       }
@@ -430,8 +421,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SolveMath",
       "prefLabel": {
-        "en": "Solve Math",
         "de": "Mathematik auflösen",
+        "en": "Solve Math",
         "fr": "Solve Math",
         "es": "Resolver Matemáticas"
       }
@@ -439,18 +430,27 @@
     {
       "id": "https://w3id.org/class/redaktor/Transfer",
       "prefLabel": {
-        "en": "Transfer",
         "de": "Übertragung",
+        "en": "Transfer",
         "fr": "Transfert",
         "es": "Transferencia"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/provider",
+      "prefLabel": {
+        "de": "Anbieter",
+        "en": "provider",
+        "fr": "fournisseur",
+        "es": "proveedor"
       }
     }
   ],
   "broader": {
     "id": "https://w3id.org/class/redaktor/Object",
     "prefLabel": {
-      "en": "Object",
       "de": "Objekt",
+      "en": "Object",
       "fr": "Objet",
       "es": "Objeto"
     }
@@ -466,8 +466,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

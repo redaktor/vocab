@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FReact",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FReact",
   "prefLabel": {
-    "en": "React",
     "de": "Reagieren",
+    "en": "React",
     "fr": "Réagir",
     "es": "Reaccionar"
   },
   "definition": {
-    "en": "The act of responding instinctively and emotionally to an object, expressing a sentiment.",
     "de": "Der Akt, instinktiv und emotional auf ein Objekt zu reagieren und ein Gefühl auszudrücken.",
+    "en": "The act of responding instinctively and emotionally to an object, expressing a sentiment.",
     "fr": "Action de répondre instinctivement et émotionnellement à un objet, d'exprimer un sentiment.",
     "es": "El acto de responder instintiva y emocionalmente a un objeto, expresando un sentimiento."
   },
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

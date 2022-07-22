@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcoursePrerequisites",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcoursePrerequisites",
   "prefLabel": {
-    "en": "course prerequisites",
     "de": "Kursvoraussetzungen",
+    "en": "course prerequisites",
     "fr": "conditions préalables au cours",
     "es": "requisitos del curso"
   },
   "definition": {
+    "de": "Voraussetzungen für die Teilnahme an dem Kurs. Dies kann der Abschluss eines anderen [[Kurs]]s oder eine textliche Beschreibung wie \"Erlaubnis des Dozenten\" sein. Bei den Anforderungen kann es sich um eine vorausgesetzte Kompetenz handeln, auf die mit [[AlignmentObject]] verwiesen wird.",
     "en": "Requirements for taking the Course. May be completion of another [[Course]] or a textual description like “permission of instructor”. Requirements may be a pre-requisite competency, referenced using [[AlignmentObject]].",
-    "de": "Requirements for taking the Course. May be completion of another [[Course]] or a textual description like “permission of instructor”. Requirements may be a pre-requisite competency, referenced using [[AlignmentObject]].",
-    "fr": "Requirements for taking the Course. May be completion of another [[Course]] or a textual description like “permission of instructor”. Requirements may be a pre-requisite competency, referenced using [[AlignmentObject]].",
-    "es": "Requirements for taking the Course. May be completion of another [[Course]] or a textual description like “permission of instructor”. Requirements may be a pre-requisite competency, referenced using [[AlignmentObject]]."
+    "fr": "Conditions pour suivre le cours. Il peut s'agir de l'achèvement d'un autre [[Cours]] ou d'une description textuelle telle que \"permission de l'instructeur\". Les exigences peuvent être une compétence préalable, référencée à l'aide de [[AlignmentObject]].",
+    "es": "Requisitos para realizar el curso. Puede ser la finalización de otro [[Curso]] o una descripción textual como \"permiso del instructor\". Los requisitos pueden ser una competencia previa, referenciada mediante [[AlignmentObject]]."
   },
   "notation": [
     "1880"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

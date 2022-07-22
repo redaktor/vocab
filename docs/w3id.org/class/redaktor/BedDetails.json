@@ -1,0 +1,149 @@
+{
+  "id": "https://w3id.org/class/redaktor/BedDetails",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FBedDetails",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FBedDetails",
+  "prefLabel": {
+    "de": "Details zum Bett",
+    "en": "Bed Details",
+    "fr": "Détails du lit",
+    "es": "Detalles de la cama"
+  },
+  "definition": {
+    "de": "Eine Entität mit detaillierten Informationen über die verfügbaren Bettentypen, z. B. die Anzahl der Einzelbetten für ein Hotelzimmer. Für den einzigen Fall, dass nur ein Bett eines bestimmten Typs vorhanden ist, können Sie bed direkt mit einem Text verwenden. Siehe auch [[BedType]] (in Entwicklung).",
+    "en": "An entity holding detailed information about the available bed types, e.g. the quantity of twin beds for a hotel room. For the single case of just one bed of a certain type, you can use bed directly with a text. See also [[BedType]] (under development).",
+    "fr": "Une entité contenant des informations détaillées sur les types de lits disponibles, par exemple la quantité de lits jumeaux pour une chambre d'hôtel. Pour le cas unique d'un seul lit d'un certain type, vous pouvez utiliser bed directement avec un texte. Voir également [[BedType]] (en cours de développement).",
+    "es": "Entidad que contiene información detallada sobre los tipos de cama disponibles, por ejemplo, la cantidad de camas gemelas para una habitación de hotel. Para el caso único de una sola cama de un determinado tipo, se puede utilizar bed directamente con un texto. Véase también [[BedType]] (en desarrollo)."
+  },
+  "notation": [
+    "1412"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/typeOfBed",
+      "prefLabel": {
+        "de": "Art des Bettes",
+        "en": "type of bed",
+        "fr": "type de lit",
+        "es": "tipo de cama"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/numberOfBeds",
+      "prefLabel": {
+        "de": "Anzahl der Betten",
+        "en": "number of beds",
+        "fr": "nombre de lits",
+        "es": "número de camas"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:BedDetails"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

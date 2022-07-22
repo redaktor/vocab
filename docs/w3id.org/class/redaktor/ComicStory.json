@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FComicStory",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FComicStory",
   "prefLabel": {
-    "en": "Comic Story",
     "de": "Comic-Geschichte",
+    "en": "Comic Story",
     "fr": "Comic Story",
     "es": "Comic Story"
   },
   "definition": {
-    "en": "The term \"story\" is any indivisible, re-printable unit of a comic, including the interior stories, covers, and backmatter. Most comics have at least two stories: a cover (ComicCoverArt) and an interior story.",
     "de": "Der Begriff \"Geschichte\" bezeichnet jede unteilbare, nachdruckbare Einheit eines Comics, einschließlich der Innengeschichte, des Covers und der Rückseite. Die meisten Comics haben mindestens zwei Geschichten: ein Cover und eine Innengeschichte.",
+    "en": "The term \"story\" is any indivisible, re-printable unit of a comic, including the interior stories, covers, and backmatter. Most comics have at least two stories: a cover (ComicCoverArt) and an interior story.",
     "fr": "Le terme story désigne toute unité indivisible et réimprimable d'une bande dessinée, y compris les histoires intérieures, les couvertures et le fond. La plupart des bandes dessinées ont au moins deux histoires : une couverture (ComicCoverArt) et une histoire intérieure.",
     "es": "El término story es cualquier unidad indivisible y reimprimible de un cómic, incluyendo las historias interiores, las portadas y el material de fondo. La mayoría de los cómics tienen al menos dos histori: una portada (ComicCoverArt) y una historia interior."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ComicCoverArt",
       "prefLabel": {
-        "en": "Comic Cover Art",
         "de": "Comic-Titelbild",
+        "en": "Comic Cover Art",
         "fr": "Couverture de bande dessinée",
         "es": "Portada de cómic"
       }
@@ -31,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/artist",
       "prefLabel": {
-        "en": "artist",
         "de": "Künstler",
+        "en": "artist",
         "fr": "artiste",
         "es": "artista"
       }
@@ -40,8 +40,8 @@
     {
       "id": "https://w3id.org/class/redaktor/colorist",
       "prefLabel": {
-        "en": "colorist",
         "de": "Kolorist",
+        "en": "colorist",
         "fr": "coloriste",
         "es": "colorista"
       }
@@ -49,8 +49,8 @@
     {
       "id": "https://w3id.org/class/redaktor/inker",
       "prefLabel": {
-        "en": "inker",
         "de": "Färber",
+        "en": "inker",
         "fr": "inker",
         "es": "entintador"
       }
@@ -58,8 +58,8 @@
     {
       "id": "https://w3id.org/class/redaktor/letterer",
       "prefLabel": {
-        "en": "letterer",
         "de": "Beschreiber",
+        "en": "letterer",
         "fr": "lettré",
         "es": "letra"
       }
@@ -67,8 +67,8 @@
     {
       "id": "https://w3id.org/class/redaktor/penciler",
       "prefLabel": {
-        "en": "penciler",
         "de": "Schreiber",
+        "en": "penciler",
         "fr": "crayon à papier",
         "es": "lápiz"
       }
@@ -82,8 +82,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

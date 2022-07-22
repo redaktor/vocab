@@ -4,10 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FOncologic",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FOncologic",
   "prefLabel": {
-    "en": "Oncologic",
     "de": "Onkologie",
+    "en": "Oncologic",
     "fr": "Oncologie",
     "es": "Oncológico"
+  },
+  "definition": {
+    "de": "Ein spezifischer Zweig der medizinischen Wissenschaft, der sich mit gut- und bösartigen Tumoren befasst, einschließlich der Untersuchung ihrer Entwicklung, Diagnose, Behandlung und Prävention.",
+    "en": "A specific branch of medical science that deals with benign and malignant tumors, including the study of their development, diagnosis, treatment and prevention.",
+    "fr": "Branche spécifique de la science médicale qui traite des tumeurs bénignes et malignes, y compris l'étude de leur développement, leur diagnostic, leur traitement et leur prévention.",
+    "es": "Rama específica de la ciencia médica que se ocupa de los tumores benignos y malignos, incluyendo el estudio de su desarrollo, diagnóstico, tratamiento y prevención."
   },
   "notation": [
     "1074"
@@ -20,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

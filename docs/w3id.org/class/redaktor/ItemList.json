@@ -4,26 +4,44 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FItemList",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FItemList",
   "prefLabel": {
-    "en": "Item List",
     "de": "Punkte-Liste",
+    "en": "Item List",
     "fr": "Liste d'éléments",
     "es": "Lista de elementos"
   },
   "definition": {
+    "de": "Eine Liste von Elementen jeglicher Art&#x2014;zum Beispiel Top 10 Filme über Wetterfrösche oder Top 100 Partysongs. Nicht zu verwechseln mit HTML-Listen, die oft nur zur Formatierung verwendet werden.",
     "en": "A list of items of any sort&#x2014;for example, Top 10 Movies About Weathermen, or Top 100 Party Songs. Not to be confused with HTML lists, which are often used only for formatting.",
-    "de": "A list of items of any sort&#x2014;for example, Top 10 Movies About Weathermen, or Top 100 Party Songs. Not to be confused with HTML lists, which are often used only for formatting.",
-    "fr": "A list of items of any sort&#x2014;for example, Top 10 Movies About Weathermen, or Top 100 Party Songs. Not to be confused with HTML lists, which are often used only for formatting.",
-    "es": "A list of items of any sort&#x2014;for example, Top 10 Movies About Weathermen, or Top 100 Party Songs. Not to be confused with HTML lists, which are often used only for formatting."
+    "fr": "Une liste d'éléments de toute sorte, par exemple, les 10 meilleurs films sur les météorologues ou les 100 meilleures chansons de fête. À ne pas confondre avec les listes HTML, qui sont souvent utilisées uniquement pour le formatage.",
+    "es": "Una lista de elementos de cualquier tipo&#x2014;por ejemplo, las 10 mejores películas sobre meteorólogos, o las 100 mejores canciones de fiesta. No hay que confundirla con las listas HTML, que suelen utilizarse solo para dar formato."
   },
   "notation": [
     "36"
   ],
   "narrower": [
     {
+      "id": "https://w3id.org/class/redaktor/itemListOrder",
+      "prefLabel": {
+        "de": "Postenliste Auftrag",
+        "en": "item list order",
+        "fr": "ordre de la liste des articles",
+        "es": "orden de la lista de artículos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/OfferCatalog",
+      "prefLabel": {
+        "de": "Angebotskatalog",
+        "en": "Offer Catalog",
+        "fr": "Catalogue des offres",
+        "es": "Catálogo de ofertas"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/HowToSection",
       "prefLabel": {
-        "en": "How To Section",
         "de": "Anleitungsabschnitt",
+        "en": "How To Section",
         "fr": "Section comment faire",
         "es": "Sección de cómo hacerlo"
       }
@@ -31,8 +49,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HowToStep",
       "prefLabel": {
-        "en": "How To Step",
         "de": "Anleitungen Schritt",
+        "en": "How To Step",
         "fr": "Comment faire un pas",
         "es": "Cómo se hace el paso"
       }
@@ -40,26 +58,17 @@
     {
       "id": "https://w3id.org/class/redaktor/itemListElement",
       "prefLabel": {
-        "en": "item list element",
         "de": "Element der Artikelliste",
+        "en": "item list element",
         "fr": "élément de liste d'articles",
         "es": "elemento de la lista de artículos"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/itemListOrder",
-      "prefLabel": {
-        "en": "item list order",
-        "de": "Postenliste Auftrag",
-        "fr": "ordre de la liste des articles",
-        "es": "orden de la lista de artículos"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/numberOfItems",
       "prefLabel": {
-        "en": "number of items",
         "de": "Anzahl der Gegenstände",
+        "en": "number of items",
         "fr": "nombre d'articles",
         "es": "número de artículos"
       }
@@ -73,8 +82,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

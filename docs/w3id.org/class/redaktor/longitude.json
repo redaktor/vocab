@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Flongitude",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Flongitude",
   "prefLabel": {
-    "en": "longitude",
     "de": "Longitude",
+    "en": "longitude",
     "fr": "longitude",
     "es": "longitude"
   },
   "definition": {
-    "en": "The longitude of a place.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-longitude](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-longitude)",
     "de": "Der Längengrad eines Ortes.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-longitude](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-longitude)",
+    "en": "The longitude of a place.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-longitude](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-longitude)",
     "fr": "La longitude d'un lieu.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-longitude](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-longitude)",
     "es": "La longitud de un lugar.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-longitude](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-longitude)"
   },
   "scopeNote": {
-    "en": ": Property",
     "de": ": Property",
+    "en": ": Property",
     "fr": ": Property",
     "es": ": Property"
   },
@@ -25,16 +25,16 @@
     "3194"
   ],
   "example": {
-    "en": "[Example 125](https://www.w3.org/TR/activitystreams-vocabulary/#ex141-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Place\",\n  \"name\": \"Fresno Area\",\n  \"latitude\": 36.75,\n  \"longitude\": 119.7667,\n  \"radius\": 15,\n  \"units\": \"miles\"\n}\n```",
     "de": "[Beispiel 125](https://www.w3.org/TR/activitystreams-vocabulary/#ex141-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Place\",\n  \"name\": \"Fresno Area\",\n  \"latitude\": 36.75,\n  \"longitude\": 119.7667,\n  \"radius\": 15,\n  \"units\": \"miles\"\n}\n```",
+    "en": "[Example 125](https://www.w3.org/TR/activitystreams-vocabulary/#ex141-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Place\",\n  \"name\": \"Fresno Area\",\n  \"latitude\": 36.75,\n  \"longitude\": 119.7667,\n  \"radius\": 15,\n  \"units\": \"miles\"\n}\n```",
     "fr": "[Exemple 125](https://www.w3.org/TR/activitystreams-vocabulary/#ex141-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Place\",\n  \"name\": \"Fresno Area\",\n  \"latitude\": 36.75,\n  \"longitude\": 119.7667,\n  \"radius\": 15,\n  \"units\": \"miles\"\n}\n```",
     "es": "[Ejemplo 125](https://www.w3.org/TR/activitystreams-vocabulary/#ex141-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Place\",\n  \"name\": \"Fresno Area\",\n  \"latitude\": 36.75,\n  \"longitude\": 119.7667,\n  \"radius\": 15,\n  \"units\": \"miles\"\n}\n```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/Place",
     "prefLabel": {
-      "en": "Place",
       "de": "Örtlichkeit",
+      "en": "Place",
       "fr": "Lieu",
       "es": "Lugar"
     }
@@ -47,8 +47,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

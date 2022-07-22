@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Factor",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Factor",
   "prefLabel": {
-    "en": "actor",
     "de": "Akteur",
+    "en": "actor",
     "fr": "acteur",
     "es": "actor"
   },
   "definition": {
-    "en": "Describes one or more entities that either performed or are expected to perform the activity. Any single activity can have multiple actors. The actor MAY be specified using an indirect Link.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-actor](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-actor)",
     "de": "Beschreibt eine oder mehrere Entitäten, die die Aktivität entweder durchgeführt haben oder von denen erwartet wird, dass sie sie durchführen. Jede einzelne Aktivität kann mehrere Akteure haben. Der Akteur KANN über einen indirekten Link angegeben werden.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-actor](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-actor)",
+    "en": "Describes one or more entities that either performed or are expected to perform the activity. Any single activity can have multiple actors. The actor MAY be specified using an indirect Link.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-actor](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-actor)",
     "fr": "Décrit une ou plusieurs entités qui ont réalisé ou sont censées réaliser l'activité. Une même activité peut avoir plusieurs acteurs. L'acteur PEUT être spécifié en utilisant un lien indirect.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-actor](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-actor)",
     "es": "Describe una o más entidades que han realizado o se espera que realicen la actividad. Cualquier actividad puede tener múltiples actores. El actor PUEDE especificarse utilizando un enlace indirecto.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-actor](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-actor)"
   },
   "scopeNote": {
-    "en": ": Property",
     "de": ": Property",
+    "en": ": Property",
     "fr": ": Property",
     "es": ": Property"
   },
@@ -25,16 +25,16 @@
     "250"
   ],
   "example": {
-    "en": "[Example 63](https://www.w3.org/TR/activitystreams-vocabulary/#ex59-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally offered the Foo object\",\n  \"type\": \"Offer\",\n  \"actor\": \"http://sally.example.org\",\n  \"object\": \"http://example.org/foo\"\n}\n```",
     "de": "[Beispiel 63](https://www.w3.org/TR/activitystreams-vocabulary/#ex59-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally offered the Foo object\",\n  \"type\": \"Offer\",\n  \"actor\": \"http://sally.example.org\",\n  \"object\": \"http://example.org/foo\"\n}\n```",
+    "en": "[Example 63](https://www.w3.org/TR/activitystreams-vocabulary/#ex59-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally offered the Foo object\",\n  \"type\": \"Offer\",\n  \"actor\": \"http://sally.example.org\",\n  \"object\": \"http://example.org/foo\"\n}\n```",
     "fr": "[Exemple 63](https://www.w3.org/TR/activitystreams-vocabulary/#ex59-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally offered the Foo object\",\n  \"type\": \"Offer\",\n  \"actor\": \"http://sally.example.org\",\n  \"object\": \"http://example.org/foo\"\n}\n```",
     "es": "[Ejemplo 63](https://www.w3.org/TR/activitystreams-vocabulary/#ex59-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally offered the Foo object\",\n  \"type\": \"Offer\",\n  \"actor\": \"http://sally.example.org\",\n  \"object\": \"http://example.org/foo\"\n}\n```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/Activity",
     "prefLabel": {
-      "en": "Activity",
       "de": "Aktivität",
+      "en": "Activity",
       "fr": "Activité",
       "es": "Actividad"
     }
@@ -50,8 +50,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
@@ -152,8 +152,8 @@
   }
 } "id": "https://w3id.org/class/redaktor/preferredUsername",
       "prefLabel": {
-        "en": "preferred username",
         "de": "bevorzugter Nutzerinnen-Name",
+        "en": "preferred username",
         "fr": "nom d'utilisateur préféré",
         "es": "nombre de usuario preferido"
       }
@@ -162,8 +162,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Object",
     "prefLabel": {
-      "en": "Object",
       "de": "Objekt",
+      "en": "Object",
       "fr": "Objet",
       "es": "Objeto"
     }
@@ -171,8 +171,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

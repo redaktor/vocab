@@ -4,19 +4,39 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FmedicalAudience",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FmedicalAudience",
   "prefLabel": {
-    "en": "medical audience",
     "de": "medizinisches Publikum",
+    "en": "medical audience",
     "fr": "public médical",
     "es": "público médico"
   },
   "definition": {
+    "de": "Medizinisches Publikum für die Seite.",
     "en": "Medical audience for page.",
-    "de": "Medical audience for page.",
-    "fr": "Medical audience for page.",
-    "es": "Medical audience for page."
+    "fr": "Public médical pour la page.",
+    "es": "Público médico de la página."
   },
   "notation": [
     "2078"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/MedicalAudienceType",
+      "prefLabel": {
+        "de": "Medizinischer Publikums-Typ",
+        "en": "Medical Audience Type",
+        "fr": "Type d'audience médicale",
+        "es": "Tipo de público médico"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/MedicalAudience",
+      "prefLabel": {
+        "de": "Medizinisches Publikum",
+        "en": "Medical Audience",
+        "fr": "Public médical",
+        "es": "Público médico"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +46,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

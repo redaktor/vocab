@@ -4,25 +4,25 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fslug",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fslug",
   "prefLabel": {
-    "en": "slug",
     "de": "slug",
+    "en": "slug",
     "fr": "slug",
     "es": "slug"
   },
   "definition": {
-    "en": "Proposed Hashtags for this element.",
     "de": "Vorgeschlagene Hashtags für dieses Element.",
+    "en": "Proposed Hashtags for this element.",
     "fr": "Hashtags proposés pour cet élément.",
     "es": "Hashtags propuestos para este elemento."
   },
   "notation": [
-    "1483"
+    "1499"
   ],
   "broader": {
     "id": "https://w3id.org/class/redaktor/Storyline",
     "prefLabel": {
-      "en": "Storyline",
       "de": "Storyline",
+      "en": "Storyline",
       "fr": "Storyline",
       "es": "Storyline"
     }
@@ -35,8 +35,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

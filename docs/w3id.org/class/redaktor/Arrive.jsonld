@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FArrive",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FArrive",
   "prefLabel": {
-    "en": "Arrive",
     "de": "Ankunft",
+    "en": "Arrive",
     "fr": "Llegue",
     "es": "Arrivée"
   },
   "definition": {
-    "en": "An IntransitiveActivity that indicates that the actor has arrived at the location. The origin can be used to identify the context from which the actor originated. The target typically has no defined meaning.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-arrive](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-arrive)",
     "de": "Eine IntransitiveActivity, die anzeigt, dass der Akteur am Ort angekommen ist. Der Ursprung kann verwendet werden, um den Kontext zu identifizieren, aus dem der Akteur stammt. Das Ziel hat in der Regel keine definierte Bedeutung.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-arrive](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-arrive)",
+    "en": "An IntransitiveActivity that indicates that the actor has arrived at the location. The origin can be used to identify the context from which the actor originated. The target typically has no defined meaning.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-arrive](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-arrive)",
     "fr": "Une IntransitiveActivity qui indique que l'acteur est arrivé à l'endroit. L'origine peut être utilisée pour identifier le contexte d'où provient l'acteur. La cible n'a généralement pas de signification définie.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-arrive](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-arrive)",
     "es": "Una IntransitiveActivity que indica que el actor ha llegado al lugar. El origen puede utilizarse para identificar el contexto del que procede el actor. El objetivo no suele tener un significado definido.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-arrive](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-arrive)"
   },
   "scopeNote": {
-    "en": ": Activity",
     "de": ": Activity",
+    "en": ": Activity",
     "fr": ": Activity",
     "es": ": Activity"
   },
@@ -25,16 +25,16 @@
     "64"
   ],
   "example": {
-    "en": "[Example 14](https://www.w3.org/TR/activitystreams-vocabulary/#ex11-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally arrived at work\",\n  \"type\": \"Arrive\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"location\": {\n    \"type\": \"Place\",\n    \"name\": \"Work\"\n  },\n  \"origin\": {\n    \"type\": \"Place\",\n    \"name\": \"Home\"\n  }\n}\n```",
     "de": "[Beispiel 14](https://www.w3.org/TR/activitystreams-vocabulary/#ex11-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally arrived at work\",\n  \"type\": \"Arrive\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"location\": {\n    \"type\": \"Place\",\n    \"name\": \"Work\"\n  },\n  \"origin\": {\n    \"type\": \"Place\",\n    \"name\": \"Home\"\n  }\n}\n```",
+    "en": "[Example 14](https://www.w3.org/TR/activitystreams-vocabulary/#ex11-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally arrived at work\",\n  \"type\": \"Arrive\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"location\": {\n    \"type\": \"Place\",\n    \"name\": \"Work\"\n  },\n  \"origin\": {\n    \"type\": \"Place\",\n    \"name\": \"Home\"\n  }\n}\n```",
     "fr": "[Exemple 14](https://www.w3.org/TR/activitystreams-vocabulary/#ex11-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally arrived at work\",\n  \"type\": \"Arrive\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"location\": {\n    \"type\": \"Place\",\n    \"name\": \"Work\"\n  },\n  \"origin\": {\n    \"type\": \"Place\",\n    \"name\": \"Home\"\n  }\n}\n```",
     "es": "[Ejemplo 14](https://www.w3.org/TR/activitystreams-vocabulary/#ex11-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally arrived at work\",\n  \"type\": \"Arrive\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"location\": {\n    \"type\": \"Place\",\n    \"name\": \"Work\"\n  },\n  \"origin\": {\n    \"type\": \"Place\",\n    \"name\": \"Home\"\n  }\n}\n```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/IntransitiveActivity",
     "prefLabel": {
-      "en": "Intransitive Activity",
       "de": "Intransitive Aktivität",
+      "en": "Intransitive Activity",
       "fr": "Activité intransitive",
       "es": "Actividad intransitive"
     }
@@ -47,8 +47,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FsoftwareAddOn",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FsoftwareAddOn",
   "prefLabel": {
-    "en": "software add on",
     "de": "software add on",
+    "en": "software add on",
     "fr": "software add on",
     "es": "software add on"
   },
   "definition": {
+    "de": "Zusätzliche Inhalte für eine Softwareanwendung.",
     "en": "Additional content for a software application.",
-    "de": "Additional content for a software application.",
-    "fr": "Additional content for a software application.",
-    "es": "Additional content for a software application."
+    "fr": "Contenu supplémentaire pour une application logicielle.",
+    "es": "Contenido adicional para una aplicación informática."
   },
   "notation": [
     "2220"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FStore",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FStore",
   "prefLabel": {
-    "en": "Store",
     "de": "Geschäft",
+    "en": "Store",
     "fr": "Magasin",
     "es": "Tienda"
   },
@@ -16,8 +16,8 @@
     {
       "id": "https://w3id.org/class/redaktor/AutoPartsStore",
       "prefLabel": {
-        "en": "Auto Parts Store",
         "de": "Autoteile-Geschäft",
+        "en": "Auto Parts Store",
         "fr": "Magasin de pièces automobiles",
         "es": "Tienda de repuestos para automóviles"
       }
@@ -25,8 +25,8 @@
     {
       "id": "https://w3id.org/class/redaktor/BikeStore",
       "prefLabel": {
-        "en": "Bike Store",
         "de": "Fahrradladen",
+        "en": "Bike Store",
         "fr": "Librairie",
         "es": "Tienda de bicicletas"
       }
@@ -34,8 +34,8 @@
     {
       "id": "https://w3id.org/class/redaktor/BookStore",
       "prefLabel": {
-        "en": "Book Store",
         "de": "Buchhandlung",
+        "en": "Book Store",
         "fr": "Librairie",
         "es": "Tienda de libros"
       }
@@ -43,8 +43,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ClothingStore",
       "prefLabel": {
-        "en": "Clothing Store",
         "de": "Bekleidungsgeschäft",
+        "en": "Clothing Store",
         "fr": "Magasin de vêtements",
         "es": "Tienda de ropa"
       }
@@ -52,8 +52,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ComputerStore",
       "prefLabel": {
-        "en": "Computer Store",
         "de": "Computerladen",
+        "en": "Computer Store",
         "fr": "Magasin d'ordinateurs",
         "es": "Tienda de informática"
       }
@@ -61,8 +61,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ConvenienceStore",
       "prefLabel": {
-        "en": "Convenience Store",
         "de": "Convenience Store",
+        "en": "Convenience Store",
         "fr": "Dépanneur",
         "es": "Tienda de conveniencia"
       }
@@ -70,8 +70,8 @@
     {
       "id": "https://w3id.org/class/redaktor/DepartmentStore",
       "prefLabel": {
-        "en": "Department Store",
         "de": "Kaufhaus",
+        "en": "Department Store",
         "fr": "Grand magasin",
         "es": "Grandes almacenes"
       }
@@ -79,8 +79,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ElectronicsStore",
       "prefLabel": {
-        "en": "Electronics Store",
         "de": "Elektronikgeschäft",
+        "en": "Electronics Store",
         "fr": "Magasin d'électronique",
         "es": "Tienda de electrónica"
       }
@@ -88,8 +88,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Florist",
       "prefLabel": {
-        "en": "Florist",
         "de": "Blumenladen",
+        "en": "Florist",
         "fr": "Fleuriste",
         "es": "Floristería"
       }
@@ -97,8 +97,8 @@
     {
       "id": "https://w3id.org/class/redaktor/FurnitureStore",
       "prefLabel": {
-        "en": "Furniture Store",
         "de": "Möbelhaus",
+        "en": "Furniture Store",
         "fr": "Magasin de meubles",
         "es": "Tienda de muebles"
       }
@@ -106,8 +106,8 @@
     {
       "id": "https://w3id.org/class/redaktor/GardenStore",
       "prefLabel": {
-        "en": "Garden Store",
         "de": "Gartenmarkt",
+        "en": "Garden Store",
         "fr": "Magasin de jardinage",
         "es": "Tienda de jardinería"
       }
@@ -115,8 +115,8 @@
     {
       "id": "https://w3id.org/class/redaktor/GroceryStore",
       "prefLabel": {
-        "en": "Grocery Store",
         "de": "Lebensmittelladen",
+        "en": "Grocery Store",
         "fr": "Épicerie",
         "es": "Tienda de comestibles"
       }
@@ -124,8 +124,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HardwareStore",
       "prefLabel": {
-        "en": "Hardware Store",
         "de": "Eisenwarengeschäft",
+        "en": "Hardware Store",
         "fr": "Quincaillerie",
         "es": "Ferretería"
       }
@@ -133,8 +133,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HobbyShop",
       "prefLabel": {
-        "en": "Hobby Shop",
         "de": "Bastelgeschäft",
+        "en": "Hobby Shop",
         "fr": "Hobby Shop",
         "es": "Tienda de Hobby"
       }
@@ -142,8 +142,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HomeGoodsStore",
       "prefLabel": {
-        "en": "Home Goods Store",
         "de": "Haushaltswarengeschäft",
+        "en": "Home Goods Store",
         "fr": "Magasin d'articles ménagers",
         "es": "Tienda de artículos para el hogar"
       }
@@ -151,8 +151,8 @@
     {
       "id": "https://w3id.org/class/redaktor/LiquorStore",
       "prefLabel": {
-        "en": "Liquor Store",
         "de": "Spirituosengeschäft",
+        "en": "Liquor Store",
         "fr": "Magasin de spiritueux",
         "es": "Tienda de artículos para el hogar"
       }
@@ -160,8 +160,8 @@
     {
       "id": "https://w3id.org/class/redaktor/MensClothingStore",
       "prefLabel": {
-        "en": "Mens Clothing Store",
         "de": "Geschäft für Herrenbekleidung",
+        "en": "Mens Clothing Store",
         "fr": "Magasin de vêtements pour hommes",
         "es": "Tienda de ropa para hombres"
       }
@@ -169,8 +169,8 @@
     {
       "id": "https://w3id.org/class/redaktor/MobilePhoneStore",
       "prefLabel": {
-        "en": "Mobile Phone Store",
         "de": "Geschäft für Mobiltelefone",
+        "en": "Mobile Phone Store",
         "fr": "Magasin de téléphones portables",
         "es": "Tienda de telefonía móvil"
       }
@@ -178,8 +178,8 @@
     {
       "id": "https://w3id.org/class/redaktor/MovieRentalStore",
       "prefLabel": {
-        "en": "Movie Rental Store",
         "de": "Filmverleih",
+        "en": "Movie Rental Store",
         "fr": "Magasin de location de films",
         "es": "Tienda de alquiler de películas"
       }
@@ -187,8 +187,8 @@
     {
       "id": "https://w3id.org/class/redaktor/MusicStore",
       "prefLabel": {
-        "en": "Music Store",
         "de": "Musikgeschäft",
+        "en": "Music Store",
         "fr": "Magasin de musique",
         "es": "Tienda de música"
       }
@@ -196,8 +196,8 @@
     {
       "id": "https://w3id.org/class/redaktor/NewsAgentOrKiosk",
       "prefLabel": {
-        "en": "News Agent or Kiosk",
         "de": "Nachrichtenagentur oder Kiosk",
+        "en": "News Agent or Kiosk",
         "fr": "Agent ou kiosque de presse",
         "es": "Tienda de prensa o quiosco"
       }
@@ -205,8 +205,8 @@
     {
       "id": "https://w3id.org/class/redaktor/OfficeEquipmentStore",
       "prefLabel": {
-        "en": "Office Equipment Store",
         "de": "Geschäft für Büroausstattung",
+        "en": "Office Equipment Store",
         "fr": "Magasin de matériel de bureau",
         "es": "Tienda de material de oficina"
       }
@@ -214,8 +214,8 @@
     {
       "id": "https://w3id.org/class/redaktor/OutletStore",
       "prefLabel": {
-        "en": "Outlet Store",
         "de": "Outlet-Geschäft",
+        "en": "Outlet Store",
         "fr": "Magasin de vente au détail",
         "es": "Tienda Outlet"
       }
@@ -223,8 +223,8 @@
     {
       "id": "https://w3id.org/class/redaktor/PawnShop",
       "prefLabel": {
-        "en": "Pawn Shop",
         "de": "Pfandleihhaus",
+        "en": "Pawn Shop",
         "fr": "Boutique de prêt sur gage",
         "es": "Tienda de empeño"
       }
@@ -232,8 +232,8 @@
     {
       "id": "https://w3id.org/class/redaktor/PetStore",
       "prefLabel": {
-        "en": "Pet Store",
         "de": "Zoohandlung",
+        "en": "Pet Store",
         "fr": "Boutique pour animaux",
         "es": "Tienda de mascotas"
       }
@@ -241,8 +241,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ShoeStore",
       "prefLabel": {
-        "en": "Shoe Store",
         "de": "Schuhgeschäft",
+        "en": "Shoe Store",
         "fr": "Magasin de chaussures",
         "es": "Tienda de zapatos"
       }
@@ -250,8 +250,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SportingGoodsStore",
       "prefLabel": {
-        "en": "Sporting Goods Store",
         "de": "Sportartikelgeschäft",
+        "en": "Sporting Goods Store",
         "fr": "Magasin d'articles de sport",
         "es": "Tienda de artículos deportivos"
       }
@@ -259,8 +259,8 @@
     {
       "id": "https://w3id.org/class/redaktor/TireShop",
       "prefLabel": {
-        "en": "Tire Shop",
         "de": "Reifengeschäft",
+        "en": "Tire Shop",
         "fr": "Magasin de pneus",
         "es": "Tienda de neumáticos"
       }
@@ -268,8 +268,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ToyStore",
       "prefLabel": {
-        "en": "Toy Store",
         "de": "Spielzeugladen",
+        "en": "Toy Store",
         "fr": "Magasin de jouets",
         "es": "Tienda de juguetes"
       }
@@ -277,8 +277,8 @@
     {
       "id": "https://w3id.org/class/redaktor/WholesaleStore",
       "prefLabel": {
-        "en": "Wholesale Store",
         "de": "Großhandel",
+        "en": "Wholesale Store",
         "fr": "Magasin de gros",
         "es": "Tienda al por mayor"
       }
@@ -292,8 +292,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

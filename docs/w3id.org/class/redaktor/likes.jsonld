@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Flikes",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Flikes",
   "prefLabel": {
-    "en": "has likes",
     "de": "has likes",
+    "en": "has likes",
     "fr": "has likes",
     "es": "has likes"
   },
   "definition": {
-    "en": "Every object MAY have a likes collection. This is a list of all Like activities with this object as the object property, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). The likes collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br><br>NOTE<br>Care should be taken to not confuse the the likes collection with the similarly named but different liked collection. In sum:<br>- liked: Specifically a property of actors. This is a collection of Like activities performed by the actor, added to the collection as a side effect of delivery to the outbox.<br>-likes: May be a property of any object. This is a collection of Like activities referencing this object, added to the collection as a side effect of delivery to the inbox.<br>see [https://www.w3.org/TR/activitypub/#likes](https://www.w3.org/TR/activitypub/#likes)",
     "de": "Every object MAY have a likes collection. This is a list of all Like activities with this object as the object property, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). The likes collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br><br>NOTE<br>Care should be taken to not confuse the the likes collection with the similarly named but different liked collection. In sum:<br>- liked: Specifically a property of actors. This is a collection of Like activities performed by the actor, added to the collection as a side effect of delivery to the outbox.<br>-likes: May be a property of any object. This is a collection of Like activities referencing this object, added to the collection as a side effect of delivery to the inbox.<br>siehe [https://www.w3.org/TR/activitypub/#likes](https://www.w3.org/TR/activitypub/#likes)",
+    "en": "Every object MAY have a likes collection. This is a list of all Like activities with this object as the object property, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). The likes collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br><br>NOTE<br>Care should be taken to not confuse the the likes collection with the similarly named but different liked collection. In sum:<br>- liked: Specifically a property of actors. This is a collection of Like activities performed by the actor, added to the collection as a side effect of delivery to the outbox.<br>-likes: May be a property of any object. This is a collection of Like activities referencing this object, added to the collection as a side effect of delivery to the inbox.<br>see [https://www.w3.org/TR/activitypub/#likes](https://www.w3.org/TR/activitypub/#likes)",
     "fr": "Every object MAY have a likes collection. This is a list of all Like activities with this object as the object property, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). The likes collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br><br>NOTE<br>Care should be taken to not confuse the the likes collection with the similarly named but different liked collection. In sum:<br>- liked: Specifically a property of actors. This is a collection of Like activities performed by the actor, added to the collection as a side effect of delivery to the outbox.<br>-likes: May be a property of any object. This is a collection of Like activities referencing this object, added to the collection as a side effect of delivery to the inbox.<br>voir [https://www.w3.org/TR/activitypub/#likes](https://www.w3.org/TR/activitypub/#likes)",
     "es": "Every object MAY have a likes collection. This is a list of all Like activities with this object as the object property, added as a [side effect](https://www.w3.org/TR/activitypub/#follow-activity-outbox). The likes collection MUST be either an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection) or a [Collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection) and MAY be filtered on privileges of an authenticated user or as appropriate when no authentication is given.<br><br>NOTE<br>Care should be taken to not confuse the the likes collection with the similarly named but different liked collection. In sum:<br>- liked: Specifically a property of actors. This is a collection of Like activities performed by the actor, added to the collection as a side effect of delivery to the outbox.<br>-likes: May be a property of any object. This is a collection of Like activities referencing this object, added to the collection as a side effect of delivery to the inbox.<br>ver [https://www.w3.org/TR/activitypub/#likes](https://www.w3.org/TR/activitypub/#likes)"
   },
   "scopeNote": {
-    "en": "ActivityPub Property",
     "de": "ActivityPub Property",
+    "en": "ActivityPub Property",
     "fr": "ActivityPub Property",
     "es": "ActivityPub Property"
   },
@@ -27,8 +27,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Actor",
     "prefLabel": {
-      "en": "Actor",
       "de": "Akteur",
+      "en": "Actor",
       "fr": "Acteur",
       "es": "Actor"
     }
@@ -41,8 +41,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

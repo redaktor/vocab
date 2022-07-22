@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FArticle",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FArticle",
   "prefLabel": {
-    "en": "Article",
     "de": "Artikel",
+    "en": "Article",
     "fr": "Article",
     "es": "Artículo"
   },
   "definition": {
-    "en": "Represents any kind of multi-paragraph written work.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-article](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-article)",
     "de": "Artikel Repräsentiert jede Art von schriftlicher Arbeit mit mehreren Absätzen.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-article](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-article)",
+    "en": "Represents any kind of multi-paragraph written work.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-article](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-article)",
     "fr": "Représente tout type de travail écrit de plusieurs paragraphes.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-article](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-article)",
     "es": "Artículo Representa cualquier tipo de obra escrita de varios párrafos.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-article](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-article)"
   },
   "scopeNote": {
-    "en": ": Object",
     "de": ": Object",
+    "en": ": Object",
     "fr": ": Object",
     "es": ": Object"
   },
@@ -25,8 +25,8 @@
     "11"
   ],
   "example": {
-    "en": "[Example 48](https://www.w3.org/TR/activitystreams-vocabulary/#ex43-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Article\",\n  \"name\": \"What a Crazy Day I Had\",\n  \"content\": \"<div>... you will never believe ...</div>\",\n  \"attributedTo\": \"http://sally.example.org\"\n}\n```",
     "de": "[Beispiel 48](https://www.w3.org/TR/activitystreams-vocabulary/#ex43-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Article\",\n  \"name\": \"What a Crazy Day I Had\",\n  \"content\": \"<div>... you will never believe ...</div>\",\n  \"attributedTo\": \"http://sally.example.org\"\n}\n```",
+    "en": "[Example 48](https://www.w3.org/TR/activitystreams-vocabulary/#ex43-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Article\",\n  \"name\": \"What a Crazy Day I Had\",\n  \"content\": \"<div>... you will never believe ...</div>\",\n  \"attributedTo\": \"http://sally.example.org\"\n}\n```",
     "fr": "[Exemple 48](https://www.w3.org/TR/activitystreams-vocabulary/#ex43-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Article\",\n  \"name\": \"What a Crazy Day I Had\",\n  \"content\": \"<div>... you will never believe ...</div>\",\n  \"attributedTo\": \"http://sally.example.org\"\n}\n```",
     "es": "[Ejemplo 48](https://www.w3.org/TR/activitystreams-vocabulary/#ex43-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Article\",\n  \"name\": \"What a Crazy Day I Had\",\n  \"content\": \"<div>... you will never believe ...</div>\",\n  \"attributedTo\": \"http://sally.example.org\"\n}\n```"
   },
@@ -41,8 +41,8 @@
     {
       "id": "https://w3id.org/class/redaktor/PhotoEssay",
       "prefLabel": {
-        "en": "Photo-essay",
         "de": "Foto-Essay",
+        "en": "Photo-essay",
         "fr": "Essai photographique",
         "es": "Foto-ensayo"
       }
@@ -50,8 +50,8 @@
     {
       "id": "https://w3id.org/class/redaktor/PhotoReportage",
       "prefLabel": {
-        "en": "Photoreportage",
         "de": "Fotoreportage",
+        "en": "Photoreportage",
         "fr": "Photoreportage",
         "es": "Fotoreportaje"
       }
@@ -59,8 +59,8 @@
     {
       "id": "https://w3id.org/class/redaktor/CreativeWork",
       "prefLabel": {
-        "en": "Creative Work",
         "de": "Kreativwerk",
+        "en": "Creative Work",
         "fr": "Travail créatif",
         "es": "Trabajo creativo"
       }
@@ -68,17 +68,26 @@
     {
       "id": "https://w3id.org/class/redaktor/inLanguage",
       "prefLabel": {
-        "en": "in language",
         "de": "in Sprache",
+        "en": "in language",
         "fr": "en langue",
         "es": "en el lenguaje"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/availableLanguage",
+      "prefLabel": {
+        "de": "verfügbare Sprache",
+        "en": "available language",
+        "fr": "langues disponibles",
+        "es": "idiomas disponibles"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/Storyline",
       "prefLabel": {
-        "en": "Storyline",
         "de": "Storyline",
+        "en": "Storyline",
         "fr": "Storyline",
         "es": "Storyline"
       }
@@ -86,8 +95,8 @@
     {
       "id": "https://w3id.org/class/redaktor/AdvertisingInvolved",
       "prefLabel": {
-        "en": "Advertiser Supplied or sponsored",
         "de": "Von Werbetreibenden bereitgestellt oder gesponsort",
+        "en": "Advertiser Supplied or sponsored",
         "fr": "Fourni par l'annonceur ou sponsorisé",
         "es": "Suministrado por el anunciante o 'patrocinado'"
       }
@@ -95,8 +104,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Fictional",
       "prefLabel": {
-        "en": "Fictional",
         "de": "Fiktional",
+        "en": "Fictional",
         "fr": "Fictionnel",
         "es": "Ficticia"
       }
@@ -104,8 +113,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Entertainment",
       "prefLabel": {
-        "en": "Entertainment",
         "de": "Unterhaltung",
+        "en": "Entertainment",
         "fr": "Divertissement",
         "es": "Entretenimiento"
       }
@@ -116,8 +125,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Weather",
       "prefLabel": {
-        "en": "Weather",
         "de": "Wetter",
+        "en": "Weather",
         "fr": "Météo",
         "es": "Tiempo"
       }
@@ -125,8 +134,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Advisory",
       "prefLabel": {
-        "en": "Advisory",
         "de": "Beratung",
+        "en": "Advisory",
         "fr": "Conseil",
         "es": "Asesoramiento"
       }
@@ -134,8 +143,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ArchiveMaterial",
       "prefLabel": {
-        "en": "Archival material",
         "de": "Archivmaterial",
+        "en": "Archival material",
         "fr": "Matériel d'archives",
         "es": "Material de archivo"
       }
@@ -143,8 +152,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Background",
       "prefLabel": {
-        "en": "Background",
         "de": "Hintergrund",
+        "en": "Background",
         "fr": "Contexte",
         "es": "Antecedentes"
       }
@@ -152,8 +161,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Daybook",
       "prefLabel": {
-        "en": "Planner",
         "de": "Planer",
+        "en": "Planner",
         "fr": "Planificateur",
         "es": "Planificador"
       }
@@ -161,8 +170,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Forecast",
       "prefLabel": {
-        "en": "Forecast",
         "de": "Vorhersage",
+        "en": "Forecast",
         "fr": "Prévisions",
         "es": "Pronóstico"
       }
@@ -170,8 +179,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Opinion",
       "prefLabel": {
-        "en": "Opinion",
         "de": "Meinung",
+        "en": "Opinion",
         "fr": "Opinion",
         "es": "Opinión"
       }
@@ -179,8 +188,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Preview",
       "prefLabel": {
-        "en": "Preview",
         "de": "Vorschau",
+        "en": "Preview",
         "fr": "Avant-première",
         "es": "Vista previa"
       }
@@ -188,8 +197,8 @@
     {
       "id": "https://w3id.org/class/redaktor/RawSound",
       "prefLabel": {
-        "en": "Raw Sound",
         "de": "Rohton",
+        "en": "Raw Sound",
         "fr": "Son brut",
         "es": "Sonido crudo"
       }
@@ -197,8 +206,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ResponseToAQuestion",
       "prefLabel": {
-        "en": "Response to a Question",
         "de": "Antwort auf eine Frage",
+        "en": "Response to a Question",
         "fr": "Réponse à une question",
         "es": "Respuesta a una pregunta"
       }
@@ -206,8 +215,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SocialMediaPosting",
       "prefLabel": {
-        "en": "Social Media Posting",
         "de": "Beitrag Soziale Netzwerke",
+        "en": "Social Media Posting",
         "fr": "Publication sur les médias sociaux",
         "es": "Publicación en las redes sociales"
       }
@@ -215,8 +224,8 @@
     {
       "id": "https://w3id.org/class/redaktor/BlogPosting",
       "prefLabel": {
-        "en": "Blog Posting",
         "de": "Blog Posting",
+        "en": "Blog Posting",
         "fr": "Publication de blogs",
         "es": "Publicación en el blog"
       }
@@ -224,8 +233,8 @@
     {
       "id": "https://w3id.org/class/redaktor/DiscussionForumPosting",
       "prefLabel": {
-        "en": "Discussion Forum Posting",
         "de": "Diskussions-Forum Posting",
+        "en": "Discussion Forum Posting",
         "fr": "Publication de forum de discussion",
         "es": "Publicación en el foro de debate"
       }
@@ -233,8 +242,8 @@
     {
       "id": "https://w3id.org/class/redaktor/TextOnly",
       "prefLabel": {
-        "en": "Text only",
         "de": "Nur Text",
+        "en": "Text only",
         "fr": "Texte uniquement",
         "es": "Sólo texto"
       }
@@ -242,8 +251,8 @@
     {
       "id": "https://w3id.org/class/redaktor/TranscriptAndVerbatim",
       "prefLabel": {
-        "en": "Transcript or Verbatim",
         "de": "Abschrift oder Verlaufsprotokoll",
+        "en": "Transcript or Verbatim",
         "fr": "Transcription et Verbatim",
         "es": "Transcripción y literal"
       }
@@ -251,17 +260,26 @@
     {
       "id": "https://w3id.org/class/redaktor/Voicer",
       "prefLabel": {
-        "en": "Voicer",
         "de": "Sprecher",
+        "en": "Voicer",
         "fr": "Voicer",
         "es": "Voicer"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/speakable",
+      "prefLabel": {
+        "de": "sprechbar",
+        "en": "speakable",
+        "fr": "parlable",
+        "es": "hablable"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/aggregateRating",
       "prefLabel": {
-        "en": "aggregate rating",
         "de": "Gesamtbewertung",
+        "en": "aggregate rating",
         "fr": "cote globale",
         "es": "calificación agregada"
       }
@@ -269,8 +287,8 @@
     {
       "id": "https://w3id.org/class/redaktor/articleBody",
       "prefLabel": {
-        "en": "article body",
         "de": "Artikelkörper",
+        "en": "article body",
         "fr": "corps de l'article",
         "es": "cuerpo del artículo"
       }
@@ -278,26 +296,17 @@
     {
       "id": "https://w3id.org/class/redaktor/articleSection",
       "prefLabel": {
-        "en": "article section",
         "de": "Artikelabschnitt",
+        "en": "article section",
         "fr": "section de l'article",
         "es": "sección del artículo"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/availableLanguage",
-      "prefLabel": {
-        "en": "available language",
-        "de": "verfügbare Sprache",
-        "fr": "langues disponibles",
-        "es": "idiomas disponibles"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/backstory",
       "prefLabel": {
-        "en": "backstory",
         "de": "Hintergrundgeschichte",
+        "en": "backstory",
         "fr": "backstory",
         "es": "historia de fondo"
       }
@@ -305,8 +314,8 @@
     {
       "id": "https://w3id.org/class/redaktor/pageEnd",
       "prefLabel": {
-        "en": "page end",
         "de": "Seite Ende",
+        "en": "page end",
         "fr": "fin de page",
         "es": "fin de página"
       }
@@ -314,8 +323,8 @@
     {
       "id": "https://w3id.org/class/redaktor/pageStart",
       "prefLabel": {
-        "en": "page start",
         "de": "Seitenanfang",
+        "en": "page start",
         "fr": "début de page",
         "es": "inicio de página"
       }
@@ -323,26 +332,17 @@
     {
       "id": "https://w3id.org/class/redaktor/pagination",
       "prefLabel": {
-        "en": "pagination",
         "de": "Paginierung",
+        "en": "pagination",
         "fr": "pagination",
         "es": "paginación"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/speakable",
-      "prefLabel": {
-        "en": "speakable",
-        "de": "sprechbar",
-        "fr": "parlable",
-        "es": "hablable"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/wordCount",
       "prefLabel": {
-        "en": "word count",
         "de": "Wortanzahl",
+        "en": "word count",
         "fr": "nombre de mots",
         "es": "número de palabras"
       }
@@ -351,8 +351,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Object",
     "prefLabel": {
-      "en": "Object",
       "de": "Objekt",
+      "en": "Object",
       "fr": "Objet",
       "es": "Objeto"
     }
@@ -368,8 +368,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FpartOfTVSeries",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FpartOfTVSeries",
   "prefLabel": {
-    "en": "part of TV series",
     "de": "Teil einer TV-Serie",
+    "en": "part of TV series",
     "fr": "partie d'une série télévisée",
     "es": "parte de serie de TV"
   },
   "definition": {
+    "de": "Die Fernsehserie, zu der diese Episode oder Staffel gehört.",
     "en": "The TV series to which this episode or season belongs.",
-    "de": "The TV series to which this episode or season belongs.",
-    "fr": "The TV series to which this episode or season belongs.",
-    "es": "The TV series to which this episode or season belongs."
+    "fr": "La série télévisée à laquelle appartient cet épisode ou cette saison.",
+    "es": "La serie de televisión a la que pertenece este episodio o temporada."
   },
   "notation": [
     "2138"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

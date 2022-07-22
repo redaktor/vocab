@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fforgefed.peers.community%2FnsisResolved",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fforgefed.peers.community%2FnsisResolved",
   "prefLabel": {
-    "en": "isResolved",
     "de": "isResolved",
+    "en": "isResolved",
     "fr": "isResolved",
     "es": "isResolved"
   },
   "definition": {
-    "en": "Specifies whether the Ticket is closed, i.e. the work on it is done and it doesn’t need to attract attention anymore.<br>see [4](https://forgefed.peers.community/ns#isResolved)",
     "de": "Specifies whether the Ticket is closed, i.e. the work on it is done and it doesn’t need to attract attention anymore.<br>siehe [4](https://forgefed.peers.community/ns#isResolved)",
+    "en": "Specifies whether the Ticket is closed, i.e. the work on it is done and it doesn’t need to attract attention anymore.<br>see [4](https://forgefed.peers.community/ns#isResolved)",
     "fr": "Specifies whether the Ticket is closed, i.e. the work on it is done and it doesn’t need to attract attention anymore.<br>voir [4](https://forgefed.peers.community/ns#isResolved)",
     "es": "Specifies whether the Ticket is closed, i.e. the work on it is done and it doesn’t need to attract attention anymore.<br>ver [4](https://forgefed.peers.community/ns#isResolved)"
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/forgefed",
     "prefLabel": {
-      "en": "ForgeFed",
       "de": "ForgeFed",
+      "en": "ForgeFed",
       "fr": "ForgeFed",
       "es": "ForgeFed"
     }
@@ -30,8 +30,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

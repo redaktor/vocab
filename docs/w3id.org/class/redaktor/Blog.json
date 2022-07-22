@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FBlog",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FBlog",
   "prefLabel": {
-    "en": "Blog",
     "de": "Blog",
+    "en": "Blog",
     "fr": "Blog",
     "es": "Blog"
   },
   "definition": {
-    "en": "A [blog](https://en.wikipedia.org/wiki/Blog), sometimes known as a \"weblog\". Note that the individual posts ([BlogPosting]s) in a [Blog] are often colloqually referred to by the same term.",
     "de": "Ein [Blog](https://en.wikipedia.org/wiki/Blog), manchmal auch als \"Weblog\" bezeichnet. Beachten Sie, dass die einzelnen Beiträge ([BlogPosting]s) in einem [Blog] umgangssprachlich oft mit demselben Begriff bezeichnet werden.",
+    "en": "A [blog](https://en.wikipedia.org/wiki/Blog), sometimes known as a \"weblog\". Note that the individual posts ([BlogPosting]s) in a [Blog] are often colloqually referred to by the same term.",
     "fr": "Un [blog] (https://en.wikipedia.org/wiki/Blog), parfois appelé weblog. Notez que les messages individuels ([BlogPosting]s) d'un [Blog] sont souvent désignés par le même terme.",
     "es": "Un [blog](https://en.wikipedia.org/wiki/Blog), a veces llamado weblog. Tenga en cuenta que las entradas individuales [BlogPostings] de un [Blog] suelen denominarse con el mismo término."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/blogPost",
       "prefLabel": {
-        "en": "blog post",
         "de": "Blog-Beitrag",
+        "en": "blog post",
         "fr": "blog post",
         "es": "entrada del blog"
       }
@@ -31,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/issn",
       "prefLabel": {
-        "en": "ISSN",
         "de": "ISSN",
+        "en": "ISSN",
         "fr": "ISSN",
         "es": "ISSN"
       }
@@ -46,8 +46,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

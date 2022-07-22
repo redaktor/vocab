@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FWebSite",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FWebSite",
   "prefLabel": {
-    "en": "Web Site",
     "de": "Web-Seite",
+    "en": "Web Site",
     "fr": "Page Web",
     "es": "Página web"
   },
   "definition": {
-    "en": "A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs.",
     "de": "Eine WebSite ist eine Reihe von zusammenhängenden Webseiten und anderen Elementen, die in der Regel von einer einzigen Web-Domain aus angeboten werden und über URLs zugänglich sind.",
+    "en": "A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs.",
     "fr": "Un site Web est un ensemble de pages Web et d'autres éléments connexes, généralement servis à partir d'un seul domaine Web et accessibles via des URL.",
     "es": "Un sitio web es un conjunto de páginas web relacionadas y otros elementos que normalmente se sirven desde un único dominio web y son accesibles a través de URL."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/issn",
       "prefLabel": {
-        "en": "ISSN",
         "de": "ISSN",
+        "en": "ISSN",
         "fr": "ISSN",
         "es": "ISSN"
       }
@@ -37,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FEmergencyService",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FEmergencyService",
   "prefLabel": {
-    "en": "Emergency Service",
     "de": "Notfall",
+    "en": "Emergency Service",
     "fr": "Service d'urgence",
     "es": "Servicio de emergencia"
   },
@@ -16,8 +16,8 @@
     {
       "id": "https://w3id.org/class/redaktor/FireStation",
       "prefLabel": {
-        "en": "Fire station",
         "de": "Feuerwehr",
+        "en": "Fire station",
         "fr": "Caserne de pompiers",
         "es": "Parque de bomberos"
       }
@@ -25,8 +25,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Hospital",
       "prefLabel": {
-        "en": "Hospital",
         "de": "Krankenhaus",
+        "en": "Hospital",
         "fr": "Hôpital",
         "es": "Hospital"
       }
@@ -34,8 +34,8 @@
     {
       "id": "https://w3id.org/class/redaktor/PoliceStation",
       "prefLabel": {
-        "en": "Police station",
         "de": "Polizeiwache",
+        "en": "Police station",
         "fr": "Commissariat de police",
         "es": "Estación de policía"
       }
@@ -49,8 +49,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

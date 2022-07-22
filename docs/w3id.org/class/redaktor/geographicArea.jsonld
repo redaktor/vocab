@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FgeographicArea",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FgeographicArea",
   "prefLabel": {
-    "en": "geographic area",
     "de": "geografisches Gebiet",
+    "en": "geographic area",
     "fr": "zone géographique",
     "es": "zona geográfica"
   },
   "definition": {
+    "de": "Das geografische Gebiet, das mit der Zielgruppe verbunden ist.",
     "en": "The geographic area associated with the audience.",
-    "de": "The geographic area associated with the audience.",
-    "fr": "The geographic area associated with the audience.",
-    "es": "The geographic area associated with the audience."
+    "fr": "La zone géographique associée à l'audience.",
+    "es": "El área geográfica asociada a la audiencia."
   },
   "notation": [
     "1975"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fcitation",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fcitation",
   "prefLabel": {
-    "en": "citation",
     "de": "Zitat",
+    "en": "citation",
     "fr": "citation",
     "es": "citación"
   },
   "definition": {
-    "en": "A citation or reference to another creative work, such as another publication, web page, scholarly article, etc.",
     "de": "Verweis von einem Dokument auf ein anderes. Z. B. eine andere Publikation, Webseite, wissenschaftliche Referenz, etc.",
-    "fr": "Citation d'un document dans un autre document. A citation or reference to another creative work, such as another publication, web page, scholarly article, etc.",
-    "es": "Cita de una obra creativa en otro documento. A citation or reference to another creative work, such as another publication, web page, scholarly article, etc."
+    "en": "Verweis von einem Dokument auf ein anderes. Z. B. eine andere Publikation, Webseite, wissenschaftliche Referenz, etc.",
+    "fr": "Verweis von einem Dokument auf ein anderes. Z. B. eine andere Publikation, Webseite, wissenschaftliche Referenz, etc.",
+    "es": "Verweis von einem Dokument auf einem anderen. Por ejemplo, otra publicación, página web, referencia científica, etc."
   },
   "notation": [
     "1845"
@@ -29,8 +29,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

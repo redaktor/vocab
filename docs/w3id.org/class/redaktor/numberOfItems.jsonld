@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FnumberOfItems",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FnumberOfItems",
   "prefLabel": {
-    "en": "number of items",
     "de": "Anzahl der Gegenstände",
+    "en": "number of items",
     "fr": "nombre d'articles",
     "es": "número de artículos"
   },
   "definition": {
+    "de": "Die Anzahl der Elemente in einer ItemList. Beachten Sie, dass manche Beschreibungen nicht alle Elemente in einer Liste vollständig beschreiben (z. B. mehrseitige Paginierung); in solchen Fällen würde die Anzahl der Elemente für die gesamte Liste gelten.",
     "en": "The number of items in an ItemList. Note that some descriptions might not fully describe all items in a list (e.g., multi-page pagination); in such cases, the numberOfItems would be for the entire list.",
-    "de": "The number of items in an ItemList. Note that some descriptions might not fully describe all items in a list (e.g., multi-page pagination); in such cases, the numberOfItems would be for the entire list.",
-    "fr": "The number of items in an ItemList. Note that some descriptions might not fully describe all items in a list (e.g., multi-page pagination); in such cases, the numberOfItems would be for the entire list.",
-    "es": "The number of items in an ItemList. Note that some descriptions might not fully describe all items in a list (e.g., multi-page pagination); in such cases, the numberOfItems would be for the entire list."
+    "fr": "Le nombre d'éléments dans une ItemList. Notez que certaines descriptions peuvent ne pas décrire complètement tous les éléments d'une liste (par exemple, une pagination de plusieurs pages) ; dans de tels cas, le nombre d'éléments est celui de la liste entière.",
+    "es": "El número de elementos de un ItemList. Tenga en cuenta que algunas descripciones podrían no describir completamente todos los elementos de una lista (por ejemplo, paginación de varias páginas); en tales casos, el numberOfItems sería para toda la lista."
   },
   "notation": [
     "2110"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

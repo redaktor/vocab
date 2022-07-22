@@ -1,0 +1,129 @@
+{
+  "id": "https://w3id.org/class/redaktor/WebContent",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FWebContent",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FWebContent",
+  "prefLabel": {
+    "de": "Web-Inhalt",
+    "en": "Web Content",
+    "fr": "Contenu Web",
+    "es": "Contenido de la web"
+  },
+  "definition": {
+    "de": "WebContent ist ein Typ, der alle Inhalte von [[WebPage]], [[WebSite]] und [[WebPageElement]] darstellt. Manchmal ist eine genaue Unterscheidung zwischen Webseiten, Sites und deren Teilen nicht immer wichtig oder offensichtlich. Der Typ [[WebContent]] erleichtert die Beschreibung von im Web adressierbaren Inhalten, ohne dass solche Unterscheidungen immer angegeben werden müssen. (Die Absicht ist, dass die bestehenden Typen [[WebPage]], [[WebSite]] und [[WebPageElement]] schließlich als Subtypen von [[WebContent]] deklariert werden).",
+    "en": "WebContent is a type representing all [[WebPage]], [[WebSite]] and [[WebPageElement]] content. It is sometimes the case that detailed distinctions between Web pages, sites and their parts is not always important or obvious. The  [[WebContent]] type makes it easier to describe Web-addressable content without requiring such distinctions to always be stated. (The intent is that the existing types [[WebPage]], [[WebSite]] and [[WebPageElement]] will eventually be declared as subtypes of [[WebContent]]).",
+    "fr": "WebContent est un type représentant tout le contenu des [[WebPage]], [[WebSite]] et [[WebPageElement]]. Il arrive que les distinctions détaillées entre les pages Web, les sites et leurs parties ne soient pas toujours importantes ou évidentes. Le type [[WebContent]] facilite la description du contenu adressable par le Web sans exiger que ces distinctions soient toujours indiquées. (L'intention est que les types existants [[WebPage]], [[WebSite]] et [[WebPageElement]] soient éventuellement déclarés comme des sous-types de [[WebContent]]).",
+    "es": "WebContent es un tipo que representa todo el contenido de [[WebPage]], [[WebSite]] y [[WebPageElement]]. A veces, las distinciones detalladas entre las páginas web, los sitios y sus partes no son siempre importantes u obvias. El tipo [[WebContent]] facilita la descripción del contenido direccionable en la Web sin que sea necesario indicar siempre tales distinciones. (La intención es que los tipos existentes [[WebPage]], [[WebSite]] y [[WebPageElement]] sean declarados eventualmente como subtipos de [[WebContent]])."
+  },
+  "notation": [
+    "1387"
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:WebContent"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

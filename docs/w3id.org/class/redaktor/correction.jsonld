@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fcorrection",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fcorrection",
   "prefLabel": {
-    "en": "correction",
     "de": "Berichtigung",
+    "en": "correction",
     "fr": "correction",
     "es": "corrección"
   },
   "definition": {
+    "de": "Zeigt eine Korrektur zu einem [[CreativeWork]] an, entweder über einen [[CorrectionComment]], textlich oder in einem anderen Dokument.",
     "en": "Indicates a correction to a [[CreativeWork]], either via a [[CorrectionComment]], textually or in another document.",
-    "de": "Indicates a correction to a [[CreativeWork]], either via a [[CorrectionComment]], textually or in another document.",
-    "fr": "Indicates a correction to a [[CreativeWork]], either via a [[CorrectionComment]], textually or in another document.",
-    "es": "Indicates a correction to a [[CreativeWork]], either via a [[CorrectionComment]], textually or in another document."
+    "fr": "Indique une correction à un [[Travail de création]], soit via un [[CorrectionComment]], soit textuellement, soit dans un autre document.",
+    "es": "Indica una corrección a un [[CreativeWork]], ya sea mediante un [[CorrectionComment]], textualmente o en otro documento."
   },
   "notation": [
     "1873"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/CorrectionComment",
+      "prefLabel": {
+        "de": "Berichtigung Kommentar",
+        "en": "Correction Comment",
+        "fr": "Commentaire de correction",
+        "es": "Corrección Comentario"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

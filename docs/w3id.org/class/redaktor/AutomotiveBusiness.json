@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAutomotiveBusiness",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAutomotiveBusiness",
   "prefLabel": {
-    "en": "Automotive Business",
     "de": "Automobilgeschäft",
+    "en": "Automotive Business",
     "fr": "Commerce automobile",
     "es": "Negocio del automóvil"
   },
@@ -16,8 +16,8 @@
     {
       "id": "https://w3id.org/class/redaktor/AutoBodyShop",
       "prefLabel": {
-        "en": "Auto Body Shop",
         "de": "Autowerkstatt",
+        "en": "Auto Body Shop",
         "fr": "Carrosserie automobile",
         "es": "Taller de carrocería"
       }
@@ -25,8 +25,8 @@
     {
       "id": "https://w3id.org/class/redaktor/AutoDealer",
       "prefLabel": {
-        "en": "Auto Dealer",
         "de": "Autohändler",
+        "en": "Auto Dealer",
         "fr": "Concessionnaire automobile",
         "es": "Concesionario de automóviles"
       }
@@ -34,8 +34,8 @@
     {
       "id": "https://w3id.org/class/redaktor/AutoRental",
       "prefLabel": {
-        "en": "Auto Rental",
         "de": "Autovermietung",
+        "en": "Auto Rental",
         "fr": "Location de voitures",
         "es": "Alquiler de coches"
       }
@@ -43,8 +43,8 @@
     {
       "id": "https://w3id.org/class/redaktor/AutoRepair",
       "prefLabel": {
-        "en": "Auto Repair",
         "de": "Autoreparatur",
+        "en": "Auto Repair",
         "fr": "Réparation automobile",
         "es": "Reparación de automóviles"
       }
@@ -52,8 +52,8 @@
     {
       "id": "https://w3id.org/class/redaktor/AutoWash",
       "prefLabel": {
-        "en": "Auto Wash",
         "de": "Autowäsche",
+        "en": "Auto Wash",
         "fr": "Lave-auto",
         "es": "Lavado de autos"
       }
@@ -61,8 +61,8 @@
     {
       "id": "https://w3id.org/class/redaktor/CarSharing",
       "prefLabel": {
-        "en": "Car Sharing",
         "de": "Carsharing",
+        "en": "Car Sharing",
         "fr": "Partage de voiture",
         "es": "Compartir coche"
       }
@@ -70,8 +70,8 @@
     {
       "id": "https://w3id.org/class/redaktor/GasStation",
       "prefLabel": {
-        "en": "Gas Station",
         "de": "Tankstelle",
+        "en": "Gas Station",
         "fr": "Station service",
         "es": "Gasolinera"
       }
@@ -79,8 +79,8 @@
     {
       "id": "https://w3id.org/class/redaktor/MotorcycleDealer",
       "prefLabel": {
-        "en": "Motorcycle Dealer",
         "de": "Motorrad-Händler",
+        "en": "Motorcycle Dealer",
         "fr": "Concessionnaire de motos",
         "es": "Concesionario de motos"
       }
@@ -88,8 +88,8 @@
     {
       "id": "https://w3id.org/class/redaktor/MotorcycleRepair",
       "prefLabel": {
-        "en": "Motorcycle Repair",
         "de": "Motorrad-Reparatur",
+        "en": "Motorcycle Repair",
         "fr": "Réparation de motos",
         "es": "Reparación de motocicletas"
       }
@@ -103,8 +103,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

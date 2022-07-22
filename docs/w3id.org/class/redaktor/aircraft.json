@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Faircraft",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Faircraft",
   "prefLabel": {
-    "en": "aircraft",
     "de": "Flugzeug",
+    "en": "aircraft",
     "fr": "avion",
     "es": "avión"
   },
   "definition": {
+    "de": "Die Art des Flugzeugs (z. B. \"Boeing 747\").",
     "en": "The kind of aircraft (e.g., “Boeing 747”).",
-    "de": "The kind of aircraft (e.g., “Boeing 747”).",
-    "fr": "The kind of aircraft (e.g., “Boeing 747”).",
-    "es": "The kind of aircraft (e.g., “Boeing 747”)."
+    "fr": "Le type d'avion (par exemple, \"Boeing 747\").",
+    "es": "El tipo de avión (por ejemplo, \"Boeing 747\")."
   },
   "notation": [
     "1764"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/Vehicle",
+      "prefLabel": {
+        "de": "Fahrzeug",
+        "en": "Vehicle",
+        "fr": "Véhicule",
+        "es": "Vehículo"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

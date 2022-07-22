@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fproducer",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fproducer",
   "prefLabel": {
-    "en": "producer",
     "de": "Produzent",
+    "en": "producer",
     "fr": "producteur",
     "es": "productor"
   },
   "definition": {
-    "en": "The person or organization who produced the work (e.g. music album, movie, tv/radio series etc.).",
-    "de": "Produzent(en) eines filmischen oder musikalischen Werks. The person or organization who produced the work (e.g. music album, movie, tv/radio series etc.).",
-    "fr": "Producteur de l'œuvre (film, série, album, single...). The person or organization who produced the work (e.g. music album, movie, tv/radio series etc.).",
-    "es": "Productor de esta obra creativa. The person or organization who produced the work (e.g. music album, movie, tv/radio series etc.)."
+    "de": "Produzent(en) eines filmischen oder musikalischen Werks. Die Person oder Organisation, die das Werk produziert hat (z. B. Musikalbum, Film, Fernseh-/Radioserie usw.).",
+    "en": "Produzent(en) eines filmischen oder musikalischen Werks. The person or organization who produced the work (e.g. music album, movie, tv/radio series etc.).",
+    "fr": "Produzent(en) eines filmischen oder musikalischen Werks. La personne ou l'organisation qui a produit l'œuvre (par exemple, un album de musique, un film, une série télévisée ou radiophonique, etc.)",
+    "es": "Produzent(en) eines filmischen oder musikalischen Werks. La persona u organización que ha producido la obra (por ejemplo, un álbum musical, una película, una serie de televisión o radio, etc.)."
   },
   "notation": [
     "2160"
@@ -32,8 +32,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

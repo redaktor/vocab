@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FnumberOfPages",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FnumberOfPages",
   "prefLabel": {
-    "en": "number of pages",
     "de": "Anzahl der Seiten",
+    "en": "number of pages",
     "fr": "nombre de pages",
     "es": "número de páginas"
   },
   "definition": {
+    "de": "Die Anzahl der Seiten des Buches.",
     "en": "The number of pages in the book.",
-    "de": "The number of pages in the book.",
-    "fr": "The number of pages in the book.",
-    "es": "The number of pages in the book."
+    "fr": "Le nombre de pages du livre.",
+    "es": "El número de páginas del libro."
   },
   "notation": [
     "2111"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

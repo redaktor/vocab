@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FFinancialService",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FFinancialService",
   "prefLabel": {
-    "en": "Financial Service",
     "de": "Finanzdienstleistung",
+    "en": "Financial Service",
     "fr": "Service financier",
     "es": "Servicio financiero"
   },
@@ -16,8 +16,8 @@
     {
       "id": "https://w3id.org/class/redaktor/AutomatedTeller",
       "prefLabel": {
-        "en": "Automated Teller",
         "de": "Geldautomat",
+        "en": "Automated Teller",
         "fr": "Distributeur automatique de billets",
         "es": "Cajero automático"
       }
@@ -25,8 +25,8 @@
     {
       "id": "https://w3id.org/class/redaktor/BankOrCreditUnion",
       "prefLabel": {
-        "en": "Bank or Credit Union",
         "de": "Bank oder Kreditgenossenschaft",
+        "en": "Bank or Credit Union",
         "fr": "Banque ou coopérative de crédit",
         "es": "Banco o cooperativa de crédito"
       }
@@ -34,8 +34,8 @@
     {
       "id": "https://w3id.org/class/redaktor/CurrencyConversionService",
       "prefLabel": {
-        "en": "Currency exchange",
         "de": "Wechselstube",
+        "en": "Currency exchange",
         "fr": "Bureaux de change",
         "es": "Casa de cambio"
       }
@@ -43,8 +43,8 @@
     {
       "id": "https://w3id.org/class/redaktor/InsuranceAgency",
       "prefLabel": {
-        "en": "Insurance Agency",
         "de": "Versicherungsagentur",
+        "en": "Insurance Agency",
         "fr": "Agence d'assurance",
         "es": "Agencia de seguros"
       }
@@ -52,8 +52,8 @@
     {
       "id": "https://w3id.org/class/redaktor/feesAndCommissionsSpecification",
       "prefLabel": {
-        "en": "fees and commissions specification",
         "de": "Angaben zu Gebühren und Provisionen",
+        "en": "fees and commissions specification",
         "fr": "spécification des frais et commissions",
         "es": "especificación de tasas y comisiones"
       }
@@ -67,8 +67,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

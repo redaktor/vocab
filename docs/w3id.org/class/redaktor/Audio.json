@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Faudio",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Faudio",
   "prefLabel": {
-    "en": "audio",
     "de": "Audio",
+    "en": "audio",
     "fr": "audio",
     "es": "audio"
   },
   "definition": {
+    "de": "Ein eingebettetes Audio-Objekt.",
     "en": "An embedded audio object.",
-    "de": "An embedded audio object.",
-    "fr": "An embedded audio object.",
-    "es": "An embedded audio object."
+    "fr": "Un objet audio incorporé.",
+    "es": "Un objeto de audio incrustado."
   },
   "notation": [
     "1800"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
@@ -126,8 +126,7 @@
       "@container": "@set"
     }
   }
-}
-        "de": "Kreativwerk",
+} "Creative Work",
         "fr": "Travail créatif",
         "es": "Trabajo creativo"
       }
@@ -135,17 +134,26 @@
     {
       "id": "https://w3id.org/class/redaktor/inLanguage",
       "prefLabel": {
-        "en": "in language",
         "de": "in Sprache",
+        "en": "in language",
         "fr": "en langue",
         "es": "en el lenguaje"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/availableLanguage",
+      "prefLabel": {
+        "de": "verfügbare Sprache",
+        "en": "available language",
+        "fr": "langues disponibles",
+        "es": "idiomas disponibles"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/AdvertisingInvolved",
       "prefLabel": {
-        "en": "Advertiser Supplied or sponsored",
         "de": "Von Werbetreibenden bereitgestellt oder gesponsort",
+        "en": "Advertiser Supplied or sponsored",
         "fr": "Fourni par l'annonceur ou sponsorisé",
         "es": "Suministrado por el anunciante o 'patrocinado'"
       }
@@ -153,8 +161,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Fictional",
       "prefLabel": {
-        "en": "Fictional",
         "de": "Fiktional",
+        "en": "Fictional",
         "fr": "Fictionnel",
         "es": "Ficticia"
       }
@@ -162,8 +170,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Entertainment",
       "prefLabel": {
-        "en": "Entertainment",
         "de": "Unterhaltung",
+        "en": "Entertainment",
         "fr": "Divertissement",
         "es": "Entretenimiento"
       }
@@ -174,8 +182,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Weather",
       "prefLabel": {
-        "en": "Weather",
         "de": "Wetter",
+        "en": "Weather",
         "fr": "Météo",
         "es": "Tiempo"
       }
@@ -183,8 +191,8 @@
     {
       "id": "https://w3id.org/class/redaktor/MusicOnly",
       "prefLabel": {
-        "en": "Music",
         "de": "Musik",
+        "en": "Music",
         "fr": "Musique",
         "es": "Música"
       }
@@ -192,8 +200,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SocialMediaPosting",
       "prefLabel": {
-        "en": "Social Media Posting",
         "de": "Beitrag Soziale Netzwerke",
+        "en": "Social Media Posting",
         "fr": "Publication sur les médias sociaux",
         "es": "Publicación en las redes sociales"
       }
@@ -201,27 +209,18 @@
     {
       "id": "https://w3id.org/class/redaktor/aggregateRating",
       "prefLabel": {
-        "en": "aggregate rating",
         "de": "Gesamtbewertung",
+        "en": "aggregate rating",
         "fr": "cote globale",
         "es": "calificación agregada"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/availableLanguage",
-      "prefLabel": {
-        "en": "available language",
-        "de": "verfügbare Sprache",
-        "fr": "langues disponibles",
-        "es": "idiomas disponibles"
       }
     }
   ],
   "broader": {
     "id": "https://w3id.org/class/redaktor/Object",
     "prefLabel": {
-      "en": "Object",
       "de": "Objekt",
+      "en": "Object",
       "fr": "Objet",
       "es": "Objeto"
     }
@@ -234,8 +233,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

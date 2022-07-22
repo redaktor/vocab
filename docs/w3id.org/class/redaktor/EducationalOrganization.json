@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FEducationalOrganization",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FEducationalOrganization",
   "prefLabel": {
-    "en": "Educational Organization",
     "de": "Bildungs-Organisation",
+    "en": "Educational Organization",
     "fr": "Organisme de formation",
     "es": "Organización educativa"
   },
@@ -16,8 +16,8 @@
     {
       "id": "https://w3id.org/class/redaktor/CollegeOrUniversity",
       "prefLabel": {
-        "en": "College or University",
         "de": "Hochschule oder Universität",
+        "en": "College or University",
         "fr": "Collège ou université",
         "es": "Colegio o Universidad"
       }
@@ -25,8 +25,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ElementarySchool",
       "prefLabel": {
-        "en": "Elementary School",
         "de": "Elementarschule",
+        "en": "Elementary School",
         "fr": "École élémentaire",
         "es": "Escuela primaria"
       }
@@ -34,8 +34,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HighSchool",
       "prefLabel": {
-        "en": "High School",
         "de": "Oberschule",
+        "en": "High School",
         "fr": "École secondaire",
         "es": "Escuela Secundaria"
       }
@@ -43,8 +43,8 @@
     {
       "id": "https://w3id.org/class/redaktor/MiddleSchool",
       "prefLabel": {
-        "en": "Middle School",
         "de": "Mittelschule",
+        "en": "Middle School",
         "fr": "École intermédiaire",
         "es": "Escuela Secundaria"
       }
@@ -52,8 +52,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Preschool",
       "prefLabel": {
-        "en": "Preschool",
         "de": "Vorschule",
+        "en": "Preschool",
         "fr": "École maternelle",
         "es": "Preescolar"
       }
@@ -61,8 +61,8 @@
     {
       "id": "https://w3id.org/class/redaktor/School",
       "prefLabel": {
-        "en": "School",
         "de": "Schule",
+        "en": "School",
         "fr": "École",
         "es": "Escuela"
       }
@@ -70,8 +70,8 @@
     {
       "id": "https://w3id.org/class/redaktor/DrivingSchool",
       "prefLabel": {
-        "en": "Driving School",
         "de": "Fahrschule",
+        "en": "Driving School",
         "fr": "École d'attelage",
         "es": "Escuela de Conducción"
       }
@@ -79,8 +79,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ArtSchool",
       "prefLabel": {
-        "en": "Art School",
         "de": "Kunstschule",
+        "en": "Art School",
         "fr": "École d'art",
         "es": "Escuela de Arte"
       }
@@ -88,8 +88,8 @@
     {
       "id": "https://w3id.org/class/redaktor/LanguageSchool",
       "prefLabel": {
-        "en": "Language School",
         "de": "Sprachschule",
+        "en": "Language School",
         "fr": "École de langues",
         "es": "Escuela de idiomas"
       }
@@ -97,8 +97,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SignLanguageSchool",
       "prefLabel": {
-        "en": "Sign Language School",
         "de": "Schule für Gebärdensprache",
+        "en": "Sign Language School",
         "fr": "École de langue des signes",
         "es": "Escuela de Lengua de Signos"
       }
@@ -106,8 +106,8 @@
     {
       "id": "https://w3id.org/class/redaktor/VisuallyImpairedSchool",
       "prefLabel": {
-        "en": "Visually Impaired School",
         "de": "Schule für Sehbehinderte",
+        "en": "Visually Impaired School",
         "fr": "École pour malvoyants",
         "es": "Escuela de Discapacitados Visuales"
       }
@@ -115,8 +115,8 @@
     {
       "id": "https://w3id.org/class/redaktor/alumni",
       "prefLabel": {
-        "en": "alumni",
         "de": "Alumni",
+        "en": "alumni",
         "fr": "alumni",
         "es": "antiguos alumnos"
       }
@@ -130,8 +130,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTransfer",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTransfer",
   "prefLabel": {
-    "en": "Transfer",
     "de": "Übertragung",
+    "en": "Transfer",
     "fr": "Transfert",
     "es": "Transferencia"
   },
   "definition": {
-    "en": "The act of transferring/moving (abstract or concrete) animate or inanimate objects from one place to another.",
     "de": "Der Akt des Übertragens/Verschiebens (abstrakt oder konkret) von belebten oder unbelebten Objekten von einem Ort zum anderen.",
+    "en": "The act of transferring/moving (abstract or concrete) animate or inanimate objects from one place to another.",
     "fr": "L'action de transférer/déplacer (abstrait ou concret) des objets animés ou inanimés d'un endroit à un autre.",
     "es": "Acto de transferir/mover (abstracto o concreto) objetos animados o inanimados de un lugar a otro."
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Activity",
     "prefLabel": {
-      "en": "Activity",
       "de": "Aktivität",
+      "en": "Activity",
       "fr": "Activité",
       "es": "Actividad"
     }
@@ -35,8 +35,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

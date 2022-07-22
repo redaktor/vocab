@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FFlight",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FFlight",
   "prefLabel": {
-    "en": "Flight",
     "de": "Flug",
+    "en": "Flight",
     "fr": "Vol",
     "es": "Vuelo"
   },
   "definition": {
-    "en": "An airline flight.",
     "de": "Ein Flug, z.B. mit einer Fluggesellschaft.",
+    "en": "An airline flight.",
     "fr": "Un vol de ligne aérienne.",
     "es": "Un vuelo de aerolínea."
   },
@@ -20,19 +20,28 @@
   ],
   "narrower": [
     {
-      "id": "https://w3id.org/class/redaktor/seller",
+      "id": "https://w3id.org/class/redaktor/boardingPolicy",
       "prefLabel": {
-        "en": "seller",
-        "de": "Verkäufer",
-        "fr": "vendeur",
-        "es": "vendedor"
+        "de": "Internatspolitik",
+        "en": "boarding policy",
+        "fr": "politique d'embarquement",
+        "es": "política de embarque"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/flightDistance",
+      "prefLabel": {
+        "de": "Flugstrecke",
+        "en": "flight distance",
+        "fr": "distance de vol",
+        "es": "distancia de vuelo"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/aircraft",
       "prefLabel": {
-        "en": "aircraft",
         "de": "Flugzeug",
+        "en": "aircraft",
         "fr": "avion",
         "es": "avión"
       }
@@ -40,8 +49,8 @@
     {
       "id": "https://w3id.org/class/redaktor/arrivalAirport",
       "prefLabel": {
-        "en": "arrival airport",
         "de": "Ankunft Flughafen",
+        "en": "arrival airport",
         "fr": "arrivée aéroport",
         "es": "aeropuerto de llegada"
       }
@@ -49,8 +58,8 @@
     {
       "id": "https://w3id.org/class/redaktor/arrivalGate",
       "prefLabel": {
-        "en": "arrival gate",
         "de": "Ankunft Tor",
+        "en": "arrival gate",
         "fr": "porte d'arrivée",
         "es": "puerta de llegada"
       }
@@ -58,26 +67,17 @@
     {
       "id": "https://w3id.org/class/redaktor/arrivalTerminal",
       "prefLabel": {
-        "en": "arrival terminal",
         "de": "Ankunft Terminal",
+        "en": "arrival terminal",
         "fr": "terminal d'arrivée",
         "es": "terminal de llegada"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/boardingPolicy",
-      "prefLabel": {
-        "en": "boarding policy",
-        "de": "Internatspolitik",
-        "fr": "politique d'embarquement",
-        "es": "política de embarque"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/carrier",
       "prefLabel": {
-        "en": "carrier",
         "de": "Betreiber",
+        "en": "carrier",
         "fr": "transporteur",
         "es": "transportista"
       }
@@ -85,8 +85,8 @@
     {
       "id": "https://w3id.org/class/redaktor/departureAirport",
       "prefLabel": {
-        "en": "departure airport",
         "de": "Abfahrt Flughafen",
+        "en": "departure airport",
         "fr": "départ aéroport",
         "es": "aeropuerto de salida"
       }
@@ -94,8 +94,8 @@
     {
       "id": "https://w3id.org/class/redaktor/departureGate",
       "prefLabel": {
-        "en": "departure gate",
         "de": "Abflugtor",
+        "en": "departure gate",
         "fr": "portail de départ",
         "es": "puerta de salida"
       }
@@ -103,8 +103,8 @@
     {
       "id": "https://w3id.org/class/redaktor/departureTerminal",
       "prefLabel": {
-        "en": "departure terminal",
         "de": "Abfahrtsterminal",
+        "en": "departure terminal",
         "fr": "terminal de départ",
         "es": "terminal de salida"
       }
@@ -112,26 +112,17 @@
     {
       "id": "https://w3id.org/class/redaktor/estimatedFlightDuration",
       "prefLabel": {
-        "en": "estimated flight duration",
         "de": "geschätzte Flugdauer",
+        "en": "estimated flight duration",
         "fr": "durée estimée du vol",
         "es": "duración estimada del vuelo"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/flightDistance",
-      "prefLabel": {
-        "en": "flight distance",
-        "de": "Flugstrecke",
-        "fr": "distance de vol",
-        "es": "distancia de vuelo"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/flightNumber",
       "prefLabel": {
-        "en": "flight number",
         "de": "Flugnummer",
+        "en": "flight number",
         "fr": "numéro de vol",
         "es": "número de vuelo"
       }
@@ -139,17 +130,26 @@
     {
       "id": "https://w3id.org/class/redaktor/mealService",
       "prefLabel": {
-        "en": "meal service",
         "de": "Mahlzeitendienst",
+        "en": "meal service",
         "fr": "service de restauration",
         "es": "servicio de comidas"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/seller",
+      "prefLabel": {
+        "de": "Verkäufer",
+        "en": "seller",
+        "fr": "vendeur",
+        "es": "vendedor"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/webCheckinTime",
       "prefLabel": {
-        "en": "web checkin time",
         "de": "Web-Checkin-Zeit",
+        "en": "web checkin time",
         "fr": "heure d'enregistrement sur le web",
         "es": "hora de entrada en la web"
       }
@@ -163,8 +163,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

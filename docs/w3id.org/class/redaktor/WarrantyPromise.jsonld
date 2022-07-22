@@ -1,0 +1,149 @@
+{
+  "id": "https://w3id.org/class/redaktor/WarrantyPromise",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FWarrantyPromise",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FWarrantyPromise",
+  "prefLabel": {
+    "de": "Garantieversprechen",
+    "en": "Warranty Promise",
+    "fr": "Promesse de garantie",
+    "es": "Compromiso de garantía"
+  },
+  "definition": {
+    "de": "Ein strukturierter Wert, der die Dauer und den Umfang der Dienstleistungen darstellt, die einem Kunden im Falle eines Defekts oder einer Fehlfunktion eines Produkts kostenlos zur Verfügung gestellt werden.",
+    "en": "A structured value representing the duration and scope of services that will be provided to a customer free of charge in case of a defect or malfunction of a product.",
+    "fr": "Une valeur structurée représentant la durée et l'étendue des services qui seront fournis gratuitement à un client en cas de défaut ou de dysfonctionnement d'un produit.",
+    "es": "Valor estructurado que representa la duración y el alcance de los servicios que se prestarán a un cliente de forma gratuita en caso de defecto o mal funcionamiento de un producto."
+  },
+  "notation": [
+    "1406"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/warrantyScope",
+      "prefLabel": {
+        "de": "Garantieumfang",
+        "en": "warranty scope",
+        "fr": "portée de la garantie",
+        "es": "alcance de la garantía"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/durationOfWarranty",
+      "prefLabel": {
+        "de": "Dauer der Garantie",
+        "en": "duration of warranty",
+        "fr": "durée de la garantie",
+        "es": "duración de la garantía"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:WarrantyPromise"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCreativeWork",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCreativeWork",
   "prefLabel": {
-    "en": "Creative Work",
     "de": "Kreativwerk",
+    "en": "Creative Work",
     "fr": "Travail créatif",
     "es": "Trabajo creativo"
   },
   "definition": {
-    "en": "The most generic kind of creative work, including books, movies, photographs, software programs, etc.",
     "de": "Die allgemeinste Art der kreativen Arbeit, einschließlich Bücher, Filme, Fotos, Softwareprogramme usw.",
+    "en": "The most generic kind of creative work, including books, movies, photographs, software programs, etc.",
     "fr": "Le type le plus générique de travail créatif, comprenant les livres, les films, les photographies, les logiciels, etc.",
     "es": "El tipo más genérico de trabajo creativo, que incluye libros, películas, fotografías, programas de software, etc."
   },
@@ -20,100 +20,10 @@
   ],
   "narrower": [
     {
-      "id": "https://w3id.org/class/redaktor/awards",
-      "prefLabel": {
-        "en": "awards",
-        "de": "Auszeichnungen",
-        "fr": "prix",
-        "es": "premios"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/countryOfOrigin",
-      "prefLabel": {
-        "en": "country of origin",
-        "de": "Herkunftsland",
-        "fr": "pays d'origine",
-        "es": "país de origen"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/funding",
-      "prefLabel": {
-        "en": "funding",
-        "de": "Finanzierung",
-        "fr": "financement",
-        "es": "financiación"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/isFamilyFriendly",
-      "prefLabel": {
-        "en": "is family friendly",
-        "de": "ist familienfreundlich",
-        "fr": "est adapté aux familles",
-        "es": "es familiar"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/keywords",
-      "prefLabel": {
-        "en": "keywords",
-        "de": "Schlüsselwörter",
-        "fr": "mots-clés",
-        "es": "palabras clave"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/material",
-      "prefLabel": {
-        "en": "material",
-        "de": "Material",
-        "fr": "matériau",
-        "es": "material"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/offers",
-      "prefLabel": {
-        "en": "offers",
-        "de": "Angebote",
-        "fr": "offres",
-        "es": "ofrece"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/pattern",
-      "prefLabel": {
-        "en": "pattern",
-        "de": "Muster",
-        "fr": "modèle",
-        "es": "patrón"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/review",
-      "prefLabel": {
-        "en": "review",
-        "de": "Überprüfung",
-        "fr": "examen",
-        "es": "revisión"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/reviews",
-      "prefLabel": {
-        "en": "reviews",
-        "de": "Überprüfungen",
-        "fr": "examens",
-        "es": "revisiones"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/Atlas",
       "prefLabel": {
-        "en": "Atlas",
         "de": "Atlas",
+        "en": "Atlas",
         "fr": "Atlas",
         "es": "Atlas"
       }
@@ -121,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Blog",
       "prefLabel": {
-        "en": "Blog",
         "de": "Blog",
+        "en": "Blog",
         "fr": "Blog",
         "es": "Blog"
       }
@@ -130,35 +40,17 @@
     {
       "id": "https://w3id.org/class/redaktor/Book",
       "prefLabel": {
-        "en": "Book",
         "de": "Buch",
+        "en": "Book",
         "fr": "Livre",
         "es": "Libro"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/author",
-      "prefLabel": {
-        "en": "author",
-        "de": "Autor",
-        "fr": "auteur",
-        "es": "autor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/provider",
-      "prefLabel": {
-        "en": "provider",
-        "de": "Anbieter",
-        "fr": "fournisseur",
-        "es": "proveedor"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/Clip",
       "prefLabel": {
-        "en": "Clip",
         "de": "Clip",
+        "en": "Clip",
         "fr": "Clip",
         "es": "Clip"
       }
@@ -166,8 +58,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SpecialAnnouncement",
       "prefLabel": {
-        "en": "Special Announcement",
         "de": "Special Announcement",
+        "en": "Special Announcement",
         "fr": "Annonce spéciale",
         "es": "Anuncio especial"
       }
@@ -175,8 +67,8 @@
     {
       "id": "https://w3id.org/class/redaktor/license",
       "prefLabel": {
-        "en": "license",
         "de": "Lizenz",
+        "en": "license",
         "fr": "licence",
         "es": "licencia"
       }
@@ -184,8 +76,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Movie",
       "prefLabel": {
-        "en": "Movie",
         "de": "Film",
+        "en": "Movie",
         "fr": "Film",
         "es": "Película"
       }
@@ -193,8 +85,8 @@
     {
       "id": "https://w3id.org/class/redaktor/CreativeWorkSeason",
       "prefLabel": {
-        "en": "Season",
         "de": "Staffel",
+        "en": "Season",
         "fr": "saison",
         "es": "temporada"
       }
@@ -202,8 +94,8 @@
     {
       "id": "https://w3id.org/class/redaktor/CreativeWorkSeries",
       "prefLabel": {
-        "en": "Series",
         "de": "Serie",
+        "en": "Series",
         "fr": "Série",
         "es": "Serie"
       }
@@ -211,8 +103,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Episode",
       "prefLabel": {
-        "en": "Episode",
         "de": "Episode",
+        "en": "Episode",
         "fr": "Épisode",
         "es": "Episodio"
       }
@@ -220,8 +112,8 @@
     {
       "id": "https://w3id.org/class/redaktor/MusicPlaylist",
       "prefLabel": {
-        "en": "Music Playlist",
         "de": "Musik-Wiedergabeliste",
+        "en": "Music Playlist",
         "fr": "Liste de lecture de musique",
         "es": "Lista de reproducción de música"
       }
@@ -229,8 +121,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Chapter",
       "prefLabel": {
-        "en": "Chapter",
         "de": "Kapitel",
+        "en": "Chapter",
         "fr": "Chapitre",
         "es": "Capítulo"
       }
@@ -238,8 +130,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Claim",
       "prefLabel": {
-        "en": "Claim",
         "de": "Behauptung, Claim",
+        "en": "Claim",
         "fr": "Revendication",
         "es": "Reclamación"
       }
@@ -247,8 +139,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Code",
       "prefLabel": {
-        "en": "Code",
         "de": "Code",
+        "en": "Code",
         "fr": "Code",
         "es": "Código"
       }
@@ -256,8 +148,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ComicStory",
       "prefLabel": {
-        "en": "Comic Story",
         "de": "Comic-Geschichte",
+        "en": "Comic Story",
         "fr": "Comic Story",
         "es": "Comic Story"
       }
@@ -265,8 +157,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Drawing",
       "prefLabel": {
-        "en": "Drawing",
         "de": "Zeichnung",
+        "en": "Drawing",
         "fr": "Dessin",
         "es": "Dibujo"
       }
@@ -274,8 +166,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Game",
       "prefLabel": {
-        "en": "Game",
         "de": "Spiel",
+        "en": "Game",
         "fr": "Jeu",
         "es": "Juego"
       }
@@ -283,8 +175,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HowTo",
       "prefLabel": {
-        "en": "How To",
         "de": "Anleitungen, How To",
+        "en": "How To",
         "fr": "Comment faire",
         "es": "HowTo"
       }
@@ -292,8 +184,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HyperToc",
       "prefLabel": {
-        "en": "Hyper Toc",
         "de": "HyperToc",
+        "en": "Hyper Toc",
         "fr": "HyperToc",
         "es": "HyperToc"
       }
@@ -301,8 +193,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HyperTocEntry",
       "prefLabel": {
-        "en": "Hyper Toc Entry",
         "de": "HyperToc Eintrag",
+        "en": "Hyper Toc Entry",
         "fr": "Entrée HyperToc",
         "es": "Entrada HyperToc"
       }
@@ -310,8 +202,8 @@
     {
       "id": "https://w3id.org/class/redaktor/LearningResource",
       "prefLabel": {
-        "en": "Learning Resource",
         "de": "Lern-Ressource",
+        "en": "Learning Resource",
         "fr": "Ressource d'apprentissage",
         "es": "Recurso de aprendizaje"
       }
@@ -319,8 +211,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Manuscript",
       "prefLabel": {
-        "en": "Manuscript",
         "de": "Manuskript",
+        "en": "Manuscript",
         "fr": "Manuscrit",
         "es": "Manuscrito"
       }
@@ -328,8 +220,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Map",
       "prefLabel": {
-        "en": "Map",
         "de": "Karte",
+        "en": "Map",
         "fr": "Carte",
         "es": "Mapa"
       }
@@ -337,8 +229,8 @@
     {
       "id": "https://w3id.org/class/redaktor/MathSolver",
       "prefLabel": {
-        "en": "Math Solver",
         "de": "Mathe Problemlöser",
+        "en": "Math Solver",
         "fr": "MathSolver",
         "es": "MathSolver"
       }
@@ -346,8 +238,8 @@
     {
       "id": "https://w3id.org/class/redaktor/MusicComposition",
       "prefLabel": {
-        "en": "Music Composition",
         "de": "Musikkomposition",
+        "en": "Music Composition",
         "fr": "Composition musicale",
         "es": "Composición musical"
       }
@@ -355,8 +247,8 @@
     {
       "id": "https://w3id.org/class/redaktor/MusicRecording",
       "prefLabel": {
-        "en": "Music Recording",
         "de": "Musikaufnahme",
+        "en": "Music Recording",
         "fr": "Enregistrement de musique",
         "es": "Grabación de música"
       }
@@ -364,8 +256,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Painting",
       "prefLabel": {
-        "en": "Painting",
         "de": "Gemälde",
+        "en": "Painting",
         "fr": "Peinture",
         "es": "Pintura"
       }
@@ -373,8 +265,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Photograph",
       "prefLabel": {
-        "en": "Photograph",
         "de": "Fotografie",
+        "en": "Photograph",
         "fr": "Photographie",
         "es": "Fotografía"
       }
@@ -382,8 +274,8 @@
     {
       "id": "https://w3id.org/class/redaktor/PublicationIssue",
       "prefLabel": {
-        "en": "Publication Issue",
         "de": "Publikationsausgabe",
+        "en": "Publication Issue",
         "fr": "Numéro de publication",
         "es": "Número de la publicación"
       }
@@ -391,8 +283,8 @@
     {
       "id": "https://w3id.org/class/redaktor/PublicationVolume",
       "prefLabel": {
-        "en": "Publication Volume",
         "de": "Publikationsband",
+        "en": "Publication Volume",
         "fr": "Volume de publication",
         "es": "Volumen de la publicación"
       }
@@ -400,8 +292,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Sculpture",
       "prefLabel": {
-        "en": "Sculpture",
         "de": "Skulptur",
+        "en": "Sculpture",
         "fr": "Sculpture",
         "es": "Escultura"
       }
@@ -409,8 +301,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SoftwareApplication",
       "prefLabel": {
-        "en": "Software Application",
         "de": "Software-Anwendung",
+        "en": "Software Application",
         "fr": "Application logicielle",
         "es": "Aplicación de software"
       }
@@ -418,8 +310,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SoftwareSourceCode",
       "prefLabel": {
-        "en": "Software Source Code",
         "de": "Software-Quellcode",
+        "en": "Software Source Code",
         "fr": "Code source du logiciel",
         "es": "Código fuente del software"
       }
@@ -427,8 +319,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Thesis",
       "prefLabel": {
-        "en": "Thesis",
         "de": "Abschlussarbeit",
+        "en": "Thesis",
         "fr": "Thèse",
         "es": "Tesis"
       }
@@ -436,8 +328,8 @@
     {
       "id": "https://w3id.org/class/redaktor/WebPageElement",
       "prefLabel": {
-        "en": "Web Page Element",
         "de": "Webseiten-Element",
+        "en": "Web Page Element",
         "fr": "Web Page Element",
         "es": "Web Page Element"
       }
@@ -445,8 +337,8 @@
     {
       "id": "https://w3id.org/class/redaktor/WebSite",
       "prefLabel": {
-        "en": "Web Site",
         "de": "Web-Seite",
+        "en": "Web Site",
         "fr": "Page Web",
         "es": "Página web"
       }
@@ -454,26 +346,194 @@
     {
       "id": "https://w3id.org/class/redaktor/Exclusive",
       "prefLabel": {
-        "en": "Exclusive",
         "de": "Exklusiv",
+        "en": "Exclusive",
         "fr": "Exclusif",
         "es": "Exclusiva"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/Review",
+      "prefLabel": {
+        "en": "Review"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/CorrectionComment",
+      "prefLabel": {
+        "de": "Berichtigung Kommentar",
+        "en": "Correction Comment",
+        "fr": "Commentaire de correction",
+        "es": "Corrección Comentario"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/correction",
+      "prefLabel": {
+        "de": "Berichtigung",
+        "en": "correction",
+        "fr": "correction",
+        "es": "corrección"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/depth",
+      "prefLabel": {
+        "de": "Tiefe",
+        "en": "depth",
+        "fr": "profondeur",
+        "es": "profundidad"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/WebContent",
+      "prefLabel": {
+        "de": "Web-Inhalt",
+        "en": "Web Content",
+        "fr": "Contenu Web",
+        "es": "Contenido de la web"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/materialExtent",
+      "prefLabel": {
+        "de": "Materialumfang",
+        "en": "material extent",
+        "fr": "étendue du matériau",
+        "es": "extensión del material"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Dataset",
+      "prefLabel": {
+        "de": "Datensatz",
+        "en": "Dataset",
+        "fr": "Ensemble de données",
+        "es": "Conjunto de datos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/MediaObject",
+      "prefLabel": {
+        "de": "Medienobjekt",
+        "en": "Media Object",
+        "fr": "Objet média",
+        "es": "Objeto de los medios de comunicación"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/associatedMedia",
+      "prefLabel": {
+        "de": "assoziierte Medien",
+        "en": "associated media",
+        "fr": "média associé",
+        "es": "medios asociados"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/encoding",
+      "prefLabel": {
+        "de": "Kodierung",
+        "en": "encoding",
+        "fr": "codage",
+        "es": "codificación"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/encodings",
+      "prefLabel": {
+        "de": "Verschlüsselungen",
+        "en": "encodings",
+        "fr": "encodages",
+        "es": "codificaciones"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/MenuSection",
+      "prefLabel": {
+        "de": "Abschnitt Menü",
+        "en": "Menu Section",
+        "fr": "Section du menu",
+        "es": "Sección del menú"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Menu",
+      "prefLabel": {
+        "de": "Menü",
+        "en": "Menu",
+        "fr": "Menu",
+        "es": "Menú"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/aggregateRating",
       "prefLabel": {
-        "en": "aggregate rating",
         "de": "Gesamtbewertung",
+        "en": "aggregate rating",
         "fr": "cote globale",
         "es": "calificación agregada"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/interactionStatistic",
+      "prefLabel": {
+        "de": "Interaktionsstatistik",
+        "en": "interaction statistic",
+        "fr": "statistiques d'interaction",
+        "es": "estadística de interacción"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/DefinedTermSet",
+      "prefLabel": {
+        "de": "Definierter Begriffssatz",
+        "en": "Defined Term Set",
+        "fr": "Ensemble de termes définis",
+        "es": "Conjunto de términos definidos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ArchiveComponent",
+      "prefLabel": {
+        "de": "Archiv-Komponente",
+        "en": "Archive Component",
+        "fr": "Composant d'archive",
+        "es": "Componente de archivo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/contentRating",
+      "prefLabel": {
+        "de": "Bewertung des Inhalts",
+        "en": "content rating",
+        "fr": "classement du contenu",
+        "es": "clasificación del contenido"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/review",
+      "prefLabel": {
+        "de": "Überprüfung",
+        "en": "review",
+        "fr": "examen",
+        "es": "revisión"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/reviews",
+      "prefLabel": {
+        "de": "Überprüfungen",
+        "en": "reviews",
+        "fr": "examens",
+        "es": "revisiones"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/EducationalOccupationalCredential",
       "prefLabel": {
-        "en": "Educational Occupational Credential",
         "de": "Beruflicher Bildungsnachweis",
+        "en": "Educational Occupational Credential",
         "fr": "Titre de formation professionnelle",
         "es": "Credencial educativa profesional"
       }
@@ -481,8 +541,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HowToSection",
       "prefLabel": {
-        "en": "How To Section",
         "de": "Anleitungsabschnitt",
+        "en": "How To Section",
         "fr": "Section comment faire",
         "es": "Sección de cómo hacerlo"
       }
@@ -490,8 +550,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HowToStep",
       "prefLabel": {
-        "en": "How To Step",
         "de": "Anleitungen Schritt",
+        "en": "How To Step",
         "fr": "Comment faire un pas",
         "es": "Cómo se hace el paso"
       }
@@ -499,8 +559,8 @@
     {
       "id": "https://w3id.org/class/redaktor/about",
       "prefLabel": {
-        "en": "about",
         "de": "über",
+        "en": "about",
         "fr": "à propos de",
         "es": "sobre"
       }
@@ -508,8 +568,8 @@
     {
       "id": "https://w3id.org/class/redaktor/abstract",
       "prefLabel": {
-        "en": "abstract",
         "de": "Zusammenfassung",
+        "en": "abstract",
         "fr": "résumé",
         "es": "resumen"
       }
@@ -517,8 +577,8 @@
     {
       "id": "https://w3id.org/class/redaktor/accessMode",
       "prefLabel": {
-        "en": "access mode",
         "de": "Zugriffsmodus",
+        "en": "access mode",
         "fr": "mode d'accès",
         "es": "modo de acceso"
       }
@@ -526,8 +586,8 @@
     {
       "id": "https://w3id.org/class/redaktor/accessModeSufficient",
       "prefLabel": {
-        "en": "access mode sufficient",
         "de": "Zugriffsmodus ausreichend",
+        "en": "access mode sufficient",
         "fr": "mode d'accès suffisant",
         "es": "modo de acceso suficiente"
       }
@@ -535,8 +595,8 @@
     {
       "id": "https://w3id.org/class/redaktor/accessibilityAPI",
       "prefLabel": {
-        "en": "accessibility API",
         "de": "Zugänglichkeit API",
+        "en": "accessibility API",
         "fr": "API d'accessibilité",
         "es": "accesibilidad API"
       }
@@ -544,8 +604,8 @@
     {
       "id": "https://w3id.org/class/redaktor/accessibilityControl",
       "prefLabel": {
-        "en": "accessibility control",
         "de": "Kontrolle der Zugänglichkeit",
+        "en": "accessibility control",
         "fr": "contrôle d'accessibilité",
         "es": "control de accesibilidad"
       }
@@ -553,8 +613,8 @@
     {
       "id": "https://w3id.org/class/redaktor/accessibilityFeature",
       "prefLabel": {
-        "en": "accessibility feature",
         "de": "Zugänglichkeitsmerkmal",
+        "en": "accessibility feature",
         "fr": "contrôle d'accessibilité",
         "es": "característica de accesibilidad"
       }
@@ -562,8 +622,8 @@
     {
       "id": "https://w3id.org/class/redaktor/accessibilityHazard",
       "prefLabel": {
-        "en": "accessibility hazard",
         "de": "Gefahr für die Zugänglichkeit",
+        "en": "accessibility hazard",
         "fr": "risque d'accessibilité",
         "es": "accesibilidad riesgo"
       }
@@ -571,8 +631,8 @@
     {
       "id": "https://w3id.org/class/redaktor/accessibilitySummary",
       "prefLabel": {
-        "en": "accessibility summary",
         "de": "Zugänglichkeit Zusammenfassung",
+        "en": "accessibility summary",
         "fr": "résumé de l'accessibilité",
         "es": "resumen de accesibilidad"
       }
@@ -580,8 +640,8 @@
     {
       "id": "https://w3id.org/class/redaktor/accountablePerson",
       "prefLabel": {
-        "en": "accountable person",
         "de": "Verantwortliche Person",
+        "en": "accountable person",
         "fr": "personne responsable",
         "es": "persona responsable"
       }
@@ -589,8 +649,8 @@
     {
       "id": "https://w3id.org/class/redaktor/acquireLicensePage",
       "prefLabel": {
-        "en": "acquire license page",
         "de": "Seite Lizenz erwerben",
+        "en": "acquire license page",
         "fr": "page d'acquisition de licence",
         "es": "adquisición de la página de licencia"
       }
@@ -598,8 +658,8 @@
     {
       "id": "https://w3id.org/class/redaktor/alternativeHeadline",
       "prefLabel": {
-        "en": "alternative headline",
         "de": "alternative Überschrift",
+        "en": "alternative headline",
         "fr": "titre alternatif",
         "es": "titular alternativo"
       }
@@ -607,8 +667,8 @@
     {
       "id": "https://w3id.org/class/redaktor/archivedAt",
       "prefLabel": {
-        "en": "archived at",
         "de": "archiviert in",
+        "en": "archived at",
         "fr": "archivé à",
         "es": "archivado en"
       }
@@ -616,35 +676,44 @@
     {
       "id": "https://w3id.org/class/redaktor/assesses",
       "prefLabel": {
-        "en": "assesses",
         "de": "bewertet",
+        "en": "assesses",
         "fr": "évalue",
         "es": "evalúa"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/associatedMedia",
-      "prefLabel": {
-        "en": "associated media",
-        "de": "assoziierte Medien",
-        "fr": "média associé",
-        "es": "medios asociados"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/audio",
       "prefLabel": {
-        "en": "audio",
         "de": "Audio",
+        "en": "audio",
         "fr": "audio",
         "es": "audio"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/author",
+      "prefLabel": {
+        "de": "Autor",
+        "en": "author",
+        "fr": "auteur",
+        "es": "autor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/awards",
+      "prefLabel": {
+        "de": "Auszeichnungen",
+        "en": "awards",
+        "fr": "prix",
+        "es": "premios"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/character",
       "prefLabel": {
-        "en": "character",
         "de": "Zeichen",
+        "en": "character",
         "fr": "caractère",
         "es": "carácter"
       }
@@ -652,8 +721,8 @@
     {
       "id": "https://w3id.org/class/redaktor/citation",
       "prefLabel": {
-        "en": "citation",
         "de": "Zitat",
+        "en": "citation",
         "fr": "citation",
         "es": "citación"
       }
@@ -661,8 +730,8 @@
     {
       "id": "https://w3id.org/class/redaktor/comment",
       "prefLabel": {
-        "en": "comment",
         "de": "Kommentar",
+        "en": "comment",
         "fr": "commentaire",
         "es": "comentario"
       }
@@ -670,8 +739,8 @@
     {
       "id": "https://w3id.org/class/redaktor/commentCount",
       "prefLabel": {
-        "en": "comment count",
         "de": "Anzahl der Kommentare",
+        "en": "comment count",
         "fr": "nombre de commentaires",
         "es": "comentario de la cuenta"
       }
@@ -679,8 +748,8 @@
     {
       "id": "https://w3id.org/class/redaktor/conditionsOfAccess",
       "prefLabel": {
-        "en": "conditions of access",
         "de": "Zugangsbedingungen",
+        "en": "conditions of access",
         "fr": "conditions d'accès",
         "es": "condiciones de acceso"
       }
@@ -688,26 +757,17 @@
     {
       "id": "https://w3id.org/class/redaktor/contentLocation",
       "prefLabel": {
-        "en": "content location",
         "de": "Standort des Inhalts",
+        "en": "content location",
         "fr": "emplacement du contenu",
         "es": "ubicación del contenido"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/contentRating",
-      "prefLabel": {
-        "en": "content rating",
-        "de": "Bewertung des Inhalts",
-        "fr": "classement du contenu",
-        "es": "clasificación del contenido"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/contentReferenceTime",
       "prefLabel": {
-        "en": "content reference time",
         "de": "Referenzzeit des Inhalts",
+        "en": "content reference time",
         "fr": "temps de référence du contenu",
         "es": "tiempo de referencia del contenido"
       }
@@ -715,8 +775,8 @@
     {
       "id": "https://w3id.org/class/redaktor/contributor",
       "prefLabel": {
-        "en": "contributor",
         "de": "Mitwirkende",
+        "en": "contributor",
         "fr": "contributeur",
         "es": "colaborador"
       }
@@ -724,8 +784,8 @@
     {
       "id": "https://w3id.org/class/redaktor/copyrightHolder",
       "prefLabel": {
-        "en": "copyright holder",
         "de": "Urheberrechtsinhaber",
+        "en": "copyright holder",
         "fr": "détenteur du droit d'auteur",
         "es": "titular de los derechos de autor"
       }
@@ -733,8 +793,8 @@
     {
       "id": "https://w3id.org/class/redaktor/copyrightNotice",
       "prefLabel": {
-        "en": "copyright notice",
         "de": "Urheberrechtsvermerk",
+        "en": "copyright notice",
         "fr": "avis de droit d'auteur",
         "es": "aviso de derechos de autor"
       }
@@ -742,26 +802,26 @@
     {
       "id": "https://w3id.org/class/redaktor/copyrightYear",
       "prefLabel": {
-        "en": "copyright year",
         "de": "Jahr des Urheberrechts",
+        "en": "copyright year",
         "fr": "année du droit d'auteur",
         "es": "año de copyright"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/correction",
+      "id": "https://w3id.org/class/redaktor/countryOfOrigin",
       "prefLabel": {
-        "en": "correction",
-        "de": "Berichtigung",
-        "fr": "correction",
-        "es": "corrección"
+        "de": "Herkunftsland",
+        "en": "country of origin",
+        "fr": "pays d'origine",
+        "es": "país de origen"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/creativeWorkStatus",
       "prefLabel": {
-        "en": "creative work status",
         "de": "Status der kreativen Arbeit",
+        "en": "creative work status",
         "fr": "statut du travail créatif",
         "es": "estado del trabajo creativo"
       }
@@ -769,8 +829,8 @@
     {
       "id": "https://w3id.org/class/redaktor/creditText",
       "prefLabel": {
-        "en": "credit text",
         "de": "Anrechnungstext",
+        "en": "credit text",
         "fr": "texte du crédit",
         "es": "texto del crédito"
       }
@@ -778,8 +838,8 @@
     {
       "id": "https://w3id.org/class/redaktor/dateCreated",
       "prefLabel": {
-        "en": "date created",
         "de": "Erstellungsdatum",
+        "en": "date created",
         "fr": "date de création",
         "es": "fecha de creación"
       }
@@ -787,17 +847,26 @@
     {
       "id": "https://w3id.org/class/redaktor/dateModified",
       "prefLabel": {
-        "en": "date modified",
         "de": "Änderungsdatum",
+        "en": "date modified",
         "fr": "date de modification",
         "es": "fecha de modificación"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/dateDeleted",
+      "prefLabel": {
+        "de": "Löschungsdatum",
+        "en": "date deleted",
+        "fr": "date supprimée",
+        "es": "fecha de borrado"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/discussionUrl",
       "prefLabel": {
-        "en": "discussion url",
         "de": "Diskussion url",
+        "en": "discussion url",
         "fr": "url de discussion",
         "es": "url de discusión"
       }
@@ -805,8 +874,8 @@
     {
       "id": "https://w3id.org/class/redaktor/editEIDR",
       "prefLabel": {
-        "en": "edit EIDR",
         "de": "EIDR bearbeiten",
+        "en": "edit EIDR",
         "fr": "éditer EIDR",
         "es": "editar EIDR"
       }
@@ -814,8 +883,8 @@
     {
       "id": "https://w3id.org/class/redaktor/editor",
       "prefLabel": {
-        "en": "editor",
         "de": "Redakteur",
+        "en": "editor",
         "fr": "éditeur",
         "es": "editor"
       }
@@ -823,8 +892,8 @@
     {
       "id": "https://w3id.org/class/redaktor/educationalAlignment",
       "prefLabel": {
-        "en": "educational alignment",
         "de": "pädagogische Ausrichtung",
+        "en": "educational alignment",
         "fr": "alignement éducatif",
         "es": "alineación educativa"
       }
@@ -832,8 +901,8 @@
     {
       "id": "https://w3id.org/class/redaktor/educationalLevel",
       "prefLabel": {
-        "en": "educational level",
         "de": "Bildungsniveau",
+        "en": "educational level",
         "fr": "niveau d'éducation",
         "es": "nivel educativo"
       }
@@ -841,44 +910,26 @@
     {
       "id": "https://w3id.org/class/redaktor/educationalUse",
       "prefLabel": {
-        "en": "educational use",
         "de": "pädagogische Nutzung",
+        "en": "educational use",
         "fr": "usage éducatif",
         "es": "uso educativo"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/encoding",
-      "prefLabel": {
-        "en": "encoding",
-        "de": "Kodierung",
-        "fr": "codage",
-        "es": "codificación"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/encodingFormat",
       "prefLabel": {
-        "en": "encoding format",
         "de": "Kodierungsformat",
+        "en": "encoding format",
         "fr": "format d'encodage",
         "es": "formato de codificación"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/encodings",
-      "prefLabel": {
-        "en": "encodings",
-        "de": "Verschlüsselungen",
-        "fr": "encodages",
-        "es": "codificaciones"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/exampleOfWork",
       "prefLabel": {
-        "en": "example of work",
         "de": "Beispiel einer Arbeit",
+        "en": "example of work",
         "fr": "exemple de travail",
         "es": "ejemplo de trabajo"
       }
@@ -886,8 +937,8 @@
     {
       "id": "https://w3id.org/class/redaktor/expires",
       "prefLabel": {
-        "en": "expires",
         "de": "verfällt",
+        "en": "expires",
         "fr": "expiration",
         "es": "caduca"
       }
@@ -895,8 +946,8 @@
     {
       "id": "https://w3id.org/class/redaktor/fileFormat",
       "prefLabel": {
-        "en": "file format",
         "de": "Dateiformat",
+        "en": "file format",
         "fr": "format du fichier",
         "es": "formato del archivo"
       }
@@ -904,17 +955,26 @@
     {
       "id": "https://w3id.org/class/redaktor/funder",
       "prefLabel": {
-        "en": "funder",
         "de": "Geldgeber",
+        "en": "funder",
         "fr": "financeur",
         "es": "financiador"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/funding",
+      "prefLabel": {
+        "de": "Finanzierung",
+        "en": "funding",
+        "fr": "financement",
+        "es": "financiación"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/genre",
       "prefLabel": {
-        "en": "genre",
         "de": "Genre",
+        "en": "genre",
         "fr": "genre",
         "es": "género"
       }
@@ -922,8 +982,8 @@
     {
       "id": "https://w3id.org/class/redaktor/hasPart",
       "prefLabel": {
-        "en": "has part",
         "de": "hat Teil",
+        "en": "has part",
         "fr": "a partie",
         "es": "tiene parte"
       }
@@ -931,26 +991,17 @@
     {
       "id": "https://w3id.org/class/redaktor/headline",
       "prefLabel": {
-        "en": "headline",
         "de": "Überschrift",
+        "en": "headline",
         "fr": "titre",
         "es": "titular"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/interactionStatistic",
-      "prefLabel": {
-        "en": "interaction statistic",
-        "de": "Interaktionsstatistik",
-        "fr": "statistiques d'interaction",
-        "es": "estadística de interacción"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/interactivityType",
       "prefLabel": {
-        "en": "interactivity type",
         "de": "Interaktivitätstyp",
+        "en": "interactivity type",
         "fr": "type d'interactivité",
         "es": "tipo de interactividad"
       }
@@ -958,8 +1009,8 @@
     {
       "id": "https://w3id.org/class/redaktor/interpretedAsClaim",
       "prefLabel": {
-        "en": "interpreted as claim",
         "de": "interpretiert als Anspruch",
+        "en": "interpreted as claim",
         "fr": "interprété comme une réclamation",
         "es": "interpretado como reclamo"
       }
@@ -967,8 +1018,8 @@
     {
       "id": "https://w3id.org/class/redaktor/isBasedOn",
       "prefLabel": {
-        "en": "is based on",
         "de": "basiert auf",
+        "en": "is based on",
         "fr": "est basé sur",
         "es": "se basa en"
       }
@@ -976,26 +1027,44 @@
     {
       "id": "https://w3id.org/class/redaktor/isBasedOnUrl",
       "prefLabel": {
-        "en": "is based on url",
         "de": "basiert auf url",
+        "en": "is based on url",
         "fr": "est basé sur l'url",
         "es": "se basa en la url"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/isFamilyFriendly",
+      "prefLabel": {
+        "de": "ist familienfreundlich",
+        "en": "is family friendly",
+        "fr": "est adapté aux familles",
+        "es": "es familiar"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/isPartOf",
       "prefLabel": {
-        "en": "is part of",
         "de": "ist Teil von",
+        "en": "is part of",
         "fr": "est une partie de",
         "es": "es parte de"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/keywords",
+      "prefLabel": {
+        "de": "Schlüsselwörter",
+        "en": "keywords",
+        "fr": "mots-clés",
+        "es": "palabras clave"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/learningResourceType",
       "prefLabel": {
-        "en": "learning resource type",
         "de": "Lernressourcen-Typ",
+        "en": "learning resource type",
         "fr": "type de ressource pédagogique",
         "es": "tipo de recurso de aprendizaje"
       }
@@ -1003,8 +1072,8 @@
     {
       "id": "https://w3id.org/class/redaktor/locationCreated",
       "prefLabel": {
-        "en": "location created",
         "de": "Standort erstellt",
+        "en": "location created",
         "fr": "emplacement créé",
         "es": "ubicación creada"
       }
@@ -1012,8 +1081,8 @@
     {
       "id": "https://w3id.org/class/redaktor/mainEntity",
       "prefLabel": {
-        "en": "main entity",
         "de": "Haupteinheit",
+        "en": "main entity",
         "fr": "entité principale",
         "es": "entidad principal"
       }
@@ -1021,44 +1090,71 @@
     {
       "id": "https://w3id.org/class/redaktor/maintainer",
       "prefLabel": {
-        "en": "maintainer",
         "de": "Betreuer",
+        "en": "maintainer",
         "fr": "mainteneur",
         "es": "mantenedor"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/materialExtent",
+      "id": "https://w3id.org/class/redaktor/material",
       "prefLabel": {
-        "en": "material extent",
-        "de": "Materialumfang",
-        "fr": "étendue du matériau",
-        "es": "extensión del material"
+        "de": "Material",
+        "en": "material",
+        "fr": "matériau",
+        "es": "material"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/mentions",
       "prefLabel": {
-        "en": "mentions",
         "de": "Erwähnungen",
+        "en": "mentions",
         "fr": "mentions",
         "es": "menciones"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/offers",
+      "prefLabel": {
+        "de": "Angebote",
+        "en": "offers",
+        "fr": "offres",
+        "es": "ofrece"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/pattern",
+      "prefLabel": {
+        "de": "Muster",
+        "en": "pattern",
+        "fr": "modèle",
+        "es": "patrón"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/producer",
       "prefLabel": {
-        "en": "producer",
         "de": "Produzent",
+        "en": "producer",
         "fr": "producteur",
         "es": "productor"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/provider",
+      "prefLabel": {
+        "de": "Anbieter",
+        "en": "provider",
+        "fr": "fournisseur",
+        "es": "proveedor"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/publication",
       "prefLabel": {
-        "en": "publication",
         "de": "Veröffentlichung",
+        "en": "publication",
         "fr": "publication",
         "es": "publicación"
       }
@@ -1066,8 +1162,8 @@
     {
       "id": "https://w3id.org/class/redaktor/publisher",
       "prefLabel": {
-        "en": "publisher",
         "de": "Verlag, Herausgeber",
+        "en": "publisher",
         "fr": "maison d'édition",
         "es": "publicar"
       }
@@ -1075,8 +1171,8 @@
     {
       "id": "https://w3id.org/class/redaktor/publisherImprint",
       "prefLabel": {
-        "en": "publisher imprint",
         "de": "Verlagsimpressum",
+        "en": "publisher imprint",
         "fr": "marque d'éditeur",
         "es": "sello editorial"
       }
@@ -1084,8 +1180,8 @@
     {
       "id": "https://w3id.org/class/redaktor/publishingPrinciples",
       "prefLabel": {
-        "en": "publishing principles",
         "de": "Verlagsgrundsätze",
+        "en": "publishing principles",
         "fr": "principes d'édition",
         "es": "principios de publicación"
       }
@@ -1093,8 +1189,8 @@
     {
       "id": "https://w3id.org/class/redaktor/recordedAt",
       "prefLabel": {
-        "en": "recorded at",
         "de": "aufgezeichnet bei",
+        "en": "recorded at",
         "fr": "enregistré au",
         "es": "registrado en"
       }
@@ -1102,8 +1198,8 @@
     {
       "id": "https://w3id.org/class/redaktor/releasedEvent",
       "prefLabel": {
-        "en": "released event",
         "de": "freigegebenes Ereignis",
+        "en": "released event",
         "fr": "événement publié",
         "es": "evento liberado"
       }
@@ -1111,8 +1207,8 @@
     {
       "id": "https://w3id.org/class/redaktor/schemaVersion",
       "prefLabel": {
-        "en": "schema version",
         "de": "Schema-Version",
+        "en": "schema version",
         "fr": "version du schéma",
         "es": "versión del esquema"
       }
@@ -1120,8 +1216,8 @@
     {
       "id": "https://w3id.org/class/redaktor/sdDatePublished",
       "prefLabel": {
-        "en": "SD date published",
         "de": "SD Datum der Veröffentlichung",
+        "en": "SD date published",
         "fr": "SD date published",
         "es": "SD fecha de publicación"
       }
@@ -1129,8 +1225,8 @@
     {
       "id": "https://w3id.org/class/redaktor/sdLicense",
       "prefLabel": {
-        "en": "SD license",
         "de": "SD lizenz",
+        "en": "SD license",
         "fr": "SD licence",
         "es": "licencia sd"
       }
@@ -1138,8 +1234,8 @@
     {
       "id": "https://w3id.org/class/redaktor/sdPublisher",
       "prefLabel": {
-        "en": "SD publisher",
         "de": "SD Redakteur",
+        "en": "SD publisher",
         "fr": "SD éditeur",
         "es": "editor SD"
       }
@@ -1147,8 +1243,8 @@
     {
       "id": "https://w3id.org/class/redaktor/sourceOrganization",
       "prefLabel": {
-        "en": "source organization",
         "de": "Quellorganisation",
+        "en": "source organization",
         "fr": "organisation des sources",
         "es": "organización de la fuente"
       }
@@ -1156,8 +1252,8 @@
     {
       "id": "https://w3id.org/class/redaktor/spatial",
       "prefLabel": {
-        "en": "spatial",
         "de": "räumlich",
+        "en": "spatial",
         "fr": "spatial",
         "es": "espacial"
       }
@@ -1165,8 +1261,8 @@
     {
       "id": "https://w3id.org/class/redaktor/spatialCoverage",
       "prefLabel": {
-        "en": "spatial coverage",
         "de": "räumliche Abdeckung",
+        "en": "spatial coverage",
         "fr": "couverture spatiale",
         "es": "cobertura espacial"
       }
@@ -1174,8 +1270,8 @@
     {
       "id": "https://w3id.org/class/redaktor/sponsor",
       "prefLabel": {
-        "en": "sponsor",
         "de": "Sponsor",
+        "en": "sponsor",
         "fr": "sponsor",
         "es": "patrocinador"
       }
@@ -1183,8 +1279,8 @@
     {
       "id": "https://w3id.org/class/redaktor/teaches",
       "prefLabel": {
-        "en": "teaches",
         "de": "unterrichtet",
+        "en": "teaches",
         "fr": "enseigne",
         "es": "enseña"
       }
@@ -1192,8 +1288,8 @@
     {
       "id": "https://w3id.org/class/redaktor/temporal",
       "prefLabel": {
-        "en": "temporal",
         "de": "zeitlich",
+        "en": "temporal",
         "fr": "temporel",
         "es": "temporal"
       }
@@ -1201,8 +1297,8 @@
     {
       "id": "https://w3id.org/class/redaktor/temporalCoverage",
       "prefLabel": {
-        "en": "temporal coverage",
         "de": "zeitliche Abdeckung",
+        "en": "temporal coverage",
         "fr": "couverture temporelle",
         "es": "cobertura temporal"
       }
@@ -1210,8 +1306,8 @@
     {
       "id": "https://w3id.org/class/redaktor/text",
       "prefLabel": {
-        "en": "text",
         "de": "Text",
+        "en": "text",
         "fr": "texte",
         "es": "texto"
       }
@@ -1219,8 +1315,8 @@
     {
       "id": "https://w3id.org/class/redaktor/thumbnailUrl",
       "prefLabel": {
-        "en": "thumbnail url",
         "de": "Thumbnail-Url",
+        "en": "thumbnail url",
         "fr": "url de la vignette",
         "es": "url en miniatura"
       }
@@ -1228,8 +1324,8 @@
     {
       "id": "https://w3id.org/class/redaktor/timeRequired",
       "prefLabel": {
-        "en": "time required",
         "de": "Erforderliche Zeit",
+        "en": "time required",
         "fr": "temps requis",
         "es": "tiempo requerido"
       }
@@ -1237,8 +1333,8 @@
     {
       "id": "https://w3id.org/class/redaktor/translationOfWork",
       "prefLabel": {
-        "en": "translation of work",
         "de": "Übersetzung der Arbeit",
+        "en": "translation of work",
         "fr": "traduction de travaux",
         "es": "traducción de la obra"
       }
@@ -1246,8 +1342,8 @@
     {
       "id": "https://w3id.org/class/redaktor/translator",
       "prefLabel": {
-        "en": "translator",
         "de": "Übersetzer",
+        "en": "translator",
         "fr": "traducteur",
         "es": "traductor"
       }
@@ -1255,8 +1351,8 @@
     {
       "id": "https://w3id.org/class/redaktor/typicalAgeRange",
       "prefLabel": {
-        "en": "typical age range",
         "de": "typische Altersspanne",
+        "en": "typical age range",
         "fr": "tranche d'âge typique",
         "es": "rango de edad típico"
       }
@@ -1264,8 +1360,8 @@
     {
       "id": "https://w3id.org/class/redaktor/usageInfo",
       "prefLabel": {
-        "en": "usage info",
         "de": "Nutzungshinweise",
+        "en": "usage info",
         "fr": "informations sur l'utilisation",
         "es": "información de uso"
       }
@@ -1273,8 +1369,8 @@
     {
       "id": "https://w3id.org/class/redaktor/version",
       "prefLabel": {
-        "en": "version",
         "de": "Version",
+        "en": "version",
         "fr": "version",
         "es": "versión"
       }
@@ -1282,8 +1378,8 @@
     {
       "id": "https://w3id.org/class/redaktor/workExample",
       "prefLabel": {
-        "en": "work example",
         "de": "Arbeitsbeispiel",
+        "en": "work example",
         "fr": "exemple de travail",
         "es": "ejemplo de trabajo"
       }
@@ -1291,10 +1387,19 @@
     {
       "id": "https://w3id.org/class/redaktor/workTranslation",
       "prefLabel": {
-        "en": "work translation",
         "de": "Arbeit Übersetzung",
+        "en": "work translation",
         "fr": "traduction du travail",
         "es": "traducción del trabajo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/award",
+      "prefLabel": {
+        "de": "Auszeichnung",
+        "en": "award",
+        "fr": "prix",
+        "es": "premio"
       }
     }
   ],
@@ -1306,8 +1411,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

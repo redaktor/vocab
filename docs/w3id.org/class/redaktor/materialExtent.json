@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FmaterialExtent",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FmaterialExtent",
   "prefLabel": {
-    "en": "material extent",
     "de": "Materialumfang",
+    "en": "material extent",
     "fr": "étendue du matériau",
     "es": "extensión del material"
   },
   "definition": {
-    "en": "undefined",
-    "de": "undefined",
-    "fr": "undefined",
-    "es": "undefined"
+    "de": "Die Menge der beschriebenen Materialien oder ein Ausdruck des physischen Raums, den sie einnehmen.",
+    "en": "The quantity of the materials being described or an expression of the physical space they occupy.",
+    "fr": "La quantité des matériaux décrits ou une expression de l'espace physique qu'ils occupent.",
+    "es": "La cantidad de los materiales que se describen o una expresión del espacio físico que ocupan."
   },
   "notation": [
     "2075"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/QuantitativeValue",
+      "prefLabel": {
+        "de": "Quantitativer Wert",
+        "en": "Quantitative Value",
+        "fr": "Valeur quantitative",
+        "es": "Valor cuantitativo"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

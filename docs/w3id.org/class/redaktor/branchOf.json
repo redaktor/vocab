@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FbranchOf",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FbranchOf",
   "prefLabel": {
-    "en": "branch of",
     "de": "Zweigstelle von",
+    "en": "branch of",
     "fr": "branche de",
     "es": "rama de"
   },
   "definition": {
+    "de": "Die größere Organisation, von der dieses lokale Unternehmen eine Zweigstelle ist, falls vorhanden. Nicht zu verwechseln mit der (anatomischen) [[Filiale]].",
     "en": "The larger organization that this local business is a branch of, if any. Not to be confused with (anatomical)[[branch]].",
-    "de": "The larger organization that this local business is a branch of, if any. Not to be confused with (anatomical)[[branch]].",
-    "fr": "The larger organization that this local business is a branch of, if any. Not to be confused with (anatomical)[[branch]].",
-    "es": "The larger organization that this local business is a branch of, if any. Not to be confused with (anatomical)[[branch]]."
+    "fr": "L'organisation plus vaste dont cette entreprise locale est une branche, le cas échéant. À ne pas confondre avec la [[branche]] (anatomique).",
+    "es": "La organización más grande de la que esta empresa local es una sucursal, si es que la hay. No debe confundirse con la rama (anatómica)."
   },
   "notation": [
     "1827"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

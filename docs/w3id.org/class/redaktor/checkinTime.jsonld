@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcheckinTime",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcheckinTime",
   "prefLabel": {
-    "en": "checkin time",
     "de": "Checkin-Zeit",
+    "en": "checkin time",
     "fr": "checkin time",
     "es": "hora de entrada"
   },
   "definition": {
+    "de": "Der früheste Zeitpunkt, zu dem jemand in einem Beherbergungsbetrieb einchecken kann.",
     "en": "The earliest someone may check into a lodging establishment.",
-    "de": "The earliest someone may check into a lodging establishment.",
-    "fr": "The earliest someone may check into a lodging establishment.",
-    "es": "The earliest someone may check into a lodging establishment."
+    "fr": "La date la plus proche à laquelle une personne peut s'enregistrer dans un établissement d'hébergement.",
+    "es": "La fecha más temprana en la que alguien puede registrarse en un establecimiento de alojamiento."
   },
   "notation": [
     "1841"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

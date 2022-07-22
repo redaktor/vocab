@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fabridged",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fabridged",
   "prefLabel": {
-    "en": "abridged",
     "de": "Gekürzt",
+    "en": "abridged",
     "fr": "abrégé",
     "es": "abreviado"
   },
   "definition": {
+    "de": "Gibt an, ob es sich bei dem Buch um eine gekürzte Ausgabe handelt.",
     "en": "Indicates whether the book is an abridged edition.",
-    "de": "Indicates whether the book is an abridged edition.",
-    "fr": "Indicates whether the book is an abridged edition.",
-    "es": "Indicates whether the book is an abridged edition."
+    "fr": "Indique si le livre est une édition abrégée.",
+    "es": "Indica si el libro es una edición abreviada."
   },
   "notation": [
     "1738"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

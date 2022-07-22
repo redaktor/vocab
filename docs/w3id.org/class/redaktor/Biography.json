@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FBiography",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FBiography",
   "prefLabel": {
-    "en": "Biography",
     "de": "Biografie",
+    "en": "Biography",
     "fr": "Biographie",
     "es": "Biografía"
   },
   "definition": {
-    "en": "Facts and background about a person",
     "de": "Fakten und Hintergrundinformationen über eine Person",
+    "en": "Facts and background about a person",
     "fr": "Faits et contexte concernant une personne",
     "es": "Datos y antecedentes de una persona"
   },
@@ -29,8 +29,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

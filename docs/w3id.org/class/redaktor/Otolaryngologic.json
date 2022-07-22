@@ -4,10 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FOtolaryngologic",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FOtolaryngologic",
   "prefLabel": {
-    "en": "Otolaryngologic",
     "de": "HNO Hals-Nasen-Ohrenheilkunde",
+    "en": "Otolaryngologic",
     "fr": "Otolaryngologie",
     "es": "Otorrinolaringología"
+  },
+  "definition": {
+    "de": "Ein spezieller Zweig der medizinischen Wissenschaft, der sich mit den Ohren, der Nase und dem Rachen und ihren jeweiligen Krankheitszuständen befasst.",
+    "en": "A specific branch of medical science that is concerned with the ear, nose and throat and their respective disease states.",
+    "fr": "Une branche spécifique de la science médicale qui s'occupe de l'oreille, du nez et de la gorge et de leurs états pathologiques respectifs.",
+    "es": "Rama específica de la ciencia médica que se ocupa del oído, la nariz y la garganta y sus respectivos estados de enfermedad."
   },
   "notation": [
     "1078"
@@ -20,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

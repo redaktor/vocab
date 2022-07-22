@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FmusicalKey",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FmusicalKey",
   "prefLabel": {
-    "en": "musical key",
     "de": "Tonart",
+    "en": "musical key",
     "fr": "clé musicale",
     "es": "clave musical"
   },
   "definition": {
+    "de": "Die Tonart, der Modus oder die Skala, die diese Komposition verwendet.",
     "en": "The key, mode, or scale this composition uses.",
-    "de": "The key, mode, or scale this composition uses.",
-    "fr": "The key, mode, or scale this composition uses.",
-    "es": "The key, mode, or scale this composition uses."
+    "fr": "La clé, le mode ou la gamme que cette composition utilise.",
+    "es": "La clave, el modo o la escala que utiliza esta composición."
   },
   "notation": [
     "2094"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

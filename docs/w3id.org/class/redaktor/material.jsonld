@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fmaterial",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fmaterial",
   "prefLabel": {
-    "en": "material",
     "de": "Material",
+    "en": "material",
     "fr": "matériau",
     "es": "material"
   },
   "definition": {
+    "de": "Ein Material, aus dem etwas hergestellt ist, z. B. Leder, Wolle, Baumwolle, Papier.",
     "en": "A material that something is made from, e.g. leather, wool, cotton, paper.",
-    "de": "A material that something is made from, e.g. leather, wool, cotton, paper.",
-    "fr": "A material that something is made from, e.g. leather, wool, cotton, paper.",
-    "es": "A material that something is made from, e.g. leather, wool, cotton, paper."
+    "fr": "Une matière dont est fait un objet, par exemple le cuir, la laine, le coton, le papier.",
+    "es": "Material del que está hecho algo, por ejemplo, cuero, lana, algodón, papel."
   },
   "notation": [
     "2074"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

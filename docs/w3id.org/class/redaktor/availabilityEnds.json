@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FavailabilityEnds",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FavailabilityEnds",
   "prefLabel": {
-    "en": "availability ends",
     "de": "Verfügbarkeit endet",
+    "en": "availability ends",
     "fr": "fin de la disponibilité",
     "es": "la disponibilidad termina"
   },
   "definition": {
+    "de": "Das Ende der Verfügbarkeit der im Angebot enthaltenen Ware oder Dienstleistung.",
     "en": "The end of the availability of the product or service included in the offer.",
-    "de": "The end of the availability of the product or service included in the offer.",
-    "fr": "The end of the availability of the product or service included in the offer.",
-    "es": "The end of the availability of the product or service included in the offer."
+    "fr": "La fin de la disponibilité du produit ou du service inclus dans l'offre.",
+    "es": "El fin de la disponibilidad del producto o servicio incluido en la oferta."
   },
   "notation": [
     "1803"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

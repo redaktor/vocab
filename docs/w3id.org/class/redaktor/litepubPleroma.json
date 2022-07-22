@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FlitepubPleroma",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FlitepubPleroma",
   "prefLabel": {
-    "en": "Pleroma",
     "de": "Pleroma",
+    "en": "Pleroma",
     "fr": "Pleroma",
     "es": "Pleroma"
   },
   "altLabel": {
-    "en": [
+    "de": [
       "litepub"
     ],
-    "de": [
+    "en": [
       "litepub"
     ],
     "fr": [
@@ -24,14 +24,14 @@
     ]
   },
   "definition": {
-    "en": "[Pleroma](https://pleroma.social)",
     "de": "[Pleroma](https://pleroma.social)",
+    "en": "[Pleroma](https://pleroma.social)",
     "fr": "[Pleroma](https://pleroma.social)",
     "es": "[Pleroma](https://pleroma.social)"
   },
   "scopeNote": {
-    "en": "http://litepub.social/ns#",
     "de": "http://litepub.social/ns#",
+    "en": "http://litepub.social/ns#",
     "fr": "http://litepub.social/ns#",
     "es": "http://litepub.social/ns#"
   },
@@ -40,19 +40,10 @@
   ],
   "narrower": [
     {
-      "id": "https://w3id.org/class/redaktor/ChatMessage",
-      "prefLabel": {
-        "en": "Chat message",
-        "de": "Chat Nachricht",
-        "fr": "Chat message",
-        "es": "Chat mensaje"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/uploadMedia",
       "prefLabel": {
-        "en": "upload Media Endpoint",
         "de": "upload Media Endpoint",
+        "en": "upload Media Endpoint",
         "fr": "upload Media Endpoint",
         "es": "upload Media Endpoint"
       }
@@ -60,18 +51,27 @@
     {
       "id": "https://w3id.org/class/redaktor/oauthRegistrationEndpoint",
       "prefLabel": {
-        "en": "oauth Registration Endpoint",
         "de": "oauth Registration Endpoint",
+        "en": "oauth Registration Endpoint",
         "fr": "oauth Registration Endpoint",
         "es": "oauth Registration Endpoint"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ChatMessage",
+      "prefLabel": {
+        "de": "Chat Nachricht",
+        "en": "Chat message",
+        "fr": "Chat message",
+        "es": "Chat mensaje"
       }
     }
   ],
   "broader": {
     "id": "https://w3id.org/class/redaktor/Community",
     "prefLabel": {
-      "en": "Community Namespaces",
       "de": "Community Namespaces",
+      "en": "Community Namespaces",
       "fr": "Community Namespaces",
       "es": "Community Namespaces"
     }
@@ -79,8 +79,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

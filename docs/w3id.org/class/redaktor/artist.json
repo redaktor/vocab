@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fartist",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fartist",
   "prefLabel": {
-    "en": "artist",
     "de": "Künstler",
+    "en": "artist",
     "fr": "artiste",
     "es": "artista"
   },
   "definition": {
+    "de": "Der Hauptkünstler für ein Werk<br> in einem anderen Medium als Bleistift oder digitaler Strichkunst - zum Beispiel, wenn das<br> Hauptkunstwerk in Aquarell oder digitaler Farbe erstellt wurde.",
     "en": "The primary artist for a work<br>    \tin a medium other than pencils or digital line art--for example, if the<br>    \tprimary artwork is done in watercolors or digital paints.",
-    "de": "The primary artist for a work<br>    \tin a medium other than pencils or digital line art--for example, if the<br>    \tprimary artwork is done in watercolors or digital paints.",
-    "fr": "The primary artist for a work<br>    \tin a medium other than pencils or digital line art--for example, if the<br>    \tprimary artwork is done in watercolors or digital paints.",
-    "es": "The primary artist for a work<br>    \tin a medium other than pencils or digital line art--for example, if the<br>    \tprimary artwork is done in watercolors or digital paints."
+    "fr": "L'artiste principal d'une œuvre<br> dans un médium autre que les crayons ou le dessin au trait numérique - par exemple, si l'œuvre<br> principale est réalisée en aquarelle ou en peinture numérique.",
+    "es": "El artista principal de una obra<br> en un medio distinto a los lápices o el arte lineal digital - por ejemplo, si la obra principal se realiza en acuarelas o pinturas digitales."
   },
   "notation": [
     "1791"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

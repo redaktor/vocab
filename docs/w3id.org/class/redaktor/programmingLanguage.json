@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FprogrammingLanguage",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FprogrammingLanguage",
   "prefLabel": {
-    "en": "programming language",
     "de": "Programmiersprache",
+    "en": "programming language",
     "fr": "langage de programmation",
     "es": "lenguaje de programación"
   },
   "definition": {
+    "de": "Die Programmiersprache für Computer.",
     "en": "The computer programming language.",
-    "de": "The computer programming language.",
-    "fr": "The computer programming language.",
-    "es": "The computer programming language."
+    "fr": "Le langage de programmation informatique.",
+    "es": "El lenguaje de programación del ordenador."
   },
   "notation": [
     "2165"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

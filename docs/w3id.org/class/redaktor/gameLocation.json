@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FgameLocation",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FgameLocation",
   "prefLabel": {
-    "en": "game location",
     "de": "Spielort",
+    "en": "game location",
     "fr": "emplacement du jeu",
     "es": "ubicación del juego"
   },
   "definition": {
+    "de": "Realer oder fiktiver Ort des Spiels (oder eines Teils des Spiels).",
     "en": "Real or fictional location of the game (or part of game).",
-    "de": "Real or fictional location of the game (or part of game).",
-    "fr": "Real or fictional location of the game (or part of game).",
-    "es": "Real or fictional location of the game (or part of game)."
+    "fr": "Lieu réel ou fictif du jeu (ou d'une partie du jeu).",
+    "es": "Ubicación real o ficticia del juego (o parte del juego)."
   },
   "notation": [
     "1969"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

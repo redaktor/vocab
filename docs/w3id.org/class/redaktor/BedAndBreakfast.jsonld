@@ -4,17 +4,17 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FBedAndBreakfast",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FBedAndBreakfast",
   "prefLabel": {
-    "en": "Bed And Breakfast",
     "de": "Bett und Frühstück",
+    "en": "Bed And Breakfast",
     "fr": "Lit et petit déjeuner",
     "es": "Alojamiento y desayuno"
   },
   "altLabel": {
-    "en": [
+    "de": [
       "Bed And Breakfast",
       "BnB"
     ],
-    "de": [
+    "en": [
       "Bed And Breakfast",
       "BnB"
     ],
@@ -38,8 +38,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

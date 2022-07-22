@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Ffirst",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Ffirst",
   "prefLabel": {
-    "en": "first",
     "de": "erste",
+    "en": "first",
     "fr": "premièrement",
     "es": "primera"
   },
   "definition": {
-    "en": "In a paged Collection, indicates the furthest preceeding page of items in the collection.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-first](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-first)",
     "de": "Gibt in einer paginierten Sammlung die am weitesten zurückliegende Seite der Elemente in der Sammlung an.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-first](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-first)",
+    "en": "In a paged Collection, indicates the furthest preceeding page of items in the collection.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-first](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-first)",
     "fr": "Dans une collection paginée, indique la page d'éléments qui précède le plus loin dans la collection.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-first](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-first)",
     "es": "En una colección paginada, indica la página anterior más lejana de los elementos de la colección.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-first](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-first)"
   },
   "scopeNote": {
-    "en": ": Property",
     "de": ": Property",
+    "en": ": Property",
     "fr": ": Property",
     "es": ": Property"
   },
@@ -25,16 +25,16 @@
     "612"
   ],
   "example": {
-    "en": "[Example 76](https://www.w3.org/TR/activitystreams-vocabulary/#ex73-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's blog posts\",\n  \"type\": \"Collection\",\n  \"totalItems\": 3,\n  \"first\": \"http://example.org/collection?page=0\"\n}\n```",
     "de": "[Beispiel 76](https://www.w3.org/TR/activitystreams-vocabulary/#ex73-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's blog posts\",\n  \"type\": \"Collection\",\n  \"totalItems\": 3,\n  \"first\": \"http://example.org/collection?page=0\"\n}\n```",
+    "en": "[Example 76](https://www.w3.org/TR/activitystreams-vocabulary/#ex73-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's blog posts\",\n  \"type\": \"Collection\",\n  \"totalItems\": 3,\n  \"first\": \"http://example.org/collection?page=0\"\n}\n```",
     "fr": "[Exemple 76](https://www.w3.org/TR/activitystreams-vocabulary/#ex73-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's blog posts\",\n  \"type\": \"Collection\",\n  \"totalItems\": 3,\n  \"first\": \"http://example.org/collection?page=0\"\n}\n```",
     "es": "[Ejemplo 76](https://www.w3.org/TR/activitystreams-vocabulary/#ex73-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's blog posts\",\n  \"type\": \"Collection\",\n  \"totalItems\": 3,\n  \"first\": \"http://example.org/collection?page=0\"\n}\n```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/Collection",
     "prefLabel": {
-      "en": "Collection",
       "de": "Sammlung",
+      "en": "Collection",
       "fr": "Collection",
       "es": "Colección"
     }
@@ -47,8 +47,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

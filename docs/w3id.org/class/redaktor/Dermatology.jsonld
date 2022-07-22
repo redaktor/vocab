@@ -4,10 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FDermatology",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FDermatology",
   "prefLabel": {
-    "en": "Dermatology",
     "de": "Dermatologie",
+    "en": "Dermatology",
     "fr": "Dermatologie",
     "es": "Dentista"
+  },
+  "definition": {
+    "de": "Ein spezifischer Zweig der medizinischen Wissenschaft, der sich mit der Diagnose und Behandlung von Hautkrankheiten befasst.",
+    "en": "A specific branch of medical science that pertains to diagnosis and treatment of disorders of skin.",
+    "fr": "Une branche spécifique de la science médicale qui se rapporte au diagnostic et au traitement des troubles de la peau.",
+    "es": "Rama específica de la ciencia médica que se ocupa del diagnóstico y el tratamiento de los trastornos de la piel."
   },
   "notation": [
     "1064"
@@ -20,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

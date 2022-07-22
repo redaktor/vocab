@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FLocalBusiness",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FLocalBusiness",
   "prefLabel": {
-    "en": "Local Business",
     "de": "Lokales Geschäft",
+    "en": "Local Business",
     "fr": "Entreprises locales",
     "es": "Negocios locales"
   },
   "definition": {
-    "en": "A particular physical business or branch of an organization. Examples of LocalBusiness include a restaurant, a particular branch of a restaurant chain, a branch of a bank, a medical practice, a club, a bowling alley, etc.",
     "de": "Ein bestimmtes physisches Geschäft oder eine Niederlassung einer Organisation. Beispiele für LocalBusiness sind ein Restaurant, eine bestimmte Filiale einer Restaurantkette, eine Bankfiliale, eine Arztpraxis, ein Club, eine Bowlingbahn usw.",
+    "en": "A particular physical business or branch of an organization. Examples of LocalBusiness include a restaurant, a particular branch of a restaurant chain, a branch of a bank, a medical practice, a club, a bowling alley, etc.",
     "fr": "Une entreprise physique particulière ou une branche d'une organisation. Les exemples de LocalBusiness incluent un restaurant, une branche particulière d'une chaîne de restaurants, une branche d'une banque, un cabinet médical, un club, une piste de bowling, etc.",
     "es": "Un negocio físico particular o una rama de una organización. Algunos ejemplos de LocalBusiness son un restaurante, una sucursal concreta de una cadena de restaurantes, una sucursal de un banco, una consulta médica, un club, una bolera, etc."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/LodgingBusiness",
       "prefLabel": {
-        "en": "Lodging Business",
         "de": "Beherbergung",
+        "en": "Lodging Business",
         "fr": "Hébergement",
         "es": "Negocios de Hospedaje"
       }
@@ -31,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/EmergencyService",
       "prefLabel": {
-        "en": "Emergency Service",
         "de": "Notfall",
+        "en": "Emergency Service",
         "fr": "Service d'urgence",
         "es": "Servicio de emergencia"
       }
@@ -40,8 +40,8 @@
     {
       "id": "https://w3id.org/class/redaktor/EntertainmentBusiness",
       "prefLabel": {
-        "en": "Entertainment Business",
         "de": "Unterhaltungsbranche",
+        "en": "Entertainment Business",
         "fr": "Entreprise de divertissement",
         "es": "Negocio de entretenimiento"
       }
@@ -49,8 +49,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SportsActivityLocation",
       "prefLabel": {
-        "en": "Sports Activity Location",
         "de": "Sportliche Aktivitäten",
+        "en": "Sports Activity Location",
         "fr": "Lieu d'activité sportive",
         "es": "Lugar de actividad deportiva"
       }
@@ -58,8 +58,8 @@
     {
       "id": "https://w3id.org/class/redaktor/FinancialService",
       "prefLabel": {
-        "en": "Financial Service",
         "de": "Finanzdienstleistung",
+        "en": "Financial Service",
         "fr": "Service financier",
         "es": "Servicio financiero"
       }
@@ -67,8 +67,8 @@
     {
       "id": "https://w3id.org/class/redaktor/AnimalShelter",
       "prefLabel": {
-        "en": "Animal Shelter",
         "de": "Tierheim",
+        "en": "Animal Shelter",
         "fr": "Refuge pour animaux",
         "es": "Refugio de animales"
       }
@@ -76,8 +76,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ArchiveOrganization",
       "prefLabel": {
-        "en": "Archive Organization",
         "de": "Archiv-Organisation",
+        "en": "Archive Organization",
         "fr": "Organisation d'archives",
         "es": "Organización de archivos"
       }
@@ -85,8 +85,8 @@
     {
       "id": "https://w3id.org/class/redaktor/AutomotiveBusiness",
       "prefLabel": {
-        "en": "Automotive Business",
         "de": "Automobilgeschäft",
+        "en": "Automotive Business",
         "fr": "Commerce automobile",
         "es": "Negocio del automóvil"
       }
@@ -94,8 +94,8 @@
     {
       "id": "https://w3id.org/class/redaktor/BikeRental",
       "prefLabel": {
-        "en": "Bike Rental",
         "de": "Fahrradverleih",
+        "en": "Bike Rental",
         "fr": "Location de vélos",
         "es": "Alquiler de bicicletas"
       }
@@ -103,8 +103,8 @@
     {
       "id": "https://w3id.org/class/redaktor/BoatRental",
       "prefLabel": {
-        "en": "Boat Rental",
         "de": "Bootsverleih",
+        "en": "Boat Rental",
         "fr": "Location de bateaux",
         "es": "Alquiler de barcos"
       }
@@ -112,8 +112,8 @@
     {
       "id": "https://w3id.org/class/redaktor/BoatShare",
       "prefLabel": {
-        "en": "Boat Share",
         "de": "Boote teilen",
+        "en": "Boat Share",
         "fr": "Partage de bateaux",
         "es": "Compartir de barcos"
       }
@@ -121,8 +121,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ChildCare",
       "prefLabel": {
-        "en": "Child Care",
         "de": "Kinderbetreuung",
+        "en": "Child Care",
         "fr": "Soins aux enfants",
         "es": "Cuidado de niños"
       }
@@ -130,8 +130,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Dentist",
       "prefLabel": {
-        "en": "Dentist",
         "de": "Zahnarzt",
+        "en": "Dentist",
         "fr": "Dentiste",
         "es": "Dentista"
       }
@@ -139,8 +139,8 @@
     {
       "id": "https://w3id.org/class/redaktor/MedicalBusiness",
       "prefLabel": {
-        "en": "Medical Business",
         "de": "Medizinische Einrichtung",
+        "en": "Medical Business",
         "fr": "Commerce médical",
         "es": "Negocio Médico"
       }
@@ -148,8 +148,8 @@
     {
       "id": "https://w3id.org/class/redaktor/DryCleaningOrLaundry",
       "prefLabel": {
-        "en": "DryC leaning or Laundry",
         "de": "Chemische Reinigung oder Wäscherei",
+        "en": "Dry Cleaning or Laundry",
         "fr": "Nettoyage à sec ou blanchisserie",
         "es": "Tintorería o lavandería"
       }
@@ -157,8 +157,8 @@
     {
       "id": "https://w3id.org/class/redaktor/EmploymentAgency",
       "prefLabel": {
-        "en": "Employment Agency",
         "de": "Arbeitsagentur",
+        "en": "Employment Agency",
         "fr": "Agence pour l'emploi",
         "es": "Agencia de empleo"
       }
@@ -166,8 +166,8 @@
     {
       "id": "https://w3id.org/class/redaktor/FoodEstablishment",
       "prefLabel": {
-        "en": "Food Establishment",
         "de": "Essen und Trinken",
+        "en": "Food Establishment",
         "fr": "Établissement alimentaire",
         "es": "Establecimiento alimentario"
       }
@@ -175,8 +175,8 @@
     {
       "id": "https://w3id.org/class/redaktor/GovernmentOffice",
       "prefLabel": {
-        "en": "Government Office",
         "de": "Regierungsbüro",
+        "en": "Government Office",
         "fr": "Bureau du gouvernement",
         "es": "Oficina gubernamental"
       }
@@ -184,8 +184,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HealthAndBeautyBusiness",
       "prefLabel": {
-        "en": "Health and Beauty Business",
         "de": "Gesundheit und Schönheit",
+        "en": "Health and Beauty Business",
         "fr": "Commerce de santé et de beauté",
         "es": "Negocios de Salud y Belleza"
       }
@@ -193,8 +193,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HomeAndConstructionBusiness",
       "prefLabel": {
-        "en": "Home and Construction Business",
         "de": "Haus und Baugewerbe",
+        "en": "Home and Construction Business",
         "fr": "Commerce de maison et de construction",
         "es": "Negocio del Hogar y la Construcción"
       }
@@ -202,8 +202,8 @@
     {
       "id": "https://w3id.org/class/redaktor/InternetCafe",
       "prefLabel": {
-        "en": "Internet Cafe",
         "de": "Internet Café",
+        "en": "Internet Cafe",
         "fr": "Café Internet",
         "es": "Cibercafé"
       }
@@ -211,8 +211,8 @@
     {
       "id": "https://w3id.org/class/redaktor/LegalService",
       "prefLabel": {
-        "en": "Legal Service",
         "de": "Juristischer Dienst",
+        "en": "Legal Service",
         "fr": "Service juridique",
         "es": "Servicio Jurídico"
       }
@@ -220,8 +220,8 @@
     {
       "id": "https://w3id.org/class/redaktor/RadioStation",
       "prefLabel": {
-        "en": "Radio Station",
         "de": "Radiosender",
+        "en": "Radio Station",
         "fr": "Station de radio",
         "es": "Estación de radio"
       }
@@ -229,8 +229,8 @@
     {
       "id": "https://w3id.org/class/redaktor/RecyclingCenter",
       "prefLabel": {
-        "en": "Recycling Center",
         "de": "Recycling Center",
+        "en": "Recycling Center",
         "fr": "Centre de recyclage",
         "es": "Centro de Reciclaje"
       }
@@ -238,8 +238,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SelfStorage",
       "prefLabel": {
-        "en": "Self Storage",
         "de": "Selbstlagerung",
+        "en": "Self Storage",
         "fr": "Entreposage libre-service",
         "es": "Almacén de autoservicio"
       }
@@ -247,8 +247,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ShoppingCenter",
       "prefLabel": {
-        "en": "Shopping Center",
         "de": "Einkaufszentrum",
+        "en": "Shopping Center",
         "fr": "Centre commercial",
         "es": "Centro comercial"
       }
@@ -256,8 +256,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Store",
       "prefLabel": {
-        "en": "Store",
         "de": "Geschäft",
+        "en": "Store",
         "fr": "Magasin",
         "es": "Tienda"
       }
@@ -265,8 +265,8 @@
     {
       "id": "https://w3id.org/class/redaktor/TelevisionStation",
       "prefLabel": {
-        "en": "Television Station",
         "de": "Fernsehsender",
+        "en": "Television Station",
         "fr": "Station de télévision",
         "es": "Estación de televisión"
       }
@@ -274,8 +274,8 @@
     {
       "id": "https://w3id.org/class/redaktor/TouristInformationCenter",
       "prefLabel": {
-        "en": "Tourist Information Center",
         "de": "Touristisches Informationszentrum",
+        "en": "Tourist Information Center",
         "fr": "Centre d'information touristique",
         "es": "Centro de información turística"
       }
@@ -283,8 +283,8 @@
     {
       "id": "https://w3id.org/class/redaktor/TravelAgency",
       "prefLabel": {
-        "en": "Travel Agency",
         "de": "Reisebüro",
+        "en": "Travel Agency",
         "fr": "Agence de voyage",
         "es": "Agencia de viajes"
       }
@@ -292,8 +292,8 @@
     {
       "id": "https://w3id.org/class/redaktor/CameraStore",
       "prefLabel": {
-        "en": "Camera Store",
         "de": "Fotogeschäft",
+        "en": "Camera Store",
         "fr": "Magasin d'appareils photo",
         "es": "Tienda de cámaras"
       }
@@ -301,8 +301,8 @@
     {
       "id": "https://w3id.org/class/redaktor/CannabisCoffeeshop",
       "prefLabel": {
-        "en": "Cannabis Coffeeshop",
         "de": "Cannabis-Coffeeshop",
+        "en": "Cannabis Coffeeshop",
         "fr": "Coffeeshop de cannabis",
         "es": "Cannabis Coffeeshop"
       }
@@ -310,8 +310,8 @@
     {
       "id": "https://w3id.org/class/redaktor/CharityShop",
       "prefLabel": {
-        "en": "Charity Shop",
         "de": "Wohltätigkeitsladen",
+        "en": "Charity Shop",
         "fr": "Boutique de charité",
         "es": "Tienda benéfica"
       }
@@ -319,8 +319,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Copyshop",
       "prefLabel": {
-        "en": "Copyshop",
         "de": "Copyshop",
+        "en": "Copyshop",
         "fr": "Copyshop",
         "es": "Tienda de copias"
       }
@@ -328,8 +328,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SecondHand",
       "prefLabel": {
-        "en": "Second Hand",
         "de": "Second Hand",
+        "en": "Second Hand",
         "fr": "Commerce d'occasion",
         "es": "Segunda mano"
       }
@@ -337,8 +337,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Herbalist",
       "prefLabel": {
-        "en": "Herbalist",
         "de": "Kräutergeschäft",
+        "en": "Herbalist",
         "fr": "Commerce d'occasion",
         "es": "Herbolario"
       }
@@ -346,8 +346,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Hifi",
       "prefLabel": {
-        "en": "Hifi",
         "de": "Hifi",
+        "en": "Hifi",
         "fr": "Hifi",
         "es": "Hifi"
       }
@@ -355,8 +355,8 @@
     {
       "id": "https://w3id.org/class/redaktor/MusicalInstruments",
       "prefLabel": {
-        "en": "Musical Instruments",
         "de": "Musikinstrumente",
+        "en": "Musical Instruments",
         "fr": "Instruments de musique",
         "es": "Instrumentos musicales"
       }
@@ -364,8 +364,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Outdoor",
       "prefLabel": {
-        "en": "Outdoor",
         "de": "Outdoor",
+        "en": "Outdoor",
         "fr": "Outdoor / Extérieur",
         "es": "Outdoor"
       }
@@ -373,8 +373,8 @@
     {
       "id": "https://w3id.org/class/redaktor/PartyShop",
       "prefLabel": {
-        "en": "Party",
         "de": "Party",
+        "en": "Party",
         "fr": "Party",
         "es": "Party / Fête"
       }
@@ -382,8 +382,8 @@
     {
       "id": "https://w3id.org/class/redaktor/branchOf",
       "prefLabel": {
-        "en": "branch of",
         "de": "Zweigstelle von",
+        "en": "branch of",
         "fr": "branche de",
         "es": "rama de"
       }
@@ -391,8 +391,8 @@
     {
       "id": "https://w3id.org/class/redaktor/currenciesAccepted",
       "prefLabel": {
-        "en": "currencies accepted",
         "de": "akzeptierte Währungen",
+        "en": "currencies accepted",
         "fr": "monnaies acceptées",
         "es": "monedas aceptadas"
       }
@@ -400,8 +400,8 @@
     {
       "id": "https://w3id.org/class/redaktor/openingHours",
       "prefLabel": {
-        "en": "opening hours",
         "de": "Öffnungszeiten",
+        "en": "opening hours",
         "fr": "heures d'ouverture",
         "es": "horario de apertura"
       }
@@ -409,8 +409,8 @@
     {
       "id": "https://w3id.org/class/redaktor/paymentAccepted",
       "prefLabel": {
-        "en": "payment accepted",
         "de": "Zahlung akzeptiert",
+        "en": "payment accepted",
         "fr": "paiement accepté",
         "es": "pago aceptado"
       }
@@ -418,8 +418,8 @@
     {
       "id": "https://w3id.org/class/redaktor/priceRange",
       "prefLabel": {
-        "en": "price range",
         "de": "Preisspanne",
+        "en": "price range",
         "fr": "fourchette de prix",
         "es": "rango de precios"
       }
@@ -433,8 +433,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

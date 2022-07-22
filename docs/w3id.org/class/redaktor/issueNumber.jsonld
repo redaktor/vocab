@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FissueNumber",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FissueNumber",
   "prefLabel": {
-    "en": "issue number",
     "de": "Ausgabennummer",
+    "en": "issue number",
     "fr": "numéro d'émission",
     "es": "número de emisión"
   },
   "definition": {
+    "de": "Kennzeichnet die Ausgabe der Veröffentlichung, z. B. \"iii\" oder \"2\".",
     "en": "Identifies the issue of publication; for example, “iii” or “2”.",
-    "de": "Identifies the issue of publication; for example, “iii” or “2”.",
-    "fr": "Identifies the issue of publication; for example, “iii” or “2”.",
-    "es": "Identifies the issue of publication; for example, “iii” or “2”."
+    "fr": "Identifie le numéro de la publication ; par exemple, \"iii\" ou \"2\".",
+    "es": "Identifica el número de la publicación; por ejemplo, \"iii\" o \"2\"."
   },
   "notation": [
     "2042"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

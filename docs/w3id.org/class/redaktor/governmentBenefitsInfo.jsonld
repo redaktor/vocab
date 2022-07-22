@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FgovernmentBenefitsInfo",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FgovernmentBenefitsInfo",
   "prefLabel": {
-    "en": "government benefits info",
     "de": "Informationen über staatliche Leistungen",
+    "en": "government benefits info",
     "fr": "information sur les prestations du gouvernement",
     "es": "información sobre las prestaciones del gobierno"
   },
   "definition": {
+    "de": "governmentBenefitsInfo liefert Informationen über staatliche Leistungen im Zusammenhang mit einer Sonderbekanntmachung.",
     "en": "governmentBenefitsInfo provides information about government benefits associated with a SpecialAnnouncement.",
-    "de": "governmentBenefitsInfo provides information about government benefits associated with a SpecialAnnouncement.",
-    "fr": "governmentBenefitsInfo provides information about government benefits associated with a SpecialAnnouncement.",
-    "es": "governmentBenefitsInfo provides information about government benefits associated with a SpecialAnnouncement."
+    "fr": "governmentBenefitsInfo fournit des informations sur les prestations gouvernementales associées à une SpecialAnnouncement.",
+    "es": "governmentBenefitsInfo proporciona información sobre las prestaciones gubernamentales asociadas a un SpecialAnnouncement."
   },
   "notation": [
     "1979"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/GovernmentService",
+      "prefLabel": {
+        "de": "Öffentlicher Dienst",
+        "en": "Government Service",
+        "fr": "Service public",
+        "es": "Servicio gubernamental"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

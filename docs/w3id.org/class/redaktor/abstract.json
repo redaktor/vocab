@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fabstract",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fabstract",
   "prefLabel": {
-    "en": "abstract",
     "de": "Zusammenfassung",
+    "en": "abstract",
     "fr": "résumé",
     "es": "resumen"
   },
   "definition": {
+    "de": "Ein Abstract ist eine kurze Beschreibung, die ein [[CreativeWork]] zusammenfasst.",
     "en": "An abstract is a short description that summarizes a [[CreativeWork]].",
-    "de": "An abstract is a short description that summarizes a [[CreativeWork]].",
-    "fr": "An abstract is a short description that summarizes a [[CreativeWork]].",
-    "es": "An abstract is a short description that summarizes a [[CreativeWork]]."
+    "fr": "Un résumé est une courte description qui résume un [[Travail créatif]].",
+    "es": "Un resumen es una breve descripción que resume un [[Trabajo Creativo]]."
   },
   "notation": [
     "1739"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

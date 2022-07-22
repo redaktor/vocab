@@ -1,0 +1,140 @@
+{
+  "id": "https://w3id.org/class/redaktor/fuelEfficiency",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FfuelEfficiency",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FfuelEfficiency",
+  "prefLabel": {
+    "de": "Kraftstoffeffizienz",
+    "en": "fuel efficiency",
+    "fr": "efficacité des carburants",
+    "es": "eficiencia en el consumo de combustible"
+  },
+  "definition": {
+    "de": "Die zurückgelegte Strecke pro verbrauchter Kraftstoffeinheit; am häufigsten Meilen pro Gallone (mpg) oder Kilometer pro Liter (km/L).\n\n* Hinweis 1: Leider gibt es keine Standard-Einheitencodes für Meilen pro Gallone oder Kilometer pro Liter. Verwenden Sie [[unitText]], um die Maßeinheit anzugeben, z. B. mpg oder km/L.\n* Hinweis 2: Es gibt zwei Möglichkeiten, den Kraftstoffverbrauch anzugeben, [[fuelConsumption]] (z. B. 8 Liter pro 100 km) und [[fuelEfficiency]] (z. B. 30 Meilen pro Gallone). Sie sind reziprok.\n* Hinweis 3: Oft ist der absolute Wert nur dann sinnvoll, wenn er sich auf die Fahrgeschwindigkeit (\"bei 80 km/h\") oder das Nutzungsmuster (\"Stadtverkehr\") bezieht. Sie können [[valueReference]] verwenden, um den Wert für den Kraftstoffverbrauch mit einem anderen Wert zu verknüpfen.",
+    "en": "The distance traveled per unit of fuel used; most commonly miles per gallon (mpg) or kilometers per liter (km/L).\n\n* Note 1: There are unfortunately no standard unit codes for miles per gallon or kilometers per liter. Use [[unitText]] to indicate the unit of measurement, e.g. mpg or km/L.\n* Note 2: There are two ways of indicating the fuel consumption, [[fuelConsumption]] (e.g. 8 liters per 100 km) and [[fuelEfficiency]] (e.g. 30 miles per gallon). They are reciprocal.\n* Note 3: Often, the absolute value is useful only when related to driving speed (\"at 80 km/h\") or usage pattern (\"city traffic\"). You can use [[valueReference]] to link the value for the fuel economy to another value.",
+    "fr": "La distance parcourue par unité de carburant utilisée, le plus souvent des miles par gallon (mpg) ou des kilomètres par litre (km/L).\n\n* Note 1 : Il n'existe malheureusement pas de codes d'unité standard pour les miles par gallon ou les kilomètres par litre. Utilisez [[unitText]] pour indiquer l'unité de mesure, par exemple mpg ou km/L.\n* Note 2 : Il existe deux façons d'indiquer la consommation de carburant, [[fuelConsumption]] (par exemple 8 litres pour 100 km) et [[fuelEfficiency]] (par exemple 30 miles par gallon). Ils sont réciproques.\n* Note 3 : Souvent, la valeur absolue n'est utile que lorsqu'elle est liée à la vitesse de conduite (\"à 80 km/h\") ou au mode d'utilisation (\"trafic urbain\"). Vous pouvez utiliser [[valueReference]] pour lier la valeur de l'économie de carburant à une autre valeur.",
+    "es": "La distancia recorrida por unidad de combustible utilizado; más comúnmente millas por galón (mpg) o kilómetros por litro (km/L).\n* Nota 1: Lamentablemente no hay códigos de unidad estándar para las millas por galón o los kilómetros por litro. Utilice [[unitText]] para indicar la unidad de medida, por ejemplo, mpg o km/L.\n* Nota 2: Hay dos formas de indicar el consumo de combustible, [[fuelConsumption]] (por ejemplo, 8 litros por 100 km) y [[fuelEfficiency]] (por ejemplo, 30 millas por galón). Son recíprocos.\n* Nota 3: A menudo, el valor absoluto sólo es útil cuando se relaciona con la velocidad de conducción (\"a 80 km/h\") o el patrón de uso (\"tráfico urbano\"). Puede utilizar [[valorReferencia]] para vincular el valor del ahorro de combustible a otro valor."
+  },
+  "notation": [
+    "2433"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/QuantitativeValue",
+      "prefLabel": {
+        "de": "Quantitativer Wert",
+        "en": "Quantitative Value",
+        "fr": "Valeur quantitative",
+        "es": "Valor cuantitativo"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:fuelEfficiency"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

@@ -6,6 +6,12 @@
   "prefLabel": {
     "en": "episode number"
   },
+  "definition": {
+    "de": "Position der Episode innerhalb einer geordneten Gruppe von Episoden.",
+    "en": "Position of the episode within an ordered group of episodes.",
+    "fr": "Position de l'épisode dans un groupe ordonné d'épisodes.",
+    "es": "Posición del episodio dentro de un grupo ordenado de episodios."
+  },
   "notation": [
     "2309"
   ],
@@ -17,8 +23,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

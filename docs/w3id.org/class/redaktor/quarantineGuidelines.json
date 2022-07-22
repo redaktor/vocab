@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FquarantineGuidelines",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FquarantineGuidelines",
   "prefLabel": {
-    "en": "quarantine guidelines",
     "de": "Quarantäne-Leitlinien",
+    "en": "quarantine guidelines",
     "fr": "principes de quarantaine",
     "es": "directrices de cuarentena"
   },
   "definition": {
+    "de": "Leitlinien für Quarantänevorschriften, z. B. im Zusammenhang mit einer Pandemie.",
     "en": "Guidelines about quarantine rules, e.g. in the context of a pandemic.",
-    "de": "Guidelines about quarantine rules, e.g. in the context of a pandemic.",
-    "fr": "Guidelines about quarantine rules, e.g. in the context of a pandemic.",
-    "es": "Guidelines about quarantine rules, e.g. in the context of a pandemic."
+    "fr": "Directives sur les règles de quarantaine, par exemple dans le contexte d'une pandémie.",
+    "es": "Directrices sobre las normas de cuarentena, por ejemplo, en el contexto de una pandemia."
   },
   "notation": [
     "2177"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/WebContent",
+      "prefLabel": {
+        "de": "Web-Inhalt",
+        "en": "Web Content",
+        "fr": "Contenu Web",
+        "es": "Contenido de la web"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

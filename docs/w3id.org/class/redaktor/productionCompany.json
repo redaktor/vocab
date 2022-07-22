@@ -6,6 +6,12 @@
   "prefLabel": {
     "en": "production company"
   },
+  "definition": {
+    "de": "Die Produktionsfirma oder das Studio, das für den Artikel verantwortlich ist, z. B. eine Serie, ein Videospiel, eine Episode usw.",
+    "en": "The production company or studio responsible for the item e.g. series, video game, episode etc.",
+    "fr": "La société de production ou le studio responsable de l'élément, par exemple une série, un jeu vidéo, un épisode, etc.",
+    "es": "La empresa de producción o el estudio responsable del artículo, por ejemplo, una serie, un videojuego, un episodio, etc."
+  },
   "notation": [
     "2305"
   ],
@@ -17,8 +23,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

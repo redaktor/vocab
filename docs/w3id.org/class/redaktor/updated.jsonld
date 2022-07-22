@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fupdated",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fupdated",
   "prefLabel": {
-    "en": "updated",
     "de": "aktualisiert",
+    "en": "updated",
     "fr": "actualisé",
     "es": "actualizada"
   },
   "definition": {
-    "en": "The date and time at which the object was updated.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)",
     "de": "Das Datum und die Uhrzeit, zu der das Objekt aktualisiert wurde.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)",
+    "en": "The date and time at which the object was updated.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)",
     "fr": "La date et l'heure auxquelles l'objet a été mis à jour.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)",
     "es": "La fecha y hora en que se actualizó el objeto.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated)"
   },
   "scopeNote": {
-    "en": ": Property",
     "de": ": Property",
+    "en": ": Property",
     "fr": ": Property",
     "es": ": Property"
   },
@@ -25,16 +25,16 @@
     "124"
   ],
   "example": {
-    "en": "[Example 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"Cranberry Sauce Idea\",\n  \"type\": \"Note\",\n  \"content\": \"Mush it up so it does not have the same shape as the can.\",\n  \"updated\": \"2014-12-12T12:12:12Z\"\n}\n```",
     "de": "[Beispiel 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"Cranberry Sauce Idea\",\n  \"type\": \"Note\",\n  \"content\": \"Mush it up so it does not have the same shape as the can.\",\n  \"updated\": \"2014-12-12T12:12:12Z\"\n}\n```",
+    "en": "[Example 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"Cranberry Sauce Idea\",\n  \"type\": \"Note\",\n  \"content\": \"Mush it up so it does not have the same shape as the can.\",\n  \"updated\": \"2014-12-12T12:12:12Z\"\n}\n```",
     "fr": "[Exemple 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"Cranberry Sauce Idea\",\n  \"type\": \"Note\",\n  \"content\": \"Mush it up so it does not have the same shape as the can.\",\n  \"updated\": \"2014-12-12T12:12:12Z\"\n}\n```",
     "es": "[Ejemplo 137](https://www.w3.org/TR/activitystreams-vocabulary/#ex158-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"Cranberry Sauce Idea\",\n  \"type\": \"Note\",\n  \"content\": \"Mush it up so it does not have the same shape as the can.\",\n  \"updated\": \"2014-12-12T12:12:12Z\"\n}\n```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/Object",
     "prefLabel": {
-      "en": "Object",
       "de": "Objekt",
+      "en": "Object",
       "fr": "Objet",
       "es": "Objeto"
     }
@@ -47,8 +47,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FhasMerchantReturnPolicy",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FhasMerchantReturnPolicy",
   "prefLabel": {
-    "en": "has merchant return policy",
     "de": "hat Rückgaberecht des Händlers",
+    "en": "has merchant return policy",
     "fr": "a la politique de retour du commerçant",
     "es": "tiene política de devolución del comerciante"
   },
   "definition": {
+    "de": "Gibt eine MerchantReturnPolicy an, die möglicherweise anwendbar ist.",
     "en": "Specifies a MerchantReturnPolicy that may be applicable.",
-    "de": "Specifies a MerchantReturnPolicy that may be applicable.",
-    "fr": "Specifies a MerchantReturnPolicy that may be applicable.",
-    "es": "Specifies a MerchantReturnPolicy that may be applicable."
+    "fr": "Spécifie une MerchantReturnPolicy qui peut être applicable.",
+    "es": "Especifica una MerchantReturnPolicy que puede ser aplicable."
   },
   "notation": [
     "1991"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/MerchantReturnPolicy",
+      "prefLabel": {
+        "de": "Rückgabebedingungen des Händlers",
+        "en": "Merchant Return Policy",
+        "fr": "Politique de retour du commerçant",
+        "es": "Política de devoluciones del comerciante"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

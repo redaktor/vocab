@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FFundingScheme",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FFundingScheme",
   "prefLabel": {
-    "en": "Funding Scheme",
     "de": "Förderschema",
+    "en": "Funding Scheme",
     "fr": "Schéma de financement",
     "es": "Esquema de financiación"
   },
   "definition": {
-    "en": "A FundingScheme combines organizational, project and policy aspects of grant-based funding that sets guidelines, principles and mechanisms to support other kinds of projects and activities. Funding is typically organized via Grant funding. Examples of funding schemes: Swiss Priority Programmes (SPPs); EU Framework 7 (FP7); Horizon 2020;",
     "de": "Ein FundingScheme kombiniert organisatorische, projektbezogene und politische Aspekte der Zuschussfinanzierung, die Richtlinien, Grundsätze und Mechanismen zur Unterstützung anderer Arten von Projekten und Aktivitäten festlegt. Die Finanzierung wird typischerweise über Zuschussfinanzierung organisiert. Beispiele für Förderprogramme: Schweizer Schwerpunktprogramme (SPP); EU-Rahmenprogramm 7 (FP7); Horizon 2020;",
+    "en": "A FundingScheme combines organizational, project and policy aspects of grant-based funding that sets guidelines, principles and mechanisms to support other kinds of projects and activities. Funding is typically organized via Grant funding. Examples of funding schemes: Swiss Priority Programmes (SPPs); EU Framework 7 (FP7); Horizon 2020;",
     "fr": "Un FundingScheme combine les aspects organisationnels, de projet et de politique du financement par subvention qui établit des lignes directrices, des principes et des mécanismes pour soutenir d'autres types de projets et d'activités. Le financement est généralement organisé par le biais d'une subvention. Exemples de plans de financement : Programmes prioritaires suisses (PPS) ; 7e cadre de l'UE (FP7) ; Horizon 2020 ;",
     "es": "Un Esquema de Financiación combina los aspectos organizativos, de proyecto y de política de la financiación basada en subvenciones que establece directrices, principios y mecanismos para apoyar otros tipos de proyectos y actividades. La financiación suele organizarse a través de subvenciones. Ejemplos de regímenes de financiación: Programas Prioritarios Suizos (PPS); Séptimo Marco de la UE (FP7); Horizon 2020;"
   },
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

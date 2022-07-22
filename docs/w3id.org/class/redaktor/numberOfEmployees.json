@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FnumberOfEmployees",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FnumberOfEmployees",
   "prefLabel": {
-    "en": "number of employees",
     "de": "Anzahl der Mitarbeiter",
+    "en": "number of employees",
     "fr": "nombre d'employés",
     "es": "número de empleados"
   },
   "definition": {
+    "de": "Die Anzahl der Mitarbeiter in einer Organisation, z. B. einem Unternehmen.",
     "en": "The number of employees in an organization e.g. business.",
-    "de": "The number of employees in an organization e.g. business.",
-    "fr": "The number of employees in an organization e.g. business.",
-    "es": "The number of employees in an organization e.g. business."
+    "fr": "Le nombre d'employés dans une organisation, par exemple une entreprise.",
+    "es": "El número de empleados de una organización, por ejemplo, una empresa."
   },
   "notation": [
     "2108"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/QuantitativeValue",
+      "prefLabel": {
+        "de": "Quantitativer Wert",
+        "en": "Quantitative Value",
+        "fr": "Valeur quantitative",
+        "es": "Valor cuantitativo"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

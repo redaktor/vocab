@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FestimatedFlightDuration",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FestimatedFlightDuration",
   "prefLabel": {
-    "en": "estimated flight duration",
     "de": "geschätzte Flugdauer",
+    "en": "estimated flight duration",
     "fr": "durée estimée du vol",
     "es": "duración estimada del vuelo"
   },
   "definition": {
+    "de": "Die geschätzte Dauer des Fluges.",
     "en": "The estimated time the flight will take.",
-    "de": "The estimated time the flight will take.",
-    "fr": "The estimated time the flight will take.",
-    "es": "The estimated time the flight will take."
+    "fr": "La durée estimée du vol.",
+    "es": "El tiempo estimado que durará el vuelo."
   },
   "notation": [
     "1939"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

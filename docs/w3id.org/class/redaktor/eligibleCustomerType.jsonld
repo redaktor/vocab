@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FeligibleCustomerType",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FeligibleCustomerType",
   "prefLabel": {
-    "en": "eligible customer type",
     "de": "zugelassener Kundentyp",
+    "en": "eligible customer type",
     "fr": "type de client éligible",
     "es": "tipo de cliente elegible"
   },
   "definition": {
+    "de": "Die Art(en) von Kunden, für die das angegebene Angebot gültig ist.",
     "en": "The type(s) of customers for which the given offer is valid.",
-    "de": "The type(s) of customers for which the given offer is valid.",
-    "fr": "The type(s) of customers for which the given offer is valid.",
-    "es": "The type(s) of customers for which the given offer is valid."
+    "fr": "Le(s) type(s) de clients pour lesquels l'offre donnée est valable.",
+    "es": "El tipo o tipos de clientes para los que es válida la oferta dada."
   },
   "notation": [
     "1926"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/BusinessEntityType",
+      "prefLabel": {
+        "de": "Art der Wirtschaftseinheit",
+        "en": "Business Entity Type",
+        "fr": "Type d'entité commerciale",
+        "es": "Tipo de entidad comercial"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FavailableFrom",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FavailableFrom",
   "prefLabel": {
-    "en": "available from",
     "de": "verfügbar von",
+    "en": "available from",
     "fr": "disponible à partir de",
     "es": "disponible desde"
   },
   "definition": {
+    "de": "Wenn der Artikel im Geschäft, im Schließfach usw. zur Abholung bereitsteht.",
     "en": "When the item is available for pickup from the store, locker, etc.",
-    "de": "When the item is available for pickup from the store, locker, etc.",
-    "fr": "When the item is available for pickup from the store, locker, etc.",
-    "es": "When the item is available for pickup from the store, locker, etc."
+    "fr": "Lorsque l'article est disponible pour être retiré du magasin, du casier, etc.",
+    "es": "Cuando el artículo está disponible para su recogida en la tienda, taquilla, etc."
   },
   "notation": [
     "1808"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

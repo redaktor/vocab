@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FView",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FView",
   "prefLabel": {
-    "en": "View",
     "de": "Sehen",
+    "en": "View",
     "fr": "Voir",
     "es": "Ver"
   },
   "definition": {
-    "en": "Indicates that the actor has viewed the object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-view](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-view)",
     "de": "Zeigt an, dass der Akteur das Objekt angesehen hat.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-view](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-view)",
+    "en": "Indicates that the actor has viewed the object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-view](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-view)",
     "fr": "Indique que l'acteur a visualisé l'objet.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-view](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-view)",
     "es": "Indica que el actor ha visto el objeto.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-view](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-view)"
   },
   "scopeNote": {
-    "en": ": Activity",
     "de": ": Activity",
+    "en": ": Activity",
     "fr": ": Activity",
     "es": ": Activity"
   },
@@ -25,8 +25,8 @@
     "224"
   ],
   "example": {
-    "en": "[Example 31](https://www.w3.org/TR/activitystreams-vocabulary/#ex161-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally read an article\",\n  \"type\": \"View\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Article\",\n    \"name\": \"What You Should Know About Activity Streams\"\n  }\n}\n```",
     "de": "[Beispiel 31](https://www.w3.org/TR/activitystreams-vocabulary/#ex161-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally read an article\",\n  \"type\": \"View\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Article\",\n    \"name\": \"What You Should Know About Activity Streams\"\n  }\n}\n```",
+    "en": "[Example 31](https://www.w3.org/TR/activitystreams-vocabulary/#ex161-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally read an article\",\n  \"type\": \"View\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Article\",\n    \"name\": \"What You Should Know About Activity Streams\"\n  }\n}\n```",
     "fr": "[Exemple 31](https://www.w3.org/TR/activitystreams-vocabulary/#ex161-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally read an article\",\n  \"type\": \"View\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Article\",\n    \"name\": \"What You Should Know About Activity Streams\"\n  }\n}\n```",
     "es": "[Ejemplo 31](https://www.w3.org/TR/activitystreams-vocabulary/#ex161-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally read an article\",\n  \"type\": \"View\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Article\",\n    \"name\": \"What You Should Know About Activity Streams\"\n  }\n}\n```"
   },
@@ -34,8 +34,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Watch",
       "prefLabel": {
-        "en": "Watch",
         "de": "Ansehen",
+        "en": "Watch",
         "fr": "Regarder",
         "es": "Ver"
       }
@@ -52,8 +52,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

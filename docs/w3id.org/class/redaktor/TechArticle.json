@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTechArticle",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTechArticle",
   "prefLabel": {
-    "en": "Tech Article",
     "de": "Tech Artikel",
+    "en": "Tech Article",
     "fr": "Article technique",
     "es": "Artículo técnico"
   },
   "definition": {
-    "en": "A technical article",
     "de": "Ein technischer Artikel",
+    "en": "A technical article",
     "fr": "Un article sur la technologie",
     "es": "Un artículo técnico"
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/APIReference",
       "prefLabel": {
-        "en": "API Reference or software documentation",
         "de": "API Referenz oder Software Dokumentation",
+        "en": "API Reference or software documentation",
         "fr": "Documentation de référence ou de logiciel",
         "es": "Documentación de referencia o de software"
       }
@@ -31,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/dependencies",
       "prefLabel": {
-        "en": "dependencies",
         "de": "Abhängigkeiten",
+        "en": "dependencies",
         "fr": "dépendances",
         "es": "dependencias"
       }
@@ -40,8 +40,8 @@
     {
       "id": "https://w3id.org/class/redaktor/proficiencyLevel",
       "prefLabel": {
-        "en": "proficiency level",
         "de": "Leistungsniveau",
+        "en": "proficiency level",
         "fr": "niveau de compétence",
         "es": "nivel de competencia"
       }
@@ -55,8 +55,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

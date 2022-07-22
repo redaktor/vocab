@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FMovieSeries",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FMovieSeries",
   "prefLabel": {
-    "en": "Movie Series",
     "de": "Film-Serie",
+    "en": "Movie Series",
     "fr": "Série de Film",
     "es": "Serie de Película"
   },
@@ -16,8 +16,8 @@
     {
       "id": "https://w3id.org/class/redaktor/actorPerforming",
       "prefLabel": {
-        "en": "actor",
         "de": "Darsteller",
+        "en": "actor",
         "fr": "acteur",
         "es": "actor"
       }
@@ -25,8 +25,8 @@
     {
       "id": "https://w3id.org/class/redaktor/director",
       "prefLabel": {
-        "en": "director",
         "de": "Regisseur",
+        "en": "director",
         "fr": "réalisateur",
         "es": "director"
       }
@@ -34,8 +34,8 @@
     {
       "id": "https://w3id.org/class/redaktor/musicBy",
       "prefLabel": {
-        "en": "music by",
         "de": "Musik von",
+        "en": "music by",
         "fr": "musique par",
         "es": "música por"
       }
@@ -43,8 +43,8 @@
     {
       "id": "https://w3id.org/class/redaktor/trailer",
       "prefLabel": {
-        "en": "trailer",
         "de": "Anhänger",
+        "en": "trailer",
         "fr": "remorque",
         "es": "remolque"
       }
@@ -53,8 +53,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/CreativeWorkSeries",
     "prefLabel": {
-      "en": "Series",
       "de": "Serie",
+      "en": "Series",
       "fr": "Série",
       "es": "Serie"
     }
@@ -67,8 +67,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

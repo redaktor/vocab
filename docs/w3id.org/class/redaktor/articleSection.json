@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FarticleSection",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FarticleSection",
   "prefLabel": {
-    "en": "article section",
     "de": "Artikelabschnitt",
+    "en": "article section",
     "fr": "section de l'article",
     "es": "sección del artículo"
   },
   "definition": {
+    "de": "Artikel können zu einer oder mehreren \"Rubriken\" in einer Zeitschrift oder Zeitung gehören, z. B. Sport, Lifestyle usw.",
     "en": "Articles may belong to one or more 'sections' in a magazine or newspaper, such as Sports, Lifestyle, etc.",
-    "de": "Articles may belong to one or more 'sections' in a magazine or newspaper, such as Sports, Lifestyle, etc.",
-    "fr": "Articles may belong to one or more 'sections' in a magazine or newspaper, such as Sports, Lifestyle, etc.",
-    "es": "Articles may belong to one or more 'sections' in a magazine or newspaper, such as Sports, Lifestyle, etc."
+    "fr": "Les articles peuvent appartenir à une ou plusieurs \"sections\" d'un magazine ou d'un journal, telles que Sports, Lifestyle, etc.",
+    "es": "Los artículos pueden pertenecer a una o varias \"secciones\" de una revista o periódico, como Deportes, Estilo de vida, etc."
   },
   "notation": [
     "1790"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

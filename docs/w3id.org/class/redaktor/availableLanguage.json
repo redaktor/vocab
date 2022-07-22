@@ -4,19 +4,41 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FavailableLanguage",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FavailableLanguage",
   "prefLabel": {
-    "en": "available language",
     "de": "verfügbare Sprache",
+    "en": "available language",
     "fr": "langues disponibles",
     "es": "idiomas disponibles"
   },
   "definition": {
-    "en": "A language someone may use with or at the item, service or place. Please use one of the language codes from the IETF BCP 47 standard.<br>See also :inLanguage",
     "de": "Eine Sprache, die jemand mit oder an dem Gegenstand, der Dienstleistung oder dem Ort verwenden kann. Bitte verwenden Sie einen der Sprachcodes aus dem IETF-Standard BCP 47.<br>Siehe auch :inLanguage",
-    "fr": "Une langue que quelqu'un peut utiliser avec ou au sujet de l'article, du service ou du lieu. Veuillez utiliser l'un des codes de langue de la norme BCP 47 de l'IETF.<br>Voir aussi :inLanguage",
-    "es": "A language someone may use with or at the item, service or place. Please use one of the language codes from the IETF BCP 47 standard.<br>See also :inLanguage"
+    "en": "Eine Sprache, die jemand mit oder an dem Gegenstand, der Dienstleistung oder dem Ort verwenden kann. Bitte verwenden Sie einen der Sprachcodes aus dem IETF-Standard BCP 47.<br>Siehe auch :inLanguage",
+    "fr": "Eine Sprache, die jemand mit oder an dem Gegenstand, der Dienstleistung oder dem Ort verwenden kann. Bitte verwenden Sie einen der Sprachcodes aus dem IETF-Standard BCP 47.<br>Siehe auch :inLanguage",
+    "es": "Un idioma que puede ser utilizado por cualquier persona, ya sea con o sin fines de lucro, o en el lugar de trabajo. Por favor, utilice uno de los códigos de idioma del estándar BCP 47 del IETF."
   },
   "notation": [
     "1809"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/Language",
+      "prefLabel": {
+        "de": "Sprache",
+        "en": "Language",
+        "fr": "Langue",
+        "es": "Idioma"
+      }
+    }
+  ],
+  "related": [
+    {
+      "id": "https://w3id.org/class/redaktor/inLanguage",
+      "prefLabel": {
+        "de": "in Sprache",
+        "en": "in language",
+        "fr": "en langue",
+        "es": "en el lenguaje"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +48,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,10 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FNursing",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FNursing",
   "prefLabel": {
-    "en": "Nursing",
     "de": "Krankenpflege",
+    "en": "Nursing",
     "fr": "Soins infirmiers",
     "es": "Enfermería"
+  },
+  "definition": {
+    "de": "Ein Gesundheitsberuf, bei dem eine Person eine formale Ausbildung in der Pflege von kranken oder gebrechlichen Personen erhält.",
+    "en": "A health profession of a person formally educated and trained in the care of the sick or infirm person.",
+    "fr": "Une profession de santé d'une personne formellement éduquée et formée dans le soin des personnes malades ou infirmes.",
+    "es": "Profesión sanitaria de una persona formalmente educada y capacitada en el cuidado de la persona enferma o deficiente."
   },
   "notation": [
     "1072"
@@ -20,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

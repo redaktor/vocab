@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcommentsEnabled",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcommentsEnabled",
   "prefLabel": {
-    "en": "comments enabled",
     "de": "Kommentare aktiviert",
+    "en": "comments enabled",
     "fr": "commentaires activés",
     "es": "comentarios habilitados"
   },
   "definition": {
-    "en": "Enable or disable comments for this video.<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1) - fallback for mobilizon",
     "de": "Aktiviere oder deaktiviere Kommentare für dieses Video.<br>siehe [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1) - fallback für mobilizon",
+    "en": "Enable or disable comments for this video.<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1) - fallback for mobilizon",
     "fr": "Activer ou désactiver les commentaires pour cette vidéo.<br>voir [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1) - fallback for mobilizon",
     "es": "Activar o desactivar los comentarios para este vídeo.<br>ver [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1) - fallback for mobilizon"
   },
   "scopeNote": {
-    "en": "ActivityPub Community",
     "de": "ActivityPub Community",
+    "en": "ActivityPub Community",
     "fr": "ActivityPub Community",
     "es": "ActivityPub Community"
   },
@@ -25,8 +25,8 @@
     "1523"
   ],
   "example": {
-    "en": "```json \n{\n  \"type\": \"Video\",\n  \"commentsEnabled\": true,\n  \"downloadEnabled\": true\n}```",
     "de": "```json \n{\n  \"type\": \"Video\",\n  \"commentsEnabled\": true,\n  \"downloadEnabled\": true\n}```",
+    "en": "```json \n{\n  \"type\": \"Video\",\n  \"commentsEnabled\": true,\n  \"downloadEnabled\": true\n}```",
     "fr": "```json \n{\n  \"type\": \"Video\",\n  \"commentsEnabled\": true,\n  \"downloadEnabled\": true\n}```",
     "es": "```json \n{\n  \"type\": \"Video\",\n  \"commentsEnabled\": true,\n  \"downloadEnabled\": true\n}```"
   },
@@ -38,8 +38,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

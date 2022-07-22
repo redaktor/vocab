@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FComicCoverArt",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FComicCoverArt",
   "prefLabel": {
-    "en": "Comic Cover Art",
     "de": "Comic-Titelbild",
+    "en": "Comic Cover Art",
     "fr": "Couverture de bande dessinée",
     "es": "Portada de cómic"
   },
   "definition": {
-    "en": "The artwork on the cover of a comic.",
     "de": "Die Illustration auf dem Cover eines Comics.",
+    "en": "The artwork on the cover of a comic.",
     "fr": "La Couverture de bande dessinée.",
     "es": "Arte de la cubierta del cómic."
   },
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

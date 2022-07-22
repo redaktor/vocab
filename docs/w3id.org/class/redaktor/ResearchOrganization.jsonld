@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FResearchOrganization",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FResearchOrganization",
   "prefLabel": {
-    "en": "Research Organization",
     "de": "Forschungsorganisation",
+    "en": "Research Organization",
     "fr": "Organisme de recherche",
     "es": "Organización de investigación"
   },
   "definition": {
-    "en": "A Research Organization (e.g. scientific institute, research company).",
     "de": "Eine Forschungsorganisation (z. B. ein wissenschaftliches Institut, ein Forschungsunternehmen).",
+    "en": "A Research Organization (e.g. scientific institute, research company).",
     "fr": "Un organisme de recherche (par exemple, un institut scientifique, une entreprise de recherche).",
     "es": "Organización de investigación (por ejemplo, un instituto científico o una empresa de investigación)."
   },
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

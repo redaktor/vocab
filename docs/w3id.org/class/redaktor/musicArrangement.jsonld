@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FmusicArrangement",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FmusicArrangement",
   "prefLabel": {
-    "en": "music arrangement",
     "de": "Musikarrangement",
+    "en": "music arrangement",
     "fr": "arrangement musical",
     "es": "arreglo musical"
   },
   "definition": {
+    "de": "Ein aus der Komposition abgeleitetes Arrangement.",
     "en": "An arrangement derived from the composition.",
-    "de": "An arrangement derived from the composition.",
-    "fr": "An arrangement derived from the composition.",
-    "es": "An arrangement derived from the composition."
+    "fr": "Un arrangement dérivé de la composition.",
+    "es": "Un arreglo derivado de la composición."
   },
   "notation": [
     "2090"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

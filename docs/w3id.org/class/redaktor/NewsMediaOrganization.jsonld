@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FNewsMediaOrganization",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FNewsMediaOrganization",
   "prefLabel": {
-    "en": "News Media Organization",
     "de": "Nachrichtenmedienorganisation",
+    "en": "News Media Organization",
     "fr": "Organisation de médias d'information",
     "es": "Organización de medios de comunicación"
   },
   "definition": {
-    "en": "A News/Media organization such as a newspaper or TV station.",
     "de": "Eine Nachrichten-/Medienorganisation wie z. B. eine Zeitung oder ein Fernsehsender.",
+    "en": "A News/Media organization such as a newspaper or TV station.",
     "fr": "Une organisation de médias d'information, telle qu'un journal ou une chaîne de télévision.",
     "es": "Organización de noticias/medios de comunicación, como un periódico o una cadena de televisión."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/actionableFeedbackPolicy",
       "prefLabel": {
-        "en": "actionable feedback policy",
         "de": "Richtlinie für verwertbares Feedback",
+        "en": "actionable feedback policy",
         "fr": "politique de retour d'information",
         "es": "política de retroalimentación procesable"
       }
@@ -31,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/correctionsPolicy",
       "prefLabel": {
-        "en": "corrections policy",
         "de": "Politik der Korrekturen",
+        "en": "corrections policy",
         "fr": "politique de correction",
         "es": "política de correcciones"
       }
@@ -40,8 +40,8 @@
     {
       "id": "https://w3id.org/class/redaktor/diversityPolicy",
       "prefLabel": {
-        "en": "diversity policy",
         "de": "Diversitätspolitik",
+        "en": "diversity policy",
         "fr": "politique de diversité",
         "es": "política de diversidad"
       }
@@ -49,8 +49,8 @@
     {
       "id": "https://w3id.org/class/redaktor/diversityStaffingReport",
       "prefLabel": {
-        "en": "diversity staffing report",
         "de": "bericht zur personellen vielfalt",
+        "en": "diversity staffing report",
         "fr": "rapport sur la diversité du personnel",
         "es": "informe de la plantilla de diversidad"
       }
@@ -58,8 +58,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ethicsPolicy",
       "prefLabel": {
-        "en": "ethics policy",
         "de": "ethische Grundsätze",
+        "en": "ethics policy",
         "fr": "politique d'éthique",
         "es": "política ética"
       }
@@ -67,8 +67,8 @@
     {
       "id": "https://w3id.org/class/redaktor/masthead",
       "prefLabel": {
-        "en": "masthead",
         "de": "Impressum",
+        "en": "masthead",
         "fr": "tête de mât",
         "es": "cabecera"
       }
@@ -76,8 +76,8 @@
     {
       "id": "https://w3id.org/class/redaktor/missionCoveragePrioritiesPolicy",
       "prefLabel": {
-        "en": "mission coverage priorities policy",
         "de": "Missionsabdeckung Prioritäten Politik",
+        "en": "mission coverage priorities policy",
         "fr": "mission couverture priorités politique",
         "es": "política de prioridades de cobertura de la misión"
       }
@@ -85,8 +85,8 @@
     {
       "id": "https://w3id.org/class/redaktor/noBylinesPolicy",
       "prefLabel": {
-        "en": "no bylines policy",
         "de": "keine bylines politik",
+        "en": "no bylines policy",
         "fr": "politique d'absence de signature",
         "es": "política de no titularidad"
       }
@@ -94,8 +94,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ownershipFundingInfo",
       "prefLabel": {
-        "en": "ownership funding info",
         "de": "Eigentum Finanzierungsinfo",
+        "en": "ownership funding info",
         "fr": "informations sur le financement de la propriété",
         "es": "información sobre la financiación de la propiedad"
       }
@@ -103,8 +103,8 @@
     {
       "id": "https://w3id.org/class/redaktor/unnamedSourcesPolicy",
       "prefLabel": {
-        "en": "unnamed sources policy",
         "de": "Politik der ungenannten Quellen",
+        "en": "unnamed sources policy",
         "fr": "politique des sources anonymes",
         "es": "política de fuentes no identificadas"
       }
@@ -112,8 +112,8 @@
     {
       "id": "https://w3id.org/class/redaktor/verificationFactCheckingPolicy",
       "prefLabel": {
-        "en": "verification fact checking policy",
         "de": "Überprüfung der Fakten",
+        "en": "verification fact checking policy",
         "fr": "politique de vérification des faits",
         "es": "política de verificación de hechos"
       }
@@ -127,8 +127,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

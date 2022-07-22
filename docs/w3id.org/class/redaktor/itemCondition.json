@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FitemCondition",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FitemCondition",
   "prefLabel": {
-    "en": "item condition",
     "de": "Item-Bedingung",
+    "en": "item condition",
     "fr": "condition de l'article",
     "es": "condición del artículo"
   },
   "definition": {
+    "de": "Ein vordefinierter Wert aus OfferItemCondition, der den Zustand des Produkts oder der Dienstleistung bzw. der im Angebot enthaltenen Produkte oder Dienstleistungen angibt. Wird auch für Produktrückgaberichtlinien verwendet, um den Zustand der für Rückgaben akzeptierten Produkte anzugeben.",
     "en": "A predefined value from OfferItemCondition specifying the condition of the product or service, or the products or services included in the offer. Also used for product return policies to specify the condition of products accepted for returns.",
-    "de": "A predefined value from OfferItemCondition specifying the condition of the product or service, or the products or services included in the offer. Also used for product return policies to specify the condition of products accepted for returns.",
-    "fr": "A predefined value from OfferItemCondition specifying the condition of the product or service, or the products or services included in the offer. Also used for product return policies to specify the condition of products accepted for returns.",
-    "es": "A predefined value from OfferItemCondition specifying the condition of the product or service, or the products or services included in the offer. Also used for product return policies to specify the condition of products accepted for returns."
+    "fr": "Une valeur prédéfinie de OfferItemCondition spécifiant la condition du produit ou du service, ou des produits ou services inclus dans l'offre. Également utilisé pour les politiques de retour de produits afin de spécifier l'état des produits acceptés en retour.",
+    "es": "Un valor predefinido de OfferItemCondition que especifica la condición del producto o servicio, o los productos o servicios incluidos en la oferta. También se utiliza en las políticas de devolución de productos para especificar el estado de los productos aceptados para su devolución."
   },
   "notation": [
     "2046"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/OfferItemCondition",
+      "prefLabel": {
+        "de": "Angebot Artikel Zustand",
+        "en": "Offer Item Condition",
+        "fr": "Condition de l'offre",
+        "es": "Oferta Condición del artículo"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPodcastSeries",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPodcastSeries",
   "prefLabel": {
-    "en": "Podcast Series",
     "de": "Podcast-Serie",
+    "en": "Podcast Series",
     "fr": "Série de podcasts",
     "es": "Serie de podcasts"
   },
@@ -14,29 +14,29 @@
   ],
   "narrower": [
     {
-      "id": "https://w3id.org/class/redaktor/actorPerforming",
+      "id": "https://w3id.org/class/redaktor/webFeed",
       "prefLabel": {
-        "en": "actor",
-        "de": "Darsteller",
-        "fr": "acteur",
-        "es": "actor"
+        "de": "Web-Feed",
+        "en": "web feed",
+        "fr": "flux web",
+        "es": "alimentación de la web"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/webFeed",
+      "id": "https://w3id.org/class/redaktor/actorPerforming",
       "prefLabel": {
-        "en": "web feed",
-        "de": "Web-Feed",
-        "fr": "flux web",
-        "es": "alimentación de la web"
+        "de": "Darsteller",
+        "en": "actor",
+        "fr": "acteur",
+        "es": "actor"
       }
     }
   ],
   "broader": {
     "id": "https://w3id.org/class/redaktor/CreativeWorkSeries",
     "prefLabel": {
-      "en": "Series",
       "de": "Serie",
+      "en": "Series",
       "fr": "Série",
       "es": "Serie"
     }
@@ -49,8 +49,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

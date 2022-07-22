@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSatire",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSatire",
   "prefLabel": {
-    "en": "Satire",
     "de": "Satire",
+    "en": "Satire",
     "fr": "Satire",
     "es": "Sátira"
   },
   "definition": {
-    "en": "Uses exaggeration, irony, or humour to make a point; not intended to be understood as factual",
     "de": "Verwendet Übertreibung, Ironie oder Humor, um eine Aussage zu treffen; soll nicht als sachlich verstanden werden",
+    "en": "Uses exaggeration, irony, or humour to make a point; not intended to be understood as factual",
     "fr": "Utilisation de l'exagération, de l'ironie ou de l'humour pour faire passer un message ; n'est pas destinée à être comprise comme étant factuelle.",
     "es": "Utiliza la exageración, la ironía o el humor para hacer una observación; no pretende ser entendida como un hecho."
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Comedy",
     "prefLabel": {
-      "en": "Comedy",
       "de": "Komödie,Comedy",
+      "en": "Comedy",
       "fr": "Comédie,Comedy",
       "es": "Comedia,Comedy"
     }
@@ -38,8 +38,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

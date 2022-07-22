@@ -8,8 +8,8 @@
     "es": "Página de la colección"
   },
   "scopeNote": {
-    "en": ": Object",
     "de": ": Object",
+    "en": ": Object",
     "fr": ": Object",
     "es": ": Object"
   },
@@ -18,8 +18,8 @@
     "568"
   ],
   "example": {
-    "en": "[Example 7](https://www.w3.org/TR/activitystreams-vocabulary/#ex6b-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Page 1 of Sally's notes\",\n  \"type\": \"CollectionPage\",\n  \"id\": \"http://example.org/foo?page=1\",\n  \"partOf\": \"http://example.org/foo\",\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"A Simple Note\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Another Simple Note\"\n    }\n  ]\n}\n```",
     "de": "[Beispiel 7](https://www.w3.org/TR/activitystreams-vocabulary/#ex6b-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Page 1 of Sally's notes\",\n  \"type\": \"CollectionPage\",\n  \"id\": \"http://example.org/foo?page=1\",\n  \"partOf\": \"http://example.org/foo\",\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"A Simple Note\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Another Simple Note\"\n    }\n  ]\n}\n```",
+    "en": "[Example 7](https://www.w3.org/TR/activitystreams-vocabulary/#ex6b-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Page 1 of Sally's notes\",\n  \"type\": \"CollectionPage\",\n  \"id\": \"http://example.org/foo?page=1\",\n  \"partOf\": \"http://example.org/foo\",\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"A Simple Note\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Another Simple Note\"\n    }\n  ]\n}\n```",
     "fr": "[Exemple 7](https://www.w3.org/TR/activitystreams-vocabulary/#ex6b-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Page 1 of Sally's notes\",\n  \"type\": \"CollectionPage\",\n  \"id\": \"http://example.org/foo?page=1\",\n  \"partOf\": \"http://example.org/foo\",\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"A Simple Note\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Another Simple Note\"\n    }\n  ]\n}\n```",
     "es": "[Ejemplo 7](https://www.w3.org/TR/activitystreams-vocabulary/#ex6b-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Page 1 of Sally's notes\",\n  \"type\": \"CollectionPage\",\n  \"id\": \"http://example.org/foo?page=1\",\n  \"partOf\": \"http://example.org/foo\",\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"A Simple Note\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Another Simple Note\"\n    }\n  ]\n}\n```"
   },
@@ -27,8 +27,8 @@
     {
       "id": "https://w3id.org/class/redaktor/next",
       "prefLabel": {
-        "en": "next",
         "de": "nächste",
+        "en": "next",
         "fr": "prochaine",
         "es": "próxima"
       }
@@ -36,8 +36,8 @@
     {
       "id": "https://w3id.org/class/redaktor/partOf",
       "prefLabel": {
-        "en": "part of",
         "de": "Teil von",
+        "en": "part of",
         "fr": "partie de",
         "es": "parte de"
       }
@@ -45,8 +45,8 @@
     {
       "id": "https://w3id.org/class/redaktor/prev",
       "prefLabel": {
-        "en": "previous",
         "de": "vorherige",
+        "en": "previous",
         "fr": "précédente",
         "es": "anterior"
       }
@@ -63,8 +63,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

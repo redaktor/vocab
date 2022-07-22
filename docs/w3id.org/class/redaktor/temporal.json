@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Ftemporal",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Ftemporal",
   "prefLabel": {
-    "en": "temporal",
     "de": "zeitlich",
+    "en": "temporal",
     "fr": "temporel",
     "es": "temporal"
   },
   "definition": {
+    "de": "Die Eigenschaft \"temporal\" kann in Fällen verwendet werden, in denen spezifischere Eigenschaften<br>(z.B. [[temporalCoverage]], [[dateCreated]], [[dateModified]], [[datePublished]]) nicht als geeignet bekannt sind.",
     "en": "The “temporal” property can be used in cases where more specific properties<br>(e.g. [[temporalCoverage]], [[dateCreated]], [[dateModified]], [[datePublished]]) are not known to be appropriate.",
-    "de": "The “temporal” property can be used in cases where more specific properties<br>(e.g. [[temporalCoverage]], [[dateCreated]], [[dateModified]], [[datePublished]]) are not known to be appropriate.",
-    "fr": "The “temporal” property can be used in cases where more specific properties<br>(e.g. [[temporalCoverage]], [[dateCreated]], [[dateModified]], [[datePublished]]) are not known to be appropriate.",
-    "es": "The “temporal” property can be used in cases where more specific properties<br>(e.g. [[temporalCoverage]], [[dateCreated]], [[dateModified]], [[datePublished]]) are not known to be appropriate."
+    "fr": "La propriété \"temporelle\" peut être utilisée dans les cas où des propriétés plus spécifiques<br>(par exemple [[temporalCoverage]], [[dateCreated]], [[dateModified]], [[datePublished]]) ne sont pas connues pour être appropriées.",
+    "es": "La propiedad \"temporal\" puede utilizarse en los casos en que no se sabe si son apropiadas propiedades más específicas<br>(por ejemplo, [[temporalCoverage]], [[dateCreated]], [[dateModified]], [[datePublished]])."
   },
   "notation": [
     "2250"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

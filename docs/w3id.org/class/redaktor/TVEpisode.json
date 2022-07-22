@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTVEpisode",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTVEpisode",
   "prefLabel": {
-    "en": "TV Episode",
     "de": "Fernseh-Episode",
+    "en": "TV Episode",
     "fr": "Épisode de TV",
     "es": "Episodio de TV"
   },
@@ -14,28 +14,28 @@
   ],
   "narrower": [
     {
-      "id": "https://w3id.org/class/redaktor/countryOfOrigin",
-      "prefLabel": {
-        "en": "country of origin",
-        "de": "Herkunftsland",
-        "fr": "pays d'origine",
-        "es": "país de origen"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/subtitleLanguage",
       "prefLabel": {
-        "en": "subtitle languages",
         "de": "Sprachen der Untertitel",
+        "en": "subtitle languages",
         "fr": "langues des sous-titres",
         "es": "idiomas de los subtítulos"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/countryOfOrigin",
+      "prefLabel": {
+        "de": "Herkunftsland",
+        "en": "country of origin",
+        "fr": "pays d'origine",
+        "es": "país de origen"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/partOfTVSeries",
       "prefLabel": {
-        "en": "part of TV series",
         "de": "Teil einer TV-Serie",
+        "en": "part of TV series",
         "fr": "partie d'une série télévisée",
         "es": "parte de serie de TV"
       }
@@ -44,8 +44,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Episode",
     "prefLabel": {
-      "en": "Episode",
       "de": "Episode",
+      "en": "Episode",
       "fr": "Épisode",
       "es": "Episodio"
     }
@@ -58,8 +58,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

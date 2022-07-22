@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Ffounders",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Ffounders",
   "prefLabel": {
-    "en": "founders",
     "de": "Gründer",
+    "en": "founders",
     "fr": "fondateurs",
     "es": "fundadores"
   },
   "definition": {
+    "de": "Eine Person, die diese Organisation gegründet hat.",
     "en": "A person who founded this organization.",
-    "de": "A person who founded this organization.",
-    "fr": "A person who founded this organization.",
-    "es": "A person who founded this organization."
+    "fr": "Une personne qui a fondé cette organisation.",
+    "es": "Una persona que fundó esta organización."
   },
   "notation": [
     "1960"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

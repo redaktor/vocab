@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPlaylist",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPlaylist",
   "prefLabel": {
-    "en": "Playlist",
     "de": "Playlist",
+    "en": "Playlist",
     "fr": "Playlist",
     "es": "Playlist"
   },
   "definition": {
-    "en": "The object is used to represent a video playlist. It extends OrderedCollectionPage and items are PlaylistElement.<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-1)",
     "de": "Das Objekt wird zur Darstellung einer Video-Wiedergabeliste verwendet. Es erweitert OrderedCollectionPage und die Elemente sind PlaylistElement.<br>siehe [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-1)",
+    "en": "The object is used to represent a video playlist. It extends OrderedCollectionPage and items are PlaylistElement.<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-1)",
     "fr": "Cet objet est utilisé pour représenter une liste de lecture vidéo. Il étend OrderedCollectionPage et les éléments sont PlaylistElement.<br>voir [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-1)",
     "es": "El objeto se utiliza para representar una lista de reproducción de vídeo. Extiende OrderedCollectionPage y los elementos son PlaylistElement.<br>ver [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-1)"
   },
   "scopeNote": {
-    "en": "ActivityPub Community",
     "de": "ActivityPub Community",
+    "en": "ActivityPub Community",
     "fr": "ActivityPub Community",
     "es": "ActivityPub Community"
   },
@@ -32,8 +32,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

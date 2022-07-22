@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FworksFor",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FworksFor",
   "prefLabel": {
-    "en": "works for",
     "de": "arbeitet für",
+    "en": "works for",
     "fr": "travaux pour",
     "es": "trabajos para"
   },
   "definition": {
+    "de": "Organisationen, für die die Person arbeitet.",
     "en": "Organizations that the person works for.",
-    "de": "Organizations that the person works for.",
-    "fr": "Organizations that the person works for.",
-    "es": "Organizations that the person works for."
+    "fr": "Les organisations pour lesquelles la personne travaille.",
+    "es": "Organizaciones para las que trabaja la persona."
   },
   "notation": [
     "2300"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

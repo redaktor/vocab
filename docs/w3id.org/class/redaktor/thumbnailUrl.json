@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FthumbnailUrl",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FthumbnailUrl",
   "prefLabel": {
-    "en": "thumbnail url",
     "de": "Thumbnail-Url",
+    "en": "thumbnail url",
     "fr": "url de la vignette",
     "es": "url en miniatura"
   },
   "definition": {
+    "de": "Ein für die Sache relevantes Miniaturbild.",
     "en": "A thumbnail image relevant to the Thing.",
-    "de": "A thumbnail image relevant to the Thing.",
-    "fr": "A thumbnail image relevant to the Thing.",
-    "es": "A thumbnail image relevant to the Thing."
+    "fr": "Une image miniature pertinente pour la Chose.",
+    "es": "Una imagen en miniatura relevante para la Cosa."
   },
   "notation": [
     "2255"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

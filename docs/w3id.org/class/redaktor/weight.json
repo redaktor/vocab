@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fweight",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fweight",
   "prefLabel": {
-    "en": "weight",
     "de": "Gewicht",
+    "en": "weight",
     "fr": "poids",
     "es": "peso"
   },
   "definition": {
+    "de": "Das Gewicht des Produkts oder der Person.",
     "en": "The weight of the product or person.",
-    "de": "The weight of the product or person.",
-    "fr": "The weight of the product or person.",
-    "es": "The weight of the product or person."
+    "fr": "Le poids du produit ou de la personne.",
+    "es": "El peso del producto o de la persona."
   },
   "notation": [
     "2294"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/QuantitativeValue",
+      "prefLabel": {
+        "de": "Quantitativer Wert",
+        "en": "Quantitative Value",
+        "fr": "Valeur quantitative",
+        "es": "Valor cuantitativo"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FFactual",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FFactual",
   "definition": {
-    "en": "The object contains material relating to a factual program and/or event",
     "de": "Das Objekt enthält Material, das sich auf ein sachbezogenes Programm und/oder Ereignis bezieht.",
+    "en": "The object contains material relating to a factual program and/or event",
     "fr": "L'objet contient du matériel relatif à un programme et/ou un événement factuel.",
     "es": "El objeto contiene material relacionado con un programa y/o evento de carácter factual"
   },
   "note": {
-    "en": "Example: A news item or program covering a documentary, such as David Attenborough’s “Life on Earth”",
     "de": "Hinweis Beispiel: Eine Nachricht oder Sendung über einen Dokumentarfilm, z. B. David Attenboroughs “Life on Earth”.",
+    "en": "Example: A news item or program covering a documentary, such as David Attenborough’s “Life on Earth”",
     "fr": "Exemple : Un article ou un programme d'actualité couvrant un documentaire, tel que “Life on Earth” de David Attenborough.",
     "es": "Ejemplo: Una noticia o programa que cubre un documental, como “Life on Earth” de David Attenborough."
   },
@@ -30,8 +30,8 @@
     {
       "id": "https://w3id.org/class/redaktor/News",
       "prefLabel": {
-        "en": "News",
         "de": "Nachrichten",
+        "en": "News",
         "fr": "Actualités",
         "es": "Noticias"
       }
@@ -39,8 +39,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Sport",
       "prefLabel": {
-        "en": "Sport",
         "de": "Sport",
+        "en": "Sport",
         "fr": "Sport",
         "es": "Deporte"
       }
@@ -48,8 +48,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Advice",
       "prefLabel": {
-        "en": "Advice",
         "de": "Ratschläge",
+        "en": "Advice",
         "fr": "Conseil",
         "es": "Consejo"
       }
@@ -57,8 +57,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Almanac",
       "prefLabel": {
-        "en": "On This Day",
         "de": "An diesem Tag",
+        "en": "On This Day",
         "fr": "On This Day",
         "es": "En este día"
       }
@@ -66,8 +66,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Anniversary",
       "prefLabel": {
-        "en": "Anniversary",
         "de": "Jahrestag",
+        "en": "Anniversary",
         "fr": "Anniversaire",
         "es": "Aniversario"
       }
@@ -75,8 +75,8 @@
     {
       "id": "https://w3id.org/class/redaktor/TechArticle",
       "prefLabel": {
-        "en": "Tech Article",
         "de": "Tech Artikel",
+        "en": "Tech Article",
         "fr": "Article technique",
         "es": "Artículo técnico"
       }
@@ -84,8 +84,8 @@
     {
       "id": "https://w3id.org/class/redaktor/BehindTheStory",
       "prefLabel": {
-        "en": "Behind the Story",
         "de": "Hinter der Geschichte",
+        "en": "Behind the Story",
         "fr": "Derrière l'histoire",
         "es": "Detrás de la historia"
       }
@@ -93,8 +93,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Biography",
       "prefLabel": {
-        "en": "Biography",
         "de": "Biografie",
+        "en": "Biography",
         "fr": "Biographie",
         "es": "Biografía"
       }
@@ -102,8 +102,8 @@
     {
       "id": "https://w3id.org/class/redaktor/BirthAnnouncement",
       "prefLabel": {
-        "en": "Birth Announcement",
         "de": "Ankündigung einer Geburt",
+        "en": "Birth Announcement",
         "fr": "Annonce de naissance",
         "es": "Anuncio de nacimiento"
       }
@@ -111,8 +111,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Current",
       "prefLabel": {
-        "en": "Current Events",
         "de": "Aktuelle Ereignisse",
+        "en": "Current Events",
         "fr": "Événements actuels",
         "es": "Acontecimientos actuales"
       }
@@ -120,8 +120,8 @@
     {
       "id": "https://w3id.org/class/redaktor/CurtainRaiser",
       "prefLabel": {
-        "en": "Curtain Raiser",
         "de": "Auftakt",
+        "en": "Curtain Raiser",
         "fr": "Ouverture",
         "es": "Inicio"
       }
@@ -129,8 +129,8 @@
     {
       "id": "https://w3id.org/class/redaktor/FactCheck",
       "prefLabel": {
-        "en": "Fact Check",
         "de": "Faktencheck",
+        "en": "Fact Check",
         "fr": "Vérification des faits",
         "es": "Comprobación de hechos"
       }
@@ -138,8 +138,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Feature",
       "prefLabel": {
-        "en": "Feature",
         "de": "Feature",
+        "en": "Feature",
         "fr": "Article de fond",
         "es": "Reportaje"
       }
@@ -147,8 +147,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Fixture",
       "prefLabel": {
-        "en": "Fixture",
         "de": "Spielplan",
+        "en": "Fixture",
         "fr": "Fixture",
         "es": "Fixture"
       }
@@ -156,8 +156,8 @@
     {
       "id": "https://w3id.org/class/redaktor/FromTheScene",
       "prefLabel": {
-        "en": "From the Scene",
         "de": "Vom Ort des Geschehens",
+        "en": "From the Scene",
         "fr": "Depuis le lieu de l'événement",
         "es": "Desde el lugar de los hechos"
       }
@@ -165,8 +165,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HelpUsToReport",
       "prefLabel": {
-        "en": "Help us to Report",
         "de": "Helfen Sie uns zu berichten",
+        "en": "Help us to Report",
         "fr": "Aidez-nous à faire un reportage",
         "es": "Ayúdanos a informar"
       }
@@ -174,8 +174,8 @@
     {
       "id": "https://w3id.org/class/redaktor/History",
       "prefLabel": {
-        "en": "History",
         "de": "Geschichte",
+        "en": "History",
         "fr": "Histoire",
         "es": "Historia"
       }
@@ -183,8 +183,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Interview",
       "prefLabel": {
-        "en": "Interview",
         "de": "Interview",
+        "en": "Interview",
         "fr": "Interview",
         "es": "Entrevista"
       }
@@ -192,8 +192,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ListingOfFacts",
       "prefLabel": {
-        "en": "Fact Box",
         "de": "Faktenbox",
+        "en": "Fact Box",
         "fr": "Boîte de faits",
         "es": "Cuadro de datos"
       }
@@ -201,8 +201,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ScholarlyArticle",
       "prefLabel": {
-        "en": "Scholarly",
         "de": "Wissenschaftlich",
+        "en": "Scholarly",
         "fr": "Scientifique",
         "es": "Académico"
       }
@@ -210,8 +210,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Obituary",
       "prefLabel": {
-        "en": "Obituary",
         "de": "Nachruf",
+        "en": "Obituary",
         "fr": "Notice nécrologique",
         "es": "Obituario"
       }
@@ -219,8 +219,8 @@
     {
       "id": "https://w3id.org/class/redaktor/PollsAndSurveys",
       "prefLabel": {
-        "en": "Polls and Surveys",
         "de": "Umfragen und Erhebungen",
+        "en": "Polls and Surveys",
         "fr": "Sondages et enquêtes",
         "es": "Encuestas y sondeos"
       }
@@ -228,8 +228,8 @@
     {
       "id": "https://w3id.org/class/redaktor/PressDigest",
       "prefLabel": {
-        "en": "Press-Digest",
         "de": "Presse-Digest",
+        "en": "Press-Digest",
         "fr": "Press-Digest",
         "es": "Press-Digest"
       }
@@ -237,8 +237,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Quote",
       "prefLabel": {
-        "en": "Quote",
         "de": "Zitat",
+        "en": "Quote",
         "fr": "Citation",
         "es": "Cita"
       }
@@ -246,8 +246,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Report",
       "prefLabel": {
-        "en": "Special Report",
         "de": "Sonderbericht",
+        "en": "Special Report",
         "fr": "Rapport spécial",
         "es": "Informe especial"
       }
@@ -255,8 +255,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ResultsListingsAndStatistics",
       "prefLabel": {
-        "en": "Results Listings and Statistics",
         "de": "Ergebnislisten und Statistiken",
+        "en": "Results Listings and Statistics",
         "fr": "Listes de résultats et statistiques",
         "es": "Listados de resultados y estadísticas"
       }
@@ -264,8 +264,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Retrospective",
       "prefLabel": {
-        "en": "Retrospective",
         "de": "Rückblick",
+        "en": "Retrospective",
         "fr": "Rétrospective",
         "es": "Retrospectiva"
       }
@@ -273,17 +273,14 @@
     {
       "id": "https://w3id.org/class/redaktor/Review",
       "prefLabel": {
-        "en": "Review",
-        "de": "Kritik",
-        "fr": "Revue",
-        "es": "Crítica"
+        "en": "Review"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/SideBarAndSupportingInformation",
       "prefLabel": {
-        "en": "Side bar and Supporting Information",
         "de": "Seitenleiste und unterstützende Informationen",
+        "en": "Side bar and Supporting Information",
         "fr": "Barre latérale et informations complémentaires",
         "es": "Barra lateral e información de apoyo"
       }
@@ -291,8 +288,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Summary",
       "prefLabel": {
-        "en": "Briefing",
         "de": "Briefing",
+        "en": "Briefing",
         "fr": "Briefing",
         "es": "Briefing"
       }
@@ -306,8 +303,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

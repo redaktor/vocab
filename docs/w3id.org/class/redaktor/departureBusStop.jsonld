@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FdepartureBusStop",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FdepartureBusStop",
   "prefLabel": {
-    "en": "departure bus stop",
     "de": "Abfahrt Bushaltestelle",
+    "en": "departure bus stop",
     "fr": "départ arrêt de bus",
     "es": "parada de autobús de salida"
   },
   "definition": {
+    "de": "Die Haltestelle oder der Bahnhof, an dem der Bus abfährt.",
     "en": "The stop or station from which the bus departs.",
-    "de": "The stop or station from which the bus departs.",
-    "fr": "The stop or station from which the bus departs.",
-    "es": "The stop or station from which the bus departs."
+    "fr": "L'arrêt ou la station d'où part le bus.",
+    "es": "La parada o estación de la que parte el autobús."
   },
   "notation": [
     "1899"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

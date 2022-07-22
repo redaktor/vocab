@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FfoundingDate",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FfoundingDate",
   "prefLabel": {
-    "en": "founding date",
     "de": "Gründungsdatum",
+    "en": "founding date",
     "fr": "date de création",
     "es": "fecha de fundación"
   },
   "definition": {
+    "de": "Das Datum, an dem diese Organisation gegründet wurde.",
     "en": "The date that this organization was founded.",
-    "de": "The date that this organization was founded.",
-    "fr": "The date that this organization was founded.",
-    "es": "The date that this organization was founded."
+    "fr": "La date à laquelle cette organisation a été fondée.",
+    "es": "La fecha en que se fundó esta organización."
   },
   "notation": [
     "1961"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

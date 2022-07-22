@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcommentCount",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcommentCount",
   "prefLabel": {
-    "en": "comment count",
     "de": "Anzahl der Kommentare",
+    "en": "comment count",
     "fr": "nombre de commentaires",
     "es": "comentario de la cuenta"
   },
   "definition": {
+    "de": "Die Anzahl der Kommentare, die dieses CreativeWork (z. B. Artikel, Frage oder Antwort) erhalten hat. Dies gilt vor allem für Werke, die auf Websites mit einem Kommentarsystem veröffentlicht wurden; zusätzliche Kommentare können auch anderswo vorhanden sein.",
     "en": "The number of comments this CreativeWork (e.g. Article, Question or Answer) has received. This is most applicable to works published in Web sites with commenting system; additional comments may exist elsewhere.",
-    "de": "The number of comments this CreativeWork (e.g. Article, Question or Answer) has received. This is most applicable to works published in Web sites with commenting system; additional comments may exist elsewhere.",
-    "fr": "The number of comments this CreativeWork (e.g. Article, Question or Answer) has received. This is most applicable to works published in Web sites with commenting system; additional comments may exist elsewhere.",
-    "es": "The number of comments this CreativeWork (e.g. Article, Question or Answer) has received. This is most applicable to works published in Web sites with commenting system; additional comments may exist elsewhere."
+    "fr": "Le nombre de commentaires que cette œuvre de création (par exemple, article, question ou réponse) a reçus. Ceci s'applique surtout aux œuvres publiées sur des sites Web dotés d'un système de commentaires ; des commentaires supplémentaires peuvent exister ailleurs.",
+    "es": "El número de comentarios que ha recibido este CreativeWork (por ejemplo, artículo, pregunta o respuesta). Esto es más aplicable a los trabajos publicados en sitios web con sistema de comentarios; pueden existir comentarios adicionales en otros lugares."
   },
   "notation": [
     "1855"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

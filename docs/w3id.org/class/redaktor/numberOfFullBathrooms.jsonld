@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FnumberOfFullBathrooms",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FnumberOfFullBathrooms",
   "prefLabel": {
-    "en": "number of full bathrooms",
     "de": "Anzahl der Vollbäder",
+    "en": "number of full bathrooms",
     "fr": "nombre de salles de bain complètes",
     "es": "número de baños completos"
   },
   "definition": {
+    "de": "Anzahl der Vollbäder - Die Gesamtzahl der Voll- und ¾-Bäder in einer [[Unterkunft]]. Dies entspricht dem Feld [BadezimmerVoll in RESO](https://ddwiki.reso.org/display/DDW17/BathroomsFull+Feld).",
     "en": "Number of full bathrooms - The total number of full and ¾ bathrooms in an [[Accommodation]]. This corresponds to the [BathroomsFull field in RESO](https://ddwiki.reso.org/display/DDW17/BathroomsFull+Field).",
-    "de": "Number of full bathrooms - The total number of full and ¾ bathrooms in an [[Accommodation]]. This corresponds to the [BathroomsFull field in RESO](https://ddwiki.reso.org/display/DDW17/BathroomsFull+Field).",
-    "fr": "Number of full bathrooms - The total number of full and ¾ bathrooms in an [[Accommodation]]. This corresponds to the [BathroomsFull field in RESO](https://ddwiki.reso.org/display/DDW17/BathroomsFull+Field).",
-    "es": "Number of full bathrooms - The total number of full and ¾ bathrooms in an [[Accommodation]]. This corresponds to the [BathroomsFull field in RESO](https://ddwiki.reso.org/display/DDW17/BathroomsFull+Field)."
+    "fr": "Nombre de salles de bain complètes - Le nombre total de salles de bain complètes et ¾ dans un [[Logement]]. Cela correspond au champ [BathroomsFull dans RESO] (https://ddwiki.reso.org/display/DDW17/BathroomsFull+Field).",
+    "es": "Número de baños completos - El número total de baños completos y ¾ en un [[Alojamiento]]. Se corresponde con el campo [BañosCompletos en RESO](https://ddwiki.reso.org/display/DDW17/BathroomsFull+Campo)."
   },
   "notation": [
     "2109"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

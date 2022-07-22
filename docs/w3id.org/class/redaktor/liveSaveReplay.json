@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FliveSaveReplay",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FliveSaveReplay",
   "prefLabel": {
-    "en": "live save replay",
     "de": "Live-Wiederholung speichern",
+    "en": "live save replay",
     "fr": "live: sauvegarder le replay",
     "es": "live: guardar la repetición"
   },
   "definition": {
-    "en": "If this is a live, tell if the user will save a replay or not.<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
     "de": "Wenn es sich um eine Live-Sendung handelt, gib an, ob eine Wiederholung gespeichert wird oder nicht.<br>siehe [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
+    "en": "If this is a live, tell if the user will save a replay or not.<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
     "fr": "S'il s'agit d'un direct, indiquez si l'utilisateur enregistrera un replay ou non.<br>voir [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
     "es": "Si se trata de un directo, diga si el usuario guardará una repetición o no.<br>ver [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)"
   },
   "scopeNote": {
-    "en": "ActivityPub Community",
     "de": "ActivityPub Community",
+    "en": "ActivityPub Community",
     "fr": "ActivityPub Community",
     "es": "ActivityPub Community"
   },
@@ -25,8 +25,8 @@
     "1526"
   ],
   "example": {
-    "en": "```json \n{\n  \"type\": \"Video\",\n  \"isLiveBroadcast\": true,\n  \"liveSaveReplay\": true,\n  \"permanentLive\": true\n}```",
     "de": "```json \n{\n  \"type\": \"Video\",\n  \"isLiveBroadcast\": true,\n  \"liveSaveReplay\": true,\n  \"permanentLive\": true\n}```",
+    "en": "```json \n{\n  \"type\": \"Video\",\n  \"isLiveBroadcast\": true,\n  \"liveSaveReplay\": true,\n  \"permanentLive\": true\n}```",
     "fr": "```json \n{\n  \"type\": \"Video\",\n  \"isLiveBroadcast\": true,\n  \"liveSaveReplay\": true,\n  \"permanentLive\": true\n}```",
     "es": "```json \n{\n  \"type\": \"Video\",\n  \"isLiveBroadcast\": true,\n  \"liveSaveReplay\": true,\n  \"permanentLive\": true\n}```"
   },
@@ -38,8 +38,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

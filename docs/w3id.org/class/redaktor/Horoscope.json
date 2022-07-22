@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FHoroscope",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FHoroscope",
   "prefLabel": {
-    "en": "Horoscope",
     "de": "Horoskop",
+    "en": "Horoscope",
     "fr": "Horoscope",
     "es": "Horóscopo"
   },
   "definition": {
-    "en": "Astrological forecasts",
     "de": "Astrologische Prognosen",
+    "en": "Astrological forecasts",
     "fr": "Prévisions astrologiques",
     "es": "Pronósticos astrológicos"
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Fictional",
     "prefLabel": {
-      "en": "Fictional",
       "de": "Fiktional",
+      "en": "Fictional",
       "fr": "Fictionnel",
       "es": "Ficticia"
     }
@@ -35,8 +35,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

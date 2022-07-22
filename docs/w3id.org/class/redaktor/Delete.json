@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FDelete",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FDelete",
   "prefLabel": {
-    "en": "Delete",
     "de": "Löschen",
+    "en": "Delete",
     "fr": "Supprimer",
     "es": "Borrar"
   },
   "definition": {
-    "en": "Indicates that the actor has deleted the object. If specified, the origin indicates the context from which the object was deleted.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-delete](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-delete)",
     "de": "Zeigt an, dass der Akteur das Objekt gelöscht hat. Falls angegeben, gibt der Ursprung den Kontext an, aus dem das Objekt gelöscht wurde.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-delete](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-delete)",
+    "en": "Indicates that the actor has deleted the object. If specified, the origin indicates the context from which the object was deleted.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-delete](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-delete)",
     "fr": "Indique que l'acteur a supprimé l'objet. Si spécifié, l'origine indique le contexte à partir duquel l'objet a été supprimé.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-delete](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-delete)",
     "es": "Indica que el actor ha eliminado el objeto. Si se especifica, el origen indica el contexto del que se ha eliminado el objeto.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-delete](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-delete)"
   },
   "scopeNote": {
-    "en": ": Activity",
     "de": ": Activity",
+    "en": ": Activity",
     "fr": ": Activity",
     "es": ": Activity"
   },
@@ -25,16 +25,16 @@
     "205"
   ],
   "example": {
-    "en": "[Example 16](https://www.w3.org/TR/activitystreams-vocabulary/#ex13-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally deleted a note\",\n  \"type\": \"Delete\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": \"http://example.org/notes/1\",\n  \"origin\": {\n    \"type\": \"Collection\",\n    \"name\": \"Sally's Notes\"\n  }\n}\n```",
     "de": "[Beispiel 16](https://www.w3.org/TR/activitystreams-vocabulary/#ex13-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally deleted a note\",\n  \"type\": \"Delete\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": \"http://example.org/notes/1\",\n  \"origin\": {\n    \"type\": \"Collection\",\n    \"name\": \"Sally's Notes\"\n  }\n}\n```",
+    "en": "[Example 16](https://www.w3.org/TR/activitystreams-vocabulary/#ex13-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally deleted a note\",\n  \"type\": \"Delete\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": \"http://example.org/notes/1\",\n  \"origin\": {\n    \"type\": \"Collection\",\n    \"name\": \"Sally's Notes\"\n  }\n}\n```",
     "fr": "[Exemple 16](https://www.w3.org/TR/activitystreams-vocabulary/#ex13-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally deleted a note\",\n  \"type\": \"Delete\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": \"http://example.org/notes/1\",\n  \"origin\": {\n    \"type\": \"Collection\",\n    \"name\": \"Sally's Notes\"\n  }\n}\n```",
     "es": "[Ejemplo 16](https://www.w3.org/TR/activitystreams-vocabulary/#ex13-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally deleted a note\",\n  \"type\": \"Delete\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": \"http://example.org/notes/1\",\n  \"origin\": {\n    \"type\": \"Collection\",\n    \"name\": \"Sally's Notes\"\n  }\n}\n```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/Activity",
     "prefLabel": {
-      "en": "Activity",
       "de": "Aktivität",
+      "en": "Activity",
       "fr": "Activité",
       "es": "Actividad"
     }
@@ -47,8 +47,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

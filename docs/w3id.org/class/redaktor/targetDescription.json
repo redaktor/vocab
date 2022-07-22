@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FtargetDescription",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FtargetDescription",
   "prefLabel": {
-    "en": "target description",
     "de": "Zielbeschreibung",
+    "en": "target description",
     "fr": "description de la cible",
     "es": "descripción del objetivo"
   },
   "definition": {
+    "de": "Die Beschreibung eines Knotens in einem etablierten Bildungsrahmen.",
     "en": "The description of a node in an established educational framework.",
-    "de": "The description of a node in an established educational framework.",
-    "fr": "The description of a node in an established educational framework.",
-    "es": "The description of a node in an established educational framework."
+    "fr": "La description d'un nœud dans un cadre éducatif établi.",
+    "es": "La descripción de un nodo en un marco educativo establecido."
   },
   "notation": [
     "2242"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

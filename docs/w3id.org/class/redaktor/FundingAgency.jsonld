@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FFundingAgency",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FFundingAgency",
   "prefLabel": {
-    "en": "Funding Agency",
     "de": "Fördermittelgeber",
+    "en": "Funding Agency",
     "fr": "Organisme de financement",
     "es": "Agencia de financiación"
   },
   "definition": {
-    "en": "A FundingAgency is an organization that implements one or more FundingSchemes and manages the granting process (via Grants, typically MonetaryGrants). A funding agency is not always required for grant funding, e.g. philanthropic giving, corporate sponsorship etc.",
     "de": "Eine FundingAgency ist eine Organisation, die ein oder mehrere FundingSchemes implementiert und den Bewilligungsprozess verwaltet (über Grants, typischerweise MonetaryGrants). Eine Förderagentur ist nicht immer für die Gewährung von Finanzhilfen erforderlich, z. B. bei philanthropischen Spenden, Unternehmenssponsoring usw.",
+    "en": "A FundingAgency is an organization that implements one or more FundingSchemes and manages the granting process (via Grants, typically MonetaryGrants). A funding agency is not always required for grant funding, e.g. philanthropic giving, corporate sponsorship etc.",
     "fr": "Un FundingAgency est une organisation qui met en œuvre un ou plusieurs FundingSchemes et gère le processus d'octroi (via des Grants, généralement des MonetaryGrants). Une agence de financement n'est pas toujours nécessaire pour l'octroi de subventions, par exemple dans le cas de dons philanthropiques, de parrainage d'entreprise, etc.",
     "es": "Una FundingAgency es una organización que implementa uno o más FundingSchemes y gestiona el proceso de concesión (a través de Grants, típicamente MonetaryGrants). No siempre se requiere una agencia de financiación para obtener una subvención, por ejemplo, en el caso de las donaciones filantrópicas, el patrocinio empresarial, etc."
   },
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FHowToSection",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FHowToSection",
   "prefLabel": {
-    "en": "How To Section",
     "de": "Anleitungsabschnitt",
+    "en": "How To Section",
     "fr": "Section comment faire",
     "es": "Sección de cómo hacerlo"
   },
   "definition": {
+    "de": "Eine Untergruppierung von Schritten in der Anleitung, wie ein Ergebnis zu erreichen ist (z. B. Schritte zur Herstellung einer Kuchenkruste in einem Kuchenrezept).",
     "en": "A sub-grouping of steps in the instructions for how to achieve a result (e.g. steps for making a pie crust within a pie recipe).",
-    "de": "A sub-grouping of steps in the instructions for how to achieve a result (e.g. steps for making a pie crust within a pie recipe).",
-    "fr": "A sub-grouping of steps in the instructions for how to achieve a result (e.g. steps for making a pie crust within a pie recipe).",
-    "es": "A sub-grouping of steps in the instructions for how to achieve a result (e.g. steps for making a pie crust within a pie recipe)."
+    "fr": "Un sous-groupe d'étapes dans les instructions sur la façon d'atteindre un résultat (par exemple, les étapes pour faire une pâte à tarte dans une recette de tarte).",
+    "es": "Una subagrupación de pasos en las instrucciones para lograr un resultado (por ejemplo, los pasos para hacer una corteza de pastel dentro de una receta de pastel)."
   },
   "notation": [
     "592"
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/steps",
       "prefLabel": {
-        "en": "steps",
         "de": "Stufen",
+        "en": "steps",
         "fr": "étapes",
         "es": "pasos"
       }
@@ -37,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

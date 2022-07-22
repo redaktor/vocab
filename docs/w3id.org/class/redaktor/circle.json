@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fcircle",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fcircle",
   "prefLabel": {
-    "en": "circle",
     "de": "Kreis",
+    "en": "circle",
     "fr": "circle",
     "es": "círculo"
   },
   "definition": {
+    "de": "Ein Kreis ist ein kreisförmiger Bereich mit einem bestimmten Radius, dessen Mittelpunkt sich auf einem bestimmten Breiten- und Längengrad befindet. Ein Kreis wird durch ein Paar, gefolgt von einem Radius in Metern, ausgedrückt.",
     "en": "A circle is the circular region of a specified radius centered at a specified latitude and longitude. A circle is expressed as a pair followed by a radius in meters.",
-    "de": "A circle is the circular region of a specified radius centered at a specified latitude and longitude. A circle is expressed as a pair followed by a radius in meters.",
-    "fr": "A circle is the circular region of a specified radius centered at a specified latitude and longitude. A circle is expressed as a pair followed by a radius in meters.",
-    "es": "A circle is the circular region of a specified radius centered at a specified latitude and longitude. A circle is expressed as a pair followed by a radius in meters."
+    "fr": "Un cercle est la région circulaire d'un rayon donné centrée sur une latitude et une longitude données. Un cercle est exprimé par une paire suivie d'un rayon en mètres.",
+    "es": "Un círculo es la región circular de un radio determinado centrada en una latitud y longitud determinadas. Un círculo se expresa como un par seguido de un radio en metros."
   },
   "notation": [
     "1844"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

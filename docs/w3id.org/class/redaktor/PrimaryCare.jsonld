@@ -4,10 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPrimaryCare",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPrimaryCare",
   "prefLabel": {
-    "en": "Primary Care",
     "de": "Grundversorgung",
+    "en": "Primary Care",
     "fr": "Soins primaires",
     "es": "Atención primaria"
+  },
+  "definition": {
+    "de": "Die medizinische Versorgung durch einen Arzt oder eine andere medizinische Fachkraft, der/die der erste Kontakt des Patienten mit dem Gesundheitssystem ist und der/die bei Bedarf einen Spezialisten empfehlen kann.",
+    "en": "The medical care by a physician, or other health-care professional, who is the patient's first contact with the health-care system and who may recommend a specialist if necessary.",
+    "fr": "Les soins médicaux dispensés par un médecin, ou un autre professionnel de la santé, qui est le premier contact du patient avec le système de soins de santé et qui peut recommander un spécialiste si nécessaire.",
+    "es": "La atención médica prestada por un médico, u otro profesional de la salud, que es el primer contacto del paciente con el sistema sanitario y que puede recomendar un especialista si es necesario."
   },
   "notation": [
     "1086"
@@ -20,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

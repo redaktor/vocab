@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FFoodEstablishment",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FFoodEstablishment",
   "prefLabel": {
-    "en": "Food Establishment",
     "de": "Essen und Trinken",
+    "en": "Food Establishment",
     "fr": "Établissement alimentaire",
     "es": "Establecimiento alimentario"
   },
   "definition": {
-    "en": "To broad for OSM. Please select a more specific entry.",
     "de": "Zu weites Feld für OSM. Bitte spezifischeren Eintrag wählen.",
+    "en": "To broad for OSM. Please select a more specific entry.",
     "fr": "A élargir pour OSM. Veuillez choisir une entrée plus spécifique.",
     "es": "Para ampliar para OSM. Por favor, seleccione una entrada más específica."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Bakery",
       "prefLabel": {
-        "en": "Bakery",
         "de": "Bäckerei",
+        "en": "Bakery",
         "fr": "Boulangerie",
         "es": "Panadería"
       }
@@ -31,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/BarOrPub",
       "prefLabel": {
-        "en": "Bar or Pub",
         "de": "Bar oder Kneipe",
+        "en": "Bar or Pub",
         "fr": "Bar ou Pub",
         "es": "Bar o Pub"
       }
@@ -40,8 +40,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Biergarten",
       "prefLabel": {
-        "en": "Beer garden",
         "de": "Biergarten",
+        "en": "Beer garden",
         "fr": "Jardin de la bière",
         "es": "Jardín de cerveza"
       }
@@ -49,8 +49,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Brewery",
       "prefLabel": {
-        "en": "Brewery",
         "de": "Brauerei",
+        "en": "Brewery",
         "fr": "Brasserie",
         "es": "Cervecería"
       }
@@ -58,8 +58,8 @@
     {
       "id": "https://w3id.org/class/redaktor/CafeOrCoffeeShop",
       "prefLabel": {
-        "en": "Cafe or Coffee Shop",
         "de": "Café oder Kaffeehaus",
+        "en": "Cafe or Coffee Shop",
         "fr": "Cafe ou Café",
         "es": "Cafetería o tienda de café"
       }
@@ -67,8 +67,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Distillery",
       "prefLabel": {
-        "en": "Distillery",
         "de": "Schnapsbrennerei",
+        "en": "Distillery",
         "fr": "Distillerie",
         "es": "Destilería"
       }
@@ -76,8 +76,8 @@
     {
       "id": "https://w3id.org/class/redaktor/FastFoodRestaurant",
       "prefLabel": {
-        "en": "Fast Food Restaurant",
         "de": "Schnellrestaurant / Fast Food",
+        "en": "Fast Food Restaurant",
         "fr": "Fast Food Restaurant",
         "es": "Restaurante de comida rápida"
       }
@@ -85,8 +85,8 @@
     {
       "id": "https://w3id.org/class/redaktor/FoodCourt",
       "prefLabel": {
-        "en": "Food Court",
         "de": "Food Court",
+        "en": "Food Court",
         "fr": "Food Court",
         "es": "Patio de comidas"
       }
@@ -94,8 +94,8 @@
     {
       "id": "https://w3id.org/class/redaktor/IceCreamShop",
       "prefLabel": {
-        "en": "Ice Cream Shop",
         "de": "Eisdiele",
+        "en": "Ice Cream Shop",
         "fr": "Magasin de crème glacée",
         "es": "Heladería"
       }
@@ -103,8 +103,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Restaurant",
       "prefLabel": {
-        "en": "Restaurant",
         "de": "Restaurant",
+        "en": "Restaurant",
         "fr": "Restaurant",
         "es": "Restaurante"
       }
@@ -112,8 +112,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Winery",
       "prefLabel": {
-        "en": "Winery",
         "de": "Weingut oder Vinothek",
+        "en": "Winery",
         "fr": "Établissement vinicole",
         "es": "Bodega"
       }
@@ -121,8 +121,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Beverages",
       "prefLabel": {
-        "en": "Beverages",
         "de": "Getränke",
+        "en": "Beverages",
         "fr": "Boissons",
         "es": "Bebidas"
       }
@@ -130,8 +130,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Butcher",
       "prefLabel": {
-        "en": "Butcher",
         "de": "Metzger",
+        "en": "Butcher",
         "fr": "Boucherie",
         "es": "Carnicería"
       }
@@ -139,8 +139,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Cheese",
       "prefLabel": {
-        "en": "Cheese",
         "de": "Käse",
+        "en": "Cheese",
         "fr": "Fromage",
         "es": "Queso"
       }
@@ -148,8 +148,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Chocolate",
       "prefLabel": {
-        "en": "Chocolate",
         "de": "Schokolade",
+        "en": "Chocolate",
         "fr": "Chocolat",
         "es": "Chocolate"
       }
@@ -157,8 +157,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Deli",
       "prefLabel": {
-        "en": "Deli",
         "de": "Feinkostgeschäft",
+        "en": "Deli",
         "fr": "Charcuterie",
         "es": "Deli"
       }
@@ -166,8 +166,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Dairy",
       "prefLabel": {
-        "en": "Dairy",
         "de": "Molkerei",
+        "en": "Dairy",
         "fr": "Produits laitiers",
         "es": "Lácteos"
       }
@@ -175,8 +175,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Farm",
       "prefLabel": {
-        "en": "Farm",
         "de": "Bauernhof",
+        "en": "Farm",
         "fr": "Ferme",
         "es": "Granja"
       }
@@ -184,8 +184,8 @@
     {
       "id": "https://w3id.org/class/redaktor/FishSeafood",
       "prefLabel": {
-        "en": "Fish and Seafood",
         "de": "Fisch und Meeresfrüchte",
+        "en": "Fish and Seafood",
         "fr": "Poissons et fruits de mer",
         "es": "Pescado y marisco"
       }
@@ -193,26 +193,17 @@
     {
       "id": "https://w3id.org/class/redaktor/Greengrocer",
       "prefLabel": {
-        "en": "Greengrocer or Organic Food",
         "de": "Gemüseladen oder Organic Food",
+        "en": "Greengrocer or Organic Food",
         "fr": "Épicerie fine, Organic Food",
         "es": "Frutería, Organic Food"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/acceptsReservations",
-      "prefLabel": {
-        "en": "accepts reservations",
-        "de": "nimmt Reservierungen an",
-        "fr": "accepte les réservations",
-        "es": "se aceptan reservas"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/hasMenu",
       "prefLabel": {
-        "en": "has menu",
         "de": "hat Menü",
+        "en": "has menu",
         "fr": "a menu",
         "es": "tiene menú"
       }
@@ -220,28 +211,37 @@
     {
       "id": "https://w3id.org/class/redaktor/menu",
       "prefLabel": {
-        "en": "menu",
         "de": "Menü",
+        "en": "menu",
         "fr": "menu",
         "es": "menú"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/servesCuisine",
+      "id": "https://w3id.org/class/redaktor/starRating",
       "prefLabel": {
-        "en": "serves cuisine",
-        "de": "serviert Küche",
-        "fr": "sert la cuisine",
-        "es": "sirve cocina"
+        "de": "Sternebewertung",
+        "en": "star rating",
+        "fr": "classement par étoiles",
+        "es": "clasificación por estrellas"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/starRating",
+      "id": "https://w3id.org/class/redaktor/acceptsReservations",
       "prefLabel": {
-        "en": "star rating",
-        "de": "Sternebewertung",
-        "fr": "classement par étoiles",
-        "es": "clasificación por estrellas"
+        "de": "nimmt Reservierungen an",
+        "en": "accepts reservations",
+        "fr": "accepte les réservations",
+        "es": "se aceptan reservas"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/servesCuisine",
+      "prefLabel": {
+        "de": "serviert Küche",
+        "en": "serves cuisine",
+        "fr": "sert la cuisine",
+        "es": "sirve cocina"
       }
     }
   ],
@@ -253,8 +253,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

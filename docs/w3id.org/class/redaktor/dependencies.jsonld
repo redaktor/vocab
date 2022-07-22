@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fdependencies",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fdependencies",
   "prefLabel": {
-    "en": "dependencies",
     "de": "Abhängigkeiten",
+    "en": "dependencies",
     "fr": "dépendances",
     "es": "dependencias"
   },
   "definition": {
+    "de": "Voraussetzungen für die Erfüllung der Schritte im Artikel.",
     "en": "Prerequisites needed to fulfill steps in article.",
-    "de": "Prerequisites needed to fulfill steps in article.",
-    "fr": "Prerequisites needed to fulfill steps in article.",
-    "es": "Prerequisites needed to fulfill steps in article."
+    "fr": "Conditions préalables nécessaires pour réaliser les étapes de l'article.",
+    "es": "Requisitos previos necesarios para cumplir los pasos del artículo."
   },
   "notation": [
     "1905"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

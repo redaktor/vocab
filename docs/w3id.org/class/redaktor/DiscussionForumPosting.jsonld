@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FDiscussionForumPosting",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FDiscussionForumPosting",
   "prefLabel": {
-    "en": "Discussion Forum Posting",
     "de": "Diskussions-Forum Posting",
+    "en": "Discussion Forum Posting",
     "fr": "Publication de forum de discussion",
     "es": "Publicación en el foro de debate"
   },
   "definition": {
-    "en": "A posting to a discussion forum",
     "de": "Ein Beitrag in einem Diskussionsforum",
+    "en": "A posting to a discussion forum",
     "fr": "Une publication dans un forum de discussion",
     "es": "Una publicación en un foro de debate"
   },
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

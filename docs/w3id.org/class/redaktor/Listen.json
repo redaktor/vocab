@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FListen",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FListen",
   "prefLabel": {
-    "en": "Listen",
     "de": "Hören",
+    "en": "Listen",
     "fr": "Écoutez",
     "es": "Escuche"
   },
   "definition": {
-    "en": "Indicates that the actor has listened to the object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-listen](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-listen)",
     "de": "Zeigt an, dass der Akteur dem Objekt zugehört hat.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-listen](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-listen)",
+    "en": "Indicates that the actor has listened to the object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-listen](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-listen)",
     "fr": "Indique que l'acteur a écouté l'objet.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-listen](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-listen)",
     "es": "Indica que el actor ha escuchado el objeto.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-listen](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-listen)"
   },
   "scopeNote": {
-    "en": ": Activity",
     "de": ": Activity",
+    "en": ": Activity",
     "fr": ": Activity",
     "es": ": Activity"
   },
@@ -25,8 +25,8 @@
     "214"
   ],
   "example": {
-    "en": "[Example 32](https://www.w3.org/TR/activitystreams-vocabulary/#ex163-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally listened to a piece of music\",\n  \"type\": \"Listen\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": \"http://example.org/music.mp3\"\n}\n```",
     "de": "[Beispiel 32](https://www.w3.org/TR/activitystreams-vocabulary/#ex163-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally listened to a piece of music\",\n  \"type\": \"Listen\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": \"http://example.org/music.mp3\"\n}\n```",
+    "en": "[Example 32](https://www.w3.org/TR/activitystreams-vocabulary/#ex163-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally listened to a piece of music\",\n  \"type\": \"Listen\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": \"http://example.org/music.mp3\"\n}\n```",
     "fr": "[Exemple 32](https://www.w3.org/TR/activitystreams-vocabulary/#ex163-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally listened to a piece of music\",\n  \"type\": \"Listen\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": \"http://example.org/music.mp3\"\n}\n```",
     "es": "[Ejemplo 32](https://www.w3.org/TR/activitystreams-vocabulary/#ex163-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally listened to a piece of music\",\n  \"type\": \"Listen\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": \"http://example.org/music.mp3\"\n}\n```"
   },
@@ -41,8 +41,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FmealService",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FmealService",
   "prefLabel": {
-    "en": "meal service",
     "de": "Mahlzeitendienst",
+    "en": "meal service",
     "fr": "service de restauration",
     "es": "servicio de comidas"
   },
   "definition": {
+    "de": "Beschreibung der Mahlzeiten, die angeboten oder gekauft werden können.",
     "en": "Description of the meals that will be provided or available for purchase.",
-    "de": "Description of the meals that will be provided or available for purchase.",
-    "fr": "Description of the meals that will be provided or available for purchase.",
-    "es": "Description of the meals that will be provided or available for purchase."
+    "fr": "Description des repas qui seront fournis ou disponibles à l'achat.",
+    "es": "Descripción de las comidas que se proporcionarán o se podrán comprar."
   },
   "notation": [
     "2077"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FExclusive",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FExclusive",
   "prefLabel": {
-    "en": "Exclusive",
     "de": "Exklusiv",
+    "en": "Exclusive",
     "fr": "Exclusif",
     "es": "Exclusiva"
   },
   "definition": {
-    "en": "News reported by one journalist or news organisation before others, and of exceptional originality or importance",
     "de": "Nachrichten, die von einem Journalisten oder einer Nachrichtenorganisation vor anderen berichtet werden und von außergewöhnlicher Originalität oder Bedeutung sind",
+    "en": "News reported by one journalist or news organisation before others, and of exceptional originality or importance",
     "fr": "Nouvelles rapportées par un journaliste ou un organisme de presse avant les autres, et présentant une originalité ou une importance exceptionnelle.",
     "es": "Noticia difundida por un periodista o una organización de noticias antes que otros, y de excepcional originalidad o importancia"
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/CreativeWork",
     "prefLabel": {
-      "en": "Creative Work",
       "de": "Kreativwerk",
+      "en": "Creative Work",
       "fr": "Travail créatif",
       "es": "Trabajo creativo"
     }
@@ -35,8 +35,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

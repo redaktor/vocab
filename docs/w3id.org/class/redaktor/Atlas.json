@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAtlas",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAtlas",
   "prefLabel": {
-    "en": "Atlas",
     "de": "Atlas",
+    "en": "Atlas",
     "fr": "Atlas",
     "es": "Atlas"
   },
   "definition": {
-    "en": "A collection or bound volume of maps, charts, plates or tables, physical or in media form illustrating any subject.",
     "de": "Eine Sammlung oder ein gebundener Band mit Karten, Diagrammen, Tafeln oder Tabellen, physisch oder in Medienform, die ein beliebiges Thema illustrieren.",
+    "en": "A collection or bound volume of maps, charts, plates or tables, physical or in media form illustrating any subject.",
     "fr": "Une collection ou un volume relié de cartes, de graphiques, de planches ou de tableaux, physiques ou sous forme de support, illustrant un sujet quelconque.",
     "es": "Colección o volumen encuadernado de mapas, gráficos, láminas o cuadros, físicos o en soporte, que ilustran cualquier tema."
   },
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

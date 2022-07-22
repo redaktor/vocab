@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCreativeWorkSeries",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCreativeWorkSeries",
   "prefLabel": {
-    "en": "Series",
     "de": "Serie",
+    "en": "Series",
     "fr": "Série",
     "es": "Serie"
   },
   "definition": {
-    "en": "A CreativeWorkSeries is a group of related items, typically but not necessarily of the same kind. CreativeWorkSeries are organized into some order, often chronological.",
     "de": "Eine CreativeWorkSeries ist eine Gruppe von zusammenhängenden Objekten, die typischerweise, aber nicht notwendigerweise von der gleichen Art sind. CreativeWorkSeries sind in einer bestimmten Reihenfolge organisiert, oft chronologisch.",
+    "en": "A CreativeWorkSeries is a group of related items, typically but not necessarily of the same kind. CreativeWorkSeries are organized into some order, often chronological.",
     "fr": "Un CreativeWorkSeries est un groupe d'éléments connexes, généralement mais pas nécessairement du même type. Les CreativeWorkSeries sont organisés dans un certain ordre, souvent chronologique.",
     "es": "Un CreativeWorkSeries es un grupo de elementos relacionados, típicamente pero no necesariamente del mismo tipo. Los CreativeWorkSeries suelen estar organizados en algún orden, a menudo cronológico."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/VideoGameSeries",
       "prefLabel": {
-        "en": "Video Game Series",
         "de": "Videospiel-Serie",
+        "en": "Video Game Series",
         "fr": "Série de jeux vidéo",
         "es": "Serie de videojuegos"
       }
@@ -31,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/PodcastSeries",
       "prefLabel": {
-        "en": "Podcast Series",
         "de": "Podcast-Serie",
+        "en": "Podcast Series",
         "fr": "Série de podcasts",
         "es": "Serie de podcasts"
       }
@@ -40,8 +40,8 @@
     {
       "id": "https://w3id.org/class/redaktor/MovieSeries",
       "prefLabel": {
-        "en": "Movie Series",
         "de": "Film-Serie",
+        "en": "Movie Series",
         "fr": "Série de Film",
         "es": "Serie de Película"
       }
@@ -49,8 +49,8 @@
     {
       "id": "https://w3id.org/class/redaktor/RadioSeries",
       "prefLabel": {
-        "en": "Radio Series",
         "de": "Radio-Serie",
+        "en": "Radio Series",
         "fr": "Série de Radio",
         "es": "Serie de Radio"
       }
@@ -58,8 +58,8 @@
     {
       "id": "https://w3id.org/class/redaktor/TVSeries",
       "prefLabel": {
-        "en": "TV Series",
         "de": "Fernseh-Serie",
+        "en": "TV Series",
         "fr": "Série de TV",
         "es": "Serie de TV"
       }
@@ -67,8 +67,8 @@
     {
       "id": "https://w3id.org/class/redaktor/issn",
       "prefLabel": {
-        "en": "ISSN",
         "de": "ISSN",
+        "en": "ISSN",
         "fr": "ISSN",
         "es": "ISSN"
       }
@@ -112,8 +112,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

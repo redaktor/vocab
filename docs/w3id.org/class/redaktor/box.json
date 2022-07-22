@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fbox",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fbox",
   "prefLabel": {
-    "en": "box",
     "de": "Kasten",
+    "en": "box",
     "fr": "boîte",
     "es": "caja"
   },
   "definition": {
+    "de": "Ein Kasten ist die Fläche, die von dem durch zwei Punkte gebildeten Rechteck umschlossen wird. Der erste Punkt ist die untere Ecke, der zweite Punkt ist die obere Ecke. Eine Box wird durch zwei Punkte ausgedrückt, die durch ein Leerzeichen getrennt sind.",
     "en": "A box is the area enclosed by the rectangle formed by two points. The first point is the lower corner, the second point is the upper corner. A box is expressed as two points separated by a space character.",
-    "de": "A box is the area enclosed by the rectangle formed by two points. The first point is the lower corner, the second point is the upper corner. A box is expressed as two points separated by a space character.",
-    "fr": "A box is the area enclosed by the rectangle formed by two points. The first point is the lower corner, the second point is the upper corner. A box is expressed as two points separated by a space character.",
-    "es": "A box is the area enclosed by the rectangle formed by two points. The first point is the lower corner, the second point is the upper corner. A box is expressed as two points separated by a space character."
+    "fr": "Une boîte est la zone délimitée par le rectangle formé par deux points. Le premier point est le coin inférieur, le deuxième point est le coin supérieur. Une boîte est exprimée par deux points séparés par un caractère d'espacement.",
+    "es": "Una caja es el área encerrada por el rectángulo formado por dos puntos. El primer punto es la esquina inferior, el segundo punto es la esquina superior. Una caja se expresa como dos puntos separados por un carácter de espacio."
   },
   "notation": [
     "1826"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

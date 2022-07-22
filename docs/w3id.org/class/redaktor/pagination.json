@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fpagination",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fpagination",
   "prefLabel": {
-    "en": "pagination",
     "de": "Paginierung",
+    "en": "pagination",
     "fr": "pagination",
     "es": "paginación"
   },
   "definition": {
+    "de": "Jede Beschreibung von Seiten, die nicht in pageStart und pageEnd unterteilt ist, z. B. \"1-6, 9, 55\" oder \"10-12, 46-49\".",
     "en": "Any description of pages that is not separated into pageStart and pageEnd; for example, “1-6, 9, 55” or “10-12, 46-49”.",
-    "de": "Any description of pages that is not separated into pageStart and pageEnd; for example, “1-6, 9, 55” or “10-12, 46-49”.",
-    "fr": "Any description of pages that is not separated into pageStart and pageEnd; for example, “1-6, 9, 55” or “10-12, 46-49”.",
-    "es": "Any description of pages that is not separated into pageStart and pageEnd; for example, “1-6, 9, 55” or “10-12, 46-49”."
+    "fr": "Toute description des pages qui n'est pas séparée en pageStart et pageEnd ; par exemple, \"1-6, 9, 55\" ou \"10-12, 46-49\".",
+    "es": "Cualquier descripción de páginas que no esté separada en pageStart y pageEnd; por ejemplo, \"1-6, 9, 55\" o \"10-12, 46-49\"."
   },
   "notation": [
     "2131"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

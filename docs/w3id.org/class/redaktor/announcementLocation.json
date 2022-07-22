@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FannouncementLocation",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FannouncementLocation",
   "prefLabel": {
-    "en": "announcement location",
     "de": "Ankündigung Ort",
+    "en": "announcement location",
     "fr": "annonce emplacement",
     "es": "ubicación del anuncio"
   },
   "definition": {
+    "de": "Gibt eine bestimmte [[CivicStructure]] oder [[LocalBusiness]] an, die mit der SpecialAnnouncement verbunden ist. Zum Beispiel eine bestimmte Prüfeinrichtung oder ein Geschäft mit besonderen Öffnungszeiten. Für eine größere geografische Region wie eine Quarantäne für eine ganze Region verwenden Sie [[spatialCoverage]].",
     "en": "Indicates a specific [[CivicStructure]] or [[LocalBusiness]] associated with the SpecialAnnouncement. For example, a specific testing facility or business with special opening hours. For a larger geographic region like a quarantine of an entire region, use [[spatialCoverage]].",
-    "de": "Indicates a specific [[CivicStructure]] or [[LocalBusiness]] associated with the SpecialAnnouncement. For example, a specific testing facility or business with special opening hours. For a larger geographic region like a quarantine of an entire region, use [[spatialCoverage]].",
-    "fr": "Indicates a specific [[CivicStructure]] or [[LocalBusiness]] associated with the SpecialAnnouncement. For example, a specific testing facility or business with special opening hours. For a larger geographic region like a quarantine of an entire region, use [[spatialCoverage]].",
-    "es": "Indicates a specific [[CivicStructure]] or [[LocalBusiness]] associated with the SpecialAnnouncement. For example, a specific testing facility or business with special opening hours. For a larger geographic region like a quarantine of an entire region, use [[spatialCoverage]]."
+    "fr": "Indique une [[CivicStructure]] ou une [[LocalBusiness]] spécifique associée à la SpecialAnnouncement. Par exemple, un centre de dépistage ou un commerce spécifique ayant des heures d'ouverture spéciales. Pour une région géographique plus étendue, comme la mise en quarantaine d'une région entière, utilisez [[spatialCoverage]].",
+    "es": "Indica una [[EstructuraCívica]] o [[EmpresaLocal]] específica asociada al AnuncioEspecial. Por ejemplo, un centro de pruebas específico o un negocio con un horario de apertura especial. Para una región geográfica más amplia, como una cuarentena de toda una región, utilice [[spatialCoverage]]."
   },
   "notation": [
     "1773"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

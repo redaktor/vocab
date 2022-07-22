@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcodeRepository",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcodeRepository",
   "prefLabel": {
-    "en": "code repository",
     "de": "Code-Repository",
+    "en": "code repository",
     "fr": "dépôt de code",
     "es": "repositorio de código"
   },
   "definition": {
+    "de": "Link zu dem Repository, in dem sich der nicht kompilierte, lesbare Code und der zugehörige Code befinden (SVN, github, CodePlex).",
     "en": "Link to the repository where the un-compiled, human readable code and related code is located (SVN, github, CodePlex).",
-    "de": "Link to the repository where the un-compiled, human readable code and related code is located (SVN, github, CodePlex).",
-    "fr": "Link to the repository where the un-compiled, human readable code and related code is located (SVN, github, CodePlex).",
-    "es": "Link to the repository where the un-compiled, human readable code and related code is located (SVN, github, CodePlex)."
+    "fr": "Lien vers le dépôt où se trouve le code non compilé, lisible par l'homme et le code connexe (SVN, github, CodePlex).",
+    "es": "Enlace al repositorio donde se encuentra el código no compilado y legible por los humanos y el código relacionado (SVN, github, CodePlex)."
   },
   "notation": [
     "1849"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

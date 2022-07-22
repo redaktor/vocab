@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fcompetitor",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fcompetitor",
   "prefLabel": {
-    "en": "competitor",
     "de": "Mitbewerber",
+    "en": "competitor",
     "fr": "concurrent",
     "es": "competidor"
   },
   "definition": {
+    "de": "Ein Teilnehmer an einer Sportveranstaltung.",
     "en": "A competitor in a sports event.",
-    "de": "A competitor in a sports event.",
-    "fr": "A competitor in a sports event.",
-    "es": "A competitor in a sports event."
+    "fr": "Un concurrent dans une épreuve sportive.",
+    "es": "Un competidor en un evento deportivo."
   },
   "notation": [
     "1857"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

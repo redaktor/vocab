@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Frelationship",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Frelationship",
   "prefLabel": {
-    "en": "relationship",
     "de": "Beziehung",
+    "en": "relationship",
     "fr": "relation",
     "es": "relación"
   },
   "definition": {
-    "en": "On a Relationship object, the relationship property identifies the kind of relationship that exists between subject and object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-relationship-term](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-relationship-term)",
     "de": "Bei einem Beziehungsobjekt identifiziert die Eigenschaft relationship die Art der Beziehung, die zwischen Subjekt und Objekt besteht.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-relationship-term](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-relationship-term)",
+    "en": "On a Relationship object, the relationship property identifies the kind of relationship that exists between subject and object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-relationship-term](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-relationship-term)",
     "fr": "Sur un objet Relationship, la propriété relationship identifie le type de relation qui existe entre le sujet et l'objet.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-relationship-term](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-relationship-term)",
     "es": "En un objeto de relación, la propiedad relationship identifica el tipo de relación que existe entre el sujeto y el objeto.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-relationship-term](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-relationship-term)"
   },
   "scopeNote": {
-    "en": ": Property",
     "de": ": Property",
+    "en": ": Property",
     "fr": ": Property",
     "es": ": Property"
   },
@@ -25,16 +25,16 @@
     "3211"
   ],
   "example": {
-    "en": "[Example 140](https://www.w3.org/TR/activitystreams-vocabulary/#ex22c-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally is an acquaintance of John's\",\n  \"type\": \"Relationship\",\n  \"subject\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"relationship\": \"http://purl.org/vocab/relationship/acquaintanceOf\",\n  \"object\": {\n    \"type\": \"Person\",\n    \"name\": \"John\"\n  }\n}\n```",
     "de": "[Beispiel 140](https://www.w3.org/TR/activitystreams-vocabulary/#ex22c-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally is an acquaintance of John's\",\n  \"type\": \"Relationship\",\n  \"subject\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"relationship\": \"http://purl.org/vocab/relationship/acquaintanceOf\",\n  \"object\": {\n    \"type\": \"Person\",\n    \"name\": \"John\"\n  }\n}\n```",
+    "en": "[Example 140](https://www.w3.org/TR/activitystreams-vocabulary/#ex22c-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally is an acquaintance of John's\",\n  \"type\": \"Relationship\",\n  \"subject\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"relationship\": \"http://purl.org/vocab/relationship/acquaintanceOf\",\n  \"object\": {\n    \"type\": \"Person\",\n    \"name\": \"John\"\n  }\n}\n```",
     "fr": "[Exemple 140](https://www.w3.org/TR/activitystreams-vocabulary/#ex22c-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally is an acquaintance of John's\",\n  \"type\": \"Relationship\",\n  \"subject\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"relationship\": \"http://purl.org/vocab/relationship/acquaintanceOf\",\n  \"object\": {\n    \"type\": \"Person\",\n    \"name\": \"John\"\n  }\n}\n```",
     "es": "[Ejemplo 140](https://www.w3.org/TR/activitystreams-vocabulary/#ex22c-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally is an acquaintance of John's\",\n  \"type\": \"Relationship\",\n  \"subject\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"relationship\": \"http://purl.org/vocab/relationship/acquaintanceOf\",\n  \"object\": {\n    \"type\": \"Person\",\n    \"name\": \"John\"\n  }\n}\n```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/Relationship",
     "prefLabel": {
-      "en": "Relationship",
       "de": "Beziehung",
+      "en": "Relationship",
       "fr": "Relation",
       "es": "Relación"
     }
@@ -47,8 +47,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

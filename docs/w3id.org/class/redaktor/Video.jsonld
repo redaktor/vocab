@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fvideo",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fvideo",
   "prefLabel": {
-    "en": "video",
     "de": "video",
+    "en": "video",
     "fr": "video",
     "es": "video"
   },
   "definition": {
-    "en": "Associated Video for the entry<br>in [PlaylistElement](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)",
     "de": "Das Video des Eintrags<br>in [PlaylistElement](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)",
+    "en": "Associated Video for the entry<br>in [PlaylistElement](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)",
     "fr": "Vidéo associée à l'entrée<br>in [PlaylistElement](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)",
     "es": "Vídeo asociado a la entrada<br>in [PlaylistElement](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)"
   },
   "scopeNote": {
-    "en": "ActivityPub Community",
     "de": "ActivityPub Community",
+    "en": "ActivityPub Community",
     "fr": "ActivityPub Community",
     "es": "ActivityPub Community"
   },
@@ -27,8 +27,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/PlaylistElement",
     "prefLabel": {
-      "en": "Playlist Element",
       "de": "Playlist Element",
+      "en": "Playlist Element",
       "fr": "Playlist Element",
       "es": "Playlist Element"
     }
@@ -44,8 +44,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
@@ -144,22 +144,14 @@
       "@container": "@set"
     }
   }
-}   }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/stopTimestamp",
-      "prefLabel": {
-        "en": "stop timestamp",
-        "de": "stop Zeitstempel",
-        "fr": "stop timestamp",
-        "es": "stop timestamp"
+}"es": "stop timestamp"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/state",
       "prefLabel": {
-        "en": "state",
         "de": "state",
+        "en": "state",
         "fr": "state",
         "es": "state"
       }
@@ -167,8 +159,8 @@
     {
       "id": "https://w3id.org/class/redaktor/waitTranscoding",
       "prefLabel": {
-        "en": "wait transcoding",
         "de": "Transkodieren abwarten",
+        "en": "wait transcoding",
         "fr": "attendre le transcodage",
         "es": "esperar la transcodificación"
       }
@@ -176,8 +168,8 @@
     {
       "id": "https://w3id.org/class/redaktor/subtitleLanguage",
       "prefLabel": {
-        "en": "subtitle languages",
         "de": "Sprachen der Untertitel",
+        "en": "subtitle languages",
         "fr": "langues des sous-titres",
         "es": "idiomas de los subtítulos"
       }
@@ -185,26 +177,44 @@
     {
       "id": "https://w3id.org/class/redaktor/CreativeWork",
       "prefLabel": {
-        "en": "Creative Work",
         "de": "Kreativwerk",
+        "en": "Creative Work",
         "fr": "Travail créatif",
         "es": "Trabajo creativo"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/category",
+      "prefLabel": {
+        "de": "Kategorie",
+        "en": "category",
+        "fr": "catégorie",
+        "es": "categoría"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/inLanguage",
       "prefLabel": {
-        "en": "in language",
         "de": "in Sprache",
+        "en": "in language",
         "fr": "en langue",
         "es": "en el lenguaje"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/availableLanguage",
+      "prefLabel": {
+        "de": "verfügbare Sprache",
+        "en": "available language",
+        "fr": "langues disponibles",
+        "es": "idiomas disponibles"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/isLiveBroadcast",
       "prefLabel": {
-        "en": "is Live Broadcast",
         "de": "ist Live Broadcast",
+        "en": "is Live Broadcast",
         "fr": "est diffusé en direct",
         "es": "la transmisión en vivo"
       }
@@ -212,8 +222,8 @@
     {
       "id": "https://w3id.org/class/redaktor/AdvertisingInvolved",
       "prefLabel": {
-        "en": "Advertiser Supplied or sponsored",
         "de": "Von Werbetreibenden bereitgestellt oder gesponsort",
+        "en": "Advertiser Supplied or sponsored",
         "fr": "Fourni par l'annonceur ou sponsorisé",
         "es": "Suministrado por el anunciante o 'patrocinado'"
       }
@@ -221,8 +231,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Fictional",
       "prefLabel": {
-        "en": "Fictional",
         "de": "Fiktional",
+        "en": "Fictional",
         "fr": "Fictionnel",
         "es": "Ficticia"
       }
@@ -230,8 +240,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Entertainment",
       "prefLabel": {
-        "en": "Entertainment",
         "de": "Unterhaltung",
+        "en": "Entertainment",
         "fr": "Divertissement",
         "es": "Entretenimiento"
       }
@@ -242,8 +252,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Weather",
       "prefLabel": {
-        "en": "Weather",
         "de": "Wetter",
+        "en": "Weather",
         "fr": "Météo",
         "es": "Tiempo"
       }
@@ -251,8 +261,8 @@
     {
       "id": "https://w3id.org/class/redaktor/MusicOnly",
       "prefLabel": {
-        "en": "Music",
         "de": "Musik",
+        "en": "Music",
         "fr": "Musique",
         "es": "Música"
       }
@@ -260,8 +270,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SocialMediaPosting",
       "prefLabel": {
-        "en": "Social Media Posting",
         "de": "Beitrag Soziale Netzwerke",
+        "en": "Social Media Posting",
         "fr": "Publication sur les médias sociaux",
         "es": "Publicación en las redes sociales"
       }
@@ -269,8 +279,8 @@
     {
       "id": "https://w3id.org/class/redaktor/aggregateRating",
       "prefLabel": {
-        "en": "aggregate rating",
         "de": "Gesamtbewertung",
+        "en": "aggregate rating",
         "fr": "cote globale",
         "es": "calificación agregada"
       }
@@ -278,26 +288,17 @@
     {
       "id": "https://w3id.org/class/redaktor/actorPerforming",
       "prefLabel": {
-        "en": "actor",
         "de": "Darsteller",
+        "en": "actor",
         "fr": "acteur",
         "es": "actor"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/availableLanguage",
-      "prefLabel": {
-        "en": "available language",
-        "de": "verfügbare Sprache",
-        "fr": "langues disponibles",
-        "es": "idiomas disponibles"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/director",
       "prefLabel": {
-        "en": "director",
         "de": "Regisseur",
+        "en": "director",
         "fr": "réalisateur",
         "es": "director"
       }
@@ -305,8 +306,8 @@
     {
       "id": "https://w3id.org/class/redaktor/musicBy",
       "prefLabel": {
-        "en": "music by",
         "de": "Musik von",
+        "en": "music by",
         "fr": "musique par",
         "es": "música por"
       }
@@ -315,8 +316,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Object",
     "prefLabel": {
-      "en": "Object",
       "de": "Objekt",
+      "en": "Object",
       "fr": "Objet",
       "es": "Objeto"
     }
@@ -329,8 +330,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

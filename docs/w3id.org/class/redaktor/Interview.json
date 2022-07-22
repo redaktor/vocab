@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FInterview",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FInterview",
   "prefLabel": {
-    "en": "Interview",
     "de": "Interview",
+    "en": "Interview",
     "fr": "Interview",
     "es": "Entrevista"
   },
   "definition": {
-    "en": "The report of a dialogue between a journalist and a news source or significant person",
     "de": "Der Bericht eines Dialogs zwischen einem Journalisten und einer Nachrichtenquelle oder einer wichtigen Person",
+    "en": "The report of a dialogue between a journalist and a news source or significant person",
     "fr": "Compte-rendu d'un dialogue entre un journaliste et une source d'information ou une personne importante.",
     "es": "Relato de un diálogo entre un periodista y una fuente de información o una persona significativa"
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/QuestionAndAnswer",
       "prefLabel": {
-        "en": "Question and Answer Session",
         "de": "Frage und Antwort-Sitzung",
+        "en": "Question and Answer Session",
         "fr": "Séance de questions-réponses",
         "es": "Sesión de preguntas y respuestas"
       }
@@ -37,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

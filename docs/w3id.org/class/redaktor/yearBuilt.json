@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FyearBuilt",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FyearBuilt",
   "prefLabel": {
-    "en": "year built",
     "de": "Jahr gebaut",
+    "en": "year built",
     "fr": "année construite",
     "es": "año de construcción"
   },
   "definition": {
-    "en": "The year an [[Accommodation]] was constructed. This corresponds to the [YearBuilt field in RESO](https://ddwiki.reso.org/display/DDW17/YearBuilt+Field). ",
-    "de": "The year an [[Accommodation]] was constructed. This corresponds to the [YearBuilt field in RESO](https://ddwiki.reso.org/display/DDW17/YearBuilt+Field). ",
-    "fr": "The year an [[Accommodation]] was constructed. This corresponds to the [YearBuilt field in RESO](https://ddwiki.reso.org/display/DDW17/YearBuilt+Field). ",
-    "es": "The year an [[Accommodation]] was constructed. This corresponds to the [YearBuilt field in RESO](https://ddwiki.reso.org/display/DDW17/YearBuilt+Field). "
+    "de": "Das Jahr, in dem eine [[Unterkunft]] gebaut wurde. Dies entspricht dem Feld [Baujahr in RESO] (https://ddwiki.reso.org/display/DDW17/YearBuilt+Feld).",
+    "en": "The year an [[Accommodation]] was constructed. This corresponds to the [YearBuilt field in RESO](https://ddwiki.reso.org/display/DDW17/YearBuilt+Field).",
+    "fr": "L'année de construction d'un [[Logement]]. Cela correspond au champ [YearBuilt dans RESO] (https://ddwiki.reso.org/display/DDW17/YearBuilt+Field).",
+    "es": "El año de construcción de un [[Alojamiento]]. Corresponde al campo [YearBuilt en RESO](https://ddwiki.reso.org/display/DDW17/YearBuilt+Field)."
   },
   "notation": [
     "2302"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

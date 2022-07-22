@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FnoBylinesPolicy",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FnoBylinesPolicy",
   "prefLabel": {
-    "en": "no bylines policy",
     "de": "keine bylines politik",
+    "en": "no bylines policy",
     "fr": "politique d'absence de signature",
     "es": "política de no titularidad"
   },
   "definition": {
+    "de": "Für eine [[NewsMediaOrganisation]] oder eine andere nachrichtenbezogene [[Organisation]] eine Erklärung, die erklärt, wann Autoren von Artikeln nicht in Bylines genannt werden.",
     "en": "For a [[NewsMediaOrganization]] or other news-related [[Organization]], a statement explaining when authors of articles are not named in bylines.",
-    "de": "For a [[NewsMediaOrganization]] or other news-related [[Organization]], a statement explaining when authors of articles are not named in bylines.",
-    "fr": "For a [[NewsMediaOrganization]] or other news-related [[Organization]], a statement explaining when authors of articles are not named in bylines.",
-    "es": "For a [[NewsMediaOrganization]] or other news-related [[Organization]], a statement explaining when authors of articles are not named in bylines."
+    "fr": "Pour une [[NewsMediaOrganization]] ou une autre [[Organisation]] liée à l'actualité, une déclaration expliquant quand les auteurs des articles ne sont pas nommés dans les légendes.",
+    "es": "Para una [[NewsMediaOrganization]] u otra [[Organización]] relacionada con las noticias, una declaración que explique cuándo los autores de los artículos no son nombrados en los titulares."
   },
   "notation": [
     "2100"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FhasOccupation",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FhasOccupation",
   "prefLabel": {
-    "en": "has occupation",
     "de": "hat Beruf",
+    "en": "has occupation",
     "fr": "has profession",
     "es": "tiene ocupación"
   },
   "definition": {
+    "de": "Der Beruf der Person. Für frühere Berufe verwenden Sie Role, um Daten auszudrücken.",
     "en": "The Person's occupation. For past professions, use Role for expressing dates.",
-    "de": "The Person's occupation. For past professions, use Role for expressing dates.",
-    "fr": "The Person's occupation. For past professions, use Role for expressing dates.",
-    "es": "The Person's occupation. For past professions, use Role for expressing dates."
+    "fr": "La profession de la personne. Pour les professions antérieures, utilisez Rôle pour exprimer les dates.",
+    "es": "La ocupación de la persona. Para las profesiones pasadas, utilice la función para expresar las fechas."
   },
   "notation": [
     "1992"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/Occupation",
+      "prefLabel": {
+        "de": "Beruf",
+        "en": "Occupation",
+        "fr": "Profession",
+        "es": "Ocupación"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

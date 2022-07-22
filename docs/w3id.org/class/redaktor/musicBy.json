@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FmusicBy",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FmusicBy",
   "prefLabel": {
-    "en": "music by",
     "de": "Musik von",
+    "en": "music by",
     "fr": "musique par",
     "es": "música por"
   },
   "definition": {
+    "de": "Der Komponist des Soundtracks.",
     "en": "The composer of the soundtrack.",
-    "de": "The composer of the soundtrack.",
-    "fr": "The composer of the soundtrack.",
-    "es": "The composer of the soundtrack."
+    "fr": "Le compositeur de la bande sonore.",
+    "es": "El compositor de la banda sonora."
   },
   "notation": [
     "2091"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

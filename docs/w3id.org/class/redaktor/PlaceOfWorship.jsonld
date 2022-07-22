@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPlaceOfWorship",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPlaceOfWorship",
   "prefLabel": {
-    "en": "Place of worship",
     "de": "Kultstätte",
+    "en": "Place of worship",
     "fr": "Lieu de culte",
     "es": "Lugar de culto"
   },
@@ -16,8 +16,8 @@
     {
       "id": "https://w3id.org/class/redaktor/BuddhistTemple",
       "prefLabel": {
-        "en": "Buddhist temple",
         "de": "Buddhistischer Tempel",
+        "en": "Buddhist temple",
         "fr": "Temple bouddhiste",
         "es": "Templo budista"
       }
@@ -25,8 +25,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Church",
       "prefLabel": {
-        "en": "Church",
         "de": "Kirche",
+        "en": "Church",
         "fr": "Église",
         "es": "Iglesia"
       }
@@ -34,8 +34,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HinduTemple",
       "prefLabel": {
-        "en": "Hindu Temple",
         "de": "Hindu Tempel",
+        "en": "Hindu Temple",
         "fr": "Temple hindou",
         "es": "Templo hindú"
       }
@@ -43,8 +43,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Mosque",
       "prefLabel": {
-        "en": "Mosque",
         "de": "Moschee",
+        "en": "Mosque",
         "fr": "Mosquée",
         "es": "Mezquita"
       }
@@ -52,8 +52,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Synagogue",
       "prefLabel": {
-        "en": "Synagogue",
         "de": "Synagoge",
+        "en": "Synagogue",
         "fr": "Synagogue",
         "es": "Sinagoga"
       }
@@ -61,8 +61,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Monastery",
       "prefLabel": {
-        "en": "Monastery",
         "de": "Kloster",
+        "en": "Monastery",
         "fr": "Monastère",
         "es": "Monasterio"
       }
@@ -70,8 +70,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SikhTemple",
       "prefLabel": {
-        "en": "Sikh Temple",
         "de": "Sikh-Tempel",
+        "en": "Sikh Temple",
         "fr": "Temple Sikh",
         "es": "Templo Sikh"
       }
@@ -79,8 +79,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ShintoShrine",
       "prefLabel": {
-        "en": "Shinto Shrine",
         "de": "Shinto-Heiligtum",
+        "en": "Shinto Shrine",
         "fr": "Sanctuaire Shinto",
         "es": "Santuario sintoísta"
       }
@@ -94,8 +94,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

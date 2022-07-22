@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcookingMethod",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcookingMethod",
   "prefLabel": {
-    "en": "cooking method",
     "de": "Kochmethode",
+    "en": "cooking method",
     "fr": "méthode de cuisson",
     "es": "método de cocción"
   },
   "definition": {
+    "de": "Die Methode des Kochens, wie Braten, Dämpfen, ...",
     "en": "The method of cooking, such as Frying, Steaming, ...",
-    "de": "The method of cooking, such as Frying, Steaming, ...",
-    "fr": "The method of cooking, such as Frying, Steaming, ...",
-    "es": "The method of cooking, such as Frying, Steaming, ..."
+    "fr": "La méthode de cuisson, telle que la friture, la cuisson à la vapeur, ...",
+    "es": "El método de cocción, como la fritura, la cocción al vapor, ..."
   },
   "notation": [
     "1869"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

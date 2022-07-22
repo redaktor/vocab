@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FlearningResourceType",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FlearningResourceType",
   "prefLabel": {
-    "en": "learning resource type",
     "de": "Lernressourcen-Typ",
+    "en": "learning resource type",
     "fr": "type de ressource pédagogique",
     "es": "tipo de recurso de aprendizaje"
   },
   "definition": {
+    "de": "Der vorherrschende Typ oder die Art, die die Lernressource charakterisiert. Zum Beispiel: \"Präsentation\", \"Handout\".",
     "en": "The predominant type or kind characterizing the learning resource. For example, 'presentation', 'handout'.",
-    "de": "The predominant type or kind characterizing the learning resource. For example, 'presentation', 'handout'.",
-    "fr": "The predominant type or kind characterizing the learning resource. For example, 'presentation', 'handout'.",
-    "es": "The predominant type or kind characterizing the learning resource. For example, 'presentation', 'handout'."
+    "fr": "Le type ou le genre prédominant qui caractérise la ressource d'apprentissage. Par exemple, \"présentation\", \"polycopié\".",
+    "es": "El tipo o clase predominante que caracteriza al recurso de aprendizaje. Por ejemplo, \"presentación\", \"folleto\"."
   },
   "notation": [
     "2057"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

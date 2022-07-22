@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FMusicRelease",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FMusicRelease",
   "prefLabel": {
-    "en": "Music Release",
     "de": "Musikveröffentlichung",
+    "en": "Music Release",
     "fr": "Version musicale",
     "es": "Lanzamiento de música"
   },
   "definition": {
-    "en": "A Music Release is a specific release of a music album.",
     "de": "Eine Musikveröffentlichung ist eine bestimmte Veröffentlichung eines Musikalbums.",
+    "en": "A Music Release is a specific release of a music album.",
     "fr": "Une version musicale est une version spécifique d'un album de musique.",
     "es": "Un lanzamiento de música es un lanzamiento específico de un álbum de música."
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/MusicPlaylist",
     "prefLabel": {
-      "en": "Music Playlist",
       "de": "Musik-Wiedergabeliste",
+      "en": "Music Playlist",
       "fr": "Liste de lecture de musique",
       "es": "Lista de reproducción de música"
     }
@@ -35,8 +35,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

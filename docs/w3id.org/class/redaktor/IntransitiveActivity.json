@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FIntransitiveActivity",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FIntransitiveActivity",
   "prefLabel": {
-    "en": "Intransitive Activity",
     "de": "Intransitive Aktivität",
+    "en": "Intransitive Activity",
     "fr": "Activité intransitive",
     "es": "Actividad intransitive"
   },
   "definition": {
-    "en": "Instances of IntransitiveActivity are a subtype of Activity representing intransitive actions. The object property is therefore inappropriate for these activities.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-intransitiveactivity](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-intransitiveactivity)",
     "de": "Instanzen von IntransitiveActivity sind ein Subtyp von Activity, der intransitive Handlungen darstellt. Die Objekteigenschaft ist daher für diese Aktivitäten unangemessen.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-intransitiveactivity](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-intransitiveactivity)",
+    "en": "Instances of IntransitiveActivity are a subtype of Activity representing intransitive actions. The object property is therefore inappropriate for these activities.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-intransitiveactivity](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-intransitiveactivity)",
     "fr": "Les instances de IntransitiveActivity sont un sous-type d'Activity représentant des actions intransitives. La propriété object est donc inappropriée pour ces activités.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-intransitiveactivity](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-intransitiveactivity)",
     "es": "Las instancias de IntransitiveActivity son un subtipo de Activity que representa acciones intransitivas. Por lo tanto, la propiedad objeto es inapropiada para estas actividades.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-intransitiveactivity](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-intransitiveactivity)"
   },
   "scopeNote": {
-    "en": ": Activity",
     "de": ": Activity",
+    "en": ": Activity",
     "fr": ": Activity",
     "es": ": Activity"
   },
@@ -25,8 +25,8 @@
     "5"
   ],
   "example": {
-    "en": "[Example 4](https://www.w3.org/TR/activitystreams-vocabulary/#ex182-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Travel\",\n  \"summary\": \"Sally went to work\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"target\": {\n    \"type\": \"Place\",\n    \"name\": \"Work\"\n  }\n}\n```",
     "de": "[Beispiel 4](https://www.w3.org/TR/activitystreams-vocabulary/#ex182-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Travel\",\n  \"summary\": \"Sally went to work\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"target\": {\n    \"type\": \"Place\",\n    \"name\": \"Work\"\n  }\n}\n```",
+    "en": "[Example 4](https://www.w3.org/TR/activitystreams-vocabulary/#ex182-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Travel\",\n  \"summary\": \"Sally went to work\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"target\": {\n    \"type\": \"Place\",\n    \"name\": \"Work\"\n  }\n}\n```",
     "fr": "[Exemple 4](https://www.w3.org/TR/activitystreams-vocabulary/#ex182-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Travel\",\n  \"summary\": \"Sally went to work\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"target\": {\n    \"type\": \"Place\",\n    \"name\": \"Work\"\n  }\n}\n```",
     "es": "[Ejemplo 4](https://www.w3.org/TR/activitystreams-vocabulary/#ex182-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Travel\",\n  \"summary\": \"Sally went to work\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"target\": {\n    \"type\": \"Place\",\n    \"name\": \"Work\"\n  }\n}\n```"
   },
@@ -34,8 +34,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Arrive",
       "prefLabel": {
-        "en": "Arrive",
         "de": "Ankunft",
+        "en": "Arrive",
         "fr": "Llegue",
         "es": "Arrivée"
       }
@@ -43,8 +43,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Question",
       "prefLabel": {
-        "en": "Question",
         "de": "Frage",
+        "en": "Question",
         "fr": "Question",
         "es": "Pregunta"
       }
@@ -60,8 +60,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Object",
     "prefLabel": {
-      "en": "Object",
       "de": "Objekt",
+      "en": "Object",
       "fr": "Objet",
       "es": "Objeto"
     }
@@ -74,8 +74,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

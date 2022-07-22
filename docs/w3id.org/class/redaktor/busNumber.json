@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FbusNumber",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FbusNumber",
   "prefLabel": {
-    "en": "bus number",
     "de": "Busnummer",
+    "en": "bus number",
     "fr": "numéro de bus",
     "es": "número de bus"
   },
   "definition": {
+    "de": "Der eindeutige Bezeichner für den Bus.",
     "en": "The unique identifier for the bus.",
-    "de": "The unique identifier for the bus.",
-    "fr": "The unique identifier for the bus.",
-    "es": "The unique identifier for the bus."
+    "fr": "L'identifiant unique du bus.",
+    "es": "El identificador único para el bus."
   },
   "notation": [
     "1832"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

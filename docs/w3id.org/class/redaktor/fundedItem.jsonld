@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FfundedItem",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FfundedItem",
   "prefLabel": {
-    "en": "funded item",
     "de": "finanziertes Objekt",
+    "en": "funded item",
     "fr": "élément financé",
     "es": "partida financiada"
   },
   "definition": {
+    "de": "Zeigt an, dass etwas direkt oder indirekt durch einen [[Zuschuss]] finanziert oder gesponsert wurde. Siehe auch [[ownershipFundingInfo]].",
     "en": "Indicates something directly or indirectly funded or sponsored through a [[Grant]]. See also [[ownershipFundingInfo]].",
-    "de": "Indicates something directly or indirectly funded or sponsored through a [[Grant]]. See also [[ownershipFundingInfo]].",
-    "fr": "Indicates something directly or indirectly funded or sponsored through a [[Grant]]. See also [[ownershipFundingInfo]].",
-    "es": "Indicates something directly or indirectly funded or sponsored through a [[Grant]]. See also [[ownershipFundingInfo]]."
+    "fr": "Indique quelque chose de directement ou indirectement financé ou sponsorisé par une [[Subvention]]. Voir aussi [[ownershipFundingInfo]].",
+    "es": "Indica algo financiado o patrocinado directa o indirectamente a través de una [[Subvención]]. Véase también [[ownershipFundingInfo]]."
   },
   "notation": [
     "1964"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,17 +4,17 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FBoatTerminal",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FBoatTerminal",
   "prefLabel": {
-    "en": "Boat Terminal",
     "de": "Schiffsterminal",
+    "en": "Boat Terminal",
     "fr": "Terminal à bateaux",
     "es": "Terminal de barcos"
   },
   "altLabel": {
-    "en": [
-      "Ferry Terminal"
-    ],
     "de": [
       "Fährterminal"
+    ],
+    "en": [
+      "Ferry Terminal"
     ],
     "fr": [
       "Terminal à Ferry"
@@ -34,8 +34,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

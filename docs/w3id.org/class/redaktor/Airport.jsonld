@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAirport",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAirport",
   "prefLabel": {
-    "en": "Airport",
     "de": "Flughafen",
+    "en": "Airport",
     "fr": "Aéroport",
     "es": "Aeropuorto"
   },
@@ -16,8 +16,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Airstrip",
       "prefLabel": {
-        "en": "Airstrip",
         "de": "Landebahn",
+        "en": "Airstrip",
         "fr": "Piste d'atterrissage",
         "es": "Pista de aterrizaje"
       }
@@ -25,8 +25,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Spaceport",
       "prefLabel": {
-        "en": "Spaceport",
         "de": "Spaceport",
+        "en": "Spaceport",
         "fr": "Spaceport",
         "es": "Spaceport"
       }
@@ -34,8 +34,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Heliport",
       "prefLabel": {
-        "en": "Heliport",
         "de": "Heliport",
+        "en": "Heliport",
         "fr": "Heliport",
         "es": "Heliport"
       }
@@ -43,8 +43,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Helipad",
       "prefLabel": {
-        "en": "Helipad",
         "de": "Helipad",
+        "en": "Helipad",
         "fr": "Helipad",
         "es": "Helipad"
       }
@@ -52,8 +52,8 @@
     {
       "id": "https://w3id.org/class/redaktor/iataCode",
       "prefLabel": {
-        "en": "IATA code",
         "de": "IATA Code",
+        "en": "IATA code",
         "fr": "code IATA",
         "es": "código IATA"
       }
@@ -61,8 +61,8 @@
     {
       "id": "https://w3id.org/class/redaktor/icaoCode",
       "prefLabel": {
-        "en": "icao code",
         "de": "icao code",
+        "en": "icao code",
         "fr": "code icao",
         "es": "código icao"
       }
@@ -76,8 +76,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

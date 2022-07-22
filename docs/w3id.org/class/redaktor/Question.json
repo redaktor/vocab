@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FQuestion",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FQuestion",
   "prefLabel": {
-    "en": "Question",
     "de": "Frage",
+    "en": "Question",
     "fr": "Question",
     "es": "Pregunta"
   },
   "definition": {
-    "en": "Represents a question being asked. Question objects are an extension of IntransitiveActivity. That is, the Question object is an Activity, but the direct object is the question itself and therefore it would not contain an object property. Either of the anyOf and oneOf properties MAY be used to express possible answers, but a Question object MUST NOT have both properties.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-question](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-question)",
     "de": "Stellt eine Frage dar, die gestellt wird. Question-Objekte sind eine Erweiterung von IntransitiveActivity. Das heißt, das Question-Objekt ist eine Activity, aber das direkte Objekt ist die Frage selbst und würde daher keine Objekteigenschaft enthalten. Jede der beiden Eigenschaften anyOf und oneOf KANN verwendet werden, um mögliche Antworten auszudrücken, aber ein Question-Objekt DARF NICHT beide Eigenschaften haben.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-question](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-question)",
+    "en": "Represents a question being asked. Question objects are an extension of IntransitiveActivity. That is, the Question object is an Activity, but the direct object is the question itself and therefore it would not contain an object property. Either of the anyOf and oneOf properties MAY be used to express possible answers, but a Question object MUST NOT have both properties.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-question](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-question)",
     "fr": "Représente une question posée. Les objets Question sont une extension de IntransitiveActivity. En d'autres termes, l'objet Question est une Activity, mais son objet direct est la question elle-même et il ne contient donc pas de propriété d'objet. L'une ou l'autre des propriétés anyOf et oneOf PEUT être utilisée pour exprimer des réponses possibles, mais un objet Question NE DOIT PAS avoir les deux propriétés.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-question](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-question)",
     "es": "Representa una pregunta que se hace. Los objetos Pregunta son una extensión de IntransitiveActivity. Es decir, el objeto Pregunta es una Actividad, pero el objeto directo es la propia pregunta y por tanto no contendría una propiedad de objeto. Cualquiera de las propiedades anyOf y oneOf PUEDE ser utilizada para expresar posibles respuestas, pero un objeto Pregunta NO DEBE tener ambas propiedades.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-question](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-question)"
   },
   "scopeNote": {
-    "en": ": Activity",
     "de": ": Activity",
+    "en": ": Activity",
     "fr": ": Activity",
     "es": ": Activity"
   },
@@ -25,8 +25,8 @@
     "65"
   ],
   "example": {
-    "en": "[Example 40](https://www.w3.org/TR/activitystreams-vocabulary/#ex55a-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Question\",\n  \"name\": \"What is the answer?\",\n  \"oneOf\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"Option A\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Option B\"\n    }\n  ]\n}\n```",
     "de": "[Beispiel 40](https://www.w3.org/TR/activitystreams-vocabulary/#ex55a-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Question\",\n  \"name\": \"What is the answer?\",\n  \"oneOf\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"Option A\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Option B\"\n    }\n  ]\n}\n```",
+    "en": "[Example 40](https://www.w3.org/TR/activitystreams-vocabulary/#ex55a-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Question\",\n  \"name\": \"What is the answer?\",\n  \"oneOf\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"Option A\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Option B\"\n    }\n  ]\n}\n```",
     "fr": "[Exemple 40](https://www.w3.org/TR/activitystreams-vocabulary/#ex55a-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Question\",\n  \"name\": \"What is the answer?\",\n  \"oneOf\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"Option A\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Option B\"\n    }\n  ]\n}\n```",
     "es": "[Ejemplo 40](https://www.w3.org/TR/activitystreams-vocabulary/#ex55a-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Question\",\n  \"name\": \"What is the answer?\",\n  \"oneOf\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"Option A\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Option B\"\n    }\n  ]\n}\n```"
   },
@@ -34,8 +34,8 @@
     {
       "id": "https://w3id.org/class/redaktor/anyOf",
       "prefLabel": {
-        "en": "any of",
         "de": "any of",
+        "en": "any of",
         "fr": "any of",
         "es": "any of"
       }
@@ -49,8 +49,8 @@
     {
       "id": "https://w3id.org/class/redaktor/oneOf",
       "prefLabel": {
-        "en": "one of",
         "de": "one of",
+        "en": "one of",
         "fr": "one of",
         "es": "one of"
       }
@@ -58,8 +58,8 @@
     {
       "id": "https://w3id.org/class/redaktor/votersCount",
       "prefLabel": {
-        "en": "voters count",
         "de": "Wähler*innenstimmen",
+        "en": "voters count",
         "fr": "nombre de votes",
         "es": "conteo de votantes"
       }
@@ -68,8 +68,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/IntransitiveActivity",
     "prefLabel": {
-      "en": "Intransitive Activity",
       "de": "Intransitive Aktivität",
+      "en": "Intransitive Activity",
       "fr": "Activité intransitive",
       "es": "Actividad intransitive"
     }
@@ -85,8 +85,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

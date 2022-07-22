@@ -4,26 +4,35 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FOrderItem",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FOrderItem",
   "prefLabel": {
-    "en": "Item Order",
     "de": "Artikelbestellung",
+    "en": "Item Order",
     "fr": "Commande d'articles",
     "es": "Pedido de artículos"
   },
   "definition": {
+    "de": "Eine Auftragsposition ist eine Zeile eines Auftrags. Sie enthält die Menge und die Versanddetails eines gekauften Angebots.",
     "en": "An order item is a line of an order. It includes the quantity and shipping details of a bought offer.",
-    "de": "An order item is a line of an order. It includes the quantity and shipping details of a bought offer.",
-    "fr": "An order item is a line of an order. It includes the quantity and shipping details of a bought offer.",
-    "es": "An order item is a line of an order. It includes the quantity and shipping details of a bought offer."
+    "fr": "Un poste de commande est une ligne d'une commande. Il comprend la quantité et les détails d'expédition d'une offre achetée.",
+    "es": "Una partida de pedido es una línea de un pedido. Incluye la cantidad y los detalles de envío de una oferta comprada."
   },
   "notation": [
     "38"
   ],
   "narrower": [
     {
+      "id": "https://w3id.org/class/redaktor/orderItemStatus",
+      "prefLabel": {
+        "de": "Status der Auftragsposition",
+        "en": "order item status",
+        "fr": "statut du poste de commande",
+        "es": "estado de la posición de pedido"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/orderDelivery",
       "prefLabel": {
-        "en": "order delivery",
         "de": "Lieferung der Bestellung",
+        "en": "order delivery",
         "fr": "commande de livraison",
         "es": "entrega de pedidos"
       }
@@ -31,26 +40,17 @@
     {
       "id": "https://w3id.org/class/redaktor/orderItemNumber",
       "prefLabel": {
-        "en": "order item number",
         "de": "Auftragspositionsnummer",
+        "en": "order item number",
         "fr": "numéro de poste de commande",
         "es": "número de pedido"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/orderItemStatus",
-      "prefLabel": {
-        "en": "order item status",
-        "de": "Status der Auftragsposition",
-        "fr": "statut du poste de commande",
-        "es": "estado de la posición de pedido"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/orderQuantity",
       "prefLabel": {
-        "en": "order quantity",
         "de": "Bestellmenge",
+        "en": "order quantity",
         "fr": "quantité commandée",
         "es": "cantidad del pedido"
       }
@@ -58,8 +58,8 @@
     {
       "id": "https://w3id.org/class/redaktor/orderedItem",
       "prefLabel": {
-        "en": "ordered item",
         "de": "Bestellte Position",
+        "en": "ordered item",
         "fr": "article commandé",
         "es": "artículo pedido"
       }
@@ -67,14 +67,14 @@
   ],
   "exactMatch": [
     {
-      "id": "schema:OrderItem"
+      "id": "https://w3id.org/class/redaktor/OrderItem"
     }
   ],
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

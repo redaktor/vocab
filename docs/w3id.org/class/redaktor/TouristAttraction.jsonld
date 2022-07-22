@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTouristAttraction",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTouristAttraction",
   "prefLabel": {
-    "en": "Tourist Attraction",
     "de": "Sehenswürdigkeit",
+    "en": "Tourist Attraction",
     "fr": "Attraction touristique",
     "es": "Atracción turística"
   },
   "definition": {
-    "en": "A tourist attraction. In principle any Thing can be a TouristAttraction, from a Mountain and LandmarksOrHistoricalBuildings to a LocalBusiness. This Type can be used on its own to describe a general TouristAttraction, or be used as an additionalType to add tourist attraction properties to any other type.",
     "de": "Eine Touristenattraktion. Im Prinzip kann jedes Ding eine TouristAttraction sein, von einem Berg über LandmarksOrHistoricalBuildings bis hin zu einem LocalBusiness. Dieser Typ kann für sich allein verwendet werden, um eine allgemeine TouristAttraction zu beschreiben, oder er kann als zusätzlicher Typ verwendet werden, um Eigenschaften einer Touristenattraktion zu jedem anderen Typ hinzuzufügen.",
+    "en": "A tourist attraction. In principle any Thing can be a TouristAttraction, from a Mountain and LandmarksOrHistoricalBuildings to a LocalBusiness. This Type can be used on its own to describe a general TouristAttraction, or be used as an additionalType to add tourist attraction properties to any other type.",
     "fr": "Une attraction touristique. En principe, toute chose peut être une TouristAttraction, d'une montagne et de LandmarksOrHistoricalBuildings à un LocalBusiness. Ce type peut être utilisé seul pour décrire une attraction touristique générale, ou être utilisé comme un type supplémentaire pour ajouter des propriétés d'attraction touristique à tout autre type.",
     "es": "Una atracción turística. En principio, cualquier cosa puede ser una TouristAttraction, desde una montaña y LandmarksOrHistoricalBuildings hasta un LocalBusiness. Este tipo puede utilizarse por sí solo para describir una atracción turística general o como un tipo adicional para añadir propiedades de atracción turística a cualquier otro tipo."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/availableLanguage",
       "prefLabel": {
-        "en": "available language",
         "de": "verfügbare Sprache",
+        "en": "available language",
         "fr": "langues disponibles",
         "es": "idiomas disponibles"
       }
@@ -31,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/touristType",
       "prefLabel": {
-        "en": "tourist type",
         "de": "Touristentyp",
+        "en": "tourist type",
         "fr": "type de touriste",
         "es": "tipo de turista"
       }
@@ -46,8 +46,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

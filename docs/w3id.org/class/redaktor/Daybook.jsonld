@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FDaybook",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FDaybook",
   "prefLabel": {
-    "en": "Planner",
     "de": "Planer",
+    "en": "Planner",
     "fr": "Planificateur",
     "es": "Planificador"
   },
   "definition": {
-    "en": "Items filed on a regular basis that are lists of upcoming events with time and place, designed to inform others of events for planning purposes, also known as daybook or agenda",
     "de": "Regelmäßig abgelegte Listen von bevorstehenden Ereignissen mit Zeit und Ort, die dazu dienen, andere über Ereignisse zu Planungszwecken zu informieren, auch bekannt als Daybook oder Agenda",
+    "en": "Items filed on a regular basis that are lists of upcoming events with time and place, designed to inform others of events for planning purposes, also known as daybook or agenda",
     "fr": "Articles classés sur une base régulière qui sont des listes d'événements à venir avec l'heure et le lieu, conçus pour informer les autres des événements à des fins de planification, également connu sous le nom de journal ou d'agenda.",
     "es": "Artículos archivados de forma regular que son listas de los próximos eventos con hora y lugar, diseñados para informar a otros de los eventos con fines de planificación, también conocido como libro de días o agenda"
   },
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

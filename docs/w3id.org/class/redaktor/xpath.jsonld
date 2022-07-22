@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fxpath",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fxpath",
   "prefLabel": {
-    "en": "XPath",
     "de": "XPath",
+    "en": "XPath",
     "fr": "XPath",
     "es": "XPath"
   },
   "definition": {
+    "de": "Ein XPath, z. B. einer [[SpeakableSpecification]] oder eines [[WebPageElement]]. Im letzteren Fall können mehrere Übereinstimmungen innerhalb einer Seite ein einziges konzeptionelles \"Webseiten-Element\" darstellen.",
     "en": "An XPath, e.g. of a [[SpeakableSpecification]] or [[WebPageElement]]. In the latter case, multiple matches within a page can constitute a single conceptual “Web page element”.",
-    "de": "An XPath, e.g. of a [[SpeakableSpecification]] or [[WebPageElement]]. In the latter case, multiple matches within a page can constitute a single conceptual “Web page element”.",
-    "fr": "An XPath, e.g. of a [[SpeakableSpecification]] or [[WebPageElement]]. In the latter case, multiple matches within a page can constitute a single conceptual “Web page element”.",
-    "es": "An XPath, e.g. of a [[SpeakableSpecification]] or [[WebPageElement]]. In the latter case, multiple matches within a page can constitute a single conceptual “Web page element”."
+    "fr": "Un XPath, par exemple d'une [[SpeakableSpecification]] ou d'un [[WebPageElement]]. Dans ce dernier cas, des correspondances multiples dans une page peuvent constituer un seul \"élément de page Web\" conceptuel.",
+    "es": "Un XPath, por ejemplo, de una [[SpeakableSpecification]] o [[WebPageElement]]. En este último caso, múltiples coincidencias dentro de una página pueden constituir un único \"elemento de página web\" conceptual."
   },
   "notation": [
     "2301"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/XPathType",
+      "prefLabel": {
+        "de": "XPath-Typ",
+        "en": "XPath Type",
+        "fr": "Type XPath",
+        "es": "Tipo XPath"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,10 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCommunityHealth",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCommunityHealth",
   "prefLabel": {
-    "en": "Community Health",
     "de": "Gemeinschaftliche Gesundheit",
+    "en": "Community Health",
     "fr": "Santé communautaire",
     "es": "Salud comunitaria"
+  },
+  "definition": {
+    "de": "Ein Bereich des öffentlichen Gesundheitswesens, der sich auf die Verbesserung der Gesundheitsmerkmale einer bestimmten Bevölkerung in Verbindung mit ihrem geografischen Umfeld oder ihrer Umgebung konzentriert.",
+    "en": "A field of public health focusing on improving health characteristics of a defined population in relation with their geographical or environment areas.",
+    "fr": "Un domaine de la santé publique qui se concentre sur l'amélioration des caractéristiques de santé d'une population définie en relation avec ses zones géographiques ou environnementales.",
+    "es": "Campo de la salud pública centrado en la mejora de las características sanitarias de una población definida en relación con sus áreas geográficas o de entorno."
   },
   "notation": [
     "1062"
@@ -20,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

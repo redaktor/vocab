@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FdepartureTerminal",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FdepartureTerminal",
   "prefLabel": {
-    "en": "departure terminal",
     "de": "Abfahrtsterminal",
+    "en": "departure terminal",
     "fr": "terminal de départ",
     "es": "terminal de salida"
   },
   "definition": {
+    "de": "Kennung des Abflugterminals des Fluges.",
     "en": "Identifier of the flight's departure terminal.",
-    "de": "Identifier of the flight's departure terminal.",
-    "fr": "Identifier of the flight's departure terminal.",
-    "es": "Identifier of the flight's departure terminal."
+    "fr": "Identifiant du terminal de départ du vol.",
+    "es": "Identificador de la terminal de salida del vuelo."
   },
   "notation": [
     "1903"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

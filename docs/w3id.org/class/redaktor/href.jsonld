@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fhref",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fhref",
   "prefLabel": {
-    "en": "href",
     "de": "href",
+    "en": "href",
     "fr": "href",
     "es": "href"
   },
   "definition": {
-    "en": "The target resource pointed to by a Link.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-href](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-href)",
     "de": "Die Zielressource, auf die ein Link verweist.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-href](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-href)",
+    "en": "The target resource pointed to by a Link.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-href](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-href)",
     "fr": "La ressource cible pointée par un lien.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-href](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-href)",
     "es": "El recurso de destino al que apunta un enlace.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-href](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-href)"
   },
   "scopeNote": {
-    "en": ": Property",
     "de": ": Property",
+    "en": ": Property",
     "fr": ": Property",
     "es": ": Property"
   },
@@ -25,16 +25,16 @@
     "497"
   ],
   "example": {
-    "en": "[Example 121](https://www.w3.org/TR/activitystreams-vocabulary/#ex137-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/abc\",\n  \"mediaType\": \"text/html\",\n  \"name\": \"Previous\"\n}\n```",
     "de": "[Beispiel 121](https://www.w3.org/TR/activitystreams-vocabulary/#ex137-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/abc\",\n  \"mediaType\": \"text/html\",\n  \"name\": \"Previous\"\n}\n```",
+    "en": "[Example 121](https://www.w3.org/TR/activitystreams-vocabulary/#ex137-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/abc\",\n  \"mediaType\": \"text/html\",\n  \"name\": \"Previous\"\n}\n```",
     "fr": "[Exemple 121](https://www.w3.org/TR/activitystreams-vocabulary/#ex137-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/abc\",\n  \"mediaType\": \"text/html\",\n  \"name\": \"Previous\"\n}\n```",
     "es": "[Ejemplo 121](https://www.w3.org/TR/activitystreams-vocabulary/#ex137-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Link\",\n  \"href\": \"http://example.org/abc\",\n  \"mediaType\": \"text/html\",\n  \"name\": \"Previous\"\n}\n```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/Link",
     "prefLabel": {
-      "en": "Link",
       "de": "Link",
+      "en": "Link",
       "fr": "Lien",
       "es": "Enlace"
     }
@@ -47,8 +47,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

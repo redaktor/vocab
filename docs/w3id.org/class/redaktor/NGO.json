@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FNGO",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FNGO",
   "prefLabel": {
-    "en": "NGO",
     "de": "NGO",
+    "en": "NGO",
     "fr": "NGO",
     "es": "NGO"
   },
   "definition": {
-    "en": "Organization: Non-governmental Organization.",
     "de": "Organisation: Nichtstaatliche Organisation.",
+    "en": "Organization: Non-governmental Organization.",
     "fr": "Organisation : Organisation non gouvernementale.",
     "es": "Organización: Organización no gubernamental."
   },
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

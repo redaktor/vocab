@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fpublication",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fpublication",
   "prefLabel": {
-    "en": "publication",
     "de": "Veröffentlichung",
+    "en": "publication",
     "fr": "publication",
     "es": "publicación"
   },
   "definition": {
+    "de": "Ein mit dem Artikel verbundenes Veröffentlichungsereignis.",
     "en": "A publication event associated with the item.",
-    "de": "A publication event associated with the item.",
-    "fr": "A publication event associated with the item.",
-    "es": "A publication event associated with the item."
+    "fr": "Un événement de publication associé à l'élément.",
+    "es": "Un evento de publicación asociado al artículo."
   },
   "notation": [
     "2170"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fitinerary",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fitinerary",
   "prefLabel": {
-    "en": "itinerary",
     "de": "Reiseroute",
+    "en": "itinerary",
     "fr": "itinéraire",
     "es": "itinerario"
   },
   "definition": {
+    "de": "Ziel(e) ( [[Ort]]), aus denen eine Reise besteht. Für eine Reise, bei der die Reihenfolge der Ziele wichtig ist, verwenden Sie [[ItemList]], um diese Reihenfolge anzugeben (siehe Beispiele).",
     "en": "Destination(s) ( [[Place]] ) that make up a trip. For a trip where destination order is important use [[ItemList]] to specify that order (see examples).",
-    "de": "Destination(s) ( [[Place]] ) that make up a trip. For a trip where destination order is important use [[ItemList]] to specify that order (see examples).",
-    "fr": "Destination(s) ( [[Place]] ) that make up a trip. For a trip where destination order is important use [[ItemList]] to specify that order (see examples).",
-    "es": "Destination(s) ( [[Place]] ) that make up a trip. For a trip where destination order is important use [[ItemList]] to specify that order (see examples)."
+    "fr": "Destination(s) ([[Lieu]]) qui composent un voyage. Pour un voyage où l'ordre des destinations est important, utilisez [[ItemList]] pour spécifier cet ordre (voir exemples).",
+    "es": "Destino(s) ( [[Lugar]]) que componen un viaje. Para un viaje en el que el orden de los destinos es importante, utilice [[ItemList]] para especificar ese orden (ver ejemplos)."
   },
   "notation": [
     "2050"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

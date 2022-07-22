@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSoftwareApplication",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSoftwareApplication",
   "prefLabel": {
-    "en": "Software Application",
     "de": "Software-Anwendung",
+    "en": "Software Application",
     "fr": "Application logicielle",
     "es": "Aplicación de software"
   },
   "definition": {
-    "en": "A Software Application of all kinds.",
     "de": "Eine Software-Anwendung jeder Art.",
+    "en": "A Software Application of all kinds.",
     "fr": "Une application logicielle de toutes sortes.",
     "es": "Una aplicación de software de todo tipo."
   },
@@ -20,10 +20,19 @@
   ],
   "narrower": [
     {
+      "id": "https://w3id.org/class/redaktor/supportingData",
+      "prefLabel": {
+        "de": "unterstützende Daten",
+        "en": "supporting data",
+        "fr": "données de soutien",
+        "es": "datos de apoyo"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/applicationCategory",
       "prefLabel": {
-        "en": "application category",
         "de": "Anwendungskategorie",
+        "en": "application category",
         "fr": "catégorie d'application",
         "es": "categoría de aplicación"
       }
@@ -31,8 +40,8 @@
     {
       "id": "https://w3id.org/class/redaktor/applicationSubCategory",
       "prefLabel": {
-        "en": "application sub category",
         "de": "Unterkategorie der Anwendung",
+        "en": "application sub category",
         "fr": "sous-catégorie d'application",
         "es": "subcategoría de aplicación"
       }
@@ -40,8 +49,8 @@
     {
       "id": "https://w3id.org/class/redaktor/applicationSuite",
       "prefLabel": {
-        "en": "application suite",
         "de": "Anwendungssuite",
+        "en": "application suite",
         "fr": "suite d'applications",
         "es": "conjunto de aplicaciones"
       }
@@ -49,8 +58,8 @@
     {
       "id": "https://w3id.org/class/redaktor/availableOnDevice",
       "prefLabel": {
-        "en": "available on device",
         "de": "auf dem Gerät verfügbar",
+        "en": "available on device",
         "fr": "disponible sur l'appareil",
         "es": "disponible en el dispositivo"
       }
@@ -58,8 +67,8 @@
     {
       "id": "https://w3id.org/class/redaktor/countriesNotSupported",
       "prefLabel": {
-        "en": "countries not supported",
         "de": "Nicht unterstützte Länder",
+        "en": "countries not supported",
         "fr": "pays non supportés",
         "es": "países no admitidos"
       }
@@ -67,8 +76,8 @@
     {
       "id": "https://w3id.org/class/redaktor/countriesSupported",
       "prefLabel": {
-        "en": "countries supported",
         "de": "Unterstützte Länder",
+        "en": "countries supported",
         "fr": "pays supportés",
         "es": "países admitidos"
       }
@@ -76,8 +85,8 @@
     {
       "id": "https://w3id.org/class/redaktor/device",
       "prefLabel": {
-        "en": "device",
         "de": "Gerät",
+        "en": "device",
         "fr": "dispositif",
         "es": "dispositivo"
       }
@@ -85,8 +94,8 @@
     {
       "id": "https://w3id.org/class/redaktor/downloadUrl",
       "prefLabel": {
-        "en": "download url",
         "de": "url herunterladen",
+        "en": "download url",
         "fr": "url de téléchargement",
         "es": "descargar url"
       }
@@ -94,8 +103,8 @@
     {
       "id": "https://w3id.org/class/redaktor/featureList",
       "prefLabel": {
-        "en": "feature list",
         "de": "Liste der Merkmale",
+        "en": "feature list",
         "fr": "liste des caractéristiques",
         "es": "lista de características"
       }
@@ -103,8 +112,8 @@
     {
       "id": "https://w3id.org/class/redaktor/fileSize",
       "prefLabel": {
-        "en": "file size",
         "de": "Dateigröße",
+        "en": "file size",
         "fr": "taille du fichier",
         "es": "tamaño del archivo"
       }
@@ -112,8 +121,8 @@
     {
       "id": "https://w3id.org/class/redaktor/installUrl",
       "prefLabel": {
-        "en": "install url",
         "de": "url installieren",
+        "en": "install url",
         "fr": "installer url",
         "es": "instalar url"
       }
@@ -121,8 +130,8 @@
     {
       "id": "https://w3id.org/class/redaktor/memoryRequirements",
       "prefLabel": {
-        "en": "memory requirements",
         "de": "Speicheranforderungen",
+        "en": "memory requirements",
         "fr": "exigences en matière de mémoire",
         "es": "requisitos de memoria"
       }
@@ -130,8 +139,8 @@
     {
       "id": "https://w3id.org/class/redaktor/operatingSystem",
       "prefLabel": {
-        "en": "operating system",
         "de": "Betriebssystem",
+        "en": "operating system",
         "fr": "système d'exploitation",
         "es": "sistema operativo"
       }
@@ -139,8 +148,8 @@
     {
       "id": "https://w3id.org/class/redaktor/permissions",
       "prefLabel": {
-        "en": "permissions",
         "de": "Berechtigungen",
+        "en": "permissions",
         "fr": "permissions",
         "es": "permisos"
       }
@@ -148,8 +157,8 @@
     {
       "id": "https://w3id.org/class/redaktor/processorRequirements",
       "prefLabel": {
-        "en": "processor requirements",
         "de": "Anforderungen an den Verarbeiter",
+        "en": "processor requirements",
         "fr": "exigences du processeur",
         "es": "requisitos del procesador"
       }
@@ -157,8 +166,8 @@
     {
       "id": "https://w3id.org/class/redaktor/releaseNotes",
       "prefLabel": {
-        "en": "release notes",
         "de": "Freigabemitteilungen",
+        "en": "release notes",
         "fr": "notes de publication",
         "es": "notas de lanzamiento"
       }
@@ -166,8 +175,8 @@
     {
       "id": "https://w3id.org/class/redaktor/requirements",
       "prefLabel": {
-        "en": "requirements",
         "de": "Anforderungen",
+        "en": "requirements",
         "fr": "exigences",
         "es": "requisitos"
       }
@@ -175,8 +184,8 @@
     {
       "id": "https://w3id.org/class/redaktor/screenshot",
       "prefLabel": {
-        "en": "screenshot",
         "de": "Bildschirmfoto",
+        "en": "screenshot",
         "fr": "capture d'écran",
         "es": "captura de pantalla"
       }
@@ -184,8 +193,8 @@
     {
       "id": "https://w3id.org/class/redaktor/softwareAddOn",
       "prefLabel": {
-        "en": "software add on",
         "de": "software add on",
+        "en": "software add on",
         "fr": "software add on",
         "es": "software add on"
       }
@@ -193,8 +202,8 @@
     {
       "id": "https://w3id.org/class/redaktor/softwareHelp",
       "prefLabel": {
-        "en": "software help",
         "de": "Software-Hilfe",
+        "en": "software help",
         "fr": "aide du logiciel",
         "es": "ayuda para el software"
       }
@@ -202,8 +211,8 @@
     {
       "id": "https://w3id.org/class/redaktor/softwareRequirements",
       "prefLabel": {
-        "en": "software requirements",
         "de": "Software-Anforderungen",
+        "en": "software requirements",
         "fr": "exigences du logiciel",
         "es": "requisitos de software"
       }
@@ -211,8 +220,8 @@
     {
       "id": "https://w3id.org/class/redaktor/softwareVersion",
       "prefLabel": {
-        "en": "software version",
         "de": "Software-Version",
+        "en": "software version",
         "fr": "version du logiciel",
         "es": "versión del software"
       }
@@ -220,19 +229,10 @@
     {
       "id": "https://w3id.org/class/redaktor/storageRequirements",
       "prefLabel": {
-        "en": "storage requirements",
         "de": "Speicherbedarf",
+        "en": "storage requirements",
         "fr": "exigences de stockage",
         "es": "requisitos de almacenamiento"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/supportingData",
-      "prefLabel": {
-        "en": "supporting data",
-        "de": "unterstützende Daten",
-        "fr": "données de soutien",
-        "es": "datos de apoyo"
       }
     }
   ],
@@ -244,8 +244,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

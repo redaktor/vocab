@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FpartOfTrip",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FpartOfTrip",
   "prefLabel": {
-    "en": "part of trip",
     "de": "Teil einer Reise",
+    "en": "part of trip",
     "fr": "partie de voyage",
     "es": "parte de viaje"
   },
   "definition": {
+    "de": "Gibt an, dass diese [[Reise]] eine Teilreise einer anderen Reise ist.  Zum Beispiel Tag 1, Tag 2, usw. einer mehrtägigen Reise.",
     "en": "Identifies that this [[Trip]] is a subTrip of another Trip.  For example Day 1, Day 2, etc. of a multi-day trip.",
-    "de": "Identifies that this [[Trip]] is a subTrip of another Trip.  For example Day 1, Day 2, etc. of a multi-day trip.",
-    "fr": "Identifies that this [[Trip]] is a subTrip of another Trip.  For example Day 1, Day 2, etc. of a multi-day trip.",
-    "es": "Identifies that this [[Trip]] is a subTrip of another Trip.  For example Day 1, Day 2, etc. of a multi-day trip."
+    "fr": "Identifie que ce [[Voyage]] est un sous-voyage d'un autre Voyage.  Par exemple, le jour 1, le jour 2, etc. d'un voyage de plusieurs jours.",
+    "es": "Identifica que este [[Viaje]] es un subviaje de otro viaje.  Por ejemplo, el Día 1, el Día 2, etc. de un viaje de varios días."
   },
   "notation": [
     "2139"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

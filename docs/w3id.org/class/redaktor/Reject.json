@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FReject",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FReject",
   "prefLabel": {
-    "en": "Reject",
     "de": "Ablehnen",
+    "en": "Reject",
     "fr": "Rejet",
     "es": "Rechazo"
   },
   "definition": {
-    "en": "Indicates that the actor is rejecting the object. The target and origin typically have no defined meaning.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-reject](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-reject)",
     "de": "Zeigt an, dass der Akteur das Objekt ablehnt. Das Ziel und der Ursprung haben typischerweise keine definierte Bedeutung.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-reject](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-reject)",
+    "en": "Indicates that the actor is rejecting the object. The target and origin typically have no defined meaning.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-reject](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-reject)",
     "fr": "Indique que l'acteur rejette l'objet. La cible et l'origine n'ont généralement pas de signification définie.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-reject](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-reject)",
     "es": "Indica que el actor está rechazando el objeto. El objetivo y el origen no suelen tener un significado definido.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-reject](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-reject)"
   },
   "scopeNote": {
-    "en": ": Activity",
     "de": ": Activity",
+    "en": ": Activity",
     "fr": ": Activity",
     "es": ": Activity"
   },
@@ -25,16 +25,16 @@
     "218"
   ],
   "example": {
-    "en": "[Example 25](https://www.w3.org/TR/activitystreams-vocabulary/#ex26-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally rejected an invitation to a party\",\n  \"type\": \"Reject\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Invite\",\n    \"actor\": \"http://john.example.org\",\n    \"object\": {\n      \"type\": \"Event\",\n      \"name\": \"Going-Away Party for Jim\"\n    }\n  }\n}\n```",
     "de": "[Beispiel 25](https://www.w3.org/TR/activitystreams-vocabulary/#ex26-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally rejected an invitation to a party\",\n  \"type\": \"Reject\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Invite\",\n    \"actor\": \"http://john.example.org\",\n    \"object\": {\n      \"type\": \"Event\",\n      \"name\": \"Going-Away Party for Jim\"\n    }\n  }\n}\n```",
+    "en": "[Example 25](https://www.w3.org/TR/activitystreams-vocabulary/#ex26-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally rejected an invitation to a party\",\n  \"type\": \"Reject\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Invite\",\n    \"actor\": \"http://john.example.org\",\n    \"object\": {\n      \"type\": \"Event\",\n      \"name\": \"Going-Away Party for Jim\"\n    }\n  }\n}\n```",
     "fr": "[Exemple 25](https://www.w3.org/TR/activitystreams-vocabulary/#ex26-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally rejected an invitation to a party\",\n  \"type\": \"Reject\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Invite\",\n    \"actor\": \"http://john.example.org\",\n    \"object\": {\n      \"type\": \"Event\",\n      \"name\": \"Going-Away Party for Jim\"\n    }\n  }\n}\n```",
     "es": "[Ejemplo 25](https://www.w3.org/TR/activitystreams-vocabulary/#ex26-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally rejected an invitation to a party\",\n  \"type\": \"Reject\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"Invite\",\n    \"actor\": \"http://john.example.org\",\n    \"object\": {\n      \"type\": \"Event\",\n      \"name\": \"Going-Away Party for Jim\"\n    }\n  }\n}\n```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/Activity",
     "prefLabel": {
-      "en": "Activity",
       "de": "Aktivität",
+      "en": "Activity",
       "fr": "Activité",
       "es": "Actividad"
     }
@@ -50,8 +50,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

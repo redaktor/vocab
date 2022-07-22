@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAnalysis",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAnalysis",
   "prefLabel": {
-    "en": "Analysis",
     "de": "Analyse",
+    "en": "Analysis",
     "fr": "Analyse",
     "es": "Análisis"
   },
   "definition": {
-    "en": "Data and conclusions drawn by a journalist who has conducted in depth research for a story",
     "de": "Daten und Schlussfolgerungen eines Journalisten, der für einen Artikel eingehend recherchiert hat",
+    "en": "Data and conclusions drawn by a journalist who has conducted in depth research for a story",
     "fr": "Données et conclusions tirées par un journaliste qui a effectué des recherches approfondies pour un article.",
     "es": "Datos y conclusiones extraídos por un periodista que ha realizado una investigación en profundidad para un reportaje"
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/News",
     "prefLabel": {
-      "en": "News",
       "de": "Nachrichten",
+      "en": "News",
       "fr": "Actualités",
       "es": "Noticias"
     }
@@ -38,8 +38,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

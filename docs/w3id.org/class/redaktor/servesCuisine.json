@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FservesCuisine",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FservesCuisine",
   "prefLabel": {
-    "en": "serves cuisine",
     "de": "serviert Küche",
+    "en": "serves cuisine",
     "fr": "sert la cuisine",
     "es": "sirve cocina"
   },
   "definition": {
+    "de": "Die Küche des Restaurants.",
     "en": "The cuisine of the restaurant.",
-    "de": "The cuisine of the restaurant.",
-    "fr": "The cuisine of the restaurant.",
-    "es": "The cuisine of the restaurant."
+    "fr": "La cuisine du restaurant.",
+    "es": "La cocina del restaurante."
   },
   "notation": [
     "2208"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

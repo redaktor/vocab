@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAdvertisingInvolved",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAdvertisingInvolved",
   "prefLabel": {
-    "en": "Advertiser Supplied or sponsored",
     "de": "Von Werbetreibenden bereitgestellt oder gesponsort",
+    "en": "Advertiser Supplied or sponsored",
     "fr": "Fourni par l'annonceur ou sponsorisé",
     "es": "Suministrado por el anunciante o 'patrocinado'"
   },
@@ -16,8 +16,8 @@
     {
       "id": "https://w3id.org/class/redaktor/AdvertiserSupplied",
       "prefLabel": {
-        "en": "Advertiser Supplied",
         "de": "Von Werbetreibenden bereitgestellt",
+        "en": "Advertiser Supplied",
         "fr": "Fourni par l'annonceur",
         "es": "Suministrado por el anunciante"
       }
@@ -25,8 +25,8 @@
     {
       "id": "https://w3id.org/class/redaktor/PressRelease",
       "prefLabel": {
-        "en": "Press Release",
         "de": "Presseerklärung",
+        "en": "Press Release",
         "fr": "Communiqué de presse",
         "es": "Comunicado de prensa"
       }
@@ -34,8 +34,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Sponsored",
       "prefLabel": {
-        "en": "Sponsored",
         "de": "Gesponsert",
+        "en": "Sponsored",
         "fr": "Sponsorisé",
         "es": "Patrocinado"
       }
@@ -43,8 +43,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Supported",
       "prefLabel": {
-        "en": "Supported",
         "de": "Unterstützt",
+        "en": "Supported",
         "fr": "Soutenu",
         "es": "Apoyado"
       }
@@ -58,8 +58,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

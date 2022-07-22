@@ -4,17 +4,17 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FamenityFeature",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FamenityFeature",
   "prefLabel": {
-    "en": "amenity feature",
     "de": "Ausstattungsmerkmal",
+    "en": "amenity feature",
     "fr": "élément d'agrément",
     "es": "característica de equipamiento"
   },
   "altLabel": {
-    "en": [
-      "service feature"
-    ],
     "de": [
       "Annehmlichkeitsmerkmal"
+    ],
+    "en": [
+      "service feature"
     ],
     "fr": [
       "caractéristique d'agrément"
@@ -24,13 +24,24 @@
     ]
   },
   "definition": {
-    "en": "An amenity feature (e.g. a characteristic or service) of the Accommodation. This generic property does not make a statement about whether the feature is included in an offer for the main accommodation or available at extra costs. We suggest to use OSM as a Controlled Vocabulary, as here for `Place`.<br>see also [OSM amenity](https://wiki.openstreetmap.org/wiki/Key:amenity)",
     "de": "Ein Ausstattungsmerkmal (z.B. eine Eigenschaft oder Dienstleistung) der Unterkunft. Diese generische Eigenschaft macht keine Aussage darüber, ob das Merkmal in einem Angebot für die Hauptunterkunft enthalten oder gegen Aufpreis erhältlich ist. Wir schlagen vor, OSM als kontrolliertes Vokabular zu verwenden, wie hier für `Place`.<br>siehe auch [OSM amenity](https://wiki.openstreetmap.org/wiki/Key:amenity)",
+    "en": "An amenity feature (e.g. a characteristic or service) of the Accommodation. This generic property does not make a statement about whether the feature is included in an offer for the main accommodation or available at extra costs. We suggest to use OSM as a Controlled Vocabulary, as here for `Place`.<br>see also [OSM amenity](https://wiki.openstreetmap.org/wiki/Key:amenity)",
     "fr": "Un élément d'agrément (par exemple, une caractéristique ou un service) du logement. Cette propriété générique n'indique pas si la caractéristique est incluse dans une offre pour le logement principal ou disponible à des coûts supplémentaires. Nous suggérons d'utiliser l'OSM comme un vocabulaire contrôlé.<br>voir aussi [OSM amenity](https://wiki.openstreetmap.org/wiki/Key:amenity)",
     "es": "Una característica de equipamiento (por ejemplo, una característica o servicio) del Alojamiento. Esta propiedad genérica no indica si la característica está incluida en la oferta del alojamiento principal o si está disponible con costes adicionales. Sugerimos utilizar OSM como Vocabulario Controlado.<br>ver [OSM amenity](https://wiki.openstreetmap.org/wiki/Key:amenity)"
   },
   "notation": [
     "1590"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/LocationFeatureSpecification",
+      "prefLabel": {
+        "de": "Standort Merkmal Spezifikation",
+        "en": "Location Feature Specification",
+        "fr": "Spécification des caractéristiques de l'emplacement",
+        "es": "Ubicación Especificación de características"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -40,8 +51,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

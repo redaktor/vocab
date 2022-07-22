@@ -4,10 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPhysiotherapy",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPhysiotherapy",
   "prefLabel": {
-    "en": "Physiotherapy",
     "de": "Physiotherapie",
+    "en": "Physiotherapy",
     "fr": "Physiothérapie",
     "es": "Fisioterapia"
+  },
+  "definition": {
+    "de": "Die Behandlung von Krankheiten, Verletzungen oder Missbildungen durch physikalische Methoden wie Massagen, Wärmebehandlungen und Übungen anstelle von Medikamenten oder Operationen.",
+    "en": "The practice of treatment of disease, injury, or deformity by physical methods such as massage, heat treatment, and exercise rather than by drugs or surgery..",
+    "fr": "La pratique du traitement d'une maladie, d'une blessure ou d'une déformation par des méthodes physiques telles que le massage, le traitement par la chaleur et l'exercice plutôt que par des médicaments ou la chirurgie....",
+    "es": "La práctica del tratamiento de enfermedades, lesiones o deformidades mediante métodos físicos como el masaje, el tratamiento térmico y el ejercicio, en lugar de mediante fármacos o cirugía."
   },
   "notation": [
     "1083"
@@ -20,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

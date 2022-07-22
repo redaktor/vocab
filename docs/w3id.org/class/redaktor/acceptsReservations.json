@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FacceptsReservations",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FacceptsReservations",
   "prefLabel": {
-    "en": "accepts reservations",
     "de": "nimmt Reservierungen an",
+    "en": "accepts reservations",
     "fr": "accepte les réservations",
     "es": "se aceptan reservas"
   },
   "definition": {
+    "de": "Gibt an, ob ein FoodEstablishment Reservierungen annimmt. Werte können Boolean, eine URL, unter der Reservierungen vorgenommen werden können, oder (aus Gründen der Abwärtskompatibilität) die Zeichenketten ```Ja`` oder ``Nein`` sein.",
     "en": "Indicates whether a FoodEstablishment accepts reservations. Values can be Boolean, an URL at which reservations can be made or (for backwards compatibility) the strings ```Yes``` or ```No```.",
-    "de": "Indicates whether a FoodEstablishment accepts reservations. Values can be Boolean, an URL at which reservations can be made or (for backwards compatibility) the strings ```Yes``` or ```No```.",
-    "fr": "Indicates whether a FoodEstablishment accepts reservations. Values can be Boolean, an URL at which reservations can be made or (for backwards compatibility) the strings ```Yes``` or ```No```.",
-    "es": "Indicates whether a FoodEstablishment accepts reservations. Values can be Boolean, an URL at which reservations can be made or (for backwards compatibility) the strings ```Yes``` or ```No```."
+    "fr": "Indique si un FoodEstablishment accepte les réservations. Les valeurs peuvent être des booléens, une URL à laquelle les réservations peuvent être effectuées ou (pour la compatibilité ascendante) les chaînes de caractères \"Oui\" ou \"Non\".",
+    "es": "Indica si un FoodEstablishment acepta reservas. Los valores pueden ser booleanos, una URL en la que se pueden hacer reservas o (por compatibilidad con versiones anteriores) las cadenas ``Sí`` o ``No``."
   },
   "notation": [
     "1741"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

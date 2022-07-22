@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fdevice",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fdevice",
   "prefLabel": {
-    "en": "device",
     "de": "Gerät",
+    "en": "device",
     "fr": "dispositif",
     "es": "dispositivo"
   },
   "definition": {
+    "de": "Für die Ausführung der Anwendung erforderliches Gerät. Wird in Fällen verwendet, in denen ein bestimmtes Fabrikat/Modell für die Ausführung der Anwendung erforderlich ist.",
     "en": "Device required to run the application. Used in cases where a specific make/model is required to run the application.",
-    "de": "Device required to run the application. Used in cases where a specific make/model is required to run the application.",
-    "fr": "Device required to run the application. Used in cases where a specific make/model is required to run the application.",
-    "es": "Device required to run the application. Used in cases where a specific make/model is required to run the application."
+    "fr": "Dispositif requis pour exécuter l'application. Utilisé dans les cas où une marque/modèle spécifique est nécessaire pour exécuter l'application.",
+    "es": "Dispositivo necesario para ejecutar la aplicación. Se utiliza en los casos en que se requiere una marca/modelo específico para ejecutar la aplicación."
   },
   "notation": [
     "1906"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

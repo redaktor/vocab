@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FLodgingBusiness",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FLodgingBusiness",
   "prefLabel": {
-    "en": "Lodging Business",
     "de": "Beherbergung",
+    "en": "Lodging Business",
     "fr": "Hébergement",
     "es": "Negocios de Hospedaje"
   },
@@ -14,10 +14,19 @@
   ],
   "narrower": [
     {
+      "id": "https://w3id.org/class/redaktor/availableLanguage",
+      "prefLabel": {
+        "de": "verfügbare Sprache",
+        "en": "available language",
+        "fr": "langues disponibles",
+        "es": "idiomas disponibles"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/Campground",
       "prefLabel": {
-        "en": "Campground",
         "de": "Zeltplatz",
+        "en": "Campground",
         "fr": "Terrain de camping",
         "es": "Sitio de camping"
       }
@@ -25,8 +34,8 @@
     {
       "id": "https://w3id.org/class/redaktor/BedAndBreakfast",
       "prefLabel": {
-        "en": "Bed And Breakfast",
         "de": "Bett und Frühstück",
+        "en": "Bed And Breakfast",
         "fr": "Lit et petit déjeuner",
         "es": "Alojamiento y desayuno"
       }
@@ -34,8 +43,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Hostel",
       "prefLabel": {
-        "en": "Hostel",
         "de": "Herberge oder Hostel",
+        "en": "Hostel",
         "fr": "Auberge",
         "es": "Alojamiento y desayuno"
       }
@@ -43,8 +52,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Hotel",
       "prefLabel": {
-        "en": "Hotel",
         "de": "Hotel",
+        "en": "Hotel",
         "fr": "Hôtel",
         "es": "Hotel"
       }
@@ -52,8 +61,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Motel",
       "prefLabel": {
-        "en": "Motel",
         "de": "Motel",
+        "en": "Motel",
         "fr": "Motel",
         "es": "Motel"
       }
@@ -61,8 +70,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Resort",
       "prefLabel": {
-        "en": "Resort",
         "de": "Erholungsort",
+        "en": "Resort",
         "fr": "Station balnéaire",
         "es": "Motel"
       }
@@ -70,26 +79,35 @@
     {
       "id": "https://w3id.org/class/redaktor/SkiResort",
       "prefLabel": {
-        "en": "Ski Resort",
         "de": "Skigebiet",
+        "en": "Ski Resort",
         "fr": "Station de ski",
         "es": "Estación de esquí"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/availableLanguage",
+      "id": "https://w3id.org/class/redaktor/numberOfRooms",
       "prefLabel": {
-        "en": "available language",
-        "de": "verfügbare Sprache",
-        "fr": "langues disponibles",
-        "es": "idiomas disponibles"
+        "de": "Anzahl der Räume",
+        "en": "number of rooms",
+        "fr": "nombre de pièces",
+        "es": "número de habitaciones"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/starRating",
+      "prefLabel": {
+        "de": "Sternebewertung",
+        "en": "star rating",
+        "fr": "classement par étoiles",
+        "es": "clasificación por estrellas"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/checkinTime",
       "prefLabel": {
-        "en": "checkin time",
         "de": "Checkin-Zeit",
+        "en": "checkin time",
         "fr": "checkin time",
         "es": "hora de entrada"
       }
@@ -97,37 +115,19 @@
     {
       "id": "https://w3id.org/class/redaktor/checkoutTime",
       "prefLabel": {
-        "en": "checkout time",
         "de": "Checkout-Zeit",
+        "en": "checkout time",
         "fr": "checkout time, temps de check de l'enregistrement",
         "es": "hora de salida"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/numberOfRooms",
-      "prefLabel": {
-        "en": "number of rooms",
-        "de": "Anzahl der Räume",
-        "fr": "nombre de pièces",
-        "es": "número de habitaciones"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/petsAllowed",
       "prefLabel": {
-        "en": "pets allowed",
         "de": "Haustiere erlaubt",
+        "en": "pets allowed",
         "fr": "animaux de compagnie autorisés",
         "es": "mascotas permitidas"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/starRating",
-      "prefLabel": {
-        "en": "star rating",
-        "de": "Sternebewertung",
-        "fr": "classement par étoiles",
-        "es": "clasificación por estrellas"
       }
     }
   ],
@@ -139,8 +139,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAchieve",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAchieve",
   "prefLabel": {
-    "en": "Achieve",
     "de": "Erreichen",
+    "en": "Achieve",
     "fr": "Atteindre",
     "es": "Lograr"
   },
   "definition": {
-    "en": "The act of accomplishing something via previous efforts. It is an instantaneous action rather than an ongoing process.",
     "de": "Der Akt, etwas durch vorherige Bemühungen zu erreichen. Es handelt sich um eine sofortige Handlung und nicht um einen fortlaufenden Prozess.",
+    "en": "The act of accomplishing something via previous efforts. It is an instantaneous action rather than an ongoing process.",
     "fr": "Le fait d'accomplir quelque chose grâce à des efforts antérieurs. Il s'agit d'une action instantanée plutôt que d'un processus continu.",
     "es": "El acto de lograr algo mediante esfuerzos previos. Es una acción instantánea más que un proceso continuo."
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Activity",
     "prefLabel": {
-      "en": "Activity",
       "de": "Aktivität",
+      "en": "Activity",
       "fr": "Activité",
       "es": "Actividad"
     }
@@ -35,8 +35,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

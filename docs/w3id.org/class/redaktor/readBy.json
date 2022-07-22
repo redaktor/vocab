@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FreadBy",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FreadBy",
   "prefLabel": {
-    "en": "read by",
     "de": "Lesen nach",
+    "en": "read by",
     "fr": "lire par",
     "es": "leer por"
   },
   "definition": {
+    "de": "Eine Person, die das Hörbuch liest (vorträgt).",
     "en": "A person who reads (performs) the audiobook.",
-    "de": "A person who reads (performs) the audiobook.",
-    "fr": "A person who reads (performs) the audiobook.",
-    "es": "A person who reads (performs) the audiobook."
+    "fr": "Une personne qui lit (interprète) le livre audio.",
+    "es": "Una persona que lee (interpreta) el audiolibro."
   },
   "notation": [
     "2179"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FhealthPlanNetworkId",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FhealthPlanNetworkId",
   "prefLabel": {
-    "en": "health plan network id",
     "de": "Krankenkassen-Netzwerk-ID",
+    "en": "health plan network id",
     "fr": "identification du réseau du plan de santé",
     "es": "identificación de la red del plan de salud"
   },
   "definition": {
+    "de": "Name oder eindeutige ID des Netzes. (Netze werden häufig von verschiedenen Versicherungsplänen wiederverwendet).",
     "en": "Name or unique ID of network. (Networks are often reused across different insurance plans).",
-    "de": "Name or unique ID of network. (Networks are often reused across different insurance plans).",
-    "fr": "Name or unique ID of network. (Networks are often reused across different insurance plans).",
-    "es": "Name or unique ID of network. (Networks are often reused across different insurance plans)."
+    "fr": "Nom ou identifiant unique du réseau. (Les réseaux sont souvent réutilisés par différents régimes d'assurance).",
+    "es": "Nombre o identificación única de la red. (Las redes suelen reutilizarse en diferentes planes de seguros)."
   },
   "notation": [
     "1997"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

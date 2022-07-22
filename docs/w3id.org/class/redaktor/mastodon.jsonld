@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fmastodon",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fmastodon",
   "prefLabel": {
-    "en": "Mastodon",
     "de": "Mastodon",
+    "en": "Mastodon",
     "fr": "Mastodon",
     "es": "Mastodon"
   },
   "definition": {
-    "en": "[Mastodon](https://joinmastodon.org)",
     "de": "[Mastodon](https://joinmastodon.org)",
+    "en": "[Mastodon](https://joinmastodon.org)",
     "fr": "[Mastodon](https://joinmastodon.org)",
     "es": "[Mastodon](https://joinmastodon.org)"
   },
   "scopeNote": {
-    "en": "http://joinmastodon.org/ns#",
     "de": "http://joinmastodon.org/ns#",
+    "en": "http://joinmastodon.org/ns#",
     "fr": "http://joinmastodon.org/ns#",
     "es": "http://joinmastodon.org/ns#"
   },
@@ -28,8 +28,8 @@
     {
       "id": "https://w3id.org/class/redaktor/featuredTags",
       "prefLabel": {
-        "en": "featured tags",
         "de": "featured tags",
+        "en": "featured tags",
         "fr": "featured tags",
         "es": "featured tags"
       }
@@ -37,8 +37,8 @@
     {
       "id": "https://w3id.org/class/redaktor/discoverable",
       "prefLabel": {
-        "en": "discoverable",
         "de": "auffindbar",
+        "en": "discoverable",
         "fr": "découvrable",
         "es": "descubrible"
       }
@@ -46,8 +46,8 @@
     {
       "id": "https://w3id.org/class/redaktor/suspended",
       "prefLabel": {
-        "en": "suspended",
         "de": "suspendiert",
+        "en": "suspended",
         "fr": "suspendu",
         "es": "suspendido"
       }
@@ -55,8 +55,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Emoji",
       "prefLabel": {
-        "en": "Custom Emoji",
         "de": "Emoji",
+        "en": "Custom Emoji",
         "fr": "Emoji",
         "es": "Emoji"
       }
@@ -64,44 +64,17 @@
     {
       "id": "https://w3id.org/class/redaktor/IdentityProof",
       "prefLabel": {
-        "en": "Identity Proof",
         "de": "Identitätsbeweis",
+        "en": "Identity Proof",
         "fr": "Preuve d'identité",
         "es": "Prueba de identidad"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/featured",
-      "prefLabel": {
-        "en": "featured",
-        "de": "featured",
-        "fr": "featured",
-        "es": "featured"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/creator",
-      "prefLabel": {
-        "en": "creator",
-        "de": "Ersteller*in",
-        "fr": "creator",
-        "es": "creator"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/created",
-      "prefLabel": {
-        "en": "created",
-        "de": "erstellt",
-        "fr": "created",
-        "es": "created"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/votersCount",
       "prefLabel": {
-        "en": "voters count",
         "de": "Wähler*innenstimmen",
+        "en": "voters count",
         "fr": "nombre de votes",
         "es": "conteo de votantes"
       }
@@ -109,8 +82,8 @@
     {
       "id": "https://w3id.org/class/redaktor/blurhash",
       "prefLabel": {
-        "en": "blurhash",
         "de": "blurhash",
+        "en": "blurhash",
         "fr": "blurhash",
         "es": "blurhash"
       }
@@ -118,17 +91,44 @@
     {
       "id": "https://w3id.org/class/redaktor/focalPoint",
       "prefLabel": {
-        "en": "focal point",
         "de": "Brennpunkt",
+        "en": "focal point",
         "fr": "point focal",
         "es": "punto focal"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/featured",
+      "prefLabel": {
+        "de": "featured",
+        "en": "featured",
+        "fr": "featured",
+        "es": "featured"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/creator",
+      "prefLabel": {
+        "de": "Ersteller*in",
+        "en": "creator",
+        "fr": "creator",
+        "es": "creator"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/created",
+      "prefLabel": {
+        "de": "erstellt",
+        "en": "created",
+        "fr": "created",
+        "es": "created"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/PropertyValue",
       "prefLabel": {
-        "en": "Property-value pair",
         "de": "Eigenschaft-Wert Paar",
+        "en": "Property-value pair",
         "fr": "Une paire propriété-valeur",
         "es": "Un par propiedad-valor"
       }
@@ -136,8 +136,8 @@
     {
       "id": "https://w3id.org/class/redaktor/value",
       "prefLabel": {
-        "en": "value",
         "de": "Wert",
+        "en": "value",
         "fr": "valeur",
         "es": "valor"
       }
@@ -146,8 +146,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Community",
     "prefLabel": {
-      "en": "Community Namespaces",
       "de": "Community Namespaces",
+      "en": "Community Namespaces",
       "fr": "Community Namespaces",
       "es": "Community Namespaces"
     }
@@ -155,8 +155,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

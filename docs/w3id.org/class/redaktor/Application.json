@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FApplication",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FApplication",
   "prefLabel": {
-    "en": "Application",
     "de": "Anwendung",
+    "en": "Application",
     "fr": "Application",
     "es": "Aplicación"
   },
   "definition": {
-    "en": "Describes a software application.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-application](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-application)",
     "de": "Beschreibt eine Software-Anwendung.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-application](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-application)",
+    "en": "Describes a software application.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-application](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-application)",
     "fr": "Décrit une application logicielle.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-application](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-application)",
     "es": "Describe una aplicación informática.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-application](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-application)"
   },
   "scopeNote": {
-    "en": ": Actor",
     "de": ": Actor",
+    "en": ": Actor",
     "fr": ": Actor",
     "es": ": Actor"
   },
@@ -25,16 +25,16 @@
     "78"
   ],
   "example": {
-    "en": "[Example 42](https://www.w3.org/TR/activitystreams-vocabulary/#ex34-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Application\",\n  \"name\": \"Exampletron 3000\"\n}\n```",
     "de": "[Beispiel 42](https://www.w3.org/TR/activitystreams-vocabulary/#ex34-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Application\",\n  \"name\": \"Exampletron 3000\"\n}\n```",
+    "en": "[Example 42](https://www.w3.org/TR/activitystreams-vocabulary/#ex34-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Application\",\n  \"name\": \"Exampletron 3000\"\n}\n```",
     "fr": "[Exemple 42](https://www.w3.org/TR/activitystreams-vocabulary/#ex34-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Application\",\n  \"name\": \"Exampletron 3000\"\n}\n```",
     "es": "[Ejemplo 42](https://www.w3.org/TR/activitystreams-vocabulary/#ex34-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Application\",\n  \"name\": \"Exampletron 3000\"\n}\n```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/Actor",
     "prefLabel": {
-      "en": "Actor",
       "de": "Akteur",
+      "en": "Actor",
       "fr": "Acteur",
       "es": "Actor"
     }
@@ -50,8 +50,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

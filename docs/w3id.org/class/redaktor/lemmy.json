@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Flemmy",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Flemmy",
   "prefLabel": {
-    "en": "Lemmy",
     "de": "Lemmy",
+    "en": "Lemmy",
     "fr": "Lemmy",
     "es": "Lemmy"
   },
   "definition": {
-    "en": "[Lemmy](https://join-lemmy.org)",
     "de": "[Lemmy](https://join-lemmy.org)",
+    "en": "[Lemmy](https://join-lemmy.org)",
     "fr": "[Lemmy](https://join-lemmy.org)",
     "es": "[Lemmy](https://join-lemmy.org)"
   },
   "scopeNote": {
-    "en": "https://join-lemmy.org#",
     "de": "https://join-lemmy.org#",
+    "en": "https://join-lemmy.org#",
     "fr": "https://join-lemmy.org#",
     "es": "https://join-lemmy.org#"
   },
@@ -28,36 +28,36 @@
     {
       "id": "https://w3id.org/class/redaktor/Emoji",
       "prefLabel": {
-        "en": "Custom Emoji",
         "de": "Emoji",
+        "en": "Custom Emoji",
         "fr": "Emoji",
         "es": "Emoji"
       }
     },
     {
-      "id": "https://join-lemmy.org#stickied",
+      "id": "https://join-lemmy.org#moderators",
       "prefLabel": {
-        "en": "stickied",
-        "de": "stickied",
-        "fr": "stickied",
-        "es": "stickied"
+        "de": "Moderatoren",
+        "en": "moderators",
+        "fr": "modérateurs",
+        "es": "moderadores"
       }
     },
     {
-      "id": "https://join-lemmy.org#moderators",
+      "id": "https://join-lemmy.org#stickied",
       "prefLabel": {
-        "en": "moderators",
-        "de": "Moderatoren",
-        "fr": "modérateurs",
-        "es": "moderadores"
+        "de": "stickied",
+        "en": "stickied",
+        "fr": "stickied",
+        "es": "stickied"
       }
     }
   ],
   "broader": {
     "id": "https://w3id.org/class/redaktor/Community",
     "prefLabel": {
-      "en": "Community Namespaces",
       "de": "Community Namespaces",
+      "en": "Community Namespaces",
       "fr": "Community Namespaces",
       "es": "Community Namespaces"
     }
@@ -65,8 +65,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

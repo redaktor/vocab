@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FGovernmentBuilding",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FGovernmentBuilding",
   "prefLabel": {
-    "en": "Government building",
     "de": "Regierungsgebäude",
+    "en": "Government building",
     "fr": "Bâtiment du gouvernement",
     "es": "Edificio gubernamental"
   },
@@ -16,8 +16,8 @@
     {
       "id": "https://w3id.org/class/redaktor/CityHall",
       "prefLabel": {
-        "en": "City Hall",
         "de": "Rathaus",
+        "en": "City Hall",
         "fr": "Hôtel de ville",
         "es": "Ayuntamiento"
       }
@@ -25,8 +25,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Courthouse",
       "prefLabel": {
-        "en": "Courthouse",
         "de": "Gericht",
+        "en": "Courthouse",
         "fr": "Palais de justice",
         "es": "Palacio de Justicia"
       }
@@ -34,8 +34,8 @@
     {
       "id": "https://w3id.org/class/redaktor/DefenceEstablishment",
       "prefLabel": {
-        "en": "Defence establishment",
         "de": "Verteidigungseinrichtung",
+        "en": "Defence establishment",
         "fr": "Établissement de défense",
         "es": "Establecimiento de Defensa"
       }
@@ -43,8 +43,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Embassy",
       "prefLabel": {
-        "en": "Embassy",
         "de": "Botschaft",
+        "en": "Embassy",
         "fr": "Ambassade",
         "es": "Embajada"
       }
@@ -52,8 +52,8 @@
     {
       "id": "https://w3id.org/class/redaktor/LegislativeBuilding",
       "prefLabel": {
-        "en": "Legislative building",
         "de": "Gebäude der Legislative",
+        "en": "Legislative building",
         "fr": "Bâtiment législatif",
         "es": "Edificio legislativo"
       }
@@ -67,8 +67,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

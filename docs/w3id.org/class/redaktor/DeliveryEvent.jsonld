@@ -4,17 +4,17 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FDeliveryEvent",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FDeliveryEvent",
   "prefLabel": {
-    "en": "Delivery Event",
     "de": "Lieferung",
+    "en": "Delivery Event",
     "fr": "Événement de livraison",
     "es": "Evento de entrega"
   },
   "altLabel": {
-    "en": [
-      "Shipping Event"
-    ],
     "de": [
       "Übergabe"
+    ],
+    "en": [
+      "Shipping Event"
     ],
     "fr": [
       "Événement d'expédition"
@@ -28,10 +28,19 @@
   ],
   "narrower": [
     {
+      "id": "https://w3id.org/class/redaktor/hasDeliveryMethod",
+      "prefLabel": {
+        "de": "hat Liefermethode",
+        "en": "has delivery method",
+        "fr": "a méthode de livraison",
+        "es": "tiene método de entrega"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/accessCode",
       "prefLabel": {
-        "en": "access code",
         "de": "Zugriffscode",
+        "en": "access code",
         "fr": "code d'accès",
         "es": "código de acceso"
       }
@@ -39,8 +48,8 @@
     {
       "id": "https://w3id.org/class/redaktor/availableFrom",
       "prefLabel": {
-        "en": "available from",
         "de": "verfügbar von",
+        "en": "available from",
         "fr": "disponible à partir de",
         "es": "disponible desde"
       }
@@ -48,19 +57,10 @@
     {
       "id": "https://w3id.org/class/redaktor/availableThrough",
       "prefLabel": {
-        "en": "available through",
         "de": "verfügbar durch",
+        "en": "available through",
         "fr": "disponible par",
         "es": "disponible a través de"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/hasDeliveryMethod",
-      "prefLabel": {
-        "en": "has delivery method",
-        "de": "hat Liefermethode",
-        "fr": "a méthode de livraison",
-        "es": "tiene método de entrega"
       }
     }
   ],
@@ -72,8 +72,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

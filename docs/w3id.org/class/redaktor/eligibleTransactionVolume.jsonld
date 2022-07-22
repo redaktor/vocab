@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FeligibleTransactionVolume",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FeligibleTransactionVolume",
   "prefLabel": {
-    "en": "eligible transaction volume",
     "de": "zugelassenes Transaktionsvolumen",
+    "en": "eligible transaction volume",
     "fr": "volume de transaction éligible",
     "es": "volumen de transacciones elegible"
   },
   "definition": {
+    "de": "Das Transaktionsvolumen in einer Geldeinheit, für das das Angebot oder die Preisangabe gültig ist, z.B. um ein minimales Einkaufsvolumen anzugeben, den kostenlosen Versand ab einem bestimmten Bestellvolumen auszudrücken oder die Akzeptanz von Kreditkarten bei Einkäufen auf einen bestimmten Mindestbetrag zu beschränken.",
     "en": "The transaction volume, in a monetary unit, for which the offer or price specification is valid, e.g. for indicating a minimal purchasing volume, to express free shipping above a certain order volume, or to limit the acceptance of credit cards to purchases to a certain minimal amount.",
-    "de": "The transaction volume, in a monetary unit, for which the offer or price specification is valid, e.g. for indicating a minimal purchasing volume, to express free shipping above a certain order volume, or to limit the acceptance of credit cards to purchases to a certain minimal amount.",
-    "fr": "The transaction volume, in a monetary unit, for which the offer or price specification is valid, e.g. for indicating a minimal purchasing volume, to express free shipping above a certain order volume, or to limit the acceptance of credit cards to purchases to a certain minimal amount.",
-    "es": "The transaction volume, in a monetary unit, for which the offer or price specification is valid, e.g. for indicating a minimal purchasing volume, to express free shipping above a certain order volume, or to limit the acceptance of credit cards to purchases to a certain minimal amount."
+    "fr": "Le volume de transaction, en unité monétaire, pour lequel l'offre ou la spécification de prix est valable, par exemple pour indiquer un volume d'achat minimal, pour exprimer la livraison gratuite à partir d'un certain volume de commande, ou pour limiter l'acceptation des cartes de crédit aux achats d'un certain montant minimal.",
+    "es": "El volumen de la transacción, en una unidad monetaria, para el que es válida la oferta o la especificación del precio, por ejemplo, para indicar un volumen mínimo de compra, para expresar el envío gratuito a partir de un determinado volumen de pedido, o para limitar la aceptación de tarjetas de crédito a las compras a un determinado importe mínimo."
   },
   "notation": [
     "1930"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/PriceSpecification",
+      "prefLabel": {
+        "de": "Preis Spezifikation",
+        "en": "Price Specification",
+        "fr": "Spécification des prix",
+        "es": "Especificación de precios"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

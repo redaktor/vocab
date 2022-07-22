@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FtypicalAgeRange",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FtypicalAgeRange",
   "prefLabel": {
-    "en": "typical age range",
     "de": "typische Altersspanne",
+    "en": "typical age range",
     "fr": "tranche d'âge typique",
     "es": "rango de edad típico"
   },
   "definition": {
+    "de": "Die typische erwartete Altersspanne, z. B. \"7-9\", \"11-\".",
     "en": "The typical expected age range, e.g. '7-9', '11-'.",
-    "de": "The typical expected age range, e.g. '7-9', '11-'.",
-    "fr": "The typical expected age range, e.g. '7-9', '11-'.",
-    "es": "The typical expected age range, e.g. '7-9', '11-'."
+    "fr": "La tranche d'âge typique attendue, par exemple \"7-9\", \"11-\".",
+    "es": "El rango de edad típico esperado, por ejemplo, \"7-9\", \"11-\"."
   },
   "notation": [
     "2276"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

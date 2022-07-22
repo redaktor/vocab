@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FOffer",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FOffer",
   "prefLabel": {
-    "en": "Offer",
     "de": "Angebot",
+    "en": "Offer",
     "fr": "Offre",
     "es": "Oferta"
   },
   "definition": {
-    "en": "Indicates that the actor is offering the object. If specified, the target indicates the entity to which the object is being offered.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-offer](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-offer)",
     "de": "Zeigt an, dass der Akteur das Objekt anbietet. Falls angegeben, gibt das Ziel die Entität an, der das Objekt angeboten wird.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-offer](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-offer)",
+    "en": "Indicates that the actor is offering the object. If specified, the target indicates the entity to which the object is being offered.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-offer](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-offer)",
     "fr": "Indique que l'acteur offre l'objet. Si elle est spécifiée, la cible indique l'entité à laquelle l'objet est offert.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-offer](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-offer)",
     "es": "Indica que el actor ofrece el objeto. Si se especifica, el destino indica la entidad a la que se ofrece el objeto.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-offer](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-offer)"
   },
   "scopeNote": {
-    "en": ": Activity",
     "de": ": Activity",
+    "en": ": Activity",
     "fr": ": Activity",
     "es": ": Activity"
   },
@@ -25,8 +25,8 @@
     "216"
   ],
   "example": {
-    "en": "[Example 23](https://www.w3.org/TR/activitystreams-vocabulary/#ex21-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally offered 50% off to Lewis\",\n  \"type\": \"Offer\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"http://www.types.example/ProductOffer\",\n    \"name\": \"50% Off!\"\n  },\n  \"target\": {\n    \"type\": \"Person\",\n    \"name\": \"Lewis\"\n  }\n}\n```",
     "de": "[Beispiel 23](https://www.w3.org/TR/activitystreams-vocabulary/#ex21-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally offered 50% off to Lewis\",\n  \"type\": \"Offer\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"http://www.types.example/ProductOffer\",\n    \"name\": \"50% Off!\"\n  },\n  \"target\": {\n    \"type\": \"Person\",\n    \"name\": \"Lewis\"\n  }\n}\n```",
+    "en": "[Example 23](https://www.w3.org/TR/activitystreams-vocabulary/#ex21-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally offered 50% off to Lewis\",\n  \"type\": \"Offer\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"http://www.types.example/ProductOffer\",\n    \"name\": \"50% Off!\"\n  },\n  \"target\": {\n    \"type\": \"Person\",\n    \"name\": \"Lewis\"\n  }\n}\n```",
     "fr": "[Exemple 23](https://www.w3.org/TR/activitystreams-vocabulary/#ex21-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally offered 50% off to Lewis\",\n  \"type\": \"Offer\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"http://www.types.example/ProductOffer\",\n    \"name\": \"50% Off!\"\n  },\n  \"target\": {\n    \"type\": \"Person\",\n    \"name\": \"Lewis\"\n  }\n}\n```",
     "es": "[Ejemplo 23](https://www.w3.org/TR/activitystreams-vocabulary/#ex21-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally offered 50% off to Lewis\",\n  \"type\": \"Offer\",\n  \"actor\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally\"\n  },\n  \"object\": {\n    \"type\": \"http://www.types.example/ProductOffer\",\n    \"name\": \"50% Off!\"\n  },\n  \"target\": {\n    \"type\": \"Person\",\n    \"name\": \"Lewis\"\n  }\n}\n```"
   },
@@ -34,107 +34,89 @@
     {
       "id": "https://w3id.org/class/redaktor/acceptedPaymentMethod",
       "prefLabel": {
-        "en": "accepted payment method",
         "de": "akzeptierte Zahlungsmethode",
+        "en": "accepted payment method",
         "fr": "mode de paiement accepté",
         "es": "método de pago aceptado"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/advanceBookingRequirement",
+      "id": "https://w3id.org/class/redaktor/hasAdultConsideration",
       "prefLabel": {
-        "en": "advance booking requirement",
-        "de": "Voranmeldung erforderlich",
-        "fr": "obligation de réservation préalable",
-        "es": "requisito de reserva anticipada"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/areaServed",
-      "prefLabel": {
-        "en": "area served",
-        "de": "bedientes Gebiet",
-        "fr": "zone desservie",
-        "es": "área de servicio"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/availability",
-      "prefLabel": {
-        "en": "availability",
-        "de": "Verfügbarkeit",
-        "fr": "disponibilité",
-        "es": "disponibilidad"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/availabilityEnds",
-      "prefLabel": {
-        "en": "availability ends",
-        "de": "Verfügbarkeit endet",
-        "fr": "fin de la disponibilité",
-        "es": "la disponibilidad termina"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/availabilityStarts",
-      "prefLabel": {
-        "en": "availability starts",
-        "de": "Verfügbarkeit beginnt",
-        "fr": "la disponibilité commence",
-        "es": "la disponibilidad comienza"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/availableAtOrFrom",
-      "prefLabel": {
-        "en": "available at or from",
-        "de": "verfügbar bei oder von",
-        "fr": "disponible à ou de",
-        "es": "disponible en o desde"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/availableDeliveryMethod",
-      "prefLabel": {
-        "en": "available delivery method",
-        "de": "verfügbare Liefermethode",
-        "fr": "méthode de livraison disponible",
-        "es": "método de entrega disponible"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/businessFunction",
-      "prefLabel": {
-        "en": "business function",
-        "de": "Unternehmensfunktion",
-        "fr": "fonction commerciale",
-        "es": "función comercial"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/deliveryLeadTime",
-      "prefLabel": {
-        "en": "delivery lead time",
-        "de": "Vorlaufzeit der Lieferung",
-        "fr": "délai de livraison",
-        "es": "plazo de entrega"
+        "de": "hat erwachsene Berücksichtigung",
+        "en": "has adult consideration",
+        "fr": "a considération de l'adulte",
+        "es": "tiene consideración de adulto"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/eligibleCustomerType",
       "prefLabel": {
-        "en": "eligible customer type",
         "de": "zugelassener Kundentyp",
+        "en": "eligible customer type",
         "fr": "type de client éligible",
         "es": "tipo de cliente elegible"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/businessFunction",
+      "prefLabel": {
+        "de": "Unternehmensfunktion",
+        "en": "business function",
+        "fr": "fonction commerciale",
+        "es": "función comercial"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/availableDeliveryMethod",
+      "prefLabel": {
+        "de": "verfügbare Liefermethode",
+        "en": "available delivery method",
+        "fr": "méthode de livraison disponible",
+        "es": "método de entrega disponible"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/availability",
+      "prefLabel": {
+        "de": "Verfügbarkeit",
+        "en": "availability",
+        "fr": "disponibilité",
+        "es": "disponibilidad"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/itemCondition",
+      "prefLabel": {
+        "de": "Item-Bedingung",
+        "en": "item condition",
+        "fr": "condition de l'article",
+        "es": "condición del artículo"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/advanceBookingRequirement",
+      "prefLabel": {
+        "de": "Voranmeldung erforderlich",
+        "en": "advance booking requirement",
+        "fr": "obligation de réservation préalable",
+        "es": "requisito de reserva anticipada"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/deliveryLeadTime",
+      "prefLabel": {
+        "de": "Vorlaufzeit der Lieferung",
+        "en": "delivery lead time",
+        "fr": "délai de livraison",
+        "es": "plazo de entrega"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/eligibleDuration",
       "prefLabel": {
-        "en": "eligible duration",
         "de": "zulässige Dauer",
+        "en": "eligible duration",
         "fr": "durée éligible",
         "es": "duración elegible"
       }
@@ -142,188 +124,98 @@
     {
       "id": "https://w3id.org/class/redaktor/eligibleQuantity",
       "prefLabel": {
-        "en": "eligible quantity",
         "de": "zugelassene Menge",
+        "en": "eligible quantity",
         "fr": "quantité éligible",
         "es": "cantidad elegible"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/eligibleRegion",
-      "prefLabel": {
-        "en": "eligible region",
-        "de": "zugelassene Region",
-        "fr": "région éligible",
-        "es": "región elegible"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/eligibleTransactionVolume",
-      "prefLabel": {
-        "en": "eligible transaction volume",
-        "de": "zugelassenes Transaktionsvolumen",
-        "fr": "volume de transaction éligible",
-        "es": "volumen de transacciones elegible"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/gtin",
-      "prefLabel": {
-        "en": "GTIN",
-        "de": "GTIN",
-        "fr": "GTIN",
-        "es": "GTIN"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/gtin12",
-      "prefLabel": {
-        "en": "GTIN12",
-        "de": "GTIN12",
-        "fr": "GTIN12",
-        "es": "GTIN12"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/gtin13",
-      "prefLabel": {
-        "en": "GTIN13",
-        "de": "GTIN13",
-        "fr": "GTIN13",
-        "es": "GTIN13"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/gtin14",
-      "prefLabel": {
-        "en": "GTIN14",
-        "de": "GTIN14",
-        "fr": "GTIN14",
-        "es": "GTIN14"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/gtin8",
-      "prefLabel": {
-        "en": "GTIN8",
-        "de": "GTIN8",
-        "fr": "GTIN8",
-        "es": "GTIN8"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/hasAdultConsideration",
-      "prefLabel": {
-        "en": "has adult consideration",
-        "de": "hat erwachsene Berücksichtigung",
-        "fr": "a considération de l'adulte",
-        "es": "tiene consideración de adulto"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/hasMeasurement",
       "prefLabel": {
-        "en": "has measurement",
         "de": "hat Messung",
+        "en": "has measurement",
         "fr": "a mesure",
         "es": "tiene medida"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/hasMerchantReturnPolicy",
-      "prefLabel": {
-        "en": "has merchant return policy",
-        "de": "hat Rückgaberecht des Händlers",
-        "fr": "a la politique de retour du commerçant",
-        "es": "tiene política de devolución del comerciante"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/includesObject",
-      "prefLabel": {
-        "en": "includes object",
-        "de": "schließt Objekt ein",
-        "fr": "inclut l'objet",
-        "es": "incluye objeto"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/ineligibleRegion",
-      "prefLabel": {
-        "en": "ineligible region",
-        "de": "nicht förderfähige Region",
-        "fr": "région non admissible",
-        "es": "región no elegible"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/inventoryLevel",
       "prefLabel": {
-        "en": "inventory level",
         "de": "Bestandsebene",
+        "en": "inventory level",
         "fr": "niveau d'inventaire",
         "es": "nivel de inventario"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/isFamilyFriendly",
+      "id": "https://w3id.org/class/redaktor/leaseLength",
       "prefLabel": {
-        "en": "is family friendly",
-        "de": "ist familienfreundlich",
-        "fr": "est adapté aux familles",
-        "es": "es familiar"
+        "de": "Mietdauer",
+        "en": "lease length",
+        "fr": "durée du bail",
+        "es": "duración del contrato de arrendamiento"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/itemCondition",
+      "id": "https://w3id.org/class/redaktor/eligibleTransactionVolume",
       "prefLabel": {
-        "en": "item condition",
-        "de": "Item-Bedingung",
-        "fr": "condition de l'article",
-        "es": "condición del artículo"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/itemOffered",
-      "prefLabel": {
-        "en": "item offered",
-        "de": "angebotener Artikel",
-        "fr": "élément offert",
-        "es": "elemento ofrecido"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/mpn",
-      "prefLabel": {
-        "en": "mpn",
-        "de": "mpn",
-        "fr": "mpn",
-        "es": "mpn"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/offers",
-      "prefLabel": {
-        "en": "offers",
-        "de": "Angebote",
-        "fr": "offres",
-        "es": "ofrece"
+        "de": "zugelassenes Transaktionsvolumen",
+        "en": "eligible transaction volume",
+        "fr": "volume de transaction éligible",
+        "es": "volumen de transacciones elegible"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/priceSpecification",
       "prefLabel": {
-        "en": "price specification",
         "de": "Preisangabe",
+        "en": "price specification",
         "fr": "spécification du prix",
         "es": "especificación del precio"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/aggregateRating",
+      "prefLabel": {
+        "de": "Gesamtbewertung",
+        "en": "aggregate rating",
+        "fr": "cote globale",
+        "es": "calificación agregada"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/warranty",
+      "prefLabel": {
+        "de": "Garantie",
+        "en": "warranty",
+        "fr": "garantie",
+        "es": "garantía"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/includesObject",
+      "prefLabel": {
+        "de": "schließt Objekt ein",
+        "en": "includes object",
+        "fr": "inclut l'objet",
+        "es": "incluye objeto"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/hasMerchantReturnPolicy",
+      "prefLabel": {
+        "de": "hat Rückgaberecht des Händlers",
+        "en": "has merchant return policy",
+        "fr": "a la politique de retour du commerçant",
+        "es": "tiene política de devolución del comerciante"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/review",
       "prefLabel": {
-        "en": "review",
         "de": "Überprüfung",
+        "en": "review",
         "fr": "examen",
         "es": "revisión"
       }
@@ -331,107 +223,179 @@
     {
       "id": "https://w3id.org/class/redaktor/reviews",
       "prefLabel": {
-        "en": "reviews",
         "de": "Überprüfungen",
+        "en": "reviews",
         "fr": "examens",
         "es": "revisiones"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/seller",
+      "id": "https://w3id.org/class/redaktor/shippingDetails",
       "prefLabel": {
-        "en": "seller",
-        "de": "Verkäufer",
-        "fr": "vendeur",
-        "es": "vendedor"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/serialNumber",
-      "prefLabel": {
-        "en": "serial number",
-        "de": "Seriennummer",
-        "fr": "numéro de série",
-        "es": "número de serie"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/sku",
-      "prefLabel": {
-        "en": "SKU",
-        "de": "SKU",
-        "fr": "SKU",
-        "es": "SKU"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/validFrom",
-      "prefLabel": {
-        "en": "valid from",
-        "de": "gültig von",
-        "fr": "valable à partir de",
-        "es": "válido desde"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/validThrough",
-      "prefLabel": {
-        "en": "valid through",
-        "de": "gültig durch",
-        "fr": "valide par",
-        "es": "válido a través de"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/warranty",
-      "prefLabel": {
-        "en": "warranty",
-        "de": "Garantie",
-        "fr": "garantie",
-        "es": "garantía"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/aggregateRating",
-      "prefLabel": {
-        "en": "aggregate rating",
-        "de": "Gesamtbewertung",
-        "fr": "cote globale",
-        "es": "calificación agregada"
+        "de": "Versanddetails",
+        "en": "shipping details",
+        "fr": "détails d'expédition",
+        "es": "detalles de envío"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/addOn",
       "prefLabel": {
-        "en": "add on",
         "de": "Hinzufügen",
+        "en": "add on",
         "fr": "ajouter sur",
         "es": "añadir"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/leaseLength",
+      "id": "https://w3id.org/class/redaktor/areaServed",
       "prefLabel": {
-        "en": "lease length",
-        "de": "Mietdauer",
-        "fr": "durée du bail",
-        "es": "duración del contrato de arrendamiento"
+        "de": "bedientes Gebiet",
+        "en": "area served",
+        "fr": "zone desservie",
+        "es": "área de servicio"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/availabilityEnds",
+      "prefLabel": {
+        "de": "Verfügbarkeit endet",
+        "en": "availability ends",
+        "fr": "fin de la disponibilité",
+        "es": "la disponibilidad termina"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/availabilityStarts",
+      "prefLabel": {
+        "de": "Verfügbarkeit beginnt",
+        "en": "availability starts",
+        "fr": "la disponibilité commence",
+        "es": "la disponibilidad comienza"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/availableAtOrFrom",
+      "prefLabel": {
+        "de": "verfügbar bei oder von",
+        "en": "available at or from",
+        "fr": "disponible à ou de",
+        "es": "disponible en o desde"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/eligibleRegion",
+      "prefLabel": {
+        "de": "zugelassene Region",
+        "en": "eligible region",
+        "fr": "région éligible",
+        "es": "región elegible"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/gtin",
+      "prefLabel": {
+        "de": "GTIN",
+        "en": "GTIN",
+        "fr": "GTIN",
+        "es": "GTIN"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/gtin12",
+      "prefLabel": {
+        "de": "GTIN12",
+        "en": "GTIN12",
+        "fr": "GTIN12",
+        "es": "GTIN12"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/gtin13",
+      "prefLabel": {
+        "de": "GTIN13",
+        "en": "GTIN13",
+        "fr": "GTIN13",
+        "es": "GTIN13"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/gtin14",
+      "prefLabel": {
+        "de": "GTIN14",
+        "en": "GTIN14",
+        "fr": "GTIN14",
+        "es": "GTIN14"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/gtin8",
+      "prefLabel": {
+        "de": "GTIN8",
+        "en": "GTIN8",
+        "fr": "GTIN8",
+        "es": "GTIN8"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ineligibleRegion",
+      "prefLabel": {
+        "de": "nicht förderfähige Region",
+        "en": "ineligible region",
+        "fr": "région non admissible",
+        "es": "región no elegible"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/isFamilyFriendly",
+      "prefLabel": {
+        "de": "ist familienfreundlich",
+        "en": "is family friendly",
+        "fr": "est adapté aux familles",
+        "es": "es familiar"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/itemOffered",
+      "prefLabel": {
+        "de": "angebotener Artikel",
+        "en": "item offered",
+        "fr": "élément offert",
+        "es": "elemento ofrecido"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/mpn",
+      "prefLabel": {
+        "de": "mpn",
+        "en": "mpn",
+        "fr": "mpn",
+        "es": "mpn"
       }
     },
     {
       "id": "https://w3id.org/class/redaktor/offeredBy",
       "prefLabel": {
-        "en": "offered by",
         "de": "angeboten von",
+        "en": "offered by",
         "fr": "offert par",
         "es": "ofrecida por"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/offers",
+      "prefLabel": {
+        "de": "Angebote",
+        "en": "offers",
+        "fr": "offres",
+        "es": "ofrece"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/price",
       "prefLabel": {
-        "en": "price",
         "de": "Preis",
+        "en": "price",
         "fr": "prix",
         "es": "precio"
       }
@@ -439,8 +403,8 @@
     {
       "id": "https://w3id.org/class/redaktor/priceCurrency",
       "prefLabel": {
-        "en": "price currency",
         "de": "Preiswährung",
+        "en": "price currency",
         "fr": "devise du prix",
         "es": "moneda del precio"
       }
@@ -448,27 +412,63 @@
     {
       "id": "https://w3id.org/class/redaktor/priceValidUntil",
       "prefLabel": {
-        "en": "price valid until",
         "de": "Preis gültig bis",
+        "en": "price valid until",
         "fr": "prix valable jusqu'au",
         "es": "precio válido hasta"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/shippingDetails",
+      "id": "https://w3id.org/class/redaktor/seller",
       "prefLabel": {
-        "en": "shipping details",
-        "de": "Versanddetails",
-        "fr": "détails d'expédition",
-        "es": "detalles de envío"
+        "de": "Verkäufer",
+        "en": "seller",
+        "fr": "vendeur",
+        "es": "vendedor"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/serialNumber",
+      "prefLabel": {
+        "de": "Seriennummer",
+        "en": "serial number",
+        "fr": "numéro de série",
+        "es": "número de serie"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/sku",
+      "prefLabel": {
+        "de": "SKU",
+        "en": "SKU",
+        "fr": "SKU",
+        "es": "SKU"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/validFrom",
+      "prefLabel": {
+        "de": "gültig von",
+        "en": "valid from",
+        "fr": "valable à partir de",
+        "es": "válido desde"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/validThrough",
+      "prefLabel": {
+        "de": "gültig durch",
+        "en": "valid through",
+        "fr": "valide par",
+        "es": "válido a través de"
       }
     }
   ],
   "broader": {
     "id": "https://w3id.org/class/redaktor/Activity",
     "prefLabel": {
-      "en": "Activity",
       "de": "Aktivität",
+      "en": "Activity",
       "fr": "Activité",
       "es": "Actividad"
     }
@@ -484,8 +484,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

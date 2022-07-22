@@ -1,0 +1,158 @@
+{
+  "id": "https://w3id.org/class/redaktor/InteractionCounter",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FInteractionCounter",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FInteractionCounter",
+  "prefLabel": {
+    "de": "Interaktionszähler",
+    "en": "Interaction Counter",
+    "fr": "Compteur d'interactions",
+    "es": "Contador de interacciones"
+  },
+  "definition": {
+    "de": "Eine Zusammenfassung der Art und Weise, wie Nutzer mit diesem CreativeWork interagiert haben. In den meisten Fällen werden die Autoren einen Untertyp verwenden, um die spezifische Art der Interaktion anzugeben.",
+    "en": "A summary of how users have interacted with this CreativeWork. In most cases, authors will use a subtype to specify the specific type of interaction.",
+    "fr": "Un résumé de la façon dont les utilisateurs ont interagi avec ce travail créatif. Dans la plupart des cas, les auteurs utiliseront un sous-type pour spécifier le type spécifique d'interaction.",
+    "es": "Un resumen de cómo los usuarios han interactuado con este CreativeWork. En la mayoría de los casos, los autores utilizarán un subtipo para especificar el tipo específico de interacción."
+  },
+  "notation": [
+    "1408"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/userInteractionCount",
+      "prefLabel": {
+        "de": "Anzahl der Benutzerinteraktionen",
+        "en": "user Interaction Count",
+        "fr": "Nombre d'interactions de l'utilisateur",
+        "es": "Recuento de interacciones del usuario"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/interactionType",
+      "prefLabel": {
+        "de": "Interaktionsart",
+        "en": "interaction type",
+        "fr": "type d'interaction",
+        "es": "tipo de interacción"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/interactionService",
+      "prefLabel": {
+        "de": "Interaktionsdienst",
+        "en": "interaction service",
+        "fr": "service d'interaction",
+        "es": "servicio de interacción"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:InteractionCounter"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

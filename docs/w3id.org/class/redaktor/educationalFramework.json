@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FeducationalFramework",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FeducationalFramework",
   "prefLabel": {
-    "en": "educational framework",
     "de": "Bildungsrahmen",
+    "en": "educational framework",
     "fr": "cadre cadre éducatif",
     "es": "marco educativo"
   },
   "definition": {
+    "de": "Der Rahmen, an dem die beschriebene Ressource ausgerichtet ist.",
     "en": "The framework to which the resource being described is aligned.",
-    "de": "The framework to which the resource being described is aligned.",
-    "fr": "The framework to which the resource being described is aligned.",
-    "es": "The framework to which the resource being described is aligned."
+    "fr": "Le cadre dans lequel la ressource décrite est alignée.",
+    "es": "El marco al que se ajusta el recurso descrito."
   },
   "notation": [
     "1922"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

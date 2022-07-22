@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FarrivalBusStop",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FarrivalBusStop",
   "prefLabel": {
-    "en": "arrival bus stop",
     "de": "Ankunft Bushaltestelle",
+    "en": "arrival bus stop",
     "fr": "arrêt de bus d'arrivée",
     "es": "llegada parada de autobús"
   },
   "definition": {
+    "de": "Die Haltestelle oder der Bahnhof, an dem der Bus ankommt.",
     "en": "The stop or station from which the bus arrives.",
-    "de": "The stop or station from which the bus arrives.",
-    "fr": "The stop or station from which the bus arrives.",
-    "es": "The stop or station from which the bus arrives."
+    "fr": "L'arrêt ou la station d'où le bus arrive.",
+    "es": "La parada o estación desde la que llega el autobús."
   },
   "notation": [
     "1783"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCoverArt",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCoverArt",
   "prefLabel": {
-    "en": "Cover Art",
     "de": "Titelbild",
+    "en": "Cover Art",
     "fr": "Couverture",
     "es": "Arte de la cubierta"
   },
   "definition": {
-    "en": "The artwork on the outer surface of a CreativeWork.",
     "de": "Das Kunstwerk auf der äußeren Oberfläche eines CreativeWorks.",
+    "en": "The artwork on the outer surface of a CreativeWork.",
     "fr": "L'œuvre d'art sur la surface extérieure d'une œuvre de création.",
     "es": "Las ilustraciones de la superficie exterior de un CreativeWork."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ComicCoverArt",
       "prefLabel": {
-        "en": "Comic Cover Art",
         "de": "Comic-Titelbild",
+        "en": "Comic Cover Art",
         "fr": "Couverture de bande dessinée",
         "es": "Portada de cómic"
       }
@@ -37,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

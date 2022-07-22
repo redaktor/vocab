@@ -4,17 +4,17 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPublicationIssue",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPublicationIssue",
   "prefLabel": {
-    "en": "Publication Issue",
     "de": "Publikationsausgabe",
+    "en": "Publication Issue",
     "fr": "Numéro de publication",
     "es": "Número de la publicación"
   },
   "altLabel": {
-    "en": [
-      "Issue"
-    ],
     "de": [
       "Ausgabe"
+    ],
+    "en": [
+      "Issue"
     ],
     "fr": [
       "Numéro"
@@ -24,8 +24,8 @@
     ]
   },
   "definition": {
-    "en": "A part of a successively published publication such as a periodical or publication volume, often numbered, usually containing a grouping of works such as articles.<br/><br/>See also [blog post](http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html).",
     "de": "Ein Teil einer fortlaufend veröffentlichten Publikation, z. B. einer Zeitschrift oder eines Publikationsbandes, der häufig nummeriert ist und in der Regel eine Zusammenstellung von Werken wie z. B. Artikeln enthält.<br/><br/>Siehe auch [Blogpost](http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html).",
+    "en": "A part of a successively published publication such as a periodical or publication volume, often numbered, usually containing a grouping of works such as articles.<br/><br/>See also [blog post](http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html).",
     "fr": "A part of a successively published publication such as a periodical or publication volume, often numbered, usually containing a grouping of works such as articles.<br/><br/>See also [blog post](http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html).",
     "es": "A part of a successively published publication such as a periodical or publication volume, often numbered, usually containing a grouping of works such as articles.<br/><br/>See also [blog post](http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html)."
   },
@@ -36,8 +36,8 @@
     {
       "id": "https://w3id.org/class/redaktor/issueNumber",
       "prefLabel": {
-        "en": "issue number",
         "de": "Ausgabennummer",
+        "en": "issue number",
         "fr": "numéro d'émission",
         "es": "número de emisión"
       }
@@ -45,8 +45,8 @@
     {
       "id": "https://w3id.org/class/redaktor/pageEnd",
       "prefLabel": {
-        "en": "page end",
         "de": "Seite Ende",
+        "en": "page end",
         "fr": "fin de page",
         "es": "fin de página"
       }
@@ -54,8 +54,8 @@
     {
       "id": "https://w3id.org/class/redaktor/pageStart",
       "prefLabel": {
-        "en": "page start",
         "de": "Seitenanfang",
+        "en": "page start",
         "fr": "début de page",
         "es": "inicio de página"
       }
@@ -63,8 +63,8 @@
     {
       "id": "https://w3id.org/class/redaktor/pagination",
       "prefLabel": {
-        "en": "pagination",
         "de": "Paginierung",
+        "en": "pagination",
         "fr": "pagination",
         "es": "paginación"
       }
@@ -78,8 +78,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

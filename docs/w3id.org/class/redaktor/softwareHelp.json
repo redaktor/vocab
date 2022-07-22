@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FsoftwareHelp",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FsoftwareHelp",
   "prefLabel": {
-    "en": "software help",
     "de": "Software-Hilfe",
+    "en": "software help",
     "fr": "aide du logiciel",
     "es": "ayuda para el software"
   },
   "definition": {
+    "de": "Hilfe bei Softwareanwendungen.",
     "en": "Software application help.",
-    "de": "Software application help.",
-    "fr": "Software application help.",
-    "es": "Software application help."
+    "fr": "Aide pour les applications logicielles.",
+    "es": "Ayuda a la aplicación de software."
   },
   "notation": [
     "2221"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

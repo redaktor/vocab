@@ -4,10 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FOptometric",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FOptometric",
   "prefLabel": {
-    "en": "Optometric",
     "de": "Optometrie",
+    "en": "Optometric",
     "fr": "Optométrie",
     "es": "Optometría"
+  },
+  "definition": {
+    "de": "Die Wissenschaft oder Praxis der Prüfung der Sehschärfe und der Verschreibung von Korrekturgläsern.",
+    "en": "The science or practice of testing visual acuity and prescribing corrective lenses.",
+    "fr": "Science ou pratique consistant à tester l'acuité visuelle et à prescrire des verres correcteurs.",
+    "es": "La ciencia o la práctica de comprobar la agudeza visual y prescribir lentes correctoras."
   },
   "notation": [
     "1076"
@@ -20,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

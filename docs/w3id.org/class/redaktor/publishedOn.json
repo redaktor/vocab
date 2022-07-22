@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FpublishedOn",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FpublishedOn",
   "prefLabel": {
-    "en": "published on",
     "de": "veröffentlicht am",
+    "en": "published on",
     "fr": "publié sur",
     "es": "publicado en"
   },
   "definition": {
+    "de": "Ein mit dem Veröffentlichungsereignis verbundener Rundfunkdienst.",
     "en": "A broadcast service associated with the publication event.",
-    "de": "A broadcast service associated with the publication event.",
-    "fr": "A broadcast service associated with the publication event.",
-    "es": "A broadcast service associated with the publication event."
+    "fr": "Un service de diffusion associé à l'événement de publication.",
+    "es": "Un servicio de difusión asociado al evento de publicación."
   },
   "notation": [
     "2173"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/BroadcastService",
+      "prefLabel": {
+        "de": "Rundfunkdienst",
+        "en": "Broadcast Service",
+        "fr": "Service de radiodiffusion",
+        "es": "Servicio de difusión"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

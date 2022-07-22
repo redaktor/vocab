@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Ftrailer",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Ftrailer",
   "prefLabel": {
-    "en": "trailer",
     "de": "Anhänger",
+    "en": "trailer",
     "fr": "remorque",
     "es": "remolque"
   },
   "definition": {
+    "de": "Der Trailer eines Films oder einer Fernseh-/Radioserie, einer Staffel, einer Episode usw.",
     "en": "The trailer of a movie or tv/radio series, season, episode, etc.",
-    "de": "The trailer of a movie or tv/radio series, season, episode, etc.",
-    "fr": "The trailer of a movie or tv/radio series, season, episode, etc.",
-    "es": "The trailer of a movie or tv/radio series, season, episode, etc."
+    "fr": "La bande-annonce d'un film ou d'une série télévisée/radio, d'une saison, d'un épisode, etc.",
+    "es": "El tráiler de una película o serie de televisión o radio, temporada, episodio, etc."
   },
   "notation": [
     "2270"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

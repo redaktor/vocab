@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FinAlbum",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FinAlbum",
   "prefLabel": {
-    "en": "in album",
     "de": "im Album",
+    "en": "in album",
     "fr": "en album",
     "es": "en el álbum"
   },
   "definition": {
+    "de": "Das Album, zu dem diese Aufnahme gehört.",
     "en": "The album to which this recording belongs.",
-    "de": "The album to which this recording belongs.",
-    "fr": "The album to which this recording belongs.",
-    "es": "The album to which this recording belongs."
+    "fr": "L'album auquel appartient cet enregistrement.",
+    "es": "El álbum al que pertenece esta grabación."
   },
   "notation": [
     "2010"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

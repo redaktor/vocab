@@ -6,6 +6,12 @@
   "prefLabel": {
     "en": "number of episodes"
   },
+  "definition": {
+    "de": "Die Anzahl der Episoden in dieser Staffel oder Serie.",
+    "en": "The number of episodes in this season or series.",
+    "fr": "Le nombre d'épisodes de cette saison ou série.",
+    "es": "El número de episodios de esta temporada o serie."
+  },
   "notation": [
     "2306"
   ],
@@ -17,8 +23,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

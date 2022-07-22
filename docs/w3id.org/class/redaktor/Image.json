@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fimage",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fimage",
   "prefLabel": {
-    "en": "image",
     "de": "Bild",
+    "en": "image",
     "fr": "image",
     "es": "imagen"
   },
   "definition": {
-    "en": "Indicates an entity that describes an image for this object. Unlike the icon property, there are no aspect ratio or display size limitations assumed.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image-term](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image-term)",
     "de": "Gibt eine Entität an, die ein Bild für dieses Objekt beschreibt. Anders als bei der Icon-Eigenschaft werden keine Beschränkungen des Seitenverhältnisses oder der Anzeigegröße angenommen.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image-term](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image-term)",
+    "en": "Indicates an entity that describes an image for this object. Unlike the icon property, there are no aspect ratio or display size limitations assumed.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image-term](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image-term)",
     "fr": "Indique une entité qui décrit une image pour cet objet. Contrairement à la propriété de l'icône, il n'y a pas de limitation de rapport d'aspect ou de taille d'affichage supposée.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image-term](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image-term)",
     "es": "Indica una entidad que describe una imagen para este objeto. A diferencia de la propiedad icono, no se asumen limitaciones de relación de aspecto o tamaño de presentación.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image-term](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image-term)"
   },
   "scopeNote": {
-    "en": ": Property",
     "de": ": Property",
+    "en": ": Property",
     "fr": ": Property",
     "es": ": Property"
   },
@@ -25,16 +25,16 @@
     "137"
   ],
   "example": {
-    "en": "[Example 81](https://www.w3.org/TR/activitystreams-vocabulary/#ex80-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"A simple note\",\n  \"type\": \"Note\",\n  \"content\": \"This is all there is.\",\n  \"image\": {\n    \"type\": \"Image\",\n    \"name\": \"A Cat\",\n    \"url\": \"http://example.org/cat.png\"\n  }\n}\n```",
     "de": "[Beispiel 81](https://www.w3.org/TR/activitystreams-vocabulary/#ex80-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"A simple note\",\n  \"type\": \"Note\",\n  \"content\": \"This is all there is.\",\n  \"image\": {\n    \"type\": \"Image\",\n    \"name\": \"A Cat\",\n    \"url\": \"http://example.org/cat.png\"\n  }\n}\n```",
+    "en": "[Example 81](https://www.w3.org/TR/activitystreams-vocabulary/#ex80-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"A simple note\",\n  \"type\": \"Note\",\n  \"content\": \"This is all there is.\",\n  \"image\": {\n    \"type\": \"Image\",\n    \"name\": \"A Cat\",\n    \"url\": \"http://example.org/cat.png\"\n  }\n}\n```",
     "fr": "[Exemple 81](https://www.w3.org/TR/activitystreams-vocabulary/#ex80-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"A simple note\",\n  \"type\": \"Note\",\n  \"content\": \"This is all there is.\",\n  \"image\": {\n    \"type\": \"Image\",\n    \"name\": \"A Cat\",\n    \"url\": \"http://example.org/cat.png\"\n  }\n}\n```",
     "es": "[Ejemplo 81](https://www.w3.org/TR/activitystreams-vocabulary/#ex80-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"A simple note\",\n  \"type\": \"Note\",\n  \"content\": \"This is all there is.\",\n  \"image\": {\n    \"type\": \"Image\",\n    \"name\": \"A Cat\",\n    \"url\": \"http://example.org/cat.png\"\n  }\n}\n```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/Object",
     "prefLabel": {
-      "en": "Object",
       "de": "Objekt",
+      "en": "Object",
       "fr": "Objet",
       "es": "Objeto"
     }
@@ -47,8 +47,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
@@ -147,28 +147,28 @@
       "@container": "@set"
     }
   }
-}r/artist",
+}lass/redaktor/aggregateRating",
       "prefLabel": {
-        "en": "artist",
+        "de": "Gesamtbewertung",
+        "en": "aggregate rating",
+        "fr": "cote globale",
+        "es": "calificación agregada"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/artist",
+      "prefLabel": {
         "de": "Künstler",
+        "en": "artist",
         "fr": "artiste",
         "es": "artista"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/availableLanguage",
-      "prefLabel": {
-        "en": "available language",
-        "de": "verfügbare Sprache",
-        "fr": "langues disponibles",
-        "es": "idiomas disponibles"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/colorist",
       "prefLabel": {
-        "en": "colorist",
         "de": "Kolorist",
+        "en": "colorist",
         "fr": "coloriste",
         "es": "colorista"
       }
@@ -176,8 +176,8 @@
     {
       "id": "https://w3id.org/class/redaktor/inker",
       "prefLabel": {
-        "en": "inker",
         "de": "Färber",
+        "en": "inker",
         "fr": "inker",
         "es": "entintador"
       }
@@ -185,8 +185,8 @@
     {
       "id": "https://w3id.org/class/redaktor/letterer",
       "prefLabel": {
-        "en": "letterer",
         "de": "Beschreiber",
+        "en": "letterer",
         "fr": "lettré",
         "es": "letra"
       }
@@ -194,8 +194,8 @@
     {
       "id": "https://w3id.org/class/redaktor/penciler",
       "prefLabel": {
-        "en": "penciler",
         "de": "Schreiber",
+        "en": "penciler",
         "fr": "crayon à papier",
         "es": "lápiz"
       }
@@ -204,8 +204,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Object",
     "prefLabel": {
-      "en": "Object",
       "de": "Objekt",
+      "en": "Object",
       "fr": "Objet",
       "es": "Objeto"
     }
@@ -221,8 +221,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FMedicalBusiness",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FMedicalBusiness",
   "prefLabel": {
-    "en": "Medical Business",
     "de": "Medizinische Einrichtung",
+    "en": "Medical Business",
     "fr": "Commerce médical",
     "es": "Negocio Médico"
   },
@@ -16,8 +16,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Dentist",
       "prefLabel": {
-        "en": "Dentist",
         "de": "Zahnarzt",
+        "en": "Dentist",
         "fr": "Dentiste",
         "es": "Dentista"
       }
@@ -25,8 +25,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Abortion",
       "prefLabel": {
-        "en": "Abortion",
         "de": "Schwangerschaftsabbruch",
+        "en": "Abortion",
         "fr": "Avortement",
         "es": "Aborto"
       }
@@ -34,8 +34,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Allergology",
       "prefLabel": {
-        "en": "Allergology",
         "de": "Allergologie",
+        "en": "Allergology",
         "fr": "Allergologie",
         "es": "Alergología"
       }
@@ -43,8 +43,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Cardiology",
       "prefLabel": {
-        "en": "Cardiology",
         "de": "Kardiologie",
+        "en": "Cardiology",
         "fr": "Cardiologie",
         "es": "Cardiología"
       }
@@ -52,8 +52,8 @@
     {
       "id": "https://w3id.org/class/redaktor/CommunityHealth",
       "prefLabel": {
-        "en": "Community Health",
         "de": "Gemeinschaftliche Gesundheit",
+        "en": "Community Health",
         "fr": "Santé communautaire",
         "es": "Salud comunitaria"
       }
@@ -61,8 +61,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Dermatology",
       "prefLabel": {
-        "en": "Dermatology",
         "de": "Dermatologie",
+        "en": "Dermatology",
         "fr": "Dermatologie",
         "es": "Dentista"
       }
@@ -70,8 +70,8 @@
     {
       "id": "https://w3id.org/class/redaktor/DietNutrition",
       "prefLabel": {
-        "en": "Diet Nutrition",
         "de": "Diätetik Ernährung",
+        "en": "Diet Nutrition",
         "fr": "Nutrition diététique",
         "es": "Dermatología"
       }
@@ -79,8 +79,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Emergency",
       "prefLabel": {
-        "en": "Emergency",
         "de": "Notfall",
+        "en": "Emergency",
         "fr": "Urgence",
         "es": "Urgencias"
       }
@@ -88,8 +88,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Gastroenterology",
       "prefLabel": {
-        "en": "Gastroenterology",
         "de": "Gastroenterologie",
+        "en": "Gastroenterology",
         "fr": "Gastro-entérologie",
         "es": "Gastroenterología"
       }
@@ -97,8 +97,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Geriatric",
       "prefLabel": {
-        "en": "Geriatric",
         "de": "Geriatrie",
+        "en": "Geriatric",
         "fr": "Gériatrie",
         "es": "Geriatría"
       }
@@ -106,8 +106,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Gynecologic",
       "prefLabel": {
-        "en": "Gynecologic",
         "de": "Gynäkologie",
+        "en": "Gynecologic",
         "fr": "Gynécologie",
         "es": "Ginecología"
       }
@@ -115,8 +115,8 @@
     {
       "id": "https://w3id.org/class/redaktor/MedicalClinic",
       "prefLabel": {
-        "en": "Medical Clinic",
         "de": "Medizinische Klinik",
+        "en": "Medical Clinic",
         "fr": "Clinique médicale",
         "es": "Clínica Médica"
       }
@@ -124,8 +124,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Midwifery",
       "prefLabel": {
-        "en": "Midwifery",
         "de": "Hebamme",
+        "en": "Midwifery",
         "fr": "Sages-femmes",
         "es": "Partería"
       }
@@ -133,8 +133,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Nursing",
       "prefLabel": {
-        "en": "Nursing",
         "de": "Krankenpflege",
+        "en": "Nursing",
         "fr": "Soins infirmiers",
         "es": "Enfermería"
       }
@@ -142,8 +142,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Obstetric",
       "prefLabel": {
-        "en": "Obstetric",
         "de": "Geburtshilfe",
+        "en": "Obstetric",
         "fr": "Obstétrique",
         "es": "Obstetricia"
       }
@@ -151,8 +151,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Oncologic",
       "prefLabel": {
-        "en": "Oncologic",
         "de": "Onkologie",
+        "en": "Oncologic",
         "fr": "Oncologie",
         "es": "Oncológico"
       }
@@ -160,8 +160,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Optician",
       "prefLabel": {
-        "en": "Optician",
         "de": "Optiker",
+        "en": "Optician",
         "fr": "Opticien",
         "es": "Óptica"
       }
@@ -169,8 +169,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Optometric",
       "prefLabel": {
-        "en": "Optometric",
         "de": "Optometrie",
+        "en": "Optometric",
         "fr": "Optométrie",
         "es": "Optometría"
       }
@@ -178,8 +178,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Orthopaedics",
       "prefLabel": {
-        "en": "Orthopaedics",
         "de": "Optometrisch",
+        "en": "Orthopaedics",
         "fr": "Orthopédie",
         "es": "Ortopedia"
       }
@@ -187,8 +187,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Otolaryngologic",
       "prefLabel": {
-        "en": "Otolaryngologic",
         "de": "HNO Hals-Nasen-Ohrenheilkunde",
+        "en": "Otolaryngologic",
         "fr": "Otolaryngologie",
         "es": "Otorrinolaringología"
       }
@@ -196,8 +196,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Palliative",
       "prefLabel": {
-        "en": "Palliative",
         "de": "Palliativmedizin",
+        "en": "Palliative",
         "fr": "Palliatif",
         "es": "Paliativos"
       }
@@ -205,8 +205,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Pediatric",
       "prefLabel": {
-        "en": "Pediatric",
         "de": "Pädiatrie",
+        "en": "Pediatric",
         "fr": "Pédiatrie",
         "es": "Pediatría"
       }
@@ -214,8 +214,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Pharmacy",
       "prefLabel": {
-        "en": "Pharmacy",
         "de": "Apotheke",
+        "en": "Pharmacy",
         "fr": "Pharmacie",
         "es": "Farmacia"
       }
@@ -223,8 +223,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Physician",
       "prefLabel": {
-        "en": "Physician",
         "de": "Hausarzt",
+        "en": "Physician",
         "fr": "Médecin",
         "es": "Médico"
       }
@@ -232,8 +232,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Physiotherapy",
       "prefLabel": {
-        "en": "Physiotherapy",
         "de": "Physiotherapie",
+        "en": "Physiotherapy",
         "fr": "Physiothérapie",
         "es": "Fisioterapia"
       }
@@ -241,8 +241,8 @@
     {
       "id": "https://w3id.org/class/redaktor/PlasticSurgery",
       "prefLabel": {
-        "en": "Plastic Surgery",
         "de": "Plastische Chirurgie",
+        "en": "Plastic Surgery",
         "fr": "Chirurgie plastique",
         "es": "Cirugía Plástica"
       }
@@ -250,8 +250,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Podiatric",
       "prefLabel": {
-        "en": "Podiatric",
         "de": "Podologie",
+        "en": "Podiatric",
         "fr": "Podologie",
         "es": "Podología"
       }
@@ -259,8 +259,8 @@
     {
       "id": "https://w3id.org/class/redaktor/PrimaryCare",
       "prefLabel": {
-        "en": "Primary Care",
         "de": "Grundversorgung",
+        "en": "Primary Care",
         "fr": "Soins primaires",
         "es": "Atención primaria"
       }
@@ -268,8 +268,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Psychiatric",
       "prefLabel": {
-        "en": "Psychiatric",
         "de": "Psychiatrie",
+        "en": "Psychiatric",
         "fr": "Psychiatrie",
         "es": "Psiquiatría"
       }
@@ -278,7 +278,6 @@
       "id": "https://w3id.org/class/redaktor/PublicHealth",
       "prefLabel": {
         "en": "Public Health",
-        "de": "Öffentliches Gesundheitswesen",
         "fr": "Santé publique",
         "es": "Salud pública"
       }
@@ -286,8 +285,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Radiology",
       "prefLabel": {
-        "en": "Radiology",
         "de": "Radiologie",
+        "en": "Radiology",
         "fr": "Radiologie",
         "es": "Radiología"
       }
@@ -295,8 +294,8 @@
     {
       "id": "https://w3id.org/class/redaktor/VeterinaryCare",
       "prefLabel": {
-        "en": "Veterinary Care",
         "de": "Veterinärmedizinische Versorgung",
+        "en": "Veterinary Care",
         "fr": "Soins vétérinaires",
         "es": "Atención veterinaria"
       }
@@ -304,8 +303,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Tropical",
       "prefLabel": {
-        "en": "Tropical",
         "de": "Tropenmedizin",
+        "en": "Tropical",
         "fr": "Tropical",
         "es": "Tropical"
       }
@@ -319,8 +318,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

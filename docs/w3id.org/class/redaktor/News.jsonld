@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FNews",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FNews",
   "prefLabel": {
-    "en": "News",
     "de": "Nachrichten",
+    "en": "News",
     "fr": "Actualités",
     "es": "Noticias"
   },
   "definition": {
-    "en": "The object contains material relating to general news program and/or event",
     "de": "Das Objekt enthält Material, das sich auf ein allgemeines Nachrichtenprogramm und/oder -ereignis bezieht",
+    "en": "The object contains material relating to general news program and/or event",
     "fr": "L'objet contient du matériel relatif à une émission et/ou un événement d'actualité générale.",
     "es": "El objeto contiene material relacionado con un programa y/o evento de noticias generales"
   },
   "note": {
-    "en": "Example: A news item or program covering general news such as the 6pm News program (whole program) and individual items within that program.",
     "de": "Hinweis Beispiel: Eine Nachrichtensendung oder ein Programm, das sich auf allgemeine Nachrichten bezieht, z. B. die 18-Uhr-Nachrichten (gesamtes Programm) und einzelne Beiträge innerhalb dieses Programms.",
+    "en": "Example: A news item or program covering general news such as the 6pm News program (whole program) and individual items within that program.",
     "fr": "Exemple : Un article ou un programme d'actualité couvrant des informations générales, comme le programme d'actualités de 18 heures (programme complet) et des articles individuels dans ce programme.",
     "es": "Ejemplo: Una noticia o programa que cubre noticias generales, como el programa de noticias de las 18:00 horas (programa completo) y elementos individuales dentro de ese programa."
   },
@@ -28,8 +28,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Actuality",
       "prefLabel": {
-        "en": "Actuality",
         "de": "Aktualität",
+        "en": "Actuality",
         "fr": "Actualité",
         "es": "Actualidad"
       }
@@ -37,8 +37,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Analysis",
       "prefLabel": {
-        "en": "Analysis",
         "de": "Analyse",
+        "en": "Analysis",
         "fr": "Analyse",
         "es": "Análisis"
       }
@@ -46,8 +46,8 @@
     {
       "id": "https://w3id.org/class/redaktor/LiveCoverage",
       "prefLabel": {
-        "en": "Live Coverage",
         "de": "Live-Berichterstattung",
+        "en": "Live Coverage",
         "fr": "Couverture en direct",
         "es": "Cobertura en directo"
       }
@@ -55,8 +55,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Synopsis",
       "prefLabel": {
-        "en": "Synopsis",
         "de": "Zusammenfassungen",
+        "en": "Synopsis",
         "fr": "Synopsis",
         "es": "Sinopsis"
       }
@@ -76,8 +76,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

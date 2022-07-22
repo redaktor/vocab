@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPostalAddress",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPostalAddress",
   "prefLabel": {
-    "en": "Postal address",
     "de": "Postaddresse",
+    "en": "Postal address",
     "fr": "adresse postale",
     "es": "dirección postal"
   },
   "definition": {
-    "en": "The mailing address of an item.",
     "de": "Die postalische Addresse eines Eintrags.",
+    "en": "The mailing address of an item.",
     "fr": "L'adresse postale d'un élément.",
     "es": "La dirección postal de un artículo."
   },
@@ -19,8 +19,8 @@
     "861"
   ],
   "example": {
-    "en": "see subproperties",
     "de": "siehe Eigenschaften",
+    "en": "see subproperties",
     "fr": "voir les propriétés",
     "es": "ver propiedades"
   },
@@ -28,8 +28,8 @@
     {
       "id": "https://w3id.org/class/redaktor/addressCountry",
       "prefLabel": {
-        "en": "country",
         "de": "Land",
+        "en": "country",
         "fr": "pays",
         "es": "país"
       }
@@ -37,8 +37,8 @@
     {
       "id": "https://w3id.org/class/redaktor/addressLocality",
       "prefLabel": {
-        "en": "locality",
         "de": "Ort",
+        "en": "locality",
         "fr": "localité",
         "es": "localidad"
       }
@@ -46,8 +46,8 @@
     {
       "id": "https://w3id.org/class/redaktor/addressRegion",
       "prefLabel": {
-        "en": "region",
         "de": "Region",
+        "en": "region",
         "fr": "région",
         "es": "región"
       }
@@ -55,8 +55,8 @@
     {
       "id": "https://w3id.org/class/redaktor/postalCode",
       "prefLabel": {
-        "en": "postal code",
         "de": "Postleitzahl",
+        "en": "postal code",
         "fr": "code postal",
         "es": "código postal"
       }
@@ -64,8 +64,8 @@
     {
       "id": "https://w3id.org/class/redaktor/postOfficeBoxNumber",
       "prefLabel": {
-        "en": "post office box number",
         "de": "Postfach",
+        "en": "post office box number",
         "fr": "numéro de la boîte postale",
         "es": "número de apartado postal"
       }
@@ -73,8 +73,8 @@
     {
       "id": "https://w3id.org/class/redaktor/streetAddress",
       "prefLabel": {
-        "en": "street",
         "de": "Straße",
+        "en": "street",
         "fr": "rue",
         "es": "calle"
       }
@@ -83,8 +83,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/ContactPoint",
     "prefLabel": {
-      "en": "Contact Point",
       "de": "Kontaktstelle",
+      "en": "Contact Point",
       "fr": "Point de contact",
       "es": "Punto de contacto"
     }
@@ -97,8 +97,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

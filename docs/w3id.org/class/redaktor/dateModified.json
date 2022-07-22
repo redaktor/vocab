@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FdateModified",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FdateModified",
   "prefLabel": {
-    "en": "date modified",
     "de": "Änderungsdatum",
+    "en": "date modified",
     "fr": "date de modification",
     "es": "fecha de modificación"
   },
   "definition": {
+    "de": "Das Datum, an dem das CreativeWork zuletzt geändert wurde oder an dem der Eintrag des Objekts in einem DataFeed geändert wurde.",
     "en": "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed.",
-    "de": "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed.",
-    "fr": "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed.",
-    "es": "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed."
+    "fr": "La date à laquelle le travail créatif a été modifié le plus récemment ou quand l'entrée de l'élément a été modifiée dans un DataFeed.",
+    "es": "La fecha en la que el CreativeWork fue modificado más recientemente o cuando la entrada del elemento fue modificada dentro de un DataFeed."
   },
   "notation": [
     "1890"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

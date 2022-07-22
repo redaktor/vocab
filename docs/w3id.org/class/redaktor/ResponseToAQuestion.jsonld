@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FResponseToAQuestion",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FResponseToAQuestion",
   "prefLabel": {
-    "en": "Response to a Question",
     "de": "Antwort auf eine Frage",
+    "en": "Response to a Question",
     "fr": "Réponse à une question",
     "es": "Respuesta a una pregunta"
   },
   "definition": {
-    "en": "An audio recording of an individual's response to a question",
     "de": "Eine Audioaufnahme der Antwort einer Person auf eine Frage",
+    "en": "An audio recording of an individual's response to a question",
     "fr": "Enregistrement audio de la réponse d'une personne à une question.",
     "es": "Una grabación de audio de la respuesta de una persona a una pregunta"
   },
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

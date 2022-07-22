@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FproviderMobility",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FproviderMobility",
   "prefLabel": {
-    "en": "provider mobility",
     "de": "Anbieter Mobilität",
+    "en": "provider mobility",
     "fr": "mobilité des fournisseurs",
     "es": "movilidad del proveedor"
   },
   "definition": {
+    "de": "Gibt die Mobilität eines angebotenen Dienstes an (z. B. \"statisch\", \"dynamisch\").",
     "en": "Indicates the mobility of a provided service (e.g. 'static', 'dynamic').",
-    "de": "Indicates the mobility of a provided service (e.g. 'static', 'dynamic').",
-    "fr": "Indicates the mobility of a provided service (e.g. 'static', 'dynamic').",
-    "es": "Indicates the mobility of a provided service (e.g. 'static', 'dynamic')."
+    "fr": "Indique la mobilité d'un service fourni (par exemple, \"statique\", \"dynamique\").",
+    "es": "Indica la movilidad de un servicio prestado (por ejemplo, \"estático\", \"dinámico\")."
   },
   "notation": [
     "2168"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPage",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPage",
   "prefLabel": {
-    "en": "Page",
     "de": "Webseite",
+    "en": "Page",
     "fr": "Page web",
     "es": "Página web"
   },
   "definition": {
-    "en": "Represents a Web Page.<br>Every web page is implicitly assumed to be declared to be of type WebPage, so the various properties about that webpage, such as <code>breadcrumb</code> may be used. We recommend explicit declaration if these properties are specified, but if they are found outside of an itemscope, they will be assumed to be about the page.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-page](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-page)",
     "de": "Stellt eine Webseite dar.<br><br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-page](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-page)",
+    "en": "Represents a Web Page.<br>Every web page is implicitly assumed to be declared to be of type WebPage, so the various properties about that webpage, such as <code>breadcrumb</code> may be used. We recommend explicit declaration if these properties are specified, but if they are found outside of an itemscope, they will be assumed to be about the page.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-page](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-page)",
     "fr": "Représente une page Web.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-page](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-page)",
     "es": "Página Representa una página web.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-page](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-page)"
   },
   "scopeNote": {
-    "en": ": Object",
     "de": ": Object",
+    "en": ": Object",
     "fr": ": Object",
     "es": ": Object"
   },
@@ -25,8 +25,8 @@
     "16"
   ],
   "example": {
-    "en": "[Example 54](https://www.w3.org/TR/activitystreams-vocabulary/#ex53-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Page\",\n  \"name\": \"Omaha Weather Report\",\n  \"url\": \"http://example.org/weather-in-omaha.html\"\n}\n```",
     "de": "[Beispiel 54](https://www.w3.org/TR/activitystreams-vocabulary/#ex53-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Page\",\n  \"name\": \"Omaha Weather Report\",\n  \"url\": \"http://example.org/weather-in-omaha.html\"\n}\n```",
+    "en": "[Example 54](https://www.w3.org/TR/activitystreams-vocabulary/#ex53-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Page\",\n  \"name\": \"Omaha Weather Report\",\n  \"url\": \"http://example.org/weather-in-omaha.html\"\n}\n```",
     "fr": "[Exemple 54](https://www.w3.org/TR/activitystreams-vocabulary/#ex53-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Page\",\n  \"name\": \"Omaha Weather Report\",\n  \"url\": \"http://example.org/weather-in-omaha.html\"\n}\n```",
     "es": "[Ejemplo 54](https://www.w3.org/TR/activitystreams-vocabulary/#ex53-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Page\",\n  \"name\": \"Omaha Weather Report\",\n  \"url\": \"http://example.org/weather-in-omaha.html\"\n}\n```"
   },
@@ -41,8 +41,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ImageGallery",
       "prefLabel": {
-        "en": "Image Gallery",
         "de": "Bildergalerie",
+        "en": "Image Gallery",
         "fr": "Galerie d'images",
         "es": "Galería de imágenes"
       }
@@ -50,8 +50,8 @@
     {
       "id": "https://w3id.org/class/redaktor/VideoGallery",
       "prefLabel": {
-        "en": "Video Gallery",
         "de": "Video-Galerie",
+        "en": "Video Gallery",
         "fr": "Galerie de vidéos",
         "es": "Galería de vídeos"
       }
@@ -59,8 +59,8 @@
     {
       "id": "https://w3id.org/class/redaktor/CreativeWork",
       "prefLabel": {
-        "en": "Creative Work",
         "de": "Kreativwerk",
+        "en": "Creative Work",
         "fr": "Travail créatif",
         "es": "Trabajo creativo"
       }
@@ -68,8 +68,8 @@
     {
       "id": "https://w3id.org/class/redaktor/AboutPage",
       "prefLabel": {
-        "en": "About Page",
         "de": "About (Über) Seite",
+        "en": "About Page",
         "fr": "Page à propos",
         "es": "Acerca de la página"
       }
@@ -77,8 +77,8 @@
     {
       "id": "https://w3id.org/class/redaktor/CheckoutPage",
       "prefLabel": {
-        "en": "Checkout Page",
         "de": "Checkout-Seite",
+        "en": "Checkout Page",
         "fr": "Page de paiement",
         "es": "Página de pago"
       }
@@ -86,8 +86,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ContactPage",
       "prefLabel": {
-        "en": "Contact Page",
         "de": "Kontakt-Seite",
+        "en": "Contact Page",
         "fr": "Page de contact",
         "es": "Página de contacto"
       }
@@ -95,8 +95,8 @@
     {
       "id": "https://w3id.org/class/redaktor/FAQPage",
       "prefLabel": {
-        "en": "FAQ Page",
         "de": "FAQ-Seite",
+        "en": "FAQ Page",
         "fr": "Page FAQ",
         "es": "Página de preguntas frecuentes"
       }
@@ -104,8 +104,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ItemPage",
       "prefLabel": {
-        "en": "Item Page",
         "de": "Item, Artikel-Seite",
+        "en": "Item Page",
         "fr": "Page des articles",
         "es": "Página de artículos"
       }
@@ -113,8 +113,8 @@
     {
       "id": "https://w3id.org/class/redaktor/MedicalPage",
       "prefLabel": {
-        "en": "Medical Page",
         "de": "Medizinische Seite",
+        "en": "Medical Page",
         "fr": "Page Web médicale",
         "es": "Página web médica"
       }
@@ -122,8 +122,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ProfilePage",
       "prefLabel": {
-        "en": "Profile Page",
         "de": "Profilseite",
+        "en": "Profile Page",
         "fr": "Page de profil",
         "es": "Página de perfil"
       }
@@ -131,8 +131,8 @@
     {
       "id": "https://w3id.org/class/redaktor/QAPage",
       "prefLabel": {
-        "en": "Q&A Page",
         "de": "Q&A Page",
+        "en": "Q&A Page",
         "fr": "Page Q&R",
         "es": "Página de preguntas y respuestas"
       }
@@ -140,8 +140,8 @@
     {
       "id": "https://w3id.org/class/redaktor/RealEstateListing",
       "prefLabel": {
-        "en": "Real Estate Listing",
         "de": "Auflistung von Immobilien",
+        "en": "Real Estate Listing",
         "fr": "Liste des biens immobiliers",
         "es": "Listado de inmuebles"
       }
@@ -149,8 +149,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HospitalityListing",
       "prefLabel": {
-        "en": "Hospitality or Couchsurfing Listing",
         "de": "Gastfreundschaft oder Couchsurfing Auflistung",
+        "en": "Hospitality or Couchsurfing Listing",
         "fr": "Liste d'hospitalité ou de couchsurfing",
         "es": "Listado de Hospitalidad o Couchsurfing"
       }
@@ -158,8 +158,8 @@
     {
       "id": "https://w3id.org/class/redaktor/CarOrRideShareListing",
       "prefLabel": {
-        "en": "Car or Ride Share Listing",
         "de": "Mitfahrgelegenheit",
+        "en": "Car or Ride Share Listing",
         "fr": "Liste de voitures ou de covoiturage",
         "es": "Lista de coches o viajes compartidos"
       }
@@ -167,8 +167,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SearchResultsPage",
       "prefLabel": {
-        "en": "Search Results Page",
         "de": "Seite mit Suchergebnissen",
+        "en": "Search Results Page",
         "fr": "Page de résultats de recherche",
         "es": "Página de resultados de búsqueda"
       }
@@ -176,8 +176,8 @@
     {
       "id": "https://w3id.org/class/redaktor/TechArticle",
       "prefLabel": {
-        "en": "Tech Article",
         "de": "Tech Artikel",
+        "en": "Tech Article",
         "fr": "Article technique",
         "es": "Artículo técnico"
       }
@@ -185,8 +185,8 @@
     {
       "id": "https://w3id.org/class/redaktor/QuestionAndAnswer",
       "prefLabel": {
-        "en": "Question and Answer Session",
         "de": "Frage und Antwort-Sitzung",
+        "en": "Question and Answer Session",
         "fr": "Séance de questions-réponses",
         "es": "Sesión de preguntas y respuestas"
       }
@@ -194,8 +194,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SocialMediaPosting",
       "prefLabel": {
-        "en": "Social Media Posting",
         "de": "Beitrag Soziale Netzwerke",
+        "en": "Social Media Posting",
         "fr": "Publication sur les médias sociaux",
         "es": "Publicación en las redes sociales"
       }
@@ -203,8 +203,8 @@
     {
       "id": "https://w3id.org/class/redaktor/BlogPosting",
       "prefLabel": {
-        "en": "Blog Posting",
         "de": "Blog Posting",
+        "en": "Blog Posting",
         "fr": "Publication de blogs",
         "es": "Publicación en el blog"
       }
@@ -212,8 +212,8 @@
     {
       "id": "https://w3id.org/class/redaktor/DiscussionForumPosting",
       "prefLabel": {
-        "en": "Discussion Forum Posting",
         "de": "Diskussions-Forum Posting",
+        "en": "Discussion Forum Posting",
         "fr": "Publication de forum de discussion",
         "es": "Publicación en el foro de debate"
       }
@@ -221,8 +221,8 @@
     {
       "id": "https://w3id.org/class/redaktor/TextOnly",
       "prefLabel": {
-        "en": "Text only",
         "de": "Nur Text",
+        "en": "Text only",
         "fr": "Texte uniquement",
         "es": "Sólo texto"
       }
@@ -230,8 +230,8 @@
     {
       "id": "https://w3id.org/class/redaktor/speakable",
       "prefLabel": {
-        "en": "speakable",
         "de": "sprechbar",
+        "en": "speakable",
         "fr": "parlable",
         "es": "hablable"
       }
@@ -240,8 +240,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Object",
     "prefLabel": {
-      "en": "Object",
       "de": "Objekt",
+      "en": "Object",
       "fr": "Objet",
       "es": "Objeto"
     }
@@ -257,8 +257,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

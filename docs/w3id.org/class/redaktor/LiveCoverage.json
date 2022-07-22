@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FLiveCoverage",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FLiveCoverage",
   "prefLabel": {
-    "en": "Live Coverage",
     "de": "Live-Berichterstattung",
+    "en": "Live Coverage",
     "fr": "Couverture en direct",
     "es": "Cobertura en directo"
   },
   "definition": {
-    "en": "News item containing ongoing, up to the minute coverage of a news event, such as a live blog or live video feed",
     "de": "Nachrichtenartikel, der eine laufende, minutengenaue Berichterstattung über ein Nachrichtenereignis enthält, wie z. B. ein Live-Blog oder ein Live-Video-Feed",
+    "en": "News item containing ongoing, up to the minute coverage of a news event, such as a live blog or live video feed",
     "fr": "Article d'information contenant la couverture continue, à la minute près, d'un événement d'actualité, tel qu'un blog en direct ou un flux vidéo en direct.",
     "es": "Noticia que contiene una cobertura en curso, al minuto, de un acontecimiento noticioso, como un blog en directo o una transmisión de vídeo en directo"
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/News",
     "prefLabel": {
-      "en": "News",
       "de": "Nachrichten",
+      "en": "News",
       "fr": "Actualités",
       "es": "Noticias"
     }
@@ -35,8 +35,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

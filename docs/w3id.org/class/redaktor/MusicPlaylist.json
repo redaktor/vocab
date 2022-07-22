@@ -4,17 +4,17 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FMusicPlaylist",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FMusicPlaylist",
   "prefLabel": {
-    "en": "Music Playlist",
     "de": "Musik-Wiedergabeliste",
+    "en": "Music Playlist",
     "fr": "Liste de lecture de musique",
     "es": "Lista de reproducción de música"
   },
   "altLabel": {
-    "en": [
-      "Music Tracklist"
-    ],
     "de": [
       "Musik Playlist"
+    ],
+    "en": [
+      "Music Tracklist"
     ],
     "fr": [
       "Music Playlist"
@@ -24,8 +24,8 @@
     ]
   },
   "definition": {
-    "en": "A collection of music tracks in playlist form. Use `:Playlist` for Video-Playlists.",
     "de": "Eine Sammlung von Musiktiteln in Form einer Wiedergabeliste. Benutze `:Playlist` für Video-Wiedergabelisten.",
+    "en": "A collection of music tracks in playlist form. Use `:Playlist` for Video-Playlists.",
     "fr": "Une collection de morceaux de musique sous forme de liste de lecture. Utilisez :Playlist pour les listes de lecture vidéo.",
     "es": "Una colección de pistas musicales en forma de lista de reproducción. Utilice :Playlist para las listas de reproducción de vídeo."
   },
@@ -36,8 +36,8 @@
     {
       "id": "https://w3id.org/class/redaktor/MusicAlbum",
       "prefLabel": {
-        "en": "Music Album",
         "de": "Musik Album",
+        "en": "Music Album",
         "fr": "Album de musique",
         "es": "Álbum de música"
       }
@@ -45,8 +45,8 @@
     {
       "id": "https://w3id.org/class/redaktor/MusicRelease",
       "prefLabel": {
-        "en": "Music Release",
         "de": "Musikveröffentlichung",
+        "en": "Music Release",
         "fr": "Version musicale",
         "es": "Lanzamiento de música"
       }
@@ -54,8 +54,8 @@
     {
       "id": "https://w3id.org/class/redaktor/numTracks",
       "prefLabel": {
-        "en": "num tracks",
         "de": "Anzahl Spuren",
+        "en": "num tracks",
         "fr": "nombre de voies",
         "es": "número de pistas"
       }
@@ -63,8 +63,8 @@
     {
       "id": "https://w3id.org/class/redaktor/track",
       "prefLabel": {
-        "en": "track",
         "de": "Strecke",
+        "en": "track",
         "fr": "piste",
         "es": "pista"
       }
@@ -72,8 +72,8 @@
     {
       "id": "https://w3id.org/class/redaktor/tracks",
       "prefLabel": {
-        "en": "tracks",
         "de": "Strecken",
+        "en": "tracks",
         "fr": "pistes",
         "es": "pistas"
       }
@@ -87,8 +87,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

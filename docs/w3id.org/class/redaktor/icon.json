@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Ficon",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Ficon",
   "prefLabel": {
-    "en": "icon",
     "de": "Icon",
+    "en": "icon",
     "fr": "icon",
     "es": "icon"
   },
   "definition": {
-    "en": "Indicates an entity that describes an icon for this object. The image should have an aspect ratio of one (horizontal) to one (vertical) and should be suitable for presentation at a small size.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-icon](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-icon)",
     "de": "Gibt eine Entität an, die ein Icon für dieses Objekt beschreibt. Das Bild sollte ein Seitenverhältnis von eins (horizontal) zu eins (vertikal) haben und für die Darstellung in kleiner Größe geeignet sein.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-icon](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-icon)",
+    "en": "Indicates an entity that describes an icon for this object. The image should have an aspect ratio of one (horizontal) to one (vertical) and should be suitable for presentation at a small size.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-icon](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-icon)",
     "fr": "Indique une entité qui décrit une icône pour cet objet. L'image doit avoir un rapport d'aspect de un (horizontal) sur un (vertical) et doit être adaptée à une présentation en petite taille.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-icon](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-icon)",
     "es": "Indica una entidad que describe un icono para este objeto. La imagen debe tener una relación de aspecto de uno (horizontal) a uno (vertical) y debe ser adecuada para su presentación a un tamaño pequeño.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-icon](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-icon)"
   },
   "scopeNote": {
-    "en": ": Property",
     "de": ": Property",
+    "en": ": Property",
     "fr": ": Property",
     "es": ": Property"
   },
@@ -25,16 +25,16 @@
     "136"
   ],
   "example": {
-    "en": "[Example 79](https://www.w3.org/TR/activitystreams-vocabulary/#ex77-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"A simple note\",\n  \"type\": \"Note\",\n  \"content\": \"This is all there is.\",\n  \"icon\": {\n    \"type\": \"Image\",\n    \"name\": \"Note icon\",\n    \"url\": \"http://example.org/note.png\",\n    \"width\": 16,\n    \"height\": 16\n  }\n}\n```",
     "de": "[Beispiel 79](https://www.w3.org/TR/activitystreams-vocabulary/#ex77-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"A simple note\",\n  \"type\": \"Note\",\n  \"content\": \"This is all there is.\",\n  \"icon\": {\n    \"type\": \"Image\",\n    \"name\": \"Note icon\",\n    \"url\": \"http://example.org/note.png\",\n    \"width\": 16,\n    \"height\": 16\n  }\n}\n```",
+    "en": "[Example 79](https://www.w3.org/TR/activitystreams-vocabulary/#ex77-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"A simple note\",\n  \"type\": \"Note\",\n  \"content\": \"This is all there is.\",\n  \"icon\": {\n    \"type\": \"Image\",\n    \"name\": \"Note icon\",\n    \"url\": \"http://example.org/note.png\",\n    \"width\": 16,\n    \"height\": 16\n  }\n}\n```",
     "fr": "[Exemple 79](https://www.w3.org/TR/activitystreams-vocabulary/#ex77-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"A simple note\",\n  \"type\": \"Note\",\n  \"content\": \"This is all there is.\",\n  \"icon\": {\n    \"type\": \"Image\",\n    \"name\": \"Note icon\",\n    \"url\": \"http://example.org/note.png\",\n    \"width\": 16,\n    \"height\": 16\n  }\n}\n```",
     "es": "[Ejemplo 79](https://www.w3.org/TR/activitystreams-vocabulary/#ex77-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"A simple note\",\n  \"type\": \"Note\",\n  \"content\": \"This is all there is.\",\n  \"icon\": {\n    \"type\": \"Image\",\n    \"name\": \"Note icon\",\n    \"url\": \"http://example.org/note.png\",\n    \"width\": 16,\n    \"height\": 16\n  }\n}\n```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/Object",
     "prefLabel": {
-      "en": "Object",
       "de": "Objekt",
+      "en": "Object",
       "fr": "Objet",
       "es": "Objeto"
     }
@@ -47,8 +47,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

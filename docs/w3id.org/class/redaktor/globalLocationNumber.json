@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FglobalLocationNumber",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FglobalLocationNumber",
   "prefLabel": {
-    "en": "global location number",
     "de": "Globale Standortnummer",
+    "en": "global location number",
     "fr": "numéro d'emplacement global",
     "es": "número de localización global"
   },
   "definition": {
+    "de": "Die [Global Location Number](http://www.gs1.org/gln) (GLN, manchmal auch als International Location Number oder ILN bezeichnet) der jeweiligen Organisation, Person oder des Ortes. Die GLN ist eine 13-stellige Nummer zur Identifizierung von Parteien und physischen Standorten.",
     "en": "The [Global Location Number](http://www.gs1.org/gln) (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations.",
-    "de": "The [Global Location Number](http://www.gs1.org/gln) (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations.",
-    "fr": "The [Global Location Number](http://www.gs1.org/gln) (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations.",
-    "es": "The [Global Location Number](http://www.gs1.org/gln) (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations."
+    "fr": "Le [Global Location Number] (http://www.gs1.org/gln) (GLN, parfois également appelé International Location Number ou ILN) de l'organisation, de la personne ou du lieu concerné. Le GLN est un numéro à 13 chiffres utilisé pour identifier les parties et les lieux physiques.",
+    "es": "El [Número de Localización Global](http://www.gs1.org/gln) (GLN, a veces también denominado Número de Localización Internacional o ILN) de la organización, persona o lugar correspondiente. El GLN es un número de 13 dígitos que se utiliza para identificar a las partes y las ubicaciones físicas."
   },
   "notation": [
     "1978"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

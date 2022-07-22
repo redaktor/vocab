@@ -4,17 +4,17 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Faudience",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Faudience",
   "prefLabel": {
-    "en": "audience",
     "de": "Zielgruppe",
+    "en": "audience",
     "fr": "audience",
     "es": "audiencia"
   },
   "altLabel": {
-    "en": [
-      "audience"
-    ],
     "de": [
       "Publikum"
+    ],
+    "en": [
+      "audience"
     ],
     "fr": [
       "public"
@@ -24,14 +24,14 @@
     ]
   },
   "definition": {
-    "en": "Identifies one or more entities that represent the total population of entities for which the object can considered to be relevant.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-audience](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-audience)",
     "de": "Identifiziert eine oder mehrere Entitäten, die die Gesamtpopulation der Entitäten repräsentieren, für die das Objekt als relevant angesehen werden kann.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-audience](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-audience)",
+    "en": "Identifies one or more entities that represent the total population of entities for which the object can considered to be relevant.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-audience](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-audience)",
     "fr": "Identifie une ou plusieurs entités qui représentent la population totale des entités pour lesquelles l'objet peut être considéré comme pertinent.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-audience](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-audience)",
     "es": "Identifica una o más entidades que representan la población total de entidades para las que el objeto puede considerarse relevante.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-audience](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-audience)"
   },
   "scopeNote": {
-    "en": ": Property",
     "de": ": Property",
+    "en": ": Property",
     "fr": ": Property",
     "es": ": Property"
   },
@@ -39,16 +39,16 @@
     "127"
   ],
   "example": {
-    "en": "[Example 69](https://www.w3.org/TR/activitystreams-vocabulary/#ex113-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"Holiday announcement\",\n  \"type\": \"Note\",\n  \"content\": \"Thursday will be a company-wide holiday. Enjoy your day off!\",\n  \"audience\": {\n    \"type\": \"http://example.org/Organization\",\n    \"name\": \"ExampleCo LLC\"\n  }\n}\n```",
     "de": "[Beispiel 69](https://www.w3.org/TR/activitystreams-vocabulary/#ex113-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"Holiday announcement\",\n  \"type\": \"Note\",\n  \"content\": \"Thursday will be a company-wide holiday. Enjoy your day off!\",\n  \"audience\": {\n    \"type\": \"http://example.org/Organization\",\n    \"name\": \"ExampleCo LLC\"\n  }\n}\n```",
+    "en": "[Example 69](https://www.w3.org/TR/activitystreams-vocabulary/#ex113-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"Holiday announcement\",\n  \"type\": \"Note\",\n  \"content\": \"Thursday will be a company-wide holiday. Enjoy your day off!\",\n  \"audience\": {\n    \"type\": \"http://example.org/Organization\",\n    \"name\": \"ExampleCo LLC\"\n  }\n}\n```",
     "fr": "[Exemple 69](https://www.w3.org/TR/activitystreams-vocabulary/#ex113-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"Holiday announcement\",\n  \"type\": \"Note\",\n  \"content\": \"Thursday will be a company-wide holiday. Enjoy your day off!\",\n  \"audience\": {\n    \"type\": \"http://example.org/Organization\",\n    \"name\": \"ExampleCo LLC\"\n  }\n}\n```",
     "es": "[Ejemplo 69](https://www.w3.org/TR/activitystreams-vocabulary/#ex113-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"name\": \"Holiday announcement\",\n  \"type\": \"Note\",\n  \"content\": \"Thursday will be a company-wide holiday. Enjoy your day off!\",\n  \"audience\": {\n    \"type\": \"http://example.org/Organization\",\n    \"name\": \"ExampleCo LLC\"\n  }\n}\n```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/Object",
     "prefLabel": {
-      "en": "Object",
       "de": "Objekt",
+      "en": "Object",
       "fr": "Objet",
       "es": "Objeto"
     }
@@ -67,8 +67,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Finker",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Finker",
   "prefLabel": {
-    "en": "inker",
     "de": "Färber",
+    "en": "inker",
     "fr": "inker",
     "es": "entintador"
   },
   "definition": {
+    "de": "Die Person, die die Bleistiftzeichnungen mit Tinte nachzeichnet, nachdem die Bleistifte fertig sind.",
     "en": "The individual who traces over the pencil drawings in ink after pencils are complete.",
-    "de": "The individual who traces over the pencil drawings in ink after pencils are complete.",
-    "fr": "The individual who traces over the pencil drawings in ink after pencils are complete.",
-    "es": "The individual who traces over the pencil drawings in ink after pencils are complete."
+    "fr": "La personne qui trace à l'encre les dessins au crayon après que les crayons sont terminés.",
+    "es": "Es la persona que traza sobre los dibujos a lápiz con tinta una vez terminados los lápices."
   },
   "notation": [
     "2020"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

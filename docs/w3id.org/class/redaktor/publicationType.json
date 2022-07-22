@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FpublicationType",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FpublicationType",
   "prefLabel": {
-    "en": "publication type",
     "de": "Art der Veröffentlichung",
+    "en": "publication type",
     "fr": "type de publication",
     "es": "tipo de publicación"
   },
   "definition": {
+    "de": "Der Typ des medizinischen Artikels, entnommen aus dem US NLM MeSH Publikationstyp-Katalog. Siehe auch [MeSH-Dokumentation] (http://www.nlm.nih.gov/mesh/pubtypes.html).",
     "en": "The type of the medical article, taken from the US NLM MeSH publication type catalog. See also [MeSH documentation](http://www.nlm.nih.gov/mesh/pubtypes.html).",
-    "de": "The type of the medical article, taken from the US NLM MeSH publication type catalog. See also [MeSH documentation](http://www.nlm.nih.gov/mesh/pubtypes.html).",
-    "fr": "The type of the medical article, taken from the US NLM MeSH publication type catalog. See also [MeSH documentation](http://www.nlm.nih.gov/mesh/pubtypes.html).",
-    "es": "The type of the medical article, taken from the US NLM MeSH publication type catalog. See also [MeSH documentation](http://www.nlm.nih.gov/mesh/pubtypes.html)."
+    "fr": "Le type de l'article médical, extrait du catalogue de types de publications MeSH de la NLM américaine. Voir également [MeSH documentation](http://www.nlm.nih.gov/mesh/pubtypes.html).",
+    "es": "El tipo de artículo médico, tomado del catálogo de tipos de publicación de la NLM de EE.UU. MeSH. Véase también [documentación del MeSH](http://www.nlm.nih.gov/mesh/pubtypes.html)."
   },
   "notation": [
     "2171"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

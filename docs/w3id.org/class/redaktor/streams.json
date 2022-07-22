@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fstreams",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fstreams",
   "prefLabel": {
-    "en": "streams",
     "de": "streams",
+    "en": "streams",
     "fr": "streams",
     "es": "streams"
   },
   "definition": {
-    "en": "A list of supplementary Collections which may be of interest.<br>see [https://www.w3.org/TR/activitypub/#streams-property](https://www.w3.org/TR/activitypub/#streams-property)",
     "de": "Eine Liste von ergänzenden Sammlungen, die von Interesse sein könnten.<br>siehe [https://www.w3.org/TR/activitypub/#streams-property](https://www.w3.org/TR/activitypub/#streams-property)",
+    "en": "A list of supplementary Collections which may be of interest.<br>see [https://www.w3.org/TR/activitypub/#streams-property](https://www.w3.org/TR/activitypub/#streams-property)",
     "fr": "Une liste de collections supplémentaires qui peuvent être d'intérêt.<br>voir [https://www.w3.org/TR/activitypub/#streams-property](https://www.w3.org/TR/activitypub/#streams-property)",
     "es": "Una lista de Colecciones complementarias que pueden ser de interés.<br>ver [https://www.w3.org/TR/activitypub/#streams-property](https://www.w3.org/TR/activitypub/#streams-property)"
   },
   "scopeNote": {
-    "en": "ActivityPub Property",
     "de": "ActivityPub Property",
+    "en": "ActivityPub Property",
     "fr": "ActivityPub Property",
     "es": "ActivityPub Property"
   },
@@ -27,8 +27,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Actor",
     "prefLabel": {
-      "en": "Actor",
       "de": "Akteur",
+      "en": "Actor",
       "fr": "Acteur",
       "es": "Actor"
     }
@@ -41,8 +41,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

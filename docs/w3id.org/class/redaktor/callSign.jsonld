@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcallSign",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcallSign",
   "prefLabel": {
-    "en": "call sign",
     "de": "Rufzeichen",
+    "en": "call sign",
     "fr": "indicatif d'appel",
     "es": "distintivo de llamada"
   },
   "definition": {
+    "de": "Ein [Rufzeichen] (https://en.wikipedia.org/wiki/Call_sign), wie es in der Rundfunk- und Funkkommunikation verwendet wird, um Personen, Radio- und Fernsehstationen oder Fahrzeuge zu identifizieren.",
     "en": "A [callsign](https://en.wikipedia.org/wiki/Call_sign), as used in broadcasting and radio communications to identify people, radio and TV stations, or vehicles.",
-    "de": "A [callsign](https://en.wikipedia.org/wiki/Call_sign), as used in broadcasting and radio communications to identify people, radio and TV stations, or vehicles.",
-    "fr": "A [callsign](https://en.wikipedia.org/wiki/Call_sign), as used in broadcasting and radio communications to identify people, radio and TV stations, or vehicles.",
-    "es": "A [callsign](https://en.wikipedia.org/wiki/Call_sign), as used in broadcasting and radio communications to identify people, radio and TV stations, or vehicles."
+    "fr": "Un [indicatif] (https://en.wikipedia.org/wiki/Call_sign), utilisé dans le domaine de la radiodiffusion et des communications radio pour identifier des personnes, des stations de radio et de télévision ou des véhicules.",
+    "es": "Un [indicativo](https://en.wikipedia.org/wiki/Call_sign), tal y como se utiliza en la radiodifusión y las comunicaciones por radio para identificar a personas, emisoras de radio y televisión o vehículos."
   },
   "notation": [
     "1835"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

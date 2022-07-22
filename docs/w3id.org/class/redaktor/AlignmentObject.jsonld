@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAlignmentObject",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAlignmentObject",
   "prefLabel": {
-    "en": "Learning alignment",
     "de": "Lernmittel-Ausrichtung",
+    "en": "Learning alignment",
     "fr": "Orientation des outils d'apprentissage",
     "es": "Orientación de los recursos de aprendizaje"
   },
   "definition": {
+    "de": "Ein immaterielles Element, das einen Abgleich zwischen einer Lernressource und einem Knoten in einem Bildungsrahmen beschreibt.<br><br>Sollte nicht verwendet werden, wenn die Art des Abgleichs mit einer einfachen Eigenschaft beschrieben werden kann, beispielsweise um auszudrücken, dass eine Ressource eine Kompetenz [[lehrt]] oder [[bewertet]].",
     "en": "An intangible item that describes an alignment between a learning resource and a node in an educational framework.<br><br>Should not be used where the nature of the alignment can be described using a simple property, for example to express that a resource [[teaches]] or [[assesses]] a competency.",
-    "de": "An intangible item that describes an alignment between a learning resource and a node in an educational framework.<br><br>Should not be used where the nature of the alignment can be described using a simple property, for example to express that a resource [[teaches]] or [[assesses]] a competency.",
-    "fr": "An intangible item that describes an alignment between a learning resource and a node in an educational framework.<br><br>Should not be used where the nature of the alignment can be described using a simple property, for example to express that a resource [[teaches]] or [[assesses]] a competency.",
-    "es": "An intangible item that describes an alignment between a learning resource and a node in an educational framework.<br><br>Should not be used where the nature of the alignment can be described using a simple property, for example to express that a resource [[teaches]] or [[assesses]] a competency."
+    "fr": "Un élément intangible qui décrit un alignement entre une ressource d'apprentissage et un nœud dans un cadre éducatif.<br><br>Ne doit pas être utilisé lorsque la nature de l'alignement peut être décrite à l'aide d'une propriété simple, par exemple pour exprimer qu'une ressource [[enseigne]] ou [[évalue]] une compétence.",
+    "es": "Elemento intangible que describe una alineación entre un recurso de aprendizaje y un nodo en un marco educativo.<br><br>No debe utilizarse cuando la naturaleza de la alineación pueda describirse utilizando una propiedad simple, por ejemplo para expresar que un recurso [[enseña]] o [[evalúa]] una competencia."
   },
   "notation": [
     "28"
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/alignmentType",
       "prefLabel": {
-        "en": "alignment type",
         "de": "Ausrichtungstyp",
+        "en": "alignment type",
         "fr": "type d'alignement",
         "es": "tipo de alineación"
       }
@@ -31,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/educationalFramework",
       "prefLabel": {
-        "en": "educational framework",
         "de": "Bildungsrahmen",
+        "en": "educational framework",
         "fr": "cadre cadre éducatif",
         "es": "marco educativo"
       }
@@ -40,8 +40,8 @@
     {
       "id": "https://w3id.org/class/redaktor/targetDescription",
       "prefLabel": {
-        "en": "target description",
         "de": "Zielbeschreibung",
+        "en": "target description",
         "fr": "description de la cible",
         "es": "descripción del objetivo"
       }
@@ -49,8 +49,8 @@
     {
       "id": "https://w3id.org/class/redaktor/targetName",
       "prefLabel": {
-        "en": "target name",
         "de": "Zielname",
+        "en": "target name",
         "fr": "nom de la cible",
         "es": "nombre del objetivo"
       }
@@ -58,8 +58,8 @@
     {
       "id": "https://w3id.org/class/redaktor/targetUrl",
       "prefLabel": {
-        "en": "target url",
         "de": "Ziel-Url",
+        "en": "target url",
         "fr": "url cible",
         "es": "url de destino"
       }
@@ -73,8 +73,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

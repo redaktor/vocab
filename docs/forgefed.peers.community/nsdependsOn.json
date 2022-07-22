@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fforgefed.peers.community%2FnsdependsOn",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fforgefed.peers.community%2FnsdependsOn",
   "prefLabel": {
-    "en": "dependsOn",
     "de": "dependsOn",
+    "en": "dependsOn",
     "fr": "dependsOn",
     "es": "dependsOn"
   },
   "definition": {
-    "en": "Identifies one or more tickets on which this Ticket depends, i.e. it can’t be resolved without those tickets being resolved too.<br>see [4](https://forgefed.peers.community/ns#dependsOn)",
     "de": "Identifies one or more tickets on which this Ticket depends, i.e. it can’t be resolved without those tickets being resolved too.<br>siehe [4](https://forgefed.peers.community/ns#dependsOn)",
+    "en": "Identifies one or more tickets on which this Ticket depends, i.e. it can’t be resolved without those tickets being resolved too.<br>see [4](https://forgefed.peers.community/ns#dependsOn)",
     "fr": "Identifies one or more tickets on which this Ticket depends, i.e. it can’t be resolved without those tickets being resolved too.<br>voir [4](https://forgefed.peers.community/ns#dependsOn)",
     "es": "Identifies one or more tickets on which this Ticket depends, i.e. it can’t be resolved without those tickets being resolved too.<br>ver [4](https://forgefed.peers.community/ns#dependsOn)"
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/forgefed",
     "prefLabel": {
-      "en": "ForgeFed",
       "de": "ForgeFed",
+      "en": "ForgeFed",
       "fr": "ForgeFed",
       "es": "ForgeFed"
     }
@@ -30,8 +30,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

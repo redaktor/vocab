@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSportsEvent",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSportsEvent",
   "prefLabel": {
-    "en": "Sports & Fitness",
     "de": "Sport und Fitness",
+    "en": "Sports & Fitness",
     "fr": "Sport et fitness",
     "es": "Deporte y Fitness"
   },
@@ -16,8 +16,8 @@
     {
       "id": "https://w3id.org/class/redaktor/FunRun",
       "prefLabel": {
-        "en": "Fun run",
         "de": "Volkslauf",
+        "en": "Fun run",
         "fr": "Course à pied",
         "es": "Carrera popular"
       }
@@ -25,8 +25,8 @@
     {
       "id": "https://w3id.org/class/redaktor/awayTeam",
       "prefLabel": {
-        "en": "away team",
         "de": "Auswärtsteam",
+        "en": "away team",
         "fr": "équipe en déplacement",
         "es": "equipo de salida"
       }
@@ -34,8 +34,8 @@
     {
       "id": "https://w3id.org/class/redaktor/competitor",
       "prefLabel": {
-        "en": "competitor",
         "de": "Mitbewerber",
+        "en": "competitor",
         "fr": "concurrent",
         "es": "competidor"
       }
@@ -43,8 +43,8 @@
     {
       "id": "https://w3id.org/class/redaktor/homeTeam",
       "prefLabel": {
-        "en": "home team",
         "de": "Heimmannschaft",
+        "en": "home team",
         "fr": "équipe locale",
         "es": "equipo de casa"
       }
@@ -52,8 +52,8 @@
     {
       "id": "https://w3id.org/class/redaktor/sport",
       "prefLabel": {
-        "en": "sport",
         "de": "Sport",
+        "en": "sport",
         "fr": "sport",
         "es": "deporte"
       }
@@ -67,8 +67,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

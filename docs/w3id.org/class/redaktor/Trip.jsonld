@@ -4,17 +4,17 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTrip",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTrip",
   "prefLabel": {
-    "en": "Trip",
     "de": "Reise",
+    "en": "Trip",
     "fr": "Voyage",
     "es": "Viaje"
   },
   "altLabel": {
-    "en": [
-      "Tour or trip"
-    ],
     "de": [
       "Reise oder Tour"
+    ],
+    "en": [
+      "Tour or trip"
     ],
     "fr": [
       "Journées"
@@ -24,8 +24,8 @@
     ]
   },
   "definition": {
-    "en": "A trip or journey. An itinerary of visits to one or more places.",
     "de": "Eine Reise oder Fahrt. Eine Reiseroute mit Besuchen an einem oder mehreren Orten.",
+    "en": "A trip or journey. An itinerary of visits to one or more places.",
     "fr": "Un voyage ou un déplacement. Un itinéraire de visite d'un ou plusieurs lieux.",
     "es": "Un viaje o trayecto. Un itinerario para visitar uno o varios lugares."
   },
@@ -34,28 +34,10 @@
   ],
   "narrower": [
     {
-      "id": "https://w3id.org/class/redaktor/offers",
-      "prefLabel": {
-        "en": "offers",
-        "de": "Angebote",
-        "fr": "offres",
-        "es": "ofrece"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/provider",
-      "prefLabel": {
-        "en": "provider",
-        "de": "Anbieter",
-        "fr": "fournisseur",
-        "es": "proveedor"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/BoatTrip",
       "prefLabel": {
-        "en": "Boat Trip",
         "de": "Bootsfahrt",
+        "en": "Boat Trip",
         "fr": "Voyage en bateau",
         "es": "Viaje en barco"
       }
@@ -63,8 +45,8 @@
     {
       "id": "https://w3id.org/class/redaktor/BusTrip",
       "prefLabel": {
-        "en": "Bus Trip",
         "de": "Busreise",
+        "en": "Bus Trip",
         "fr": "Voyage en bus",
         "es": "Viaje en autobús"
       }
@@ -72,8 +54,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Flight",
       "prefLabel": {
-        "en": "Flight",
         "de": "Flug",
+        "en": "Flight",
         "fr": "Vol",
         "es": "Vuelo"
       }
@@ -81,8 +63,8 @@
     {
       "id": "https://w3id.org/class/redaktor/TouristTrip",
       "prefLabel": {
-        "en": "Tourist Trip",
         "de": "Touristische Reise",
+        "en": "Tourist Trip",
         "fr": "Voyage touristique",
         "es": "Viaje turístico"
       }
@@ -90,8 +72,8 @@
     {
       "id": "https://w3id.org/class/redaktor/TrainTrip",
       "prefLabel": {
-        "en": "Train Trip",
         "de": "Zugfahrt",
+        "en": "Train Trip",
         "fr": "Voyage en train",
         "es": "Viaje en tren"
       }
@@ -99,8 +81,8 @@
     {
       "id": "https://w3id.org/class/redaktor/TripFacts",
       "prefLabel": {
-        "en": "Facts-based trip or tour",
         "de": "Faktenbasierte Reise oder Tour",
+        "en": "Facts-based trip or tour",
         "fr": "Voyage ou visite basé(e) sur des faits",
         "es": "Viaje o recorrido basado en hechos"
       }
@@ -108,8 +90,8 @@
     {
       "id": "https://w3id.org/class/redaktor/TripFaith",
       "prefLabel": {
-        "en": "Faith-based trip or tour",
         "de": "Glaubensbezogene Reise oder Tour",
+        "en": "Faith-based trip or tour",
         "fr": "Journées de bénévolat",
         "es": "Viaje o tour religioso"
       }
@@ -117,8 +99,8 @@
     {
       "id": "https://w3id.org/class/redaktor/arrivalTime",
       "prefLabel": {
-        "en": "arrival time",
         "de": "Ankunftszeit",
+        "en": "arrival time",
         "fr": "heure d'arrivée",
         "es": "hora de llegada"
       }
@@ -126,8 +108,8 @@
     {
       "id": "https://w3id.org/class/redaktor/departureTime",
       "prefLabel": {
-        "en": "departure time",
         "de": "Abfahrtszeit",
+        "en": "departure time",
         "fr": "heure de départ",
         "es": "hora de salida"
       }
@@ -135,26 +117,44 @@
     {
       "id": "https://w3id.org/class/redaktor/itinerary",
       "prefLabel": {
-        "en": "itinerary",
         "de": "Reiseroute",
+        "en": "itinerary",
         "fr": "itinéraire",
         "es": "itinerario"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/offers",
+      "prefLabel": {
+        "de": "Angebote",
+        "en": "offers",
+        "fr": "offres",
+        "es": "ofrece"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/partOfTrip",
       "prefLabel": {
-        "en": "part of trip",
         "de": "Teil einer Reise",
+        "en": "part of trip",
         "fr": "partie de voyage",
         "es": "parte de viaje"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/provider",
+      "prefLabel": {
+        "de": "Anbieter",
+        "en": "provider",
+        "fr": "fournisseur",
+        "es": "proveedor"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/subTrip",
       "prefLabel": {
-        "en": "sub trip",
         "de": "Unterreise",
+        "en": "sub trip",
         "fr": "sous voyage",
         "es": "sub viaje"
       }
@@ -168,8 +168,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FdatePublished",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FdatePublished",
   "prefLabel": {
-    "en": "date published",
     "de": "Veröffentlichungsdatum",
+    "en": "date published",
     "fr": "date de publication",
     "es": "fecha de publicación"
   },
   "definition": {
-    "en": "Used by PeerTube. Date of first broadcast/publication.",
     "de": "Benutzt von PeerTube. Date of first broadcast/publication.",
+    "en": "Used by PeerTube. Date of first broadcast/publication.",
     "fr": "Utilisé dans PeerTube. Date of first broadcast/publication.",
     "es": "Se utiliza en PeerTube. Date of first broadcast/publication."
   },
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

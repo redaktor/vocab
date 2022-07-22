@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fforgefed.peers.community%2Fnsforks",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fforgefed.peers.community%2Fnsforks",
   "prefLabel": {
-    "en": "forks",
     "de": "forks",
+    "en": "forks",
     "fr": "forks",
     "es": "forks"
   },
   "definition": {
-    "en": "Identifies an OrderedCollection of Repositorys which were created as forks of this Repository, i.e. by cloning it. The order of the collection items is by reverse chronological order of the forking events.<br>see [4](https://forgefed.peers.community/ns#forks)",
     "de": "Identifies an OrderedCollection of Repositorys which were created as forks of this Repository, i.e. by cloning it. The order of the collection items is by reverse chronological order of the forking events.<br>siehe [4](https://forgefed.peers.community/ns#forks)",
+    "en": "Identifies an OrderedCollection of Repositorys which were created as forks of this Repository, i.e. by cloning it. The order of the collection items is by reverse chronological order of the forking events.<br>see [4](https://forgefed.peers.community/ns#forks)",
     "fr": "Identifies an OrderedCollection of Repositorys which were created as forks of this Repository, i.e. by cloning it. The order of the collection items is by reverse chronological order of the forking events.<br>voir [4](https://forgefed.peers.community/ns#forks)",
     "es": "Identifies an OrderedCollection of Repositorys which were created as forks of this Repository, i.e. by cloning it. The order of the collection items is by reverse chronological order of the forking events.ver [4](https://forgefed.peers.community/ns#forks)"
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/forgefed",
     "prefLabel": {
-      "en": "ForgeFed",
       "de": "ForgeFed",
+      "en": "ForgeFed",
       "fr": "ForgeFed",
       "es": "ForgeFed"
     }
@@ -30,8 +30,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

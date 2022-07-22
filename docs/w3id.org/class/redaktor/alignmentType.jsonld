@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FalignmentType",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FalignmentType",
   "prefLabel": {
-    "en": "alignment type",
     "de": "Ausrichtungstyp",
+    "en": "alignment type",
     "fr": "type d'alignement",
     "es": "tipo de alineación"
   },
   "definition": {
+    "de": "Eine Kategorie der Übereinstimmung zwischen der Lernressource und dem Rahmenknoten. Empfohlene Werte sind: 'requires', 'textComplexity', 'readingLevel', und 'educationalSubject'.",
     "en": "A category of alignment between the learning resource and the framework node. Recommended values include: 'requires', 'textComplexity', 'readingLevel', and 'educationalSubject'.",
-    "de": "A category of alignment between the learning resource and the framework node. Recommended values include: 'requires', 'textComplexity', 'readingLevel', and 'educationalSubject'.",
-    "fr": "A category of alignment between the learning resource and the framework node. Recommended values include: 'requires', 'textComplexity', 'readingLevel', and 'educationalSubject'.",
-    "es": "A category of alignment between the learning resource and the framework node. Recommended values include: 'requires', 'textComplexity', 'readingLevel', and 'educationalSubject'."
+    "fr": "Une catégorie d'alignement entre la ressource pédagogique et le nœud du cadre. Les valeurs recommandées sont les suivantes : requires\", \"textComplexity\", \"readingLevel\", et \"educationalSubject\".",
+    "es": "Una categoría de alineación entre el recurso de aprendizaje y el nodo marco. Los valores recomendados son: \"requiere\", \"textComplexity\", \"readingLevel\" y \"educationalSubject\"."
   },
   "notation": [
     "1767"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

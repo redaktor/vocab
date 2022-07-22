@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcheatCode",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FcheatCode",
   "prefLabel": {
-    "en": "cheat code",
     "de": "Cheat-Code",
+    "en": "cheat code",
     "fr": "code de triche",
     "es": "código de trucos"
   },
   "definition": {
+    "de": "Cheat-Codes für das Spiel.",
     "en": "Cheat codes to the game.",
-    "de": "Cheat codes to the game.",
-    "fr": "Cheat codes to the game.",
-    "es": "Cheat codes to the game."
+    "fr": "Codes de triche pour le jeu.",
+    "es": "Códigos de trucos para el juego."
   },
   "notation": [
     "1840"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

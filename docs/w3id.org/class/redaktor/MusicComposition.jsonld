@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FMusicComposition",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FMusicComposition",
   "prefLabel": {
-    "en": "Music Composition",
     "de": "Musikkomposition",
+    "en": "Music Composition",
     "fr": "Composition musicale",
     "es": "Composición musical"
   },
   "definition": {
-    "en": "A musical composition.",
     "de": "Eine musikalische Komposition.",
+    "en": "A musical composition.",
     "fr": "Une composition musicale.",
     "es": "Una composición musical."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/composer",
       "prefLabel": {
-        "en": "composer",
         "de": "Komponist",
+        "en": "composer",
         "fr": "compositeur",
         "es": "compositor"
       }
@@ -31,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/firstPerformance",
       "prefLabel": {
-        "en": "first performance",
         "de": "Erstes Auftreten",
+        "en": "first performance",
         "fr": "première performance",
         "es": "primera actuación"
       }
@@ -40,8 +40,8 @@
     {
       "id": "https://w3id.org/class/redaktor/includedComposition",
       "prefLabel": {
-        "en": "included composition",
         "de": "enthaltene Komposition",
+        "en": "included composition",
         "fr": "composition incluse",
         "es": "composición incluida"
       }
@@ -49,8 +49,8 @@
     {
       "id": "https://w3id.org/class/redaktor/iswcCode",
       "prefLabel": {
-        "en": "ISWC  code",
         "de": "ISWC Code",
+        "en": "ISWC  code",
         "fr": "code ISWC ",
         "es": "código ISWC "
       }
@@ -58,8 +58,8 @@
     {
       "id": "https://w3id.org/class/redaktor/lyricist",
       "prefLabel": {
-        "en": "lyricist",
         "de": "Texter",
+        "en": "lyricist",
         "fr": "parolier",
         "es": "letrista"
       }
@@ -67,8 +67,8 @@
     {
       "id": "https://w3id.org/class/redaktor/lyrics",
       "prefLabel": {
-        "en": "lyrics",
         "de": "Liedtext",
+        "en": "lyrics",
         "fr": "paroles",
         "es": "letra"
       }
@@ -76,8 +76,8 @@
     {
       "id": "https://w3id.org/class/redaktor/musicArrangement",
       "prefLabel": {
-        "en": "music arrangement",
         "de": "Musikarrangement",
+        "en": "music arrangement",
         "fr": "arrangement musical",
         "es": "arreglo musical"
       }
@@ -85,8 +85,8 @@
     {
       "id": "https://w3id.org/class/redaktor/musicCompositionForm",
       "prefLabel": {
-        "en": "music composition form",
         "de": "Form der musikkomposition",
+        "en": "music composition form",
         "fr": "formulaire de composition musicale",
         "es": "forma de composición musical"
       }
@@ -94,8 +94,8 @@
     {
       "id": "https://w3id.org/class/redaktor/musicalKey",
       "prefLabel": {
-        "en": "musical key",
         "de": "Tonart",
+        "en": "musical key",
         "fr": "clé musicale",
         "es": "clave musical"
       }
@@ -103,8 +103,8 @@
     {
       "id": "https://w3id.org/class/redaktor/recordedAs",
       "prefLabel": {
-        "en": "recorded as",
         "de": "erfasst als",
+        "en": "recorded as",
         "fr": "enregistré comme",
         "es": "registrado como"
       }
@@ -118,8 +118,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

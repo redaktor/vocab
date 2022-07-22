@@ -4,26 +4,44 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTicket",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FTicket",
   "prefLabel": {
-    "en": "Ticket",
     "de": "Ticket",
+    "en": "Ticket",
     "fr": "Ticket",
     "es": "Billete"
   },
   "definition": {
-    "en": "Used to describe a ticket to an event, a flight, a bus ride, etc.",
     "de": "Wird verwendet, um ein Ticket für eine Veranstaltung, einen Flug, eine Busfahrt usw. zu beschreiben.",
+    "en": "Used to describe a ticket to an event, a flight, a bus ride, etc.",
     "fr": "Utilisé pour décrire un billet pour un événement, un vol, un trajet en bus, etc.",
     "es": "Se utiliza para describir una entrada a un evento, un vuelo, un viaje en autobús, etc."
   },
   "notation": [
-    "40"
+    "41"
   ],
   "narrower": [
     {
+      "id": "https://w3id.org/class/redaktor/totalPrice",
+      "prefLabel": {
+        "de": "Gesamtpreis",
+        "en": "total price",
+        "fr": "prix total",
+        "es": "precio total"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ticketedSeat",
+      "prefLabel": {
+        "de": "Sitzplatz mit Ticket",
+        "en": "ticketed seat",
+        "fr": "siège avec billet",
+        "es": "asiento con billete"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/dateIssued",
       "prefLabel": {
-        "en": "date issued",
         "de": "Ausstellungsdatum",
+        "en": "date issued",
         "fr": "date d'émission",
         "es": "fecha de emisión"
       }
@@ -31,8 +49,8 @@
     {
       "id": "https://w3id.org/class/redaktor/issuedBy",
       "prefLabel": {
-        "en": "issued by",
         "de": "ausgestellt von",
+        "en": "issued by",
         "fr": "délivré par",
         "es": "emitido por"
       }
@@ -40,8 +58,8 @@
     {
       "id": "https://w3id.org/class/redaktor/priceCurrency",
       "prefLabel": {
-        "en": "price currency",
         "de": "Preiswährung",
+        "en": "price currency",
         "fr": "devise du prix",
         "es": "moneda del precio"
       }
@@ -49,8 +67,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ticketNumber",
       "prefLabel": {
-        "en": "ticket number",
         "de": "Ticket-Nummer",
+        "en": "ticket number",
         "fr": "numéro de billet",
         "es": "número de billete"
       }
@@ -58,37 +76,28 @@
     {
       "id": "https://w3id.org/class/redaktor/ticketToken",
       "prefLabel": {
-        "en": "ticket token",
         "de": "Ticket-Token",
+        "en": "ticket token",
         "fr": "jeton de billet",
         "es": "ficha del billete"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/ticketedSeat",
-      "prefLabel": {
-        "en": "ticketed seat",
-        "de": "Sitzplatz mit Ticket",
-        "fr": "siège avec billet",
-        "es": "asiento con billete"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/totalPrice",
-      "prefLabel": {
-        "en": "total price",
-        "de": "Gesamtpreis",
-        "fr": "prix total",
-        "es": "precio total"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/underName",
       "prefLabel": {
-        "en": "under name",
         "de": "unter dem Namen",
+        "en": "under name",
         "fr": "sous le nom",
         "es": "bajo nombre"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/validFor",
+      "prefLabel": {
+        "de": "gültig für",
+        "en": "valid for",
+        "fr": "valable pour",
+        "es": "válido para"
       }
     }
   ],
@@ -100,8 +109,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

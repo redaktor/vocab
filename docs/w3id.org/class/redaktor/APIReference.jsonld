@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAPIReference",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAPIReference",
   "prefLabel": {
-    "en": "API Reference or software documentation",
     "de": "API Referenz oder Software Dokumentation",
+    "en": "API Reference or software documentation",
     "fr": "Documentation de référence ou de logiciel",
     "es": "Documentación de referencia o de software"
   },
   "definition": {
-    "en": "Reference documentation for application programming interfaces (APIs) documentation for software or specifications.",
     "de": "Referenzdokumentation für Anwendungsprogrammierschnittstellen (APIs), Dokumentation für Software oder Spezifikation.",
+    "en": "Reference documentation for application programming interfaces (APIs) documentation for software or specifications.",
     "fr": "Documentation de référence pour les interfaces de programmation d'applications (API), documentation pour les logiciels ou spécification.",
     "es": "Documentación de referencia para interfaces de programación de aplicaciones (API), documentación de software o especificación."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/assembly",
       "prefLabel": {
-        "en": "assembly",
         "de": "Montage",
+        "en": "assembly",
         "fr": "assemblage",
         "es": "montaje"
       }
@@ -31,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/assemblyVersion",
       "prefLabel": {
-        "en": "assembly version",
         "de": "Montageversion",
+        "en": "assembly version",
         "fr": "version d'assemblage",
         "es": "versión de montaje"
       }
@@ -40,8 +40,8 @@
     {
       "id": "https://w3id.org/class/redaktor/executableLibraryName",
       "prefLabel": {
-        "en": "executable library name",
         "de": "Name der ausführbaren Bibliothek",
+        "en": "executable library name",
         "fr": "nom de la bibliothèque exécutable",
         "es": "nombre de la biblioteca ejecutable"
       }
@@ -49,8 +49,8 @@
     {
       "id": "https://w3id.org/class/redaktor/programmingModel",
       "prefLabel": {
-        "en": "programming model",
         "de": "Programmiermodell",
+        "en": "programming model",
         "fr": "modèle de programmation",
         "es": "modelo de programación"
       }
@@ -58,8 +58,8 @@
     {
       "id": "https://w3id.org/class/redaktor/targetPlatform",
       "prefLabel": {
-        "en": "target platform",
         "de": "Zielplattform",
+        "en": "target platform",
         "fr": "plate-forme cible",
         "es": "plataforma de destino"
       }
@@ -68,8 +68,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/TechArticle",
     "prefLabel": {
-      "en": "Tech Article",
       "de": "Tech Artikel",
+      "en": "Tech Article",
       "fr": "Article technique",
       "es": "Artículo técnico"
     }
@@ -82,8 +82,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

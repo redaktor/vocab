@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSportsTeam",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSportsTeam",
   "prefLabel": {
-    "en": "Sports Team",
     "de": "Sportmannschaft",
+    "en": "Sports Team",
     "fr": "Équipe sportive",
     "es": "Equipo deportivo"
   },
   "definition": {
-    "en": "Organization: Sports team.",
     "de": "Organisation: Sportmannschaft.",
+    "en": "Organization: Sports team.",
     "fr": "Organisation : Équipe sportive.",
     "es": "Organización: Equipo deportivo."
   },
@@ -20,10 +20,19 @@
   ],
   "narrower": [
     {
+      "id": "https://w3id.org/class/redaktor/gender",
+      "prefLabel": {
+        "de": "Geschlecht",
+        "en": "gender",
+        "fr": "genre",
+        "es": "género"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/athlete",
       "prefLabel": {
-        "en": "athlete",
         "de": "Sportler",
+        "en": "athlete",
         "fr": "athlète",
         "es": "atleta"
       }
@@ -31,19 +40,10 @@
     {
       "id": "https://w3id.org/class/redaktor/coach",
       "prefLabel": {
-        "en": "coach",
         "de": "Trainer",
+        "en": "coach",
         "fr": "coach",
         "es": "entrenador"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/gender",
-      "prefLabel": {
-        "en": "gender",
-        "de": "Geschlecht",
-        "fr": "genre",
-        "es": "género"
       }
     }
   ],
@@ -55,8 +55,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

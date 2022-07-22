@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FpriceRange",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FpriceRange",
   "prefLabel": {
-    "en": "price range",
     "de": "Preisspanne",
+    "en": "price range",
     "fr": "fourchette de prix",
     "es": "rango de precios"
   },
   "definition": {
+    "de": "Die Preisspanne des Unternehmens, zum Beispiel ```$$$```.",
     "en": "The price range of the business, for example ```$$$```.",
-    "de": "The price range of the business, for example ```$$$```.",
-    "fr": "The price range of the business, for example ```$$$```.",
-    "es": "The price range of the business, for example ```$$$```."
+    "fr": "La fourchette de prix de l'entreprise, par exemple ```$$$$``.",
+    "es": "El rango de precios del negocio, por ejemplo ``$$$``."
   },
   "notation": [
     "2156"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

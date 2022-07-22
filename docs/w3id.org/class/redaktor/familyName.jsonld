@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FfamilyName",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FfamilyName",
   "prefLabel": {
-    "en": "family name",
     "de": "Familienname",
+    "en": "family name",
     "fr": "nom de famille",
     "es": "nombre de la familia"
   },
   "definition": {
+    "de": "Familienname. In den USA der Nachname einer Person.",
     "en": "Family name. In the U.S., the last name of a Person.",
-    "de": "Family name. In the U.S., the last name of a Person.",
-    "fr": "Family name. In the U.S., the last name of a Person.",
-    "es": "Family name. In the U.S., the last name of a Person."
+    "fr": "Nom de famille. Aux États-Unis, le nom de famille d'une personne.",
+    "es": "Apellido. En Estados Unidos, el apellido de una persona."
   },
   "notation": [
     "1946"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

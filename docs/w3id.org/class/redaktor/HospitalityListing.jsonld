@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FHospitalityListing",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FHospitalityListing",
   "prefLabel": {
-    "en": "Hospitality or Couchsurfing Listing",
     "de": "Gastfreundschaft oder Couchsurfing Auflistung",
+    "en": "Hospitality or Couchsurfing Listing",
     "fr": "Liste d'hospitalité ou de couchsurfing",
     "es": "Listado de Hospitalidad o Couchsurfing"
   },
   "definition": {
-    "en": "Hospitality exchange platforms help to connect travellers with those who want to host them.<br>This lists offers and demands.<br>TODO check https://openhospitality.network for CV.",
     "de": "Gastfreundschaft-Börsen helfen dabei, Reisende mit denen zusammenzubringen, die sie beherbergen wollen.<br> Hier werden Angebote und Nachfragen aufgelistet.",
+    "en": "Hospitality exchange platforms help to connect travellers with those who want to host them.<br>This lists offers and demands.<br>TODO check https://openhospitality.network for CV.",
     "fr": "Les plateformes d'échange d'hospitalité permettent de mettre en relation les voyageurs avec ceux qui veulent les accueillir.<br>Cette liste répertorie les offres et les demandes.",
     "es": "Las plataformas de intercambio de hospitalidad ponen en contacto a los viajeros con quienes quieren acogerlos.<br>Esta lista contiene tanto ofertas como peticiones."
   },
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

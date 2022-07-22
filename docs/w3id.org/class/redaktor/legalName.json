@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FlegalName",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FlegalName",
   "prefLabel": {
-    "en": "legal name",
     "de": "rechtlicher Name",
+    "en": "legal name",
     "fr": "nom légal",
     "es": "nombre legal"
   },
   "definition": {
+    "de": "Der offizielle Name der Organisation, z. B. der eingetragene Firmenname.",
     "en": "The official name of the organization, e.g. the registered company name.",
-    "de": "The official name of the organization, e.g. the registered company name.",
-    "fr": "The official name of the organization, e.g. the registered company name.",
-    "es": "The official name of the organization, e.g. the registered company name."
+    "fr": "Le nom officiel de l'organisation, par exemple le nom de la société enregistrée.",
+    "es": "El nombre oficial de la organización, por ejemplo, la razón social registrada."
   },
   "notation": [
     "2059"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

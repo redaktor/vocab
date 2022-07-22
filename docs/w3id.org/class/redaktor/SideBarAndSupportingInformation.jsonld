@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSideBarAndSupportingInformation",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSideBarAndSupportingInformation",
   "prefLabel": {
-    "en": "Side bar and Supporting Information",
     "de": "Seitenleiste und unterstützende Informationen",
+    "en": "Side bar and Supporting Information",
     "fr": "Barre latérale et informations complémentaires",
     "es": "Barra lateral e información de apoyo"
   },
   "definition": {
-    "en": "Related content that provides additional context or insight into a news event",
     "de": "Verwandte Inhalte, die zusätzlichen Kontext oder Einblick in ein Nachrichtenereignis bieten",
+    "en": "Related content that provides additional context or insight into a news event",
     "fr": "Contenu connexe qui fournit un contexte ou un aperçu supplémentaire d'un événement d'actualité.",
     "es": "Contenido relacionado que proporciona un contexto adicional o una visión de un evento de noticias"
   },
@@ -29,8 +29,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

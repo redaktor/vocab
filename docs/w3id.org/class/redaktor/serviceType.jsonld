@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FserviceType",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FserviceType",
   "prefLabel": {
-    "en": "service type",
     "de": "Dienstart",
+    "en": "service type",
     "fr": "type de service",
     "es": "tipo de servicio"
   },
   "definition": {
+    "de": "Die Art der angebotenen Dienstleistung, z. B. Veteranenleistungen, Soforthilfe usw.",
     "en": "The type of service being offered, e.g. veterans' benefits, emergency relief, etc.",
-    "de": "The type of service being offered, e.g. veterans' benefits, emergency relief, etc.",
-    "fr": "The type of service being offered, e.g. veterans' benefits, emergency relief, etc.",
-    "es": "The type of service being offered, e.g. veterans' benefits, emergency relief, etc."
+    "fr": "Le type de service offert, par exemple les prestations pour anciens combattants, les secours d'urgence, etc.",
+    "es": "El tipo de servicio que se ofrece, por ejemplo, prestaciones para veteranos, ayuda de emergencia, etc."
   },
   "notation": [
     "2212"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/GovernmentBenefitsType",
+      "prefLabel": {
+        "de": "Staatliche Leistungen Typ",
+        "en": "Government Benefits Type",
+        "fr": "Type de prestations gouvernementales",
+        "es": "Tipo de prestaciones gubernamentales"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

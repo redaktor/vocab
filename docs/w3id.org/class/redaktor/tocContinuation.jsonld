@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FtocContinuation",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FtocContinuation",
   "prefLabel": {
-    "en": "Toc continuation",
     "de": "Toc-Fortsetzung",
+    "en": "Toc continuation",
     "fr": "continuation du Toc",
     "es": "continuación de Toc"
   },
   "definition": {
+    "de": "Zu einem [[HyperTocEntry]] kann eine [[tocContinuation]] angegeben werden, bei der es sich um einen weiteren [[HyperTocEntry]] handelt, der standardmäßig als nächstes Element abgespielt oder wiedergegeben wird.",
     "en": "A [[HyperTocEntry]] can have a [[tocContinuation]] indicated, which is another [[HyperTocEntry]] that would be the default next item to play or render.",
-    "de": "A [[HyperTocEntry]] can have a [[tocContinuation]] indicated, which is another [[HyperTocEntry]] that would be the default next item to play or render.",
-    "fr": "A [[HyperTocEntry]] can have a [[tocContinuation]] indicated, which is another [[HyperTocEntry]] that would be the default next item to play or render.",
-    "es": "A [[HyperTocEntry]] can have a [[tocContinuation]] indicated, which is another [[HyperTocEntry]] that would be the default next item to play or render."
+    "fr": "Une [[HyperTocEntry]] peut avoir une [[tocContinuation]] indiquée, qui est une autre [[HyperTocEntry]] qui serait l'élément suivant par défaut à lire ou à rendre.",
+    "es": "Una [[HyperTocEntry]] puede tener indicada una [[tocContinuation]], que es otra [[HyperTocEntry]] que sería el siguiente elemento por defecto a reproducir o renderizar."
   },
   "notation": [
     "2261"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

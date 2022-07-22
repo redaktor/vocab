@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fforgefed.peers.community%2FnsresolvedBy",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fforgefed.peers.community%2FnsresolvedBy",
   "prefLabel": {
-    "en": "resolvedBy",
     "de": "resolvedBy",
+    "en": "resolvedBy",
     "fr": "resolvedBy",
     "es": "resolvedBy"
   },
   "definition": {
-    "en": "Identifies the Actor who has resolved the Ticket, or the activity that has resolved the Ticket.<br>see [4](https://forgefed.peers.community/ns#resolvedBy)",
     "de": "Identifies the Actor who has resolved the Ticket, or the activity that has resolved the Ticket.<br>siehe [4](https://forgefed.peers.community/ns#resolvedBy)",
+    "en": "Identifies the Actor who has resolved the Ticket, or the activity that has resolved the Ticket.<br>see [4](https://forgefed.peers.community/ns#resolvedBy)",
     "fr": "Identifies the Actor who has resolved the Ticket, or the activity that has resolved the Ticket.<br>voir [4](https://forgefed.peers.community/ns#resolvedBy)",
     "es": "Identifies the Actor who has resolved the Ticket, or the activity that has resolved the Ticket.<br>ver [4](https://forgefed.peers.community/ns#resolvedBy)"
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/forgefed",
     "prefLabel": {
-      "en": "ForgeFed",
       "de": "ForgeFed",
+      "en": "ForgeFed",
       "fr": "ForgeFed",
       "es": "ForgeFed"
     }
@@ -30,8 +30,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

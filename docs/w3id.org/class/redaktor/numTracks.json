@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FnumTracks",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FnumTracks",
   "prefLabel": {
-    "en": "num tracks",
     "de": "Anzahl Spuren",
+    "en": "num tracks",
     "fr": "nombre de voies",
     "es": "número de pistas"
   },
   "definition": {
+    "de": "Die Anzahl der Titel in diesem Album oder dieser Wiedergabeliste.",
     "en": "The number of tracks in this album or playlist.",
-    "de": "The number of tracks in this album or playlist.",
-    "fr": "The number of tracks in this album or playlist.",
-    "es": "The number of tracks in this album or playlist."
+    "fr": "Le nombre de pistes dans cet album ou cette liste de lecture.",
+    "es": "El número de pistas de este álbum o lista de reproducción."
   },
   "notation": [
     "2102"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

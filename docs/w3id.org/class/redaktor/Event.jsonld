@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FEvent",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FEvent",
   "prefLabel": {
-    "en": "Event",
     "de": "Ereignis",
+    "en": "Event",
     "fr": "Événement",
     "es": "Evento"
   },
   "definition": {
-    "en": "Represents any kind of event.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-event](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-event)",
     "de": "Steht für jede Art von Ereignis.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-event](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-event)",
+    "en": "Represents any kind of event.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-event](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-event)",
     "fr": "Représente tout type d'événement.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-event](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-event)",
     "es": "Representa cualquier tipo de evento.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-event](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-event)"
   },
   "scopeNote": {
-    "en": ": Object",
     "de": ": Object",
+    "en": ": Object",
     "fr": ": Object",
     "es": ": Object"
   },
@@ -25,53 +25,17 @@
     "13"
   ],
   "example": {
-    "en": "[Example 55](https://www.w3.org/TR/activitystreams-vocabulary/#ex56-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Event\",\n  \"name\": \"Going-Away Party for Jim\",\n  \"startTime\": \"2014-12-31T23:00:00-08:00\",\n  \"endTime\": \"2015-01-01T06:00:00-08:00\"\n}\n```",
     "de": "[Beispiel 55](https://www.w3.org/TR/activitystreams-vocabulary/#ex56-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Event\",\n  \"name\": \"Going-Away Party for Jim\",\n  \"startTime\": \"2014-12-31T23:00:00-08:00\",\n  \"endTime\": \"2015-01-01T06:00:00-08:00\"\n}\n```",
+    "en": "[Example 55](https://www.w3.org/TR/activitystreams-vocabulary/#ex56-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Event\",\n  \"name\": \"Going-Away Party for Jim\",\n  \"startTime\": \"2014-12-31T23:00:00-08:00\",\n  \"endTime\": \"2015-01-01T06:00:00-08:00\"\n}\n```",
     "fr": "[Exemple 55](https://www.w3.org/TR/activitystreams-vocabulary/#ex56-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Event\",\n  \"name\": \"Going-Away Party for Jim\",\n  \"startTime\": \"2014-12-31T23:00:00-08:00\",\n  \"endTime\": \"2015-01-01T06:00:00-08:00\"\n}\n```",
     "es": "[Ejemplo 55](https://www.w3.org/TR/activitystreams-vocabulary/#ex56-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Event\",\n  \"name\": \"Going-Away Party for Jim\",\n  \"startTime\": \"2014-12-31T23:00:00-08:00\",\n  \"endTime\": \"2015-01-01T06:00:00-08:00\"\n}\n```"
   },
   "narrower": [
     {
-      "id": "https://w3id.org/class/redaktor/funding",
-      "prefLabel": {
-        "en": "funding",
-        "de": "Finanzierung",
-        "fr": "financement",
-        "es": "financiación"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/keywords",
-      "prefLabel": {
-        "en": "keywords",
-        "de": "Schlüsselwörter",
-        "fr": "mots-clés",
-        "es": "palabras clave"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/offers",
-      "prefLabel": {
-        "en": "offers",
-        "de": "Angebote",
-        "fr": "offres",
-        "es": "ofrece"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/review",
-      "prefLabel": {
-        "en": "review",
-        "de": "Überprüfung",
-        "fr": "examen",
-        "es": "revisión"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/Trip",
       "prefLabel": {
-        "en": "Trip",
         "de": "Reise",
+        "en": "Trip",
         "fr": "Voyage",
         "es": "Viaje"
       }
@@ -79,8 +43,8 @@
     {
       "id": "https://joinmobilizon.org/ns#joinMode",
       "prefLabel": {
-        "en": "joinMode",
         "de": "joinMode",
+        "en": "joinMode",
         "fr": "joinMode",
         "es": "joinMode"
       }
@@ -88,8 +52,8 @@
     {
       "id": "https://joinmobilizon.org/ns#anonymousParticipationEnabled",
       "prefLabel": {
-        "en": "anonymous participation enabled",
         "de": "anonyme Teilnahme möglich",
+        "en": "anonymous participation enabled",
         "fr": "participation anonyme autorisée",
         "es": "participación anónima habilitada"
       }
@@ -97,8 +61,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ScreeningEvent",
       "prefLabel": {
-        "en": "Screening Event",
         "de": "Screening-Veranstaltung",
+        "en": "Screening Event",
         "fr": "Evénement de projection",
         "es": "Evento de proyección"
       }
@@ -106,17 +70,26 @@
     {
       "id": "https://w3id.org/class/redaktor/inLanguage",
       "prefLabel": {
-        "en": "in language",
         "de": "in Sprache",
+        "en": "in language",
         "fr": "en langue",
         "es": "en el lenguaje"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/availableLanguage",
+      "prefLabel": {
+        "de": "verfügbare Sprache",
+        "en": "available language",
+        "fr": "langues disponibles",
+        "es": "idiomas disponibles"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/Interview",
       "prefLabel": {
-        "en": "Interview",
         "de": "Interview",
+        "en": "Interview",
         "fr": "Interview",
         "es": "Entrevista"
       }
@@ -124,8 +97,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SocialMediaPosting",
       "prefLabel": {
-        "en": "Social Media Posting",
         "de": "Beitrag Soziale Netzwerke",
+        "en": "Social Media Posting",
         "fr": "Publication sur les médias sociaux",
         "es": "Publicación en las redes sociales"
       }
@@ -133,8 +106,8 @@
     {
       "id": "https://w3id.org/class/redaktor/maximumAttendeeCapacity",
       "prefLabel": {
-        "en": "maximum attendee capacity",
         "de": "Max. Teilnahme-Kapazität",
+        "en": "maximum attendee capacity",
         "fr": "capacité maximale de participants",
         "es": "capacidad máxima"
       }
@@ -142,17 +115,26 @@
     {
       "id": "https://w3id.org/class/redaktor/aggregateRating",
       "prefLabel": {
-        "en": "aggregate rating",
         "de": "Gesamtbewertung",
+        "en": "aggregate rating",
         "fr": "cote globale",
         "es": "calificación agregada"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/review",
+      "prefLabel": {
+        "de": "Überprüfung",
+        "en": "review",
+        "fr": "examen",
+        "es": "revisión"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/eventbriteId",
       "prefLabel": {
-        "en": "Eventbrite Category ID",
         "de": "Eventbrite Kategorie ID",
+        "en": "Eventbrite Category ID",
         "fr": "Eventbrite Catégorie ID",
         "es": "Eventbrite Categoría ID"
       }
@@ -160,8 +142,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Assignment",
       "prefLabel": {
-        "en": "Assignment",
         "de": "Auftrag",
+        "en": "Assignment",
         "fr": "Affectation",
         "es": "Asignación"
       }
@@ -169,8 +151,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Award",
       "prefLabel": {
-        "en": "Award Ceremony",
         "de": "Preisverleihung",
+        "en": "Award Ceremony",
         "fr": "Cérémonie de remise de prix",
         "es": "Ceremonia de entrega de premios"
       }
@@ -178,8 +160,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Auditorium",
       "prefLabel": {
-        "en": "Auditorium",
         "de": "Auditorium, Vortragsveranstaltung",
+        "en": "Auditorium",
         "fr": "Auditoire",
         "es": "Auditorio"
       }
@@ -187,8 +169,8 @@
     {
       "id": "https://w3id.org/class/redaktor/VisualArtsEvent",
       "prefLabel": {
-        "en": "Art Event, Performing & Visual",
         "de": "Kunstveranstaltung, Darstellende & Visuelle Kunst",
+        "en": "Art Event, Performing & Visual",
         "fr": "Événement artistique, spectacle vivant et visuel",
         "es": "Evento artístico, Artes escénicas y visuales"
       }
@@ -196,8 +178,8 @@
     {
       "id": "https://w3id.org/class/redaktor/AutoBoatAir",
       "prefLabel": {
-        "en": "Auto, Boat & Air",
         "de": "Auto, Boot & Luft",
+        "en": "Auto, Boat & Air",
         "fr": "Auto, Bateau & Air",
         "es": "Auto, barco y aire"
       }
@@ -205,8 +187,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Business",
       "prefLabel": {
-        "en": "Business Event",
         "de": "Geschäftliche Veranstaltung",
+        "en": "Business Event",
         "fr": "Événement commercial",
         "es": "Evento de negocios"
       }
@@ -214,8 +196,8 @@
     {
       "id": "https://w3id.org/class/redaktor/CharityOrCauses",
       "prefLabel": {
-        "en": "Charity & Causes",
         "de": "Wohltätigkeit & Ursachen",
+        "en": "Charity & Causes",
         "fr": "Charité et Causes",
         "es": "Caridad y causas"
       }
@@ -223,8 +205,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ChildrensEvent",
       "prefLabel": {
-        "en": "Childrens Event or School Activity",
         "de": "Veranstaltung für Kinder oder Schulaktivitäten",
+        "en": "Childrens Event or School Activity",
         "fr": "Événement pour enfants ou activité scolaire",
         "es": "Evento infantil o actividad escolar"
       }
@@ -232,8 +214,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ComedyEvent",
       "prefLabel": {
-        "en": "Comedy Event",
         "de": "Comedy-Veranstaltung",
+        "en": "Comedy Event",
         "fr": "Événement comique",
         "es": "Evento de comedia"
       }
@@ -241,8 +223,8 @@
     {
       "id": "https://w3id.org/class/redaktor/CourseInstance",
       "prefLabel": {
-        "en": "Course Event",
         "de": "Kurs-Veranstaltung",
+        "en": "Course Event",
         "fr": "Événement de cours",
         "es": "Evento de curso"
       }
@@ -250,8 +232,8 @@
     {
       "id": "https://w3id.org/class/redaktor/CommunityEvent",
       "prefLabel": {
-        "en": "Community Event",
         "de": "Community, Gemeinschaftliche Veranstaltung",
+        "en": "Community Event",
         "fr": "Evénement communautaire",
         "es": "Evento comunitario"
       }
@@ -259,8 +241,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Conference",
       "prefLabel": {
-        "en": "Conference",
         "de": "Konferenz",
+        "en": "Conference",
         "fr": "Conférence",
         "es": "Conferencia"
       }
@@ -268,8 +250,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Crafts",
       "prefLabel": {
-        "en": "Craft, Farmers, or Artisan markets",
         "de": "Handwerks-, Bauern- oder Kunsthandwerkermärkte",
+        "en": "Craft, Farmers, or Artisan markets",
         "fr": "Marchés de l'artisanat, des fermiers ou des artisans",
         "es": "Mercados de artesanía, de agricultores o de artesanos"
       }
@@ -277,8 +259,8 @@
     {
       "id": "https://w3id.org/class/redaktor/DanceEvent",
       "prefLabel": {
-        "en": "Dance Event",
         "de": "Tanzveranstaltung",
+        "en": "Dance Event",
         "fr": "Evénement de danse",
         "es": "Evento de danza"
       }
@@ -286,8 +268,8 @@
     {
       "id": "https://w3id.org/class/redaktor/DeliveryEvent",
       "prefLabel": {
-        "en": "Delivery Event",
         "de": "Lieferung",
+        "en": "Delivery Event",
         "fr": "Événement de livraison",
         "es": "Evento de entrega"
       }
@@ -295,8 +277,8 @@
     {
       "id": "https://w3id.org/class/redaktor/EducationEvent",
       "prefLabel": {
-        "en": "Learning, Seminar or Educational Event",
         "de": "Lern-, Seminar- oder Bildungsveranstaltung",
+        "en": "Learning, Seminar or Educational Event",
         "fr": "Événement d'apprentissage, de séminaire ou d'éducation",
         "es": "Evento de aprendizaje, seminario o educativo"
       }
@@ -304,8 +286,8 @@
     {
       "id": "https://w3id.org/class/redaktor/EventSeries",
       "prefLabel": {
-        "en": "Event Series",
         "de": "Veranstaltungsreihe",
+        "en": "Event Series",
         "fr": "Série d'événements",
         "es": "Serie de eventos"
       }
@@ -313,8 +295,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ExhibitionEvent",
       "prefLabel": {
-        "en": "Exhibition Event",
         "de": "Ausstellung oder Messe-Veranstaltung",
+        "en": "Exhibition Event",
         "fr": "Exposition",
         "es": "Exposición"
       }
@@ -322,8 +304,8 @@
     {
       "id": "https://w3id.org/class/redaktor/FamilyEducation",
       "prefLabel": {
-        "en": "Family & Education",
         "de": "Familie & Bildung",
+        "en": "Family & Education",
         "fr": "Famille et éducation",
         "es": "Familia y educación"
       }
@@ -331,8 +313,8 @@
     {
       "id": "https://w3id.org/class/redaktor/FashionBeauty",
       "prefLabel": {
-        "en": "Fashion & Beauty",
         "de": "Mode & Schönheit",
+        "en": "Fashion & Beauty",
         "fr": "Mode et beauté",
         "es": "Moda y belleza"
       }
@@ -340,8 +322,8 @@
     {
       "id": "https://w3id.org/class/redaktor/FeteOrFair",
       "prefLabel": {
-        "en": "Fetes or fairs",
         "de": "Feste oder Messen",
+        "en": "Fetes or fairs",
         "fr": "Fêtes ou foires",
         "es": "Ferias"
       }
@@ -349,8 +331,8 @@
     {
       "id": "https://w3id.org/class/redaktor/FleaMarket",
       "prefLabel": {
-        "en": "Flea market or Night market",
         "de": "Flohmarkt oder Nachtmarkt",
+        "en": "Flea market or Night market",
         "fr": "Marché aux puces ou marché de nuit",
         "es": "Mercado de pulgas o mercado nocturno"
       }
@@ -358,8 +340,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Festival",
       "prefLabel": {
-        "en": "Festival",
         "de": "Festival, Festspiele",
+        "en": "Festival",
         "fr": "Festival",
         "es": "Festival, Fiesta"
       }
@@ -367,8 +349,8 @@
     {
       "id": "https://w3id.org/class/redaktor/FilmMedia",
       "prefLabel": {
-        "en": "Film & Media",
         "de": "Film und Medien",
+        "en": "Film & Media",
         "fr": "Films et médias",
         "es": "Cine y medios de comunicación"
       }
@@ -376,8 +358,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Fireworks",
       "prefLabel": {
-        "en": "Fireworks",
         "de": "Feuerwerk",
+        "en": "Fireworks",
         "fr": "Feux d'artifice",
         "es": "Fuegos artificiales"
       }
@@ -385,8 +367,8 @@
     {
       "id": "https://w3id.org/class/redaktor/FoodEvent",
       "prefLabel": {
-        "en": "Food & Drink",
         "de": "Essen & Trinken",
+        "en": "Food & Drink",
         "fr": "Événement culinaire",
         "es": "Comida y bebida"
       }
@@ -394,8 +376,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Games",
       "prefLabel": {
-        "en": "Games",
         "de": "Spiele",
+        "en": "Games",
         "fr": "Jeux",
         "es": "Juegos"
       }
@@ -403,8 +385,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Government",
       "prefLabel": {
-        "en": "Government Event",
         "de": "Regierungsveranstaltung",
+        "en": "Government Event",
         "fr": "Evénement gouvernemental",
         "es": "Evento gubernamental"
       }
@@ -412,8 +394,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Hackathon",
       "prefLabel": {
-        "en": "Hackathon or Barcamp",
         "de": "Hackathon oder Barcamp",
+        "en": "Hackathon or Barcamp",
         "fr": "Hackathon ou Barcamp",
         "es": "Hackathon o Barcamp"
       }
@@ -421,8 +403,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HealthWellness",
       "prefLabel": {
-        "en": "Health and Wellness",
         "de": "Gesundheit und Wellness",
+        "en": "Health and Wellness",
         "fr": "Santé et bien-être",
         "es": "Salud y bienestar"
       }
@@ -430,8 +412,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Hobbies",
       "prefLabel": {
-        "en": "Hobbies",
         "de": "Hobbys",
+        "en": "Hobbies",
         "fr": "Passe-temps",
         "es": "Pasatiempos"
       }
@@ -439,8 +421,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Holiday",
       "prefLabel": {
-        "en": "Holiday",
         "de": "Urlaub",
+        "en": "Holiday",
         "fr": "Vacances",
         "es": "Vacaciones"
       }
@@ -448,8 +430,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HomeLifestyle",
       "prefLabel": {
-        "en": "Home & Lifestyle",
         "de": "Home & Lebensstil",
+        "en": "Home & Lifestyle",
         "fr": "Maison et mode de vie",
         "es": "Hogar y estilo de vida"
       }
@@ -457,8 +439,8 @@
     {
       "id": "https://w3id.org/class/redaktor/LanguageCulture",
       "prefLabel": {
-        "en": "Language & Culture",
         "de": "Sprache und Kultur",
+        "en": "Language & Culture",
         "fr": "Langue et culture",
         "es": "Idioma y cultura"
       }
@@ -466,8 +448,8 @@
     {
       "id": "https://w3id.org/class/redaktor/LiteraryEvent",
       "prefLabel": {
-        "en": "Literature & Writing",
         "de": "Literatur & Schreiben",
+        "en": "Literature & Writing",
         "fr": "Littérature et écriture",
         "es": "Literatura y escritura"
       }
@@ -475,8 +457,8 @@
     {
       "id": "https://w3id.org/class/redaktor/LGBTQ",
       "prefLabel": {
-        "en": "LGBTQ",
         "de": "LGBTQ",
+        "en": "LGBTQ",
         "fr": "LGBTQ",
         "es": "LGBTQ"
       }
@@ -484,8 +466,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Movement",
       "prefLabel": {
-        "en": "Movements",
         "de": "Bewegungen",
+        "en": "Movements",
         "fr": "Mouvements",
         "es": "Movimientos"
       }
@@ -493,8 +475,8 @@
     {
       "id": "https://w3id.org/class/redaktor/MusicEvent",
       "prefLabel": {
-        "en": "Music",
         "de": "Musik",
+        "en": "Music",
         "fr": "Musique",
         "es": "Música"
       }
@@ -502,8 +484,8 @@
     {
       "id": "https://w3id.org/class/redaktor/NatureGardening",
       "prefLabel": {
-        "en": "Gardening",
         "de": "Garten",
+        "en": "Gardening",
         "fr": "Jardinage",
         "es": "jardinería"
       }
@@ -511,8 +493,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Networking",
       "prefLabel": {
-        "en": "Networking",
         "de": "Netzwerken",
+        "en": "Networking",
         "fr": "Réseautage",
         "es": "Trabajo en red"
       }
@@ -520,8 +502,8 @@
     {
       "id": "https://w3id.org/class/redaktor/OutdoorsAdventure",
       "prefLabel": {
-        "en": "Outdoors, Adventure, Travel or Picnic",
         "de": "Outdoor, Abenteuer, Reisen oder Picknick",
+        "en": "Outdoors, Adventure, Travel or Picnic",
         "fr": "Plein air, aventure, voyage ou pique-nique",
         "es": "Aire libre, aventura, viajes o picnic"
       }
@@ -529,8 +511,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Parade",
       "prefLabel": {
-        "en": "Parade",
         "de": "Parade",
+        "en": "Parade",
         "fr": "Défilé",
         "es": "Desfile"
       }
@@ -538,8 +520,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Party",
       "prefLabel": {
-        "en": "Party",
         "de": "Party",
+        "en": "Party",
         "fr": "Fête / Party",
         "es": "Fiesta / Party"
       }
@@ -547,8 +529,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Pets",
       "prefLabel": {
-        "en": "Pets",
         "de": "Haustiere",
+        "en": "Pets",
         "fr": "Animaux domestiques",
         "es": "Mascotas"
       }
@@ -556,8 +538,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Photography",
       "prefLabel": {
-        "en": "Photography",
         "de": "Fotografie",
+        "en": "Photography",
         "fr": "Photographie",
         "es": "Fotografía"
       }
@@ -565,8 +547,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Podium",
       "prefLabel": {
-        "en": "Podium, Discussion",
         "de": "Podium, Diskussion",
+        "en": "Podium, Discussion",
         "fr": "Podium, Discussion",
         "es": "Podio, Discusión"
       }
@@ -574,8 +556,8 @@
     {
       "id": "https://w3id.org/class/redaktor/PublicationEvent",
       "prefLabel": {
-        "en": "Publication Event",
         "de": "Publikations-Event",
+        "en": "Publication Event",
         "fr": "Événement de publication",
         "es": "Evento de publicación"
       }
@@ -583,8 +565,8 @@
     {
       "id": "https://w3id.org/class/redaktor/RallyOrProtest",
       "prefLabel": {
-        "en": "Rally or Protest",
         "de": "Kundgebung oder Protest",
+        "en": "Rally or Protest",
         "fr": "Rallye ou protestation",
         "es": "Concentración o protesta"
       }
@@ -592,8 +574,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ScienceTech",
       "prefLabel": {
-        "en": "Science & Tech",
         "de": "Wissenschaft & Technik",
+        "en": "Science & Tech",
         "fr": "Science et technologie",
         "es": "Ciencia y tecnología"
       }
@@ -601,8 +583,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SaleEvent",
       "prefLabel": {
-        "en": "Shopping or Sale Event",
         "de": "Einkaufs- oder Verkaufsveranstaltung",
+        "en": "Shopping or Sale Event",
         "fr": "Événement d'achat ou de vente",
         "es": "Evento de compra o venta"
       }
@@ -610,8 +592,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SocialEvent",
       "prefLabel": {
-        "en": "Social or Solidarity Event",
         "de": "Soziale oder solidarische Veranstaltung",
+        "en": "Social or Solidarity Event",
         "fr": "Evénement social ou de solidarité",
         "es": "Evento social o solidario"
       }
@@ -619,8 +601,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SportsEvent",
       "prefLabel": {
-        "en": "Sports & Fitness",
         "de": "Sport und Fitness",
+        "en": "Sports & Fitness",
         "fr": "Sport et fitness",
         "es": "Deporte y Fitness"
       }
@@ -628,8 +610,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SpiritualityBeliefs",
       "prefLabel": {
-        "en": "Spirituality / Religion / Beliefs",
         "de": "Spiritualität / Religion / Glaube",
+        "en": "Spirituality / Religion / Beliefs",
         "fr": "Spiritualité / Religion / Croyances",
         "es": "Espiritualidad / Religión / Creencias"
       }
@@ -637,8 +619,8 @@
     {
       "id": "https://w3id.org/class/redaktor/TheaterEvent",
       "prefLabel": {
-        "en": "Theater",
         "de": "Theater",
+        "en": "Theater",
         "fr": "Théâtre",
         "es": "Teatro"
       }
@@ -646,8 +628,8 @@
     {
       "id": "https://w3id.org/class/redaktor/VolunteeringDays",
       "prefLabel": {
-        "en": "Volunteering days",
         "de": "Freiwilligentage",
+        "en": "Volunteering days",
         "fr": "Journées de bénévolat",
         "es": "Jornadas de voluntariado"
       }
@@ -655,8 +637,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Webinar",
       "prefLabel": {
-        "en": "Webinar",
         "de": "Webinar",
+        "en": "Webinar",
         "fr": "Webinaire",
         "es": "Webinar"
       }
@@ -664,8 +646,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Workshop",
       "prefLabel": {
-        "en": "Workshop",
         "de": "Workshop",
+        "en": "Workshop",
         "fr": "Atelier, Workshop",
         "es": "Taller, Workshop"
       }
@@ -673,8 +655,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Other",
       "prefLabel": {
-        "en": "Other",
         "de": "Andere",
+        "en": "Other",
         "fr": "Autres",
         "es": "Otros"
       }
@@ -682,8 +664,8 @@
     {
       "id": "https://w3id.org/class/redaktor/previousStartDate",
       "prefLabel": {
-        "en": "previous start date",
         "de": "früheres Startdatum",
+        "en": "previous start date",
         "fr": "date de début précédente",
         "es": "fecha de inicio anterior"
       }
@@ -691,8 +673,8 @@
     {
       "id": "https://w3id.org/class/redaktor/eventAttendanceMode",
       "prefLabel": {
-        "en": "event attendance mode",
         "de": "Anwesenheitsmodus der Veranstaltung",
+        "en": "event attendance mode",
         "fr": "mode de présence à l'événement",
         "es": "modo de asistencia al evento"
       }
@@ -700,8 +682,8 @@
     {
       "id": "https://w3id.org/class/redaktor/eventStatus",
       "prefLabel": {
-        "en": "event status",
         "de": "Status der Veranstaltung",
+        "en": "event status",
         "fr": "statut de l'événement",
         "es": "estado del evento"
       }
@@ -709,8 +691,8 @@
     {
       "id": "https://w3id.org/class/redaktor/maximumPhysicalAttendeeCapacity",
       "prefLabel": {
-        "en": "maximum physical attendee capacity",
         "de": "Maximale physische Teilnehmerkapazität",
+        "en": "maximum physical attendee capacity",
         "fr": "capacité maximale de participants physiques",
         "es": "capacidad máxima de asistentes físicos"
       }
@@ -718,8 +700,8 @@
     {
       "id": "https://w3id.org/class/redaktor/maximumVirtualAttendeeCapacity",
       "prefLabel": {
-        "en": "maximum virtual attendee capacity",
         "de": "Maximale Kapazität für virtuelle Teilnehmer",
+        "en": "maximum virtual attendee capacity",
         "fr": "capacité maximale de participants virtuels",
         "es": "capacidad máxima de asistentes virtuales"
       }
@@ -727,8 +709,8 @@
     {
       "id": "https://w3id.org/class/redaktor/about",
       "prefLabel": {
-        "en": "about",
         "de": "über",
+        "en": "about",
         "fr": "à propos de",
         "es": "sobre"
       }
@@ -736,26 +718,17 @@
     {
       "id": "https://w3id.org/class/redaktor/actorPerforming",
       "prefLabel": {
-        "en": "actor",
         "de": "Darsteller",
+        "en": "actor",
         "fr": "acteur",
         "es": "actor"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/availableLanguage",
-      "prefLabel": {
-        "en": "available language",
-        "de": "verfügbare Sprache",
-        "fr": "langues disponibles",
-        "es": "idiomas disponibles"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/composer",
       "prefLabel": {
-        "en": "composer",
         "de": "Komponist",
+        "en": "composer",
         "fr": "compositeur",
         "es": "compositor"
       }
@@ -763,8 +736,8 @@
     {
       "id": "https://w3id.org/class/redaktor/contentReferenceTime",
       "prefLabel": {
-        "en": "content reference time",
         "de": "Referenzzeit des Inhalts",
+        "en": "content reference time",
         "fr": "temps de référence du contenu",
         "es": "tiempo de referencia del contenido"
       }
@@ -772,8 +745,8 @@
     {
       "id": "https://w3id.org/class/redaktor/contributor",
       "prefLabel": {
-        "en": "contributor",
         "de": "Mitwirkende",
+        "en": "contributor",
         "fr": "contributeur",
         "es": "colaborador"
       }
@@ -781,8 +754,8 @@
     {
       "id": "https://w3id.org/class/redaktor/dateCreated",
       "prefLabel": {
-        "en": "date created",
         "de": "Erstellungsdatum",
+        "en": "date created",
         "fr": "date de création",
         "es": "fecha de creación"
       }
@@ -790,8 +763,8 @@
     {
       "id": "https://w3id.org/class/redaktor/director",
       "prefLabel": {
-        "en": "director",
         "de": "Regisseur",
+        "en": "director",
         "fr": "réalisateur",
         "es": "director"
       }
@@ -799,8 +772,8 @@
     {
       "id": "https://w3id.org/class/redaktor/expires",
       "prefLabel": {
-        "en": "expires",
         "de": "verfällt",
+        "en": "expires",
         "fr": "expiration",
         "es": "caduca"
       }
@@ -808,17 +781,44 @@
     {
       "id": "https://w3id.org/class/redaktor/funder",
       "prefLabel": {
-        "en": "funder",
         "de": "Geldgeber",
+        "en": "funder",
         "fr": "financeur",
         "es": "financiador"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/funding",
+      "prefLabel": {
+        "de": "Finanzierung",
+        "en": "funding",
+        "fr": "financement",
+        "es": "financiación"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/keywords",
+      "prefLabel": {
+        "de": "Schlüsselwörter",
+        "en": "keywords",
+        "fr": "mots-clés",
+        "es": "palabras clave"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/offers",
+      "prefLabel": {
+        "de": "Angebote",
+        "en": "offers",
+        "fr": "offres",
+        "es": "ofrece"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/sponsor",
       "prefLabel": {
-        "en": "sponsor",
         "de": "Sponsor",
+        "en": "sponsor",
         "fr": "sponsor",
         "es": "patrocinador"
       }
@@ -826,8 +826,8 @@
     {
       "id": "https://w3id.org/class/redaktor/translator",
       "prefLabel": {
-        "en": "translator",
         "de": "Übersetzer",
+        "en": "translator",
         "fr": "traducteur",
         "es": "traductor"
       }
@@ -835,8 +835,8 @@
     {
       "id": "https://w3id.org/class/redaktor/typicalAgeRange",
       "prefLabel": {
-        "en": "typical age range",
         "de": "typische Altersspanne",
+        "en": "typical age range",
         "fr": "tranche d'âge typique",
         "es": "rango de edad típico"
       }
@@ -845,8 +845,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Object",
     "prefLabel": {
-      "en": "Object",
       "de": "Objekt",
+      "en": "Object",
       "fr": "Objet",
       "es": "Objeto"
     }
@@ -862,8 +862,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

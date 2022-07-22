@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fcarrier",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fcarrier",
   "prefLabel": {
-    "en": "carrier",
     "de": "Betreiber",
+    "en": "carrier",
     "fr": "transporteur",
     "es": "transportista"
   },
   "definition": {
+    "de": "Carrier\" ist ein veralteter Begriff, der den \"Anbieter\" für Paketzustellung und Flüge bezeichnet.",
     "en": "'carrier' is an out-dated term indicating the 'provider' for parcel delivery and flights.",
-    "de": "'carrier' is an out-dated term indicating the 'provider' for parcel delivery and flights.",
-    "fr": "'carrier' is an out-dated term indicating the 'provider' for parcel delivery and flights.",
-    "es": "'carrier' is an out-dated term indicating the 'provider' for parcel delivery and flights."
+    "fr": "Le terme \"transporteur\" est un terme désuet désignant le \"fournisseur\" de la livraison de colis et des vols.",
+    "es": "El término \"transportista\" es un término anticuado que indica el \"proveedor\" de servicios de paquetería y vuelos."
   },
   "notation": [
     "1836"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

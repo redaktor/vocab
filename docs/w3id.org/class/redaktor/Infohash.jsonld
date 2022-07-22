@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FInfohash",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FInfohash",
   "prefLabel": {
-    "en": "Infohash",
     "de": "Infohash",
+    "en": "Infohash",
     "fr": "Infohash",
     "es": "Infohash"
   },
   "definition": {
-    "en": "Infohashes (in `:name` ) for p2p-media-loader of every resolution.<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
     "de": "Infohashes (in `:name`) für den p2p-media-loader jeder Auflösung.<br>siehe [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
+    "en": "Infohashes (in `:name` ) for p2p-media-loader of every resolution.<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
     "fr": "Casse-tête (en `:name`) pour p2p-media-loader de chaque résolution.<br>voir [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)",
     "es": "Infohashes (en `:name` ) para p2p-media-loader de cada resolución.<br>ver [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#supported-objects-1)"
   },
   "scopeNote": {
-    "en": "ActivityPub Community",
     "de": "ActivityPub Community",
+    "en": "ActivityPub Community",
     "fr": "ActivityPub Community",
     "es": "ActivityPub Community"
   },
@@ -25,8 +25,8 @@
     "1064"
   ],
   "example": {
-    "en": "```json \n{\n  \"type\": \"Video\",\n  \"url\": [\n    // HLS playlist URL (only if HLS transcoding is enabled)\n    {\n      \"type\": \"Link\",\n      \"mediaType\": \"application/x-mpegURL\",\n      \"tag\": [\n        // Infohashes for p2p-media-loader of every resolution\n        {\n          \"type\": \"Infohash\",\n          \"name\": \"d7844378e5a6b9af2d45267c0e413688e7839918\"\n        }\n      ]\n    }\n  ]\n}```",
     "de": "```json \n{\n  \"type\": \"Video\",\n  \"url\": [\n    // HLS playlist URL (only if HLS transcoding is enabled)\n    {\n      \"type\": \"Link\",\n      \"mediaType\": \"application/x-mpegURL\",\n      \"tag\": [\n        // Infohashes for p2p-media-loader of every resolution\n        {\n          \"type\": \"Infohash\",\n          \"name\": \"d7844378e5a6b9af2d45267c0e413688e7839918\"\n        }\n      ]\n    }\n  ]\n}```",
+    "en": "```json \n{\n  \"type\": \"Video\",\n  \"url\": [\n    // HLS playlist URL (only if HLS transcoding is enabled)\n    {\n      \"type\": \"Link\",\n      \"mediaType\": \"application/x-mpegURL\",\n      \"tag\": [\n        // Infohashes for p2p-media-loader of every resolution\n        {\n          \"type\": \"Infohash\",\n          \"name\": \"d7844378e5a6b9af2d45267c0e413688e7839918\"\n        }\n      ]\n    }\n  ]\n}```",
     "fr": "```json \n{\n  \"type\": \"Video\",\n  \"url\": [\n    // HLS playlist URL (only if HLS transcoding is enabled)\n    {\n      \"type\": \"Link\",\n      \"mediaType\": \"application/x-mpegURL\",\n      \"tag\": [\n        // Infohashes for p2p-media-loader of every resolution\n        {\n          \"type\": \"Infohash\",\n          \"name\": \"d7844378e5a6b9af2d45267c0e413688e7839918\"\n        }\n      ]\n    }\n  ]\n}```",
     "es": "```json \n{\n  \"type\": \"Video\",\n  \"url\": [\n    // HLS playlist URL (only if HLS transcoding is enabled)\n    {\n      \"type\": \"Link\",\n      \"mediaType\": \"application/x-mpegURL\",\n      \"tag\": [\n        // Infohashes for p2p-media-loader of every resolution\n        {\n          \"type\": \"Infohash\",\n          \"name\": \"d7844378e5a6b9af2d45267c0e413688e7839918\"\n        }\n      ]\n    }\n  ]\n}```"
   },
@@ -38,8 +38,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,19 +4,48 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FdiseaseSpreadStatistics",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FdiseaseSpreadStatistics",
   "prefLabel": {
-    "en": "disease spread statistics",
     "de": "Statistiken über die Verbreitung von Krankheiten",
+    "en": "disease spread statistics",
     "fr": "statistiques sur la propagation des maladies",
     "es": "estadísticas de propagación de enfermedades"
   },
   "definition": {
+    "de": "Statistische Informationen über die Ausbreitung einer Krankheit, entweder als [[WebContent]] oder<br> direkt beschrieben als [[Datensatz]], oder die spezifischen [[Beobachtung]]en im Datensatz. Wenn eine [[WebContent]]-URL URL angegeben wird, kann die angegebene Seite auch weitere derartige Markierungen enthalten.",
     "en": "Statistical information about the spread of a disease, either as [[WebContent]], or<br>  described directly as a [[Dataset]], or the specific [[Observation]]s in the dataset. When a [[WebContent]] URL is<br>  provided, the page indicated might also contain more such markup.",
-    "de": "Statistical information about the spread of a disease, either as [[WebContent]], or<br>  described directly as a [[Dataset]], or the specific [[Observation]]s in the dataset. When a [[WebContent]] URL is<br>  provided, the page indicated might also contain more such markup.",
-    "fr": "Statistical information about the spread of a disease, either as [[WebContent]], or<br>  described directly as a [[Dataset]], or the specific [[Observation]]s in the dataset. When a [[WebContent]] URL is<br>  provided, the page indicated might also contain more such markup.",
-    "es": "Statistical information about the spread of a disease, either as [[WebContent]], or<br>  described directly as a [[Dataset]], or the specific [[Observation]]s in the dataset. When a [[WebContent]] URL is<br>  provided, the page indicated might also contain more such markup."
+    "fr": "Informations statistiques sur la propagation d'une maladie, soit sous forme de [[Contenu Web]], soit<br>décrites directement comme un [[Ensemble de données]], ou les [[Observation]]s spécifiques de l'ensemble de données. Lorsqu'une [[WebContent]] est<br> fournie, la page indiquée peut également contenir davantage de balises de ce type.",
+    "es": "Información estadística sobre la propagación de una enfermedad, ya sea como [[WebContent]], o<br> descrita directamente como [[Dataset]], o las [[Observation]]s específicas en el conjunto de datos. Cuando se proporciona una [[WebContent]] URL, la página indicada puede contener más marcas de este tipo."
   },
   "notation": [
     "1911"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/WebContent",
+      "prefLabel": {
+        "de": "Web-Inhalt",
+        "en": "Web Content",
+        "fr": "Contenu Web",
+        "es": "Contenido de la web"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Dataset",
+      "prefLabel": {
+        "de": "Datensatz",
+        "en": "Dataset",
+        "fr": "Ensemble de données",
+        "es": "Conjunto de datos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Observation",
+      "prefLabel": {
+        "de": "Beobachtung",
+        "en": "Observation",
+        "fr": "Observation",
+        "es": "Observación"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +55,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

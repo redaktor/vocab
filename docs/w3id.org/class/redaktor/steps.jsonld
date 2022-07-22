@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fsteps",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fsteps",
   "prefLabel": {
-    "en": "steps",
     "de": "Stufen",
+    "en": "steps",
     "fr": "étapes",
     "es": "pasos"
   },
   "definition": {
+    "de": "Ein einzelner Schritt (als HowToStep, Text, Dokument, Video usw.) oder ein HowToSection (ursprünglich fälschlicherweise als \"Schritte\" bezeichnet; \"Schritt\" ist vorzuziehen).",
     "en": "A single step item (as HowToStep, text, document, video, etc.) or a HowToSection (originally misnamed 'steps'; 'step' is preferred).",
-    "de": "A single step item (as HowToStep, text, document, video, etc.) or a HowToSection (originally misnamed 'steps'; 'step' is preferred).",
-    "fr": "A single step item (as HowToStep, text, document, video, etc.) or a HowToSection (originally misnamed 'steps'; 'step' is preferred).",
-    "es": "A single step item (as HowToStep, text, document, video, etc.) or a HowToSection (originally misnamed 'steps'; 'step' is preferred)."
+    "fr": "Un élément d'étape unique (sous forme de HowToStep, de texte, de document, de vidéo, etc.) ou une HowToSection (initialement mal nommée \"étapes\" ; on préfère \"étape\").",
+    "es": "Un elemento de paso único (como HowToStep, texto, documento, vídeo, etc.) o una HowToSection (originalmente mal llamada \"pasos\"; se prefiere \"paso\")."
   },
   "notation": [
     "2234"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

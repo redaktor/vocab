@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FoauthRegistrationEndpoint",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FoauthRegistrationEndpoint",
   "prefLabel": {
-    "en": "oauth Registration Endpoint",
     "de": "oauth Registration Endpoint",
+    "en": "oauth Registration Endpoint",
     "fr": "oauth Registration Endpoint",
     "es": "oauth Registration Endpoint"
   },
   "definition": {
-    "en": "Points to MastodonAPI /api/v1/apps for now.<br>see https://docs.joinmastodon.org/methods/apps/<br>see [Pleroma documentation](https://docs-develop.pleroma.social/backend/development/ap_extensions/#actor-endpoints)",
     "de": "Verweist bislang auf MastodonAPI /api/v1/apps.<br>siehe https://docs.joinmastodon.org/methods/apps/<br>siehe [Pleroma documentation](https://docs-develop.pleroma.social/backend/development/ap_extensions/#actor-endpoints)",
+    "en": "Points to MastodonAPI /api/v1/apps for now.<br>see https://docs.joinmastodon.org/methods/apps/<br>see [Pleroma documentation](https://docs-develop.pleroma.social/backend/development/ap_extensions/#actor-endpoints)",
     "fr": "Points to MastodonAPI /api/v1/apps for now.<br>siehe https://docs.joinmastodon.org/methods/apps/<br>voir [Pleroma documentation](https://docs-develop.pleroma.social/backend/development/ap_extensions/#actor-endpoints)",
     "es": "Points to MastodonAPI /api/v1/apps for now.<br>siehe https://docs.joinmastodon.org/methods/apps/<br>ver [Pleroma documentation](https://docs-develop.pleroma.social/backend/development/ap_extensions/#actor-endpoints)"
   },
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

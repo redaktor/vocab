@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPollsAndSurveys",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPollsAndSurveys",
   "prefLabel": {
-    "en": "Polls and Surveys",
     "de": "Umfragen und Erhebungen",
+    "en": "Polls and Surveys",
     "fr": "Sondages et enquêtes",
     "es": "Encuestas y sondeos"
   },
   "definition": {
-    "en": "Numeric or other information produced as a result of questionnaires or interviews",
     "de": "Numerische oder andere Informationen, die als Ergebnis von Fragebögen oder Interviews erstellt werden",
+    "en": "Numeric or other information produced as a result of questionnaires or interviews",
     "fr": "Informations numériques ou autres produites à la suite de questionnaires ou d'entretiens.",
     "es": "Información numérica o de otro tipo producida como resultado de cuestionarios o entrevistas"
   },
@@ -29,8 +29,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

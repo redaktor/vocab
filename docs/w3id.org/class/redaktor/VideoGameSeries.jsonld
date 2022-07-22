@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FVideoGameSeries",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FVideoGameSeries",
   "prefLabel": {
-    "en": "Video Game Series",
     "de": "Videospiel-Serie",
+    "en": "Video Game Series",
     "fr": "Série de jeux vidéo",
     "es": "Serie de videojuegos"
   },
@@ -14,10 +14,28 @@
   ],
   "narrower": [
     {
+      "id": "https://w3id.org/class/redaktor/playMode",
+      "prefLabel": {
+        "de": "Spielmodus",
+        "en": "play mode",
+        "fr": "mode de jeu",
+        "es": "modo de juego"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/numberOfPlayers",
+      "prefLabel": {
+        "de": "Anzahl der Spieler",
+        "en": "number of players",
+        "fr": "nombre de joueurs",
+        "es": "número de jugadores"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/actorPerforming",
       "prefLabel": {
-        "en": "actor",
         "de": "Darsteller",
+        "en": "actor",
         "fr": "acteur",
         "es": "actor"
       }
@@ -25,8 +43,8 @@
     {
       "id": "https://w3id.org/class/redaktor/characterAttribute",
       "prefLabel": {
-        "en": "character attribute",
         "de": "Zeichen-Attribut",
+        "en": "character attribute",
         "fr": "attribut du personnage",
         "es": "atributo del personaje"
       }
@@ -34,8 +52,8 @@
     {
       "id": "https://w3id.org/class/redaktor/cheatCode",
       "prefLabel": {
-        "en": "cheat code",
         "de": "Cheat-Code",
+        "en": "cheat code",
         "fr": "code de triche",
         "es": "código de trucos"
       }
@@ -43,8 +61,8 @@
     {
       "id": "https://w3id.org/class/redaktor/director",
       "prefLabel": {
-        "en": "director",
         "de": "Regisseur",
+        "en": "director",
         "fr": "réalisateur",
         "es": "director"
       }
@@ -52,8 +70,8 @@
     {
       "id": "https://w3id.org/class/redaktor/gameItem",
       "prefLabel": {
-        "en": "game item",
         "de": "Spielgegenstand",
+        "en": "game item",
         "fr": "article de jeu",
         "es": "partida de juego"
       }
@@ -61,8 +79,8 @@
     {
       "id": "https://w3id.org/class/redaktor/gameLocation",
       "prefLabel": {
-        "en": "game location",
         "de": "Spielort",
+        "en": "game location",
         "fr": "emplacement du jeu",
         "es": "ubicación del juego"
       }
@@ -70,8 +88,8 @@
     {
       "id": "https://w3id.org/class/redaktor/gamePlatform",
       "prefLabel": {
-        "en": "game platform",
         "de": "Spielplattform",
+        "en": "game platform",
         "fr": "plate-forme de jeu",
         "es": "plataforma de juego"
       }
@@ -79,35 +97,17 @@
     {
       "id": "https://w3id.org/class/redaktor/musicBy",
       "prefLabel": {
-        "en": "music by",
         "de": "Musik von",
+        "en": "music by",
         "fr": "musique par",
         "es": "música por"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/numberOfPlayers",
-      "prefLabel": {
-        "en": "number of players",
-        "de": "Anzahl der Spieler",
-        "fr": "nombre de joueurs",
-        "es": "número de jugadores"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/playMode",
-      "prefLabel": {
-        "en": "play mode",
-        "de": "Spielmodus",
-        "fr": "mode de jeu",
-        "es": "modo de juego"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/quest",
       "prefLabel": {
-        "en": "quest",
         "de": "Suche",
+        "en": "quest",
         "fr": "quête",
         "es": "búsqueda"
       }
@@ -115,8 +115,8 @@
     {
       "id": "https://w3id.org/class/redaktor/trailer",
       "prefLabel": {
-        "en": "trailer",
         "de": "Anhänger",
+        "en": "trailer",
         "fr": "remorque",
         "es": "remolque"
       }
@@ -125,8 +125,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/CreativeWorkSeries",
     "prefLabel": {
-      "en": "Series",
       "de": "Serie",
+      "en": "Series",
       "fr": "Série",
       "es": "Serie"
     }
@@ -139,8 +139,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FProject",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FProject",
   "prefLabel": {
-    "en": "Project",
     "de": "Projekt",
+    "en": "Project",
     "fr": "Projet",
     "es": "Proyecto"
   },
   "definition": {
-    "en": "An enterprise (potentially individual but typically collaborative), planned to achieve a particular aim. Use properties from Organization, subOrganization/parentOrganization to indicate project sub-structures.",
     "de": "Eine Unternehmung (möglicherweise individuell, aber typischerweise gemeinschaftlich), die geplant ist, um ein bestimmtes Ziel zu erreichen. Verwenden Sie die Eigenschaften von Organization, subOrganization/parentOrganization, um Projektunterstrukturen anzugeben.",
+    "en": "An enterprise (potentially individual but typically collaborative), planned to achieve a particular aim. Use properties from Organization, subOrganization/parentOrganization to indicate project sub-structures.",
     "fr": "Une entreprise (potentiellement individuelle mais généralement collaborative), planifiée pour atteindre un objectif particulier. Utilisez les propriétés de Organization, subOrganization/parentOrganization pour indiquer les sous-structures du projet.",
     "es": "Una empresa (potencialmente individual pero típicamente colaborativa), planificada para lograr un objetivo particular. Utilice las propiedades de Organization, subOrganization/parentOrganization para indicar las subestructuras del proyecto."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/FundingAgency",
       "prefLabel": {
-        "en": "Funding Agency",
         "de": "Fördermittelgeber",
+        "en": "Funding Agency",
         "fr": "Organisme de financement",
         "es": "Agencia de financiación"
       }
@@ -31,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ResearchProject",
       "prefLabel": {
-        "en": "Research Project",
         "de": "Forschungsprojekt",
+        "en": "Research Project",
         "fr": "Projet de recherche",
         "es": "Proyecto de investigación"
       }
@@ -46,8 +46,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

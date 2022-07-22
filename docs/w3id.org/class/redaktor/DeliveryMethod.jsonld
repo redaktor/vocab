@@ -1,0 +1,158 @@
+{
+  "id": "https://w3id.org/class/redaktor/DeliveryMethod",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FDeliveryMethod",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FDeliveryMethod",
+  "prefLabel": {
+    "de": "Liefermethode",
+    "en": "Delivery Method",
+    "fr": "Méthode de livraison",
+    "es": "Método de entrega"
+  },
+  "definition": {
+    "de": "Eine Liefermethode ist ein standardisiertes Verfahren zur Übermittlung des Produkts oder der Dienstleistung an den vom Kunden gewählten Erfüllungsort. Liefermethoden werden durch das verwendete Transportmittel und durch die Organisation oder Gruppe charakterisiert, die die Vertragspartei für die sendende Organisation oder Person ist.\n\nHäufig verwendete Werte:\n\n* http://purl.org/goodrelations/v1#DeliveryModeDirectDownload\n* http://purl.org/goodrelations/v1#DeliveryModeFreight\n* http://purl.org/goodrelations/v1#DeliveryModeMail\n* http://purl.org/goodrelations/v1#DeliveryModeOwnFleet\n* http://purl.org/goodrelations/v1#DeliveryModePickUp\n* http://purl.org/goodrelations/v1#DHL\n* http://purl.org/goodrelations/v1#FederalExpress\n* http://purl.org/goodrelations/v1#UPS",
+    "en": "A delivery method is a standardized procedure for transferring the product or service to the destination of fulfillment chosen by the customer. Delivery methods are characterized by the means of transportation used, and by the organization or group that is the contracting party for the sending organization or person.\n\nCommonly used values:\n\n* http://purl.org/goodrelations/v1#DeliveryModeDirectDownload\n* http://purl.org/goodrelations/v1#DeliveryModeFreight\n* http://purl.org/goodrelations/v1#DeliveryModeMail\n* http://purl.org/goodrelations/v1#DeliveryModeOwnFleet\n* http://purl.org/goodrelations/v1#DeliveryModePickUp\n* http://purl.org/goodrelations/v1#DHL\n* http://purl.org/goodrelations/v1#FederalExpress\n* http://purl.org/goodrelations/v1#UPS",
+    "fr": "Un mode de livraison est une procédure normalisée de transfert du produit ou du service vers la destination d'exécution choisie par le client. Les modes de livraison sont caractérisés par le moyen de transport utilisé et par l'organisation ou le groupe qui est la partie contractante pour l'organisation ou la personne expéditrice.\n\nValeurs couramment utilisées:\n\n* http://purl.org/goodrelations/v1#DeliveryModeDirectDownload\n* http://purl.org/goodrelations/v1#DeliveryModeFreight\n* http://purl.org/goodrelations/v1#DeliveryModeMail\n* http://purl.org/goodrelations/v1#DeliveryModeOwnFleet\n* http://purl.org/goodrelations/v1#DeliveryModePickUp\n* http://purl.org/goodrelations/v1#DHL\n* http://purl.org/goodrelations/v1#FederalExpress\n* http://purl.org/goodrelations/v1#UPS",
+    "es": "Un método de entrega es un procedimiento estandarizado para trasladar el producto o servicio al destino de cumplimiento elegido por el cliente. Los métodos de entrega se caracterizan por el medio de transporte utilizado, y por la organización o grupo que es la parte contratante de la organización o persona remitente.\nValores comúnmente utilizados:\n* http://purl.org/goodrelations/v1#DeliveryModeDirectDownload\n* http://purl.org/goodrelations/v1#DeliveryModeFreight\n* http://purl.org/goodrelations/v1#DeliveryModeMail\n* http://purl.org/goodrelations/v1#DeliveryModeOwnFleet\n* http://purl.org/goodrelations/v1#DeliveryModePickUp\n* http://purl.org/goodrelations/v1#DHL\n* http://purl.org/goodrelations/v1#FederalExpress\n* http://purl.org/goodrelations/v1#UPS"
+  },
+  "notation": [
+    "1360"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/ParcelService",
+      "prefLabel": {
+        "de": "Paketdienst",
+        "en": "Parcel Service",
+        "fr": "Service des colis",
+        "es": "Servicio de paquetería"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/OnSitePickup",
+      "prefLabel": {
+        "de": "Abholung vor Ort",
+        "en": "On Site Pickup",
+        "fr": "Ramassage sur place",
+        "es": "Recogida in situ"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/LockerDelivery",
+      "prefLabel": {
+        "de": "Lieferung von Schließfächern",
+        "en": "Locker Delivery",
+        "fr": "Livraison des casiers",
+        "es": "Entrega de taquillas"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:DeliveryMethod"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FmainEntity",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FmainEntity",
   "prefLabel": {
-    "en": "main entity",
     "de": "Haupteinheit",
+    "en": "main entity",
     "fr": "entité principale",
     "es": "entidad principal"
   },
   "definition": {
+    "de": "Gibt die primäre Entität an, die in einer Seite oder einem anderen CreativeWork beschrieben wird.",
     "en": "Indicates the primary entity described in some page or other CreativeWork.",
-    "de": "Indicates the primary entity described in some page or other CreativeWork.",
-    "fr": "Indicates the primary entity described in some page or other CreativeWork.",
-    "es": "Indicates the primary entity described in some page or other CreativeWork."
+    "fr": "Indique l'entité primaire décrite dans une page ou un autre travail créatif.",
+    "es": "Indica la entidad principal descrita en alguna página u otro CreativeWork."
   },
   "notation": [
     "2069"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

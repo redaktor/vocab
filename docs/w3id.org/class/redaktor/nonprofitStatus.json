@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FnonprofitStatus",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FnonprofitStatus",
   "prefLabel": {
-    "en": "nonprofit status",
     "de": "Status der Gemeinnützigkeit",
+    "en": "nonprofit status",
     "fr": "statut d'organisme à but non lucratif",
     "es": "estatus sin ánimo de lucro"
   },
   "definition": {
+    "de": "nonprofit Status gibt den rechtlichen Status einer Non-Profit-Organisation an ihrem Hauptgeschäftssitz an.",
     "en": "nonprofit Status indicates the legal status of a non-profit organization in its primary place of business.",
-    "de": "nonprofit Status indicates the legal status of a non-profit organization in its primary place of business.",
-    "fr": "nonprofit Status indicates the legal status of a non-profit organization in its primary place of business.",
-    "es": "nonprofit Status indicates the legal status of a non-profit organization in its primary place of business."
+    "fr": "Le statut d'organisme sans but lucratif indique le statut juridique d'un organisme sans but lucratif dans son principal lieu d'activité.",
+    "es": "El estatus de organización sin ánimo de lucro indica el estatus legal de una organización sin ánimo de lucro en su sede principal."
   },
   "notation": [
     "2101"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/NonprofitType",
+      "prefLabel": {
+        "de": "Gemeinnütziger Typ",
+        "en": "Nonprofit Type",
+        "fr": "Type d'organisme à but non lucratif",
+        "es": "Tipo de organización no lucrativa"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

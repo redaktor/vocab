@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FMathSolver",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FMathSolver",
   "prefLabel": {
-    "en": "Math Solver",
     "de": "Mathe Problemlöser",
+    "en": "Math Solver",
     "fr": "MathSolver",
     "es": "MathSolver"
   },
   "definition": {
-    "en": "A math solver which is capable of solving a subset of mathematical problems.",
     "de": "Ein mathematischer Solver, der in der Lage ist, eine Teilmenge von mathematischen Problemen zu lösen.",
+    "en": "A math solver which is capable of solving a subset of mathematical problems.",
     "fr": "Un solveur mathématique qui est capable de résoudre un sous-ensemble de problèmes mathématiques.",
     "es": "Un solucionador matemático capaz de resolver un subconjunto de problemas matemáticos."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/mathExpression",
       "prefLabel": {
-        "en": "math expression",
         "de": "mathematischer Ausdruck",
+        "en": "math expression",
         "fr": "expression mathématique",
         "es": "expresión matemática"
       }
@@ -37,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

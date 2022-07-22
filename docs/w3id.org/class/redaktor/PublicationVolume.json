@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPublicationVolume",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPublicationVolume",
   "prefLabel": {
-    "en": "Publication Volume",
     "de": "Publikationsband",
+    "en": "Publication Volume",
     "fr": "Volume de publication",
     "es": "Volumen de la publicación"
   },
   "altLabel": {
-    "en": [
+    "de": [
       "Volume"
     ],
-    "de": [
+    "en": [
       "Volume"
     ],
     "fr": [
@@ -24,8 +24,8 @@
     ]
   },
   "definition": {
-    "en": "A part of a successively published publication such as a periodical or multi-volume work, often numbered. It may represent a time span, such as a year.<br/><br/>See also [blog post](http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html).",
     "de": "Ein oft nummerierter Teil einer nacheinander veröffentlichten Publikation wie einer Zeitschrift oder eines mehrbändigen Werks. Er kann eine Zeitspanne, z. B. ein Jahr, darstellen.<br/><br/>Siehe auch [Blogeintrag](http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html).",
+    "en": "A part of a successively published publication such as a periodical or multi-volume work, often numbered. It may represent a time span, such as a year.<br/><br/>See also [blog post](http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html).",
     "fr": "A part of a successively published publication such as a periodical or multi-volume work, often numbered. It may represent a time span, such as a year.<br/><br/>See also [blog post](http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html).",
     "es": "A part of a successively published publication such as a periodical or multi-volume work, often numbered. It may represent a time span, such as a year.<br/><br/>See also [blog post](http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html)."
   },
@@ -36,8 +36,8 @@
     {
       "id": "https://w3id.org/class/redaktor/pageEnd",
       "prefLabel": {
-        "en": "page end",
         "de": "Seite Ende",
+        "en": "page end",
         "fr": "fin de page",
         "es": "fin de página"
       }
@@ -45,8 +45,8 @@
     {
       "id": "https://w3id.org/class/redaktor/pageStart",
       "prefLabel": {
-        "en": "page start",
         "de": "Seitenanfang",
+        "en": "page start",
         "fr": "début de page",
         "es": "inicio de página"
       }
@@ -54,8 +54,8 @@
     {
       "id": "https://w3id.org/class/redaktor/pagination",
       "prefLabel": {
-        "en": "pagination",
         "de": "Paginierung",
+        "en": "pagination",
         "fr": "pagination",
         "es": "paginación"
       }
@@ -63,8 +63,8 @@
     {
       "id": "https://w3id.org/class/redaktor/volumeNumber",
       "prefLabel": {
-        "en": "volume number",
         "de": "Bandnummer",
+        "en": "volume number",
         "fr": "numéro de volume",
         "es": "número de volumen"
       }
@@ -78,8 +78,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

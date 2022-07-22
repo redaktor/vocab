@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fpattern",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fpattern",
   "prefLabel": {
-    "en": "pattern",
     "de": "Muster",
+    "en": "pattern",
     "fr": "modèle",
     "es": "patrón"
   },
   "definition": {
+    "de": "Ein Muster, das etwas hat, z. B. \"gepunktet\", \"gestreift\", \"kanadische Flagge\". Werte werden in der Regel als Text ausgedrückt, obwohl auch Links zu kontrollierten Werteschemata unterstützt werden.",
     "en": "A pattern that something has, for example 'polka dot', 'striped', 'Canadian flag'. Values are typically expressed as text, although links to controlled value schemes are also supported.",
-    "de": "A pattern that something has, for example 'polka dot', 'striped', 'Canadian flag'. Values are typically expressed as text, although links to controlled value schemes are also supported.",
-    "fr": "A pattern that something has, for example 'polka dot', 'striped', 'Canadian flag'. Values are typically expressed as text, although links to controlled value schemes are also supported.",
-    "es": "A pattern that something has, for example 'polka dot', 'striped', 'Canadian flag'. Values are typically expressed as text, although links to controlled value schemes are also supported."
+    "fr": "Un motif que quelque chose possède, par exemple \"pois\", \"rayé\", \"drapeau canadien\". Les valeurs sont généralement exprimées sous forme de texte, bien que les liens vers des schémas de valeurs contrôlés soient également pris en charge.",
+    "es": "Un patrón que tiene algo, por ejemplo \"lunares\", \"rayas\", \"bandera canadiense\". Los valores suelen expresarse como texto, aunque también se admiten enlaces a esquemas de valores controlados."
   },
   "notation": [
     "2140"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

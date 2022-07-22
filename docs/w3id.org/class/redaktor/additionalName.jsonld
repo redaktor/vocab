@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FadditionalName",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FadditionalName",
   "prefLabel": {
-    "en": "additional name",
     "de": "zusätzlicher Name",
+    "en": "additional name",
     "fr": "nom supplémentaire",
     "es": "nombre adicional"
   },
   "definition": {
+    "de": "Ein zusätzlicher Name für eine Person, kann als zweiter Vorname verwendet werden.",
     "en": "An additional name for a Person, can be used for a middle name.",
-    "de": "An additional name for a Person, can be used for a middle name.",
-    "fr": "An additional name for a Person, can be used for a middle name.",
-    "es": "An additional name for a Person, can be used for a middle name."
+    "fr": "Un nom supplémentaire pour une personne, peut être utilisé comme deuxième prénom.",
+    "es": "Un nombre adicional para una persona, puede ser utilizado como segundo nombre."
   },
   "notation": [
     "1758"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

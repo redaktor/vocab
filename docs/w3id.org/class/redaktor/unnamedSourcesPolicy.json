@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FunnamedSourcesPolicy",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FunnamedSourcesPolicy",
   "prefLabel": {
-    "en": "unnamed sources policy",
     "de": "Politik der ungenannten Quellen",
+    "en": "unnamed sources policy",
     "fr": "politique des sources anonymes",
     "es": "política de fuentes no identificadas"
   },
   "definition": {
+    "de": "Für eine [[Organisation]] (in der Regel eine [[NewsMediaOrganisation]]), eine Erklärung über die Richtlinien zur Verwendung von ungenannten Quellen und den erforderlichen Entscheidungsprozess.",
     "en": "For an [[Organization]] (typically a [[NewsMediaOrganization]]), a statement about policy on use of unnamed sources and the decision process required.",
-    "de": "For an [[Organization]] (typically a [[NewsMediaOrganization]]), a statement about policy on use of unnamed sources and the decision process required.",
-    "fr": "For an [[Organization]] (typically a [[NewsMediaOrganization]]), a statement about policy on use of unnamed sources and the decision process required.",
-    "es": "For an [[Organization]] (typically a [[NewsMediaOrganization]]), a statement about policy on use of unnamed sources and the decision process required."
+    "fr": "Pour une [[Organisation]] (généralement une [[NewsMediaOrganization]]), une déclaration sur la politique d'utilisation des sources non nommées et le processus de décision requis.",
+    "es": "Para una [[Organización]] (normalmente una [[Organización de medios de comunicación]]), una declaración sobre la política de uso de fuentes no identificadas y el proceso de decisión necesario."
   },
   "notation": [
     "2278"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

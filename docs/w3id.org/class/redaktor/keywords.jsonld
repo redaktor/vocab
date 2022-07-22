@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fkeywords",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fkeywords",
   "prefLabel": {
-    "en": "keywords",
     "de": "Schlüsselwörter",
+    "en": "keywords",
     "fr": "mots-clés",
     "es": "palabras clave"
   },
   "definition": {
+    "de": "Schlüsselwörter oder Tags, die zur Beschreibung eines Elements verwendet werden. Mehrere Texteinträge in einer Schlagwortliste werden in der Regel durch Kommas oder durch Wiederholung der Eigenschaft voneinander getrennt.",
     "en": "Keywords or tags used to describe some item. Multiple textual entries in a keywords list are typically delimited by commas, or by repeating the property.",
-    "de": "Keywords or tags used to describe some item. Multiple textual entries in a keywords list are typically delimited by commas, or by repeating the property.",
-    "fr": "Keywords or tags used to describe some item. Multiple textual entries in a keywords list are typically delimited by commas, or by repeating the property.",
-    "es": "Keywords or tags used to describe some item. Multiple textual entries in a keywords list are typically delimited by commas, or by repeating the property."
+    "fr": "Mots clés ou balises utilisés pour décrire un élément. Les entrées textuelles multiples dans une liste de mots-clés sont généralement délimitées par des virgules, ou par la répétition de la propriété.",
+    "es": "Palabras clave o etiquetas utilizadas para describir algún elemento. Las entradas textuales múltiples en una lista de palabras clave suelen estar delimitadas por comas, o repitiendo la propiedad."
   },
   "notation": [
     "2052"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

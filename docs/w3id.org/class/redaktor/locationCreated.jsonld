@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FlocationCreated",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FlocationCreated",
   "prefLabel": {
-    "en": "location created",
     "de": "Standort erstellt",
+    "en": "location created",
     "fr": "emplacement créé",
     "es": "ubicación creada"
   },
   "definition": {
+    "de": "Der Ort, an dem das CreativeWork erstellt wurde, muss nicht unbedingt mit dem Ort übereinstimmen, der in dem CreativeWork dargestellt ist.",
     "en": "The location where the CreativeWork was created, which may not be the same as the location depicted in the CreativeWork.",
-    "de": "The location where the CreativeWork was created, which may not be the same as the location depicted in the CreativeWork.",
-    "fr": "The location where the CreativeWork was created, which may not be the same as the location depicted in the CreativeWork.",
-    "es": "The location where the CreativeWork was created, which may not be the same as the location depicted in the CreativeWork."
+    "fr": "Le lieu où l'œuvre créative a été créée, qui peut ne pas être le même que le lieu décrit dans l'œuvre créative.",
+    "es": "La ubicación en la que se creó el CreativeWork, que puede no ser la misma que la representada en el CreativeWork."
   },
   "notation": [
     "2065"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

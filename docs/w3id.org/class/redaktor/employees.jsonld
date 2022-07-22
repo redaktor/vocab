@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Femployees",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Femployees",
   "prefLabel": {
-    "en": "employees",
     "de": "Mitarbeiter",
+    "en": "employees",
     "fr": "employés",
     "es": "empleados"
   },
   "definition": {
+    "de": "Menschen, die für diese Organisation arbeiten.",
     "en": "People working for this organization.",
-    "de": "People working for this organization.",
-    "fr": "People working for this organization.",
-    "es": "People working for this organization."
+    "fr": "Les personnes travaillant pour cette organisation.",
+    "es": "Las personas que trabajan para esta organización."
   },
   "notation": [
     "1933"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

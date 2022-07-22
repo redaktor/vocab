@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FarrivalBoatTerminal",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FarrivalBoatTerminal",
   "prefLabel": {
-    "en": "arrival boat terminal",
     "de": "Ankunft Schiffsterminal",
+    "en": "arrival boat terminal",
     "fr": "terminal de bateaux d'arrivée",
     "es": "llegada terminal de barcos"
   },
   "definition": {
+    "de": "Der Terminal oder Hafen, von dem aus das Schiff ankommt.",
     "en": "The terminal or port from which the boat arrives.",
-    "de": "The terminal or port from which the boat arrives.",
-    "fr": "The terminal or port from which the boat arrives.",
-    "es": "The terminal or port from which the boat arrives."
+    "fr": "Le terminal ou le port d'où arrive le bateau.",
+    "es": "La terminal o el puerto desde el que llega el barco."
   },
   "notation": [
     "1782"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

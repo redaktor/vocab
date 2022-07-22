@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fsupply",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fsupply",
   "prefLabel": {
-    "en": "supply",
     "de": "Versorgung",
+    "en": "supply",
     "fr": "approvisionnement",
     "es": "suministro"
   },
   "definition": {
+    "de": "Eine Untereigenschaft von Instrument. Eine Versorgung, die bei der Ausführung von Anweisungen oder einer Anweisung verbraucht wird.",
     "en": "A sub-property of instrument. A supply consumed when performing instructions or a direction.",
-    "de": "A sub-property of instrument. A supply consumed when performing instructions or a direction.",
-    "fr": "A sub-property of instrument. A supply consumed when performing instructions or a direction.",
-    "es": "A sub-property of instrument. A supply consumed when performing instructions or a direction."
+    "fr": "Une sous-propriété de l'instrument. Une fourniture consommée lors de l'exécution d'instructions ou d'un ordre.",
+    "es": "Una subpropiedad de instrumento. Un suministro que se consume cuando se ejecutan instrucciones o una dirección."
   },
   "notation": [
     "2240"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/HowToSupply",
+      "prefLabel": {
+        "de": "Wie man liefert",
+        "en": "How to Supply",
+        "fr": "Comment fournir",
+        "es": "Cómo suministrar"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FticketNumber",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FticketNumber",
   "prefLabel": {
-    "en": "ticket number",
     "de": "Ticket-Nummer",
+    "en": "ticket number",
     "fr": "numéro de billet",
     "es": "número de billete"
   },
   "definition": {
+    "de": "Die eindeutige Kennung für das Ticket.",
     "en": "The unique identifier for the ticket.",
-    "de": "The unique identifier for the ticket.",
-    "fr": "The unique identifier for the ticket.",
-    "es": "The unique identifier for the ticket."
+    "fr": "L'identifiant unique du ticket.",
+    "es": "El identificador único del billete."
   },
   "notation": [
     "2257"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -6,6 +6,12 @@
   "prefLabel": {
     "en": "number of episodes"
   },
+  "definition": {
+    "de": "Position der Jahreszeit innerhalb einer geordneten Gruppe von Jahreszeiten.",
+    "en": "Position of the season within an ordered group of seasons.",
+    "fr": "Position de la saison dans un groupe ordonné de saisons.",
+    "es": "Posición de la estación dentro de un grupo ordenado de estaciones."
+  },
   "notation": [
     "2308"
   ],
@@ -17,8 +23,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

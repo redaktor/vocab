@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPlaylistElement",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FPlaylistElement",
   "prefLabel": {
-    "en": "Playlist Element",
     "de": "Playlist Element",
+    "en": "Playlist Element",
     "fr": "Playlist Element",
     "es": "Playlist Element"
   },
   "definition": {
-    "en": "The object is used to represent a video playlist element inside the Playlist collection.<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)",
     "de": "Dieses Objekt repräsentiert einen Video-Eintrag in einer Playlist Collection<br>siehe [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)",
+    "en": "The object is used to represent a video playlist element inside the Playlist collection.<br>see [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)",
     "fr": "Cet objet est utilisé pour représenter un élément de liste de lecture vidéo dans l'objet Playlist.<br>voir [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)",
     "es": "El objeto se utiliza para representar un elemento de la lista de reproducción de vídeo dentro del objeto Playlist.<br>ver [peertube documentation](https://framagit.org/framasoft/peertube/documentation/-/blob/master/api-activitypub.md#playlist-element)"
   },
   "scopeNote": {
-    "en": "ActivityPub Community",
     "de": "ActivityPub Community",
+    "en": "ActivityPub Community",
     "fr": "ActivityPub Community",
     "es": "ActivityPub Community"
   },
@@ -28,8 +28,8 @@
     {
       "id": "https://w3id.org/class/redaktor/startTimestamp",
       "prefLabel": {
-        "en": "start timestamp",
         "de": "start Zeitstempel",
+        "en": "start timestamp",
         "fr": "start timestamp",
         "es": "start timestamp"
       }
@@ -37,8 +37,8 @@
     {
       "id": "https://w3id.org/class/redaktor/stopTimestamp",
       "prefLabel": {
-        "en": "stop timestamp",
         "de": "stop Zeitstempel",
+        "en": "stop timestamp",
         "fr": "stop timestamp",
         "es": "stop timestamp"
       }
@@ -46,8 +46,8 @@
     {
       "id": "https://w3id.org/class/redaktor/position",
       "prefLabel": {
-        "en": "position",
         "de": "Position",
+        "en": "position",
         "fr": "position",
         "es": "posición"
       }
@@ -55,8 +55,8 @@
     {
       "id": "https://w3id.org/class/redaktor/video",
       "prefLabel": {
-        "en": "video",
         "de": "video",
+        "en": "video",
         "fr": "video",
         "es": "video"
       }
@@ -70,8 +70,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

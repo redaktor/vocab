@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FvolumeNumber",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FvolumeNumber",
   "prefLabel": {
-    "en": "volume number",
     "de": "Bandnummer",
+    "en": "volume number",
     "fr": "numéro de volume",
     "es": "número de volumen"
   },
   "definition": {
+    "de": "Kennzeichnet den Band der Veröffentlichung oder des mehrteiligen Werks, z. B. \"iii\" oder \"2\".",
     "en": "Identifies the volume of publication or multi-part work; for example, “iii” or “2”.",
-    "de": "Identifies the volume of publication or multi-part work; for example, “iii” or “2”.",
-    "fr": "Identifies the volume of publication or multi-part work; for example, “iii” or “2”.",
-    "es": "Identifies the volume of publication or multi-part work; for example, “iii” or “2”."
+    "fr": "Identifie le volume de la publication ou de l'œuvre en plusieurs parties ; par exemple, \"iii\" ou \"2\".",
+    "es": "Identifica el volumen de la publicación o la obra en varias partes; por ejemplo, \"iii\" o \"2\"."
   },
   "notation": [
     "2290"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

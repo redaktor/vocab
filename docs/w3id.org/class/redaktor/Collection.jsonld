@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCollection",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCollection",
   "prefLabel": {
-    "en": "Collection",
     "de": "Sammlung",
+    "en": "Collection",
     "fr": "Collection",
     "es": "Colección"
   },
   "definition": {
-    "en": "A Collection is a subtype of Object that represents ordered or unordered sets of Object or Link instances. Refer to the Activity Streams 2.0 Core specification for a complete description of the Collection type.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection)",
     "de": "Eine Collection ist ein Subtyp von Object, der geordnete oder ungeordnete Mengen von Object- oder Link-Instanzen darstellt. Eine vollständige Beschreibung des Typs 'Collection' finden Sie in der Spezifikation von Activity Streams 2.0 Core.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection)",
+    "en": "A Collection is a subtype of Object that represents ordered or unordered sets of Object or Link instances. Refer to the Activity Streams 2.0 Core specification for a complete description of the Collection type.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection)",
     "fr": "Une collection est un sous-type d'objet qui représente des ensembles ordonnés ou non ordonnés d'instances d'objets ou de liens. Reportez-vous à la spécification Activity Streams 2.0 Core pour une description complète du type Collection.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection)",
     "es": "Una colección es un subtipo de objeto que representa conjuntos ordenados o desordenados de instancias de objetos o enlaces. Consulte la especificación de Activity Streams 2.0 Core para obtener una descripción completa del tipo Collection.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collection)"
   },
   "scopeNote": {
-    "en": ": Object",
     "de": ": Object",
+    "en": ": Object",
     "fr": ": Object",
     "es": ": Object"
   },
@@ -25,26 +25,17 @@
     "6"
   ],
   "example": {
-    "en": "[Example 5](https://www.w3.org/TR/activitystreams-vocabulary/#ex5-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's notes\",\n  \"type\": \"Collection\",\n  \"totalItems\": 2,\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"A Simple Note\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Another Simple Note\"\n    }\n  ]\n}\n```",
     "de": "[Beispiel 5](https://www.w3.org/TR/activitystreams-vocabulary/#ex5-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's notes\",\n  \"type\": \"Collection\",\n  \"totalItems\": 2,\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"A Simple Note\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Another Simple Note\"\n    }\n  ]\n}\n```",
+    "en": "[Example 5](https://www.w3.org/TR/activitystreams-vocabulary/#ex5-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's notes\",\n  \"type\": \"Collection\",\n  \"totalItems\": 2,\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"A Simple Note\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Another Simple Note\"\n    }\n  ]\n}\n```",
     "fr": "[Exemple 5](https://www.w3.org/TR/activitystreams-vocabulary/#ex5-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's notes\",\n  \"type\": \"Collection\",\n  \"totalItems\": 2,\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"A Simple Note\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Another Simple Note\"\n    }\n  ]\n}\n```",
     "es": "[Ejemplo 5](https://www.w3.org/TR/activitystreams-vocabulary/#ex5-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's notes\",\n  \"type\": \"Collection\",\n  \"totalItems\": 2,\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"A Simple Note\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Another Simple Note\"\n    }\n  ]\n}\n```"
   },
   "narrower": [
     {
-      "id": "https://w3id.org/class/redaktor/includesObject",
-      "prefLabel": {
-        "en": "includes object",
-        "de": "schließt Objekt ein",
-        "fr": "inclut l'objet",
-        "es": "incluye objeto"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/Atlas",
       "prefLabel": {
-        "en": "Atlas",
         "de": "Atlas",
+        "en": "Atlas",
         "fr": "Atlas",
         "es": "Atlas"
       }
@@ -52,8 +43,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Blog",
       "prefLabel": {
-        "en": "Blog",
         "de": "Blog",
+        "en": "Blog",
         "fr": "Blog",
         "es": "Blog"
       }
@@ -61,8 +52,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Book",
       "prefLabel": {
-        "en": "Book",
         "de": "Buch",
+        "en": "Book",
         "fr": "Livre",
         "es": "Libro"
       }
@@ -70,8 +61,8 @@
     {
       "id": "https://w3id.org/class/redaktor/ImageGallery",
       "prefLabel": {
-        "en": "Image Gallery",
         "de": "Bildergalerie",
+        "en": "Image Gallery",
         "fr": "Galerie d'images",
         "es": "Galería de imágenes"
       }
@@ -79,8 +70,8 @@
     {
       "id": "https://w3id.org/class/redaktor/PhotoEssay",
       "prefLabel": {
-        "en": "Photo-essay",
         "de": "Foto-Essay",
+        "en": "Photo-essay",
         "fr": "Essai photographique",
         "es": "Foto-ensayo"
       }
@@ -88,8 +79,8 @@
     {
       "id": "https://w3id.org/class/redaktor/PhotoReportage",
       "prefLabel": {
-        "en": "Photoreportage",
         "de": "Fotoreportage",
+        "en": "Photoreportage",
         "fr": "Photoreportage",
         "es": "Fotoreportaje"
       }
@@ -97,8 +88,8 @@
     {
       "id": "https://w3id.org/class/redaktor/VideoGallery",
       "prefLabel": {
-        "en": "Video Gallery",
         "de": "Video-Galerie",
+        "en": "Video Gallery",
         "fr": "Galerie de vidéos",
         "es": "Galería de vídeos"
       }
@@ -106,8 +97,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Trip",
       "prefLabel": {
-        "en": "Trip",
         "de": "Reise",
+        "en": "Trip",
         "fr": "Voyage",
         "es": "Viaje"
       }
@@ -115,8 +106,8 @@
     {
       "id": "https://w3id.org/class/redaktor/current",
       "prefLabel": {
-        "en": "current",
         "de": "derzeit",
+        "en": "current",
         "fr": "courant",
         "es": "corriente"
       }
@@ -124,8 +115,8 @@
     {
       "id": "https://w3id.org/class/redaktor/first",
       "prefLabel": {
-        "en": "first",
         "de": "erste",
+        "en": "first",
         "fr": "premièrement",
         "es": "primera"
       }
@@ -133,8 +124,8 @@
     {
       "id": "https://w3id.org/class/redaktor/items",
       "prefLabel": {
-        "en": "items",
         "de": "Elemente",
+        "en": "items",
         "fr": "éléments",
         "es": "elementos"
       }
@@ -142,8 +133,8 @@
     {
       "id": "https://w3id.org/class/redaktor/last",
       "prefLabel": {
-        "en": "last",
         "de": "letzte",
+        "en": "last",
         "fr": "dernier",
         "es": "última"
       }
@@ -151,8 +142,8 @@
     {
       "id": "https://w3id.org/class/redaktor/next",
       "prefLabel": {
-        "en": "next",
         "de": "nächste",
+        "en": "next",
         "fr": "prochaine",
         "es": "próxima"
       }
@@ -160,8 +151,8 @@
     {
       "id": "https://w3id.org/class/redaktor/partOf",
       "prefLabel": {
-        "en": "part of",
         "de": "Teil von",
+        "en": "part of",
         "fr": "partie de",
         "es": "parte de"
       }
@@ -169,8 +160,8 @@
     {
       "id": "https://w3id.org/class/redaktor/prev",
       "prefLabel": {
-        "en": "previous",
         "de": "vorherige",
+        "en": "previous",
         "fr": "précédente",
         "es": "anterior"
       }
@@ -178,8 +169,8 @@
     {
       "id": "https://w3id.org/class/redaktor/totalItems",
       "prefLabel": {
-        "en": "total items",
         "de": "Gesamtanzahl",
+        "en": "total items",
         "fr": "Nombre total",
         "es": "Número total"
       }
@@ -187,8 +178,8 @@
     {
       "id": "https://join-lemmy.org#moderators",
       "prefLabel": {
-        "en": "moderators",
         "de": "Moderatoren",
+        "en": "moderators",
         "fr": "modérateurs",
         "es": "moderadores"
       }
@@ -196,18 +187,27 @@
     {
       "id": "https://w3id.org/class/redaktor/Summary",
       "prefLabel": {
-        "en": "Briefing",
         "de": "Briefing",
+        "en": "Briefing",
         "fr": "Briefing",
         "es": "Briefing"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/includesObject",
+      "prefLabel": {
+        "de": "schließt Objekt ein",
+        "en": "includes object",
+        "fr": "inclut l'objet",
+        "es": "incluye objeto"
       }
     }
   ],
   "broader": {
     "id": "https://w3id.org/class/redaktor/Object",
     "prefLabel": {
-      "en": "Object",
       "de": "Objekt",
+      "en": "Object",
       "fr": "Objet",
       "es": "Objeto"
     }
@@ -220,8 +220,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

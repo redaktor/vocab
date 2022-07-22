@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fcolorist",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fcolorist",
   "prefLabel": {
-    "en": "colorist",
     "de": "Kolorist",
+    "en": "colorist",
     "fr": "coloriste",
     "es": "colorista"
   },
   "definition": {
+    "de": "Die Person, die Tuschezeichnungen Farbe hinzufügt.",
     "en": "The individual who adds color to inked drawings.",
-    "de": "The individual who adds color to inked drawings.",
-    "fr": "The individual who adds color to inked drawings.",
-    "es": "The individual who adds color to inked drawings."
+    "fr": "La personne qui ajoute de la couleur aux dessins encrés.",
+    "es": "El individuo que añade color a los dibujos entintados."
   },
   "notation": [
     "1853"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

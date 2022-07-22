@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FisFamilyFriendly",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FisFamilyFriendly",
   "prefLabel": {
-    "en": "is family friendly",
     "de": "ist familienfreundlich",
+    "en": "is family friendly",
     "fr": "est adapté aux familles",
     "es": "es familiar"
   },
   "definition": {
+    "de": "Gibt an, ob dieser Inhalt familienfreundlich ist.",
     "en": "Indicates whether this content is family friendly.",
-    "de": "Indicates whether this content is family friendly.",
-    "fr": "Indicates whether this content is family friendly.",
-    "es": "Indicates whether this content is family friendly."
+    "fr": "Indique si ce contenu est adapté aux familles.",
+    "es": "Indica si este contenido es apto para familias."
   },
   "notation": [
     "2031"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FChapter",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FChapter",
   "prefLabel": {
-    "en": "Chapter",
     "de": "Kapitel",
+    "en": "Chapter",
     "fr": "Chapitre",
     "es": "Capítulo"
   },
   "definition": {
-    "en": "One of the sections into which a book is divided. A chapter usually has a section number or a name.",
     "de": "Einer der Abschnitte, in die ein Buch unterteilt ist. Ein Kapitel hat normalerweise eine Abschnittsnummer oder einen Namen.",
+    "en": "One of the sections into which a book is divided. A chapter usually has a section number or a name.",
     "fr": "L'une des sections en lesquelles un livre est divisé. Un chapitre porte généralement un numéro de section ou un nom.",
     "es": "Una de las secciones en que se divide un libro. Un capítulo suele tener un número de sección o un nombre."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/pageEnd",
       "prefLabel": {
-        "en": "page end",
         "de": "Seite Ende",
+        "en": "page end",
         "fr": "fin de page",
         "es": "fin de página"
       }
@@ -31,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/pageStart",
       "prefLabel": {
-        "en": "page start",
         "de": "Seitenanfang",
+        "en": "page start",
         "fr": "début de page",
         "es": "inicio de página"
       }
@@ -40,8 +40,8 @@
     {
       "id": "https://w3id.org/class/redaktor/pagination",
       "prefLabel": {
-        "en": "pagination",
         "de": "Paginierung",
+        "en": "pagination",
         "fr": "pagination",
         "es": "paginación"
       }
@@ -55,8 +55,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

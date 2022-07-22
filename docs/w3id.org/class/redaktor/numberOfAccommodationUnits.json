@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FnumberOfAccommodationUnits",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FnumberOfAccommodationUnits",
   "prefLabel": {
-    "en": "number of accommodation units",
     "de": "Anzahl der Wohneinheiten",
+    "en": "number of accommodation units",
     "fr": "nombre d'unités d'hébergement",
     "es": "número de unidades de alojamiento"
   },
   "definition": {
+    "de": "Gibt die Gesamtzahl (verfügbar plus nicht verfügbar) der Unterkunftseinheiten in einem [[ApartmentComplex]] oder die Anzahl der Unterkunftseinheiten für einen bestimmten [[FloorPlan]] (innerhalb seines spezifischen [[ApartmentComplex]]) an. Siehe auch [[numberOfAvailableAccommodationUnits]].",
     "en": "Indicates the total (available plus unavailable) number of accommodation units in an [[ApartmentComplex]], or the number of accommodation units for a specific [[FloorPlan]] (within its specific [[ApartmentComplex]]). See also [[numberOfAvailableAccommodationUnits]].",
-    "de": "Indicates the total (available plus unavailable) number of accommodation units in an [[ApartmentComplex]], or the number of accommodation units for a specific [[FloorPlan]] (within its specific [[ApartmentComplex]]). See also [[numberOfAvailableAccommodationUnits]].",
-    "fr": "Indicates the total (available plus unavailable) number of accommodation units in an [[ApartmentComplex]], or the number of accommodation units for a specific [[FloorPlan]] (within its specific [[ApartmentComplex]]). See also [[numberOfAvailableAccommodationUnits]].",
-    "es": "Indicates the total (available plus unavailable) number of accommodation units in an [[ApartmentComplex]], or the number of accommodation units for a specific [[FloorPlan]] (within its specific [[ApartmentComplex]]). See also [[numberOfAvailableAccommodationUnits]]."
+    "fr": "Indique le nombre total (disponible plus indisponible) d'unités de logement dans un [[Complexe d'appartements]], ou le nombre d'unités de logement pour un [[Plan d'étage]] spécifique (dans son [[Complexe d'appartements]] spécifique). Voir également [[numberOfAvailableAccommodationUnits]].",
+    "es": "Indica el número total (disponible más no disponible) de unidades de alojamiento en un [[ApartmentComplex]], o el número de unidades de alojamiento para un [[FloorPlan]] específico (dentro de su [[ApartmentComplex]] específico). Véase también [[numberOfAccommodationUnits]]."
   },
   "notation": [
     "2103"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/QuantitativeValue",
+      "prefLabel": {
+        "de": "Quantitativer Wert",
+        "en": "Quantitative Value",
+        "fr": "Valeur quantitative",
+        "es": "Valor cuantitativo"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

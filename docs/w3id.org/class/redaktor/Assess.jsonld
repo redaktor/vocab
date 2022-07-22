@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAssess",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FAssess",
   "prefLabel": {
-    "en": "Assess",
     "de": "Bewerten",
+    "en": "Assess",
     "fr": "Évaluer",
     "es": "Evaluar"
   },
   "definition": {
-    "en": "The act of forming one's opinion, reaction or sentiment.",
     "de": "Der Akt, sich eine Meinung, eine Reaktion oder ein Gefühl zu bilden.",
+    "en": "The act of forming one's opinion, reaction or sentiment.",
     "fr": "Action de se faire une opinion, une réaction ou un sentiment.",
     "es": "El acto de formarse una opinión, reacción o sentimiento."
   },
@@ -21,8 +21,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Activity",
     "prefLabel": {
-      "en": "Activity",
       "de": "Aktivität",
+      "en": "Activity",
       "fr": "Activité",
       "es": "Actividad"
     }
@@ -35,8 +35,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

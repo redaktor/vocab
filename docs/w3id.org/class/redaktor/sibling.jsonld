@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fsibling",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fsibling",
   "prefLabel": {
-    "en": "sibling",
     "de": "geschwister",
+    "en": "sibling",
     "fr": "frère et sœur",
     "es": "hermano"
   },
   "definition": {
+    "de": "Ein Geschwisterteil der Person.",
     "en": "A sibling of the person.",
-    "de": "A sibling of the person.",
-    "fr": "A sibling of the person.",
-    "es": "A sibling of the person."
+    "fr": "Un frère ou une sœur de la personne.",
+    "es": "Un hermano de la persona."
   },
   "notation": [
     "2215"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

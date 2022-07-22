@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FstarRating",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FstarRating",
   "prefLabel": {
-    "en": "star rating",
     "de": "Sternebewertung",
+    "en": "star rating",
     "fr": "classement par étoiles",
     "es": "clasificación por estrellas"
   },
   "definition": {
+    "de": "Eine offizielle Bewertung für ein Beherbergungsunternehmen oder einen Gastronomiebetrieb, z. B. von nationalen Verbänden oder Normungsgremien. Verwenden Sie die Eigenschaft Autor, um die Bewertungsorganisation anzugeben, z. B. als Organisation mit Namen wie (z. B. HOTREC, DEHOGA, WHR oder Hotelstars).",
     "en": "An official rating for a lodging business or food establishment, e.g. from national associations or standards bodies. Use the author property to indicate the rating organization, e.g. as an Organization with name such as (e.g. HOTREC, DEHOGA, WHR, or Hotelstars).",
-    "de": "An official rating for a lodging business or food establishment, e.g. from national associations or standards bodies. Use the author property to indicate the rating organization, e.g. as an Organization with name such as (e.g. HOTREC, DEHOGA, WHR, or Hotelstars).",
-    "fr": "An official rating for a lodging business or food establishment, e.g. from national associations or standards bodies. Use the author property to indicate the rating organization, e.g. as an Organization with name such as (e.g. HOTREC, DEHOGA, WHR, or Hotelstars).",
-    "es": "An official rating for a lodging business or food establishment, e.g. from national associations or standards bodies. Use the author property to indicate the rating organization, e.g. as an Organization with name such as (e.g. HOTREC, DEHOGA, WHR, or Hotelstars)."
+    "fr": "Une évaluation officielle d'un établissement d'hébergement ou de restauration, par exemple par des associations nationales ou des organismes de normalisation. Utilisez la propriété author pour indiquer l'organisme de notation, par exemple sous la forme d'une organisation avec un nom tel que (par exemple HOTREC, DEHOGA, WHR ou Hotelstars).",
+    "es": "Una calificación oficial para un negocio de alojamiento o un establecimiento de comida, por ejemplo, de asociaciones nacionales u organismos de normalización. Utilice la propiedad author para indicar la organización de calificación, por ejemplo, como una Organización con nombre como (por ejemplo, HOTREC, DEHOGA, WHR, o Hotelstars)."
   },
   "notation": [
     "2231"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/Rating",
+      "prefLabel": {
+        "de": "Bewertung",
+        "en": "Rating",
+        "fr": "Classement",
+        "es": "Clasificación"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FUse",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FUse",
   "prefLabel": {
-    "en": "Use",
     "de": "Verwenden",
+    "en": "Use",
     "fr": "Utiliser",
     "es": "Utilizar"
   },
   "definition": {
-    "en": "The act of applying an object to its intended purpose.",
     "de": "Der Akt der Anwendung eines Objekts für den vorgesehenen Zweck.",
+    "en": "The act of applying an object to its intended purpose.",
     "fr": "Action d'appliquer un objet à l'usage auquel il est destiné.",
     "es": "Acto de aplicar un objeto a su finalidad."
   },
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

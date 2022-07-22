@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FdeathDate",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FdeathDate",
   "prefLabel": {
-    "en": "death date",
     "de": "Sterbedatum",
+    "en": "death date",
     "fr": "date de décès",
     "es": "fecha de fallecimiento"
   },
   "definition": {
+    "de": "Datum des Todes.",
     "en": "Date of death.",
-    "de": "Date of death.",
-    "fr": "Date of death.",
-    "es": "Date of death."
+    "fr": "Date du décès.",
+    "es": "Fecha de la muerte."
   },
   "notation": [
     "1893"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

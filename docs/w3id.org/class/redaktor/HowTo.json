@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FHowTo",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FHowTo",
   "prefLabel": {
-    "en": "How To",
     "de": "Anleitungen, How To",
+    "en": "How To",
     "fr": "Comment faire",
     "es": "HowTo"
   },
   "definition": {
-    "en": "Instructions that explain how to achieve a result by performing a sequence of steps.",
     "de": "Anweisungen, die erklären, wie man ein Ergebnis durch eine Abfolge von Schritten erreicht.",
+    "en": "Instructions that explain how to achieve a result by performing a sequence of steps.",
     "fr": "Instructions qui expliquent comment obtenir un résultat en exécutant une séquence d'étapes.",
     "es": "Instrucciones que explican cómo conseguir un resultado mediante una secuencia de pasos."
   },
@@ -22,26 +22,53 @@
     {
       "id": "https://w3id.org/class/redaktor/Recipe",
       "prefLabel": {
-        "en": "Recipe",
         "de": "Rezept",
+        "en": "Recipe",
         "fr": "Recette",
         "es": "Receta"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/tool",
+      "prefLabel": {
+        "de": "Werkzeug",
+        "en": "tool",
+        "fr": "outil",
+        "es": "herramienta"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/yield",
+      "prefLabel": {
+        "de": "Ertrag",
+        "en": "yield",
+        "fr": "rendement",
+        "es": "rendimiento"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/estimatedCost",
       "prefLabel": {
-        "en": "estimated cost",
         "de": "Geschätzte Kosten",
+        "en": "estimated cost",
         "fr": "coût estimé",
         "es": "coste estimado"
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/supply",
+      "prefLabel": {
+        "de": "Versorgung",
+        "en": "supply",
+        "fr": "approvisionnement",
+        "es": "suministro"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/performTime",
       "prefLabel": {
-        "en": "perform time",
         "de": "Spielzeit",
+        "en": "perform time",
         "fr": "temps d'exécution",
         "es": "realizar el tiempo"
       }
@@ -49,8 +76,8 @@
     {
       "id": "https://w3id.org/class/redaktor/prepTime",
       "prefLabel": {
-        "en": "prep time",
         "de": "Vorbereitungszeit",
+        "en": "prep time",
         "fr": "temps de préparation",
         "es": "tiempo de preparación"
       }
@@ -58,8 +85,8 @@
     {
       "id": "https://w3id.org/class/redaktor/step",
       "prefLabel": {
-        "en": "step",
         "de": "Schritt",
+        "en": "step",
         "fr": "étape",
         "es": "paso"
       }
@@ -67,46 +94,19 @@
     {
       "id": "https://w3id.org/class/redaktor/steps",
       "prefLabel": {
-        "en": "steps",
         "de": "Stufen",
+        "en": "steps",
         "fr": "étapes",
         "es": "pasos"
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/supply",
-      "prefLabel": {
-        "en": "supply",
-        "de": "Versorgung",
-        "fr": "approvisionnement",
-        "es": "suministro"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/tool",
-      "prefLabel": {
-        "en": "tool",
-        "de": "Werkzeug",
-        "fr": "outil",
-        "es": "herramienta"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/totalTime",
       "prefLabel": {
-        "en": "total time",
         "de": "Gesamtzeit",
+        "en": "total time",
         "fr": "temps total",
         "es": "tiempo total"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/yield",
-      "prefLabel": {
-        "en": "yield",
-        "de": "Ertrag",
-        "fr": "rendement",
-        "es": "rendimiento"
       }
     }
   ],
@@ -118,8 +118,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

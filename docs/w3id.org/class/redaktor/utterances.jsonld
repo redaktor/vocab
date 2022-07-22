@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Futterances",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Futterances",
   "prefLabel": {
-    "en": "utterances",
     "de": "Aussagen",
+    "en": "utterances",
     "fr": "énoncés",
     "es": "declaraciones"
   },
   "definition": {
+    "de": "Text einer Äußerung (gesprochene Worte, Liedtexte usw.), der an einem bestimmten Abschnitt eines Medienobjekts vorkommt, dargestellt als [[HyperTocEntry]].",
     "en": "Text of an utterances (spoken words, lyrics etc.) that occurs at a certain section of a media object, represented as a [[HyperTocEntry]].",
-    "de": "Text of an utterances (spoken words, lyrics etc.) that occurs at a certain section of a media object, represented as a [[HyperTocEntry]].",
-    "fr": "Text of an utterances (spoken words, lyrics etc.) that occurs at a certain section of a media object, represented as a [[HyperTocEntry]].",
-    "es": "Text of an utterances (spoken words, lyrics etc.) that occurs at a certain section of a media object, represented as a [[HyperTocEntry]]."
+    "fr": "Texte d'un énoncé (mots parlés, paroles de chansons, etc.) qui se produit dans une certaine section d'un objet média, représenté comme une [[HyperTocEntry]].",
+    "es": "Texto de una expresión (palabras habladas, letras de canciones, etc.) que se produce en una determinada sección de un objeto multimedia, representado como una [[HyperTocEntry]]."
   },
   "notation": [
     "2280"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

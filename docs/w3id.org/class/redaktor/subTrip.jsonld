@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FsubTrip",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FsubTrip",
   "prefLabel": {
-    "en": "sub trip",
     "de": "Unterreise",
+    "en": "sub trip",
     "fr": "sous voyage",
     "es": "sub viaje"
   },
   "definition": {
+    "de": "Bezeichnet eine [[Reise]], die eine Unterreise dieser Reise ist.  Zum Beispiel Tag 1, Tag 2, usw. einer mehrtägigen Reise.",
     "en": "Identifies a [[Trip]] that is a subTrip of this Trip.  For example Day 1, Day 2, etc. of a multi-day trip.",
-    "de": "Identifies a [[Trip]] that is a subTrip of this Trip.  For example Day 1, Day 2, etc. of a multi-day trip.",
-    "fr": "Identifies a [[Trip]] that is a subTrip of this Trip.  For example Day 1, Day 2, etc. of a multi-day trip.",
-    "es": "Identifies a [[Trip]] that is a subTrip of this Trip.  For example Day 1, Day 2, etc. of a multi-day trip."
+    "fr": "Identifie un [[Voyage]] qui est un sous-voyage de ce Voyage.  Par exemple, le jour 1, le jour 2, etc. d'un voyage de plusieurs jours.",
+    "es": "Identifica un [[Viaje]] que es un subviaje de este viaje.  Por ejemplo, el Día 1, el Día 2, etc. de un viaje de varios días."
   },
   "notation": [
     "2237"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

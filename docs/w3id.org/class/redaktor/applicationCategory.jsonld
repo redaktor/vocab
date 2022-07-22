@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FapplicationCategory",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FapplicationCategory",
   "prefLabel": {
-    "en": "application category",
     "de": "Anwendungskategorie",
+    "en": "application category",
     "fr": "catégorie d'application",
     "es": "categoría de aplicación"
   },
   "definition": {
+    "de": "Art der Softwareanwendung, z. B. \"Spiel, Multimedia\".",
     "en": "Type of software application, e.g. 'Game, Multimedia'.",
-    "de": "Type of software application, e.g. 'Game, Multimedia'.",
-    "fr": "Type of software application, e.g. 'Game, Multimedia'.",
-    "es": "Type of software application, e.g. 'Game, Multimedia'."
+    "fr": "Type d'application logicielle, par exemple \"Jeu, multimédia\".",
+    "es": "Tipo de aplicación de software, por ejemplo, \"Juego, Multimedia\"."
   },
   "notation": [
     "1775"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

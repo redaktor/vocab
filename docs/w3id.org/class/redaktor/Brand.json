@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fbrand",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fbrand",
   "prefLabel": {
-    "en": "brand",
     "de": "Marke",
+    "en": "brand",
     "fr": "marque",
     "es": "marca"
   },
   "definition": {
+    "de": "Die Marke(n), die mit einem Produkt oder einer Dienstleistung verbunden ist/sind, oder die Marke(n), die von einer Organisation oder einer Geschäftsperson gepflegt wird/werden.",
     "en": "The brand(s) associated with a product or service, or the brand(s) maintained by an organization or business person.",
-    "de": "The brand(s) associated with a product or service, or the brand(s) maintained by an organization or business person.",
-    "fr": "The brand(s) associated with a product or service, or the brand(s) maintained by an organization or business person.",
-    "es": "The brand(s) associated with a product or service, or the brand(s) maintained by an organization or business person."
+    "fr": "La ou les marques associées à un produit ou à un service, ou la ou les marques entretenues par une organisation ou un homme d'affaires.",
+    "es": "La(s) marca(s) asociada(s) a un producto o servicio, o la(s) marca(s) mantenida(s) por una organización o persona de negocios."
   },
   "notation": [
     "1828"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
@@ -126,7 +126,8 @@
       "@container": "@set"
     }
   }
-}    "@container": "@language"
+}opeNote": {
+      "@container": "@language"
     },
     "note": {
       "@container": "@language"

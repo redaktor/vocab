@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FshippingDetails",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FshippingDetails",
   "prefLabel": {
-    "en": "shipping details",
     "de": "Versanddetails",
+    "en": "shipping details",
     "fr": "détails d'expédition",
     "es": "detalles de envío"
   },
   "definition": {
+    "de": "Zeigt Informationen über die Versandrichtlinien und -optionen an, die mit einem [[Angebot]] verbunden sind.",
     "en": "Indicates information about the shipping policies and options associated with an [[Offer]].",
-    "de": "Indicates information about the shipping policies and options associated with an [[Offer]].",
-    "fr": "Indicates information about the shipping policies and options associated with an [[Offer]].",
-    "es": "Indicates information about the shipping policies and options associated with an [[Offer]]."
+    "fr": "Indique des informations sur les politiques et les options d'expédition associées à une [[Offre]].",
+    "es": "Indica información sobre las políticas y opciones de envío asociadas a una [[Oferta]]."
   },
   "notation": [
     "2214"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/OfferShippingDetails",
+      "prefLabel": {
+        "de": "Angebot Versanddetails",
+        "en": "Offer Shipping Details",
+        "fr": "Détails d'expédition de l'offre",
+        "es": "Detalles del envío de la oferta"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

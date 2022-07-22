@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FexampleOfWork",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FexampleOfWork",
   "prefLabel": {
-    "en": "example of work",
     "de": "Beispiel einer Arbeit",
+    "en": "example of work",
     "fr": "exemple de travail",
     "es": "ejemplo de trabajo"
   },
   "definition": {
+    "de": "Ein schöpferisches Werk, für das dieses Werk ein Beispiel/eine Instanz/eine Verwirklichung/eine Ableitung ist.",
     "en": "A creative work that this work is an example/instance/realization/derivation of.",
-    "de": "A creative work that this work is an example/instance/realization/derivation of.",
-    "fr": "A creative work that this work is an example/instance/realization/derivation of.",
-    "es": "A creative work that this work is an example/instance/realization/derivation of."
+    "fr": "Une œuvre de création dont cette œuvre est un exemple/instance/réalisation/dérivation.",
+    "es": "Una obra creativa de la que esta obra es un ejemplo/instancia/realización/derivación."
   },
   "notation": [
     "1943"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

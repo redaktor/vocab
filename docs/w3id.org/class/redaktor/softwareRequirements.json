@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FsoftwareRequirements",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FsoftwareRequirements",
   "prefLabel": {
-    "en": "software requirements",
     "de": "Software-Anforderungen",
+    "en": "software requirements",
     "fr": "exigences du logiciel",
     "es": "requisitos de software"
   },
   "definition": {
+    "de": "Anforderungen an die Komponentenabhängigkeit der Anwendung. Dazu gehören Laufzeitumgebungen und gemeinsam genutzte Bibliotheken, die nicht im Verteilungspaket der Anwendung enthalten sind, aber für die Ausführung der Anwendung erforderlich sind (Beispiele: DirectX, Java oder .NET Runtime).",
     "en": "Component dependency requirements for application. This includes runtime environments and shared libraries that are not included in the application distribution package, but required to run the application (Examples: DirectX, Java or .NET runtime).",
-    "de": "Component dependency requirements for application. This includes runtime environments and shared libraries that are not included in the application distribution package, but required to run the application (Examples: DirectX, Java or .NET runtime).",
-    "fr": "Component dependency requirements for application. This includes runtime environments and shared libraries that are not included in the application distribution package, but required to run the application (Examples: DirectX, Java or .NET runtime).",
-    "es": "Component dependency requirements for application. This includes runtime environments and shared libraries that are not included in the application distribution package, but required to run the application (Examples: DirectX, Java or .NET runtime)."
+    "fr": "Exigences relatives aux dépendances des composants de l'application. Cela inclut les environnements d'exécution et les bibliothèques partagées qui ne sont pas inclus dans le paquet de distribution de l'application, mais qui sont nécessaires pour exécuter l'application (exemples : DirectX, Java ou .NET runtime).",
+    "es": "Requisitos de dependencia de los componentes para la aplicación. Esto incluye los entornos de ejecución y las bibliotecas compartidas que no se incluyen en el paquete de distribución de la aplicación, pero que son necesarios para ejecutarla (Ejemplos: DirectX, Java o .NET runtime)."
   },
   "notation": [
     "2222"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

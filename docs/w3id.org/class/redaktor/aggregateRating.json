@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FaggregateRating",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FaggregateRating",
   "prefLabel": {
-    "en": "aggregate rating",
     "de": "Gesamtbewertung",
+    "en": "aggregate rating",
     "fr": "cote globale",
     "es": "calificación agregada"
   },
   "definition": {
-    "en": "The overall rating, based on a collection of reviews or ratings, of the item.",
     "de": "Die Gesamtbewertung des Eintrags auf der Grundlage einer Sammlung von Rezensionen oder Bewertungen.",
+    "en": "The overall rating, based on a collection of reviews or ratings, of the item.",
     "fr": "La note globale, basée sur une collection d'avis ou de notes, de l'article.",
     "es": "La calificación global, basada en una colección de reseñas o valoraciones, del artículo."
   },
   "notation": [
     "1589"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/AggregateRating",
+      "prefLabel": {
+        "de": "Aggregierte Bewertung",
+        "en": "Aggregate Rating",
+        "fr": "Cote globale",
+        "es": "Calificación agregada"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
@@ -105,6 +116,28 @@
     "narrowerTransitive": {
       "@container": "@set"
     },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}  },
     "broaderTransitive": {
       "@container": "@set"
     },

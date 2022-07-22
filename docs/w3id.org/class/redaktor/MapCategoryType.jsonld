@@ -1,0 +1,167 @@
+{
+  "id": "https://w3id.org/class/redaktor/MapCategoryType",
+  "type": "Concept",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FMapCategoryType",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FMapCategoryType",
+  "prefLabel": {
+    "de": "Karte Kategorie Typ",
+    "en": "Map Category Type",
+    "fr": "Catégorie de carte Type",
+    "es": "Tipo de categoría de mapa"
+  },
+  "definition": {
+    "de": "Eine Aufzählung verschiedener Arten von Karten.",
+    "en": "An enumeration of several kinds of Map.",
+    "fr": "Une énumération de plusieurs types de cartes.",
+    "es": "Una enumeración de varios tipos de Mapa."
+  },
+  "notation": [
+    "1366"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/SeatingMap",
+      "prefLabel": {
+        "de": "Sitzplan",
+        "en": "Seating Map",
+        "fr": "Plan des sièges",
+        "es": "Mapa de asientos"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/VenueMap",
+      "prefLabel": {
+        "de": "Veranstaltungsort Karte",
+        "en": "Venue Map",
+        "fr": "Plan du lieu",
+        "es": "Mapa del lugar"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/ParkingMap",
+      "prefLabel": {
+        "de": "Parkkarte",
+        "en": "Parking Map",
+        "fr": "Plan de stationnement",
+        "es": "Mapa de aparcamiento"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/TransitMap",
+      "prefLabel": {
+        "de": "Transitkarte",
+        "en": "Transit Map",
+        "fr": "Carte de transit",
+        "es": "Mapa de tránsito"
+      }
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "schema:MapCategoryType"
+    }
+  ],
+  "inScheme": {
+    "id": "https://w3id.org/class/redaktor/scheme",
+    "title": {
+      "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
+      "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
+      "es": "ActivityPub y sus amigos - Una ontología del fediverso"
+    }
+  },
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "scopeNote": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "followers": "as:followers",
+    "inbox": "ldp:inbox",
+    "hasTopConcept": {
+      "@container": "@set"
+    }
+  }
+}

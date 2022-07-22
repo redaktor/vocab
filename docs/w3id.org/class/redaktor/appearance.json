@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fappearance",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fappearance",
   "prefLabel": {
-    "en": "appearance",
     "de": "Erscheinungsbild",
+    "en": "appearance",
     "fr": "apparence",
     "es": "aparición"
   },
   "definition": {
+    "de": "Zeigt das Vorkommen eines [[Claim]]s in einem [[CreativeWork]] an.",
     "en": "Indicates an occurence of a [[Claim]] in some [[CreativeWork]].",
-    "de": "Indicates an occurence of a [[Claim]] in some [[CreativeWork]].",
-    "fr": "Indicates an occurence of a [[Claim]] in some [[CreativeWork]].",
-    "es": "Indicates an occurence of a [[Claim]] in some [[CreativeWork]]."
+    "fr": "Indique l'apparition d'une [[Revendication]] dans une [[Œuvre de création]].",
+    "es": "Indica la aparición de una [[Reclamación]] en algún [[Trabajo Creativo]]."
   },
   "notation": [
     "1774"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

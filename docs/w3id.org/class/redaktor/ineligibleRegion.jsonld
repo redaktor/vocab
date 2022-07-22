@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FineligibleRegion",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FineligibleRegion",
   "prefLabel": {
-    "en": "ineligible region",
     "de": "nicht förderfähige Region",
+    "en": "ineligible region",
     "fr": "région non admissible",
     "es": "región no elegible"
   },
   "definition": {
-    "en": "The ISO 3166-1 (ISO 3166-1 alpha-2) or ISO 3166-2 code, the place, or the GeoShape for the geo-political region(s) for which the offer or delivery charge specification is not valid, e.g. a region where the transaction is not allowed.\n\nSee also [[eligibleRegion]].",
-    "de": "The ISO 3166-1 (ISO 3166-1 alpha-2) or ISO 3166-2 code, the place, or the GeoShape for the geo-political region(s) for which the offer or delivery charge specification is not valid, e.g. a region where the transaction is not allowed.\n\nSee also [[eligibleRegion]].",
-    "fr": "The ISO 3166-1 (ISO 3166-1 alpha-2) or ISO 3166-2 code, the place, or the GeoShape for the geo-political region(s) for which the offer or delivery charge specification is not valid, e.g. a region where the transaction is not allowed.\n\nSee also [[eligibleRegion]].",
-    "es": "The ISO 3166-1 (ISO 3166-1 alpha-2) or ISO 3166-2 code, the place, or the GeoShape for the geo-political region(s) for which the offer or delivery charge specification is not valid, e.g. a region where the transaction is not allowed.\n\nSee also [[eligibleRegion]]."
+    "de": "Der ISO 3166-1 (ISO 3166-1 alpha-2) oder ISO 3166-2 Code, der Ort oder der GeoShape für die geopolitische(n) Region(en), für die die Angebots- oder Liefergebührenspezifikation nicht gültig ist, z. B. eine Region, in der die Transaktion nicht zulässig ist. Siehe auch [[eligibleRegion]].",
+    "en": "The ISO 3166-1 (ISO 3166-1 alpha-2) or ISO 3166-2 code, the place, or the GeoShape for the geo-political region(s) for which the offer or delivery charge specification is not valid, e.g. a region where the transaction is not allowed. See also [[eligibleRegion]].",
+    "fr": "Le code ISO 3166-1 (ISO 3166-1 alpha-2) ou ISO 3166-2, le lieu ou le GeoShape de la ou des régions géopolitiques pour lesquelles l'offre ou la spécification des frais de livraison n'est pas valable, par exemple une région où la transaction n'est pas autorisée. Voir également [[eligibleRegion]].",
+    "es": "El código ISO 3166-1 (ISO 3166-1 alpha-2) o ISO 3166-2, el lugar o el GeoShape de la(s) región(es) geopolítica(s) para la(s) cual(es) la especificación de la oferta o de los gastos de entrega no es válida, por ejemplo, una región donde la transacción no está permitida. Véase también [[eligibleRegion]]."
   },
   "notation": [
     "2018"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

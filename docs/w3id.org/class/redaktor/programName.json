@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FprogramName",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FprogramName",
   "prefLabel": {
-    "en": "program name",
     "de": "Programmname",
+    "en": "program name",
     "fr": "nom de programme",
     "es": "nombre del programa"
   },
   "definition": {
+    "de": "Das Programm bietet die Mitgliedschaft.",
     "en": "The program providing the membership.",
-    "de": "The program providing the membership.",
-    "fr": "The program providing the membership.",
-    "es": "The program providing the membership."
+    "fr": "Le programme fournissant l'adhésion.",
+    "es": "El programa que proporciona la afiliación."
   },
   "notation": [
     "2164"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

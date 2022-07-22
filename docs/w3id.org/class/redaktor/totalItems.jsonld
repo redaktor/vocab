@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FtotalItems",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FtotalItems",
   "prefLabel": {
-    "en": "total items",
     "de": "Gesamtanzahl",
+    "en": "total items",
     "fr": "Nombre total",
     "es": "Número total"
   },
   "definition": {
-    "en": "A non-negative integer specifying the total number of objects contained by the logical view of the collection. This number might not reflect the actual number of items serialized within the Collection object instance.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems)",
     "de": "Eine nicht-negative ganze Zahl, die die Gesamtzahl der Objekte angibt, die in der logischen Sicht der Sammlung enthalten sind. Diese Zahl spiegelt möglicherweise nicht die tatsächliche Anzahl der in der Collection-Objektinstanz serialisierten Objekte wider.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems)",
+    "en": "A non-negative integer specifying the total number of objects contained by the logical view of the collection. This number might not reflect the actual number of items serialized within the Collection object instance.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems)",
     "fr": "Un nombre entier non négatif spécifiant le nombre total d'objets contenus dans la vue logique de la collection. Ce nombre peut ne pas refléter le nombre réel d'éléments sérialisés dans l'instance de l'objet Collection.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems)",
     "es": "Un número entero no negativo que especifica el número total de objetos que contiene la vista lógica de la colección. Este número puede no reflejar el número real de elementos serializados dentro de la instancia del objeto Colección.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-totalitems)"
   },
   "scopeNote": {
-    "en": ": Property",
     "de": ": Property",
+    "en": ": Property",
     "fr": ": Property",
     "es": ": Property"
   },
@@ -25,16 +25,16 @@
     "616"
   ],
   "example": {
-    "en": "[Example 135](https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's notes\",\n  \"type\": \"Collection\",\n  \"totalItems\": 2,\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"Which Staircase Should I Use\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Something to Remember\"\n    }\n  ]\n}\n```",
     "de": "[Beispiel 135](https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's notes\",\n  \"type\": \"Collection\",\n  \"totalItems\": 2,\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"Which Staircase Should I Use\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Something to Remember\"\n    }\n  ]\n}\n```",
+    "en": "[Example 135](https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's notes\",\n  \"type\": \"Collection\",\n  \"totalItems\": 2,\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"Which Staircase Should I Use\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Something to Remember\"\n    }\n  ]\n}\n```",
     "fr": "[Exemple 135](https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's notes\",\n  \"type\": \"Collection\",\n  \"totalItems\": 2,\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"Which Staircase Should I Use\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Something to Remember\"\n    }\n  ]\n}\n```",
     "es": "[Ejemplo 135](https://www.w3.org/TR/activitystreams-vocabulary/#ex156-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Sally's notes\",\n  \"type\": \"Collection\",\n  \"totalItems\": 2,\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"Which Staircase Should I Use\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Something to Remember\"\n    }\n  ]\n}\n```"
   },
   "broader": {
     "id": "https://w3id.org/class/redaktor/Collection",
     "prefLabel": {
-      "en": "Collection",
       "de": "Sammlung",
+      "en": "Collection",
       "fr": "Collection",
       "es": "Colección"
     }
@@ -47,8 +47,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

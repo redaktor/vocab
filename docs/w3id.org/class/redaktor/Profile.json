@@ -9,8 +9,8 @@
     "es": "Perfil"
   },
   "scopeNote": {
-    "en": ": Object",
     "de": ": Object",
+    "en": ": Object",
     "fr": ": Object",
     "es": ": Object"
   },
@@ -19,8 +19,8 @@
     "365"
   ],
   "example": {
-    "en": "[Example 59](https://www.w3.org/TR/activitystreams-vocabulary/#ex184a-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Profile\",\n  \"summary\": \"Sally's Profile\",\n  \"describes\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally Smith\"\n  }\n}\n```",
     "de": "[Beispiel 59](https://www.w3.org/TR/activitystreams-vocabulary/#ex184a-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Profile\",\n  \"summary\": \"Sally's Profile\",\n  \"describes\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally Smith\"\n  }\n}\n```",
+    "en": "[Example 59](https://www.w3.org/TR/activitystreams-vocabulary/#ex184a-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Profile\",\n  \"summary\": \"Sally's Profile\",\n  \"describes\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally Smith\"\n  }\n}\n```",
     "fr": "[Exemple 59](https://www.w3.org/TR/activitystreams-vocabulary/#ex184a-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Profile\",\n  \"summary\": \"Sally's Profile\",\n  \"describes\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally Smith\"\n  }\n}\n```",
     "es": "[Ejemplo 59](https://www.w3.org/TR/activitystreams-vocabulary/#ex184a-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Profile\",\n  \"summary\": \"Sally's Profile\",\n  \"describes\": {\n    \"type\": \"Person\",\n    \"name\": \"Sally Smith\"\n  }\n}\n```"
   },
@@ -28,8 +28,8 @@
     {
       "id": "https://w3id.org/class/redaktor/describes",
       "prefLabel": {
-        "en": "describes",
         "de": "beschreibt",
+        "en": "describes",
         "fr": "décrit",
         "es": "describe"
       }
@@ -46,8 +46,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FWildlifeHide",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FWildlifeHide",
   "prefLabel": {
-    "en": "Wildlife or Bird Hide",
     "de": "Versteck Wildtiere oder Vogelwarte",
+    "en": "Wildlife or Bird Hide",
     "fr": "Refuge, animaux sauvages ou oiseaux",
     "es": "Escondite de la fauna"
   },
@@ -15,8 +15,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

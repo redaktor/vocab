@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSoftwareSourceCode",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FSoftwareSourceCode",
   "prefLabel": {
-    "en": "Software Source Code",
     "de": "Software-Quellcode",
+    "en": "Software Source Code",
     "fr": "Code source du logiciel",
     "es": "Código fuente del software"
   },
   "definition": {
-    "en": "Computer programming source code. Example: Full (compile ready) solutions, code snippet samples, scripts, templates.",
     "de": "Quellcode der Computerprogrammierung. Beispiel: Vollständige (kompilierfähige) Lösungen, Code-Schnipsel, Skripte, Vorlagen.",
+    "en": "Computer programming source code. Example: Full (compile ready) solutions, code snippet samples, scripts, templates.",
     "fr": "Code source de programmation informatique. Exemple : Solutions complètes (prêtes à être compilées), échantillons d'extraits de code, scripts, modèles.",
     "es": "Un código fuente de programación informática. Por ejemplo: Soluciones completas (listas para compilar), muestras de fragmentos de código, scripts, plantillas."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/codeRepository",
       "prefLabel": {
-        "en": "code repository",
         "de": "Code-Repository",
+        "en": "code repository",
         "fr": "dépôt de code",
         "es": "repositorio de código"
       }
@@ -31,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/codeSampleType",
       "prefLabel": {
-        "en": "code sample type",
         "de": "Codebeispiel-Typ",
+        "en": "code sample type",
         "fr": "type d'échantillon de code",
         "es": "tipo de muestra de código"
       }
@@ -40,8 +40,8 @@
     {
       "id": "https://w3id.org/class/redaktor/programmingLanguage",
       "prefLabel": {
-        "en": "programming language",
         "de": "Programmiersprache",
+        "en": "programming language",
         "fr": "langage de programmation",
         "es": "lenguaje de programación"
       }
@@ -49,8 +49,8 @@
     {
       "id": "https://w3id.org/class/redaktor/runtime",
       "prefLabel": {
-        "en": "runtime",
         "de": "Laufzeit",
+        "en": "runtime",
         "fr": "runtime",
         "es": "tiempo de ejecución"
       }
@@ -58,8 +58,8 @@
     {
       "id": "https://w3id.org/class/redaktor/runtimePlatform",
       "prefLabel": {
-        "en": "runtime platform",
         "de": "Laufzeit-Plattform",
+        "en": "runtime platform",
         "fr": "plate-forme d'exécution",
         "es": "plataforma de tiempo de ejecución"
       }
@@ -67,8 +67,8 @@
     {
       "id": "https://w3id.org/class/redaktor/sampleType",
       "prefLabel": {
-        "en": "sample type",
         "de": "Beispieltyp",
+        "en": "sample type",
         "fr": "type d'échantillon",
         "es": "tipo de muestra"
       }
@@ -76,8 +76,8 @@
     {
       "id": "https://w3id.org/class/redaktor/targetProduct",
       "prefLabel": {
-        "en": "target product",
         "de": "Zielprodukt",
+        "en": "target product",
         "fr": "produit cible",
         "es": "producto de destino"
       }
@@ -91,8 +91,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fiso6523Code",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fiso6523Code",
   "prefLabel": {
-    "en": "iso6523 code",
     "de": "iso6523-Code",
+    "en": "iso6523 code",
     "fr": "code iso6523",
     "es": "código iso6523"
   },
   "definition": {
-    "en": "An organization identifier as defined in ISO 6523(-1). Note that many existing organization identifiers such as [leiCode](https://schema.org/leiCode), [duns](https://schema.org/duns) and [vatID](https://schema.org/vatID) can be expressed as an ISO 6523 identifier by setting the ICD part of the ISO 6523 identifier accordingly. ",
-    "de": "An organization identifier as defined in ISO 6523(-1). Note that many existing organization identifiers such as [leiCode](https://schema.org/leiCode), [duns](https://schema.org/duns) and [vatID](https://schema.org/vatID) can be expressed as an ISO 6523 identifier by setting the ICD part of the ISO 6523 identifier accordingly. ",
-    "fr": "An organization identifier as defined in ISO 6523(-1). Note that many existing organization identifiers such as [leiCode](https://schema.org/leiCode), [duns](https://schema.org/duns) and [vatID](https://schema.org/vatID) can be expressed as an ISO 6523 identifier by setting the ICD part of the ISO 6523 identifier accordingly. ",
-    "es": "An organization identifier as defined in ISO 6523(-1). Note that many existing organization identifiers such as [leiCode](https://schema.org/leiCode), [duns](https://schema.org/duns) and [vatID](https://schema.org/vatID) can be expressed as an ISO 6523 identifier by setting the ICD part of the ISO 6523 identifier accordingly. "
+    "de": "Eine Organisationskennung gemäß der Definition in ISO 6523(-1). Beachten Sie, dass viele bestehende Organisationskennungen wie [leiCode](https://schema.org/leiCode), [duns](https://schema.org/duns) und [vatID](https://schema.org/vatID) als ISO 6523-Kennung ausgedrückt werden können, indem der ICD-Teil der ISO 6523-Kennung entsprechend gesetzt wird.",
+    "en": "An organization identifier as defined in ISO 6523(-1). Note that many existing organization identifiers such as [leiCode](https://schema.org/leiCode), [duns](https://schema.org/duns) and [vatID](https://schema.org/vatID) can be expressed as an ISO 6523 identifier by setting the ICD part of the ISO 6523 identifier accordingly.",
+    "fr": "Un identifiant d'organisation tel que défini dans la norme ISO 6523(-1). Il convient de noter que de nombreux identificateurs d'organismes existants, tels que [leiCode](https://schema.org/leiCode), [duns](https://schema.org/duns) et [vatID](https://schema.org/vatID), peuvent être exprimés en tant qu'identificateur ISO 6523 en définissant la partie ICD de l'identificateur ISO 6523 en conséquence.",
+    "es": "Un identificador de organización tal y como se define en la norma ISO 6523(-1). Tenga en cuenta que muchos de los identificadores de organización existentes, como [leiCode](https://schema.org/leiCode), [duns](https://schema.org/duns) y [vatID](https://schema.org/vatID), pueden expresarse como un identificador ISO 6523 estableciendo la parte DCI del identificador ISO 6523 en consecuencia."
   },
   "notation": [
     "2039"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

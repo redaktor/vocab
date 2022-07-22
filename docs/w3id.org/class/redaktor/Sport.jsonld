@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fsport",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fsport",
   "prefLabel": {
-    "en": "sport",
     "de": "Sport",
+    "en": "sport",
     "fr": "sport",
     "es": "deporte"
   },
   "definition": {
+    "de": "Eine Sportart (z. B. Baseball).",
     "en": "A type of sport (e.g. Baseball).",
-    "de": "A type of sport (e.g. Baseball).",
-    "fr": "A type of sport (e.g. Baseball).",
-    "es": "A type of sport (e.g. Baseball)."
+    "fr": "Un type de sport (par exemple, le baseball).",
+    "es": "Un tipo de deporte (por ejemplo, el béisbol)."
   },
   "notation": [
     "2229"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
@@ -126,8 +126,7 @@
       "@container": "@set"
     }
   }
-}a:isBasedOn",
-    "source": "dct:source",
+}": "dct:source",
     "prefLabel": {
       "@container": "@language"
     },

@@ -7,14 +7,14 @@
     "en": "closed"
   },
   "definition": {
-    "en": "Indicates that a question has been closed, and answers are no longer accepted.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-closed](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-closed)",
     "de": "Zeigt an, dass eine Frage geschlossen wurde und keine Antworten mehr akzeptiert werden.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-closed](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-closed)",
+    "en": "Indicates that a question has been closed, and answers are no longer accepted.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-closed](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-closed)",
     "fr": "Indique qu'une question a été fermée, et que les réponses ne sont plus acceptées.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-closed](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-closed)",
     "es": "Indica que una pregunta ha sido cerrada y que ya no se aceptan respuestas.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-closed](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-closed)"
   },
   "scopeNote": {
-    "en": ": Property",
     "de": ": Property",
+    "en": ": Property",
     "fr": ": Property",
     "es": ": Property"
   },
@@ -23,8 +23,8 @@
     "10522"
   ],
   "example": {
-    "en": "[Example 93](https://www.w3.org/TR/activitystreams-vocabulary/#ex94b-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Question\",\n  \"name\": \"What is the answer?\",\n  \"closed\": \"2016-05-10T00:00:00Z\"\n}\n```",
     "de": "[Beispiel 93](https://www.w3.org/TR/activitystreams-vocabulary/#ex94b-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Question\",\n  \"name\": \"What is the answer?\",\n  \"closed\": \"2016-05-10T00:00:00Z\"\n}\n```",
+    "en": "[Example 93](https://www.w3.org/TR/activitystreams-vocabulary/#ex94b-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Question\",\n  \"name\": \"What is the answer?\",\n  \"closed\": \"2016-05-10T00:00:00Z\"\n}\n```",
     "fr": "[Exemple 93](https://www.w3.org/TR/activitystreams-vocabulary/#ex94b-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Question\",\n  \"name\": \"What is the answer?\",\n  \"closed\": \"2016-05-10T00:00:00Z\"\n}\n```",
     "es": "[Ejemplo 93](https://www.w3.org/TR/activitystreams-vocabulary/#ex94b-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"type\": \"Question\",\n  \"name\": \"What is the answer?\",\n  \"closed\": \"2016-05-10T00:00:00Z\"\n}\n```"
   },
@@ -36,8 +36,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

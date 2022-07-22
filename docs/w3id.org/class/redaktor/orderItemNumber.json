@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2ForderItemNumber",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2ForderItemNumber",
   "prefLabel": {
-    "en": "order item number",
     "de": "Auftragspositionsnummer",
+    "en": "order item number",
     "fr": "numéro de poste de commande",
     "es": "número de pedido"
   },
   "definition": {
+    "de": "Die Kennung der Auftragsposition.",
     "en": "The identifier of the order item.",
-    "de": "The identifier of the order item.",
-    "fr": "The identifier of the order item.",
-    "es": "The identifier of the order item."
+    "fr": "L'identifiant du poste de commande.",
+    "es": "El identificador del artículo de la orden."
   },
   "notation": [
     "2123"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

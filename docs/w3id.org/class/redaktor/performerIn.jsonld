@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FperformerIn",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FperformerIn",
   "prefLabel": {
-    "en": "performer in",
     "de": "Darsteller in",
+    "en": "performer in",
     "fr": "interprète en",
     "es": "ejecutante en"
   },
   "definition": {
+    "de": "Veranstaltung, an der diese Person als Darsteller oder Teilnehmer beteiligt ist.",
     "en": "Event that this person is a performer or participant in.",
-    "de": "Event that this person is a performer or participant in.",
-    "fr": "Event that this person is a performer or participant in.",
-    "es": "Event that this person is a performer or participant in."
+    "fr": "Événement auquel cette personne participe ou participe en tant qu'exécutant.",
+    "es": "Evento en el que esta persona actúa o participa."
   },
   "notation": [
     "2144"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

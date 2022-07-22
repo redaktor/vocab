@@ -4,24 +4,21 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fprovider",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fprovider",
   "prefLabel": {
-    "en": "provider",
     "de": "Anbieter",
+    "en": "provider",
     "fr": "fournisseur",
     "es": "proveedor"
   },
   "definition": {
+    "de": "Der Dienstleistungsanbieter, -betreiber oder -erbringer; der Warenhersteller. Eine andere Partei (ein Verkäufer) kann diese Dienstleistungen oder Waren im Namen des Anbieters anbieten. Ein Anbieter kann auch als Verkäufer auftreten.",
     "en": "The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller.",
-    "de": "The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller.",
-    "fr": "The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller.",
-    "es": "The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller."
+    "fr": "Le prestataire de services, l'opérateur de services ou l'exécutant de services ; le producteur de biens. Une autre partie (un vendeur) peut offrir ces services ou ces biens pour le compte du prestataire. Un prestataire peut également faire office de vendeur.",
+    "es": "El proveedor de servicios, el operador de servicios o el ejecutor de servicios; el productor de bienes. Otra parte (un vendedor) puede ofrecer esos servicios o bienes en nombre del proveedor. Un proveedor también puede actuar como vendedor."
   },
   "notation": [
     "2167"
   ],
   "exactMatch": [
-    {
-      "id": "http://www.w3.org/ns/activitystreams#provider"
-    },
     {
       "id": "schema:provider"
     }
@@ -29,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

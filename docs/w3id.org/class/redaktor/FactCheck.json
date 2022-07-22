@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FFactCheck",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FFactCheck",
   "prefLabel": {
-    "en": "Fact Check",
     "de": "Faktencheck",
+    "en": "Fact Check",
     "fr": "Vérification des faits",
     "es": "Comprobación de hechos"
   },
   "definition": {
-    "en": "The news item looks into the truth or falsehood of another reported news item or assertion (for example a statement on social media by a public figure)",
     "de": "Die Nachricht untersucht den Wahrheitsgehalt oder die Unwahrheit einer anderen gemeldeten Nachricht oder Behauptung (z. B. eine Aussage einer Person des öffentlichen Lebens in den sozialen Medien)",
+    "en": "The news item looks into the truth or falsehood of another reported news item or assertion (for example a statement on social media by a public figure)",
     "fr": "L'article examine la véracité ou la fausseté d'une autre information ou affirmation (par exemple, une déclaration d'une personnalité sur les médias sociaux).",
     "es": "La noticia investiga la veracidad o falsedad de otra noticia o afirmación (por ejemplo, una declaración en las redes sociales de un personaje público)"
   },
@@ -29,8 +29,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

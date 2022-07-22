@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FinteractionStatistic",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FinteractionStatistic",
   "prefLabel": {
-    "en": "interaction statistic",
     "de": "Interaktionsstatistik",
+    "en": "interaction statistic",
     "fr": "statistiques d'interaction",
     "es": "estadística de interacción"
   },
   "definition": {
+    "de": "Die Anzahl der Interaktionen für das CreativeWork unter Verwendung der WebSite oder SoftwareApplikation. Es sollte der spezifischste untergeordnete Typ von InteractionCounter verwendet werden.",
     "en": "The number of interactions for the CreativeWork using the WebSite or SoftwareApplication. The most specific child type of InteractionCounter should be used.",
-    "de": "The number of interactions for the CreativeWork using the WebSite or SoftwareApplication. The most specific child type of InteractionCounter should be used.",
-    "fr": "The number of interactions for the CreativeWork using the WebSite or SoftwareApplication. The most specific child type of InteractionCounter should be used.",
-    "es": "The number of interactions for the CreativeWork using the WebSite or SoftwareApplication. The most specific child type of InteractionCounter should be used."
+    "fr": "Le nombre d'interactions pour l'œuvre créative utilisant le site web ou l'application logicielle. Le type enfant le plus spécifique de InteractionCounter devrait être utilisé.",
+    "es": "El número de interacciones para el CreativeWork que utiliza el WebSite o el SoftwareApplication. Se debe utilizar el tipo de hijo más específico de InteractionCounter."
   },
   "notation": [
     "2023"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/InteractionCounter",
+      "prefLabel": {
+        "de": "Interaktionszähler",
+        "en": "Interaction Counter",
+        "fr": "Compteur d'interactions",
+        "es": "Contador de interacciones"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

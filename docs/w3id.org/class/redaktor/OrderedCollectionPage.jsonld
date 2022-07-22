@@ -4,20 +4,20 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FOrderedCollectionPage",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FOrderedCollectionPage",
   "prefLabel": {
-    "en": "Ordered Collection Page",
     "de": "Geordnete-Sammlung-Seite",
+    "en": "Ordered Collection Page",
     "fr": "Page de la Collection commandée",
     "es": "Página de la Colección ordenada"
   },
   "definition": {
-    "en": "Used to represent ordered subsets of items from an OrderedCollection. Refer to the Activity Streams 2.0 Core for a complete description of the OrderedCollectionPage object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollectionpage](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollectionpage)",
     "de": "Wird verwendet, um geordnete Teilmengen von Elementen aus einer OrderedCollection darzustellen. Eine vollständige Beschreibung des OrderedCollectionPage-Objekts finden Sie im Activity Streams 2.0-Kern.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollectionpage](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollectionpage)",
+    "en": "Used to represent ordered subsets of items from an OrderedCollection. Refer to the Activity Streams 2.0 Core for a complete description of the OrderedCollectionPage object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollectionpage](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollectionpage)",
     "fr": "Utilisé pour représenter des sous-ensembles ordonnés d'éléments d'une OrderedCollection. Reportez-vous au Activity Streams 2.0 Core pour une description complète de l'objet OrderedCollectionPage.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollectionpage](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollectionpage)",
     "es": "Se utiliza para representar subconjuntos ordenados de elementos de una OrderedCollection. Consulte el núcleo de Activity Streams 2.0 para obtener una descripción completa del objeto OrderedCollectionPage.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollectionpage](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollectionpage)"
   },
   "scopeNote": {
-    "en": ": Object",
     "de": ": Object",
+    "en": ": Object",
     "fr": ": Object",
     "es": ": Object"
   },
@@ -25,8 +25,8 @@
     "9"
   ],
   "example": {
-    "en": "[Example 8](https://www.w3.org/TR/activitystreams-vocabulary/#ex6c-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Page 1 of Sally's notes\",\n  \"type\": \"OrderedCollectionPage\",\n  \"id\": \"http://example.org/foo?page=1\",\n  \"partOf\": \"http://example.org/foo\",\n  \"orderedItems\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"A Simple Note\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Another Simple Note\"\n    }\n  ]\n}\n```",
     "de": "[Beispiel 8](https://www.w3.org/TR/activitystreams-vocabulary/#ex6c-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Page 1 of Sally's notes\",\n  \"type\": \"OrderedCollectionPage\",\n  \"id\": \"http://example.org/foo?page=1\",\n  \"partOf\": \"http://example.org/foo\",\n  \"orderedItems\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"A Simple Note\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Another Simple Note\"\n    }\n  ]\n}\n```",
+    "en": "[Example 8](https://www.w3.org/TR/activitystreams-vocabulary/#ex6c-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Page 1 of Sally's notes\",\n  \"type\": \"OrderedCollectionPage\",\n  \"id\": \"http://example.org/foo?page=1\",\n  \"partOf\": \"http://example.org/foo\",\n  \"orderedItems\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"A Simple Note\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Another Simple Note\"\n    }\n  ]\n}\n```",
     "fr": "[Exemple 8](https://www.w3.org/TR/activitystreams-vocabulary/#ex6c-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Page 1 of Sally's notes\",\n  \"type\": \"OrderedCollectionPage\",\n  \"id\": \"http://example.org/foo?page=1\",\n  \"partOf\": \"http://example.org/foo\",\n  \"orderedItems\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"A Simple Note\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Another Simple Note\"\n    }\n  ]\n}\n```",
     "es": "[Ejemplo 8](https://www.w3.org/TR/activitystreams-vocabulary/#ex6c-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Page 1 of Sally's notes\",\n  \"type\": \"OrderedCollectionPage\",\n  \"id\": \"http://example.org/foo?page=1\",\n  \"partOf\": \"http://example.org/foo\",\n  \"orderedItems\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"A Simple Note\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Another Simple Note\"\n    }\n  ]\n}\n```"
   },
@@ -34,8 +34,8 @@
     {
       "id": "https://w3id.org/class/redaktor/orderedItems",
       "prefLabel": {
-        "en": "ordered items",
         "de": "geordnete Elemente",
+        "en": "ordered items",
         "fr": "éléments commandés",
         "es": "elementos pedidos"
       }
@@ -43,8 +43,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Storyboard",
       "prefLabel": {
-        "en": "Storyboard",
         "de": "Storyboard",
+        "en": "Storyboard",
         "fr": "Storyboard",
         "es": "Storyboard"
       }
@@ -52,8 +52,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Playlist",
       "prefLabel": {
-        "en": "Playlist",
         "de": "Playlist",
+        "en": "Playlist",
         "fr": "Playlist",
         "es": "Playlist"
       }
@@ -61,8 +61,8 @@
     {
       "id": "https://w3id.org/class/redaktor/startIndex",
       "prefLabel": {
-        "en": "start index",
         "de": "start index",
+        "en": "start index",
         "fr": "start index",
         "es": "start index"
       }
@@ -71,8 +71,8 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Object",
     "prefLabel": {
-      "en": "Object",
       "de": "Objekt",
+      "en": "Object",
       "fr": "Objet",
       "es": "Objeto"
     }
@@ -85,8 +85,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

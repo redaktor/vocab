@@ -4,19 +4,30 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FmembershipPointsEarned",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FmembershipPointsEarned",
   "prefLabel": {
-    "en": "membership points earned",
     "de": "verdiente Mitgliedschaftspunkte",
+    "en": "membership points earned",
     "fr": "points d'adhésion gagnés",
     "es": "puntos de afiliación obtenidos"
   },
   "definition": {
+    "de": "Die Anzahl der vom Mitglied erworbenen Mitgliedschaftspunkte. Falls erforderlich, kann der unitText verwendet werden, um die Einheiten auszudrücken, in denen die Punkte ausgegeben werden. (z. B. Sterne, Meilen, usw.)",
     "en": "The number of membership points earned by the member. If necessary, the unitText can be used to express the units the points are issued in. (e.g. stars, miles, etc.)",
-    "de": "The number of membership points earned by the member. If necessary, the unitText can be used to express the units the points are issued in. (e.g. stars, miles, etc.)",
-    "fr": "The number of membership points earned by the member. If necessary, the unitText can be used to express the units the points are issued in. (e.g. stars, miles, etc.)",
-    "es": "The number of membership points earned by the member. If necessary, the unitText can be used to express the units the points are issued in. (e.g. stars, miles, etc.)"
+    "fr": "Le nombre de points d'adhésion gagnés par le membre. Si nécessaire, l'unitText peut être utilisé pour exprimer les unités dans lesquelles les points sont émis. (par exemple, étoiles, miles, etc.)",
+    "es": "El número de puntos de afiliación obtenidos por el afiliado. Si es necesario, el unitText puede utilizarse para expresar las unidades en las que se emiten los puntos. (por ejemplo, estrellas, millas, etc.)"
   },
   "notation": [
     "2084"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/class/redaktor/QuantitativeValue",
+      "prefLabel": {
+        "de": "Quantitativer Wert",
+        "en": "Quantitative Value",
+        "fr": "Valeur quantitative",
+        "es": "Valor cuantitativo"
+      }
+    }
   ],
   "exactMatch": [
     {
@@ -26,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

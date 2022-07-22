@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FDiagnosticLab",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FDiagnosticLab",
   "prefLabel": {
-    "en": "Diagnostic Lab",
     "de": "Diagnostisches Labor",
+    "en": "Diagnostic Lab",
     "fr": "Laboratoire de diagnostic",
     "es": "Laboratorio de diagnóstico"
   },
   "definition": {
-    "en": "A medical Diagnostic Lab.",
     "de": "Ein medizinisches Diagnoselabor.",
+    "en": "A medical Diagnostic Lab.",
     "fr": "Un laboratoire de diagnostic médical.",
     "es": "Un laboratorio de diagnóstico médico."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/availableTest",
       "prefLabel": {
-        "en": "available test",
         "de": "verfügbarer Test",
+        "en": "available test",
         "fr": "disponible test",
         "es": "prueba disponible"
       }
@@ -37,8 +37,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

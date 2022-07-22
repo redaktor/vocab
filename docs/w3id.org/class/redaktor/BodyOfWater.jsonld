@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FBodyOfWater",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FBodyOfWater",
   "prefLabel": {
-    "en": "Body of water",
     "de": "Wasserfläche",
+    "en": "Body of water",
     "fr": "Plan d'eau",
     "es": "Cuerpo de agua"
   },
@@ -16,8 +16,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Canal",
       "prefLabel": {
-        "en": "Canal",
         "de": "Kanal",
+        "en": "Canal",
         "fr": "Canal",
         "es": "Canal"
       }
@@ -25,8 +25,8 @@
     {
       "id": "https://w3id.org/class/redaktor/LakeBodyOfWater",
       "prefLabel": {
-        "en": "Lake",
         "de": "Binnen-See",
+        "en": "Lake",
         "fr": "Lac",
         "es": "Lago"
       }
@@ -34,8 +34,8 @@
     {
       "id": "https://w3id.org/class/redaktor/OceanBodyOfWater",
       "prefLabel": {
-        "en": "Ocean",
         "de": "Ozean",
+        "en": "Ocean",
         "fr": "Océan",
         "es": "Océano"
       }
@@ -43,8 +43,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Pond",
       "prefLabel": {
-        "en": "Pond",
         "de": "Teich",
+        "en": "Pond",
         "fr": "Étang",
         "es": "Estanque"
       }
@@ -52,8 +52,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Reservoir",
       "prefLabel": {
-        "en": "Reservoir",
         "de": "Reservoir",
+        "en": "Reservoir",
         "fr": "Réservoir",
         "es": "Embalse"
       }
@@ -61,8 +61,8 @@
     {
       "id": "https://w3id.org/class/redaktor/RiverBodyOfWater",
       "prefLabel": {
-        "en": "River",
         "de": "Fluß",
+        "en": "River",
         "fr": "Rivière",
         "es": "Río"
       }
@@ -70,8 +70,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SeaBodyOfWater",
       "prefLabel": {
-        "en": "Sea",
         "de": "Meer, andere",
+        "en": "Sea",
         "fr": "Mer",
         "es": "Mar"
       }
@@ -79,8 +79,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Waterfall",
       "prefLabel": {
-        "en": "Waterfall",
         "de": "Wasserfall",
+        "en": "Waterfall",
         "fr": "Chute d'eau",
         "es": "Cascada"
       }
@@ -94,8 +94,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

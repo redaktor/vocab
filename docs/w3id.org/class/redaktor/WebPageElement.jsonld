@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FWebPageElement",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FWebPageElement",
   "prefLabel": {
-    "en": "Web Page Element",
     "de": "Webseiten-Element",
+    "en": "Web Page Element",
     "fr": "Web Page Element",
     "es": "Web Page Element"
   },
   "definition": {
-    "en": "A web page element, like a table or an image.",
     "de": "Ein Webseitenelement, wie eine Tabelle oder ein Bild.",
+    "en": "A web page element, like a table or an image.",
     "fr": "Un élément de page Web, comme un tableau ou une image.",
     "es": "Un elemento de la página web, como una tabla o una imagen."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/SiteNavigationElement",
       "prefLabel": {
-        "en": "Site Navigation Element",
         "de": "Navigationselement der Seite",
+        "en": "Site Navigation Element",
         "fr": "Élément de navigation du site",
         "es": "Elemento de navegación del sitio"
       }
@@ -31,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Table",
       "prefLabel": {
-        "en": "Table",
         "de": "Tabelle",
+        "en": "Table",
         "fr": "Tableau",
         "es": "Tabla"
       }
@@ -40,8 +40,8 @@
     {
       "id": "https://w3id.org/class/redaktor/WPAdBlock",
       "prefLabel": {
-        "en": "WP Ad Block",
         "de": "WP-Anzeigenblock",
+        "en": "WP Ad Block",
         "fr": "WP Ad Block",
         "es": "WP Ad Block"
       }
@@ -49,8 +49,8 @@
     {
       "id": "https://w3id.org/class/redaktor/WPFooter",
       "prefLabel": {
-        "en": "WP Footer",
         "de": "WP Fußzeile",
+        "en": "WP Footer",
         "fr": "WP Footer",
         "es": "WP Footer"
       }
@@ -58,8 +58,8 @@
     {
       "id": "https://w3id.org/class/redaktor/WPHeader",
       "prefLabel": {
-        "en": "WP Header",
         "de": "WP Kopfzeile",
+        "en": "WP Header",
         "fr": "WP Header",
         "es": "WP Header"
       }
@@ -67,8 +67,8 @@
     {
       "id": "https://w3id.org/class/redaktor/WPSideBar",
       "prefLabel": {
-        "en": "WP Side Bar",
         "de": "WP Seitenleiste",
+        "en": "WP Side Bar",
         "fr": "WP Side Bar",
         "es": "WP Side Bar"
       }
@@ -76,8 +76,8 @@
     {
       "id": "https://w3id.org/class/redaktor/cssSelector",
       "prefLabel": {
-        "en": "css selector",
         "de": "CSS Selektor",
+        "en": "css selector",
         "fr": "sélecteur css",
         "es": "selector css"
       }
@@ -85,8 +85,8 @@
     {
       "id": "https://w3id.org/class/redaktor/xpath",
       "prefLabel": {
-        "en": "XPath",
         "de": "XPath",
+        "en": "XPath",
         "fr": "XPath",
         "es": "XPath"
       }
@@ -100,8 +100,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

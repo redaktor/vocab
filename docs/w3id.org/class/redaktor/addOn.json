@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FaddOn",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FaddOn",
   "prefLabel": {
-    "en": "add on",
     "de": "Hinzufügen",
+    "en": "add on",
     "fr": "ajouter sur",
     "es": "añadir"
   },
   "definition": {
+    "de": "Ein zusätzliches Angebot, das nur in Kombination mit dem ersten Basisangebot erhältlich ist (z. B. Ergänzungen und Erweiterungen, die gegen Aufpreis erhältlich sind).",
     "en": "An additional offer that can only be obtained in combination with the first base offer (e.g. supplements and extensions that are available for a surcharge).",
-    "de": "An additional offer that can only be obtained in combination with the first base offer (e.g. supplements and extensions that are available for a surcharge).",
-    "fr": "An additional offer that can only be obtained in combination with the first base offer (e.g. supplements and extensions that are available for a surcharge).",
-    "es": "An additional offer that can only be obtained in combination with the first base offer (e.g. supplements and extensions that are available for a surcharge)."
+    "fr": "Une offre supplémentaire qui ne peut être obtenue qu'en combinaison avec la première offre de base (par exemple, les suppléments et les extensions qui sont disponibles moyennant un supplément).",
+    "es": "Una oferta adicional que sólo puede obtenerse en combinación con la primera oferta base (por ejemplo, suplementos y extensiones que están disponibles con un recargo)."
   },
   "notation": [
     "1757"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

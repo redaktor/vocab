@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FBoatTrip",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FBoatTrip",
   "prefLabel": {
-    "en": "Boat Trip",
     "de": "Bootsfahrt",
+    "en": "Boat Trip",
     "fr": "Voyage en bateau",
     "es": "Viaje en barco"
   },
   "definition": {
-    "en": "A trip on a ferry line.",
     "de": "Eine Reise mit einer Fährlinie.",
+    "en": "A trip on a ferry line.",
     "fr": "Un voyage sur une ligne de ferry.",
     "es": "Un viaje en una línea de ferry."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/arrivalBoatTerminal",
       "prefLabel": {
-        "en": "arrival boat terminal",
         "de": "Ankunft Schiffsterminal",
+        "en": "arrival boat terminal",
         "fr": "terminal de bateaux d'arrivée",
         "es": "llegada terminal de barcos"
       }
@@ -31,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/departureBoatTerminal",
       "prefLabel": {
-        "en": "departure boat terminal",
         "de": "Abfahrt Schiffsterminal",
+        "en": "departure boat terminal",
         "fr": "départ terminal de bateaux",
         "es": "salida terminal de barcos"
       }
@@ -46,8 +46,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

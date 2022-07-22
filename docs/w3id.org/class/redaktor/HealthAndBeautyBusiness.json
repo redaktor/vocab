@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FHealthAndBeautyBusiness",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FHealthAndBeautyBusiness",
   "prefLabel": {
-    "en": "Health and Beauty Business",
     "de": "Gesundheit und Schönheit",
+    "en": "Health and Beauty Business",
     "fr": "Commerce de santé et de beauté",
     "es": "Negocios de Salud y Belleza"
   },
   "definition": {
-    "en": "To broad for OSM. Please select a more specific entry.",
     "de": "Zu weites Feld für OSM. Bitte spezifischeren Eintrag wählen.",
+    "en": "To broad for OSM. Please select a more specific entry.",
     "fr": "A élargir pour OSM. Veuillez choisir une entrée plus spécifique.",
     "es": "Para ampliar para OSM. Por favor, seleccione una entrada más específica."
   },
@@ -22,8 +22,8 @@
     {
       "id": "https://w3id.org/class/redaktor/BeautySalon",
       "prefLabel": {
-        "en": "Beauty Salon",
         "de": "Schönheitssalon",
+        "en": "Beauty Salon",
         "fr": "Salon de beauté",
         "es": "Salón de Belleza"
       }
@@ -31,8 +31,8 @@
     {
       "id": "https://w3id.org/class/redaktor/DaySpa",
       "prefLabel": {
-        "en": "Day Spa",
         "de": "Day Spa",
+        "en": "Day Spa",
         "fr": "Spa de jour",
         "es": "Spa de día"
       }
@@ -40,8 +40,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HairSalon",
       "prefLabel": {
-        "en": "Hair Salon",
         "de": "Friseursalon",
+        "en": "Hair Salon",
         "fr": "Salon de coiffure",
         "es": "peluquería"
       }
@@ -49,8 +49,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HealthClub",
       "prefLabel": {
-        "en": "Fitness Centre",
         "de": "Fitnesszentrum",
+        "en": "Fitness Centre",
         "fr": "centre de fitness",
         "es": "centro de fitness"
       }
@@ -58,8 +58,8 @@
     {
       "id": "https://w3id.org/class/redaktor/HearingAids",
       "prefLabel": {
-        "en": "Hearing Aids",
         "de": "Hörgeräte",
+        "en": "Hearing Aids",
         "fr": "Aides auditives",
         "es": "Audífonos"
       }
@@ -67,8 +67,8 @@
     {
       "id": "https://w3id.org/class/redaktor/Massage",
       "prefLabel": {
-        "en": "Massage",
         "de": "Massage",
+        "en": "Massage",
         "fr": "Massage",
         "es": "Masaje"
       }
@@ -76,8 +76,8 @@
     {
       "id": "https://w3id.org/class/redaktor/NailSalon",
       "prefLabel": {
-        "en": "Nail Salon",
         "de": "Nagelstudio",
+        "en": "Nail Salon",
         "fr": "Salon de manucure",
         "es": "Salón de uñas"
       }
@@ -85,8 +85,8 @@
     {
       "id": "https://w3id.org/class/redaktor/TattooParlor",
       "prefLabel": {
-        "en": "Tattoo Parlor",
         "de": "Tattoo-Salon",
+        "en": "Tattoo Parlor",
         "fr": "Salon de tatouage",
         "es": "Salón de tatuajes"
       }
@@ -100,8 +100,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }

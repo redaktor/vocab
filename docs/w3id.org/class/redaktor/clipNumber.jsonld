@@ -4,16 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FclipNumber",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FclipNumber",
   "prefLabel": {
-    "en": "clip number",
     "de": "Clip-Nummer",
+    "en": "clip number",
     "fr": "numéro de clip",
     "es": "número de clip"
   },
   "definition": {
+    "de": "Position des Clips innerhalb einer geordneten Gruppe von Clips.",
     "en": "Position of the clip within an ordered group of clips.",
-    "de": "Position of the clip within an ordered group of clips.",
-    "fr": "Position of the clip within an ordered group of clips.",
-    "es": "Position of the clip within an ordered group of clips."
+    "fr": "Position du clip dans un groupe ordonné de clips.",
+    "es": "Posición del clip dentro de un grupo ordenado de clips."
   },
   "notation": [
     "1847"
@@ -26,8 +26,8 @@
   "inScheme": {
     "id": "https://w3id.org/class/redaktor/scheme",
     "title": {
-      "en": "ActivityPub and friends – An ontology of the fediverse",
       "de": "ActivityPub und Freunde - Eine Ontolgie des Fediverse",
+      "en": "ActivityPub and friends – An ontology of the fediverse",
       "fr": "ActivityPub et ses amis - Une ontologie du fediverse",
       "es": "ActivityPub y sus amigos - Una ontología del fediverso"
     }
