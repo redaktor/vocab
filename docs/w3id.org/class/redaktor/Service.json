@@ -41,6 +41,15 @@
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/review",
+      "prefLabel": {
+        "de": "Überprüfung",
+        "en": "review",
+        "fr": "examen",
+        "es": "revisión"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/serviceType",
       "prefLabel": {
         "de": "Dienstart",
@@ -101,15 +110,6 @@
         "en": "Broadcast Service",
         "fr": "Service de radiodiffusion",
         "es": "Servicio de difusión"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/review",
-      "prefLabel": {
-        "de": "Überprüfung",
-        "en": "review",
-        "fr": "examen",
-        "es": "revisión"
       }
     },
     {

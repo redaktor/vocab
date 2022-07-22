@@ -22,7 +22,10 @@
     {
       "id": "https://w3id.org/class/redaktor/Review",
       "prefLabel": {
-        "en": "Review"
+        "de": "Kritik",
+        "en": "Review",
+        "fr": "Revue",
+        "es": "Crítica"
       }
     }
   ],

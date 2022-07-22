@@ -144,14 +144,7 @@
       "@container": "@set"
     }
   }
-}"es": "stop timestamp"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/state",
-      "prefLabel": {
-        "de": "state",
-        "en": "state",
+}      "en": "state",
         "fr": "state",
         "es": "state"
       }
@@ -247,7 +240,22 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/Factual"
+      "id": "https://w3id.org/class/redaktor/Factual",
+      "prefLabel": {
+        "de": "Faktisch",
+        "en": "Factual",
+        "fr": "Factuel",
+        "es": "Factual"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/TravelStory",
+      "prefLabel": {
+        "de": "Reisen",
+        "en": "Travel",
+        "fr": "Voyage",
+        "es": "Viaje"
+      }
     },
     {
       "id": "https://w3id.org/class/redaktor/Weather",

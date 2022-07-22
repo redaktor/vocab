@@ -1,37 +1,35 @@
 {
-  "id": "https://w3id.org/class/redaktor/encodings",
+  "id": "https://w3id.org/class/redaktor/NewsProfile",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fencodings",
-  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2Fencodings",
+  "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FNewsProfile",
+  "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FNewsProfile",
   "prefLabel": {
-    "de": "Verschlüsselungen",
-    "en": "encodings",
-    "fr": "encodages",
-    "es": "codificaciones"
+    "de": "Steckbrief",
+    "en": "Profile",
+    "fr": "Profil",
+    "es": "Perfil"
   },
   "definition": {
-    "de": "Ein Medienobjekt, das dieses CreativeWork kodiert.",
-    "en": "A media object that encodes this CreativeWork.",
-    "fr": "Un objet média qui encode ce travail créatif.",
-    "es": "Un objeto multimedia que codifica este CreativeWork."
+    "de": "Beschreibung des Lebens oder der Tätigkeit einer Person auf der Grundlage von Fakten, die durch Recherchen und Interviews ermittelt wurden",
+    "en": "Description of the life or activity of a news subject based on facts discovered through research and interviews",
+    "fr": "Description de la vie ou de l'activité d'un sujet d'actualité, basée sur des faits découverts lors de recherches et d'interviews.",
+    "es": "Descripción de la vida o la actividad de un sujeto de la noticia basada en hechos descubiertos a través de investigaciones y entrevistas"
   },
   "notation": [
-    "1936"
+    "365"
   ],
-  "narrower": [
-    {
-      "id": "https://w3id.org/class/redaktor/MediaObject",
-      "prefLabel": {
-        "de": "Medienobjekt",
-        "en": "Media Object",
-        "fr": "Objet média",
-        "es": "Objeto de los medios de comunicación"
-      }
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/Factual",
+    "prefLabel": {
+      "de": "Faktisch",
+      "en": "Factual",
+      "fr": "Factuel",
+      "es": "Factual"
     }
-  ],
+  },
   "exactMatch": [
     {
-      "id": "schema:encodings"
+      "id": "http://cv.iptc.org/newscodes/genre/Profile"
     }
   ],
   "inScheme": {

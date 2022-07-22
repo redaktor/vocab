@@ -51,10 +51,10 @@
     {
       "id": "https://w3id.org/class/redaktor/oauthRegistrationEndpoint",
       "prefLabel": {
-        "de": "oauth Registration Endpoint",
-        "en": "oauth Registration Endpoint",
-        "fr": "oauth Registration Endpoint",
-        "es": "oauth Registration Endpoint"
+        "de": "OAuth Registration Endpoint",
+        "en": "OAuth Registration Endpoint",
+        "fr": "OAuth Registration Endpoint",
+        "es": "OAuth Registration Endpoint"
       }
     },
     {

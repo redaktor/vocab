@@ -147,7 +147,13 @@
       "@container": "@set"
     }
   }
-}lass/redaktor/aggregateRating",
+}: "Social Media Posting",
+        "fr": "Publication sur les médias sociaux",
+        "es": "Publicación en las redes sociales"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/aggregateRating",
       "prefLabel": {
         "de": "Gesamtbewertung",
         "en": "aggregate rating",

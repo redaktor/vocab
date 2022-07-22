@@ -33,6 +33,7 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Profile",
     "prefLabel": {
+      "de": "Profil",
       "en": "Profile",
       "fr": "Profil",
       "es": "Perfil"

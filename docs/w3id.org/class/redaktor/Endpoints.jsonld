@@ -33,69 +33,6 @@
         "fr": "Endpoints",
         "es": "Endpoints"
       }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/proxyUrl",
-      "prefLabel": {
-        "de": "proxy Url",
-        "en": "proxy Url",
-        "fr": "proxy Url",
-        "es": "proxy Url"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/oauthAuthorizationEndpoint",
-      "prefLabel": {
-        "de": "OAuth Authorization Endpoint",
-        "en": "OAuth Authorization Endpoint",
-        "fr": "OAuth Authorization Endpoint",
-        "es": "OAuth Authorization Endpoint"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/oauthTokenEndpoint",
-      "prefLabel": {
-        "de": "OAuth Token Endpoint",
-        "en": "OAuth Token Endpoint",
-        "fr": "OAuth Token Endpoint",
-        "es": "OAuth Token Endpoint"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/provideClientKey",
-      "prefLabel": {
-        "de": "provide Client-Key",
-        "en": "provide client key",
-        "fr": "provide client key",
-        "es": "provide client key"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/signClientKey",
-      "prefLabel": {
-        "de": "Sign Client-Key",
-        "en": "sign client key",
-        "fr": "sign client key",
-        "es": "sign client key"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/sharedInbox",
-      "prefLabel": {
-        "de": "Shared Inbox",
-        "en": "shared inbox",
-        "fr": "shared inbox",
-        "es": "shared inbox"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/uploadMedia",
-      "prefLabel": {
-        "de": "upload Media Endpoint",
-        "en": "upload Media Endpoint",
-        "fr": "upload Media Endpoint",
-        "es": "upload Media Endpoint"
-      }
     }
   ],
   "broader": {

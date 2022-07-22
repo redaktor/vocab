@@ -18,6 +18,15 @@
   "notation": [
     "177"
   ],
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/Endpoints",
+    "prefLabel": {
+      "de": "Endpoints",
+      "en": "Endpoints",
+      "fr": "Endpoints",
+      "es": "Endpoints"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://www.w3.org/ns/activitystreams#oauthTokenEndpoint"

@@ -1,7 +1,7 @@
 {
   "id": "https://test.skohub.io/vocab//w3id.org/class/redaktor/oauthRegistrationEndpoint",
   "type": "Service",
-  "name": "oauth Registration Endpoint",
+  "name": "OAuth Registration Endpoint",
   "preferredUsername": "766f6361622f2f773369642e6f72672f636c6173732f726564616b746f722f6f61757468526567697374726174696f6e456e64706f696e74",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FoauthRegistrationEndpoint",
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FoauthRegistrationEndpoint",

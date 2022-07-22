@@ -3,6 +3,26 @@
   "type": "Concept",
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FFactual",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FFactual",
+  "prefLabel": {
+    "de": "Faktisch",
+    "en": "Factual",
+    "fr": "Factuel",
+    "es": "Factual"
+  },
+  "altLabel": {
+    "de": [
+      "Sachbezogen"
+    ],
+    "en": [
+      "Subject-related"
+    ],
+    "fr": [
+      "En rapport avec le sujet"
+    ],
+    "es": [
+      "Hechos"
+    ]
+  },
   "definition": {
     "de": "Das Objekt enthält Material, das sich auf ein sachbezogenes Programm und/oder Ereignis bezieht.",
     "en": "The object contains material relating to a factual program and/or event",
@@ -19,14 +39,6 @@
     "300"
   ],
   "narrower": [
-    {
-      "id": "https://w3id.org/class/redaktor/Profile",
-      "prefLabel": {
-        "en": "Profile",
-        "fr": "Profil",
-        "es": "Perfil"
-      }
-    },
     {
       "id": "https://w3id.org/class/redaktor/News",
       "prefLabel": {
@@ -235,6 +247,15 @@
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/NewsProfile",
+      "prefLabel": {
+        "de": "Steckbrief",
+        "en": "Profile",
+        "fr": "Profil",
+        "es": "Perfil"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/Quote",
       "prefLabel": {
         "de": "Zitat",
@@ -273,7 +294,10 @@
     {
       "id": "https://w3id.org/class/redaktor/Review",
       "prefLabel": {
-        "en": "Review"
+        "de": "Kritik",
+        "en": "Review",
+        "fr": "Revue",
+        "es": "Crítica"
       }
     },
     {

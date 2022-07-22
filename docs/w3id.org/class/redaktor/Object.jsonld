@@ -141,7 +141,12 @@
       "@container": "@set"
     }
   }
-}"https://w3id.org/class/redaktor/Place",
+}b",
+        "es": "Página web"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/Place",
       "prefLabel": {
         "de": "Örtlichkeit",
         "en": "Place",
@@ -152,6 +157,7 @@
     {
       "id": "https://w3id.org/class/redaktor/Profile",
       "prefLabel": {
+        "de": "Profil",
         "en": "Profile",
         "fr": "Profil",
         "es": "Perfil"
@@ -815,6 +821,15 @@
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/review",
+      "prefLabel": {
+        "de": "Überprüfung",
+        "en": "review",
+        "fr": "examen",
+        "es": "revisión"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/acceptedPaymentMethod",
       "prefLabel": {
         "de": "akzeptierte Zahlungsmethode",
@@ -1217,24 +1232,6 @@
         "en": "Parcel Delivery",
         "fr": "Livraison de colis",
         "es": "Entrega de paquetes"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/review",
-      "prefLabel": {
-        "de": "Überprüfung",
-        "en": "review",
-        "fr": "examen",
-        "es": "revisión"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/reviews",
-      "prefLabel": {
-        "de": "Überprüfungen",
-        "en": "reviews",
-        "fr": "examens",
-        "es": "revisiones"
       }
     },
     {

@@ -19,7 +19,13 @@
     "358"
   ],
   "broader": {
-    "id": "https://w3id.org/class/redaktor/Factual"
+    "id": "https://w3id.org/class/redaktor/Factual",
+    "prefLabel": {
+      "de": "Faktisch",
+      "en": "Factual",
+      "fr": "Factuel",
+      "es": "Factual"
+    }
   },
   "exactMatch": [
     {

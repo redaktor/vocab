@@ -16,7 +16,7 @@
     "es": "Idiomas naturales como el español, el tamil, el hindi, el inglés, etc. Las etiquetas de código de lenguajes formales expresadas en [BCP 47](https://en.wikipedia.org/wiki/IETF_language_tag) pueden utilizarse a través de la propiedad [[alternateName]]. El tipo Language anteriormente también cubría lenguajes de programación como Scheme y Lisp, que ahora se representan mejor usando [[ComputerLanguage]]."
   },
   "notation": [
-    "1376"
+    "43"
   ],
   "exactMatch": [
     {

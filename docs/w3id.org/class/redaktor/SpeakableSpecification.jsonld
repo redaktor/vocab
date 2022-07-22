@@ -16,7 +16,7 @@
     "es": "Una SpeakableSpecification indica (normalmente a través de [[xpath]] o [[cssSelector]]) secciones de un documento que se destacan como particularmente [[speakable]]. Se espera que las instancias de este tipo se utilicen principalmente como valores de la propiedad [[speakable]]."
   },
   "notation": [
-    "1380"
+    "46"
   ],
   "narrower": [
     {

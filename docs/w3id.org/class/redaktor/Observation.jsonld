@@ -16,7 +16,7 @@
     "es": "Las instancias de la clase [[Observación]] se utilizan para especificar observaciones sobre una entidad (que puede ser o no una instancia de una [[PoblaciónEstadística]]), en un momento determinado. Las principales propiedades de una [[Observación]] son [[nodoobservado]], [[propiedadmedida]], [[valormedido]] (o [[mediana]], etc.) y [[fecha de observación]] (las propiedades de [[propiedadmedida]] pueden ser, aunque no siempre, \"propiedades de medida\" del cubo de datos W3C RDF, como en el [ejemplo de esperanza de vida](https://www.w3.org/TR/vocab-data-cube/#dsd-example)).\nVéase también [[StatisticalPopulation]], y el resumen de [data and datasets](/docs/data-and-datasets.html) para más detalles."
   },
   "notation": [
-    "1395"
+    "52"
   ],
   "narrower": [
     {

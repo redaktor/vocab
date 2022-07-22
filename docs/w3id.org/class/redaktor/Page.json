@@ -32,13 +32,6 @@
   },
   "narrower": [
     {
-      "id": "https://w3id.org/class/redaktor/CollectionPage",
-      "prefLabel": {
-        "fr": "Page de la collection",
-        "es": "Página de la colección"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/ImageGallery",
       "prefLabel": {
         "de": "Bildergalerie",

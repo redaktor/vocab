@@ -126,7 +126,10 @@
       "@container": "@set"
     }
   }
-}": "dct:source",
+}cePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
     "prefLabel": {
       "@container": "@language"
     },

@@ -53,13 +53,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/CollectionPage",
-      "prefLabel": {
-        "fr": "Page de la collection",
-        "es": "Página de la colección"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/Emoji",
       "prefLabel": {
         "de": "Emoji",
@@ -971,7 +964,46 @@
     {
       "id": "https://w3id.org/class/redaktor/Review",
       "prefLabel": {
-        "en": "Review"
+        "de": "Kritik",
+        "en": "Review",
+        "fr": "Revue",
+        "es": "Crítica"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/associatedClaimReview",
+      "prefLabel": {
+        "de": "zugehörige ClaimReview",
+        "en": "associated ClaimReview",
+        "fr": "associé ClaimReview",
+        "es": "asociado ClaimReview"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/associatedReview",
+      "prefLabel": {
+        "de": "assoziierte Überprüfung",
+        "en": "associated Review",
+        "fr": "Revue associée",
+        "es": "revisión asociada"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/associatedMediaReview",
+      "prefLabel": {
+        "de": "zugehörige MediaReview",
+        "en": "associated MediaReview",
+        "fr": "médias associésRevue de presse",
+        "es": "asociado MediaReview"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/review",
+      "prefLabel": {
+        "de": "Überprüfung",
+        "en": "review",
+        "fr": "examen",
+        "es": "revisión"
       }
     },
     {
@@ -6446,15 +6478,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/encodings",
-      "prefLabel": {
-        "de": "Verschlüsselungen",
-        "en": "encodings",
-        "fr": "encodages",
-        "es": "codificaciones"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/Product",
       "prefLabel": {
         "de": "Produkt",
@@ -7031,51 +7054,6 @@
         "en": "order delivery",
         "fr": "commande de livraison",
         "es": "entrega de pedidos"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/associatedClaimReview",
-      "prefLabel": {
-        "de": "zugehörige ClaimReview",
-        "en": "associated ClaimReview",
-        "fr": "associé ClaimReview",
-        "es": "asociado ClaimReview"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/associatedReview",
-      "prefLabel": {
-        "de": "assoziierte Überprüfung",
-        "en": "associated Review",
-        "fr": "Revue associée",
-        "es": "revisión asociada"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/associatedMediaReview",
-      "prefLabel": {
-        "de": "zugehörige MediaReview",
-        "en": "associated MediaReview",
-        "fr": "médias associésRevue de presse",
-        "es": "asociado MediaReview"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/review",
-      "prefLabel": {
-        "de": "Überprüfung",
-        "en": "review",
-        "fr": "examen",
-        "es": "revisión"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/reviews",
-      "prefLabel": {
-        "de": "Überprüfungen",
-        "en": "reviews",
-        "fr": "examens",
-        "es": "revisiones"
       }
     },
     {

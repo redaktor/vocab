@@ -95,6 +95,15 @@
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/review",
+      "prefLabel": {
+        "de": "Überprüfung",
+        "en": "review",
+        "fr": "examen",
+        "es": "revisión"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/SocialMediaPosting",
       "prefLabel": {
         "de": "Beitrag Soziale Netzwerke",
@@ -119,15 +128,6 @@
         "en": "aggregate rating",
         "fr": "cote globale",
         "es": "calificación agregada"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/review",
-      "prefLabel": {
-        "de": "Überprüfung",
-        "en": "review",
-        "fr": "examen",
-        "es": "revisión"
       }
     },
     {

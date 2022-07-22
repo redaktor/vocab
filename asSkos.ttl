@@ -212,12 +212,12 @@
   rdfs:comment "An ordered or unordered collection of Objects or Links" .
 
 :CollectionPage a owl:Class, rdfs:Class, skos:Concept ;
-  skos:exactMatch as:CollectionPage ;
+  skos:exactMatch as:CollectionPage, schema:CollectionPage ;
   skos:inScheme :scheme ;
   skos:broader :Object ;
   skos:narrower :next, :partOf, :prev ;
   skos:notation "7" ;
-  skos:prefLabel "Sammlung-Seite"@de, "Collection page"@en, "Page de la collection"@fr, "Página de la colección"@es ;
+  skos:prefLabel "Sammlung Seite"@de, "Collection Page"@en, "Page de la collection"@fr, "Página de la colección"@es ;
   skos:definition "Wird verwendet, um bestimmte Teilmengen von Elementen aus einer Collection darzustellen. Eine vollständige Beschreibung des CollectionPage-Objekts finden Sie im Activity Streams 2.0 Core.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collectionpage](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collectionpage)"@de,
     "Used to represent distinct subsets of items from a Collection. Refer to the Activity Streams 2.0 Core for a complete description of the CollectionPage object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collectionpage](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collectionpage)"@en,
     "Utilisé pour représenter des sous-ensembles distincts d'éléments d'une collection. Reportez-vous au Activity Streams 2.0 Core pour une description complète de l'objet CollectionPage.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collectionpage](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collectionpage)"@fr,
@@ -228,7 +228,10 @@
     "[Ejemplo 7](https://www.w3.org/TR/activitystreams-vocabulary/#ex6b-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Page 1 of Sally's notes\",\n  \"type\": \"CollectionPage\",\n  \"id\": \"http://example.org/foo?page=1\",\n  \"partOf\": \"http://example.org/foo\",\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"A Simple Note\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Another Simple Note\"\n    }\n  ]\n}\n```"@es ;
   skos:scopeNote ": Object"@de, ": Object"@en, ": Object"@fr, ": Object"@es ;
   rdfs:label "CollectionPage" ;
-  rdfs:subClassOf :Collection ;
+  rdfs:subClassOf [
+      a owl:Class ;
+      owl:unionOf ( :Collection :Page )
+    ] ;
   rdfs:comment "A subset of items from a Collection" .
 
 :OrderedCollection a owl:Class, rdfs:Class, skos:Concept ;
@@ -2134,7 +2137,7 @@ xsd:duration a rdfs:Datatype .
 :proxyUrl a owl:DatatypeProperty, skos:Concept ;
   skos:exactMatch as:proxyUrl ;
   skos:inScheme :scheme ;
-  skos:broader :endpoints ;
+  skos:broader :Endpoints ;
   skos:notation "175" ;
   skos:prefLabel "proxy Url"@de, "proxy Url"@en, "proxy Url"@fr, "proxy Url"@es ;
   skos:definition "Endpunkt-URI, damit die Clients dieses Akteurs auf entfernte ActivityStreams-Objekte zugreifen können, die eine Authentifizierung für den Zugriff erfordern. Um diesen Endpunkt zu verwenden, gibt der Client einen x-www-form-urlencoded id-Parameter an, dessen Wert die ID des angeforderten ActivityStreams-Objekts ist."@de,
@@ -2149,7 +2152,7 @@ xsd:duration a rdfs:Datatype .
 :oauthAuthorizationEndpoint a owl:DatatypeProperty, skos:Concept ;
   skos:exactMatch as:oauthAuthorizationEndpoint ;
   skos:inScheme :scheme ;
-  skos:broader :endpoints ;
+  skos:broader :Endpoints ;
   skos:notation "176" ;
   skos:prefLabel "OAuth Authorization Endpoint"@de, "OAuth Authorization Endpoint"@en, "OAuth Authorization Endpoint"@fr, "OAuth Authorization Endpoint"@es ;
   skos:definition "Wenn OAuth 2.0-Inhaber-Tokens [RFC6749] [RFC6750] für die Authentifizierung von Client-Server-Interaktionen verwendet werden, gibt dieser Endpunkt einen URI an, über den ein Browser-authentifizierter Benutzer eine neue Autorisierungserlaubnis erhalten kann."@de,
@@ -2164,7 +2167,7 @@ xsd:duration a rdfs:Datatype .
 :oauthTokenEndpoint a owl:DatatypeProperty, skos:Concept ;
   skos:exactMatch as:oauthTokenEndpoint ;
   skos:inScheme :scheme ;
-  skos:broader :endpoints ;
+  skos:broader :Endpoints ;
   skos:notation "177" ;
   skos:prefLabel "OAuth Token Endpoint"@de, "OAuth Token Endpoint"@en, "OAuth Token Endpoint"@fr, "OAuth Token Endpoint"@es ;
   skos:definition "Wenn OAuth 2.0-Inhaber-Tokens [RFC6749] [RFC6750] für die Authentifizierung von Client-Server-Interaktionen verwendet werden, gibt dieser Endpunkt einen URI an, bei dem ein Client ein Zugriffstoken erwerben kann."@de,
@@ -2179,7 +2182,7 @@ xsd:duration a rdfs:Datatype .
 :provideClientKey a owl:DatatypeProperty, skos:Concept ;
   skos:exactMatch as:provideClientKey ;
   skos:inScheme :scheme ;
-  skos:broader :endpoints ;
+  skos:broader :Endpoints ;
   skos:notation "178" ;
   skos:prefLabel "provide Client-Key"@de, "provide client key"@en, "provide client key"@fr, "provide client key"@es ;
   skos:definition "Wenn Linked-Data-Signaturen und HTTP-Signaturen für die Authentifizierung und Autorisierung verwendet werden, gibt dieser Endpunkt einen URI an, bei dem ein Client-Schlüssel durch den Schlüssel des Akteurs für ein Zeitfenster signiert werden kann, um im Namen des Akteurs bei der Interaktion mit fremden Servern zu handeln."@de,
@@ -2194,7 +2197,7 @@ xsd:duration a rdfs:Datatype .
 :signClientKey a owl:DatatypeProperty, skos:Concept ;
   skos:exactMatch as:signClientKey ;
   skos:inScheme :scheme ;
-  skos:broader :endpoints ;
+  skos:broader :Endpoints ;
   skos:notation "179" ;
   skos:prefLabel "Sign Client-Key"@de, "sign client key"@en, "sign client key"@fr, "sign client key"@es ;
   skos:definition "Wenn Linked-Data-Signaturen und HTTP-Signaturen für die Authentifizierung und Autorisierung verwendet werden, gibt dieser Endpunkt einen URI an, bei dem ein Client-Schlüssel durch den Schlüssel des Akteurs für ein Zeitfenster signiert werden kann, um im Namen des Akteurs bei der Interaktion mit fremden Servern zu handeln."@de,
@@ -2209,7 +2212,7 @@ xsd:duration a rdfs:Datatype .
 :sharedInbox a owl:DatatypeProperty, skos:Concept ;
   skos:exactMatch as:sharedInbox ;
   skos:inScheme :scheme ;
-  skos:broader :endpoints ;
+  skos:broader :Endpoints ;
   skos:notation "180" ;
   skos:prefLabel "Shared Inbox"@de, "shared inbox"@en, "shared inbox"@fr, "shared inbox"@es ;
   skos:definition "Ein optionaler Endpunkt, der für die breite Zustellung von öffentlich adressierten Aktivitäten und Aktivitäten, die an Follower gesendet werden, verwendet wird. sharedInbox-Endpunkte SOLLTEN auch öffentlich lesbare OrderedCollection-Objekte sein, die Objekte enthalten, die an die spezielle Sammlung Public adressiert sind. Das Lesen aus dem sharedInbox-Endpunkt DARF KEINE Objekte enthalten, die nicht an den Public-Endpunkt adressiert sind."@de,
@@ -2224,7 +2227,7 @@ xsd:duration a rdfs:Datatype .
 :uploadMedia a owl:DatatypeProperty, skos:Concept ;
   skos:exactMatch as:uploadMedia ;
  skos:inScheme :scheme ;
- skos:broader :endpoints, :litepubPleroma ;
+ skos:broader :Endpoints, :litepubPleroma ;
  skos:notation "181" ;
  skos:prefLabel "upload Media Endpoint"@de, "upload Media Endpoint"@en, "upload Media Endpoint"@fr, "upload Media Endpoint"@es ;
  skos:definition "Inspiriert von https://www.w3.org/wiki/SocialCG/ActivityPub/MediaUpload, ist es Teil des ActivityStreams-Namensraums, weil es früher Teil der ActivityPub-Spezifikation war und daraus entfernt wurde.<br><br>Inhalt-Typ: multipart/form-data<br><br>Parameter: - (erforderlich) file: Die hochzuladende Datei - (optional) description: Eine Beschreibung des Mediums im Klartext, um die Zugänglichkeit zu gewährleisten.<br><br>Antwort: HTTP 201 Erstellt mit dem Objekt im Body, ohne Location-Header, da es keine ID hat<br><br>Das in der Antwort angegebene Objekt sollte dann in das Anhangsfeld eines Objekts eingefügt werden.<br>siehe [Pleroma documentation](https://docs-develop.pleroma.social/backend/development/ap_extensions/#actor-endpoints)"@de,
@@ -4053,7 +4056,7 @@ sec:signatureValue a owl:DatatypeProperty, skos:Concept ;
   skos:inScheme :scheme ;
   skos:broader :Endpoints, :litepubPleroma ;
   skos:notation "1539" ;
-  skos:prefLabel "oauth Registration Endpoint"@de, "oauth Registration Endpoint"@en, "oauth Registration Endpoint"@fr, "oauth Registration Endpoint"@es ;
+  skos:prefLabel "OAuth Registration Endpoint"@de, "OAuth Registration Endpoint"@en, "OAuth Registration Endpoint"@fr, "OAuth Registration Endpoint"@es ;
   skos:definition "Verweist bislang auf MastodonAPI /api/v1/apps.<br>siehe https://docs.joinmastodon.org/methods/apps/<br>siehe [Pleroma documentation](https://docs-develop.pleroma.social/backend/development/ap_extensions/#actor-endpoints)"@de,
     "Points to MastodonAPI /api/v1/apps for now.<br>see https://docs.joinmastodon.org/methods/apps/<br>see [Pleroma documentation](https://docs-develop.pleroma.social/backend/development/ap_extensions/#actor-endpoints)"@en,
     "Points to MastodonAPI /api/v1/apps for now.<br>siehe https://docs.joinmastodon.org/methods/apps/<br>voir [Pleroma documentation](https://docs-develop.pleroma.social/backend/development/ap_extensions/#actor-endpoints)"@fr,
@@ -4596,9 +4599,9 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	skos:exactMatch prodgenre:factual ;
   	skos:inScheme :scheme ;
   	skos:broader :Article, :Note, :Audio, :Image, :Video ;
-  skos:notation "300" ;
+    skos:notation "300" ;
   	skos:prefLabel "Factual"@en, "Faktisch"@de, "Factuel"@fr, "Factual"@es ;
-  skos:prefLabel "Subject-related"@en, "Sachbezogen"@de, "En rapport avec le sujet"@fr, "Hechos"@es ;
+    skos:altLabel "Subject-related"@en, "Sachbezogen"@de, "En rapport avec le sujet"@fr, "Hechos"@es ;
   	skos:definition	"The object contains material relating to a factual program and/or event"@en,
       "Das Objekt enthält Material, das sich auf ein sachbezogenes Programm und/oder Ereignis bezieht."@de,
       "L'objet contient du matériel relatif à un programme et/ou un événement factuel."@fr,
@@ -4659,7 +4662,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	rdfs:label "Sport" ;
   rdfs:subClassOf :Factual .
 
-:Travel a owl:Class, rdfs:Class, skos:Concept ;
+:TravelStory a owl:Class, rdfs:Class, skos:Concept ;
   	skos:exactMatch prodgenre:travel ;
   	skos:inScheme :scheme ;
   	skos:broader :Article, :Note, :Audio, :Image, :Video ;
@@ -5268,7 +5271,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
 :Trip a owl:Class, rdfs:Class, skos:Concept ;
   skos:exactMatch schema:Trip ;
   skos:inScheme :scheme ;
-  skos:broader :Travel, :OrderedCollection, :Event, :mobilizon, :redaktor ;
+  skos:broader :TravelStory, :OrderedCollection, :Event, :mobilizon, :redaktor ;
   skos:notation "74" ;
   skos:prefLabel "Reise"@de, "Trip"@en, "Voyage"@fr, "Viaje"@es ;
   skos:altLabel "Reise oder Tour"@de, "Tour or trip"@en, "Journées"@fr, "Viaje o tour"@es ;
@@ -5278,7 +5281,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       "Un viaje o trayecto. Un itinerario para visitar uno o varios lugares."@es ;
   skos:scopeNote :Object ;
   rdfs:label "Trip" ;
-  rdfs:subClassOf :Travel, :Event, :OrderedCollection .
+  rdfs:subClassOf :TravelStory, :Event, :OrderedCollection .
 
 :Atlas a owl:Class, rdfs:Class, skos:Concept ;
   skos:exactMatch schema:Atlas ;
@@ -5954,20 +5957,6 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       "Tipo de página web: Página de pago."@es ;
   skos:scopeNote :Page ;
   rdfs:label "CheckoutPage" ;
-  rdfs:subClassOf :Page .
-
-:CollectionPage a owl:Class, rdfs:Class, skos:Concept ;
-  skos:exactMatch schema:CollectionPage ;
-  skos:inScheme :scheme ;
-  skos:broader :Page, :redaktor ;
-  skos:notation "568" ;
-  skos:prefLabel "Sammlung Seite"@de, "Collection Page"@en, "Page de la collection"@fr, "Página de la colección"@es ;
-  skos:definition "Typ der Webseite: Sammlungsseite."@de,
-      "Web page type: Collection page."@en,
-      "Type de page Web : Page de collection."@fr,
-      "Tipo de página web: Página de colección."@es ;
-  skos:scopeNote :Page ;
-  rdfs:label "CollectionPage" ;
   rdfs:subClassOf :Page .
 
 :ContactPage a owl:Class, rdfs:Class, skos:Concept ;
@@ -6685,7 +6674,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   	rdfs:label "Preview" ;
   rdfs:subClassOf :Article, :Note .
 
-:Profile a owl:Class, rdfs:Class, skos:Concept ;
+:NewsProfile a owl:Class, rdfs:Class, skos:Concept ;
   	skos:exactMatch genre:Profile ;
   	skos:inScheme :scheme ;
   	skos:broader :Factual ;
@@ -6798,10 +6787,10 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   rdfs:subClassOf :Factual .
 
 :Review a owl:Class, rdfs:Class, skos:Concept ;
-  	skos:exactMatch genre:Review, schema:ReviewNewsArticle ;
+  	skos:exactMatch genre:Review, schema:Review, schema:ReviewNewsArticle ;
   	skos:inScheme :scheme ;
-  	skos:broader :Factual ;
-  skos:notation "370" ;
+  	skos:broader :CreativeWork, :associatedClaimReview, :associatedReview, :associatedMediaReview, :review, :Factual, :redaktor ;
+    skos:notation "370" ;
   	skos:prefLabel "Review"@en, "Kritik"@de, "Revue"@fr, "Crítica"@es ;
   	skos:definition	"A critique of a creative activity or service (for example a book, a film or a restaurant)"@en,
       "Eine Kritik einer kreativen Tätigkeit oder Dienstleistung (z. B. eines Buches, eines Films oder eines Restaurants)"@de,
@@ -6809,7 +6798,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       "Crítica de una actividad o servicio creativo (por ejemplo, un libro, una película o un restaurante)"@es ;
   	skos:scopeNote :Article, :Note ;
   	rdfs:label "Review" ;
-  rdfs:subClassOf :Factual .
+  rdfs:subClassOf :CreativeWork .
 
 :Satire a owl:Class, rdfs:Class, skos:Concept ;
   	skos:exactMatch genre:Satire, schema:SatiricalArticle ;
@@ -12786,7 +12775,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:Language ;
   skos:inScheme :scheme ;
   skos:broader :Object, :subtitleLanguage, :inLanguage, :availableLanguage, :knowsLanguage, :redaktor ;
-  skos:notation "1376" ;
+  skos:notation "43" ;
   skos:prefLabel "Sprache"@de, "Language"@en, "Langue"@fr, "Idioma"@es ;
   skos:definition "Natürliche Sprachen wie Spanisch, Tamil, Hindi, Englisch, usw. Code-Tags für formale Sprachen, die in [BCP 47] (https://en.wikipedia.org/wiki/IETF_language_tag) ausgedrückt sind, können über die Eigenschaft [[alternateName]] verwendet werden. Der Typ Sprache deckte früher auch Programmiersprachen wie Scheme und Lisp ab, die jetzt am besten mit [[ComputerLanguage]] dargestellt werden."@de,
       "Natural languages such as Spanish, Tamil, Hindi, English, etc. Formal language code tags expressed in [BCP 47](https://en.wikipedia.org/wiki/IETF_language_tag) can be used via the [[alternateName]] property. The Language type previously also covered programming languages such as Scheme and Lisp, which are now best represented using [[ComputerLanguage]]."@en,
@@ -12800,7 +12789,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:Energy ;
   skos:inScheme :scheme ;
   skos:broader :Object, :calories, :redaktor ;
-  skos:notation "1377" ;
+  skos:notation "44" ;
   skos:prefLabel "Energie"@de, "Energy"@en, "Énergie"@fr, "Energía"@es ;
   skos:definition "Eigenschaften, die Energie als Wert annehmen, haben die Form '&lt;Number&gt; &lt;Energy unit of measure&gt;'."@de,
       "Properties that take Energy as values are of the form '&lt;Number&gt; &lt;Energy unit of measure&gt;'."@en,
@@ -12814,7 +12803,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:Mass ;
   skos:inScheme :scheme ;
   skos:broader :Object, :fatContent, :proteinContent, :sodiumContent, :cholesterolContent, :sugarContent, :carbohydrateContent, :transFatContent, :fiberContent, :unsaturatedFatContent, :saturatedFatContent, :redaktor ;
-  skos:notation "1378" ;
+  skos:notation "45" ;
   skos:prefLabel "Masse"@de, "Mass"@en, "Masse"@fr, "Masa"@es ;
   skos:definition "Eigenschaften, die Masse als Wert annehmen, haben die Form '&lt;Number&gt; &lt;Mass unit of measure&gt;'. Z.B. '7 kg'."@de,
       "Properties that take Mass as values are of the form '&lt;Number&gt; &lt;Mass unit of measure&gt;'. E.g., '7 kg'."@en,
@@ -12842,7 +12831,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:SpeakableSpecification ;
   skos:inScheme :scheme ;
   skos:broader :Object, :speakable, :redaktor ;
-  skos:notation "1380" ;
+  skos:notation "46" ;
   skos:prefLabel "Speakable Spezifikation"@de, "Speakable Specification"@en, "Spécification de Speakable"@fr, "Especificación de la palabra"@es ;
   skos:definition "Eine SpeakableSpecification zeigt (typischerweise über [[xpath]] oder [[cssSelector]]) Abschnitte eines Dokuments an, die als besonders [[sprechbar]] hervorgehoben sind. Es wird erwartet, dass Instanzen dieses Typs in erster Linie als Werte für die [[speakable]]-Eigenschaft verwendet werden."@de,
       "A SpeakableSpecification indicates (typically via [[xpath]] or [[cssSelector]]) sections of a document that are highlighted as particularly [[speakable]]. Instances of this type are expected to be used primarily as values of the [[speakable]] property."@en,
@@ -12870,7 +12859,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:BedType ;
   skos:inScheme :scheme ;
   skos:broader :Object, :typeOfBed, :bed, :redaktor ;
-  skos:notation "1382" ;
+  skos:notation "47" ;
   skos:prefLabel "Bett-Typ"@de, "Bed Type"@en, "Type de lit"@fr, "Tipo de cama"@es ;
   skos:definition "Eine Art von Bett. Hier wird angegeben, welche Betten in einer Unterkunft zur Verfügung stehen."@de,
       "A type of bed. This is used for indicating the bed or beds available in an accommodation."@en,
@@ -12912,7 +12901,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:Distance ;
   skos:inScheme :scheme ;
   skos:broader :Object, :depth, :flightDistance, :height, :redaktor ;
-  skos:notation "1385" ;
+  skos:notation "48" ;
   skos:prefLabel "Entfernung"@de, "Distance"@en, "Distance"@fr, "Distancia"@es ;
   skos:definition "Eigenschaften, die Entfernungen als Werte annehmen, haben die Form '&lt;Number&gt; &lt;Length unit of measure&gt;'. Z.B. '7 ft'."@de,
       "Properties that take Distances as values are of the form '&lt;Number&gt; &lt;Length unit of measure&gt;'. E.g., '7 ft'."@en,
@@ -12996,7 +12985,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:QuantitativeValue ;
   skos:inScheme :scheme ;
   skos:broader :Object, :valueReference, :marginOfError, :depth, :durationOfWarranty, :fuelCapacity, :accelerationTime, :speed, :trailerWeight, :numberOfForwardGears, :weightTotal, :numberOfPreviousOwners, :wheelbase, :cargoVolume, :payload, :fuelConsumption, :numberOfAxles, :numberOfDoors, :vehicleSeatingCapacity, :tongueWeight, :fuelEfficiency, :mileageFromOdometer, :seatingCapacity, :advanceBookingRequirement, :deliveryLeadTime, :eligibleDuration, :eligibleQuantity, :floorSize, :hasMeasurement, :height, :inventoryLevel, :leaseLength, :materialExtent, :membershipPointsEarned, :numberOfAccommodationUnits, :numberOfAvailableAccommodationUnits, :numberOfBedrooms, :numberOfEmployees, :numberOfPlayers, :numberOfRooms, :occupancy, :recipeYield, :size, :weight, :yield, :redaktor ;
-  skos:notation "1391" ;
+  skos:notation "49" ;
   skos:prefLabel "Quantitativer Wert"@de, "Quantitative Value"@en, "Valeur quantitative"@fr, "Valor cuantitativo"@es ;
   skos:definition "Ein Punktwert oder ein Intervall für Produktmerkmale und andere Zwecke."@de,
       "A point value or interval for product characteristics and other purposes."@en,
@@ -13024,7 +13013,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:PriceSpecification ;
   skos:inScheme :scheme ;
   skos:broader :Object, :eligibleTransactionVolume, :netWorth, :priceSpecification, :totalPrice, :redaktor ;
-  skos:notation "1393" ;
+  skos:notation "50" ;
   skos:prefLabel "Preis Spezifikation"@de, "Price Specification"@en, "Spécification des prix"@fr, "Especificación de precios"@es ;
   skos:definition "Ein strukturierter Wert, der einen Preis oder eine Preisspanne darstellt. Normalerweise werden nur die Unterklassen dieses Typs für Aufschläge verwendet. Es wird empfohlen, [[MonetaryAmount]] zu verwenden, um unabhängige Geldbeträge wie ein Gehalt, Kreditkartenlimits usw. zu beschreiben."@de,
       "A structured value representing a price or price range. Typically, only the subclasses of this type are used for markup. It is recommended to use [[MonetaryAmount]] to describe independent amounts of money such as a salary, credit card limits, etc."@en,
@@ -13038,7 +13027,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:NutritionInformation ;
   skos:inScheme :scheme ;
   skos:broader :Object, :nutrition, :redaktor ;
-  skos:notation "1394" ;
+  skos:notation "51" ;
   skos:prefLabel "Informationen zur Ernährung"@de, "Nutrition Information"@en, "Informations nutritionnelles"@fr, "Información nutricional"@es ;
   skos:definition "Nährwertangaben zum Rezept."@de,
       "Nutritional information about the recipe."@en,
@@ -13052,7 +13041,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:Observation ;
   skos:inScheme :scheme ;
   skos:broader :Object, :diseaseSpreadStatistics, :redaktor ;
-  skos:notation "1395" ;
+  skos:notation "52" ;
   skos:prefLabel "Beobachtung"@de, "Observation"@en, "Observation"@fr, "Observación"@es ;
   skos:definition "Instanzen der Klasse [[Observation]] werden verwendet, um Beobachtungen über eine Einheit (die eine Instanz einer [[StatisticalPopulation]] sein kann oder auch nicht) zu einem bestimmten Zeitpunkt anzugeben. Die wichtigsten Eigenschaften einer [[Beobachtung]] sind [[observedNode]], [[measuredProperty]], [[measuredValue]] (oder [[Median]] usw.) und [[observationDate]] ([[measuredProperty]]-Eigenschaften können, müssen aber nicht immer, W3C RDF Data Cube \"measure properties\" sein, wie im [lifeExpectancy-Beispiel](https://www.w3.org/TR/vocab-data-cube/#dsd-example)).\nSiehe auch [[StatisticalPopulation]] und die Übersicht [data and datasets](/docs/data-and-datasets.html) für weitere Einzelheiten."@de,
       "Instances of the class [[Observation]] are used to specify observations about an entity (which may or may not be an instance of a [[StatisticalPopulation]]), at a particular time. The principal properties of an [[Observation]] are [[observedNode]], [[measuredProperty]], [[measuredValue]] (or [[median]], etc.) and [[observationDate]] ([[measuredProperty]] properties can, but need not always, be W3C RDF Data Cube \"measure properties\", as in the [lifeExpectancy example](https://www.w3.org/TR/vocab-data-cube/#dsd-example)).\nSee also [[StatisticalPopulation]], and the [data and datasets](/docs/data-and-datasets.html) overview for more details."@en,
@@ -13065,7 +13054,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
 :MediaObject a owl:Class, rdfs:Class, skos:Concept ;
   skos:exactMatch schema:MediaObject ;
   skos:inScheme :scheme ;
-  skos:broader :CreativeWork, :associatedMedia, :encoding, :encodings, :redaktor ;
+  skos:broader :CreativeWork, :associatedMedia, :encoding, :redaktor ;
   skos:notation "1396" ;
   skos:prefLabel "Medienobjekt"@de, "Media Object"@en, "Objet média"@fr, "Objeto de los medios de comunicación"@es ;
   skos:definition "Ein Medienobjekt, z. B. ein Bild-, Video- oder Audioobjekt, das in eine Webseite eingebettet ist, oder ein herunterladbarer Datensatz, z. B. ein DataDownload. Beachten Sie, dass ein kreatives Werk auf einer Webseite mit vielen Medienobjekten verknüpft sein kann. So kann beispielsweise eine Seite über einen einzelnen Song (MusicRecording) ein Musikvideo (VideoObject) und einen Audiostream mit hoher und niedriger Bandbreite (2 AudioObjects) enthalten."@de,
@@ -13080,7 +13069,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:Product ;
   skos:inScheme :scheme ;
   skos:broader :Object, :isAccessoryOrSparePartFor, :isConsumableFor, :typeOfGood, :itemShipped, :redaktor ;
-  skos:notation "1397" ;
+  skos:notation "53" ;
   skos:prefLabel "Produkt"@de, "Product"@en, "Produit"@fr, "Producto"@es ;
   skos:definition "Jede angebotene Ware oder Dienstleistung. Zum Beispiel: ein Paar Schuhe, eine Konzertkarte, die Anmietung eines Autos, ein Haarschnitt oder eine Episode einer online gestreamten Fernsehsendung."@de,
       "Any offered product or service. For example: a pair of shoes; a concert ticket; the rental of a car; a haircut; or an episode of a TV show streamed online."@en,
@@ -13094,7 +13083,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:MenuItem ;
   skos:inScheme :scheme ;
   skos:broader :Object, :menuAddOn, :hasMenuItem, :redaktor ;
-  skos:notation "1398" ;
+  skos:notation "54" ;
   skos:prefLabel "Menüpunkt"@de, "Menu Item"@en, "Élément de menu"@fr, "Elemento del menú"@es ;
   skos:definition "Eine Speise oder ein Getränk, das in einer Speisekarte oder einem Menüabschnitt aufgeführt ist."@de,
       "A food or drink item listed in a menu or menu section."@en,
@@ -13136,7 +13125,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:MonetaryAmount ;
   skos:inScheme :scheme ;
   skos:broader :Object, :restockingFee, :itemDefectReturnShippingFeesAmount, :customerRemorseReturnShippingFeesAmount, :returnShippingFeesAmount, :estimatedSalary, :shippingRate, :amount, :estimatedCost, :netWorth, :redaktor ;
-  skos:notation "1401" ;
+  skos:notation "55" ;
   skos:prefLabel "Geldbetrag"@de, "Monetary Amount"@en, "Montant monétaire"@fr, "Importe monetario"@es ;
   skos:definition "Ein Geldwert oder eine Spanne. Dieser Typ kann verwendet werden, um einen Geldbetrag zu beschreiben, wie z. B. 50 USD, oder einen Bereich, wie z. B. die Beschreibung eines Bankkontos, das für ein Guthaben zwischen 1.000 und 1.000.000 GBP geeignet ist, oder den Wert eines Gehalts usw. Es wird empfohlen, [[PriceSpecification]]-Typen zu verwenden. Typen zu verwenden, um den Preis eines Angebots, einer Rechnung usw. zu beschreiben."@de,
       "A monetary value or range. This type can be used to describe an amount of money such as $50 USD, or a range as in describing a bank account being suitable for a balance between £1,000 and £1,000,000 GBP, or the value of a salary, etc. It is recommended to use [[PriceSpecification]] Types to describe the price of an Offer, Invoice, etc."@en,
@@ -13164,7 +13153,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:OpeningHoursSpecification ;
   skos:inScheme :scheme ;
   skos:broader :Object, :hoursAvailable, :redaktor ;
-  skos:notation "1403" ;
+  skos:notation "56" ;
   skos:prefLabel "Öffnungszeiten Spezifikation"@de, "Opening Hours Specification"@en, "Spécification des heures d'ouverture"@fr, "Especificación de los horarios de apertura"@es ;
   skos:definition "Ein strukturierter Wert, der Informationen über die Öffnungszeiten eines Ortes oder einer bestimmten Dienstleistung innerhalb eines Ortes liefert.\n\nDer Ort ist __open__, wenn die Eigenschaft [[opens]] angegeben ist, und __closed__ andernfalls.\n\nWenn der Wert für die Eigenschaft [[closes]] kleiner ist als der Wert für die Eigenschaft [[opens]], wird angenommen, dass sich der Stundenbereich über den nächsten Tag erstreckt."@de,
       "A structured value providing information about the opening hours of a place or a certain service inside a place.\n\nThe place is __open__ if the [[opens]] property is specified, and __closed__ otherwise.\n\nIf the value for the [[closes]] property is less than the value for the [[opens]] property then the hour range is assumed to span over the next day."@en,
@@ -13206,7 +13195,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:WarrantyPromise ;
   skos:inScheme :scheme ;
   skos:broader :Object, :warranty, :redaktor ;
-  skos:notation "1406" ;
+  skos:notation "57" ;
   skos:prefLabel "Garantieversprechen"@de, "Warranty Promise"@en, "Promesse de garantie"@fr, "Compromiso de garantía"@es ;
   skos:definition "Ein strukturierter Wert, der die Dauer und den Umfang der Dienstleistungen darstellt, die einem Kunden im Falle eines Defekts oder einer Fehlfunktion eines Produkts kostenlos zur Verfügung gestellt werden."@de,
       "A structured value representing the duration and scope of services that will be provided to a customer free of charge in case of a defect or malfunction of a product."@en,
@@ -13220,7 +13209,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:Seat ;
   skos:inScheme :scheme ;
   skos:broader :Object, :ticketedSeat, :redaktor ;
-  skos:notation "1407" ;
+  skos:notation "58" ;
   skos:prefLabel "Sitz"@de, "Seat"@en, "Siège"@fr, "Asiento"@es ;
   skos:definition "Wird verwendet, um einen Sitzplatz zu beschreiben, z. B. einen reservierten Sitzplatz bei einer Veranstaltungsreservierung."@de,
       "Used to describe a seat, such as a reserved seat in an event reservation."@en,
@@ -13234,7 +13223,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:InteractionCounter ;
   skos:inScheme :scheme ;
   skos:broader :Object, :interactionStatistic, :redaktor ;
-  skos:notation "1408" ;
+  skos:notation "59" ;
   skos:prefLabel "Interaktionszähler"@de, "Interaction Counter"@en, "Compteur d'interactions"@fr, "Contador de interacciones"@es ;
   skos:definition "Eine Zusammenfassung der Art und Weise, wie Nutzer mit diesem CreativeWork interagiert haben. In den meisten Fällen werden die Autoren einen Untertyp verwenden, um die spezifische Art der Interaktion anzugeben."@de,
       "A summary of how users have interacted with this CreativeWork. In most cases, authors will use a subtype to specify the specific type of interaction."@en,
@@ -13248,7 +13237,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:TypeAndQuantityNode ;
   skos:inScheme :scheme ;
   skos:broader :Object, :includesObject, :redaktor ;
-  skos:notation "1409" ;
+  skos:notation "60" ;
   skos:prefLabel "Typ und Menge Knoten"@de, "Type And Quantity Node"@en, "Nœud de type et de quantité"@fr, "Tipo y cantidad de nodo"@es ;
   skos:definition "Ein strukturierter Wert, der die Menge, die Maßeinheit und die betriebswirtschaftliche Funktion der in einem Bündelangebot enthaltenen Waren angibt."@de,
       "A structured value indicating the quantity, unit of measurement, and business function of goods included in a bundle offer."@en,
@@ -13276,7 +13265,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:GameServer ;
   skos:inScheme :scheme ;
   skos:broader :Object, :gameServer, :redaktor ;
-  skos:notation "1411" ;
+  skos:notation "61" ;
   skos:prefLabel "Spiel-Server"@de, "Game Server"@en, "Serveur de jeu"@fr, "Servidor de juegos"@es ;
   skos:definition "Server, der die Spielinteraktion in einem Multiplayer-Spiel ermöglicht."@de,
       "Server that provides game interaction in a multiplayer game."@en,
@@ -13290,7 +13279,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:BedDetails ;
   skos:inScheme :scheme ;
   skos:broader :Object, :bed, :redaktor ;
-  skos:notation "1412" ;
+  skos:notation "62" ;
   skos:prefLabel "Details zum Bett"@de, "Bed Details"@en, "Détails du lit"@fr, "Detalles de la cama"@es ;
   skos:definition "Eine Entität mit detaillierten Informationen über die verfügbaren Bettentypen, z. B. die Anzahl der Einzelbetten für ein Hotelzimmer. Für den einzigen Fall, dass nur ein Bett eines bestimmten Typs vorhanden ist, können Sie bed direkt mit einem Text verwenden. Siehe auch [[BedType]] (in Entwicklung)."@de,
       "An entity holding detailed information about the available bed types, e.g. the quantity of twin beds for a hotel room. For the single case of just one bed of a certain type, you can use bed directly with a text. See also [[BedType]] (under development)."@en,
@@ -13318,7 +13307,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:Rating ;
   skos:inScheme :scheme ;
   skos:broader :Object, :reviewRating, :contentRating, :starRating, :redaktor ;
-  skos:notation "1414" ;
+  skos:notation "63" ;
   skos:prefLabel "Bewertung"@de, "Rating"@en, "Classement"@fr, "Clasificación"@es ;
   skos:definition "Ein Rating ist eine Bewertung auf einer numerischen Skala, z. B. 1 bis 5 Sterne."@de,
       "A rating is an evaluation on a numeric scale, such as 1 to 5 stars."@en,
@@ -13346,7 +13335,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:ServiceChannel ;
   skos:inScheme :scheme ;
   skos:broader :Object, :availableChannel, :redaktor ;
-  skos:notation "1416" ;
+  skos:notation "64" ;
   skos:prefLabel "Servicekanal"@de, "Service Channel"@en, "Canal de service"@fr, "Canal de servicio"@es ;
   skos:definition "Ein Mittel für den Zugang zu einer Dienstleistung, z. B. ein Standort einer Behörde, eine Website oder eine Telefonnummer."@de,
       "A means for accessing a service, e.g. a government office location, web site, or phone number."@en,
@@ -13388,7 +13377,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:MerchantReturnPolicy ;
   skos:inScheme :scheme ;
   skos:broader :Object, :hasMerchantReturnPolicy, :redaktor ;
-  skos:notation "1419" ;
+  skos:notation "77" ;
   skos:prefLabel "Rückgabebedingungen des Händlers"@de, "Merchant Return Policy"@en, "Politique de retour du commerçant"@fr, "Política de devoluciones del comerciante"@es ;
   skos:definition "Eine MerchantReturnPolicy enthält Informationen über Produktrückgaberichtlinien, die mit einer [[Organisation]], einem [[Produkt]] oder einem [[Angebot]] verbunden sind."@de,
       "A MerchantReturnPolicy provides information about product return policies associated with an [[Organization]], [[Product]], or [[Offer]]."@en,
@@ -13402,7 +13391,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:Occupation ;
   skos:inScheme :scheme ;
   skos:broader :Object, :hasOccupation, :redaktor ;
-  skos:notation "1420" ;
+  skos:notation "103" ;
   skos:prefLabel "Beruf"@de, "Occupation"@en, "Profession"@fr, "Ocupación"@es ;
   skos:definition "Ein Beruf kann eine längere Ausbildung und/oder eine formale Qualifikation erfordern."@de,
       "A profession, may involve prolonged training and/or a formal qualification."@en,
@@ -13416,7 +13405,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:ParcelDelivery ;
   skos:inScheme :scheme ;
   skos:broader :Object, :orderDelivery, :redaktor ;
-  skos:notation "1421" ;
+  skos:notation "104" ;
   skos:prefLabel "Paketzustellung"@de, "Parcel Delivery"@en, "Livraison de colis"@fr, "Entrega de paquetes"@es ;
   skos:definition "Die Zustellung eines Pakets entweder durch die Post oder einen kommerziellen Dienst."@de,
       "The delivery of a parcel either via the postal service or a commercial service."@en,
@@ -13426,25 +13415,11 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   rdfs:label "ParcelDelivery" ;
   rdfs:subClassOf :Object .
 
-:Review a owl:Class, rdfs:Class, skos:Concept ;
-  skos:exactMatch schema:Review ;
-  skos:inScheme :scheme ;
-  skos:broader :CreativeWork, :associatedClaimReview, :associatedReview, :associatedMediaReview, :review, :reviews, :redaktor ;
-  skos:notation "1422" ;
-  skos:prefLabel "Überprüfung"@de, "Review"@en, "Consultez le site"@fr, "Revise"@es ;
-  skos:definition "Eine Bewertung eines Objekts - zum Beispiel eines Restaurants, eines Films oder eines Geschäfts."@de,
-      "A review of an item - for example, of a restaurant, movie, or store."@en,
-      "Une critique d'un article - par exemple, d'un restaurant, d'un film ou d'un magasin."@fr,
-      "Una reseña de un artículo, por ejemplo, de un restaurante, una película o una tienda."@es ;
-  skos:scopeNote :CreativeWork ;
-  rdfs:label "Review" ;
-  rdfs:subClassOf :CreativeWork .
-
 :OfferShippingDetails a owl:Class, rdfs:Class, skos:Concept ;
   skos:exactMatch schema:OfferShippingDetails ;
   skos:inScheme :scheme ;
   skos:broader :Object, :shippingDetails, :redaktor ;
-  skos:notation "1423" ;
+  skos:notation "105" ;
   skos:prefLabel "Angebot Versanddetails"@de, "Offer Shipping Details"@en, "Détails d'expédition de l'offre"@fr, "Detalles del envío de la oferta"@es ;
   skos:definition "OfferShippingDetails stellt Informationen über Versandziele dar.Mehrere dieser Entitäten können verwendet werden, um unterschiedliche Versandtarife für verschiedene Ziele darzustellen: Eine Entität für Alaska/Hawaii. Eine andere für die kontinentalen USA und eine andere für ganz Frankreich. Mehrere dieser Entitäten können verwendet werden, um unterschiedliche Versandkosten und Lieferzeiten darzustellen."@de,
       "OfferShippingDetails represents information about shipping destinations.Multiple of these entities can be used to represent different shipping rates for different destinations: One entity for Alaska/Hawaii. A different one for continental US.A different one for all France. Multiple of these entities can be used to represent different shipping costs and delivery times."@en,
@@ -13458,7 +13433,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:OwnershipInfo ;
   skos:inScheme :scheme ;
   skos:broader :Object, :redaktor ;
-  skos:notation "1424" ;
+  skos:notation "106" ;
   skos:prefLabel "Informationen zum Eigentum"@de, "Ownership Info"@en, "Informations sur la propriété"@fr, "Información sobre la propiedad"@es ;
   skos:definition "Ein strukturierter Wert, der Auskunft darüber gibt, wann eine bestimmte Organisation oder Person ein bestimmtes Produkt besaß."@de,
       "A structured value providing information about when a certain organization or person owned a certain product."@en,
@@ -13472,7 +13447,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:DataFeedItem ;
   skos:inScheme :scheme ;
   skos:broader :Object, :redaktor ;
-  skos:notation "1425" ;
+  skos:notation "107" ;
   skos:prefLabel "Datenfeed Element"@de, "Data Feed Item"@en, "Élément du DataFeed"@fr, "Elemento de DataFeed"@es ;
   skos:definition "Ein einzelnes Element innerhalb eines größeren Datenfeeds."@de,
       "A single item within a larger data feed."@en,
@@ -13486,7 +13461,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:DataCatalog ;
   skos:inScheme :scheme ;
   skos:broader :Object, :redaktor ;
-  skos:notation "1426" ;
+  skos:notation "108" ;
   skos:prefLabel "Daten-Katalog"@de, "Data Catalog"@en, "Catalogue de données"@fr, "Catálogo de datos"@es ;
   skos:definition "Eine Sammlung von Datensätzen."@de,
       "A collection of datasets."@en,
@@ -13500,7 +13475,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:MediaSubscription ;
   skos:inScheme :scheme ;
   skos:broader :Object, :redaktor ;
-  skos:notation "1427" ;
+  skos:notation "109" ;
   skos:prefLabel "Medien-Abonnement"@de, "Media Subscription"@en, "Abonnement aux médias"@fr, "Suscripción a los medios"@es ;
   skos:definition "Ein Abonnement, das einem Nutzer den Zugang zu Medien wie Audio, Video, Büchern usw. ermöglicht."@de,
       "A subscription which allows a user to access media including audio, video, books, etc."@en,
@@ -13514,7 +13489,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:BroadcastChannel ;
   skos:inScheme :scheme ;
   skos:broader :Object, :redaktor ;
-  skos:notation "1428" ;
+  skos:notation "182" ;
   skos:prefLabel "Sendekanal"@de, "Broadcast Channel"@en, "Canal de diffusion"@fr, "Canal de difusión"@es ;
   skos:definition "Eine eindeutige Instanz eines BroadcastService in einer CableOrSatelliteService-Aufstellung."@de,
       "A unique instance of a BroadcastService on a CableOrSatelliteService lineup."@en,
@@ -13528,7 +13503,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:BroadcastFrequencySpecification ;
   skos:inScheme :scheme ;
   skos:broader :Object, :redaktor ;
-  skos:notation "1429" ;
+  skos:notation "183" ;
   skos:prefLabel "Spezifikation der Rundfunkfrequenz"@de, "Broadcast Frequency Specification"@en, "Spécification de la fréquence de diffusion"@fr, "Especificación de la frecuencia de emisión"@es ;
   skos:definition "Die Frequenz in MHz und die Modulation, die für einen bestimmten BroadcastService verwendet wird."@de,
       "The frequency in MHz and the modulation used for a particular BroadcastService."@en,
@@ -13542,7 +13517,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:Order ;
   skos:inScheme :scheme ;
   skos:broader :Object, :redaktor ;
-  skos:notation "1430" ;
+  skos:notation "184" ;
   skos:prefLabel "Bestellung"@de, "Order"@en, "Commandez"@fr, "Pida"@es ;
   skos:definition "Eine Bestellung ist eine Bestätigung einer Transaktion (ein Beleg), die mehrere Positionen enthalten kann, von denen jede ein Angebot darstellt, das vom Kunden angenommen wurde."@de,
       "An order is a confirmation of a transaction (a receipt), which can contain multiple line items, each represented by an Offer that has been accepted by the customer."@en,
@@ -13556,7 +13531,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:Reservation ;
   skos:inScheme :scheme ;
   skos:broader :Object, :redaktor ;
-  skos:notation "1431" ;
+  skos:notation "185" ;
   skos:prefLabel "Reservierung"@de, "Reservation"@en, "Réservation"@fr, "Reserva"@es ;
   skos:definition "Beschreibt eine Reservierung für eine Reise, ein Essen oder eine Veranstaltung. Für einige Reservierungen sind Tickets erforderlich. \n\nHinweis: Dieser Typ ist für Informationen über tatsächliche Reservierungen gedacht, z. B. in Bestätigungs-E-Mails oder HTML-Seiten mit individuellen Reservierungsbestätigungen. Für Angebote für Tickets, Restaurantreservierungen, Flüge oder Mietwagen verwenden Sie [[Angebot]]."@de,
       "Describes a reservation for travel, dining or an event. Some reservations require tickets. \n\nNote: This type is for information about actual reservations, e.g. in confirmation emails or HTML pages with individual confirmations of reservations. For offers of tickets, restaurant reservations, flights, or rental cars, use [[Offer]]."@en,
@@ -13570,7 +13545,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:Invoice ;
   skos:inScheme :scheme ;
   skos:broader :Object, :redaktor ;
-  skos:notation "1432" ;
+  skos:notation "186" ;
   skos:prefLabel "Rechnung"@de, "Invoice"@en, "Facture"@fr, "Factura"@es ;
   skos:definition "Eine Rechnung über den Betrag, der für Waren oder Dienstleistungen zu zahlen ist."@de,
       "A statement of the money due for goods or services; a bill."@en,
@@ -13584,7 +13559,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:TVSeason ;
   skos:inScheme :scheme ;
   skos:broader :Object, :redaktor ;
-  skos:notation "1433" ;
+  skos:notation "187" ;
   skos:prefLabel "T V Saison"@de, "T V Season"@en, "Saison T V"@fr, "Temporada de T V"@es ;
   skos:definition "Saison, die der TV-Ausstrahlung und der damit verbundenen Online-Bereitstellung gewidmet ist."@de,
       "Season dedicated to TV broadcast and associated online delivery."@en,
@@ -13598,7 +13573,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:HowToDirection ;
   skos:inScheme :scheme ;
   skos:broader :Object, :redaktor ;
-  skos:notation "1434" ;
+  skos:notation "188" ;
   skos:prefLabel "Wie man Regie führt"@de, "How To Direction"@en, "Comment diriger"@fr, "Cómo dirigir"@es ;
   skos:definition "Eine Anweisung, die eine einzelne Handlung in den Anweisungen angibt, wie ein Ergebnis zu erreichen ist."@de,
       "A direction indicating a single action to do in the instructions for how to achieve a result."@en,
@@ -13612,7 +13587,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   skos:exactMatch schema:Permit ;
   skos:inScheme :scheme ;
   skos:broader :Object, :redaktor ;
-  skos:notation "1435" ;
+  skos:notation "189" ;
   skos:prefLabel "Erlaubnis"@de, "Permit"@en, "Permis"@fr, "Permiso"@es ;
   skos:definition "Eine von einer Organisation ausgestellte Genehmigung, z. B. ein Parkausweis."@de,
       "A permit issued by an organization, e.g. a parking pass."@en,
@@ -18509,27 +18484,6 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       owl:unionOf ( xsd:string xsd:anyURI )
     ] .
 
-:encodings a owl:ObjectProperty, skos:Concept ;
-  skos:exactMatch schema:encodings ;
-  skos:inScheme :scheme ;
-  skos:broader :CreativeWork, :redaktor ;
-  skos:notation "1936" ;
-  skos:prefLabel "Verschlüsselungen"@de, "encodings"@en, "encodages"@fr, "codificaciones"@es ;
-  skos:definition "Ein Medienobjekt, das dieses CreativeWork kodiert."@de,
-    "A media object that encodes this CreativeWork."@en,
-    "Un objet média qui encode ce travail créatif."@fr,
-    "Un objeto multimedia que codifica este CreativeWork."@es ;
-  skos:scopeNote :MediaObject ;
-  rdfs:label "encodings" ;
-  rdfs:domain [
-      a owl:Class ;
-      owl:unionOf ( :CreativeWork :Link )
-    ] ;
-  rdfs:range [
-      a owl:Class ;
-      owl:unionOf ( :MediaObject :Link )
-    ] .
-
 :endOffset a owl:ObjectProperty, skos:Concept ;
   skos:exactMatch schema:endOffset ;
   skos:inScheme :scheme ;
@@ -19181,7 +19135,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
 :gender a owl:ObjectProperty, skos:Concept ;
   skos:exactMatch schema:gender ;
   skos:inScheme :scheme ;
-  skos:broader :SportsTeam, :Person, :redaktor ;
+  skos:broader :SportsTeam, :redaktor ;
   skos:notation "1973" ;
   skos:prefLabel "Geschlecht"@de, "gender"@en, "genre"@fr, "género"@es ;
   skos:definition "Geschlecht von etwas, typischerweise eine [[Person]], aber möglicherweise auch fiktive Figuren, Tiere usw. Während https://schema.org/Male und https://schema.org/Female verwendet werden können, sind auch Textstrings für Personen akzeptabel, die sich nicht mit einem binären Geschlecht identifizieren. Die Eigenschaft [[Geschlecht]] kann auch in einem erweiterten Sinne verwendet werden, um z. B. das Geschlecht von Sportmannschaften zu erfassen. Wie beim Geschlecht von Einzelpersonen versuchen wir auch hier nicht, alle Möglichkeiten aufzuzählen. Ein gemischtgeschlechtliches [[Sportteam]] kann mit einem Textwert von \"Gemischt\" angegeben werden."@de,
@@ -23432,27 +23386,6 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   rdfs:domain [
       a owl:Class ;
       owl:unionOf ( :Offer :Object :Brand :Organization :Service :Event :Place :CreativeWork :Link )
-    ] ;
-  rdfs:range [
-      a owl:Class ;
-      owl:unionOf ( :Review :Link )
-    ] .
-
-:reviews a owl:ObjectProperty, skos:Concept ;
-  skos:exactMatch schema:reviews ;
-  skos:inScheme :scheme ;
-  skos:broader :Place, :CreativeWork, :Offer, :Object, :Organization, :redaktor ;
-  skos:notation "2194" ;
-  skos:prefLabel "Überprüfungen"@de, "reviews"@en, "examens"@fr, "revisiones"@es ;
-  skos:definition "Rückblick auf den Artikel."@de,
-    "Review of the item."@en,
-    "Révision de l'article."@fr,
-    "Revisión del artículo."@es ;
-  skos:scopeNote :Review ;
-  rdfs:label "reviews" ;
-  rdfs:domain [
-      a owl:Class ;
-      owl:unionOf ( :Place :CreativeWork :Offer :Object :Organization :Link )
     ] ;
   rdfs:range [
       a owl:Class ;

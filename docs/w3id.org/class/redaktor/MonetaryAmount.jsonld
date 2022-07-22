@@ -16,7 +16,7 @@
     "es": "Un valor o rango monetario. Este tipo puede utilizarse para describir una cantidad de dinero, como 50 USD, o un rango, como en la descripción de una cuenta bancaria con un saldo entre 1.000 y 1.000.000 GBP, o el valor de un salario, etc. Se recomienda utilizar [[PriceSpecification]] para describir el precio de una oferta, factura, etc."
   },
   "notation": [
-    "1401"
+    "55"
   ],
   "narrower": [
     {

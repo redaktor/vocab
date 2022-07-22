@@ -41,15 +41,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/gender",
-      "prefLabel": {
-        "de": "Geschlecht",
-        "en": "gender",
-        "fr": "genre",
-        "es": "género"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/knowsLanguage",
       "prefLabel": {
         "de": "kennt Sprache",

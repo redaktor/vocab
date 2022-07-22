@@ -52,8 +52,10 @@
     {
       "id": "https://w3id.org/class/redaktor/Travel",
       "prefLabel": {
+        "de": "Reise",
         "en": "Travel",
-        "fr": "Voyage"
+        "fr": "Voyage",
+        "es": "Viajes"
       }
     }
   ],

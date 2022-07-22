@@ -16,7 +16,7 @@
     "es": "OfferShippingDetails representa la información sobre los destinos de envío. Se pueden utilizar varias de estas entidades para representar diferentes tarifas de envío para diferentes destinos: Una entidad para Alaska/Hawaii. Una entidad diferente para EE.UU. continental.Una entidad diferente para toda Francia. Se pueden utilizar varias de estas entidades para representar diferentes costes de envío y plazos de entrega."
   },
   "notation": [
-    "1423"
+    "105"
   ],
   "narrower": [
     {

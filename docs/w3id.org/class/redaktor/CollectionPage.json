@@ -4,8 +4,16 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCollectionPage",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FCollectionPage",
   "prefLabel": {
+    "de": "Sammlung Seite",
+    "en": "Collection Page",
     "fr": "Page de la collection",
     "es": "Página de la colección"
+  },
+  "definition": {
+    "de": "Wird verwendet, um bestimmte Teilmengen von Elementen aus einer Collection darzustellen. Eine vollständige Beschreibung des CollectionPage-Objekts finden Sie im Activity Streams 2.0 Core.<br>siehe [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collectionpage](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collectionpage)",
+    "en": "Used to represent distinct subsets of items from a Collection. Refer to the Activity Streams 2.0 Core for a complete description of the CollectionPage object.<br>see [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collectionpage](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collectionpage)",
+    "fr": "Utilisé pour représenter des sous-ensembles distincts d'éléments d'une collection. Reportez-vous au Activity Streams 2.0 Core pour une description complète de l'objet CollectionPage.<br>voir [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collectionpage](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collectionpage)",
+    "es": "Se utiliza para representar distintos subconjuntos de elementos de una colección. Consulte el núcleo de Activity Streams 2.0 para obtener una descripción completa del objeto CollectionPage.<br>ver [https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collectionpage](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-collectionpage)"
   },
   "scopeNote": {
     "de": ": Object",
@@ -14,8 +22,7 @@
     "es": ": Object"
   },
   "notation": [
-    "7",
-    "568"
+    "7"
   ],
   "example": {
     "de": "[Beispiel 7](https://www.w3.org/TR/activitystreams-vocabulary/#ex6b-jsonld)\n\n ```json \n{\n  \"@context\": \"https://www.w3.org/ns/activitystreams\",\n  \"summary\": \"Page 1 of Sally's notes\",\n  \"type\": \"CollectionPage\",\n  \"id\": \"http://example.org/foo?page=1\",\n  \"partOf\": \"http://example.org/foo\",\n  \"items\": [\n    {\n      \"type\": \"Note\",\n      \"name\": \"A Simple Note\"\n    },\n    {\n      \"type\": \"Note\",\n      \"name\": \"Another Simple Note\"\n    }\n  ]\n}\n```",
@@ -52,6 +59,15 @@
       }
     }
   ],
+  "broader": {
+    "id": "https://w3id.org/class/redaktor/Object",
+    "prefLabel": {
+      "de": "Objekt",
+      "en": "Object",
+      "fr": "Objet",
+      "es": "Objeto"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://www.w3.org/ns/activitystreams#CollectionPage"

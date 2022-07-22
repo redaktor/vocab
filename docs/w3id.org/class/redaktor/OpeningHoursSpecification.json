@@ -16,7 +16,7 @@
     "es": "Un valor estructurado que proporciona información sobre el horario de apertura de un lugar o de un determinado servicio dentro de un lugar.\nEl lugar está __abierto__ si se especifica la propiedad [[opens]], y __cerrado__ en caso contrario.\nSi el valor de la propiedad [[closes]] es menor que el valor de la propiedad [[opens]] se asume que el rango de horas abarca el día siguiente."
   },
   "notation": [
-    "1403"
+    "56"
   ],
   "narrower": [
     {

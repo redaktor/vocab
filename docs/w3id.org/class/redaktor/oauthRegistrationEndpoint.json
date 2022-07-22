@@ -4,10 +4,10 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FoauthRegistrationEndpoint",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FoauthRegistrationEndpoint",
   "prefLabel": {
-    "de": "oauth Registration Endpoint",
-    "en": "oauth Registration Endpoint",
-    "fr": "oauth Registration Endpoint",
-    "es": "oauth Registration Endpoint"
+    "de": "OAuth Registration Endpoint",
+    "en": "OAuth Registration Endpoint",
+    "fr": "OAuth Registration Endpoint",
+    "es": "OAuth Registration Endpoint"
   },
   "definition": {
     "de": "Verweist bislang auf MastodonAPI /api/v1/apps.<br>siehe https://docs.joinmastodon.org/methods/apps/<br>siehe [Pleroma documentation](https://docs-develop.pleroma.social/backend/development/ap_extensions/#actor-endpoints)",

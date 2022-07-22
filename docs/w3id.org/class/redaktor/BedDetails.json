@@ -16,7 +16,7 @@
     "es": "Entidad que contiene información detallada sobre los tipos de cama disponibles, por ejemplo, la cantidad de camas gemelas para una habitación de hotel. Para el caso único de una sola cama de un determinado tipo, se puede utilizar bed directamente con un texto. Véase también [[BedType]] (en desarrollo)."
   },
   "notation": [
-    "1412"
+    "62"
   ],
   "narrower": [
     {

@@ -32,13 +32,6 @@
   },
   "narrower": [
     {
-      "id": "https://w3id.org/class/redaktor/Travel",
-      "prefLabel": {
-        "en": "Travel",
-        "fr": "Voyage"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/CreativeWork",
       "prefLabel": {
         "de": "Kreativwerk",
@@ -75,7 +68,22 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/Factual"
+      "id": "https://w3id.org/class/redaktor/Factual",
+      "prefLabel": {
+        "de": "Faktisch",
+        "en": "Factual",
+        "fr": "Factuel",
+        "es": "Factual"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/TravelStory",
+      "prefLabel": {
+        "de": "Reisen",
+        "en": "Travel",
+        "fr": "Voyage",
+        "es": "Viaje"
+      }
     },
     {
       "id": "https://w3id.org/class/redaktor/Weather",

@@ -16,7 +16,7 @@
     "es": "Describe una reserva para un viaje, una cena o un evento. Algunas reservas requieren entradas. \nNota: Este tipo es para información sobre reservas reales, por ejemplo, en correos electrónicos de confirmación o páginas HTML con confirmaciones individuales de reservas. Para ofertas de entradas, reservas de restaurantes, vuelos o coches de alquiler, utilice [[Oferta]]."
   },
   "notation": [
-    "1431"
+    "185"
   ],
   "narrower": [
     {

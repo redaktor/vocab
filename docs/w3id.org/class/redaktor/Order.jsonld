@@ -16,7 +16,7 @@
     "es": "Un pedido es la confirmación de una transacción (un recibo), que puede contener varias partidas, cada una de ellas representada por una Oferta que ha sido aceptada por el cliente."
   },
   "notation": [
-    "1430"
+    "184"
   ],
   "narrower": [
     {

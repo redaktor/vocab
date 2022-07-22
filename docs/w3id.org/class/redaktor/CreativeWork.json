@@ -355,7 +355,19 @@
     {
       "id": "https://w3id.org/class/redaktor/Review",
       "prefLabel": {
-        "en": "Review"
+        "de": "Kritik",
+        "en": "Review",
+        "fr": "Revue",
+        "es": "Crítica"
+      }
+    },
+    {
+      "id": "https://w3id.org/class/redaktor/review",
+      "prefLabel": {
+        "de": "Überprüfung",
+        "en": "review",
+        "fr": "examen",
+        "es": "revisión"
       }
     },
     {
@@ -440,15 +452,6 @@
       }
     },
     {
-      "id": "https://w3id.org/class/redaktor/encodings",
-      "prefLabel": {
-        "de": "Verschlüsselungen",
-        "en": "encodings",
-        "fr": "encodages",
-        "es": "codificaciones"
-      }
-    },
-    {
       "id": "https://w3id.org/class/redaktor/MenuSection",
       "prefLabel": {
         "de": "Abschnitt Menü",
@@ -509,24 +512,6 @@
         "en": "content rating",
         "fr": "classement du contenu",
         "es": "clasificación del contenido"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/review",
-      "prefLabel": {
-        "de": "Überprüfung",
-        "en": "review",
-        "fr": "examen",
-        "es": "revisión"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/reviews",
-      "prefLabel": {
-        "de": "Überprüfungen",
-        "en": "reviews",
-        "fr": "examens",
-        "es": "revisiones"
       }
     },
     {
