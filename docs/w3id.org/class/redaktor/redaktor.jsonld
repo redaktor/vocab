@@ -8317,6 +8317,15 @@
       }
     },
     {
+      "id": "https://w3id.org/class/redaktor/bookEdition",
+      "prefLabel": {
+        "de": "Buchausgabe",
+        "en": "book edition",
+        "fr": "édition du livre",
+        "es": "edición de libros"
+      }
+    },
+    {
       "id": "https://w3id.org/class/redaktor/aspect",
       "prefLabel": {
         "de": "Aspekt",
@@ -8512,15 +8521,6 @@
         "en": "blog post",
         "fr": "blog post",
         "es": "entrada del blog"
-      }
-    },
-    {
-      "id": "https://w3id.org/class/redaktor/bookEdition",
-      "prefLabel": {
-        "de": "Buchausgabe",
-        "en": "book edition",
-        "fr": "édition du livre",
-        "es": "edición de libros"
       }
     },
     {

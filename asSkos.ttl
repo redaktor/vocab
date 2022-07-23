@@ -29,8 +29,6 @@
 @prefix lm: <https://join-lemmy.org#> .
 @prefix yf: <https://yuforium.com/ns/activitypub> .
 
-# TODO alias: sec, lite, forge, mz, lm, yf
-
 # TODO
 # Reply mode
 # peertube has commentsEnabled
@@ -3401,8 +3399,8 @@ sec:signatureValue a owl:DatatypeProperty, skos:Concept ;
   skos:topConceptOf :scheme ;
   skos:narrower :inReplyToPolicy;
   skos:notation "999" ;
-  skos:prefLabel "Community Discussion"@de, "Community Discussion"@en,
-    "Community Discussion"@fr, "Community Discussion"@es ;
+  skos:prefLabel "Community Diskussion"@de, "Community Discussion"@en,
+    "Community Discussion"@fr, "Debate comunitario"@es ;
   skos:definition "Erweiterungen, die durch ActivityPub Implementationen definiert werden aber verschieden interpretiert sind."@de,
     "Extensions defined by ActivityPub implementations but interpreted differently."@en ,
     "Extensions définies par les implémentations ActivityPub ."@fr ,
@@ -15744,7 +15742,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   rdfs:label "artist" ;
   rdfs:domain [
       a owl:Class ;
-      owl:unionOf ( schema:ComicIssue :ComicStory :Image :Link )
+      owl:unionOf ( :bookEdition :ComicStory :Image :Link )
     ] ;
   rdfs:range [
       a owl:Class ;
@@ -16334,7 +16332,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     ] .
 
 :bookEdition a owl:DatatypeProperty, skos:Concept ;
-  skos:exactMatch schema:bookEdition, wdt:P629 ;
+  skos:exactMatch schema:bookEdition, schema:ComicIssue, wdt:P629 ;
   skos:inScheme :scheme ;
   skos:broader :Book, :Edition, :redaktor ;
   skos:notation "1824" ;
@@ -16911,7 +16909,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   rdfs:label "colorist" ;
   rdfs:domain [
       a owl:Class ;
-      owl:unionOf ( :Image :ComicStory schema:ComicIssue :Link )
+      owl:unionOf ( :Image :ComicStory :bookEdition :Link )
     ] ;
   rdfs:range [
       a owl:Class ;
@@ -19478,7 +19476,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     "Either the actual menu as a structured representation, as text, or a URL of the menu."@en,
     "Soit le menu actuel en tant que représentation structurée, en tant que texte, soit une URL du menu."@fr,
     "Ya sea el menú real como representación estructurada, como texto, o una URL del menú."@es ;
-  skos:scopeNote xsd:anyURI, xsd:string, schema:Menu ;
+  skos:scopeNote xsd:anyURI, xsd:string, :Menu ;
   rdfs:label "hasMenu" ;
   rdfs:domain [
       a owl:Class ;
@@ -19486,7 +19484,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     ] ;
   rdfs:range [
       a owl:Class ;
-      owl:unionOf ( xsd:anyURI xsd:string schema:Menu :Link )
+      owl:unionOf ( xsd:anyURI xsd:string :Menu :Link )
     ] .
 
 :hasMerchantReturnPolicy a owl:ObjectProperty, skos:Concept ;
@@ -20025,7 +20023,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   rdfs:label "inker" ;
   rdfs:domain [
       a owl:Class ;
-      owl:unionOf ( :Image :ComicStory schema:ComicIssue :Link )
+      owl:unionOf ( :Image :ComicStory :bookEdition :Link )
     ] ;
   rdfs:range [
       a owl:Class ;
@@ -20805,7 +20803,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   rdfs:label "letterer" ;
   rdfs:domain [
       a owl:Class ;
-      owl:unionOf ( :ComicStory schema:ComicIssue :Image :Link )
+      owl:unionOf ( :ComicStory :bookEdition :Image :Link )
     ] ;
   rdfs:range [
       a owl:Class ;
@@ -21706,7 +21704,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     ] ;
   rdfs:range [
       a owl:Class ;
-      owl:unionOf ( xsd:nonNegativeInteger schema:StructuredValue :Link )
+      owl:unionOf ( xsd:nonNegativeInteger :PropertyValue :Link )
     ] .
 
 :numberOfEmployees a owl:ObjectProperty, skos:Concept ;
@@ -22407,7 +22405,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   rdfs:label "penciler" ;
   rdfs:domain [
       a owl:Class ;
-      owl:unionOf ( :Image :ComicStory schema:ComicIssue :Link )
+      owl:unionOf ( :Image :ComicStory :bookEdition :Link )
     ] ;
   rdfs:range [
       a owl:Class ;
@@ -25275,7 +25273,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     "The URL for a feed, e.g. associated with a podcast series, blog, or series of date-stamped updates. This is usually RSS or Atom."@en,
     "L'URL d'un flux, par exemple associé à une série de podcasts, un blog ou une série de mises à jour horodatées. Il s'agit généralement d'un flux RSS ou Atom."@fr,
     "La URL de un feed, por ejemplo, asociado a una serie de podcasts, un blog o una serie de actualizaciones con fecha. Suele ser RSS o Atom."@es ;
-  skos:scopeNote schema:DataFeed, xsd:anyURI ;
+  skos:scopeNote :DataFeed, xsd:anyURI ;
   rdfs:label "webFeed" ;
   rdfs:domain [
       a owl:Class ;
@@ -26389,7 +26387,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       "A NewsArticle associated with the Media Object."@en,
       "Un article de presse associé à l'objet média."@fr,
       "Un artículo de noticias asociado al objeto multimedia."@es ;
-  skos:scopeNote schema:NewsArticle ;
+  skos:scopeNote :News ;
   rdfs:label "associatedArticle" ;
   rdfs:domain [
       a owl:Class ;
@@ -26397,7 +26395,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     ] ;
   rdfs:range [
       a owl:Class ;
-      owl:unionOf ( schema:NewsArticle :Link )
+      owl:unionOf ( :News :Link )
     ] .
 
 :requiresSubscription a owl:ObjectProperty, skos:Concept ;
@@ -26410,7 +26408,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       "Indicates if use of the media require a subscription  (either paid or free). Allowed values are ```true``` or ```false``` (note that an earlier version had 'yes', 'no')."@en,
       "Indique si l'utilisation du média nécessite un abonnement (payant ou gratuit). Les valeurs autorisées sont \"vrai\" ou \"faux\" (notez qu'une version antérieure avait \"oui\" et \"non\")."@fr,
       "Indica si el uso de los medios requiere una suscripción (ya sea de pago o gratuita). Los valores permitidos son ``true`` o ``false`` (tenga en cuenta que una versión anterior tenía ``sí`` y ``no``)."@es ;
-  skos:scopeNote schema:MediaSubscription, xsd:boolean ;
+  skos:scopeNote :MediaSubscription, xsd:boolean ;
   rdfs:label "requiresSubscription" ;
   rdfs:domain [
       a owl:Class ;
@@ -26418,7 +26416,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
     ] ;
   rdfs:range [
       a owl:Class ;
-      owl:unionOf ( schema:MediaSubscription xsd:boolean :Link )
+      owl:unionOf ( :MediaSubscription xsd:boolean :Link )
     ] .
 
 :playerType a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
@@ -27292,7 +27290,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       "The Action representing the type of interaction. For up votes, +1s, etc. use [[LikeAction]]. For down votes use [[DislikeAction]]. Otherwise, use the most specific Action."@en,
       "L'action représentant le type d'interaction. Pour les votes positifs, les +1, etc., utilisez [[LikeAction]]. Pour les votes négatifs, utilisez [[DislikeAction]]. Sinon, utilisez l'action la plus spécifique."@fr,
       "La acción que representa el tipo de interacción. Para los votos positivos, +1s, etc. utilice [[LikeAction]]. Para los votos negativos utilice [[DislikeAction]]. Por lo demás, utilice la acción más específica."@es ;
-  skos:scopeNote schema:Action ;
+  skos:scopeNote :Action ;
   rdfs:label "interactionType" ;
   rdfs:domain [
       a owl:Class ;
@@ -28657,15 +28655,15 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       "The frequency used for over-the-air broadcasts. Numeric values or simple ranges e.g. 87-99. In addition a shortcut idiom is supported for frequences of AM and FM radio channels, e.g. \"87 FM\"."@en,
       "La fréquence utilisée pour les diffusions par voie hertzienne. Valeurs numériques ou plages simples, par exemple 87-99. En outre, un idiome de raccourci est pris en charge pour les fréquences des canaux radio AM et FM, par exemple \"87 FM\"."@fr,
       "La frecuencia utilizada para las emisiones por aire. Valores numéricos o rangos simples, por ejemplo, 87-99. Además, se admite un lenguaje abreviado para las frecuencias de los canales de radio AM y FM, por ejemplo, \"87 FM\"."@es ;
-  skos:scopeNote schema:BroadcastFrequencySpecification, xsd:string ;
+  skos:scopeNote :BroadcastFrequencySpecification, xsd:string ;
   rdfs:label "broadcastFrequency" ;
   rdfs:domain [
       a owl:Class ;
-      owl:unionOf ( :BroadcastService schema:BroadcastChannel :Link )
+      owl:unionOf ( :BroadcastService :BroadcastChannel :Link )
     ] ;
   rdfs:range [
       a owl:Class ;
-      owl:unionOf ( schema:BroadcastFrequencySpecification xsd:string :Link )
+      owl:unionOf ( :BroadcastFrequencySpecification xsd:string :Link )
     ] .
 
 :hasBroadcastChannel a owl:ObjectProperty, skos:Concept ;
@@ -28678,7 +28676,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
       "A broadcast channel of a broadcast service."@en,
       "Un canal de diffusion d'un service de diffusion."@fr,
       "Un canal de emisión de un servicio de radiodifusión."@es ;
-  skos:scopeNote schema:BroadcastChannel ;
+  skos:scopeNote :BroadcastChannel ;
   rdfs:label "hasBroadcastChannel" ;
   rdfs:domain [
       a owl:Class ;
@@ -29942,7 +29940,7 @@ lm:moderators a owl:DatatypeProperty, owl:FunctionalProperty, skos:Concept ;
   rdfs:label "expectsAcceptanceOf" ;
   rdfs:domain [
       a owl:Class ;
-      owl:unionOf ( :MediaSubscription schema:ActionAccessSpecification schema:ConsumeAction :Link )
+      owl:unionOf ( :MediaSubscription schema:ActionAccessSpecification :ConsumeAction :Link )
     ] ;
   rdfs:range [
       a owl:Class ;

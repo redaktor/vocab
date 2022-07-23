@@ -4,10 +4,10 @@
   "followers": "https://test.skohub.io/followers?subject=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FDiscussion",
   "inbox": "https://test.skohub.io/inbox?target=vocab%2F%2Fw3id.org%2Fclass%2Fredaktor%2FDiscussion",
   "prefLabel": {
-    "de": "Community Discussion",
+    "de": "Community Diskussion",
     "en": "Community Discussion",
     "fr": "Community Discussion",
-    "es": "Community Discussion"
+    "es": "Debate comunitario"
   },
   "definition": {
     "de": "Erweiterungen, die durch ActivityPub Implementationen definiert werden aber verschieden interpretiert sind.",

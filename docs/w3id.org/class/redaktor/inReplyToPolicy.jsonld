@@ -18,10 +18,10 @@
   "broader": {
     "id": "https://w3id.org/class/redaktor/Discussion",
     "prefLabel": {
-      "de": "Community Discussion",
+      "de": "Community Diskussion",
       "en": "Community Discussion",
       "fr": "Community Discussion",
-      "es": "Community Discussion"
+      "es": "Debate comunitario"
     }
   },
   "inScheme": {

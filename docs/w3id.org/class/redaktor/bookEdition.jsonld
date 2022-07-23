@@ -37,6 +37,9 @@
       "id": "schema:bookEdition"
     },
     {
+      "id": "schema:ComicIssue"
+    },
+    {
       "id": "http://www.wikidata.org/prop/direct/P629"
     }
   ],
